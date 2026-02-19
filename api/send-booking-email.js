@@ -79,7 +79,7 @@ export default async function handler(req, res) {
     await transporter.sendMail(mailOptions);
 
     const customerMailOptions = {
-      from: '"Ceylon Paradise Tours"',
+      from: '"Sun Down Tours"',
       to: email,
       subject: `Thank you for your booking! - ${tour.title}`,
       html: `
@@ -112,7 +112,7 @@ export default async function handler(req, res) {
 
       <p style="margin-top: 30px; font-weight: bold; color: #FF5722;">
         Best regards,<br/>
-        Ceylon Paradise Tours Team
+        Sun Down Tours Team
       </p>
     </div>
   `,

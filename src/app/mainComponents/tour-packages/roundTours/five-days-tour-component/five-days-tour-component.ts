@@ -40,7 +40,7 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
     filecode: "fivedaystours",
     overview: `Experience the best of Sri Lanka in just 5 days (4 nights) with our unforgettable tour package! Stay in premium 4-star hotels on a half-board basis while enjoying private transportation throughout your journey.
 This tour covers 20+ must-see attractions across 10 districts, including the thrilling Yala Safari, iconic Sigiriya Rock Fortress, Ella’s scenic train ride, Nine Arches Bridge, Little Adam’s Peak, Sacred Tooth Relic Temple in Kandy,
- Ramboda Falls, colonial Galle Fort, and a peaceful Bentota River tour. Discover the perfect blend of adventure, culture, and relaxation—exclusively with Ceylon Paradise Travels. Let us turn your dream holiday into reality on the Paradise Island of Sri Lanka!`,
+ Ramboda Falls, colonial Galle Fort, and a peaceful Bentota River tour. Discover the perfect blend of adventure, culture, and relaxation—exclusively with Sun Down Tours. Let us turn your dream holiday into reality on the Paradise Island of Sri Lanka!`,
     tourType: 'Round Tour',
 
     itinerary: [

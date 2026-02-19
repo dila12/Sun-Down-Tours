@@ -28,14 +28,14 @@ app.post("/send-booking-email", async (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: "ceylonparadisetou@gmail.com",
+        user: "sundowntoursrilanka@gmail.com",
         pass: "vmcyjknsjlwqydur",
       },
     });
 
     const mailOptions = {
-      from: '"Tour Booking" <ceylonparadisetou@gmail.com>',
-      to: "ceylonparadisetou@gmail.com",
+      from: '"Tour Booking" <sundowntoursrilanka@gmail.com>',
+      to: "sundowntoursrilanka@gmail.com",
       subject: `New Booking Received - ${orderNumber}`,
       html: `
     <div style="font-family: Arial, sans-serif; color: #333;">
@@ -74,7 +74,7 @@ app.post("/send-booking-email", async (req, res) => {
     await transporter.sendMail(mailOptions);
 
     const customerMailOptions = {
-      from: '"Ceylon Paradise Tours"',
+      from: '"Sun Down Tours"',
       to: email,
       subject: `Thank you for your booking! - ${tour.title}`,
       html: `
@@ -107,7 +107,7 @@ app.post("/send-booking-email", async (req, res) => {
 
       <p style="margin-top: 30px; font-weight: bold; color: #FF5722;">
         Best regards,<br/>
-        Ceylon Paradise Tours Team
+        Sun Down Tours Team
       </p>
     </div>
   `,
@@ -135,14 +135,14 @@ app.post("/send-contact-email", async (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: "ceylonparadisetou@gmail.com",
+        user: "sundowntoursrilanka@gmail.com",
         pass: "vmcyjknsjlwqydur",
       },
     });
 
     await transporter.sendMail({
       from: `"Contact Form" <${email}>`,
-      to: "ceylonparadisetou@gmail.com",
+      to: "sundowntoursrilanka@gmail.com",
       subject: `📩 New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: Arial;">
@@ -157,7 +157,7 @@ app.post("/send-contact-email", async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: '"Ceylon Paradise Tours"',
+      from: '"Sun Down Tours"',
       to: email,
       subject: `✅ We received your message, ${name}`,
       html: `
@@ -165,7 +165,7 @@ app.post("/send-contact-email", async (req, res) => {
           <h2>Thank you for contacting us, ${name}!</h2>
           <p>We have received your message and will get back to you shortly.</p>
           <p><strong>Your Message:</strong> ${message}</p>
-          <p>Best regards,<br/>Ceylon Paradise Tours Team</p>
+          <p>Best regards,<br/>Sun Down Tours Team</p>
         </div>
       `,
     });
