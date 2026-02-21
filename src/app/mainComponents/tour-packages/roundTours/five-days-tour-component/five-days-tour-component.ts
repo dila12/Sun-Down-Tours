@@ -434,21 +434,27 @@ This tour covers 20+ must-see attractions across 10 districts, including the thr
   }
 
   async ngOnInit() {
-    if (!isPlatformBrowser(this.platformId)) {
+    const isBrowser = isPlatformBrowser(this.platformId);
+    if (!isBrowser) {
       this.userCountry = 'US';
       this.price = 0;
       this.multiDayTours = toursData.multiDayTours.slice(0, 3);
       this.selectedTours = this.multiDayTours;
       return;
     }
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
-    this.selectedTours = this.multiDayTours
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
+    
+    try {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.tour.filecode);
+      this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
+      this.selectedTours = this.multiDayTours
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3);
 
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } catch (error) {
+      console.error('Browser data load failed:', error);
+    }
   }
 
     async loadToursWithPrices(tours: any[]) {
@@ -461,15 +467,20 @@ This tour covers 20+ must-see attractions across 10 districts, including the thr
   }
 
   loadPrice(filecode: string): Promise<number> {
+    if (!isPlatformBrowser(this.platformId)) {
+      return Promise.resolve(0);
+    }
+
     const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
       this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price[1] ?? 0),
+        next: (data: any) => resolve(data?.price?.[1] ?? 0),
         error: () => {
-          this.http.get(defaultFile).subscribe((data: any) => {
-            resolve(data.price[1] ?? 0);
+          this.http.get(defaultFile).subscribe({
+            next: (data: any) => resolve(data?.price?.[1] ?? 0),
+            error: () => resolve(0)
           });
         }
       });
