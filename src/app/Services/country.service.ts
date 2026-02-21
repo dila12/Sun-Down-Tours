@@ -1,4 +1,5 @@
-import { Injectable } from "@angular/core";
+import { Injectable, Inject, PLATFORM_ID } from "@angular/core";
+import { isPlatformBrowser } from "@angular/common";
 
 @Injectable({ providedIn: 'root' })
 export class CountryService {
@@ -6,7 +7,13 @@ export class CountryService {
   private detectedCountry: string | null = null;
   private countryPromise: Promise<string> | null = null;
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
   async detectCountry(): Promise<string> {
+
+    if (!isPlatformBrowser(this.platformId)) {
+      return 'US';
+    }
 
     if (this.detectedCountry) {
       return this.detectedCountry;
@@ -15,7 +22,10 @@ export class CountryService {
     if (this.countryPromise) {
       return this.countryPromise;
     }
-    this.countryPromise = fetch('https://api.country.is/')
+
+    this.countryPromise = fetch('https://api.country.is/', {
+      cache: 'force-cache'
+    })
       .then(res => res.json())
       .then((data: any) => {
         const country = data?.country || 'US';

@@ -823,17 +823,31 @@ export class TenDaysTourComponent {
   }
 
   async ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(
-      toursData.multiDayTours,
-    );
-    this.selectedTours = this.multiDayTours
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
-  }
+    const isBrowser = isPlatformBrowser(this.platformId);
+    if (!isBrowser) {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
+      return;
+    }
+
+    try {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.tour.filecode);
+
+      this.multiDayTours = await this.loadToursWithPrices(
+        toursData.multiDayTours
+      );
+
+      this.selectedTours = this.multiDayTours
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3);
+
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } catch (error) {
+      console.error('Client-side loading error:', error);
+    }
   }
 
   async loadToursWithPrices(tours: any[]) {
@@ -848,11 +862,11 @@ export class TenDaysTourComponent {
 loadPrice(filecode: string): Promise<number> {
 
   if (!isPlatformBrowser(this.platformId)) {
-    return Promise.resolve(0); // SSR default price
+    return Promise.resolve(0);
   }
 
-  const countryFile = `/assets/data/${this.userCountry}${filecode}.json`;
-  const defaultFile = `/assets/data/US${filecode}.json`;
+  const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
+  const defaultFile = `assets/data/US${filecode}.json`;
 
   return new Promise((resolve) => {
 

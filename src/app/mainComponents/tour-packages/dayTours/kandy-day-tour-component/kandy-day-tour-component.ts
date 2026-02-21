@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import {
   TourDetails,
   TourDetailsComponent,
@@ -7,7 +7,7 @@ import { Router, RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import toursData from '../../../../databaseJson/tours.json';
 import { CountryService } from '../../../../Services/country.service';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 
 @Component({
@@ -21,7 +21,7 @@ import { PackageItemComponent } from '../../../../sharedComponents/package-item-
   templateUrl: './kandy-day-tour-component.html',
   styleUrl: './kandy-day-tour-component.css',
 })
-export class KandyDayTourComponent {
+export class KandyDayTourComponent implements OnInit, OnDestroy {
   images: string[] = [
     'assets/img/onedayTour/kandy/1.jpg',
     'assets/img/onedayTour/kandy/2.jpg',
@@ -168,6 +168,7 @@ export class KandyDayTourComponent {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
   nextImage() {
     this.currentIndex = (this.currentIndex + 1) % this.images.length;
@@ -185,17 +186,34 @@ export class KandyDayTourComponent {
   goToImageFromThumb(index: number) {
     this.currentIndex = index;
   }
-
+  
   async ngOnInit() {
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(
-      toursData.multiDayTours,
-    );
-    this.selectedTours = this.multiDayTours
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
+    const isBrowser = isPlatformBrowser(this.platformId);
+
+    if (!isBrowser) {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
+      return;
+    }
+
+    try {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.tour.filecode);
+
+      this.multiDayTours = await this.loadToursWithPrices(
+        toursData.multiDayTours
+      );
+
+      this.selectedTours = this.multiDayTours
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3);
+
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } catch (error) {
+      console.error('Client-side load error:', error);
+    }
   }
 
   ngOnDestroy() {
@@ -214,15 +232,20 @@ export class KandyDayTourComponent {
   }
 
   loadPrice(filecode: string): Promise<number> {
+    if (!isPlatformBrowser(this.platformId)) {
+      return Promise.resolve(0);
+    }
+
     const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
       this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price[1] ?? 0),
+        next: (data: any) => resolve(data?.price?.[1] ?? 0),
         error: () => {
-          this.http.get(defaultFile).subscribe((data: any) => {
-            resolve(data.price[1] ?? 0);
+          this.http.get(defaultFile).subscribe({
+            next: (data: any) => resolve(data?.price?.[1] ?? 0),
+            error: () => resolve(0)
           });
         },
       });
@@ -230,16 +253,19 @@ export class KandyDayTourComponent {
   }
 
   bookNow() {
-    const barcode = 'daytour-kandy';
-    localStorage.setItem('tour', JSON.stringify(this.tour));
-    localStorage.setItem('filecode', barcode);
-    localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
-      state: {
-        tour: this.tour,
-        barcode: barcode,
-        Image: this.images[0],
-      },
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      const barcode = 'daytour-kandy';
+      localStorage.setItem('tour', JSON.stringify(this.tour));
+      localStorage.setItem('filecode', barcode);
+      localStorage.setItem('image', this.images[0]);
+
+      this.router.navigate(['/booking'], {
+        state: {
+          tour: this.tour,
+          barcode: barcode,
+          Image: this.images[0],
+        },
+      });
+    }
   }
 }

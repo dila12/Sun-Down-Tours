@@ -1,5 +1,5 @@
-import { CommonModule } from '@angular/common';
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import toursData from '../../../../databaseJson/tours.json';
@@ -146,7 +146,8 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
   constructor(
     private router: Router,
     private http: HttpClient,
-    private countryService: CountryService
+    private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
   nextImage() {
     this.currentIndex = (this.currentIndex + 1) % this.images.length;
@@ -166,13 +167,30 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
-    this.selectedTours = this.multiDayTours.sort(() => 0.5 - Math.random()).slice(0, 3);
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
-  }
+    const isBrowser = isPlatformBrowser(this.platformId);
 
+    if (!isBrowser) {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
+      return;
+    }
+
+    try {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.tour.filecode);
+      this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
+      this.selectedTours = this.multiDayTours
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3);
+
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } catch (error) {
+      console.error('Client-side load error:', error);
+    }
+  }
+  
   ngOnDestroy() {
     if (this.intervalId) {
       clearInterval(this.intervalId);
@@ -189,15 +207,20 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
   }
 
   loadPrice(filecode: string): Promise<number> {
+    if (!isPlatformBrowser(this.platformId)) {
+      return Promise.resolve(0);
+    }
+
     const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
       this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price[1] ?? 0),
+        next: (data: any) => resolve(data?.price?.[1] ?? 0),
         error: () => {
-          this.http.get(defaultFile).subscribe((data: any) => {
-            resolve(data.price[1] ?? 0);
+          this.http.get(defaultFile).subscribe({
+            next: (data: any) => resolve(data?.price?.[1] ?? 0),
+            error: () => resolve(0),
           });
         }
       });
@@ -205,16 +228,19 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
   }
 
   bookNow() {
-    const barcode = 'daytour-ella';
-    localStorage.setItem('tour', JSON.stringify(this.tour));
-    localStorage.setItem('filecode', barcode);
-    localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
-      state: {
-        tour: this.tour,
-        barcode: barcode,
-        Image: this.images[0],
-      },
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      const barcode = 'daytour-ella';
+      localStorage.setItem('tour', JSON.stringify(this.tour));
+      localStorage.setItem('filecode', barcode);
+      localStorage.setItem('image', this.images[0]);
+
+      this.router.navigate(['/booking'], {
+        state: {
+          tour: this.tour,
+          barcode: barcode,
+          Image: this.images[0],
+        },
+      });
+    }
   }
 }
