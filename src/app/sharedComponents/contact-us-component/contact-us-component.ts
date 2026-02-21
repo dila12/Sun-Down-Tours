@@ -1,6 +1,6 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, Input } from '@angular/core';
+import { Component, Inject, Input, PLATFORM_ID } from '@angular/core';
 import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { environment } from '../../../../environment';
 import { ToastrService } from 'ngx-toastr';
@@ -20,8 +20,9 @@ export class ContactUsComponent {
   countriesList = countryCode;
   selectedCountryCode: string = 'LK'; 
   phoneNumber:string = '';
+  private timeoutId: any = null;
 
-  constructor(private fb: FormBuilder, private http: HttpClient, toastr:ToastrService) {
+  constructor(private fb: FormBuilder, private http: HttpClient, private toastr:ToastrService , @Inject(PLATFORM_ID) private platformId: Object) {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
@@ -30,7 +31,59 @@ export class ContactUsComponent {
     });
   }
 
-  onSubmit() {
+ onSubmit() {
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
+
+    if (this.contactForm.valid) {
+      const country = this.countriesList.find(
+        (c) => c.code === this.selectedCountryCode
+      );
+
+      const fullPhoneNumber =
+        (country?.dial_code ?? '') +
+        this.contactForm.get('contactPhone')?.value;
+
+      const formData = {
+        ...this.contactForm.value,
+        contactPhone: fullPhoneNumber,
+      };
+
+      this.http
+        .post(`${environment.backendUrl}/send-contact-email`, formData)
+        .subscribe({
+          next: (res: any) => {
+            this.successMessage = 'Your message has been sent successfully!';
+            this.toastr.success('Message sent successfully!');
+
+            this.contactForm.reset();
+
+            if (this.timeoutId) {
+              clearTimeout(this.timeoutId);
+            }
+
+            this.timeoutId = setTimeout(() => {
+              this.successMessage = '';
+            }, 3000);
+          },
+          error: (err) => {
+            console.error('Email error:', err);
+            this.successMessage =
+              'There was an error sending your message. Please try again later.';
+            this.toastr.error('Failed to send message');
+
+            if (this.timeoutId) {
+              clearTimeout(this.timeoutId);
+            }
+
+            this.timeoutId = setTimeout(() => {
+              this.successMessage = '';
+            }, 3000);
+          },
+        });
+    }
+  
     if (this.contactForm.valid) {
       console.log('Selected Country Code:', this.selectedCountryCode);
       const country = this.countriesList.find(c => c.code === this.selectedCountryCode);

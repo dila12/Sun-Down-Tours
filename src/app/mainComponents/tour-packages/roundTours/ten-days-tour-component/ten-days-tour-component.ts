@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import {
   TourDetails,
   TourDetailsComponent,
@@ -22,7 +22,7 @@ import { CountryService } from '../../../../Services/country.service';
   templateUrl: './ten-days-tour-component.html',
   styleUrl: './ten-days-tour-component.css',
 })
-export class TenDaysTourComponent {
+export class TenDaysTourComponent implements OnInit , OnDestroy {
   images: string[] = [
     'assets/img/7daystour/lzurk0uk82qqjh6soonh.jpg',
     'assets/img/7daystour/u19dmfbuae46dhzpqctu.jpg',
@@ -32,7 +32,7 @@ export class TenDaysTourComponent {
   ];
 
   currentIndex = 0;
-  intervalId: any;
+  intervalId: any = null;
   multiDayTours: any[] = [];
   selectedTours: any[] = [];
   userCountry = 'US';
@@ -851,40 +851,47 @@ export class TenDaysTourComponent {
   }
 
   async loadToursWithPrices(tours: any[]) {
+    const isBrowser = isPlatformBrowser(this.platformId);
+
+    if (!isBrowser) {
+      return tours;
+    }
+
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);
         return { ...tour, price };
-      }),
+      })
     );
   }
 
-loadPrice(filecode: string): Promise<number> {
+  loadPrice(filecode: string): Promise<number> {
 
-  if (!isPlatformBrowser(this.platformId)) {
-    return Promise.resolve(0);
+    if (!isPlatformBrowser(this.platformId)) {
+      return Promise.resolve(0);
+    }
+
+    const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
+    const defaultFile = `assets/data/US${filecode}.json`;
+
+    return new Promise((resolve) => {
+
+      this.http.get(countryFile).subscribe({
+        next: (data: any) => resolve(data.price?.[1] ?? 0),
+        error: () => {
+          this.http.get(defaultFile).subscribe({
+            next: (data: any) => resolve(data.price?.[1] ?? 0),
+            error: () => resolve(0)
+          });
+        },
+      });
+
+    });
   }
 
-  const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
-  const defaultFile = `assets/data/US${filecode}.json`;
-
-  return new Promise((resolve) => {
-
-    this.http.get(countryFile).subscribe({
-      next: (data: any) => resolve(data.price?.[1] ?? 0),
-      error: () => {
-        this.http.get(defaultFile).subscribe({
-          next: (data: any) => resolve(data.price?.[1] ?? 0),
-          error: () => resolve(0)
-        });
-      },
-    });
-
-  });
-}
-
   ngOnDestroy() {
-    if (this.intervalId) {
+    const isBrowser = isPlatformBrowser(this.platformId);
+    if (isBrowser && this.intervalId) {
       clearInterval(this.intervalId);
     }
   }

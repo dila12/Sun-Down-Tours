@@ -190,12 +190,16 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
   }
 
   ngOnDestroy() {
-    if (this.intervalId) {
+    if (isPlatformBrowser(this.platformId) && this.intervalId) {
       clearInterval(this.intervalId);
     }
   }
 
   async loadToursWithPrices(tours: any[]) {
+    if (!isPlatformBrowser(this.platformId)) {
+      return tours;
+    }
+
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);

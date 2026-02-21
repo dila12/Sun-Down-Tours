@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { Router, RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import toursData from '../../../../databaseJson/tours.json';
 import { CountryService } from '../../../../Services/country.service';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 
 @Component({
@@ -14,7 +14,7 @@ import { PackageItemComponent } from '../../../../sharedComponents/package-item-
   templateUrl: './sigiriya-day-tour-component.html',
   styleUrl: './sigiriya-day-tour-component.css'
 })
-export class SigiriyaDayTourComponent {
+export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
   images: string[] = [
     'assets/img/onedayTour/Sigiriya/1.jpg',
     'assets/img/onedayTour/Sigiriya/2.jpg',
@@ -151,6 +151,7 @@ export class SigiriyaDayTourComponent {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
   nextImage() {
     this.currentIndex = (this.currentIndex + 1) % this.images.length;
@@ -170,42 +171,69 @@ export class SigiriyaDayTourComponent {
   }
 
   async ngOnInit() {
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(
-      toursData.multiDayTours,
-    );
-    this.selectedTours = this.multiDayTours
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
-  }
+      const isBrowser = isPlatformBrowser(this.platformId);
+      if (!isBrowser) {
+        this.userCountry = 'US';
+        this.price = 0;
+        this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+        this.selectedTours = this.multiDayTours;
+        return;
+      }
+
+      try {
+        this.userCountry = await this.countryService.detectCountry();
+        this.price = await this.loadPrice(this.tour.filecode);
+
+        this.multiDayTours = await this.loadToursWithPrices(
+          toursData.multiDayTours
+        );
+
+        this.selectedTours = this.multiDayTours
+          .slice(0, 3);
+
+        this.intervalId = setInterval(() => this.nextImage(), 3000);
+
+      } catch (error) {
+        console.error('Client-side loading error:', error);
+      }
+    }
 
   ngOnDestroy() {
-    if (this.intervalId) {
+    if (isPlatformBrowser(this.platformId) && this.intervalId) {
       clearInterval(this.intervalId);
     }
   }
 
   async loadToursWithPrices(tours: any[]) {
+    const isBrowser = isPlatformBrowser(this.platformId);
+
+    if (!isBrowser) {
+      return tours;
+    }
+
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);
         return { ...tour, price };
-      }),
+      })
     );
   }
 
   loadPrice(filecode: string): Promise<number> {
+    if (!isPlatformBrowser(this.platformId)) {
+      return Promise.resolve(0);
+    }
+
     const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
       this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price[1] ?? 0),
+        next: (data: any) => resolve(data.price?.[1] ?? 0),
         error: () => {
-          this.http.get(defaultFile).subscribe((data: any) => {
-            resolve(data.price[1] ?? 0);
+          this.http.get(defaultFile).subscribe({
+            next: (data: any) => resolve(data.price?.[1] ?? 0),
+            error: () => resolve(0),
           });
         },
       });
@@ -213,10 +241,12 @@ export class SigiriyaDayTourComponent {
   }
 
   bookNow() {
+    if (!isPlatformBrowser(this.platformId)) return;
     const barcode = 'daytour-sigiriya';
     localStorage.setItem('tour', JSON.stringify(this.tour));
     localStorage.setItem('filecode', barcode);
     localStorage.setItem('image', this.images[0]);
+
     this.router.navigate(['/booking'], {
       state: {
         tour: this.tour,
