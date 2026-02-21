@@ -1,15 +1,21 @@
-<div class="navbar-color d-flex pt-4 justify-content-between align-items-center px-4">
+<div class="navbar-color py-2 px-3">
+  <div class="container-fluid">
+    <div class="row align-items-center">
 
     <!-- Left side: email & phone -->
-    <div class="d-none d-inline-flex align-items-center">
-        <p class="mb-0 nav-link"><i class="fa fa-envelope mr-2"></i>sundowntoursrilanka@gmail.com</p>
-        <p class="text-body px-3 mb-0">|</p>
-        <p class="mb-0 nav-link"><i class="fa fa-phone-alt mr-2"></i>+94 76 361 07 38</p>
-    </div>
+      <div class="col-lg-6 d-none d-lg-flex align-items-center">
+        <p class="mb-0 text-white small">
+          <i class="fa fa-envelope mr-2"></i> sundowntoursrilanka@gmail.com
+        </p>
+        <span class="mx-3 text-white">|</span>
+        <p class="mb-0 text-white small">
+          <i class="fa fa-phone-alt mr-2"></i> +94 76 361 07 38
+        </p>
+      </div>
 
     <!-- Right side: social icons -->
-    <div class="d-inline-flex align-items-center">
-        <div class="lang-pill">
+    <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-end align-items-center">
+        <div class="lang-pill d-flex flex-wrap">
             <button class="lang-flag" [class.active]="activeLang === 'en'" (click)="changeLang('en')" title="English">
                 <img src="https://flagcdn.com/w20/us.png" alt="EN">
             </button>
@@ -33,18 +39,20 @@
                 <img src="https://flagcdn.com/w20/lk.png" alt="SI">
             </button> -->
         </div>
-        <a class="btn nav-link btn-square mr-2" href="" target="_blank">
+        <div class="d-flex ml-2">
+          <a class="btn btn-sm btn-square text-white mr-2" href="#">
             <i class="fab fa-facebook-f"></i>
-        </a>
-        <a class="btn nav-link btn-square nav-link px-3" href=""><i
-                class="fab fa-instagram"></i></a>
-        <a class="btn nav-link btn-square mr-2"
-            href=""
-            target="_blank">
+          </a>
+          <a class="btn btn-sm btn-square text-white mr-2" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="btn btn-sm btn-square text-white" href="#">
             <i class="fab fa-tripadvisor"></i>
-        </a>
+          </a>
+        </div>
     </div>
-
+    </div>
+  </div>
 </div>
 
 <!-- Topbar End -->
