@@ -13,7 +13,9 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": "dist/Travelwebsite",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -37,7 +39,12 @@
               "src/assets/lib/tempusdominus/js/moment-timezone.min.js",
               "src/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
               "src/assets/js/main.js"
-            ]
+            ],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {

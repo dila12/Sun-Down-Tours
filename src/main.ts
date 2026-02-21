@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { importProvidersFrom } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app/app';
@@ -14,7 +14,7 @@ bootstrapApplication(AppComponent, {
       BrowserModule,
       BrowserAnimationsModule,
       RouterModule.forRoot(routes, {
-        scrollPositionRestoration: 'top',
+        scrollPositionRestoration: 'enabled',
         anchorScrolling: 'enabled',
       }),
       HttpClientModule,
@@ -24,6 +24,6 @@ bootstrapApplication(AppComponent, {
         preventDuplicates: true,
         newestOnTop: true,
       }),
-    ),
+    ), provideClientHydration(withEventReplay()),
   ],
 });

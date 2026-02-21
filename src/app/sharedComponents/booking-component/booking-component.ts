@@ -1,6 +1,6 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../../environment';
@@ -46,7 +46,8 @@ export class BookingComponent {
   constructor(
     private router: Router,
     private http: HttpClient,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
   async ngOnInit() {
@@ -202,6 +203,7 @@ export class BookingComponent {
     const printContents = document.getElementById('invoiceContent')?.innerHTML;
     const originalContents = document.body.innerHTML;
 
+    if (isPlatformBrowser(this.platformId)) {
     if (printContents) {
       const printWindow = window.open('', '', 'height=700,width=900');
       printWindow!.document.write(`
@@ -242,6 +244,7 @@ export class BookingComponent {
       printWindow!.document.close();
       printWindow!.print();
     }
+  }
   }
 
   onTravelDateChange(dateString: string) {

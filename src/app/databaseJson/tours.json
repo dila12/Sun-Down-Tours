@@ -8,7 +8,7 @@
         "rating": 5,
         "filecode": "daytour-ella",
         "image": "assets/img/onedayTour/ella/5.jpg",
-        "routerLink": "/Elladaystours"
+        "routerLink": "/ella-day-tour"
       },
       {
         "id": 6,
@@ -18,7 +18,7 @@
         "rating": 5,
         "filecode": "daytour-galle",
         "image": "assets/img/onedayTour/Galle/7.jpg",
-        "routerLink": "/Galledaystours"
+        "routerLink": "/galle-day-tour"
       },
       {
         "id": 7,
@@ -28,7 +28,7 @@
         "rating": 5,
         "filecode": "daytour-kandy",
         "image": "assets/img/onedayTour/kandy/3.jpg",
-        "routerLink": "/Kandydaystours"
+        "routerLink": "/kandy-day-tour"
       },
       {
         "id": 8,
@@ -38,7 +38,7 @@
         "rating": 5,
         "filecode": "daytour-sigiriya",
         "image": "assets/img/onedayTour/Sigiriya/3.jpg",
-        "routerLink": "/Sirgiriyadaystours"
+        "routerLink": "/sigiriya-day-tour"
       }
 ],
 "multiDayTours": [
@@ -50,7 +50,7 @@
       "rating": 4.5,
       "filecode": "twodaystours",
       "image": "assets/img/package-3.jpg",
-      "routerLink": "/twodaystours"
+      "routerLink": "/2-day-sri-lanka-tour"
     },
     {
       "id": 3,
@@ -60,7 +60,7 @@
       "rating": 5,
       "filecode": "fivedaystours",
       "image": "assets/img/package-4.jpg",
-      "routerLink": "/fivedaystours"
+      "routerLink": "/5-day-sri-lanka-tour"
     },
     {
       "id": 4,
@@ -70,7 +70,7 @@
       "rating": 5,
       "filecode": "sevendaystours",
       "image": "assets/img/package-1.jpg",
-      "routerLink": "/sevendaystours"
+      "routerLink": "/7-day-sri-lanka-tour"
     },
     {
       "id": 5,
@@ -80,7 +80,7 @@
       "rating": 5,
       "filecode": "tendaystours",
       "image": "assets/img/package-2.jpg",
-      "routerLink": "/tendaystours"
+      "routerLink": "/10-day-sri-lanka-tour"
     }
   ]
 }

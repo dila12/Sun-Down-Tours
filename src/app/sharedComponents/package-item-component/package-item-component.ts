@@ -17,4 +17,17 @@ export class PackageItemComponent {
   @Input() price!: number;
   @Input() title!: string;
   @Input() routerLink!: string;
+
+  ngOnInit() {
+    console.log('PackageItemComponent initialized with:', {
+      image: this.image,
+      days: this.days,
+      persons: this.persons,
+      rating: this.rating,
+      price: this.price,
+      title: this.title,
+      routerLink: this.routerLink
+    }
+    );
+  }
 }

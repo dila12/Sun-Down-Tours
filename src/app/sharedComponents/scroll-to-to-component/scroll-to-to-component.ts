@@ -1,5 +1,5 @@
-import { CommonModule } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-scroll-to-to-component',
@@ -12,17 +12,25 @@ export class ScrollToToComponent {
   isShow: boolean = false;
   topPosToStartShowing = 800;
 
+  constructor(
+  @Inject(PLATFORM_ID) private platformId: Object
+) {}
+
   @HostListener('window:scroll')
   checkScroll() {
-    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    this.isShow = scrollPosition > this.topPosToStartShowing;
+    if (isPlatformBrowser(this.platformId)) {
+      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.isShow = scrollPosition > this.topPosToStartShowing;
+    }
   }
 
   gotoTop() {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
   }
 }

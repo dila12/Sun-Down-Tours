@@ -1,101 +1,187 @@
-import { RouterModule, Routes } from '@angular/router';
-
-import { NgModule } from '@angular/core';
-import { LayoutComponent } from './mainComponents/layout-component/layout-component';
-import { HomePageComponent } from './mainComponents/home-page-component/home-page-component';
-import { AboutComponent } from './mainComponents/about-component/about-component';
-import { ServiceComponent } from './mainComponents/service-component/service-component';
-import { TourPackages } from './mainComponents/tour-packages/tour-packages';
-import { ContactComponent } from './mainComponents/contact-component/contact-component';
-import { DestinationComponent } from './sharedComponents/destination-component/destination-component';
-import { Testimonial } from './sharedComponents/testimonial/testimonial';
-import { TravelGuides } from './sharedComponents/travel-guides/travel-guides';
-import { SevenDaysTourComponent } from './mainComponents/tour-packages/roundTours/seven-days-tour-component/seven-days-tour-component';
-import { TenDaysTourComponent } from './mainComponents/tour-packages/roundTours/ten-days-tour-component/ten-days-tour-component';
-import { TwoDayTourComponent } from './mainComponents/tour-packages/roundTours/two-day-tour-component/two-day-tour-component';
-import { FiveDaysTourComponent } from './mainComponents/tour-packages/roundTours/five-days-tour-component/five-days-tour-component';
-import { EllaDayTourComponent } from './mainComponents/tour-packages/dayTours/ella-day-tour-component/ella-day-tour-component';
-import { BookingComponent } from './sharedComponents/booking-component/booking-component';
-import { ContactUsComponent } from './sharedComponents/contact-us-component/contact-us-component';
-import { GalleDayTour } from './mainComponents/tour-packages/dayTours/galle-day-tour/galle-day-tour';
-import { KandyDayTourComponent } from './mainComponents/tour-packages/dayTours/kandy-day-tour-component/kandy-day-tour-component';
-import { SigiriyaDayTourComponent } from './mainComponents/tour-packages/dayTours/sigiriya-day-tour-component/sigiriya-day-tour-component';
-
-
-
+import { Routes } from "@angular/router";
+import { LayoutComponent } from "./mainComponents/layout-component/layout-component";
+import { HomePageComponent } from "./mainComponents/home-page-component/home-page-component";
+import { AboutComponent } from "./mainComponents/about-component/about-component";
+import { ServiceComponent } from "./mainComponents/service-component/service-component";
+import { TourPackages } from "./mainComponents/tour-packages/tour-packages";
+import { SevenDaysTourComponent } from "./mainComponents/tour-packages/roundTours/seven-days-tour-component/seven-days-tour-component";
+import { TenDaysTourComponent } from "./mainComponents/tour-packages/roundTours/ten-days-tour-component/ten-days-tour-component";
+import { TwoDayTourComponent } from "./mainComponents/tour-packages/roundTours/two-day-tour-component/two-day-tour-component";
+import { FiveDaysTourComponent } from "./mainComponents/tour-packages/roundTours/five-days-tour-component/five-days-tour-component";
+import { EllaDayTourComponent } from "./mainComponents/tour-packages/dayTours/ella-day-tour-component/ella-day-tour-component";
+import { GalleDayTour } from "./mainComponents/tour-packages/dayTours/galle-day-tour/galle-day-tour";
+import { KandyDayTourComponent } from "./mainComponents/tour-packages/dayTours/kandy-day-tour-component/kandy-day-tour-component";
+import { SigiriyaDayTourComponent } from "./mainComponents/tour-packages/dayTours/sigiriya-day-tour-component/sigiriya-day-tour-component";
+import { BookingComponent } from "./sharedComponents/booking-component/booking-component";
+import { ContactUsComponent } from "./sharedComponents/contact-us-component/contact-us-component";
+import { DestinationComponent } from "./sharedComponents/destination-component/destination-component";
+import { Testimonial } from "./sharedComponents/testimonial/testimonial";
+import { TravelGuides } from "./sharedComponents/travel-guides/travel-guides";
 
 export const routes: Routes = [
-    { path: '', 
-      component: LayoutComponent ,
-      children: [
-        {
-          path: '',
-          component: HomePageComponent
-        },
-        {
-          path: 'about',
-          component: AboutComponent
-        },
-        {
-          path: 'service',
-          component: ServiceComponent
-        },
-        {
-          path: 'packages',
-          component: TourPackages
-        },
-        {
-          path: 'sevendaystours',
-          component: SevenDaysTourComponent
-        },
-        {
-          path: 'tendaystours',
-          component: TenDaysTourComponent
-        },
-        {
-          path: 'twodaystours',
-          component: TwoDayTourComponent
-        },
-        {
-          path: 'Elladaystours',
-          component: EllaDayTourComponent
-        },
-        {
-          path: 'Galledaystours',
-          component: GalleDayTour
-        },
-        {
-          path: 'Kandydaystours',
-          component: KandyDayTourComponent
-        },
-        {
-          path: 'Sirgiriyadaystours',
-          component: SigiriyaDayTourComponent
-        },
-        {
-          path: 'fivedaystours',
-          component: FiveDaysTourComponent
-        },
-        {
-          path: 'booking',
-          component: BookingComponent
-        },
-        {
-          path: 'contact',
-          component: ContactUsComponent
-        },
-        {
-          path: 'destination',
-          component: DestinationComponent
-        },
-        {
-          path: 'testimonial',
-          component :Testimonial
-        },
-        {
-          path: 'travel-guides',
-          component: TravelGuides
+  {
+    path: '',
+    component: LayoutComponent,
+    children: [
+      {
+        path: '',
+        component: HomePageComponent,
+        data: {
+          title: 'Sun Down Tours Sri Lanka | Private & Tailor Made Sri Lanka Tours',
+          description: 'Explore Sri Lanka with private tours, tailor-made holiday packages and experienced local driver guides. Discover beaches, wildlife and cultural heritage.',
+          keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours'
         }
-      ]
-    }
+      },
+      {
+        path: 'about-us',
+        component: AboutComponent,
+        data: {
+          title: 'About Sun Down Tours | Trusted Sri Lanka Travel Agency',
+          description: 'Learn about Sun Down Tours Sri Lanka, your trusted local tour operator providing customized and private Sri Lanka tours.',
+          keywords: 'Sri Lanka travel agency, Sri Lanka tour operator'
+        }
+      },
+      {
+        path: 'our-services',
+        component: ServiceComponent,
+        data: {
+          title: 'Our Services | Sun Down Tours Sri Lanka',
+          description: 'Explore our range of services including private tours, tailor-made holiday packages, chauffeur driven round tours and day trips.',
+          keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours'
+        }
+      },
+      {
+        path: 'tour-packages',
+        component: TourPackages,
+        data: {
+          title: 'Sri Lanka Tour Packages | Private Round Tours',
+          description: 'Discover our customizable Sri Lanka tour packages including round tours, wildlife safaris and beach holidays.',
+          keywords: 'Sri Lanka tour packages, Sri Lanka round tours'
+        }
+      },
+
+      // ROUND TOURS (SEO OPTIMIZED)
+      {
+        path: '7-day-sri-lanka-tour',
+        component: SevenDaysTourComponent,
+        data: {
+          title: '7 Day Sri Lanka Tour Package | Cultural & Scenic Round Trip',
+          description: 'Experience the best of Sri Lanka in 7 days including Sigiriya, Kandy, Ella and Yala safari.',
+          keywords: '7 day Sri Lanka tour, Sri Lanka 1 week itinerary'
+        }
+      },
+      {
+        path: '10-day-sri-lanka-tour',
+        component: TenDaysTourComponent,
+        data: {
+          title: '10 Day Sri Lanka Tour | Complete Island Exploration',
+          description: 'Explore Sri Lanka in 10 days with beaches, wildlife safaris, hill country and cultural heritage sites.',
+          keywords: '10 day Sri Lanka tour, Sri Lanka 10 day itinerary'
+        }
+      },
+      {
+        path: '2-day-sri-lanka-tour',
+        component: TwoDayTourComponent,
+        data: {
+          title: '2 Day Sri Lanka Tour | Quick Island Experience',
+          description: 'Experience the highlights of Sri Lanka in just 2 days with our quick private tour package.',
+          keywords: '2 day Sri Lanka tour, Sri Lanka 2 day itinerary'
+        }
+      },
+      {
+        path: '5-day-sri-lanka-tour',
+        component: FiveDaysTourComponent,
+        data: {
+          title: '5 Day Sri Lanka Tour | Balanced Cultural & Scenic Experience',
+          description: 'Discover a balanced mix of cultural heritage, scenic beauty and wildlife in 5 days.',
+          keywords: '5 day Sri Lanka tour, Sri Lanka 5 day itinerary'
+        }
+      },
+
+      // DAY TOURS (VERY IMPORTANT KEYWORDS)
+      {
+        path: 'ella-day-tour',
+        component: EllaDayTourComponent,
+        data: {
+          title: 'Ella Day Tour | Scenic Train & Nine Arch Bridge',
+          description: 'Enjoy a private Ella day tour including Nine Arch Bridge, Little Adam’s Peak and Ravana Falls.',
+          keywords: 'Ella day tour, Ella private tour'
+        }
+      },
+      {
+        path: 'galle-day-tour',
+        component: GalleDayTour,
+        data: {
+          title: 'Galle Day Tour | Galle Fort & Southern Coast',
+          description: 'Discover Galle Fort, beaches and southern coastal attractions with our private day tour.',
+          keywords: 'Galle day tour, Galle fort tour'
+        }
+      },
+      {
+        path: 'kandy-day-tour',
+        component: KandyDayTourComponent,
+        data: {
+          title: 'Kandy Day Tour | Cultural & Scenic Highlights',
+          description: 'Experience the cultural and scenic highlights of Kandy including the Temple of the Sacred Tooth Relic and royal gardens.',
+          keywords: 'Kandy day tour, Kandy private tour'
+        }
+      },
+      {
+        path: 'sigiriya-day-tour',
+        component: SigiriyaDayTourComponent,
+        data: {
+          title: 'Sigiriya Day Tour | Ancient Rock Fortress',
+          description: 'Explore the ancient Sigiriya rock fortress and its surrounding gardens with our private day tour.',
+          keywords: 'Sigiriya day tour, Sigiriya private tour'
+        }
+      },
+
+      // OTHER PAGES
+      {
+        path: 'booking',
+        component: BookingComponent,
+        data: {
+          title: 'Book Your Sri Lanka Tour | Private & Customized Travel',
+          description: 'Book your private Sri Lanka tour with our customizable packages and expert local guides.',
+          keywords: 'Sri Lanka booking, private Sri Lanka tour booking'
+        }
+      },
+      {
+        path: 'contact-us',
+        component: ContactUsComponent,
+        data: {
+          title: 'Contact Sun Down Tours Sri Lanka',
+          description: 'Get in touch with Sun Down Tours for customized Sri Lanka tour packages and private travel services.',
+          keywords: 'contact Sri Lanka tour company'
+        }
+      },
+      {
+        path: 'destinations-sri-lanka',
+        component: DestinationComponent,
+        data: {
+          title: 'Sri Lanka Destinations | Beaches, Wildlife & Cultural Sites',
+          description: 'Explore the top Sri Lanka destinations including beaches, wildlife parks and cultural heritage sites.',
+          keywords: 'Sri Lanka destinations, best places to visit in Sri Lanka'
+        }
+      },
+      {
+        path: 'customer-testimonials',
+        component: Testimonial,
+        data: {
+          title: 'Customer Testimonials | Sun Down Tours Sri Lanka',
+          description: 'Read testimonials from our satisfied customers who have experienced our private Sri Lanka tours.',
+          keywords: 'Sri Lanka tour testimonials, customer reviews'
+        }
+      },
+      {
+        path: 'sri-lanka-travel-guides',
+        component: TravelGuides,
+        data: {
+          title: 'Sri Lanka Travel Guides | Expert Insights & Tips',
+          description: 'Explore our comprehensive travel guides for Sri Lanka, offering expert insights and practical tips.',
+          keywords: 'Sri Lanka travel guides, Sri Lanka travel tips'
+        }
+      }
+    ]
+  }
 ];

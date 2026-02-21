@@ -499,8 +499,8 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   }
 
   loadPrice(filecode: string): Promise<number> {
-    const countryFile = `/assets/data/${this.userCountry}${filecode}.json`;
-    const defaultFile = `/assets/data/US${filecode}.json`;
+    const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
+    const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
       this.http.get(countryFile).subscribe({

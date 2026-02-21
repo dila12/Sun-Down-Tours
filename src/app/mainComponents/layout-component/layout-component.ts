@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
 
@@ -13,12 +13,16 @@ import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-compone
 export class LayoutComponent implements OnInit {
   activeLang = 'en';
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  
   async ngOnInit() {
-    const savedLang = localStorage.getItem('preferred_lang');
+    if (isPlatformBrowser(this.platformId)) {
+      const savedLang = localStorage.getItem('preferred_lang');
 
-    if (savedLang && savedLang !== 'en') {
-      this.activeLang = savedLang;
-      this.applyGoogleTranslate(savedLang);
+      if (savedLang && savedLang !== 'en') {
+        this.activeLang = savedLang;
+        this.applyGoogleTranslate(savedLang);
+      }
     }
 
     // try {
@@ -60,22 +64,26 @@ export class LayoutComponent implements OnInit {
   }
 
   private applyGoogleTranslate(lang: string) {
-    const interval = setInterval(() => {
-      const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-      if (select) {
-        select.value = lang;
-        select.dispatchEvent(new Event('change'));
-        clearInterval(interval);
-      }
-    }, 300);
+    if (isPlatformBrowser(this.platformId)) {
+      const interval = setInterval(() => {
+        const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+        if (select) {
+          select.value = lang;
+          select.dispatchEvent(new Event('change'));
+          clearInterval(interval);
+        }
+      }, 300);
+    }
   }
 
   private resetGoogleTranslate() {
   document.cookie = 'googtrans=;path=/;domain=' + location.hostname;
   document.cookie = 'googtrans=;path=/';
 
-  setTimeout(() => {
-    window.location.reload();
-  }, 100);
+  if (isPlatformBrowser(this.platformId)) {
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
+  }
 }
 }

@@ -17,31 +17,45 @@ body { top: 0px !important; }
     position: sticky;
     top: 0;
     z-index: 9999;
-    background-color: #261124; /* Primary color */
+    background: linear-gradient(90deg,#022d41, #c05305);
 }
 
 .navbar-color .nav-link,
 .navbar-color .navbar-brand h1 {
-    color: #ada878; /* White text */
+    color: #ffffff; /* White text */
 }
 
 .navbar-color .nav-link:hover,
 .navbar-color .nav-link.active {
-    color: #ada878; /* Optional: lighter shade for hover/active */
+    color: #ffffff; /* Optional: lighter shade for hover/active */
 }
 
 .navbar-color .dropdown-menu {
-    background-color:#261124; /* Match navbar background */
+    background-color:#c96929; /* Match navbar background */
 }
 
 .navbar-color .dropdown-item {
-    color: #261124; /* Text color */
+    color: #c96929; /* Text color */
 }
 
 .navbar-color .dropdown-item:hover {
-    background-color: #ada878; /* Lighter hover effect */
-    color: #261124; /* Text color on hover */
+    background-color: #ffffff; /* Lighter hover effect */
+    color: #c96929; /* Text color on hover */
 }
+@media (max-width: 768px) {
+
+  .navbar-brand h1 {
+    font-size: 18px !important;
+    white-space: nowrap;
+  }
+
+  .navbar-brand img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+}
+
 
 .whatsapp-float {
     position: fixed;
@@ -102,7 +116,7 @@ body { top: 0px !important; }
   display: flex;
   align-items: center;
   gap: 6px;
-  background: #261124;        /* dark pill */
+  background: #b34c02;        /* dark pill */
   padding: 4px 8px;
   border-radius: 999px;
   margin-right: 12px;

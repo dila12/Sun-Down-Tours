@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import {
   TourDetails,
   TourDetailsComponent,
 } from '../../../../sharedComponents/tour-details-component/tour-details-component';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import toursData from '../../../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
@@ -776,6 +776,7 @@ export class TenDaysTourComponent {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
   get currentImage() {
@@ -822,6 +823,7 @@ export class TenDaysTourComponent {
   }
 
   async ngOnInit() {
+    if (isPlatformBrowser(this.platformId)) {
     this.userCountry = await this.countryService.detectCountry();
     this.price = await this.loadPrice(this.tour.filecode);
     this.multiDayTours = await this.loadToursWithPrices(
@@ -831,6 +833,7 @@ export class TenDaysTourComponent {
       .sort(() => 0.5 - Math.random())
       .slice(0, 3);
     this.intervalId = setInterval(() => this.nextImage(), 3000);
+  }
   }
 
   async loadToursWithPrices(tours: any[]) {
@@ -842,21 +845,29 @@ export class TenDaysTourComponent {
     );
   }
 
-  loadPrice(filecode: string): Promise<number> {
-    const countryFile = `/assets/data/${this.userCountry}${filecode}.json`;
-    const defaultFile = `/assets/data/US${filecode}.json`;
+loadPrice(filecode: string): Promise<number> {
 
-    return new Promise((resolve) => {
-      this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price[1] ?? 0),
-        error: () => {
-          this.http.get(defaultFile).subscribe((data: any) => {
-            resolve(data.price[1] ?? 0);
-          });
-        },
-      });
-    });
+  if (!isPlatformBrowser(this.platformId)) {
+    return Promise.resolve(0); // SSR default price
   }
+
+  const countryFile = `/assets/data/${this.userCountry}${filecode}.json`;
+  const defaultFile = `/assets/data/US${filecode}.json`;
+
+  return new Promise((resolve) => {
+
+    this.http.get(countryFile).subscribe({
+      next: (data: any) => resolve(data.price?.[1] ?? 0),
+      error: () => {
+        this.http.get(defaultFile).subscribe({
+          next: (data: any) => resolve(data.price?.[1] ?? 0),
+          error: () => resolve(0)
+        });
+      },
+    });
+
+  });
+}
 
   ngOnDestroy() {
     if (this.intervalId) {
@@ -865,6 +876,7 @@ export class TenDaysTourComponent {
   }
 
   bookNow() {
+    if (isPlatformBrowser(this.platformId)) {
     const barcode = 'tendaystours';
     localStorage.setItem('tour', JSON.stringify(this.tour));
     localStorage.setItem('filecode', barcode);
@@ -876,5 +888,6 @@ export class TenDaysTourComponent {
         Image: this.images[0],
       },
     });
+  }
   }
 }
