@@ -1,5 +1,5 @@
-import { CommonModule } from '@angular/common';
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import toursData from '../../../../databaseJson/tours.json';
@@ -386,7 +386,8 @@ This tour covers 20+ must-see attractions across 10 districts, including the thr
   constructor(
     private router: Router,
     private http: HttpClient,
-    private countryService: CountryService
+    private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
 
@@ -433,10 +434,20 @@ This tour covers 20+ must-see attractions across 10 districts, including the thr
   }
 
   async ngOnInit() {
+    if (!isPlatformBrowser(this.platformId)) {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
+      return;
+    }
     this.userCountry = await this.countryService.detectCountry();
     this.price = await this.loadPrice(this.tour.filecode);
     this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
-    this.selectedTours = this.multiDayTours.sort(() => 0.5 - Math.random()).slice(0, 3);
+    this.selectedTours = this.multiDayTours
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3);
+
     this.intervalId = setInterval(() => this.nextImage(), 3000);
   }
 
@@ -472,16 +483,19 @@ This tour covers 20+ must-see attractions across 10 districts, including the thr
   }
 
   bookNow() {
-    const barcode = 'fivedaystours';
-    localStorage.setItem('tour', JSON.stringify(this.tour));
-    localStorage.setItem('filecode', barcode);
-    localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
-      state: {
-        tour: this.tour,
-        barcode: barcode,
-        Image: this.images[0],
-      },
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      const barcode = 'fivedaystours';
+      localStorage.setItem('tour', JSON.stringify(this.tour));
+      localStorage.setItem('filecode', barcode);
+      localStorage.setItem('image', this.images[0]);
+
+      this.router.navigate(['/booking'], {
+        state: {
+          tour: this.tour,
+          barcode: barcode,
+          Image: this.images[0],
+        },
+      });
+    }
   }
 }

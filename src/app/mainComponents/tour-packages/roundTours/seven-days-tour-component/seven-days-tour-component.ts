@@ -1,7 +1,16 @@
-import { CommonModule } from '@angular/common';
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import {
+  Component,
+  OnInit,
+  OnDestroy,
+  Inject,
+  PLATFORM_ID,
+} from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
+import {
+  TourDetails,
+  TourDetailsComponent,
+} from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import toursData from '../../../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { HttpClient } from '@angular/common/http';
@@ -10,7 +19,12 @@ import { CountryService } from '../../../../Services/country.service';
 @Component({
   selector: 'app-seven-days-tour-component',
   standalone: true,
-  imports: [CommonModule, RouterModule, TourDetailsComponent,PackageItemComponent],
+  imports: [
+    CommonModule,
+    RouterModule,
+    TourDetailsComponent,
+    PackageItemComponent,
+  ],
   templateUrl: './seven-days-tour-component.html',
   styleUrls: ['./seven-days-tour-component.css'],
 })
@@ -36,7 +50,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
       'Experience the beauty of Sri Lanka with 7 days full of adventure, culture, and relaxation.',
     duration: '7 Days',
     persons: '20 Persons',
-    filecode: "sevendaystours",
+    filecode: 'sevendaystours',
     overview: `We are here for you to organize the perfect holiday you always dreamed of in 'Paradise Island', Sri Lanka.
     Our 7days(6 nights) travel package is scheduled in a way that you'll cover not only all the famous attractions but also some of the rare experiences that are very unique to Sun Down Tours while accomadating our guests in Sri Lanka's finest 4 star category hotels on half board basis.
     Yala Safari, Sigiriya, Ella Nine Arches Bridge, Ella train journey, Kandy Sacred Tooth Relic Temple, Ramboda watefall, Little Adam's Peak hike, Nuwara Eliya, Galle Fort, Bentota River tour are just to name a few main attractions that you'll cover during the journey.
@@ -435,27 +449,28 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   constructor(
     private router: Router,
     private http: HttpClient,
-    private countryService: CountryService
+    private countryService: CountryService,
+    @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
   get currentImage() {
     return this.images[this.currentIndex];
   }
 
-    get tourForDetails(): TourDetails {
-      return {
-        title: this.tour.title,
-        description: this.tour.description,
-        duration: this.tour.duration,
-        persons: this.tour.persons,
-        price: this.price,
-        tourType: this.tour.tourType,
-        overview: this.tour.overview,
-        itinerary: this.tour.itinerary,
-        includes: this.tour.includes,
-        excludes: this.tour.excludes,
-      };
-    }
+  get tourForDetails(): TourDetails {
+    return {
+      title: this.tour.title,
+      description: this.tour.description,
+      duration: this.tour.duration,
+      persons: this.tour.persons,
+      price: this.price,
+      tourType: this.tour.tourType,
+      overview: this.tour.overview,
+      itinerary: this.tour.itinerary,
+      includes: this.tour.includes,
+      excludes: this.tour.excludes,
+    };
+  }
 
   get nextImages() {
     return Array.from({ length: 4 }, (_, i) => {
@@ -482,19 +497,31 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.userCountry = await this.countryService.detectCountry();
-    this.price = await this.loadPrice(this.tour.filecode);
-    this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
-    this.selectedTours = this.multiDayTours.sort(() => 0.5 - Math.random()).slice(0, 3);
-    this.intervalId = setInterval(() => this.nextImage(), 3000);
+    if (isPlatformBrowser(this.platformId)) {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.tour.filecode);
+      this.multiDayTours = await this.loadToursWithPrices(
+        toursData.multiDayTours,
+      );
+      this.selectedTours = this.multiDayTours
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3);
+
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } else {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
+    }
   }
 
-    async loadToursWithPrices(tours: any[]) {
+  async loadToursWithPrices(tours: any[]) {
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);
         return { ...tour, price };
-      })
+      }),
     );
   }
 
@@ -509,7 +536,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
           this.http.get(defaultFile).subscribe((data: any) => {
             resolve(data.price[1] ?? 0);
           });
-        }
+        },
       });
     });
   }
@@ -521,16 +548,19 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   }
 
   bookNow() {
-    const barcode = 'sevendaystours';
-    localStorage.setItem('tour', JSON.stringify(this.tour));
-    localStorage.setItem('filecode', barcode);
-    localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
-      state: {
-        tour: this.tour,
-        barcode: barcode,
-        Image: this.images[0],
-      },
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      const barcode = 'sevendaystours';
+      localStorage.setItem('tour', JSON.stringify(this.tour));
+      localStorage.setItem('filecode', barcode);
+      localStorage.setItem('image', this.images[0]);
+
+      this.router.navigate(['/booking'], {
+        state: {
+          tour: this.tour,
+          barcode: barcode,
+          Image: this.images[0],
+        },
+      });
+    }
   }
 }
