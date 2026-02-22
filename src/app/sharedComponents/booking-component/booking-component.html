@@ -18,9 +18,9 @@
             <h1 class="font-bold text-4xl">Book Tour Packages</h1>
         </div>
     </div>
-    <div class="row g-4">
+    <div class="row g-4 align-items-stretch">
         <div class="col-lg-6" *ngIf="!bookingCompleted">
-            <div *ngIf="tour" class="card shadow-lg border-0 overflow-hidden animate__animated animate__slideInLeft">
+            <div *ngIf="tour" class="card shadow-lg border-0 overflow-hidden animate__animated animate__slideInLeft h-100 w-100">
                 <img [src]="image" class="card-img-top tour-img" alt="{{ tour.title }}">
                 <div class="card-body">
                     <h3 class="card-title">{{ tour.title }}</h3>
@@ -54,7 +54,7 @@
         </div>
 
         <div class="col-lg-6" *ngIf="!bookingCompleted">
-            <div class=" shadow-lg border-0 rounded-3 p-4 ">
+            <div class="card shadow-lg border-0 rounded-3 p-4 animate__animated animate__slideInLeft overflow-hidden h-100 w-100">
                 <h4 class="mb-3 text-center">Book Your Tour</h4>
                 <form #bookingForm="ngForm" (ngSubmit)="completeBooking()">
                     <div class="row g-3 mb-3">
@@ -122,7 +122,7 @@
                     </div>
                     <div class="row g-3 mb-3">
                         <div class="col-lg-6 mt-2">
-                            <label for="country" class="form-label fw-semibold text-secondary">Select Your Country
+                            <label for="country" class="form-label fw-semibold text-primary">Select Your Country
                                 :</label>
                         </div>
                         <div class="col-lg-6">
