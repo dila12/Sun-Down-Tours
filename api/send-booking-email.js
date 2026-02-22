@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
-  res.setHeader("Access-Control-Allow-Origin",  "https://ceylonparadisetravels.com");
+  res.setHeader("Access-Control-Allow-Origin",  "https://sundowntours.com");
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -30,17 +30,19 @@ export default async function handler(req, res) {
   try {
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
+      port: 587,
+      secure: false,
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
     });
 
+    adminEmails = ["sundowntoursrilanka@gmail.com", "dilanlakshitha194@gmail.com", "shanikamadushani468@gmail.com"];
+
     const mailOptions = {
       from: `"Tour Booking" <${process.env.EMAIL_USER}>`,
-      to: process.env.EMAIL_USER,
+      to: adminEmails,
       subject: `New Booking Received - ${orderNumber}`,
       html: `
     <div style="font-family: Arial, sans-serif; color: #333;">

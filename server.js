@@ -25,17 +25,19 @@ app.post("/send-booking-email", async (req, res) => {
   try {
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
+      port: 587,
+      secure: false,
       auth: {
         user: "sundowntoursrilanka@gmail.com",
-        pass: "vmcyjknsjlwqydur",
+        pass: "pmezvyeireljwlbw",
       },
     });
 
+    adminEmails = ["sundowntoursrilanka@gmail.com", "dilanlakshitha194@gmail.com", "shanikamadushani468@gmail.com"];
+
     const mailOptions = {
       from: '"Tour Booking" <sundowntoursrilanka@gmail.com>',
-      to: "sundowntoursrilanka@gmail.com",
+      to: adminEmails,
       subject: `New Booking Received - ${orderNumber}`,
       html: `
     <div style="font-family: Arial, sans-serif; color: #333;">
@@ -132,11 +134,11 @@ app.post("/send-contact-email", async (req, res) => {
   try {
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 465,
+      port: 587,
       secure: true,
       auth: {
         user: "sundowntoursrilanka@gmail.com",
-        pass: "vmcyjknsjlwqydur",
+        pass: "pmezvyeireljwlbw",
       },
     });
 

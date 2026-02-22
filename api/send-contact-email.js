@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
 const allowedOrigins = [
-  "https://ceylon-paradise-travels.vercel.app",
+  "https://sun-down-tours.vercel.app",
   "http://localhost:4200"
 ];
 
@@ -28,7 +28,7 @@ res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   try {
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 465,
+      port: 587,
       secure: true,
       auth: {
         user:process.env.EMAIL_USER,
@@ -36,9 +36,12 @@ res.setHeader("Access-Control-Allow-Headers", "Content-Type");
       },
     });
 
+    adminEmails = ["sundowntoursrilanka@gmail.com", "dilanlakshitha194@gmail.com", "shanikamadushani468@gmail.com"];
+
+
     await transporter.sendMail({
       from: `"Contact Form" <${email}>`,
-      to: process.env.EMAIL_USER,
+      to: adminEmails,
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: Arial;">
