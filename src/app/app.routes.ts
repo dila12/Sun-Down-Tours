@@ -17,6 +17,7 @@ import { ContactUsComponent } from "./sharedComponents/contact-us-component/cont
 import { DestinationComponent } from "./sharedComponents/destination-component/destination-component";
 import { Testimonial } from "./sharedComponents/testimonial/testimonial";
 import { TravelGuides } from "./sharedComponents/travel-guides/travel-guides";
+import { ResturantComponent } from "./mainComponents/resturant-component/resturant-component";
 
 export const routes: Routes = [
   {
@@ -153,6 +154,15 @@ export const routes: Routes = [
           title: 'Contact Sun Down Tours Sri Lanka',
           description: 'Get in touch with Sun Down Tours for customized Sri Lanka tour packages and private travel services.',
           keywords: 'contact Sri Lanka tour company'
+        }
+      },
+      {
+        path: 'restaurants-in-sri-lanka',
+        component: ResturantComponent,
+        data: {
+          title: 'Restaurants in Sri Lanka | Best Local Cuisine',
+          description: 'Discover the best restaurants in Sri Lanka offering authentic local cuisine and international dishes.',
+          keywords: 'Sri Lanka restaurants, best restaurants in Sri Lanka'
         }
       },
       {

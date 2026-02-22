@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Birthday Parties",
+        "price": 299,
+        "image": "assets/events/birthday.jpg",
+        "description": "Celebrate unforgettable birthday parties with themed decorations, buffet menus, and live DJ music.",
+        "category": "birthday"
+    },
+    {
+        "title": "Wedding Receptions",
+        "price": 899,
+        "image": "assets/events/wedding.jpg",
+        "description": "Luxury wedding reception venue in Sri Lanka with traditional and international catering.",
+        "category": "wedding"
+    },
+    {
+        "title": "Custom Tour Events",
+        "price": 199,
+        "image": "assets/events/custom.jpg",
+        "description": "Private tour group dinners and corporate events customized for international travelers.",
+        "category": "custom"
+    },
+    {
+        "title": "Private Corporate Events",
+        "price": 499,
+        "image": "assets/events/corporate.jpg",
+        "description": "Premium corporate dining and business event hosting with customized catering.",
+        "category": "corporate"
+    }
+]
