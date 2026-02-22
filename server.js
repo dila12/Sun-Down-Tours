@@ -33,8 +33,11 @@ app.post("/send-booking-email", async (req, res) => {
       },
     });
 
-    adminEmails = ["sundowntoursrilanka@gmail.com", "dilanlakshitha194@gmail.com", "shanikamadushani468@gmail.com"];
-
+    const adminEmails = [
+      "sundowntoursrilanka@gmail.com",
+      "dilanlakshitha194@gmail.com",
+      "shanikamadushani468@gmail.com"
+    ];
     const mailOptions = {
       from: '"Tour Booking" <sundowntoursrilanka@gmail.com>',
       to: adminEmails,

@@ -35,8 +35,11 @@ res.setHeader("Access-Control-Allow-Headers", "Content-Type");
         pass:process.env.EMAIL_PASS,
       },
     });
-
-    adminEmails = ["sundowntoursrilanka@gmail.com", "dilanlakshitha194@gmail.com", "shanikamadushani468@gmail.com"];
+    const adminEmails = [
+      "sundowntoursrilanka@gmail.com",
+      "dilanlakshitha194@gmail.com",
+      "shanikamadushani468@gmail.com"
+    ];
 
 
     await transporter.sendMail({
