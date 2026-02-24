@@ -2,78 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://sundowntours.com/</loc>
+    <loc>https://www.sundowntours.com/</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://sundowntours.com/about-us</loc>
+    <loc>https://www.sundowntours.com/about-us</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://sundowntours.com/our-services</loc>
+    <loc>https://www.sundowntours.com/our-services</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://sundowntours.com/tour-packages</loc>
+    <loc>https://www.sundowntours.com/tour-packages</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.9</priority>
   </url>
 
   <!-- Round Tours -->
   <url>
-    <loc>https://sundowntours.com/7-day-sri-lanka-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/10-day-sri-lanka-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/2-day-sri-lanka-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/5-day-sri-lanka-tour</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Day Tours -->
-  <url>
-    <loc>https://sundowntours.com/ella-day-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/galle-day-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/kandy-day-tour</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sundowntours.com/sigiriya-day-tour</loc>
+    <loc>https://www.sundowntours.com/7-day-sri-lanka-tour</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://sundowntours.com/contact-us</loc>
+    <loc>https://www.sundowntours.com/10-day-sri-lanka-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/5-day-sri-lanka-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Day Tours (HIGH SEO VALUE) -->
+  <url>
+    <loc>https://www.sundowntours.com/ella-day-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/kandy-day-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/galle-day-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/sigiriya-day-tour</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Other Important Pages -->
+  <url>
+    <loc>https://www.sundowntours.com/booking</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://sundowntours.com/destinations-sri-lanka</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://sundowntours.com/customer-testimonials</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://sundowntours.com/sri-lanka-travel-guides</loc>
+    <loc>https://www.sundowntours.com/contact-us</loc>
+    <lastmod>2026-02-24</lastmod>
     <priority>0.8</priority>
   </url>
 
