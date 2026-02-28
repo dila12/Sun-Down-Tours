@@ -23,7 +23,8 @@
                 "input": "public",
                 "output": "/"
               },
-              "src/assets"
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.scss",
@@ -93,7 +94,8 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
