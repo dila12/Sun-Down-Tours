@@ -50,7 +50,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
       'Experience the beauty of Sri Lanka with 7 days full of adventure, culture, and relaxation.',
     duration: '7 Days',
     persons: '20 Persons',
-    filecode: 'sevendaystours',
+    filecode: '7-day-sri-lanka-tour',
     overview: `We are here for you to organize the perfect holiday you always dreamed of in 'Paradise Island', Sri Lanka.
     Our 7days(6 nights) travel package is scheduled in a way that you'll cover not only all the famous attractions but also some of the rare experiences that are very unique to Sun Down Tours while accomadating our guests in Sri Lanka's finest 4 star category hotels on half board basis.
     Yala Safari, Sigiriya, Ella Nine Arches Bridge, Ella train journey, Kandy Sacred Tooth Relic Temple, Ramboda watefall, Little Adam's Peak hike, Nuwara Eliya, Galle Fort, Bentota River tour are just to name a few main attractions that you'll cover during the journey.
@@ -516,12 +516,12 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'sevendaystours';
+      const barcode = '7-day-sri-lanka-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

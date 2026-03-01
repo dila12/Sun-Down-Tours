@@ -36,7 +36,7 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
       'Experience the beauty of Ella with one day full of adventure, culture, and relaxation.',
     duration: 'one Day',
     persons: '20 Persons',
-    filecode: "daytour-ella",
+    filecode: "ella-day-tour",
     overview: `Discover the beauty of Sri Lanka with our unforgettable tour, featuring the iconic Ella Nine Arches Bridge, where you can marvel at the scenic train crossing. Visit the Udawalawe Elephant Orphanage to observe rescued elephants up close. Experience the natural splendor of Ravana Falls, one of the island’s most impressive waterfalls. Hike up Little Adam’s Peak for stunning panoramic views, capturing the essence of Sri Lanka’s highlands. Complete your adventure with a mini train ride through Ella’s picturesque landscapes, creating lasting memories of this enchanting journey.`,
     tourType: 'Day Tour',
 
@@ -229,12 +229,12 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'daytour-ella';
+      const barcode = 'ella-day-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking',barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

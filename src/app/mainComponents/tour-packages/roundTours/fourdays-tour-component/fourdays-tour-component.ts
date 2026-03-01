@@ -42,7 +42,7 @@ tour = {
     'Explore Sri Lanka in 4 unforgettable days including Kandy cultural heritage, Ella hill country, Yala safari adventure and the stunning southern coastline.',
   duration: '4 Days',
   persons: '2-20 Persons',
-  filecode: 'fourdaystours',
+  filecode: '4-day-sri-lanka-tour',
   overview: `Discover Sri Lanka’s perfect combination of culture, scenic beauty, wildlife and coastal charm in this 4-day private tour. Visit the sacred city of Kandy, experience the breathtaking hill country of Ella, enjoy a thrilling safari in Yala National Park and explore the historic Galle Fort before your airport drop.`,
 
   tourType: 'Round Tour',
@@ -331,12 +331,12 @@ tour = {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'fourdaystours';
+      const barcode = '4-day-sri-lanka-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

@@ -44,7 +44,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
       'An unforgettable 10 day private Sri Lanka tour covering Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Ella adventures and a relaxing southern beach stay.',
     duration: '10 Days',
     persons: '1-20 Persons',
-    filecode: 'tendaystours',
+    filecode: '10-day-sri-lanka-tour',
     overview: `Discover Sri Lanka’s wildlife, ancient kingdoms, scenic mountains and golden beaches in one perfectly balanced 8 day journey. 
   This tour combines safari adventure, UNESCO heritage sites, hill country landscapes, tea plantations, waterfalls and relaxing coastal experiences with half board accommodation and private transportation.`,
 
@@ -555,11 +555,11 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-    const barcode = 'tendaystours';
+    const barcode = '10-day-sri-lanka-tour';
     localStorage.setItem('tour', JSON.stringify(this.tour));
     localStorage.setItem('filecode', barcode);
     localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
+    this.router.navigate(['/booking', barcode], {
       state: {
         tour: this.tour,
         barcode: barcode,

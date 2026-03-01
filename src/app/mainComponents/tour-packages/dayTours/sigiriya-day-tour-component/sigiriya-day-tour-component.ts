@@ -36,7 +36,7 @@ export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
     'Discover Sri Lanka’s cultural and natural heritage on a full-day tour to Sigiriya, including temples, rock climbing, and wildlife.',
     duration: 'One Day',
     persons: '20 Persons',
-    filecode: 'daytour-sigiriya',
+    filecode: 'sigiriya-day-tour',
     overview: `
     This one-day tour to Sigiriya offers a perfect blend of culture, adventure, and wildlife.
     Begin with a visit to the Golden Cave Temple in Dambulla, followed by climbing either
@@ -242,12 +242,12 @@ export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
 
   bookNow() {
     if (!isPlatformBrowser(this.platformId)) return;
-    const barcode = 'daytour-sigiriya';
+    const barcode = 'sigiriya-day-tour';
     localStorage.setItem('tour', JSON.stringify(this.tour));
     localStorage.setItem('filecode', barcode);
     localStorage.setItem('image', this.images[0]);
 
-    this.router.navigate(['/booking'], {
+    this.router.navigate(['/booking', barcode], {
       state: {
         tour: this.tour,
         barcode: barcode,

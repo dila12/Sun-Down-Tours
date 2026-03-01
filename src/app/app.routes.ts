@@ -6,7 +6,6 @@ import { ServiceComponent } from "./mainComponents/service-component/service-com
 import { TourPackages } from "./mainComponents/tour-packages/tour-packages";
 import { SevenDaysTourComponent } from "./mainComponents/tour-packages/roundTours/seven-days-tour-component/seven-days-tour-component";
 import { TenDaysTourComponent } from "./mainComponents/tour-packages/roundTours/ten-days-tour-component/ten-days-tour-component";
-import { TwoDayTourComponent } from "./mainComponents/tour-packages/roundTours/two-day-tour-component/two-day-tour-component";
 import { FiveDaysTourComponent } from "./mainComponents/tour-packages/roundTours/five-days-tour-component/five-days-tour-component";
 import { EllaDayTourComponent } from "./mainComponents/tour-packages/dayTours/ella-day-tour-component/ella-day-tour-component";
 import { GalleDayTour } from "./mainComponents/tour-packages/dayTours/galle-day-tour/galle-day-tour";
@@ -21,6 +20,7 @@ import { ResturantComponent } from "./mainComponents/resturant-component/restura
 import { TwoDaysTourPlus } from "./mainComponents/tour-packages/roundTours/two-days-tour-plus/two-days-tour-plus";
 import { SixDaysTour } from "./mainComponents/tour-packages/roundTours/six-days-tour/six-days-tour";
 import { EightdaysComponent } from "./mainComponents/tour-packages/roundTours/eightdays-component/eightdays-component";
+import { FourdaysTourComponent } from "./mainComponents/tour-packages/roundTours/fourdays-tour-component/fourdays-tour-component";
 
 export const routes: Routes = [
   {
@@ -83,15 +83,15 @@ export const routes: Routes = [
           keywords: '10 day Sri Lanka tour, Sri Lanka 10 day itinerary'
         }
       },
-      {
-        path: '2-day-sri-lanka-tour',
-        component: TwoDayTourComponent,
-        data: {
-          title: '2 Day Sri Lanka Tour | Quick Island Experience',
-          description: 'Experience the highlights of Sri Lanka in just 2 days with our quick private tour package.',
-          keywords: '2 day Sri Lanka tour, Sri Lanka 2 day itinerary'
-        }
-      },
+      // {
+      //   path: '2-day-sri-lanka-tour',
+      //   component: TwoDayTourComponent,
+      //   data: {
+      //     title: '2 Day Sri Lanka Tour | Quick Island Experience',
+      //     description: 'Experience the highlights of Sri Lanka in just 2 days with our quick private tour package.',
+      //     keywords: '2 day Sri Lanka tour, Sri Lanka 2 day itinerary'
+      //   }
+      // },
       {
         path: '5-day-sri-lanka-tour',
         component: FiveDaysTourComponent,
@@ -142,7 +142,7 @@ export const routes: Routes = [
 
       // OTHER PAGES
       {
-        path: 'booking',
+        path: 'booking/:filecode',
         component: BookingComponent,
         data: {
           title: 'Book Your Sri Lanka Tour | Private & Customized Travel',
@@ -211,6 +211,15 @@ export const routes: Routes = [
           title: '6 Day Sri Lanka Private Tour | Sigiriya, Kandy, Ella & Yala Safari',
           description: 'Explore Sri Lanka in 6 days with a private guided tour covering Sigiriya Rock Fortress, Kandy Temple of the Tooth, Ella hill country, Yala National Park safari and scenic beaches.',
           keywords: '6 day Sri Lanka tour, Sri Lanka 6 day itinerary, Sri Lanka private tour 6 days, Sigiriya Kandy Ella tour, Yala safari tour Sri Lanka'
+        }
+      },
+      {
+        path:'4-day-sri-lanka-tour',
+        component: FourdaysTourComponent,
+        data: {
+          title: '4 Day Sri Lanka Tour | Cultural & Scenic Highlights',
+          description: 'Experience the best of Sri Lanka in 4 days with a private guided tour covering Sigiriya, Kandy, Ella and Yala safari.',
+          keywords: '4 day Sri Lanka tour, Sri Lanka 4 day itinerary'
         }
       },
       {

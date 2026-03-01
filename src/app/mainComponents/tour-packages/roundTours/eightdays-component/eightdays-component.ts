@@ -41,7 +41,7 @@ export class EightdaysComponent {
       'An unforgettable 8 day private Sri Lanka tour covering Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Ella adventures and a relaxing southern beach stay.',
     duration: '8 Days',
     persons: '1-20 Persons',
-    filecode: 'eightdaystours',
+    filecode: '8-day-sri-lanka-private-tour',
     overview: `Discover Sri Lanka’s wildlife, ancient kingdoms, scenic mountains and golden beaches in one perfectly balanced 8 day journey. 
   This tour combines safari adventure, UNESCO heritage sites, hill country landscapes, tea plantations, waterfalls and relaxing coastal experiences with half board accommodation and private transportation.`,
 
@@ -418,12 +418,12 @@ export class EightdaysComponent {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'eightdaystours';
+      const barcode = '8-day-sri-lanka-private-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

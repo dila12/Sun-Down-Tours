@@ -42,7 +42,7 @@ images: string[] = [
       'Explore Sri Lanka in 6 unforgettable days with ancient cities, UNESCO heritage sites, scenic tea plantations, thrilling wildlife safaris and relaxing coastal experiences.',
     duration: '6 Days',
     persons: '2-20 Persons',
-    filecode: "sixdaystours",
+    filecode: "6-day-sri-lanka-private-tour",
     overview: `Discover the highlights of Sri Lanka in this perfectly balanced 6-day private round tour. 
   Travel through the Cultural Triangle, explore Sigiriya Rock Fortress, experience Kandy’s sacred Temple of the Tooth Relic, journey through the misty tea plantations of Nuwara Eliya, enjoy an exciting Udawalawa National Park safari, and unwind along the beautiful South West Coast. 
   With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation — perfect for couples, families and small groups.`,
@@ -448,12 +448,12 @@ images: string[] = [
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'sixdaystours';
+      const barcode = '6-day-sri-lanka-private-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

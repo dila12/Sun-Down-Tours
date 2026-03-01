@@ -43,7 +43,7 @@ export class KandyDayTourComponent implements OnInit, OnDestroy {
       'Experience the cultural heart of Sri Lanka with a full-day guided tour to Kandy, including elephants, temples, tea, and scenic views.',
     duration: 'One Day',
     persons: '20 Persons',
-    filecode: 'daytour-kandy',
+    filecode: 'kandy-day-tour',
     overview: `
             This one-day trip to Kandy takes you through Sri Lanka’s cultural capital.
             Visit the Millennium Elephant Foundation or Pinnawala Elephant Orphanage,
@@ -254,12 +254,12 @@ export class KandyDayTourComponent implements OnInit, OnDestroy {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'daytour-kandy';
+      const barcode = 'kandy-day-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

@@ -43,7 +43,7 @@ tour = {
     'Discover Sri Lanka’s wildlife, scenic hill country and cultural heritage in this 2-day private tour ending at the airport or your hotel.',
   duration: '2 Days',
   persons: 'Private Tour (1-20 Persons)',
-  filecode: 'twodaystours',
+  filecode: '2-day-ella-kandy-private-tour-sri-lanka',
   overview: `Experience an unforgettable 2-day journey through Sri Lanka’s wildlife, hill country and cultural capital.
   On day one, visit the Udawalawa Elephant Transit Home before heading to Ella to explore Nine Arch Bridge, Little Adam’s Peak, Flying Ravana and Ravana Falls.
   On day two, travel through the scenic hills to Ramboda Falls and Ambuluwawa Tower before discovering the sacred Temple of the Tooth in Kandy and Pinnawala Elephant Orphanage.
@@ -306,12 +306,12 @@ tour = {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'twodaystours';
+      const barcode = '2-day-ella-kandy-private-tour-sri-lankas';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,

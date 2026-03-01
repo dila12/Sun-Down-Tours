@@ -36,7 +36,7 @@ images: string[] = [
       'Enjoy a full-day guided tour to Galle with scenic coastal attractions, cultural landmarks, and memorable experiences.',
     duration: 'one Day',
     persons: '20 Persons',
-    filecode: "daytour-galle",
+    filecode: "galle-day-tour",
     overview: `This full-day guided tour to Galle offers a perfect mix of nature, history, and culture.
 You will visit the famous Sea Turtle Hatchery, explore the historic Galle Dutch Fort,
 enjoy a relaxing Bentota River boat ride, and learn about Sri Lanka’s history at the
@@ -231,12 +231,12 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'daytour-galle';
+      const barcode = 'galle-day-tour';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
 
-      this.router.navigate(['/booking'], {
+      this.router.navigate(['/booking', barcode], {
         state: {
           tour: this.tour,
           barcode: barcode,
