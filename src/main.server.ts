@@ -2,7 +2,6 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { provideServerRendering } from '@angular/platform-server';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app';
-import { serverRoutes } from './app/server.routes';
 
 
 export default function bootstrap() {
@@ -11,5 +10,5 @@ export default function bootstrap() {
     providers: [
       provideServerRendering(),
     ],
-  });   
+  });
 }

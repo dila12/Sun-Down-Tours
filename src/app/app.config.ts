@@ -7,7 +7,6 @@ import { provideToastr } from 'ngx-toastr';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideHttpClient(),
     provideToastr(),
     provideHttpClient(withFetch())
   ]
