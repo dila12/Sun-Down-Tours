@@ -102,24 +102,7 @@
             ]
           }
         },
-        "prerender": {
-          "routes": [
-            "/",
-            "/about-us",
-            "/our-services",
-            "/tour-packages",
-            "/7-day-sri-lanka-tour",
-            "/10-day-sri-lanka-tour",
-            "/5-day-sri-lanka-tour",
-            "/ella-day-tour",
-            "/kandy-day-tour",
-            "/galle-day-tour",
-            "/sigiriya-day-tour",
-            "/destinations-sri-lanka",
-            "/contact-us",
-            "/sri-lanka-travel-guides"
-          ]
-        }
+        "prerender": false
       }
     }
   },
