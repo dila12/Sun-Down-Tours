@@ -1,23 +1,14 @@
-import { CommonModule, isPlatformBrowser } from '@angular/common';
-import {
-  Component,
-  OnInit,
-  OnDestroy,
-  Inject,
-  PLATFORM_ID,
-} from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
-import {
-  TourDetails,
-  TourDetailsComponent,
-} from '../../../../sharedComponents/tour-details-component/tour-details-component';
-import toursData from '../../../../databaseJson/tours.json';
-import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { HttpClient } from '@angular/common/http';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { CountryService } from '../../../../Services/country.service';
+import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import toursData from '../../../../databaseJson/tours.json';
+import { Router, RouterModule } from '@angular/router';
+import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 
 @Component({
-  selector: 'app-five-days-tour-component',
+  selector: 'app-six-days-tour',
   standalone: true,
   imports: [
     CommonModule,
@@ -25,16 +16,16 @@ import { CountryService } from '../../../../Services/country.service';
     TourDetailsComponent,
     PackageItemComponent,
   ],
-  templateUrl: './five-days-tour-component.html',
-  styleUrls: ['./five-days-tour-component.css'],
+  templateUrl: './six-days-tour.html',
+  styleUrl: './six-days-tour.css'
 })
-export class FiveDaysTourComponent implements OnInit, OnDestroy {
-  images: string[] = [
-    'assets/img/5daysTours/m5mz7zqwjql44ydc4wyl.jpg',
-    'assets/img/5daysTours/fozjxf01vl9yehvucwn2.jpg',
-    'assets/img/5daysTours/c8dyxgodivrwf4hxzziq.jpg',
-    'assets/img/5daysTours/dp8fjrahvepdlhdudxj0.jpg',
-    'assets/img/5daysTours/slqwoimy5yhfgcicn8ob.jpg',
+export class SixDaysTour {
+images: string[] = [
+    'assets/img/SixdaysTous/1.jpg',
+    'assets/img/SixdaysTous/6.jpeg',
+    'assets/img/SixdaysTous/3.jpg',
+    'assets/img/SixdaysTous/4.jpg',
+    'assets/img/SixdaysTous/5.jpg',
   ];
 
   currentIndex = 0;
@@ -44,14 +35,15 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
   userCountry = 'US';
   price = 0;
 
+
   tour = {
-    title: '5 Day Sri Lanka Private Tour | Cultural Heritage, Hill Country & Wildlife Safari',
+    title: '6 Day Sri Lanka Private Tour | Cultural Heritage, Hill Country & Wildlife Safari',
     description:
-      'Explore Sri Lanka in 5 unforgettable days with ancient cities, UNESCO heritage sites, scenic tea plantations, thrilling wildlife safaris and relaxing coastal experiences.',
-    duration: '5 Days',
-    persons: '1-20 Persons',
-    filecode: "fivedaystours",
-    overview: `Discover the highlights of Sri Lanka in this perfectly balanced 5-day private round tour. 
+      'Explore Sri Lanka in 6 unforgettable days with ancient cities, UNESCO heritage sites, scenic tea plantations, thrilling wildlife safaris and relaxing coastal experiences.',
+    duration: '6 Days',
+    persons: '2-20 Persons',
+    filecode: "sixdaystours",
+    overview: `Discover the highlights of Sri Lanka in this perfectly balanced 6-day private round tour. 
   Travel through the Cultural Triangle, explore Sigiriya Rock Fortress, experience Kandy’s sacred Temple of the Tooth Relic, journey through the misty tea plantations of Nuwara Eliya, enjoy an exciting Udawalawa National Park safari, and unwind along the beautiful South West Coast. 
   With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation — perfect for couples, families and small groups.`,
 
@@ -90,6 +82,13 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
             description:
               'Enjoy a thrilling 4x4 jeep safari in Minneriya National Park, famous for “The Gathering” — one of Asia’s largest wild elephant congregations. Spot elephants, deer, buffalo and diverse bird species.',
             image: 'assets/img/6daysTours/minneriya.jpg',
+          },
+          {
+            type: 'Village Experience',
+            title: { title: 'Hiriwadunna Village Tour', icon: 'fa-leaf', color: '#27ae60' },
+            description:
+              'Experience authentic rural Sri Lankan village life.',
+            image: 'assets/img/8daysTours/village.jpg',
           },
           {
             type: 'Accommodation',
@@ -141,11 +140,11 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Fresco Water Villa – Sigiriya', icon: 'fa-hotel', color: '#16a085' },
+            title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay at Fresco Water Villa (or similar).',
-            image: 'assets/img/8daysTours/fresco.jpg',
-            extra: ['Breakfast & Dinner Included', '3.5 Star Hotel'],
+              'Overnight stay at Hotel Topaz (or similar).',
+            image: 'assets/img/8daysTours/kandy-hotel.jpg',
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
@@ -189,10 +188,10 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
+            title: { title: 'Ramboda Falls Hotel', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay at Hotel Topaz (or similar).',
-            image: 'assets/img/8daysTours/kandy-hotel.jpg',
+              'Overnight stay at Ramboda Falls Hotel (or similar).',
+            image: 'assets/img/6daysTours/ramboda-hotel.jpg',
             extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
@@ -200,24 +199,93 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
 
       {
         day: 4,
-        title: 'Nuwara Eliya to Udawalawa – Wildlife Encounter',
+        title: 'Nuwara Eliya to Yala – Wildlife Encounter',
         activities: [
           {
             type: 'Safari',
             title: {
-              title: 'Udawalawa National Park Safari',
+              title: 'Yala National Park Safari',
               icon: 'fa-paw',
               color: '#27ae60',
             },
             description:
-              'Embark on an exciting safari in Udawalawa National Park, one of the best places in Sri Lanka to see wild elephants in their natural habitat. Spot elephants, crocodiles, deer and birdlife across open grasslands.',
-            image: 'assets/img/6daysTours/udawalawa.jpg',
+              'Embark on an exciting safari in Yala National Park, one of the best places in Sri Lanka to see wild elephants in their natural habitat. Spot elephants, crocodiles, deer and birdlife across open grasslands.',
+            image: 'assets/img/6daysTours/yala.jpg',
+          },
+          {
+            type: 'Accommodation',
+            title: {
+              title: 'Grand Tamarind Lake (or similar) - HB Basis',
+              icon: 'fa-hotel',
+              color: '#2c3e50',
+            },
+            description:
+              'Accommodation in Grand Tamarind Lake or Similar hotel - HB Basis',
+            image: 'assets/img/7daystour/lrqee4ssqh6w9efbewzi.jpg',
+            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Dinner'],
+          },
+        ],
+      },
+
+      {
+        day: 5,
+        title: 'Yala to South West Coast – River & Conservation',
+        activities: [
+          {
+            type: 'Guided tour',
+            title: {
+              title: 'Coconut Tree Hill (Mirissa)',
+              icon: 'fa-mountain',
+              color: '#228B22',
+            },
+            description:
+              'A picturesque spot in Mirissa with stunning views of lush coconut palms and the Indian Ocean.',
+            image: 'assets/img/7daystour/kolleldbe5pt7keqqls3.jpg',
+          },
+          {
+            type: 'Guided tour',
+            title: {
+              title: 'Dondra Head Lighthouse',
+              icon: 'fa-landmark',
+              color: '#A9A9A9',
+            },
+            description:
+              'Located at Sri Lanka’s southern tip, offering panoramic ocean views and historic charm.',
+            image: 'assets/img/7daystour/gf3kppt2kpvcfd5bgmgh.jpg',
+          },
+          {
+            type: 'Guided tour',
+            title: {
+              title: 'Mirissa Beach',
+              icon: 'fa-solid fa-umbrella-beach',
+              color: '#00BFFF',
+            },
+            description:
+              'A tropical paradise known for golden sands, clear waters, and vibrant sunsets.',
+            image: 'assets/img/7daystour/goayffj226ceow8zxhey.jpg',
+          },
+          {
+            type: 'Accommodation',
+            title: {
+              title: 'Somerset Mirissa Hotel',
+              icon: 'fa-hotel',
+              color: '#2c3e50',
+              description:
+                'Accommodation in Somerset Mirissa Hotel or Similar hotel - HB Basis',
+              image: 'assets/img/7daystour/s0dhmdjem8sw5klqayjp.jpg',
+              extra: [
+                'Hotel 4 stars (Premium)',
+                'Breakfast',
+                'Private bathroom',
+                'Dinner',
+              ],
+            },
           },
         ],
       },
       {
-        day: 5,
-        title: 'Udawalawa to South West Coast – River & Conservation',
+        day: 6,
+        title: 'Departure from South West Coast – Conservation & Safari',
         activities: [
           {
             type: 'Conservation',
@@ -244,16 +312,13 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           {
             type: 'Departure',
             title: {
-              title: 'Airport Drop Off Or Hotel Transfer',
+              title: 'Departure Transfer',
               icon: 'fa-plane',
               color: '#2c3e50',
             },
-            description:
-              'Private transfer to Bandaranaike International Airport for your onward journey, concluding your unforgettable 5-day Sri Lanka adventure.',
           },
-          
         ],
-      }
+      },
     ],
 
     includes: [
@@ -275,8 +340,9 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
-    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {}
+
 
   get currentImage() {
     return this.images[this.currentIndex];
@@ -329,13 +395,11 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
       this.selectedTours = this.multiDayTours;
       return;
     }
-
+    
     try {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.tour.filecode);
-      this.multiDayTours = await this.loadToursWithPrices(
-        toursData.multiDayTours,
-      );
+      this.multiDayTours = await this.loadToursWithPrices(toursData.multiDayTours);
       this.selectedTours = this.multiDayTours
         .sort(() => 0.5 - Math.random())
         .slice(0, 3);
@@ -346,12 +410,12 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
     }
   }
 
-  async loadToursWithPrices(tours: any[]) {
+    async loadToursWithPrices(tours: any[]) {
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);
         return { ...tour, price };
-      }),
+      })
     );
   }
 
@@ -369,9 +433,9 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
         error: () => {
           this.http.get(defaultFile).subscribe({
             next: (data: any) => resolve(data?.price?.[1] ?? 0),
-            error: () => resolve(0),
+            error: () => resolve(0)
           });
-        },
+        }
       });
     });
   }
@@ -384,7 +448,7 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'fivedaystours';
+      const barcode = 'sixdaystours';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);

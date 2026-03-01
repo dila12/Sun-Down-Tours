@@ -1,85 +1,116 @@
 {
   "dayTours": [
-      {
-        "id": 2,
-        "title": "Ella Day Tour - Departing from Any Location in Sri Lanka",
-        "days": "1 days",
-        "persons": "20 Person",
-        "rating": 5,
-        "filecode": "daytour-ella",
-        "image": "assets/img/onedayTour/ella/5.jpg",
-        "routerLink": "/ella-day-tour"
-      },
-      {
-        "id": 6,
-        "title": "Galle Day Tour - Departing from Any Location in Sri Lanka",
-        "days": "1 days",
-        "persons": "20 Person",
-        "rating": 5,
-        "filecode": "daytour-galle",
-        "image": "assets/img/onedayTour/Galle/7.jpg",
-        "routerLink": "/galle-day-tour"
-      },
-      {
-        "id": 7,
-        "title": "Kandy Day Tour - Departing from Any Location in Sri Lanka",
-        "days": "1 days",
-        "persons": "20 Person",
-        "rating": 5,
-        "filecode": "daytour-kandy",
-        "image": "assets/img/onedayTour/kandy/3.jpg",
-        "routerLink": "/kandy-day-tour"
-      },
-      {
-        "id": 8,
-        "title": "Sigiriya Day Tour - Departing from Any Location in Sri Lanka",
-        "days": "1 days",
-        "persons": "20 Person",
-        "rating": 5,
-        "filecode": "daytour-sigiriya",
-        "image": "assets/img/onedayTour/Sigiriya/3.jpg",
-        "routerLink": "/sigiriya-day-tour"
-      }
-],
-"multiDayTours": [
     {
-      "id": 1,
-      "title": "Sigiriya and Kandy 2 Days Private Tour with HB Deluxe Accommodation",
+      "id": 2,
+      "title": "Ella Day Tour - Departing from Any Location in Sri Lanka",
+      "days": "1 day",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "daytour-ella",
+      "image": "assets/img/onedayTour/ella/7.jpeg",
+      "routerLink": "/ella-day-tour"
+    },
+    {
+      "id": 6,
+      "title": "Galle Day Tour - Departing from Any Location in Sri Lanka",
+      "days": "1 day",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "daytour-galle",
+      "image": "assets/img/onedayTour/Galle/7.jpg",
+      "routerLink": "/galle-day-tour"
+    },
+    {
+      "id": 7,
+      "title": "Kandy Day Tour - Departing from Any Location in Sri Lanka",
+      "days": "1 day",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "daytour-kandy",
+      "image": "assets/img/onedayTour/kandy/3.jpg",
+      "routerLink": "/kandy-day-tour"
+    },
+    {
+      "id": 8,
+      "title": "Sigiriya Day Tour - Departing from Any Location in Sri Lanka",
+      "days": "1 day",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "daytour-sigiriya",
+      "image": "assets/img/onedayTour/Sigiriya/3.jpg",
+      "routerLink": "/sigiriya-day-tour"
+    }
+  ],
+
+  "multiDayTours": [
+    {
+      "id": 9,
+      "title": "2 Day Ella & Kandy Private Tour with 4 Star Hotels",
       "days": "2 days",
-      "persons": "20 Person",
-      "rating": 4.5,
+      "persons": "2-20 Persons",
+      "rating": 5,
       "filecode": "twodaystours",
       "image": "assets/img/package-3.jpg",
-      "routerLink": "/2-day-sri-lanka-tour"
+      "routerLink": "/2-day-ella-kandy-private-tour-sri-lanka"
+    },
+    {
+      "id": 13,
+      "title": "4 Day Sri Lanka Private Tour with Kandy, Ella & Yala Safari",
+      "days": "4 days",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "fourdaystours",
+      "image": "assets/img/package-8.jpeg",
+      "routerLink": "/4-day-sri-lanka-private-tour"
     },
     {
       "id": 3,
-      "title": "Sri Lanka 5 Days Tour with 4 Star Hotels and Private Transportation",
+      "title": "Sri Lanka 5 Days Tour with 4 Star Hotels, Safari & Beach Stay",
       "days": "5 days",
       "persons": "20 Person",
       "rating": 5,
       "filecode": "fivedaystours",
-      "image": "assets/img/package-4.jpg",
+      "image": "assets/img/package-4.jpeg",
       "routerLink": "/5-day-sri-lanka-tour"
     },
     {
+      "id": 11,
+      "title": "6 Day Sri Lanka Private Tour with 4 Star Hotels, Safari & Beach Stay",
+      "days": "6 days",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "sixdaystours",
+      "image": "assets/img/package-7.jpeg",
+      "routerLink": "/6-day-sri-lanka-private-tour"
+    },
+    {
       "id": 4,
-      "title": "Sri Lanka 7 Days Tour with 4 Star Hotels and Private Transportation",
+      "title": "7 Day Sri Lanka Tour with 4 Star Hotels, Safari & Beach Stay",
       "days": "7 days",
-      "persons": "20 Person",
+      "persons": "2-20 Persons",
       "rating": 5,
       "filecode": "sevendaystours",
-      "image": "assets/img/package-1.jpg",
+      "image": "assets/img/package-1.jpeg",
       "routerLink": "/7-day-sri-lanka-tour"
     },
     {
+      "id": 12,
+      "title": "8 Day Sri Lanka Private Tour with 4 Star Hotels, Safari & Beach Stay",
+      "days": "8 days",
+      "persons": "2-20 Persons",
+      "rating": 5,
+      "filecode": "eightdaystours",
+      "image": "assets/img/package-6.jpeg",
+      "routerLink": "/8-day-sri-lanka-private-tour"
+    },
+    {
       "id": 5,
-      "title": "Sri Lanka 10 Days Tour with 4 Star Hotels and Private Transportation",
+      "title": "10 Day Sri Lanka Tour with 4 Star Hotels and Private Transportation",
       "days": "10 days",
-      "persons": "20 Person",
+      "persons": "2-20 Persons",
       "rating": 5,
       "filecode": "tendaystours",
-      "image": "assets/img/package-2.avif",
+      "image": "assets/img/package-2.jpg",
       "routerLink": "/10-day-sri-lanka-tour"
     }
   ]

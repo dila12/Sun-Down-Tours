@@ -1,136 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- HOME -->
+  <!-- ================= HOME ================= -->
   <url>
     <loc>https://www.sundowntours.com/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- CORE PAGES -->
+  <!-- ================= MAIN PAGES ================= -->
   <url>
     <loc>https://www.sundowntours.com/about-us</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.sundowntours.com/our-services</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.sundowntours.com/tour-packages</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
-  <!-- ROUND TOURS -->
-  <url>
-    <loc>https://www.sundowntours.com/7-day-sri-lanka-tour</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.sundowntours.com/10-day-sri-lanka-tour</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <!-- ================= ROUND TOURS (HIGH SEO VALUE) ================= -->
   <url>
     <loc>https://www.sundowntours.com/2-day-sri-lanka-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://www.sundowntours.com/5-day-sri-lanka-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- DAY TOURS (HIGH SEO VALUE) -->
+  <url>
+    <loc>https://www.sundowntours.com/5-day-sri-lanka-tour</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/6-day-sri-lanka-private-tour</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/7-day-sri-lanka-tour</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.93</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/8-day-sri-lanka-private-tour</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.94</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sundowntours.com/10-day-sri-lanka-tour</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- ================= DAY TOURS (VERY HIGH CONVERSION PAGES) ================= -->
   <url>
     <loc>https://www.sundowntours.com/ella-day-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.96</priority>
   </url>
 
   <url>
     <loc>https://www.sundowntours.com/galle-day-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.96</priority>
   </url>
 
   <url>
     <loc>https://www.sundowntours.com/kandy-day-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.96</priority>
   </url>
 
   <url>
     <loc>https://www.sundowntours.com/sigiriya-day-tour</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.96</priority>
   </url>
 
-  <!-- BOOKING & CONTACT -->
+  <!-- ================= CONTENT & SEO PAGES ================= -->
   <url>
-    <loc>https://www.sundowntours.com/booking</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.sundowntours.com/destinations-sri-lanka</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.sundowntours.com/contact-us</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.sundowntours.com/sri-lanka-travel-guides</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
   </url>
 
-  <!-- SEO CONTENT PAGES -->
   <url>
     <loc>https://www.sundowntours.com/restaurants-in-sri-lanka</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://www.sundowntours.com/destinations-sri-lanka</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
     <loc>https://www.sundowntours.com/customer-testimonials</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================= BOOKING & CONTACT ================= -->
+  <url>
+    <loc>https://www.sundowntours.com/booking</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://www.sundowntours.com/sri-lanka-travel-guides</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <loc>https://www.sundowntours.com/contact-us</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

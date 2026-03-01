@@ -1,17 +1,14 @@
-import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
-import {
-  TourDetails,
-  TourDetailsComponent,
-} from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import toursData from '../../../../databaseJson/tours.json';
+import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { HttpClient } from '@angular/common/http';
 import { CountryService } from '../../../../Services/country.service';
+import toursData from '../../../../databaseJson/tours.json';
 
 @Component({
-  selector: 'app-ten-days-tour-component',
+  selector: 'app-eightdays-component',
   standalone: true,
   imports: [
     CommonModule,
@@ -19,32 +16,32 @@ import { CountryService } from '../../../../Services/country.service';
     TourDetailsComponent,
     PackageItemComponent,
   ],
-  templateUrl: './ten-days-tour-component.html',
-  styleUrl: './ten-days-tour-component.css',
+  templateUrl: './eightdays-component.html',
+  styleUrl: './eightdays-component.css'
 })
-export class TenDaysTourComponent implements OnInit , OnDestroy {
-  images: string[] = [
-    'assets/img/7daystour/lzurk0uk82qqjh6soonh.jpg',
-    'assets/img/7daystour/u19dmfbuae46dhzpqctu.jpg',
-    'assets/img/7daystour/p5nnnq3wt124wwoa0rvo.jpg',
-    'assets/img/7daystour/fhlfhn3lx1onsizfpy76.jpg',
-    'assets/img/7daystour/dtebtjzozh7sfof4ci7c.jpg',
+export class EightdaysComponent {
+ images: string[] = [
+    'assets/img/7dayschange/2.jpeg',
+    'assets/img/7dayschange/1.jpeg',
+    'assets/img/7dayschange/w3a48osbcocecoaaq9hd.jpg',
+    'assets/img/7dayschange/tijr5ztiozgdesbxotm4.jpg',
+    'assets/img/7dayschange/dqzhbtiaqzhf0hxbbrar.jpg',
   ];
 
   currentIndex = 0;
-  intervalId: any = null;
+  intervalId: any;
   multiDayTours: any[] = [];
   selectedTours: any[] = [];
   userCountry = 'US';
   price = 0;
 
   tour = {
-    title: '10 Day Sri Lanka Private Tour | Safari, Culture, Hill Country & Beach',
+    title: '8 Day Sri Lanka Private Tour | Safari, Culture, Hill Country & Beach',
     description:
-      'An unforgettable 10 day private Sri Lanka tour covering Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Ella adventures and a relaxing southern beach stay.',
-    duration: '10 Days',
+      'An unforgettable 8 day private Sri Lanka tour covering Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Ella adventures and a relaxing southern beach stay.',
+    duration: '8 Days',
     persons: '1-20 Persons',
-    filecode: 'tendaystours',
+    filecode: 'eightdaystours',
     overview: `Discover Sri Lanka’s wildlife, ancient kingdoms, scenic mountains and golden beaches in one perfectly balanced 8 day journey. 
   This tour combines safari adventure, UNESCO heritage sites, hill country landscapes, tea plantations, waterfalls and relaxing coastal experiences with half board accommodation and private transportation.`,
 
@@ -105,7 +102,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             description:
               'Overnight stay at Fresco Water Villa (or similar).',
             image: 'assets/img/8daysTours/fresco.jpg',
-            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
+            extra: ['Breakfast & Dinner Included', '3.5 Star Hotel'],
           },
         ],
       },
@@ -148,10 +145,11 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             description:
               'Overnight stay at Fresco Water Villa (or similar).',
             image: 'assets/img/8daysTours/fresco.jpg',
-            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
+            extra: ['Breakfast & Dinner Included', '3.5 Star Hotel'],
           },
         ],
       },
+
       {
         day: 4,
         title: 'Sigiriya – Kandy',
@@ -181,9 +179,9 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             type: 'Accommodation',
             title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay at Hotel Topaz (or similar) in Kandy. Half Board basis.',
+              'Overnight stay at Hotel Topaz (or similar).',
             image: 'assets/img/8daysTours/kandy-hotel.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
@@ -208,11 +206,11 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
           },
           {
             type: 'Accommodation',
-            title: { title: ' Oak Ray Ella Gap Hotel (or similar) - HB Basis', icon: 'fa-hotel', color: '#16a085' },
+            title: { title: 'Oak Ray Ella Gap Hotel', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay in  Oak Ray Ella Gap Hotel (or similar) - HB Basis.',
+              'Overnight stay in Ella.',
             image: 'assets/img/8daysTours/ella-hotel.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
@@ -241,7 +239,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             description:
               'Overnight stay in Hikkaduwa.',
             image: 'assets/img/8daysTours/hikkaduwa-hotel.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
@@ -261,36 +259,16 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             type: 'Accommodation',
             title: { title: 'Refresh Hotel – Hikkaduwa', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay in  Hikkaduwa.',
+              'Overnight stay in Hikkaduwa.',
             image: 'assets/img/8daysTours/hikkaduwa-hotel.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
-          },
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
+          }
         ],
       },
+
       {
         day: 8,
-        title: 'Hikkaduwa Beach',
-        activities: [
-          {
-            type: 'Beach Relaxation',
-            title: { title: 'Hikkaduwa Beach', icon: 'fa-umbrella-beach', color: '#f1c40f' },
-            description:
-              'Relax on golden beaches and swim in the Indian Ocean.',
-            image: 'assets/img/8daysTours/hikkaduwa-beach.jpg',
-          },
-          {
-            type: 'Accommodation',
-            title: { title: 'Refresh Hotel – Hikkaduwa', icon: 'fa-hotel', color: '#16a085' },
-            description:
-              'Overnight stay in  Hikkaduwa.',
-            image: 'assets/img/8daysTours/hikkaduwa-hotel.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
-          },
-        ],
-      },
-      {
-        day: 9,
-        title: 'water Activities to Kalutara',
+        title: 'water Activities & Departure',
         activities: [
           {
             type: 'Wildlife Conservation',
@@ -315,101 +293,9 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             image: 'assets/img/10daysTours/madu-river.jpg',
           },
           {
-            type: 'Accommodation',
-            title: { title: 'Kamili Beach Resort (or similar) - HB Basis', icon: 'fa-hotel', color: '#16a085' },
-            description:
-              'Overnight stay in  Kamili Beach Resort (or similar) - HB Basis.',
-            image: 'assets/img/10daysTours/kamili-beach-resort.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
-          },
-        ],
-      },
-      {
-        day: 10,
-        title: 'Departure from Colombo',
-        activities: [
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Peraliya Tsunami Memorial',
-              icon: 'fa-monument',
-              color: '#FF8C00',
-            },
-            description:
-              'Peraliya Tsunami Memorial honors the victims of the 2004 tsunami, featuring a towering Buddha statue as a symbol of peace and remembrance near the site of Sri Lanka’s worst tsunami disaster.',
-            image: 'assets/img/7daystour/lf8xpxoe67nlur3zr3da.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Independence Memorial Hall',
-              icon: 'fa-landmark',
-              color: '#A9A9A9',
-            },
-            description:
-              'Independence Square in Colombo is a historic landmark built to commemorate Sri Lanka’s independence, featuring grand colonial architecture, lush gardens, and a peaceful atmosphere for visitors.',
-            image: 'assets/img/7daystour/fsrleaf7977wcxityzu8.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Gangaramaya Temple',
-              icon: 'fa-landmark',
-              color: '#FFD700',
-            },
-            description:
-              'Gangaramaya Temple in Colombo is a beautiful Buddhist temple blending Sri Lankan, Thai, and Chinese architecture, featuring statues, relics, and a serene lakeside setting.',
-            image: 'assets/img/7daystour/fn10nlk7fc0dzyawswa5.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Galle Face Green',
-              icon: 'fa-park',
-              color: '#32CD32',
-            },
-            description:
-              'Galle Face Green in Colombo is a scenic oceanfront promenade, perfect for relaxing walks, stunning sunsets, and enjoying street food, offering a lively atmosphere by the Indian Ocean.',
-            image: 'assets/img/7daystour/qu0e7cjpkcfhfds1zeem.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Pettah Market',
-              icon: 'fa-store',
-              color: '#FF4500',
-            },
-            description:
-              'Colombo Fort Market is a bustling hub offering a mix of local goods, clothing, spices, and street food, providing a vibrant shopping experience in the heart of the city.',
-            image: 'assets/img/7daystour/vlk48jx8ywhuzyqlvqg8.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Red Mosque (Jami Ul-Alfar Mosque)',
-              icon: 'fa-mosque',
-              color: '#FF0000',
-            },
-            description:
-              'Jami Ul-Alfar Mosque, or the Red Mosque in Colombo, is an iconic landmark with striking red-and-white architecture, offering a glimpse into Sri Lanka’s rich Islamic heritage.',
-            image: 'assets/img/7daystour/owzua0jhk0zazg9d8hcn.jpg',
-          },
-          {
-            type: 'Accommodation',
-            title: {
-              title: 'Kamili Beach Resort (or similar) - HB Basis',
-              icon: 'fa-hotel',
-              color: '#2c3e50',
-            },
-            description:
-              'Breakfast at Kamili Beach Resort or Similar hotel - HB Basis',
-            image: 'assets/img/7daystour/2024-07-27.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast'],
-          },
-          {
             type: 'Departure',
             title: { title: 'Departure', icon: 'fa-plane', color: '#2c3e50' },
-          },
+          }
         ],
       },
     ],
@@ -433,18 +319,11 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
   get currentImage() {
     return this.images[this.currentIndex];
-  }
-
-  get nextImages() {
-    return Array.from({ length: 4 }, (_, i) => {
-      const index = (this.currentIndex + i + 1) % this.images.length;
-      return { src: this.images[index], index };
-    });
   }
 
   get tourForDetails(): TourDetails {
@@ -460,6 +339,13 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
       includes: this.tour.includes,
       excludes: this.tour.excludes,
     };
+  }
+
+  get nextImages() {
+    return Array.from({ length: 4 }, (_, i) => {
+      const index = (this.currentIndex + i + 1) % this.images.length;
+      return { src: this.images[index], index };
+    });
   }
 
   nextImage() {
@@ -480,92 +366,70 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
   }
 
   async ngOnInit() {
-    const isBrowser = isPlatformBrowser(this.platformId);
-    if (!isBrowser) {
-      this.userCountry = 'US';
-      this.price = 0;
-      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
-      this.selectedTours = this.multiDayTours;
-      return;
-    }
-
-    try {
+    if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.tour.filecode);
-
       this.multiDayTours = await this.loadToursWithPrices(
-        toursData.multiDayTours
+        toursData.multiDayTours,
       );
-
       this.selectedTours = this.multiDayTours
         .sort(() => 0.5 - Math.random())
         .slice(0, 3);
 
       this.intervalId = setInterval(() => this.nextImage(), 3000);
-    } catch (error) {
-      console.error('Client-side loading error:', error);
+    } else {
+      this.userCountry = 'US';
+      this.price = 0;
+      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
+      this.selectedTours = this.multiDayTours;
     }
   }
 
   async loadToursWithPrices(tours: any[]) {
-    const isBrowser = isPlatformBrowser(this.platformId);
-
-    if (!isBrowser) {
-      return tours;
-    }
-
     return Promise.all(
       tours.map(async (tour) => {
         const price = await this.loadPrice(tour.filecode);
         return { ...tour, price };
-      })
+      }),
     );
   }
 
   loadPrice(filecode: string): Promise<number> {
-
-    if (!isPlatformBrowser(this.platformId)) {
-      return Promise.resolve(0);
-    }
-
     const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
-
       this.http.get(countryFile).subscribe({
-        next: (data: any) => resolve(data.price?.[1] ?? 0),
+        next: (data: any) => resolve(data.price[1] ?? 0),
         error: () => {
-          this.http.get(defaultFile).subscribe({
-            next: (data: any) => resolve(data.price?.[1] ?? 0),
-            error: () => resolve(0)
+          this.http.get(defaultFile).subscribe((data: any) => {
+            resolve(data.price[1] ?? 0);
           });
         },
       });
-
     });
   }
 
   ngOnDestroy() {
-    const isBrowser = isPlatformBrowser(this.platformId);
-    if (isBrowser && this.intervalId) {
+    if (this.intervalId) {
       clearInterval(this.intervalId);
     }
   }
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-    const barcode = 'tendaystours';
-    localStorage.setItem('tour', JSON.stringify(this.tour));
-    localStorage.setItem('filecode', barcode);
-    localStorage.setItem('image', this.images[0]);
-    this.router.navigate(['/booking'], {
-      state: {
-        tour: this.tour,
-        barcode: barcode,
-        Image: this.images[0],
-      },
-    });
-  }
+      const barcode = 'eightdaystours';
+      localStorage.setItem('tour', JSON.stringify(this.tour));
+      localStorage.setItem('filecode', barcode);
+      localStorage.setItem('image', this.images[0]);
+
+      this.router.navigate(['/booking'], {
+        state: {
+          tour: this.tour,
+          barcode: barcode,
+          Image: this.images[0],
+        },
+      });
+    }
   }
 }

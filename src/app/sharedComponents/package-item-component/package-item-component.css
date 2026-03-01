@@ -1,0 +1,5 @@
+.package-img {
+  width: 100%;
+  height: 220px;       /* Fixed height */
+  object-fit: cover;   /* Prevent stretching */
+}

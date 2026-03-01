@@ -367,64 +367,31 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
         title: 'Mirissa & Departure',
         activities: [
           {
-            type: 'Guided tour',
+            type: 'Conservation',
             title: {
-              title: 'Coconut Tree Hill',
-              icon: 'fa-tree',
-              color: '#27ae60',
-            },
-            description:
-              'Having made its way to almost every traveller’s Instagram profile when they visit Mirissa, the Coconut Tree Hill is a must-do when you’re in Mirissa. The Coconut Tree Hill is a private coconut estate',
-            image: 'assets/img/7dayschange/r2wtt8illvhqqq2tda7n.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Weligama Beach',
-              icon: 'fa-umbrella-beach',
+              title: 'Sea Turtle Conservation Project',
+              icon: 'fa-water',
               color: '#2980b9',
             },
             description:
-              'Weligama beach is a long sandy beach and it has a little depth. But it has amazing waves. Also, there are more than 100 surf schools with experienced surfers near weligama beach.',
-            image: 'assets/img/7dayschange/afslvxtheuhmajtl8omt.jpg',
+              'Visit a sea turtle conservation center along the south coast and learn about marine wildlife protection, hatchery programs and rehabilitation efforts.',
+            image: 'assets/img/6daysTours/turtle.jpg',
           },
           {
-            type: 'Guided tour',
+            type: 'Boat Safari',
             title: {
-              title: 'Galle Dutch Fort',
-              icon: 'fa-landmark',
-              color: '#8e44ad',
+              title: 'Madu River Safari',
+              icon: 'fa-ship',
+              color: '#3498db',
             },
             description:
-              'Originally built by the Portuguese in 1588 then extended on by the Dutch in the 17th-century, It’s now a thriving Sri Lankan community on the Indian Ocean.',
-            image: 'assets/img/7dayschange/gigpif67fntm9dypmypv.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'River Safari Bentota',
-              icon: 'fa-water',
-              color: '#16a085',
-            },
-            description:
-              'Just a few kilometers away from the city of Bentota lies the fabled Bentota river. Bentota river is high rich in bio diversity. Bank of the river is thickly filled fresh water mangroves.',
-            image: 'assets/img/7dayschange/ljy3qz4x1gk3qv4y3v2o.jpg',
-          },
-          {
-            type: 'Breakfast',
-            title: {
-              title: 'Breakfast',
-              icon: 'fa-utensils',
-              color: '#c0392b',
-            },
-            description:
-              'Grand Tamarind Lake Hotel - Breakfast before departure',
-            extra: ['Hotel 5 stars (Luxury)', 'Private bathroom'],
+              'Enjoy a scenic boat safari through the mangrove forests and small islands of the Madu River. Discover local cinnamon cultivation and diverse wetland wildlife.',
+            image: 'assets/img/6daysTours/madu.jpg',
           },
           {
             type: 'Departure',
             title: {
-              title: 'Departure',
+              title: 'Departure Transfer',
               icon: 'fa-plane',
               color: '#2c3e50',
             },

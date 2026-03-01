@@ -18,6 +18,9 @@ import { DestinationComponent } from "./sharedComponents/destination-component/d
 import { Testimonial } from "./sharedComponents/testimonial/testimonial";
 import { TravelGuides } from "./sharedComponents/travel-guides/travel-guides";
 import { ResturantComponent } from "./mainComponents/resturant-component/resturant-component";
+import { TwoDaysTourPlus } from "./mainComponents/tour-packages/roundTours/two-days-tour-plus/two-days-tour-plus";
+import { SixDaysTour } from "./mainComponents/tour-packages/roundTours/six-days-tour/six-days-tour";
+import { EightdaysComponent } from "./mainComponents/tour-packages/roundTours/eightdays-component/eightdays-component";
 
 export const routes: Routes = [
   {
@@ -191,7 +194,34 @@ export const routes: Routes = [
           description: 'Explore our comprehensive travel guides for Sri Lanka, offering expert insights and practical tips.',
           keywords: 'Sri Lanka travel guides, Sri Lanka travel tips'
         }
-      }
+      },
+      {
+        path: '2-day-ella-kandy-private-tour-sri-lanka',
+        component: TwoDaysTourPlus,
+        data: {
+          title: '2 Day Sri Lanka Private Tour – Ella, Kandy & Udawalawa | Airport or Hotel Drop',
+          description: 'Book a 2 day Sri Lanka private tour covering Udawalawa Elephant Transit Home, Ella highlights, Ramboda Falls, Ambuluwawa Tower and Kandy Temple of the Tooth. Airport or hotel drop included.',
+          keywords: '2 day Sri Lanka tour, Ella Kandy 2 day tour, Sri Lanka private tour, Udawalawa safari tour, Sri Lanka hill country tour'
+        }
+      },
+      {
+        path: '6-day-sri-lanka-private-tour',
+        component: SixDaysTour,
+        data: {
+          title: '6 Day Sri Lanka Private Tour | Sigiriya, Kandy, Ella & Yala Safari',
+          description: 'Explore Sri Lanka in 6 days with a private guided tour covering Sigiriya Rock Fortress, Kandy Temple of the Tooth, Ella hill country, Yala National Park safari and scenic beaches.',
+          keywords: '6 day Sri Lanka tour, Sri Lanka 6 day itinerary, Sri Lanka private tour 6 days, Sigiriya Kandy Ella tour, Yala safari tour Sri Lanka'
+        }
+      },
+      {
+        path: '8-day-sri-lanka-private-tour',
+        component: EightdaysComponent,
+        data: {
+          title: '8 Day Sri Lanka Private Tour | Wilpattu Safari, Sigiriya, Kandy, Ella & Beach Stay',
+          description: 'Discover Sri Lanka in 8 days with a private guided tour covering Wilpattu National Park safari, Anuradhapura ancient city, Sigiriya Rock Fortress, Kandy Temple of the Tooth, Ella hill country and relaxing beach stay in Hikkaduwa.',
+          keywords: '8 day Sri Lanka tour, Sri Lanka 8 day itinerary, Sri Lanka private tour 8 days, Wilpattu safari tour, Sigiriya Kandy Ella beach tour'
+        }
+      },
     ]
   }
 ];
