@@ -77,13 +77,15 @@ export class LayoutComponent implements OnInit {
   }
 
   private resetGoogleTranslate() {
-  document.cookie = 'googtrans=;path=/;domain=' + location.hostname;
-  document.cookie = 'googtrans=;path=/';
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
 
-  if (isPlatformBrowser(this.platformId)) {
+    document.cookie = 'googtrans=;path=/;domain=' + location.hostname;
+    document.cookie = 'googtrans=;path=/';
+
     setTimeout(() => {
       window.location.reload();
     }, 100);
   }
-}
 }

@@ -42,6 +42,7 @@ export class BookingComponent {
   selectedCountry = this.countriesList.find((c) => c.code === 'LK');
   phoneNumber = '';
   userCountry: string = 'US';
+  private isBrowser: boolean;
 
   constructor(
     private router: Router,
@@ -49,11 +50,16 @@ export class BookingComponent {
     private toastr: ToastrService,
     private route:ActivatedRoute,
     @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
+  ) {
+    this.isBrowser = isPlatformBrowser(this.platformId);
+  }
 
   async ngOnInit() {
+    if (!this.isBrowser) {
+    return;
+  }
+
     this.userCountry = await this.detectCountry();
-    console.log('User country detected as:', this.userCountry);
     this.generateOrderNumber();
 
     this.route.paramMap.subscribe((params) => {
@@ -137,16 +143,20 @@ export class BookingComponent {
         this.tour.tourType = data.tourType;
         this.tour.overview = data.overview;
         this.image = data.images[0];
-
-        localStorage.setItem('tour', JSON.stringify(this.tour));
-        localStorage.setItem('filecode', this.filecode);
-        localStorage.setItem('image', this.image);
-        localStorage.setItem('prices', JSON.stringify(this.prices));
+        if (this.isBrowser) {
+          localStorage.setItem('tour', JSON.stringify(this.tour));
+          localStorage.setItem('filecode', this.filecode);
+          localStorage.setItem('image', this.image);
+          localStorage.setItem('prices', JSON.stringify(this.prices));
+        }
         this.updateAmounts();
       });
   }
 
   generateOrderNumber() {
+    if (!this.isBrowser) {
+      return;
+    }
     let lastOrder = localStorage.getItem('lastOrderNumber');
     let newOrder = 1;
 
@@ -215,6 +225,7 @@ export class BookingComponent {
   }
 
   printInvoice() {
+    if (!this.isBrowser) return;
     const printContents = document.getElementById('invoiceContent')?.innerHTML;
     const originalContents = document.body.innerHTML;
 
@@ -267,12 +278,14 @@ export class BookingComponent {
   }
 
   clearLocalStorage() {
+     if (!this.isBrowser) return;
     localStorage.removeItem('tour');
     localStorage.removeItem('filecode');
     localStorage.removeItem('prices');
   }
 
   ngOnDestroy() {
+     if (!this.isBrowser) return;
     localStorage.removeItem('tour');
     localStorage.removeItem('filecode');
     localStorage.removeItem('prices');
