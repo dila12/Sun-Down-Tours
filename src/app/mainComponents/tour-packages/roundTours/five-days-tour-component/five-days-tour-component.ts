@@ -141,11 +141,11 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Fresco Water Villa – Sigiriya', icon: 'fa-hotel', color: '#16a085' },
+            title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay at Fresco Water Villa (or similar).',
-            image: 'assets/img/8daysTours/fresco.jpg',
-            extra: ['Breakfast & Dinner Included', '3.5 Star Hotel'],
+              'Overnight stay at Hotel Topaz (or similar).',
+            image: 'assets/img/8daysTours/kandy-hotel.jpg',
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
@@ -189,9 +189,9 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
+            title: { title: 'Hotel Grand Tamarind Lake', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Overnight stay at Hotel Topaz (or similar).',
+              'Overnight stay at Grand Tamarind Lake (or similar).',
             image: 'assets/img/8daysTours/kandy-hotel.jpg',
             extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
@@ -200,18 +200,41 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
 
       {
         day: 4,
-        title: 'Nuwara Eliya to Udawalawa – Wildlife Encounter',
+        title: 'Nuwara Eliya to Ella – Mountain Scenery ',
         activities: [
           {
-            type: 'Safari',
+            type: 'Guided tour',
             title: {
-              title: 'Udawalawa National Park Safari',
-              icon: 'fa-paw',
+              title: 'Nine Arches Bridge',
+              icon: 'fa-bridge',
+              color: '#c0392b',
+            },
+            description:
+              'The majestic Nine Arch Bridge is one of the many reasons for that. The glorious Nine Arch Bridge between Ella and Demodara station is one of the engineering marvels in the early 20th century.',
+            image: 'assets/img/7dayschange/yka3mpx2nahiftrb0lpu.jpg',
+          },
+          {
+            type: 'Guided tour',
+            title: {
+              title: "Little Adam's Peak",
+              icon: 'fa-mountain',
+              color: '#8e44ad',
+            },
+            description:
+              'It is 1141 m in height and from the entrance it takes up to 30-45 min for the hike. Views from the summit are incredible. 360 degrees panoramic views with clouds rolling in, is a treat to watch.',
+            image: 'assets/img/7dayschange/e7sgetzhdjoahy2h9wgh.jpg',
+          },
+          {
+            type: 'Accommodation',
+            title: {
+              title: 'Oak Ray Ella Gap Hotel',
+              icon: 'fa-hotel',
               color: '#27ae60',
             },
             description:
-              'Embark on an exciting safari in Udawalawa National Park, one of the best places in Sri Lanka to see wild elephants in their natural habitat. Spot elephants, crocodiles, deer and birdlife across open grasslands.',
-            image: 'assets/img/6daysTours/udawalawa.jpg',
+              'Accommodation in Oak Ray Ella Gap Hotel or Similar - HB Basis',
+            image: 'assets/img/7dayschange/nhm6ktdm7nimqwwrgtbm.jpg',
+            extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
           },
         ],
       },
@@ -244,7 +267,7 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
           {
             type: 'Departure',
             title: {
-              title: 'Airport Drop Off Or Hotel Transfer',
+              title: 'Departure Transfer',
               icon: 'fa-plane',
               color: '#2c3e50',
             },

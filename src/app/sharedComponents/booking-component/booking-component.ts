@@ -43,6 +43,7 @@ export class BookingComponent {
   phoneNumber = '';
   userCountry: string = 'US';
   private isBrowser: boolean;
+  groupNotice = '';
 
   constructor(
     private router: Router,
@@ -56,8 +57,8 @@ export class BookingComponent {
 
   async ngOnInit() {
     if (!this.isBrowser) {
-    return;
-  }
+      return;
+    }
 
     this.userCountry = await this.detectCountry();
     this.generateOrderNumber();
@@ -176,6 +177,12 @@ export class BookingComponent {
     const value = parseInt(event.target.value, 10);
     this.travelers = isNaN(value) || value < 1 ? 1 : value;
     this.updateAmounts();
+
+    if (this.travelers >= 7) {
+        this.groupNotice ='For groups of 7 or more travelers, please contact sundowntoursrilanka@gmail.com for a customized group tour arrangement.'
+    } else {
+      this.groupNotice = '';
+    }
   }
 
   updateAmounts() {
@@ -278,14 +285,14 @@ export class BookingComponent {
   }
 
   clearLocalStorage() {
-     if (!this.isBrowser) return;
+    if (!this.isBrowser) return;
     localStorage.removeItem('tour');
     localStorage.removeItem('filecode');
     localStorage.removeItem('prices');
   }
 
   ngOnDestroy() {
-     if (!this.isBrowser) return;
+    if (!this.isBrowser) return;
     localStorage.removeItem('tour');
     localStorage.removeItem('filecode');
     localStorage.removeItem('prices');

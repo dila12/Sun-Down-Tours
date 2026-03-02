@@ -306,7 +306,7 @@ tour = {
 
   bookNow() {
     if (isPlatformBrowser(this.platformId)) {
-      const barcode = '2-day-ella-kandy-private-tour-sri-lankas';
+      const barcode = '2-day-ella-kandy-private-tour-sri-lanka';
       localStorage.setItem('tour', JSON.stringify(this.tour));
       localStorage.setItem('filecode', barcode);
       localStorage.setItem('image', this.images[0]);
