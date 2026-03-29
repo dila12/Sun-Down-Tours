@@ -427,7 +427,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
     includes: [
       'Air-Conditioned Private Vehicle',
       'English Speaking Professional Driver',
-      'Half Board Accommodation (7 Nights)',
+      'Half Board Accommodation (9 Nights)',
       'Fuel & Parking Fees',
       'Airport Pickup & Drop Off',
     ],
