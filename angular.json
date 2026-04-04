@@ -117,7 +117,7 @@
                "serverTarget": "Travelwebsite:server:production",
             "routes": [
               "/",
-              "/tour-packages",
+              "/sri-lanka-private-tour",
               "/7-day-sri-lanka-tour",
               "/8-day-sri-lanka-private-tour",
               "/ella-day-tour",

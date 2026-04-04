@@ -56,7 +56,7 @@ export const routes: Routes = [
         }
       },
       {
-        path: 'tour-packages',
+        path: 'sri-lanka-private-tour',
         component: TourPackages,
         data: {
           title: 'Sri Lanka Tour Packages | Private Round Tours',
