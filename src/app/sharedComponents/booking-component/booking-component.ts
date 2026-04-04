@@ -8,6 +8,7 @@ import countriesData from './../../../assets/data/countries.json';
 import countryCode from './../../../assets/data/countryCode.json';
 import { catchError } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
+import { SeoService } from '../../../seo.service';
 
 @Component({
   selector: 'app-booking-component',
@@ -46,6 +47,7 @@ export class BookingComponent {
     private http: HttpClient,
     private toastr: ToastrService,
     private route: ActivatedRoute,
+    private seo : SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {
     this.isBrowser = isPlatformBrowser(this.platformId);
@@ -61,6 +63,11 @@ export class BookingComponent {
 
     this.route.paramMap.subscribe((params) => {
       this.filecode = params.get('filecode')!;
+      this.seo.updateCanonicalUrl(`https://sundowntours.com/${this.filecode}`);
+      const meta = document.createElement('meta');
+      meta.name = 'robots';
+      meta.content = 'noindex, follow';
+      document.head.appendChild(meta);
       this.loadTourPrices(this.filecode);
     });
 

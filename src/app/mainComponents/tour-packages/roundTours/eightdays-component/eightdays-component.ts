@@ -6,6 +6,7 @@ import { PackageItemComponent } from '../../../../sharedComponents/package-item-
 import { HttpClient } from '@angular/common/http';
 import { CountryService } from '../../../../Services/country.service';
 import toursData from '../../../../databaseJson/tours.json';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-eightdays-component',
@@ -325,6 +326,7 @@ export class EightdaysComponent {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -372,6 +374,7 @@ export class EightdaysComponent {
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/8-day-sri-lanka-private-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.tour.filecode);

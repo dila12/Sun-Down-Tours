@@ -15,6 +15,7 @@ import toursData from '../../../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { HttpClient } from '@angular/common/http';
 import { CountryService } from '../../../../Services/country.service';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-five-days-tour-component',
@@ -287,6 +288,7 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -333,6 +335,7 @@ export class FiveDaysTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/5-day-sri-lanka-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

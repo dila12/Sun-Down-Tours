@@ -6,6 +6,7 @@ import toursData from '../../../../databaseJson/tours.json';
 import { CountryService } from '../../../../Services/country.service';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-sigiriya-day-tour-component',
@@ -151,6 +152,7 @@ export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
   nextImage() {
@@ -171,6 +173,7 @@ export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/sigiriya-day-tour');
       const isBrowser = isPlatformBrowser(this.platformId);
       if (!isBrowser) {
         this.userCountry = 'US';

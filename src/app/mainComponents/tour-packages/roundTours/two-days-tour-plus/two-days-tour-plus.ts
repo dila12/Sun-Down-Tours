@@ -6,6 +6,7 @@ import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/
 import { HttpClient } from '@angular/common/http';
 import { CountryService } from '../../../../Services/country.service';
 import toursData from '../../../../databaseJson/tours.json';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-two-days-tour-plus',
@@ -186,6 +187,7 @@ tour = {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
@@ -233,6 +235,7 @@ tour = {
   }
 
     async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka');
       const isBrowser = isPlatformBrowser(this.platformId);
       if (!isBrowser) {
         this.userCountry = 'US';

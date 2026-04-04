@@ -6,6 +6,7 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import toursData from '../../../../databaseJson/tours.json';
 import { Router, RouterModule } from '@angular/router';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-six-days-tour',
@@ -332,6 +333,7 @@ images: string[] = [
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
@@ -379,6 +381,7 @@ images: string[] = [
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/6-day-sri-lanka-private-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

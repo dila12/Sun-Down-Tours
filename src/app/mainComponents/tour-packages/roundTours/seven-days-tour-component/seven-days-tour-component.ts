@@ -15,6 +15,7 @@ import toursData from '../../../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { HttpClient } from '@angular/common/http';
 import { CountryService } from '../../../../Services/country.service';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-seven-days-tour-component',
@@ -417,6 +418,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -464,6 +466,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/7-day-sri-lanka-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.tour.filecode);

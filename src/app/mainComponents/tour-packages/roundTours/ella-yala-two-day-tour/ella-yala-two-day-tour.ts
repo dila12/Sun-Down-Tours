@@ -9,6 +9,7 @@ import {
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import toursData from '../../../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
+import { SeoService } from '../../../../../seo.service';
 
 @Component({
   selector: 'app-ella-yala-two-day-tour',
@@ -168,6 +169,7 @@ export class EllaYalaTwoDayTour {
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
+    private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -215,6 +217,7 @@ export class EllaYalaTwoDayTour {
   }
 
   async ngOnInit() {
+    this.seo.updateCanonicalUrl('https://sundowntours.com/2-day-ella-yala-private-tour-sri-lanka');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';
