@@ -61,332 +61,329 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     itinerary: [
       {
         day: 1,
-        title: 'Arrival  & Pidurangala Rock',
+        title: 'Airport / Hotel – Wilpattu',
         activities: [
           {
-            type: 'Arrival ',
-            title: { title: 'Arrival ', icon: 'fa-plane', color: '#2c3e50' },
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Pidurangala Rock',
-              icon: 'fa-hiking',
-              color: '#f39c12',
-            },
+            type: 'Safari',
+            title: { title: 'Wilpattu National Park Safari', icon: 'fa-paw', color: '#27ae60' },
             description:
-              'Little hike to Pidurangala Rock and enjoy the scenery.',
-            image: 'assets/img/5daysTours/c8dyxgodivrwf4hxzziq.jpg',
+              'Explore Sri Lanka’s largest national park on a 5-hour 4x4 jeep safari. Spot leopards, sloth bears, elephants, deer, crocodiles and diverse birdlife.',
+            image: 'assets/img/5daysTours/37.jpg',
           },
           {
             type: 'Accommodation',
-            title: {
-              title: 'Fresco Water Villa',
-              icon: 'fa-hotel',
-              color: '#27ae60',
-            },
+            title: { title: 'Thimbiri Wewa Resort – Wilpattu', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Accommodation in Hotel Fresco Water Villa or Similar Hotel - HB Basis',
-            image: 'assets/img/7dayschange/f4yqlbw3bjsz3szp3hbq.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Dinner'],
+              'Overnight stay at Thimbiri Wewa Resort Wilpattu (or similar). Half Board basis.',
+            image: 'assets/img/5daysTours/38.jpg',
+            extra: ['Dinner Included', 'Star Class Hotel'],
           },
         ],
       },
+
       {
         day: 2,
-        title: 'Sigiriya & Dambulla',
+        title: 'Wilpattu – Sigiriya',
         activities: [
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Sigiriya Lion Rock',
-              icon: 'fa-mountain',
-              color: '#e74c3c',
-            },
+            type: 'Scenic Hike',
+            title: { title: 'Hiriwadunna Village and Lake Adventure', icon: 'fa-mountain', color: '#43bb26' },
             description:
-              'To kick off day two s proceedings, you ll be visiting an UNESCO World Heritage site - Sigiriya rock fortress.',
-            image: 'assets/img/7dayschange/ihyw8fdom33yg8zqkmfi.jpg',
+              'Experience authentic rural life in Sri Lanka with a traditional village tour in Hiriwadunna. This immersive experience allows travelers to explore the countryside and learn about local farming, village culture, and traditional cooking methods. Begin with a peaceful walk through the village, passing paddy fields, vegetable gardens, and local homes. Enjoy a traditional bullock cart ride and a canoe ride across a scenic lake surrounded by nature. During the cookery session, you will join a local family to prepare traditional Sri Lankan dishes using fresh ingredients and clay pots over a wood fire. Learn about local spices, coconut preparation, and authentic cooking techniques before enjoying the freshly prepared meal. This experience offers a unique opportunity to connect with local people and understand Sri Lanka’s rural lifestyle and traditions.',
+            image: 'assets/img/5daysTours/ee9i4pplrqkjewusnhko.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Hiriwadunna Village & Lake Adventure',
-              icon: 'fa-leaf',
-              color: '#8e44ad',
-            },
+            type: 'Scenic Hike',
+            title: { title: 'Kaudulla & Minneriya Friendly Jeep Safari', icon: 'fa-mountain', color: '#e74c3c' },
             description:
-              "Let's get some traditional Sri Lankan village experience!!! A visit to the hamlet of Hiriwadunna in Sri Lanka showcases the laid-back rhythms of small village life.",
-            image: 'assets/img/5daysTours/36.jpg',
+              'Enjoy an exciting 4x4 jeep safari in either Kaudulla National Park or Minneriya National Park, depending on wildlife movements and seasonal conditions. These parks are famous for their large gatherings of Asian elephants, especially during the dry season. Your safari begins with a comfortable jeep ride accompanied by an experienced local driver/guide. As you explore the park’s grasslands, wetlands, and forest areas, you may encounter herds of elephants, deer, wild buffalo, crocodiles, monkeys, and a variety of bird species. During certain times of the year, visitors can witness the spectacular “Elephant Gathering,” where hundreds of elephants come together near the reservoir one of Asia’s most impressive wildlife events. This safari offers a fantastic opportunity to experience Sri Lanka’s wildlife and natural beauty in a safe and memorable way.',
+            image: 'assets/img/5daysTours/xj7qybc2bk5bwnxdkubp.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Dambulla Cave Temple',
-              icon: 'fa-place-of-worship',
-              color: '#2980b9',
-            },
+            type: 'Scenic Hike',
+            title: { title: 'Ayurveda Isiwara Paura Sigiriya - Healthy side of your life', icon: 'fa-mountain', color: '#e74c3c' },
             description:
-              'After refreshing at Hiriwadunna Village, next up you ll be heading to Dambulla Royal Cave Temple A sacred pilgrimage site for 22 centuries.',
-            image: 'assets/img/7dayschange/d2ap1r8hoijw6wsm5xgy.jpg',
+              'After an active day exploring Sigiriya and the surrounding attractions, enjoy a relaxing Ayurvedic wellness experience at a traditional Ayurveda center in Sigiriya. This session includes a traditional Sri Lankan herbal oil massage performed by experienced therapists using natural oils prepared with local medicinal herbs. The treatment is designed to help relieve muscle tension, improve circulation, and promote overall relaxation. Guests will learn about the principles of Ayurveda, Sri Lanka’s ancient healing system, and how natural therapies are used to balance the body and mind. The peaceful environment provides the perfect opportunity to unwind and refresh after sightseeing activities. This experience offers a soothing and authentic wellness touch to your Cultural Triangle journey.',
+            image: 'assets/img/5daysTours/43.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Dambulla Dedicated Economic Center',
-              icon: 'fa-shopping-basket',
-              color: '#16a085',
-            },
+            type: 'Scenic Hike',
+            title: { title: 'Pidurangala Rock Sunset', icon: 'fa-mountain', color: '#e74c3c' },
             description:
-              'Enjoy fresh fruits and vegetables at Dambulla market.',
-            image: 'assets/img/7dayschange/v54wmh9aukt4toblznpu.jpg',
+              'In the evening, climb Pidurangala Rock for one of the most breathtaking sunset views in Sri Lanka. Located near Sigiriya, this rock offers a panoramic viewpoint overlooking the iconic Sigiriya Lion Rock and the surrounding jungle landscape. The climb takes approximately 20–30 minutes and includes stone steps followed by a short rock scramble near the summit. Your guide/driver will assist you and ensure a safe and comfortable experience. At the top, enjoy stunning 360-degree views of forests, lakes, and distant mountains as the sun sets over the horizon. This is one of the best photography spots in the Sigiriya region and a peaceful way to end the day. Travelers will have time to relax, take photos, and enjoy the natural beauty before descending.',
+            image: 'assets/img/5daysTours/41.jpg',
           },
           {
             type: 'Accommodation',
-            title: {
-              title: 'Fresco Water Villa',
-              icon: 'fa-hotel',
-              color: '#27ae60',
-            },
-            description: 'Stay overnight with HB basis',
-            image: 'assets/img/7dayschange/f4yqlbw3bjsz3szp3hbq.jpg',
-            extra: ['Breakfast', 'Dinner'],
+            title: { title: 'Fresco Water Villa – Sigiriya', icon: 'fa-hotel', color: '#16a085' },
+            description:
+              'Overnight stay at Fresco Water Villa (or similar).',
+            image: 'assets/img/5daysTours/c.jpg',
+            extra: ['Breakfast & Dinner Included', '3.5 Star Hotel'],
           },
         ],
       },
+
       {
         day: 3,
-        title: 'Kandy City Tour',
+        title: 'Sigiriya to Kandy',
         activities: [
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Sri Dalada Maligawa',
-              icon: 'fa-place-of-worship',
-              color: '#2980b9',
-            },
+            type: 'UNESCO Site',
+            title: { title: 'Sigiriya Lion Rock Fortress', icon: 'fa-mountain', color: '#c0392b' },
             description:
-              'You ll be finally visiting the temple which houses the Sacred Tooth Relic of the Buddha is one of the holiest shrines in the entire Buddhist world!!!',
-            image: 'assets/img/7dayschange/f3pqyx8y4gpwmqhzleh0.jpg',
+              'Explore the iconic Sigiriya Lion Rock Fortress, a UNESCO World Heritage Site and one of Sri Lanka’s most famous historical landmarks. Built in the 5th century by King Kashyapa, this ancient rock fortress rises nearly 200 meters above the surrounding plains. Your visit begins with a walk through the beautifully landscaped royal gardens, including water gardens, fountains, and symmetrical pathways. As you climb the rock, you will pass the famous Sigiriya frescoes, the Mirror Wall, and the impressive Lion’s Paw entrance. At the summit, discover the ruins of the ancient royal palace and enjoy breathtaking panoramic views of the surrounding jungle, lakes, and countryside. Your guide/driver will explain the fascinating history, architecture, and legends connected to this extraordinary site. This experience offers a perfect combination of history, adventure, and stunning scenery.',
+            image: 'assets/img/5daysTours/42.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Kandy Lake Club - Cultural Dance Show',
-              icon: 'fa-theater-masks',
-              color: '#8e44ad',
-            },
+            type: 'UNESCO Site',
+            title: { title: 'Matale Herbal and Spice Garden', icon: 'fa-mountain', color: '#c0392b' },
             description:
-              'The Kandy Lake Club Cultural Dance Show is a stimulating Sri Lankan Arts, Dance & Cultural Heritage Show that is a must see for any visitor who visits the historic city of Kandy.',
-            image: 'assets/img/7dayschange/upxn0ge9htdg20ycpgp6.jpg',
+              'Visit a traditional Herbal and Spice Garden in Matale, where you will discover Sri Lanka’s world-famous spices and medicinal plants. During this guided walk, you will see how cinnamon, cardamom, pepper, vanilla, cocoa, and many other spices are grown and processed. The local guide will explain the health benefits and traditional uses of various herbs and Ayurvedic plants used in Sri Lankan cooking and natural medicine. You will also learn about herbal remedies, essential oils, and natural treatments that have been practiced for centuries. Guests will have the opportunity to experience a short demonstration of herbal products and taste freshly prepared spice tea. This visit offers an educational and cultural insight into Sri Lanka’s rich spice heritage.',
+            image: 'assets/img/5daysTours/kt2ugiesd68bdog5kdab.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Sri Muthumariamman Temple',
-              icon: 'fa-place-of-worship',
-              color: '#2980b9',
-            },
+            type: 'UNESCO Site',
+            title: { title: 'Natural Gems and Gemmological Museum', icon: 'fa-mountain', color: '#17777a' },
             description:
-              'Sri Muthumariamman Hindu Temple is one of the great examples to prove Sri Lanka has been a multi cultural country through out all these years.',
-            image: 'assets/img/7dayschange/gt14exwu7ogp3rz9aun9.jpg',
+              'Discover the beauty of Sri Lanka’s precious gemstones at the Natural Gems and Gemmological Museum in Kandy. Travelers can explore a fascinating collection of rare gems, learn about the history of Sri Lanka’s gem industry, and see how gemstones are mined, cut, and polished. The museum offers an educational and cultural experience, showcasing the craftsmanship and heritage behind the world-famous Ceylon gems.',
+            image: 'assets/img/5daysTours/47.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Nalanda Gedige',
-              icon: 'fa-landmark',
-              color: '#16a085',
-            },
+            type: 'UNESCO Site',
+            title: { title: 'Temple of the Sacred Tooth Relic', icon: 'fa-mountain', color: '#6ac53f' },
             description:
-              'An ancient and mysterious edifice near Matale that has confounded researchers with its strange mix of Hindu and Buddhist architecture. Believed to be at least a thousand years old the structure',
-            image: 'assets/img/7dayschange/u9901tv9mcxlz9rd9mgw.jpg',
+              'Visit the Temple of the Sacred Tooth Relic in Kandy, one of the most sacred Buddhist sites in the world and a UNESCO World Heritage Site. This historic temple houses the sacred tooth relic of Lord Buddha and is an important pilgrimage destination for Buddhists. During your visit, explore the beautiful temple complex located beside Kandy Lake. Admire the traditional Kandyan architecture, golden roof, intricate wood carvings, and detailed paintings that decorate the shrine rooms. If visiting during prayer time (Pooja ceremony), travelers will witness traditional drumming and devotional rituals performed by local worshippers. Your guide/driver will explain the religious and historical importance of the temple and its role in Sri Lanka’s heritage. This experience offers a meaningful cultural and spiritual insight into Sri Lanka’s rich Buddhist traditions.',
+            image: 'assets/img/5daysTours/14.jpg',
+          },
+          {
+            type: 'UNESCO Site',
+            title: { title: 'Kandy Lake Club Cultural Show', icon: 'fa-mountain', color: '#c72943' },
+            description:
+              'Enjoy an evening of traditional Sri Lankan culture at the Kandy Lake Club Cultural Show. This vibrant performance showcases the rich heritage of Kandyan dance, music, and traditional rituals that have been passed down for generations. The show features colorful costumes, energetic drum performances, and various traditional dance forms from different regions of Sri Lanka. Highlights include Kandyan Ves dancers, mask dances, fire walking, and thrilling fire performances. Travelers will experience the rhythm of traditional Sri Lankan drums and witness impressive acrobatic and cultural displays in a comfortable indoor setting near Kandy Lake. This performance provides a perfect cultural ending to your day in Kandy, offering insight into the island’s artistic traditions and folklore.',
+            image: 'assets/img/5daysTours/fifyrnqt5tvouhpgh6kk.jpg',
+          },
+          {
+            type: 'UNESCO Site',
+            title: { title: 'Kandy View Point', icon: 'fa-mountain', color: '#967b06' },
+            description:
+              'Stop at the Kandy View Point to enjoy a panoramic view of the beautiful city of Kandy. Located on a hill overlooking Kandy Lake and the Temple of the Sacred Tooth Relic, this viewpoint offers one of the best photo opportunities in the city. From the top, travelers can admire the scenic landscape of rolling hills, lush greenery, and the peaceful lake at the heart of Kandy. Your guide/driver will briefly explain the layout of the city and highlight important landmarks visible from the viewpoint. This short stop provides a perfect opportunity to capture memorable photographs and appreciate the natural beauty of Sri Lanka’s cultural capital.',
+            image: 'assets/img/5daysTours/476465443_947365727374414_5703532547629723678_n.jpg',
           },
           {
             type: 'Accommodation',
-            title: { title: 'Hotel Topaz', icon: 'fa-hotel', color: '#27ae60' },
-            description: 'Accommodation in Hotel Topaz or similar - HB Basis',
-            image: 'assets/img/7dayschange/sxapeujg7mpergbd5nic.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
+            title: { title: 'Hotel Topaz – Kandy', icon: 'fa-hotel', color: '#16a085' },
+            description:
+              'Overnight stay at Hotel Topaz (or similar).',
+            image: 'assets/img/5daysTours/25.jpg',
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
+
       {
         day: 4,
-        title: 'Nuwara Eliya via Ramboda Falls',
+        title: 'Kandy To Ella',
         activities: [
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Royal Botanical Garden',
-              icon: 'fa-leaf',
-              color: '#2ecc71',
-            },
+            type: 'Cultural Visit',
+            title: { title: 'Ambuluwawa Tower', icon: 'fa-hotel', color: '#b6d6b6' },
             description:
-              'The gardens display over 4 000 different species of plants, regarded amongst the most superior in Asia.',
-            image: 'assets/img/7dayschange/asojmlldivxq8vforwxt.jpg',
+              'Visit Ambuluwawa Tower in Gampola, a unique multi-religious sanctuary and biodiversity complex located on a hilltop with stunning 360-degree views. The highlight of this visit is the spiral white tower, which offers breathtaking panoramic views of the surrounding mountains, rivers, and valleys. Travelers can climb the narrow spiral staircase to the top of the tower for an adventurous and memorable experience. From the summit, enjoy spectacular views of the central highlands, including distant mountain ranges and lush greenery. The Ambuluwawa complex also features symbols representing Buddhism, Hinduism, Islam, and Christianity, reflecting Sri Lanka’s religious harmony. This stop offers a combination of light adventure, scenic beauty, and cultural insight.',
+            image: 'assets/img/5daysTours/12.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Ambuluwawa Tower',
-              icon: 'fa-mountain',
-              color: '#e67e22',
-            },
+            type: 'UNESCO Site',
+            title: { title: 'Visit Tea Factory', icon: 'fa-seedling', color: '#2980b9' },
             description:
-              'Next up.. an easy hike to do which gives you 360 degree views of the surrounding mountains, forests, rivers and towns in Kandy!',
-            image: 'assets/img/7dayschange/w3a48osbcocecoaaq9hd.jpg',
+              'Visit the Tea Factory in Upcountry, located in the scenic hill country of Sri Lanka. This working tea factory offers an insightful experience into how world-famous Ceylon tea is produced. During the guided factory tour, travelers will learn about the full tea-making process from plucking fresh tea leaves in the plantations to withering, rolling, fermenting, drying, and grading. The guide will explain the differences between various tea types such as black tea, green tea, and white tea. After the tour, guests can enjoy a freshly brewed cup of pure Ceylon tea while admiring the beautiful mountain views surrounding the factory. There will also be an opportunity to purchase high-quality tea directly from the source. This stop provides both an educational and scenic experience in Sri Lanka’s tea country.',
+            image: 'assets/img/5daysTours/28.png',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Bluefield Tea Factory',
-              icon: 'fa-coffee',
-              color: '#8e44ad',
-            },
+            type: 'Cultural Show',
+            title: { title: 'Ramboda Waterfall', icon: 'fa-water', color: '#1a64a1' },
             description:
-              'As a land of tea, Nuwara Eliya has quite a large number of tea factories, tea houses and tea fields. Bluefield Tea Factory in Nuwara Eliya is one of the most popular tea factories in Sri Lanka.',
-            image: 'assets/img/7dayschange/tijr5ztiozgdesbxotm4.jpg',
+              'Stop at Ramboda Waterfall, one of the tallest and most beautiful waterfalls in Sri Lanka, located in the scenic hill country near Pussellawa. Surrounded by lush greenery and tea plantations, this impressive waterfall cascades down approximately 109 meters, creating a stunning natural spectacle. Travelers can enjoy a short walk to the viewpoint to admire the waterfall and take memorable photographs. The cool mountain climate and peaceful environment make this a refreshing stop during your journey through the central highlands. Your guide/driver will provide information about the surrounding area and allow time to relax and enjoy the natural beauty before continuing the tour. This stop offers a perfect scenic break while traveling between Kandy and Nuwara Eliya.',
+            image: 'assets/img/5daysTours/11.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Ramboda Falls View Point',
-              icon: 'fa-water',
-              color: '#3498db',
-            },
+            type: 'City Tour',
+            title: { title: 'Nine Arch Bridge', icon: 'fa-mountain', color: '#bdcf16' },
             description:
-              'Ramboda falls lies in the Pussellawa district, in the city of Kandy. The area is known for marvelous landscapes comprising of highlands, ridges, plains, streams and hilly mountains.',
-            image: 'assets/img/7dayschange/ovdxsgglrdreodbe1tmv.jpg',
+              'Visit the iconic Nine Arch Bridge in Ella, one of Sri Lanka’s most photographed landmarks. Surrounded by lush green tea plantations and dense jungle, this impressive colonial-era railway bridge was built entirely of stone and brick without the use of steel. Travelers will enjoy a short walk through scenic pathways to reach the bridge viewpoint. If timing allows, you may witness a train passing over the bridge a memorable and picturesque moment perfect for photography. From the viewing area, admire the beautiful arches stretching across the valley and the peaceful hill country landscape surrounding the bridge. This stop offers excellent photo opportunities and a chance to experience one of Ella’s most famous attractions.',
+            image: 'assets/img/5daysTours/beqnuxidbmckapjcag2m.jpg',
+          },
+          {
+            type: 'City Tour',
+            title: { title: 'Ella Night City Tour', icon: 'fa-city', color: '#bdcf16' },
+            description:
+              'Enjoy a scenic city tour of Ella, one of Sri Lanka’s most charming hill country towns. Surrounded by lush tea plantations, rolling hills, and breathtaking mountain views, Ella offers a perfect combination of nature and relaxation. During the tour, travelers will visit popular attractions such as the famous Nine Arch Bridge, Little Adam’s Peak viewpoint, and Ravana Falls (depending on time availability). Enjoy panoramic views of the Ella Gap and the surrounding valleys while experiencing the peaceful atmosphere of this mountain town. The tour provides excellent photography opportunities and light adventure experiences, making Ella one of the highlights of the hill country journey.',
+            image: 'assets/img/5daysTours/493941167_1168713261935959_7694929961337031118_n.jpg',
           },
           {
             type: 'Accommodation',
-            title: {
-              title: 'Ramboda Falls Hotel',
-              icon: 'fa-hotel',
-              color: '#27ae60',
-            },
+            title: { title: ' La Ella Breeze  Hotel', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Accommodation in Ramboda Falls Hotel or Similar - HB Basis',
-            image: 'assets/img/7dayschange/zxla06noouvzn6e0teui.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
-          },
+              'Accommodation in  La Ella Breeze  Hotel or Similar hotel - HB Basis',
+            image: 'assets/img/5daysTours/DJI_20240418061903_0457_D.png',
+            extra: [
+              'Hotel 4 stars (Premium)',
+              'Breakfast',
+              'Private bathroom',
+              'Dinner',
+            ],
+          }
         ],
       },
+
       {
         day: 5,
-        title: 'Ella Adventures',
+        title: 'Ella - Mirissa',
         activities: [
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Nine Arches Bridge',
-              icon: 'fa-bridge',
-              color: '#c0392b',
-            },
+            type: 'Ella Train Ride',
+            title: { title: 'Ella Train Ride', icon: 'fa-train', color: '#33138b' },
             description:
-              'The majestic Nine Arch Bridge is one of the many reasons for that. The glorious Nine Arch Bridge between Ella and Demodara station is one of the engineering marvels in the early 20th century.',
-            image: 'assets/img/7dayschange/yka3mpx2nahiftrb0lpu.jpg',
+              'Travelers will experience the famous Ella train ride, one of the most scenic railway journeys in the world. The journey passes through lush tea plantations, misty mountains, tunnels, waterfalls, and picturesque villages, offering breathtaking views of Sri Lanka’s hill country. Guests can relax and enjoy the spectacular landscapes while capturing memorable photos from the train. This iconic rail journey provides a unique opportunity to experience local culture, stunning natural beauty, and the charm of Sri Lanka’s historic railway system, making it one of the highlights of the tour.',
+            image: 'assets/img/5daysTours/6.jpeg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: 'Lake Gregory',
-              icon: 'fa-water',
-              color: '#2980b9',
-            },
+            type: 'Little Adam’s Peak View Point',
+            title: { title: 'Little Adam’s Peak View Point', icon: 'fa-mountain', color: '#079e78' },
             description:
-              'Spanning 225 acres, Lake Gregory is the place to go for water activities in Nuwara Eliya, with the park serving as a great spot for picnics.',
-            image: 'assets/img/7dayschange/sd3y8zh2cskrddig22n7.jpg',
+              'Hike to Little Adam’s Peak in Ella for one of the most rewarding and easily accessible viewpoints in Sri Lanka’s hill country. This gentle trek takes you through lush tea plantations and scenic pathways with breathtaking views along the way. The hike is suitable for most fitness levels and typically takes about 30–45 minutes to reach the summit. At the top, travelers can enjoy panoramic views of the Ella Gap, surrounding mountains, valleys, and rolling tea estates. This experience offers a perfect mix of light adventure and stunning natural scenery, making it one of the highlights of visiting Ella. It is also an excellent location for photography, especially during early morning or late afternoon.',
+            image: 'assets/img/5daysTours/9.jpg',
           },
           {
-            type: 'Guided tour',
-            title: {
-              title: "Little Adam's Peak",
-              icon: 'fa-mountain',
-              color: '#8e44ad',
-            },
+            type: 'Ravana Ella Falls',
+            title: { title: 'Ravana Ella Falls', icon: 'fa-water', color: '#3498db' },
             description:
-              'It is 1141 m in height and from the entrance it takes up to 30-45 min for the hike. Views from the summit are incredible. 360 degrees panoramic views with clouds rolling in, is a treat to watch.',
-            image: 'assets/img/7dayschange/e7sgetzhdjoahy2h9wgh.jpg',
+              'Stop at Ravana Ella Falls, one of the widest and most impressive waterfalls in Sri Lanka, located along the scenic road near Ella. Surrounded by lush greenery and dramatic rock formations, this beautiful waterfall cascades down from a height of approximately 25 meters. According to local legend, the falls are connected to the ancient Ramayana story, where King Ravana is believed to have hidden Princess Sita in nearby caves. Your guide/driver will briefly explain the cultural and historical significance of the area. Travelers can enjoy the refreshing mountain air, take memorable photographs, and admire the natural beauty of this popular hill country attraction. This stop offers a relaxing and scenic break during your journey through Ella.',
+            image: 'assets/img/7dayschange/zauxzn86ulp9ddnrzlvw.jpg',
           },
           {
             type: 'Accommodation',
-            title: {
-              title: 'Oak Ray Ella Gap Hotel',
-              icon: 'fa-hotel',
-              color: '#27ae60',
-            },
+            title: { title: 'mandara resort Hotel', icon: 'fa-hotel', color: '#0f4572' },
             description:
-              'Accommodation in Oak Ray Ella Gap Hotel or Similar - HB Basis',
-            image: 'assets/img/7dayschange/nhm6ktdm7nimqwwrgtbm.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
+              'Overnight stay in Mirissa.',
+            image: 'assets/img/5daysTours/mandara-resort.jpg',
+            extra: ['Breakfast & Dinner Included', '4 Star Hotel'],
           },
         ],
       },
       {
         day: 6,
-        title: 'Yala National Park & Ravana Falls',
+        title: 'Mirissa - Whale Watching & Water Activities',
         activities: [
           {
-            type: 'Guided tour',
+            type: 'Whale Watching',
             title: {
-              title: 'Yala National Park',
-              icon: 'fa-paw',
-              color: '#2ecc71',
+              title: 'Mirissa Whale & Dolphin Watching',
+              icon: 'fa-water',
+              color: '#3498db'
             },
             description:
-              'Yala is home to 44 varieties of mammal and 215 bird species. Among its more famous residents are the world’s biggest concentration of leopards',
-            image: 'assets/img/7dayschange/u1iadnsusjf2h8zdhma5.jpg',
+              'Embark on an unforgettable whale and dolphin watching adventure in Mirissa, Sri Lanka’s premier marine wildlife destination. Cruise into the deep waters of the Indian Ocean in search of magnificent Blue Whales, Sperm Whales, Bryde’s Whales, and large pods of playful dolphins. Mirissa is recognized as one of the best whale-watching locations in the world, offering visitors a rare opportunity to witness these gentle giants in their natural habitat while enjoying breathtaking ocean views and a memorable wildlife experience.',
+            image: 'assets/img/5daysTours/Mirissa-Whale-Watching-1.jpg',
           },
           {
-            type: 'Guided tour',
+            type: 'Snorkeling',
             title: {
-              title: 'Ravana Falls',
-              icon: 'fa-water',
-              color: '#3498db',
+              title: 'Mirissa Whale Snorkeling Experience',
+              icon: 'fa-mask-snorkel',
+              color: '#1abc9c'
             },
             description:
-              'Ravana Falls is entrenched in myth and folklore. It is believed that the demon King Ravana, from the epic Ramayan, hid Sita in the cave behind the waterfall after he kidnapped her and brought her back',
-            image: 'assets/img/7dayschange/zauxzn86ulp9ddnrzlvw.jpg',
+              'Discover the vibrant underwater world of Mirissa through an exciting snorkeling experience in crystal-clear tropical waters. Explore colorful coral formations, tropical reef fish, and diverse marine ecosystems along Sri Lanka’s southern coastline. This activity is perfect for ocean lovers seeking an immersive marine adventure surrounded by stunning natural beauty and rich biodiversity.',
+            image: 'assets/img/5daysTours/images.jpg',
+          },
+          {
+            type: 'Snorkeling',
+            title: {
+              title: 'Mirissa Turtle Snorkeling Adventure',
+              icon: 'fa-fish',
+              color: '#27ae60'
+            },
+            description:
+              'Swim alongside graceful sea turtles in the warm waters of Mirissa and experience one of Sri Lanka’s most popular marine activities. Observe Green Turtles and Hawksbill Turtles in their natural environment while snorkeling among tropical fish and coral reefs. This unforgettable encounter offers incredible photo opportunities and a unique connection with the marine life of the Indian Ocean.',
+            image: 'assets/img/5daysTours/5d.jpg',
+          },
+          {
+            type: 'Water Activity',
+            title: {
+              title: 'Mirissa Sunset Kayak Ride',
+              icon: 'fa-water',
+              color: '#e67e22'
+            },
+            description:
+              'Experience the magic of a tropical sunset with a peaceful kayak journey along the picturesque coastline of Mirissa. Paddle through calm ocean waters as the sky transforms into vibrant shades of orange, pink, and gold. This relaxing adventure combines stunning coastal scenery, refreshing sea breezes, and unforgettable sunset views, making it one of the most scenic water activities in southern Sri Lanka.',
+            image: 'assets/img/5daysTours/7a.jpg',
+          },
+          {
+            type: 'Boat Ride',
+            title: {
+              title: 'Mirissa Sunset Boat Ride',
+              icon: 'fa-ship',
+              color: '#9b59b6'
+            },
+            description:
+              'Set sail on a relaxing sunset boat ride in Mirissa and enjoy panoramic views of Sri Lanka’s breathtaking southern coastline. Watch the sun slowly disappear over the Indian Ocean while cruising through tranquil waters surrounded by spectacular scenery. This romantic and family-friendly experience provides the perfect opportunity to capture stunning photographs and create lasting memories of your Sri Lankan beach holiday.',
+            image: 'assets/img/5daysTours/mirissa-sunset-boat.jpg',
           },
           {
             type: 'Accommodation',
             title: {
-              title: 'Grand Tamarind Lake Hotel',
+              title: 'Mandara Resort Hotel',
               icon: 'fa-hotel',
-              color: '#27ae60',
+              color: '#16a085'
             },
             description:
-              'Accommodation in Grand Tamarind Lake Hotel or Similar - HB Basis',
-            image: 'assets/img/7dayschange/ipbxv6o0ovr2tfbc6pge.jpg',
-            extra: ['Hotel 5 stars (Luxury)', 'Private bathroom'],
-          },
+              'Enjoy a comfortable overnight stay at Mandara Resort Hotel or a similar premium beachfront property in Mirissa. Located close to the beach and major attractions, the hotel offers modern amenities, spacious rooms, excellent hospitality, and a relaxing atmosphere. The package includes Half Board accommodation with breakfast and dinner, ensuring a pleasant and memorable stay on Sri Lanka’s beautiful southern coast.',
+            image: 'assets/img/5daysTours/mandara-resort.jpg',
+            extra: [
+              'Hotel 4 Stars (Premium)',
+              'Breakfast Included',
+              'Private Bathroom',
+              'Dinner Included',
+            ],
+          }
         ],
       },
       {
         day: 7,
-        title: 'Mirissa & Departure',
+        title: 'water Activities & Departure',
         activities: [
           {
-            type: 'Conservation',
+            type: 'Nature & Cultural Experience',
             title: {
-              title: 'Sea Turtle Conservation Project',
-              icon: 'fa-water',
-              color: '#2980b9',
+              title: 'Coconut Tree Hill Mirissa',
+              icon: 'fa-camera',
+              color: '#27ae60',
             },
             description:
-              'Visit a sea turtle conservation center along the south coast and learn about marine wildlife protection, hatchery programs and rehabilitation efforts.',
+              'Visit the iconic Coconut Tree Hill in Mirissa, one of the most photographed coastal viewpoints in Sri Lanka. Perched on a cliff overlooking the turquoise waters of the Indian Ocean, this breathtaking location is lined with towering coconut palms, creating a picture-perfect tropical landscape. Enjoy panoramic ocean views, capture stunning sunrise or sunset photographs, and experience the natural beauty that has made Coconut Tree Hill a must-visit attraction for travelers exploring Sri Lanka’s southern coast.',
+            image: 'assets/img/5daysTours/loepkav24dt36ngebdpp.jpg',
+          },
+          {
+            type: 'Wildlife Conservation',
+            title: {
+              title: 'Koggala Turtle Hatchery Visit',
+              icon: 'fa-water',
+              color: '#27ae60',
+            },
+            description:
+              'Visit the Koggala Turtle Hatchery and Conservation Center where endangered sea turtles are protected and rehabilitated. Learn about Sri Lanka’s marine conservation efforts, observe baby turtles in hatchery pools and understand how rescued turtles are released back into the Indian Ocean.',
             image: 'assets/img/5daysTours/31.jpg',
           },
           {
             type: 'Boat Safari',
             title: {
-              title: 'Madu River Safari',
+              title: 'Madu River Boat Safari',
               icon: 'fa-ship',
-              color: '#3498db',
+              color: '#16a085',
             },
             description:
-              'Enjoy a scenic boat safari through the mangrove forests and small islands of the Madu River. Discover local cinnamon cultivation and diverse wetland wildlife.',
+              'Experience a scenic boat safari through the mangrove forests and small islands of the Madu River. Visit traditional cinnamon plantations and explore one of Sri Lanka’s most beautiful wetland ecosystems.',
             image: 'assets/img/5daysTours/32.jpg',
           },
           {
@@ -409,7 +406,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
       'Fuel & Parking Fees',
       '24 Hours Service',
       'Unlimited Mileage/Kilometer for entire round tour',
-      'Your Accommodation',
+      'Tour Accommodation',
     ],
     excludes: ['Food & Drinks', 'Entrance & Activities Fees'],
   };
@@ -420,7 +417,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     private countryService: CountryService,
     private seo: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object,
-  ) {}
+  ) { }
 
   get currentImage() {
     return this.images[this.currentIndex];
