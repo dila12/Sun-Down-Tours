@@ -2,9 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sundowntours.com/sitemap.xml
-
-Disallow: /pl/
-Disallow: /ru/
-Disallow: /zh/
-Disallow: /fr/
-Disallow: /de/
