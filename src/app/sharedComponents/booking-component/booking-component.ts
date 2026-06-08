@@ -10,6 +10,8 @@ import { catchError } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
 import { SeoService } from '../../../seo.service';
 
+declare let gtag: Function;
+
 @Component({
   selector: 'app-booking-component',
   standalone: true,
@@ -222,6 +224,15 @@ export class BookingComponent {
       .post(`${environment.backendUrl}/send-booking-email`, bookingDetails)
       .subscribe({
         next: (res: any) => {
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'conversion', {
+              send_to: 'AW-1234567890/ABCDefGhijkLmNoP',
+              value: this.total,
+              currency: 'USD',
+              transaction_id: this.orderNumber
+            });
+          }
+
           this.toastr.success(
             'Your booking has been completed successfully!',
             'Booking Confirmed',

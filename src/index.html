@@ -16,6 +16,7 @@
   <meta property="og:url" content="https://sundowntours.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Sundown Tours Sri Lanka">
+  <meta property="og:locale" content="en_US">
   <link rel="alternate" hreflang="en" href="https://sundowntours.com/" />
   <link rel="alternate" hreflang="x-default" href="https://sundowntours.com/" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
@@ -33,11 +34,19 @@
   <link rel="canonical" href="https://sundowntours.com/">
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
-    
+
+    /* Google Analytics 4 */
     gtag('config', 'G-KVF224182X');
-    </script>
+
+    /* Google Ads */
+    gtag('config', 'AW-1234567890');
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -66,28 +75,28 @@
     <h1>Sri Lanka Tours with Private Driver & Custom Travel Packages</h1>
     <p>Explore Sri Lanka with tailor made tours, chauffeur services, and holiday packages including Sigiriya, Ella, Yala
       Safari and beaches.</p>
-    </noscript>
-    <app-root></app-root>
-    
-    <div id="google_translate_element" style="display:none;"></div>
-    
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
-    autoDisplay: false
-  }, 'google_translate_element');
+  </noscript>
+  <app-root></app-root>
 
-  if (location.pathname.match(/^\/(pl|ru|zh|zh-CN|fr|de|it|es)/)) {
-    let meta = document.createElement('meta');
-    meta.name = 'robots';
-    meta.content = 'noindex, follow';
-    document.head.appendChild(meta);
-  }
-}
-</script>
+  <div id="google_translate_element" style="display:none;"></div>
+
+  <script src="https://elfsightcdn.com/platform.js" async></script>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
+        autoDisplay: false
+      }, 'google_translate_element');
+
+      if (location.pathname.match(/^\/(pl|ru|zh|zh-CN|fr|de|it|es)/)) {
+        let meta = document.createElement('meta');
+        meta.name = 'robots';
+        meta.content = 'noindex, follow';
+        document.head.appendChild(meta);
+      }
+    }
+  </script>
 
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
