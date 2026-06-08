@@ -153,7 +153,7 @@ export const routes: Routes = [
         }
       },
       {
-        path: 'booking-success/:orderNumber',
+        path: 'booking-success',
         component: BookingSuccessComponent
       },
       {
