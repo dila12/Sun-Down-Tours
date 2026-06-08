@@ -22,6 +22,7 @@ import { SixDaysTour } from "./mainComponents/tour-packages/roundTours/six-days-
 import { EightdaysComponent } from "./mainComponents/tour-packages/roundTours/eightdays-component/eightdays-component";
 import { FourdaysTourComponent } from "./mainComponents/tour-packages/roundTours/fourdays-tour-component/fourdays-tour-component";
 import { EllaYalaTwoDayTour } from "./mainComponents/tour-packages/roundTours/ella-yala-two-day-tour/ella-yala-two-day-tour";
+import { BookingSuccessComponent } from "./sharedComponents/booking-success/booking-success";
 
 export const routes: Routes = [
   {
@@ -150,6 +151,10 @@ export const routes: Routes = [
           description: 'Book your private Sri Lanka tour with our customizable packages and expert local guides.',
           keywords: 'Sri Lanka booking, private Sri Lanka tour booking',
         }
+      },
+      {
+        path: 'booking-success/:orderNumber',
+        component: BookingSuccessComponent
       },
       {
         path: 'contact-us',

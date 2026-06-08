@@ -227,7 +227,18 @@ export class BookingComponent {
             'Booking Confirmed',
           );
           setTimeout(() => {
-            this.bookingCompleted = true;
+            this.router.navigate(['/booking-success'], {
+              state: {
+                booking: bookingDetails,
+                orderNumber: this.orderNumber,
+                total: this.total,
+                subtotal: this.subtotal,
+                travelers: this.travelers,
+                tour: this.tour,
+                amountPaid: this.amountPaid,
+                amountDue: this.amountDue
+              }
+            });
           }, 1500);
         },
         error: (err) => {
@@ -241,54 +252,54 @@ export class BookingComponent {
       });
   }
 
-  printInvoice() {
-    if (!this.isBrowser) return;
-    const printContents = document.getElementById('invoiceContent')?.innerHTML;
-    const originalContents = document.body.innerHTML;
+  // printInvoice() {
+  //   if (!this.isBrowser) return;
+  //   const printContents = document.getElementById('invoiceContent')?.innerHTML;
+  //   const originalContents = document.body.innerHTML;
 
-    if (isPlatformBrowser(this.platformId)) {
-      if (printContents) {
-        const printWindow = window.open('', '', 'height=700,width=900');
-        printWindow!.document.write(`
-      <html>
-        <head>
-          <title>Booking Invoice</title>
-          <style>
-            body {
-              font-family: Arial, sans-serif;
-              margin: 20px;
-              color: #333;
-            }
-            .card {
-              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-              padding: 20px;
-              border-radius: 10px;
-            }
-            .list-group-item {
-              border: none;
-              border-bottom: 1px solid #eee;
-              padding: 10px 0;
-            }
-            .list-group-item:last-child {
-              border-bottom: none;
-            }
-            .text-center { text-align: center; }
-            .fw-bold { font-weight: bold; }
-            .text-success { color: green; }
-            .text-danger { color: red; }
-            .text-primary { color: #007bff; }
-          </style>
-        </head>
-        <body>
-          ${printContents}
-        </body>
-      </html>
-    `);
-        printWindow!.document.close();
-        printWindow!.print();
-      }
-    }
-  }
+  //   if (isPlatformBrowser(this.platformId)) {
+  //     if (printContents) {
+  //       const printWindow = window.open('', '', 'height=700,width=900');
+  //       printWindow!.document.write(`
+  //     <html>
+  //       <head>
+  //         <title>Booking Invoice</title>
+  //         <style>
+  //           body {
+  //             font-family: Arial, sans-serif;
+  //             margin: 20px;
+  //             color: #333;
+  //           }
+  //           .card {
+  //             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  //             padding: 20px;
+  //             border-radius: 10px;
+  //           }
+  //           .list-group-item {
+  //             border: none;
+  //             border-bottom: 1px solid #eee;
+  //             padding: 10px 0;
+  //           }
+  //           .list-group-item:last-child {
+  //             border-bottom: none;
+  //           }
+  //           .text-center { text-align: center; }
+  //           .fw-bold { font-weight: bold; }
+  //           .text-success { color: green; }
+  //           .text-danger { color: red; }
+  //           .text-primary { color: #007bff; }
+  //         </style>
+  //       </head>
+  //       <body>
+  //         ${printContents}
+  //       </body>
+  //     </html>
+  //   `);
+  //       printWindow!.document.close();
+  //       printWindow!.print();
+  //     }
+  //   }
+  // }
 
   onTravelDateChange(dateString: string) {
     this.travelDate = new Date(dateString);
