@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, DOCUMENT, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
@@ -53,10 +53,15 @@ export class AppComponent {
 
         const url = this.router.url;
         if (isPlatformBrowser(this.platformId)) {
-          const canonical = document.querySelector("link[rel='canonical']") || document.createElement('link');
-          canonical.setAttribute('rel', 'canonical');
-          canonical.setAttribute('href', 'https://sundowntours.com' + url);
-          document.head.appendChild(canonical);
+          // Use the current origin to build the full canonical URL, ensuring it matches the exact page URL.
+          const canonicalUrl = `${window.location.origin}${this.router.url}`;
+          let canonical = document.querySelector("link[rel='canonical']") as HTMLLinkElement;
+          if (!canonical) {
+            canonical = document.createElement('link');
+            canonical.setAttribute('rel', 'canonical');
+            document.head.appendChild(canonical);
+          }
+          canonical.setAttribute('href', canonicalUrl);
         }
       });
   }
