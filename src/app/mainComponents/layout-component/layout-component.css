@@ -21,7 +21,7 @@ body { top: 0px !important; }
 }
 
 .navbar-color .nav-link,
-.navbar-color .navbar-brand h1 {
+.navbar-color .navbar-brand .brand-title {
     color: #ffffff; /* White text */
 }
 
@@ -44,7 +44,7 @@ body { top: 0px !important; }
 }
 @media (max-width: 768px) {
 
-  .navbar-brand h1 {
+  .navbar-brand .brand-title {
     font-size: 18px !important;
     white-space: nowrap;
   }

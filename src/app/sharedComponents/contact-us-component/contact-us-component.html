@@ -16,7 +16,8 @@
 <div class="container my-5" [ngClass]="{'white-text': homecontact}">
   <div class="text-center mb-5 pb-3">
     <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact</h6>
-    <h1>Contact For Any Query</h1>
+    <h1 *ngIf="!homecontact">Contact For Any Query</h1>
+    <h2 *ngIf="homecontact" class="h1">Contact For Any Query</h2>
   </div>
   <div class="row">
     <!-- Contact Details -->

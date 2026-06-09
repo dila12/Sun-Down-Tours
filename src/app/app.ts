@@ -55,7 +55,7 @@ export class AppComponent {
         if (isPlatformBrowser(this.platformId)) {
           const canonical = document.querySelector("link[rel='canonical']") || document.createElement('link');
           canonical.setAttribute('rel', 'canonical');
-          canonical.setAttribute('href', 'https://yourdomain.com' + url);
+          canonical.setAttribute('href', 'https://sundowntours.com' + url);
           document.head.appendChild(canonical);
         }
       });
