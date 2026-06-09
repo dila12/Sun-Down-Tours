@@ -70,7 +70,7 @@
       "persons": "1-20 Persons",
       "rating": 5,
       "filecode": "4-day-sri-lanka-tour",
-      "image": "assets/img/package-8.jpeg",
+      "image": "assets/img/package-8.jpg",
       "routerLink": "/4-day-sri-lanka-tour"
     },
     {
@@ -80,7 +80,7 @@
       "persons": "1-20 Persons",
       "rating": 5,
       "filecode": "5-day-sri-lanka-tour",
-      "image": "assets/img/package-4.jpeg",
+      "image": "assets/img/package-4.jpg",
       "routerLink": "/5-day-sri-lanka-tour"
     },
     {
@@ -90,7 +90,7 @@
       "persons": "1-20 Persons",
       "rating": 5,
       "filecode": "6-day-sri-lanka-private-tour",
-      "image": "assets/img/package-7.jpeg",
+      "image": "assets/img/package-7.jpg",
       "routerLink": "/6-day-sri-lanka-private-tour"
     },
     {
@@ -100,7 +100,7 @@
       "persons": "1-20 Persons",
       "rating": 5,
       "filecode": "7-day-sri-lanka-tour",
-      "image": "assets/img/package-1.jpeg",
+      "image": "assets/img/package-1.jpg",
       "routerLink": "/7-day-sri-lanka-tour"
     },
     {
@@ -110,7 +110,7 @@
       "persons": "1-20 Persons",
       "rating": 5,
       "filecode": "8-day-sri-lanka-private-tour",
-      "image": "assets/img/package-6.jpeg",
+      "image": "assets/img/package-6.jpg",
       "routerLink": "/8-day-sri-lanka-private-tour"
     },
     {

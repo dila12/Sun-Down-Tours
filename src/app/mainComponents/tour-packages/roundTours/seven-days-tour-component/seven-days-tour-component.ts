@@ -245,7 +245,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
             title: { title: 'Ella Train Ride', icon: 'fa-train', color: '#33138b' },
             description:
               'Travelers will experience the famous Ella train ride, one of the most scenic railway journeys in the world. The journey passes through lush tea plantations, misty mountains, tunnels, waterfalls, and picturesque villages, offering breathtaking views of Sri Lanka’s hill country. Guests can relax and enjoy the spectacular landscapes while capturing memorable photos from the train. This iconic rail journey provides a unique opportunity to experience local culture, stunning natural beauty, and the charm of Sri Lanka’s historic railway system, making it one of the highlights of the tour.',
-            image: 'assets/img/5daysTours/6.jpeg',
+            image: 'assets/img/5daysTours/6.jpg',
           },
           {
             type: 'Little Adam’s Peak View Point',
