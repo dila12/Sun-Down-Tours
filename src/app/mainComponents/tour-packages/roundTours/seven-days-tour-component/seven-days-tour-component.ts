@@ -31,7 +31,7 @@ import { SeoService } from '../../../../../seo.service';
 })
 export class SevenDaysTourComponent implements OnInit, OnDestroy {
   images: string[] = [
-    'assets/img/5daysTours/1.jpeg',
+    'assets/img/5daysTours/1.jpg',
     'assets/img/5daysTours/18.jpg',
     'assets/img/5daysTours/28.png',
     'assets/img/5daysTours/24.jpg',
