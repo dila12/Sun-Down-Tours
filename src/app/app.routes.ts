@@ -33,7 +33,7 @@ export const routes: Routes = [
         path: '',
         component: HomePageComponent,
         data: {
-          title: 'Sundown Tours Sri Lanka | Private & Tailor Made Sri Lanka Tours',
+          title: 'Sundown Tours Sri Lanka | Private & Tailor-Made Tours',
           description: 'Explore Sri Lanka with private tours, tailor-made holiday packages and experienced local driver guides. Discover beaches, wildlife and cultural heritage.',
           keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours'
         }
