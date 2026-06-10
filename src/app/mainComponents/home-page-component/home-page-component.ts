@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject, PLATFORM_ID } from '@angular/core';
 import toursData from '../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../sharedComponents/package-item-component/package-item-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
@@ -19,6 +19,7 @@ import tourdetails from '../../../assets/data/tourdetails.json';
   ],
   templateUrl: './home-page-component.html',
   styleUrl: './home-page-component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomePageComponent {
   homecontact = true;
@@ -79,5 +80,9 @@ export class HomePageComponent {
         section.scrollIntoView({ behavior: 'smooth' });
       }
     }
+  }
+
+  trackById(index: number, tour: any) {
+    return tour.id;
   }
 }

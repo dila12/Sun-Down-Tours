@@ -225,8 +225,8 @@
 
         <!-- CARDS -->
         <div class="row">
-            <div *ngFor="let tour of activeTab==='day' ? dayTours : multiDayTours; let i = index"
-                class="col-lg-4 col-md-6 mb-4 package-card-wrapper" [style.--i]="i">
+            <div *ngFor="let tour of activeTab==='day' ? dayTours : multiDayTours; trackBy: trackById"
+                class="col-lg-4 col-md-6 mb-4 package-card-wrapper" [style.--i]="trackById">
 
                 <app-package-item-component [tour]="tour">
                 </app-package-item-component>
