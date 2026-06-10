@@ -24,7 +24,6 @@
     content="Explore Sri Lanka with private chauffeur tours and custom holiday packages.">
   <meta name="twitter:image" content="https://sundowntours.com/assets/img/package-2.jpg">
   <link rel="alternate" hreflang="en" href="https://sundowntours.com/" />
-  <link rel="preload" href="/assets/img/mainpage/1.webp" as="image" fetchpriority="high">
   <link rel="alternate" hreflang="x-default" href="https://sundowntours.com/" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
@@ -38,8 +37,6 @@
   <noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
   </noscript>
-  <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   </noscript>
@@ -77,7 +74,7 @@
       "url": "https://sundowntours.com",
       "logo": "https://sundowntours.com/assets/img/favicon.png",
       "image": "https://sundowntours.com/assets/img/package-2.jpg",
-      "telephone": "+94763610738",
+      "telephone": "+94706293585",
       "areaServed": "Sri Lanka",
       "address": {
         "@type": "PostalAddress",
@@ -103,11 +100,13 @@
   <div id="google_translate_element" style="display:none;"></div>
 
   <script>
-    window.addEventListener('load', function () {
-      var s = document.createElement('script');
-      s.src = 'https://elfsightcdn.com/platform.js';
-      s.async = true;
-      document.body.appendChild(s);
+    window.addEventListener('load', () => {
+      requestIdleCallback(() => {
+        const s = document.createElement('script');
+        s.src = 'https://elfsightcdn.com/platform.js';
+        s.async = true;
+        document.body.appendChild(s);
+      });
     });
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({

@@ -5,19 +5,21 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-package-item-component',
   standalone: true,
-  imports: [CommonModule,RouterModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './package-item-component.html',
   styleUrl: './package-item-component.css'
 })
 export class PackageItemComponent {
-  @Input() image!: string;
-  @Input() days!: string;
-  @Input() persons!: string;
-  @Input() rating!: number;
-  @Input() price!: number;
-  @Input() title!: string;
-  @Input() routerLink!: string;
+  @Input({ required: true })
+  tour!: any;
 
   ngOnInit() {
+  }
+
+  get imagePath(): string {
+    if (this.tour.imageFolder) {
+      return `assets/img/${this.tour.imageFolder}/${this.tour.imageName}.${this.tour.imageExt}`;
+    }
+    return `assets/img/${this.tour.imageName}.${this.tour.imageExt}`;
   }
 }

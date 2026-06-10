@@ -5,7 +5,6 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ContactUsComponent } from '../../sharedComponents/contact-us-component/contact-us-component';
 import { HttpClient } from '@angular/common/http';
-import { CountryService } from '../../Services/country.service';
 import tourdetails from '../../../assets/data/tourdetails.json';
 
 
@@ -33,7 +32,6 @@ export class HomePageComponent {
 
   constructor(
     private http: HttpClient,
-    private countryService: CountryService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) { }
 

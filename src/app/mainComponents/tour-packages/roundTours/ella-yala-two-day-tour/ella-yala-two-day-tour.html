@@ -32,8 +32,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4" *ngFor="let tour of selectedTours">
-                <app-package-item-component [image]="tour.image" [days]="tour.days" [persons]="tour.persons"
-                    [rating]="tour.rating" [price]="tour.price" [title]="tour.title" [routerLink]="tour.routerLink">
+                <app-package-item-component [tour]="tour">
                 </app-package-item-component>
             </div>
         </div>

@@ -238,9 +238,9 @@ export default async function handler(req, res) {
 
             <p style="font-size:14px;line-height:1.6;color:#555;">
               📞 WhatsApp: 
-              <a href="https://wa.me/94763610738" 
+              <a href="https://wa.me/94706293585" 
                 style="color:#1e3a8a;text-decoration:none;font-weight:bold;">
-                +94 76 361 07 38
+                +94706293585
               </a><br/>
               
               📧 Email: 
