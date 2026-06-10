@@ -1,4 +1,4 @@
-import { Component, Inject, Input, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import toursData from '../../databaseJson/tours.json';
 import { PackageItemComponent } from '../../sharedComponents/package-item-component/package-item-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';

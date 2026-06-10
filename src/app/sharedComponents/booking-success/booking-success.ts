@@ -1,6 +1,5 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-booking-success',

@@ -3,8 +3,6 @@ import { isPlatformBrowser } from '@angular/common';
 
 @Injectable({ providedIn: 'root' })
 export class CountryService {
-  private detectedCountry: string | null = null;
-  private countryPromise: Promise<string> | null = null;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 

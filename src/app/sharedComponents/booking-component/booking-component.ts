@@ -1,4 +1,4 @@
-import { Component, ElementRef, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
