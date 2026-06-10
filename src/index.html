@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Sri Lanka Tours & Private Driver">
   <meta name="twitter:description"
     content="Explore Sri Lanka with private chauffeur tours and custom holiday packages.">
-  <meta name="twitter:image" content="https://sundowntours.com/assets/img/package-2.webp">
+  <meta name="twitter:image" content="https://sundowntours.com/assets/img/package-2.jpg">
   <link rel="alternate" hreflang="en" href="https://sundowntours.com/" />
   <link rel="preload" href="/assets/img/mainpage/1.webp" as="image" fetchpriority="high">
   <link rel="alternate" hreflang="x-default" href="https://sundowntours.com/" />
@@ -33,8 +33,16 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon.png">
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+  </noscript>
+  <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -44,6 +52,7 @@
   <link rel="dns-prefetch" href="//elfsightcdn.com">
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
   <meta name="google" content="notranslate">
+  <link rel="canonical" href="https://sundowntours.com/">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVF224182X"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -93,8 +102,13 @@
 
   <div id="google_translate_element" style="display:none;"></div>
 
-  <script src="https://elfsightcdn.com/platform.js" async></script>
   <script>
+    window.addEventListener('load', function () {
+      var s = document.createElement('script');
+      s.src = 'https://elfsightcdn.com/platform.js';
+      s.async = true;
+      document.body.appendChild(s);
+    });
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({
         pageLanguage: 'en',
