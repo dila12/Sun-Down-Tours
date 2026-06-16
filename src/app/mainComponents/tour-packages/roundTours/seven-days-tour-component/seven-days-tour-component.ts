@@ -496,11 +496,11 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     if (!isPlatformBrowser(this.platformId)) {
       return Promise.resolve(0);
     }
-    const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
+    //const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
     const defaultFile = `assets/data/US${filecode}.json`;
 
     return new Promise((resolve) => {
-      this.http.get(countryFile).subscribe({
+      this.http.get(defaultFile).subscribe({
         next: (data: any) => resolve(data?.price?.['2'] ?? 0),
         error: () => {
           this.http.get(defaultFile).subscribe({
