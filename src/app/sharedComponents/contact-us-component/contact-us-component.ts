@@ -85,7 +85,6 @@ export class ContactUsComponent {
     }
   
     if (this.contactForm.valid) {
-      console.log('Selected Country Code:', this.selectedCountryCode);
       const country = this.countriesList.find(c => c.code === this.selectedCountryCode);
       const fullPhoneNumber = (country?.dial_code ?? '') + this.contactForm.get('contactPhone')?.value;
 
@@ -94,13 +93,11 @@ export class ContactUsComponent {
         contactPhone: fullPhoneNumber,
       };
 
-      console.log('Form Data:', formData);
 
     this.http
       .post(`${environment.backendUrl}/send-contact-email`, formData)
       .subscribe({
         next: (res: any) => {
-          console.log('Email sent successfully:', res);
           this.successMessage = 'Your message has been sent successfully!';
           this.contactForm.reset();
 

@@ -130,7 +130,6 @@ app.post("/send-booking-email", async (req, res) => {
 });
 
 app.post("/send-contact-email", async (req, res) => {
-  console.log('Received contact email request:', req);
 
   const { name, email, whatsapp, message } = req.body;
 

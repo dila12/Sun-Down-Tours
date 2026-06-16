@@ -567,7 +567,6 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
   }
 
   bookNow() {
-    console.log('Booking tour:', this.tour, this.price,'image', this.images[0]);
     if (isPlatformBrowser(this.platformId)) {
     const barcode = '10-day-sri-lanka-tour';
     localStorage.setItem('tour', JSON.stringify(this.tour));

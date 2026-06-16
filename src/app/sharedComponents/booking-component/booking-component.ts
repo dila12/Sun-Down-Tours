@@ -111,7 +111,6 @@ export class BookingComponent {
     if (this.filecode) {
       this.loadTourPrices(this.filecode);
     }
-    console.log('image', this.image);
   }
 
   get fullPhone(): string {

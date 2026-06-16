@@ -269,7 +269,6 @@ tour = {
   }
 
   loadPrice(filecode: string): Promise<number> {
-    console.log('Loading price for filecode:', filecode, 'and country:', this.userCountry);
     
     if (!isPlatformBrowser(this.platformId)) {
       return Promise.resolve(0);
