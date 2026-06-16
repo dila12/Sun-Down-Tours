@@ -25,11 +25,11 @@ import { SeoService } from '../../../../../seo.service';
 })
 export class TenDaysTourComponent implements OnInit , OnDestroy {
   images: string[] = [
-    'assets/img/7daystour/lzurk0uk82qqjh6soonh.jpg',
-    'assets/img/7daystour/u19dmfbuae46dhzpqctu.jpg',
-    'assets/img/7daystour/p5nnnq3wt124wwoa0rvo.jpg',
-    'assets/img/7daystour/fhlfhn3lx1onsizfpy76.jpg',
-    'assets/img/7daystour/dtebtjzozh7sfof4ci7c.jpg',
+    'assets/img/5daysTours/lzurk0uk82qqjh6soonh.jpg',
+    'assets/img/5daysTours/u19dmfbuae46dhzpqctu.jpg',
+    'assets/img/5daysTours/p5nnnq3wt124wwoa0rvo.jpg',
+    'assets/img/5daysTours/fhlfhn3lx1onsizfpy76.jpg',
+    'assets/img/5daysTours/dtebtjzozh7sfof4ci7c.jpg',
   ];
 
   currentIndex = 0;
@@ -364,7 +364,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Peraliya Tsunami Memorial honors the victims of the 2004 tsunami, featuring a towering Buddha statue as a symbol of peace and remembrance near the site of Sri Lanka’s worst tsunami disaster.',
-            image: 'assets/img/7daystour/lf8xpxoe67nlur3zr3da.jpg',
+            image: 'assets/img/5daysTours/lf8xpxoe67nlur3zr3da.jpg',
           },
           {
             type: 'Guided tour',
@@ -375,7 +375,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Independence Square in Colombo is a historic landmark built to commemorate Sri Lanka’s independence, featuring grand colonial architecture, lush gardens, and a peaceful atmosphere for visitors.',
-            image: 'assets/img/7daystour/fsrleaf7977wcxityzu8.jpg',
+            image: 'assets/img/5daysTours/fsrleaf7977wcxityzu8.jpg',
           },
           {
             type: 'Guided tour',
@@ -386,7 +386,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Gangaramaya Temple in Colombo is a beautiful Buddhist temple blending Sri Lankan, Thai, and Chinese architecture, featuring statues, relics, and a serene lakeside setting.',
-            image: 'assets/img/7daystour/fn10nlk7fc0dzyawswa5.jpg',
+            image: 'assets/img/5daysTours/fn10nlk7fc0dzyawswa5.jpg',
           },
           {
             type: 'Guided tour',
@@ -397,7 +397,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Galle Face Green in Colombo is a scenic oceanfront promenade, perfect for relaxing walks, stunning sunsets, and enjoying street food, offering a lively atmosphere by the Indian Ocean.',
-            image: 'assets/img/7daystour/qu0e7cjpkcfhfds1zeem.jpg',
+            image: 'assets/img/5daysTours/qu0e7cjpkcfhfds1zeem.jpg',
           },
           {
             type: 'Guided tour',
@@ -408,7 +408,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Colombo Fort Market is a bustling hub offering a mix of local goods, clothing, spices, and street food, providing a vibrant shopping experience in the heart of the city.',
-            image: 'assets/img/7daystour/vlk48jx8ywhuzyqlvqg8.jpg',
+            image: 'assets/img/5daysTours/vlk48jx8ywhuzyqlvqg8.jpg',
           },
           {
             type: 'Guided tour',
@@ -419,7 +419,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
             },
             description:
               'Jami Ul-Alfar Mosque, or the Red Mosque in Colombo, is an iconic landmark with striking red-and-white architecture, offering a glimpse into Sri Lanka’s rich Islamic heritage.',
-            image: 'assets/img/7daystour/owzua0jhk0zazg9d8hcn.jpg',
+            image: 'assets/img/5daysTours/owzua0jhk0zazg9d8hcn.jpg',
           }
         ],
       },
@@ -567,6 +567,7 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
   }
 
   bookNow() {
+    console.log('Booking tour:', this.tour, this.price,'image', this.images[0]);
     if (isPlatformBrowser(this.platformId)) {
     const barcode = '10-day-sri-lanka-tour';
     localStorage.setItem('tour', JSON.stringify(this.tour));

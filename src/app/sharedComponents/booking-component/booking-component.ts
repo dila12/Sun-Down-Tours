@@ -111,6 +111,7 @@ export class BookingComponent {
     if (this.filecode) {
       this.loadTourPrices(this.filecode);
     }
+    console.log('image', this.image);
   }
 
   get fullPhone(): string {
@@ -130,10 +131,10 @@ export class BookingComponent {
   }
 
   loadTourPrices(fileName: string) {
-    const countryFile = `/assets/data/${this.userCountry}${fileName}.json`;
+    //const countryFile = `/assets/data/${this.userCountry}${fileName}.json`;
     const defaultFile = `/assets/data/US${fileName}.json`;
     this.http
-      .get(countryFile)
+      .get(defaultFile)
       .pipe(
         catchError((err) => {
           console.warn(
@@ -183,12 +184,12 @@ export class BookingComponent {
     this.travelers = isNaN(value) || value < 1 ? 1 : value;
     this.updateAmounts();
 
-    if (this.travelers >= 7) {
-      this.groupNotice =
-        'For groups of 7 or more travelers, please contact sundowntoursrilanka@gmail.com for a customized group tour arrangement.';
-    } else {
-      this.groupNotice = '';
-    }
+    // if (this.travelers >= 7) {
+    //   this.groupNotice =
+    //     'For groups of 7 or more travelers, please contact Email - <b>sundowntoursrilanka@gmail.com</b> or WhatsApp - <b>+94 70 629 3585</b> for a customized group tour arrangement.';
+    // } else {
+    //   this.groupNotice = '';
+    // }
   }
 
   updateAmounts() {

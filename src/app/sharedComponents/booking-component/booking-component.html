@@ -56,8 +56,29 @@
         <div class="col-lg-6" *ngIf="!bookingCompleted">
             <div class="card shadow-lg border-0 rounded-3 p-4 animate__animated animate__slideInLeft overflow-hidden h-100 w-100">
                 <h4 class="mb-3 text-center">Book Your Tour</h4>
-                <div *ngIf="groupNotice" class="alert alert-info mt-2">
-                    {{ groupNotice }}
+                <div *ngIf="travelers >= 7" class="group-booking-notice">
+                    <div class="notice-header">
+                        <i class="fa fa-users"></i>
+                        <span>Group Booking (7+ Travelers)</span>
+                    </div>
+
+                    <p class="mb-2">
+                        Planning a group trip? We'd be happy to arrange a customized itinerary and offer the best rates.
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:sundowntoursrilanka@gmail.com">
+                            sundowntoursrilanka@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp text-success"></i>
+                        <a href="https://wa.me/94706293585" target="_blank">
+                            +94 70 629 3585
+                        </a>
+                    </div>
                 </div>
                 <form #bookingForm="ngForm" (ngSubmit)="completeBooking()">
                     <div class="row g-3 mb-3">
