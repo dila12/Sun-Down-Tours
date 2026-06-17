@@ -148,3 +148,15 @@ body { top: 0px !important; }
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 0 1px rgba(255,255,255,0.5);
 }
+
+@media (max-width: 768px) {
+  .navbar-color .col-12.col-lg-6 {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .lang-pill {
+    max-width: 100%;
+    justify-content: center;
+  }
+}

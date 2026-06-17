@@ -1,72 +1,91 @@
 <div class="navbar-color py-2 px-3">
-  <div class="container-fluid">
-    <div class="row align-items-center">
+    <div class="container-fluid">
+        <div class="row align-items-center">
 
-    <!-- Left side: email & phone -->
-      <div class="col-lg-6 d-none d-lg-flex align-items-center">
-        <p class="mb-0 text-white small">
-          <i class="fa fa-envelope mr-2"></i> sundowntoursrilanka@gmail.com
-        </p>
-        <span class="mx-3 text-white">|</span>
-        <p class="mb-0 text-white small">
-          <i class="fa fa-phone-alt mr-2"></i> +94706293585
-        </p>
-      </div>
+            <!-- Left side: email & phone -->
+            <div class="col-lg-6 d-none d-lg-flex align-items-center">
+                <p class="mb-0 text-white small">
+                    <i class="fa fa-envelope mr-2"></i> sundowntoursrilanka@gmail.com
+                </p>
+                <span class="mx-3 text-white">|</span>
+                <p class="mb-0 text-white small">
+                    <i class="fa fa-phone-alt mr-2"></i> +94706293585
+                </p>
+            </div>
 
-    <!-- Right side: social icons -->
-    <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-end align-items-center">
-        <div class="lang-pill d-flex flex-wrap">
-            <button class="lang-flag" [class.active]="activeLang === 'en'" (click)="changeLang('en')" title="English">
-                <img src="https://flagcdn.com/w20/us.png" alt="EN" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'de'" (click)="changeLang('de')" title="Deutsch">
-                <img src="https://flagcdn.com/w20/de.png" alt="DE" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'it'" (click)="changeLang('it')" title="Italiano">
-                <img src="https://flagcdn.com/w20/it.png" alt="IT" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'fr'" (click)="changeLang('fr')" title="Français">
-                <img src="https://flagcdn.com/w20/fr.png" alt="FR" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'es'" (click)="changeLang('es')" title="spanish">
-                <img src="https://flagcdn.com/w20/es.png" alt="es" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'ru'" (click)="changeLang('ru')" title="Русский">
-                <img src="https://flagcdn.com/w20/ru.png" alt="RU" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'pl'" (click)="changeLang('pl')" title="Polski">
-                <img src="https://flagcdn.com/w20/pl.png" alt="PL" loading="lazy">
-            </button>
-            <button class="lang-flag" [class.active]="activeLang === 'zh-CN'" (click)="changeLang('zh-CN')" title="中文">
-                <img src="https://flagcdn.com/w20/cn.png" alt="cn" loading="lazy">
-            </button>
-<!-- 
+            <!-- Right side: social icons -->
+            <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-end align-items-center">
+                <div class="lang-pill d-flex flex-wrap">
+                    <button class="lang-flag" [class.active]="activeLang === 'en'" (click)="changeLang('en')"
+                        title="English">
+                        <img src="https://flagcdn.com/w20/us.png" alt="EN" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'de'" (click)="changeLang('de')"
+                        title="Deutsch">
+                        <img src="https://flagcdn.com/w20/de.png" alt="DE" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'it'" (click)="changeLang('it')"
+                        title="Italiano">
+                        <img src="https://flagcdn.com/w20/it.png" alt="IT" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'fr'" (click)="changeLang('fr')"
+                        title="Français">
+                        <img src="https://flagcdn.com/w20/fr.png" alt="FR" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'es'" (click)="changeLang('es')"
+                        title="spanish">
+                        <img src="https://flagcdn.com/w20/es.png" alt="es" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'ru'" (click)="changeLang('ru')"
+                        title="Русский">
+                        <img src="https://flagcdn.com/w20/ru.png" alt="RU" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'pl'" (click)="changeLang('pl')"
+                        title="Polski">
+                        <img src="https://flagcdn.com/w20/pl.png" alt="PL" loading="lazy">
+                    </button>
+                    <button class="lang-flag" [class.active]="activeLang === 'zh-CN'" (click)="changeLang('zh-CN')"
+                        title="中文">
+                        <img src="https://flagcdn.com/w20/cn.png" alt="cn" loading="lazy">
+                    </button>
+                    <!-- 
             <button class="lang-flag" [class.active]="activeLang === 'si'" (click)="changeLang('si')" title="සිංහල">
                 <img src="https://flagcdn.com/w20/lk.png" alt="SI">
             </button> -->
-        </div>
-        <div class="d-flex ml-2">
-          <a class="btn btn-sm btn-square text-white mr-2" href="https://www.facebook.com/profile.php?id=61563992655756">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-sm btn-square text-white mr-2" href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a class="btn btn-sm btn-square text-white" href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
-            target="_blank">
-            <i class="fab fa-tripadvisor"></i>
-          </a>
+                </div>
+                <div class="d-flex ml-2">
+                    <a class="btn btn-sm btn-square text-white mr-2"
+                        href="https://www.facebook.com/profile.php?id=61563992655756"
+                        aria-label="Visit our Facebook page">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn btn-sm btn-square text-white mr-2"
+                        href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"
+                        aria-label="Visit our Instagram page">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn btn-sm btn-square text-white mr-2"
+                        href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
+                        target="_blank" rel="noopener noreferrer" aria-label="Read our TripAdvisor reviews">
+                        <i class="fa-brands fa-tripadvisor"></i>
+                    </a>
+                    <a class="btn btn-sm btn-square text-white"
+                        href="https://wa.me/94706293585" target="_blank" rel="noopener noreferrer"
+                        aria-label="Chat with us on WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
-  </div>
 </div>
 
 <!-- Topbar End -->
 
 <app-scroll-to-to-component></app-scroll-to-to-component>
-<a href="https://wa.me/94706293585" target="_blank" class="whatsapp-float">
-    <i class="fab fa-whatsapp"></i>
+<a href="https://wa.me/94706293585" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
+    aria-label="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
 </a>
 
 <!-- Navbar Start -->
@@ -75,10 +94,12 @@
         <nav class="navbar navbar-expand-lg navbar-color navbar-light shadow-lg  py-lg-0 ">
             <a routerLink="/" class="navbar-brand">
                 <span class="m-0 nav-link brand-title h1"><span class="text-white">
-                        <img src="assets/img/logos/2.png" alt="Sri Lanka Tours Logo" style="width: 80px; height: 90px;">
+                        <img src="assets/img/logos/2.webp" width="80" height="90" loading="eager" decoding="async"
+                            fetchpriority="high" alt="Sundown Tours" (error)="onImageError($event, 'assets/img/logos/2.png')">
                         Sundown Tours Sri Lanka </span></span>
             </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-label="Toggle navigation menu" aria-controls="navbarCollapse" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
@@ -103,7 +124,9 @@
     </div>
 </div>
 <!-- Navbar End -->
-<router-outlet></router-outlet>
+<main id="main-content">
+    <router-outlet></router-outlet>
+</main>
 <!-- Footer Start -->
 <div class="container-fluid bg-primary text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
     <div class="row pt-5">
@@ -116,16 +139,22 @@
                 experiences with reliable service.</p>
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
             <div class="d-flex justify-content-start">
-                <a class="btn nav-link btn-square mr-2 text-white-50" href="https://www.facebook.com/profile.php?id=61563992655756"
-                    target="_blank">
+                <a class="btn nav-link btn-square mr-2 text-white-50"
+                    href="https://www.facebook.com/profile.php?id=61563992655756" target="_blank">
                     <i class="fab fa-facebook-f"></i>
                 </a>
                 <a class="btn nav-link btn-square nav-link px-3 text-white-50"
-                    href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"><i class="fab fa-instagram"></i></a>
+                    href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"><i
+                        class="fab fa-instagram"></i></a>
                 <a class="btn nav-link btn-square mr-2 text-white-50"
                     href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
                     target="_blank">
                     <i class="fab fa-tripadvisor"></i>
+                </a>
+                <a class="btn nav-link btn-square text-white-50"
+                    href="https://wa.me/94706293585" target="_blank" rel="noopener noreferrer"
+                    aria-label="Chat with us on WhatsApp">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
@@ -133,19 +162,26 @@
             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white-50 mb-2" routerLink="/about-us"><i class="fa fa-angle-right mr-2"></i>About</a>
-                <a class="text-white-50 mb-2" routerLink="/destinations-sri-lanka"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                <a class="text-white-50 mb-2" routerLink="/our-services"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                <a class="text-white-50 mb-2" routerLink="/destinations-sri-lanka"><i
+                        class="fa fa-angle-right mr-2"></i>Destination</a>
+                <a class="text-white-50 mb-2" routerLink="/our-services"><i
+                        class="fa fa-angle-right mr-2"></i>Services</a>
+                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                        class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white-50 mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a> -->
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Menu</h5>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i class="fa fa-angle-right mr-2"></i>Sri Lankan Day Tours</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i class="fa fa-angle-right mr-2"></i>Multi Days Tours </a>
-                <a class="text-white-50 mb-2" routerLink="/our-services"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                        class="fa fa-angle-right mr-2"></i>Sri Lankan Day Tours</a>
+                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                        class="fa fa-angle-right mr-2"></i>Multi Days Tours </a>
+                <a class="text-white-50 mb-2" routerLink="/our-services"><i
+                        class="fa fa-angle-right mr-2"></i>Services</a>
+                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                        class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white-50 mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a>
                 <a class="text-white-50 mb-2" routerLink="/customer-testimonials"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
             </div>
@@ -158,10 +194,12 @@
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
             <div class="w-100">
                 <div class="input-group">
-                    <input type="text" class="form-control border-light" style="padding: 25px;"
-                        placeholder="Your Email">
+                    <label for="newsletter-email" class="sr-only">Your Email</label>
+                    <input id="newsletter-email" type="email" class="form-control border-light" style="padding: 25px;"
+                        placeholder="Your Email" autocomplete="email">
                     <div class="input-group-append">
-                        <button routerLink="/contact-us" class="btn btn-primary px-3">Sign Up</button>
+                        <button type="button" routerLink="/contact-us" class="btn btn-primary px-3"
+                            aria-label="Sign up for newsletter">Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -172,7 +210,8 @@
     style="border-color: rgba(256, 256, 256, .1) !important;">
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <p class="m-0 text-white-50">Copyright &copy; <a routerLink="/" class="text-white-50">Sundown Tours</a>. All Rights Reserved.
+            <p class="m-0 text-white-50">Copyright &copy; <a routerLink="/" class="text-white-50">Sundown Tours</a>. All
+                Rights Reserved.
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">

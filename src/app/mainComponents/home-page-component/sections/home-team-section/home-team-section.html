@@ -1,0 +1,46 @@
+<div class="container-fluid py-5">
+  <div class="container pt-5 pb-3">
+    <div class="text-center mb-3 pb-3">
+      <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team</h6>
+      <h2 class="h1">Our Global Associates</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 col-md-6 col-sm-10 pb-4">
+        <div class="team-card">
+          <div class="team-image">
+            <img [src]="team1Src" alt="Dilan Lakshitha - Founder of Sundown Tours" loading="lazy"
+              decoding="async" fetchpriority="low" width="400" height="400" (error)="onImageError($event)">
+            <div class="overlay"></div>
+          </div>
+          <div class="team-info text-center">
+            <h4>Dilan Lakshitha</h4>
+            <span class="role">Owner</span>
+            <p class="country">Sri Lanka</p>
+            <a href="https://wa.me/94714293585" target="_blank" rel="noopener noreferrer" class="chat-btn"
+              aria-label="Chat with Dilan Lakshitha on WhatsApp">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat Now
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 col-sm-10 pb-4">
+        <div class="team-card">
+          <div class="team-image">
+            <img [src]="team2Src" alt="Yohan Malshika - Senior Consultant" loading="lazy"
+              decoding="async" fetchpriority="low" width="400" height="400" (error)="onImageError($event)">
+            <div class="overlay"></div>
+          </div>
+          <div class="team-info text-center">
+            <h4>Yohan Malshika</h4>
+            <span class="role">Senior Consultant</span>
+            <p class="country">Malasiya</p>
+            <a href="https://wa.me/94714293585" target="_blank" rel="noopener noreferrer" class="chat-btn"
+              aria-label="Chat with Yohan Malshika on WhatsApp">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

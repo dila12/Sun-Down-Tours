@@ -4,13 +4,19 @@
 
         <img
             [src]="imagePath"
+            [srcset]="imageSrcSet"
+            [sizes]="defaultSizes()"
             [alt]="tour.title"
+            width="400"
+            height="260"
             loading="lazy"
-            decoding="async">
+            decoding="async"
+            fetchpriority="low"
+            (error)="onImageError($event)">
 
         <div class="overlay"></div>
 
-        <div class="card-actions">
+        <div class="card-actions" aria-hidden="true">
             <i class="fa fa-heart"></i>
             <i class="fa fa-eye"></i>
         </div>
@@ -26,12 +32,12 @@
 
         <div class="top-info">
             <span>
-                <i class="fa fa-calendar-alt"></i>
+                <i class="fa fa-calendar-alt" aria-hidden="true"></i>
                 {{ tour.days }}
             </span>
 
             <span>
-                <i class="fa fa-user"></i>
+                <i class="fa fa-user" aria-hidden="true"></i>
                 {{ tour.persons }}
             </span>
         </div>
@@ -41,9 +47,9 @@
         </h3>
 
         <div class="tour-tags">
-            <span><i class="fa fa-check-circle"></i> Free Cancel</span>
-            <span><i class="fa fa-bolt"></i> Instant Confirm</span>
-            <span><i class="fa fa-credit-card"></i> Pay Later</span>
+            <span><i class="fa fa-check-circle" aria-hidden="true"></i> Free Cancel</span>
+            <span><i class="fa fa-bolt" aria-hidden="true"></i> Instant Confirm</span>
+            <span><i class="fa fa-credit-card" aria-hidden="true"></i> Pay Later</span>
         </div>
 
     </div>

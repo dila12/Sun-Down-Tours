@@ -10,7 +10,7 @@
   <meta name="robots" content="index, follow">
   <meta http-equiv="content-language" content="en">
   <meta property="og:title" content="Sri Lanka Tours | Private Driver & Tailor Made Holidays - Sundown Tours">
-  <meta property="og:image" content="https://sundowntours.com/assets/img/package-2.jpg">
+  <meta property="og:image" content="https://sundowntours.com/assets/img/package-2.webp">
   <meta property="og:description"
     content="Discover Sri Lanka with private tours, chauffeur driver services and tailor-made holiday packages. Explore Sigiriya, Ella, Yala safari and beaches with local experts.">
   <meta property="og:url" content="https://sundowntours.com/">
@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Sri Lanka Tours & Private Driver">
   <meta name="twitter:description"
     content="Explore Sri Lanka with private chauffeur tours and custom holiday packages.">
-  <meta name="twitter:image" content="https://sundowntours.com/assets/img/package-2.jpg">
+  <meta name="twitter:image" content="https://sundowntours.com/assets/img/package-2.webp">
   <link rel="alternate" hreflang="en" href="https://sundowntours.com/" />
   <link rel="alternate" hreflang="x-default" href="https://sundowntours.com/" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
@@ -32,37 +32,12 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon.png">
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
-  </noscript>
-  <noscript>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  </noscript>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="preload" as="image" href="assets/img/mainpage/1.webp" fetchpriority="high" type="image/webp">
+  <link rel="dns-prefetch" href="https://translate.google.com">
+  <link rel="dns-prefetch" href="https://elfsightcdn.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <meta name="google" content="notranslate">
   <link rel="canonical" href="https://sundowntours.com/">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVF224182X"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    /* Google Analytics 4 */
-    gtag('config', 'G-KVF224182X');
-
-    /* Google Ads */
-    gtag('config', 'AW-1234567890');
-  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -70,7 +45,7 @@
       "name": "Sundown Tours Sri Lanka",
       "url": "https://sundowntours.com",
       "logo": "https://sundowntours.com/assets/img/favicon.png",
-      "image": "https://sundowntours.com/assets/img/package-2.jpg",
+      "image": "https://sundowntours.com/assets/img/package-2.webp",
       "telephone": "+94706293585",
       "areaServed": "Sri Lanka",
       "address": {
@@ -97,31 +72,90 @@
   <div id="google_translate_element" style="display:none;"></div>
 
   <script>
-    window.addEventListener('load', () => {
-      requestIdleCallback(() => {
-        const s = document.createElement('script');
-        s.src = 'https://elfsightcdn.com/platform.js';
-        s.async = true;
-        document.body.appendChild(s);
-      });
-    });
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
-        autoDisplay: false
-      }, 'google_translate_element');
-
-      if (location.pathname.match(/^\/(pl|ru|zh|zh-CN|fr|de|it|es)/)) {
-        let meta = document.createElement('meta');
-        meta.name = 'robots';
-        meta.content = 'noindex, follow';
-        document.head.appendChild(meta);
+    (function () {
+      if (window.trustedTypes && trustedTypes.createPolicy) {
+        try {
+          trustedTypes.createPolicy('default', {
+            createScriptURL: function (url) { return url; },
+            createHTML: function (html) { return html; }
+          });
+        } catch (e) { /* already registered */ }
       }
-    }
-  </script>
 
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+      window.googleTranslateElementInit = function () {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
+          autoDisplay: false
+        }, 'google_translate_element');
+
+        window.googleTranslateReady = true;
+        window.dispatchEvent(new CustomEvent('google-translate-ready'));
+
+        if (location.pathname.match(/^\/(pl|ru|zh|zh-CN|fr|de|it|es)/)) {
+          var meta = document.createElement('meta');
+          meta.name = 'robots';
+          meta.content = 'noindex, follow';
+          document.head.appendChild(meta);
+        }
+      };
+
+      window.loadGoogleTranslate = function () {
+        if (window.translateLoaded) return;
+        window.translateLoaded = true;
+
+        var url = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        var script = document.createElement('script');
+        script.defer = true;
+
+        if (window.trustedTypes && trustedTypes.createPolicy) {
+          try {
+            var ttPolicy = trustedTypes.createPolicy('translate-loader', {
+              createScriptURL: function (u) { return u; }
+            });
+            script.src = ttPolicy.createScriptURL(url);
+          } catch (e) {
+            script.src = url;
+          }
+        } else {
+          script.src = url;
+        }
+
+        document.body.appendChild(script);
+      };
+
+      window.addEventListener('load', function () {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(function () {
+            window.loadGoogleTranslate();
+            loadAnalytics();
+          }, { timeout: 2500 });
+        } else {
+          setTimeout(function () {
+            window.loadGoogleTranslate();
+            loadAnalytics();
+          }, 500);
+        }
+      });
+
+      function loadAnalytics() {
+        if (window.gtagLoaded) return;
+        window.gtagLoaded = true;
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-KVF224182X');
+        gtag('config', 'AW-1234567890');
+
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KVF224182X';
+        document.head.appendChild(s);
+      }
+    })();
+  </script>
 
 </body>
 

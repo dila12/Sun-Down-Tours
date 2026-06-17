@@ -1,4 +1,4 @@
-import { Component, DOCUMENT, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, DOCUMENT, Inject, PLATFORM_ID, ChangeDetectionStrategy } from '@angular/core';
 import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
@@ -9,7 +9,8 @@ import { isPlatformBrowser } from '@angular/common';
   standalone: true,
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
-  imports: [RouterModule]
+  imports: [RouterModule],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
 
