@@ -11,7 +11,7 @@ import countryCode from './../../../assets/data/countryCode.json';
   standalone: true,
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
   templateUrl: './contact-us-component.html',
-  styleUrls: ['./contact-us-component.css'],
+  styleUrls: ['./contact-us-component.css', '../../../styles/ngx-toastr.lazy.scss'],
 })
 export class ContactUsComponent {
   @Input() homecontact: boolean = false;

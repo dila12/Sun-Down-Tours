@@ -7,7 +7,7 @@ import { ContactUsComponent } from '../../sharedComponents/contact-us-component/
   standalone: true,
   imports: [CommonModule,ContactUsComponent],
   templateUrl: './about-component.html',
-  styleUrl: './about-component.css'
+  styleUrls: ['./about-component.css', '../../../styles/fontawesome-brands.lazy.scss']
 })
 export class AboutComponent {
   homecontact = true;

@@ -43,10 +43,11 @@
   margin-top: 10px;
 }
 .section-tag {
-  color: #ff7a00;
+  color: #b45309;
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 0.8rem;
+  margin-bottom: 0.25rem;
 }
 
 .section-title {
@@ -303,29 +304,14 @@
     flex-grow: 1;
 }
 
-/* Full screen option */
-.carousel-item img {
-    height: 100vh;
-    object-fit: cover;
+.services-eyebrow {
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-#header-carousel, 
-#header-carousel .carousel-inner, 
-#header-carousel .carousel-item {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-}
-#header-carousel .carousel-item::before {
-    content: none; /* disables overlay if applied via pseudo-element */
-}
-#header-carousel .carousel-caption {
-    background: transparent !important;
-}
-#header-carousel .carousel-item img {
-    width: 100%;
-    height: 600px; /* match carousel height */
-    object-fit: cover; /* keeps image proportion while filling container */
+.services-lead {
+  color: #4b5563;
 }
 
 html, body {
@@ -458,16 +444,22 @@ html, body {
   margin-bottom: 6px;
 }
 
-.premium-card a {
+.premium-card a,
+.premium-card-link {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid rgba(255,255,255,0.6);
   transition: 0.3s;
   font-size: 0.9rem;
   opacity: 0.95;
+  display: inline-block;
+  padding: 8px 4px;
+  min-height: 44px;
+  line-height: 1.4;
 }
 
-.premium-card a:hover {
+.premium-card a:hover,
+.premium-card-link:hover {
   color: #ffcc00;
   border-color: #ffd700;
 }
@@ -557,10 +549,11 @@ html, body {
 
 /* TAG */
 .about-tag {
-  color: #ff7a00;
+  color: #b45309;
   font-size: 0.75rem;
   letter-spacing: 2px;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 /* TITLE */
@@ -615,5 +608,52 @@ html, body {
   .about-content {
     margin-left: 0;
     margin-top: -40px;
+  }
+}
+
+/* Mobile layout (desktop unchanged above 768px) */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.65rem;
+  }
+
+  .intro-title {
+    font-size: 1.5rem;
+  }
+
+  .intro-features span {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .tabs-wrapper {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tab-btn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+
+  .premium-card img {
+    height: 200px;
+  }
+
+  .package-card-wrapper {
+    animation: fadeInUp 0.45s forwards;
+    animation-delay: calc(var(--i, 0) * 0.08s);
+  }
+
+  .about-title {
+    font-size: 1.65rem;
+  }
+
+  .about-image img {
+    height: 260px;
+  }
+
+  .about-content {
+    padding: 1.5rem;
   }
 }

@@ -1,8 +1,9 @@
-import { Component, DOCUMENT, Inject, PLATFORM_ID, ChangeDetectionStrategy } from '@angular/core';
+import { Component, DOCUMENT, Inject, PLATFORM_ID, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
+import { scheduleThirdPartyScripts } from './utils/third-party-scripts.util';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ import { isPlatformBrowser } from '@angular/common';
   imports: [RouterModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   constructor(
     private router: Router,
@@ -65,5 +66,11 @@ export class AppComponent {
           canonical.setAttribute('href', canonicalUrl);
         }
       });
+  }
+
+  ngOnInit() {
+    if (isPlatformBrowser(this.platformId)) {
+      scheduleThirdPartyScripts();
+    }
   }
 }

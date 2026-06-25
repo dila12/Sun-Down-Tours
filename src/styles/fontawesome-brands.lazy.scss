@@ -1,0 +1,13 @@
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+$fa-font-display: optional;
+
+@import '@fortawesome/fontawesome-free/scss/brands';
+
+i.fab,
+.fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}

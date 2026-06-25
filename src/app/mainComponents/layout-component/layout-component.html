@@ -5,11 +5,11 @@
             <!-- Left side: email & phone -->
             <div class="col-lg-6 d-none d-lg-flex align-items-center">
                 <p class="mb-0 text-white small">
-                    <i class="fa fa-envelope mr-2"></i> sundowntoursrilanka@gmail.com
+                    <svg class="layout-icon mr-2" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M502.3 190.8 327.4 338c-15.2 12.1-36.4 12.1-51.6 0L1.7 190.8C.1 189.6 0 187.8 0 186V96c0-17.7 14.3-32 32-32h448c17.7 0 32 14.3 32 32v90c0 1.8-.1 3.6-1.7 4.8zM48 128v78.1l208 166.4 208-166.4V128H48z"/></svg> sundowntoursrilanka@gmail.com
                 </p>
                 <span class="mx-3 text-white">|</span>
                 <p class="mb-0 text-white small">
-                    <i class="fa fa-phone-alt mr-2"></i> +94706293585
+                    <svg class="layout-icon mr-2" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64c0 247.4 200.6 448 448 448 18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-19.7-8.2-42.5.5-53.1 19.5L201 319c-36.1-63.8-80.5-108.2-144.3-144.3L81.5 133c18.9-10.6 27.8-33.4 19.5-53.1l-40-96z"/></svg> +94706293585
                 </p>
             </div>
 
@@ -17,36 +17,36 @@
             <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-end align-items-center">
                 <div class="lang-pill d-flex flex-wrap">
                     <button class="lang-flag" [class.active]="activeLang === 'en'" (click)="changeLang('en')"
-                        title="English">
-                        <img src="https://flagcdn.com/w20/us.png" alt="EN" loading="lazy">
+                        title="English" aria-label="Switch to English">
+                        <img src="https://flagcdn.com/w20/us.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'de'" (click)="changeLang('de')"
-                        title="Deutsch">
-                        <img src="https://flagcdn.com/w20/de.png" alt="DE" loading="lazy">
+                        title="Deutsch" aria-label="Switch to German">
+                        <img src="https://flagcdn.com/w20/de.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'it'" (click)="changeLang('it')"
-                        title="Italiano">
-                        <img src="https://flagcdn.com/w20/it.png" alt="IT" loading="lazy">
+                        title="Italiano" aria-label="Switch to Italian">
+                        <img src="https://flagcdn.com/w20/it.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'fr'" (click)="changeLang('fr')"
-                        title="Français">
-                        <img src="https://flagcdn.com/w20/fr.png" alt="FR" loading="lazy">
+                        title="Français" aria-label="Switch to French">
+                        <img src="https://flagcdn.com/w20/fr.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'es'" (click)="changeLang('es')"
-                        title="spanish">
-                        <img src="https://flagcdn.com/w20/es.png" alt="es" loading="lazy">
+                        title="Spanish" aria-label="Switch to Spanish">
+                        <img src="https://flagcdn.com/w20/es.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'ru'" (click)="changeLang('ru')"
-                        title="Русский">
-                        <img src="https://flagcdn.com/w20/ru.png" alt="RU" loading="lazy">
+                        title="Русский" aria-label="Switch to Russian">
+                        <img src="https://flagcdn.com/w20/ru.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'pl'" (click)="changeLang('pl')"
-                        title="Polski">
-                        <img src="https://flagcdn.com/w20/pl.png" alt="PL" loading="lazy">
+                        title="Polski" aria-label="Switch to Polish">
+                        <img src="https://flagcdn.com/w20/pl.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <button class="lang-flag" [class.active]="activeLang === 'zh-CN'" (click)="changeLang('zh-CN')"
-                        title="中文">
-                        <img src="https://flagcdn.com/w20/cn.png" alt="cn" loading="lazy">
+                        title="中文" aria-label="Switch to Chinese">
+                        <img src="https://flagcdn.com/w20/cn.png" alt="" width="20" height="15" loading="lazy" decoding="async">
                     </button>
                     <!-- 
             <button class="lang-flag" [class.active]="activeLang === 'si'" (click)="changeLang('si')" title="සිංහල">
@@ -57,21 +57,21 @@
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.facebook.com/profile.php?id=61563992655756"
                         aria-label="Visit our Facebook page">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <app-social-icon name="facebook" />
                     </a>
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"
                         aria-label="Visit our Instagram page">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <app-social-icon name="instagram" />
                     </a>
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
-                        target="_blank" rel="noopener noreferrer" aria-label="Read our TripAdvisor reviews">
-                        <i class="fab fa-tripadvisor"></i>
+                        target="_blank" rel="noopener noreferrer"                         aria-label="Read our TripAdvisor reviews">
+                        <app-social-icon name="tripadvisor" />
                     </a>
                     <a class="btn btn-sm btn-square text-white" href="https://wa.me/94706293585" target="_blank"
                         rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
-                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        <app-social-icon name="whatsapp" />
                     </a>
                 </div>
             </div>
@@ -84,7 +84,7 @@
 <app-scroll-to-to-component></app-scroll-to-to-component>
 <a href="https://wa.me/94706293585" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
     aria-label="Chat with us on WhatsApp">
-    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <app-social-icon name="whatsapp" />
 </a>
 
 <!-- Navbar Start -->
@@ -93,31 +93,23 @@
         <nav class="navbar navbar-expand-lg navbar-color navbar-light shadow-lg  py-lg-0 ">
             <a routerLink="/" class="navbar-brand">
                 <span class="m-0 nav-link brand-title h1"><span class="text-white">
-                        <img src="assets/img/logos/2.webp" width="80" height="90" loading="eager" decoding="async"
-                            fetchpriority="high" alt="Sundown Tours"
+                        <img [src]="logoSrc" [srcset]="logoSrcSet" sizes="80px" width="80" height="90" loading="eager"
+                            decoding="async" fetchpriority="high" alt="Sundown Tours"
                             (error)="onImageError($event, 'assets/img/logos/2.png')">
                         Sundown Tours Sri Lanka </span></span>
             </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-label="Toggle navigation menu" aria-controls="navbarCollapse" aria-expanded="false">
+            <button type="button" class="navbar-toggler" (click)="toggleNav()"
+                aria-label="Toggle navigation menu" aria-controls="navbarCollapse" [attr.aria-expanded]="navOpen">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse"
+                [class.show]="navOpen">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="/" class="nav-item nav-link active nav-link">Home</a>
-                    <!--<a href="/restaurants-in-sri-lanka" class="nav-item nav-link nav-link">Sundown Beach Restaurant</a>-->
-                    <a href="/sri-lanka-private-tour" class="nav-item nav-link nav-link">Tour Packages</a>
-                    <a href="/our-services" class="nav-item nav-link nav-link">Services</a>
-                    <a href="/about-us" class="nav-item nav-link nav-link">About</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle nav-link" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu border-0 rounded-0 m-0">
-                            <a href="/destination" class="dropdown-item nav-link text-white">Destination</a>
-                            <a href="/travel-guides" class="dropdown-item nav-link text-white">Travel Guides</a>
-                            <a href="/testimonial" class="dropdown-item nav-link text-white">Testimonial</a>
-                        </div>
-                    </div> -->
-                    <a href="/contact-us" class="nav-item nav-link nav-link">Contact</a>
+                    <a href="/" class="nav-item nav-link active nav-link" (click)="closeNav()">Home</a>
+                    <a href="/sri-lanka-private-tour" class="nav-item nav-link nav-link" (click)="closeNav()">Tour Packages</a>
+                    <a href="/our-services" class="nav-item nav-link nav-link" (click)="closeNav()">Services</a>
+                    <a href="/about-us" class="nav-item nav-link nav-link" (click)="closeNav()">About</a>
+                    <a href="/contact-us" class="nav-item nav-link nav-link" (click)="closeNav()">Contact</a>
                 </div>
             </div>
         </nav>
@@ -132,61 +124,63 @@
     <div class="row pt-5">
         <div class="col-lg-3 col-md-6">
             <a class="navbar-brand">
-                <h5 class=""><span class="text-white">
-                        Sundown Tours</span></h5>
+                <p class="footer-brand mb-0"><span class="text-white">Sundown Tours</span></p>
             </a>
             <p>Your trusted travel partner in Sri Lanka, offering guided tours, round trips, and tailor-made holiday
                 experiences with reliable service.</p>
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
             <div class="d-flex justify-content-start">
                 <a class="btn nav-link btn-square mr-2 text-white-50"
-                    href="https://www.facebook.com/profile.php?id=61563992655756" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
+                    href="https://www.facebook.com/profile.php?id=61563992655756" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Facebook page">
+                    <app-social-icon name="facebook" />
                 </a>
                 <a class="btn nav-link btn-square nav-link px-3 text-white-50"
-                    href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"><i
-                        class="fab fa-instagram"></i></a>
+                    href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4" target="_blank"
+                    rel="noopener noreferrer" aria-label="Visit our Instagram page">
+                    <app-social-icon name="instagram" />
+                </a>
                 <a class="btn nav-link btn-square mr-2 text-white-50"
                     href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
-                    target="_blank">
-                    <i class="fab fa-tripadvisor"></i>
+                    target="_blank" rel="noopener noreferrer" aria-label="Read our TripAdvisor reviews">
+                    <app-social-icon name="tripadvisor" />
                 </a>
                 <a class="btn nav-link btn-square text-white-50" href="https://wa.me/94706293585" target="_blank"
                     rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
-                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    <app-social-icon name="whatsapp" />
                 </a>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+            <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h3>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" routerLink="/about-us"><i class="fa fa-angle-right mr-2"></i>About</a>
-                <a class="text-white-50 mb-2" routerLink="/destinations-sri-lanka"><i
+                <a class="text-white mb-2" routerLink="/about-us"><i class="fa fa-angle-right mr-2"></i>About</a>
+                <a class="text-white mb-2" routerLink="/destinations-sri-lanka"><i
                         class="fa fa-angle-right mr-2"></i>Destination</a>
-                <a class="text-white-50 mb-2" routerLink="/our-services"><i
+                <a class="text-white mb-2" routerLink="/our-services"><i
                         class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
                         class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white-50 mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a> -->
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Menu</h5>
+            <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Menu</h3>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
                         class="fa fa-angle-right mr-2"></i>Sri Lankan Day Tours</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
                         class="fa fa-angle-right mr-2"></i>Multi Days Tours </a>
-                <a class="text-white-50 mb-2" routerLink="/our-services"><i
+                <a class="text-white mb-2" routerLink="/our-services"><i
                         class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white-50 mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
                         class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white-50 mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a>
                 <a class="text-white-50 mb-2" routerLink="/customer-testimonials"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+            <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h3>
             <p><i class="fa fa-map-marker-alt mr-2"></i> No 302 ,Mahawaskaduwa,Waskaduwa, Kalutara North, Sri Lanka</p>
             <p><i class="fa fa-phone-alt mr-2"></i>+94706293585</p>
             <p><i class="fa fa-envelope mr-2"></i>sundowntoursrilanka@gmail.com</p>
@@ -209,7 +203,7 @@
     style="border-color: rgba(256, 256, 256, .1) !important;">
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <p class="m-0 text-white-50">Copyright &copy; <a routerLink="/" class="text-white-50">Sundown Tours</a>. All
+            <p class="m-0 text-white-50">Copyright &copy; <a routerLink="/" class="text-white">Sundown Tours</a>. All
                 Rights Reserved.
             </p>
         </div>

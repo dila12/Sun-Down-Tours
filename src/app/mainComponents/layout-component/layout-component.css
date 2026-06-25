@@ -13,6 +13,22 @@ body { top: 0px !important; }
   margin: 0 5px;
 }
 
+.layout-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.footer-brand {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
 .navbar-color {
     position: sticky;
     top: 0;
@@ -125,17 +141,32 @@ body { top: 0px !important; }
 .lang-flag {
   background: transparent;
   border: none;
-  padding: 4px;
+  padding: 10px;
+  min-width: 44px;
+  min-height: 44px;
   cursor: pointer;
   border-radius: 6px;
   opacity: 0.6;
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lang-flag img {
   width: 20px;
-  height: 14px;
+  height: 15px;
   display: block;
+  object-fit: cover;
+}
+
+.navbar-color .btn-square,
+.navbar-color .btn-sm-square {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lang-flag:hover {

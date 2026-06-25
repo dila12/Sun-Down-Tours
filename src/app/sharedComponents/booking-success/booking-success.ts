@@ -25,16 +25,18 @@ export class BookingSuccessComponent {
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {
     this.isBrowser = isPlatformBrowser(this.platformId);
-    const state = history.state;
 
-    this.booking = state.booking;
-    this.orderNumber = state.orderNumber;
-    this.total = state.total;
-    this.subtotal = state.subtotal;
-    this.travelers = state.travelers;
-    this.tour = state.tour;
-    this.amountPaid = state.amountPaid;
-    this.amountDue = state.amountDue;
+    if (this.isBrowser) {
+      const state = history.state;
+      this.booking = state.booking;
+      this.orderNumber = state.orderNumber;
+      this.total = state.total;
+      this.subtotal = state.subtotal;
+      this.travelers = state.travelers;
+      this.tour = state.tour;
+      this.amountPaid = state.amountPaid;
+      this.amountDue = state.amountDue;
+    }
   }
 
     printInvoice() {

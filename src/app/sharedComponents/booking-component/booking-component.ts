@@ -17,7 +17,7 @@ declare let gtag: Function;
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './booking-component.html',
-  styleUrl: './booking-component.css',
+  styleUrls: ['./booking-component.css', '../../../styles/fontawesome-brands.lazy.scss', '../../../styles/ngx-toastr.lazy.scss'],
 })
 export class BookingComponent {
   tour: any;

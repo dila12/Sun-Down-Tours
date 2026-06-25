@@ -1,58 +1,56 @@
-<!-- Carousel Start -->
+<!-- Hero Carousel -->
 <div class="container-fluid p-0">
-    <div id="header-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" [ngSrc]="heroSlide.src" [alt]="heroSlide.alt" width="1920" height="1080" priority
+    <div id="header-carousel" class="hero-carousel" role="region" aria-label="Featured tour highlights"
+        aria-roledescription="carousel">
+        <div class="hero-carousel-track" [style.transform]="'translateX(-' + (activeSlide * 100) + '%)'">
+            @for (slide of slides; track trackByIndex($index)) {
+            <div class="hero-carousel-slide" role="group" [attr.aria-label]="'Slide ' + ($index + 1) + ' of ' + slides.length"
+                [attr.inert]="$index !== activeSlide ? '' : null"
+                [class.is-active]="$index === activeSlide">
+                @if ($index === 0) {
+                <img class="w-100" [ngSrc]="slide.src" [alt]="slide.alt" width="1920" height="1080" priority
                     decoding="async" (error)="onImageError($event)">
+                } @else {
+                <img class="w-100" [src]="slide.src" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
+                    [alt]="slide.alt" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
+                    (error)="onImageError($event)">
+                }
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-3 text-white mb-md-4">{{ heroSlide.heading }}</h1>
+                        @if ($index === 0) {
+                        <h1 class="display-3 text-white mb-md-4">{{ slide.heading }}</h1>
                         <p class="text-white mb-3">
                             Discover tailor-made Sri Lanka tours, private drivers, safari experiences and beach holidays
                             with trusted local experts.
                         </p>
                         <a href="https://wa.me/94706293585" class="btn btn-primary py-md-3 px-md-5 button-round mt-2"
                             aria-label="Contact us on WhatsApp">
-                            <i class="fab fa-whatsapp mr-2" aria-hidden="true"></i>WhatsApp
+                            <app-social-icon name="whatsapp" /><span class="ml-2">WhatsApp</span>
                         </a>
-                    </div>
-                </div>
-            </div>
-            @if (showExtraSlides) {
-            @for (slide of extraSlides; track trackByIndex($index)) {
-            <div class="carousel-item">
-                <img class="w-100" [src]="slide.src" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
-                    [alt]="slide.alt" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
-                    (error)="onImageError($event)">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
+                        } @else {
                         <h2 class="display-3 text-white mb-md-4">{{ slide.heading }}</h2>
                         <button type="button" class="btn btn-primary py-md-3 px-md-5 mt-2"
                             (click)="scrollToSection('packages')" aria-label="Explore tour packages">
                             Explore Tours
                         </button>
+                        }
                     </div>
                 </div>
             </div>
             }
-            }
         </div>
-        @if (showExtraSlides) {
-        <a class="carousel-control-prev" href="#header-carousel" data-slide="prev" aria-label="Previous slide">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-prev-icon mb-n2" aria-hidden="true"></span>
-            </div>
-        </a>
-        <a class="carousel-control-next" href="#header-carousel" data-slide="next" aria-label="Next slide">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-next-icon mb-n2" aria-hidden="true"></span>
-            </div>
-        </a>
+        @if (slides.length > 1) {
+        <button type="button" class="hero-carousel-control hero-carousel-control-prev" (click)="prevSlide()"
+            aria-label="Previous slide">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="hero-carousel-control hero-carousel-control-next" (click)="nextSlide()"
+            aria-label="Next slide">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
         }
     </div>
 </div>
-<!-- Carousel End -->
 
 <section class="intro-section py-5">
     <div class="container text-center">
@@ -82,11 +80,12 @@
             <div class="col-lg-4 col-md-6">
                 <div class="premium-card" (click)="scrollToSection('packages')" role="button" tabindex="0"
                     (keyup.enter)="scrollToSection('packages')" [attr.aria-label]="'Explore ' + dest.name + ' tours'">
-                    <img [src]="dest.src" [alt]="dest.alt" width="400" height="280" loading="lazy" decoding="async"
-                        fetchpriority="low" (error)="onImageError($event)">
+                    <img [src]="dest.src" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt"
+                        width="400" height="280" loading="lazy" decoding="async" fetchpriority="low"
+                        (error)="onImageError($event)">
                     <div class="content">
                         <h3>{{ dest.name }}</h3>
-                        <a href="#packages">Explore Tours →</a>
+                        <span class="premium-card-link">Explore Tours →</span>
                     </div>
                 </div>
             </div>
@@ -98,7 +97,7 @@
 <section id="packages" class="packages-section py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h6 class="section-tag">PACKAGES</h6>
+            <p class="section-tag">PACKAGES</p>
             <h2 class="section-title">Explore Our Best Tours</h2>
             <p class="section-subtitle">
                 Choose from our best-selling Sri Lanka tours or customize your private experience.
@@ -141,7 +140,7 @@
                     decoding="async" fetchpriority="low" (error)="onImageError($event)">
             </div>
             <div class="about-content">
-                <span class="about-tag">ABOUT US</span>
+                <p class="about-tag">ABOUT US</p>
                 <h2 class="about-title">Trusted Sri Lanka Tour Company</h2>
                 <p>
                     <strong>Sun Down Tours Sri Lanka</strong> has been delivering trusted travel experiences since 1992.
@@ -164,6 +163,7 @@
     </div>
 </section>
 
+@defer (on viewport) {
 <div class="container-fluid pb-5 py-5" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pb-5">
         <div class="row">
@@ -209,13 +209,17 @@
         </div>
     </div>
 </div>
+} @placeholder {
+<div class="py-5" aria-hidden="true"></div>
+}
 
+@defer (on viewport) {
 <div class="container-fluid" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-4 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sri Lanka Travel Services</h6>
+            <p class="services-eyebrow text-primary text-uppercase">Sri Lanka Travel Services</p>
             <h2 class="mb-3" itemprop="name">Premium Sri Lanka Tours, Travel & Chauffeur Services</h2>
-            <p class="text-muted mx-auto" style="max-width: 700px;" itemprop="description">
+            <p class="services-lead mx-auto" style="max-width: 700px;" itemprop="description">
                 Complete Sri Lanka travel solutions including private tours, chauffeur driven round tours,
                 hotel reservations, train tickets, and customized holiday packages.
             </p>
@@ -245,6 +249,9 @@
         </div>
     </div>
 </div>
+} @placeholder {
+<div class="py-5" aria-hidden="true"></div>
+}
 
 @defer (on viewport) {
 <app-home-contact-section />

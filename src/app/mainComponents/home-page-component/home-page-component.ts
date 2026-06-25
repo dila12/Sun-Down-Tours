@@ -3,6 +3,7 @@ import {
   ChangeDetectorRef,
   Component,
   Inject,
+  OnDestroy,
   OnInit,
   PLATFORM_ID,
 } from '@angular/core';
@@ -17,7 +18,7 @@ import { HomeTeamSectionComponent } from './sections/home-team-section/home-team
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
 import { HomePopularToursComponent } from './sections/home-popular-tours/home-popular-tours';
 import { HomeSeoSectionComponent } from './sections/home-seo-section/home-seo-section';
-import { ContactUsComponent } from '../../sharedComponents/contact-us-component/contact-us-component';
+import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
 import { forkJoin } from 'rxjs';
 
 interface TourSlide {
@@ -44,14 +45,14 @@ interface Destination {
     HomeElfsightWidgetComponent,
     HomePopularToursComponent,
     HomeSeoSectionComponent,
+    SocialIconComponent,
     NgOptimizedImage,
-    ContactUsComponent,
   ],
   templateUrl: './home-page-component.html',
   styleUrl: './home-page-component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomePageComponent {
+export class HomePageComponent implements OnInit, OnDestroy {
   dayTours: any[] = [];
   multiDayTours: any[] = [];
   displayCount = 6;
@@ -62,11 +63,14 @@ export class HomePageComponent {
   showAllTours = false;
   showExtraSlides = false;
   loadingMore = false;
+  activeSlide = 0;
+  private carouselTimer?: ReturnType<typeof setInterval>;
 
   readonly onImageError = onImageError;
   readonly buildSrcSet = buildSrcSet;
   readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
+  readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
 
   readonly heroSlide: TourSlide = {
     src: 'assets/img/mainpage/1.webp',
@@ -121,22 +125,42 @@ export class HomePageComponent {
   ) { }
 
   ngOnInit() {
-
     this.loadHomeTours();
     this.initCarouselLazyLoad();
+  }
 
-    if (isPlatformBrowser(this.platformId)) {
-      requestIdleCallback(() => {
-        this.http.get<any>('assets/data/tours.json')
-          .subscribe(data => {
-            this.cachedTours = data;
-          });
-        this.http.get<any>('assets/data/tourdetails.json')
-          .subscribe(data => {
-            this.cachedPriceData = data;
-          });
-      });
+  ngOnDestroy() {
+    if (this.carouselTimer) {
+      clearInterval(this.carouselTimer);
     }
+  }
+
+  get slides(): TourSlide[] {
+    return this.showExtraSlides ? [this.heroSlide, ...this.extraSlides] : [this.heroSlide];
+  }
+
+  prevSlide() {
+    const total = this.slides.length;
+    if (total <= 1) return;
+    this.activeSlide = (this.activeSlide - 1 + total) % total;
+    this.cdr.markForCheck();
+  }
+
+  nextSlide() {
+    const total = this.slides.length;
+    if (total <= 1) return;
+    this.activeSlide = (this.activeSlide + 1) % total;
+    this.cdr.markForCheck();
+  }
+
+  goToSlide(index: number) {
+    this.activeSlide = index;
+    this.cdr.markForCheck();
+  }
+
+  private startCarouselAutoplay() {
+    if (!isPlatformBrowser(this.platformId) || this.slides.length <= 1) return;
+    this.carouselTimer = setInterval(() => this.nextSlide(), 6000);
   }
 
   private applyPrices() {
@@ -213,12 +237,14 @@ export class HomePageComponent {
     if (!isMobile) {
       this.showExtraSlides = true;
       this.cdr.markForCheck();
+      this.startCarouselAutoplay();
       return;
     }
 
     const loadRest = () => {
       this.showExtraSlides = true;
       this.cdr.markForCheck();
+      this.startCarouselAutoplay();
     };
 
     if ('requestIdleCallback' in window) {

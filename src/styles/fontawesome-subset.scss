@@ -1,0 +1,43 @@
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+$fa-font-display: optional;
+
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/solid';
+
+i.fab,
+.fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+i.fas,
+i.fa,
+.fas,
+.fa {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+.btn i.fab,
+.btn i.fas,
+.btn i.fa {
+  font-family: inherit;
+}
+
+.btn i.fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+  font-weight: 400;
+}
+
+.btn i.fas,
+.btn i.fa {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 900;
+}

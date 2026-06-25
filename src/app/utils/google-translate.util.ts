@@ -1,8 +1,9 @@
 /** Cookie-based Google Translate helpers (works with hidden widget + SSR hydration). */
 
+import { loadGoogleTranslate } from './third-party-scripts.util';
+
 export function requestGoogleTranslateScript(): void {
-  if (typeof window === 'undefined') return;
-  (window as any).loadGoogleTranslate?.();
+  loadGoogleTranslate();
 }
 
 export function applyGoogleTranslateLang(lang: string): void {

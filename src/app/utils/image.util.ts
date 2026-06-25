@@ -9,20 +9,26 @@ export function toWebpSrc(path: string): string {
  * Build srcset for WebP images that follow the {name}-{width}w.webp naming convention.
  * Pass includeVariants=false for images without responsive variants (e.g. hero 1.webp).
  */
-export function buildSrcSet(basePath: string, includeVariants = true): string {
-  if (!includeVariants || !/\.webp$/i.test(basePath) || /-\d+w\.webp$/i.test(basePath)) {
-    return '';
-  }
+export function buildSrcSet(
+    basePath: string,
+    includeVariants = false
+): string {
 
-  const dot = basePath.lastIndexOf('.');
-  const stem = basePath.slice(0, dot);
-  const ext = basePath.slice(dot);
-  const widths = [320, 640, 960, 1280];
+    if (!includeVariants) {
+        return '';
+    }
 
-  return widths
-    .map((w) => `${stem}-${w}w${ext} ${w}w`)
-    .concat(`${basePath} 1920w`)
-    .join(', ');
+    const dot = basePath.lastIndexOf('.');
+    const stem = basePath.slice(0, dot);
+    const ext = basePath.slice(dot);
+
+    return [
+        `${stem}-320w${ext} 320w`,
+        `${stem}-640w${ext} 640w`,
+        `${stem}-960w${ext} 960w`,
+        `${stem}-1280w${ext} 1280w`,
+        `${basePath} 1920w`
+    ].join(', ');
 }
 
 export function defaultSizes(fullWidth = false): string {

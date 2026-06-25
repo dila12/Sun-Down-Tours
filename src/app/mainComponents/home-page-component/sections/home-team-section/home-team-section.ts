@@ -5,7 +5,7 @@ import { onImageError } from '../../../../utils/image.util';
   selector: 'app-home-team-section',
   standalone: true,
   templateUrl: './home-team-section.html',
-  styleUrl: './home-team-section.css',
+  styleUrls: ['./home-team-section.css', '../../../../../styles/fontawesome-brands.lazy.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeTeamSectionComponent {

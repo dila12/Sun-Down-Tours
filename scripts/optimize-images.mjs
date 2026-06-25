@@ -69,9 +69,40 @@ async function processImage(filePath) {
   console.log(`✓ ${rel} → ${baseName}.webp (${kb} KB)`);
 }
 
+async function walkWebp(dir) {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...(await walkWebp(full)));
+    } else if (/\.webp$/i.test(entry.name) && !/-\d+w\.webp$/i.test(entry.name)) {
+      files.push(full);
+    }
+  }
+  return files;
+}
+
+async function recompressWebp(filePath) {
+  const rel = filePath.replace(/\\/g, '/');
+  const hero = isHero(rel) || /5daysTours\/32/i.test(rel);
+  const maxKb = hero ? 60 : 45;
+  const statInfo = await stat(filePath);
+  if (statInfo.size <= maxKb * 1024) return;
+
+  const buffer = await sharp(filePath).toBuffer();
+  const meta = await sharp(buffer).metadata();
+  const maxWidth = Math.min(meta.width ?? 1280, hero ? 1280 : 800);
+  const result = await optimizeToTarget(buffer, maxKb, maxWidth);
+  await sharp(result).toFile(filePath);
+
+  const kb = (result.length / 1024).toFixed(1);
+  console.log(`↻ ${rel} recompressed (${kb} KB)`);
+}
+
 async function main() {
   const files = await walk(IMG_DIR);
-  console.log(`Processing ${files.length} images...`);
+  console.log(`Processing ${files.length} source images...`);
   for (const file of files) {
     try {
       await processImage(file);
@@ -79,6 +110,17 @@ async function main() {
       console.error(`✗ ${file}:`, err.message);
     }
   }
+
+  const webps = await walkWebp(IMG_DIR);
+  console.log(`Recompressing ${webps.length} webp files over budget...`);
+  for (const file of webps) {
+    try {
+      await recompressWebp(file);
+    } catch (err) {
+      console.error(`✗ ${file}:`, err.message);
+    }
+  }
+
   console.log('Done.');
 }
 
