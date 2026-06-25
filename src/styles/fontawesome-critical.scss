@@ -1,0 +1,107 @@
+/* Self-hosted critical Font Awesome solid icons — avoids CDN all.min.css (~70KB unused rules) */
+
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+    url('#{$fa-font-path}/fa-solid-900.woff') format('woff');
+}
+
+.fa,
+.fas,
+i.fa,
+i.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+.fa-angle-right:before { content: '\f105'; }
+.fa-angle-double-right:before { content: '\f101'; }
+.fa-arrow-up:before { content: '\f062'; }
+.fa-award:before { content: '\f559'; }
+.fa-bolt:before { content: '\f0e7'; }
+.fa-calendar:before { content: '\f133'; }
+.fa-calendar-alt:before { content: '\f073'; }
+.fa-calendar-check:before { content: '\f274'; }
+.fa-car:before { content: '\f1b9'; }
+.fa-check:before { content: '\f00c'; }
+.fa-check-circle:before { content: '\f058'; }
+.fa-clock:before { content: '\f017'; }
+.fa-credit-card:before { content: '\f09d'; }
+.fa-dollar-sign:before { content: '\f155'; }
+.fa-envelope:before { content: '\f0e0'; }
+.fa-eye:before { content: '\f06e'; }
+.fa-globe:before { content: '\f0ac'; }
+.fa-heart:before { content: '\f004'; }
+.fa-home:before { content: '\f015'; }
+.fa-hotel:before { content: '\f594'; }
+.fa-info-circle:before { content: '\f05a'; }
+.fa-lightbulb:before { content: '\f0eb'; }
+.fa-lock:before { content: '\f023'; }
+.fa-map-marked-alt:before { content: '\f5a0'; }
+.fa-map-marker-alt:before { content: '\f3c5'; }
+.fa-money-check-alt:before { content: '\f53d'; }
+.fa-paw:before { content: '\f1b0'; }
+.fa-phone:before { content: '\f095'; }
+.fa-phone-alt:before { content: '\f879'; }
+.fa-plane:before { content: '\f072'; }
+.fa-print:before { content: '\f02f'; }
+.fa-receipt:before { content: '\f543'; }
+.fa-route:before { content: '\f4d7'; }
+.fa-shield-alt:before { content: '\f3ed'; }
+.fa-spinner:before { content: '\f110'; }
+.fa-suitcase:before { content: '\f0f2'; }
+.fa-tag:before { content: '\f02b'; }
+.fa-ticket-alt:before { content: '\f3ff'; }
+.fa-times:before { content: '\f00d'; }
+.fa-user:before { content: '\f007'; }
+.fa-users:before { content: '\f0c0'; }
+.fa-utensils:before { content: '\f2e7'; }
+
+/* Tour itinerary icons (subset) */
+.fa-hiking:before { content: '\f6ec'; }
+.fa-train:before { content: '\f238'; }
+.fa-leaf:before { content: '\f06c'; }
+.fa-water:before { content: '\f773'; }
+.fa-elephant:before { content: '\f6da'; }
+.fa-place-of-worship:before { content: '\f67f'; }
+.fa-theater-masks:before { content: '\f630'; }
+.fa-mountain:before { content: '\f6fc'; }
+.fa-tree:before { content: '\f1bb'; }
+.fa-mug-hot:before { content: '\f7b6'; }
+.fa-bridge:before { content: '\e4c8'; }
+.fa-landmark:before { content: '\f66f'; }
+.fa-umbrella-beach:before { content: '\f5ca'; }
+.fa-ship:before { content: '\f21a'; }
+.fa-seedling:before { content: '\f4d8'; }
+.fa-city:before { content: '\f64f'; }
+.fa-camera:before { content: '\f030'; }
+.fa-fish:before { content: '\f578'; }
+.fa-circle:before { content: '\f111'; }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
+    url('#{$fa-font-path}/fa-brands-400.woff') format('woff');
+}
+
+.fab,
+i.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+.fa-whatsapp:before { content: '\f232'; }

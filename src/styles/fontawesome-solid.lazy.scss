@@ -1,4 +1,16 @@
 $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
-$fa-font-display: optional;
+$fa-font-display: swap;
 
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
 @import '@fortawesome/fontawesome-free/scss/solid';
+
+i.fas,
+i.fa,
+.fas,
+.fa {
+  font-family: 'Font Awesome 5 Free' !important;
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}

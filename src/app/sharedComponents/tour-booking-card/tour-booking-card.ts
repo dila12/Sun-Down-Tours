@@ -24,7 +24,7 @@ declare let gtag: Function;
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './tour-booking-card.html',
-  styleUrl: './tour-booking-card.css',
+  styleUrls: ['./tour-booking-card.css', '../../../styles/ngx-toastr.lazy.scss'],
 })
 export class TourBookingCardComponent implements OnInit, OnChanges {
   @Input({ required: true }) tour!: any;

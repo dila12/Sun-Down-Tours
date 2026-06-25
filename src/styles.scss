@@ -1,5 +1,6 @@
 @import '@fontsource/poppins/latin-400.css';
 @import '@fontsource/poppins/latin-600.css';
+@import './styles/fontawesome-critical';
 @import './styles/style';
 
 .goog-te-banner-frame,
@@ -46,14 +47,4 @@ button,
 
 body > .skiptranslate {
   display: none !important;
-}
-
-/* Force font-display: swap on FontAwesome fonts to satisfy Lighthouse audits */
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-display: swap;
 }
