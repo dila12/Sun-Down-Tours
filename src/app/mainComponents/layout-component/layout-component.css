@@ -282,3 +282,36 @@ body { top: 0px !important; }
 }
 
 /* Consolidate with mobile styles above */
+
+/* Footer newsletter — minimal form styles until deferred Bootstrap CSS loads */
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.input-group .form-control {
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+
+.input-group-append {
+  display: flex;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.border-light {
+  border-color: #f8f9fa !important;
+}

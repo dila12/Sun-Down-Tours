@@ -1,15 +1,4 @@
-/* Self-hosted critical Font Awesome solid icons — avoids CDN all.min.css (~70KB unused rules) */
-
-$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
-
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-solid-900.woff') format('woff');
-}
+/* Icon glyphs only — font files load via deferred-fonts.util after first paint */
 
 .fa,
 .fas,
@@ -85,23 +74,3 @@ i.fas {
 .fa-camera:before { content: '\f030'; }
 .fa-fish:before { content: '\f578'; }
 .fa-circle:before { content: '\f111'; }
-
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-brands-400.woff') format('woff');
-}
-
-.fab,
-i.fab {
-  font-family: 'Font Awesome 5 Brands';
-  font-weight: 400;
-  font-style: normal;
-  display: inline-block;
-  line-height: 1;
-}
-
-.fa-whatsapp:before { content: '\f232'; }

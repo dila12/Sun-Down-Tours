@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { LayoutComponent } from './mainComponents/layout-component/layout-component';
 
 const seoData = (title: string, description: string, keywords: string) => ({
   title,
@@ -9,8 +10,7 @@ const seoData = (title: string, description: string, keywords: string) => ({
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () =>
-      import('./mainComponents/layout-component/layout-component').then((m) => m.LayoutComponent),
+    component: LayoutComponent,
     children: [
       {
         path: '',

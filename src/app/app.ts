@@ -3,6 +3,7 @@ import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/ro
 import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
+import { scheduleDeferredAssets } from './utils/deferred-assets.util';
 import { scheduleThirdPartyScripts } from './utils/third-party-scripts.util';
 
 @Component({
@@ -70,6 +71,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
+      scheduleDeferredAssets();
       scheduleThirdPartyScripts();
     }
   }
