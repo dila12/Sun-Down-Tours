@@ -137,16 +137,6 @@ export const routes: Routes = [
         ),
       },
       {
-        path: 'booking/:filecode',
-        loadComponent: () =>
-          import('./sharedComponents/booking-component/booking-component').then((m) => m.BookingComponent),
-        data: seoData(
-          'Book Your Sri Lanka Tour | Private & Customized Travel',
-          'Book your private Sri Lanka tour with our customizable packages and expert local guides.',
-          'Sri Lanka booking, private Sri Lanka tour booking',
-        ),
-      },
-      {
         path: 'booking-success',
         loadComponent: () =>
           import('./sharedComponents/booking-success/booking-success').then((m) => m.BookingSuccessComponent),
