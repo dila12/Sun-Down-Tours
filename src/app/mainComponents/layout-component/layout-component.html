@@ -99,7 +99,8 @@
                         Sundown Tours Sri Lanka </span></span>
             </a>
             <button type="button" class="navbar-toggler" (click)="toggleNav()"
-                aria-label="Toggle navigation menu" aria-controls="navbarCollapse" [attr.aria-expanded]="navOpen">
+                aria-label="Toggle navigation menu" aria-controls="navbarCollapse"
+                [attr.aria-expanded]="navOpen ? 'true' : 'false'">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse"

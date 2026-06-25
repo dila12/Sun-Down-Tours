@@ -162,6 +162,15 @@ body { top: 0px !important; }
     width: 24px !important;
     height: 24px !important;
   }
+
+  /* Collapsed by default on mobile; open only when toggler adds .show */
+  .navbar-expand-lg .navbar-collapse.collapse:not(.show) {
+    display: none !important;
+  }
+
+  .navbar-expand-lg .navbar-collapse.collapse.show {
+    display: block !important;
+  }
 }
 
 

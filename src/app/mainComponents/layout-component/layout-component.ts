@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit, PLATFORM_ID, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
@@ -21,7 +21,10 @@ export class LayoutComponent implements OnInit {
   readonly logoSrc = 'assets/img/logos/2-80w.webp';
   readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w-opt.webp 160w, assets/img/logos/2-320w.webp 320w';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private cdr: ChangeDetectorRef,
+  ) {}
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
@@ -35,10 +38,12 @@ export class LayoutComponent implements OnInit {
 
   toggleNav() {
     this.navOpen = !this.navOpen;
+    this.cdr.markForCheck();
   }
 
   closeNav() {
     this.navOpen = false;
+    this.cdr.markForCheck();
   }
 
   changeLang(lang: string) {
