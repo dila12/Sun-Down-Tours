@@ -102,11 +102,11 @@ export class HomePageComponent implements OnInit, OnDestroy {
   ];
 
   readonly destinations: Destination[] = [
-    { name: 'Sigiriya', src: toWebpSrc('assets/img/destination-1.jpg'), alt: 'Sigiriya Rock Fortress Sri Lanka' },
-    { name: 'Ella', src: toWebpSrc('assets/img/destination-2.jpg'), alt: 'Ella Scenic Train Journey Sri Lanka' },
-    { name: 'Yala Safari', src: toWebpSrc('assets/img/destination-3.jpg'), alt: 'Yala National Park Safari Sri Lanka' },
+    { name: 'Sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'Sigiriya Rock Fortress Sri Lanka' },
+    { name: 'Ella', src: 'assets/img/destination-2-opt.webp', alt: 'Ella Scenic Train Journey Sri Lanka' },
+    { name: 'Yala Safari', src: 'assets/img/destination-3-opt.webp', alt: 'Yala National Park Safari Sri Lanka' },
     { name: 'Kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'Kandy cultural city Sri Lanka' },
-    { name: 'Dambulla', src: toWebpSrc('assets/img/destination-5.jpg'), alt: 'Dambulla cave temple Sri Lanka' },
+    { name: 'Dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'Dambulla cave temple Sri Lanka' },
     { name: 'Galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'Galle Fort Sri Lanka' },
   ];
 
@@ -117,6 +117,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
   ];
 
   private cachedPriceData: any = null;
+  private hasFullPriceData = false;
 
   constructor(
     private http: HttpClient,
@@ -200,7 +201,8 @@ export class HomePageComponent implements OnInit, OnDestroy {
     const { homeData, priceData } = await firstValueFrom(
       forkJoin({
         homeData: this.http.get<any>('assets/data/home-tours.json'),
-        priceData: this.http.get<any>('assets/data/tourdetails.json'),
+        // Keep initial payload small for mobile; load full pricing on demand.
+        priceData: this.http.get<any>('assets/data/home-tour-prices.json'),
       })
     );
 
@@ -221,6 +223,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
     this.multiDayTours = homeData.multiDayTours;
     this.dayTours = homeData.dayTours;
     this.cachedPriceData = priceData;
+    this.hasFullPriceData = false;
     this.applyPrices();
     this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
     this.cdr.markForCheck();
@@ -279,6 +282,13 @@ export class HomePageComponent implements OnInit, OnDestroy {
       this.cachedTours = await firstValueFrom(
         this.http.get<any>('assets/data/tours.json')
       );
+    }
+
+    if (!this.hasFullPriceData) {
+      this.cachedPriceData = await firstValueFrom(
+        this.http.get<any>('assets/data/tourdetails.json')
+      );
+      this.hasFullPriceData = true;
     }
 
     this.dayTours = [...this.cachedTours.dayTours];

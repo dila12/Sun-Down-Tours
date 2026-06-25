@@ -19,14 +19,17 @@ export class LayoutComponent implements OnInit {
   navOpen = false;
   readonly onImageError = onImageError;
   readonly logoSrc = 'assets/img/logos/2-80w.webp';
-  readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w.webp 160w, assets/img/logos/2-320w.webp 320w';
+  readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w-opt.webp 160w, assets/img/logos/2-320w.webp 320w';
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       this.activeLang = getSavedLang();
-      requestGoogleTranslateScript();
+      // Keep initial mobile render light: load translate only when needed.
+      if (this.activeLang !== 'en') {
+        requestGoogleTranslateScript();
+      }
     }
   }
 
@@ -39,8 +42,17 @@ export class LayoutComponent implements OnInit {
   }
 
   changeLang(lang: string) {
+    if (this.activeLang === lang) {
+      return;
+    }
+
     this.activeLang = lang;
     localStorage.setItem('preferred_lang', lang);
+
+    if (lang !== 'en') {
+      requestGoogleTranslateScript();
+    }
+
     applyGoogleTranslateLang(lang);
   }
 }

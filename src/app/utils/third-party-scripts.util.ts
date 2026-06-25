@@ -24,8 +24,12 @@ export function scheduleThirdPartyScripts(): void {
 
   events.forEach((event) => window.addEventListener(event, run, opts));
 
-  // Fallback for users who never interact during the session.
-  setTimeout(run, 20000);
+  // Fallback: load after 30s if no user interaction — gives LCP/TTI time to complete
+  if ('requestIdleCallback' in window) {
+    (window as any).requestIdleCallback(() => run(), { timeout: 30000 });
+  } else {
+    setTimeout(run, 30000);
+  }
 }
 
 export function loadGoogleAnalytics(): void {

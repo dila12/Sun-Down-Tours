@@ -1,0 +1,48 @@
+{
+  "multiDayTours": [
+    {
+      "name": "2-day-ella-kandy-private-tour-sri-lanka",
+      "price": {
+        "2": 570
+      }
+    },
+    {
+      "name": "2-day-ella-yala-private-tour-sri-lanka",
+      "price": {
+        "2": 550
+      }
+    },
+    {
+      "name": "4-day-sri-lanka-tour",
+      "price": {
+        "2": 1300
+      }
+    },
+    {
+      "name": "7-day-sri-lanka-tour",
+      "price": {
+        "2": 1575
+      }
+    },
+    {
+      "name": "10-day-sri-lanka-tour",
+      "price": {
+        "2": 2200
+      }
+    }
+  ],
+  "dayTours": [
+    {
+      "name": "ella-day-tour",
+      "price": {
+        "2": 350
+      }
+    },
+    {
+      "name": "galle-day-tour",
+      "price": {
+        "2": 190
+      }
+    }
+  ]
+}
