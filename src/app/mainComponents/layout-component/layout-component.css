@@ -59,17 +59,109 @@ body { top: 0px !important; }
     color: #c96929; /* Text color on hover */
 }
 @media (max-width: 768px) {
-
-  .navbar-brand .brand-title {
-    font-size: 18px !important;
-    white-space: nowrap;
+  /* 1. Reduce overall navigation & topbar padding and margins */
+  .navbar-color.py-2.px-3 {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
+  /* 2. Single-row horizontal layout for flags & socials on mobile to prevent height wrapping */
+  .navbar-color .col-12.col-lg-6 {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 4px !important;
+    width: 100% !important;
+  }
+
+  .lang-pill {
+    display: inline-flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none !important; /* Hide scrollbar Firefox */
+    margin-right: 4px !important;
+    padding: 1px 3px !important;
+    max-width: calc(100% - 140px) !important; /* reserve space for socials */
+  }
+
+  .lang-pill::-webkit-scrollbar {
+    display: none !important; /* Hide scrollbar Chrome/Safari */
+  }
+
+  /* 3. Maintain accessible tap targets (>= 44x44px) but optimize their inner/outer spacing */
+  .lang-flag {
+    padding: 0 !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+  }
+
+  .navbar-color .btn-square,
+  .navbar-color .btn-sm-square {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navbar-color .d-flex.ml-2 {
+    margin-left: 0 !important;
+    gap: 2px !important;
+  }
+
+  .navbar-color .btn-square.mr-2 {
+    margin-right: 0 !important;
+  }
+
+  /* 4. Optimize the main navbar spacing and height */
+  .navbar {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    min-height: 48px !important;
+  }
+
+  /* 5. Scale logo slightly smaller, keep 8:9 aspect ratio to avoid layout shift (CLS) */
   .navbar-brand img {
-    width: 40px !important;
-    height: 40px !important;
+    width: 32px !important;
+    height: 36px !important;
+    aspect-ratio: 80 / 90 !important;
   }
 
+  /* 6. Remove excess padding on navbar brand title to prevent height bloat */
+  .navbar-brand .brand-title {
+    font-size: 14px !important; /* Sleek and readable on small screens */
+    white-space: nowrap !important;
+  }
+
+  .navbar-brand .brand-title.nav-link {
+    padding: 0 0 0 6px !important; /* Eliminate vertical padding */
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* 7. Ensure accessible toggler button size */
+  .navbar-toggler {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 24px !important;
+    height: 24px !important;
+  }
 }
 
 
@@ -180,14 +272,4 @@ body { top: 0px !important; }
   box-shadow: 0 0 0 1px rgba(255,255,255,0.5);
 }
 
-@media (max-width: 768px) {
-  .navbar-color .col-12.col-lg-6 {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .lang-pill {
-    max-width: 100%;
-    justify-content: center;
-  }
-}
+/* Consolidate with mobile styles above */
