@@ -1,4 +1,4 @@
-import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import {
   TourDetails,
   TourDetailsComponent,
@@ -165,6 +165,7 @@ export class KandyDayTourComponent implements OnInit, OnDestroy {
     });
   }
 
+
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -254,20 +255,4 @@ export class KandyDayTourComponent implements OnInit, OnDestroy {
     });
   }
 
-  bookNow() {
-    if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'kandy-day-tour';
-      localStorage.setItem('tour', JSON.stringify(this.tour));
-      localStorage.setItem('filecode', barcode);
-      localStorage.setItem('image', this.images[0]);
-
-      this.router.navigate(['/booking', barcode], {
-        state: {
-          tour: this.tour,
-          barcode: barcode,
-          Image: this.images[0],
-        },
-      });
-    }
-  }
 }

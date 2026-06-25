@@ -1,13 +1,21 @@
-import { CommonModule } from '@angular/common';
-import { Component, Input, Type } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import {
+  Component,
+  Inject,
+  Input,
+  OnInit,
+  PLATFORM_ID,
+} from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { TourBookingCardComponent } from '../tour-booking-card/tour-booking-card';
 
 export interface Activity {
-  type: string;          // e.g. "Guided tour", "Accommodation", "Dinner"
-  title: title;        // e.g. "Pidurangala Rock", "Fresco Water Villa"
-  description?: string;  // e.g. "Little hike to Pidurangala Rock..."
-  icon?: string;         // e.g. "fa-hotel", "fa-hiking", "fa-utensils"
-  image?: string;        // optional image path
-  extra?: string[];      // optional extra details (e.g. "Private bathroom")
+  type: string;
+  title: title;
+  description?: string;
+  icon?: string;
+  image?: string;
+  extra?: string[];
 }
 
 export interface title {
@@ -21,6 +29,7 @@ export interface ItineraryDay {
   title: string;
   activities: Activity[];
 }
+
 export interface TourDetails {
   title: string;
   description: string;
@@ -32,42 +41,81 @@ export interface TourDetails {
   itinerary?: ItineraryDay[];
   includes?: string[];
   excludes?: string[];
+  filecode?: string;
 }
 
 @Component({
   selector: 'app-tour-details-component',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TourBookingCardComponent],
   templateUrl: './tour-details-component.html',
   styleUrl: './tour-details-component.css',
 })
-export class TourDetailsComponent {
+export class TourDetailsComponent implements OnInit {
   @Input() tour!: TourDetails;
+  @Input() filecode?: string;
+  @Input() image?: string;
+  @Input() bookingTour?: any;
 
   expandedDays: { [key: number]: boolean } = {};
-  static PackageItemComponent: readonly any[] | Type<any>;
+  selectedImage: string | null = null;
+  prices: Record<string, number> = {};
+  isLoadingPrices = false;
 
-  toggleDay(day: number) {
+  private isBrowser: boolean;
+
+  constructor(
+    private http: HttpClient,
+    @Inject(PLATFORM_ID) private platformId: Object,
+  ) {
+    this.isBrowser = isPlatformBrowser(this.platformId);
+  }
+
+  get showBooking(): boolean {
+    return !!(this.filecode && this.image && this.bookingTour);
+  }
+
+  get displayPrice(): number {
+    return this.prices['2'] ?? this.tour?.price ?? 0;
+  }
+
+  ngOnInit(): void {
+    if (this.filecode && this.isBrowser) {
+      this.loadPrices(this.filecode);
+    }
+  }
+
+  loadPrices(filecode: string): void {
+    this.isLoadingPrices = true;
+    const priceFile = `/assets/data/US${filecode}.json`;
+
+    this.http.get(priceFile).subscribe({
+      next: (data: any) => {
+        this.prices = data.price ?? {};
+        if (data.images?.[0] && this.image) {
+          this.image = data.images[0];
+        }
+        this.isLoadingPrices = false;
+      },
+      error: () => {
+        this.isLoadingPrices = false;
+      },
+    });
+  }
+
+  toggleDay(day: number): void {
     const isAlreadyOpen = this.expandedDays[day];
-
     this.expandedDays = {};
-
     if (!isAlreadyOpen) {
       this.expandedDays[day] = true;
     }
   }
 
-  constructor() {}
+  openImage(img: string): void {
+    this.selectedImage = img;
+  }
 
-  selectedImage: string | null = null;
-
-openImage(img: string) {
-  this.selectedImage = img;
-}
-
-closeImage() {
-  this.selectedImage = null;
-}
-  ngOnInit(): void {
+  closeImage(): void {
+    this.selectedImage = null;
   }
 }

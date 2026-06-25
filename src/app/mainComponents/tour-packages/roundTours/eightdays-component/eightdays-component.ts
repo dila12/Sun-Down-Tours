@@ -1,5 +1,5 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { TourDetails, TourDetailsComponent } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
@@ -492,6 +492,7 @@ export class EightdaysComponent {
     ],
   };
 
+
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -598,20 +599,4 @@ export class EightdaysComponent {
     }
   }
 
-  bookNow() {
-    if (isPlatformBrowser(this.platformId)) {
-      const barcode = '8-day-sri-lanka-private-tour';
-      localStorage.setItem('tour', JSON.stringify(this.tour));
-      localStorage.setItem('filecode', barcode);
-      localStorage.setItem('image', this.images[0]);
-
-      this.router.navigate(['/booking', barcode], {
-        state: {
-          tour: this.tour,
-          barcode: barcode,
-          Image: this.images[0],
-        },
-      });
-    }
-  }
 }

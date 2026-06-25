@@ -411,6 +411,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     excludes: ['Food & Drinks', 'Entrance & Activities Fees'],
   };
 
+
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -518,20 +519,4 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
     }
   }
 
-  bookNow() {
-    if (isPlatformBrowser(this.platformId)) {
-      const barcode = '7-day-sri-lanka-tour';
-      localStorage.setItem('tour', JSON.stringify(this.tour));
-      localStorage.setItem('filecode', barcode);
-      localStorage.setItem('image', this.images[0]);
-
-      this.router.navigate(['/booking', barcode], {
-        state: {
-          tour: this.tour,
-          barcode: barcode,
-          Image: this.images[0],
-        },
-      });
-    }
-  }
 }

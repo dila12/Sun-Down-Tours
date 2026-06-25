@@ -21,8 +21,14 @@
 </div>
 
 <div class="mt-4">
-    <app-tour-details-component [tour]="tourForDetails"></app-tour-details-component>
+    <app-tour-details-component
+        [tour]="tourForDetails"
+        [filecode]="tour.filecode"
+        [image]="currentImage"
+        [bookingTour]="tour">
+    </app-tour-details-component>
 </div>
+
 
 <div class="container-fluid py-5">
     <div class="container pt-5 pb-3">
@@ -39,7 +45,3 @@
 
     </div>
 </div>
-
-<button class="fixed-booking-btn" (click)="bookNow()">
-    <i class="fa fa-calendar-check mr-2"></i> Book Now
-</button>

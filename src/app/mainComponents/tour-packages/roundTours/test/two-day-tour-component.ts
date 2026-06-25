@@ -182,6 +182,7 @@ export class TwoDayTourComponent implements OnInit, OnDestroy {
     excludes: ['Food & Drinks', 'Entrance & Activities Fees'],
   };
 
+
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -293,20 +294,4 @@ export class TwoDayTourComponent implements OnInit, OnDestroy {
     }
   }
 
-  bookNow() {
-    if (isPlatformBrowser(this.platformId)) {
-      const barcode = 'twodaystours';
-      localStorage.setItem('tour', JSON.stringify(this.tour));
-      localStorage.setItem('filecode', barcode);
-      localStorage.setItem('image', this.images[0]);
-
-      this.router.navigate(['/booking'], {
-        state: {
-          tour: this.tour,
-          barcode: barcode,
-          Image: this.images[0],
-        },
-      });
-    }
-  }
 }

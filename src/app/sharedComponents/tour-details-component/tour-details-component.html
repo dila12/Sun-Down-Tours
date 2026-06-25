@@ -5,138 +5,120 @@
     </h2>
     <div class="bg-light shadow rounded-3 p-2">
       <div class="row text-center gy-4">
-
         <div class="col-6 col-md-3">
           <i class="fas fa-clock fa-2x uniform-icon mb-2"></i>
           <h6 class="mb-1">Duration</h6>
           <p class="fw-bold mb-0">{{ tour.duration }}</p>
         </div>
-
         <div class="col-6 col-md-3">
           <i class="fas fa-users fa-2x uniform-icon mb-2"></i>
           <h6 class="mb-1">Max People</h6>
           <p class="fw-bold mb-0">{{ tour.persons }}</p>
         </div>
-
         <div class="col-6 col-md-3">
           <i class="fas fa-dollar-sign fa-2x uniform-icon mb-2"></i>
           <h6 class="mb-1">Price</h6>
-          <p class="fw-bold mb-0">$ {{ tour.price }} (based on 2 people)</p>
+          <p class="fw-bold mb-0">$ {{ displayPrice }} (based on 2 people)</p>
         </div>
-
         <div class="col-6 col-md-3">
           <i class="fas fa-map-marked-alt fa-2x uniform-icon mb-2"></i>
           <h6 class="mb-1">Tour Type</h6>
           <p class="fw-bold mb-0">{{ tour.tourType }}</p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid tour-details-body">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 ">
-        <div class="d-flex flex-column">
-          <div class="bg-white p-4 p-lg-5 my-lg-3">
-            <h2 class="text-primary text-uppercase justify-content-start" style="letter-spacing: 5px;">Tour
-              Overview</h2>
-            <p>{{tour.overview}}</p>
+    <div class="row g-4">
+      <!-- Left: overview, itinerary, includes/excludes -->
+      <div class="col-lg-8 order-2 order-lg-1">
+        <div class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">Tour Overview</h2>
+          <p class="mb-0">{{ tour.overview }}</p>
+        </div>
+
+        <div class="bg-white p-2 p-lg-5 shadow-sm rounded-3 mb-4" *ngIf="tour.itinerary">
+          <h3 class="mb-3">Tour Plan</h3>
+          <div *ngFor="let day of tour.itinerary" class="border-bottom">
+            <h5 (click)="toggleDay(day.day)" class="itinerary-header">
+              <i class="fas fa-map-marker-alt location-icon me-2"></i>
+              <span class="mx-2">Day {{ day.day }}: {{ day.title }}</span>
+              <span [class.expanded]="expandedDays[day.day]" style="float: right;">▲</span>
+            </h5>
+            <div [class.open]="expandedDays[day.day]" class="itinerary-content ps-3 scrollable-activities">
+              <div *ngFor="let activity of day.activities" class="mb-3">
+                <h5 class="text">
+                  <i class="fas {{ activity.title.icon || 'fa-circle' }} mr-2" [style.color]="activity.title.color"></i>
+                  {{ activity.title.title }}
+                </h5>
+                <div *ngIf="activity.description">{{ activity.description }}</div>
+                <ul *ngIf="activity.extra?.length" class="small text-muted ms-4">
+                  <li *ngFor="let item of activity.extra">{{ item }}</li>
+                </ul>
+                <img *ngIf="activity.image" [src]="activity.image" class="rounded my-2"
+                  style="width: 100px; height: 100px; object-fit: cover; cursor: pointer;"
+                  (click)="openImage(activity.image)" />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mb-4">
-        <div class="bg-white p-2 p-lg-5 shadow-sm">
-          <div *ngIf="tour.itinerary">
-            <h3 class="mb-3">Tour Plan</h3>
-            <div *ngFor="let day of tour.itinerary" class=" border-bottom">
-              <h5 (click)="toggleDay(day.day)" class="itinerary-header">
-                <i class="fas fa-map-marker-alt location-icon me-2"></i>
-                <span class="mx-2">Day {{ day.day }}: {{ day.title }}</span>
-                <span [class.expanded]="expandedDays[day.day]" style="float: right;">
-                  ▲
-                </span>
-              </h5>
-
-              <div [class.open]="expandedDays[day.day]" class="itinerary-content ps-3 scrollable-activities">
-                <div *ngFor="let activity of day.activities" class="mb-3">
-                  <h5 class="text">
-                    <i class="fas {{ activity.title.icon || 'fa-circle' }} mr-2"
-                      [style.color]="activity.title.color"></i>
-                    {{ activity.title.title }}
-                  </h5>
-                  <div *ngIf="activity.description">{{ activity.description }}</div>
-
-                  <ul *ngIf="activity.extra?.length" class="small text-muted ms-4">
-                    <li *ngFor="let item of activity.extra">{{ item }}</li>
-                  </ul>
-
-                  <img *ngIf="activity.image" [src]="activity.image" class="rounded my-2"
-                    style="width: 100px; height: 100px; object-fit: cover; cursor: pointer;"
-                    (click)="openImage(activity.image)" />
-                </div>
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-header bg-white d-flex align-items-center border-bottom border-primary">
+                <i class="fas fa-check-circle mr-2 text-primary"></i>
+                <h5 class="mb-0 text-primary">Included</h5>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                  <li *ngFor="let item of tour.includes" class="mb-2 d-flex align-items-center">
+                    <span class="icon-circle bg-success text-white mr-2">
+                      <i class="fas fa-check"></i>
+                    </span>
+                    {{ item }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100 border" style="border-color: #ada878;">
+              <div class="card-header bg-white d-flex align-items-center" style="border-bottom: 2px solid #ada878;">
+                <i class="fas fa-times-circle mr-2" style="color: #ada878;"></i>
+                <h5 class="mb-0" style="color: #ada878;">Excluded</h5>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                  <li *ngFor="let item of tour.excludes" class="mb-2 d-flex align-items-center">
+                    <span class="icon-circle mr-2" style="background-color: #ada878; color: #fff;">
+                      <i class="fas fa-times" style="font-size: 0.8rem;"></i>
+                    </span>
+                    {{ item }}
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <div class="container">
-    <div class="row">
-
-      <!-- Included Section -->
-      <div class="col-md-6 mb-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-header bg-white d-flex align-items-center border-bottom border-primary">
-            <i class="fas fa-check-circle mr-2 text-primary"></i>
-            <h5 class="mb-0 text-primary">Included</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-unstyled mb-0">
-              <li *ngFor="let item of tour.includes" class="mb-2 d-flex align-items-center">
-                <span class="icon-circle bg-success text-white mr-2">
-                  <i class="fas fa-check"></i>
-                </span>
-                {{ item }}
-              </li>
-            </ul>
-          </div>
+      <!-- Right: booking card -->
+      <div class="col-lg-4 order-1 order-lg-2" id="tour-booking-section" *ngIf="showBooking">
+        <div class="booking-sidebar">
+          <app-tour-booking-card
+            #bookingCard
+            [tour]="bookingTour!"
+            [filecode]="filecode!"
+            [image]="image!"
+            [priceList]="prices"
+            [autoLoadPrices]="false">
+          </app-tour-booking-card>
         </div>
       </div>
-      <!-- Excluded Section -->
-      <div class="col-md-6 mb-4">
-        <div class="card shadow-sm h-100 border" style="border-color: #ada878;">
-          <div class="card-header bg-white d-flex align-items-center" style="border-bottom: 2px solid #ada878;">
-            <i class="fas fa-times-circle mr-2" style="color: #ada878;"></i>
-            <h5 class="mb-0" style="color: #ada878;">Excluded</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-unstyled mb-0">
-              <li *ngFor="let item of tour.excludes" class="mb-2 d-flex align-items-center">
-                <span class="icon-circle mr-2" style="background-color: #ada878; color: #fff;">
-                  <i class="fas fa-times" style="font-size: 0.8rem;"></i>
-                </span>
-                {{ item }}
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
     </div>
   </div>
 </div>

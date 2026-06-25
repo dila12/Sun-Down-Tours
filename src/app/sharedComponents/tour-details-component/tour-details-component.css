@@ -261,3 +261,19 @@ ul {
 .scrollable-activities::-webkit-scrollbar-thumb:hover {
   background-color: #999;
 }
+
+.booking-sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.tour-details-body {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  .booking-sidebar {
+    position: static;
+    margin-top: 1rem;
+  }
+}
