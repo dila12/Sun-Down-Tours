@@ -1,7 +1,7 @@
 /** Deferred third-party script loading */
 
 const GTM_ID = 'G-KVF224182X';
-const ADS_ID = '';
+const ADS_ID = 'AW-1234567890';
 
 let analyticsLoaded = false;
 
