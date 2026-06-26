@@ -15,13 +15,14 @@ export function scheduleThirdPartyScripts(): void {
   }
 
   const run = () => {
+    console.log('Loading GA...');
     if (analyticsLoaded) {
       return;
     }
 
     analyticsLoaded = true;
     removeListeners();
-    //loadGoogleAnalytics();
+    loadGoogleAnalytics();
   };
 
   const removeListeners = () => {
@@ -39,11 +40,14 @@ export function scheduleThirdPartyScripts(): void {
 }
 
 export function loadGoogleAnalytics(): void {
+  console.log('Loading Google Analytics...');
   if (!isBrowser()) {
+    console.warn('Google Analytics cannot be loaded on the server side.');
     return;
   }
 
   if (document.querySelector('script[data-gtag]')) {
+    console.log('Google Analytics script already loaded.');
     return;
   }
 
@@ -57,24 +61,18 @@ export function loadGoogleAnalytics(): void {
 
     w.dataLayer = w.dataLayer || [];
 
-    function gtag(...args: any[]) {
-      w.dataLayer.push(args);
-    }
+    w.gtag = function () {
+      w.dataLayer.push(arguments);
+    };
 
-    w.gtag = gtag;
+    w.gtag('js', new Date());
 
-    gtag('js', new Date());
-
-    gtag('config', GTM_ID, {
-      send_page_view: true,
-      page_path: window.location.pathname,
-      page_location: window.location.href,
-      page_title: document.title,
+    w.gtag('config', GTM_ID, {
       debug_mode: location.hostname === 'localhost'
     });
 
     if (ADS_ID) {
-      gtag('config', ADS_ID);
+      w.gtag('config', ADS_ID);
     }
 
     console.log('Google Analytics Loaded');
