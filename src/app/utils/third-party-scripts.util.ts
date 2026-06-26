@@ -84,18 +84,9 @@ export function loadGoogleAnalytics(): void {
 }
 
 export function loadGoogleTranslate(onReady?: () => void): void {
-  if (typeof window === 'undefined' || typeof document === 'undefined') {
-    return;
-  }
+  if (typeof document === 'undefined') return;
 
-  const w = window as Window & {
-    google?: {
-      translate: {
-        TranslateElement: new (options: object, elementId: string) => void;
-      };
-    };
-    googleTranslateElementInit?: () => void;
-  };
+  const w = window as Window & { google?: { translate: { TranslateElement: new (opts: object, id: string) => void } } };
 
   if (w.google?.translate) {
     onReady?.();
@@ -103,42 +94,34 @@ export function loadGoogleTranslate(onReady?: () => void): void {
   }
 
   if (document.querySelector('script[data-google-translate]')) {
-    const timer = setInterval(() => {
+    const poll = setInterval(() => {
       if (w.google?.translate) {
-        clearInterval(timer);
+        clearInterval(poll);
         onReady?.();
       }
     }, 200);
-
-    setTimeout(() => clearInterval(timer), 10000);
+    setTimeout(() => clearInterval(poll), 10000);
     return;
   }
 
-  w.googleTranslateElementInit = () => {
-    if (!w.google?.translate) {
-      return;
-    }
-
-    new w.google.translate.TranslateElement(
+  (window as Window & { googleTranslateElementInit?: () => void }).googleTranslateElementInit = () => {
+    const google = (window as Window & { google?: { translate: { TranslateElement: new (opts: object, id: string) => void } } }).google;
+    if (!google?.translate) return;
+    new google.translate.TranslateElement(
       {
         pageLanguage: 'en',
-        includedLanguages: 'en,de,it,fr,es,ru,pl,zh-CN',
+        includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
         autoDisplay: false,
       },
-      'google_translate_element'
+      'google_translate_element',
     );
 
     onReady?.();
   };
 
-  const script = document.createElement('script');
-
-  script.src =
-    'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-
-  script.async = true;
-  script.defer = true;
-  script.setAttribute('data-google-translate', 'true');
-
-  document.body.appendChild(script);
+  const s = document.createElement('script');
+  s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  s.async = true;
+  s.setAttribute('data-google-translate', 'true');
+  document.body.appendChild(s);
 }
