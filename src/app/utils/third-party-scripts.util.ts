@@ -21,7 +21,7 @@ export function scheduleThirdPartyScripts(): void {
 
     analyticsLoaded = true;
     removeListeners();
-    loadGoogleAnalytics();
+    //loadGoogleAnalytics();
   };
 
   const removeListeners = () => {
