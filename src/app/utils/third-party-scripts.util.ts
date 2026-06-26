@@ -66,7 +66,11 @@ export function loadGoogleAnalytics(): void {
     gtag('js', new Date());
 
     gtag('config', GTM_ID, {
-      send_page_view: true
+      send_page_view: true,
+      page_path: window.location.pathname,
+      page_location: window.location.href,
+      page_title: document.title,
+      debug_mode: location.hostname === 'localhost'
     });
 
     if (ADS_ID) {
