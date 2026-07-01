@@ -3,9 +3,10 @@
     <div class="tour-image">
 
         <img
-            [src]="imagePath"
-            [srcset]="imageSrcSet"
-            [sizes]="defaultSizes()"
+            [src]="imageSrc"
+            [srcset]="imageSrcSet || null"
+            [sizes]="imageSrcSet ? defaultSizes() : null"
+            [attr.data-img-base]="imagePath"
             [alt]="tour.title"
             width="400"
             height="260"

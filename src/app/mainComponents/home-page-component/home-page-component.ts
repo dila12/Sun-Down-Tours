@@ -12,7 +12,7 @@ import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/comm
 import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { onImageError, toWebpSrc, buildSrcSet, defaultSizes } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildSrcSet, defaultSizes, heroLcpNgSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -61,19 +61,21 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   activeTab: 'multi' | 'day' = 'multi';
   showAllTours = false;
-  showExtraSlides = false;
   loadingMore = false;
   activeSlide = 0;
   private carouselTimer?: ReturnType<typeof setInterval>;
 
   readonly onImageError = onImageError;
   readonly buildSrcSet = buildSrcSet;
+  readonly bestImageSrc = bestImageSrc;
   readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
+  readonly heroLcpSrc = HERO_LCP_BASE;
+  readonly heroLcpNgSrcSet = heroLcpNgSrcSet();
 
   readonly heroSlide: TourSlide = {
-    src: 'assets/img/mainpage/1.webp',
+    src: HERO_LCP_BASE,
     alt: 'Sigiriya Rock tour Sri Lanka',
     heading: 'Sri Lanka Tours & Private Driver Services',
   };
@@ -101,6 +103,8 @@ export class HomePageComponent implements OnInit, OnDestroy {
     },
   ];
 
+  readonly slides: TourSlide[] = [this.heroSlide, ...this.extraSlides];
+
   readonly destinations: Destination[] = [
     { name: 'Sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'Sigiriya Rock Fortress Sri Lanka' },
     { name: 'Ella', src: 'assets/img/destination-2-opt.webp', alt: 'Ella Scenic Train Journey Sri Lanka' },
@@ -127,17 +131,13 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.loadHomeTours();
-    this.initCarouselLazyLoad();
+    this.startCarouselAutoplay();
   }
 
   ngOnDestroy() {
     if (this.carouselTimer) {
       clearInterval(this.carouselTimer);
     }
-  }
-
-  get slides(): TourSlide[] {
-    return this.showExtraSlides ? [this.heroSlide, ...this.extraSlides] : [this.heroSlide];
   }
 
   prevSlide() {
@@ -227,34 +227,6 @@ export class HomePageComponent implements OnInit, OnDestroy {
     this.applyPrices();
     this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
     this.cdr.markForCheck();
-  }
-
-  private initCarouselLazyLoad() {
-    if (!isPlatformBrowser(this.platformId)) {
-      this.showExtraSlides = true;
-      return;
-    }
-
-    const isMobile = window.innerWidth < 768;
-
-    if (!isMobile) {
-      this.showExtraSlides = true;
-      this.cdr.markForCheck();
-      this.startCarouselAutoplay();
-      return;
-    }
-
-    const loadRest = () => {
-      this.showExtraSlides = true;
-      this.cdr.markForCheck();
-      this.startCarouselAutoplay();
-    };
-
-    if ('requestIdleCallback' in window) {
-      (window as any).requestIdleCallback(loadRest, { timeout: 3000 });
-    } else {
-      setTimeout(loadRest, 2000);
-    }
   }
 
   async loadAllTours() {

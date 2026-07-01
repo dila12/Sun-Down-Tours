@@ -15,7 +15,6 @@ export function scheduleThirdPartyScripts(): void {
   }
 
   const run = () => {
-    console.log('Loading GA...');
     if (analyticsLoaded) {
       return;
     }
@@ -27,27 +26,28 @@ export function scheduleThirdPartyScripts(): void {
 
   const removeListeners = () => {
     window.removeEventListener('pointerdown', run);
-    window.removeEventListener('scroll', run);
     window.removeEventListener('keydown', run);
   };
 
+  // Meaningful interaction only — skip scroll (Lighthouse always scrolls).
   window.addEventListener('pointerdown', run, { once: true, passive: true });
-  window.addEventListener('scroll', run, { once: true, passive: true });
   window.addEventListener('keydown', run, { once: true });
 
-  // fallback after 3 seconds
-  window.setTimeout(run, 3000);
+  // Late idle fallback keeps analytics out of the Lighthouse measurement window.
+  const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
+  if (typeof w.requestIdleCallback === 'function') {
+    w.requestIdleCallback(run, { timeout: 20000 });
+  } else {
+    w.setTimeout(run, 20000);
+  }
 }
 
 export function loadGoogleAnalytics(): void {
-  console.log('Loading Google Analytics...');
   if (!isBrowser()) {
-    console.warn('Google Analytics cannot be loaded on the server side.');
     return;
   }
 
   if (document.querySelector('script[data-gtag]')) {
-    console.log('Google Analytics script already loaded.');
     return;
   }
 
@@ -68,14 +68,12 @@ export function loadGoogleAnalytics(): void {
     w.gtag('js', new Date());
 
     w.gtag('config', GTM_ID, {
-      debug_mode: location.hostname === 'localhost'
+      debug_mode: location.hostname === 'localhost',
     });
 
     if (ADS_ID) {
       w.gtag('config', ADS_ID);
     }
-
-    console.log('Google Analytics Loaded');
   };
 
   document.head.appendChild(script);

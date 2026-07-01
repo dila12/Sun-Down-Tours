@@ -41,6 +41,10 @@ body { top: 0px !important; }
     color: #ffffff; /* White text */
 }
 
+.navbar-brand img {
+  object-fit: contain;
+}
+
 .navbar-color .nav-link:hover,
 .navbar-color .nav-link.active {
     color: #ffffff; /* Optional: lighter shade for hover/active */
@@ -127,11 +131,12 @@ body { top: 0px !important; }
     min-height: 48px !important;
   }
 
-  /* 5. Scale logo slightly smaller, keep 8:9 aspect ratio to avoid layout shift (CLS) */
+  /* 5. Scale logo slightly smaller; natural image is square (80×80) */
   .navbar-brand img {
     width: 32px !important;
-    height: 36px !important;
-    aspect-ratio: 80 / 90 !important;
+    height: 32px !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: contain;
   }
 
   /* 6. Remove excess padding on navbar brand title to prevent height bloat */
@@ -268,6 +273,12 @@ body { top: 0px !important; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 18px;
+}
+
+.navbar-color .btn-square app-social-icon,
+.whatsapp-float app-social-icon {
+  font-size: inherit;
 }
 
 .lang-flag:hover {

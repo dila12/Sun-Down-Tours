@@ -93,7 +93,7 @@
         <nav class="navbar navbar-expand-lg navbar-color navbar-light shadow-lg  py-lg-0 ">
             <a routerLink="/" class="navbar-brand">
                 <span class="m-0 nav-link brand-title h1"><span class="text-white">
-                        <img [src]="logoSrc" [srcset]="logoSrcSet" sizes="80px" width="80" height="90" loading="eager"
+                        <img [src]="logoSrc" [srcset]="logoSrcSet" [sizes]="logoSizes" width="80" height="80" loading="eager"
                             decoding="async" fetchpriority="high" alt="Sundown Tours"
                             (error)="onImageError($event, 'assets/img/logos/2.png')">
                         Sundown Tours Sri Lanka </span></span>

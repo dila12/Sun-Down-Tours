@@ -1,4 +1,11 @@
-/* Icon glyphs only — font files load via deferred-fonts.util after first paint */
+/* Solid icon font — small subset woff2, loaded in the critical path so above-fold icons render */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../assets/fonts/fa-solid-900.woff2') format('woff2');
+}
 
 .fa,
 .fas,
@@ -9,6 +16,19 @@ i.fas {
   font-style: normal;
   display: inline-block;
   line-height: 1;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .fa-angle-right:before { content: '\f105'; }

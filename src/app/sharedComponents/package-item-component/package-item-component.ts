@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { buildTourImagePath, onImageError, buildSrcSet, defaultSizes, toWebpSrc } from '../../utils/image.util';
+import { buildTourImagePath, onImageError, buildSrcSet, defaultSizes, toWebpSrc, bestImageSrc } from '../../utils/image.util';
 
 @Component({
   selector: 'app-package-item-component',
@@ -20,6 +20,10 @@ export class PackageItemComponent {
 
   get imagePath(): string {
     return toWebpSrc(buildTourImagePath(this.tour));
+  }
+
+  get imageSrc(): string {
+    return bestImageSrc(this.imagePath);
   }
 
   get imageSrcSet(): string {
