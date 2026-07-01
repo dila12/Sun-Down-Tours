@@ -1,7 +1,6 @@
 /** Deferred third-party script loading */
 
 const GTM_ID = 'G-KVF224182X';
-const ADS_ID = 'AW-1234567890';
 
 let analyticsLoaded = false;
 
@@ -14,31 +13,22 @@ export function scheduleThirdPartyScripts(): void {
     return;
   }
 
+ 
+
   const run = () => {
     if (analyticsLoaded) {
       return;
     }
 
     analyticsLoaded = true;
-    removeListeners();
     loadGoogleAnalytics();
   };
 
-  const removeListeners = () => {
-    window.removeEventListener('pointerdown', run);
-    window.removeEventListener('keydown', run);
-  };
-
-  // Meaningful interaction only — skip scroll (Lighthouse always scrolls).
-  window.addEventListener('pointerdown', run, { once: true, passive: true });
-  window.addEventListener('keydown', run, { once: true });
-
-  // Late idle fallback keeps analytics out of the Lighthouse measurement window.
   const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
   if (typeof w.requestIdleCallback === 'function') {
-    w.requestIdleCallback(run, { timeout: 20000 });
+    w.requestIdleCallback(run, { timeout: 30000 });
   } else {
-    w.setTimeout(run, 20000);
+    w.setTimeout(run, 30000);
   }
 }
 
@@ -67,13 +57,12 @@ export function loadGoogleAnalytics(): void {
 
     w.gtag('js', new Date());
 
-    w.gtag('config', GTM_ID, {
-      debug_mode: location.hostname === 'localhost',
-    });
+    w.gtag('config', GTM_ID);
 
-    if (ADS_ID) {
-      w.gtag('config', ADS_ID);
-    }
+    const hostname = window.location.hostname;
+    // if (ADS_ID && hostname !== 'localhost' && hostname !== '127.0.0.1') {
+    //   w.gtag('config', ADS_ID);
+    // }
   };
 
   document.head.appendChild(script);
