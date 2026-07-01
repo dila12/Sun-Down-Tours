@@ -32,14 +32,15 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.webp">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preload" href="assets/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-  <!-- Preload LCP hero image (mobile-first) -->
-  <link rel="preload" as="image" href="assets/img/mainpage/1-640w.webp"
-    imagesrcset="assets/img/mainpage/1-320w.webp 320w, assets/img/mainpage/1-640w.webp 640w, assets/img/mainpage/1-960w.webp 960w"
-    imagesizes="100vw" fetchpriority="high" type="image/webp">
+  <link rel="preload" as="image" href="assets/img/mainpage/1-320w.webp" media="(max-width: 767px)"
+    fetchpriority="high" type="image/webp">
+  <link rel="preload" as="image" href="assets/img/mainpage/1-640w.webp" media="(min-width: 768px)"
+    fetchpriority="high" type="image/webp">
   <link rel="preconnect" href="https://flagcdn.com" crossorigin>
   <link rel="dns-prefetch" href="https://flagcdn.com">
   <meta name="google" content="notranslate">
   <link rel="canonical" href="https://sundowntours.com/">
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cbf66e294ae94d0baa1ffbd22c63646d"}'></script><!-- End Cloudflare Web Analytics -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
