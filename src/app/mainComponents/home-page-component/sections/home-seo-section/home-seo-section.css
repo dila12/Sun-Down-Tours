@@ -1,0 +1,162 @@
+:host {
+  display: block;
+}
+
+.seo-section {
+  background: linear-gradient(180deg, #f8fafc 0%, #f9fafb 100%);
+}
+
+.seo-section .section-tag {
+  color: #b45309;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.seo-section .section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.seo-section .section-subtitle {
+  color: #6b7280;
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+
+.seo-content-col {
+  max-width: 950px;
+}
+
+.seo-panel {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.seo-block {
+  margin-bottom: 4rem;
+}
+
+.seo-block:last-child {
+  margin-bottom: 0;
+}
+
+.seo-block > [id] {
+  scroll-margin-top: 110px;
+}
+
+.seo-prose p,
+.seo-prose li {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.seo-prose h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 1.75rem;
+  margin-bottom: 0.85rem;
+}
+
+.seo-prose ul {
+  padding-left: 1.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.seo-prose a {
+  color: #007bff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.seo-prose a:hover {
+  color: #0056b3;
+}
+
+.seo-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.seo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.seo-icon {
+  font-size: 1.75rem;
+  color: #007bff;
+  margin-bottom: 0.75rem;
+}
+
+.seo-toc {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.seo-toc a {
+  color: #022d41;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 0.35rem 0;
+  transition: color 0.2s ease;
+}
+
+.seo-toc a:hover {
+  color: #007bff;
+}
+
+.seo-eeat-card {
+  border-left: 4px solid #007bff;
+}
+
+.faq-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+.faq-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.5rem;
+}
+
+.faq-card p {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .seo-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .seo-section .section-title {
+    font-size: 1.75rem;
+  }
+
+  .seo-prose p,
+  .seo-prose li {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .seo-panel {
+    padding: 1.25rem !important;
+  }
+}
