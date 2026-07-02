@@ -16,7 +16,6 @@ export function scheduleThirdPartyScripts(): void {
   }
 
   const load = () => {
-
     if (analyticsLoaded || analyticsLoading) {
       return;
     }
@@ -72,51 +71,46 @@ export function loadGoogleAnalytics(onLoaded?: () => void): void {
   }
 
   const script = document.createElement('script');
-
   script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-
   script.async = true;
-
   script.setAttribute('data-gtag', 'true');
 
   script.onload = () => {
-
     const w = window as any;
 
     w.dataLayer = w.dataLayer || [];
 
-    function gtag(...args: any[]) {
-      w.dataLayer.push(args);
-    }
+    w.gtag = function () {
+      w.dataLayer.push(arguments);
+    };
 
-    w.gtag = gtag;
+    w.gtag('js', new Date());
 
-    gtag('js', new Date());
-
-    gtag('config', GA_MEASUREMENT_ID, {
+    w.gtag('config', GA_MEASUREMENT_ID, {
+      send_page_view: false,
       transport_type: 'beacon',
-      send_page_view: false
-    });
-
-    gtag('event', 'page_view', {
-      page_title: document.title,
-      page_location: window.location.href,
-      page_path: window.location.pathname
+      debug_mode: true
     });
 
     analyticsLoaded = true;
     analyticsLoading = false;
 
+    // Send first page view
+    w.gtag('event', 'page_view', {
+      page_title: document.title,
+      page_location: window.location.href,
+      page_path: window.location.pathname
+    });
+
     onLoaded?.();
   };
 
-  script.onerror = () => {
+  script.onerror = (err) => {
     analyticsLoading = false;
   };
 
   document.head.appendChild(script);
 }
-
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
