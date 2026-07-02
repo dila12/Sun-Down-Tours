@@ -5,14 +5,15 @@ import {
   Inject,
   OnDestroy,
   OnInit,
+  AfterViewInit,
   PLATFORM_ID,
 } from '@angular/core';
 import { PackageItemComponent } from '../../sharedComponents/package-item-component/package-item-component';
-import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { onImageError, toWebpSrc, buildSrcSet, defaultSizes, heroLcpNgSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -46,7 +47,6 @@ interface Destination {
     HomePopularToursComponent,
     HomeSeoSectionComponent,
     SocialIconComponent,
-    NgOptimizedImage,
   ],
   templateUrl: './home-page-component.html',
   styleUrl: './home-page-component.css',
@@ -71,8 +71,9 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
-  readonly heroLcpSrc = HERO_LCP_BASE;
-  readonly heroLcpNgSrcSet = heroLcpNgSrcSet();
+  readonly heroLcpSrc = heroLcpSrc(640);
+  readonly heroLcpSrcSet = buildSrcSet(HERO_LCP_BASE);
+  readonly heroLcpBase = HERO_LCP_BASE;
 
   readonly heroSlide: TourSlide = {
     src: HERO_LCP_BASE,

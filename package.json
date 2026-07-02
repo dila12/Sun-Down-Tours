@@ -6,6 +6,7 @@
     "start": "ng serve",
     "start:prod": "ng serve --configuration production",
     "preview:prod": "npm run build && npm run serve:ssr:Travelwebsite",
+    "preview:static": "npm run build && npx --yes serve dist/Travelwebsite/browser -l 4200 -c serve.json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "optimize-images": "node scripts/optimize-images.mjs",

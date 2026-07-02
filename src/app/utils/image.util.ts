@@ -55,8 +55,8 @@ export function buildNgSrcSet(
   return widths.map((w) => `${w}w`).join(', ');
 }
 
-/** Best default src for a base image path (largest existing variant up to 640w). */
-export function bestImageSrc(basePath: string): string {
+/** Best default src — largest variant not exceeding maxWidth (avoids overserving on cards). */
+export function bestImageSrc(basePath: string, maxWidth = 640): string {
   const widths = getVariantWidths(basePath);
   if (!widths.length) {
     return basePath;
@@ -65,8 +65,14 @@ export function bestImageSrc(basePath: string): string {
   const dot = basePath.lastIndexOf('.');
   const stem = basePath.slice(0, dot);
   const ext = basePath.slice(dot);
-  const target = widths.find((w) => w >= 640) ?? widths[widths.length - 1];
+  const suitable = widths.filter((w) => w <= maxWidth);
+  const target = suitable.length ? suitable[suitable.length - 1] : widths[0];
   return `${stem}-${target}w${ext}`;
+}
+
+/** Hero LCP fallback src (mobile-first). */
+export function heroLcpSrc(maxWidth = 640): string {
+  return bestImageSrc(HERO_LCP_BASE, maxWidth);
 }
 
 export const HERO_LCP_BASE = 'assets/img/mainpage/1.webp';
@@ -79,7 +85,7 @@ export function heroLcpNgSrcSet(): string {
 export function defaultSizes(fullWidth = false): string {
   return fullWidth
     ? '100vw'
-    : '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw';
+    : '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
 }
 
 export function buildTourImagePath(tour: {

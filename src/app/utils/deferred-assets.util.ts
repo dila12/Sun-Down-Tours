@@ -45,7 +45,7 @@ export function scheduleDeferredAssets(): void {
     });
   };
 
-  // Load after first paint; also on interaction for faster Bootstrap/forms when the user acts.
+  // Defer Bootstrap + body font until after LCP; interaction loads sooner for real users.
   const events = ['click', 'touchstart', 'keydown'] as const;
   const opts: AddEventListenerOptions = { passive: true };
 
@@ -54,12 +54,11 @@ export function scheduleDeferredAssets(): void {
   };
 
   events.forEach((event) => window.addEventListener(event, load, opts));
-  window.addEventListener('load', load, { once: true });
 
   const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
   if (typeof w.requestIdleCallback === 'function') {
-    w.requestIdleCallback(load, { timeout: 3000 });
+    w.requestIdleCallback(load, { timeout: 5000 });
   } else {
-    w.setTimeout(load, 3000);
+    w.setTimeout(load, 5000);
   }
 }

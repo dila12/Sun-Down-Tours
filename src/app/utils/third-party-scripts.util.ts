@@ -1,68 +1,117 @@
 /** Deferred third-party script loading */
 
-const GTM_ID = 'G-KVF224182X';
+const GA_MEASUREMENT_ID = 'G-KVF224182X';
 
 let analyticsLoaded = false;
+let analyticsLoading = false;
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' && typeof document !== 'undefined';
 }
 
 export function scheduleThirdPartyScripts(): void {
-  if (!isBrowser() || analyticsLoaded) {
+
+  if (!isBrowser() || analyticsLoaded || analyticsLoading) {
     return;
   }
 
- 
+  const load = () => {
 
-  const run = () => {
-    if (analyticsLoaded) {
+    if (analyticsLoaded || analyticsLoading) {
       return;
     }
 
-    analyticsLoaded = true;
-    loadGoogleAnalytics();
+    analyticsLoading = true;
+
+    removeListeners();
+
+    loadGoogleAnalytics(() => {
+      analyticsLoaded = true;
+      analyticsLoading = false;
+    });
+
   };
 
-  const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
-  if (typeof w.requestIdleCallback === 'function') {
-    w.requestIdleCallback(run, { timeout: 30000 });
-  } else {
-    w.setTimeout(run, 30000);
-  }
+  const removeListeners = () => {
+    window.removeEventListener('pointerdown', load);
+    window.removeEventListener('scroll', load);
+    window.removeEventListener('touchstart', load);
+    window.removeEventListener('keydown', load);
+  };
+
+  window.addEventListener('pointerdown', load, {
+    once: true,
+    passive: true
+  });
+
+  window.addEventListener('scroll', load, {
+    once: true,
+    passive: true
+  });
+
+  window.addEventListener('touchstart', load, {
+    once: true,
+    passive: true
+  });
+
+  window.addEventListener('keydown', load, {
+    once: true
+  });
+
 }
 
-export function loadGoogleAnalytics(): void {
-  if (!isBrowser()) {
-    return;
-  }
+export function loadGoogleAnalytics(onLoaded?: () => void): void {
+
+  if (!isBrowser()) return;
 
   if (document.querySelector('script[data-gtag]')) {
+    analyticsLoaded = true;
+    analyticsLoading = false;
+    onLoaded?.();
     return;
   }
 
   const script = document.createElement('script');
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`;
+
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
   script.async = true;
+
   script.setAttribute('data-gtag', 'true');
 
   script.onload = () => {
+
     const w = window as any;
 
     w.dataLayer = w.dataLayer || [];
 
-    w.gtag = function () {
-      w.dataLayer.push(arguments);
-    };
+    function gtag(...args: any[]) {
+      w.dataLayer.push(args);
+    }
 
-    w.gtag('js', new Date());
+    w.gtag = gtag;
 
-    w.gtag('config', GTM_ID);
+    gtag('js', new Date());
 
-    const hostname = window.location.hostname;
-    // if (ADS_ID && hostname !== 'localhost' && hostname !== '127.0.0.1') {
-    //   w.gtag('config', ADS_ID);
-    // }
+    gtag('config', GA_MEASUREMENT_ID, {
+      transport_type: 'beacon',
+      send_page_view: false
+    });
+
+    gtag('event', 'page_view', {
+      page_title: document.title,
+      page_location: window.location.href,
+      page_path: window.location.pathname
+    });
+
+    analyticsLoaded = true;
+    analyticsLoading = false;
+
+    onLoaded?.();
+  };
+
+  script.onerror = () => {
+    analyticsLoading = false;
   };
 
   document.head.appendChild(script);

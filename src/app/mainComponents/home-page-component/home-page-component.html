@@ -8,11 +8,11 @@
                 [attr.inert]="$index !== activeSlide ? '' : null"
                 [class.is-active]="$index === activeSlide">
                 @if ($index === 0) {
-                <img class="w-100" [ngSrc]="heroLcpSrc" [ngSrcset]="heroLcpNgSrcSet" sizes="100vw" [alt]="slide.alt"
-                    width="1920" height="1080" priority decoding="async" [attr.data-img-base]="heroLcpSrc"
-                    (error)="onImageError($event)">
+                <img class="w-100" [src]="heroLcpSrc" [srcset]="heroLcpSrcSet" sizes="100vw" [alt]="slide.alt"
+                    width="1920" height="1080" decoding="async" fetchpriority="high"
+                    [attr.data-img-base]="heroLcpBase" (error)="onImageError($event)">
                 } @else {
-                <img class="w-100" [src]="bestImageSrc(slide.src)" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
+                <img class="w-100" [src]="bestImageSrc(slide.src, 640)" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
                     [alt]="slide.alt" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
                     [attr.data-img-base]="slide.src" (error)="onImageError($event)">
                 }
@@ -76,12 +76,13 @@
                 Discover handpicked destinations with luxury experiences across Sri Lanka.
             </p>
         </div>
+        @defer (on viewport) {
         <div class="row g-4">
             @for (dest of destinations; track trackByIndex($index)) {
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="premium-card" (click)="scrollToSection('packages')" role="button" tabindex="0"
                     (keyup.enter)="scrollToSection('packages')" [attr.aria-label]="'Explore ' + dest.name + ' tours'">
-                    <img [src]="bestImageSrc(dest.src)" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt"
+                    <img [src]="bestImageSrc(dest.src, 400)" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt"
                         width="400" height="280" loading="lazy" decoding="async" fetchpriority="low"
                         [attr.data-img-base]="dest.src" (error)="onImageError($event)">
                     <div class="content">
@@ -92,6 +93,15 @@
             </div>
             }
         </div>
+        } @placeholder {
+        <div class="row g-4" aria-hidden="true">
+            @for (dest of destinations; track trackByIndex($index)) {
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="premium-card premium-card-placeholder"></div>
+            </div>
+            }
+        </div>
+        }
     </div>
 </section>
 

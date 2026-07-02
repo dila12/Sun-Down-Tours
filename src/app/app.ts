@@ -5,6 +5,7 @@ import { filter, map, mergeMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
 import { scheduleDeferredAssets } from './utils/deferred-assets.util';
 import { scheduleThirdPartyScripts } from './utils/third-party-scripts.util';
+import { trackPageView } from './utils/analytics';
 
 @Component({
   selector: 'app-root',
@@ -65,6 +66,8 @@ export class AppComponent implements OnInit {
             document.head.appendChild(canonical);
           }
           canonical.setAttribute('href', canonicalUrl);
+
+          trackPageView();
         }
       });
   }
