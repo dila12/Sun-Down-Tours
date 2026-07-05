@@ -89,7 +89,6 @@ export function loadGoogleAnalytics(onLoaded?: () => void): void {
     w.gtag('config', GA_MEASUREMENT_ID, {
       send_page_view: false,
       transport_type: 'beacon',
-      debug_mode: true
     });
 
     analyticsLoaded = true;
