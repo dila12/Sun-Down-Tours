@@ -101,14 +101,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
-
-      // Must be first
-      initializeGoogleConsent();
-
       scheduleDeferredAssets();
-
-      // Wait for scroll/click/touch/keyboard
-      scheduleThirdPartyScripts();
     }
   }
 }
