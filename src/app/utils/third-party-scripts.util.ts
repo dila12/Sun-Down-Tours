@@ -1,114 +1,229 @@
-/** Deferred third-party script loading */
+/** Deferred Google Analytics + Consent Mode */
 
 const GA_MEASUREMENT_ID = 'G-KVF224182X';
+const CONSENT_KEY = 'analytics_consent';
+
+type ConsentChoice = 'granted' | 'denied';
 
 let analyticsLoaded = false;
 let analyticsLoading = false;
+let userInteracted = false;
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag?: (...args: any[]) => void;
+  }
+}
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' && typeof document !== 'undefined';
 }
 
+
+/**
+ * STEP 1
+ * Call this immediately when your Angular app starts.
+ *
+ * IMPORTANT:
+ * This does NOT download gtag.js.
+ * It only creates the local dataLayer and sets consent defaults.
+ */
+export function initializeGoogleConsent(): void {
+  if (!isBrowser()) return;
+
+  window.dataLayer = window.dataLayer || [];
+
+  window.gtag ??= (...args: any[]) => {
+    window.dataLayer.push(args);
+  };
+
+  const savedConsent =
+    localStorage.getItem(CONSENT_KEY) as ConsentChoice | null;
+
+  window.gtag?.('consent', 'default', {
+    analytics_storage:
+      savedConsent === 'granted' ? 'granted' : 'denied',
+
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+
+    wait_for_update: 500
+  });
+}
+
+/**
+ * STEP 2
+ * Call when visitor clicks "Accept Analytics" or "Accept All".
+ */
+export function acceptAnalyticsConsent(): void {
+  if (!isBrowser()) return;
+
+  localStorage.setItem(CONSENT_KEY, 'granted');
+
+  window.gtag?.('consent', 'update', {
+    analytics_storage: 'granted',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
+
+  if (userInteracted) {
+    loadGoogleAnalytics();
+  }
+}
+
+export function rejectAnalyticsConsent(): void {
+  if (!isBrowser()) return;
+
+  localStorage.setItem(CONSENT_KEY, 'denied');
+
+  window.gtag?.('consent', 'update', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
+}
+
+/**
+ * Use this to decide whether your cookie banner should be visible.
+ */
+export function hasConsentChoice(): boolean {
+
+  if (!isBrowser()) return false;
+
+  return localStorage.getItem(CONSENT_KEY) !== null;
+}
+
+
+/**
+ * STEP 3
+ * Wait for a real user interaction.
+ */
 export function scheduleThirdPartyScripts(): void {
 
   if (!isBrowser() || analyticsLoaded || analyticsLoading) {
     return;
   }
 
-  const load = () => {
-    if (analyticsLoaded || analyticsLoading) {
-      return;
-    }
+  const handleInteraction = () => {
 
-    analyticsLoading = true;
+    userInteracted = true;
 
     removeListeners();
 
-    loadGoogleAnalytics(() => {
-      analyticsLoaded = true;
-      analyticsLoading = false;
-    });
+    const consent = localStorage.getItem(CONSENT_KEY);
 
+    // Only load full Google Analytics after consent is granted
+    if (consent === 'granted') {
+      loadGoogleAnalytics();
+    }
   };
 
   const removeListeners = () => {
-    window.removeEventListener('pointerdown', load);
-    window.removeEventListener('scroll', load);
-    window.removeEventListener('touchstart', load);
-    window.removeEventListener('keydown', load);
+    window.removeEventListener('pointerdown', handleInteraction);
+    window.removeEventListener('scroll', handleInteraction);
+    window.removeEventListener('touchstart', handleInteraction);
+    window.removeEventListener('keydown', handleInteraction);
   };
 
-  window.addEventListener('pointerdown', load, {
+  window.addEventListener('pointerdown', handleInteraction, {
     once: true,
     passive: true
   });
 
-  window.addEventListener('scroll', load, {
+  window.addEventListener('scroll', handleInteraction, {
     once: true,
     passive: true
   });
 
-  window.addEventListener('touchstart', load, {
+  window.addEventListener('touchstart', handleInteraction, {
     once: true,
     passive: true
   });
 
-  window.addEventListener('keydown', load, {
+  window.addEventListener('keydown', handleInteraction, {
     once: true
   });
-
 }
 
+
+/**
+ * STEP 4
+ * Load the actual external Google Analytics script.
+ */
 export function loadGoogleAnalytics(onLoaded?: () => void): void {
 
-  if (!isBrowser()) return;
-
-  if (document.querySelector('script[data-gtag]')) {
-    analyticsLoaded = true;
-    analyticsLoading = false;
+  if (!isBrowser() || analyticsLoaded || analyticsLoading) {
     onLoaded?.();
     return;
   }
 
+  // Safety check: never load analytics without consent
+  if (localStorage.getItem(CONSENT_KEY) !== 'granted') {
+    return;
+  }
+
+  if (document.querySelector('script[data-gtag]')) {
+    analyticsLoaded = true;
+    onLoaded?.();
+    return;
+  }
+
+  analyticsLoading = true;
+
+  // gtag/dataLayer already exist from initializeGoogleConsent()
+  initializeGoogleConsent();
+
   const script = document.createElement('script');
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
+  script.src =
+    `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
   script.async = true;
   script.setAttribute('data-gtag', 'true');
 
   script.onload = () => {
-    const w = window as any;
 
-    w.dataLayer = w.dataLayer || [];
+    window.gtag?.('js', new Date());
 
-    w.gtag = function () {
-      w.dataLayer.push(arguments);
-    };
-
-    w.gtag('js', new Date());
-
-    w.gtag('config', GA_MEASUREMENT_ID, {
+    window.gtag?.('config', GA_MEASUREMENT_ID, {
       send_page_view: false,
-      transport_type: 'beacon',
+      transport_type: 'beacon'
     });
 
     analyticsLoaded = true;
     analyticsLoading = false;
 
-    // Send first page view
-    w.gtag('event', 'page_view', {
-      page_title: document.title,
-      page_location: window.location.href,
-      page_path: window.location.pathname
-    });
+    trackPageView();
 
     onLoaded?.();
   };
 
-  script.onerror = (err) => {
+  script.onerror = () => {
     analyticsLoading = false;
   };
 
   document.head.appendChild(script);
+}
+
+
+/**
+ * Angular SPA page tracking
+ */
+export function trackPageView(): void {
+
+  if (!isBrowser() || !analyticsLoaded || !window.gtag) {
+    return;
+  }
+
+  window.gtag('event', 'page_view', {
+    page_title: document.title,
+    page_location: window.location.href,
+    page_path: window.location.pathname
+  });
 }
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;

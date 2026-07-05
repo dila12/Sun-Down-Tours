@@ -1,11 +1,29 @@
-import { Component, DOCUMENT, Inject, PLATFORM_ID, ChangeDetectionStrategy, OnInit } from '@angular/core';
-import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import {
+  Component,
+  Inject,
+  PLATFORM_ID,
+  ChangeDetectionStrategy,
+  OnInit
+} from '@angular/core';
+
+import {
+  RouterModule,
+  Router,
+  NavigationEnd,
+  ActivatedRoute
+} from '@angular/router';
+
 import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
+
 import { scheduleDeferredAssets } from './utils/deferred-assets.util';
-import { scheduleThirdPartyScripts } from './utils/third-party-scripts.util';
-import { trackPageView } from './utils/analytics';
+
+import {
+  initializeGoogleConsent,
+  scheduleThirdPartyScripts,
+  trackPageView
+} from './utils/third-party-scripts.util';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +48,10 @@ export class AppComponent implements OnInit {
         filter(event => event instanceof NavigationEnd),
         map(() => this.route),
         map(route => {
-          while (route.firstChild) route = route.firstChild;
+          while (route.firstChild) {
+            route = route.firstChild;
+          }
+
           return route;
         }),
         mergeMap(route => route.data)
@@ -55,26 +76,38 @@ export class AppComponent implements OnInit {
           });
         }
 
-        const url = this.router.url;
         if (isPlatformBrowser(this.platformId)) {
-          // Use the current origin to build the full canonical URL, ensuring it matches the exact page URL.
-          const canonicalUrl = `${window.location.origin}${this.router.url}`;
-          let canonical = document.querySelector("link[rel='canonical']") as HTMLLinkElement;
+
+          const canonicalUrl =
+            `${window.location.origin}${this.router.url}`;
+
+          let canonical = document.querySelector(
+            "link[rel='canonical']"
+          ) as HTMLLinkElement;
+
           if (!canonical) {
             canonical = document.createElement('link');
             canonical.setAttribute('rel', 'canonical');
             document.head.appendChild(canonical);
           }
+
           canonical.setAttribute('href', canonicalUrl);
 
+          // Sends SPA page views only after GA has loaded
           trackPageView();
         }
       });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
+
+      // Must be first
+      initializeGoogleConsent();
+
       scheduleDeferredAssets();
+
+      // Wait for scroll/click/touch/keyboard
       scheduleThirdPartyScripts();
     }
   }
