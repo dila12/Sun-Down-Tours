@@ -174,9 +174,6 @@ export function loadGoogleAnalytics(onLoaded?: () => void): void {
 
   analyticsLoading = true;
 
-  // gtag/dataLayer already exist from initializeGoogleConsent()
-  initializeGoogleConsent();
-
   const script = document.createElement('script');
 
   script.src =
