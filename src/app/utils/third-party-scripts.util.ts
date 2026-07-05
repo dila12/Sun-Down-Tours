@@ -1,5 +1,3 @@
-/** Deferred Google Analytics + Consent Mode */
-
 const GA_MEASUREMENT_ID = 'G-KVF224182X';
 const CONSENT_KEY = 'analytics_consent';
 
@@ -7,7 +5,6 @@ type ConsentChoice = 'granted' | 'denied';
 
 let analyticsLoaded = false;
 let analyticsLoading = false;
-let userInteracted = false;
 
 declare global {
   interface Window {
@@ -17,31 +14,25 @@ declare global {
 }
 
 function isBrowser(): boolean {
-  return typeof window !== 'undefined' && typeof document !== 'undefined';
+  return typeof window !== 'undefined' &&
+    typeof document !== 'undefined';
 }
 
-
-/**
- * STEP 1
- * Call this immediately when your Angular app starts.
- *
- * IMPORTANT:
- * This does NOT download gtag.js.
- * It only creates the local dataLayer and sets consent defaults.
- */
 export function initializeGoogleConsent(): void {
   if (!isBrowser()) return;
 
   window.dataLayer = window.dataLayer || [];
 
-  window.gtag ??= (...args: any[]) => {
-    window.dataLayer.push(args);
-  };
+  if (!window.gtag) {
+    window.gtag = function () {
+      window.dataLayer.push(arguments);
+    };
+  }
 
   const savedConsent =
     localStorage.getItem(CONSENT_KEY) as ConsentChoice | null;
 
-  window.gtag?.('consent', 'default', {
+  window.gtag('consent', 'default', {
     analytics_storage:
       savedConsent === 'granted' ? 'granted' : 'denied',
 
@@ -53,10 +44,6 @@ export function initializeGoogleConsent(): void {
   });
 }
 
-/**
- * STEP 2
- * Call when visitor clicks "Accept Analytics" or "Accept All".
- */
 export function acceptAnalyticsConsent(): void {
   if (!isBrowser()) return;
 
@@ -69,9 +56,7 @@ export function acceptAnalyticsConsent(): void {
     ad_personalization: 'denied'
   });
 
-  if (userInteracted) {
-    loadGoogleAnalytics();
-  }
+  loadGoogleAnalytics();
 }
 
 export function rejectAnalyticsConsent(): void {
@@ -87,92 +72,82 @@ export function rejectAnalyticsConsent(): void {
   });
 }
 
-/**
- * Use this to decide whether your cookie banner should be visible.
- */
 export function hasConsentChoice(): boolean {
-
   if (!isBrowser()) return false;
 
   return localStorage.getItem(CONSENT_KEY) !== null;
 }
 
-
-/**
- * STEP 3
- * Wait for a real user interaction.
- */
 export function scheduleThirdPartyScripts(): void {
+  if (!isBrowser()) return;
 
-  if (!isBrowser() || analyticsLoaded || analyticsLoading) {
-    return;
-  }
-
-  const handleInteraction = () => {
-
-    userInteracted = true;
-
+  const loadForReturningVisitor = () => {
     removeListeners();
 
-    const consent = localStorage.getItem(CONSENT_KEY);
-
-    // Only load full Google Analytics after consent is granted
-    if (consent === 'granted') {
+    if (localStorage.getItem(CONSENT_KEY) === 'granted') {
       loadGoogleAnalytics();
     }
   };
 
   const removeListeners = () => {
-    window.removeEventListener('pointerdown', handleInteraction);
-    window.removeEventListener('scroll', handleInteraction);
-    window.removeEventListener('touchstart', handleInteraction);
-    window.removeEventListener('keydown', handleInteraction);
+    window.removeEventListener(
+      'pointerdown',
+      loadForReturningVisitor
+    );
+
+    window.removeEventListener(
+      'scroll',
+      loadForReturningVisitor
+    );
+
+    window.removeEventListener(
+      'keydown',
+      loadForReturningVisitor
+    );
   };
 
-  window.addEventListener('pointerdown', handleInteraction, {
-    once: true,
-    passive: true
-  });
+  window.addEventListener(
+    'pointerdown',
+    loadForReturningVisitor,
+    { once: true, passive: true }
+  );
 
-  window.addEventListener('scroll', handleInteraction, {
-    once: true,
-    passive: true
-  });
+  window.addEventListener(
+    'scroll',
+    loadForReturningVisitor,
+    { once: true, passive: true }
+  );
 
-  window.addEventListener('touchstart', handleInteraction, {
-    once: true,
-    passive: true
-  });
-
-  window.addEventListener('keydown', handleInteraction, {
-    once: true
-  });
+  window.addEventListener(
+    'keydown',
+    loadForReturningVisitor,
+    { once: true }
+  );
 }
 
-
-/**
- * STEP 4
- * Load the actual external Google Analytics script.
- */
-export function loadGoogleAnalytics(onLoaded?: () => void): void {
-
-  if (!isBrowser() || analyticsLoaded || analyticsLoading) {
-    onLoaded?.();
+export function loadGoogleAnalytics(): void {
+  if (!isBrowser()) return;
+  if (analyticsLoaded) {
     return;
   }
-
-  // Safety check: never load analytics without consent
-  if (localStorage.getItem(CONSENT_KEY) !== 'granted') {
+  if (analyticsLoading) {
     return;
   }
-
-  if (document.querySelector('script[data-gtag]')) {
-    analyticsLoaded = true;
-    onLoaded?.();
+  const consent = localStorage.getItem(CONSENT_KEY);
+  if (consent !== 'granted') {
     return;
   }
 
   analyticsLoading = true;
+
+  const existingScript =
+    document.querySelector<HTMLScriptElement>(
+      'script[data-gtag]'
+    );
+
+  if (existingScript) {
+    existingScript.remove();
+  }
 
   const script = document.createElement('script');
 
@@ -180,48 +155,41 @@ export function loadGoogleAnalytics(onLoaded?: () => void): void {
     `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
 
   script.async = true;
-  script.setAttribute('data-gtag', 'true');
+  script.dataset['gtag'] = 'true';
 
   script.onload = () => {
 
     window.gtag?.('js', new Date());
 
     window.gtag?.('config', GA_MEASUREMENT_ID, {
-      send_page_view: false,
-      transport_type: 'beacon'
+      debug_mode: true
     });
 
     analyticsLoaded = true;
     analyticsLoading = false;
-
-    trackPageView();
-
-    onLoaded?.();
   };
 
-  script.onerror = () => {
+  script.onerror = error => {
     analyticsLoading = false;
   };
 
   document.head.appendChild(script);
 }
 
-
-/**
- * Angular SPA page tracking
- */
 export function trackPageView(): void {
-
   if (!isBrowser() || !analyticsLoaded || !window.gtag) {
     return;
   }
 
   window.gtag('event', 'page_view', {
+    send_to: GA_MEASUREMENT_ID,
     page_title: document.title,
     page_location: window.location.href,
-    page_path: window.location.pathname
+    page_path: window.location.pathname + window.location.search,
+    debug_mode: true
   });
 }
+
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 

@@ -1,1 +1,50 @@
 <router-outlet></router-outlet>
+
+@if (showConsentBanner) {
+  <section
+    class="cookie-banner"
+    role="dialog"
+    aria-modal="false"
+    aria-labelledby="cookie-title"
+    aria-describedby="cookie-description">
+
+    <div class="cookie-header">
+      <div class="cookie-icon" aria-hidden="true">
+        <i class="fas fa-shield-alt"></i>
+      </div>
+
+      <div class="cookie-heading">
+        <strong id="cookie-title">Your privacy matters</strong>
+        <span>Analytics preferences</span>
+      </div>
+    </div>
+
+    <p id="cookie-description" class="cookie-description">
+      We use optional analytics cookies to understand how visitors use
+      our website and improve our tours and services. You can accept or
+      reject analytics cookies at any time.
+    </p>
+
+    <div class="cookie-footer">
+      <a routerLink="/privacy-policy" class="privacy-link">
+        Privacy policy
+      </a>
+
+      <div class="cookie-actions">
+        <button
+          type="button"
+          class="reject-btn"
+          (click)="rejectCookies()">
+          Reject
+        </button>
+
+        <button
+          type="button"
+          class="accept-btn"
+          (click)="acceptCookies()">
+          Accept analytics
+        </button>
+      </div>
+    </div>
+  </section>
+}

@@ -20,7 +20,10 @@ import { isPlatformBrowser } from '@angular/common';
 import { scheduleDeferredAssets } from './utils/deferred-assets.util';
 
 import {
+  acceptAnalyticsConsent,
+  hasConsentChoice,
   initializeGoogleConsent,
+  rejectAnalyticsConsent,
   scheduleThirdPartyScripts,
   trackPageView
 } from './utils/third-party-scripts.util';
@@ -34,7 +37,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent implements OnInit {
-
+  showConsentBanner = false;
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -100,8 +103,23 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      scheduleDeferredAssets();
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
     }
+
+    initializeGoogleConsent();
+    this.showConsentBanner = !hasConsentChoice();
+    scheduleThirdPartyScripts();
+    scheduleDeferredAssets();
+  }
+
+  acceptCookies(): void {
+    acceptAnalyticsConsent();
+    this.showConsentBanner = false;
+  }
+
+  rejectCookies(): void {
+    rejectAnalyticsConsent();
+    this.showConsentBanner = false;
   }
 }

@@ -251,6 +251,16 @@ export const routes: Routes = [
           '8 day Sri Lanka tour, Sri Lanka 8 day itinerary, Sri Lanka private tour 8 days, Wilpattu safari tour, Sigiriya Kandy Ella beach tour',
         ),
       },
+      {
+        path: 'privacy-policy',
+        loadComponent: () =>
+          import('./sharedComponents/privacy-policy/privacy-policy-component/privacy-policy-component')
+            .then(m => m.PrivacyPolicyComponent),
+        data: {
+          title: 'Privacy Policy | Sundown Tours Sri Lanka',
+          description: 'Read the privacy and analytics cookie policy of Sundown Tours Sri Lanka.'
+        }
+      }
     ],
   },
 ];
