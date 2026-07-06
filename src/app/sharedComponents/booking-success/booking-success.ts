@@ -1,6 +1,6 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-booking-success',
@@ -23,11 +23,20 @@ export class BookingSuccessComponent {
 
   private isBrowser: boolean;
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object,   private router: Router) {
     this.isBrowser = isPlatformBrowser(this.platformId);
 
     if (this.isBrowser) {
       const state = history.state;
+      console.log('BookingSuccessComponent state:', state);
+      if (
+        !state?.booking ||
+        !state?.orderNumber
+      ) {
+        this.router.navigate(['/sri-lanka-private-tour']);
+
+        return;
+      }
       this.booking = state?.booking;
       this.orderNumber = state?.orderNumber ?? '';
       this.total = state?.total ?? 0;
