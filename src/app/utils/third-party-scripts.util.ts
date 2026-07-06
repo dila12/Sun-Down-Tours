@@ -3,23 +3,24 @@ const CONSENT_KEY = 'analytics_consent';
 
 type ConsentChoice = 'granted' | 'denied';
 
-let analyticsLoaded = false;
-let analyticsLoading = false;
+let gaInitialized = false;
 
 declare global {
   interface Window {
-    dataLayer: any[];
+    dataLayer: IArguments[];
     gtag?: (...args: any[]) => void;
   }
 }
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' &&
-    typeof document !== 'undefined';
+         typeof document !== 'undefined';
 }
 
-export function initializeGoogleConsent(): void {
-  if (!isBrowser()) return;
+function ensureGtag(): void {
+  if (!isBrowser()) {
+    return;
+  }
 
   window.dataLayer = window.dataLayer || [];
 
@@ -28,13 +29,32 @@ export function initializeGoogleConsent(): void {
       window.dataLayer.push(arguments);
     };
   }
+}
 
-  const savedConsent =
-    localStorage.getItem(CONSENT_KEY) as ConsentChoice | null;
+function getStoredConsent(): ConsentChoice | null {
+  if (!isBrowser()) {
+    return null;
+  }
 
-  window.gtag('consent', 'default', {
+  const value = localStorage.getItem(CONSENT_KEY);
+
+  return value === 'granted' || value === 'denied'
+    ? value
+    : null;
+}
+
+export function initializeGoogleConsent(): void {
+  if (!isBrowser()) {
+    return;
+  }
+
+  ensureGtag();
+
+  const consent = getStoredConsent();
+
+  window.gtag?.('consent', 'default', {
     analytics_storage:
-      savedConsent === 'granted' ? 'granted' : 'denied',
+      consent === 'granted' ? 'granted' : 'denied',
 
     ad_storage: 'denied',
     ad_user_data: 'denied',
@@ -44,8 +64,58 @@ export function initializeGoogleConsent(): void {
   });
 }
 
+export function scheduleThirdPartyScripts(): void {
+  if (!isBrowser() || gaInitialized) {
+    return;
+  }
+
+  gaInitialized = true;
+
+  ensureGtag();
+
+  // IMPORTANT: queue initialization BEFORE adding the script
+  window.gtag?.('js', new Date());
+
+  window.gtag?.('config', GA_MEASUREMENT_ID, {
+    send_page_view: false
+  });
+
+  const existingScript = document.querySelector(
+    `script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`
+  );
+
+  if (!existingScript) {
+    const script = document.createElement('script');
+
+    script.async = true;
+    script.src =
+      `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
+    script.onload = () => {
+      console.log('GA4 script loaded successfully');
+
+      // Send initial page view after library is available
+      trackPageView();
+    };
+
+    script.onerror = () => {
+      console.error('GA4 script failed to load');
+    };
+
+    document.head.appendChild(script);
+  }
+}
+
+export function hasConsentChoice(): boolean {
+  return getStoredConsent() !== null;
+}
+
 export function acceptAnalyticsConsent(): void {
-  if (!isBrowser()) return;
+  if (!isBrowser()) {
+    return;
+  }
+
+  ensureGtag();
 
   localStorage.setItem(CONSENT_KEY, 'granted');
 
@@ -56,11 +126,25 @@ export function acceptAnalyticsConsent(): void {
     ad_personalization: 'denied'
   });
 
-  loadGoogleAnalytics();
+  console.log('Analytics consent granted');
+
+  // Send event after consent update has been queued
+  window.gtag?.('event', 'page_view', {
+    send_to: GA_MEASUREMENT_ID,
+    page_title: document.title,
+    page_location: window.location.href,
+    page_path:
+      window.location.pathname +
+      window.location.search
+  });
 }
 
 export function rejectAnalyticsConsent(): void {
-  if (!isBrowser()) return;
+  if (!isBrowser()) {
+    return;
+  }
+
+  ensureGtag();
 
   localStorage.setItem(CONSENT_KEY, 'denied');
 
@@ -72,124 +156,24 @@ export function rejectAnalyticsConsent(): void {
   });
 }
 
-export function hasConsentChoice(): boolean {
-  if (!isBrowser()) return false;
-
-  return localStorage.getItem(CONSENT_KEY) !== null;
-}
-
-export function scheduleThirdPartyScripts(): void {
-  if (!isBrowser()) return;
-
-  const loadForReturningVisitor = () => {
-    removeListeners();
-
-    if (localStorage.getItem(CONSENT_KEY) === 'granted') {
-      loadGoogleAnalytics();
-    }
-  };
-
-  const removeListeners = () => {
-    window.removeEventListener(
-      'pointerdown',
-      loadForReturningVisitor
-    );
-
-    window.removeEventListener(
-      'scroll',
-      loadForReturningVisitor
-    );
-
-    window.removeEventListener(
-      'keydown',
-      loadForReturningVisitor
-    );
-  };
-
-  window.addEventListener(
-    'pointerdown',
-    loadForReturningVisitor,
-    { once: true, passive: true }
-  );
-
-  window.addEventListener(
-    'scroll',
-    loadForReturningVisitor,
-    { once: true, passive: true }
-  );
-
-  window.addEventListener(
-    'keydown',
-    loadForReturningVisitor,
-    { once: true }
-  );
-}
-
-export function loadGoogleAnalytics(): void {
-  if (!isBrowser()) return;
-  if (analyticsLoaded) {
-    return;
-  }
-  if (analyticsLoading) {
-    return;
-  }
-  const consent = localStorage.getItem(CONSENT_KEY);
-  if (consent !== 'granted') {
-    return;
-  }
-
-  analyticsLoading = true;
-
-  const existingScript =
-    document.querySelector<HTMLScriptElement>(
-      'script[data-gtag]'
-    );
-
-  if (existingScript) {
-    existingScript.remove();
-  }
-
-  const script = document.createElement('script');
-
-  script.src =
-    `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-
-  script.async = true;
-  script.dataset['gtag'] = 'true';
-
-  script.onload = () => {
-
-    window.gtag?.('js', new Date());
-
-    window.gtag?.('config', GA_MEASUREMENT_ID, {
-      debug_mode: true
-    });
-
-    analyticsLoaded = true;
-    analyticsLoading = false;
-  };
-
-  script.onerror = error => {
-    analyticsLoading = false;
-  };
-
-  document.head.appendChild(script);
-}
-
 export function trackPageView(): void {
-  if (!isBrowser() || !analyticsLoaded || !window.gtag) {
+  if (!isBrowser()) {
     return;
   }
 
-  window.gtag('event', 'page_view', {
+  ensureGtag();
+
+  console.log('Sending GA4 page_view');
+
+  window.gtag?.('event', 'page_view', {
     send_to: GA_MEASUREMENT_ID,
     page_title: document.title,
     page_location: window.location.href,
-    page_path: window.location.pathname + window.location.search,
-    debug_mode: true
+    page_path:
+      window.location.pathname +
+      window.location.search
   });
 }
-
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
