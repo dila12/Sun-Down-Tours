@@ -22,9 +22,9 @@ import { scheduleDeferredAssets } from './utils/deferred-assets.util';
 import {
   acceptAnalyticsConsent,
   hasConsentChoice,
+  initializeGoogleAnalytics,
   initializeGoogleConsent,
   rejectAnalyticsConsent,
-  scheduleThirdPartyScripts,
   trackPageView
 } from './utils/third-party-scripts.util';
 
@@ -108,8 +108,11 @@ export class AppComponent implements OnInit {
     }
 
     initializeGoogleConsent();
+
     this.showConsentBanner = !hasConsentChoice();
-    scheduleThirdPartyScripts();
+
+    initializeGoogleAnalytics();
+
     scheduleDeferredAssets();
   }
 

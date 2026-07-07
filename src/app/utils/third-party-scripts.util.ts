@@ -1,13 +1,21 @@
 const GA_MEASUREMENT_ID = 'G-KVF224182X';
-const CONSENT_KEY = 'analytics_consent';
+const CONSENT_KEY = 'google_consent';
 
-type ConsentChoice = 'granted' | 'denied';
+type ConsentValue = 'granted' | 'denied';
 
-let gaInitialized = false;
+type ConsentState = {
+  analytics_storage: ConsentValue;
+  ad_storage: ConsentValue;
+  ad_user_data: ConsentValue;
+  ad_personalization: ConsentValue;
+};
+
+let gaLoading = false;
+let gaReady = false;
 
 declare global {
   interface Window {
-    dataLayer: IArguments[];
+    dataLayer: any[];
     gtag?: (...args: any[]) => void;
   }
 }
@@ -31,17 +39,41 @@ function ensureGtag(): void {
   }
 }
 
-function getStoredConsent(): ConsentChoice | null {
+function getStoredConsent(): ConsentState | null {
   if (!isBrowser()) {
     return null;
   }
 
-  const value = localStorage.getItem(CONSENT_KEY);
+  try {
+    const value = localStorage.getItem(CONSENT_KEY);
 
-  return value === 'granted' || value === 'denied'
-    ? value
-    : null;
+    if (!value) {
+      return null;
+    }
+
+    const parsed = JSON.parse(value);
+
+    const valid =
+      (parsed.analytics_storage === 'granted' ||
+       parsed.analytics_storage === 'denied') &&
+      (parsed.ad_storage === 'granted' ||
+       parsed.ad_storage === 'denied') &&
+      (parsed.ad_user_data === 'granted' ||
+       parsed.ad_user_data === 'denied') &&
+      (parsed.ad_personalization === 'granted' ||
+       parsed.ad_personalization === 'denied');
+
+    return valid ? parsed as ConsentState : null;
+  } catch {
+    return null;
+  }
 }
+
+
+/* =========================================================
+   1. CONSENT MODE V2 DEFAULT
+   MUST RUN BEFORE GOOGLE TAG CONFIG / EVENTS
+========================================================= */
 
 export function initializeGoogleConsent(): void {
   if (!isBrowser()) {
@@ -50,30 +82,40 @@ export function initializeGoogleConsent(): void {
 
   ensureGtag();
 
-  const consent = getStoredConsent();
-
+  // Always establish the default consent state first
   window.gtag?.('consent', 'default', {
-    analytics_storage:
-      consent === 'granted' ? 'granted' : 'denied',
-
+    analytics_storage: 'denied',
     ad_storage: 'denied',
     ad_user_data: 'denied',
-    ad_personalization: 'denied',
-
-    wait_for_update: 500
+    ad_personalization: 'denied'
   });
+
+  // Privacy protection for advertising data
+  window.gtag?.('set', 'ads_data_redaction', true);
+
+  // Restore the visitor's saved choice
+  const storedConsent = getStoredConsent();
+
+  if (storedConsent) {
+    window.gtag?.('consent', 'update', storedConsent);
+  }
 }
 
-export function scheduleThirdPartyScripts(): void {
-  if (!isBrowser() || gaInitialized) {
+
+/* =========================================================
+   2. LOAD GOOGLE ANALYTICS
+========================================================= */
+
+export function initializeGoogleAnalytics(): void {
+  if (!isBrowser() || gaLoading || gaReady) {
     return;
   }
 
-  gaInitialized = true;
+  gaLoading = true;
 
   ensureGtag();
 
-  // IMPORTANT: queue initialization BEFORE adding the script
+  // Consent default/update is already queued before these
   window.gtag?.('js', new Date());
 
   window.gtag?.('config', GA_MEASUREMENT_ID, {
@@ -84,31 +126,50 @@ export function scheduleThirdPartyScripts(): void {
     `script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`
   );
 
-  if (!existingScript) {
-    const script = document.createElement('script');
-
-    script.async = true;
-    script.src =
-      `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-
-    script.onload = () => {
-      console.log('GA4 script loaded successfully');
-
-      // Send initial page view after library is available
-      trackPageView();
-    };
-
-    script.onerror = () => {
-      console.error('GA4 script failed to load');
-    };
-
-    document.head.appendChild(script);
+  if (existingScript) {
+    gaReady = true;
+    gaLoading = false;
+    return;
   }
+
+  const script = document.createElement('script');
+
+  script.async = true;
+  script.src =
+    `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+
+  script.onload = () => {
+    gaReady = true;
+    gaLoading = false;
+
+    console.log('GA4 Consent Mode v2 active');
+
+    // One initial page view only
+    trackPageView();
+  };
+
+  script.onerror = () => {
+    gaLoading = false;
+
+    console.error('GA4 failed to load');
+  };
+
+  document.head.appendChild(script);
 }
+
+
+/* =========================================================
+   3. CHECK SAVED CHOICE
+========================================================= */
 
 export function hasConsentChoice(): boolean {
   return getStoredConsent() !== null;
 }
+
+
+/* =========================================================
+   4. ACCEPT ANALYTICS
+========================================================= */
 
 export function acceptAnalyticsConsent(): void {
   if (!isBrowser()) {
@@ -117,27 +178,28 @@ export function acceptAnalyticsConsent(): void {
 
   ensureGtag();
 
-  localStorage.setItem(CONSENT_KEY, 'granted');
-
-  window.gtag?.('consent', 'update', {
+  const consent: ConsentState = {
     analytics_storage: 'granted',
     ad_storage: 'denied',
     ad_user_data: 'denied',
     ad_personalization: 'denied'
-  });
+  };
+
+  localStorage.setItem(
+    CONSENT_KEY,
+    JSON.stringify(consent)
+  );
+
+  // Must happen immediately on the current page
+  window.gtag?.('consent', 'update', consent);
 
   console.log('Analytics consent granted');
-
-  // Send event after consent update has been queued
-  window.gtag?.('event', 'page_view', {
-    send_to: GA_MEASUREMENT_ID,
-    page_title: document.title,
-    page_location: window.location.href,
-    page_path:
-      window.location.pathname +
-      window.location.search
-  });
 }
+
+
+/* =========================================================
+   5. REJECT ANALYTICS
+========================================================= */
 
 export function rejectAnalyticsConsent(): void {
   if (!isBrowser()) {
@@ -146,24 +208,33 @@ export function rejectAnalyticsConsent(): void {
 
   ensureGtag();
 
-  localStorage.setItem(CONSENT_KEY, 'denied');
-
-  window.gtag?.('consent', 'update', {
+  const consent: ConsentState = {
     analytics_storage: 'denied',
     ad_storage: 'denied',
     ad_user_data: 'denied',
     ad_personalization: 'denied'
-  });
+  };
+
+  localStorage.setItem(
+    CONSENT_KEY,
+    JSON.stringify(consent)
+  );
+
+  // Must happen immediately on the current page
+  window.gtag?.('consent', 'update', consent);
+
+  console.log('Analytics consent denied');
 }
 
+
+/* =========================================================
+   6. SPA PAGE VIEWS
+========================================================= */
+
 export function trackPageView(): void {
-  if (!isBrowser()) {
+  if (!isBrowser() || !gaReady) {
     return;
   }
-
-  ensureGtag();
-
-  console.log('Sending GA4 page_view');
 
   window.gtag?.('event', 'page_view', {
     send_to: GA_MEASUREMENT_ID,
@@ -174,6 +245,7 @@ export function trackPageView(): void {
       window.location.search
   });
 }
+
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
