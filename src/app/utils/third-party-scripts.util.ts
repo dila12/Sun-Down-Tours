@@ -1,4 +1,6 @@
 const GA_MEASUREMENT_ID = 'G-KVF224182X';
+const GOOGLE_ADS_ID = 'AW-1234567890';
+const BOOKING_CONVERSION_LABEL = 'XyZabc123DEFghiJK';
 const CONSENT_KEY = 'google_consent';
 
 type ConsentValue = 'granted' | 'denied';
@@ -122,6 +124,8 @@ export function initializeGoogleAnalytics(): void {
     send_page_view: false
   });
 
+  window.gtag?.('config', GOOGLE_ADS_ID);
+
   const existingScript = document.querySelector(
     `script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`
   );
@@ -155,6 +159,41 @@ export function initializeGoogleAnalytics(): void {
   };
 
   document.head.appendChild(script);
+}
+
+export function trackBookingConversion(
+  orderNumber: string,
+  value: number,
+  currency: string = 'USD'
+): void {
+  if (!isBrowser() || !orderNumber || value <= 0) {
+    return;
+  }
+
+  ensureGtag();
+
+  const conversionKey = `booking_conversion_${orderNumber}`;
+
+  // Prevent duplicate conversions if the success page is reopened
+  if (sessionStorage.getItem(conversionKey)) {
+    console.log('Booking conversion already tracked:', orderNumber);
+    return;
+  }
+
+  window.gtag?.('event', 'conversion', {
+    send_to: `${GOOGLE_ADS_ID}/${BOOKING_CONVERSION_LABEL}`,
+    value: value,
+    currency: currency,
+    transaction_id: orderNumber
+  });
+
+  sessionStorage.setItem(conversionKey, 'true');
+
+  console.log('Google Ads booking conversion tracked:', {
+    orderNumber,
+    value,
+    currency
+  });
 }
 
 

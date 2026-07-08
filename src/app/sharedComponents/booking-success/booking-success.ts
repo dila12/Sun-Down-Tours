@@ -1,6 +1,7 @@
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
+import { trackBookingConversion } from '../../utils/third-party-scripts.util';
 
 @Component({
   selector: 'app-booking-success',
@@ -48,6 +49,8 @@ export class BookingSuccessComponent {
       this.travelDate = state?.booking?.travelDate
         ? new Date(state.booking.travelDate)
         : undefined;
+
+      trackBookingConversion(this.orderNumber,this.total,'USD');
     }
   }
 
