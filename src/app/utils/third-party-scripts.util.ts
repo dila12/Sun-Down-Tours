@@ -1,5 +1,5 @@
 const GA_MEASUREMENT_ID = 'G-KVF224182X';
-const GOOGLE_ADS_ID = 'AW-1234567890';
+const GOOGLE_ADS_ID = 'AW-371326404';
 const BOOKING_CONVERSION_LABEL = 'XyZabc123DEFghiJK';
 const CONSENT_KEY = 'google_consent';
 
