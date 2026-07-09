@@ -49,9 +49,9 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./mainComponents/tour-packages/tour-packages').then((m) => m.TourPackages),
         data: seoData(
-          'Sri Lanka Tour Packages | Private Round Tours',
-          'Discover our customizable Sri Lanka tour packages including round tours, wildlife safaris and beach holidays.',
-          'Sri Lanka tour packages, Sri Lanka round tours',
+          'Sri Lanka Tour Packages | Private Round Tours from UK & Europe',
+          'Discover our customizable Sri Lanka tour packages for European travelers. Tailor-made holidays, private drivers, and luxury safaris.',
+          'Sri Lanka tour packages, Sri Lanka round tours, Sri Lanka holidays from UK, private tours from Germany',
         ),
       },
       {

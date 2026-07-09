@@ -233,6 +233,9 @@ export function acceptAnalyticsConsent(): void {
   window.gtag?.('consent', 'update', consent);
 
   console.log('Analytics consent granted');
+
+  // Re-fire page view so the initial landing page is fully tracked after consent
+  trackPageView();
 }
 
 
