@@ -167,7 +167,11 @@ function configureGoogleTags(): void {
   window.gtag?.('config', GA_MEASUREMENT_ID, {
     send_page_view: false
   });
-  window.gtag?.('config', GOOGLE_ADS_ID);
+  window.gtag?.('config', GOOGLE_ADS_ID, {
+    allow_enhanced_conversions: true,
+    first_party_collection: true
+  });
+
 }
 
 export function trackBookingConversion(
@@ -237,6 +241,7 @@ export function acceptAnalyticsConsent(): void {
   window.gtag?.('consent', 'update', consent);
 
   console.log('Analytics consent granted');
+  configureGoogleTags();
 
   // Re-fire page view so the initial landing page is fully tracked after consent
   trackPageView();
