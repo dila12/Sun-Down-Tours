@@ -45,7 +45,6 @@ function getStoredConsent(): ConsentState | null {
   if (!isBrowser()) {
     return null;
   }
-
   try {
     const value = localStorage.getItem(CONSENT_KEY);
 
@@ -71,20 +70,12 @@ function getStoredConsent(): ConsentState | null {
   }
 }
 
-
-/* =========================================================
-   1. CONSENT MODE V2 DEFAULT
-   MUST RUN BEFORE GOOGLE TAG CONFIG / EVENTS
-========================================================= */
-
 export function initializeGoogleConsent(): void {
   if (!isBrowser()) {
     return;
   }
-
   ensureGtag();
 
-  // Always establish the default consent state first
   window.gtag?.('consent', 'default', {
     analytics_storage: 'denied',
     ad_storage: 'denied',
@@ -92,10 +83,7 @@ export function initializeGoogleConsent(): void {
     ad_personalization: 'denied'
   });
 
-  // Privacy protection for advertising data
   window.gtag?.('set', 'ads_data_redaction', true);
-
-  // Restore the visitor's saved choice
   const storedConsent = getStoredConsent();
 
   if (storedConsent) {
@@ -103,77 +91,43 @@ export function initializeGoogleConsent(): void {
   }
 }
 
-
-/* =========================================================
-   2. LOAD GOOGLE ANALYTICS
-========================================================= */
-
 export function initializeGoogleAnalytics(): void {
-
   if (!isBrowser() || gaLoading || gaReady) {
     return;
   }
-
   gaLoading = true;
-
   ensureGtag();
-
   const existingScript = document.querySelector(
     `script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`
   );
 
   if (existingScript) {
-
-    configureGoogleTags();
-
     gaReady = true;
     gaLoading = false;
-
     trackPageView();
-
     return;
   }
-
   const script = document.createElement('script');
-
   script.async = true;
-
-  script.src =
-    `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
   script.onload = () => {
-
     configureGoogleTags();
-
     gaReady = true;
     gaLoading = false;
-
-    console.log('GA4 + Google Ads initialized');
+    trackPageView();
   }
 
   script.onerror = () => {
     gaLoading = false;
-    console.error('Failed to load Google Analytics');
   };
-
   document.head.appendChild(script);
-
 }
 
 function configureGoogleTags(): void {
-
-  console.log('Configuring Google tags...');
-
   window.gtag?.('js', new Date());
-
-  console.log('GA4 Config:', GA_MEASUREMENT_ID);
-
   window.gtag?.('config', GA_MEASUREMENT_ID, {
     send_page_view: false
   });
-
-  console.log('Google Ads Config:', GOOGLE_ADS_ID);
-
   window.gtag?.('config', GOOGLE_ADS_ID);
 
 }
@@ -186,14 +140,10 @@ export function trackBookingConversion(
   if (!isBrowser() || !orderNumber || value <= 0) {
     return;
   }
-
   ensureGtag();
-
   const conversionKey = `booking_conversion_${orderNumber}`;
 
-  // Prevent duplicate conversions if the success page is reopened
   if (sessionStorage.getItem(conversionKey)) {
-    console.log('Booking conversion already tracked:', orderNumber);
     return;
   }
 
@@ -203,24 +153,12 @@ export function trackBookingConversion(
     currency: currency,
     transaction_id: orderNumber
   });
-
   sessionStorage.setItem(conversionKey, 'true');
-
 }
-
-
-/* =========================================================
-   3. CHECK SAVED CHOICE
-========================================================= */
 
 export function hasConsentChoice(): boolean {
   return getStoredConsent() !== null;
 }
-
-
-/* =========================================================
-   4. ACCEPT ANALYTICS
-========================================================= */
 
 export function acceptAnalyticsConsent(): void {
   if (!isBrowser()) {
@@ -241,13 +179,8 @@ export function acceptAnalyticsConsent(): void {
     JSON.stringify(consent)
   );
 
-  // Must happen immediately on the current page
   window.gtag?.('consent', 'update', consent);
-
-  console.log('Analytics consent granted');
   configureGoogleTags();
-
-  // Re-fire page view so the initial landing page is fully tracked after consent
   trackPageView();
 }
 
@@ -275,16 +208,8 @@ export function rejectAnalyticsConsent(): void {
     JSON.stringify(consent)
   );
 
-  // Must happen immediately on the current page
   window.gtag?.('consent', 'update', consent);
-
-  console.log('Analytics consent denied');
 }
-
-
-/* =========================================================
-   6. SPA PAGE VIEWS
-========================================================= */
 
 export function trackPageView(): void {
 
@@ -292,15 +217,18 @@ export function trackPageView(): void {
     return;
   }
 
-  console.log('Sending page_view');
-
   window.gtag?.('event', 'page_view', {
+    send_to: [
+      GA_MEASUREMENT_ID,
+      GOOGLE_ADS_ID
+    ],
     page_title: document.title,
     page_location: window.location.href,
     page_path: window.location.pathname + window.location.search
   });
 
 }
+
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
