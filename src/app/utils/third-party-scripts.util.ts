@@ -149,7 +149,6 @@ export function initializeGoogleAnalytics(): void {
 
     gaReady = true;
     gaLoading = false;
-    trackPageView();
   };
   script.onerror = () => {
     gaLoading = false;
@@ -225,10 +224,10 @@ export function rejectAnalyticsConsent(): void {
   ensureGtag();
 
   const consent: ConsentState = {
-    analytics_storage: 'denied',
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied'
+    analytics_storage: 'granted',
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted'
   };
 
   localStorage.setItem(
@@ -237,6 +236,8 @@ export function rejectAnalyticsConsent(): void {
   );
 
   window.gtag?.('consent', 'update', consent);
+
+  trackPageView();
 }
 
 export function trackPageView(): void {
