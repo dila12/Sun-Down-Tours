@@ -123,8 +123,14 @@ export function initializeGoogleAnalytics(): void {
   );
 
   if (existingScript) {
+
+    configureGoogleTags();
+
     gaReady = true;
     gaLoading = false;
+
+    trackPageView();
+
     return;
   }
 
@@ -137,13 +143,7 @@ export function initializeGoogleAnalytics(): void {
 
   script.onload = () => {
 
-    window.gtag?.('js', new Date());
-
-    window.gtag?.('config', GA_MEASUREMENT_ID, {
-      send_page_view: false
-    });
-
-    window.gtag?.('config', GOOGLE_ADS_ID);
+    configureGoogleTags();
 
     gaReady = true;
     gaLoading = false;
@@ -151,8 +151,7 @@ export function initializeGoogleAnalytics(): void {
     console.log('GA4 + Google Ads initialized');
 
     trackPageView();
-
-  };
+  }
 
   script.onerror = () => {
     gaLoading = false;
@@ -161,6 +160,14 @@ export function initializeGoogleAnalytics(): void {
 
   document.head.appendChild(script);
 
+}
+
+function configureGoogleTags(): void {
+  window.gtag?.('js', new Date());
+  window.gtag?.('config', GA_MEASUREMENT_ID, {
+    send_page_view: false
+  });
+  window.gtag?.('config', GOOGLE_ADS_ID);
 }
 
 export function trackBookingConversion(
@@ -191,11 +198,6 @@ export function trackBookingConversion(
 
   sessionStorage.setItem(conversionKey, 'true');
 
-  console.log('Google Ads booking conversion tracked:', {
-    orderNumber,
-    value,
-    currency
-  });
 }
 
 
@@ -282,16 +284,9 @@ export function trackPageView(): void {
   }
 
   window.gtag?.('event', 'page_view', {
-
-    send_to: [
-      GA_MEASUREMENT_ID,
-      GOOGLE_ADS_ID
-    ],
-
     page_title: document.title,
     page_location: window.location.href,
     page_path: window.location.pathname + window.location.search
-
   });
 
 }
