@@ -75,12 +75,18 @@ export function initializeGoogleConsent(): void {
     return;
   }
   ensureGtag();
-
   window.gtag?.('consent', 'default', {
-    analytics_storage: 'denied',
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied'
+    analytics_storage: 'granted',
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted'
+  });
+
+  window.gtag?.('consent', 'update', {
+    analytics_storage: 'granted',
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted'
   });
 
   window.gtag?.('set', 'ads_data_redaction', true);
@@ -102,21 +108,49 @@ export function initializeGoogleAnalytics(): void {
   );
 
   if (existingScript) {
+    configureGoogleTags();
     gaReady = true;
     gaLoading = false;
-    trackPageView();
+    requestAnimationFrame(() => {
+      trackPageView();
+    });
     return;
   }
+
   const script = document.createElement('script');
   script.async = true;
   script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
   script.onload = () => {
-    configureGoogleTags();
+    window.gtag?.('js', new Date());
+    const consent = getStoredConsent();
+    if (consent) {
+      window.gtag?.('consent', 'default', consent);
+    } else {
+      window.gtag?.('consent', 'default', {
+        analytics_storage: 'granted',
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted'
+      });
+
+      window.gtag?.('consent', 'update', {
+        analytics_storage: 'granted',
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted'
+      });
+    }
+
+    window.gtag?.('config', GA_MEASUREMENT_ID, {
+      send_page_view: false
+    });
+
+    window.gtag?.('config', GOOGLE_ADS_ID);
+
     gaReady = true;
     gaLoading = false;
     trackPageView();
-  }
-
+  };
   script.onerror = () => {
     gaLoading = false;
   };
@@ -129,7 +163,6 @@ function configureGoogleTags(): void {
     send_page_view: false
   });
   window.gtag?.('config', GOOGLE_ADS_ID);
-
 }
 
 export function trackBookingConversion(
@@ -180,14 +213,9 @@ export function acceptAnalyticsConsent(): void {
   );
 
   window.gtag?.('consent', 'update', consent);
-  configureGoogleTags();
+
   trackPageView();
 }
-
-
-/* =========================================================
-   5. REJECT ANALYTICS
-========================================================= */
 
 export function rejectAnalyticsConsent(): void {
   if (!isBrowser()) {
@@ -214,21 +242,26 @@ export function rejectAnalyticsConsent(): void {
 export function trackPageView(): void {
 
   if (!isBrowser() || !gaReady) {
+    console.warn('GA not ready');
     return;
   }
 
-  window.gtag?.('event', 'page_view', {
-    send_to: [
-      GA_MEASUREMENT_ID,
-      GOOGLE_ADS_ID
-    ],
+  const pageData = {
     page_title: document.title,
     page_location: window.location.href,
     page_path: window.location.pathname + window.location.search
+  };
+
+  window.gtag?.('event', 'page_view', {
+    send_to: GA_MEASUREMENT_ID,
+    ...pageData
   });
 
+  window.gtag?.('event', 'page_view', {
+    send_to: GOOGLE_ADS_ID,
+    ...pageData
+  });
 }
-
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
