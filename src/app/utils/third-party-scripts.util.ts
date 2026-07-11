@@ -149,8 +149,6 @@ export function initializeGoogleAnalytics(): void {
     gaLoading = false;
 
     console.log('GA4 + Google Ads initialized');
-
-    trackPageView();
   }
 
   script.onerror = () => {
@@ -176,10 +174,7 @@ function configureGoogleTags(): void {
 
   console.log('Google Ads Config:', GOOGLE_ADS_ID);
 
-  window.gtag?.('config', GOOGLE_ADS_ID, {
-    allow_enhanced_conversions: true,
-    first_party_collection: true
-  });
+  window.gtag?.('config', GOOGLE_ADS_ID);
 
 }
 
