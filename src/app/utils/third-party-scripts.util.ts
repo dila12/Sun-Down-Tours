@@ -163,10 +163,19 @@ export function initializeGoogleAnalytics(): void {
 }
 
 function configureGoogleTags(): void {
+
+  console.log('Configuring Google tags...');
+
   window.gtag?.('js', new Date());
+
+  console.log('GA4 Config:', GA_MEASUREMENT_ID);
+
   window.gtag?.('config', GA_MEASUREMENT_ID, {
     send_page_view: false
   });
+
+  console.log('Google Ads Config:', GOOGLE_ADS_ID);
+
   window.gtag?.('config', GOOGLE_ADS_ID, {
     allow_enhanced_conversions: true,
     first_party_collection: true
@@ -288,6 +297,8 @@ export function trackPageView(): void {
     return;
   }
 
+  console.log('Sending page_view');
+
   window.gtag?.('event', 'page_view', {
     page_title: document.title,
     page_location: window.location.href,
@@ -295,7 +306,6 @@ export function trackPageView(): void {
   });
 
 }
-
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
