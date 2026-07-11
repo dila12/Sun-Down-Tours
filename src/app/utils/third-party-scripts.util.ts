@@ -24,7 +24,7 @@ declare global {
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' &&
-         typeof document !== 'undefined';
+    typeof document !== 'undefined';
 }
 
 function ensureGtag(): void {
@@ -57,13 +57,13 @@ function getStoredConsent(): ConsentState | null {
 
     const valid =
       (parsed.analytics_storage === 'granted' ||
-       parsed.analytics_storage === 'denied') &&
+        parsed.analytics_storage === 'denied') &&
       (parsed.ad_storage === 'granted' ||
-       parsed.ad_storage === 'denied') &&
+        parsed.ad_storage === 'denied') &&
       (parsed.ad_user_data === 'granted' ||
-       parsed.ad_user_data === 'denied') &&
+        parsed.ad_user_data === 'denied') &&
       (parsed.ad_personalization === 'granted' ||
-       parsed.ad_personalization === 'denied');
+        parsed.ad_personalization === 'denied');
 
     return valid ? parsed as ConsentState : null;
   } catch {
@@ -109,6 +109,7 @@ export function initializeGoogleConsent(): void {
 ========================================================= */
 
 export function initializeGoogleAnalytics(): void {
+
   if (!isBrowser() || gaLoading || gaReady) {
     return;
   }
@@ -116,15 +117,6 @@ export function initializeGoogleAnalytics(): void {
   gaLoading = true;
 
   ensureGtag();
-
-  // Consent default/update is already queued before these
-  window.gtag?.('js', new Date());
-
-  window.gtag?.('config', GA_MEASUREMENT_ID, {
-    send_page_view: false
-  });
-
-  window.gtag?.('config', GOOGLE_ADS_ID);
 
   const existingScript = document.querySelector(
     `script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`
@@ -139,26 +131,36 @@ export function initializeGoogleAnalytics(): void {
   const script = document.createElement('script');
 
   script.async = true;
+
   script.src =
     `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
 
   script.onload = () => {
+
+    window.gtag?.('js', new Date());
+
+    window.gtag?.('config', GA_MEASUREMENT_ID, {
+      send_page_view: false
+    });
+
+    window.gtag?.('config', GOOGLE_ADS_ID);
+
     gaReady = true;
     gaLoading = false;
 
-    console.log('GA4 Consent Mode v2 active');
+    console.log('GA4 + Google Ads initialized');
 
-    // One initial page view only
     trackPageView();
+
   };
 
   script.onerror = () => {
     gaLoading = false;
-
-    console.error('GA4 failed to load');
+    console.error('Failed to load Google Analytics');
   };
 
   document.head.appendChild(script);
+
 }
 
 export function trackBookingConversion(
@@ -219,9 +221,9 @@ export function acceptAnalyticsConsent(): void {
 
   const consent: ConsentState = {
     analytics_storage: 'granted',
-    ad_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied'
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted'
   };
 
   localStorage.setItem(
@@ -274,18 +276,24 @@ export function rejectAnalyticsConsent(): void {
 ========================================================= */
 
 export function trackPageView(): void {
+
   if (!isBrowser() || !gaReady) {
     return;
   }
 
   window.gtag?.('event', 'page_view', {
-    send_to: GA_MEASUREMENT_ID,
+
+    send_to: [
+      GA_MEASUREMENT_ID,
+      GOOGLE_ADS_ID
+    ],
+
     page_title: document.title,
     page_location: window.location.href,
-    page_path:
-      window.location.pathname +
-      window.location.search
+    page_path: window.location.pathname + window.location.search
+
   });
+
 }
 
 export function loadGoogleTranslate(onReady?: () => void): void {
