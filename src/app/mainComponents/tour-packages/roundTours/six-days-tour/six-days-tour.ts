@@ -382,7 +382,7 @@ images: string[] = [
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/6-day-sri-lanka-private-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/6-day-sri-lanka-private-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

@@ -82,7 +82,7 @@ export class AppComponent implements OnInit {
         if (isPlatformBrowser(this.platformId)) {
 
           const canonicalUrl =
-            `${window.location.origin}${this.router.url}`;
+            `https://www.sundowntours.com${this.router.url}`;
 
           let canonical = document.querySelector(
             "link[rel='canonical']"

@@ -218,7 +218,7 @@ export class EllaYalaTwoDayTour {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/2-day-ella-yala-private-tour-sri-lanka');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

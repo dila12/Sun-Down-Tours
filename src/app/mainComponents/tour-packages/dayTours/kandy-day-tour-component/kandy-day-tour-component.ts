@@ -191,7 +191,7 @@ export class KandyDayTourComponent implements OnInit, OnDestroy {
   }
   
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/kandy-day-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/kandy-day-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
 
     if (!isBrowser) {

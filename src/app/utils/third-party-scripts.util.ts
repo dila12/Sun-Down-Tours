@@ -242,8 +242,7 @@ export function rejectAnalyticsConsent(): void {
 
 export function trackPageView(): void {
 
-  if (!isBrowser() || !gaReady) {
-    console.warn('GA not ready');
+  if (!isBrowser()) {
     return;
   }
 
@@ -253,12 +252,13 @@ export function trackPageView(): void {
     page_path: window.location.pathname + window.location.search
   };
 
-  window.gtag?.('event', 'page_view', {
-    send_to: GA_MEASUREMENT_ID,
-    ...pageData
+  window.gtag?.('config', GA_MEASUREMENT_ID, {
+    page_title: pageData.page_title,
+    page_location: pageData.page_location,
+    page_path: pageData.page_path
   });
 
-  window.gtag?.('config', GOOGLE_ADS_ID);
+  //window.gtag?.('config', GOOGLE_ADS_ID);
 }
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;

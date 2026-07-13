@@ -267,7 +267,7 @@ tour = {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/4-day-sri-lanka-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/4-day-sri-lanka-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

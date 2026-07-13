@@ -170,7 +170,7 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/galle-day-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/galle-day-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
     if (!isBrowser) {
       this.userCountry = 'US';

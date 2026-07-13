@@ -170,7 +170,7 @@ export class EllaDayTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/ella-day-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/ella-day-tour');
     const isBrowser = isPlatformBrowser(this.platformId);
 
     if (!isBrowser) {

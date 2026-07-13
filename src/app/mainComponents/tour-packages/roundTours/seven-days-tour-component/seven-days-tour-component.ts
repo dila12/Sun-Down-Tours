@@ -464,7 +464,7 @@ export class SevenDaysTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/7-day-sri-lanka-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/7-day-sri-lanka-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.tour.filecode);

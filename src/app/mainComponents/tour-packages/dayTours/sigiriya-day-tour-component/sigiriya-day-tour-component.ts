@@ -174,7 +174,7 @@ export class SigiriyaDayTourComponent implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://sundowntours.com/sigiriya-day-tour');
+    this.seo.updateCanonicalUrl('https://www.sundowntours.com/sigiriya-day-tour');
       const isBrowser = isPlatformBrowser(this.platformId);
       if (!isBrowser) {
         this.userCountry = 'US';
