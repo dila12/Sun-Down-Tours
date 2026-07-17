@@ -27,6 +27,7 @@ import {
   rejectAnalyticsConsent,
   trackPageView
 } from './utils/third-party-scripts.util';
+import { LanguageService } from './Services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -43,7 +44,9 @@ export class AppComponent implements OnInit {
     private route: ActivatedRoute,
     private titleService: Title,
     private metaService: Meta,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
+    // Eagerly construct so language routing + Google Translate sync from the first navigation
+    _language: LanguageService,
   ) {
 
     this.router.events

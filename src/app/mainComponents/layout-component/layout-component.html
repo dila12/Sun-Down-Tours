@@ -112,7 +112,7 @@
 <div class="position-relative nav-bar p-0">
     <div class="position-relative p-0 px-lg-3" style="z-index: 100;">
         <nav class="navbar navbar-expand-lg navbar-color navbar-light shadow-lg  py-lg-0 ">
-            <a routerLink="/" class="navbar-brand">
+            <a [routerLink]="langLink('/')" class="navbar-brand">
                 <span class="m-0 nav-link brand-title h1"><span class="text-white">
                         <img [src]="logoSrc" [srcset]="logoSrcSet" [sizes]="logoSizes" width="80" height="80" loading="eager"
                             decoding="async" fetchpriority="high" alt="Sundown Tours"
@@ -127,11 +127,11 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse"
                 [class.show]="navOpen">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="/" class="nav-item nav-link active nav-link" (click)="closeNav()">Home</a>
-                    <a href="/sri-lanka-private-tour" class="nav-item nav-link nav-link" (click)="closeNav()">Tour Packages</a>
-                    <a href="/our-services" class="nav-item nav-link nav-link" (click)="closeNav()">Services</a>
-                    <a href="/about-us" class="nav-item nav-link nav-link" (click)="closeNav()">About</a>
-                    <a href="/contact-us" class="nav-item nav-link nav-link" (click)="closeNav()">Contact</a>
+                    <a [routerLink]="langLink('/')" class="nav-item nav-link active nav-link" (click)="closeNav()">Home</a>
+                    <a [routerLink]="langLink('/sri-lanka-private-tour')" class="nav-item nav-link nav-link" (click)="closeNav()">Tour Packages</a>
+                    <a [routerLink]="langLink('/our-services')" class="nav-item nav-link nav-link" (click)="closeNav()">Services</a>
+                    <a [routerLink]="langLink('/about-us')" class="nav-item nav-link nav-link" (click)="closeNav()">About</a>
+                    <a [routerLink]="langLink('/contact-us')" class="nav-item nav-link nav-link" (click)="closeNav()">Contact</a>
                 </div>
             </div>
         </nav>
@@ -197,12 +197,12 @@
         <div class="col-lg-3 col-md-6 mb-5">
             <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h3>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white mb-2" routerLink="/about-us"><i class="fa fa-angle-right mr-2"></i>About</a>
-                <a class="text-white mb-2" routerLink="/destinations-sri-lanka"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/about-us')"><i class="fa fa-angle-right mr-2"></i>About</a>
+                <a class="text-white mb-2" [routerLink]="langLink('/destinations-sri-lanka')"><i
                         class="fa fa-angle-right mr-2"></i>Destination</a>
-                <a class="text-white mb-2" routerLink="/our-services"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/our-services')"><i
                         class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/sri-lanka-private-tour')"><i
                         class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a> -->
             </div>
@@ -210,13 +210,13 @@
         <div class="col-lg-3 col-md-6 mb-5">
             <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Menu</h3>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/sri-lanka-private-tour')"><i
                         class="fa fa-angle-right mr-2"></i>Sri Lankan Day Tours</a>
-                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/sri-lanka-private-tour')"><i
                         class="fa fa-angle-right mr-2"></i>Multi Days Tours </a>
-                <a class="text-white mb-2" routerLink="/our-services"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/our-services')"><i
                         class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white mb-2" routerLink="/sri-lanka-private-tour"><i
+                <a class="text-white mb-2" [routerLink]="langLink('/sri-lanka-private-tour')"><i
                         class="fa fa-angle-right mr-2"></i>Packages</a>
                 <!-- <a class="text-white mb-2" routerLink="/sri-lanka-travel-guides"><i class="fa fa-angle-right mr-2"></i>Guides</a>
                 <a class="text-white mb-2" routerLink="/customer-testimonials"><i class="fa fa-angle-right mr-2"></i>Testimonial</a> -->
@@ -234,7 +234,7 @@
                     <input id="newsletter-email" type="email" class="form-control border-light" style="padding: 25px;"
                         placeholder="Your Email" autocomplete="email">
                     <div class="input-group-append">
-                        <button type="button" routerLink="/contact-us" class="btn btn-primary px-3"
+                        <button type="button" [routerLink]="langLink('/contact-us')" class="btn btn-primary px-3"
                             aria-label="Sign up for newsletter">Sign Up</button>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
     style="border-color: rgba(256, 256, 256, .1) !important;">
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <p class="m-0 text-white">Copyright &copy; <a routerLink="/" class="text-white">Sundown Tours</a>. All
+            <p class="m-0 text-white">Copyright &copy; <a [routerLink]="langLink('/')" class="text-white">Sundown Tours</a>. All
                 Rights Reserved.
             </p>
         </div>

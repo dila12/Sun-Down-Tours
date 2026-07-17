@@ -260,13 +260,51 @@ export function trackPageView(): void {
 
   //window.gtag?.('config', GOOGLE_ADS_ID);
 }
+let googleTranslateElementCreated = false;
+const googleTranslateReadyCallbacks: Array<() => void> = [];
+
+function flushGoogleTranslateReady(): void {
+  const cbs = googleTranslateReadyCallbacks.splice(0);
+  cbs.forEach((cb) => cb());
+}
+
+function ensureGoogleTranslateElement(): void {
+  const google = (window as Window & {
+    google?: { translate: { TranslateElement: new (opts: object, id: string) => void } };
+  }).google;
+  if (!google?.translate) return;
+
+  const host = document.getElementById('google_translate_element');
+  if (googleTranslateElementCreated || (host && host.childElementCount > 0)) {
+    googleTranslateElementCreated = true;
+    return;
+  }
+
+  new google.translate.TranslateElement(
+    {
+      pageLanguage: 'en',
+      includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
+      autoDisplay: false,
+    },
+    'google_translate_element',
+  );
+  googleTranslateElementCreated = true;
+}
+
 export function loadGoogleTranslate(onReady?: () => void): void {
   if (typeof document === 'undefined') return;
 
-  const w = window as Window & { google?: { translate: { TranslateElement: new (opts: object, id: string) => void } } };
+  if (onReady) {
+    googleTranslateReadyCallbacks.push(onReady);
+  }
+
+  const w = window as Window & {
+    google?: { translate: { TranslateElement: new (opts: object, id: string) => void } };
+  };
 
   if (w.google?.translate) {
-    onReady?.();
+    ensureGoogleTranslateElement();
+    flushGoogleTranslateReady();
     return;
   }
 
@@ -274,7 +312,8 @@ export function loadGoogleTranslate(onReady?: () => void): void {
     const poll = setInterval(() => {
       if (w.google?.translate) {
         clearInterval(poll);
-        onReady?.();
+        ensureGoogleTranslateElement();
+        flushGoogleTranslateReady();
       }
     }, 200);
     setTimeout(() => clearInterval(poll), 10000);
@@ -282,18 +321,8 @@ export function loadGoogleTranslate(onReady?: () => void): void {
   }
 
   (window as Window & { googleTranslateElementInit?: () => void }).googleTranslateElementInit = () => {
-    const google = (window as Window & { google?: { translate: { TranslateElement: new (opts: object, id: string) => void } } }).google;
-    if (!google?.translate) return;
-    new google.translate.TranslateElement(
-      {
-        pageLanguage: 'en',
-        includedLanguages: 'en,de,it,fr,es,zh-CN,ru,pl',
-        autoDisplay: false,
-      },
-      'google_translate_element',
-    );
-
-    onReady?.();
+    ensureGoogleTranslateElement();
+    flushGoogleTranslateReady();
   };
 
   const s = document.createElement('script');

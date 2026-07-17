@@ -1,10 +1,19 @@
-import { Component, Inject, OnInit, PLATFORM_ID, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import {
+  Component,
+  Inject,
+  OnInit,
+  OnDestroy,
+  PLATFORM_ID,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+} from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { Subscription } from 'rxjs';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
 import { onImageError } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
-import { applyGoogleTranslateLang, getSavedLang, requestGoogleTranslateScript } from '../../utils/google-translate.util';
+import { LanguageService } from '../../Services/language.service';
 
 @Component({
   selector: 'app-layout-component',
@@ -14,7 +23,7 @@ import { applyGoogleTranslateLang, getSavedLang, requestGoogleTranslateScript } 
   styleUrl: './layout-component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LayoutComponent implements OnInit {
+export class LayoutComponent implements OnInit, OnDestroy {
   activeLang = 'en';
   navOpen = false;
   readonly onImageError = onImageError;
@@ -22,43 +31,57 @@ export class LayoutComponent implements OnInit {
   readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w-opt.webp 160w';
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
 
+  private paramSub?: Subscription;
+  private readonly onCaptureClick = (event: MouseEvent) => {
+    this.language.handleInternalLinkClick(event);
+  };
+
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(PLATFORM_ID) private platformId: object,
     private cdr: ChangeDetectorRef,
+    private route: ActivatedRoute,
+    private language: LanguageService,
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.paramSub = this.route.paramMap.subscribe((params) => {
+      const lang = params.get('lang') || 'en';
+      this.activeLang = lang;
+      this.language.setLangFromRoute(lang === 'en' ? null : lang);
+      this.cdr.markForCheck();
+    });
+
+    // Capture phase so we rewrite links before RouterLink navigates without a prefix
     if (isPlatformBrowser(this.platformId)) {
-      this.activeLang = getSavedLang();
-      // Keep initial mobile render light: load translate only when needed.
-      if (this.activeLang !== 'en') {
-        requestGoogleTranslateScript();
-      }
+      document.addEventListener('click', this.onCaptureClick, true);
     }
   }
 
-  toggleNav() {
+  ngOnDestroy(): void {
+    this.paramSub?.unsubscribe();
+    if (isPlatformBrowser(this.platformId)) {
+      document.removeEventListener('click', this.onCaptureClick, true);
+    }
+  }
+
+  /** Language-prefixed router link for nav/footer. */
+  langLink(path: string): string {
+    return this.language.buildUrl(path);
+  }
+
+  toggleNav(): void {
     this.navOpen = !this.navOpen;
     this.cdr.markForCheck();
   }
 
-  closeNav() {
+  closeNav(): void {
     this.navOpen = false;
     this.cdr.markForCheck();
   }
 
-  changeLang(lang: string) {
-    if (this.activeLang === lang) {
-      return;
-    }
-
+  changeLang(lang: string): void {
     this.activeLang = lang;
-    localStorage.setItem('preferred_lang', lang);
-
-    if (lang !== 'en') {
-      requestGoogleTranslateScript();
-    }
-
-    applyGoogleTranslateLang(lang);
+    this.language.switchLanguage(lang);
+    this.cdr.markForCheck();
   }
 }
