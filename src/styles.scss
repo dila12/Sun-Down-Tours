@@ -2,12 +2,6 @@
 @import './styles/fontawesome-critical';
 @import './styles/style';
 
-.goog-te-banner-frame,
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-  visibility: hidden !important;
-}
-
 html, body {
   top: 0 !important;
   max-width: 100%;
@@ -24,31 +18,4 @@ button,
 .btn,
 [role="button"] {
   touch-action: manipulation;
-}
-
-.goog-tooltip,
-.goog-tooltip:hover {
-  display: none !important;
-}
-
-.goog-text-highlight {
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.goog-logo-link {
-  display: none !important;
-}
-
-.goog-te-gadget {
-  font-size: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  position: absolute !important;
-  width: 1px !important;
-  clip: rect(0, 0, 0, 0) !important;
-}
-
-body > .skiptranslate {
-  display: none !important;
 }

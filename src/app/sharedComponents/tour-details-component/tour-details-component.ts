@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { TourBookingCardComponent } from '../tour-booking-card/tour-booking-card';
+import { TranslatePipe } from '../../i18n/t.pipe';
 
 export interface Activity {
   type: string;
@@ -47,7 +48,7 @@ export interface TourDetails {
 @Component({
   selector: 'app-tour-details-component',
   standalone: true,
-  imports: [CommonModule, TourBookingCardComponent],
+  imports: [CommonModule, TourBookingCardComponent, TranslatePipe],
   templateUrl: './tour-details-component.html',
   styleUrl: './tour-details-component.css',
 })

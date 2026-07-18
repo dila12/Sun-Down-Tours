@@ -16,13 +16,15 @@ import { ToastrService } from 'ngx-toastr';
 import { environment } from '../../../../environment';
 import countriesData from '../../../assets/data/countries.json';
 import countryCode from '../../../assets/data/countryCode.json';
+import { TranslatePipe } from '../../i18n/t.pipe';
+import { LocaleService } from '../../i18n/locale.service';
 
 declare let gtag: Function;
 
 @Component({
   selector: 'app-tour-booking-card',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, TranslatePipe],
   templateUrl: './tour-booking-card.html',
   styleUrls: ['./tour-booking-card.css', '../../../styles/ngx-toastr.lazy.scss'],
 })
@@ -61,6 +63,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     private http: HttpClient,
     private router: Router,
     private toastr: ToastrService,
+    private i18n: LocaleService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {
     this.isBrowser = isPlatformBrowser(this.platformId);
@@ -206,7 +209,10 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     };
 
     this.isSubmitting = true;
-    this.toastr.info('Processing your booking...', 'Please wait');
+    this.toastr.info(
+      this.i18n.t('common.booking.toastProcessing'),
+      this.i18n.t('common.booking.toastPleaseWait'),
+    );
 
     this.http
       .post(`${environment.backendUrl}/send-booking-email`, bookingDetails)
@@ -222,8 +228,8 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
           }
 
           this.toastr.success(
-            'Your booking has been completed successfully!',
-            'Booking Confirmed',
+            this.i18n.t('common.booking.toastSuccess'),
+            this.i18n.t('common.booking.toastConfirmed'),
           );
 
           setTimeout(() => {
@@ -245,8 +251,8 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
           console.error('Email error:', err);
           this.isSubmitting = false;
           this.toastr.error(
-            'There was an error processing your booking. Please try again later.',
-            'Booking Failed',
+            this.i18n.t('common.booking.toastErrorMsg'),
+            this.i18n.t('common.booking.toastFailed'),
           );
         },
       });

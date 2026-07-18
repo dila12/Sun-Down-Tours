@@ -1,20 +1,30 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, Inject, Input, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, Input, PLATFORM_ID, inject } from '@angular/core';
 import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 import { environment } from '../../../../environment';
 import { ToastrService } from 'ngx-toastr';
 import countryCode from './../../../assets/data/countryCode.json';
+import { LocaleService } from '../../i18n/locale.service';
+import { TranslatePipe } from '../../i18n/t.pipe';
+import { FaqSectionComponent } from '../faq-section/faq-section';
 
 @Component({
   selector: 'app-contact-us-component',
   standalone: true,
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule, TranslatePipe, FaqSectionComponent],
   templateUrl: './contact-us-component.html',
   styleUrls: ['./contact-us-component.css', '../../../styles/ngx-toastr.lazy.scss'],
 })
 export class ContactUsComponent {
   @Input() homecontact: boolean = false;
+  readonly i18n = inject(LocaleService);
+
+  path(pageId: string): string {
+    return this.i18n.path(pageId);
+  }
+
   contactForm: any;
   successMessage = '';
   countriesList = countryCode;

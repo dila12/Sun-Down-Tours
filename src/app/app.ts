@@ -3,21 +3,21 @@ import {
   Inject,
   PLATFORM_ID,
   ChangeDetectionStrategy,
-  OnInit
+  OnInit,
+  inject,
 } from '@angular/core';
 
-import {
-  RouterModule,
-  Router,
-  NavigationEnd,
-  ActivatedRoute
-} from '@angular/router';
+import { RouterModule, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 
-import { Title, Meta } from '@angular/platform-browser';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
 
 import { scheduleDeferredAssets } from './utils/deferred-assets.util';
+import { SeoService } from '../seo.service';
+import { LocaleService } from './i18n/locale.service';
+import { StructuredDataService } from './i18n/structured-data.service';
+import { TranslatePipe } from './i18n/t.pipe';
+import { localeFromUrl, type Locale } from './i18n/locales';
 
 import {
   acceptAnalyticsConsent,
@@ -25,7 +25,7 @@ import {
   initializeGoogleAnalytics,
   initializeGoogleConsent,
   rejectAnalyticsConsent,
-  trackPageView
+  trackPageView,
 } from './utils/third-party-scripts.util';
 
 @Component({
@@ -33,73 +33,49 @@ import {
   standalone: true,
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
-  imports: [RouterModule],
+  imports: [RouterModule, TranslatePipe],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent implements OnInit {
   showConsentBanner = false;
+
+  private readonly seo = inject(SeoService);
+  private readonly i18n = inject(LocaleService);
+  private readonly structuredData = inject(StructuredDataService);
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private titleService: Title,
-    private metaService: Meta,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
   ) {
-
     this.router.events
       .pipe(
-        filter(event => event instanceof NavigationEnd),
+        filter((event) => event instanceof NavigationEnd),
         map(() => this.route),
-        map(route => {
+        map((route) => {
           while (route.firstChild) {
             route = route.firstChild;
           }
-
           return route;
         }),
-        mergeMap(route => route.data)
+        mergeMap((route) => route.data),
       )
-      .subscribe(data => {
+      .subscribe((data) => {
+        const pageId = (data['pageId'] as string) ?? 'home';
+        const locale = (data['locale'] as Locale) ?? localeFromUrl(this.router.url);
 
-        if (data['title']) {
-          this.titleService.setTitle(data['title']);
-        }
-
-        if (data['description']) {
-          this.metaService.updateTag({
-            name: 'description',
-            content: data['description']
-          });
-        }
-
-        if (data['keywords']) {
-          this.metaService.updateTag({
-            name: 'keywords',
-            content: data['keywords']
-          });
-        }
+        this.i18n.setPageId(pageId);
+        this.seo.update(pageId, locale);
+        this.structuredData.update(pageId, locale);
 
         if (isPlatformBrowser(this.platformId)) {
-
-          const canonicalUrl =
-            `https://www.sundowntours.com${this.router.url}`;
-
-          let canonical = document.querySelector(
-            "link[rel='canonical']"
-          ) as HTMLLinkElement;
-
-          if (!canonical) {
-            canonical = document.createElement('link');
-            canonical.setAttribute('rel', 'canonical');
-            document.head.appendChild(canonical);
-          }
-
-          canonical.setAttribute('href', canonicalUrl);
-
-          // Sends SPA page views only after GA has loaded
           trackPageView();
         }
       });
+  }
+
+  get privacyPath(): string {
+    return this.i18n.path('privacy');
   }
 
   ngOnInit(): void {
@@ -108,11 +84,8 @@ export class AppComponent implements OnInit {
     }
 
     initializeGoogleConsent();
-
     this.showConsentBanner = !hasConsentChoice();
-
     initializeGoogleAnalytics();
-
     scheduleDeferredAssets();
   }
 

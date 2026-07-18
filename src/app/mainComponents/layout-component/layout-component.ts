@@ -1,64 +1,61 @@
-import { Component, Inject, OnInit, PLATFORM_ID, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Router, RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
 import { onImageError } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
-import { applyGoogleTranslateLang, getSavedLang, requestGoogleTranslateScript } from '../../utils/google-translate.util';
+import { LocaleService } from '../../i18n/locale.service';
+import { TranslatePipe } from '../../i18n/t.pipe';
+import { LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
 
 @Component({
   selector: 'app-layout-component',
   standalone: true,
-  imports: [CommonModule, ScrollToToComponent, RouterModule, SocialIconComponent],
+  imports: [CommonModule, ScrollToToComponent, RouterModule, SocialIconComponent, TranslatePipe],
   templateUrl: './layout-component.html',
   styleUrl: './layout-component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LayoutComponent implements OnInit {
-  activeLang = 'en';
+export class LayoutComponent {
+  readonly i18n = inject(LocaleService);
+  private readonly router = inject(Router);
+  private readonly cdr = inject(ChangeDetectorRef);
+
+  readonly locales = LOCALES;
+  readonly localeMeta = LOCALE_META;
+
   navOpen = false;
   readonly onImageError = onImageError;
   readonly logoSrc = 'assets/img/logos/2-80w.webp';
   readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w-opt.webp 160w';
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
 
-  constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
-    private cdr: ChangeDetectorRef,
-  ) {}
-
-  ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      this.activeLang = getSavedLang();
-      // Keep initial mobile render light: load translate only when needed.
-      if (this.activeLang !== 'en') {
-        requestGoogleTranslateScript();
-      }
-    }
+  /** Localized root-relative path for a page in the current locale. */
+  path(pageId: string): string {
+    return this.i18n.path(pageId);
   }
 
-  toggleNav() {
+  toggleNav(): void {
     this.navOpen = !this.navOpen;
     this.cdr.markForCheck();
   }
 
-  closeNav() {
+  closeNav(): void {
     this.navOpen = false;
     this.cdr.markForCheck();
   }
 
-  changeLang(lang: string) {
-    if (this.activeLang === lang) {
+  /**
+   * Switches language while preserving the current page: resolves the current
+   * page id into the localized slug of the target locale and navigates there.
+   */
+  changeLang(locale: Locale): void {
+    if (locale === this.i18n.locale()) {
+      this.closeNav();
       return;
     }
-
-    this.activeLang = lang;
-    localStorage.setItem('preferred_lang', lang);
-
-    if (lang !== 'en') {
-      requestGoogleTranslateScript();
-    }
-
-    applyGoogleTranslateLang(lang);
+    const target = this.i18n.path(this.i18n.pageId(), locale);
+    this.router.navigateByUrl(target);
+    this.closeNav();
   }
 }

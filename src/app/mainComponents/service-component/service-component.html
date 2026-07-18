@@ -3,11 +3,11 @@
     <div class="container-fluid page-header">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-4 text-white text-uppercase">Services</h3>
+                <p class="display-4 text-white text-uppercase mb-2" role="heading" aria-level="2">{{ 'services.header' | t }}</p>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Services</p>
+                    <p class="m-0 text-uppercase">{{ 'services.breadcrumb' | t }}</p>
                 </div>
             </div>
         </div>
@@ -20,10 +20,10 @@
     <div class="container pt-5 pb-3">
 
         <div class="text-center mb-5">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h6>
-            <h1>Travel & Hospitality Services by Sun Down Tours</h1>
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'services.eyebrow' | t }}</h6>
+            <h1>{{ 'services.title' | t }}</h1>
             <p class="text-muted">
-                We provide comfortable travel experiences, guided tours and authentic Sri Lankan hospitality.
+                {{ 'services.lead' | t }}
             </p>
         </div>
 
@@ -33,11 +33,8 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
                     <i class="fa fa-2x fa-route text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Private Sri Lanka Tours</h5>
-                    <p class="m-0">
-                        Explore Sri Lanka with customized private tours including cultural sites,
-                        beaches, wildlife safaris and scenic hill country.
-                    </p>
+                    <h2 class="h5 mb-3">{{ 'services.items.s1Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s1Desc' | t }}</p>
                 </div>
             </div>
 
@@ -45,11 +42,8 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
                     <i class="fa fa-2x fa-car text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Chauffeur Guide Service</h5>
-                    <p class="m-0">
-                        Travel safely with experienced local chauffeur guides and modern
-                        air-conditioned vehicles for a comfortable journey across Sri Lanka.
-                    </p>
+                    <h2 class="h5 mb-3">{{ 'services.items.s2Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s2Desc' | t }}</p>
                 </div>
             </div>
 
@@ -57,23 +51,8 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
                     <i class="fa fa-2x fa-suitcase text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Tailor-Made Tour Packages</h5>
-                    <p class="m-0">
-                        Choose from day tours, multi-day round tours and customized travel
-                        itineraries designed for your budget and interests.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Airport Transfer -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
-                    <i class="fa fa-2x fa-plane text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Airport Transfers</h5>
-                    <p class="m-0">
-                        Reliable airport pickup and drop-off services from Bandaranaike
-                        International Airport to any destination in Sri Lanka.
-                    </p>
+                    <h2 class="h5 mb-3">{{ 'services.items.s3Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s3Desc' | t }}</p>
                 </div>
             </div>
 
@@ -81,23 +60,26 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
                     <i class="fa fa-2x fa-paw text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Wildlife Safari Tours</h5>
-                    <p class="m-0">
-                        Experience unforgettable safari adventures in Yala and Udawalawe
-                        National Parks to see elephants, leopards and exotic wildlife.
-                    </p>
+                    <h2 class="h5 mb-3">{{ 'services.items.s4Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s4Desc' | t }}</p>
                 </div>
             </div>
 
-            <!-- Sundown Restaurant -->
+            <!-- Hotel & Accommodation -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
-                    <i class="fa fa-2x fa-utensils text-primary mx-auto mb-4"></i>
-                    <h5 class="mb-3">Sundown Restaurant</h5>
-                    <p class="m-0">
-                        Enjoy authentic Sri Lankan food, seafood and refreshing drinks
-                        at Sundown Restaurant – the perfect stop during your tour.
-                    </p>
+                    <i class="fa fa-2x fa-hotel text-primary mx-auto mb-4"></i>
+                    <h2 class="h5 mb-3">{{ 'services.items.s5Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s5Desc' | t }}</p>
+                </div>
+            </div>
+
+            <!-- Airport Transfers & Day Tours -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="service-item bg-white text-center py-5 px-4 shadow-sm">
+                    <i class="fa fa-2x fa-plane text-primary mx-auto mb-4"></i>
+                    <h2 class="h5 mb-3">{{ 'services.items.s6Title' | t }}</h2>
+                    <p class="m-0">{{ 'services.items.s6Desc' | t }}</p>
                 </div>
             </div>
 
@@ -106,3 +88,5 @@
     </div>
 </div>
     <!-- Service End -->
+
+<app-faq-section faqKey="services.faq" titleKey="services.faqTitle" />

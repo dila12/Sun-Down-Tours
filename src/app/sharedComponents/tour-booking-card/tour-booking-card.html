@@ -1,16 +1,16 @@
 <div class="booking-card">
   <div class="booking-card__top">
-    <h3 class="booking-card__title"><i class="fa fa-calendar-check"></i> Book This Tour</h3>
+    <h3 class="booking-card__title"><i class="fa fa-calendar-check"></i> {{ 'common.booking.title' | t }}</h3>
     <div class="booking-card__trust">
-      <span><i class="fa fa-check"></i> Free cancel</span>
-      <span><i class="fa fa-shield-alt"></i> Pay later</span>
+      <span><i class="fa fa-check"></i> {{ 'common.booking.freeCancel' | t }}</span>
+      <span><i class="fa fa-shield-alt"></i> {{ 'common.booking.payLater' | t }}</span>
     </div>
   </div>
 
   <form #bookingForm="ngForm" (ngSubmit)="completeBooking()" class="booking-card__form" novalidate>
     <div class="row g-2">
       <div class="col-6">
-        <label class="field-label" for="travelers-{{ filecode }}">Travelers <span class="req">*</span></label>
+        <label class="field-label" for="travelers-{{ filecode }}">{{ 'common.booking.travelers' | t }} <span class="req">*</span></label>
         <div class="field-wrap">
           <i class="fa fa-users field-icon"></i>
           <input
@@ -26,11 +26,11 @@
             #travelersCtrl="ngModel"
           />
         </div>
-        <small class="form-hint" *ngIf="!isGroupBooking">Online booking for up to {{ maxOnlineTravelers }} travelers</small>
-        <small class="field-error" *ngIf="travelersCtrl.invalid && travelersCtrl.touched">Required (1–20)</small>
+        <small class="form-hint" *ngIf="!isGroupBooking">{{ 'common.booking.onlineUpToPre' | t }} {{ maxOnlineTravelers }} {{ 'common.booking.onlineUpToPost' | t }}</small>
+        <small class="field-error" *ngIf="travelersCtrl.invalid && travelersCtrl.touched">{{ 'common.booking.travelersInvalid' | t }}</small>
       </div>
       <div class="col-6">
-        <label class="field-label" for="travelDate-{{ filecode }}">Date <span class="req">*</span></label>
+        <label class="field-label" for="travelDate-{{ filecode }}">{{ 'common.booking.date' | t }} <span class="req">*</span></label>
         <div class="field-wrap">
           <i class="fa fa-calendar field-icon"></i>
           <input
@@ -45,7 +45,7 @@
             #dateCtrl="ngModel"
           />
         </div>
-        <small class="field-error" *ngIf="dateCtrl.invalid && dateCtrl.touched">Date required</small>
+        <small class="field-error" *ngIf="dateCtrl.invalid && dateCtrl.touched">{{ 'common.booking.dateRequired' | t }}</small>
       </div>
     </div>
 
@@ -54,21 +54,20 @@
       <div class="group-contact-panel__icon">
         <i class="fa fa-users"></i>
       </div>
-      <h4 class="group-contact-panel__title">Group Booking ({{ travelers }} Travelers)</h4>
+      <h4 class="group-contact-panel__title">{{ 'common.booking.groupTitle' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</h4>
       <p class="group-contact-panel__text">
-        For groups of <strong>7 or more travelers</strong>, online pricing is not available.
-        Our team will prepare a <strong>custom itinerary</strong> and offer you the <strong>best group rate</strong>.
+        {{ 'common.booking.groupText' | t }}
       </p>
       <p class="group-contact-panel__hint">
         <i class="fa fa-lightbulb"></i>
-        Need instant booking? Select <strong>{{ maxOnlineTravelers }} travelers or fewer</strong> above.
+        {{ 'common.booking.groupHintPre' | t }} <strong>{{ maxOnlineTravelers }}</strong> {{ 'common.booking.groupHintPost' | t }}
       </p>
       <div class="group-contact-panel__actions">
         <a class="group-contact-panel__btn group-contact-panel__btn--email" href="mailto:sundowntoursrilanka@gmail.com?subject=Group Tour Inquiry - {{ tour?.title }}">
-          <i class="fa fa-envelope"></i> Email Our Team
+          <i class="fa fa-envelope"></i> {{ 'common.booking.emailTeam' | t }}
         </a>
         <a class="group-contact-panel__btn group-contact-panel__btn--whatsapp" href="https://wa.me/94706293585?text=Hi, I would like a group quote for {{ travelers }} travelers on {{ tour?.title }}" target="_blank" rel="noopener">
-          <i class="fab fa-whatsapp"></i> WhatsApp Us
+          <i class="fab fa-whatsapp"></i> {{ 'common.booking.whatsappUs' | t }}
         </a>
       </div>
       <p class="group-contact-panel__contact">
@@ -80,13 +79,13 @@
     <!-- Standard online booking: 1–6 travelers -->
     <ng-container *ngIf="!isGroupBooking">
       <div class="price-strip" *ngIf="canBookOnline">
-        <span>{{ travelers }} traveler{{ travelers > 1 ? 's' : '' }}</span>
+        <span>{{ travelers }} {{ 'common.booking.travelersWord' | t }}</span>
         <strong>${{ total.toFixed(2) }}</strong>
       </div>
 
       <div class="row g-2">
         <div class="col-6">
-          <label class="field-label" for="firstName-{{ filecode }}">First Name <span class="req">*</span></label>
+          <label class="field-label" for="firstName-{{ filecode }}">{{ 'common.booking.firstName' | t }} <span class="req">*</span></label>
           <div class="field-wrap">
             <i class="fa fa-user field-icon"></i>
             <input
@@ -100,10 +99,10 @@
               #firstCtrl="ngModel"
             />
           </div>
-          <small class="field-error" *ngIf="firstCtrl.invalid && firstCtrl.touched">Required</small>
+          <small class="field-error" *ngIf="firstCtrl.invalid && firstCtrl.touched">{{ 'common.booking.required' | t }}</small>
         </div>
         <div class="col-6">
-          <label class="field-label" for="lastName-{{ filecode }}">Last Name <span class="req">*</span></label>
+          <label class="field-label" for="lastName-{{ filecode }}">{{ 'common.booking.lastName' | t }} <span class="req">*</span></label>
           <div class="field-wrap">
             <i class="fa fa-user field-icon"></i>
             <input
@@ -117,12 +116,12 @@
               #lastCtrl="ngModel"
             />
           </div>
-          <small class="field-error" *ngIf="lastCtrl.invalid && lastCtrl.touched">Required</small>
+          <small class="field-error" *ngIf="lastCtrl.invalid && lastCtrl.touched">{{ 'common.booking.required' | t }}</small>
         </div>
       </div>
 
       <div class="field-group">
-        <label class="field-label" for="email-{{ filecode }}">Email <span class="req">*</span></label>
+        <label class="field-label" for="email-{{ filecode }}">{{ 'common.booking.email' | t }} <span class="req">*</span></label>
         <div class="field-wrap">
           <i class="fa fa-envelope field-icon"></i>
           <input
@@ -137,11 +136,11 @@
             #emailCtrl="ngModel"
           />
         </div>
-        <small class="field-error" *ngIf="emailCtrl.invalid && emailCtrl.touched">Valid email required</small>
+        <small class="field-error" *ngIf="emailCtrl.invalid && emailCtrl.touched">{{ 'common.booking.emailInvalid' | t }}</small>
       </div>
 
       <div class="field-group">
-        <label class="field-label">Phone <span class="req">*</span></label>
+        <label class="field-label">{{ 'common.booking.phone' | t }} <span class="req">*</span></label>
         <div class="phone-row">
           <div class="field-wrap field-wrap--code">
             <i class="fa fa-phone field-icon"></i>
@@ -163,11 +162,11 @@
             />
           </div>
         </div>
-        <small class="field-error" *ngIf="phoneCtrl.invalid && phoneCtrl.touched">Valid phone required</small>
+        <small class="field-error" *ngIf="phoneCtrl.invalid && phoneCtrl.touched">{{ 'common.booking.phoneInvalid' | t }}</small>
       </div>
 
       <div class="field-group">
-        <label class="field-label" for="country-{{ filecode }}">Country <span class="req">*</span></label>
+          <label class="field-label" for="country-{{ filecode }}">{{ 'common.booking.country' | t }} <span class="req">*</span></label>
         <div class="field-wrap">
           <i class="fa fa-globe field-icon"></i>
           <select
@@ -178,19 +177,19 @@
             required
             #countryCtrl="ngModel"
           >
-            <option value="" disabled selected>Select country</option>
+            <option value="" disabled selected>{{ 'common.booking.selectCountry' | t }}</option>
             <option *ngFor="let c of countries" [value]="c">{{ c }}</option>
           </select>
         </div>
-        <small class="field-error" *ngIf="countryCtrl.invalid && countryCtrl.touched">Country required</small>
+        <small class="field-error" *ngIf="countryCtrl.invalid && countryCtrl.touched">{{ 'common.booking.countryRequired' | t }}</small>
       </div>
 
       <div class="total-bar" *ngIf="canBookOnline">
         <div class="total-bar__row">
-          <span>Total ({{ travelers }} traveler{{ travelers > 1 ? 's' : '' }})</span>
+          <span>{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
           <span class="total-bar__amount">${{ total.toFixed(2) }}</span>
         </div>
-        <small class="total-bar__note"><i class="fa fa-info-circle"></i> Pay at destination</small>
+        <small class="total-bar__note"><i class="fa fa-info-circle"></i> {{ 'common.booking.payAtDestination' | t }}</small>
       </div>
 
       <label class="terms-row" [attr.for]="'terms-' + filecode">
@@ -202,17 +201,17 @@
           required
           #termsCtrl="ngModel"
         />
-        <span>I agree to the terms &amp; conditions <span class="req">*</span></span>
+        <span>{{ 'common.booking.agreeTerms' | t }} <span class="req">*</span></span>
       </label>
-      <small class="field-error" *ngIf="termsCtrl.invalid && termsCtrl.touched">You must accept terms</small>
+      <small class="field-error" *ngIf="termsCtrl.invalid && termsCtrl.touched">{{ 'common.booking.acceptTermsError' | t }}</small>
 
       <button
         type="submit"
         class="booking-card__submit"
         [disabled]="bookingForm.invalid || isSubmitting || !canBookOnline"
       >
-        <span *ngIf="!isSubmitting"><i class="fa fa-lock"></i> Complete Booking</span>
-        <span *ngIf="isSubmitting"><i class="fa fa-spinner fa-spin"></i> Processing...</span>
+        <span *ngIf="!isSubmitting"><i class="fa fa-lock"></i> {{ 'common.booking.complete' | t }}</span>
+        <span *ngIf="isSubmitting"><i class="fa fa-spinner fa-spin"></i> {{ 'common.booking.processing' | t }}</span>
       </button>
     </ng-container>
   </form>

@@ -1,4 +1,4 @@
-<div class="tour-card" [routerLink]="tour.routerLink">
+<a class="tour-card" [routerLink]="link">
 
     <div class="tour-image">
 
@@ -7,7 +7,7 @@
             [srcset]="imageSrcSet || null"
             [sizes]="imageSrcSet ? defaultSizes() : null"
             [attr.data-img-base]="imagePath"
-            [alt]="tour.title"
+            [alt]="alt"
             width="400"
             height="260"
             loading="lazy"
@@ -23,8 +23,8 @@
         </div>
 
         <div class="price-badge">
-            $ {{ (tour.price / 2) | number:'1.0-0' }}
-            <span>/ person</span>
+            $ {{ ((tour.price ?? 0) / 2) | number:'1.0-0' }}
+            <span>{{ 'common.card.perPerson' | t }}</span>
         </div>
 
     </div>
@@ -48,11 +48,11 @@
         </h3>
 
         <div class="tour-tags">
-            <span><i class="fa fa-check-circle" aria-hidden="true"></i> Free Cancel</span>
-            <span><i class="fa fa-bolt" aria-hidden="true"></i> Instant Confirm</span>
-            <span><i class="fa fa-credit-card" aria-hidden="true"></i> Pay Later</span>
+            <span><i class="fa fa-check-circle" aria-hidden="true"></i> {{ 'common.card.freeCancel' | t }}</span>
+            <span><i class="fa fa-bolt" aria-hidden="true"></i> {{ 'common.card.instantConfirm' | t }}</span>
+            <span><i class="fa fa-credit-card" aria-hidden="true"></i> {{ 'common.card.payLater' | t }}</span>
         </div>
 
     </div>
 
-</div>
+</a>

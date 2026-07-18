@@ -2,11 +2,11 @@
 <div class="container-fluid page-header">
     <div class="container">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">Packages</h3>
+            <p class="display-4 text-white text-uppercase mb-2" role="heading" aria-level="2">{{ 'tours.header' | t }}</p>
             <div class="d-inline-flex text-white">
-                <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                <p class="m-0 text-uppercase"><a class="text-white" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">Packages</p>
+                <p class="m-0 text-uppercase">{{ 'tours.breadcrumb' | t }}</p>
             </div>
         </div>
     </div>
@@ -18,16 +18,17 @@
 <div class="container-fluid  bg-light">
     <div class="container pt-5 pb-3">
         <div class="text-center ">
-            <h6 class="text-primary text-uppercase tracking-widest">Packages</h6>
-            <h1 class="font-bold text-4xl">Perfect Tour Packages</h1>
+            <h6 class="text-primary text-uppercase tracking-widest">{{ 'tours.eyebrow' | t }}</h6>
+            <h1 class="font-bold text-4xl">{{ 'tours.title' | t }}</h1>
+            <p class="section-subtitle mx-auto mt-3" style="max-width: 760px;">{{ 'tours.lead' | t }}</p>
         </div>
 
         <div class="flex text-center mb-4 relative">
             <button class="tab-btn-outline" [class.active]="activeTab==='multi'" (click)="setTab('multi')">
-                Multi-Day Tours
+                {{ 'home.packages.multiDay' | t }}
             </button>
             <button class="tab-btn-outline" [class.active]="activeTab==='day'" (click)="setTab('day')">
-                Day Tours
+                {{ 'home.packages.day' | t }}
             </button>
 
         </div>
@@ -48,6 +49,8 @@
 
 
 <!-- Packages End -->
+
+<app-faq-section faqKey="tours.faq" titleKey="tours.faqTitle" />
 
 <router-outlet></router-outlet>
 <!-- Destination Start -->

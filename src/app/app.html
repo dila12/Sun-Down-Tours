@@ -14,20 +14,18 @@
       </div>
 
       <div class="cookie-heading">
-        <strong id="cookie-title">Your privacy matters</strong>
-        <span>Analytics preferences</span>
+        <strong id="cookie-title">{{ 'common.consent.title' | t }}</strong>
+        <span>{{ 'common.consent.subtitle' | t }}</span>
       </div>
     </div>
 
     <p id="cookie-description" class="cookie-description">
-      We use optional analytics cookies to understand how visitors use
-      our website and improve our tours and services. You can accept or
-      reject analytics cookies at any time.
+      {{ 'common.consent.message' | t }}
     </p>
 
     <div class="cookie-footer">
-      <a routerLink="/privacy-policy" class="privacy-link">
-        Privacy policy
+      <a [href]="privacyPath" class="privacy-link">
+        {{ 'common.consent.privacy' | t }}
       </a>
 
       <div class="cookie-actions">
@@ -35,14 +33,14 @@
           type="button"
           class="reject-btn"
           (click)="rejectCookies()">
-          Reject
+          {{ 'common.consent.reject' | t }}
         </button>
 
         <button
           type="button"
           class="accept-btn"
           (click)="acceptCookies()">
-          Accept
+          {{ 'common.consent.accept' | t }}
         </button>
       </div>
     </div>

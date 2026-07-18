@@ -7,6 +7,7 @@ import {
   OnInit,
   AfterViewInit,
   PLATFORM_ID,
+  inject,
 } from '@angular/core';
 import { PackageItemComponent } from '../../sharedComponents/package-item-component/package-item-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
@@ -20,7 +21,10 @@ import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/hom
 import { HomePopularToursComponent } from './sections/home-popular-tours/home-popular-tours';
 import { HomeSeoSectionComponent } from './sections/home-seo-section/home-seo-section';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
-import { forkJoin } from 'rxjs';
+import { LocaleService } from '../../i18n/locale.service';
+import { TranslatePipe } from '../../i18n/t.pipe';
+import { FaqSectionComponent } from '../../sharedComponents/faq-section/faq-section';
+import { TourContentService, type TourCardView } from '../../i18n/tours/tour-content.service';
 
 interface TourSlide {
   src: string;
@@ -47,17 +51,25 @@ interface Destination {
     HomePopularToursComponent,
     HomeSeoSectionComponent,
     SocialIconComponent,
+    TranslatePipe,
+    FaqSectionComponent,
   ],
   templateUrl: './home-page-component.html',
   styleUrl: './home-page-component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomePageComponent implements OnInit, OnDestroy {
-  dayTours: any[] = [];
-  multiDayTours: any[] = [];
+  readonly i18n = inject(LocaleService);
+  private readonly tourContent = inject(TourContentService);
+
+  path(pageId: string): string {
+    return this.i18n.path(pageId);
+  }
+
+  dayTours: TourCardView[] = [];
+  multiDayTours: TourCardView[] = [];
   displayCount = 6;
-  visibleTours: any[] = [];
-  private cachedTours: any = null;
+  visibleTours: TourCardView[] = [];
 
   activeTab: 'multi' | 'day' = 'multi';
   showAllTours = false;
@@ -77,48 +89,48 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   readonly heroSlide: TourSlide = {
     src: HERO_LCP_BASE,
-    alt: 'Sigiriya Rock tour Sri Lanka',
-    heading: 'Sri Lanka Tours & Private Driver Services',
+    alt: 'home.hero.title',
+    heading: 'home.hero.title',
   };
 
   readonly extraSlides: TourSlide[] = [
     {
       src: toWebpSrc('assets/img/5daysTours/32.jpg'),
-      alt: 'Sigiriya tour Sri Lanka',
-      heading: 'Unforgettable Sri Lanka Tour Packages',
+      alt: 'home.hero.slide2',
+      heading: 'home.hero.slide2',
     },
     {
       src: toWebpSrc('assets/img/5daysTours/28.png'),
-      alt: 'Sri Lanka wildlife safari tour',
-      heading: 'Private Tours Across Beautiful Sri Lanka',
+      alt: 'home.hero.slide3',
+      heading: 'home.hero.slide3',
     },
     {
       src: toWebpSrc('assets/img/5daysTours/41.jpg'),
-      alt: 'Ella Nine Arches Bridge Sri Lanka tour',
-      heading: 'Discover Sigiriya, Ella & Sri Lanka Highlights',
+      alt: 'home.hero.slide4',
+      heading: 'home.hero.slide4',
     },
     {
       src: toWebpSrc('assets/img/mainpage/5.jpg'),
-      alt: 'Sigiriya Lion Rock tour Sri Lanka',
-      heading: 'Sri Lanka Wildlife Safaris & Adventure Tours',
+      alt: 'home.hero.slide5',
+      heading: 'home.hero.slide5',
     },
   ];
 
   readonly slides: TourSlide[] = [this.heroSlide, ...this.extraSlides];
 
   readonly destinations: Destination[] = [
-    { name: 'Sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'Sigiriya Rock Fortress Sri Lanka' },
-    { name: 'Ella', src: 'assets/img/destination-2-opt.webp', alt: 'Ella Scenic Train Journey Sri Lanka' },
-    { name: 'Yala Safari', src: 'assets/img/destination-3-opt.webp', alt: 'Yala National Park Safari Sri Lanka' },
-    { name: 'Kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'Kandy cultural city Sri Lanka' },
-    { name: 'Dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'Dambulla cave temple Sri Lanka' },
-    { name: 'Galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'Galle Fort Sri Lanka' },
+    { name: 'home.destinations.sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'home.destinations.sigiriyaAlt' },
+    { name: 'home.destinations.ella', src: 'assets/img/destination-2-opt.webp', alt: 'home.destinations.ellaAlt' },
+    { name: 'home.destinations.yala', src: 'assets/img/destination-3-opt.webp', alt: 'home.destinations.yalaAlt' },
+    { name: 'home.destinations.kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'home.destinations.kandyAlt' },
+    { name: 'home.destinations.dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'home.destinations.dambullaAlt' },
+    { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt' },
   ];
 
   readonly aboutMainSrc = toWebpSrc('assets/img/5daysTours/6.jpg');
   readonly aboutGallery = [
-    { src: toWebpSrc('assets/img/about-1.jpg'), alt: 'Private Sri Lanka Tour with Sun Down Tours' },
-    { src: toWebpSrc('assets/img/about-2.jpg'), alt: 'Sri Lanka Tour Packages with Chauffeur Guide' },
+    { src: toWebpSrc('assets/img/about-1.jpg'), alt: 'home.about.gallery1Alt' },
+    { src: toWebpSrc('assets/img/about-2.jpg'), alt: 'home.about.gallery2Alt' },
   ];
 
   private cachedPriceData: any = null;
@@ -131,8 +143,19 @@ export class HomePageComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
-    this.loadHomeTours();
+    this.refreshLocalizedCards();
+    this.loadHomePrices();
     this.startCarouselAutoplay();
+  }
+
+  /** Rebuild card lists from locale dictionaries (no English JSON text). */
+  private refreshLocalizedCards() {
+    this.multiDayTours = this.tourContent.cards('multi');
+    this.dayTours = this.tourContent.cards('day');
+    this.applyPrices();
+    this.visibleTours = (
+      this.activeTab === 'day' ? this.dayTours : this.multiDayTours
+    ).slice(0, this.displayCount);
   }
 
   ngOnDestroy() {
@@ -166,7 +189,6 @@ export class HomePageComponent implements OnInit, OnDestroy {
   }
 
   private applyPrices() {
-
     if (!this.cachedPriceData) {
       return;
     }
@@ -174,107 +196,73 @@ export class HomePageComponent implements OnInit, OnDestroy {
     const multiPriceMap = new Map(
       this.cachedPriceData.multiDayTours.map((tour: any) => [
         tour.filecode ?? tour.name,
-        tour.price?.['2'] ?? 0
-      ])
+        tour.price?.['2'] ?? 0,
+      ]),
     );
 
     const dayPriceMap = new Map(
       this.cachedPriceData.dayTours.map((tour: any) => [
         tour.filecode ?? tour.name,
-        tour.price?.['2'] ?? 0
-      ])
+        tour.price?.['2'] ?? 0,
+      ]),
     );
 
-    this.multiDayTours = this.multiDayTours.map((tour: any) => ({
+    this.multiDayTours = this.multiDayTours.map((tour) => ({
       ...tour,
-      price: multiPriceMap.get(tour.filecode ?? tour.name) ?? 0
+      price: (multiPriceMap.get(tour.filecode) as number | undefined) ?? tour.price ?? 0,
     }));
 
-    this.dayTours = this.dayTours.map((tour: any) => ({
+    this.dayTours = this.dayTours.map((tour) => ({
       ...tour,
-      price: dayPriceMap.get(tour.filecode ?? tour.name) ?? 0
+      price: (dayPriceMap.get(tour.filecode) as number | undefined) ?? tour.price ?? 0,
     }));
-
   }
 
-  private async loadHomeTours() {
-
-    const { homeData, priceData } = await firstValueFrom(
-      forkJoin({
-        homeData: this.http.get<any>('assets/data/home-tours.json'),
-        // Keep initial payload small for mobile; load full pricing on demand.
-        priceData: this.http.get<any>('assets/data/home-tour-prices.json'),
-      })
-    );
-
-    const multiPriceMap = new Map(
-      priceData.multiDayTours.map((tour: any) => [
-        tour.name,
-        tour.price?.['2'] ?? 0,
-      ])
-    );
-
-    const dayPriceMap = new Map(
-      priceData.dayTours.map((tour: any) => [
-        tour.name,
-        tour.price?.['2'] ?? 0,
-      ])
-    );
-
-    this.multiDayTours = homeData.multiDayTours;
-    this.dayTours = homeData.dayTours;
-    this.cachedPriceData = priceData;
-    this.hasFullPriceData = false;
-    this.applyPrices();
-    this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
-    this.cdr.markForCheck();
+  private async loadHomePrices() {
+    try {
+      const priceData = await firstValueFrom(
+        this.http.get<any>('assets/data/home-tour-prices.json'),
+      );
+      this.cachedPriceData = priceData;
+      this.hasFullPriceData = false;
+      this.applyPrices();
+      this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
+      this.cdr.markForCheck();
+    } catch {
+      this.cdr.markForCheck();
+    }
   }
 
   async loadAllTours() {
-
     if (this.loadingMore) {
       return;
     }
 
     const current = this.activeTab === 'day' ? this.dayTours : this.multiDayTours;
 
-    if (this.cachedTours) {
-      if (this.displayCount < current.length) {
-        this.displayCount += 6;
-        this.visibleTours = current.slice(0, this.displayCount);
-        this.showAllTours = this.displayCount >= current.length;
-        this.cdr.markForCheck();
-        return;
-      }
+    if (this.displayCount < current.length) {
+      this.displayCount += 6;
+      this.visibleTours = current.slice(0, this.displayCount);
+      this.showAllTours = this.displayCount >= current.length;
+      this.cdr.markForCheck();
+      return;
     }
 
     this.loadingMore = true;
     this.cdr.markForCheck();
 
-    if (!this.cachedTours) {
-      this.cachedTours = await firstValueFrom(
-        this.http.get<any>('assets/data/tours.json')
-      );
-    }
-
     if (!this.hasFullPriceData) {
       this.cachedPriceData = await firstValueFrom(
-        this.http.get<any>('assets/data/tourdetails.json')
+        this.http.get<any>('assets/data/tourdetails.json'),
       );
       this.hasFullPriceData = true;
+      this.refreshLocalizedCards();
     }
 
-    this.dayTours = [...this.cachedTours.dayTours];
-    this.multiDayTours = [...this.cachedTours.multiDayTours];
-
-    this.applyPrices();
-
-    const active = this.activeTab === 'day' ? this.dayTours : this.multiDayTours;
-
-    this.displayCount += 6;
-    this.visibleTours =  active.slice(0, this.displayCount);
+    this.displayCount = current.length;
+    this.visibleTours = current.slice(0, this.displayCount);
     this.loadingMore = false;
-    this.showAllTours = this.displayCount >= active.length;
+    this.showAllTours = true;
     this.cdr.markForCheck();
   }
 
@@ -285,8 +273,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
     this.activeTab = tab;
     this.displayCount = 6;
-    this.visibleTours = tab === 'day' ? this.dayTours.slice(0, this.displayCount) : this.multiDayTours.slice(0, this.displayCount);
-
+    this.refreshLocalizedCards();
     this.showAllTours = false;
     this.cdr.markForCheck();
   }

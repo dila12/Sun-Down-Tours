@@ -11,10 +11,11 @@
     "test": "ng test",
     "optimize-images": "node scripts/optimize-images.mjs",
     "generate-image-manifest": "node scripts/generate-image-manifest.mjs",
+    "generate-sitemap": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-image-manifest.mjs && node scripts/generate-sitemap.mjs",
+    "prestart": "node scripts/generate-image-manifest.mjs && node scripts/generate-sitemap.mjs",
     "serve:ssr:Travelwebsite": "node dist/Travelwebsite/server/server.mjs"
   },
-  "prebuild": "node scripts/generate-image-manifest.mjs",
-  "prestart": "node scripts/generate-image-manifest.mjs",
   "prettier": {
     "overrides": [
       {

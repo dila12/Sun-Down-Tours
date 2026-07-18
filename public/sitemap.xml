@@ -1,159 +1,2062 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- ================= HOME ================= -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.sundowntours.com/</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1.00</priority>
   </url>
-
-  <!-- ================= MAIN PAGES ================= -->
   <url>
-    <loc>https://www.sundowntours.com/about-us</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.sundowntours.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/our-services</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.sundowntours.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/sri-lanka-private-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.98</priority>
   </url>
-
-  <!-- ================= ROUND TOURS (HIGH SEO VALUE) ================= -->
-
   <url>
-    <loc>https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.sundowntours.com/de/sri-lanka-rundreise</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.98</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.sundowntours.com/fr/circuit-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.98</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/4-day-sri-lanka-tour</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.sundowntours.com/it/tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.98</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/5-day-sri-lanka-tour</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.97</priority>
+    <loc>https://www.sundowntours.com/es/circuito-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/6-day-sri-lanka-private-tour</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.97</priority>
+    <loc>https://www.sundowntours.com/pl/wycieczka-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/ru/tury-shri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-rundreise" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/circuit-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/circuito-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/wycieczka-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/tury-shri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/our-services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/unsere-leistungen</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/nos-services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/i-nostri-servizi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/nuestros-servicios</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/nasze-uslugi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/uslugi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/our-services" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/unsere-leistungen" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/nos-services" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/i-nostri-servizi" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/nuestros-servicios" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/nasze-uslugi" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/uslugi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/our-services" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/ueber-uns</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/a-propos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/chi-siamo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/sobre-nosotros</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/o-nas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/o-nas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/about-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ueber-uns" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/a-propos" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/chi-siamo" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sobre-nosotros" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/o-nas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/about-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/contatti</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kontakt" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/contatti" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kontakt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/contact-us" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/7-day-sri-lanka-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.98</priority>
   </url>
-
   <url>
-    <loc>https://www.sundowntours.com/8-day-sri-lanka-private-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <loc>https://www.sundowntours.com/de/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.96</priority>
+    <priority>0.98</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/fr/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/7-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/7-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/7-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/10-day-sri-lanka-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.96</priority>
   </url>
-
-  <!-- ================= DAY TOURS (VERY HIGH CONVERSION PAGES) ================= -->
+  <url>
+    <loc>https://www.sundowntours.com/de/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/10-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/10-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/10-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/8-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/8-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/6-day-sri-lanka-private-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/6-day-sri-lanka-private-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/5-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/5-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/5-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.97</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/4-day-sri-lanka-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/4-day-sri-lanka-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/4-day-sri-lanka-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-kandy-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-kandy-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/2-day-ella-yala-private-tour-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/ella-day-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.96</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/ella-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/ella-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/ella-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/galle-day-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.96</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/galle-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/galle-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/galle-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/kandy-day-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.96</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/kandy-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/kandy-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/kandy-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/sigiriya-day-tour</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.96</priority>
   </url>
-
-  <!-- ================= CONTENT & SEO PAGES ================= -->
+  <url>
+    <loc>https://www.sundowntours.com/de/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/sigiriya-day-tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sigiriya-day-tour" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sigiriya-day-tour" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.96</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/destinations-sri-lanka</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/destinations-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/destinations-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/destinations-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/sri-lanka-travel-guides</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/sri-lanka-travel-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/sri-lanka-travel-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/sri-lanka-travel-guides" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/restaurants-in-sri-lanka</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/de/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/fr/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/restaurants-in-sri-lanka</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/restaurants-in-sri-lanka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/restaurants-in-sri-lanka" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
   <url>
     <loc>https://www.sundowntours.com/customer-testimonials</loc>
-    <lastmod>2026-04-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.70</priority>
   </url>
-
-  <!-- ================= BOOKING & CONTACT ================= -->
-
   <url>
-    <loc>https://www.sundowntours.com/contact-us</loc>
-    <lastmod>2026-04-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.sundowntours.com/de/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
-
+  <url>
+    <loc>https://www.sundowntours.com/fr/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/it/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/es/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/pl/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.sundowntours.com/ru/customer-testimonials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sundowntours.com/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.sundowntours.com/de/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.sundowntours.com/fr/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sundowntours.com/it/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.sundowntours.com/es/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.sundowntours.com/pl/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sundowntours.com/ru/customer-testimonials" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sundowntours.com/customer-testimonials" />
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
 </urlset>

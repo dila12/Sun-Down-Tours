@@ -8,30 +8,30 @@
                 [attr.inert]="$index !== activeSlide ? '' : null"
                 [class.is-active]="$index === activeSlide">
                 @if ($index === 0) {
-                <img class="w-100" [src]="heroLcpSrc" [srcset]="heroLcpSrcSet" sizes="100vw" [alt]="slide.alt"
+                <img class="w-100" [src]="heroLcpSrc" [srcset]="heroLcpSrcSet" sizes="100vw" [alt]="slide.alt | t"
                     width="1920" height="1080" decoding="async" fetchpriority="high"
                     [attr.data-img-base]="heroLcpBase" (error)="onImageError($event)">
                 } @else {
                 <img class="w-100" [src]="bestImageSrc(slide.src, 640)" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
-                    [alt]="slide.alt" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
+                    [alt]="slide.alt | t" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
                     [attr.data-img-base]="slide.src" (error)="onImageError($event)">
                 }
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
                         @if ($index === 0) {
-                        <h1 class="display-3 text-white mb-md-4">{{ slide.heading }}</h1>
+                        <h1 class="display-3 text-white mb-md-4">{{ slide.heading | t }}</h1>
                         <p class="text-white mb-3">
-                            Discover private Sri Lanka tours with experienced local chauffeur guides. Explore Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa and Galle with customized itineraries for couples, families and luxury travelers.
+                            {{ 'home.hero.subtitle' | t }}
                         </p>
                         <a href="https://wa.me/94706293585" class="btn btn-primary py-md-3 px-md-5 button-round mt-2"
                             aria-label="Contact us on WhatsApp">
-                            <app-social-icon name="whatsapp" /><span class="ml-2">WhatsApp</span>
+                            <app-social-icon name="whatsapp" /><span class="ml-2">{{ 'common.cta.whatsapp' | t }}</span>
                         </a>
                         } @else {
-                        <h2 class="display-3 text-white mb-md-4">{{ slide.heading }}</h2>
+                        <h2 class="display-3 text-white mb-md-4">{{ slide.heading | t }}</h2>
                         <button type="button" class="btn btn-primary py-md-3 px-md-5 mt-2"
                             (click)="scrollToSection('packages')" aria-label="Explore tour packages">
-                            Explore Tours
+                            {{ 'common.cta.exploreTours' | t }}
                         </button>
                         }
                     </div>
@@ -54,15 +54,15 @@
 
 <section class="intro-section py-5">
     <div class="container text-center">
-        <h2 class="intro-title">Sri Lanka Tours with Local Experts</h2>
+        <h2 class="intro-title">{{ 'home.intro.title' | t }}</h2>
         <p class="intro-subtitle">
-            Private tours, chauffeur driver services and tailor-made holidays across Sri Lanka.
+            {{ 'home.intro.subtitle' | t }}
         </p>
         <div class="intro-features">
-            <span>✔ Private Tours</span>
-            <span>✔ Chauffeur Drivers</span>
-            <span>✔ Tailor-Made Packages</span>
-            <span>✔ Trusted Local Guides</span>
+            <span>✔ {{ 'home.intro.feature1' | t }}</span>
+            <span>✔ {{ 'home.intro.feature2' | t }}</span>
+            <span>✔ {{ 'home.intro.feature3' | t }}</span>
+            <span>✔ {{ 'home.intro.feature4' | t }}</span>
         </div>
     </div>
 </section>
@@ -70,9 +70,9 @@
 <section class="premium-destinations py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="section-title">Top Sri Lanka Destinations</h2>
+            <h2 class="section-title">{{ 'home.destinations.title' | t }}</h2>
             <p class="section-subtitle">
-                Discover handpicked destinations with luxury experiences across Sri Lanka.
+                {{ 'home.destinations.subtitle' | t }}
             </p>
         </div>
         @defer (on viewport) {
@@ -80,13 +80,13 @@
             @for (dest of destinations; track trackByIndex($index)) {
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="premium-card" (click)="scrollToSection('packages')" role="button" tabindex="0"
-                    (keyup.enter)="scrollToSection('packages')" [attr.aria-label]="'Explore ' + dest.name + ' tours'">
-                    <img [src]="bestImageSrc(dest.src, 400)" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt"
+                    (keyup.enter)="scrollToSection('packages')" [attr.aria-label]="('home.destinations.exploreAria' | t) + ' ' + (dest.name | t)">
+                    <img [src]="bestImageSrc(dest.src, 400)" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt | t"
                         width="400" height="280" loading="lazy" decoding="async" fetchpriority="low"
                         [attr.data-img-base]="dest.src" (error)="onImageError($event)">
                     <div class="content">
-                        <h3>{{ dest.name }}</h3>
-                        <span class="premium-card-link">Explore Tours →</span>
+                        <h3>{{ dest.name | t }}</h3>
+                        <span class="premium-card-link">{{ 'home.destinations.explore' | t }} →</span>
                     </div>
                 </div>
             </div>
@@ -107,20 +107,20 @@
 <section id="packages" class="packages-section py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <p class="section-tag">PACKAGES</p>
-            <h2 class="section-title">Explore Our Best Tours</h2>
+            <p class="section-tag">{{ 'home.packages.tag' | t }}</p>
+            <h2 class="section-title">{{ 'home.packages.title' | t }}</h2>
             <p class="section-subtitle">
-                Choose from our best-selling Sri Lanka tours or customize your private experience.
+                {{ 'home.packages.subtitle' | t }}
             </p>
         </div>
         <div class="tabs-wrapper mb-5" role="tablist" aria-label="Tour categories">
             <button type="button" class="tab-btn" role="tab" [class.active]="activeTab==='multi'"
                 [attr.aria-selected]="activeTab==='multi'" (click)="setTab('multi')">
-                Multi-Day Tours
+                {{ 'home.packages.multiDay' | t }}
             </button>
             <button type="button" class="tab-btn" role="tab" [class.active]="activeTab==='day'"
                 [attr.aria-selected]="activeTab==='day'" (click)="setTab('day')">
-                Day Tours
+                {{ 'home.packages.day' | t }}
             </button>
         </div>
         <div class="row">
@@ -135,7 +135,7 @@
         @if (!showAllTours) {
         <div class="text-center mt-4">
             <button type="button" class="btn btn-primary px-5 py-3" (click)="loadAllTours()" [disabled]="loadingMore">
-                {{ loadingMore ? 'Loading...' : 'View More' }}
+                {{ loadingMore ? ('common.cta.loading' | t) : ('common.cta.viewMore' | t) }}
             </button>
         </div>
         }
@@ -146,28 +146,21 @@
     <div class="container">
         <div class="about-wrapper">
             <div class="about-image">
-                <img [src]="aboutMainSrc" alt="Sri Lanka Train Experience" width="600" height="400" loading="lazy"
+                <img [src]="aboutMainSrc" [alt]="'home.about.title' | t" width="600" height="400" loading="lazy"
                     decoding="async" fetchpriority="low" (error)="onImageError($event)">
             </div>
             <div class="about-content">
-                <p class="about-tag">ABOUT US</p>
-                <h2 class="about-title">Trusted Sri Lanka Tour Company</h2>
-                <p>
-                    <strong>Sun Down Tours Sri Lanka</strong> has been delivering trusted travel experiences since 1992.
-                    With over three decades of expertise, we specialize in private tours, tailor-made holidays, and
-                    chauffeur driven journeys designed around each traveler's unique needs.
-                </p>
-                <p>
-                    From the cultural heritage of Sigiriya and Kandy to the scenic beauty of Ella, Nuwara Eliya,
-                    and the wildlife of Yala National Park, we create unforgettable journeys across Sri Lanka.
-                </p>
+                <p class="about-tag">{{ 'home.about.tag' | t }}</p>
+                <h2 class="about-title">{{ 'home.about.title' | t }}</h2>
+                <p>{{ 'home.about.p1' | t }}</p>
+                <p>{{ 'home.about.p2' | t }}</p>
                 <div class="about-gallery">
                     @for (img of aboutGallery; track trackByIndex($index)) {
-                    <img [src]="img.src" [alt]="img.alt" width="200" height="150" loading="lazy" decoding="async"
+                    <img [src]="img.src" [alt]="img.alt | t" width="200" height="150" loading="lazy" decoding="async"
                         fetchpriority="low" (error)="onImageError($event)">
                     }
                 </div>
-                <a routerLink="/contact-us" class="about-btn">Plan Your Sri Lanka Tour →</a>
+                <a [routerLink]="path('contact')" class="about-btn">{{ 'common.cta.planTour' | t }} →</a>
             </div>
         </div>
     </div>
@@ -184,10 +177,8 @@
                         <i class="fa fa-2x fa-money-check-alt text-white" aria-hidden="true"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h3 class="h5" itemprop="name">Affordable Sri Lanka Tour Packages</h3>
-                        <p class="m-0" itemprop="description">
-                            Affordable private Sri Lanka tours and tailor-made holiday packages for every budget.
-                        </p>
+                        <h3 class="h5" itemprop="name">{{ 'home.features.f1Title' | t }}</h3>
+                        <p class="m-0" itemprop="description">{{ 'home.features.f1Desc' | t }}</p>
                     </div>
                 </div>
             </div>
@@ -198,8 +189,8 @@
                         <i class="fa fa-2x fa-award text-white" aria-hidden="true"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h3 class="h5">Professional Chauffeur Guides & Personalized Service</h3>
-                        <p class="m-0">Experienced chauffeur guides covering Sigiriya, Kandy, Ella, Yala, and Galle.</p>
+                        <h3 class="h5">{{ 'home.features.f2Title' | t }}</h3>
+                        <p class="m-0">{{ 'home.features.f2Desc' | t }}</p>
                     </div>
                 </div>
             </div>
@@ -210,9 +201,8 @@
                         <i class="fa fa-2x fa-globe text-white" aria-hidden="true"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h3 class="h5">Trusted Sri Lanka Travel Experts</h3>
-                        <p class="m-0">Cultural tours, wildlife safaris, beach holidays, and luxury private round tours.
-                        </p>
+                        <h3 class="h5">{{ 'home.features.f3Title' | t }}</h3>
+                        <p class="m-0">{{ 'home.features.f3Desc' | t }}</p>
                     </div>
                 </div>
             </div>
@@ -227,33 +217,32 @@
 <div class="container-fluid" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-4 pb-3">
-            <p class="services-eyebrow text-primary text-uppercase">Sri Lanka Travel Services</p>
-            <h2 class="mb-3" itemprop="name">Premium Sri Lanka Tours, Travel & Chauffeur Services</h2>
+            <p class="services-eyebrow text-primary text-uppercase">{{ 'home.services.eyebrow' | t }}</p>
+            <h2 class="mb-3" itemprop="name">{{ 'home.services.title' | t }}</h2>
             <p class="services-lead mx-auto" style="max-width: 700px;" itemprop="description">
-                Complete Sri Lanka travel solutions including private tours, chauffeur driven round tours,
-                hotel reservations, train tickets, and customized holiday packages.
+                {{ 'home.services.lead' | t }}
             </p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center mb-2 py-5 px-4 h-100">
                     <i class="fa fa-2x fa-route mx-auto mb-4 text-primary" aria-hidden="true"></i>
-                    <h3 class="h5 mb-2">Multilingual Private Chauffeur Guides in Sri Lanka</h3>
-                    <p class="m-0">Professional multilingual chauffeur guides for personalized private tours.</p>
+                    <h3 class="h5 mb-2">{{ 'home.services.s1Title' | t }}</h3>
+                    <p class="m-0">{{ 'home.services.s1Desc' | t }}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center mb-2 py-5 px-4 h-100">
                     <i class="fa fa-2x fa-ticket-alt mx-auto mb-4 text-primary" aria-hidden="true"></i>
-                    <h3 class="h5 mb-2">Train Tickets & Attraction Entrance Booking</h3>
-                    <p class="m-0">Ella train tickets, safari bookings, and entrance tickets arranged for you.</p>
+                    <h3 class="h5 mb-2">{{ 'home.services.s2Title' | t }}</h3>
+                    <p class="m-0">{{ 'home.services.s2Desc' | t }}</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="service-item bg-white text-center mb-2 py-5 px-4 h-100">
                     <i class="fa fa-2x fa-hotel mx-auto mb-4 text-primary" aria-hidden="true"></i>
-                    <h3 class="h5 mb-2">Hotel Booking & Tailor-Made Accommodation</h3>
-                    <p class="m-0">Handpicked hotel bookings from luxury resorts to budget guesthouses.</p>
+                    <h3 class="h5 mb-2">{{ 'home.services.s3Title' | t }}</h3>
+                    <p class="m-0">{{ 'home.services.s3Desc' | t }}</p>
                 </div>
             </div>
         </div>
@@ -288,7 +277,9 @@
 }
 
 @defer (on viewport) {
-<app-home-seo-section />
+<app-faq-section faqKey="home.faq" titleKey="home.faqTitle" />
 } @placeholder {
 <div class="py-5" aria-hidden="true"></div>
 }
+
+<app-home-seo-section />

@@ -7,8 +7,9 @@ import {
   TourDetailsComponent,
 } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import toursData from '../../../../databaseJson/tours.json';
+import { TourContentService } from '../../../../i18n/tours/tour-content.service';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
+import { TranslatePipe } from '../../../../i18n/t.pipe';
 import { SeoService } from '../../../../../seo.service';
 
 @Component({
@@ -19,6 +20,7 @@ import { SeoService } from '../../../../../seo.service';
     RouterModule,
     TourDetailsComponent,
     PackageItemComponent,
+    TranslatePipe,
   ],
   templateUrl: './ella-yala-two-day-tour.html',
   styleUrl: './ella-yala-two-day-tour.css',
@@ -35,142 +37,16 @@ export class EllaYalaTwoDayTour {
 
   currentIndex = 0;
   intervalId: any;
-  multiDayTours: any[] = [];
   selectedTours: any[] = [];
   userCountry = 'US';
   price = 0;
-
-  tour = {
-    title:
-      '2 Day Sri Lanka Private Tour – Ella, Kandy & Udawalawa Safari | Airport Drop',
-    description:
-      'Discover Sri Lanka’s wildlife, scenic hill country and cultural heritage in this 2-day private tour ending at the airport or your hotel.',
-    duration: '2 Days',
-    persons: 'Private Tour (1-20 Persons)',
-    filecode: '2-day-ella-kandy-private-tour-sri-lanka',
-    overview: `Experience an unforgettable 2-day journey through Sri Lanka’s wildlife, hill country and cultural capital.
-  On day one, visit the Udawalawa Elephant Transit Home before heading to Ella to explore Nine Arch Bridge, Little Adam’s Peak, Flying Ravana and Ravana Falls.
-  On day two, travel through the scenic hills to Ramboda Falls and Ambuluwawa Tower before discovering the sacred Temple of the Tooth in Kandy and Pinnawala Elephant Orphanage.
-  This private tour ends conveniently at the airport or your hotel.`,
-
-    tourType: 'Round Tour',
-
-    itinerary: [
-      {
-        day: 1,
-        title: 'Ella Adventure',
-        activities: [
-          {
-            type: 'Scenic Visit',
-            title: {
-              title: 'Nine Arch Bridge',
-              icon: 'fa-train',
-              color: '#8e44ad',
-            },
-            description:
-              'Explore the iconic Nine Arch Bridge in Ella, surrounded by lush greenery and breathtaking hill country views.',
-            image: 'assets/img/2daysTours/5.jpg',
-          },
-          {
-            type: 'Hiking',
-            title: {
-              title: 'Little Adam’s Peak',
-              icon: 'fa-hiking',
-              color: '#f39c12',
-            },
-            description:
-              'Enjoy a short scenic hike to Little Adam’s Peak for panoramic views of Ella Gap and the surrounding tea plantations.',
-            image: 'assets/img/2daysTours/9.jpg',
-          },
-          {
-            type: 'Adventure',
-            title: {
-              title: 'Flying Ravana Zip Line',
-              icon: 'fa-bolt',
-              color: '#e74c3c',
-            },
-            description:
-              'Experience thrilling zip-lining at Flying Ravana Adventure Park overlooking the stunning Ella landscape.',
-            image: 'assets/img/2daysTours/10.jpg',
-          },
-          {
-            type: 'Waterfall Visit',
-            title: {
-              title: 'Ravana Falls',
-              icon: 'fa-water',
-              color: '#2980b9',
-            },
-            description:
-              'Visit the beautiful Ravana Falls, one of Sri Lanka’s most famous waterfalls located near Ella.',
-            image: 'assets/img/2daysTours/11.jpg',
-          },
-          {
-            type: 'Accommodation',
-            title: {
-              title: 'Oak Ray Ella Gap Hotel',
-              icon: 'fa-hotel',
-              color: '#27ae60',
-            },
-            description:
-              'Accommodation in Oak Ray Ella Gap Hotel or Similar - HB Basis',
-            image: 'assets/img/7dayschange/nhm6ktdm7nimqwwrgtbm.jpg',
-            extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
-          },
-        ],
-      },
-      {
-        day: 2,
-        title: 'Yala Safari',
-        activities: [
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Yala National Park',
-              icon: 'fa-paw',
-              color: '#2ecc71',
-            },
-            description:
-              'Yala is home to 44 varieties of mammal and 215 bird species. Among its more famous residents are the world’s biggest concentration of leopards',
-            image: 'assets/img/7dayschange/u1iadnsusjf2h8zdhma5.jpg',
-          },
-          {
-            type: 'Guided tour',
-            title: {
-              title: 'Ravana Falls',
-              icon: 'fa-water',
-              color: '#3498db',
-            },
-            description:
-              'Ravana Falls is entrenched in myth and folklore. It is believed that the demon King Ravana, from the epic Ramayan, hid Sita in the cave behind the waterfall after he kidnapped her and brought her back',
-            image: 'assets/img/7dayschange/zauxzn86ulp9ddnrzlvw.jpg',
-          },
-        ],
-      },
-    ],
-
-    includes: [
-      'Air-Conditioned Private Vehicle',
-      'English Speaking Professional Driver',
-      "Driver's Accommodation & Meals",
-      'Pickup & Airport/Hotel Drop Off',
-      'Fuel & Parking Fees',
-      '24 Hours Service',
-      'Unlimited Mileage for the entire tour',
-    ],
-
-    excludes: [
-      'Entrance & Activity Fees',
-      'Food & Drinks',
-      'Accommodation (Can be arranged upon request)',
-    ],
-  };
-
 
   constructor(
     private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
     private seo: SeoService,
+    private tours: TourContentService,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
@@ -186,18 +62,31 @@ export class EllaYalaTwoDayTour {
   }
 
   get tourForDetails(): TourDetails {
+    const t = this.tours.detail('tour2ey')!;
     return {
-      title: this.tour.title,
-      description: this.tour.description,
-      duration: this.tour.duration,
-      persons: this.tour.persons,
+      title: t.title,
+      description: t.description,
+      duration: t.duration,
+      persons: t.persons,
       price: this.price,
-      tourType: this.tour.tourType,
-      overview: this.tour.overview,
-      itinerary: this.tour.itinerary,
-      includes: this.tour.includes,
-      excludes: this.tour.excludes,
+      tourType: t.tourType,
+      overview: t.overview,
+      itinerary: t.itinerary as TourDetails['itinerary'],
+      includes: t.includes,
+      excludes: t.excludes,
     };
+  }
+
+  get filecode(): string {
+    return (
+      this.tours.detail('tour2ey')?.filecode ??
+      this.tours.meta('tour2ey')?.filecode ??
+      '2-day-ella-kandy-private-tour-sri-lanka'
+    );
+  }
+
+  get bookingTour() {
+    return this.tours.detail('tour2ey');
   }
 
   nextImage() {
@@ -219,37 +108,25 @@ export class EllaYalaTwoDayTour {
 
   async ngOnInit() {
     this.seo.updateCanonicalUrl('https://www.sundowntours.com/2-day-ella-yala-private-tour-sri-lanka');
-    const isBrowser = isPlatformBrowser(this.platformId);
-    if (!isBrowser) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.userCountry = await this.countryService.detectCountry();
+      this.price = await this.loadPrice(this.filecode);
+      this.selectedTours = await this.loadRelatedWithPrices('tour2ey');
+      this.intervalId = setInterval(() => this.nextImage(), 3000);
+    } else {
       this.userCountry = 'US';
       this.price = 0;
-      this.multiDayTours = toursData.multiDayTours.slice(0, 3);
-      this.selectedTours = this.multiDayTours;
-      return;
-    }
-
-    try {
-      this.userCountry = await this.countryService.detectCountry();
-      this.price = await this.loadPrice(this.tour.filecode);
-      this.multiDayTours = await this.loadToursWithPrices(
-        toursData.multiDayTours,
-      );
-      this.selectedTours = this.multiDayTours
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3);
-
-      this.intervalId = setInterval(() => this.nextImage(), 3000);
-    } catch (err) {
-      console.error('Client load failed:', err);
+      this.selectedTours = this.tours.related('tour2ey', 3);
     }
   }
 
-  async loadToursWithPrices(tours: any[]) {
+  private async loadRelatedWithPrices(pageId: string) {
+    const cards = this.tours.related(pageId, 3);
     return Promise.all(
-      tours.map(async (tour) => {
-        const price = await this.loadPrice(tour.filecode);
-        return { ...tour, price };
-      }),
+      cards.map(async (tour) => ({
+        ...tour,
+        price: await this.loadPrice(tour.filecode),
+      })),
     );
   }
 
