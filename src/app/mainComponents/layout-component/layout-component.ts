@@ -15,9 +15,9 @@ import {
 } from '../../i18n/site-contact';
 
 /** Small navbar logo — never fall back to the 1024×1024 PNG master. */
-const LOGO_64 = 'assets/img/logos/2-64w.webp';
-const LOGO_80 = 'assets/img/logos/2-80w.webp';
-const LOGO_160 = 'assets/img/logos/2-160w.webp';
+const LOGO_64 = '/assets/img/logos/2-64w.webp';
+const LOGO_80 = '/assets/img/logos/2-80w.webp';
+const LOGO_160 = '/assets/img/logos/2-160w.webp';
 
 @Component({
   selector: 'app-layout-component',

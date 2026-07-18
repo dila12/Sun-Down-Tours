@@ -44,13 +44,20 @@ async function main() {
   const otherFunctions = { ...(existing.functions ?? {}) };
   delete otherFunctions['api/index.js'];
 
+  // Drop stale keys that caused 4× rebuilds / wrong packaging.
+  const {
+    buildCommand: _dropBuildCommand,
+    excludeFiles: _dropExclude,
+    ...existingRest
+  } = existing;
+
   const vercel = {
     version: 2,
-    ...existing,
+    ...existingRest,
     // Publish the browser build (with images) as the static CDN root.
+    // Build uses package.json `vercel-build` only (do not set buildCommand —
+    // it made Vercel rebuild once per api/*.js file).
     outputDirectory: 'dist/Travelwebsite/browser',
-    // Builds slim ssr-bundle without assets/img for the serverless function.
-    buildCommand: 'npm run vercel-build',
     redirects: [apexRedirect, ...generated],
     headers: existing.headers ?? [
       {
@@ -63,10 +70,10 @@ async function main() {
         ],
       },
     ],
-    // SSR for HTML routes; /assets/* must hit the CDN filesystem first.
+    // HTML → SSR. Static files (assets, *.js/css) are served from outputDirectory first.
     rewrites: [
       { source: '/', destination: '/api' },
-      { source: '/((?!api/|assets/).*)', destination: '/api' },
+      { source: '/((?!api/|assets/|media/).*)', destination: '/api' },
     ],
     functions: {
       ...otherFunctions,
@@ -76,6 +83,9 @@ async function main() {
       },
     },
   };
+
+  // Ensure buildCommand is not reintroduced from a partial merge.
+  delete vercel.buildCommand;
 
   await writeFile(vercelPath, `${JSON.stringify(vercel, null, 2)}\n`, 'utf8');
   console.log(

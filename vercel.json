@@ -1055,12 +1055,11 @@
       "destination": "/api"
     },
     {
-      "source": "/((?!api/|assets/).*)",
+      "source": "/((?!api/|assets/|media/).*)",
       "destination": "/api"
     }
   ],
   "outputDirectory": "dist/Travelwebsite/browser",
-  "buildCommand": "npm run vercel-build",
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/Travelwebsite/ssr-bundle/**",

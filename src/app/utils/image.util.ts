@@ -1,6 +1,6 @@
 import { IMAGE_VARIANTS } from './image-variants.generated';
 
-export const PLACEHOLDER_IMAGE = 'assets/img/package-2.webp';
+export const PLACEHOLDER_IMAGE = '/assets/img/package-2.webp';
 
 /**
  * Bump when regenerating optimized assets so browsers/CDN drop stale WebP/AVIF.
@@ -12,7 +12,7 @@ export type ImageFormat = 'webp' | 'avif';
 
 /** Normalize any raster path to the WebP base used in IMAGE_VARIANTS keys. */
 export function toWebpSrc(path: string): string {
-  return path.replace(/\.(jpe?g|png|avif)$/i, '.webp');
+  return path.replace(/^\//, '').replace(/\.(jpe?g|png|avif)$/i, '.webp');
 }
 
 /** AVIF counterpart for a jpg/png/webp asset path. */
@@ -20,13 +20,21 @@ export function toAvifSrc(path: string): string {
   return toWebpSrc(path).replace(/\.webp$/i, '.avif');
 }
 
-/** Append cache-busting query without breaking relative asset paths. */
+/** Append cache-busting query; force root-absolute `/assets/...` paths for CDN. */
 export function withImageVersion(path: string): string {
-  if (!path || path.startsWith('data:') || path.includes('?v=')) {
+  if (!path || path.startsWith('data:') || path.startsWith('http://') || path.startsWith('https://')) {
     return path;
   }
-  const sep = path.includes('?') ? '&' : '?';
-  return `${path}${sep}v=${IMAGE_ASSET_VERSION}`;
+  let normalized = path;
+  // Relative `assets/...` breaks under some hosts/rewrites; always serve from site root.
+  if (normalized.startsWith('assets/')) {
+    normalized = `/${normalized}`;
+  }
+  if (normalized.includes('?v=')) {
+    return normalized;
+  }
+  const sep = normalized.includes('?') ? '&' : '?';
+  return `${normalized}${sep}v=${IMAGE_ASSET_VERSION}`;
 }
 
 function getVariantWidths(basePath: string, format: ImageFormat = 'webp'): number[] {
@@ -187,7 +195,7 @@ export function heroLcpAvifSrcSet(): string {
   return buildAvifSrcSet(HERO_LCP_BASE);
 }
 
-export const HERO_LCP_BASE = 'assets/img/mainpage/1.webp';
+export const HERO_LCP_BASE = '/assets/img/mainpage/1.webp';
 
 /** Width descriptors for NgOptimizedImage on the homepage hero (LCP). */
 export function heroLcpNgSrcSet(): string {
