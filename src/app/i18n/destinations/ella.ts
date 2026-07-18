@@ -559,4 +559,81 @@ export const ELLA_DEST: ArticleContent = {
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки в Шри-Ланку' },
     ],
   },
+  nl: {
+    h1: 'Ella, Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
+    lead: 'Kühle Bergluft, ein Tal voller Teebüsche, das sich in jede Richtung erstreckt, und das Geräusch des blauen Zuges, der ein jahrhundertealtes Viadukt überquert – Ella ist der Bergland-Stopp, wegen dem Reisende ihre Route gerne um einen Tag verlängern.',
+    heroAlt: 'Die Nine Arch Bridge inmitten grüner Teeplantagen bei Ella',
+    sections: [
+      {
+        title: 'Vom kolonialen Plantagenort zum Lieblingsort im Bergland',
+        body: 'Ella wuchs im Schatten des britischen Teeanbaus heran, als die umliegenden Hänge gerodet und mit den ordentlichen Konturreihen aus Teebüschen bepflanzt wurden, die man noch heute sieht. Der Ort selbst blieb lange nach der Unabhängigkeit klein und verschlafen, bekannt vor allem bei Plantagenbesitzern und der Eisenbahn, die Teekisten zur Küste transportierte.\n\nErst in den letzten zwei Jahrzehnten wurde Ella zu einem festen Ziel auf der Reiseroute, als sich die Aussicht vom Ella Gap und die Ingenieurleistung der Nine Arch Bridge herumsprachen. Aus dem einstigen Ein-Straßen-Dorf ist heute eine echte Bergstadt geworden, die sich jedoch weitgehend ihren entspannten, überschaubaren Maßstab bewahrt hat.',
+      },
+      {
+        title: 'Tamilisches, singhalesisches und koloniales Erbe nebeneinander',
+        body: 'Die Teeindustrie, die Ella geprägt hat, prägte auch seine Bevölkerung: Viele Familien, die auf den umliegenden Plantagen arbeiten, führen ihre Wurzeln auf tamilische Arbeiter zurück, die im 19. Jahrhundert aus Südindien geholt wurden. Hindu-Kovils liegen zu Fuß erreichbar neben buddhistischen Tempeln und einer kleinen anglikanischen Kirche, die für Plantagenfamilien errichtet wurde.\n\nEin Besuch einer arbeitenden Teefabrik – die meisten bieten kurze, informelle Führungen an – ist ebenso Sozialgeschichte wie Landwirtschaft: Man sieht denselben Prozess des Welkens, Rollens und Röstens, der seit Kolonialzeiten genutzt wird, heute größtenteils betrieben von den Nachfahren der ursprünglichen Plantagenarbeiter.',
+      },
+      {
+        title: 'Was man in Ella unternehmen sollte',
+        body: 'Die Nine Arch Bridge ist das Postkartenmotiv, für das alle kommen – ein geschwungenes Steinviadukt ganz ohne Stahlbewehrung, am schönsten im frühen Morgenlicht zu sehen (oder besser noch, zwischen zwei Zügen zu überqueren). Little Adam’s Peak ist eine sanftere Alternative zu seinem berühmten Namensvetter: ein 45- bis 60-minütiger Aufstieg, belohnt mit einem 360-Grad-Blick über das Tal und die Teeplantagen.\n\nElla Rock ist die anspruchsvollere der beiden Wanderungen, drei bis vier Stunden Hin- und Rückweg durch aktive Teeplantagen; ein lokaler Guide wird empfohlen, da der Pfad über Plantagengelände führt und nicht immer klar markiert ist. Die Ravana Falls, eine kurze Tuk-Tuk-Fahrt entfernt, sind ein einfacher Zusatzstopp, besonders nach Regen, wenn die Fälle mit voller Kraft fließen.',
+      },
+      {
+        title: 'Praktische Tipps für den Besuch',
+        body: 'Die malerische Zugfahrt zwischen Ella und Kandy (oder Ella und Nuwara Eliya) gehört zu den meistfotografierten Bahnstrecken Asiens, und reservierte Sitzplätze der zweiten Klasse sind in der Hochsaison Wochen im Voraus ausgebucht – buchen Sie so früh wie möglich oder reisen Sie mit einem Privatwagen und halten Sie einfach dort, wo die Aussicht es verlangt.\n\nElla liegt auf etwa 1.000 Metern Höhe, daher sind die Abende wirklich kühl; packen Sie auch in der Trockenzeit eine leichte Jacke ein. Die Entfernungen im Ort sind zu Fuß gut zu bewältigen, aber die Wege zum Little Adam’s Peak, zum Ella Rock und zu den Aussichtspunkten haben keine echten Gehwege – tragen Sie also Schuhe mit gutem Grip statt Sandalen.',
+      },
+      {
+        title: 'Wetter in Ella',
+        body: 'Ellas Bergklima ist ganzjährig deutlich kühler und grüner als an der Küste oder im Kulturdreieck, mit den trockensten, klarsten Phasen typischerweise von Januar bis April. Nachmittags zieht häufig Nebel ins Tal, was wunderschöne, stimmungsvolle Fotos ermöglicht, gelegentlich aber den klassischen Blick auf die Nine Arch Bridge verdeckt.\n\nRegen ist in jedem Monat möglich; eine leichte Regenjacke lohnt sich unabhängig von der Saison, da Nachmittagsschauer in dieser Höhenlage oft ohne viel Vorwarnung kommen.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Der Yala-Nationalpark liegt etwa zwei Autostunden südöstlich, sodass sich ein früher Morgen-Safari mit einem Nachmittag in Ella für Reisende mit wenig Zeit gut kombinieren lässt. Nuwara Eliya, Sri Lankas höchstgelegene Stadt und lebendigstes Teeland, ist etwa zwei bis drei Stunden per Straße oder eine malerische Zugfahrt entfernt.\n\nDie Diyaluma-Wasserfälle, einer der höchsten des Landes, und der Elefanten-Beobachtungspark Uda Walawe sind beide als Halbtags- oder Tagesausflug von Ella aus erreichbar, wenn Sie einen zusätzlichen Tag Zeit haben.',
+      },
+      {
+        title: 'Wo man übernachten kann',
+        body: 'Die Unterkünfte in Ella sind stark aussichtsorientiert: Viele Gästehäuser und Mittelklassehotels sind gezielt am Hang gebaut, um den Blick auf den Ella Gap oder die umliegenden Teeplantagen vom Frühstückstisch aus einzurahmen. Reisende mit kleinerem Budget finden gut geführte, familiäre Homestays im Ortszentrum, nur einen kurzen Fußweg von Restaurants und Bahnhof entfernt.\n\nFür einen ruhigeren Aufenthalt liegen einige Unterkünfte eine kurze Tuk-Tuk-Fahrt außerhalb des Ortes auf aktiven Teeplantagen – etwas weniger Bequemlichkeit gegen echte Plantagenatmosphäre und nächtliche Stille.',
+      },
+      {
+        title: 'Essen in Ella',
+        body: 'Ellas reisefreundliche Gastroszene ist vielfältiger als in den meisten Bergstädten: Dachterrassenrestaurants servieren srilankisches Rice and Curry neben Pizza, Pasta und gutem Espresso für alle, die eine Abwechslung von der Reise suchen. Frisches, lokal angebautes Gemüse und das kühlere Klima der Region machen Salate und Suppen hier tatsächlich lohnenswert – anders als im heißeren Tiefland.\n\nVerpassen Sie hier nicht eine richtige Tasse Tee: Mehrere Cafés servieren frischen Tee direkt von der Plantage, traditionell zubereitet, und er schmeckt deutlich anders als das, was in den Export geht.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Lohnt sich die Zugfahrt von Kandy nach Ella?',
+        a: 'Für die meisten Reisenden ja – die Strecke führt durch Teeplantagen, Tunnel und Viadukte mit Ausblicken, die auf der Straße kaum zu erreichen sind. Buchen Sie in der Hochsaison einen reservierten Platz frühzeitig, sonst müssen Sie eventuell stehen oder in einem unreservierten Waggon sitzen.',
+      },
+      {
+        q: 'Wie viele Tage sollte ich in Ella verbringen?',
+        a: 'Zwei volle Tage reichen, um die Nine Arch Bridge zu sehen, Little Adam’s Peak oder Ella Rock zu besteigen und eine Teefabrik zu besuchen, ohne zu hetzen. Fügen Sie einen dritten Tag hinzu, wenn Sie Ella mit den Diyaluma Falls oder einer frühen Yala-Safari verbinden möchten.',
+      },
+      {
+        q: 'Ist die Wanderung zum Ella Rock schwierig?',
+        a: 'Sie ist anspruchsvoller als Little Adam’s Peak – drei bis vier Stunden Hin- und Rückweg mit einigen steilen, unmarkierten Abschnitten durch Teeplantagengelände –, weshalb ein lokaler Guide und geeignetes Schuhwerk empfehlenswert statt optional sind.',
+      },
+      {
+        q: 'Wann ist die beste Reisezeit für Ella?',
+        a: 'Januar bis April bringt meist den klarsten Himmel und trockensten Pfade, doch Ellas Höhenlage hält es das ganze Jahr über kühler und grüner als die Küste, und kurze Nachmittagsschauer sind in jedem Monat möglich.',
+      },
+      {
+        q: 'Kann ich Ella und Yala in derselben Reise besuchen?',
+        a: 'Ja – Yala liegt etwa zwei Autostunden von Ella entfernt, sodass viele Reisepläne eine Yala-Morgen-Safari mit einem Ella-Nachmittag kombinieren oder Ella für zwei Nächte als Basis nutzen und einen ganztägigen Yala-Ausflug ergänzen.',
+      },
+    ],
+    ctaTitle: 'Planen Sie Ihre Zeit in Ella',
+    ctaBody: 'Unsere privaten Rundreisen führen über mehrere Tage auch nach Ella als Bergland-Stopp, wobei Ihr Fahrer-Guide die Fahrt rund um die malerische Zugfahrt, Teefabrikbesuche und das beste Licht für die Nine Arch Bridge plant.',
+    ctaLabel: 'Ella-Route zusammenstellen',
+    relatedTours: [
+      { pageId: 'ellaDay', label: 'Ella Tagestour' },
+      { pageId: 'tour2ey', label: '2-tägige Ella & Yala Tour' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideTeaCountry', label: 'Sri Lanka Teeland-Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+    ],
+  }
 };

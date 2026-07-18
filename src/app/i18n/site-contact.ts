@@ -24,7 +24,7 @@ export const SITE_HOURS_OPENS = '08:00';
 export const SITE_HOURS_CLOSES = '20:00';
 export const SITE_HOURS_LABEL = 'Open 08:00–20:00 · 7 days a week';
 export const SITE_HOURS_NOTE =
-  'Office hours 08:00–20:00 (Sri Lanka time). WhatsApp messages are welcome any time — we typically reply within a few hours.';
+  'Office hours 08:00–20:00 (Sri Lanka time). WhatsApp messages are welcome any time we typically reply within a few hours.';
 
 export const SITE_GEO = { latitude: 6.6331, longitude: 79.9533 };
 

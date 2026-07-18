@@ -494,4 +494,72 @@ export const BUDGET_GUIDE: ArticleContent = {
       { pageId: 'guideFood', label: 'Гид по еде Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Budgetreise-Ratgeber: realistische Kosten für eine Privatreise',
+    lead: 'Sri Lanka gehört weiterhin zu Asiens lohnenden Reisezielen – aber „günstig“ hängt ganz davon ab, wie Sie reisen. Eine private Rundreise mit Fahrer-Guide liegt in einer anderen Preisklasse als Rucksackbusse; wer weiß, wohin das Geld wirklich fließt, plant ohne böse Überraschungen.',
+    heroAlt: 'Notizen und Karte zur Budgetplanung für eine Sri-Lanka-Reise',
+    sections: [
+      {
+        title: 'Was ein Tag in Sri Lanka wirklich kostet',
+        body: 'Eine private Reise der Mittelklasse liegt typischerweise bei etwa 80–150 USD pro Person und Tag, wenn Unterkunft, Mahlzeiten, ein geteilter Privatfahrer und wichtige Eintritte über eine Woche gemittelt werden. Budgetreisende mit lokaler Küche und einfachen Gästehäusern halten Essen und Übernachtung oft unter 40–50 USD täglich – Transport und Parktickets summieren sich dennoch.\n\nLuxuslodges, Spa-Hotels im Bergland und exklusive Safaricamps treiben die Tageskosten deutlich über 250 USD. Entscheidend ist nicht ein einzelner „Durchschnitt“, sondern die Mischung aus Transportart, Hotelstandard und der Zahl kostenpflichtiger Sehenswürdigkeiten.',
+      },
+      {
+        title: 'Transport: der Posten, der das Budget prägt',
+        body: 'Öffentliche Busse und Züge sind günstig, kosten aber Zeit und begrenzen, wie viel Insel Sie in einer Woche entspannt sehen. Ein privates Klimafahrzeug mit englischsprachigem Fahrer-Guide kostet mehr pro Tag, rechnet sich aber oft sinnvoll bei zwei bis vier Personen – inklusive direkter Verbindungen, flexibler Stopps und ohne Gepäckstress.\n\nKraftstoff, Fahrermahlzeiten und Übernachtung des Fahrers sind meist in Tourangeboten enthalten; klären Sie die Leistungen, damit Sie keinen „nur Auto“-Tarif mit einem Komplettpaket vergleichen.',
+      },
+      {
+        title: 'Essen und Unterkunft im Überblick',
+        body: 'Ein sättigendes Rice-and-Curry-Mittagessen kostet lokal oft nur wenige Dollar; touristische Restaurants in Galle, Ella und Strandorten verlangen mehr, besonders für Meeresfrüchte und westliche Gerichte. Frühstück ist in Gästehäusern und Hotels häufig inklusive.\n\nSaubere Doppelzimmer sind außerhalb der Hochsaison sehr erschwinglich; Boutique-Villen und Heritage-Hotels in Galle Fort oder Teeplantagen liegen am anderen Ende. Dezember bis März an Süd- und Westküste steigen die Preise am schnellsten – früh buchen oder Termine verschieben, wenn möglich.',
+      },
+      {
+        title: 'Eintritte und Erlebnisse, die sich summieren',
+        body: 'Ausländertickets für Sigiriya, den Zahntempel, die Höhlen von Dambulla und große Nationalparks sind getrennt von Einheimischenpreisen und gehören zu den spürbarsten Ausgaben einer Kultur- oder Wildtierreise. In Yala und ähnlichen Parks kommt zur Parkgebühr oft noch die Jeepmiete.\n\nWalbeobachtung, Kochkurse, Sitzplatzreservierungen im Panoramazug und optionale Aktivitäten gehören in Ihr Reisebudget, damit der Tagesdurchschnitt ehrlich bleibt.',
+      },
+      {
+        title: 'Bargeld, Karten und praktische Geldtipps',
+        body: 'Geldautomaten sind in Städten und Touristenorten verbreitet; kleinere Dörfer und manche Landhotels bevorzugen weiterhin Bargeld in sri-lankischen Rupien. Große Karten funktionieren in vielen Hotels und größeren Restaurants, in kleinen Imbissen und bei Trinkgeld oft nicht.\n\nNehmen Sie eine Mischung aus Bargeld und Karte mit, halten Sie etwas Reserve für Trinkgelder und Tempelspenden bereit, und wechseln Sie große Beträge möglichst nicht zu den schlechtesten Flughafen Kursen, wenn Sie auf eine Bank oder seriöse Wechselstube in Colombo oder Negombo warten können.',
+      },
+      {
+        title: 'Wo mehr (oder weniger) Ausgeben wirklich hilft',
+        body: 'Geld für einen zuverlässigen Privatfahrer und Mittelklasse-Hotels mit guten Bewertungen verbessert die Reise meist mehr als jedes Essen aufzuwerten. Bei der Safari-Jeep-Qualität oder dem Hetzen durch UNESCO-Stätten zu sparen kostet oft mehr Enttäuschung als Bargeld.\n\nReisen in der Zwischensaison, ein Fahrzeug zu dritt oder viert teilen und nahe gelegene Sehenswürdigkeiten an einem Tag kombinieren (etwa Sigiriya mit Dambulla) sind die saubersten Wege, Wert zu halten, ohne die Route auszudünnen.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Ist Sri Lanka teuer für Touristen?',
+        a: 'Im südasiatischen Vergleich mittel: lokales Essen und einfache Unterkünfte sind günstig, Ausländereintritte, Privattransport und Strandhotels in der Hochsaison treiben die Summe. Ein klares Reiseangebot verhindert die meisten Preisschocks.',
+      },
+      {
+        q: 'Wie viel Bargeld sollte ich nach Sri Lanka mitnehmen?',
+        a: 'Viele Reisende heben bei Bedarf Rupien am Automaten ab und behalten eine bescheidene USD- oder Kartenreserve. Planen Sie Bargeld für Trinkgelder, kleine Restaurants, Märkte und manche Eintrittskassen; Hotels nehmen oft Karten.',
+      },
+      {
+        q: 'Lohnt sich ein Privatfahrer auch im Budget?',
+        a: 'Für Paare oder kleine Gruppen, die in einer Woche mehrere Regionen bereisen, kostet ein geteiltes Privatfahrzeug oft weniger pro Person als Zeit und Taxi-Hops des öffentlichen Verkehrs – bei deutlich mehr Flexibilität.',
+      },
+      {
+        q: 'Was ist die größte unerwartete Kostenstelle?',
+        a: 'Ausländereintritte an großen Kulturstätten und Nationalparks sowie Safari-Jeepmiete unterschätzen Besucher am häufigsten, wenn sie nur Hotels und Essen kalkulieren.',
+      },
+      {
+        q: 'Wann sind Hotels in Sri Lanka am günstigsten?',
+        a: 'Außerhalb von Dezember–März an Süd- und Westküste und abseits großer Feiertage sinken die Preise. Die Ostküsten-Hochsaison liegt anders – passen Sie Strandregion und Saison für besseren Wert an.',
+      },
+    ],
+    ctaTitle: 'Holen Sie ein klares Angebot für Ihre Termine',
+    ctaBody: 'Nennen Sie uns Reisezeitraum, Gruppengröße und Tempo – wir skizzieren eine private Route mit transparenten Leistungen, damit Sie vor der Buchung wissen, wofür Sie zahlen.',
+    ctaLabel: 'Reiseangebot anfragen',
+    relatedTours: [
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destGalle', label: 'Galle' },
+    ],
+    relatedGuides: [
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer-Ratgeber' },
+      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik-Ratgeber' },
+    ],
+  }
 };

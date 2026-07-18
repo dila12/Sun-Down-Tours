@@ -515,4 +515,75 @@ export const FOOD_GUIDE: ArticleContent = {
       { pageId: 'guidePacking', label: 'Гид по упаковке вещей для Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Kulinarik-Ratgeber: Was man isst, wo man probiert und wie man bestellt',
+    lead: 'Die srilankische Küche baut auf Reis, Kokosnuss, Gewürzen und dem Meer auf vom einfachen Rice-and-Curry-Mittagessen bis zum nächtlichen Kottu an einer Straßenecke in Colombo. Wer einige Gerichte kennt, weiß, wie Schärfe gehandhabt wird und wo Hygiene am meisten zählt, isst selbstbewusst, ohne die besten Aromen der Insel zu verpassen.',
+    heroAlt: 'Buntes srilankisches Rice-and-Curry mit Sambols und Beilagen',
+    sections: [
+      {
+        title: 'Rice and Curry: die Mahlzeit, die die Insel prägt',
+        body: 'Die alltägliche srilankische Mahlzeit ist ein Hügel Reis, umgeben von mehreren Currys Dhal, Jackfrucht, Rote Bete, Fisch oder Huhn plus Sambols, Papadam und manchmal Mallung aus leicht angebratenem Grünzeug. Portionen sind großzügig und zum Teilen gedacht; ein Rice-and-Curry-Mittagessen in einem lokalen Restaurant oder Gästehaus ist oft der beste Einstieg zu Preis und Authentizität.\n\nCurrys variieren stark nach Region: Kokosmilch dominiert im Süden, während Bergland und Kandy eher trockenere, schärfere Zubereitungen bevorzugen. Fragen Sie nach einer „kleinen Portion“, wenn Sie probieren möchten, und rechnen Sie in vielen Familienbetrieben damit, dass Reis einmal kostenlos nachgefüllt wird.',
+      },
+      {
+        title: 'Hoppers, String Hoppers und Short Eats',
+        body: 'Appa (Hoppers) sind schalenförmige Pfannkuchen aus fermentiertem Reisteig, außen knusprig und innen weich; Egg Hoppers mit flüssigem Dotter sind klassisches Frühstück oder leichtes Abendessen. String Hoppers gedämpfte Reisnudelnester kommen mit mildem Kokos-Sambol und Curry, besonders morgens beliebt.\n\nShort Eats sind die Snack-Kultur der Insel: Gemüseroti, Fischbrötchen (Maalu Paan), Cutlets und Vada aus Glasvitrinen in Bäckereien und Bahnhöfen. Sie sind günstig und sättigend, die Qualität schwankt wählen Sie belebte Theken mit hohem Umschlag statt Ware, die stundenlang liegt.',
+      },
+      {
+        title: 'Kottu, Roti und der Rhythmus des Street Food',
+        body: 'Kottu Roti ist Sri Lankas Straßengericht schlechthin: gehacktes Godamba-Roti auf der heißen Platte mit Gemüse, Ei, Huhn oder Käse, rhythmisch mit Metallklingen zerkleinert man hört es, bevor man es sieht. Am besten frisch am späten Nachmittag und Abend in spezialisierten Kottu-Läden, nicht an generischen Touristenbuffets.\n\nWeitere Straßenklassiker sind Isso Wade (Linsenfrikadellen mit Garnelen), Achcharu (eingelegtes Obst) und über Holzkohle gerösteter Mais. Hygiene ist besser bei Ständen mit lokaler Schlange, sichtbarem Kochen und Zubereitung auf Bestellung statt vorgelegter Ware in der Hitze.',
+      },
+      {
+        title: 'Meeresfrüchte an den Küsten: Galle, Mirissa und darüber hinaus',
+        body: 'Süd- und Westküste glänzen mit frischem Fisch, Garnelen, Krabben und Hummer oft einfach gegrillt mit Limette, Chili und Knoblauchbutter in Strandhütten in Unawatuna, Mirissa und Tangalle. Restaurants in Galle Fort verbinden srilankische Gewürze mit internationaler Technik; Preise steigen innerhalb der Festungsmauern, die Qualität ist meist zuverlässig.\n\nKlären Sie vor Bestellung, ob Meeresfrüchte pro Kilo oder pro Portion berechnet werden eine häufige Quelle für Rechnungsschock. Lagunenkrebs aus Negombo und Riesengarnelen von der Ostküste sind saisonale Highlights, nach denen Sie Ihren Fahrer fragen können.',
+      },
+      {
+        title: 'Schärfe, vegetarisches Essen und Allergien',
+        body: 'Srilankisches Essen kann sehr scharf sein, doch die Hitze steckt meist in Sambols und Currys, nicht überall versteckt Sie können um „weniger Chili“ (Podi Miris) bitten oder den Sambol meiden. Kokosmilch mildert im Süden oft die Schärfe; Bergland-Versionen wirken schärfer.\n\nVegetarische und vegane Optionen sind dank buddhistischer Tradition weit verbreitet: Dhal, Jackfrucht-Curry, Gotu-Kola-Mallung und Gemüseroti sind zuverlässig fleischfrei. In Tempelstädten und Ayurveda-Retreats gibt es oft vollständig vegetarische Mahlzeiten. Nussallergien werden seltener berücksichtigt deutlich erwähnen und bei schweren Fällen Medikamente mitführen.',
+      },
+      {
+        title: 'Getränke und praktische Hygienetipps',
+        body: 'King Coconut (Thambili) von Straßenständen ist eine sichere, erfrischende Wahl, wenn der Verkäufer sie frisch vor Ihnen öffnet. Ceylon-Tee braucht keine Vorstellung pur, mit Milch oder als Eistee in der Hitze. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte außerhalb gehobener Hotels Standard zum Trinken und Zähneputzen sein.\n\nEssen Sie gekochtes Essen möglichst heiß, schälen Sie Obst selbst und nutzen Sie Händedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer-Guide oft verlässliche Mittagsstopps zwischen Authentizität und Sauberkeit.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Ist Street Food in Sri Lanka sicher?',
+        a: 'Oft ja, wenn Sie belebte Stände mit hohem Umschlag, frisch zubereitetes Essen und verschlossene Getränke wählen. Vermeiden Sie vorgeschnittenes Obst in der Sonne und nicht gekühlte Meeresfrüchte. Viele Reisende mischen Straßensnacks mit Rice-and-Curry-Mittagessen in seriösen lokalen Restaurants.',
+      },
+      {
+        q: 'Wie scharf ist srilankisches Essen für westliche Besucher?',
+        a: 'Es kann sehr scharf sein, besonders Sambols und bestimmte Fischcurrys, aber Restaurants reduzieren Chili meist auf Wunsch. Kokosbasierte Currys im Süden sind oft milder; beginnen Sie mit Dhal und Gemüsecurrys, wenn Sie empfindlich sind.',
+      },
+      {
+        q: 'Können Vegetarier gut essen?',
+        a: 'Ja die buddhistische Esskultur bedeutet mehrere Gemüsecurrys, Dhal, Hoppers und Roti ohne Fleisch in den meisten Küchen. Fragen Sie nach, ob ohne Fisch- oder Garnelenpaste (Maldive Fish) gekocht wird, wenn Sie streng vegetarisch sind.',
+      },
+      {
+        q: 'Was sollte man beim ersten Besuch unbedingt probieren?',
+        a: 'Ein vollständiges Rice-and-Curry-Mittagessen, Egg Hopper mit Sambol, Kottu Roti nach Einbruch der Dunkelheit und frisch gegrillter Fisch an der Südküste decken das Wesentliche ab. Ergänzen Sie King Coconut und Ceylon-Tee an einer Teeplantage im Bergland.',
+      },
+      {
+        q: 'Ist Leitungswasser in Sri Lanka sicher?',
+        a: 'Nein verwenden Sie verschlossenes Flaschen- oder gefiltertes Wasser zum Trinken und Zähneputzen außerhalb vertrauenswürdiger Hotels. Eis in etablierten Restaurants und Hotels ist meist in Ordnung; seien Sie vorsichtig bei unbekannten Straßenverkäufern.',
+      },
+    ],
+    ctaTitle: 'Probieren Sie die Insel auf einer privaten Rundreise',
+    ctaBody: 'Unsere Rundreisen mit Fahrer integrieren verlässliche lokale Mittagsstopps, Meeresfrüchte-Abende an der Küste und Tee-Pausen im Bergland nennen Sie uns Ihre Ernährungswünsche bei der Anfrage.',
+    ctaLabel: 'Kulinarische Route planen',
+    relatedTours: [
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destKandy', label: 'Kandy' },
+      { pageId: 'destElla', label: 'Ella' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise-Ratgeber' },
+      { pageId: 'guideBeaches', label: 'Sri Lanka Strände-Ratgeber' },
+      { pageId: 'guidePacking', label: 'Sri Lanka Packliste-Ratgeber' },
+    ],
+  }
 };

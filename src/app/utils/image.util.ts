@@ -6,7 +6,7 @@ export const PLACEHOLDER_IMAGE = 'assets/img/package-2.webp';
  * Bump when regenerating optimized assets so browsers/CDN drop stale WebP/AVIF.
  * Appended as ?v= to image URLs (not routing — only asset query).
  */
-export const IMAGE_ASSET_VERSION = '20260718d';
+export const IMAGE_ASSET_VERSION = '20260718f';
 
 export type ImageFormat = 'webp' | 'avif';
 

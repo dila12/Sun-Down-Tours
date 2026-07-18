@@ -82,7 +82,6 @@ export class SixDaysTour {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/6-day-sri-lanka-private-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.filecode);

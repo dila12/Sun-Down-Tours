@@ -606,4 +606,85 @@ export const ELLA_DAY: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Ella Tagestour',
+    description:
+      'Erleben Sie die Schönheit Ellas an einem erlebnisreichen Tag voller Abenteuer, Kultur und Entspannung.',
+    duration: '1 Tag',
+    persons: '1–20 Reisende',
+    tourType: 'Tagestour',
+    overview:
+      'Entdecken Sie die Schönheit Sri Lankas auf dieser unvergesslichen Tour zur berühmten Nine Arches Bridge in Ella, wo Sie die malerische Zugüberfahrt bestaunen können. Besuchen Sie das Udawalawe Elephant Orphanage, um gerettete Elefanten aus nächster Nähe zu beobachten. Erleben Sie die Naturschönheit der Ravana-Wasserfälle, eines der beeindruckendsten Wasserfälle der Insel. Wandern Sie zum Little Adam’s Peak und genießen Sie einen atemberaubenden Panoramablick über das Bergland Sri Lankas. Krönen Sie Ihr Abenteuer mit einer Minizugfahrt durch die malerische Landschaft von Ella – für bleibende Erinnerungen an diese zauberhafte Reise.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Unterkunft & Verpflegung des Fahrers',
+      'Abholung & Rückbringung',
+      'Kraftstoff & Parkgebühren',
+      '24-Stunden-Service',
+      'Unbegrenzte Kilometer für die gesamte Tour',
+      'Ihre Unterkunft',
+    ],
+    excludes: ['Speisen & Getränke', 'Eintritts- & Aktivitätsgebühren'],
+    seoIntro:
+      'Ella vereint an einem einzigen Tag mehr ikonische Hügellandschaft, als die meisten Reiseziele in einer ganzen Woche bieten. Diese private Tagestour ab Ihrem Hotel kombiniert die auf Instagram berühmte Nine Arches Bridge – zeitlich abgestimmt auf malerische Zugüberfahrten – mit einer kurzen Wanderung zum Little Adam\'s Peak, den donnernden Ravana-Wasserfällen, einem Abschnitt der Zugfahrt durchs Hügelland und einem Stopp im Udawalawe Elephant Transit Home, um gerettete Elefanten zu sehen. Sundown Tours plant den Tag so, dass Sie den Mittagsandrang an der Brücke vermeiden und, wo möglich, die Zugfahrpläne einhalten. Ihr Fahrer-Guide übernimmt die engen Bergstraßen, während Sie sich auf Fotografie und die frische Luft im Teeland konzentrieren können. Eintrittsgebühren und Mittagessen bleiben Ihnen selbst überlassen, sodass Sie Stopps unterwegs verlängern oder verkürzen können.',
+    highlights: [
+      'Nine Arches Bridge mit Aussichtspunkten für die legendäre Zugüberfahrt',
+      'Wanderung zum Little Adam\'s Peak für 360-Grad-Panoramen im Hügelland',
+      'Ravana-Wasserfälle – einer der breitesten und fotogensten Wasserfälle Sri Lankas',
+      'Malerische Zugfahrt durch die Teeplantagen von Ella',
+      'Besuch des Udawalawe Elephant Transit Home für ethisches Tierbeobachten',
+    ],
+    faq: [
+      {
+        q: 'Kann diese Ella-Tagestour ab Nuwara Eliya oder nur ab Ella Stadt starten?',
+        a: 'Wir können Sie von Hotels in Ella, Bandarawela, Haputale oder Nuwara Eliya abholen. Der Abholort beeinflusst die Abfahrtszeit – teilen Sie uns Ihr Hotel bei der Buchung mit, damit wir Fahrzeit und Zuganschlüsse planen können.',
+      },
+      {
+        q: 'Fahren wir die vollständige Zugstrecke von Kandy nach Ella oder nur einen kürzeren Abschnitt?',
+        a: 'Die Tagestour beinhaltet einen malerischen Mini-Abschnitt rund um Ella statt der mehrstündigen Gesamtfahrt. Wenn Sie die klassische Strecke Kandy–Ella wünschen, bitten wir Sie, dies stattdessen in eine mehrtägige Rundreise einzubauen.',
+      },
+      {
+        q: 'Wie viel Gehen ist an der Nine Arches Bridge und beim Little Adam\'s Peak erforderlich?',
+        a: 'Die Nine Arches Bridge erfordert 15–20 Minuten auf unebenen Wegen zum Hauptaussichtspunkt. Little Adam\'s Peak ist ein sanfter 30–45-minütiger Aufstieg. Bequeme Schuhe und ein Hut werden empfohlen.',
+      },
+    ],
+    days: [
+      {
+        title: 'Nine Arches Bridge',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Nine Arches Bridge',
+            description:
+              'Die majestätische Nine Arches Bridge ist einer der Hauptgründe dafür. Die imposante Brücke zwischen Ella und Demodara zählt zu den technischen Meisterwerken des frühen 20. Jahrhunderts.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Zugfahrt durch Ella',
+            description:
+              'Die Zugfahrt durch Ella gilt als eine der schönsten Bahnstrecken Sri Lankas – wenn nicht der Welt! Genießen Sie atemberaubende Ausblicke auf üppige Teeplantagen, Berge, Viadukte und Täler.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Little Adam’s Peak',
+            description:
+              'Mit einer Höhe von 1.141 m dauert der Aufstieg vom Eingang aus etwa 30–45 Minuten. Der Ausblick vom Gipfel ist grandios – ein 360-Grad-Panorama.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Ravana-Wasserfall',
+            description:
+              'Die Ravana-Wasserfälle zählen zu den breitesten Wasserfällen des Landes. Sie sind beeindruckend, und Sie können über die Felsen klettern, um sie aus der Nähe zu erleben.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Elefanten-Waisenhaus Udawalawe',
+            description:
+              'Vierter Stopp: Beobachten Sie eine lebendige Gruppe von rund 20 bis 30 jungen Elefanten, die viermal täglich gefüttert werden.',
+          },
+        ],
+      },
+    ],
+  }
 };

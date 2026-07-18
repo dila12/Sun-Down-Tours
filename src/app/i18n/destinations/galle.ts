@@ -559,4 +559,81 @@ export const GALLE_DEST: ArticleContent = {
       { pageId: 'guideFood', label: 'Гид по еде Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Galle, Sri Lanka: eine befestigte Kolonialstadt an der Südküste',
+    lead: 'Hinter Wällen, die die Niederländer auf portugiesischen Fundamenten errichteten, ist Galle Fort eine lebendige UNESCO-Welterbestadt – Kopfsteinpflastergassen, koloniale Villen als Boutique-Hotels und ein aktiver Leuchtturm, der Schiffe noch immer an demselben Riff vorbeileitet, das diese Küste seit Jahrhunderten prägt.',
+    heroAlt: 'Die Wälle und der Leuchtturm von Galle Fort mit Blick auf den Indischen Ozean',
+    sections: [
+      {
+        title: 'Portugiesische Ursprünge, niederländische Befestigungen',
+        body: 'Die Portugiesen errichteten hier 1588 die erste Festung, doch waren es die Niederländer, die 1640 die Kontrolle übernahmen, die die massiven Granitwälle und Bastionen bauten, die die Altstadt noch heute umschließen. Die Festung wechselte 1796 erneut den Besitzer, als die Briten Ceylon einnahmen, bewahrten dabei aber weitgehend die niederländische Anlage, statt sie zu ersetzen.\n\nGalle Fort überstand die verwüstende Tsunami-Katastrophe im Indischen Ozean 2004 mit weit geringeren strukturellen Schäden als die ungeschützten Gebiete drumherum – ein Umstand, der oft denselben Jahrhunderte zuvor für eine ganz andere Bedrohung errichteten Wällen zugeschrieben wird.',
+      },
+      {
+        title: 'Eine wirklich lebendige Erbestadt',
+        body: 'Anders als viele restaurierte Kolonialstätten ist Galle Fort kein Museumsstück – rund 400 Familien leben noch immer innerhalb der Mauern, neben Boutique-Hotels, Cafés und Galerien in umgebauten niederländischen Handelshäusern. Moscheen, Kirchen und buddhistische Tempel liegen wenige Straßen voneinander entfernt und spiegeln die Vielfalt des Handelsposten wider, die die Stadt über vier Jahrhunderte prägte.\n\n1991 nahm die UNESCO die Festung als Weltkulturerbe auf und würdigte sie als das am besten erhaltene Beispiel einer von Europäern errichteten befestigten Kolonialstadt in Süd- und Südostasien.',
+      },
+      {
+        title: 'Was man in Galle unternehmen sollte',
+        body: 'Der Spaziergang auf den Wällen, etwa 90 Minuten in gemächlichem Tempo, ist die zentrale Aktivität in Galle – die Mauern umschließen die gesamte Halbinsel und bieten auf der einen Seite Meerblick, auf der anderen Blicke über die Dächer; am schönsten bei Sonnenuntergang, wenn sich das Licht über dem Ozean weicher zeigt. Die niederländisch-reformierte Kirche, das alte niederländische Krankenhaus (heute Geschäfte und Restaurants) und das Nationale Meeresmuseum ergänzen die historischen Details.\n\nGalles enge Straßen belohnen langsames, ziellloses Schlendern mehr als jede Sehenswürdigkeiten-Checkliste: Unabhängige Boutiquen mit Batik, Schmuck und Antiquitäten füllen die umgebauten Kolonialläden im gesamten Fort, und eine Kaffeepause in einem schattigen Innenhof ist genauso wichtig wie jedes einzelne Denkmal.',
+      },
+      {
+        title: 'Praktische Tipps für den Besuch',
+        body: 'Galle Fort ist wirklich zu Fuß erkundbar und innerhalb der Mauern weitgehend autofrei – lassen Sie Ihr Fahrzeug auf einem Parkplatz nahe dem Eingang stehen und erkunden Sie den Ort zu Fuß. Die Kopfsteinpflastergassen und unebenen Gehwege machen bequeme Schuhe nützlicher als alles andere, was Sie einpacken.\n\nDie Mittagssonne auf den exponierten Wällen ist intensiv; ein früher Morgen- oder späterer Nachmittagsspaziergang ist deutlich angenehmer als ein Besuch um die Mittagszeit und bietet zugleich das beste Fotolicht.',
+      },
+      {
+        title: 'Wetter in Galle',
+        body: 'Galle liegt an der Südwestküste, in der feuchteren der beiden Monsunzonen Sri Lankas; der Hauptmonsun etwa von Mai bis September bringt den stärksten Regen und rauere See. Dezember bis März ist meist die trockenste, sonnigste Phase und die beliebteste Saison sowohl für die Festung als auch für die umliegenden Strände.\n\nSelbst in den trockeneren Monaten sind kurze Schauer möglich; die überdachten Arkaden des alten niederländischen Krankenhauses und mehrere Cafés im Fort bieten bequemen Schutz, falls Sie einer davon überrascht.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Unawatuna und Mirissa, zwei der bekanntesten Strandorte der Südküste, liegen 15–30 Minuten bzw. etwa eine Stunde entfernt, was Galle zu einer einfachen halbtägigen kulturellen Abwechslung während eines Strandaufenthalts macht. Wal-Beobachtungsboote starten in der Saison (etwa November bis April) von Mirissa, oft kombiniert mit einem Vormittag in Galle Fort.\n\nKoggala und Weligama, bekannt für Stelzenfischer und Surf-Spots, liegen an derselben Küstenstraße und passen zu Reisenden, die eine ruhigere Südküsten-Route rund um Galle planen.',
+      },
+      {
+        title: 'Wo man übernachten kann',
+        body: 'Ein Aufenthalt innerhalb der Festungsmauern, in einer der vielen umgebauten niederländischen oder kolonialen Villen als Boutique-Gästehaus, ist die stimmungsvollste Option und bringt jede Sehenswürdigkeit in kurze Gehdistanz. Zimmer hier sind in der Hochsaison weit im Voraus ausgebucht, angesichts der wenigen Unterkünfte, die der historische Kern fasst.\n\nAußerhalb der Mauern bieten das weitere Galle-Gebiet und nahe Strandorte deutlich mehr Auswahl in jeder Preisklasse – eine praktische Option, wenn Unterkünfte im Fort ausgebucht oder zu teuer sind.',
+      },
+      {
+        title: 'Essen in Galle',
+        body: 'Galle Fort hat eine der besten kleinen Gastro-Szenen Sri Lankas, mit Cafés und Restaurants in umgebauten Kolonialgebäuden, die von frischen Meeresfrüchten und srilankischem Rice and Curry bis zu wirklich gutem Kaffee, Gebäck und internationalen Menüs für länger bleibende Reisende alles bieten.\n\nFür den frischesten Fang beziehen mehrere Restaurants direkt vom Galle-Fischmarkt gleich vor den Festungsmauern, und ein Meeresfrüchte-Abendessen hier, besonders gegrillter Fisch oder Garnelen, gehört zu den verlässlichen Höhepunkten der Südküste.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wie viel Zeit brauche ich für Galle Fort?',
+        a: 'Ein halber Tag deckt den Wallspaziergang und die Hauptsehenswürdigkeiten bequem ab; ein ganzer Tag oder eine Übernachtung innerhalb der Festung erlaubt es, Boutiquen, Museen und Cafés ohne Zeitdruck zu erkunden.',
+      },
+      {
+        q: 'Ist Galle Fort zu Fuß erkundbar, oder braucht man Transport innerhalb?',
+        a: 'Es ist vollständig zu Fuß erkundbar – die Altstadt ist klein und weitgehend fußgängerfreundlich, Autos bleiben meist an den Rändern. Dies ist eine der einfachsten historischen Stätten Sri Lankas, die man ohne Guide erkunden kann.',
+      },
+      {
+        q: 'Was ist die beste Tageszeit für einen Spaziergang auf den Wällen von Galle?',
+        a: 'Früher Morgen oder die Stunde vor Sonnenuntergang – beides für kühlere Temperaturen und das schönste Licht über dem Ozean. Die Mittagssonne auf den exponierten Mauern ist intensiv und sollte vermieden werden.',
+      },
+      {
+        q: 'Kann ich Galle mit Strandzeit an der Südküste kombinieren?',
+        a: 'Ja – Unawatuna und Mirissa sind beide weniger als eine Stunde entfernt, sodass ein Vormittag in Galle Fort gefolgt von einem Strandnachmittag eine übliche und einfache Kombination auf Südküsten-Routen ist.',
+      },
+      {
+        q: 'Ist Galle Fort eine gute Basis, um die Südküste zu erkunden?',
+        a: 'Das kann es sein, besonders für Reisende, die Kultur und Gastronomie ebenso schätzen wie Strandzeit, doch viele bevorzugen einen nahen Strandort als Basis und besuchen Galle Fort als halbtägigen Ausflug.',
+      },
+    ],
+    ctaTitle: 'Nehmen Sie Galle in Ihre Südküsten-Route auf',
+    ctaBody: 'Unsere privaten Rundreisen verbinden Galle Fort mit den Strände der Südküste, dem Yala-Nationalpark und, auf längeren Routen, Whale Watching in Mirissa – Ihr Fahrer-Guide übernimmt die Fahrt zwischen jedem Stopp.',
+    ctaLabel: 'Galle-Besuch planen',
+    relatedTours: [
+      { pageId: 'galleDay', label: 'Galle Tagestour' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour10', label: '10-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+      { pageId: 'destElla', label: 'Ella' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBeaches', label: 'Sri Lanka Strände-Ratgeber' },
+      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik-Ratgeber' },
+    ],
+  }
 };

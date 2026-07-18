@@ -1451,4 +1451,208 @@ export const TOUR6: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Privatreise – 6 Tage | Kulturerbe, Hügelland & Wildlife-Safari',
+    description:
+      'Erleben Sie Sri Lanka in 6 unvergesslichen Tagen mit antiken Städten, UNESCO-Welterbestätten, malerischen Teeplantagen, spannenden Wildlife-Safaris und entspannten Küstenerlebnissen.',
+    duration: '6 Tage',
+    persons: '2-20 Personen',
+    tourType: 'Rundreise',
+    overview:
+      'Erleben Sie die Highlights Sri Lankas auf dieser ausgewogenen 6-tägigen Privatreise. Reisen Sie durch das Kulturdreieck, erkunden Sie die Felsenfestung Sigiriya, besuchen Sie den heiligen Zahntempel in Kandy, fahren Sie durch die nebligen Teeplantagen von Nuwara Eliya, erleben Sie eine spannende Safari im Udawalawe-Nationalpark und entspannen Sie an der wunderschönen Südwestküste. Mit privatem Transport, einem erfahrenen englischsprachigen Fahrer und komfortablen Unterkünften bietet diese Reise die ideale Mischung aus Kultur, Natur, Tierwelt und Erholung – perfekt für Paare, Familien und kleine Gruppen.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Abholung & Rückfahrt zum Flughafen',
+      'Kraftstoff & Parkgebühren',
+      'Unbegrenzte Kilometer für die gesamte Reise',
+    ],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Sechs Tage bieten Ihnen Sri Lankas Kultur-Dreieck, das nebelige Teeland, Leopardengebiete und die von Palmen gesäumte Südküste, ohne das Tempo einer Marathonwoche. Diese private Rundreise beginnt mit den Elefanten von Pinnawala und einer Jeep-Safari in Minneriya bei Sigiriya, führt dann zum Aufstieg auf den Löwenfelsen und zur heiligen Zahnreliquie in Kandy, bevor es weiter durch die Peradeniya-Gärten, die Ramboda-Wasserfälle und aktive Teeplantagen in Nuwara Eliya geht. Am vierten Tag folgt eine 4x4-Safari im Yala-Nationalpark; auf der letzten Etappe stehen statt Tierwelt die Aussichtspunkte von Mirissa, der Leuchtturm Dondra Head, der Schutz von Meeresschildkröten und eine Bootstour durch die Mangroven des Madu-Flusses auf dem Programm. Sundown Tours plant die Fahrzeiten so, dass Ihre Energie für die Felsbesteigung und die frühen Safari-Starts erhalten bleibt. Ihr englischsprachiger Chauffeur übernimmt die Navigation in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung. Die Hotels können auf Halbpension in der 3–4-Sterne-Kategorie organisiert werden; Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind.',
+    highlights: [
+      'Elefanten-Safari in Minneriya und Aufstieg zum UNESCO-Löwenfelsen Sigiriya',
+      'Zahntempel in Kandy, kulturelle Tanzshow und Peradeniya Botanical Gardens',
+      'Besuch einer Teefabrik in Nuwara Eliya, Ramboda-Wasserfälle und malerische Fahrten durchs Hügelland',
+      'Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten, Leoparden und Küstenfeuchtgebieten',
+      'Küste von Mirissa, Leuchtturm Dondra, Schildkröten-Aufzuchtstation und Bootssafari auf dem Madu-Fluss',
+    ],
+    whoIsFor:
+      'Ideal für Paare, Familien und kleine Gruppen, die Kultur, Tierwelt und Strände in weniger als einer Woche ohne Selbstfahren erleben möchten. Moderate Fitness ist für Sigiriya hilfreich; für Senioren schlagen wir gerne leichtere Aussichtspunkte vor.',
+    bestTimeNote:
+      'Ganzjährig möglich, doch Dezember–April bietet das trockenste Wetter an der Südküste und zuverlässigen Zugang zu Yala. Mai–September eignet sich für das Kultur-Dreieck; bei Schließung von Yala wegen Wartungsarbeiten weichen wir auf Udawalawe aus.',
+    faq: [
+      {
+        q: 'Ist die Hotelunterkunft im Preis der 6-tägigen Tour enthalten?',
+        a: 'Die Unterkunft ist nicht im Grundpreis enthalten, wir organisieren aber auf Wunsch Halbpension-Hotels der 3–4-Sterne-Kategorie. Teilen Sie uns bei der Buchung Ihr Budget mit, und wir senden Ihnen Optionen vor der Bestätigung.',
+      },
+      {
+        q: 'Welche Elefanten-Safari besuchen wir – Minneriya oder Kaudulla?',
+        a: 'Wir nutzen Minneriya oder das nahegelegene Kaudulla, je nach saisonaler Elefantenansammlung. Ihr Fahrer bestätigt den besten Park für Ihre Reisedaten, um die Sichtungschancen wilder Elefanten zu maximieren.',
+      },
+      {
+        q: 'Kann diese Tour in Colombo statt am Flughafen beginnen?',
+        a: 'Ja. Wir holen Sie am Flughafen Bandaranaike, in jedem Hotel in Colombo oder an der Südküste ab und bringen Sie am 6. Tag zu Ihrem gewünschten Zielort.',
+      },
+    ],
+    days: [
+      {
+        title: 'Flughafen nach Sigiriya – Elefanten & Safari-Abenteuer',
+        activities: [
+          {
+            type: 'Ankunft',
+            title: 'Flughafenabholung',
+            description:
+              'Treffen Sie Ihren professionellen Fahrer am Flughafen Bandaranaike und beginnen Sie Ihre private Sri-Lanka-Reise in Richtung Kulturdreieck.',
+          },
+          {
+            type: 'Tiererlebnis',
+            title: 'Pinnawala-Elefantenwaisenhaus',
+            description:
+              'Besuchen Sie das Pinnawala-Elefantenwaisenhaus, ein bekanntes Schutzzentrum für gerettete und verwaiste Elefanten. Beobachten Sie die Tiere aus der Nähe und – je nach Zeitpunkt – ihr unvergessliches Bad im Fluss.',
+          },
+          {
+            type: 'Safari',
+            title: 'Safari im Minneriya-Nationalpark',
+            description:
+              'Erleben Sie eine spannende 4x4-Jeep-Safari im Minneriya-Nationalpark, bekannt für „The Gathering" – eine der größten Ansammlungen wilder Elefanten in Asien. Entdecken Sie Elefanten, Hirsche, Büffel und eine vielfältige Vogelwelt.',
+          },
+          {
+            type: 'Dorferlebnis',
+            title: 'Dorftour Hiriwadunna',
+            description: 'Erleben Sie das authentische ländliche Leben Sri Lankas.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa – Sigiriya',
+            description: 'Übernachtung in der Fresco Water Villa (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '3,5-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya nach Kandy – Kulturerbe',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Sigiriya-Felsenfestung',
+            description:
+              'Besteigen Sie die UNESCO-gelistete Löwenfelsen-Festung Sigiriya, einen im 5. Jahrhundert errichteten Königspalast, der dramatisch über den Dschungelebenen aufragt. Entdecken Sie antike Fresken, die Spiegelwand und den Panoramablick vom Gipfel.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description:
+              'Besuchen Sie den Zahntempel in Kandy, einen der heiligsten buddhistischen Tempel der Welt. Erleben Sie traditionelle Rituale und bewundern Sie die schöne kandyanische Architektur.',
+          },
+          {
+            type: 'Kulturerlebnis',
+            title: 'Kandyanische Tanzshow',
+            description:
+              'Genießen Sie am Abend eine Kulturshow mit traditioneller kandyanischer Trommelmusik, Feuerlauf und farbenprächtigen Kostümen, die Sri Lankas reiches künstlerisches Erbe zeigen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Topaz – Kandy',
+            description: 'Übernachtung im Hotel Topaz (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Kandy nach Nuwara Eliya – Malerisches Teeland',
+        activities: [
+          {
+            type: 'Natur',
+            title: 'Royal Botanical Gardens Peradeniya',
+            description:
+              'Erkunden Sie einen der schönsten botanischen Gärten Asiens mit exotischen Orchideen, hohen Palmenallee, Heilpflanzen und wunderschön angelegten Anlagen am Mahaweli-Fluss.',
+          },
+          {
+            type: 'Natur',
+            title: 'Ramboda-Wasserfall',
+            description:
+              'Halten Sie an den Ramboda-Wasserfällen, einem der höchsten Wasserfälle Sri Lankas, umgeben von malerischen Teeplantagen und kühler Bergluft.',
+          },
+          {
+            type: 'Tee-Erlebnis',
+            title: 'Besuch einer Teefabrik & Plantage',
+            description:
+              'Erfahren Sie, wie der weltberühmte Ceylon-Tee vom Blatt bis zur Tasse hergestellt wird. Spazieren Sie durch üppige Teeplantagen und genießen Sie eine frische Tee-Verkostung im Hochland Sri Lankas.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Ramboda Falls Hotel',
+            description: 'Übernachtung im Ramboda Falls Hotel (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Nuwara Eliya nach Yala – Begegnung mit der Tierwelt',
+        activities: [
+          {
+            type: 'Safari',
+            title: 'Safari im Yala-Nationalpark',
+            description:
+              'Erleben Sie eine aufregende Safari im Yala-Nationalpark, einem der besten Orte Sri Lankas, um wilde Elefanten in ihrem natürlichen Lebensraum zu beobachten. Entdecken Sie Elefanten, Krokodile, Hirsche und Vogelwelt in den weiten Graslandschaften.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Grand Tamarind Lake (oder ähnlich) – Halbpension',
+            description: 'Unterkunft im Grand Tamarind Lake oder ähnlichem Hotel – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Yala zur Südwestküste – Fluss & Naturschutz',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Coconut Tree Hill (Mirissa)',
+            description: 'Ein malerischer Ort in Mirissa mit atemberaubendem Blick auf hohe Kokospalmen und den Indischen Ozean.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Leuchtturm Dondra Head',
+            description:
+              'Am südlichsten Punkt Sri Lankas gelegen, bietet dieser Leuchtturm einen Panoramablick auf den Ozean und historischen Charme.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Mirissa Beach',
+            description: 'Ein tropisches Paradies, bekannt für goldenen Sand, klares Wasser und lebendige Sonnenuntergänge.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Somerset Mirissa Hotel',
+            description: 'Unterkunft im Somerset Mirissa Hotel oder ähnlichem Hotel – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Abreise von der Südwestküste – Naturschutz & Safari',
+        activities: [
+          {
+            type: 'Naturschutz',
+            title: 'Meeresschildkröten-Schutzprojekt',
+            description:
+              'Besuchen Sie ein Meeresschildkröten-Schutzzentrum an der Südküste und erfahren Sie mehr über den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmaßnahmen.',
+          },
+          {
+            type: 'Bootssafari',
+            title: 'Bootssafari auf dem Madu-Fluss',
+            description:
+              'Genießen Sie eine malerische Bootssafari durch die Mangrovenwälder und kleinen Inseln des Madu-Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfältige Feuchtgebietswelt.',
+          },
+        ],
+      },
+    ],
+  }
 };

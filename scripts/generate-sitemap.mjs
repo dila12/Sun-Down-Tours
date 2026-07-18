@@ -2,7 +2,7 @@ import { writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-import { PAGES, LOCALES, BASE_URL, buildUrl, buildAlternates } from '../src/app/i18n/site-data.mjs';
+import { PAGES, INDEXABLE_LOCALES, BASE_URL, buildUrl, buildAlternates } from '../src/app/i18n/site-data.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = join(__dirname, '..', 'public');
@@ -88,7 +88,7 @@ async function main() {
 
   const urlEntries = [];
   for (const page of indexablePages) {
-    for (const locale of LOCALES) {
+    for (const locale of INDEXABLE_LOCALES) {
       urlEntries.push(buildUrlEntry(page, locale, lastmod));
     }
   }
@@ -119,7 +119,7 @@ async function main() {
   for (const page of imagePages) {
     const imagePath = GUIDE_HERO_IMAGES[page.id];
     if (!imagePath) continue;
-    for (const locale of LOCALES) {
+    for (const locale of INDEXABLE_LOCALES) {
       imageEntries.push(buildImageEntry(page.id, locale, imagePath, lastmod));
     }
   }

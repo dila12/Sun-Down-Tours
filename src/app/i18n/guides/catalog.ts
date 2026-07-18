@@ -26,6 +26,12 @@ export const GUIDE_PAGE_IDS = [
   'guideFood',
   'guidePacking',
   'guideSafety',
+  'guideWhaleWatching',
+  'guideTrainJourneys',
+  'guideHoneymoon',
+  'guideFamilyTours',
+  'guideLuxuryTours',
+  'guideAirportTransfers',
 ] as const;
 
 export type GuidePageId = (typeof GUIDE_PAGE_IDS)[number];
@@ -85,6 +91,36 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
     pageId: 'guideSafety',
     image: 'assets/img/5daysTours/26.webp',
     imageAlt: 'Traveller safety essentials for a Sri Lanka trip',
+  },
+  {
+    pageId: 'guideWhaleWatching',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'South coast waters near Mirissa for seasonal whale watching',
+  },
+  {
+    pageId: 'guideTrainJourneys',
+    image: 'assets/img/mainpage/6.webp',
+    imageAlt: 'Hill country scenery along Sri Lanka train routes',
+  },
+  {
+    pageId: 'guideHoneymoon',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Private honeymoon touring in Sri Lanka',
+  },
+  {
+    pageId: 'guideFamilyTours',
+    image: 'assets/img/5daysTours/33.webp',
+    imageAlt: 'Family-friendly wildlife and touring in Sri Lanka',
+  },
+  {
+    pageId: 'guideLuxuryTours',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Luxury private chauffeur travel in Sri Lanka',
+  },
+  {
+    pageId: 'guideAirportTransfers',
+    image: 'assets/img/mainpage/3.webp',
+    imageAlt: 'Private airport transfer vehicle in Sri Lanka',
   },
 ];
 

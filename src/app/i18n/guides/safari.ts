@@ -508,4 +508,74 @@ export const SAFARI_GUIDE: ArticleContent = {
       { pageId: 'guidePacking', label: 'Гид по упаковке вещей для Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Safari-Ratgeber: Jeeps, Parks und was Sie bei Game Drives erwartet',
+    lead: 'Safaris in Sri Lanka sind Jeep-Pirschfahrten durch Nationalparksicht das offene Busch-Format Ostafrikas. Wer Buchung, passenden Park und realistische Morgenerlebnisse versteht, spart Enttäuschung und doppelte Kosten für dieselbe staubige Piste.',
+    heroAlt: 'Offener Safari-Jeep auf Pirschfahrt in einem srilankischen Nationalpark',
+    sections: [
+      {
+        title: 'So funktionieren Safaris in Sri Lanka wirklich',
+        body: 'Jeder Besucher braucht Parkticket, registrierten Safari-Jeep und in den meisten Parks einen Tracker der Wildschutzbehörde am Tor. Ihr Fahrer-Guide steuert Timing und Fahrt; der Tracker liest Spuren und koordiniert Sichtungen. Fahrten dauern typisch drei bis vier Stunden; Ganztagesoptionen gibt es, sind aber anstrengend und selten besser für Leoparden.\n\nSelbstfahren in großen Parks ist nicht erlaubt. Jeep, Fahrer und Tracker werden als Paket gebucht über Ihren Reiseveranstalter oder lizenzierte Safari-Firmen am Parkeingang.',
+      },
+      {
+        title: 'Jeep buchen: über die Tour oder am Tor',
+        body: 'Auf einer privaten Rundreise ist es am saubersten, wenn Ihre Chauffeur-Firma Jeep, Einlass und Wunschzeit mitplant besonders in Yala, wo morgens in der Hochsaison Schlangen entstehen. Last-Minute-Jeeps am Tor gibt es manchmal, Qualität schwankt stark.\n\nFragen Sie, ob Parkgebühr, Tracker-Trinkgeld und MwSt. enthalten sind. Günstige Onlinepreise schließen oft das Ausländerticket aus, das separat am Schalter gezahlt wird. Geteilte Jeeps sparen Geld, aber nicht Flexibilität.',
+      },
+      {
+        title: 'Yala vs Udawalawe vs Wilpattu vs Minneriya',
+        body: 'Yala Block I: Leoparden, Krokodile, abwechslungsreiche Landschaftelebtester Park, empfindlich gegenüber Andrang und jährlicher Schließung (meist um September). Udawalawe: offenes Grasland für Elefanten; kinderfreundlicher, kürzere Anfahrt von der Südküste. Wilpattu: Waldseen, Leoparden und Lippenbären mit weniger Jeeps, aber langsameren Fahrten. Minneriya/Kaudulla: saisonale Elefantenversammlungen nahe Sigiriya grandios bei passendem Wasserstand.\n\nEin Park pro Region reicht den meisten Reisenden. Yala und Udawalawe direkt hintereinander lohnt nur, wenn Wildtiere im Mittelpunkt stehen.',
+      },
+      {
+        title: 'Morgen- vs Abendfahrten',
+        body: 'Morgenfahrten (Einlass ab ca. 6:00–6:30) sind kühler, fotografisch besser beleuchtet und statistisch stärker für Leoparden vor der Mittagshitze. Abendfahrten treffen Elefanten am Wasser und bieten dramatisches Licht aber Staub und Müdigkeit nach heißem Tag erschweren Fotos.\n\nViele Gäste fahren nur einmal morgens; zwei Fahrten an aufeinanderfolgenden Tagen schlagen eine Marathon-Session. Ganztagespakete klingen umfassend, bringen aber lange Leerlaufphasen Leoparden sind mittags selten aktiv.',
+      },
+      {
+        title: 'Was Sie zur Pirschfahrt mitnehmen sollten',
+        body: 'Neutrale Farben (Khaki, Olive, Grau) helfen; knalliges Weiß zieht Staub an. Schichten kleiden offene Jeeps sind morgens kalt und gegen 10:00 heiß. Fernglas schlägt oft ein langes Tele; Regenschutz für die Kamera hilft bei Schauern.\n\nSonnencreme, Hut, Mückenschutz und Staubmaske sind unterschätzt. Toiletten im Park sind rar vor dem Tor nutzen. Plastiktüten sind eingeschränkt; Wasser in Mehrwegflaschen mitbringen.',
+      },
+      {
+        title: 'Realistische Erwartungen und Etikette',
+        body: 'Safari ist kein Zoo-Garantie. Elefanten, Hirsche, Krokodile und Pfauen sind häufig ein Leopard kann trotzdem ausbleiben, das ist normal. Fahrer, die hetzen oder Tiere blockieren, stressen Wildtiere und andere Gäste; höflich bitten, Abstand zu halten.\n\nTracker separat trinkgelden, wenn sie echten Mehrwert boten. Erinnerungen zählen mehr als eine Spezies-Checkliste Sri Lankas Parks belohnen Geduld.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Muss ich Yala-Safari im Voraus buchen?',
+        a: 'Ja, in der Hochsaison (besonders Dezember–März und Wochenenden im Juli/August). Ihr Veranstalter oder lizenzierte Safari-Firma sollte Jeep und Einlass reservieren; spontan geht off-season manchmal, ist aber unzuverlässig.',
+      },
+      {
+        q: 'Was kostet ein Safari-Jeep?',
+        a: 'Preise variieren nach Park und Saison; Jeep-Paket plus separates Ausländerticket. Geteilte Jeeps pro Sitz günstiger; private Jeeps volle Kontrolle über Zeit und Stopps.',
+      },
+      {
+        q: 'Yala oder Udawalawe was ist besser?',
+        a: 'Yala für Leoparden und Vielfalt; Udawalawe für verlässliche Elefanten und sanfteres Gelände. Die meisten Routen wählen einen Park, nicht beide.',
+      },
+      {
+        q: 'Können Kinder mit auf Safari?',
+        a: 'Ja Udawalawe und Minneriya sind oft einfacher als lange, holprige Yala-Fahrten. Snacks, Sonnenschutz und realistische Erwartungen an frühe Starts helfen.',
+      },
+      {
+        q: 'Wann sollte die Morgensafari starten?',
+        a: 'Am Parktor gegen 5:45–6:00 für die erste Einlasswelle. Später heißt mehr Jeeps vor Ihnen auf beliebten Leopardrouten.',
+      },
+    ],
+    ctaTitle: 'Wir übernehmen Jeep-Buchungen auf Ihrer Route',
+    ctaBody: 'Unsere privaten Touren koordinieren Parkeintritt, seriöse Jeep-Partner und sinnvolle Fahrzeiten damit der Safari-Tag zwischen Kultur, Bergen und Küste passt.',
+    ctaLabel: 'Safari-Tag planen',
+    relatedTours: [
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt-Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Sri Lanka Packliste-Ratgeber' },
+    ],
+  }
 };

@@ -21,7 +21,7 @@ const restaurant: RelatedLink = {
 export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   ellaDay: {
     context:
-      'This day trip centres on Ella — explore the destination guide, tea-country tips, and related hill-country tours before you book.',
+      'This day trip centres on Ella explore the destination guide, tea-country tips, and related hill-country tours before you book.',
     destinations: [
       { pageId: 'destElla', label: 'Ella destination guide' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -40,13 +40,15 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   galleDay: {
     context:
-      'A Galle day tour pairs the fort and south coast — read the destination page, beach guide, and nearby coastal dining.',
+      'A Galle day tour pairs the fort and south coast read the destination page, beach guide, and nearby coastal dining.',
     destinations: [
       { pageId: 'destGalle', label: 'Galle destination guide' },
+      { pageId: 'destMirissa', label: 'Mirissa' },
       { pageId: 'destElla', label: 'Ella' },
     ],
     guides: [
       { pageId: 'guideBeaches', label: 'Sri Lanka beaches' },
+      { pageId: 'guideWhaleWatching', label: 'Whale watching' },
       { pageId: 'guideFood', label: 'Food guide' },
       { pageId: 'guideBestTime', label: 'Best time to visit' },
     ],
@@ -59,7 +61,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   kandyDay: {
     context:
-      'Kandy day trips cover the Temple of the Tooth and hill-country approaches — link through to destination and tea-country guides.',
+      'Kandy day trips cover the Temple of the Tooth and hill-country approaches link through to destination and tea-country guides.',
     destinations: [
       { pageId: 'destKandy', label: 'Kandy destination guide' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -79,7 +81,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   sigiriyaDay: {
     context:
-      'Sigiriya day tours sit in the Cultural Triangle — continue with Sigiriya and Dambulla destination pages plus safari planning guides.',
+      'Sigiriya day tours sit in the Cultural Triangle continue with Sigiriya and Dambulla destination pages plus safari planning guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya destination guide' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -99,7 +101,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour2ey: {
     context:
-      'Ella and Yala combine hill country with wildlife — use destination pages for Ella and Yala plus safari and packing guides.',
+      'Ella and Yala combine hill country with wildlife use destination pages for Ella and Yala plus safari and packing guides.',
     destinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destYala', label: 'Yala' },
@@ -119,7 +121,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour2ek: {
     context:
-      'Ella and Kandy cover tea country and the hill capital — deepen planning with destination and tea-country guides.',
+      'Ella and Kandy cover tea country and the hill capital deepen planning with destination and tea-country guides.',
     destinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -139,7 +141,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour4: {
     context:
-      'A four-day Cultural Triangle route links Sigiriya, Dambulla and Kandy — follow those destination pages and related guides.',
+      'A four-day Cultural Triangle route links Sigiriya, Dambulla and Kandy follow those destination pages and related guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -159,7 +161,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour5: {
     context:
-      'Five-day itineraries usually mix culture, hills and coast — explore Sigiriya, Ella, Galle and supporting travel guides.',
+      'Five-day itineraries usually mix culture, hills and coast explore Sigiriya, Ella, Galle and supporting travel guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destElla', label: 'Ella' },
@@ -180,7 +182,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour6: {
     context:
-      'Six-day private tours typically include wildlife or coast time — link to Yala, Ella and safari planning content.',
+      'Six-day private tours typically include wildlife or coast time link to Yala, Ella and safari planning content.',
     destinations: [
       { pageId: 'destYala', label: 'Yala' },
       { pageId: 'destElla', label: 'Ella' },
@@ -201,7 +203,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour7: {
     context:
-      'The classic seven-day circuit covers Sigiriya, Kandy, Ella, Yala and Galle — use each destination page and matching guides.',
+      'The classic seven-day circuit covers Sigiriya, Kandy, Ella, Yala and Galle use each destination page and matching guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -224,7 +226,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour8: {
     context:
-      'An eight-day private tour adds breathing room across culture, hills, wildlife and coast — dig into destination and guide pages below.',
+      'An eight-day private tour adds breathing room across culture, hills, wildlife and coast dig into destination and guide pages below.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -248,7 +250,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   },
   tour10: {
     context:
-      'Ten days allows a fuller island circuit — explore all core destinations plus budget, visa and safety guides.',
+      'Ten days allows a fuller island circuit explore all core destinations plus budget, visa and safety guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destDambulla', label: 'Dambulla' },

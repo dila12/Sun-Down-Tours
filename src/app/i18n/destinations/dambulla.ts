@@ -559,4 +559,81 @@ export const DAMBULLA_DEST: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Гид по частным водителям Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Dambulla, Sri Lanka: der Goldene Höhlentempel im Kulturdreieck',
+    lead: 'Fünf Höhlen, gehauen in einen einzigen Felsvorsprung, bewahren über 2.000 Jahre ununterbrochenen buddhistischen Kultus – 153 Buddha-Statuen, bemalte Decken auf über 2.100 Quadratmetern und einen aktiven Tempel, den Pilger noch täglich besteigen.',
+    heroAlt: 'Goldene Buddha-Statue und Höhlentempel-Wandmalereien in Dambulla',
+    sections: [
+      {
+        title: 'Über zwei Jahrtausende ununterbrochener Verehrung',
+        body: 'Der Legende nach suchte König Valagamba im 1. Jahrhundert v. Chr. Zuflucht in diesen Höhlen, nachdem er aus Anuradhapura vertrieben worden war, und schwor, hier einen Tempel zu errichten, sollte er seinen Thron zurückgewinnen. Er tat es, und Dambulla dient seither ununterbrochen als aktiver Ort der Verehrung – eine der am längsten durchgehend genutzten religiösen Stätten Südasiens.\n\nAufeinanderfolgende Könige fügten über Jahrhunderte Statuen, Wandmalereien und Schreine hinzu, insbesondere während der Kandy-Periode im 18. Jahrhundert, als ein Großteil der heute sichtbaren lebendigen Malerei entstand. 1991 nahm die UNESCO den Höhlenkomplex in die Liste des Weltkulturerbes auf.',
+      },
+      {
+        title: 'Fünf Höhlen, fünf verschiedene Atmosphären',
+        body: 'Höhle 1, die „Höhle des göttlichen Königs“, zentriert sich um einen 14 Meter langen liegenden Buddha, direkt aus dem Fels gehauen. Höhle 2, die größte und meistbesuchte, beherbergt 56 Statuen und Deckenmalereien, die Schlüsselszenen aus dem Leben Buddhas und der srilankischen Geschichte nebeneinander darstellen.\n\nDie kleineren Höhlen 3, 4 und 5 sind ruhiger und werden leicht übersehen, belohnen aber einen langsameren Besuch mit intimeren Statuengruppen und Wandmalereien in deutlich unterschiedlichen Stilen, die verschiedene Jahrhunderte königlicher Förderung widerspiegeln.',
+      },
+      {
+        title: 'Was man in Dambulla unternehmen sollte',
+        body: 'Der Aufstieg von der Basis zum Höhleneingang dauert 15–20 Minuten über einen gepflasterten Weg und Stufen, deutlich sanfter als in Sigiriya, mit weiten Blicken über die umliegenden Ebenen und, an klaren Tagen, den Sigiriya-Felsen selbst. Am Eingang müssen die Schuhe ausgezogen werden und durch alle fünf Höhlen getragen werden – eine kleine Tasche hilft dabei.\n\nEine neue, über 30 Meter hohe goldene Buddha-Statue steht an der Basis nahe dem Museum und bietet einen einfachen, klimatisierten Stopp vor oder nach dem Aufstieg – nützlich für Reisende, die Dambulla am selben Tag mit Sigiriya verbinden.',
+      },
+      {
+        title: 'Praktische Tipps für den Besuch',
+        body: 'Dezente Kleidung ist überall erforderlich – Schultern und Knie bedeckt – und Schuhe werden komplett am Höhleneingang ausgezogen; Socken sind daher sinnvoll, da die Steinböden mittags heiß werden können. Fotografieren ist grundsätzlich erlaubt, Blitzlicht bei den Statuen jedoch nicht.\n\nDambulla lässt sich natürlich mit Sigiriya an einem Tag verbinden, wobei sich Dambulla zuerst am kühleren Morgen und Sigiriya danach, wenn der erste Andrang abgeklungen ist, besser bewährt als die umgekehrte Reihenfolge.',
+      },
+      {
+        title: 'Wetter in Dambulla',
+        body: 'Wie Sigiriya liegt Dambulla in der Trockenzone und ist fast das ganze Jahr über angenehm zu besuchen, wobei Januar bis April meist die trockenste und heißeste Phase ist. Die Höhlen selbst bleiben unabhängig vom Wetter draußen relativ kühl, da der Felsüberhang natürlichen Schatten und Isolierung bietet.\n\nNachmittagsgewitter sind von Oktober bis Dezember häufiger; der gepflasterte Zugangsweg kann dann rutschig werden, weshalb Morgenbesuche in dieser Zeit vorzuziehen sind.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Die Felsenfestung Sigiriya liegt nur zwanzig Minuten entfernt und ist bei weitem die häufigste Kombination für einen Tagesausflug. Kandy liegt etwa zwei Stunden südlich, ein natürlicher nächster Stopp für Reisende, die nach dem Kulturdreieck ins Bergland weiterreisen.\n\nDie Wildelefanten-Sammelgebiete der Nationalparks Minneriya und Kaudulla liegen 30–40 Minuten nordöstlich und sind besonders von Juli bis Oktober lohnend, wenn sich große Herden an den Ufern der Stauseen versammeln.',
+      },
+      {
+        title: 'Wo man übernachten kann',
+        body: 'Die Stadt Dambulla selbst bietet eine praktische Mischung aus Mittelklassehotels und Gästehäusern, günstig für einen frühen Start zu den Höhlen, während das nahe Habarana eine landschaftlich reizvollere Basis mit Dschungel-Lodges und Seeblick-Unterkünften bietet, viele mit Blick auf den fernen Sigiriya-Felsen.\n\nBeide Basen funktionieren gut für eine Kulturdreieck-Route; Habarana bietet in der Regel einen ruhigeren, grüneren Aufenthalt zu ähnlichem Preis.',
+      },
+      {
+        title: 'Essen rund um Dambulla',
+        body: 'Rice-and-Curry-Buffets für Tagesausflugsgruppen sind entlang der Hauptstraße Dambulla–Sigiriya üblich, praktisch für ein schnelles, sättigendes Mittagessen zwischen den Besichtigungen. Mehrere Restaurants hier bieten eine wirklich breite Curry-Auswahl, da das Aufkommen an durchreisenden Gästen mehr Vielfalt trägt als kleinere Ortschaften.\n\nFür ein ruhigeres Abendessen servieren Lodges in Habarana oft Mahlzeiten im Freien mit Blick auf Reisfelder oder kleine Seen – ein angenehmer Kontrast zu den Mittagsstopps an der Straße.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wie lange dauert ein Besuch im Höhlentempel von Dambulla?',
+        a: 'Die meisten Besucher benötigen 60–90 Minuten, um alle fünf Höhlen bequem zu sehen, einschließlich des Aufstiegs von der Basis. Planen Sie zusätzliche Zeit ein, wenn Sie auch die goldene Buddha-Statue und das kleine Museum am Eingang besuchen möchten.',
+      },
+      {
+        q: 'Lohnt sich Dambulla, wenn ich auch Sigiriya besuche?',
+        a: 'Ja – beide Orte liegen nur zwanzig Minuten voneinander entfernt und werden fast immer gemeinsam besucht. Dambulla bietet einen sanfteren, schattigen Kontrast zum exponierten Felsaufstieg von Sigiriya, und beide zusammen decken die religiöse wie königliche Geschichte der Region ab.',
+      },
+      {
+        q: 'Was sollte ich für den Besuch des Höhlentempels von Dambulla anziehen?',
+        a: 'Dezente Kleidung, die Schultern und Knie bedeckt, ist erforderlich, und Schuhe müssen am Höhleneingang ausgezogen werden. Bringen Sie Socken mit, wenn Sie empfindlich auf heiße Steinböden reagieren, sowie eine kleine Tasche, um Ihre Schuhe durch alle fünf Höhlen zu tragen.',
+      },
+      {
+        q: 'Ist Fotografieren in den Höhlen erlaubt?',
+        a: 'Fotografieren ist im Allgemeinen erlaubt, Blitzlicht jedoch nicht in der Nähe der bemalten Decken und Statuen – zum Schutz der Kunstwerke und aus Respekt vor dem aktiven Andachtsort.',
+      },
+      {
+        q: 'Was ist die beste Tageszeit für einen Besuch in Dambulla?',
+        a: 'Morgenbesuche sind kühler und weniger überfüllt, besonders nützlich, wenn Sie am selben Tag nach Sigiriya weiterfahren möchten. Auch die Steinböden in den Höhlen bleiben früh am Tag deutlich kühler unter den Füßen.',
+      },
+    ],
+    ctaTitle: 'Kombinieren Sie Dambulla mit Sigiriya',
+    ctaBody: 'Unsere Kulturdreieck-Tagestouren verbinden den Goldenen Höhlentempel mit der Felsenfestung Sigiriya und einer optionalen Wildelefanten-Safari – Ihr Fahrer-Guide übernimmt Zeitplan, Tickets und die Logistik beider Orte.',
+    ctaLabel: 'Dambulla-Tag planen',
+    relatedTours: [
+      { pageId: 'sigiriyaDay', label: 'Sigiriya Tagestour' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Sri Lanka Fahrer-Ratgeber' },
+    ],
+  }
 };

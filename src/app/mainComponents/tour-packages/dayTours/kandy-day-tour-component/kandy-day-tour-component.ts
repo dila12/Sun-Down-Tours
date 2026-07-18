@@ -84,7 +84,6 @@ export class KandyDayTourComponent implements OnInit {
     @Inject(PLATFORM_ID) private platformId: Object, private cdr: ChangeDetectorRef) {}
   
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/kandy-day-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.filecode);

@@ -508,4 +508,74 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Tee-Land Ratgeber: Plantagen, Züge und Bergstädte',
+    lead: 'Das Bergland zwischen Kandy und Ella ist kühler, grüner und langsamer als die Küste konturierte Teesträucher, Kolonialbungalows und neblige Grate, verbunden durch eine der schönsten Panorama-Bahnstrecken Asiens. Wer weiß, wo er übernachtet, was eine Fabriktour bringt und wie man sich für 15-°C-Morgen kleidet, erlebt ein Highlight statt eines feuchten Zwischenstopps.',
+    heroAlt: 'Reihen von Teesträuchern auf einer srilankischen Teeplantage im Bergland',
+    sections: [
+      {
+        title: 'Was „Tee-Land“ auf einer typischen Route umfasst',
+        body: 'Die meisten Rundreisen durchqueren die Berge in zwei bis drei Tagen, oft Kandy → Nuwara Eliya → Ella, mit optionalen Stopps an Plantagen oder Aussichtspunkten. Höhen von etwa 500 m bei Kandy bis über 1.800 m am Horton Plains Temperaturen fallen schnell, Regen kommt ohne viel Vorwarnung.\n\nDas ist kein einzelner Ort, sondern ein Korridor aus Tälern und Gipfeln; man erlebt ihn per Zug, kurzen Spaziergängen und ein bis zwei Übernachtungsbasen statt einer Monument-Checkliste.',
+      },
+      {
+        title: 'Nuwara Eliya: koloniale Bergstation und hohe Gärten',
+        body: '„Little England“ liegt auf rund 1.900 m mit kühlen Nächten, Tudor-Fassaden und Rennbahn-Rasen, der in den Tropen fremd wirkt. Pedro Estate und Mackwoods (Damro) bieten Fabriktouren und Verkostung; Gregory Lake Bootsfahrten bei passendem Wetter.\n\nIdeal für Reisende mit formeller Gartenatmosphäre und kühleren Schlaftemperaturen. Warme Schichten einpacken Hotelzimmer haben selten Heizung, feuchte Wäsche trocknet langsam.',
+      },
+      {
+        title: 'Ella: Aussichten, Wanderungen und entspanntes Zentrum',
+        body: 'Ella ist zum sozialen Mittelpunkt des Berglands geworden kleine Guesthouses, Cafés und Wanderungen zum Little Adam’s Peak und Ella Rock. Nine Arch Bridge am besten mit fahrendem Zug (Fahrplan mit Fahrer klären). Die Stadt passt zu aktiven Reisenden, die informelle Aufenthalte Kolonial-Chic vorziehen.\n\nWetter unberechenbar: klarer Sonnenaufgang kann bis Mittag in Wolken enden. Einen ganzen Tag einplanen statt Durchfahrt, wenn Aussicht zählt.',
+      },
+      {
+        title: 'Kandys Verbindung zum Tee Tor zum Bergland',
+        body: 'Kandy ist Kulturstadt (Zahntempel, Botanischer Garten), aber auch üblicher Start des Aufstiegs ins Tee-Land. Peradeniya zeigt Gewürzbeete und alte Bäume als Übergang von Tieflandhitze zu Bergkühle.\n\nManche Touren übernachten nicht in Nuwara Eliya, sondern fahren mit dem Zug von Kandy Richtung Ella und stoppen unterwegs an einer Plantage sinnvolle Verdichtung bei wenig Zeit, weniger Tiefe.',
+      },
+      {
+        title: 'Plantagenbesuche vs Fabriktouren und der Panoramazug',
+        body: 'Eine Fabriktour zeigt Welken, Rollen, Fermentieren und Verpacken lehrreich, manchmal laut und industriell; Verkostung am Ende ist der Lohn. Spaziergänge über Terrassen sind sanfter und fotogener, besonders früh, wenn Pflücker aktiv sind und Licht weich ist.\n\nDie Strecke Kandy–Badulla (oft Kandy–Ella oder Nanu Oya–Ella) ist die Hauptattraktion reservierte Plätze in Observation oder 1. Klasse wenn möglich, leichtes Gepäck für Bahnsteigtreppen, Verspätungen einplanen; die Aussicht zählt, nicht die Pünktlichkeit.',
+      },
+      {
+        title: 'Packliste für kühles Klima und praktische Tipps',
+        body: 'Fleece oder leichte Jacke, geschlossene Schuhe mit Grip für nasse Bahnsteige, Regenjacke Regenschirme scheitern am Bergwind. Sonnenschutz trotzdem wichtig in der Höhe; UV stark bei Wolkenlücken.\n\nReisekrankheit betrifft manche auf kurvigen Bergstraßen vorn sitzen, kein schweres Curry vor langen Fahrten, Stopps an Aussichtspunkten statt Hetze. Tee-Land belohnt langsame Morgen neblige Terrasse mit Orange Pekoe schlägt eine Autostunde.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wie viele Tage im Tee-Land?',
+        a: 'Zwei Nächte (oft Nuwara Eliya und Ella oder Kandy plus Ella) passen zu den meisten Wochenrouten. Eine Nacht ist hetzig; drei erlauben langsamere Wanderungen und besseres Wetterglück.',
+      },
+      {
+        q: 'Lohnt sich der Zug Kandy–Ella?',
+        a: 'Ja wegen der Landschaft reservierte Plätze in der Hochsaison voraus buchen, tags fahren, Verspätungen mit einplanen. Viele fahren ein Teilstück und fahren den Rest.',
+      },
+      {
+        q: 'Was anziehen in Nuwara Eliya?',
+        a: 'Schichten T-Shirt tags, Pullover oder Fleece nachts. Geschlossene Schuhe mit Grip; Regenjacke ganzjährig.',
+      },
+      {
+        q: 'Teefabrik mit Kindern?',
+        a: 'Meist willkommen; Maschinenlärm und heiße Flächen Hände halten auf Fabrikboden, bei sehr kleinen Kindern bei Lärm vorsichtig.',
+      },
+      {
+        q: 'Nuwara Eliya oder Ella zum Übernachten?',
+        a: 'Nuwara Eliya für koloniale Kühle und Gärten; Ella für Wanderungen, Cafés und Nine Arch Bridge. Viele Routen nutzen je eine Nacht.',
+      },
+    ],
+    ctaTitle: 'Tee-Land in Ihre private Route einweben',
+    ctaBody: 'Nennen Sie Termine und Fitness wir balancieren Zugabschnitte, Plantagenstopps und Bergstadt-Nächte ohne Überlastung der Fahrtage.',
+    ctaLabel: 'Bergland-Route planen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'ellaDay', label: 'Ella Tagesausflug' },
+      { pageId: 'kandyDay', label: 'Kandy Tagesausflug' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Sri Lanka Packliste-Ratgeber' },
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer-Ratgeber' },
+    ],
+  }
 };

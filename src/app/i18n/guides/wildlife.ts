@@ -508,4 +508,74 @@ export const WILDLIFE_GUIDE: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Tierwelt-Ratgeber: Elefanten, Leoparden, Wale und wo man sie sieht',
+    lead: 'Für eine Insel etwa so groß wie Irland birgt Sri Lanka eine außergewöhnliche Wildtierdichte asiatische Elefanten in offenen Graslandschaften, Leoparden im Trockenwald, Blauwale vor der Südküste und endemische Vögel in Regenwaldinseln. Entscheidend ist, Art und Saison passend zu wählen, statt alles in einem hetzigen Vormittag sehen zu wollen.',
+    heroAlt: 'Freilebende Elefanten in einem srilankischen Nationalpark',
+    sections: [
+      {
+        title: 'Elefanten: die verlässlichste Wildtierbegegnung der Insel',
+        body: 'Sri Lanka beherbergt eine der größten Asiatischen-Elefanten-Populationen der Region; in mehreren Parks sind Sichtungen fast Routine. Udawalawe im südzentralen Trockengebiet ist für Familien am zuverlässigsten offenes Gelände, große Herde und kürzere Fahrten als in Yala bedeuten oft Elefanten schon in der ersten Stunde.\n\nMinneriya und Kaudulla nahe Sigiriya sind berühmt für das „Gathering“ von etwa Juli bis Oktober, wenn Hunderte Elefanten an den zurückweichenden Tankufern zusammenkommen. Es ist wetterabhängig, aber bei passenden Bedingungen eines der großen Naturereignisse Asiens.',
+      },
+      {
+        title: 'Leoparden: Yalas Star, Wilpattus ruhigere Alternative',
+        body: 'Yala Block I hat eine der weltweit höchsten Leoparden-Dichten beeindruckend, bis man bedenkt, dass Leoparden Einzelgänger, nachtaktiv und perfekt getarnt sind. Eine gute Morgenfahrt mit geduldigem Tracker gibt dennoch vernünftige Chancen; zwei aufeinanderfolgende Drives verbessern sie deutlich. Andrang an Wochenenden mindert das Erlebnis früh starten und akzeptieren, dass nichts garantiert ist.\n\nWilpattu an der Nordwestküste bietet waldigeres, weniger überfülltes Terrain mit Leoparden, Lippenbären und Vogelwelt ideal, wer weniger Jeeps als maximale Dichte bevorzugt.',
+      },
+      {
+        title: 'Wale, Delfine und Küstenfauna',
+        body: 'Mirissa und Kalpitiya sind die Hauptbasen für Walbeobachtung. Blau- und Pottwale erscheinen vor Mirissa etwa von November bis April; Boote fahren früh, ruhige Morgen sind am besten. Kalpitiya passt zu einem anderen Kalender Delfine ganzjährig, Pottwale in bestimmten Offshore-Fenstern und kombiniert sich gut mit Wilpattu.\n\nSchildkröten-Aufzuchtstationen an der Südküste sind eher Bildung als Wildnis; wer Ethik wichtig findet, bevorzugt Zentren mit ordentlicher Auswilderung und ohne adulte Tiere in Schauaquarien.',
+      },
+      {
+        title: 'Vögel und kleinere Säugetiere, die Umwege lohnen',
+        body: 'Bundala nahe Hambantota ist ein Ramsar-Feuchtgebiet für Zugvögel, Flamingos und Salzwasserkrokodile hervorragend für Birding, oft übersehen auf Standardrundreisen. Sinharaja, UNESCO-Regenwald, birgt viele endemische Vögel und lohnt sich am besten zu Fuß mit lokalem Guide statt aus dem Jeep.\n\nKleinere Parks wie Gal Oya (Bootssafaris) und Horton Plains (Sambar und Hochlandvögel) belohnen Reisende, die mehr als die Yala–Udawalawe-Achse wollen.',
+      },
+      {
+        title: 'Yala, Udawalawe, Minneriya oder Wilpattu was passt?',
+        body: 'Yala: Leoparden, abwechslungsreiches Habitat, gut mit Kulturdreieck kombinierbar, aber voll und etwa einen Monat jährlich geschlossen (meist September). Udawalawe: Elefanten, ideal mit Kindern oder wenig Zeit. Minneriya/Kaudulla: saisonale Versammlungen nahe Sigiriya Wasserstand vor Buchung prüfen. Wilpattu: ruhigeres Leopard- und Bärenland mit längeren Waldfahrten.\n\nDie meisten Wochenrundreisen schaffen sinnvoll ein bis zwei Parks, nicht vier. Ihr Fahrer-Guide ordnet nach Saison, Fahrzeit und dem, was Sie in Asien schon gesehen haben.',
+      },
+      {
+        title: 'Ethik, Jahreszeiten und verantwortungsvolles Beobachten',
+        body: 'Im Jeep bleiben, sofern Parkregeln nichts anderes erlauben; Fahrer nie zum Jagen, Blockieren oder Bedrängen von Muttertieren mit Kälbern ermutigen. Blitzlicht und Lärm stressen Tiere Fernglas und Geduld schlagen Close-ups.\n\nTrockenzeit (etwa Mai–September in Südostparks, November–April für Wale) konzentriert Tiere an Wasser. Monsunregen stoppt Safaris selten ganz, bedeutet aber matschige Pisten und weniger aktive Katzen. Parkwahl mit unserem Beste-Reisezeit-Ratgeber abstimmen und Jeeps über seriöse Anbieter buchen.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Welcher Park ist am besten für Elefanten?',
+        a: 'Udawalawe ist ganzjährig am verlässlichsten; Minneriya und Kaudulla sind von etwa Juli bis Oktober spektakulär, wenn Herden an den Tankufern zusammenkommen.',
+      },
+      {
+        q: 'Sieht man Leoparden bei einer einzigen Yala-Safari?',
+        a: 'Möglich, aber nicht garantiert. Zwei Drives (Morgen und Abend) an aufeinanderfolgenden Tagen geben deutlich bessere Chancen als eine hetzte Runde.',
+      },
+      {
+        q: 'Wann ist Walbeobachtungssaison in Mirissa?',
+        a: 'Etwa November bis April, ruhigste See meist am Morgen. Außerhalb dieses Fensters lieber Parks oder die Ostküste statt einer erzwungenen Bootsfahrt.',
+      },
+      {
+        q: 'Sind Elefanten-Waisenhäuser ethisch vertretbar?',
+        a: 'Viele Reisende bevorzugen heute Wildparks. Wer ein Sanctuary besucht, sollte prüfen, ob Tiere gefesselt, geritten oder für Shows genutzt werden seriöse Zentren tun das nicht.',
+      },
+      {
+        q: 'Wie viele Nationalparks passen in eine Woche?',
+        a: 'Ein bis zwei Wildtierstopps neben Kultur und Bergen z. B. Udawalawe plus Walbeobachtung oder Yala mit Minneriya, wenn das Gathering passt.',
+      },
+    ],
+    ctaTitle: 'Wildtierbeobachtung in Ihre private Route einbauen',
+    ctaBody: 'Nennen Sie uns Reisedaten und Prioritäten wir ordnen die passenden Parks, Jeepzeiten und Fahrtetappen in eine Rundreise mit Chauffeur ein, ohne die Woche zu überladen.',
+    ctaLabel: 'Wildtier-Route planen',
+    relatedTours: [
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideSafari', label: 'Sri Lanka Safari-Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer-Ratgeber' },
+    ],
+  }
 };

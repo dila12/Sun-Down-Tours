@@ -559,4 +559,81 @@ export const KANDY_DEST: ArticleContent = {
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки в Шри-Ланку' },
     ],
   },
+  nl: {
+    h1: 'Kandy, Sri Lanka: die heilige Bergstadt des letzten Königreichs',
+    lead: 'Als letzte Hauptstadt, die der Kolonialherrschaft unterlag, fühlt sich Kandy noch immer wie das spirituelle Herz Sri Lankas an – eine Stadt am See, gebaut um einen Tempel mit einer der heiligsten Reliquien des Buddhismus, umgeben von Hügeln, botanischen Gärten und Teeplantagen.',
+    heroAlt: 'Der Zahntempel spiegelt sich im Kandy-See',
+    sections: [
+      {
+        title: 'Das letzte unabhängige Königreich',
+        body: 'Kandy wurde im 16. Jahrhundert Hauptstadt des zentralen Königreichs Sri Lankas und hielt dank seines Geländes und kluger Strategie über 250 Jahre lang portugiesischen und niederländischen Invasionen stand – länger als jede andere Regionalmacht. Erst 1815 fiel es an die Briten und beendete damit fast 2.400 Jahre ununterbrochener srilankischer Monarchie.\n\nDieser späte Fall bedeutet, dass Kandys königliche Architektur, höfische Rituale und Tempeltraditionen bis in die Moderne weitgehend intakt überlebten – eine Kontinuität zur vorkolonialen Vergangenheit, die man anderswo auf der Insel kaum findet.',
+      },
+      {
+        title: 'Heimat des Zahntempels',
+        body: 'Die Sri Dalada Maligawa beherbergt, was Buddhisten als Zahnreliquie Buddhas verehren, im 4. Jahrhundert nach Sri Lanka gebracht und nach Kandy verlegt, als das Königreich seine Hauptstadt hierher verlegte. Die Reliquie selbst wird selten gezeigt, doch die zweimal täglichen Trommelzeremonien und der stete Zustrom von Gläubigen sind Grund genug für einen Besuch.\n\nJeden August zieht das Esala-Perahera-Festival eine Nachbildung des Reliquienschreins auf einem geschmückten Elefanten durch die Straßen, begleitet von Feuertänzern, Trommlern und Kandy-Tänzern in voller Tracht – eine der großen religiösen Prozessionen Asiens, um die sich eine Reise durchaus planen lässt, wenn die Termine passen.',
+      },
+      {
+        title: 'Was man in Kandy unternehmen sollte',
+        body: 'Neben dem Zahntempel beherbergt der Königliche Botanische Garten in Peradeniya, kurz vom Zentrum entfernt, eine der schönsten Orchideensammlungen Asiens und eine Allee hoher Palmen, gepflanzt von Königen und Staatsgästen. Der Spaziergang am Kandy-See in der Abenddämmerung, mit Fruchtfledermäusen über dem Kopf, ist ein einfaches, kostenloses Vergnügen, das viele Besucher unterschätzen.\n\nEine abendliche Kandy-Tanzvorführung – Trommeln, Feuerlauf und akrobatischer Maskentanz mit Wurzeln in rituellen Exorzismustraditionen – liefert nützlichen Kontext vor oder nach dem Tempelbesuch, und die Hügel über dem See bieten ruhige Ausblicke über die ganze Stadt.',
+      },
+      {
+        title: 'Praktische Tipps für den Besuch',
+        body: 'Kleiden Sie sich für den Zahntempel dezent: Schultern und Knie bedeckt, Schuhe am Eingang ausziehen, und rechnen Sie damit, einen Teil des Geländes barfuß zu gehen. Die Zeremonienzeiten (etwa 5:30–6:45 Uhr, 9:30–11 Uhr und 18:30–20 Uhr) lohnen sich für die Planung, wenn Sie die Trommler hören möchten.\n\nDer Verkehr in Kandy kann dicht und langsam sein, besonders rund um den See zu Stoßzeiten – planen Sie daher lieber zusätzliche Zeit zwischen den Aktivitäten ein, statt einen engen Zeitplan, wenn Sie sich selbstständig fortbewegen.',
+      },
+      {
+        title: 'Wetter in Kandy',
+        body: 'Auf rund 500 Metern Höhe ist Kandy deutlich kühler als die Küste, aber wärmer und weniger nebelig als Ella oder Nuwara Eliya, was es das ganze Jahr über angenehm zum Erkunden macht. Die feuchteren Monate liegen meist um Oktober–November und erneut im April–Mai, bedingt durch die Überlagerung der beiden Monsunsysteme der Insel im zentralen Bergland.\n\nJanuar bis März bietet meist die zuverlässigsten trockenen, klaren Bedingungen für Besichtigungen und den abendlichen Seespaziergang.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Sigiriya und Dambulla liegen beide etwa 1,5–2 Stunden nördlich, sodass Kandy ein natürlicher Übernachtungsstopp zwischen Kulturdreieck und Bergland ist. Das Elefanten-Waisenhaus Pinnawala, etwa 45 Minuten entfernt, ist ein beliebter Halbtagesausflug, obwohl unabhängige Reisende zunehmend die naturnäheren Elefantenbegegnungen bei Udawalawe oder Minneriya bevorzugen.\n\nElla und das Teeland beginnen etwa zwei bis drei Stunden südöstlich per Straße oder mit einer malerischen Zugfahrt, was Kandy zum klassischen Ausgangspunkt für die Bergland-Bahnreise macht.',
+      },
+      {
+        title: 'Wo man in Kandy übernachten kann',
+        body: 'Hotels am See bringen Sie in Gehdistanz zum Zahntempel und zum abendlichen Seespaziergang und sind meist die praktischste Basis für einen kurzen Aufenthalt. Unterkünfte am Hügel über der Stadt bieten dafür weite Ausblicke über See und Dächer, besonders schön zum Sonnenuntergang.\n\nGünstige Gästehäuser konzentrieren sich in den Straßen etwas hinter dem See, mit kurzem Fußweg zu Restaurants, Tempel und Bahnhof.',
+      },
+      {
+        title: 'Essen in Kandy',
+        body: 'Kandy bietet einige der besten Rice-and-Curry-Buffets des Landes, oft rund um eine zentrale Küche mit zwanzig oder mehr kleinen Gerichten gleichzeitig – eine ausgezeichnete Einführung in die Vielfalt der srilankischen Gemüse- und Linsenküche. Die Stadtgröße unterstützt auch ein ordentliches Angebot an indischen, chinesischen und westlichen Optionen für Reisende, die Abwechslung suchen.\n\nEinen kurzen Fußweg vom See entfernt servieren einige einfache lokale Cafés Kottu Roti, frisch auf der heißen Platte zubereitet – mindestens einmal probieren, allein schon wegen des Schauspiels.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wie viel Zeit sollte ich in Kandy einplanen?',
+        a: 'Ein voller Tag reicht bequem für den Zahntempel, den botanischen Garten und einen abendlichen Seespaziergang; zwei Tage erlauben ein entspannteres Tempo mit Zeit für eine Kandy-Tanzvorführung und die umliegenden Hügel.',
+      },
+      {
+        q: 'Was sollte ich für den Besuch des Zahntempels anziehen?',
+        a: 'Dezente Kleidung, die Schultern und Knie bedeckt, sowie Schuhe aus vor den inneren Tempelbereichen. Sarongs und Schals werden nahe dem Eingang für Besucher verkauft, die zu leicht bekleidet ankommen.',
+      },
+      {
+        q: 'Wann findet das Esala-Perahera-Festival in Kandy statt?',
+        a: 'Es dauert zehn Nächte im Juli oder August, ausgerichtet am Mondkalender und daher jedes Jahr leicht verschoben – prüfen Sie die aktuellen Termine vor der Buchung, falls dies für Sie wichtig ist, da Unterkünfte lange vorher ausgebucht sind.',
+      },
+      {
+        q: 'Ist Kandy eine gute Basis, um das Bergland zu erkunden?',
+        a: 'Ja – Kandy liegt am nördlichen Ende der malerischen Bergland-Bahnstrecke nach Ella und Nuwara Eliya und ist etwa gleich weit vom Kulturdreieck und vom Hochland entfernt, was es zu einem praktischen Knotenpunkt für mehrtägige Rundreisen macht.',
+      },
+      {
+        q: 'Lohnt sich ein Besuch im Elefanten-Waisenhaus Pinnawala?',
+        a: 'Die Meinungen gehen auseinander – Pinnawala ist praktisch und leicht von Kandy erreichbar, doch viele unabhängige Reisende bevorzugen heute Wildelefanten-Sichtungen in Minneriya, Kaudulla oder im Udawalawe-Nationalpark für ein naturnäheres Erlebnis.',
+      },
+    ],
+    ctaTitle: 'Nehmen Sie Kandy in Ihre Route auf',
+    ctaBody: 'Jede unserer mehrtägigen privaten Rundreisen führt durch Kandy, zeitlich abgestimmt auf die Zeremonien im Zahntempel und den Königlichen Botanischen Garten – Ihr Fahrer-Guide übernimmt Verkehr und Logistik.',
+    ctaLabel: 'Kandy-Besuch planen',
+    relatedTours: [
+      { pageId: 'kandyDay', label: 'Kandy Tagestour' },
+      { pageId: 'tour2ek', label: '2-tägige Ella & Kandy Tour' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destDambulla', label: 'Dambulla' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideTeaCountry', label: 'Sri Lanka Teeland-Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+    ],
+  }
 };

@@ -3,7 +3,13 @@ import { LayoutComponent } from '../mainComponents/layout-component/layout-compo
 import { DEFAULT_LOCALE, NON_DEFAULT_LOCALES, type Locale } from './locales';
 import { REGISTRY } from './pages.registry';
 import { articleResolver } from './articles/article.resolver';
-import { LEGACY_GUIDE_REDIRECTS, buildPath } from './site-data.mjs';
+import {
+  LEGACY_DEST_REDIRECTS,
+  LEGACY_GUIDE_REDIRECTS,
+  LEGACY_TOUR_REDIRECTS,
+  buildPath,
+  getPage,
+} from './site-data.mjs';
 
 /**
  * Builds the full route table from the page registry:
@@ -33,14 +39,8 @@ export function buildRoutes(): Routes {
     });
   }
 
-  // Permanent redirects from legacy flat English guide/hub slugs.
-  for (const [legacySlug, pageId] of Object.entries(LEGACY_GUIDE_REDIRECTS)) {
-    children.push({
-      path: legacySlug,
-      redirectTo: buildPath(pageId, DEFAULT_LOCALE).replace(/^\//, ''),
-      pathMatch: 'full',
-    });
-  }
+  // Permanent redirects from legacy flat English guide/hub slugs (EN root).
+  pushLegacyRedirects(children, DEFAULT_LOCALE, LEGACY_GUIDE_REDIRECTS);
 
   // Prefixed locales with translated slugs.
   for (const locale of NON_DEFAULT_LOCALES) {
@@ -58,13 +58,9 @@ export function buildRoutes(): Routes {
       };
     });
 
-    for (const [legacySlug, pageId] of Object.entries(LEGACY_GUIDE_REDIRECTS)) {
-      localeChildren.push({
-        path: legacySlug,
-        redirectTo: stripLocalePrefix(buildPath(pageId, locale as Locale), locale),
-        pathMatch: 'full',
-      });
-    }
+    pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_GUIDE_REDIRECTS);
+    pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_TOUR_REDIRECTS);
+    pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_DEST_REDIRECTS);
 
     children.push({
       path: locale,
@@ -72,8 +68,14 @@ export function buildRoutes(): Routes {
     });
   }
 
-  // Unknown paths fall back to the English home page.
-  children.push({ path: '**', redirectTo: '' });
+  // True 404 (HTTP status set in NotFoundComponent via RESPONSE_INIT on SSR).
+  // Legacy slug 301s are handled at the edge (Express / Vercel), not here.
+  children.push({
+    path: '**',
+    loadComponent: () =>
+      import('../mainComponents/not-found/not-found.component').then((m) => m.NotFoundComponent),
+    data: { notFound: true },
+  });
 
   return [
     {
@@ -82,6 +84,35 @@ export function buildRoutes(): Routes {
       children,
     },
   ];
+}
+
+/**
+ * Adds redirect routes for legacy slugs only when the live localized slug
+ * differs (avoids duplicate-path conflicts when a slug is unchanged).
+ */
+function pushLegacyRedirects(
+  routes: Routes,
+  locale: Locale,
+  map: Record<string, string>,
+): void {
+  for (const [legacySlug, pageId] of Object.entries(map)) {
+    const page = getPage(pageId);
+    if (!page) {
+      continue;
+    }
+    if (page.slugs[locale] === legacySlug) {
+      continue;
+    }
+    const target = buildPath(pageId, locale);
+    routes.push({
+      path: legacySlug,
+      redirectTo:
+        locale === DEFAULT_LOCALE
+          ? target.replace(/^\//, '')
+          : stripLocalePrefix(target, locale),
+      pathMatch: 'full',
+    });
+  }
 }
 
 /** Strip `/{locale}/` so redirectTo stays relative to the locale parent route. */

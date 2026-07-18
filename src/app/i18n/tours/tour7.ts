@@ -2152,4 +2152,296 @@ export const TOUR7: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Rundreise – 7 Tage',
+    description:
+      'Erleben Sie die Schönheit Sri Lankas auf einer 7-tägigen Privatreise voller Abenteuer, Kultur und Erholung.',
+    duration: '7 Tage',
+    persons: '20 Personen',
+    tourType: 'Rundreise',
+    overview:
+      'Wir organisieren für Sie den perfekten Urlaub auf der „Paradiesinsel" Sri Lanka. Unser 7-Tage-Paket (6 Nächte) verbindet alle berühmten Höhepunkte mit seltenen, für Sundown Tours typischen Erlebnissen – Unterbringung in Sri Lankas besten 4-Sterne-Hotels auf Halbpension. Yala-Safari, Sigiriya, die Nine Arches Bridge in Ella, die Zugfahrt nach Ella, der Zahntempel in Kandy, der Ramboda-Wasserfall, die Wanderung auf Little Adam’s Peak, Nuwara Eliya, das Fort von Galle und eine Bootstour auf dem Bentota-Fluss sind nur einige der Attraktionen. Insgesamt besuchen Sie 28 Attraktionen in 10 Distrikten – mit privatem Transport.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Unterkunft & Verpflegung des Fahrers',
+      'Abholung & Rückbringung',
+      'Kraftstoff & Parkgebühren',
+      '24-Stunden-Service',
+      'Unbegrenzte Kilometer für die gesamte Rundreise',
+      'Überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    excludes: ['Speisen & Getränke', 'Eintritts- & Aktivitätsgebühren'],
+    seoIntro:
+      'Eine siebentägige Sri-Lanka-Rundreise ist das klassische Erstbesucher-Programm und das aus gutem Grund. In einer Woche reisen Sie vom antiken Kultur-Dreieck über das neblige Teehochland bis in Leopardengebiete und an die palmen gesäumte Südküste, ohne sinnlose Umwege oder täglich ein neues Hotel. Sundown Tours hat diese private Route für Paare, Familien und kleine Gruppen konzipiert, die Kultur, Tierwelt und Landschaft kombinieren möchten: Wilpattu-Wildlife zu Beginn, Dorfleben und Elefantentreffen bei Sigiriya, Aufstieg auf den Löwenfelsen und Zahntempel-Rituale in Kandy, malerische Zugfahrt nach Ella, Nine Arches Bridge und Little Adam\'s Peak, Jeep-Safari im Yala-Nationalpark sowie UNESCO Galle Fort plus Fluss- und Schildkröten-Erlebnisse vor der Abreise. Ihr englischsprachiger Chauffeur kümmert sich um Navigation, Timing und lokales Wissen, während Sie in einem klimatisierten Privatfahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterbringung erfolgt in ausgewählten 4-Sterne-Hotels auf Halbpension; Kategorie und Strandnächte passen wir auf Wunsch an.',
+    highlights: [
+      '28 kuratierte Stopps in 10 Distrikten an 7 Tagen mit privatem Chauffeur und unbegrenzter Kilometerleistung',
+      'Wilpattu-Safari, Sigiriya Löwenfelsen, Zahntempel in Kandy und Zugpanorama im Hügelland von Ella',
+      'Leoparden- und Elefanten-Safari im Yala-Nationalpark im eigenen 4x4-Jeep',
+      'Halbpension in sorgfältig ausgewählten 4-Sterne-Hotels',
+      'Sundown-Extras: Dorfkochkurs, Ayurveda, Sonnenuntergang am Pidurangala und Madu-Fluss-Mangroven',
+    ],
+    whoIsFor:
+      'Ideal für Erstbesucher, Familien mit Teenagern und Paare, die Kultur, Tierwelt und Landschaft in einer Woche ohne Selbstfahren wünschen. Moderate Fitness für Felsbesteigungen und kurze Wanderungen; für Senioren passen wir das Tempo auf Wunsch an.',
+    bestTimeNote:
+      'Ganzjährig möglich; Dezember–April bietet trockeneres Wetter an West- und Südküste und zuverlässigen Yala-Zugang. Mai–September eignet sich für das Kultur-Dreieck und Ostküsten-Erweiterungen; Safariparks passen wir saisonal für Elefantentreffen an.',
+    faq: [
+      {
+        q: 'Wie viele Hotelübernachtungen sind in der 7-Tage-Tour enthalten?',
+        a: 'Das Paket umfasst 6 Nächte in 4-Sterne-Hotels auf Halbpension entlang der Route. Unterkunft und Verpflegung des Fahrers sind separat inklusive; Eintrittsgebühren und Mittagessen tragen Sie selbst.',
+      },
+      {
+        q: 'Können wir die Wilpattu-Safari an Tag 1 anpassen oder Yala gegen einen anderen Park tauschen?',
+        a: 'Ja. Wildtierrouten variieren je nach Saison wir nutzen gegebenenfalls Minneriya/Kaudulla für Elefantentreffen oder Udawalawe als Alternative. Nennen Sie uns Ihre Prioritäten bei der Buchung.',
+      },
+      {
+        q: 'Ist die malerische Zugfahrt in Ella im Preis enthalten?',
+        a: 'Der ikonische Ella-Zugabschnitt gehört zur Route; Fahrkarten sind nicht im Basispaket enthalten, aber unser Guide organisiert die bestmögliche Klasse und Zeit für Ihre Gruppe.',
+      },
+      {
+        q: 'Welche Fitness braucht man für Sigiriya und Little Adam\'s Peak?',
+        a: 'Sigiriya erfordert etwa 1.000 Stufen mit steileren Passagen; Little Adam\'s Peak ist eine sanftere 45-minütige Wanderung. Wer es leichter möchte, kann Pidurangala für den Sonnenuntergang wählen.',
+      },
+    ],
+    days: [
+      {
+        title: 'Flughafen / Hotel – Wilpattu',
+        activities: [
+          {
+            type: 'Safari',
+            title: 'Safari im Wilpattu-Nationalpark',
+            description:
+              'Erkunden Sie Sri Lankas größten Nationalpark bei einer 5-stündigen Jeep-Safari im 4x4. Halten Sie Ausschau nach Leoparden, Lippenbären, Elefanten, Hirschen, Krokodilen und einer vielfältigen Vogelwelt.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Thimbiri Wewa Resort – Wilpattu',
+            description: 'Übernachtung im Thimbiri Wewa Resort Wilpattu (oder ähnlich). Auf Halbpension.',
+            extra: ['Abendessen inklusive', 'Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Wilpattu – Sigiriya',
+        activities: [
+          {
+            type: 'Landerlebnis',
+            title: 'Dorf- und See-Abenteuer in Hiriwadunna',
+            description:
+              'Erleben Sie das echte Landleben Sri Lankas bei einer traditionellen Dorftour in Hiriwadunna: ein Spaziergang durch Reisfelder, eine Ochsenkarrenfahrt und eine Kanufahrt über den See. Beim Kochkurs bereiten Sie mit einer Familie authentische Gerichte im Tontopf über dem Holzfeuer zu.',
+          },
+          {
+            type: 'Safari',
+            title: 'Jeep-Safari in Kaudulla & Minneriya',
+            description:
+              'Genießen Sie eine 4x4-Jeep-Safari in Kaudulla oder Minneriya – je nach Tierbewegungen und Saison. Beide Parks sind für ihre großen Elefantenherden bekannt; zur Trockenzeit erleben Sie mitunter die spektakuläre „Elephant Gathering".',
+          },
+          {
+            type: 'Wellness',
+            title: 'Ayurveda in Sigiriya – die gesunde Seite Ihrer Reise',
+            description:
+              'Entspannen Sie nach dem aktiven Tag bei einer ayurvedischen Ölmassage mit natürlichen Kräuterölen in einem traditionellen Ayurveda-Zentrum in Sigiriya – ideal, um Muskeln zu lockern und neue Energie zu tanken.',
+          },
+          {
+            type: 'Aussichtspunkt',
+            title: 'Sonnenuntergang am Pidurangala-Felsen',
+            description:
+              'Erklimmen Sie am Abend den Pidurangala-Felsen für einen der schönsten Sonnenuntergänge Sri Lankas mit 360-Grad-Blick auf den Sigiriya-Löwenfelsen und den Dschungel. Der Aufstieg dauert etwa 20–30 Minuten.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa – Sigiriya',
+            description: 'Übernachtung in der Fresco Water Villa (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '3,5-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya nach Kandy',
+        activities: [
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Löwenfelsen-Festung Sigiriya',
+            description:
+              'Besuchen Sie die Felsenfestung Sigiriya, UNESCO-Welterbe und im 5. Jahrhundert von König Kashyapa erbaut. Durch die königlichen Wassergärten führt der Weg vorbei an den berühmten Fresken und der Spiegelwand bis zum Gipfel mit Palastruinen und Panoramablick.',
+          },
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Kräuter- und Gewürzgarten in Matale',
+            description:
+              'In einem Gewürzgarten in Matale sehen Sie, wie Zimt, Kardamom, Pfeffer, Vanille und Kakao angebaut werden, und erfahren mehr über ihre ayurvedische Verwendung – mit einer Kostprobe frischen Gewürztees.',
+          },
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Edelstein- und Gemmologie-Museum',
+            description:
+              'Entdecken Sie im Gemmologie-Museum in Kandy die berühmten Ceylon-Edelsteine und lernen Sie, wie sie abgebaut, geschliffen und poliert werden.',
+          },
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description:
+              'Besuchen Sie den Zahntempel in Kandy, eine der heiligsten buddhistischen Stätten und UNESCO-Welterbe. Bewundern Sie die kandyanische Architektur am See; zur Puja-Zeit erleben Sie traditionelles Trommeln und Andachtsrituale.',
+          },
+          {
+            type: 'Kulturshow',
+            title: 'Kulturshow im Kandy Lake Club',
+            description:
+              'Genießen Sie am Abend eine traditionelle Kandy-Tanzshow mit farbenprächtigen Kostümen, Trommelmusik, Maskentänzen und Feuerlauf – ein perfekter kultureller Tagesabschluss.',
+          },
+          {
+            type: 'Aussichtspunkt',
+            title: 'Aussichtspunkt Kandy',
+            description:
+              'Vom Aussichtspunkt über dem Kandy-See genießen Sie einen Panoramablick auf die Stadt, den Zahntempel und die grünen Hügel – ein idealer Fotostopp.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Topaz – Kandy',
+            description: 'Übernachtung im Hotel Topaz (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Kandy nach Ella',
+        activities: [
+          {
+            type: 'Kulturbesuch',
+            title: 'Ambuluwawa-Turm',
+            description:
+              'Besuchen Sie den Ambuluwawa-Turm bei Gampola, ein multireligiöses Heiligtum auf einem Hügel. Über die spiralförmige Treppe erreichen Sie die Spitze mit atemberaubendem 360-Grad-Blick auf das Hochland.',
+          },
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Besuch einer Teefabrik',
+            description:
+              'In einer Teefabrik im Hochland erleben Sie, wie der weltberühmte Ceylon-Tee hergestellt wird – vom Pflücken über Welken und Rollen bis zum Trocknen. Zum Abschluss eine Tasse frisch aufgebrühten Tees mit Bergblick.',
+          },
+          {
+            type: 'Kulturshow',
+            title: 'Ramboda-Wasserfall',
+            description:
+              'Halten Sie am rund 109 Meter hohen Ramboda-Wasserfall bei Pussellawa, umgeben von Teeplantagen und üppigem Grün – ein erfrischender Panoramastopp im zentralen Hochland.',
+          },
+          {
+            type: 'Stadttour',
+            title: 'Nine Arch Bridge',
+            description:
+              'Besuchen Sie die berühmte Nine Arch Bridge in Ella, ganz aus Stein und Ziegeln erbaut, inmitten von Teeplantagen und Dschungel. Mit etwas Glück fährt gerade ein Zug über die Brücke – ein perfektes Fotomotiv.',
+          },
+          {
+            type: 'Stadttour',
+            title: 'Abendtour durch Ella',
+            description:
+              'Eine kurze Tour durch das charmante Bergstädtchen Ella mit Blick auf den Ella Gap und die umliegenden Täler – entspannte Atmosphäre und viele Fotomöglichkeiten.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'La Ella Breeze Hotel',
+            description: 'Übernachtung im La Ella Breeze Hotel oder ähnlich – auf Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Ella – Mirissa',
+        activities: [
+          {
+            type: 'Zugfahrt',
+            title: 'Zugfahrt durch Ella',
+            description:
+              'Erleben Sie die berühmte Zugfahrt durch Ella, eine der schönsten Bahnstrecken der Welt – vorbei an Teeplantagen, Nebelbergen, Tunneln und Wasserfällen mit spektakulären Ausblicken.',
+          },
+          {
+            type: 'Aussichtspunkt',
+            title: 'Little Adam’s Peak',
+            description:
+              'Eine leichte Wanderung von 30–45 Minuten durch Teefelder führt zum Little Adam’s Peak mit Panoramablick auf den Ella Gap – für fast alle Fitnesslevel geeignet.',
+          },
+          {
+            type: 'Wasserfall',
+            title: 'Ravana-Wasserfälle',
+            description:
+              'Halt an den breiten Ravana-Wasserfällen nahe Ella, laut Legende mit der Ramayana-Geschichte verbunden – ein schöner, erfrischender Stopp mit klarer Bergluft.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Mandara Resort Hotel',
+            description: 'Übernachtung in Mirissa.',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Mirissa – Whale Watching & Wasseraktivitäten',
+        activities: [
+          {
+            type: 'Whale Watching',
+            title: 'Wal- & Delfinbeobachtung in Mirissa',
+            description:
+              'Begeben Sie sich auf eine unvergessliche Wal- und Delfinbeobachtung in Mirissa, einem der besten Reviere weltweit. Auf dem Indischen Ozean suchen Sie nach Blauwalen, Pottwalen und verspielten Delfinschulen.',
+          },
+          {
+            type: 'Schnorcheln',
+            title: 'Schnorchel-Erlebnis in Mirissa',
+            description:
+              'Entdecken Sie beim Schnorcheln in kristallklarem Wasser die bunte Unterwasserwelt Mirissas mit Korallen und tropischen Riffischen.',
+          },
+          {
+            type: 'Schnorcheln',
+            title: 'Schnorcheln mit Meeresschildkröten',
+            description:
+              'Schwimmen Sie neben anmutigen Grünen und Echten Karettschildkröten in den warmen Gewässern Mirissas – ein unvergessliches Naturerlebnis.',
+          },
+          {
+            type: 'Wasseraktivität',
+            title: 'Sonnenuntergangs-Kajaktour in Mirissa',
+            description:
+              'Paddeln Sie bei einer ruhigen Kajaktour entlang der Küste, während der Himmel sich in Orange, Pink und Gold verfärbt – eine der schönsten Wasseraktivitäten im Süden.',
+          },
+          {
+            type: 'Bootsfahrt',
+            title: 'Sonnenuntergangs-Bootsfahrt in Mirissa',
+            description:
+              'Eine entspannte Bootsfahrt bei Sonnenuntergang mit Panoramablick auf die Südküste – romantisch und familienfreundlich zugleich.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Mandara Resort Hotel',
+            description:
+              'Komfortable Übernachtung im Mandara Resort Hotel oder einem ähnlichen Strandhotel in Mirissa, auf Halbpension mit Frühstück und Abendessen.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Frühstück inklusive', 'Eigenes Bad', 'Abendessen inklusive'],
+          },
+        ],
+      },
+      {
+        title: 'Wasseraktivitäten & Abreise',
+        activities: [
+          {
+            type: 'Natur & Kultur',
+            title: 'Coconut Tree Hill in Mirissa',
+            description:
+              'Besuchen Sie den Coconut Tree Hill, einen der meistfotografierten Aussichtspunkte Sri Lankas: eine von Kokospalmen gesäumte Klippe mit Panoramablick über den türkisen Ozean.',
+          },
+          {
+            type: 'Artenschutz',
+            title: 'Schildkröten-Aufzuchtstation Koggala',
+            description:
+              'Besuchen Sie die Schildkröten-Aufzuchtstation in Koggala, wo bedrohte Meeresschildkröten geschützt und aufgezogen werden, und erfahren Sie mehr über Sri Lankas Meeresschutz.',
+          },
+          {
+            type: 'Bootssafari',
+            title: 'Bootssafari auf dem Madu-Fluss',
+            description:
+              'Eine landschaftlich reizvolle Bootssafari durch die Mangrovenwälder und kleinen Inseln des Madu-Flusses, mit Besuch einer traditionellen Zimtplantage.',
+          },
+          {
+            type: 'Abreise',
+            title: 'Transfer zur Abreise',
+          },
+        ],
+      },
+    ],
+  }
 };

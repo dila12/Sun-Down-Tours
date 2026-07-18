@@ -559,4 +559,81 @@ export const SIGIRIYA_DEST: ArticleContent = {
       { pageId: 'guideSafari', label: 'Гид по сафари в Шри-Ланке' },
     ],
   },
+  nl: {
+    h1: 'Sigiriya, Sri Lanka: Die Felsenfestung im Kulturdreieck',
+    lead: 'Ein 200 Meter hoher Granitfelsen, gekrönt von einem Königspalast aus dem 5. Jahrhundert – Sigiriya ist das meistfotografierte Wahrzeichen Sri Lankas und einer der wenigen Orte weltweit, an denen man durch das Maul eines steinernen Löwen zu einem Thronsaal über den Wolken emporsteigt.',
+    heroAlt: 'Die Felsenfestung Sigiriya erhebt sich im Morgenlicht über dem Dschungel',
+    sections: [
+      {
+        title: 'Ein Palast aus Angst und Ehrgeiz',
+        body: 'König Kashyapa I. wählte diesen Felsen 477 n. Chr. als Hauptstadt, nachdem er seinen Vater vom Thron gestürzt hatte und vor der Rache seines Halbbruders Moggallana floh. In nur elf Jahren verwandelten seine Baumeister den kahlen Fels in einen befestigten Lustpalast, umgeben von Wassergräben, Wällen und Gärten, die noch heute exakt so funktionieren wie vor 1.500 Jahren geplant.\n\nDen Palast konnte Kashyapa nicht lange genießen. Moggallana kehrte 495 n. Chr. mit einem Heer zurück, und der Legende nach nahm sich Kashyapa auf dem Schlachtfeld unterhalb der Festung selbst das Leben, statt in Gefangenschaft zu geraten. Sigiriya ging danach an buddhistische Mönche und wurde vom Dschungel verschluckt, bis britische Vermessungsingenieure die Ruinen im 19. Jahrhundert wiederentdeckten.',
+      },
+      {
+        title: 'Fresken, Graffiti und die Spiegelwand',
+        body: 'Auf halber Höhe schützt eine Felsnische einige der originalen „Sigiriya-Jungfrauen“ – halbnackte, apsaraähnliche Gestalten in Mineralfarben, deren Farbintensität nach fünfzehn Jahrhunderten erstaunlich frisch wirkt. Nur ein Bruchteil der ursprünglichen Galerie ist erhalten; das meiste ging schon lange vor Beginn der Restaurierung verloren.\n\nGleich hinter den Fresken verläuft die Spiegelwand, einst so glatt poliert, dass sie Passanten spiegelte. Besucher zwischen dem 7. und 13. Jahrhundert ritzten kurze Verse in den Stein – Sri Lankas älteste erhaltene Graffiti –, die die Fresken lobten oder schlicht ihren Besuch festhielten. Einige dieser Inschriften sind bis heute lesbar.',
+      },
+      {
+        title: 'Was man in Sigiriya erleben sollte',
+        body: 'Der Aufstieg dauert für die meisten Besucher 60 bis 90 Minuten pro Richtung, über Steinstufen und Metalltreppen, darunter die berühmte Wendeltreppe, die direkt an der Felswand neben den riesigen Löwenpranken befestigt ist, die einst den Eingang flankierten. Auf dem Gipfel finden sich die Grundmauern von Kashyapas Palast, ein in den Fels gehauenes königliches Becken und ein Panoramablick über die Ebene.\n\nAm Fuß des Felsens sind die Wassergärten für sich genommen eine technische Meisterleistung: symmetrische Becken, Springbrunnen, die allein durch Schwerkraft nach Regenfällen wieder sprudeln, und ein Felsgarten, der schon vor Kashyapa von Mönchen zur Meditation genutzt wurde. Viele Reisende verbinden den Aufstieg mit einer Dorftour per Ochsenkarren und Katamaran oder mit einer Wildelefanten-Safari in der Nähe.',
+      },
+      {
+        title: 'Praktische Tipps für den Besuch',
+        body: 'Kommen Sie wenn möglich bis 6:30–7:00 Uhr. Die Tore öffnen früh, die Treppen sind deutlich weniger überfüllt, und man entgeht sowohl der Mittagshitze als auch dem Ansturm der Reisebusse gegen 10–11 Uhr. Der letzte Aufstieg bietet keinerlei Schatten, daher zählen Hut, Wasser und festes Schuhwerk hier mehr als an fast jedem anderen Ort Sri Lankas.\n\nDer Aufstieg ist nicht schwierig, aber exponiert: Schmale Gittertreppen an einer Felswand sind kein Ort für Höhenangst oder unbeaufsichtigte Kinder. Die Eintrittskarten für ausländische Besucher werden an einem Ticketschalter etwas abseits des Felsens kontrolliert, und ein lizenzierter Guide am Eingang liefert Hintergründe, die die spärlichen Infotafeln vor Ort nicht bieten.',
+      },
+      {
+        title: 'Wetter und beste Reisezeit für den Aufstieg',
+        body: 'Sigiriya liegt in Sri Lankas Trockenzone und ist praktisch das ganze Jahr über gut besteigbar; Januar bis April sind meist die trockensten und heißesten Monate. Von Oktober bis Dezember sind Nachmittagsgewitter häufig; die Felsstufen werden bei Regen rutschig, und der Gipfel wird bei Blitzgefahr gelegentlich für Kletterer gesperrt.\n\nUnabhängig von der Saison sind die Morgenstunden ruhiger und kühler als der Nachmittag, und das Licht auf der Felswand beim Sonnenaufgang ist für Fotos unschlagbar.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Der Höhlentempel von Dambulla liegt nur zwanzig Autominuten entfernt und lässt sich problemlos mit Sigiriya an einem Tag verbinden. Der Pidurangala-Felsen direkt gegenüber bietet eine unwegsamere Kletterpartie, dafür aber wohl den besten Blick auf die Festung selbst, besonders zum Sonnenuntergang.\n\nDie Nationalparks Minneriya und Kaudulla, etwa 30–45 Minuten nördlich, sind bekannt für „the gathering“ – große Herden wilder Elefanten an ihren Uferzonen, vor allem von Juli bis Oktober –, während Kandy für Reisende Richtung Bergland bequem zwei Stunden südlich liegt.',
+      },
+      {
+        title: 'Wo man übernachten kann',
+        body: 'Die Stadt Sigiriya sowie die nahen Orte Habarana und Dambulla decken jedes Budget ab, von einfachen familiengeführten Gästehäusern bis zu Boutique-Lodges im Dschungel mit Pools mit Felsblick und Zeltzimmern im Safari-Stil. Mehrere Unterkünfte in Habarana sind gezielt auf den Blick auf den Sigiriya-Felsen vom Frühstückstisch oder der Dachterrasse ausgerichtet.\n\nEin Zimmer mit Balkon Richtung Sigiriya lohnt den kleinen Aufpreis, wenn Sie am späten Nachmittag zurück im Hotel sind – der Felsen verändert seine Farbe bei Sonnenuntergang dramatisch.',
+      },
+      {
+        title: 'Essen rund um Sigiriya',
+        body: 'Rice and Curry bleibt hier fast überall die ehrliche, verlässliche Wahl – ein Berg Reis mit fünf oder sechs kleinen Currys, von Dhal und Roter Bete bis zu Jungle Chicken, dazu Papadam und etwas Limette. Mehrere Restaurants an der Straße zwischen Dambulla und Sigiriya bieten Buffet-Mittagessen für Tagesausflugsgruppen – praktisch, aber selten das eindrücklichste Essen der Region.\n\nWer es ruhiger mag, findet in Habarana einige Lodges mit Abendessen im Freien mit Blick auf Reisfelder, mitunter begleitet von traditionellem Trommelspiel – in der Hochsaison lohnt sich eine Vorabreservierung.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wie lange dauert der Aufstieg auf den Sigiriya-Felsen?',
+        a: 'Die meisten Besucher benötigen 60–90 Minuten zum Gipfel und ähnlich lange für den Abstieg, zuzüglich Zeit für die Wassergärten am Fuß des Felsens. Planen Sie insgesamt einen halben Tag ein, wenn Sie die Gärten auch in Ruhe erkunden möchten.',
+      },
+      {
+        q: 'Ist der Aufstieg auf Sigiriya schwierig?',
+        a: 'Es ist ein gleichmäßiger, teils steiler Aufstieg über Steinstufen und Metalltreppen, keine technische Kletterei, und für die meisten leidlich fitten Reisenden gut zu bewältigen. Die letzte offene Wendeltreppe und die exponierten Gipfelabschnitte sind die Stellen, die Besucher mit Höhenangst am meisten fordern.',
+      },
+      {
+        q: 'Sigiriya oder Pidurangala – was sollte ich besteigen?',
+        a: 'Sigiriya bietet die Fresken, die Löwenpranken und die Palastruinen; Pidurangala ist eine kürzere, unwegsamere Kletterpartie mit dem besten Foto auf den Sigiriya-Felsen selbst, besonders zum Sonnenuntergang. Wer zwei Tage Zeit hat, kombiniert oft beides.',
+      },
+      {
+        q: 'Wie hoch ist der Eintritt für Sigiriya?',
+        a: 'Ausländische Besucher zahlen einen separaten, höheren Eintrittspreis als Einheimische, zahlbar in USD oder LKR am Ticketschalter. Die Preise werden vom Central Cultural Fund regelmäßig angepasst – der aktuelle Betrag lässt sich am besten vorab bei Ihrem Fahrer-Guide erfragen.',
+      },
+      {
+        q: 'Lässt sich Sigiriya als Tagesausflug besuchen?',
+        a: 'Ja – Sigiriya ist ein beliebter privater Tagesausflug von Kandy, Habarana, Dambulla oder sogar Negombo aus, meist kombiniert mit dem Höhlentempel von Dambulla und, je nach Programm, einer Wildelefanten-Safari in Minneriya oder Kaudulla.',
+      },
+    ],
+    ctaTitle: 'Bereit, Sigiriya zu besteigen?',
+    ctaBody: 'Unsere privaten, klimatisierten Tagestouren verbinden Sigiriya mit dem Höhlentempel von Dambulla und optional einer Wildelefanten-Safari – mit einem englischsprachigen Fahrer-Guide, der Fahrt, Zeitplan und Tickets übernimmt, damit Sie sich auf den Aufstieg konzentrieren können.',
+    ctaLabel: 'Sigiriya-Tour planen',
+    relatedTours: [
+      { pageId: 'sigiriyaDay', label: 'Sigiriya Tagestour' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destDambulla', label: 'Höhlentempel von Dambulla' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guideSafari', label: 'Sri Lanka Safari-Ratgeber' },
+    ],
+  }
 };

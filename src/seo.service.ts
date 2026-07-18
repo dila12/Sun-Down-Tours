@@ -2,7 +2,7 @@ import { DOCUMENT } from '@angular/common';
 import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
-import { LOCALE_META, type Locale } from './app/i18n/locales';
+import { INDEXABLE_LOCALES, LOCALE_META, isIndexableLocale, type Locale } from './app/i18n/locales';
 import { LocaleService } from './app/i18n/locale.service';
 import { ArticleContentService } from './app/i18n/articles/article-content.service';
 import { getPage, BASE_URL } from './app/i18n/site-data.mjs';
@@ -26,7 +26,8 @@ export class SeoService {
 
   update(pageId: string, locale: Locale): void {
     const page = getPage(pageId);
-    const indexable = page ? page.index : true;
+    // Dutch remains reachable in the UI but stays noindex until professionally translated.
+    const indexable = (page ? page.index : true) && isIndexableLocale(locale);
     const article = this.articles.get(pageId, locale);
 
     const title =
@@ -92,6 +93,37 @@ export class SeoService {
     /* no-op */
   }
 
+  /** SEO for true 404 responses: noindex, no hreflang cluster, no soft-404 home signals. */
+  updateNotFound(locale: Locale): void {
+    const localeMeta = LOCALE_META[locale];
+    const title = `${this.i18n.t('notFound.title', locale)} | ${SITE_NAME}`;
+    const description = this.i18n.t('notFound.body', locale);
+
+    this.titleService.setTitle(title);
+    this.doc.documentElement.setAttribute('lang', localeMeta.htmlLang);
+
+    this.meta.updateTag({ name: 'description', content: description });
+    this.meta.updateTag({ name: 'robots', content: 'noindex, follow' });
+    this.meta.updateTag({ property: 'og:title', content: title });
+    this.meta.updateTag({ property: 'og:description', content: description });
+    this.meta.updateTag({ property: 'og:url', content: `${BASE_URL}/` });
+    this.meta.updateTag({ property: 'og:type', content: 'website' });
+    this.meta.updateTag({ property: 'og:site_name', content: SITE_NAME });
+    this.meta.updateTag({ property: 'og:locale', content: localeMeta.ogLocale });
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary' });
+    this.meta.updateTag({ name: 'twitter:title', content: title });
+    this.meta.updateTag({ name: 'twitter:description', content: description });
+
+    this.setCanonical(`${BASE_URL}/`);
+    this.clearAlternates();
+  }
+
+  private clearAlternates(): void {
+    this.doc.head
+      .querySelectorAll('link[rel="alternate"][data-seo-hreflang]')
+      .forEach((node) => node.remove());
+  }
+
   private field(pageId: string, locale: Locale, key: string, fallback: string): string {
     const value = this.i18n.get(`seo.${pageId}.${key}`, locale);
     return typeof value === 'string' && value.length ? value : fallback;
@@ -124,7 +156,7 @@ export class SeoService {
 
   private setOgAlternateLocales(active: Locale): void {
     this.meta.removeTag('property="og:locale:alternate"');
-    for (const code of Object.keys(LOCALE_META) as Locale[]) {
+    for (const code of INDEXABLE_LOCALES) {
       if (code === active) {
         continue;
       }

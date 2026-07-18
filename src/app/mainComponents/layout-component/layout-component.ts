@@ -7,8 +7,15 @@ import { SocialIconComponent } from '../../sharedComponents/social-icon/social-i
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
+import {
+  SITE_ADDRESS_FULL,
+  SITE_EMAIL,
+  SITE_PHONE_DISPLAY,
+  SITE_WHATSAPP_URL,
+} from '../../i18n/site-contact';
 
 /** Small navbar logo — never fall back to the 1024×1024 PNG master. */
+const LOGO_64 = 'assets/img/logos/2-64w.webp';
 const LOGO_80 = 'assets/img/logos/2-80w.webp';
 const LOGO_160 = 'assets/img/logos/2-160w.webp';
 
@@ -28,10 +35,16 @@ export class LayoutComponent {
   readonly locales = LOCALES;
   readonly localeMeta = LOCALE_META;
 
+  readonly siteEmail = SITE_EMAIL;
+  readonly sitePhone = SITE_PHONE_DISPLAY;
+  readonly siteAddress = SITE_ADDRESS_FULL;
+  readonly whatsappUrl = SITE_WHATSAPP_URL;
+
   navOpen = false;
   readonly onImageError = onImageError;
   readonly logoSrc = withImageVersion(LOGO_80);
-  readonly logoSrcSet = `${withImageVersion(LOGO_80)} 80w, ${withImageVersion(LOGO_160)} 160w`;
+  /** 64w for ~32px mobile CSS; 80w/160w for desktop 1x/2x. Same brand asset, sized correctly. */
+  readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w, ${withImageVersion(LOGO_160)} 160w`;
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
   readonly logoFallback = LOGO_160;
 

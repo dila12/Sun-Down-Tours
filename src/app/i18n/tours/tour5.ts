@@ -1242,4 +1242,178 @@ export const TOUR5: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Privatreise – 5 Tage | Kulturerbe, Hügelland & Wildlife-Safari',
+    description:
+      'Erleben Sie Sri Lanka in 5 unvergesslichen Tagen mit antiken Städten, UNESCO-Welterbestätten, malerischen Teeplantagen, spannenden Wildlife-Safaris und entspannten Küstenerlebnissen.',
+    duration: '5 Tage',
+    persons: '1-20 Personen',
+    tourType: 'Rundreise',
+    overview:
+      'Erleben Sie die Highlights Sri Lankas auf dieser ausgewogenen 5-tägigen Privatreise. Reisen Sie durch das Kulturdreieck, erkunden Sie die Felsenfestung Sigiriya, besuchen Sie den heiligen Zahntempel in Kandy, fahren Sie durch die nebligen Teeplantagen von Nuwara Eliya, erleben Sie eine spannende Safari im Udawalawe-Nationalpark und entspannen Sie an der wunderschönen Südwestküste. Mit privatem Transport, einem erfahrenen englischsprachigen Fahrer und komfortablen Unterkünften bietet diese Reise die ideale Mischung aus Kultur, Natur, Tierwelt und Erholung – perfekt für Paare, Familien und kleine Gruppen.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Abholung & Rückfahrt zum Flughafen',
+      'Kraftstoff & Parkgebühren',
+      'Unbegrenzte Kilometer für die gesamte Reise',
+    ],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Fünf Tage erschließen Sri Lankas Kultur-Dreieck, das Hügelland und den Wildtier-Korridor auf einer einzigen privaten Reise. Von den Elefanten in Pinnawala und den Ansammlungen in Minneriya bei Sigiriya über den Aufstieg zum Löwenfelsen, die Zahntempel-Zeremonien in Kandy, die Teeplantagen von Nuwara Eliya bis zu einer Safari in Udawalawe oder an der Südküste verbindet diese Route von Sundown Tours UNESCO-Kulturerbe mit hautnahen Erlebnissen. Ihr Fahrer-Guide übernimmt die kurvigen Bergstraßen und die frühen Safari-Starts, während Sie in einem klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterkunft kann auf Wunsch in Ihrer bevorzugten Sternekategorie auf Halbpension organisiert werden; Eintrittsgebühren halten wir separat, damit Sie die optionalen Stopps selbst steuern. Perfekt für Paare und Familien, die mehr Tiefgang als bei einer Vier-Tage-Tour wünschen, ohne sich für eine ganze Woche zu binden.',
+    highlights: [
+      'Sigiriya-Felsenfestung, Elefanten-Safari in Minneriya und Höhepunkte des Kultur-Dreiecks',
+      'Zahntempel in Kandy, Gewürzgärten und traditionelle Tanzvorführung',
+      'Teeland Nuwara Eliya, Ramboda-Wasserfälle und malerische Aussichtspunkte im Hochland',
+      'Wildtier-Safari in Udawalawe oder an der Südküste sowie Besuch eines Schildkröten-Schutzprojekts',
+      'Flexibler Privattransport mit englischsprachigem Fahrer-Guide und unbegrenzter Kilometerleistung',
+    ],
+    faq: [
+      {
+        q: 'Ist die Hotelunterkunft im Preis der 5-tägigen Tour enthalten?',
+        a: 'Die Unterkunft ist nicht im Grundpreis enthalten, wir organisieren aber auf Wunsch Halbpension-Hotels der 3–4-Sterne-Kategorie. Teilen Sie uns Ihr Budget mit, und wir senden Ihnen Optionen vor der Bestätigung.',
+      },
+      {
+        q: 'Welchen Safaripark besuchen wir – Minneriya, Udawalawe oder Yala?',
+        a: 'Tag 1 führt je nach Saison nach Minneriya oder Kaudulla für Elefantenansammlungen. An späteren Tagen nutzen wir Udawalawe oder einen Park an der Südküste, abhängig von Ihrer Route und Parkschließungen – wir bestätigen die beste Option für Ihre Reisedaten.',
+      },
+      {
+        q: 'Wie viel Fahrzeit liegt zwischen Sigiriya, Kandy und der Südküste?',
+        a: 'Rechnen Sie mit 3–5 Stunden an den längsten Fahrtagen. Wir unterbrechen die Fahrten mit Gewürzgärten, Aussichtspunkten und Essenspausen, damit das Tempo für Familien und Senioren angenehm bleibt.',
+      },
+    ],
+    days: [
+      {
+        title: 'Flughafen nach Sigiriya – Elefanten & Safari-Abenteuer',
+        activities: [
+          {
+            type: 'Ankunft',
+            title: 'Flughafenabholung',
+            description:
+              'Treffen Sie Ihren professionellen Fahrer am Flughafen Bandaranaike und beginnen Sie Ihre private Sri-Lanka-Reise in Richtung Kulturdreieck.',
+          },
+          {
+            type: 'Tiererlebnis',
+            title: 'Pinnawala-Elefantenwaisenhaus',
+            description:
+              'Besuchen Sie das Pinnawala-Elefantenwaisenhaus, ein bekanntes Schutzzentrum für gerettete und verwaiste Elefanten. Beobachten Sie die Tiere aus der Nähe und – je nach Zeitpunkt – ihr unvergessliches Bad im Fluss.',
+          },
+          {
+            type: 'Safari',
+            title: 'Safari im Minneriya-Nationalpark',
+            description:
+              'Erleben Sie eine spannende 4x4-Jeep-Safari im Minneriya-Nationalpark, bekannt für „The Gathering" – eine der größten Ansammlungen wilder Elefanten in Asien. Entdecken Sie Elefanten, Hirsche, Büffel und eine vielfältige Vogelwelt.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa – Sigiriya',
+            description: 'Übernachtung in der Fresco Water Villa (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '3,5-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya nach Kandy – Kulturerbe',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Sigiriya-Felsenfestung',
+            description:
+              'Besteigen Sie die UNESCO-gelistete Löwenfelsen-Festung Sigiriya, einen im 5. Jahrhundert errichteten Königspalast, der dramatisch über den Dschungelebenen aufragt. Entdecken Sie antike Fresken, die Spiegelwand und den Panoramablick vom Gipfel.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description:
+              'Besuchen Sie den Zahntempel in Kandy, einen der heiligsten buddhistischen Tempel der Welt. Erleben Sie traditionelle Rituale und bewundern Sie die schöne kandyanische Architektur.',
+          },
+          {
+            type: 'Kulturerlebnis',
+            title: 'Kandyanische Tanzshow',
+            description:
+              'Genießen Sie am Abend eine Kulturshow mit traditioneller kandyanischer Trommelmusik, Feuerlauf und farbenprächtigen Kostümen, die Sri Lankas reiches künstlerisches Erbe zeigen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Topaz – Kandy',
+            description: 'Übernachtung im Hotel Topaz (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Kandy nach Nuwara Eliya – Malerisches Teeland',
+        activities: [
+          {
+            type: 'Natur',
+            title: 'Royal Botanical Gardens Peradeniya',
+            description:
+              'Erkunden Sie einen der schönsten botanischen Gärten Asiens mit exotischen Orchideen, hohen Palmenallee, Heilpflanzen und wunderschön angelegten Anlagen am Mahaweli-Fluss.',
+          },
+          {
+            type: 'Natur',
+            title: 'Ramboda-Wasserfall',
+            description:
+              'Halten Sie an den Ramboda-Wasserfällen, einem der höchsten Wasserfälle Sri Lankas, umgeben von malerischen Teeplantagen und kühler Bergluft.',
+          },
+          {
+            type: 'Tee-Erlebnis',
+            title: 'Besuch einer Teefabrik & Plantage',
+            description:
+              'Erfahren Sie, wie der weltberühmte Ceylon-Tee vom Blatt bis zur Tasse hergestellt wird. Spazieren Sie durch üppige Teeplantagen und genießen Sie eine frische Tee-Verkostung im Hochland Sri Lankas.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Yara Nuwara Eliya',
+            description: 'Übernachtung im Yara Nuwara Eliya (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Nuwara Eliya nach Ella – Bergpanorama',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Nine Arch Bridge',
+            description:
+              'Die imposante Nine Arch Bridge ist einer der Hauptgründe für einen Besuch. Diese beeindruckende Brücke zwischen Ella und der Station Demodara zählt zu den technischen Meisterleistungen des frühen 20. Jahrhunderts.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Little Adam’s Peak',
+            description:
+              'Mit einer Höhe von 1.141 m dauert der Aufstieg vom Eingang aus etwa 30–45 Minuten. Der Blick vom Gipfel ist unglaublich – ein 360-Grad-Panorama mit vorbeiziehenden Wolken ist ein wahres Erlebnis.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Oak Ray Ella Gap Hotel',
+            description: 'Unterkunft im Oak Ray Ella Gap Hotel oder ähnlich – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad'],
+          },
+        ],
+      },
+      {
+        title: 'Udawalawe zur Südwestküste – Fluss & Naturschutz',
+        activities: [
+          {
+            type: 'Naturschutz',
+            title: 'Meeresschildkröten-Schutzprojekt',
+            description:
+              'Besuchen Sie ein Meeresschildkröten-Schutzzentrum an der Südküste und erfahren Sie mehr über den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmaßnahmen.',
+          },
+          {
+            type: 'Bootssafari',
+            title: 'Bootssafari auf dem Madu-Fluss',
+            description:
+              'Genießen Sie eine malerische Bootssafari durch die Mangrovenwälder und kleinen Inseln des Madu-Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfältige Feuchtgebietswelt.',
+          },
+        ],
+      },
+    ],
+  }
 };

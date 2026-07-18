@@ -343,7 +343,7 @@ export const de: Dict = {
     infoTitle: 'Kontaktinformationen',
     infoSubtitle: 'Sprechen Sie direkt mit unserem Planungsteam in Sri Lanka.',
     address: 'No 302, Mahawaskaduwa, Waskaduwa, Kalutara North, Sri Lanka',
-    responseTime: 'Innerhalb von 24 Stunden — über WhatsApp meist schneller',
+    responseTime: 'Innerhalb von 24 Stunden über WhatsApp meist schneller',
     labels: {
       headquarters: 'Hauptsitz',
       phone: 'Telefon',
@@ -484,7 +484,7 @@ export const de: Dict = {
 
   restaurantsExplore: {
     title: 'Nahe Reiseziele & Touren entdecken',
-    lead: 'Sundown Beach Restaurant ist unser Partner an der Küste von Waskaduwa — kombinieren Sie das Essen mit Zielen an der Südwestküste und Tagestouren.',
+    lead: 'Sundown Beach Restaurant ist unser Partner an der Küste von Waskaduwa kombinieren Sie das Essen mit Zielen an der Südwestküste und Tagestouren.',
     contactCta: 'Private Tour planen',
   },
 
@@ -520,7 +520,7 @@ export const de: Dict = {
     amountDue: 'Offener Betrag',
     presentInvoice:
       'Bitte legen Sie diese Rechnung bei Ankunft vor. Unser Team kontaktiert Sie, falls noch Angaben benötigt werden.',
-    thanks: 'Vielen Dank für Ihre Buchung — genießen Sie Ihr Sri-Lanka-Abenteuer!',
+    thanks: 'Vielen Dank für Ihre Buchung genießen Sie Ihr Sri-Lanka-Abenteuer!',
     printInvoice: 'Rechnung drucken',
     backHome: 'Zur Startseite',
     defaultTravelerName: 'Reisender',
@@ -699,13 +699,13 @@ export const de: Dict = {
     guideBudget: {
       title: 'Sri Lanka Budget-Reiseführer | Kosten & Geld-Tipps',
       description:
-        'Tagesbudget, Bargeld und Geldautomaten, Trinkgeld und wofür Ihr Geld bei einer Privatreise anfällt — praktische Tipps für Reisende.',
+        'Tagesbudget, Bargeld und Geldautomaten, Trinkgeld und wofür Ihr Geld bei einer Privatreise anfällt praktische Tipps für Reisende.',
       keywords: 'Sri Lanka Budget, Sri Lanka Kosten, Geld Tipps Sri Lanka, Reisebudget',
     },
     guideWildlife: {
       title: 'Sri Lanka Wildlife-Guide | Elefanten, Leoparden & Wale',
       description:
-        'Wo Sie Elefanten, Leoparden, Wale und Vögel in Sri Lanka sehen — Nationalparks, Jahreszeiten und die besten Beobachtungsorte.',
+        'Wo Sie Elefanten, Leoparden, Wale und Vögel in Sri Lanka sehen Nationalparks, Jahreszeiten und die besten Beobachtungsorte.',
       keywords: 'Sri Lanka Wildlife, Elefanten Sri Lanka, Leoparden Safari, Walbeobachtung Sri Lanka',
     },
     guideSafari: {
@@ -717,25 +717,25 @@ export const de: Dict = {
     guideBeaches: {
       title: 'Die besten Strände Sri Lankas | Süd-, West- & Ostküste',
       description:
-        'Die passende Küste für Ihre Reisezeit — Südküste, Westküste und Ostküste im Vergleich nach Monsun, Surf und ruhigen Buchten.',
+        'Die passende Küste für Ihre Reisezeit Südküste, Westküste und Ostküste im Vergleich nach Monsun, Surf und ruhigen Buchten.',
       keywords: 'Sri Lanka Strände, beste Strände Sri Lanka, Südküste, Ostküste Sri Lanka',
     },
     guideTeaCountry: {
       title: 'Sri Lanka Tee-Land Guide | Hochland & Plantagen',
       description:
-        'Nuwara Eliya, Ella und Teeplantagen im Hochland — Plantagenbesuche, Panoramazüge und Wanderwege in den Bergen.',
+        'Nuwara Eliya, Ella und Teeplantagen im Hochlandagenbesuche, Panoramazüge und Wanderwege in den Bergen.',
       keywords: 'Sri Lanka Tee-Land, Nuwara Eliya, Ella Hochland, Teeplantagen Sri Lanka',
     },
     guideFood: {
       title: 'Sri Lanka Food Guide | Rice & Curry, Gewürze & Street Food',
       description:
-        'Sri Lankische Küche: Rice & Curry, Hoppers, Kottu, Gewürze und Street Food — was Sie probieren sollten und wie Sie bestellen.',
+        'Sri Lankische Küche: Rice & Curry, Hoppers, Kottu, Gewürze und Street Food Sie probieren sollten und wie Sie bestellen.',
       keywords: 'Sri Lanka Essen, Rice and Curry, Street Food Sri Lanka, sri-lankische Küche',
     },
     guidePacking: {
       title: 'Packliste Sri Lanka | Kleidung & Reise-Utensilien',
       description:
-        'Praktische Packliste für Sri Lanka — Kleidung für Hitze und kühles Hochland, Tempelkleidung, Safari-Ausrüstung und Essentials.',
+        'Praktische Packliste für Sri Lankaleidung für Hitze und kühles Hochland, Tempelkleidung, Safari-Ausrüstung und Essentials.',
       keywords: 'Packliste Sri Lanka, was einpacken Sri Lanka, Reiseutensilien Sri Lanka',
     },
     guideSafety: {
@@ -766,6 +766,206 @@ export const de: Dict = {
       title: 'Datenschutzerklärung | Sundown Tours Sri Lanka',
       description: 'Lesen Sie die Datenschutz- und Analyse-Cookie-Richtlinie von Sundown Tours Sri Lanka.',
       keywords: 'Datenschutz',
+    },
+    destColombo: {
+      title: "Colombo Sri Lanka Travel Guide | Private Tours",
+      description: "Plan Colombo as your arrival hub with private airport transfers and tailor-made Sri Lanka itineraries.",
+      keywords: "destColombo",
+    },
+    destNegombo: {
+      title: "Negombo Sri Lanka | Beach Near Airport",
+      description: "Stay in Negombo near Bandaranaike Airport before a private Cultural Triangle or west-coast tour.",
+      keywords: "destNegombo",
+    },
+    destBentota: {
+      title: "Bentota Sri Lanka | West Coast Beach Holidays",
+      description: "Bentota beach holidays with private chauffeur links to Galle and the south coast.",
+      keywords: "destBentota",
+    },
+    destMirissa: {
+      title: "Mirissa Sri Lanka | Beaches and Whale Watching",
+      description: "Mirissa beaches and whale watching on private south-coast Sri Lanka tours.",
+      keywords: "destMirissa",
+    },
+    destNuwaraEliya: {
+      title: "Nuwara Eliya Sri Lanka | Tea Country Highlands",
+      description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill-country itineraries.",
+      keywords: "destNuwaraEliya",
+    },
+    destAnuradhapura: {
+      title: "Anuradhapura Sri Lanka | Ancient Sacred City",
+      description: "Explore Anuradhapura with a private driver in Sri Lanka Cultural Triangle itineraries.",
+      keywords: "destAnuradhapura",
+    },
+    destPolonnaruwa: {
+      title: "Polonnaruwa Sri Lanka | Medieval Ruins Guide",
+      description: "Visit Polonnaruwa ruins on a private Cultural Triangle tour with Sundown Tours.",
+      keywords: "destPolonnaruwa",
+    },
+    destTrincomalee: {
+      title: "Trincomalee Sri Lanka | East Coast Beaches",
+      description: "Trincomalee east-coast beaches and harbour stops on seasonal private itineraries.",
+      keywords: "destTrincomalee",
+    },
+    destArugamBay: {
+      title: "Arugam Bay Sri Lanka | Surf and East Coast",
+      description: "Arugam Bay surf town stays linked by private transfer after wildlife or culture days.",
+      keywords: "destArugamBay",
+    },
+    destKalpitiya: {
+      title: "Kalpitiya Sri Lanka | Lagoon and Dolphins",
+      description: "Kalpitiya lagoon, kitesurf and dolphin trips with private transfers from Negombo.",
+      keywords: "destKalpitiya",
+    },
+    guideWhaleWatching: {
+      title: "Whale Watching Sri Lanka | Mirissa Guide",
+      description: "Plan Mirissa whale watching on a private south-coast Sri Lanka itinerary.",
+      keywords: "guideWhaleWatching",
+    },
+    guideTrainJourneys: {
+      title: "Sri Lanka Train Journeys | Ella and Kandy",
+      description: "Scenic Sri Lanka train journeys with private driver station transfers in tea country.",
+      keywords: "guideTrainJourneys",
+    },
+    guideHoneymoon: {
+      title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
+      description: "Private honeymoon itineraries mixing culture, tea country and beach time.",
+      keywords: "guideHoneymoon",
+    },
+    guideFamilyTours: {
+      title: "Sri Lanka Family Tours | Private Trips with Kids",
+      description: "Family-friendly private Sri Lanka tours with flexible pacing and wildlife options.",
+      keywords: "guideFamilyTours",
+    },
+    guideLuxuryTours: {
+      title: "Sri Lanka Luxury Tours | Private Chauffeur Travel",
+      description: "Luxury private chauffeur tours with boutique hotels across Sri Lanka.",
+      keywords: "guideLuxuryTours",
+    },
+    guideAirportTransfers: {
+      title: "Sri Lanka Airport Transfers | Private Pickup",
+      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
+      keywords: "guideAirportTransfers",
+    },
+    marketGermany: {
+      title: "Sri Lanka Tours from Germany | Private Rundreisen",
+      description: "Private Sri Lanka tours for travellers from Germany with local chauffeur-guides.",
+      keywords: "marketGermany",
+    },
+    marketFrance: {
+      title: "Sri Lanka Tours from France | Circuits Privés",
+      description: "Private Sri Lanka circuits for travellers from France with flexible hotels.",
+      keywords: "marketFrance",
+    },
+    marketItaly: {
+      title: "Sri Lanka Tours from Italy | Private Travel",
+      description: "Tailor-made private Sri Lanka tours for travellers from Italy.",
+      keywords: "marketItaly",
+    },
+    marketSpain: {
+      title: "Sri Lanka Tours from Spain | Private Holidays",
+      description: "Private Sri Lanka holidays for travellers from Spain with coast and culture.",
+      keywords: "marketSpain",
+    },
+    marketPoland: {
+      title: "Sri Lanka Tours from Poland | Private Itineraries",
+      description: "Private Sri Lanka itineraries for travellers from Poland.",
+      keywords: "marketPoland",
+    },
+    marketRussia: {
+      title: "Sri Lanka Tours from Russia | Private Driver Holidays",
+      description: "Private chauffeur holidays in Sri Lanka for travellers from Russia.",
+      keywords: "marketRussia",
+    },
+    marketNetherlands: {
+      title: "Sri Lanka Tours from the Netherlands | Privé Rondreizen",
+      description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
+      keywords: "marketNetherlands",
+    },
+    marketUK: {
+      title: "Sri Lanka Tours from the UK | Private Holidays",
+      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
+      keywords: "marketUK",
+    },
+    marketAustria: {
+      title: "Sri Lanka Tours from Austria | Private Rundreisen",
+      description: "Private Sri Lanka Rundreisen for travellers from Austria.",
+      keywords: "marketAustria",
+    },
+    marketSwitzerland: {
+      title: "Sri Lanka Tours from Switzerland | Tailor-Made Travel",
+      description: "Tailor-made private Sri Lanka travel for visitors from Switzerland.",
+      keywords: "marketSwitzerland",
+    },
+    monthJanuary: {
+      title: "Sri Lanka in January | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Januaryions, weather and private itinerary ideas.",
+      keywords: "monthJanuary",
+    },
+    monthFebruary: {
+      title: "Sri Lanka in February | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in February regions, weather and private itinerary ideas.",
+      keywords: "monthFebruary",
+    },
+    monthMarch: {
+      title: "Sri Lanka in March | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Marchns, weather and private itinerary ideas.",
+      keywords: "monthMarch",
+    },
+    monthApril: {
+      title: "Sri Lanka in April | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Aprilegions, weather and private itinerary ideas.",
+      keywords: "monthApril",
+    },
+    monthMay: {
+      title: "Sri Lanka in May | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Mayns, weather and private itinerary ideas.",
+      keywords: "monthMay",
+    },
+    monthJune: {
+      title: "Sri Lanka in June | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Junens, weather and private itinerary ideas.",
+      keywords: "monthJune",
+    },
+    monthJuly: {
+      title: "Sri Lanka in July | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in Julyions, weather and private itinerary ideas.",
+      keywords: "monthJuly",
+    },
+    monthAugust: {
+      title: "Sri Lanka in August | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in August regions, weather and private itinerary ideas.",
+      keywords: "monthAugust",
+    },
+    monthSeptember: {
+      title: "Sri Lanka in September | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in September regions, weather and private itinerary ideas.",
+      keywords: "monthSeptember",
+    },
+    monthOctober: {
+      title: "Sri Lanka in October | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in October regions, weather and private itinerary ideas.",
+      keywords: "monthOctober",
+    },
+    monthNovember: {
+      title: "Sri Lanka in November | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in November regions, weather and private itinerary ideas.",
+      keywords: "monthNovember",
+    },
+    monthDecember: {
+      title: "Sri Lanka in December | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in December regions, weather and private itinerary ideas.",
+      keywords: "monthDecember",
+    },
+    terms: {
+      title: "Terms of Service | Sundown Tours Sri Lanka",
+      description: "Terms of service for private tours and chauffeur bookings with Sundown Tours Sri Lanka.",
+      keywords: "terms",
+    },
+    bookingPolicy: {
+      title: "Booking Policy | Sundown Tours Sri Lanka",
+      description: "How deposits, confirmations and booking changes work for Sundown Tours private itineraries.",
+      keywords: "bookingPolicy",
     },
     bookingSuccess: {
       title: 'Buchung eingegangen | Sundown Tours Sri Lanka',

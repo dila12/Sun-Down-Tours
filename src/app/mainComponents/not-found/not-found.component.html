@@ -1,0 +1,46 @@
+<div class="container-fluid page-header">
+  <div class="container">
+    <div class="d-flex flex-column align-items-center justify-content-center not-found-hero">
+      <p class="display-4 text-white text-uppercase mb-2" role="heading" aria-level="1">
+        {{ 'notFound.title' | t }}
+      </p>
+      <div class="d-inline-flex text-white">
+        <p class="m-0 text-uppercase">
+          <a class="text-white" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a>
+        </p>
+        <i class="fa fa-angle-double-right pt-1 px-3" aria-hidden="true"></i>
+        <p class="m-0 text-uppercase">{{ 'notFound.breadcrumb' | t }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container py-5 not-found-body" aria-labelledby="not-found-heading">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <p class="not-found-code" aria-hidden="true">404</p>
+      <h2 id="not-found-heading" class="h3 mb-3">{{ 'notFound.heading' | t }}</h2>
+      <p class="mb-4">{{ 'notFound.body' | t }}</p>
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+        <a class="btn btn-primary py-md-3 px-md-4" [routerLink]="path('home')">
+          {{ 'notFound.ctaHome' | t }}
+        </a>
+        <a class="btn btn-outline-primary py-md-3 px-md-4" [routerLink]="path('tours')">
+          {{ 'notFound.ctaTours' | t }}
+        </a>
+        <a class="btn btn-outline-primary py-md-3 px-md-4" [routerLink]="path('contact')">
+          {{ 'notFound.ctaContact' | t }}
+        </a>
+      </div>
+      <nav class="mt-5 text-left" [attr.aria-label]="'notFound.helpfulLinks' | t">
+        <h3 class="h5 mb-3">{{ 'notFound.helpfulLinks' | t }}</h3>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a [routerLink]="path('destinations')">{{ 'common.footer.destination' | t }}</a></li>
+          <li class="mb-2"><a [routerLink]="path('guides')">{{ 'common.footer.travelGuides' | t }}</a></li>
+          <li class="mb-2"><a [routerLink]="path('about')">{{ 'common.nav.about' | t }}</a></li>
+          <li class="mb-2"><a [routerLink]="path('guidePrivateDriver')">{{ 'notFound.linkDriver' | t }}</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>

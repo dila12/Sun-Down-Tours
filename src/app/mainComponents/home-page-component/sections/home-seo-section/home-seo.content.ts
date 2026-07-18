@@ -2620,4 +2620,4 @@ const ru: HomeSeoContent = {
   ],
 };
 
-export const HOME_SEO: Record<Locale, HomeSeoContent> = { en, de, fr, it, es, pl, ru };
+export const HOME_SEO: Record<Locale, HomeSeoContent> = { en, de, fr, it, es, pl, ru, nl: en };

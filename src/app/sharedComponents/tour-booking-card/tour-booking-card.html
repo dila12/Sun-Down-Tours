@@ -63,16 +63,16 @@
         {{ 'common.booking.groupHintPre' | t }} <strong>{{ maxOnlineTravelers }}</strong> {{ 'common.booking.groupHintPost' | t }}
       </p>
       <div class="group-contact-panel__actions">
-        <a class="group-contact-panel__btn group-contact-panel__btn--email" href="mailto:sundowntoursrilanka@gmail.com?subject=Group Tour Inquiry - {{ tour?.title }}">
+        <a class="group-contact-panel__btn group-contact-panel__btn--email" [href]="'mailto:' + siteEmail + '?subject=Group Tour Inquiry - ' + (tour?.title || '')">
           <i class="fa fa-envelope"></i> {{ 'common.booking.emailTeam' | t }}
         </a>
-        <a class="group-contact-panel__btn group-contact-panel__btn--whatsapp" href="https://wa.me/94706293585?text=Hi, I would like a group quote for {{ travelers }} travelers on {{ tour?.title }}" target="_blank" rel="noopener">
+        <a class="group-contact-panel__btn group-contact-panel__btn--whatsapp" [href]="whatsappUrl + '?text=' + encodeURIComponent('Hi, I would like a group quote for ' + travelers + ' travelers on ' + (tour?.title || ''))" target="_blank" rel="noopener">
           <i class="fab fa-whatsapp"></i> {{ 'common.booking.whatsappUs' | t }}
         </a>
       </div>
       <p class="group-contact-panel__contact">
-        <i class="fa fa-phone"></i> +94 70 629 3585 &nbsp;·&nbsp;
-        <i class="fa fa-envelope"></i> sundowntoursrilanka@gmail.com
+        <i class="fa fa-phone"></i> {{ sitePhone }} &nbsp;·&nbsp;
+        <i class="fa fa-envelope"></i> {{ siteEmail }}
       </p>
     </div>
 
@@ -251,7 +251,7 @@
       <div class="total-bar" *ngIf="canBookOnline">
         <div class="total-bar__row">
           <span>{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
-          <span class="total-bar__amount">${{ total.toFixed(2) }}</span>
+          <span class="total-bar__amount">${{ total.toFixed(2) }} <small class="text-muted">(≈ {{ eurLabel }})</small></span>
         </div>
         <small class="total-bar__note"><i class="fa fa-info-circle"></i> {{ 'common.booking.payAtDestination' | t }}</small>
       </div>

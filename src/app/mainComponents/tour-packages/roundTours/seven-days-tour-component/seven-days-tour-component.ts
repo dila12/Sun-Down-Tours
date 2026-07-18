@@ -85,14 +85,13 @@ export class SevenDaysTourComponent implements OnInit {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/7-day-sri-lanka-tour');
     const filecode = this.filecode;
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(filecode);
       this.selectedTours = await this.loadRelatedWithPrices('tour7');
       this.cdr.markForCheck();
-} else {
+    } else {
       this.userCountry = 'US';
       this.price = 0;
       this.selectedTours = this.tours.related('tour7', 3);
@@ -110,11 +109,10 @@ export class SevenDaysTourComponent implements OnInit {
     );
   }
 
-    loadPrice(filecode: string): Promise<number> {
+  loadPrice(filecode: string): Promise<number> {
     if (!isPlatformBrowser(this.platformId)) {
       return Promise.resolve(0);
     }
     return loadTourPrice2p(this.http, filecode);
   }
-
 }

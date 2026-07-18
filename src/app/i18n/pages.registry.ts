@@ -78,6 +78,17 @@ export const PAGE_LOADERS: Record<string, ComponentLoader> = {
     import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destGalle: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
 
+  destColombo: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destNegombo: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destBentota: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destMirissa: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destNuwaraEliya: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destAnuradhapura: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destPolonnaruwa: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destTrincomalee: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destArugamBay: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destKalpitiya: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
   // Guides with authored content (remaining guide IDs stay in site-data until written).
   guideBestTime: () =>
     import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
@@ -100,6 +111,45 @@ export const PAGE_LOADERS: Record<string, ComponentLoader> = {
   guideSafety: () =>
     import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
 
+  guideWhaleWatching: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideTrainJourneys: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideHoneymoon: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideFamilyTours: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideLuxuryTours: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideAirportTransfers: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
+  marketGermany: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketFrance: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketItaly: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketSpain: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketPoland: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketRussia: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketNetherlands: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketUK: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketAustria: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  marketSwitzerland: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
+  monthJanuary: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthFebruary: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthMarch: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthApril: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthMay: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthJune: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthJuly: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthAugust: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthSeptember: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthOctober: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthNovember: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  monthDecember: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
   cancellation: () =>
     import('../sharedComponents/cancellation-policy/cancellation-policy').then((m) => m.CancellationPolicyComponent),
 
@@ -111,6 +161,12 @@ export const PAGE_LOADERS: Record<string, ComponentLoader> = {
     import('../sharedComponents/privacy-policy/privacy-policy-component/privacy-policy-component').then(
       (m) => m.PrivacyPolicyComponent,
     ),
+  terms: () =>
+    import('../sharedComponents/privacy-policy/privacy-policy-component/privacy-policy-component').then(
+      (m) => m.PrivacyPolicyComponent,
+    ),
+  bookingPolicy: () =>
+    import('../sharedComponents/cancellation-policy/cancellation-policy').then((m) => m.CancellationPolicyComponent),
   bookingSuccess: () =>
     import('../sharedComponents/booking-success/booking-success').then((m) => m.BookingSuccessComponent),
 };

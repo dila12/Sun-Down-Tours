@@ -508,4 +508,74 @@ export const BEACHES_GUIDE: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Strände-Ratgeber: Saisons, beste Buchten und sicheres Schwimmen',
+    lead: 'Sri Lankas zwei Monsune verschieben den „besten Strand“ im Jahresverlauf Dezembersonne in Unawatuna garantiert nicht dieselben Bedingungen in Arugam Bay. Passen Sie Strandtage an die Saison an, verstehen Sie Brandungsströmungen, und Kultur plus Berge lassen sich mit echt gutem Baden verbinden.',
+    heroAlt: 'Palmen gesäumter goldener Strand an der srilankischen Küste',
+    sections: [
+      {
+        title: 'West-/Südküste vs Ostküste Saisons',
+        body: 'Etwa von Dezember bis März sind West- und Südküste (Bentota, Hikkaduwa, Unawatuna, Mirissa) trocken und badbar ruhige Morgen, volle Resorts, höchste Hotelpreise. April bis November verschiebt den Vorteil nach Osten: Nilaveli und Uppuveli bei Trincomalee sowie Surferort Arugam Bay bleiben trockener, während der Südwestmonsun Galle und Colombo trifft.\n\nEin Südstrand-Finale im Juli erzwingen bedeutet oft Regen und raue See; flexible Routen führen zur Küste, die gerade Sonne hat.',
+      },
+      {
+        title: 'Mirissa, Unawatuna, Bentota und der Südwesten',
+        body: 'Mirissa verbindet Walbeobachtung (November–April) mit einer geschwungenen Bucht und entspannten Restaurantseliebt, aber nicht hektisch wie manche Thai-Strände. Unawatuna bietet geschütztes Schwimmen nahe Galle Fort, obwohl Erosion und Andrang in der Hochsaison die Bucht verändert haben. Bentota passt zu Familien mit breitem Sand und Resort-Infrastruktur nahe Colombo.\n\nHikkaduwa zieht Surfer und Schnorchler am Riff; Nachtleben lebhafter als Mirissa. Keine Wildnissträndeut angebundene Basen am Ende einer Rundreise.',
+      },
+      {
+        title: 'Arugam Bay, Trincomalee und der Osten',
+        body: 'Arugam Bay ist Sri Lankas Surfhauptstadt von etwa April bis Oktober entspanntes Dorf, lange Reiterwellen. Weit vom Kulturdreieck; am besten, wenn die Ostküste trocken istn eine Winter-Südküstenreise eingebaut bedeutet lange Fahrten und oft nasses Wetter.\n\nTrincomalee (Nilaveli, Uppuveli) bietet hellen Sand, Schnorcheln auf Pigeon Island in der Saison und ruhigeres Tempo als der Süden. Der Nordostmonsun kann ab November starken Regen bringenetter prüfen vor reiner Ostküstenreise.',
+      },
+      {
+        title: 'Badesicherheit, Strömungen und Flaggen',
+        body: 'Viele Strände haben keine Rettungsschwimmer; rote Flagge heißt nicht schwimmen, Punkt. Brandungsströmungen sind häufigei Richtung offenes Meer parallel zur Küste schwimmen, dann schräg zurück. Nicht frontal gegen die Strömung kämpfen.\n\nFelsenpools und ruhige Morgen sind sicherer als Nachmittagssurf bei Wind. Alkohol und Schwimmen vertragen sich nicht; nachts ebenfalls wegen Sicht und Bootverkehr. Hotel fragen, welcher Buchtabschnitt an dem Tag am sichersten ist.',
+      },
+      {
+        title: 'Strände mit Rundreise kombinieren',
+        body: 'Klassisch: erst Kultur und Berge (Sigiriya, Kandy, Ella), dann zwei bis drei Strandnächte vor dem Flughafen Colombo nahe Westküste, Mattala dem Süden. Beide Küsten in einer Woche bedeutet meist mehr Fahrzeit als Strandzeit.\n\nEin Privatfahrer erlaubt Wechsel bei schlechtem Wetter Unawatuna gegen Negombo nahe Flughafen ist eine übliche Monsun-Anpassung ohne Flugstress.',
+      },
+      {
+        title: 'Strandbasis wählen und Erwartungen',
+        body: 'Eine Küste für Ihre Termine wählen, nicht den „Instagram-Strand“. Luxusvillen in Tangalle und Weligama bieten Platz und Surf; Mittelklasse-Gästehäuser in Mirissa und Unawatuna passen zu den meisten Tour-Enden. Ostküste braucht mehr Planung, belohnt Surfer und Schnorchler in den richtigen Monaten.\n\nPlastikmüll und saisonales Seetang gibt es überall; Erwartungen realistisch halten und auf Wasserqualität, Zugang und Einbindung in die Route achten.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Welcher ist der beste Strand in Sri Lanka?',
+        a: 'Hängt vom Monat ab West- und Südküste Dezember–März; Ostküste (Arugam Bay, Trincomalee) April–Oktober. Kein ganzjähriger Sieger.',
+      },
+      {
+        q: 'Ist Schwimmen in Sri Lanka sicher?',
+        a: 'Viele Buchten sind in ruhiger Saison bei erlaubter Flagge sicher, aber Strömungen existieren und Rettungsdienst ist begrenzt. Lokale Hinweise befolgen, rote Flagge meiden, nicht allein an abgelegenen Stränden schwimmen.',
+      },
+      {
+        q: 'Wann ist Saison in Arugam Bay?',
+        a: 'Etwa April bis Oktober für Surf und trockenes Ostküstenwetter. Außerhalb eher Südküste oder Trincomalee in der Zwischensaison.',
+      },
+      {
+        q: 'Strände und Kultur in einer Woche?',
+        a: 'Jaie meisten privaten Rundreisen enden mit zwei bis drei Küstennächten nach Sigiriya, Kandy und Ella. Eine Küste pro Reise hält Fahrzeiten realistisch.',
+      },
+      {
+        q: 'Mirissa oder Unawatuna?',
+        a: 'Mirissa für Walsaison und ruhigere Bucht; Unawatuna näher an Galle Fort, geschützter, aber im Hochsaison-Hoch enger. Beide Dezember–März.',
+      },
+    ],
+    ctaTitle: 'Beenden Sie Ihre Tour an der richtigen Küste',
+    ctaBody: 'Nennen Sie Reisemonat und Tempoir platzieren Strandnächte dort, wo Wetter und See mitspielen, in einer privaten Chauffeur-Route.',
+    ctaLabel: 'Strand-Finale planen',
+    relatedTours: [
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'galleDay', label: 'Galle Tagesausflug' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destElla', label: 'Ella' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits-Ratgeber' },
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer-Ratgeber' },
+    ],
+  }
 };

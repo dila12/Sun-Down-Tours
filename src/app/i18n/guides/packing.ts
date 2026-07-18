@@ -515,4 +515,75 @@ export const PACKING_GUIDE: ArticleContent = {
       { pageId: 'guideWildlife', label: 'Гид по дикой природе Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Packliste: Was Sie für Strände, Tempel und Bergland mitnehmen',
+    lead: 'Sri Lanka vereint tropische Küsten, nebliges Tee-Hochland und antike Tempel auf einer kleinen Inselhr Gepäck braucht daher Schichten, dezentere Kleidung und vernünftiges Schuhwerk statt einer reinen Strandurlaubs-Garderobe. Clever packen heißt: bequem von Sigiriyas Felsstufen bis zu Ellas kühlen Abenden, ohne den Koffer zu überladen.',
+    heroAlt: 'Reisetasche gepackt für eine Sri-Lanka-Rundreise durch mehrere Klimazonen',
+    sections: [
+      {
+        title: 'Klimazonen: heiße Küsten versus kühles Bergland',
+        body: 'Süd- und Westküste, Colombo und das Tiefland des Kulturdreiecks sind ganzjährig heiß und feuchteichte Baumwolle und Leinen, lockere Hosen und atmungsaktive Hemden funktionieren am besten. Nuwara Eliya, Ella und Horton Plains können abends spürbar kühl wirken, besonders Juni bis September, wenn eine leichte Fleecejacke oder Strickjacke und lange Hosen nachts sinnvoll sind.\n\nDie meisten Rundreisen durchqueren in einer Woche mehrere Zonenenken Sie in Schichten statt in einem Outfit-Typ. Eine dünne Regenjacke oder packbare Poncho-Variante fängt plötzliche Schauer in den Bergen ab, ohne viel Gewicht zu kosten.',
+      },
+      {
+        title: 'Tempel-Kleiderordnung und dezente Kleidung',
+        body: 'Buddhistische und hinduistische Tempel verlangen bedeckte Schultern und Knieür Männer und Frauen an Orten wie dem Zahntempel in Kandy, der Höhlentempel von Dambulla und kleineren Dorfschreinen. Tragen Sie ein Sarong oder leichtes Tuch in der Tages-Tasche; es deckt Schultern und ist einfacher als bei jedem Stopp das ganze Outfit zu wechseln.\n\nHüte und Schuhe vor dem Betreten der Schreinräume ablegen (Socken sind meist in Ordnung). Helle, respektvolle Kleidung ist willkommen; Strandmode gehört an den Strand, nicht in religiöse Stätten.',
+      },
+      {
+        title: 'Regenausrüstung, Sonnenschutz und die zwei Monsune',
+        body: 'Regen kommt je nach Küste und Saison unterschiedlich der Südwestmonsun (etwa Mai–September) benetzt Westküste und Bergland, der Nordostmonsun (etwa Oktober–Januar) die Ostküste. Ein kompakter Schirm oder faltbare Regenjacke bewältigt kurze tropische Schauer besser, als anzunehmen, „Trockenzeit“ bedeute keinen Regen.\n\nDie Sonne ist an Sigiriya, auf Safari-Jeeps und offenen Stränden intensiv packen Sie hohen LSF, breitkrempigen Hut und UV-Sonnenbrille. Riff-freundlicher Sonnenschutz ist sinnvoll beim Schnorcheln.',
+      },
+      {
+        title: 'Schuhe für Sigiriya, Wanderungen und tägliche Touren',
+        body: 'Sigiriyas Fels-Treppe ist steil, uneben und mittags heiß geschlossene Turnschuhe mit gutem Grip schlagen Flip-Flops. Dieselben Schuhe eignen sich für Polonnaruwa, Adams Peak bei einem Aufstieg und Little Adams Peak in Ella.\n\nSlip-on-Sandalen sind praktisch für Tempel, wo man Schuhe oft auszieht, und für Strandabende. Schwere Wanderschuhe nur mit geplantem Mehrtagestrek mitnehmen; Turnschuhe reichen für die meisten Besucherpfade.',
+      },
+      {
+        title: 'Mückenschutz und Gesundheits-Basics',
+        body: 'Dengue kommt auf Sri Lanka vor; nutzen Sie DEET- oder Picaridin-Spray abends, besonders nach Regen in urbanen und Küstengebieten. Lange Ärmel in der Dämmerung helfen zusätzlich. Malaria-Risiko ist auf typischen Touristenrouten gering, aber Mückenstiche ohne Schutz sind lästig.\n\nPacken Sie verschreibungspflichtige Medikamente in Originalverpackung mit Rezeptkopie, Basismittel gegen Magenbeschwerden, Pflaster gegen Blasen und Händedesinfektionsmittel vor Mahlzeiten. Reiseversicherungsunterlagen gehören ins Handgepäck, nicht in den Koffer.',
+      },
+      {
+        title: 'Adapter, Dokumente und was Sie nicht mitnehmen sollten',
+        body: 'Sri Lanka nutzt Typ D (drei runde Stifte) und Typ G (UK-Stecker)in Universaladapter mit Überspannungsschutz deckt die meisten Hotels ab. Spannung 230 V; prüfen Sie Haartools auf Dual-Voltage.\n\nLassen Sie schwere Abendgarderobe, mehrere Reiseführer und die komplette Hausapotheke zu Hause Apotheken und Buchhandlungen gibt es in Colombo und Touristenorten. Ein mittelgroßer Koffer plus Tagesrucksack reicht für eine Woche private Tour, wenn Wäsche in Mittelklasse-Hotels möglich ist.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Brauche ich warme Kleidung für Sri Lanka?',
+        a: 'Ja, fürs Bergland Ella, Nuwara Eliya und frühe Safari-Fahrten können kühl sein. Eine leichte Fleecejacke und eine lange Hose reichen den meisten Reisenden.',
+      },
+      {
+        q: 'Darf ich Shorts in Tempeln tragen?',
+        a: 'Knie müssen in aktiven Tempeln bedeckt sein lange Hosen oder Sarong über Shorts. Schultern ebenfalls bedecken; Schal oder leichtes Hemd löst beides.',
+      },
+      {
+        q: 'Welche Schuhe für Sigiriya?',
+        a: 'Stützende Turnschuhe mit gutem Gripetalltreppen und erhitzter Fels rutschen in Sandalen. Socken für häufiges Schuhe-Ausziehen in Tempeln mitnehmen.',
+      },
+      {
+        q: 'Soll ich eine Regenjacke mitnehmen?',
+        a: 'Eine packbare Regenjacke oder kompakter Schirm ist ganzjährig nützlich, besonders für Bergland-Nachmittage und Zwischensaison mit kurzen, kräftigen Schauern.',
+      },
+      {
+        q: 'Welchen Stecker brauche ich?',
+        a: 'Typ D und Typ G sind Standard; Universaladapter funktionieren in den meisten Hotels. 230 Vual-Voltage bei Haartrockner und Glätteisen prüfen.',
+      },
+    ],
+    ctaTitle: 'Leicht reisen auf einer voll geplanten Privatreise',
+    ctaBody: 'Unsere Rundreisen mit Fahrer übernehmen die Tageslogistikennen Sie uns Ihren Reisemonat, und wir schlagen eine Packliste passend zu Ihrer Route vor, von Yala-Safaris bis Tee-Zugfahrten.',
+    ctaLabel: 'Sri-Lanka-Reise planen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit für Sri Lanka' },
+      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits-Ratgeber' },
+      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt-Ratgeber' },
+    ],
+  }
 };

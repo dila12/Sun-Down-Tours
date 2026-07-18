@@ -559,4 +559,81 @@ export const YALA_DEST: ArticleContent = {
       { pageId: 'guideWildlife', label: 'Гид по дикой природе Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Yala-Nationalpark, Sri Lanka: der beste Ort der Welt, um einen Leoparden zu sehen',
+    lead: 'Yala hat eine der höchsten Leopardendichten weltweit, dazu Elefanten, Lippenbären, Krokodile und Hunderte Vogelarten – alles in einem Trockenzonen-Park, der trotz seiner Beliebtheit noch immer echte Wildnis ausstrahlt.',
+    heroAlt: 'Ein Leopard ruht auf einem Felsvorsprung im Yala-Nationalpark',
+    sections: [
+      {
+        title: 'Vom königlichen Jagdgebiet zum Nationalpark',
+        body: 'Lange bevor er Wildtiere schützte, wurde das Gebiet um Yala von srilankischen Königen und später von britischen Kolonialoffizieren bejagt, die es bis ins 20. Jahrhundert als privates Jagdrevier nutzten. 1900 wurde es zum Wildschutzgebiet erklärt, 1938 zum Nationalpark aufgewertet – einer der ältesten und etabliertesten Parks Asiens.\n\nDer Bürgerkrieg hielt Teile der östlichen Zonen Yalas jahrelang geschlossen, was der Tierwelt paradoxerweise erlaubte, sich fast ohne menschlichen Druck zu erholen; heute ist der größte Teil dieses Gebiets wieder zugänglich, und Yalas Leopardenpopulation zählt zu den gesündesten und am besten erforschten des Kontinents.',
+      },
+      {
+        title: 'Antike Ruinen mitten im Park',
+        body: 'Yala ist nicht nur Wildnis: Sithulpahuwa, ein aktives Waldkloster innerhalb der Parkgrenzen, ist über zweitausend Jahre alt und beherbergte einst Tausende Mönche; Dagobas und Meditationshöhlen werden noch heute von Pilgern besucht. Magul Maha Viharaya, ein kleinerer Tempelruinenkomplex, zeugt von derselben langen buddhistischen Geschichte unter dem Dschungel.\n\nJahrhundertelang lag das Gebiet außerdem im alten Königreich Ruhuna, dessen Bewässerungstanks – einige heute Tränken für Wildtiere im Park – dieselbe hydraulische Ingenieurskunst widerspiegeln, die Sri Lankas Trockenzonen-Zivilisationen prägte.',
+      },
+      {
+        title: 'Safari-Erlebnisse in Yala',
+        body: 'Block 1, der meistbesuchte Bereich, bietet die besten Chancen auf eine Leopardensichtung dank jahrzehntelanger Beobachtungsdichte, kann aber zur Hochsaison voll mit Jeeps sein. Eine Morgenfahrt (etwa 6–10 Uhr) und eine Nachmittagsfahrt (14:30–18:30 Uhr) sind die beiden Standardtermine, jeweils in einem offenen 4x4-Jeep mit einem Park-Tracker neben Ihrem Fahrer.\n\nNeben Leoparden sind Elefanten, Lippenbären, Axishirsche, Wildbüffel, sich an Wasserlöchern sonnende Krokodile und eine wirklich beachtliche Vogelwelt zu erwarten, darunter Buntstörche, Pfauen und mehrere Adlerarten – Yala belohnt Geduld ebenso wie Glück.',
+      },
+      {
+        title: 'Praktische Tipps für eine Yala-Safari',
+        body: 'Buchen Sie Jeep und Parkeintritt wenn möglich einen Tag im Voraus über Ihren Fahrer oder Ihr Hotel, da die Permit-Zahlen pro Block begrenzt sind und beliebte Zeiten in der Hochsaison (Dezember bis März, erneut um August) ausgebucht sind. Neutrale Kleidung, Hut, Sonnencreme und Fernglas zählen hier mehr als an fast jedem Kulturort Sri Lankas.\n\nDie Straßen im Park sind unbefestigt und staubig; ein Schal oder Buff fürs Gesicht ist eine kleine, lohnende Ergänzung, und ein Zoomobjektiv oder Fernglas bringt für die Leopardensichtung deutlich mehr als körperliche Nähe.',
+      },
+      {
+        title: 'Wetter und beste Safari-Saison',
+        body: 'Yala liegt in der Trockenzone, und die trockensten Monate von Mai bis September konzentrieren die Tierwelt um die verbleibenden Wasserlöcher, was die Sichtungschancen meist verbessert. Der Park schließt jedes Jahr für etwa einen Monat, meist im September, wegen kontrollierter Brandrodung und Habitatpflege in der Trockenzeit.\n\nDie kurzen Regenfälle um Oktober–November lassen die Landschaft ergrünen und verteilen die Tiere weiter, was ruhigere Fahrten, aber gelegentlich spektakuläres Fotolicht bedeuten kann.',
+      },
+      {
+        title: 'Sehenswertes in der Umgebung',
+        body: 'Ella liegt etwa zwei Autostunden nordwestlich, sodass sich ein Bergland-Stopp nach einer frühen Yala-Safari gut mit der Weiterreise zwischen Küste und Hochland kombinieren lässt. Tissamaharama und der nahe Kataragama-Tempelkomplex, ein bedeutender multireligiöser Pilgerort, liegen direkt vor den Parktoren.\n\nMirissa und die Strände der Südküste sind etwa zwei Stunden südwestlich entfernt – ein naheliegender nächster Stopp für Reisende, die Safari mit Strandzeit auf einer längeren Route verbinden möchten.',
+      },
+      {
+        title: 'Wo man in der Nähe von Yala übernachten kann',
+        body: 'Unterkünfte konzentrieren sich rund um Tissamaharama und den Haupteingang des Parks, von einfachen Familienpensionen bis zu Zeltcamps im Safari-Stil und einigen echten Luxus-Lodges im Pufferzonenland, an denen nachts gelegentlich Elefanten vorbeiziehen.\n\nDie Nähe zum geplanten Parkeingang zählt hier mehr als fast überall sonst in Sri Lanka, da sie direkt beeinflusst, wie früh Sie die morgendliche Pirschfahrt starten können und wie gut Ihre Chancen auf gute Sichtungen vor der Mittagshitze sind.',
+      },
+      {
+        title: 'Essen rund um Yala',
+        body: 'Die meisten Safari-Lodges und -Camps bieten Vollpension und richten Frühstück und Abendessen an den beiden Pirschfahrten aus, mit Rice and Curry, frischem Fisch aus dem nahen Tissamaharama und einfachen gegrillten Optionen als Standard. Eine Frühstücksbox für die frühe Morgenfahrt ist in fast jeder Unterkunft üblich.\n\nIn Tissamaharama selbst servieren einige lokale Lokale ehrliches, günstiges srilankisches Essen ohne den Safari-Lodge-Aufpreis – lohnend für alle mit kleinerem Budget.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Wann ist die beste Zeit für Leopardensichtungen in Yala?',
+        a: 'Die Trockenmonate von Mai bis September bieten meist die besten Chancen, da sich Tiere um weniger Wasserlöcher konzentrieren. Leoparden werden in Yala jedoch das ganze Jahr über gesichtet, und der Park schließt jährlich etwa einen Monat wegen Habitatpflege.',
+      },
+      {
+        q: 'Wie viele Safaris sollte ich in Yala buchen?',
+        a: 'Zwei Fahrten – eine morgens, eine nachmittags – verbessern die Sichtungschancen deutlich gegenüber nur einer Fahrt, da sich Tieraktivität und Licht zwischen beiden stark unterscheiden. Bei begrenzter Zeit lohnt sich aber auch eine einzelne Morgenfahrt.',
+      },
+      {
+        q: 'Ist eine Leopardensichtung bei einer Yala-Safari garantiert?',
+        a: 'Keine Safari kann eine bestimmte Sichtung garantieren, aber Yala hat eine der weltweit höchsten Leopardendichten, und die meisten Besuche mit mehreren Fahrten sehen tatsächlich einen. Ein erfahrener Tracker neben Ihrem Fahrer verbessert die Chancen deutlich.',
+      },
+      {
+        q: 'Wie komme ich von Colombo oder der Südküste nach Yala?',
+        a: 'Yala ist etwa 4–5 Autostunden von Colombo und rund 2 Stunden von den Südküstenstränden um Mirissa entfernt – eher ein natürlicher Zwischenstopp auf einer Strand-und-Safari-Route als ein Tagesausflug ab der Hauptstadt.',
+      },
+      {
+        q: 'Was sollte ich für eine Yala-Safari mitbringen und tragen?',
+        a: 'Neutrale, gedeckte Farben, einen Hut, Sonnencreme und geschlossene Schuhe für kalte frühe Morgen und staubige Straßen. Fernglas und Zoomobjektiv sind weit wichtiger, als körperlich nahe an ein Tier zu kommen.',
+      },
+    ],
+    ctaTitle: 'Bereit für eine Yala-Safari?',
+    ctaBody: 'Wir organisieren private Jeep-Safaris in Yala mit lizenzierten Trackern, zeitlich auf das beste Morgen- oder Nachmittagslicht abgestimmt, und verbinden sie auf längeren privaten Rundreisen natürlich mit Ella, der Südküste oder dem Kulturdreieck.',
+    ctaLabel: 'Yala-Safari planen',
+    relatedTours: [
+      { pageId: 'tour2ey', label: '2-tägige Ella & Yala Tour' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destGalle', label: 'Galle' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideSafari', label: 'Sri Lanka Safari-Ratgeber' },
+      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt-Ratgeber' },
+    ],
+  }
 };

@@ -610,4 +610,85 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Galle Tagestour',
+    description:
+      'Genießen Sie eine geführte Tagestour nach Galle mit malerischen Küstenattraktionen, kulturellen Sehenswürdigkeiten und unvergesslichen Erlebnissen.',
+    duration: '1 Tag',
+    persons: '1–20 Reisende',
+    tourType: 'Tagestour',
+    overview:
+      'Diese geführte Tagestour nach Galle bietet die perfekte Mischung aus Natur, Geschichte und Kultur. Sie besuchen die berühmte Meeresschildkröten-Aufzuchtstation, erkunden das historische Galle Dutch Fort, genießen eine entspannte Bootsfahrt auf dem Bentota-Fluss und erfahren mehr über die Geschichte Sri Lankas im Tsunami-Denkmal und im Moonstone Mine Centre. Ideal für Paare, Familien und kleine Gruppen, die einen komfortablen und bereichernden Tagesausflug suchen.',
+    includes: [
+      'Alle Eintrittsgebühren für Attraktionen',
+      'Autobahngebühren und Parkgebühren',
+      'Englischsprachiger professioneller Fahrer',
+      'Klimatisiertes Privatfahrzeug',
+    ],
+    excludes: ['Speisen & Getränke', 'Eintritts- & Aktivitätsgebühren'],
+    seoIntro:
+      'Eine Tagestour nach Galle vereint UNESCO-Festungsmauern, Flussmangroven und Meeresschildkröten-Schutz in einem entspannten privaten Ausflug ab Colombo oder der Südküste. Beginnen Sie an einer Meeresschildkröten-Aufzuchtstation, um die Rehabilitationsarbeit zu sehen, schlendern Sie durch die gepflasterten Gassen und Wallanlagen des Galle Dutch Fort mit Blick auf den Indischen Ozean und gleiten Sie anschließend auf einer Bootssafari durch die Mangroven des Bentota-Flusses. Sundown Tours besucht außerdem das Tsunami-Denkmal in Peraliya für einen bewegenden Einblick in die lokale Geschichte sowie eine Mondstein-Mine, in der die berühmten blau schimmernden Edelsteine Sri Lankas geschliffen und poliert werden. Ihr englischsprachiger Fahrer übernimmt Autobahngebühren und Parkplätze in einem klimatisierten Privatfahrzeug, während die Eintrittsgebühren der genannten Attraktionen bereits enthalten sind. Mittagspausen können flexibel in Fort-Cafés oder Fischrestaurants eingelegt werden. Perfekt für Kreuzfahrtgäste, Strandhotel-Reisende und Familien, die Kultur und Natur erleben möchten, ohne eine Übernachtung außerhalb der Küste einzuplanen.',
+    highlights: [
+      'Besuch der Meeresschildkröten-Aufzuchtstation mit Informationen zum Artenschutz',
+      'UNESCO-Weltkulturerbe Galle Dutch Fort mit Wallanlagen, Leuchtturm und Kolonialstraßen',
+      'Malerische Bootsfahrt auf dem Bentota-Fluss durch Mangroven und Zimtinseln',
+      'Tsunami-Denkmal in Peraliya und Vorführung in einer Mondstein-Mine',
+      'Privater klimatisierter Transport inklusive Autobahngebühren und Eintrittsgeldern',
+    ],
+    whoIsFor:
+      'Ideal für Paare, Familien und Kreuzfahrtgäste mit Standort in Colombo, Bentota oder Mirissa, die einen geführten Küsten- und Kulturtag ohne mehrtägige Fahrten wünschen.',
+    bestTimeNote:
+      'Ganzjährig möglich; von November bis April ist die See für die Bootsfahrt ruhiger. Frühe Spaziergänge durch das Fort vermeiden die Mittagshitze auf den Wallanlagen.',
+    faq: [
+      {
+        q: 'Können Sie Gäste aus Hotels in Colombo für die Galle-Tagestour abholen?',
+        a: 'Ja – wir holen Sie in Colombo, Negombo, Bentota, Mirissa und in Hotels der Region Galle ab. Die Abfahrtszeit hängt von der Entfernung ab; aus Colombo ist ein früher Start sinnvoll, um möglichst viel Zeit im Fort und auf dem Fluss zu haben.',
+      },
+      {
+        q: 'Sind die Eintrittsgebühren wirklich enthalten?',
+        a: 'Der Tourpreis umfasst die aufgeführten Eintrittsgebühren, Autobahngebühren und Parkgebühren. Mahlzeiten, optionale Einkäufe und persönliche Ausgaben organisieren Sie selbst.',
+      },
+      {
+        q: 'Wie viel muss man im Galle Fort zu Fuß gehen?',
+        a: 'Das Fort besteht größtenteils aus flachem Kopfsteinpflaster mit optionalen 30- bis 60-minütigen Spaziergängen auf den Wallanlagen. Bequeme Schuhe und Sonnenschutz werden empfohlen; für Senioren können wir die Gehstrecke verkürzen.',
+      },
+    ],
+    days: [
+      {
+        title: 'Galle Tagestour Reiseroute',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Meeresschildkröten-Aufzuchtstation',
+            description:
+              'Besuchen Sie eine Meeresschildkröten-Aufzuchtstation und erfahren Sie mehr über Schutzprojekte, während Sie verschiedene Schildkrötenarten beobachten.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Galle Dutch Fort',
+            description:
+              'Erkunden Sie die UNESCO-Welterbestätte Galle Dutch Fort, reich an Kolonialgeschichte und mit atemberaubenden Meerblicken.',
+          },
+          {
+            type: 'Aktivität',
+            title: 'Bootsfahrt auf dem Bentota-Fluss',
+            description:
+              'Genießen Sie eine entspannte Bootsfahrt auf dem Bentota-Fluss, umgeben von Mangroven und Tierwelt.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Tsunami-Denkmal',
+            description:
+              'Besuchen Sie das Tsunami-Denkmal und erfahren Sie mehr über den Tsunami von 2004 und seine Auswirkungen auf Sri Lanka.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Moonstone Mine Centre',
+            description:
+              'Entdecken Sie, wie Sri Lankas berühmte Mondsteine abgebaut und verarbeitet werden.',
+          },
+        ],
+      },
+    ],
+  }
 };

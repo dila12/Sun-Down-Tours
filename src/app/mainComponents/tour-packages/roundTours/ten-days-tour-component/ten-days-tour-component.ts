@@ -84,7 +84,6 @@ export class TenDaysTourComponent implements OnInit {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/10-day-sri-lanka-tour');
     const filecode = this.filecode;
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();

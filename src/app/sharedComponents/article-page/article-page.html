@@ -116,7 +116,7 @@
       <h2 class="h4">{{ article.ctaTitle }}</h2>
       <p>{{ article.ctaBody }}</p>
       <a class="btn btn-primary" [routerLink]="path('contact')">{{ article.ctaLabel }}</a>
-      <a class="btn btn-outline-primary ml-2" href="https://wa.me/94706293585" rel="noopener">{{ 'common.cta.whatsapp' | t }}</a>
+      <a class="btn btn-outline-primary ml-2" [href]="whatsappUrl" rel="noopener">{{ 'common.cta.whatsapp' | t }}</a>
     </section>
 
     @if (article.relatedTours.length) {

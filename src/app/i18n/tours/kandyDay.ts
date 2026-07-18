@@ -660,4 +660,91 @@ export const KANDY_DAY: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Kandy Tagestour',
+    description:
+      'Erleben Sie das kulturelle Herz Sri Lankas mit einer geführten Tagestour nach Kandy, inklusive Elefanten, Tempeln, Tee und malerischen Ausblicken.',
+    duration: '1 Tag',
+    persons: '1–20 Reisende',
+    tourType: 'Tagestour',
+    overview:
+      'Diese eintägige Reise nach Kandy führt Sie durch die kulturelle Hauptstadt Sri Lankas. Besuchen Sie die Millennium Elephant Foundation oder das Pinnawala Elephant Orphanage, erkunden Sie den heiligen Zahntempel, genießen Sie den Besuch einer Teefabrik und -plantage, entspannen Sie am Kandy-See mit Aussichtspunkt und machen Sie optional einen Abstecher zu einem Kräuter- und Gewürzgarten. Perfekt für Reisende, die Kultur, Natur und Tradition an einem einzigen Tag erleben möchten.',
+    includes: [
+      'Alle Eintrittsgebühren für Attraktionen',
+      'Autobahngebühren und Parkgebühren',
+      'Englischsprachiger professioneller Fahrer',
+      'Klimatisiertes Privatfahrzeug',
+    ],
+    excludes: ['Speisen & Getränke', 'Eintritts- & Aktivitätsgebühren'],
+    seoIntro:
+      'Tagestouren nach Kandy bündeln Sri Lankas letzte Königsstadt in ein einziges kulturelles Erlebnis – Elefanten, heilige buddhistische Rituale und Ceylon-Tee in den Bergen. Besuchen Sie auf dem Weg die Millennium Elephant Foundation oder das Pinnawala Elephant Orphanage und betreten Sie anschließend den Zahntempel, in dem täglich Puja-Zeremonien um die verehrte Zahnreliquie Buddhas stattfinden. Der Besuch einer aktiven Teefabrik und -plantage zeigt, wie der weltberühmte Ceylon-Tee gerollt, oxidiert und verkostet wird, während der Kandy-See und der obere Aussichtspunkt malerische Panoramen der Seestadt bieten. Ein optionaler Halt in einem Gewürz- und Kräutergarten stellt bei ausreichender Zeit Zimt, Pfeffer und ayurvedische Pflanzen vor. Sundown Tours übernimmt Eintrittsgebühren, Autobahngebühren und den privaten klimatisierten Transport mit einem englischsprachigen Fahrer-Guide. Das Mittagessen ist flexibel am See oder in einem Plantagen-Bungalow möglich. Perfekt für Reisende mit Standort in Colombo, Negombo oder Kandy, die Tiefe erleben möchten, ohne in den Bergen zu übernachten.',
+    highlights: [
+      'Besuch der Millennium Elephant Foundation oder des Pinnawala Elephant Orphanage',
+      'Zahntempel mit kandyanischer Architektur und Seeblick',
+      'Teefabrik- und Plantagenbesuch mit frischer Ceylon-Tee-Verkostung',
+      'Spaziergang am Kandy-See und Fotostopps am malerischen Stadt-Aussichtspunkt',
+      'Optionaler Kräuter- und Gewürzgarten mit Vorführung des lokalen Anbaus',
+    ],
+    whoIsFor:
+      'Geeignet für kulturinteressierte Paare, Familien und Erstbesucher, die das Wesentliche von Kandy an einem Tag erleben möchten, ohne allein mit Bergland-Bussen oder Tuk-Tuk-Anbietern zurechtkommen zu müssen.',
+    bestTimeNote:
+      'Ganzjährig möglich; im Kulturellen Dreieck ist es von Juni bis September am trockensten, während von Dezember bis März die Aussichtspunkte über Kandy die klarste Sicht bieten. Die abendliche Puja im Zahntempel ist sehenswert – fragen Sie uns bei der Buchung danach.',
+    faq: [
+      {
+        q: 'Pinnawala oder Millennium Elephant Foundation – welchen Ort besuchen wir?',
+        a: 'Wir wählen je nach Abholort und Zeitplan. Pinnawala passt gut zu Routen ab Colombo; das Millennium Elephant Foundation eignet sich, wenn Sie bereits in der Nähe von Kandy sind. Teilen Sie uns Ihre Präferenz bei der Buchung mit.',
+      },
+      {
+        q: 'Ist der Eintritt zum Zahntempel enthalten?',
+        a: 'Ja – die aufgeführten Eintrittsgebühren, Autobahngebühren und Parkgebühren sind enthalten. Für den Tempelbesuch ist bescheidene Kleidung mit bedeckten Schultern und Knien erforderlich.',
+      },
+      {
+        q: 'Kann diese Tagestour ab Colombo starten und am selben Abend zurückkehren?',
+        a: 'Ja, problemlos. Rechnen Sie mit 3–4 Stunden Fahrzeit pro Strecke, unterbrochen durch Stopps bei den Elefanten und im Teeland. Eine frühe Abfahrt maximiert die Zeit am Zahntempel.',
+      },
+    ],
+    days: [
+      {
+        title: 'Kandy Tagestour Reiseroute',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Kandy Tagestour Reiseroute',
+            description:
+              'Beobachten Sie Elefanten aus nächster Nähe und erfahren Sie mehr über Elefantenpflege und Artenschutz.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Millennium Elephant Foundation / Pinnawala Elephant Orphanage',
+            description:
+              'Beobachten Sie Elefanten aus nächster Nähe und erfahren Sie mehr über Elefantenpflege und Artenschutz.',
+          },
+          {
+            type: 'Aktivität',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description:
+              'Besuchen Sie den heiligsten buddhistischen Tempel Sri Lankas im Herzen von Kandy.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Teefabrik & Teeplantage',
+            description:
+              'Erkunden Sie eine Teefabrik und -plantage und erfahren Sie, wie der weltberühmte Ceylon-Tee hergestellt wird.',
+          },
+          {
+            type: 'Besichtigung',
+            title: 'Kandy-See & Aussichtspunkt',
+            description:
+              'Genießen Sie malerische Ausblicke auf die Stadt Kandy und entspannen Sie am pittoresken Kandy-See.',
+          },
+          {
+            type: 'Optionaler Besuch',
+            title: 'Kräuter- & Gewürzgarten',
+            description:
+              'Optionaler Besuch eines Kräuter- und Gewürzgartens, um mehr über sri-lankische Gewürze und Heilkräuter zu erfahren.',
+          },
+        ],
+      },
+    ],
+  }
 };

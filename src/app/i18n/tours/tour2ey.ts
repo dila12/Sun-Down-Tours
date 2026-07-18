@@ -753,4 +753,109 @@ export const TOUR2EY: TourContent = {
       },
     ],
   },
+  nl: {
+    title: '2 Tage Sri Lanka Privatreise – Ella, Kandy & Udawalawa-Safari | Flughafentransfer',
+    description:
+      'Entdecken Sie Sri Lankas Tierwelt, malerisches Bergland und kulturelles Erbe auf dieser 2-tägigen Privatreise, die am Flughafen oder in Ihrem Hotel endet.',
+    duration: '2 Tage',
+    persons: 'Privatreise (1–20 Personen)',
+    tourType: 'Rundreise',
+    overview:
+      'Erleben Sie eine unvergessliche 2-tägige Reise durch Sri Lankas Tierwelt, Bergland und kulturelle Hauptstadt. Am ersten Tag besuchen Sie das Udawalawa Elephant Transit Home, bevor es nach Ella geht, um die Nine Arch Bridge, Little Adam’s Peak, Flying Ravana und die Ravana-Wasserfälle zu entdecken. Am zweiten Tag reisen Sie durch die malerischen Hügel zu den Ramboda-Wasserfällen und dem Ambuluwawa-Turm, bevor Sie den heiligen Zahntempel in Kandy und das Pinnawala Elephant Orphanage besuchen. Diese Privatreise endet bequem am Flughafen oder in Ihrem Hotel.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Unterkunft & Verpflegung des Fahrers',
+      'Abholung & Transfer zum Flughafen/Hotel',
+      'Kraftstoff & Parkgebühren',
+      '24-Stunden-Service',
+      'Unbegrenzte Kilometer für die gesamte Tour',
+    ],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Verbinden Sie die nebligen Hügel von Ella mit einer Leoparden-Safari in Yala an nur zwei privaten Tagen – die klassische Kombination aus Hügelland und Tierwelt ohne eine ganze Woche Reisezeit. Tag eins erkundet die Nine Arches Bridge, Little Adam\'s Peak, das optionale Flying-Ravana-Zipline-Abenteuer und die Ravana-Wasserfälle, mit Halbpension-Unterkunft nahe dem Ella Gap. Tag zwei führt hinab zum Yala-Nationalpark für eine morgendliche 4x4-Jeep-Safari zwischen Elefanten, Krokodilen und – mit etwas Glück – Leoparden, bevor die Ravana-Wasserfälle noch einmal von der Tiefland-Seite besucht werden, vor Ihrem Weitertransfer. Sundown Tours stimmt Safari-Eintrittszeiten und Zugblicke ab, während Ihr englischsprachiger Fahrer die steile Straße zwischen Ella und Yala in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung navigiert. Die Jeep-Miete im Park und die Eintrittsgebühren werden vor Ort bezahlt, sodass Sie die Safari verlängern oder einen Strandstopp an der Südküste hinzufügen können.',
+    highlights: [
+      'Nine Arches Bridge, Little Adam\'s Peak und Ravana-Wasserfälle in Ella an einem Tag',
+      'Optionales Flying-Ravana-Zipline-Abenteuer mit Panoramablick auf das Hügelland',
+      'Morgendliche Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten und Leoparden-Habitat',
+      'Halbpension-Übernachtung am Ella Gap zwischen Hügelland und Wildnis',
+      'Privater Chauffeur mit unbegrenzter Kilometerleistung und flexiblen Transfermöglichkeiten',
+    ],
+    whoIsFor:
+      'Ideal für Tierliebhaber und Fotografen, die Ella bereits einplanen, aber eine Leoparden-Safari ohne vier zusätzliche Reisetage hinzufügen möchten. Moderate Fitness ist für die Wanderung zum Little Adam\'s Peak hilfreich.',
+    bestTimeNote:
+      'Yala ist von Februar bis Juli am besten, wenn der Park vollständig geöffnet ist; er schließt kurzzeitig um September, dann empfehlen wir Udawalawe. Morgen in der Trockenzeit verbessern die Chancen auf Leopardensichtungen und Fotos an der Nine Arches Bridge.',
+    faq: [
+      {
+        q: 'Ist der Safari-Jeep für Yala im Tourpreis enthalten?',
+        a: 'Ihr Privatfahrzeug und Fahrer sind inklusive. Der Parkeintritt für Yala und der registrierte Safari-Jeep werden vor Ort bezahlt – meist von Ihrem Fahrer am Morgen des 2. Tages organisiert.',
+      },
+      {
+        q: 'Können wir das Hotel in Ella auslassen und beide Tage von der Südküste aus unternehmen?',
+        a: 'Möglich, aber anstrengend – rechnen Sie mit sehr frühen Starts von Mirissa oder Galle. Wir empfehlen die enthaltene Übernachtung in Ella, damit Sie das Hügelland ohne Mitternachtsabfahrt genießen können.',
+      },
+      {
+        q: 'Was passiert, wenn der Yala-Nationalpark an unseren Reisetagen geschlossen ist?',
+        a: 'Wir weichen ohne Änderung des Reiseablaufs auf Udawalawe oder Bundala aus, die gute Elefanten- und Vogelsichtungen bieten. Ihr Fahrer bestätigt bei der Buchung den besten Park.',
+      },
+    ],
+    days: [
+      {
+        title: 'Ella-Abenteuer',
+        activities: [
+          {
+            type: 'Aussichtsbesuch',
+            title: 'Nine Arch Bridge',
+            description:
+              'Entdecken Sie die legendäre Nine Arch Bridge in Ella, umgeben von üppigem Grün und atemberaubenden Ausblicken auf das Bergland.',
+          },
+          {
+            type: 'Wanderung',
+            title: 'Little Adam’s Peak',
+            description:
+              'Genießen Sie eine kurze, malerische Wanderung zum Little Adam’s Peak mit Panoramablick auf den Ella Gap und die umliegenden Teeplantagen.',
+          },
+          {
+            type: 'Abenteuer',
+            title: 'Flying Ravana Zipline',
+            description:
+              'Erleben Sie spannendes Zip-Lining im Flying Ravana Adventure Park mit Blick auf die atemberaubende Landschaft von Ella.',
+          },
+          {
+            type: 'Wasserfall-Besuch',
+            title: 'Ravana-Wasserfall',
+            description:
+              'Besuchen Sie den wunderschönen Ravana-Wasserfall, einen der berühmtesten Wasserfälle Sri Lankas, in der Nähe von Ella.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Oak Ray Ella Gap Hotel',
+            description: 'Unterkunft im Oak Ray Ella Gap Hotel oder ähnlich – auf Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad'],
+          },
+        ],
+      },
+      {
+        title: 'Yala-Safari',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Yala-Nationalpark',
+            description:
+              'Yala ist die Heimat von 44 Säugetier- und 215 Vogelarten. Zu den bekanntesten Bewohnern zählt die weltweit größte Leopardenpopulation.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Ravana-Wasserfall',
+            description:
+              'Der Ravana-Wasserfall ist von Mythen und Legenden umrankt. Der Sage nach versteckte der Dämonenkönig Ravana aus dem Epos Ramayana Sita in der Höhle hinter dem Wasserfall, nachdem er sie entführt hatte.',
+          },
+        ],
+      },
+    ],
+  }
 };

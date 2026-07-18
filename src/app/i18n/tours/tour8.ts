@@ -2069,4 +2069,292 @@ export const TOUR8: TourContent = {
       },
     ],
   },
+  nl: {
+    title: '8 Tage Sri Lanka Privatreise | Safari, Kultur, Bergland & Strand',
+    description:
+      'Eine unvergessliche 8-tägige Sri-Lanka-Privatreise mit Wilpattu-Safari, Anuradhapura, Sigiriya, Kandy, Abenteuern in Ella und einem entspannten Aufenthalt an der Südküste.',
+    duration: '8 Tage',
+    persons: '1-20 Personen',
+    tourType: 'Rundreise',
+    overview:
+      'Entdecken Sie Sri Lankas Tierwelt, antike Königreiche, malerische Berge und goldene Strände auf dieser perfekt ausbalancierten 8-tägigen Reise. Diese Rundreise verbindet Safari-Abenteuer, UNESCO-Welterbestätten, Berglandschaften, Teeplantagen, Wasserfälle und entspannte Küstenerlebnisse mit Halbpension und privatem Transport.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Halbpension-Unterkunft (7 Nächte) in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
+      'Kraftstoff & Parkgebühren',
+      'Abholung & Rückfahrt zum Flughafen',
+    ],
+    excludes: ['Eintritts- & Aktivitätsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Acht Tage sind der ideale Zeitrahmen für antike Königreiche, das dramatische Hügelland und einen richtigen Strandabschluss, ohne Eile. Diese private Sri-Lanka-Rundreise verbindet den Sonnenuntergang am Pidurangala und den Löwenfelsen Sigiriya mit den Höhlentempeln von Dambulla, den Zahnreliquien-Ritualen in Kandy und den Panoramen des Ambuluwawa-Turms über den Teeplantagen. In Ella erwarten Sie die Nine Arches Bridge, Little Adam\'s Peak und die Ravana-Wasserfälle, bevor eine Leoparden-Safari in Yala und zwei Nächte an der Küste von Mirissa mit Whale Watching, Schildkröten-Schnorcheln und Sonnenuntergangs-Kajaktouren folgen. Sundown Tours beinhaltet sieben Nächte Halbpension in 4-Sterne-Hotels, Flughafentransfers und einen englischsprachigen Chauffeur mit unbegrenzter Kilometerleistung in Ihrem Privatfahrzeug. Eintrittsgebühren und optionale Wasseraktivitäten bleiben Ihnen selbst überlassen, sodass Sie sich stärker auf Tierwelt oder Strandzeit konzentrieren können. Jeder Tag verbindet UNESCO-Kulturerbe mit hautnahen Erlebnissen – Katamaranfahrten im Dorf, Gewürzmärkte und Zimt-Bootssafaris –, die bei Bustouren oft fehlen.',
+    highlights: [
+      'Sonnenuntergang am Pidurangala, Löwenfelsen Sigiriya und UNESCO-Höhlentempel von Dambulla',
+      'Heilige Zahnreliquie in Kandy, kulturelle Tanzshow und Aussichtspunkte am Ambuluwawa-Turm',
+      'Nine Arch Bridge in Ella, Little Adam\'s Peak und Jeep-Safari im Yala-Nationalpark',
+      'Wal- und Delfinbeobachtung in Mirissa, Schildkröten-Schnorcheln und Wasseraktivitäten bei Sonnenuntergang',
+      'Sieben Nächte Halbpension in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit), mit privatem Chauffeur und Flughafentransfers',
+    ],
+    whoIsFor:
+      'Perfekt für Erstbesucher, Hochzeitsreisende und aktive Familien, die Kultur, Tierwelt und Strandtage in einer Reise verbinden möchten. Whale Watching erfordert einen frühen Start; für Reisende, die mehr Tempelzeit statt Wasseraktivitäten bevorzugen, passen wir das Tempo an.',
+    bestTimeNote:
+      'Dezember–April ist die beste Zeit für die Walsaison in Mirissa und trockenes Wetter an der Südküste. Das Kultur-Dreieck und das Hügelland eignen sich ganzjährig; Yala kann um September kurzzeitig schließen – wir passen die Parkwahl entsprechend an.',
+    faq: [
+      {
+        q: 'Wie viele Hotelnächte sind in der 8-tägigen Tour enthalten?',
+        a: 'Das Paket umfasst sieben Nächte in 4-Sterne-Halbpension-Hotels entlang der Route sowie Abholung und Rückfahrt zum Flughafen. Mittagessen, Parkeintrittsgebühren und Whale-Watching-Bootstickets werden vor Ort bezahlt.',
+      },
+      {
+        q: 'Ist Whale Watching in Mirissa garantiert?',
+        a: 'Walsichtungen sind von November bis April sehr häufig, aber die Natur ist unvorhersehbar. Wir buchen seriöse Anbieter für den besten Morgenslot; bei rauer See empfehlen wir alternativ Schildkröten-Schnorcheln oder einen entspannten Strandmorgen.',
+      },
+      {
+        q: 'Können wir Pidurangala gegen den vollständigen Aufstieg auf den Sigiriya-Felsen tauschen?',
+        a: 'Absolut. Tag 2 konzentriert sich auf den Löwenfelsen Sigiriya, während Tag 1 Pidurangala für den Sonnenuntergang nutzt. Teilen Sie uns Ihr Fitnessniveau mit, und wir können einen Aufstieg umkehren oder streichen, um Ihre Knie zu schonen.',
+      },
+    ],
+    days: [
+      {
+        title: 'Ankunft & Pidurangala-Felsen',
+        activities: [
+          { type: 'Ankunft', title: 'Ankunft' },
+          {
+            type: 'Geführte Tour',
+            title: 'Pidurangala-Felsen',
+            description:
+              'Beginnen Sie Ihr Sri-Lanka-Abenteuer mit einer Wanderung zum Pidurangala-Felsen, einem der spektakulärsten Aussichtspunkte im Kulturdreieck. Über antike Tempelanlagen und Felsformationen erreichen Sie den Gipfel und erleben einen unvergesslichen Sonnenuntergang mit Blick auf die Felsenfestung Sigiriya, üppige Wälder und ruhige Seen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa',
+            description: 'Übernachtung im Hotel Fresco Water Villa (oder ähnlich) – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya & Dambulla',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Sigiriya-Felsenfestung',
+            description:
+              'Erkunden Sie die legendäre Felsenfestung Sigiriya, eine UNESCO-Welterbestätte und eines der berühmtesten Wahrzeichen Sri Lankas. Die im 5. Jahrhundert von König Kashyapa errichtete Festung erhebt sich fast 200 Meter über die Ebene und besticht durch Fresken, Gartenanlagen, die Spiegelwand und beeindruckende Ingenieurskunst.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Dorf- und Seeabenteuer Hiriwadunna',
+            description:
+              'Erleben Sie das authentische Dorfleben Sri Lankas bei einem geführten Besuch in Hiriwadunna. Durchqueren Sie malerische Landschaften, Seen und Felder, lernen Sie jahrhundertealte Traditionen kennen und unternehmen Sie eine ruhige Katamaran-Fahrt über den Dorfsee.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Höhlentempel von Dambulla',
+            description:
+              'Besuchen Sie den prächtigen Höhlentempel von Dambulla, Sri Lankas größten und besterhaltenen Höhlentempelkomplex und eine UNESCO-Welterbestätte. Die über 2.000 Jahre alte Pilgerstätte umfasst fünf Höhlenschreine mit buddhistischen Wandmalereien und gut erhaltenen Statuen.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Dambulla Wirtschaftszentrum',
+            description:
+              'Entdecken Sie das lebhafte Dambulla Economic Center, Sri Lankas größten Großmarkt für Obst und Gemüse. Erleben Sie das geschäftige Treiben der Händler aus dem ganzen Land und die bunte Vielfalt an tropischen Früchten, Gemüse und Gewürzen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa',
+            description: 'Übernachtung mit Halbpension.',
+            extra: ['Frühstück', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Kandy Stadtrundfahrt',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Sri Dalada Maligawa',
+            description:
+              'Besuchen Sie den weltberühmten Zahntempel (Sri Dalada Maligawa), eine der heiligsten buddhistischen Pilgerstätten und UNESCO-Welterbestätte im historischen Kandy. Bewundern Sie die kandyanische Architektur, kunstvolle Schnitzereien und goldverzierte Schreine.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Kandy Lake Club – Kulturelle Tanzshow',
+            description:
+              'Erleben Sie die lebendigen Traditionen Sri Lankas bei der berühmten Kandy-Tanzshow mit traditionellem Trommelspiel, energiegeladenen Volkstänzen, farbenprächtigen Kostümen sowie Feuerlauf- und Feuerspuck-Darbietungen.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Sri-Muthumariamman-Tempel',
+            description:
+              'Erkunden Sie den prachtvollen Sri-Muthumariamman-Tempel, einen der schönsten Hindutempel Sri Lankas. Bekannt für seine farbenfrohe Architektur und detailreichen Skulpturen im drawidischen Stil, spiegelt er die multikulturelle Geschichte des Landes wider.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Nalanda Gedige',
+            description:
+              'Entdecken Sie das geheimnisvolle Nalanda Gedige nahe Matale, eines der einzigartigsten historischen Monumente Sri Lankas. Das über tausend Jahre alte Steinbauwerk vereint hinduistische und buddhistische Architektur inmitten friedlicher Landschaften.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Topaz',
+            description: 'Übernachtung im Hotel Topaz (oder ähnlich) – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad'],
+          },
+        ],
+      },
+      {
+        title: 'Nuwara Eliya über die Ramboda-Wasserfälle',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Royal Botanical Garden',
+            description:
+              'Besuchen Sie die weltberühmten Royal Botanical Gardens in Peradeniya, einen der größten und schönsten botanischen Gärten Asiens. Auf über 147 Hektar wachsen mehr als 4.000 Pflanzenarten – seltene Orchideen, eine Palmenallee, Heilpflanzen und tropische Blütenbäume.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Ambuluwawa-Turm',
+            description:
+              'Besteigen Sie den berühmten Ambuluwawa-Turm im gleichnamigen Biodiversitätskomplex, einen der einzigartigsten Aussichtspunkte Sri Lankas. Auf einem Berggipfel gelegen, bietet er einen 360-Grad-Panoramablick auf Bergketten, Wälder, Flüsse, Teeplantagen und Dörfer.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Bluefield-Teefabrik',
+            description:
+              'Entdecken Sie das Erbe des Ceylon-Tees bei einem geführten Besuch der bekannten Bluefield-Teefabrik in Nuwara Eliya. Inmitten üppiger Teeplantagen und nebelverhangener Hügel erfahren Sie alles über den traditionellen Herstellungsprozess vom Blattpflücken bis zur fertigen Tasse.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Aussichtspunkt Ramboda-Wasserfälle',
+            description:
+              'Genießen Sie spektakuläre Ausblicke auf die Ramboda-Wasserfälle, einen der höchsten und malerischsten Wasserfälle Sri Lankas. Umgeben von Teeplantagen und nebligen Berglandschaften stürzt der Wasserfall über schroffe Felsen – ein beeindruckendes Naturschauspiel.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Ramboda Falls Hotel',
+            description: 'Übernachtung im Ramboda Falls Hotel (oder ähnlich) – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Eigenes Bad'],
+          },
+        ],
+      },
+      {
+        title: 'Ella-Abenteuer',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Nine-Arches-Bridge',
+            description:
+              'Besuchen Sie die berühmte Nine-Arches-Bridge, eines der meistfotografierten Wahrzeichen Sri Lankas und ein Meisterwerk kolonialer Eisenbahnbaukunst. Die aus Stein errichtete Brücke inmitten von Teeplantagen ist bis heute in Betrieb.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Lake Gregory',
+            description:
+              'Genießen Sie einen entspannten Besuch am malerischen Lake Gregory, einer der beliebtesten Freizeitattraktionen von Nuwara Eliya. Umgeben von Berglandschaften und kühlem Hochlandklima lädt der See zu Bootsfahrten, Spaziergängen und Fotografie ein.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Little Adam’s Peak',
+            description:
+              'Wandern Sie zum Little Adam’s Peak, einem der beliebtesten Aussichtspunkte Ellas. Der leichte, lohnende Aufstieg führt durch Teeplantagen und grüne Hügel bis zum Gipfel, wo ein 360-Grad-Panoramablick auf die Ella Gap und die Täler wartet.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'La Ella Breeze Hotel',
+            description: 'Übernachtung im La Ella Breeze Hotel (oder ähnlich) – Halbpension.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Yala-Nationalpark & Ravana-Wasserfälle',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Yala-Nationalpark',
+            description:
+              'Erleben Sie eine unvergessliche Safari im Yala-Nationalpark, Sri Lankas berühmtestem Park und einem der besten Orte Asiens, um wilde Leoparden zu beobachten. Der Park beherbergt Elefanten, Lippenbären, Krokodile, Sikahirsche, Wildschweine, Büffel und über 215 Vogelarten.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Ravana-Wasserfälle',
+            description:
+              'Besuchen Sie die atemberaubenden Ravana-Wasserfälle, eines der schönsten und bekanntesten Wasserfälle Sri Lankas inmitten der Berge von Ella. Der Legende nach versteckte König Ravana hier Prinzessin Sita in nahegelegenen Höhlen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Mandara Resort Hotel',
+            description: 'Übernachtung in Mirissa.',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Mirissa – Whale Watching & Wasseraktivitäten',
+        activities: [
+          {
+            type: 'Whale Watching',
+            title: 'Wal- und Delfinbeobachtung in Mirissa',
+            description:
+              'Erleben Sie ein unvergessliches Whale- und Dolphin-Watching-Abenteuer in Mirissa, Sri Lankas führendem Ziel für Meereswildtiere. Fahren Sie hinaus in den Indischen Ozean auf der Suche nach Blauwalen, Pottwalen, Bryde-Walen und verspielten Delfinschulen.',
+          },
+          {
+            type: 'Schnorcheln',
+            title: 'Schnorchel-Erlebnis mit Walen in Mirissa',
+            description:
+              'Entdecken Sie die farbenfrohe Unterwasserwelt Mirissas bei einem spannenden Schnorchelausflug in kristallklarem, tropischem Wasser. Erkunden Sie bunte Korallenformationen und eine vielfältige Riff-Tierwelt entlang der Südküste Sri Lankas.',
+          },
+          {
+            type: 'Schnorcheln',
+            title: 'Schildkröten-Schnorchelabenteuer in Mirissa',
+            description:
+              'Schwimmen Sie mit anmutigen Meeresschildkröten im warmen Wasser von Mirissa – eines der beliebtesten Meereserlebnisse Sri Lankas. Beobachten Sie Grüne Meeresschildkröten und Karettschildkröten zwischen Korallenriffen und tropischen Fischen.',
+          },
+          {
+            type: 'Wasseraktivität',
+            title: 'Sonnenuntergangs-Kajaktour in Mirissa',
+            description:
+              'Erleben Sie einen tropischen Sonnenuntergang bei einer ruhigen Kajaktour entlang der malerischen Küste von Mirissa, während sich der Himmel in Orange-, Rosa- und Goldtöne verfärbt.',
+          },
+          {
+            type: 'Bootsfahrt',
+            title: 'Sonnenuntergangs-Bootsfahrt in Mirissa',
+            description:
+              'Gehen Sie an Bord für eine entspannte Sonnenuntergangs-Bootsfahrt in Mirissa mit Panoramablick auf die Südküste Sri Lankas. Beobachten Sie, wie die Sonne über dem Indischen Ozean versinkt – ein romantisches Erlebnis für die ganze Familie.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Mandara Resort Hotel',
+            description:
+              'Verbringen Sie eine komfortable Übernachtung im Mandara Resort Hotel oder einem ähnlichen Strandhotel in Mirissa. Das Paket beinhaltet Halbpension mit Frühstück und Abendessen für einen angenehmen Aufenthalt an Sri Lankas schöner Südküste.',
+            extra: ['4-Sterne-Hotel (Premium)', 'Frühstück inklusive', 'Eigenes Bad', 'Abendessen inklusive'],
+          },
+        ],
+      },
+      {
+        title: 'Mirissa & Abreise',
+        activities: [
+          {
+            type: 'Natur- & Kulturerlebnis',
+            title: 'Coconut Tree Hill Mirissa',
+            description:
+              'Besuchen Sie den ikonischen Coconut Tree Hill in Mirissa, einen der meistfotografierten Küstenaussichtspunkte Sri Lankas. Auf einer Klippe über dem türkisblauen Indischen Ozean gelegen, säumen hohe Kokospalmen diese malerische Landschaft.',
+          },
+          {
+            type: 'Naturschutz',
+            title: 'Meeresschildkröten-Schutzprojekt',
+            description:
+              'Besuchen Sie ein Meeresschildkröten-Schutzzentrum an der Südküste und erfahren Sie mehr über den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmaßnahmen.',
+          },
+          {
+            type: 'Bootssafari',
+            title: 'Madu-Fluss-Safari',
+            description:
+              'Genießen Sie eine malerische Bootssafari durch die Mangrovenwälder und kleinen Inseln des Madu-Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfältige Feuchtgebietswelt.',
+          },
+          { type: 'Abreise', title: 'Abreisetransfer' },
+        ],
+      },
+    ],
+  }
 };

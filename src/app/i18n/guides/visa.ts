@@ -480,4 +480,70 @@ export const VISA_GUIDE: ArticleContent = {
       { pageId: 'guideBudget', label: 'Гид по бюджетному путешествию в Шри-Ланке' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Visum-Ratgeber: ETA, Anforderungen und Antragstellung',
+    lead: 'Fast jeder Besucher Sri Lankas benötigt vor dem Boarding eine elektronische Reisegenehmigung (ETA) – ein unkomplizierter Online-Vorgang, allerdings mit genug Kleingedrucktem zu Gültigkeit, Verlängerungen und Passregeln, dass es sich lohnt, ihn rechtzeitig vor der Abreise korrekt zu erledigen.',
+    heroAlt: 'Reisepass und Reisedokumente für eine Sri-Lanka-Reise vorbereitet',
+    sections: [
+      {
+        title: 'Was die ETA ist und wer eine braucht',
+        body: 'Die Electronic Travel Authorisation (ETA) ist Sri Lankas Äquivalent zum Visum bei Einreise, online vor der Reise beantragt und genehmigt, für Tourismus, Geschäft oder Transit. Bürger der meisten Länder benötigen eine ETA; eine kurze Liste von Nationalitäten hat visumfreie Regelungen oder andere Anforderungen – prüfen Sie das offizielle Regierungsportal für Ihren spezifischen Pass, statt es anzunehmen.\n\nBeantragen Sie die ETA nur über die offizielle Sri-Lanka-ETA-Website – Drittanbieter-Seiten, die überhöhte „Servicegebühren“ für denselben Antrag verlangen, sind eine häufige Falle für Erstbesucher.',
+      },
+      {
+        title: 'Wie und wann man den Antrag stellt',
+        body: 'Beantragen Sie die ETA online mindestens einige Tage vor der Abreise, obwohl die Genehmigung für unkomplizierte touristische Anträge oft innerhalb von 24 Stunden erfolgt. Sie benötigen Ihre Passdaten, ein Rück- oder Weiterflugticket und eine gültige Kredit- oder Debitkarte für die Gebühr.\n\nDrucken Sie Ihre Genehmigung aus oder speichern Sie eine digitale Kopie, um sie beim Check-in und bei der Einreise vorzuzeigen; Fluggesellschaften haben Passagieren schon das Boarding verweigert, die keinen Nachweis der ETA-Genehmigung vorlegen konnten, obwohl die Einreisebehörde selbst diese elektronisch prüfen kann.',
+      },
+      {
+        title: 'Gültigkeit und Aufenthaltsdauer',
+        body: 'Die Standard-Touristen-ETA erlaubt einen ersten Aufenthalt von bis zu 30 Tagen ab Einreisedatum und ist im Allgemeinen innerhalb eines festgelegten Zeitfensters ab dem Genehmigungsdatum gültig – beantragen Sie sie daher nicht viele Monate vor einer flexiblen Reise. Für Reisende, die während ihrer Reise aus- und wieder einreisen möchten, etwa für einen Abstecher auf die Maldiven oder nach Indien, gibt es Mehrfacheinreise-Optionen.\n\nPrüfen Sie den genauen aktuellen Gültigkeitszeitraum und die zulässige Aufenthaltsdauer auf der offiziellen ETA-Seite, bevor Sie Flüge buchen, da sich die Regeln regelmäßig ändern.',
+      },
+      {
+        title: 'Aufenthalt verlängern',
+        body: 'Touristische Aufenthalte lassen sich in der Regel über die anfänglichen 30 Tage hinaus verlängern, indem man einen Antrag beim Department of Immigration and Emigration in Colombo oder, wo verfügbar, online stellt – üblicherweise bis zu insgesamt 90 Tagen für touristische Zwecke, bei korrekt beantragter Verlängerung und im Voraus bezahlten Gebühren.\n\nEin Überschreiten der Aufenthaltsdauer ohne genehmigte Verlängerung kann bei der Ausreise zu Strafen und Komplikationen führen – beantragen Sie die Verlängerung daher vor Ablauf Ihrer aktuellen Genehmigung, nicht danach.',
+      },
+      {
+        title: 'Pass- und weitere Einreiseanforderungen',
+        body: 'Ihr Reisepass sollte in der Regel noch mindestens sechs Monate über das Einreisedatum hinaus gültig sein, und Sie sollten einen Nachweis für Weiter- oder Rückreise sowie ausreichende Mittel für Ihren Aufenthalt mitführen, da Einreisebeamte diese nach eigenem Ermessen verlangen können. Eine ausgedruckte oder digitale Kopie Ihrer Unterkunftsbuchung ist eine sinnvolle Ergänzung, auch wenn sie selten kontrolliert wird.\n\nPrüfen Sie vor der Reise etwaige aktuell erforderliche Gesundheitsdokumente, da sich die Anforderungen im Laufe der Zeit ändern können und je nach Abflugland variieren.',
+      },
+      {
+        title: 'Häufige Fehler, die man vermeiden sollte',
+        body: 'Der Antrag über inoffizielle Drittanbieter-Websites zu überhöhten Preisen ist der häufigste und vermeidbarste Fehler – die offizielle staatliche ETA-Gebühr ist festgelegt, und der Vorgang dauert auf der richtigen Seite nur wenige Minuten. Falsch eingegebene Passdaten, insbesondere Namen, die nicht exakt mit dem Pass übereinstimmen, sind die zweithäufigste Ursache für verzögerte oder abgelehnte Anträge.\n\nDen Antrag bis zum Flughafen aufzuschieben oder anzunehmen, eine gültige ETA aus einer früheren Reise gelte weiterhin, sind beide vermeidbare Probleme: Beantragen Sie für jede Reise stets neu und rechtzeitig im Voraus.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Brauche ich ein Visum für Sri Lanka?',
+        a: 'Fast alle Besucher benötigen eine online vor der Reise beantragte elektronische Reisegenehmigung (ETA); eine kleine Zahl von Nationalitäten hat andere Regelungen – prüfen Sie das offizielle ETA-Portal speziell für Ihren Pass.',
+      },
+      {
+        q: 'Wie lange dauert die ETA-Genehmigung?',
+        a: 'Unkomplizierte touristische Anträge werden oft innerhalb von 24 Stunden genehmigt, es ist jedoch sinnvoll, mindestens einige Tage vor der Abreise zu beantragen statt in letzter Minute.',
+      },
+      {
+        q: 'Wie lange darf ich mit einer touristischen ETA in Sri Lanka bleiben?',
+        a: 'Die Standard-Touristen-ETA erlaubt einen ersten Aufenthalt von bis zu 30 Tagen, mit Verlängerungen über das Department of Immigration and Emigration in der Regel bis zu insgesamt rund 90 Tagen für touristische Zwecke.',
+      },
+      {
+        q: 'Kann ich mein Sri-Lanka-Visum nach der Einreise verlängern?',
+        a: 'Ja – beantragen Sie eine Verlängerung beim Department of Immigration and Emigration in Colombo oder, wo verfügbar, online, bevor Ihre aktuelle Genehmigung abläuft, um Strafen oder Komplikationen zu vermeiden.',
+      },
+      {
+        q: 'Wo sollte ich meine Sri-Lanka-ETA beantragen?',
+        a: 'Ausschließlich über die offizielle ETA-Website der srilankischen Regierung. Drittanbieter-Seiten verlangen für denselben unkomplizierten Antrag oft deutlich überhöhte Gebühren.',
+      },
+    ],
+    ctaTitle: 'Lassen Sie uns bei den praktischen Details helfen',
+    ctaBody: 'Sobald Ihre ETA genehmigt ist, kann unser Team eine Route rund um Ihre genauen Reisedaten planen – mit Flughafenabholung und einem privaten Fahrer-Guide vom Moment der Landung an.',
+    ctaLabel: 'Reise mit uns planen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits-Ratgeber' },
+      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise-Ratgeber' },
+    ],
+  }
 };

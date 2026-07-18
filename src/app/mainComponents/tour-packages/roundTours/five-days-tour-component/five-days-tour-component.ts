@@ -84,7 +84,6 @@ export class FiveDaysTourComponent implements OnInit {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/5-day-sri-lanka-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.filecode);

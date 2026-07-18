@@ -10,12 +10,14 @@ import {
   LOCALES as RAW_LOCALES,
   DEFAULT_LOCALE as RAW_DEFAULT_LOCALE,
   NON_DEFAULT_LOCALES as RAW_NON_DEFAULT_LOCALES,
+  INDEXABLE_LOCALES as RAW_INDEXABLE_LOCALES,
 } from './site-data.mjs';
 import type { Locale } from './site-data.mjs';
 
 export type { Locale } from './site-data.mjs';
 
 export const LOCALES = RAW_LOCALES as readonly Locale[];
+export const INDEXABLE_LOCALES = RAW_INDEXABLE_LOCALES as readonly Locale[];
 export const DEFAULT_LOCALE: Locale = RAW_DEFAULT_LOCALE;
 export const NON_DEFAULT_LOCALES = RAW_NON_DEFAULT_LOCALES as readonly Locale[];
 
@@ -40,10 +42,15 @@ export const LOCALE_META: Record<Locale, LocaleMeta> = {
   es: { code: 'es', label: 'Español', flag: 'es', ogLocale: 'es_ES', htmlLang: 'es' },
   pl: { code: 'pl', label: 'Polski', flag: 'pl', ogLocale: 'pl_PL', htmlLang: 'pl' },
   ru: { code: 'ru', label: 'Русский', flag: 'ru', ogLocale: 'ru_RU', htmlLang: 'ru' },
+  nl: { code: 'nl', label: 'Nederlands', flag: 'nl', ogLocale: 'nl_NL', htmlLang: 'nl' },
 };
 
 export function isLocale(value: string | null | undefined): value is Locale {
   return !!value && (LOCALES as readonly string[]).includes(value);
+}
+
+export function isIndexableLocale(locale: Locale): boolean {
+  return (INDEXABLE_LOCALES as readonly string[]).includes(locale);
 }
 
 /**

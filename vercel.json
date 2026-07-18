@@ -1,5 +1,1043 @@
 {
   "version": 2,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sundowntours.com"
+        }
+      ],
+      "destination": "https://www.sundowntours.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/best-time-to-visit-sri-lanka",
+      "destination": "/travel-guides/best-time-to-visit-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/10-day-sri-lanka-tour",
+      "destination": "/de/10-tage-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/de/2-tage-ella-kandy-private-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/de/2-tage-ella-yala-private-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/4-day-sri-lanka-tour",
+      "destination": "/de/4-tage-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/5-day-sri-lanka-tour",
+      "destination": "/de/5-tage-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/6-day-sri-lanka-private-tour",
+      "destination": "/de/6-tage-private-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/7-day-sri-lanka-tour",
+      "destination": "/de/7-tage-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/8-day-sri-lanka-private-tour",
+      "destination": "/de/8-tage-private-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/best-time-to-visit-sri-lanka",
+      "destination": "/de/reisefuehrer/beste-reisezeit-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/customer-testimonials",
+      "destination": "/de/kundenbewertungen",
+      "permanent": true
+    },
+    {
+      "source": "/de/destinations-sri-lanka",
+      "destination": "/de/reiseziele-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/ella-day-tour",
+      "destination": "/de/ella-tagesausflug",
+      "permanent": true
+    },
+    {
+      "source": "/de/galle-day-tour",
+      "destination": "/de/galle-tagesausflug",
+      "permanent": true
+    },
+    {
+      "source": "/de/kandy-day-tour",
+      "destination": "/de/kandy-tagesausflug",
+      "permanent": true
+    },
+    {
+      "source": "/de/sigiriya-day-tour",
+      "destination": "/de/sigiriya-tagesausflug",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-beaches-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-straende",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-budget-travel-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-reisebudget",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-food-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-kueche",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-packing-guide",
+      "destination": "/de/reisefuehrer/packliste-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-private-driver-guide",
+      "destination": "/de/reisefuehrer/privater-fahrer-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-safari-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-safari",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-safety-guide",
+      "destination": "/de/reisefuehrer/sicherheit-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-tea-country-guide",
+      "destination": "/de/reisefuehrer/teeanbaugebiet-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-travel-guides",
+      "destination": "/de/reisefuehrer",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-visa-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-visum",
+      "permanent": true
+    },
+    {
+      "source": "/de/sri-lanka-wildlife-guide",
+      "destination": "/de/reisefuehrer/sri-lanka-wildtier-guide",
+      "permanent": true
+    },
+    {
+      "source": "/de/yala-sri-lanka",
+      "destination": "/de/yala-nationalpark-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/10-day-sri-lanka-tour",
+      "destination": "/es/circuito-sri-lanka-10-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/es/circuito-privado-ella-kandy-2-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/es/circuito-privado-ella-yala-2-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/4-day-sri-lanka-tour",
+      "destination": "/es/circuito-sri-lanka-4-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/5-day-sri-lanka-tour",
+      "destination": "/es/circuito-sri-lanka-5-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/6-day-sri-lanka-private-tour",
+      "destination": "/es/circuito-privado-sri-lanka-6-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/7-day-sri-lanka-tour",
+      "destination": "/es/circuito-sri-lanka-7-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/8-day-sri-lanka-private-tour",
+      "destination": "/es/circuito-privado-sri-lanka-8-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/best-time-to-visit-sri-lanka",
+      "destination": "/es/guias/mejor-epoca-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/customer-testimonials",
+      "destination": "/es/opiniones-clientes",
+      "permanent": true
+    },
+    {
+      "source": "/es/destinations-sri-lanka",
+      "destination": "/es/destinos-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/ella-day-tour",
+      "destination": "/es/excursion-ella-un-dia",
+      "permanent": true
+    },
+    {
+      "source": "/es/galle-day-tour",
+      "destination": "/es/excursion-galle-un-dia",
+      "permanent": true
+    },
+    {
+      "source": "/es/kandy-day-tour",
+      "destination": "/es/excursion-kandy-un-dia",
+      "permanent": true
+    },
+    {
+      "source": "/es/restaurants-in-sri-lanka",
+      "destination": "/es/restaurantes-en-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sigiriya-day-tour",
+      "destination": "/es/excursion-sigiriya-un-dia",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-beaches-guide",
+      "destination": "/es/guias/playas-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-budget-travel-guide",
+      "destination": "/es/guias/presupuesto-viaje-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-food-guide",
+      "destination": "/es/guias/comida-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-packing-guide",
+      "destination": "/es/guias/que-llevar-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-private-driver-guide",
+      "destination": "/es/guias/conductor-privado-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-safari-guide",
+      "destination": "/es/guias/safari-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-safety-guide",
+      "destination": "/es/guias/seguridad-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-tea-country-guide",
+      "destination": "/es/guias/region-del-te-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-travel-guides",
+      "destination": "/es/guias",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-visa-guide",
+      "destination": "/es/guias/visado-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/es/sri-lanka-wildlife-guide",
+      "destination": "/es/guias/fauna-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/10-day-sri-lanka-tour",
+      "destination": "/fr/circuit-sri-lanka-10-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/fr/circuit-prive-ella-kandy-2-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/fr/circuit-prive-ella-yala-2-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/4-day-sri-lanka-tour",
+      "destination": "/fr/circuit-sri-lanka-4-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/5-day-sri-lanka-tour",
+      "destination": "/fr/circuit-sri-lanka-5-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/6-day-sri-lanka-private-tour",
+      "destination": "/fr/circuit-prive-sri-lanka-6-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/7-day-sri-lanka-tour",
+      "destination": "/fr/circuit-sri-lanka-7-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/8-day-sri-lanka-private-tour",
+      "destination": "/fr/circuit-prive-sri-lanka-8-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/best-time-to-visit-sri-lanka",
+      "destination": "/fr/guides/meilleure-periode-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/customer-testimonials",
+      "destination": "/fr/temoignages-clients",
+      "permanent": true
+    },
+    {
+      "source": "/fr/ella-day-tour",
+      "destination": "/fr/excursion-ella-journee",
+      "permanent": true
+    },
+    {
+      "source": "/fr/galle-day-tour",
+      "destination": "/fr/excursion-galle-journee",
+      "permanent": true
+    },
+    {
+      "source": "/fr/kandy-day-tour",
+      "destination": "/fr/excursion-kandy-journee",
+      "permanent": true
+    },
+    {
+      "source": "/fr/restaurants-in-sri-lanka",
+      "destination": "/fr/restaurants-au-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sigiriya-day-tour",
+      "destination": "/fr/excursion-sigiriya-journee",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-beaches-guide",
+      "destination": "/fr/guides/plages-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-budget-travel-guide",
+      "destination": "/fr/guides/budget-voyage-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-food-guide",
+      "destination": "/fr/guides/cuisine-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-packing-guide",
+      "destination": "/fr/guides/liste-de-bagages-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-private-driver-guide",
+      "destination": "/fr/guides/chauffeur-prive-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-safari-guide",
+      "destination": "/fr/guides/safari-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-safety-guide",
+      "destination": "/fr/guides/securite-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-tea-country-guide",
+      "destination": "/fr/guides/region-the-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-travel-guides",
+      "destination": "/fr/guides",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-visa-guide",
+      "destination": "/fr/guides/visa-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sri-lanka-wildlife-guide",
+      "destination": "/fr/guides/faune-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/10-day-sri-lanka-tour",
+      "destination": "/it/tour-sri-lanka-10-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/it/tour-privato-ella-kandy-2-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/it/tour-privato-ella-yala-2-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/4-day-sri-lanka-tour",
+      "destination": "/it/tour-sri-lanka-4-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/5-day-sri-lanka-tour",
+      "destination": "/it/tour-sri-lanka-5-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/6-day-sri-lanka-private-tour",
+      "destination": "/it/tour-privato-sri-lanka-6-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/7-day-sri-lanka-tour",
+      "destination": "/it/tour-sri-lanka-7-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/8-day-sri-lanka-private-tour",
+      "destination": "/it/tour-privato-sri-lanka-8-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/best-time-to-visit-sri-lanka",
+      "destination": "/it/guide/periodo-migliore-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/customer-testimonials",
+      "destination": "/it/recensioni-clienti",
+      "permanent": true
+    },
+    {
+      "source": "/it/destinations-sri-lanka",
+      "destination": "/it/destinazioni-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/ella-day-tour",
+      "destination": "/it/escursione-giornaliera-ella",
+      "permanent": true
+    },
+    {
+      "source": "/it/galle-day-tour",
+      "destination": "/it/escursione-giornaliera-galle",
+      "permanent": true
+    },
+    {
+      "source": "/it/kandy-day-tour",
+      "destination": "/it/escursione-giornaliera-kandy",
+      "permanent": true
+    },
+    {
+      "source": "/it/restaurants-in-sri-lanka",
+      "destination": "/it/ristoranti-in-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sigiriya-day-tour",
+      "destination": "/it/escursione-giornaliera-sigiriya",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-beaches-guide",
+      "destination": "/it/guide/spiagge-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-budget-travel-guide",
+      "destination": "/it/guide/budget-viaggio-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-food-guide",
+      "destination": "/it/guide/cucina-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-packing-guide",
+      "destination": "/it/guide/cosa-portare-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-private-driver-guide",
+      "destination": "/it/guide/autista-privato-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-safari-guide",
+      "destination": "/it/guide/safari-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-safety-guide",
+      "destination": "/it/guide/sicurezza-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-tea-country-guide",
+      "destination": "/it/guide/regione-del-te-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-travel-guides",
+      "destination": "/it/guide",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-visa-guide",
+      "destination": "/it/guide/visto-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/sri-lanka-wildlife-guide",
+      "destination": "/it/guide/fauna-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/10-day-sri-lanka-tour",
+      "destination": "/nl/10-daagse-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/nl/2-daagse-prive-rondreis-ella-kandy",
+      "permanent": true
+    },
+    {
+      "source": "/nl/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/nl/2-daagse-prive-rondreis-ella-yala",
+      "permanent": true
+    },
+    {
+      "source": "/nl/4-day-sri-lanka-tour",
+      "destination": "/nl/4-daagse-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/5-day-sri-lanka-tour",
+      "destination": "/nl/5-daagse-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/6-day-sri-lanka-private-tour",
+      "destination": "/nl/6-daagse-prive-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/7-day-sri-lanka-tour",
+      "destination": "/nl/7-daagse-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/8-day-sri-lanka-private-tour",
+      "destination": "/nl/8-daagse-prive-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/best-time-to-visit-sri-lanka",
+      "destination": "/nl/reisgidsen/beste-reistijd-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/customer-testimonials",
+      "destination": "/nl/klantbeoordelingen",
+      "permanent": true
+    },
+    {
+      "source": "/nl/destinations-sri-lanka",
+      "destination": "/nl/bestemmingen-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/ella-day-tour",
+      "destination": "/nl/ella-dagexcursie",
+      "permanent": true
+    },
+    {
+      "source": "/nl/galle-day-tour",
+      "destination": "/nl/galle-dagexcursie",
+      "permanent": true
+    },
+    {
+      "source": "/nl/kandy-day-tour",
+      "destination": "/nl/kandy-dagexcursie",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sigiriya-day-tour",
+      "destination": "/nl/sigiriya-dagexcursie",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-beaches-guide",
+      "destination": "/nl/reisgidsen/stranden-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-budget-travel-guide",
+      "destination": "/nl/reisgidsen/budget-reizen-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-food-guide",
+      "destination": "/nl/reisgidsen/eten-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-packing-guide",
+      "destination": "/nl/reisgidsen/paklijst-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-private-driver-guide",
+      "destination": "/nl/reisgidsen/prive-chauffeur-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-safari-guide",
+      "destination": "/nl/reisgidsen/safari-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-safety-guide",
+      "destination": "/nl/reisgidsen/veiligheid-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-tea-country-guide",
+      "destination": "/nl/reisgidsen/theeplantages-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-travel-guides",
+      "destination": "/nl/reisgidsen",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-visa-guide",
+      "destination": "/nl/reisgidsen/sri-lanka-visum",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sri-lanka-wildlife-guide",
+      "destination": "/nl/reisgidsen/wildlife-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/10-day-sri-lanka-tour",
+      "destination": "/pl/10-dniowa-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/pl/2-dniowa-prywatna-wycieczka-ella-kandy",
+      "permanent": true
+    },
+    {
+      "source": "/pl/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/pl/2-dniowa-prywatna-wycieczka-ella-yala",
+      "permanent": true
+    },
+    {
+      "source": "/pl/4-day-sri-lanka-tour",
+      "destination": "/pl/4-dniowa-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/5-day-sri-lanka-tour",
+      "destination": "/pl/5-dniowa-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/6-day-sri-lanka-private-tour",
+      "destination": "/pl/6-dniowa-prywatna-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/7-day-sri-lanka-tour",
+      "destination": "/pl/7-dniowa-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/8-day-sri-lanka-private-tour",
+      "destination": "/pl/8-dniowa-prywatna-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/best-time-to-visit-sri-lanka",
+      "destination": "/pl/przewodniki/najlepszy-czas-na-sri-lanke",
+      "permanent": true
+    },
+    {
+      "source": "/pl/customer-testimonials",
+      "destination": "/pl/opinie-klientow",
+      "permanent": true
+    },
+    {
+      "source": "/pl/destinations-sri-lanka",
+      "destination": "/pl/kierunki-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/ella-day-tour",
+      "destination": "/pl/wycieczka-jednodniowa-ella",
+      "permanent": true
+    },
+    {
+      "source": "/pl/galle-day-tour",
+      "destination": "/pl/wycieczka-jednodniowa-galle",
+      "permanent": true
+    },
+    {
+      "source": "/pl/kandy-day-tour",
+      "destination": "/pl/wycieczka-jednodniowa-kandy",
+      "permanent": true
+    },
+    {
+      "source": "/pl/restaurants-in-sri-lanka",
+      "destination": "/pl/restauracje-na-sri-lance",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sigiriya-day-tour",
+      "destination": "/pl/wycieczka-jednodniowa-sigiriya",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-beaches-guide",
+      "destination": "/pl/przewodniki/plaze-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-budget-travel-guide",
+      "destination": "/pl/przewodniki/budzet-podrozy-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-food-guide",
+      "destination": "/pl/przewodniki/kuchnia-sri-lanki",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-packing-guide",
+      "destination": "/pl/przewodniki/co-spakowac-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-private-driver-guide",
+      "destination": "/pl/przewodniki/prywatny-kierowca-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-safari-guide",
+      "destination": "/pl/przewodniki/safari-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-safety-guide",
+      "destination": "/pl/przewodniki/bezpieczenstwo-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-tea-country-guide",
+      "destination": "/pl/przewodniki/region-herbaty-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-travel-guides",
+      "destination": "/pl/przewodniki",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-visa-guide",
+      "destination": "/pl/przewodniki/wiza-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sri-lanka-wildlife-guide",
+      "destination": "/pl/przewodniki/przyroda-sri-lanki",
+      "permanent": true
+    },
+    {
+      "source": "/ru/10-day-sri-lanka-tour",
+      "destination": "/ru/10-dnevnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/2-day-ella-kandy-private-tour-sri-lanka",
+      "destination": "/ru/2-dnevnyy-tur-ella-kandi",
+      "permanent": true
+    },
+    {
+      "source": "/ru/2-day-ella-yala-private-tour-sri-lanka",
+      "destination": "/ru/2-dnevnyy-tur-ella-yala",
+      "permanent": true
+    },
+    {
+      "source": "/ru/4-day-sri-lanka-tour",
+      "destination": "/ru/4-dnevnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/5-day-sri-lanka-tour",
+      "destination": "/ru/5-dnevnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/6-day-sri-lanka-private-tour",
+      "destination": "/ru/6-dnevnyy-individualnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/7-day-sri-lanka-tour",
+      "destination": "/ru/7-dnevnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/8-day-sri-lanka-private-tour",
+      "destination": "/ru/8-dnevnyy-individualnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/best-time-to-visit-sri-lanka",
+      "destination": "/ru/putevoditel/luchshee-vremya-dlya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/customer-testimonials",
+      "destination": "/ru/otzyvy-klientov",
+      "permanent": true
+    },
+    {
+      "source": "/ru/dambulla-sri-lanka",
+      "destination": "/ru/dambulla-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/destinations-sri-lanka",
+      "destination": "/ru/napravleniya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/ella-day-tour",
+      "destination": "/ru/odnodnevnaya-ekskursiya-ella",
+      "permanent": true
+    },
+    {
+      "source": "/ru/ella-sri-lanka",
+      "destination": "/ru/ella-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/galle-day-tour",
+      "destination": "/ru/odnodnevnaya-ekskursiya-galle",
+      "permanent": true
+    },
+    {
+      "source": "/ru/galle-sri-lanka",
+      "destination": "/ru/galle-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/kandy-day-tour",
+      "destination": "/ru/odnodnevnaya-ekskursiya-kandi",
+      "permanent": true
+    },
+    {
+      "source": "/ru/kandy-sri-lanka",
+      "destination": "/ru/kandi-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/restaurants-in-sri-lanka",
+      "destination": "/ru/restorany-na-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sigiriya-day-tour",
+      "destination": "/ru/odnodnevnaya-ekskursiya-sigiriya",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sigiriya-sri-lanka",
+      "destination": "/ru/sigiriya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-beaches-guide",
+      "destination": "/ru/putevoditel/plyazhi-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-budget-travel-guide",
+      "destination": "/ru/putevoditel/byudzhet-puteshestviya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-food-guide",
+      "destination": "/ru/putevoditel/kukhnya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-packing-guide",
+      "destination": "/ru/putevoditel/chto-vzyat-v-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-private-driver-guide",
+      "destination": "/ru/putevoditel/chastnyy-voditel-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-safari-guide",
+      "destination": "/ru/putevoditel/safari-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-safety-guide",
+      "destination": "/ru/putevoditel/bezopasnost-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-tea-country-guide",
+      "destination": "/ru/putevoditel/chaynye-plantatsii-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-travel-guides",
+      "destination": "/ru/putevoditel",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-visa-guide",
+      "destination": "/ru/putevoditel/viza-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sri-lanka-wildlife-guide",
+      "destination": "/ru/putevoditel/dikaya-priroda-shri-lanki",
+      "permanent": true
+    },
+    {
+      "source": "/ru/yala-sri-lanka",
+      "destination": "/ru/yala-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-beaches-guide",
+      "destination": "/travel-guides/sri-lanka-beaches-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-budget-travel-guide",
+      "destination": "/travel-guides/sri-lanka-budget-travel-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-food-guide",
+      "destination": "/travel-guides/sri-lanka-food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-packing-guide",
+      "destination": "/travel-guides/sri-lanka-packing-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-private-driver-guide",
+      "destination": "/travel-guides/sri-lanka-private-driver-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-safari-guide",
+      "destination": "/travel-guides/sri-lanka-safari-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-safety-guide",
+      "destination": "/travel-guides/sri-lanka-safety-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-tea-country-guide",
+      "destination": "/travel-guides/sri-lanka-tea-country-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-travel-guides",
+      "destination": "/travel-guides",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-visa-guide",
+      "destination": "/travel-guides/sri-lanka-visa-guide",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-wildlife-guide",
+      "destination": "/travel-guides/sri-lanka-wildlife-guide",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -12,9 +1050,19 @@
     }
   ],
   "rewrites": [
-    { 
-      "source": "/(.*)", 
-      "destination": "/index.html" 
+    {
+      "source": "/",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/api"
     }
-  ]
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/Travelwebsite/**",
+      "maxDuration": 30
+    }
+  }
 }

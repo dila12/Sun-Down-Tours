@@ -23,6 +23,12 @@ import countriesData from '../../../assets/data/countries.json';
 import countryCode from '../../../assets/data/countryCode.json';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LocaleService } from '../../i18n/locale.service';
+import { formatTourPriceEur } from '../../utils/tour-prices.static';
+import {
+  SITE_EMAIL,
+  SITE_PHONE_DISPLAY,
+  SITE_WHATSAPP_URL,
+} from '../../i18n/site-contact';
 
 declare let gtag: Function;
 
@@ -73,6 +79,14 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   countrySearch = '';
   filteredDialCountries: DialCountry[] = this.countriesList;
   readonly maxOnlineTravelers = 6;
+  readonly siteEmail = SITE_EMAIL;
+  readonly sitePhone = SITE_PHONE_DISPLAY;
+  readonly whatsappUrl = SITE_WHATSAPP_URL;
+  readonly encodeURIComponent = encodeURIComponent;
+
+  get eurLabel(): string {
+    return formatTourPriceEur(this.total || 0);
+  }
 
   @ViewChild('dialPickerRoot') dialPickerRoot?: ElementRef<HTMLElement>;
   @ViewChild('dialSearchInput') dialSearchInput?: ElementRef<HTMLInputElement>;
@@ -337,14 +351,8 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
       .post(`${environment.backendUrl}/send-booking-email`, bookingDetails)
       .subscribe({
         next: () => {
-          if (typeof gtag !== 'undefined') {
-            gtag('event', 'conversion', {
-              send_to: 'AW-1234567890/ABCDefGhijkLmNoP',
-              value: this.total,
-              currency: 'USD',
-              transaction_id: this.orderNumber,
-            });
-          }
+          // Google Ads conversion fires only when a real conversion ID is configured
+          // in third-party-scripts.util (placeholder IDs are intentionally not used).
 
           this.toastr.success(
             this.i18n.t('common.booking.toastSuccess'),

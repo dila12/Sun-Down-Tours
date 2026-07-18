@@ -81,7 +81,6 @@ export class EightdaysComponent {
   }
 
   async ngOnInit() {
-    this.seo.updateCanonicalUrl('https://www.sundowntours.com/8-day-sri-lanka-private-tour');
     if (isPlatformBrowser(this.platformId)) {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(this.filecode);

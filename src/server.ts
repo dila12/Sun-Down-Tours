@@ -7,8 +7,10 @@ import {
 import express from 'express';
 import compression from 'compression';
 import { join } from 'node:path';
+import { buildEdgeRedirectMap, resolveEdgeRedirect } from './app/i18n/edge-redirects.mjs';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
+const edgeRedirects = buildEdgeRedirectMap();
 
 const app = express();
 app.use(compression());
@@ -21,8 +23,30 @@ const angularApp = new AngularNodeAppEngine({
   ],
 });
 
+/** Canonical host: apex → www (HTTP 301). Skip local/dev hosts. */
 app.use((req, res, next) => {
-    res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  const host = (req.headers.host || '').split(':')[0].toLowerCase();
+  if (host === 'sundowntours.com') {
+    const target = `https://www.sundowntours.com${req.originalUrl || '/'}`;
+    res.redirect(301, target);
+    return;
+  }
+  next();
+});
+
+/** Legacy slug + dormant-locale HTTP 301s (before Angular soft routing). */
+app.use((req, res, next) => {
+  const target = resolveEdgeRedirect(req.path || '/', edgeRedirects);
+  if (target) {
+    const qs = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+    res.redirect(301, `${target}${qs}`);
+    return;
+  }
+  next();
+});
+
+app.use((req, res, next) => {
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
   res.setHeader('Cross-Origin-Opener-Policy', 'same-origin');
   res.setHeader('X-Frame-Options', 'DENY');
   res.setHeader('X-Content-Type-Options', 'nosniff');

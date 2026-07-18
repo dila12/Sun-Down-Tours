@@ -543,4 +543,5 @@ export const TOUR_CARDS: Record<Locale, CardDict> = {
   es,
   pl,
   ru,
+  nl: en,
 };

@@ -591,4 +591,82 @@ export const SIGIRIYA_DAY: TourContent = {
       },
     ],
   },
+  nl: {
+    title: 'Sri Lanka Sigiriya Tagestour',
+    description:
+      'Entdecken Sie Sri Lankas kulturelles und natürliches Erbe auf einer Tagestour nach Sigiriya, inklusive Tempel, Felsklettern und Tierwelt.',
+    duration: '1 Tag',
+    persons: '1–20 Reisende',
+    tourType: 'Tagestour',
+    overview:
+      'Diese Tagestour nach Sigiriya bietet die perfekte Mischung aus Kultur, Abenteuer und Tierwelt. Beginnen Sie mit einem Besuch des Goldenen Höhlentempels in Dambulla, gefolgt von der Besteigung der Felsenfestung Sigiriya oder des Pidurangala-Felsens für atemberaubende Ausblicke. Beenden Sie den Tag mit einer spannenden Wildelefanten-Safari – ideal für Natur- und Geschichtsliebhaber.',
+    includes: [
+      'Alle Eintrittsgebühren für Attraktionen (ohne Safari-Eintritt & Jeep)',
+      'Autobahngebühren und Parkgebühren',
+      'Englischsprachiger professioneller Fahrer',
+      'Klimatisiertes Privatfahrzeug',
+      'Mittagessen',
+    ],
+    excludes: ['Safari-Eintrittstickets und Jeep', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Eine Sigiriya-Tagestour verdichtet zweitausend Jahre Geschichte und wilde Elefantengebiete in einen einzigen unvergesslichen Ausflug. Beginnen Sie bei den goldenen Buddha-Statuen des Höhlentempels von Dambulla, entscheiden Sie sich anschließend für den Aufstieg auf den Löwenfelsen Sigiriya oder den sonnenuntergangsfreundlichen Aussichtspunkt Pidurangala, und schließen Sie den Tag mit einer nachmittäglichen Jeep-Safari ab, bei der Elefantenherden frei umherziehen. Sundown Tours übernimmt frühe Startzeiten, Ticket-Warteschlangen und die Hitze beim Felsaufstieg, während Sie in einem privaten klimatisierten Fahrzeug mit einem englischsprachigen Fahrer-Guide reisen. Mittagessen ist inklusive; Safari-Jeep und Parkeintrittsgebühren werden vor Ort abgerechnet, sodass Sie am Tag selbst entscheiden können. Perfekt für Kulturliebhaber und Tierfotografen mit Standort in Colombo, Kandy oder dem Kultur-Dreieck.',
+    highlights: [
+      'UNESCO-Höhlentempel von Dambulla mit antiken Wandmalereien und goldenen Statuen',
+      'Aufstieg auf den Löwenfelsen Sigiriya oder den Pidurangala-Felsen für Festungsruinen und Dschungelblicke',
+      'Nachmittägliche Wildelefanten-Safari in Minneriya, Kaudulla oder einem nahegelegenen Park',
+      'Privater klimatisierter Transport mit professionellem englischsprachigem Fahrer',
+      'Inklusive Mittagessen in einem lokalen Restaurant zwischen Kultur- und Safari-Stopps',
+    ],
+    faq: [
+      {
+        q: 'Sollten wir bei einer eintägigen Tour Sigiriya-Felsen oder Pidurangala besteigen?',
+        a: 'Sigiriya bietet das UNESCO-Festungserlebnis mit Fresken und Palastruinen, erfordert aber mehr Stufen und Hitze. Pidurangala ist kürzer, günstiger und berühmt für die Aussicht auf den Löwenfelsen – ideal, wenn Sie einen leichteren Aufstieg bevorzugen oder mit jüngeren Kindern reisen.',
+      },
+      {
+        q: 'Sind Safari-Jeep und Nationalpark-Gebühren enthalten?',
+        a: 'Ihr Tourpreis umfasst Fahrzeug, Fahrer, Guide, Tempeleintritte und Mittagessen. Safari-Parktickets und Jeep-Miete werden vor Ort bezahlt (in der Regel 30–50 USD pro Person), sodass Sie die Safari auch auslassen können, um mehr Zeit an den Felsen zu haben.',
+      },
+      {
+        q: 'Wie früh beginnt der Tag von Colombo oder Kandy aus?',
+        a: 'Planen Sie eine Abfahrt um 5:00–6:00 Uhr von Colombo oder 7:00–8:00 Uhr von Kandy, um Dambulla, den Felsaufstieg und eine Nachmittags-Safari vor Einbruch der Dunkelheit unterzubringen. Wir bestätigen die genaue Abholzeit bei der Buchung.',
+      },
+    ],
+    days: [
+      {
+        title: 'Sigiriya Tagestour Reiseroute',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Sigiriya Tagestour Reiseroute',
+            description:
+              'Abholung von Ihrem Hotel in einem komfortablen, klimatisierten Privatfahrzeug.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Goldener Höhlentempel – Dambulla',
+            description:
+              'Besuchen Sie den UNESCO-Welterbe-Höhlentempel von Dambulla, berühmt für seine antiken Wandmalereien und Buddha-Statuen.',
+          },
+          {
+            type: 'Aktivität',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description:
+              'Besuchen Sie den heiligsten buddhistischen Tempel Sri Lankas im Herzen von Kandy.',
+          },
+          {
+            type: 'Abenteuer',
+            title: 'Besteigung von Sigiriya oder Pidurangala',
+            description:
+              'Besteigen Sie entweder die ikonische Felsenfestung Sigiriya oder den Pidurangala-Felsen für atemberaubende Panoramablicke.',
+          },
+          {
+            type: 'Safari',
+            title: 'Wildelefanten-Safari',
+            description:
+              'Erleben Sie eine spannende Wildelefanten-Safari in einem Nationalpark (Jeep & Eintrittsgebühren nicht inklusive).',
+          },
+        ],
+      },
+    ],
+  }
 };

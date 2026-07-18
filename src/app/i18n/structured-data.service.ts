@@ -8,6 +8,7 @@ import { TourContentService } from './tours/tour-content.service';
 import { BASE_URL, getPage } from './site-data.mjs';
 import {
   SITE_ADDRESS_LOCALITY,
+  SITE_ADDRESS_REGION,
   SITE_ADDRESS_STREET,
   SITE_BRAND,
   SITE_EMAIL,
@@ -19,6 +20,9 @@ import {
   SITE_PHONE_E164,
   SITE_TRIPADVISOR_URL,
 } from './site-contact';
+import { TOUR_OFFER_CURRENCY, getTourOfferPriceUsd } from '../utils/tour-prices.static';
+import { buildTourImagePath, toWebpSrc, withImageVersion } from '../utils/image.util';
+import { TOUR_CATALOG } from './tours/catalog';
 
 const SCRIPT_ID = 'ld-json-graph';
 const OG_IMAGE = `${BASE_URL}/assets/img/package-2.webp`;
@@ -30,7 +34,7 @@ const CONTENT_NS = ['home', 'about', 'services', 'tours', 'contact'] as const;
 /**
  * Builds and injects the per-page, per-locale JSON-LD `@graph`:
  * TravelAgency + LocalBusiness, Organization, WebSite, BreadcrumbList,
- * FAQPage and (for tours) a Product/TouristTrip with offer + aggregate rating.
+ * FAQPage and (for tours) a Product/TouristTrip with Offer (no AggregateRating).
  * Destinations emit TouristDestination; guides emit Article.
  * SSR-safe via the injected DOCUMENT.
  */
@@ -45,6 +49,7 @@ export class StructuredDataService {
     const graph: Record<string, unknown>[] = [
       this.business(locale),
       this.organization(locale),
+      ...this.people(locale),
       this.website(locale),
     ];
 
@@ -93,8 +98,7 @@ export class StructuredDataService {
         '@type': 'PostalAddress',
         streetAddress: SITE_ADDRESS_STREET,
         addressLocality: SITE_ADDRESS_LOCALITY,
-        addressRegion: 'Western Province',
-        postalCode: '',
+        addressRegion: SITE_ADDRESS_REGION,
         addressCountry: 'LK',
       },
       geo: {
@@ -117,7 +121,6 @@ export class StructuredDataService {
         closes: SITE_HOURS_CLOSES,
       },
       sameAs: [SITE_FACEBOOK_URL, SITE_INSTAGRAM_URL, SITE_TRIPADVISOR_URL],
-      aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '187' },
     };
   }
 
@@ -129,7 +132,58 @@ export class StructuredDataService {
       url: BASE_URL,
       logo: { '@type': 'ImageObject', url: LOGO },
       description: this.i18n.t('seo.about.description', locale),
+      founder: { '@id': `${BASE_URL}/#person-dilan-lakshitha` },
+      employee: [
+        { '@id': `${BASE_URL}/#person-dilan-lakshitha` },
+        { '@id': `${BASE_URL}/#person-yohan-malshika` },
+      ],
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: SITE_ADDRESS_STREET,
+        addressLocality: SITE_ADDRESS_LOCALITY,
+        addressRegion: SITE_ADDRESS_REGION,
+        addressCountry: 'LK',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: SITE_PHONE_E164,
+        email: SITE_EMAIL,
+        contactType: 'customer service',
+        areaServed: ['LK', 'EU', 'GB'],
+        availableLanguage: ['English', 'German', 'French', 'Italian', 'Spanish', 'Polish', 'Russian', 'Dutch'],
+      },
+      sameAs: [SITE_FACEBOOK_URL, SITE_INSTAGRAM_URL, SITE_TRIPADVISOR_URL],
     };
+  }
+
+  private people(locale: Locale): Record<string, unknown>[] {
+    const aboutUrl = this.i18n.url('about', locale);
+    return [
+      {
+        '@type': 'Person',
+        '@id': `${BASE_URL}/#person-dilan-lakshitha`,
+        name: 'Dilan Lakshitha',
+        jobTitle: 'Owner & Founder',
+        worksFor: { '@id': `${BASE_URL}/#organization` },
+        image: `${BASE_URL}/assets/img/Team/1.webp`,
+        url: aboutUrl,
+        knowsLanguage: ['en', 'si'],
+        homeLocation: {
+          '@type': 'Place',
+          name: 'Waskaduwa, Sri Lanka',
+        },
+      },
+      {
+        '@type': 'Person',
+        '@id': `${BASE_URL}/#person-yohan-malshika`,
+        name: 'Yohan Malshika',
+        jobTitle: 'Senior Consultant',
+        worksFor: { '@id': `${BASE_URL}/#organization` },
+        image: `${BASE_URL}/assets/img/Team/2.webp`,
+        url: aboutUrl,
+        knowsLanguage: ['en', 'si'],
+      },
+    ];
   }
 
   private website(locale: Locale): Record<string, unknown> {
@@ -257,25 +311,38 @@ export class StructuredDataService {
     if (!page || page.kind !== 'tour') {
       return null;
     }
+
+    const meta = TOUR_CATALOG.find((t) => t.pageId === pageId);
+    const imagePath = meta
+      ? withImageVersion(toWebpSrc(buildTourImagePath(meta)))
+      : OG_IMAGE;
+    const imageUrl = imagePath.startsWith('http')
+      ? imagePath
+      : `${BASE_URL}/${imagePath.replace(/^\//, '')}`;
+
+    const offer: Record<string, unknown> = {
+      '@type': 'Offer',
+      priceCurrency: TOUR_OFFER_CURRENCY,
+      availability: 'https://schema.org/InStock',
+      url: this.i18n.url(pageId, locale),
+    };
+    const price = getTourOfferPriceUsd(pageId);
+    if (price !== undefined) {
+      offer['price'] = price.toFixed(2);
+    }
+
     return {
       '@type': ['Product', 'TouristTrip'],
       name: this.i18n.t(`seo.${pageId}.title`, locale).split('|')[0].trim(),
       description: this.i18n.t(`seo.${pageId}.description`, locale),
       image: {
         '@type': 'ImageObject',
-        url: OG_IMAGE,
+        url: imageUrl,
       },
       url: this.i18n.url(pageId, locale),
       brand: { '@id': `${BASE_URL}/#organization` },
       provider: { '@id': `${BASE_URL}/#travelagency` },
-      offers: {
-        '@type': 'Offer',
-        priceCurrency: 'USD',
-        availability: 'https://schema.org/InStock',
-        url: this.i18n.url(pageId, locale),
-      },
-      // AggregateRating kept; unverifiable single-review schema removed.
-      aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '187' },
+      offers: offer,
     };
   }
 
@@ -347,5 +414,13 @@ export class StructuredDataService {
       this.doc.head.appendChild(script);
     }
     script.textContent = JSON.stringify(data);
+  }
+
+  /** Remove JSON-LD on 404 so soft-home schema is not emitted for unknown URLs. */
+  clear(): void {
+    const script = this.doc.getElementById(SCRIPT_ID);
+    if (script) {
+      script.remove();
+    }
   }
 }

@@ -20,6 +20,7 @@ import {
   onImageError,
   toWebpSrc,
 } from '../../utils/image.util';
+import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
 
 @Component({
   selector: 'app-article-page',
@@ -45,6 +46,7 @@ export class ArticlePageComponent implements OnInit {
   readonly buildSrcSet = buildSrcSet;
   readonly buildAvifSrcSet = buildAvifSrcSet;
   readonly toWebpSrc = toWebpSrc;
+  readonly whatsappUrl = SITE_WHATSAPP_URL;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 

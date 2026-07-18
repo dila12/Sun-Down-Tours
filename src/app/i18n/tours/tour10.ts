@@ -2089,4 +2089,295 @@ export const TOUR10: TourContent = {
       },
     ],
   },
+  nl: {
+    title: '10 Tage Sri Lanka Privatreise | Safari, Kultur, Bergland & Strand',
+    description:
+      'Eine unvergessliche 10-tägige Sri-Lanka-Privatreise mit Wilpattu-Safari, Anuradhapura, Sigiriya, Kandy, Abenteuern in Ella und einem entspannten Aufenthalt an der Südküste.',
+    duration: '10 Tage',
+    persons: '1-20 Personen',
+    tourType: 'Rundreise',
+    overview:
+      'Entdecken Sie Sri Lankas Tierwelt, antike Königreiche, malerische Berge und goldene Strände auf dieser perfekt ausbalancierten 10-tägigen Reise. Diese Rundreise verbindet Safari-Abenteuer, UNESCO-Welterbestätten, Berglandschaften, Teeplantagen, Wasserfälle und entspannte Küstenerlebnisse mit Halbpension und privatem Transport.',
+    includes: [
+      'Klimatisiertes Privatfahrzeug',
+      'Englischsprachiger professioneller Fahrer',
+      'Halbpension-Unterkunft (9 Nächte) in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
+      'Kraftstoff & Parkgebühren',
+      'Abholung & Rückfahrt zum Flughafen',
+    ],
+    excludes: ['Eintritts- & Aktivitätsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Zehn Tage lassen Sie Sri Lanka in menschlichem Tempo erleben – von Leopardengebiet in Wilpattu und dem heiligen Bodhi-Baum in Anuradhapura über Sigiriya, Kandy, die Nine Arches Bridge in Ella und ausgedehnte Strandtage an der Südküste bis zu einem Finale in Colombo. Diese private Rundreise kombiniert zwei Wildtier-Safaris, ayurvedisches Wellness, Wasserfälle im Teeland und entspannte Strandzeit in Hikkaduwa mit den Mangroven des Madu-Flusses, Schildkröten-Aufzuchtstationen und Hauptstadt-Sehenswürdigkeiten wie dem Gangaramaya-Tempel und Galle Face Green. Sundown Tours beinhaltet neun Nächte Halbpension in 4-Sterne-Unterkünften, Flughafentransfers und einen englischsprachigen Chauffeur in einem privaten klimatisierten Fahrzeug. Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie die optionalen Stopps selbst steuern. Die zusätzlichen Tage im Vergleich zu einer einwöchigen Reise bedeuten weniger Fahrzeit pro Highlight, Raum für spontane Besuche von Gewürzgärten und genug Strandmorgen, um wirklich zu entspannen – statt nur den Ozean zu fotografieren und weiterzuziehen.',
+    highlights: [
+      'Jeep-Safaris in Wilpattu und Minneriya sowie Yala-ähnliche Tierwelt im Süden',
+      'Heilige Stätten von Anuradhapura, Löwenfelsen Sigiriya und Zahnreliquien-Tempel in Kandy',
+      'Nine Arch Bridge in Ella, Teefabriken, Ramboda-Wasserfälle und Landschaft des Hügellands',
+      'Ausgedehnte Strandaufenthalte in Hikkaduwa und Mirissa mit Besuchen von Schildkröten-Schutzprojekten',
+      'Stadtrundfahrt in Colombo – Independence Square, Gangaramaya, Galle Face und Pettah-Märkte',
+    ],
+    whoIsFor:
+      'Am besten für Reisende mit einer vollen Ferienwoche plus Pufferzeit, die Tiefgang statt Tempo wünschen – Familien mit Teenagern, Fotografen und Wiederholungsbesucher, die das Kulturerbe im Norden der Mitte zur klassischen Südroute hinzufügen möchten.',
+    bestTimeNote:
+      'Dezember–April eignet sich für die West- und Südküstenstrände sowie den Zugang zu Wilpattu. Mai–September funktioniert gut, wenn Sie das Kultur-Dreieck priorisieren und gelegentliche Nachmittagsschauer im Hügelland nicht stören.',
+    faq: [
+      {
+        q: 'Wie unterscheidet sich die 10-tägige Tour von Ihren 7- oder 8-tägigen Reisen?',
+        a: 'Sie erhalten zusätzlich Wilpattu und Anuradhapura zu Beginn, zwei zusätzliche Strandnächte rund um Hikkaduwa/Mirissa und einen vollen Sightseeing-Tag in Colombo am Ende – mit weniger mehrstündigen Fahrten an einem einzigen Tag.',
+      },
+      {
+        q: 'Sind alle neun Hotelnächte im Preis enthalten?',
+        a: 'Ja – neun Nächte in 4-Sterne-Halbpension-Hotels, das Privatfahrzeug, der Fahrer und die Flughafentransfers sind enthalten. Parktickets, Safari-Jeeps, Mittagessen und optionale Ayurveda-Behandlungen werden vor Ort bezahlt.',
+      },
+      {
+        q: 'Können wir am Flughafen enden, anstatt am 10. Tag Colombo zu besichtigen?',
+        a: 'Ja. Bei einem Nachmittagsflug verkürzen wir die Colombo-Rundfahrt auf Ihre Wunsch-Stopps oder bringen Sie direkt zum Flughafen Bandaranaike – teilen Sie uns bei der Buchung Ihre Flugzeit mit.',
+      },
+    ],
+    days: [
+      {
+        title: 'Flughafen / Hotel – Wilpattu',
+        activities: [
+          {
+            type: 'Safari',
+            title: 'Wilpattu-Nationalpark-Safari',
+            description:
+              'Erkunden Sie Sri Lankas größten Nationalpark bei einer 5-stündigen 4x4-Jeep-Safari. Halten Sie Ausschau nach Leoparden, Lippenbären, Elefanten, Hirschen, Krokodilen und einer vielfältigen Vogelwelt.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Thimbiri Wewa Resort – Wilpattu',
+            description: 'Übernachtung im Thimbiri Wewa Resort Wilpattu (oder ähnlich) – Halbpension.',
+            extra: ['Abendessen inklusive', 'Hotel gehobener Klasse'],
+          },
+        ],
+      },
+      {
+        title: 'Wilpattu – Anuradhapura – Sigiriya',
+        activities: [
+          {
+            type: 'Religiöser Besuch',
+            title: 'Sri-Maha-Bodhi-Tempel',
+            description: 'Besuchen Sie den heiligen Sri-Maha-Bodhi-Baum in Anuradhapura.',
+          },
+          {
+            type: 'Historischer Besuch',
+            title: 'Ruwanweli Maha Seya',
+            description: 'Erkunden Sie eines der heiligsten buddhistischen Monumente Sri Lankas.',
+          },
+          {
+            type: 'Aussichtswanderung',
+            title: 'Sonnenuntergang am Pidurangala-Felsen',
+            description: 'Besteigen Sie den Pidurangala-Felsen für einen atemberaubenden Sonnenuntergang.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa – Sigiriya',
+            description: 'Übernachtung in der Fresco Water Villa (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya Kulturdreieck',
+        activities: [
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Sigiriya-Felsenfestung',
+            description: 'Besteigen Sie die UNESCO-gelistete Felsenfestung Sigiriya.',
+          },
+          {
+            type: 'Dorferlebnis',
+            title: 'Dorftour Hiriwadunna',
+            description: 'Erleben Sie das authentische ländliche Leben Sri Lankas.',
+          },
+          {
+            type: 'Safari',
+            title: 'Minneriya-Safari',
+            description: 'Genießen Sie eine 4x4-Jeep-Safari, bekannt für ihre Elefantenansammlungen.',
+          },
+          {
+            type: 'Wellness',
+            title: 'Ayurveda-Massage',
+            description: 'Entspannen Sie bei einer traditionellen Kräuterölmassage.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Fresco Water Villa – Sigiriya',
+            description: 'Übernachtung in der Fresco Water Villa (oder ähnlich).',
+            extra: ['Frühstück & Abendessen inklusive', '4-Sterne-Hotel'],
+          },
+        ],
+      },
+      {
+        title: 'Sigiriya – Kandy',
+        activities: [
+          {
+            type: 'Kulturbesuch',
+            title: 'Matale Gewürzgarten',
+            description: 'Entdecken Sie Sri Lankas berühmte Gewürze und Kräuter.',
+          },
+          {
+            type: 'UNESCO-Stätte',
+            title: 'Zahntempel (Sri Dalada Maligawa)',
+            description: 'Besuchen Sie Sri Lankas heiligsten buddhistischen Tempel in Kandy.',
+          },
+          {
+            type: 'Kulturshow',
+            title: 'Kandy Kulturelle Tanzshow',
+            description: 'Erleben Sie traditionelle kandyanische Tanzdarbietungen.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Hotel Topaz – Kandy',
+            description: 'Übernachtung im Hotel Topaz (oder ähnlich) in Kandy – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Eigenes Bad', 'Frühstück', 'Abendessen inklusive'],
+          },
+        ],
+      },
+      {
+        title: 'Kandy – Nuwara Eliya – Ella',
+        activities: [
+          {
+            type: 'Tee-Erlebnis',
+            title: 'Bluefield-Teefabrik',
+            description: 'Erfahren Sie, wie der weltberühmte Ceylon-Tee hergestellt wird.',
+          },
+          {
+            type: 'Natur',
+            title: 'Ramboda-Wasserfall',
+            description: 'Besuchen Sie einen der höchsten Wasserfälle Sri Lankas.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Oak Ray Ella Gap Hotel',
+            description: 'Übernachtung im Oak Ray Ella Gap Hotel (oder ähnlich) – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Eigenes Bad', 'Frühstück', 'Abendessen inklusive'],
+          },
+        ],
+      },
+      {
+        title: 'Ella – Hikkaduwa',
+        activities: [
+          {
+            type: 'Sehenswürdigkeit',
+            title: 'Nine-Arches-Bridge',
+            description: 'Besuchen Sie die berühmte Eisenbahnbrücke aus der Kolonialzeit.',
+          },
+          {
+            type: 'Tierwelt',
+            title: 'Elephant Transit Home',
+            description: 'Beobachten Sie gerettete Elefantenbabys.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Somerset Mirissa Hotel',
+            description: 'Übernachtung im Somerset Mirissa Hotel (oder ähnlich) – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Hikkaduwa Strand',
+        activities: [
+          {
+            type: 'Strandentspannung',
+            title: 'Hikkaduwa Beach',
+            description: 'Entspannen Sie an goldenen Stränden und schwimmen Sie im Indischen Ozean.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Somerset Mirissa Hotel',
+            description: 'Übernachtung im Somerset Mirissa Hotel (oder ähnlich) – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Hikkaduwa Strand',
+        activities: [
+          {
+            type: 'Strandentspannung',
+            title: 'Hikkaduwa Beach',
+            description: 'Entspannen Sie an goldenen Stränden und schwimmen Sie im Indischen Ozean.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Somerset Mirissa Hotel',
+            description: 'Übernachtung im Somerset Mirissa Hotel (oder ähnlich) – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Frühstück', 'Eigenes Bad', 'Abendessen'],
+          },
+        ],
+      },
+      {
+        title: 'Wasseraktivitäten nach Kalutara',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Peraliya Tsunami-Denkmal',
+            description:
+              'Das Peraliya-Tsunami-Denkmal ehrt die Opfer des Tsunamis von 2004 mit einer imposanten Buddha-Statue als Symbol für Frieden und Erinnerung, nahe dem Ort der schlimmsten Tsunami-Katastrophe Sri Lankas.',
+          },
+          {
+            type: 'Naturschutz',
+            title: 'Besuch der Koggala-Schildkrötenaufzucht',
+            description:
+              'Besuchen Sie die Koggala-Schildkrötenaufzucht und das Schutzzentrum, in dem gefährdete Meeresschildkröten geschützt und rehabilitiert werden. Erfahren Sie mehr über Sri Lankas Meeresschutzbemühungen und beobachten Sie Jungschildkröten in den Aufzuchtbecken.',
+          },
+          {
+            type: 'Bootssafari',
+            title: 'Madu-Fluss-Bootssafari',
+            description:
+              'Erleben Sie eine malerische Bootssafari durch die Mangrovenwälder und kleinen Inseln des Madu-Flusses. Besuchen Sie traditionelle Zimtplantagen und eines der schönsten Feuchtgebiete Sri Lankas.',
+          },
+          {
+            type: 'Unterkunft',
+            title: 'Kamili Beach Resort',
+            description: 'Übernachtung im Kamili Beach Resort (oder ähnlich) – Halbpension.',
+            extra: ['Hotel 4 Sterne (Premium)', 'Eigenes Bad', 'Frühstück', 'Abendessen inklusive'],
+          },
+        ],
+      },
+      {
+        title: 'Abreise von Colombo',
+        activities: [
+          {
+            type: 'Geführte Tour',
+            title: 'Peraliya Tsunami-Denkmal',
+            description:
+              'Das Peraliya-Tsunami-Denkmal ehrt die Opfer des Tsunamis von 2004 mit einer imposanten Buddha-Statue als Symbol für Frieden und Erinnerung, nahe dem Ort der schlimmsten Tsunami-Katastrophe Sri Lankas.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Independence Memorial Hall',
+            description:
+              'Der Unabhängigkeitsplatz in Colombo ist ein historisches Denkmal zur Erinnerung an die Unabhängigkeit Sri Lankas mit prachtvoller Kolonialarchitektur, üppigen Gärten und einer friedlichen Atmosphäre.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Gangaramaya-Tempel',
+            description:
+              'Der Gangaramaya-Tempel in Colombo ist ein wunderschöner buddhistischer Tempel, der sri-lankische, thailändische und chinesische Architektur vereint, mit Statuen, Reliquien und einer ruhigen Lage am See.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Galle Face Green',
+            description:
+              'Galle Face Green in Colombo ist eine malerische Uferpromenade – perfekt für entspannte Spaziergänge, atemberaubende Sonnenuntergänge und Streetfood in lebendiger Atmosphäre am Indischen Ozean.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Pettah-Markt',
+            description:
+              'Der Colombo Fort Market ist ein belebtes Zentrum mit einer Mischung aus lokalen Waren, Kleidung, Gewürzen und Streetfood – ein lebendiges Einkaufserlebnis im Herzen der Stadt.',
+          },
+          {
+            type: 'Geführte Tour',
+            title: 'Rote Moschee (Jami Ul-Alfar Moschee)',
+            description:
+              'Die Jami-Ul-Alfar-Moschee, bekannt als Rote Moschee in Colombo, ist ein ikonisches Wahrzeichen mit auffälliger rot-weißer Architektur und gibt Einblick in Sri Lankas reiches islamisches Erbe.',
+          },
+        ],
+      },
+    ],
+  }
 };

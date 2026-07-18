@@ -61,8 +61,19 @@ export class AppComponent implements OnInit {
         mergeMap((route) => route.data),
       )
       .subscribe((data) => {
-        const pageId = (data['pageId'] as string) ?? 'home';
         const locale = (data['locale'] as Locale) ?? localeFromUrl(this.router.url);
+
+        if (data['notFound']) {
+          this.i18n.setPageId('home');
+          this.seo.updateNotFound(locale);
+          this.structuredData.clear();
+          if (isPlatformBrowser(this.platformId)) {
+            trackPageView();
+          }
+          return;
+        }
+
+        const pageId = (data['pageId'] as string) ?? 'home';
 
         this.i18n.setPageId(pageId);
         this.seo.update(pageId, locale);

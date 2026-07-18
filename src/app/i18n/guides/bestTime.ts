@@ -501,4 +501,73 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       { pageId: 'guidePacking', label: 'Гид по упаковке вещей для Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Beste Reisezeit für Sri Lanka: ein Monat-für-Monat-Ratgeber',
+    lead: 'Sri Lanka hat zwei Monsune, die zu unterschiedlichen Jahreszeiten entgegengesetzte Küsten treffen – daher gibt es fast immer irgendwo auf der Insel eine trockene, sonnige Region. Die eigentliche Kunst besteht darin, die Route der Saison anzupassen, statt einen einzigen „besten“ Monat zu suchen.',
+    heroAlt: 'Sonniger Strand mit Palmen an der srilankischen Küste',
+    sections: [
+      {
+        title: 'Warum Sri Lanka zwei Trockenzeiten hat, nicht nur eine',
+        body: 'Der Yala-Monsun bringt der Südwestküste und dem Bergland etwa von Mai bis September Regen, während der Maha-Monsun dem Nordosten und dem Kulturdreieck etwa von Oktober bis Januar Regen bringt. Das bedeutet, dass Westküste, Südküste, Bergland und Kulturdreieck selten gleichzeitig Regenzeit haben.\n\nFür einen Strandurlaub in einer einzigen Region ist das enorm wichtig; für eine mehrtägige Rundreise durch verschiedene Regionen weniger, da sich die Route um die jeweils trockensten Gebiete während Ihrer Reisedaten herum planen lässt.',
+      },
+      {
+        title: 'Dezember bis März: Hochsaison für Westen und Süden',
+        body: 'Dies ist das trockenste, sonnigste Fenster für Colombo, die Südwestküste-Strände (Bentota, Mirissa, Unawatuna), Galle und das Bergland – und damit die geschäftigste und teuerste Reisezeit. Auch die Walbeobachtung vor Mirissa erreicht in diesem Zeitraum ihren Höhepunkt.\n\nBuchen Sie Unterkünfte und Plätze im malerischen Zug rechtzeitig, wenn Sie in diesem Zeitraum reisen, besonders rund um Weihnachten, Neujahr und das singhalesisch-tamilische Neujahr im April.',
+      },
+      {
+        title: 'April bis September: die Ostküste kommt zum Zug',
+        body: 'Wenn der Südwestmonsun eintrifft, trocknet die Ostküste rund um Trincomalee und Arugam Bay ab und wird zur besseren Strandwahl; Surfer bevorzugen besonders die Wellen von Arugam Bay etwa von April bis Oktober.\n\nDiese Zeit bietet auch ausgezeichnete Bedingungen für Besichtigungen im Kulturdreieck (Sigiriya, Dambulla, Polonnaruwa, Anuradhapura), da diese Region weitgehend außerhalb beider Monsungürtel liegt und angenehm trocken bleibt.',
+      },
+      {
+        title: 'Timing für Wildtier- und Safari-Reisen',
+        body: 'Der Yala-Nationalpark ist allgemein von Mai bis September am besten, wenn die Trockenzeit Tiere um verbleibende Wasserlöcher konzentriert; der Park schließt außerdem etwa einen Monat, meist im September, für die Habitatpflege. Das Elefanten-„Gathering“ in Minneriya und Kaudulla erreicht von Juli bis Oktober seinen Höhepunkt.\n\nDie Walbeobachtung von Mirissa läuft etwa von November bis April und überlappt sich genau mit der Trockenzeit der Südküste.',
+      },
+      {
+        title: 'Festivals, um die sich eine Reise lohnt',
+        body: 'Kandys Esala Perahera, eine der großen religiösen Prozessionen Asiens, dauert zehn Nächte im Juli oder August nach dem Mondkalender; buchen Sie Unterkünfte Monate im Voraus, wenn dies für Sie wichtig ist. Das singhalesisch-tamilische Neujahr Mitte April ist ein bedeutender nationaler Feiertag mit weitverbreiteten Schließungen – planen Sie eher darum als hindurch.\n\nVesak Poya im Mai, das Geburt, Erleuchtung und Tod Buddhas markiert, bringt landesweite Laternenschauspiele und kostenlose Essensstände (Dansal), die eine Erfahrung wert sind, wenn Ihre Termine passen.',
+      },
+      {
+        title: 'Warum sich die Zwischensaison lohnt',
+        body: 'Ende April bis Anfang Juni und September bis Anfang November liegen zwischen den beiden Monsunhöhepunkten und bieten oft eine gute Mischung aus überschaubarem Regen, niedrigeren Preisen und weniger Andrang an großen Sehenswürdigkeiten wie Sigiriya und dem Zahntempel. Kurze, intensive Nachmittagsschauer statt tagelangem Regen sind in diesen Zeiträumen typisch.\n\nEin privater Fahrer-Guide, der den Tagesplan in Echtzeit ans Wetter anpassen kann, ist in der Zwischensaison besonders wertvoll, wenn sich die Bedingungen innerhalb derselben Woche von Region zu Region ändern können.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Was ist der eine beste Monat, um Sri Lanka zu besuchen?',
+        a: 'Es gibt keinen – es hängt ganz davon ab, welche Regionen Sie besuchen möchten. Februar ist eine relativ sichere Rundum-Wahl, da er sowohl für die West-/Südküste als auch für das Kulturdreieck in die Trockenzeit fällt, aber eine gut geplante Route funktioniert in fast jedem Monat.',
+      },
+      {
+        q: 'Wann ist die Regenzeit in Sri Lanka?',
+        a: 'Der Südwestmonsun dauert etwa von Mai bis September und betrifft Westküste, Südküste und Bergland; der Nordostmonsun dauert etwa von Oktober bis Januar und betrifft die Ostküste und Teile des Kulturdreiecks. Beide überlappen sich selten.',
+      },
+      {
+        q: 'Lohnt sich Sri Lanka in der Nebensaison?',
+        a: 'Ja, besonders preislich und wegen weniger Andrang – Regen in den Tropen ist meist ein kräftiger Nachmittagsschauer, kein Regentag durchgehend, und eine flexible Route mit privatem Fahrer kann die feuchtesten Regionen an jedem Tag umgehen.',
+      },
+      {
+        q: 'Wann sollte ich eine Yala-Safari für die besten Sichtungschancen buchen?',
+        a: 'Mai bis September bietet allgemein die besten Chancen, da die Trockenzeit Wildtiere um weniger Wasserlöcher konzentriert. Der Park schließt jedes Jahr für etwa einen Monat, meist im September, wegen Habitatpflege.',
+      },
+      {
+        q: 'Gibt es in Sri Lanka eine Hurrikan- oder Zyklonsaison?',
+        a: 'Sri Lanka liegt südlich des Hauptzyklongürtels und wird selten direkt getroffen, obwohl Monsuntiefs vor allem der Ostküste um November starken, anhaltenden Regen bringen können.',
+      },
+    ],
+    ctaTitle: 'Lassen Sie uns Ihre Route ums Wetter herum planen',
+    ctaBody: 'Unsere privaten Rundreisen mit Fahrer werden monatsgenau um Sri Lankas zwei Monsune geplant und führen Sie zu den Regionen, die an Ihren Reisedaten am trockensten sind.',
+    ctaLabel: 'Reise nach Saison planen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt-Ratgeber' },
+      { pageId: 'guidePacking', label: 'Sri Lanka Packliste-Ratgeber' },
+    ],
+  }
 };

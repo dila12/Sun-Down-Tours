@@ -1,0 +1,326 @@
+{
+  "BASE": "http://localhost:4000",
+  "LOCALES": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "pl",
+    "ru",
+    "nl"
+  ],
+  "INDEXABLE_LOCALES": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "pl",
+    "ru"
+  ],
+  "verdict": {
+    "Dutch": "PASS",
+    "SEO": "PASS",
+    "Routing": "PASS",
+    "SSR": "PASS",
+    "Content": "PASS",
+    "Structured Data": "PASS",
+    "Performance": "PASS",
+    "Internal Linking": "PASS"
+  },
+  "sectionResults": {
+    "Dutch": {
+      "pass": 12,
+      "fail": 0,
+      "details": []
+    },
+    "SEO": {
+      "pass": 59,
+      "fail": 0,
+      "details": []
+    },
+    "Routing": {
+      "pass": 71,
+      "fail": 0,
+      "details": []
+    },
+    "SSR": {
+      "pass": 32,
+      "fail": 0,
+      "details": []
+    },
+    "Content": {
+      "pass": 11,
+      "fail": 0,
+      "details": []
+    },
+    "Structured Data": {
+      "pass": 10,
+      "fail": 0,
+      "details": []
+    },
+    "Performance": {
+      "pass": 3,
+      "fail": 0,
+      "details": []
+    },
+    "Internal Linking": {
+      "pass": 2,
+      "fail": 0,
+      "details": []
+    }
+  },
+  "issues": [],
+  "localeSnap": {
+    "en": {
+      "path": "/",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Sundown Tours Sri Lanka | Private &amp; Tailor-Made Tours",
+      "lang": "en",
+      "og": "en_GB",
+      "tw": "summary_large_image",
+      "h1": [
+        "Sri Lanka Tours &amp; Private Driver Services"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "de": {
+      "path": "/de",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/de",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Sri Lanka Rundreise &amp; Privatreise mit Fahrer | Sundown Tours",
+      "lang": "de",
+      "og": "de_DE",
+      "tw": "summary_large_image",
+      "h1": [
+        "Sri Lanka Rundreise &amp; Privatreise mit Fahrer"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "fr": {
+      "path": "/fr",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/fr",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Circuit Sri Lanka &amp; chauffeur privé | Sundown Tours",
+      "lang": "fr",
+      "og": "fr_FR",
+      "tw": "summary_large_image",
+      "h1": [
+        "Circuit Sri Lanka &amp; chauffeur privé"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "it": {
+      "path": "/it",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/it",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Tour Sri Lanka &amp; autista privato | Sundown Tours",
+      "lang": "it",
+      "og": "it_IT",
+      "tw": "summary_large_image",
+      "h1": [
+        "Tour Sri Lanka &amp; autista privato"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "es": {
+      "path": "/es",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/es",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Viaje a Sri Lanka &amp; conductor privado | Sundown Tours",
+      "lang": "es",
+      "og": "es_ES",
+      "tw": "summary_large_image",
+      "h1": [
+        "Viaje a Sri Lanka &amp; conductor privado"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "pl": {
+      "path": "/pl",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/pl",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Wycieczka Sri Lanka z prywatnym kierowcą | Sundown Tours",
+      "lang": "pl",
+      "og": "pl_PL",
+      "tw": "summary_large_image",
+      "h1": [
+        "Wycieczka na Sri Lankę z prywatnym kierowcą"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "ru": {
+      "path": "/ru",
+      "status": 200,
+      "robots": "index, follow",
+      "can": "https://www.sundowntours.com/ru",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Туры на Шри-Ланку с частным водителем | Sundown Tours",
+      "lang": "ru",
+      "og": "ru_RU",
+      "tw": "summary_large_image",
+      "h1": [
+        "Туры на Шри-Ланку с частным водителем"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    },
+    "nl": {
+      "path": "/nl",
+      "status": 200,
+      "robots": "noindex, follow",
+      "can": "https://www.sundowntours.com/nl",
+      "hl": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "pl",
+        "ru",
+        "x-default"
+      ],
+      "t": "Sundown Tours Sri Lanka | Privé rondreis &amp; chauffeur",
+      "lang": "nl",
+      "og": "nl_NL",
+      "tw": "summary_large_image",
+      "h1": [
+        "Sri Lanka rondreizen &amp; privé chauffeur"
+      ],
+      "types": [
+        "TravelAgency",
+        "LocalBusiness",
+        "Organization",
+        "Person",
+        "WebSite",
+        "FAQPage"
+      ]
+    }
+  },
+  "deployNote": "Production (www) currently serves committed origin/main without these uncommitted changes. Local SSR validates current workspace source."
+}

@@ -515,4 +515,75 @@ export const SAFETY_GUIDE: ArticleContent = {
       { pageId: 'guidePacking', label: 'Гид по упаковке вещей для Шри-Ланки' },
     ],
   },
+  nl: {
+    h1: 'Sri Lanka Sicherheits-Ratgeber: praktische Tipps für eine selbstbewusste Reise',
+    lead: 'Sri Lanka ist für internationale Besucher im Allgemeinen sicher und gastfreundlich, mit niedrigeren Raten gewalttätiger Kriminalität als in vielen Ländern doch wie überall machen vernünftige Gewohnheiten bei Straßenverkehr, Betrug, Wildtieren und Gesundheit den Unterschied zwischen reibungslosem Urlaub und vermeidbarem Ärger. Dieser Ratgeber zeigt, worauf Sie achten sollten, nicht wovor Sie Angst haben müssen.',
+    heroAlt: 'Reisender bereitet sich sicher auf eine Sri-Lanka-Roadtrip mit Privatfahrer vor',
+    sections: [
+      {
+        title: 'Allgemeine Sicherheit: was Besucher wirklich erwarten sollten',
+        body: 'Kleine Diebstähle gibt es auf belebten Märkten, Busbahnhöfen und vollen Stränden Handy und Geldbörse in Vorder- oder Umhängetasche, nicht über dem Stuhl im Café hängen. Gewalttaten gegen Touristen sind selten; Streit geht eher um Geld, Fahrpreise oder missverstandene „Führer“ an Sehenswürdigkeiten.\n\nPolitische Demonstrationen kommen gelegentlich in Colombo vor; große Ansammlungen meiden, lokale Nachrichten verfolgen und Ihrem Fahrer-Guide vertrauen, wenn Umleitung nötig ist. Sri Lanker sind überwiegend gastfreundlich Hotel oder Fahrer nach lokalen Bedingungen fragen schlägt veraltete Forenbeiträge.',
+      },
+      {
+        title: 'Häufige Betrügereien und wie man sie umgeht',
+        body: 'An Sigiriya, Dambulla und am Zahntempel behaupten inoffizielle „Führer“ manchmal, man brauche sie zum Eintritt, oder locken zu Edelstein- und Gewürzshops mit hohem Provisionsdruck offizielle Tickets gibt es an klaren Schaltern; ungebetene Begleiter höflich ablehnen. Tuk-tuk-Fahrer mit „kostenlosen“ Tempeltouren enden oft in überteuerten Läden.\n\nEdelstein- und Gewürzkäufe sind optionales Sightseeing, keine Pflicht. Tuk-tuk- und Taxipreise vor Fahrtantritt vereinbaren oder Fahr-Apps in Colombo nutzen. Ihr Privatfahrer-Guide nimmt bei gebuchter Rundreise den Großteil dieser Reibung.',
+      },
+      {
+        title: 'Straßenverkehr, Tuk-tuks und Privatfahrer',
+        body: 'Srilankisches Fahren wirkt nach westlichem Maß assertiv enge Straßen, Busse in Kurven, Fußgänger am Fahrbahnrand sind normal. Als Passagier Anschnallgurte nutzen, wenn vorhanden, und Nachtfahrten auf unbekannten Bergstraßen beim Selbstfahren meiden.\n\nDie meisten Rundreisenden fahren mit lizenziertem Fahrer-Guide in versichertem Fahrzeug der sicherste und entspannteste Weg über Distanzen. Bei lokalen Tuk-tuks Fahrer mit verkehrstüchtigen Fahrzeugen wählen und auf belebten Strecken Helm tragen.',
+      },
+      {
+        title: 'Tempel, kultureller Respekt und Fotografie',
+        body: 'Religiöse Stätten verlangen dezente Kleidung, ruhiges Verhalten und keine Selfies mit dem Rücken zu Buddha-Statuen ein ernsthafter kultureller Fehler. Fotoregeln variieren: innere Schreine verbieten Kameras; vor Fotos von Mönchen oder Betenden fragen.\n\nSchuhe vor dem Betreten der Schreinböden ausziehen; Socken helfen auf heißem Stein. Kleine Spenden willkommen, nie Pflicht ignorieren Sie feste „Eintrittsgebühren“ jenseits des offiziellen Schalters.',
+      },
+      {
+        title: 'Wildtiere, Nationalparks und Abstand halten',
+        body: 'Yala, Udawalawe und Minneriya sind keine Zoos Elefanten, Büffel und Leoparden sind wild. In Safari-Jeeps bleiben, sofern Guides nichts anderes anweisen; Elefanten nie zu Fuß nähern, besonders Einzelmänner oder Herden mit Kälbern. Affen an Tempeln und Straßen füttern erzeugt Aggression und Bissrisiko.\n\nMeeresströmungen an der Südküste können stark sein Flaggen und Rettungsschwimmer beachten. Schnorchel- und Tauchbetreiber sollten lizenziert sein; Korallen und Meeresleben nicht anfassen.',
+      },
+      {
+        title: 'Wasser, Essen, Notfälle und alleinreisende Frauen',
+        body: 'Versiegeltes Flaschen- oder gefiltertes Wasser trinken; Leitungswasser zum Zähneputzen außerhalb vertrauenswürdiger Hotels meiden. Frisch gekochtes Essen und selbst geschältes Obst siehe unseren Kulinarik-Ratgeber für Street-Food-Nuancen. Reiseversicherung mit medizinischer Evakuierung dringend empfohlen.\n\nNotrufnummern: Polizei 119, Rettungsdienst 1990, Touristenpolizei 1912 (oft Englisch). Alleinreisende Frauen berichten selten ernsthafte Probleme; registrierten Transport nachts nutzen, in Tempeln dezent kleiden und Instinkte in leeren Gegenden vertrauen dieselben praktischen Regeln wie in weiten Teilen Asiens.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Ist Sri Lanka für Touristen sicher?',
+        a: 'Ja, auf typischen Urlaubsrouten Colombo, Kulturdreieck, Bergland und Südküste bei Standardvorsicht. Lokale Nachrichten verfolgen, seriösen Transport nutzen und Wertsachen in Menschenmengen sichern.',
+      },
+      {
+        q: 'Was ist der häufigste Touristenbetrug?',
+        a: 'Inoffizielle „Führer“ an großen Tempeln und Felsstätten plus Tuk-tuk-Umwege zu Provisions-Edelstein- oder Gewürzshops. Vorgebuchte Tickets und Privatfahrer reduzieren das deutlich.',
+      },
+      {
+        q: 'Ist Selbstfahren in Sri Lanka sicher?',
+        a: 'Legal, aber anspruchsvoll chaotischer Verkehr und begrenzte Beschilderung abseits Hauptrouten. Die meisten Besucher bevorzugen lizenzierte Fahrer-Guides, die Straßen und Parkplätze kennen.',
+      },
+      {
+        q: 'Sind Yala-Safaris sicher?',
+        a: 'Ja in zugelassenen Jeeps mit lizenzierten Parkführern und Abstandsregeln zu Elefanten und anderer Wildnis. Fahrzeug im Park nicht verlassen, außer ausdrücklich erlaubt.',
+      },
+      {
+        q: 'Welche Notrufnummern sollte ich speichern?',
+        a: '119 Polizei, 1990 Rettungsdienst, 1912 Touristenpolizei. Botschaftskontakt und Notfallnummer der Reiseversicherung ebenfalls im Telefon speichern.',
+      },
+    ],
+    ctaTitle: 'Reisen Sie mit einem vertrauenswürdigen Fahrer-Guide',
+    ctaBody: 'Unsere versicherten Privatreisen verbinden Sie mit lizenzierten Fahrer-Guides, die Navigation, Logistik an Sehenswürdigkeiten und geprüfte Mittagsstopps übernehmen Sie konzentrieren sich auf das Erlebnis, nicht auf Fallstricke.',
+    ctaLabel: 'Sichere Privatreise buchen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+      { pageId: 'tour8', label: '8-tägige Sri-Lanka-Rundreise' },
+      { pageId: 'tour5', label: '5-tägige Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala-Nationalpark' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer-Ratgeber' },
+      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik-Ratgeber' },
+      { pageId: 'guidePacking', label: 'Sri Lanka Packliste-Ratgeber' },
+    ],
+  }
 };

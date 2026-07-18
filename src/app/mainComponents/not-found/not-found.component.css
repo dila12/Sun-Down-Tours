@@ -1,0 +1,20 @@
+.not-found-hero {
+  min-height: 280px;
+}
+
+.not-found-code {
+  font-size: clamp(3.5rem, 10vw, 6rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #7ab730;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.not-found-body .gap-2 {
+  gap: 0.5rem !important;
+}
+
+.not-found-body .text-left {
+  text-align: left;
+}

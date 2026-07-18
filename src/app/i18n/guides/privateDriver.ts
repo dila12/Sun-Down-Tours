@@ -479,4 +479,70 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
       { pageId: 'guideSafety', label: 'Гид по безопасности в Шри-Ланке' },
     ],
   },
+  nl: {
+    h1: 'Warum man Sri Lanka am besten mit einem privaten Fahrer-Guide erlebt',
+    lead: 'Sri Lanka belohnt Reisende, die sich langsam durchs Land bewegen, und ein privater Fahrer-Guide macht genau das möglich – jemand, der weiß, an welchem Aussichtspunkt man anhalten sollte, wann man den Verkehr umgeht und wie man aus einer langen Fahrt einen Teil des Urlaubs macht statt toter Zeit.',
+    heroAlt: 'Privater Chauffeurwagen für Touren durch Sri Lanka',
+    sections: [
+      {
+        title: 'Warum ein privater Fahrer besser ist als Selbstfahren oder öffentliche Verkehrsmittel',
+        body: 'Einen Selbstfahrer-Mietwagen in Sri Lanka zu nehmen bedeutet, sich an enge, kurvige Straßen, ungewohnte Überholgewohnheiten und einen Fahrstil zu gewöhnen, den Besucher erst nach einiger Zeit lesen können; die meisten Kurzzeitbesucher finden das stressiger als entspannend. Busse und Züge sind ein Erlebnis für sich, fahren aber nach ihrem eigenen Zeitplan, nicht nach Ihrem – wichtig, wenn Sie den Sonnenaufgang an einem Aussichtspunkt oder einen bestimmten Zug erreichen möchten.\n\nEin privater Fahrer-Guide löst beide Probleme: Sie erhalten einen festen Tagespreis, ein für die Straßen geeignetes Fahrzeug und jemanden, der die lohnenden Abstecher bereits kennt – ohne die Erschöpfung, sich selbst im ungewohnten Verkehr zurechtzufinden.',
+      },
+      {
+        title: 'Was ein Fahrer-Guide-Service normalerweise beinhaltet',
+        body: 'Eine private Tour umfasst in der Regel Auto und Fahrer für den ganzen Tag, Kraftstoff, Unterkunft und Verpflegung des Fahrers bei mehrtägigen Reisen sowie Abholung und Rückgabe direkt vor der Tür, sodass kein separater Transport zwischen Hotels organisiert werden muss. Viele Fahrer in Sri Lanka fungieren auch informell als Guides und teilen Hintergrundwissen zu Tempeln, Plantagen und Zwischenstopps, das ein reiner Transferdienst nicht bieten würde.\n\nKlären Sie im Voraus, ob Eintrittsgebühren, Führungsgebühren an großen Sehenswürdigkeiten und die eigenen Ausgaben des Fahrers im angebotenen Preis enthalten sind, da sich die Konventionen zwischen Anbietern unterscheiden.',
+      },
+      {
+        title: 'Die Route mit einem privaten Fahrer planen',
+        body: 'Ein guter Fahrer-Guide passt den Tagesplan an Straßenverhältnisse, Wetter und die Stimmung der Gruppe an, statt starr an einem gedruckten Plan festzuhalten. Diese Flexibilität ist einer der Hauptvorteile gegenüber einer festen Gruppenreise – wenn Sie zwanzig Minuten länger an einem Gewürzgarten verweilen oder einen Stopp auslassen möchten, der Sie nicht interessiert, erlaubt eine private Reise das.\n\nTeilen Sie Ihre Interessen und Ihr bevorzugtes Tempo vor der Reise mit, damit Ihr Fahrer-Guide die Stopps entsprechend gestalten kann – ob mehr Zeit für Tierbeobachtungen oder mehr Entspannung an der Küste.',
+      },
+      {
+        title: 'Kosten und Trinkgeld-Etikette',
+        body: 'Die Kosten für einen privaten Fahrer-Guide variieren je nach Fahrzeugtyp, Reisedauer und Saison, sind aber im Vergleich zu den vergleichbaren Kosten für Selbstfahrer plus Kraftstoff generell angemessen, wenn man den Komfort und die gewonnenen Ortskenntnisse berücksichtigt. Mehrtägige Touren beinhalten üblicherweise ein moderates Tagesgeld für die eigenen Mahlzeiten und Unterkunft des Fahrers, separat von Ihrer eigenen organisiert.\n\nTrinkgeld ist am Ende der Reise üblich und wird geschätzt, besonders bei längeren mehrtägigen Touren, bei denen der Fahrer mehr als nur Fahren geleistet hat; es gibt keine feste Regel, aber ein Betrag, der guten Service widerspiegelt, ist gängige Praxis.',
+      },
+      {
+        title: 'Sicherheit und Komfort auf der Straße',
+        body: 'Sri Lankas Straßen reichen von guten Küstenautobahnen bis zu kurvigen Bergstraßen, die lokale Erfahrung erfordern, besonders rund um Ella, Haputale und die Serpentinen im Teeland. Ein erfahrener Fahrer, der diese Straßen gut kennt, ist deutlich sicherer als ein selbst gefahrener Mietwagen, besonders nach Einbruch der Dunkelheit oder bei Monsunregen.\n\nKlimatisierte Fahrzeuge sind für den Touristentransport Standard und machen an heißen, feuchten Tagen zwischen den Zielen einen echten Unterschied; bestätigen Sie bei der Buchung, dass dies enthalten ist.',
+      },
+      {
+        title: 'Den richtigen Anbieter wählen',
+        body: 'Achten Sie auf Anbieter mit echten, spezifischen Bewertungen, die konkrete Reiserouten und Fahrer namentlich beschreiben, statt allgemeiner Fünf-Sterne-Bewertungen ohne Details. Ein gut geführter lokaler Anbieter passt einen vorgeschlagenen Reiseplan gerne an Ihre Interessen an, statt ein festes Paket durchzusetzen.\n\nBestätigen Sie Fahrzeugtyp, genaue Leistungen und Gesamtkosten schriftlich vor der Reise, und fragen Sie, wie der Anbieter mit unerwarteten Änderungen umgeht, etwa der Verlängerung eines Tages oder einem zusätzlichen Stopp, wenn Sie bereits unterwegs sind.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Ist ein privater Fahrer in Sri Lanka teuer?',
+        a: 'Die Kosten variieren je nach Fahrzeug und Reisedauer, sind aber angesichts des Komforts, der Bequemlichkeit und der Ortskenntnisse generell angemessen, besonders im Vergleich zu den Gesamtkosten für Selbstfahrer-Miete, Kraftstoff und dem Stress ungewohnter Straßen.',
+      },
+      {
+        q: 'Muss ich meinem Fahrer-Guide Trinkgeld geben?',
+        a: 'Trinkgeld ist am Ende einer Reise üblich, besonders bei mehrtägigen Touren. Es gibt keinen festen Betrag, aber eine Anerkennung, die die Servicequalität widerspiegelt, ist gängige Praxis.',
+      },
+      {
+        q: 'Kann ich meine Reiseroute nach Reisebeginn ändern?',
+        a: 'Ja, einer der Hauptvorteile eines privaten Fahrer-Guides ist die Flexibilität – die meisten passen Stopps, Tempo oder Zeitplan gerne an Ihre Stimmung und Interessen im Laufe der Reise an.',
+      },
+      {
+        q: 'Ist es sicherer, stattdessen selbst zu fahren?',
+        a: 'Es ist möglich, aber enge kurvige Straßen, ungewohnte Fahrgewohnheiten und dichter Verkehr in Stadtnähe machen es für die meisten Kurzzeitbesucher stressiger als entspannend; ein erfahrener lokaler Fahrer ist meist die sicherere und einfachere Option.',
+      },
+      {
+        q: 'Was ist normalerweise im Preis einer privaten Tour enthalten?',
+        a: 'Üblicherweise Auto, Fahrer, Kraftstoff und Transfers direkt vor der Tür, plus Unterkunft und Verpflegung des Fahrers bei mehrtägigen Reisen. Klären Sie, ob Eintritts- und Führungsgebühren an großen Sehenswürdigkeiten enthalten sind, da dies je nach Anbieter variiert.',
+      },
+    ],
+    ctaTitle: 'Reisen Sie durch Sri Lanka mit einem vertrauenswürdigen lokalen Fahrer-Guide',
+    ctaBody: 'Wir stellen für jede unserer Reisen private, klimatisierte Fahrzeuge mit erfahrenen Fahrer-Guides bereit, damit Sie sich auf die Orte konzentrieren können statt auf die Logistik, dorthin zu kommen.',
+    ctaLabel: 'Unsere privaten Touren ansehen',
+    relatedTours: [
+      { pageId: 'tour7', label: '7-tägige private Sri-Lanka-Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise-Ratgeber' },
+      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits-Ratgeber' },
+    ],
+  }
 };
