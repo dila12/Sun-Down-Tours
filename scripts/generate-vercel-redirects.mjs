@@ -41,9 +41,15 @@ async function main() {
     existing = { version: 2 };
   }
 
+  const otherFunctions = { ...(existing.functions ?? {}) };
+  delete otherFunctions['api/index.js'];
+
   const vercel = {
     version: 2,
     ...existing,
+    // Publish the browser build as the static CDN root so /assets/* (esp. images)
+    // are not packaged into the SSR serverless function (250 MB limit).
+    outputDirectory: 'dist/Travelwebsite/browser',
     redirects: [apexRedirect, ...generated],
     headers: existing.headers ?? [
       {
@@ -62,11 +68,13 @@ async function main() {
       { source: '/((?!api/).*)', destination: '/api' },
     ],
     functions: {
+      ...otherFunctions,
       'api/index.js': {
         includeFiles: 'dist/Travelwebsite/**',
+        // ~138 MB of tour/hero WebPs — served from outputDirectory CDN instead.
+        excludeFiles: 'dist/Travelwebsite/browser/assets/img/**',
         maxDuration: 30,
       },
-      ...(existing.functions ?? {}),
     },
   };
 

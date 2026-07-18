@@ -1059,9 +1059,11 @@
       "destination": "/api"
     }
   ],
+  "outputDirectory": "dist/Travelwebsite/browser",
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/Travelwebsite/**",
+      "excludeFiles": "dist/Travelwebsite/browser/assets/img/**",
       "maxDuration": 30
     }
   }
