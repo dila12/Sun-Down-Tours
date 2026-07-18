@@ -200,13 +200,8 @@ h6,
   filter: invert(1);
 }
 
-.intro-section,
-.about-section,
-.seo-section,
-.container-fluid.pb-5 {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 500px;
-}
+/* Avoid content-visibility on intro/about/seo — they sit near first paint and
+   incorrect placeholders caused large CLS on main#main-content. */
 
 @media (max-width: 768px) {
   .hero-carousel {

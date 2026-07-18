@@ -6,28 +6,22 @@ html, body {
   top: 0 !important;
   max-width: 100%;
   overflow-x: clip;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Poppins 600 is critical; avoid a late system-ui → Poppins swap (CLS). */
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-body.fonts-ready {
-  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
-}
-
-/* Reduce paint work for below-fold blocks until near viewport */
-.packages-section,
-.about-section,
-app-home-seo-section,
-app-home-popular-tours,
+/* content-visibility only on far below-fold blocks, with realistic placeholders
+   (1px intrinsic height was causing ~0.38 CLS on main#main-content). */
 app-home-elfsight-widget,
 app-faq-section,
 app-home-contact-section,
 app-home-team-section {
   content-visibility: auto;
-  contain-intrinsic-size: 1px 480px;
+  contain-intrinsic-size: auto 640px;
 }
 
 app-home-team-section {
-  contain-intrinsic-size: 1px 720px;
+  contain-intrinsic-size: auto 800px;
 }
 
 a,

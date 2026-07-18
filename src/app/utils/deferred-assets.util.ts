@@ -40,9 +40,8 @@ export function scheduleDeferredAssets(): void {
     loaded = true;
     removeListeners();
     injectDeferredBootstrap();
-    injectStylesheet(DEFERRED_FONT_STYLESHEET, () => {
-      document.body.classList.add('fonts-ready');
-    });
+    // Do not toggle body font-family on load — that caused CLS (~0.4).
+    injectStylesheet(DEFERRED_FONT_STYLESHEET);
   };
 
   // Defer Bootstrap + body font until after LCP; interaction loads sooner for real users.

@@ -2,6 +2,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  /* optional: avoid late body-text reflow after the swap period (CLS). */
+  font-display: optional;
   src: url('./poppins-latin-400-normal.woff2') format('woff2');
 }

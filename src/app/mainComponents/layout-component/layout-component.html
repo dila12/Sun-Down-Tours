@@ -89,8 +89,8 @@
             <a [routerLink]="path('home')" class="navbar-brand">
                 <span class="m-0 nav-link brand-title h1"><span class="text-white">
                         <img [src]="logoSrc" [srcset]="logoSrcSet" [sizes]="logoSizes" width="80" height="80" loading="eager"
-                            decoding="async" fetchpriority="high" [alt]="'common.brand.name' | t"
-                            (error)="onImageError($event, 'assets/img/logos/2.png')">
+                            decoding="async" fetchpriority="low" [alt]="'common.brand.name' | t"
+                            (error)="onImageError($event, logoFallback)">
                         {{ 'common.brand.name' | t }} </span></span>
             </a>
             <button type="button" class="navbar-toggler" (click)="toggleNav()"

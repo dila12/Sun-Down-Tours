@@ -2,11 +2,15 @@ import { Component, ChangeDetectionStrategy, ChangeDetectorRef, inject } from '@
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
-import { onImageError } from '../../utils/image.util';
+import { onImageError, withImageVersion } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
+
+/** Small navbar logo — never fall back to the 1024×1024 PNG master. */
+const LOGO_80 = 'assets/img/logos/2-80w.webp';
+const LOGO_160 = 'assets/img/logos/2-160w.webp';
 
 @Component({
   selector: 'app-layout-component',
@@ -26,9 +30,10 @@ export class LayoutComponent {
 
   navOpen = false;
   readonly onImageError = onImageError;
-  readonly logoSrc = 'assets/img/logos/2-80w.webp';
-  readonly logoSrcSet = 'assets/img/logos/2-80w.webp 80w, assets/img/logos/2-160w-opt.webp 160w';
+  readonly logoSrc = withImageVersion(LOGO_80);
+  readonly logoSrcSet = `${withImageVersion(LOGO_80)} 80w, ${withImageVersion(LOGO_160)} 160w`;
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
+  readonly logoFallback = LOGO_160;
 
   /** Localized root-relative path for a page in the current locale. */
   path(pageId: string): string {
