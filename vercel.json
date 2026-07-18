@@ -1055,7 +1055,7 @@
       "destination": "/api"
     },
     {
-      "source": "/((?!api/).*)",
+      "source": "/((?!api/|assets/).*)",
       "destination": "/api"
     }
   ],
@@ -1063,7 +1063,7 @@
   "buildCommand": "npm run vercel-build",
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/Travelwebsite/**",
+      "includeFiles": "dist/Travelwebsite/ssr-bundle/**",
       "maxDuration": 30
     }
   }

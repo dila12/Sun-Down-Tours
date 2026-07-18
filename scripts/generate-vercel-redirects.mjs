@@ -47,10 +47,9 @@ async function main() {
   const vercel = {
     version: 2,
     ...existing,
-    // Publish the browser build as the static CDN root so /assets/* (esp. images)
-    // are not packaged into the SSR serverless function (250 MB limit).
+    // Publish the browser build (with images) as the static CDN root.
     outputDirectory: 'dist/Travelwebsite/browser',
-    // Must run prepare-vercel-function.mjs so assets/img is stripped from dist.
+    // Builds slim ssr-bundle without assets/img for the serverless function.
     buildCommand: 'npm run vercel-build',
     redirects: [apexRedirect, ...generated],
     headers: existing.headers ?? [
@@ -64,17 +63,15 @@ async function main() {
         ],
       },
     ],
-    // Force SSR through the Node handler (do NOT rewrite to static index.html).
+    // SSR for HTML routes; /assets/* must hit the CDN filesystem first.
     rewrites: [
       { source: '/', destination: '/api' },
-      { source: '/((?!api/).*)', destination: '/api' },
+      { source: '/((?!api/|assets/).*)', destination: '/api' },
     ],
     functions: {
       ...otherFunctions,
       'api/index.js': {
-        // Images are physically removed from dist by prepare-vercel-function.mjs
-        // (vercel-build). Do not rely on excludeFiles — Vercel ignored it here.
-        includeFiles: 'dist/Travelwebsite/**',
+        includeFiles: 'dist/Travelwebsite/ssr-bundle/**',
         maxDuration: 30,
       },
     },
