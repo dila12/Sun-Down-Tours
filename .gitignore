@@ -13,6 +13,8 @@ pnpm-debug.log*
 dist/
 out-tsc/
 build/
+# Copied from dist during vercel-build for CDN; do not commit.
+public/assets/img/
 
 # ===== Environment files =====
 src/environments/environment.ts

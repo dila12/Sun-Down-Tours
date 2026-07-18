@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "ng build --configuration production",
+    "vercel-build": "npm run build && node scripts/prepare-vercel-function.mjs",
     "start": "ng serve",
     "start:prod": "ng serve --configuration production",
     "preview:prod": "npm run build && npm run serve:ssr:Travelwebsite",

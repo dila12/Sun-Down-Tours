@@ -50,6 +50,8 @@ async function main() {
     // Publish the browser build as the static CDN root so /assets/* (esp. images)
     // are not packaged into the SSR serverless function (250 MB limit).
     outputDirectory: 'dist/Travelwebsite/browser',
+    // Must run prepare-vercel-function.mjs so assets/img is stripped from dist.
+    buildCommand: 'npm run vercel-build',
     redirects: [apexRedirect, ...generated],
     headers: existing.headers ?? [
       {
@@ -70,9 +72,9 @@ async function main() {
     functions: {
       ...otherFunctions,
       'api/index.js': {
+        // Images are physically removed from dist by prepare-vercel-function.mjs
+        // (vercel-build). Do not rely on excludeFiles — Vercel ignored it here.
         includeFiles: 'dist/Travelwebsite/**',
-        // ~138 MB of tour/hero WebPs — served from outputDirectory CDN instead.
-        excludeFiles: 'dist/Travelwebsite/browser/assets/img/**',
         maxDuration: 30,
       },
     },

@@ -1060,10 +1060,10 @@
     }
   ],
   "outputDirectory": "dist/Travelwebsite/browser",
+  "buildCommand": "npm run vercel-build",
   "functions": {
     "api/index.js": {
       "includeFiles": "dist/Travelwebsite/**",
-      "excludeFiles": "dist/Travelwebsite/browser/assets/img/**",
       "maxDuration": 30
     }
   }
