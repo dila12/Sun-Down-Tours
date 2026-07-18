@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
+# Submit only the sitemap index to Google Search Console and Bing.
+# Child sitemaps are discovered via sitemap-index.xml.
 Sitemap: https://www.sundowntours.com/sitemap-index.xml
-Sitemap: https://www.sundowntours.com/sitemap.xml
-Sitemap: https://www.sundowntours.com/sitemap-hreflang.xml
-Sitemap: https://www.sundowntours.com/sitemap-images.xml
