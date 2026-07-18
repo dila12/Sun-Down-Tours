@@ -2,7 +2,7 @@
 <div class="container-fluid page-header">
     <div class="container">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <p class="display-4 text-white text-uppercase mb-2" role="heading" aria-level="2">{{ 'about.header' | t }}</p>
+            <p class="display-4 text-white text-uppercase mb-2" role="heading" aria-level="1">{{ 'about.header' | t }}</p>
             <div class="d-inline-flex text-white">
                 <p class="m-0 text-uppercase"><a class="text-white" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
@@ -108,6 +108,83 @@
     </div>
 </div>
 
+<section class="container py-5" aria-labelledby="why-choose-heading">
+  <div class="text-center mb-4">
+    <h2 id="why-choose-heading" class="h3">{{ 'about.whyTitle' | t }}</h2>
+    <p class="mx-auto" style="max-width: 720px;">{{ 'about.whyIntro' | t }}</p>
+  </div>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <h3 class="h5 text-primary">{{ 'about.why1Title' | t }}</h3>
+      <p>{{ 'about.why1Body' | t }}</p>
+    </div>
+    <div class="col-md-4">
+      <h3 class="h5 text-primary">{{ 'about.why2Title' | t }}</h3>
+      <p>{{ 'about.why2Body' | t }}</p>
+    </div>
+    <div class="col-md-4">
+      <h3 class="h5 text-primary">{{ 'about.why3Title' | t }}</h3>
+      <p>{{ 'about.why3Body' | t }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5 border-top" aria-labelledby="about-team-heading">
+  <div class="text-center mb-4">
+    <h2 id="about-team-heading" class="h3">{{ 'about.teamTitle' | t }}</h2>
+    <p class="mx-auto" style="max-width: 720px;">{{ 'about.teamLead' | t }}</p>
+  </div>
+  <div class="row justify-content-center g-4">
+    <div class="col-md-5">
+      <article class="about-team-card h-100 p-3 border rounded">
+        <img src="assets/img/Team/1.webp" width="160" height="160" class="rounded-circle d-block mx-auto mb-3"
+          alt="Dilan Lakshitha - Founder of Sundown Tours" loading="lazy" decoding="async" style="object-fit:cover;" />
+        <h3 class="h5 text-center mb-1">{{ 'about.founderName' | t }}</h3>
+        <p class="text-center text-primary mb-2">{{ 'about.founderRole' | t }}</p>
+        <p class="small">{{ 'about.founderBio' | t }}</p>
+        <p class="text-center mb-0">
+          <a class="btn btn-sm btn-success" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </p>
+      </article>
+    </div>
+    <div class="col-md-5">
+      <article class="about-team-card h-100 p-3 border rounded">
+        <img src="assets/img/Team/2.webp" width="160" height="160" class="rounded-circle d-block mx-auto mb-3"
+          alt="Yohan Malshika - Senior Consultant" loading="lazy" decoding="async" style="object-fit:cover;" />
+        <h3 class="h5 text-center mb-1">{{ 'about.consultantName' | t }}</h3>
+        <p class="text-center text-primary mb-2">{{ 'about.consultantRole' | t }}</p>
+        <p class="small">{{ 'about.consultantBio' | t }}</p>
+        <p class="text-center mb-0">
+          <a class="btn btn-sm btn-success" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </p>
+      </article>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-lg-10 mx-auto">
+      <h3 class="h5">{{ 'about.driversTitle' | t }}</h3>
+      <p>{{ 'about.driversBody' | t }}</p>
+      <h3 class="h5 mt-4">{{ 'about.hqTitle' | t }}</h3>
+      <p>{{ 'about.hqBody' | t }}</p>
+      <p class="mb-1"><strong>{{ address }}</strong></p>
+      <p class="mb-1">{{ phoneDisplay }} · {{ email }}</p>
+      <p class="small text-muted">{{ hoursNote }}</p>
+      <h3 class="h5 mt-4">{{ 'about.successTitle' | t }}</h3>
+      <p>{{ 'about.successBody' | t }}</p>
+      <p>
+        <a [href]="tripadvisorUrl" target="_blank" rel="noopener noreferrer">TripAdvisor</a>
+        ·
+        <a [routerLink]="path('home')">Homepage reviews</a>
+      </p>
+      <h3 class="h5 mt-4">{{ 'about.partnershipsTitle' | t }}</h3>
+      <p>{{ 'about.partnershipsBody' | t }}</p>
+      <p><a [routerLink]="path('restaurants')">Sundown Beach Restaurant</a></p>
+      <h3 class="h5 mt-4">{{ 'about.credentialsTitle' | t }}</h3>
+      <p>{{ 'about.credentialsBody' | t }}</p>
+    </div>
+  </div>
+</section>
+
 <app-faq-section faqKey="about.faq" titleKey="about.faqTitle" />
 
 <!-- Registration Start -->
@@ -118,84 +195,4 @@
 </div>
 <!-- Registration End -->
 
-
-<!-- Team Start -->
-<!-- <div class="container-fluid py-5">
-    <div class="container pt-5 pb-3">
-        <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
-            <h1>Our Travel Guides</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="team-item bg-white mb-4">
-                    <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="assets/img/Team/1.webp" alt="Team member" loading="lazy" decoding="async" fetchpriority="low">
-                        <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="team-item bg-white mb-4">
-                    <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="assets/img/Team/2.webp" alt="Team member" loading="lazy" decoding="async" fetchpriority="low">
-                        <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="team-item bg-white mb-4">
-                    <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="assets/img/about-1.webp" alt="Team member" loading="lazy" decoding="async" fetchpriority="low">
-                        <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="team-item bg-white mb-4">
-                    <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="assets/img/about-2.webp" alt="Team member" loading="lazy" decoding="async" fetchpriority="low">
-                        <div class="team-social">
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Team End -->
+`n

@@ -7,22 +7,22 @@
       <div class="row text-center gy-4">
         <div class="col-6 col-md-3">
           <i class="fas fa-clock fa-2x uniform-icon mb-2"></i>
-          <h6 class="mb-1">{{ 'common.tourUi.duration' | t }}</h6>
+          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.duration' | t }}</p>
           <p class="fw-bold mb-0">{{ tour.duration }}</p>
         </div>
         <div class="col-6 col-md-3">
           <i class="fas fa-users fa-2x uniform-icon mb-2"></i>
-          <h6 class="mb-1">{{ 'common.tourUi.maxPeople' | t }}</h6>
+          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.maxPeople' | t }}</p>
           <p class="fw-bold mb-0">{{ tour.persons }}</p>
         </div>
         <div class="col-6 col-md-3">
           <i class="fas fa-dollar-sign fa-2x uniform-icon mb-2"></i>
-          <h6 class="mb-1">{{ 'common.tourUi.price' | t }}</h6>
+          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.price' | t }}</p>
           <p class="fw-bold mb-0">$ {{ displayPrice }} {{ 'common.tourUi.priceBasis' | t }}</p>
         </div>
         <div class="col-6 col-md-3">
           <i class="fas fa-map-marked-alt fa-2x uniform-icon mb-2"></i>
-          <h6 class="mb-1">{{ 'common.tourUi.tourType' | t }}</h6>
+          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.tourType' | t }}</p>
           <p class="fw-bold mb-0">{{ tour.tourType }}</p>
         </div>
       </div>
@@ -37,30 +37,81 @@
       <div class="col-lg-8 order-2 order-lg-1">
         <div class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
           <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.overview' | t }}</h2>
-          <p class="mb-0">{{ tour.overview }}</p>
+          <p [class.mb-0]="!tour.seoIntro">{{ tour.overview }}</p>
+          <p *ngIf="tour.seoIntro" class="mb-0 mt-3">{{ tour.seoIntro }}</p>
+          <nav *ngIf="relatedGraph" class="tour-explore-inline mt-4" aria-label="Related destinations and guides">
+            <p class="tour-explore-inline__lead mb-2">{{ relatedGraph.context }}</p>
+            <div class="tour-explore-chips">
+              <a *ngFor="let link of relatedGraph.destinations; trackBy: trackByRelated"
+                class="tour-explore-chip"
+                [routerLink]="path(link.pageId)">{{ link.label }}</a>
+              <a *ngFor="let link of relatedGraph.guides; trackBy: trackByRelated"
+                class="tour-explore-chip tour-explore-chip--guide"
+                [routerLink]="path(link.pageId)">{{ link.label }}</a>
+            </div>
+          </nav>
+        </div>
+
+        <div *ngIf="tour.highlights?.length" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.highlights' | t }}</h2>
+          <ul class="tour-highlights mb-0">
+            <li *ngFor="let item of tour.highlights; trackBy: trackByItem">{{ item }}</li>
+          </ul>
+        </div>
+
+        <div *ngIf="tour.whoIsFor" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.whoIsFor' | t }}</h2>
+          <p class="mb-0">{{ tour.whoIsFor }}</p>
+        </div>
+
+        <div *ngIf="tour.bestTimeNote" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.bestTimeNote' | t }}</h2>
+          <p class="mb-0">{{ tour.bestTimeNote }}</p>
+        </div>
+
+        <div *ngIf="tour.faq?.length" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">{{ 'common.faqTitle' | t }}</h2>
+          <div class="faq-inline">
+            <details *ngFor="let item of tour.faq; trackBy: trackByFaq" class="faq-item">
+              <summary>{{ item.q }}</summary>
+              <p>{{ item.a }}</p>
+            </details>
+          </div>
         </div>
 
         <div class="bg-white p-2 p-lg-5 shadow-sm rounded-3 mb-4" *ngIf="tour.itinerary">
           <h3 class="mb-3">{{ 'common.tourUi.plan' | t }}</h3>
-          <div *ngFor="let day of tour.itinerary" class="border-bottom">
-            <h5 (click)="toggleDay(day.day)" class="itinerary-header">
+          <div *ngFor="let day of tour.itinerary; trackBy: trackByDay" class="border-bottom">
+            <h4 (click)="toggleDay(day.day)" class="itinerary-header">
               <i class="fas fa-map-marker-alt location-icon me-2"></i>
               <span class="mx-2">{{ 'common.tourUi.day' | t }} {{ day.day }}: {{ day.title }}</span>
               <span [class.expanded]="expandedDays[day.day]" style="float: right;">▲</span>
-            </h5>
+            </h4>
             <div [class.open]="expandedDays[day.day]" class="itinerary-content ps-3 scrollable-activities">
-              <div *ngFor="let activity of day.activities" class="mb-3">
-                <h5 class="text">
+              <div *ngFor="let activity of day.activities; trackBy: trackByActivity" class="mb-3">
+                <p class="text activity-title mb-1">
                   <i class="fas {{ activity.title.icon || 'fa-circle' }} mr-2" [style.color]="activity.title.color"></i>
                   {{ activity.title.title }}
-                </h5>
+                </p>
                 <div *ngIf="activity.description">{{ activity.description }}</div>
                 <ul *ngIf="activity.extra?.length" class="small text-muted ms-4">
-                  <li *ngFor="let item of activity.extra">{{ item }}</li>
+                  <li *ngFor="let item of activity.extra; trackBy: trackByItem">{{ item }}</li>
                 </ul>
-                <img *ngIf="activity.image" [src]="activity.image" class="rounded my-2"
+                <img *ngIf="activity.image"
+                  [src]="activityImageSrc(activity.image)"
+                  [srcset]="activityImageSrcSet(activity.image) || null"
+                  sizes="100px"
+                  [attr.data-img-base]="activityImageBase(activity.image)"
+                  [alt]="activity.title.title || ('common.tourUi.imageAlt' | t)"
+                  class="rounded my-2"
+                  width="100"
+                  height="100"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="low"
                   style="width: 100px; height: 100px; object-fit: cover; cursor: pointer;"
-                  (click)="openImage(activity.image)" />
+                  (click)="openImage(activity.image)"
+                  (error)="onImageError($event)" />
               </div>
             </div>
           </div>
@@ -71,33 +122,33 @@
             <div class="card shadow-sm h-100">
               <div class="card-header bg-white d-flex align-items-center border-bottom border-primary">
                 <i class="fas fa-check-circle mr-2 text-primary"></i>
-                <h5 class="mb-0 text-primary">{{ 'common.tourUi.included' | t }}</h5>
+                <h3 class="h5 mb-0 text-primary">{{ 'common.tourUi.included' | t }}</h3>
               </div>
               <div class="card-body">
-                <ul class="list-unstyled mb-0">
-                  <li *ngFor="let item of tour.includes" class="mb-2 d-flex align-items-center">
-                    <span class="icon-circle bg-success text-white mr-2">
+                <ul class="inclusion-list list-unstyled mb-0" role="list">
+                  <li *ngFor="let item of tour.includes; trackBy: trackByItem" class="inclusion-item">
+                    <span class="icon-circle bg-success text-white" aria-hidden="true">
                       <i class="fas fa-check"></i>
                     </span>
-                    {{ item }}
+                    <span class="inclusion-text">{{ item }}</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card shadow-sm h-100 border" style="border-color: #ada878;">
-              <div class="card-header bg-white d-flex align-items-center" style="border-bottom: 2px solid #ada878;">
-                <i class="fas fa-times-circle mr-2" style="color: #ada878;"></i>
-                <h5 class="mb-0" style="color: #ada878;">{{ 'common.tourUi.excluded' | t }}</h5>
+            <div class="card shadow-sm h-100 border" style="border-color: #6d6b3a;">
+              <div class="card-header bg-white d-flex align-items-center" style="border-bottom: 2px solid #6d6b3a;">
+                <i class="fas fa-times-circle mr-2" style="color: #6d6b3a;"></i>
+                <h3 class="h5 mb-0" style="color: #6d6b3a;">{{ 'common.tourUi.excluded' | t }}</h3>
               </div>
               <div class="card-body">
-                <ul class="list-unstyled mb-0">
-                  <li *ngFor="let item of tour.excludes" class="mb-2 d-flex align-items-center">
-                    <span class="icon-circle mr-2" style="background-color: #ada878; color: #fff;">
-                      <i class="fas fa-times" style="font-size: 0.8rem;"></i>
+                <ul class="inclusion-list list-unstyled mb-0" role="list">
+                  <li *ngFor="let item of tour.excludes; trackBy: trackByItem" class="inclusion-item">
+                    <span class="icon-circle icon-circle--excluded" aria-hidden="true">
+                      <i class="fas fa-times"></i>
                     </span>
-                    {{ item }}
+                    <span class="inclusion-text">{{ item }}</span>
                   </li>
                 </ul>
               </div>
@@ -109,6 +160,11 @@
       <!-- Right: booking card -->
       <div class="col-lg-4 order-1 order-lg-2" id="tour-booking-section" *ngIf="showBooking">
         <div class="booking-sidebar">
+          <div class="booking-trust-strip" aria-label="Trust signals">
+            <span>{{ 'common.tourUi.trustFreeCancel' | t }}</span>
+            <span>{{ 'common.tourUi.trustPayLater' | t }}</span>
+            <span>{{ 'common.tourUi.trustLocal' | t }}</span>
+          </div>
           <app-tour-booking-card
             #bookingCard
             [tour]="bookingTour!"
@@ -117,13 +173,192 @@
             [priceList]="prices"
             [autoLoadPrices]="false">
           </app-tour-booking-card>
+          <div class="booking-review-ctas">
+            <a class="booking-review-ctas__link" [href]="tripadvisorUrl" target="_blank" rel="noopener noreferrer">
+              {{ 'common.tourUi.reviewsTripAdvisor' | t }}
+            </a>
+            <a class="booking-review-ctas__link" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">
+              {{ 'common.tourUi.chatWhatsApp' | t }}
+            </a>
+          </div>
         </div>
       </div>
+    </div>
+
+    <section *ngIf="relatedGraph" class="tour-explore-panel mt-4 mb-5" aria-labelledby="tour-explore-heading">
+      <h2 id="tour-explore-heading" class="h4 text-primary mb-2">{{ 'common.tourUi.exploreGraphTitle' | t }}</h2>
+      <p class="text-muted mb-3">{{ relatedGraph.context }}</p>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3" *ngIf="relatedGraph.destinations.length">
+          <h3 class="h6">{{ 'common.tourUi.exploreDestinations' | t }}</h3>
+          <ul class="tour-explore-list">
+            <li *ngFor="let link of relatedGraph.destinations; trackBy: trackByRelated">
+              <a [routerLink]="path(link.pageId)">{{ link.label }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3" *ngIf="relatedGraph.guides.length">
+          <h3 class="h6">{{ 'common.tourUi.exploreGuides' | t }}</h3>
+          <ul class="tour-explore-list">
+            <li *ngFor="let link of relatedGraph.guides; trackBy: trackByRelated">
+              <a [routerLink]="path(link.pageId)">{{ link.label }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3" *ngIf="relatedGraph.restaurants.length">
+          <h3 class="h6">{{ 'common.tourUi.exploreRestaurants' | t }}</h3>
+          <ul class="tour-explore-list">
+            <li *ngFor="let link of relatedGraph.restaurants; trackBy: trackByRelated">
+              <a [routerLink]="path(link.pageId)">{{ link.label }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3" *ngIf="relatedGraph.tours.length">
+          <h3 class="h6">{{ 'common.tourUi.exploreSimilarTours' | t }}</h3>
+          <ul class="tour-explore-list">
+            <li *ngFor="let link of relatedGraph.tours; trackBy: trackByRelated">
+              <a [routerLink]="path(link.pageId)">{{ link.label }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="mobile-book-bar d-lg-none" *ngIf="showBooking" role="region" aria-label="Mobile booking actions">
+  <div class="mobile-book-bar__inner">
+    <div class="mobile-book-bar__price">
+      <span class="mobile-book-bar__label">{{ 'common.tourUi.mobileBookBar' | t }}</span>
+      <strong>$ {{ displayPrice }} {{ 'common.tourUi.priceBasis' | t }}</strong>
+    </div>
+    <div class="mobile-book-bar__actions">
+      <a class="btn btn-success btn-sm" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">
+        {{ 'common.tourUi.chatWhatsApp' | t }}
+      </a>
+      <button type="button" class="btn btn-primary btn-sm" (click)="scrollToBooking()">
+        {{ 'common.tourUi.bookNow' | t }}
+      </button>
     </div>
   </div>
 </div>
 
-<div *ngIf="selectedImage" class="image-modal">
-  <button class="close-btn" (click)="closeImage()">×</button>
-  <img [src]="selectedImage" class="modal-content" />
+<div
+  *ngIf="galleryOpen && currentGalleryItem"
+  #galleryDialog
+  class="itin-lb"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Itinerary photo gallery"
+  (click)="onGalleryBackdropClick($event)">
+  <div class="itin-lb__toolbar">
+    <div class="itin-lb__meta">
+      <span class="itin-lb__count" *ngIf="galleryCounter">{{ galleryCounter }}</span>
+      <div class="itin-lb__caption-wrap" *ngIf="currentGalleryItem.caption || currentGalleryItem.dayTitle">
+        <p class="itin-lb__caption" *ngIf="currentGalleryItem.caption">{{ currentGalleryItem.caption }}</p>
+        <p class="itin-lb__day" *ngIf="currentGalleryItem.dayTitle">{{ currentGalleryItem.dayTitle }}</p>
+      </div>
+    </div>
+    <div class="itin-lb__actions">
+      <button
+        type="button"
+        class="itin-lb__icon-btn"
+        (click)="toggleZoom(); $event.stopPropagation()"
+        [attr.aria-label]="zoom > 1 ? 'Zoom out' : 'Zoom in'">
+        <span aria-hidden="true">{{ zoom > 1 ? '−' : '+' }}</span>
+      </button>
+      <button
+        #galleryCloseBtn
+        type="button"
+        class="itin-lb__close"
+        (click)="closeImage(); $event.stopPropagation()"
+        aria-label="Close gallery">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+  </div>
+
+  <button
+    *ngIf="canNavigateGallery"
+    type="button"
+    class="itin-lb__nav itin-lb__nav--prev"
+    (click)="prevGalleryImage(); $event.stopPropagation()"
+    aria-label="Previous photo">
+    <span aria-hidden="true">‹</span>
+  </button>
+  <button
+    *ngIf="canNavigateGallery"
+    type="button"
+    class="itin-lb__nav itin-lb__nav--next"
+    (click)="nextGalleryImage(); $event.stopPropagation()"
+    aria-label="Next photo">
+    <span aria-hidden="true">›</span>
+  </button>
+
+  <div
+    class="itin-lb__stage"
+    (click)="onGalleryBackdropClick($event)"
+    (wheel)="onGalleryWheel($event)"
+    (touchstart)="onGalleryTouchStart($event)"
+    (touchmove)="onGalleryTouchMove($event)"
+    (touchend)="onGalleryTouchEnd($event)">
+    <figure
+      class="itin-lb__figure"
+      [class.is-zoomed]="zoom > 1"
+      [style.transform]="galleryTransform"
+      (click)="$event.stopPropagation()">
+      <picture>
+        <source
+          *ngIf="currentGalleryAvifSrcSet"
+          type="image/avif"
+          [attr.srcset]="currentGalleryAvifSrcSet"
+          [attr.sizes]="lightboxSizes" />
+        <source
+          *ngIf="currentGallerySrcSet"
+          type="image/webp"
+          [attr.srcset]="currentGallerySrcSet"
+          [attr.sizes]="lightboxSizes" />
+        <img
+          class="itin-lb__img"
+          [src]="currentGallerySrc"
+          [attr.data-img-base]="currentGalleryItem.src"
+          [alt]="currentGalleryItem.caption || 'Itinerary photo'"
+          width="1600"
+          height="1067"
+          decoding="async"
+          fetchpriority="high"
+          (click)="toggleZoom($event)"
+          (error)="onImageError($event)" />
+      </picture>
+    </figure>
+  </div>
+
+  <div
+    *ngIf="canNavigateGallery"
+    #galleryThumbStrip
+    class="itin-lb__thumbs"
+    role="list"
+    (click)="$event.stopPropagation()">
+    <button
+      *ngFor="let item of galleryItems; let i = index; trackBy: trackByGalleryIndex"
+      type="button"
+      role="listitem"
+      class="itin-lb__thumb"
+      [class.is-active]="i === galleryIndex"
+      (click)="goToGalleryImage(i)"
+      [attr.aria-label]="'View photo ' + (i + 1) + (item.caption ? ': ' + item.caption : '')"
+      [attr.aria-current]="i === galleryIndex ? 'true' : null">
+      <img
+        [src]="galleryThumbSrc(item.src)"
+        [srcset]="galleryThumbSrcSet(item.src) || null"
+        [attr.sizes]="thumbSizes"
+        [alt]="item.caption || 'Gallery thumbnail'"
+        width="72"
+        height="54"
+        loading="lazy"
+        decoding="async"
+        fetchpriority="low"
+        (error)="onImageError($event)" />
+    </button>
+  </div>
 </div>

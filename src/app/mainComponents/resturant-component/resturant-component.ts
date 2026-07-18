@@ -1,34 +1,63 @@
-import { CommonModule } from '@angular/common';
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  CUSTOM_ELEMENTS_SCHEMA,
+  Inject,
+  PLATFORM_ID,
+  inject,
+} from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Meta, Title } from '@angular/platform-browser';
-import { register } from 'swiper/element/bundle';
-import { isPlatformBrowser } from '@angular/common';
-import { Inject, PLATFORM_ID } from '@angular/core';
 import { RouterLink } from '@angular/router';
-register();
+import { LocaleService } from '../../i18n/locale.service';
+import { TranslatePipe } from '../../i18n/t.pipe';
+import { TourContentService } from '../../i18n/tours/tour-content.service';
 
 @Component({
   selector: 'app-resturant-component',
   standalone: true,
-  imports: [CommonModule, HttpClientModule],
+  imports: [CommonModule, HttpClientModule, RouterLink, TranslatePipe],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './resturant-component.html',
   styleUrl: './resturant-component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ResturantComponent {
   packages: any[] = [];
+  private readonly i18n = inject(LocaleService);
+  private readonly tourContent = inject(TourContentService);
+
+  path(pageId: string): string {
+    return this.i18n.path(pageId);
+  }
+
+  relatedLabel(pageId: string): string {
+    const seoTitle = this.i18n.get(`seo.${pageId}.title`);
+    if (typeof seoTitle === 'string' && seoTitle.length) {
+      return seoTitle.split('|')[0].trim();
+    }
+    const card = this.tourContent.card(pageId);
+    if (card?.title) {
+      return card.title;
+    }
+    return pageId;
+  }
 
   constructor(
     private title: Title,
     private meta: Meta,
     private http: HttpClient,
+    private cdr: ChangeDetectorRef,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {}
 
-  ngOnInit() {
+  async ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
+      const { register } = await import('swiper/element/bundle');
       register();
+      this.cdr.markForCheck();
     }
     this.title.setTitle(
       'Sundown Beach Restaurant | Seafood & Sri Lankan Food in Waskaduwa',
@@ -48,6 +77,7 @@ export class ResturantComponent {
       .get<any[]>('assets/data/event-packages.json')
       .subscribe((data) => {
         this.packages = data;
+        this.cdr.markForCheck();
       });
   }
 

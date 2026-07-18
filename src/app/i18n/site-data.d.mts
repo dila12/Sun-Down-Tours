@@ -8,6 +8,8 @@ export type PageKind =
   | 'contact'
   | 'tour'
   | 'content'
+  | 'destination'
+  | 'guide'
   | 'utility';
 
 export interface PageData {
@@ -31,6 +33,8 @@ export const DEFAULT_LOCALE: Locale;
 export const NON_DEFAULT_LOCALES: Locale[];
 export const HREFLANG: Record<Locale, string>;
 export const PAGES: PageData[];
+/** Legacy flat English guide/hub slugs → page ids for permanent redirects. */
+export const LEGACY_GUIDE_REDIRECTS: Record<string, string>;
 
 export function getPage(id: string): PageData | undefined;
 export function buildPath(id: string, locale: Locale): string;

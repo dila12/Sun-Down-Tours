@@ -1,10 +1,12 @@
-import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { loadTourPrice2p } from '../../../../utils/tour-price.util';
 import {
   TourDetails,
   TourDetailsComponent,
 } from '../../../../sharedComponents/tour-details-component/tour-details-component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
+import { TourGalleryComponent } from '../../../../sharedComponents/tour-gallery/tour-gallery';
 import { PackageItemComponent } from '../../../../sharedComponents/package-item-component/package-item-component';
 import { TourContentService } from '../../../../i18n/tours/tour-content.service';
 import { TranslatePipe } from '../../../../i18n/t.pipe';
@@ -15,49 +17,36 @@ import { SeoService } from '../../../../../seo.service';
 @Component({
   selector: 'app-ten-days-tour-component',
   standalone: true,
-  imports: [
-    CommonModule,
+  imports: [CommonModule,
     RouterModule,
     TourDetailsComponent,
     PackageItemComponent,
-    TranslatePipe,
-  ],
+    TranslatePipe, TourGalleryComponent],
   templateUrl: './ten-days-tour-component.html',
   styleUrl: './ten-days-tour-component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TenDaysTourComponent implements OnInit , OnDestroy {
-  images: string[] = [
-    'assets/img/5daysTours/lzurk0uk82qqjh6soonh.jpg',
-    'assets/img/5daysTours/u19dmfbuae46dhzpqctu.jpg',
-    'assets/img/5daysTours/p5nnnq3wt124wwoa0rvo.jpg',
-    'assets/img/5daysTours/fhlfhn3lx1onsizfpy76.jpg',
-    'assets/img/5daysTours/dtebtjzozh7sfof4ci7c.jpg',
-  ];
-
-  currentIndex = 0;
-  intervalId: any = null;
+export class TenDaysTourComponent implements OnInit {
   selectedTours: any[] = [];
   userCountry = 'US';
   price = 0;
 
-  constructor(
-    private router: Router,
+  constructor(private router: Router,
     private http: HttpClient,
     private countryService: CountryService,
     private seo: SeoService,
     private tours: TourContentService,
-    @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
+    @Inject(PLATFORM_ID) private platformId: Object, private cdr: ChangeDetectorRef) {}
 
-  get currentImage() {
-    return this.images[this.currentIndex];
+  currentImage = '';
+
+  onGallerySrc(src: string): void {
+    this.currentImage = src;
+    this.cdr.markForCheck();
   }
 
-  get nextImages() {
-    return Array.from({ length: 4 }, (_, i) => {
-      const index = (this.currentIndex + i + 1) % this.images.length;
-      return { src: this.images[index], index };
-    });
+  trackByTour(index: number, tour: { pageId?: string; filecode?: string; title?: string }): string | number {
+    return tour.pageId ?? tour.filecode ?? tour.title ?? index;
   }
 
   get tourForDetails(): TourDetails {
@@ -70,9 +59,15 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
       price: this.price,
       tourType: t.tourType,
       overview: t.overview,
+      seoIntro: t.seoIntro,
+      highlights: t.highlights,
+      whoIsFor: t.whoIsFor,
+      bestTimeNote: t.bestTimeNote,
+      faq: t.faq,
       itinerary: t.itinerary as TourDetails['itinerary'],
       includes: t.includes,
       excludes: t.excludes,
+      pageId: 'tour10',
     };
   }
 
@@ -88,23 +83,6 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
     return this.tours.detail('tour10');
   }
 
-  nextImage() {
-    this.currentIndex = (this.currentIndex + 1) % this.images.length;
-  }
-
-  prevImage() {
-    this.currentIndex =
-      (this.currentIndex - 1 + this.images.length) % this.images.length;
-  }
-
-  goToImage(index: number) {
-    this.currentIndex = index;
-  }
-
-  goToImageFromThumb(index: number) {
-    this.currentIndex = index;
-  }
-
   async ngOnInit() {
     this.seo.updateCanonicalUrl('https://www.sundowntours.com/10-day-sri-lanka-tour');
     const filecode = this.filecode;
@@ -112,11 +90,12 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
       this.userCountry = await this.countryService.detectCountry();
       this.price = await this.loadPrice(filecode);
       this.selectedTours = await this.loadRelatedWithPrices('tour10');
-      this.intervalId = setInterval(() => this.nextImage(), 3000);
-    } else {
+      this.cdr.markForCheck();
+} else {
       this.userCountry = 'US';
       this.price = 0;
       this.selectedTours = this.tours.related('tour10', 3);
+      this.cdr.markForCheck();
     }
   }
 
@@ -130,35 +109,11 @@ export class TenDaysTourComponent implements OnInit , OnDestroy {
     );
   }
 
-  loadPrice(filecode: string): Promise<number> {
-
+    loadPrice(filecode: string): Promise<number> {
     if (!isPlatformBrowser(this.platformId)) {
       return Promise.resolve(0);
     }
-
-    //const countryFile = `assets/data/${this.userCountry}${filecode}.json`;
-    const defaultFile = `assets/data/US${filecode}.json`;
-
-    return new Promise((resolve) => {
-
-      this.http.get(defaultFile).subscribe({
-        next: (data: any) => resolve(data?.price?.['2'] ?? 0),
-        error: () => {
-          this.http.get(defaultFile).subscribe({
-            next: (data: any) => resolve(data?.price?.['2'] ?? 0),
-            error: () => resolve(0)
-          });
-        }
-      });
-
-    });
-  }
-
-  ngOnDestroy() {
-    const isBrowser = isPlatformBrowser(this.platformId);
-    if (isBrowser && this.intervalId) {
-      clearInterval(this.intervalId);
-    }
+    return loadTourPrice2p(this.http, filecode);
   }
 
 }

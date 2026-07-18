@@ -41,6 +41,9 @@ export const en: Dict = {
       multiDayTours: 'Multi Day Tours',
       destination: 'Destinations',
       packages: 'Packages',
+      travelGuides: 'Travel Guides',
+      cancellation: 'Cancellation Policy',
+      privacy: 'Privacy Policy',
     },
     consent: {
       title: 'Your privacy matters',
@@ -52,6 +55,7 @@ export const en: Dict = {
       reject: 'Reject',
     },
     breadcrumb: { home: 'Home' },
+    faqTitle: 'Frequently Asked Questions',
     language: 'Language',
     tourUi: {
       duration: 'Duration',
@@ -60,14 +64,30 @@ export const en: Dict = {
       priceBasis: '(based on 2 people)',
       tourType: 'Tour Type',
       overview: 'Tour Overview',
+      highlights: 'Tour Highlights',
+      whoIsFor: 'Who This Tour Is For',
+      bestTimeNote: 'Best Time to Go',
       plan: 'Tour Plan',
       day: 'Day',
       included: 'Included',
       excluded: 'Excluded',
       relatedEyebrow: 'You might also like...',
       relatedTitle: 'Highly Rated Tours',
+      exploreGraphTitle: 'Plan this trip',
+      exploreGraphLead: 'Continue with destinations, travel guides and dining linked to this tour.',
+      exploreDestinations: 'Destinations on this route',
+      exploreGuides: 'Helpful travel guides',
+      exploreRestaurants: 'Where to eat',
+      exploreSimilarTours: 'Similar tours',
       imageAlt: 'Sri Lanka tour photo',
       previewAlt: 'Tour photo preview',
+      bookNow: 'Book this tour',
+      chatWhatsApp: 'Chat on WhatsApp',
+      trustFreeCancel: 'Free cancellation',
+      trustPayLater: 'Pay at destination',
+      trustLocal: 'Local team since 1992',
+      reviewsTripAdvisor: 'Read TripAdvisor reviews',
+      mobileBookBar: 'Ready to book?',
     },
     card: {
       perPerson: '/ person',
@@ -94,7 +114,9 @@ export const en: Dict = {
       emailTeam: 'Email Our Team',
       whatsappUs: 'WhatsApp Us',
       firstName: 'First Name',
+      firstNamePh: 'John',
       lastName: 'Last Name',
+      lastNamePh: 'Doe',
       required: 'Required',
       email: 'Email',
       emailInvalid: 'Valid email required',
@@ -139,8 +161,8 @@ export const en: Dict = {
     destinations: {
       title: 'Top Sri Lanka Destinations',
       subtitle: 'Discover handpicked destinations with luxury experiences across Sri Lanka.',
-      explore: 'Explore Tours',
-      exploreAria: 'Explore tours for',
+      explore: 'Explore destination',
+      exploreAria: 'Explore',
       sigiriya: 'Sigiriya',
       sigiriyaAlt: 'Sigiriya Rock Fortress Sri Lanka',
       ella: 'Ella',
@@ -153,6 +175,13 @@ export const en: Dict = {
       dambullaAlt: 'Dambulla cave temple Sri Lanka',
       galle: 'Galle',
       galleAlt: 'Galle Fort Sri Lanka',
+    },
+    popular: {
+      title: 'Popular Sri Lanka Tours',
+      tour7: '7 Day Sri Lanka Tour',
+      tour8: '8 Day Private Tour',
+      ellaDay: 'Ella Day Tour',
+      sigiriyaDay: 'Sigiriya Day Tour',
     },
     packages: {
       tag: 'PACKAGES',
@@ -185,8 +214,8 @@ export const en: Dict = {
       s1Desc: 'Professional multilingual chauffeur guides for personalized private tours.',
       s2Title: 'Train Tickets & Attraction Entrance Booking',
       s2Desc: 'Ella train tickets, safari bookings, and entrance tickets arranged for you.',
-      s3Title: 'Hotel Booking & Tailor-Made Accommodation',
-      s3Desc: 'Handpicked hotel bookings from luxury resorts to budget guesthouses.',
+      s3Title: '4-Star Hotel Accommodation',
+      s3Desc: 'Carefully selected 4-Star Hotel Accommodation for private Sri Lanka tour packages.',
     },
     faqTitle: 'Frequently Asked Questions',
     faq: [
@@ -213,10 +242,48 @@ export const en: Dict = {
     header: 'About',
     breadcrumb: 'About',
     eyebrow: 'About Us',
-    title: 'Trusted Sri Lanka Tour Company',
-    p1: 'Sundown Tours Sri Lanka is a trusted local tour company offering private Sri Lanka tours, tailor-made holiday packages, and chauffeur driven round tours across the island.',
-    p2: 'Explore the best of Sri Lanka including Sigiriya, Kandy, Ella, Nuwara Eliya, Galle, and Yala National Park. We provide comfortable vehicles, friendly chauffeur guides, and personalized travel experiences for families, couples, and honeymoon travelers.',
-    p3: 'Plan your perfect Sri Lanka holiday with a reliable local tour operator and enjoy safe, comfortable, and unforgettable travel experiences.',
+    title: 'Trusted Sri Lanka Tour Company Since 1992',
+    p1: 'Sundown Tours Sri Lanka is a locally registered tour operator based in Waskaduwa on the west coast. Since 1992 we have planned private chauffeur-driven tours for travellers from the UK, Europe and beyond — focusing on clear communication, licensed guides and itineraries that match your pace rather than a fixed group schedule.',
+    p2: 'Our routes cover the Cultural Triangle (Sigiriya, Dambulla, Anuradhapura), Kandy and the hill country (Ella, Nuwara Eliya), wildlife parks such as Yala and Udawalawe, and the south-west coast around Galle and Hikkaduwa. Every package includes a private air-conditioned vehicle, an English-speaking chauffeur guide, fuel and driver expenses — hotels, entrance tickets and safaris can be arranged with transparent pricing.',
+    p3: 'Whether you need a one-day Sigiriya excursion or a ten-day island circuit finishing at the beach, you speak directly with our planning team on WhatsApp or email. We reply within 24 hours with a proposed route, realistic driving times and a clear quote — no call centres, no hard sell.',
+    whyTitle: 'Why Choose Sundown Tours',
+    whyIntro:
+      'We are a Waskaduwa-based family tour company. You speak with the same local planners who build your route — not a call centre — and travel with a private chauffeur guide who knows the roads, timings and seasonal conditions.',
+    why1Title: 'Local expertise since 1992',
+    why1Body:
+      'Three decades of private chauffeur-driven tours for travellers from the UK, Europe and beyond, with realistic driving times and transparent quotes.',
+    why2Title: 'Named people you can message',
+    why2Body:
+      'Meet Dilan (Founder) and Yohan (Senior Consultant) on our team section — WhatsApp them directly for itinerary questions before you book.',
+    why3Title: 'Private vehicle, your pace',
+    why3Body:
+      'Every package includes a private air-conditioned vehicle and chauffeur guide. Hotels, tickets and safaris can be arranged with clear pricing.',
+    teamTitle: 'Meet Our Team',
+    teamLead:
+      'The same local planners who answer your WhatsApp also help shape your route. Photos and roles below match the people you will speak with.',
+    founderName: 'Dilan Lakshitha',
+    founderRole: 'Owner & Founder',
+    founderBio:
+      'Founder of Sundown Tours Sri Lanka. Plans private itineraries from Waskaduwa and coordinates chauffeur guides across the Cultural Triangle, hill country, wildlife parks and the south-west coast.',
+    consultantName: 'Yohan Malshika',
+    consultantRole: 'Senior Consultant',
+    consultantBio:
+      'Senior consultant supporting Europe-bound travellers with day-to-day planning, WhatsApp updates and adjustments while you are on the road in Sri Lanka.',
+    driversTitle: 'Chauffeur guides',
+    driversBody:
+      'Your journey is with a professional chauffeur guide in a private vehicle. Guides speak fluent English; other European languages can be arranged on request. We do not publish individual driver licence numbers on this website.',
+    hqTitle: 'Headquarters',
+    hqBody:
+      'Our only published office is our headquarters in Waskaduwa, Kalutara North, Sri Lanka. We do not claim regional or international branch offices on this website.',
+    successTitle: 'Traveller feedback',
+    successBody:
+      'Read recent guest experiences on TripAdvisor and the review widget on our homepage. We do not invent testimonials or awards we have not earned.',
+    partnershipsTitle: 'Local partnerships',
+    partnershipsBody:
+      'We work with hotels, safari jeep operators and local restaurants along our routes — including Sundown Beach Restaurant in Waskaduwa — and disclose booking prices transparently in your quote.',
+    credentialsTitle: 'Licensing & registration',
+    credentialsBody:
+      'Sundown Tours is a locally registered Sri Lankan tour operator. We do not publish registration or tourism-board certificate numbers on this page unless a scanned certificate is available for verification. Ask us on WhatsApp if you need documentation for your booking.',
     features: {
       f1Title: 'Affordable Sri Lanka Tour Packages',
       f1Desc:
@@ -313,11 +380,46 @@ export const en: Dict = {
       name: 'Your Name',
       email: 'Your Email',
       phone: 'Your Phone',
+      phonePlaceholder: '712345678',
+      countryCode: 'Country code',
       message: 'Your Message',
       submit: 'Send Message',
+      sending: 'Sending…',
+      success: 'Your message has been sent successfully!',
+      successToast: 'Message sent successfully!',
+      error: 'There was an error sending your message. Please try again later.',
+      errorToast: 'Failed to send message',
+      nameRequired: 'Please enter your name',
+      emailRequired: 'Please enter a valid email',
+      phoneRequired: 'Please enter a valid phone number (7–15 digits)',
+      messageRequired: 'Please enter your message',
+      trustReply: 'Reply within 24h',
+      trustPrivate: 'Private enquiry',
     },
     infoTitle: 'Contact Information',
+    infoSubtitle: 'Speak directly with our Sri Lanka-based planning team.',
     address: 'No 302, Mahawaskaduwa, Waskaduwa, Kalutara North, Sri Lanka',
+    responseTime: 'Within 24 hours — usually faster on WhatsApp',
+    labels: {
+      headquarters: 'Headquarters',
+      phone: 'Phone',
+      whatsapp: 'WhatsApp',
+      email: 'Email',
+      hours: 'Business hours',
+      response: 'Response time',
+    },
+    cta: {
+      whatsapp: 'Chat on WhatsApp',
+      tripadvisor: 'Read TripAdvisor Reviews',
+      maps: 'Open Google Maps',
+    },
+    trustTitle: 'Why travellers choose us',
+    trust: {
+      experts: 'Local Sri Lankan experts',
+      tailored: 'Tailor-made tours',
+      response: 'Fast response within 24 hours',
+      travelers: 'Happy travelers since 1992',
+    },
     faqTitle: 'Frequently Asked Questions',
     faq: [
       {
@@ -351,6 +453,133 @@ export const en: Dict = {
         a: 'Yes. We can easily add extra nights on the south or west coast for a relaxing beach finish to your Sri Lanka holiday.',
       },
     ],
+  },
+
+  cancellation: {
+    eyebrow: 'Bookings & Changes',
+    h1: 'Cancellation Policy',
+    heroText:
+      'This page explains how Sundown Tours Sri Lanka handles booking changes, deposits and cancellations for private tours and chauffeur-driver services.',
+    lastUpdated: 'Last updated: 18 July 2026',
+    backLink: 'Back to home',
+    summaryTitle: 'At a glance',
+    s1: 'Enquiries are free \u2014 no charge before confirmation',
+    s2: 'A deposit may be required to hold your dates',
+    s3: 'Free cancellation up to 14 days before your tour starts',
+    s4: 'Contact us by WhatsApp or email to request changes',
+    sec1Title: '1. Before your booking is confirmed',
+    sec1P1:
+      'Sending an enquiry or receiving a quotation does not commit you to travel. You may withdraw at any time before paying a deposit, at no cost.',
+    sec1P2:
+      'We will confirm availability, itinerary details and the total price in writing before asking for any payment.',
+    sec2Title: '2. Deposits and confirmation',
+    sec2P1:
+      'To secure your preferred dates, vehicle and driver, we may ask for a deposit. The amount and due date will be stated clearly in your booking confirmation.',
+    sec2P2:
+      'Your tour is considered confirmed once we receive the agreed deposit and send written confirmation. The remaining balance is typically due before or at the start of your tour, as stated in your confirmation.',
+    sec3Title: '3. Cancellation by you',
+    sec3Intro:
+      'If you need to cancel a confirmed booking, please contact us as soon as possible. Refunds depend on how far in advance you cancel:',
+    tier1Label: '14 or more days before the tour start date:',
+    tier1Text: 'full refund of any deposit paid',
+    tier2Label: '7\u201313 days before the tour start date:',
+    tier2Text: '50% refund of the deposit',
+    tier3Label: 'Less than 7 days before the start date, or no-show:',
+    tier3Text: 'deposit is non-refundable',
+    sec3Note:
+      'Bank or payment-provider fees already incurred may be deducted from any refund. Third-party costs we have prepaid on your behalf (park tickets, hotel deposits, safari jeeps, etc.) are refunded only if those suppliers allow a refund.',
+    sec4Title: '4. Changes to your booking',
+    sec4P1:
+      'Date changes, route adjustments and group-size updates are often possible if we have enough notice and availability. Minor changes made more than 7 days before travel are usually handled at no extra charge.',
+    sec4P2:
+      'Major changes close to your start date, or changes that require rebooking prepaid services, may incur additional costs. We will always explain any fees before you confirm the change.',
+    sec5Title: '5. Cancellation or changes by Sundown Tours',
+    sec5P1:
+      'We rarely cancel confirmed tours. If we must do so because of vehicle breakdown, driver illness or another issue within our control, we will offer an alternative driver or vehicle, reschedule your dates, or provide a full refund of amounts paid to us for undelivered services.',
+    sec6Title: '6. Force majeure',
+    sec6P1:
+      'Events beyond our reasonable control \u2014 such as severe weather, natural disasters, civil unrest, public-health restrictions, or government travel bans \u2014 may affect your tour or our ability to operate on certain routes.',
+    sec6P2:
+      'In such cases we will work with you in good faith to reschedule where possible. If travel is not feasible, refunds will be handled fairly based on services already delivered and costs we cannot recover from suppliers.',
+    sec7Title: '7. Travel insurance',
+    sec7P1:
+      'We recommend travel insurance that covers cancellation, medical expenses and trip interruption. Insurance claims are handled directly between you and your insurer; we can provide documentation to support a claim where appropriate.',
+    sec8Title: '8. How to request a change or cancellation',
+    sec8P1:
+      'Please contact us as soon as your plans change. The fastest way to reach us is WhatsApp; email is fine for written records.',
+    whatsappLabel: 'WhatsApp:',
+    emailLabel: 'Email:',
+    locationLabel: 'Location:',
+    sec8P2: 'Include your name, tour dates and booking reference (if you have one) so we can respond quickly.',
+  },
+
+  testimonials: {
+    eyebrow: 'Testimonial',
+    title: 'What Say Our Clients',
+    ariaCarousel: 'Client testimonials',
+    ariaSlide: 'Testimonial slide',
+  },
+
+  destinationsHub: {
+    h1: 'Sri Lanka Destinations',
+    breadcrumb: 'Destinations',
+    lead: 'From Sigiriya’s rock fortress to Yala’s leopard country and Galle’s colonial fort — explore the places that shape every great Sri Lanka itinerary.',
+    relatedTitle: 'Related destinations',
+  },
+  guidesHub: {
+    h1: 'Sri Lanka Travel Guides',
+    breadcrumb: 'Travel Guides',
+    lead: 'Practical, locally written guides covering visas, seasons, wildlife, beaches and how to travel Sri Lanka with a private driver.',
+    relatedTitle: 'Related guides',
+    cardCta: 'Read guide',
+    restaurantsTitle: 'Where to eat',
+    restaurantLink: 'Sundown Beach Restaurant',
+    foodGuideLink: 'Sri Lanka food guide',
+  },
+
+  restaurantsExplore: {
+    title: 'Explore nearby destinations & tours',
+    lead: 'Sundown Beach Restaurant is our Waskaduwa coastal dining partner — pair a meal with south-west coast destinations and day tours.',
+    contactCta: 'Plan a private tour',
+  },
+
+  bookingSuccess: {
+    heroTitle: 'Booking Confirmed!',
+    thankYouPrefix: 'Thank you,',
+    emailSentTo: 'A confirmation email has been sent to',
+    tagline: 'Sri Lanka Private Tours',
+    confirmedBadge: 'CONFIRMED',
+    issued: 'Issued',
+    travelerDetails: 'Traveler Details',
+    tourDetails: 'Tour Details',
+    paymentSummary: 'Payment Summary',
+    name: 'Name',
+    email: 'Email',
+    phone: 'Phone',
+    country: 'Country',
+    travelDate: 'Travel Date',
+    travelers: 'Travelers',
+    personSingular: 'person',
+    personPlural: 'persons',
+    tour: 'Tour',
+    duration: 'Duration',
+    tourType: 'Tour Type',
+    payment: 'Payment',
+    payAtDestination: 'Pay at destination',
+    description: 'Description',
+    qty: 'Qty',
+    amount: 'Amount',
+    tourPackageFallback: 'Tour Package',
+    subtotal: 'Subtotal',
+    amountPaid: 'Amount Paid',
+    amountDue: 'Amount Due',
+    presentInvoice:
+      'Please present this invoice on arrival. Our team will contact you if any details are needed.',
+    thanks: 'We appreciate your booking — enjoy your Sri Lanka adventure!',
+    printInvoice: 'Print Invoice',
+    backHome: 'Back to Home',
+    defaultTravelerName: 'Traveler',
+    emptyValue: '—',
   },
 
   seo: {
@@ -461,6 +690,114 @@ export const en: Dict = {
       title: 'Sri Lanka Travel Guides | Expert Insights & Tips',
       description: 'Explore our comprehensive travel guides for Sri Lanka, offering expert insights and practical tips.',
       keywords: 'Sri Lanka travel guides, Sri Lanka travel tips',
+    },
+    destSigiriya: {
+      title: 'Sigiriya Rock Fortress Guide | Climb, Tips & Day Tours',
+      description:
+        'Plan your Sigiriya visit: climb timing, frescoes, Pidurangala, entrance tips and how to combine the rock fortress with Dambulla or a Cultural Triangle tour.',
+      keywords: 'Sigiriya Sri Lanka, Sigiriya rock fortress, climb Sigiriya, Sigiriya day tour',
+    },
+    destElla: {
+      title: 'Ella Sri Lanka Guide | Nine Arch Bridge, Hikes & Hill Country',
+      description:
+        'Discover Ella’s Nine Arch Bridge, Little Adam’s Peak, tea trails and the scenic train — with practical tips for a private day trip or multi-day hill-country stay.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Ella day tour, Sri Lanka hill country',
+    },
+    destYala: {
+      title: 'Yala National Park Guide | Safari Tips, Wildlife & Best Time',
+      description:
+        'Plan a Yala safari: leopard odds, jeep booking tips, best months to visit and how to combine Yala with Ella or a south-coast beach stay.',
+      keywords: 'Yala National Park, Yala safari, Sri Lanka leopards, Yala jeep safari',
+    },
+    destKandy: {
+      title: 'Kandy Sri Lanka Guide | Temple of the Tooth & Cultural Capital',
+      description:
+        'Explore Kandy’s Temple of the Tooth, lake walks, Peradeniya Gardens and Esala Perahera — plus tips for pairing Kandy with Ella or the Cultural Triangle.',
+      keywords: 'Kandy Sri Lanka, Temple of the Tooth, Kandy day tour, Sri Lanka cultural capital',
+    },
+    destDambulla: {
+      title: 'Dambulla Cave Temple Guide | Golden Rock Temple Tips',
+      description:
+        'Visit Dambulla’s UNESCO cave temple: murals, Buddha statues, climb tips and how to combine it with Sigiriya on a Cultural Triangle day tour.',
+      keywords: 'Dambulla cave temple, Golden Temple Dambulla, Dambulla Sri Lanka',
+    },
+    destGalle: {
+      title: 'Galle Fort Sri Lanka Guide | Ramparts, Lighthouse & Coast',
+      description:
+        'Walk Galle Fort’s Dutch ramparts, lighthouse and boutique lanes — with tips for a private day tour and combining the fort with south-coast beaches.',
+      keywords: 'Galle Fort, Galle Sri Lanka, Galle day tour, UNESCO Galle',
+    },
+    guideBestTime: {
+      title: 'Best Time to Visit Sri Lanka | Month-by-Month Season Guide',
+      description:
+        'When to visit Sri Lanka: two monsoons explained, best months by region, safari and whale-watching timing, and how to plan a private itinerary around the weather.',
+      keywords: 'best time to visit Sri Lanka, Sri Lanka weather, Sri Lanka monsoon, when to go Sri Lanka',
+    },
+    guideVisa: {
+      title: 'Sri Lanka Visa Guide | ETA, Entry Rules & Practical Tips',
+      description:
+        'How the Sri Lanka ETA and visa-on-arrival process works for travellers, what documents to prepare, and common entry mistakes to avoid.',
+      keywords: 'Sri Lanka visa, Sri Lanka ETA, visa on arrival Sri Lanka, entry requirements',
+    },
+    guidePrivateDriver: {
+      title: 'Sri Lanka Private Driver Guide | Chauffeur Tours Explained',
+      description:
+        'Why travellers choose a private chauffeur-driver in Sri Lanka, what is included, typical daily distances, and how to plan a flexible round-tour itinerary.',
+      keywords: 'Sri Lanka private driver, chauffeur guide Sri Lanka, private tour Sri Lanka',
+    },
+    guideBudget: {
+      title: 'Sri Lanka Budget Travel Guide | Costs & Money Tips',
+      description:
+        'Daily costs, cash and ATMs, tipping customs, and where your money goes on a private Sri Lanka tour — practical budget tips for travellers.',
+      keywords: 'Sri Lanka budget travel, Sri Lanka costs, money tips Sri Lanka, travel budget',
+    },
+    guideWildlife: {
+      title: 'Sri Lanka Wildlife Guide | Elephants, Leopards & Whales',
+      description:
+        'Where to see elephants, leopards, whales and birds in Sri Lanka — national parks, seasons and wildlife hotspots explained.',
+      keywords: 'Sri Lanka wildlife, elephants Sri Lanka, leopard safari, whale watching Sri Lanka',
+    },
+    guideSafari: {
+      title: 'Sri Lanka Safari Guide | Yala, Udawalawe & Jeep Tips',
+      description:
+        'Plan a jeep safari in Sri Lanka: Yala vs Udawalawe, booking tips, park fees and what to expect on a morning or afternoon game drive.',
+      keywords: 'Sri Lanka safari, Yala safari, Udawalawe jeep safari, safari booking tips',
+    },
+    guideBeaches: {
+      title: 'Best Beaches in Sri Lanka | South, West & East Coast',
+      description:
+        'Choose the right coast for your dates — south, west and east beaches compared by monsoon season, surf and calm-water bays.',
+      keywords: 'Sri Lanka beaches, best beaches Sri Lanka, south coast beaches, east coast Sri Lanka',
+    },
+    guideTeaCountry: {
+      title: 'Sri Lanka Tea Country Guide | Hill Country & Plantations',
+      description:
+        'Explore Nuwara Eliya, Ella and the hill-country tea trails — plantation visits, scenic trains and highland walks.',
+      keywords: 'Sri Lanka tea country, Nuwara Eliya, Ella hill country, tea plantations Sri Lanka',
+    },
+    guideFood: {
+      title: 'Sri Lanka Food Guide | Rice & Curry, Spices & Street Food',
+      description:
+        'Sri Lankan cuisine explained: rice and curry, hoppers, kottu, spices and street food — what to try and how to order with confidence.',
+      keywords: 'Sri Lanka food, rice and curry, Sri Lankan street food, Sri Lanka cuisine',
+    },
+    guidePacking: {
+      title: 'What to Pack for Sri Lanka | Clothing & Essentials',
+      description:
+        'A practical packing list for Sri Lanka — clothing for heat and hill-country cool, temple dress codes, safari gear and essentials.',
+      keywords: 'packing list Sri Lanka, what to pack Sri Lanka, Sri Lanka travel essentials',
+    },
+    guideSafety: {
+      title: 'Sri Lanka Travel Safety Guide | Tips for Visitors',
+      description:
+        'Practical safety advice for visitors: road travel, health basics, scams to avoid, and staying safe on a private tour.',
+      keywords: 'Sri Lanka travel safety, safe travel Sri Lanka, visitor safety tips',
+    },
+    cancellation: {
+      title: 'Cancellation Policy | Sundown Tours Sri Lanka',
+      description:
+        'Booking changes, deposit rules and cancellation terms for private tours and chauffeur-driver services with Sundown Tours Sri Lanka.',
+      keywords: 'cancellation policy, tour cancellation Sri Lanka, booking changes',
     },
     restaurants: {
       title: 'Restaurants in Sri Lanka | Best Local Cuisine',

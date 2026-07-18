@@ -8,13 +8,25 @@
                 [attr.inert]="$index !== activeSlide ? '' : null"
                 [class.is-active]="$index === activeSlide">
                 @if ($index === 0) {
-                <img class="w-100" [src]="heroLcpSrc" [srcset]="heroLcpSrcSet" sizes="100vw" [alt]="slide.alt | t"
+                <picture>
+                  @if (heroLcpAvifSrcSet) {
+                  <source type="image/avif" [attr.srcset]="heroLcpAvifSrcSet" sizes="100vw" />
+                  }
+                  <source type="image/webp" [attr.srcset]="heroLcpSrcSet" sizes="100vw" />
+                  <img class="w-100" [src]="heroLcpSrc" sizes="100vw" [alt]="slide.alt | t"
                     width="1920" height="1080" decoding="async" fetchpriority="high"
                     [attr.data-img-base]="heroLcpBase" (error)="onImageError($event)">
+                </picture>
                 } @else {
-                <img class="w-100" [src]="bestImageSrc(slide.src, 640)" [srcset]="buildSrcSet(slide.src)" [sizes]="heroSizes"
+                <picture>
+                  @if (buildAvifSrcSet(slide.src)) {
+                  <source type="image/avif" [attr.srcset]="buildAvifSrcSet(slide.src)" [attr.sizes]="heroSizes" />
+                  }
+                  <source type="image/webp" [attr.srcset]="buildSrcSet(slide.src)" [attr.sizes]="heroSizes" />
+                  <img class="w-100" [src]="bestImageSrc(slide.src, 640)" [sizes]="heroSizes"
                     [alt]="slide.alt | t" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
                     [attr.data-img-base]="slide.src" (error)="onImageError($event)">
+                </picture>
                 }
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
@@ -23,7 +35,7 @@
                         <p class="text-white mb-3">
                             {{ 'home.hero.subtitle' | t }}
                         </p>
-                        <a href="https://wa.me/94706293585" class="btn btn-primary py-md-3 px-md-5 button-round mt-2"
+                        <a [href]="whatsappUrl" class="btn btn-primary py-md-3 px-md-5 button-round mt-2"
                             aria-label="Contact us on WhatsApp">
                             <app-social-icon name="whatsapp" /><span class="ml-2">{{ 'common.cta.whatsapp' | t }}</span>
                         </a>
@@ -79,8 +91,8 @@
         <div class="row g-4">
             @for (dest of destinations; track trackByIndex($index)) {
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="premium-card" (click)="scrollToSection('packages')" role="button" tabindex="0"
-                    (keyup.enter)="scrollToSection('packages')" [attr.aria-label]="('home.destinations.exploreAria' | t) + ' ' + (dest.name | t)">
+                <a class="premium-card" [routerLink]="path(dest.pageId)"
+                    [attr.aria-label]="(dest.name | t) + ' — ' + ('home.destinations.explore' | t)">
                     <img [src]="bestImageSrc(dest.src, 400)" [srcset]="buildSrcSet(dest.src)" [sizes]="destSizes" [alt]="dest.alt | t"
                         width="400" height="280" loading="lazy" decoding="async" fetchpriority="low"
                         [attr.data-img-base]="dest.src" (error)="onImageError($event)">
@@ -88,7 +100,7 @@
                         <h3>{{ dest.name | t }}</h3>
                         <span class="premium-card-link">{{ 'home.destinations.explore' | t }} →</span>
                     </div>
-                </div>
+                </a>
             </div>
             }
         </div>
@@ -123,6 +135,7 @@
                 {{ 'home.packages.day' | t }}
             </button>
         </div>
+        @defer (on viewport) {
         <div class="row">
             @for (tour of visibleTours; track tour.id) {
             <div class="col-12 col-md-6 col-lg-4 mb-4 package-card-wrapper">
@@ -139,14 +152,26 @@
             </button>
         </div>
         }
+        } @placeholder {
+        <div class="row g-4" aria-hidden="true">
+            @for (i of [1,2,3,4,5,6]; track i) {
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="premium-card premium-card-placeholder" style="min-height: 280px;"></div>
+            </div>
+            }
+        </div>
+        }
     </div>
 </section>
 
 <section class="about-section pb-5">
     <div class="container">
+        @defer (on viewport) {
         <div class="about-wrapper">
             <div class="about-image">
-                <img [src]="aboutMainSrc" [alt]="'home.about.title' | t" width="600" height="400" loading="lazy"
+                <img [src]="bestImageSrc(aboutMainSrc, 640)" [srcset]="buildSrcSet(aboutMainSrc)"
+                    sizes="(max-width: 992px) 100vw, 600px" [attr.data-img-base]="aboutMainSrc"
+                    [alt]="'home.about.title' | t" width="600" height="400" loading="lazy"
                     decoding="async" fetchpriority="low" (error)="onImageError($event)">
             </div>
             <div class="about-content">
@@ -156,13 +181,17 @@
                 <p>{{ 'home.about.p2' | t }}</p>
                 <div class="about-gallery">
                     @for (img of aboutGallery; track trackByIndex($index)) {
-                    <img [src]="img.src" [alt]="img.alt | t" width="200" height="150" loading="lazy" decoding="async"
-                        fetchpriority="low" (error)="onImageError($event)">
+                    <img [src]="bestImageSrc(img.src, 320)" [srcset]="buildSrcSet(img.src)" sizes="200px"
+                        [attr.data-img-base]="img.src" [alt]="img.alt | t" width="200" height="150"
+                        loading="lazy" decoding="async" fetchpriority="low" (error)="onImageError($event)">
                     }
                 </div>
                 <a [routerLink]="path('contact')" class="about-btn">{{ 'common.cta.planTour' | t }} →</a>
             </div>
         </div>
+        } @placeholder {
+        <div class="about-wrapper" aria-hidden="true" style="min-height: 320px;"></div>
+        }
     </div>
 </section>
 
@@ -282,4 +311,8 @@
 <div class="py-5" aria-hidden="true"></div>
 }
 
+@defer (on viewport) {
 <app-home-seo-section />
+} @placeholder {
+<div class="py-5" aria-hidden="true"></div>
+}

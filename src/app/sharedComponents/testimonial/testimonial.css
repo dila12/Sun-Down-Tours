@@ -1,1 +1,41 @@
-@import '../../../assets/lib/owlcarousel/assets/owl.carousel.min.css';
+.testimonial-carousel {
+  position: relative;
+  min-height: 280px;
+}
+
+.testimonial-slide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.testimonial-slide.is-active {
+  display: block;
+  opacity: 1;
+}
+
+.testimonial-text {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.testimonial-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.testimonial-dot.active {
+  background: #022d41;
+}

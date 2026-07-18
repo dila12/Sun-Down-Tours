@@ -9,7 +9,7 @@
                 </p>
                 <span class="mx-3 text-white">|</span>
                 <p class="mb-0 text-white small">
-                    <svg class="layout-icon mr-2" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64c0 247.4 200.6 448 448 448 18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-19.7-8.2-42.5.5-53.1 19.5L201 319c-36.1-63.8-80.5-108.2-144.3-144.3L81.5 133c18.9-10.6 27.8-33.4 19.5-53.1l-40-96z"/></svg> +94706293585
+                    <svg class="layout-icon mr-2" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64c0 247.4 200.6 448 448 448 18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-19.7-8.2-42.5.5-53.1 19.5L201 319c-36.1-63.8-80.5-108.2-144.3-144.3L81.5 133c18.9-10.6 27.8-33.4 19.5-53.1l-40-96z"/></svg> +94 70 629 3585
                 </p>
             </div>
 
@@ -74,6 +74,8 @@
 
 <!-- Topbar End -->
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <app-scroll-to-to-component></app-scroll-to-to-component>
 <a href="https://wa.me/94706293585" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
     aria-label="Chat with us on WhatsApp">
@@ -101,6 +103,8 @@
                 <div class="navbar-nav ml-auto py-0">
                     <a [routerLink]="path('home')" class="nav-item nav-link" (click)="closeNav()">{{ 'common.nav.home' | t }}</a>
                     <a [routerLink]="path('tours')" class="nav-item nav-link" (click)="closeNav()">{{ 'common.nav.tours' | t }}</a>
+                    <a [routerLink]="path('destinations')" class="nav-item nav-link" (click)="closeNav()">{{ 'destinationsHub.breadcrumb' | t }}</a>
+                    <a [routerLink]="path('guides')" class="nav-item nav-link" (click)="closeNav()">{{ 'guidesHub.breadcrumb' | t }}</a>
                     <a [routerLink]="path('services')" class="nav-item nav-link" (click)="closeNav()">{{ 'common.nav.services' | t }}</a>
                     <a [routerLink]="path('about')" class="nav-item nav-link" (click)="closeNav()">{{ 'common.nav.about' | t }}</a>
                     <a [routerLink]="path('contact')" class="nav-item nav-link" (click)="closeNav()">{{ 'common.nav.contact' | t }}</a>
@@ -121,7 +125,7 @@
                 <p class="footer-brand mb-0"><span class="text-white">{{ 'common.brand.short' | t }}</span></p>
             </a>
             <p>{{ 'common.footer.tagline' | t }}</p>
-            <p class="footer-subheading text-white text-uppercase mt-4 mb-3" role="heading" aria-level="4" style="letter-spacing: 5px; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem;">{{ 'common.footer.followUs' | t }}</p>
+            <p class="footer-subheading text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem;">{{ 'common.footer.followUs' | t }}</p>
             <div class="d-flex justify-content-start">
                 <a class="btn nav-link btn-square mr-2 text-white"
                     href="https://www.facebook.com/profile.php?id=61563992655756" target="_blank" rel="noopener noreferrer"
@@ -175,6 +179,8 @@
                         class="fa fa-angle-right mr-2"></i>{{ 'common.nav.services' | t }}</a>
                 <a class="text-white mb-2" [routerLink]="path('tours')"><i
                         class="fa fa-angle-right mr-2"></i>{{ 'common.footer.packages' | t }}</a>
+                <a class="text-white mb-2" [routerLink]="path('guides')"><i
+                        class="fa fa-angle-right mr-2"></i>{{ 'guidesHub.breadcrumb' | t }}</a>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
@@ -192,10 +198,10 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
             <h3 class="footer-heading text-white text-uppercase mb-4" style="letter-spacing: 5px;">{{ 'common.footer.contactTitle' | t }}</h3>
-            <p><i class="fa fa-map-marker-alt mr-2"></i> No 302 ,Mahawaskaduwa,Waskaduwa, Kalutara North, Sri Lanka</p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+94706293585</p>
+            <p><i class="fa fa-map-marker-alt mr-2"></i> No 302, Mahawaskaduwa, Waskaduwa, Kalutara North, Sri Lanka</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+94 70 629 3585</p>
             <p><i class="fa fa-envelope mr-2"></i>sundowntoursrilanka@gmail.com</p>
-            <p class="footer-subheading text-white text-uppercase mt-4 mb-3" role="heading" aria-level="4" style="letter-spacing: 5px; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem;">{{ 'common.footer.newsletter' | t }}</p>
+            <p class="footer-subheading text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.75rem;">{{ 'common.footer.newsletter' | t }}</p>
             <div class="w-100">
                 <div class="input-group">
                     <label for="newsletter-email" class="sr-only">{{ 'common.footer.emailPlaceholder' | t }}</label>
@@ -215,6 +221,10 @@
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
             <p class="m-0 text-white">Copyright &copy; <a [routerLink]="path('home')" class="text-white">{{ 'common.brand.short' | t }}</a>. {{ 'common.footer.rights' | t }}
+                <span class="d-none d-md-inline"> · </span>
+                <a [routerLink]="path('privacy')" class="text-white">{{ 'common.footer.privacy' | t }}</a>
+                ·
+                <a [routerLink]="path('cancellation')" class="text-white">{{ 'common.footer.cancellation' | t }}</a>
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">

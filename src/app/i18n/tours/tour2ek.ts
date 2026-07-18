@@ -99,7 +99,34 @@ export const TOUR2EK: TourContent = {
       '24 Hours Service',
       'Unlimited Mileage for the entire tour',
     ],
-    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation (Can be arranged upon request)'],
+    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation available on request primarily 4-Star Hotels (equivalent 3.5-Star may be used if selected hotels are unavailable in peak periods)'],
+    seoIntro:
+      'Two days is enough to link Ella\'s highland icons with Kandy\'s sacred heritage when a private chauffeur handles the mountain roads. Day one combines Udawalawe Elephant Transit Home ethical viewing of rescued calves with Nine Arches Bridge, Little Adam\'s Peak, optional Flying Ravana zip-lining and Ravana Falls. Day two descends through Ramboda Falls and the spiral Ambuluwawa Tower before Kandy\'s Temple of the Sacred Tooth and a Pinnawala elephant stop en route to the airport or your hotel. Sundown Tours times train viewpoints and hikes to beat midday crowds while you travel in an air-conditioned vehicle with unlimited mileage. Accommodation is optional; entrance fees and meals stay at your discretion. Ideal as a pre-flight mini circuit from the south coast or a focused add-on between beach days and departure.',
+    highlights: [
+      'Udawalawe Elephant Transit Home and Ella Nine Arches Bridge viewpoints',
+      'Little Adam\'s Peak hike and optional Flying Ravana zip-line adventure',
+      'Ramboda Falls and Ambuluwawa Tower 360-degree mountain panoramas',
+      'Kandy Temple of the Sacred Tooth Relic and Pinnawala Elephant Orphanage',
+      'Private vehicle with English-speaking driver and flexible airport or hotel drop-off',
+    ],
+    whoIsFor:
+      'Perfect for transit passengers, honeymooners and small groups with limited time who still want hill-country scenery and Kandy culture without a week-long commitment.',
+    bestTimeNote:
+      'Year-round; dry months January–March and July–August offer the clearest highland views. Morning starts help finish Kandy and Pinnawala before airport traffic on Day 2.',
+    faq: [
+      {
+        q: 'Can this 2-day tour end at Bandaranaike International Airport?',
+        a: 'Yes the route is designed for convenient airport or hotel drop-off on Day 2. Share your flight time so we plan Pinnawala and Kandy pacing accordingly.',
+      },
+      {
+        q: 'Is overnight accommodation included?',
+        a: 'Accommodation is not in the base price but we can arrange a hill-country or Kandy hotel on half board. Many travellers book this tour back-to-back with a beach stay.',
+      },
+      {
+        q: 'Do we have time for the Flying Ravana zip line?',
+        a: 'The zip line is optional and weather-dependent. If you book it, we shorten another Ella stop usually a longer Ravana Falls visit so the day stays relaxed.',
+      },
+    ],
   },
 
   de: {
@@ -120,7 +147,38 @@ export const TOUR2EK: TourContent = {
       '24-Stunden-Service',
       'Unbegrenzte Kilometer für die gesamte Tour',
     ],
-    excludes: ['Eintritts- & Aktivitätsgebühren', 'Speisen & Getränke', 'Unterkunft (auf Anfrage arrangierbar)'],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Zwei Tage reichen aus, um die Highlights von Ella mit dem heiligen Kulturerbe von Kandy zu verbinden, wenn ein privater Chauffeur die Bergstraßen übernimmt. Tag eins kombiniert das Udawalawe Elephant Transit Home – die ethische Beobachtung geretteter Elefantenkälber – mit der Nine Arches Bridge, Little Adam\'s Peak, dem optionalen Flying-Ravana-Zipline-Abenteuer und den Ravana-Wasserfällen. Tag zwei führt über die Ramboda-Wasserfälle und den spiralförmigen Ambuluwawa-Turm zum Zahntempel in Kandy und einem Stopp im Pinnawala-Elefantenwaisenhaus auf dem Weg zum Flughafen oder Ihrem Hotel. Sundown Tours plant Zugblicke und Wanderungen so, dass Sie den Mittagsandrang vermeiden, während Sie in einem klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterkunft ist optional; Eintrittsgebühren und Mahlzeiten bleiben Ihnen selbst überlassen. Ideal als Mini-Rundreise vor dem Flug ab der Südküste oder als gezielte Ergänzung zwischen Strandtagen und Abreise.',
+    highlights: [
+      'Udawalawe Elephant Transit Home und Aussichtspunkte an der Nine Arches Bridge in Ella',
+      'Wanderung zum Little Adam\'s Peak und optionales Flying-Ravana-Zipline-Abenteuer',
+      'Ramboda-Wasserfälle und 360-Grad-Bergpanorama am Ambuluwawa-Turm',
+      'Zahntempel in Kandy und Pinnawala-Elefantenwaisenhaus',
+      'Privatfahrzeug mit englischsprachigem Fahrer und flexiblem Transfer zum Flughafen oder Hotel',
+    ],
+    whoIsFor:
+      'Perfekt für Transitreisende, Hochzeitsreisende und kleine Gruppen mit begrenzter Zeit, die trotzdem die Landschaft des Hügellands und die Kultur von Kandy erleben möchten, ohne sich für eine ganze Woche zu binden.',
+    bestTimeNote:
+      'Ganzjährig möglich; die trockenen Monate Januar–März und Juli–August bieten die klarsten Ausblicke im Hochland. Ein früher Start hilft, Kandy und Pinnawala am 2. Tag vor dem Flughafenverkehr abzuschließen.',
+    faq: [
+      {
+        q: 'Kann diese 2-tägige Tour am Flughafen Bandaranaike enden?',
+        a: 'Ja – die Route ist für eine bequeme Ankunft am Flughafen oder Hotel am 2. Tag ausgelegt. Teilen Sie uns Ihre Flugzeit mit, damit wir Kandy und Pinnawala entsprechend timen.',
+      },
+      {
+        q: 'Ist eine Übernachtung im Preis enthalten?',
+        a: 'Die Unterkunft ist nicht im Grundpreis enthalten, wir können aber gerne ein Hotel im Hügelland oder in Kandy auf Halbpension organisieren. Viele Reisende buchen diese Tour direkt im Anschluss an einen Strandaufenthalt.',
+      },
+      {
+        q: 'Haben wir Zeit für die Flying-Ravana-Zipline?',
+        a: 'Die Zipline ist optional und wetterabhängig. Wenn Sie sie buchen, verkürzen wir einen anderen Stopp in Ella – meist den Besuch der Ravana-Wasserfälle –, damit der Tag entspannt bleibt.',
+      },
+    ],
     days: [
       {
         title: 'Udawalawa- & Ella-Abenteuer',
@@ -207,7 +265,38 @@ export const TOUR2EK: TourContent = {
       'Service 24h/24',
       'Kilométrage illimité pour tout le circuit',
     ],
-    excludes: ['Entrées & frais d’activités', 'Repas & boissons', 'Hébergement (sur demande)'],
+    excludes: [
+      'Entrées & frais d’activités',
+      'Repas & boissons',
+      'Hébergement disponible sur demande principalement des hôtels 4 étoiles (des hôtels équivalents 3,5 étoiles peuvent être utilisés si les hôtels sélectionnés ne sont pas disponibles en haute saison)',
+    ],
+    seoIntro:
+      'Deux jours suffisent pour relier les incontournables d’Ella au patrimoine sacré de Kandy lorsqu’un chauffeur privé prend en charge les routes de montagne. Le premier jour associe le centre de transit des éléphants d’Udawalawe une observation éthique de bébés éléphants secourus au pont Nine Arches, à Little Adam’s Peak, à la tyrolienne optionnelle Flying Ravana et aux chutes de Ravana. Le second jour descend par les chutes de Ramboda et la tour en spirale d’Ambuluwawa avant le Temple de la Dent Sacrée à Kandy et un arrêt à l’orphelinat des éléphants de Pinnawala en route vers l’aéroport ou votre hôtel. Sundown Tours planifie les points de vue du train et les randonnées pour éviter la foule de midi, tandis que vous voyagez dans un véhicule climatisé au kilométrage illimité. L’hébergement est optionnel ; les frais d’entrée et les repas restent à votre discrétion. Idéal comme mini-circuit avant un vol depuis la côte sud ou comme complément ciblé entre les jours de plage et le départ.',
+    highlights: [
+      'Centre de transit des éléphants d’Udawalawe et points de vue du pont Nine Arches à Ella',
+      'Randonnée à Little Adam’s Peak et tyrolienne optionnelle Flying Ravana',
+      'Chutes de Ramboda et panoramas à 360° depuis la tour d’Ambuluwawa',
+      'Temple de la Dent Sacrée à Kandy et orphelinat des éléphants de Pinnawala',
+      'Véhicule privé avec chauffeur anglophone et dépose flexible à l’aéroport ou à l’hôtel',
+    ],
+    whoIsFor:
+      'Parfait pour les voyageurs en transit, les jeunes mariés et les petits groupes disposant de peu de temps mais souhaitant tout de même découvrir les paysages des hauts plateaux et la culture de Kandy sans s’engager sur une semaine complète.',
+    bestTimeNote:
+      'Toute l’année ; les mois secs de janvier à mars et de juillet à août offrent les vues les plus dégagées sur les hauts plateaux. Un départ matinal aide à terminer Kandy et Pinnawala avant le trafic aéroportuaire du jour 2.',
+    faq: [
+      {
+        q: 'Ce circuit de 2 jours peut-il se terminer à l’aéroport international de Bandaranaike ?',
+        a: 'Oui l’itinéraire est conçu pour une dépose pratique à l’aéroport ou à l’hôtel le jour 2. Indiquez-nous l’heure de votre vol afin que nous planifiions le rythme de Kandy et Pinnawala en conséquence.',
+      },
+      {
+        q: 'L’hébergement pour la nuit est-il inclus ?',
+        a: 'L’hébergement n’est pas inclus dans le tarif de base, mais nous pouvons organiser un hôtel dans les hauts plateaux ou à Kandy en demi-pension. De nombreux voyageurs réservent ce circuit juste après un séjour à la plage.',
+      },
+      {
+        q: 'Avons-nous le temps pour la tyrolienne Flying Ravana ?',
+        a: 'La tyrolienne est optionnelle et dépend de la météo. Si vous la réservez, nous raccourcissons un autre arrêt à Ella généralement une visite plus longue des chutes de Ravana afin que la journée reste détendue.',
+      },
+    ],
     days: [
       {
         title: 'Aventure à Udawalawa et Ella',
@@ -294,7 +383,38 @@ export const TOUR2EK: TourContent = {
       'Servizio 24 ore',
       'Chilometraggio illimitato per tutto il tour',
     ],
-    excludes: ['Ingressi e costi delle attività', 'Cibo e bevande', 'Alloggio (disponibile su richiesta)'],
+    excludes: [
+      'Ingressi e costi delle attività',
+      'Cibo e bevande',
+      'Alloggio disponibile su richiesta principalmente hotel 4 stelle (in alta stagione, se non disponibili, potranno essere utilizzati hotel equivalenti a 3,5 stelle)',
+    ],
+    seoIntro:
+      'Due giorni sono sufficienti per collegare le icone dell’altopiano di Ella al patrimonio sacro di Kandy, con un autista privato che gestisce le strade di montagna. Il primo giorno combina l’Udawalawe Elephant Transit Home osservazione etica di cuccioli di elefante salvati con il ponte Nine Arches, Little Adam’s Peak, la tirolesa opzionale Flying Ravana e le cascate di Ravana. Il secondo giorno scende attraverso le cascate di Ramboda e la torre a spirale di Ambuluwawa prima del Tempio della Sacra Reliquia del Dente a Kandy e una sosta all’orfanotrofio degli elefanti di Pinnawala in viaggio verso l’aeroporto o il vostro hotel. Sundown Tours pianifica i punti panoramici del treno e le escursioni per evitare la folla di mezzogiorno, mentre viaggiate in un veicolo climatizzato con chilometraggio illimitato. L’alloggio è opzionale; i biglietti d’ingresso e i pasti restano a vostra discrezione. Ideale come mini circuito pre-volo dalla costa meridionale o come tappa mirata tra i giorni di spiaggia e la partenza.',
+    highlights: [
+      'Udawalawe Elephant Transit Home e punti panoramici del ponte Nine Arches a Ella',
+      'Escursione a Little Adam’s Peak e tirolesa opzionale Flying Ravana',
+      'Cascate di Ramboda e panorami montani a 360° dalla Torre di Ambuluwawa',
+      'Tempio della Sacra Reliquia del Dente a Kandy e orfanotrofio degli elefanti di Pinnawala',
+      'Veicolo privato con autista di lingua inglese e trasferimento flessibile in aeroporto o in hotel',
+    ],
+    whoIsFor:
+      'Perfetto per i passeggeri in transito, le coppie in luna di miele e i piccoli gruppi con poco tempo che desiderano comunque vivere i panorami dell’altopiano e la cultura di Kandy senza impegnarsi per un’intera settimana.',
+    bestTimeNote:
+      'Tutto l’anno; i mesi secchi da gennaio a marzo e da luglio ad agosto offrono le vedute più limpide sull’altopiano. Una partenza al mattino aiuta a concludere Kandy e Pinnawala prima del traffico aeroportuale del secondo giorno.',
+    faq: [
+      {
+        q: 'Questo tour di 2 giorni può concludersi all’aeroporto di Bandaranaike?',
+        a: 'Sì il percorso è pensato per un comodo arrivo in aeroporto o in hotel il secondo giorno. Comunicateci l’orario del vostro volo così pianifichiamo i tempi di Kandy e Pinnawala di conseguenza.',
+      },
+      {
+        q: 'Il pernottamento è incluso?',
+        a: 'L’alloggio non è incluso nel prezzo base, ma possiamo organizzare un hotel sull’altopiano o a Kandy in mezza pensione. Molti viaggiatori prenotano questo tour subito dopo un soggiorno in spiaggia.',
+      },
+      {
+        q: 'Abbiamo tempo per la tirolesa Flying Ravana?',
+        a: 'La tirolesa è opzionale e dipende dal meteo. Se la prenotate, accorciamo un’altra tappa a Ella di solito una visita più lunga alle cascate di Ravana così la giornata resta rilassata.',
+      },
+    ],
     days: [
       {
         title: 'Avventura a Udawalawa ed Ella',
@@ -381,7 +501,38 @@ export const TOUR2EK: TourContent = {
       'Servicio 24 horas',
       'Kilometraje ilimitado durante todo el tour',
     ],
-    excludes: ['Entradas y costes de actividades', 'Comidas y bebidas', 'Alojamiento (disponible a petición)'],
+    excludes: [
+      'Entradas y costes de actividades',
+      'Comidas y bebidas',
+      'Alojamiento disponible bajo petición principalmente hoteles de 4 estrellas (se podrán utilizar hoteles equivalentes de 3,5 estrellas si los hoteles seleccionados no están disponibles en temporada alta)',
+    ],
+    seoIntro:
+      'Dos días son suficientes para conectar los iconos de las tierras altas de Ella con el patrimonio sagrado de Kandy cuando un chófer privado se encarga de las carreteras de montaña. El primer día combina el Udawalawe Elephant Transit Homeobservación ética de crías de elefante rescatadas— con el puente Nine Arches, Little Adam’s Peak, la tirolina opcional Flying Ravana y las cataratas de Ravana. El segundo día desciende por las cataratas de Ramboda y la torre en espiral de Ambuluwawa antes del Templo de la Sagrada Reliquia del Diente en Kandy y una parada en el orfanato de elefantes de Pinnawala en el camino al aeropuerto o a su hotel. Sundown Tours programa los miradores del tren y las caminatas para evitar las multitudes del mediodía mientras usted viaja en un vehículo con aire acondicionado y kilometraje ilimitado. El alojamiento es opcional; las entradas y las comidas quedan a su discreción. Ideal como mini circuito antes de un vuelo desde la costa sur o como complemento entre días de playa y la salida.',
+    highlights: [
+      'Udawalawe Elephant Transit Home y miradores del puente Nine Arches en Ella',
+      'Caminata a Little Adam’s Peak y tirolina opcional Flying Ravana',
+      'Cataratas de Ramboda y panorámicas de 360° desde la Torre de Ambuluwawa',
+      'Templo de la Sagrada Reliquia del Diente en Kandy y orfanato de elefantes de Pinnawala',
+      'Vehículo privado con conductor de habla inglesa y traslado flexible al aeropuerto o al hotel',
+    ],
+    whoIsFor:
+      'Perfecto para pasajeros en tránsito, parejas en luna de miel y grupos pequeños con tiempo limitado que aun así desean disfrutar del paisaje de las tierras altas y la cultura de Kandy sin comprometerse a una semana completa.',
+    bestTimeNote:
+      'Disponible todo el año; los meses secos de enero a marzo y de julio a agosto ofrecen las vistas más despejadas de las tierras altas. Salir por la mañana ayuda a terminar Kandy y Pinnawala antes del tráfico del aeropuerto en el día 2.',
+    faq: [
+      {
+        q: '¿Puede este circuito de 2 días terminar en el aeropuerto internacional de Bandaranaike?',
+        a: 'Sí: la ruta está diseñada para un traslado cómodo al aeropuerto o al hotel el día 2. Indíquenos la hora de su vuelo para planificar el ritmo de Kandy y Pinnawala en consecuencia.',
+      },
+      {
+        q: '¿El alojamiento nocturno está incluido?',
+        a: 'El alojamiento no está incluido en el precio base, pero podemos organizar un hotel en las tierras altas o en Kandy en media pensión. Muchos viajeros reservan este circuito justo después de una estancia en la playa.',
+      },
+      {
+        q: '¿Tenemos tiempo para la tirolina Flying Ravana?',
+        a: 'La tirolina es opcional y depende del clima. Si la reserva, acortamos otra parada en Ellanormalmente una visita más larga a las cataratas de Ravana— para que el día siga siendo relajado.',
+      },
+    ],
     days: [
       {
         title: 'Aventura en Udawalawa y Ella',
@@ -468,7 +619,38 @@ export const TOUR2EK: TourContent = {
       'Obsługa 24 godziny',
       'Nielimitowany kilometraż na całą wycieczkę',
     ],
-    excludes: ['Bilety wstępu i opłaty za atrakcje', 'Jedzenie i napoje', 'Zakwaterowanie (możliwe na życzenie)'],
+    excludes: [
+      'Bilety wstępu i opłaty za atrakcje',
+      'Jedzenie i napoje',
+      'Zakwaterowanie dostępne na życzenie – głównie hotele 4-gwiazdkowe (w sezonie szczytowym, jeśli wybrane hotele są niedostępne, mogą zostać zastąpione równoważnymi hotelami 3,5-gwiazdkowymi)',
+    ],
+    seoIntro:
+      'Dwa dni wystarczą, aby połączyć ikoniczne miejsca wyżyn Elli ze świętym dziedzictwem Kandy, gdy prywatny kierowca zajmuje się górskimi drogami. Pierwszy dzień łączy Udawalawe Elephant Transit Home – etyczną obserwację uratowanych młodych słoni – z mostem Nine Arches, Little Adam’s Peak, opcjonalną tyrolką Flying Ravana i wodospadami Ravana. Drugi dzień prowadzi przez wodospady Ramboda i spiralną wieżę Ambuluwawa, a następnie do Świątyni Świętej Relikwii Zęba w Kandy oraz do przystanku w sierocińcu dla słoni w Pinnawali w drodze na lotnisko lub do hotelu. Sundown Tours planuje punkty widokowe pociągu i wędrówki tak, by uniknąć tłumów w środku dnia, podczas gdy Państwo podróżują klimatyzowanym pojazdem z nielimitowanym przebiegiem. Nocleg jest opcjonalny; opłaty za wstęp i posiłki pozostają do Państwa decyzji. Idealna jako mini-wycieczka przed lotem z południowego wybrzeża lub jako dodatek między dniami na plaży a wyjazdem.',
+    highlights: [
+      'Udawalawe Elephant Transit Home i punkty widokowe mostu Nine Arches w Elli',
+      'Wędrówka na Little Adam’s Peak i opcjonalna tyrolka Flying Ravana',
+      'Wodospady Ramboda i panorama 360° z wieży Ambuluwawa',
+      'Świątynia Świętej Relikwii Zęba w Kandy i sierociniec dla słoni w Pinnawali',
+      'Prywatny pojazd z anglojęzycznym kierowcą i elastyczny transfer na lotnisko lub do hotelu',
+    ],
+    whoIsFor:
+      'Idealna dla podróżnych w tranzycie, par w podróży poślubnej i małych grup z ograniczonym czasem, które wciąż chcą doświadczyć krajobrazów wyżyn i kultury Kandy bez zobowiązania na cały tydzień.',
+    bestTimeNote:
+      'Dostępna cały rok; suche miesiące styczeń–marzec i lipiec–sierpień oferują najczystsze widoki na wyżyny. Wczesny start pomaga zakończyć Kandy i Pinnawalę przed ruchem lotniskowym 2. dnia.',
+    faq: [
+      {
+        q: 'Czy ta 2-dniowa wycieczka może zakończyć się na lotnisku Bandaranaike?',
+        a: 'Tak – trasa została zaprojektowana z myślą o wygodnym transferze na lotnisko lub do hotelu 2. dnia. Podajcie nam godzinę lotu, abyśmy odpowiednio zaplanowali tempo w Kandy i Pinnawali.',
+      },
+      {
+        q: 'Czy nocleg jest wliczony w cenę?',
+        a: 'Nocleg nie jest wliczony w cenę podstawową, ale możemy zorganizować hotel na wyżynach lub w Kandy z wyżywieniem HB. Wielu podróżnych rezerwuje tę wycieczkę bezpośrednio po pobycie na plaży.',
+      },
+      {
+        q: 'Czy mamy czas na tyrolkę Flying Ravana?',
+        a: 'Tyrolka jest opcjonalna i zależy od pogody. Jeśli ją zarezerwujecie, skracamy inny przystanek w Elli – zwykle dłuższą wizytę przy wodospadach Ravana – aby dzień pozostał spokojny.',
+      },
+    ],
     days: [
       {
         title: 'Przygoda w Udawalawie i Elli',
@@ -555,7 +737,38 @@ export const TOUR2EK: TourContent = {
       'Обслуживание 24 часа',
       'Неограниченный пробег на весь тур',
     ],
-    excludes: ['Входные билеты и оплата активностей', 'Еда и напитки', 'Проживание (по запросу)'],
+    excludes: [
+      'Входные билеты и оплата активностей',
+      'Еда и напитки',
+      'Проживание доступно по запросу преимущественно отели 4★ (в высокий сезон, если выбранные отели недоступны, может использоваться эквивалентный отель 3,5★)',
+    ],
+    seoIntro:
+      'Двух дней достаточно, чтобы соединить главные достопримечательности горной Эллы со священным наследием Канди, когда частный шофёр берёт на себя горные дороги. Первый день сочетает Udawalawe Elephant Transit Home этичное наблюдение за спасёнными слонятами с мостом Nine Arches, Little Adam’s Peak, опциональным зип-лайном Flying Ravana и водопадами Равана. Второй день проходит через водопады Ramboda и спиральную башню Ambuluwawa перед Храмом Священной Реликвии Зуба в Канди и остановкой в приюте для слонов Пиннавела на пути в аэропорт или ваш отель. Sundown Tours планирует смотровые точки поезда и походы так, чтобы избежать полуденных толп, пока вы путешествуете в кондиционированном автомобиле с неограниченным пробегом. Проживание опционально; входные билеты и питание остаются на ваш выбор. Идеально как мини-маршрут перед вылетом с южного побережья или как дополнение между пляжными днями и отъездом.',
+    highlights: [
+      'Udawalawe Elephant Transit Home и смотровые точки моста Nine Arches в Элле',
+      'Поход на Little Adam’s Peak и опциональный зип-лайн Flying Ravana',
+      'Водопады Ramboda и панорама горной страны на 360° с башни Ambuluwawa',
+      'Храм Священной Реликвии Зуба в Канди и приют для слонов Пиннавела',
+      'Частный автомобиль с англоговорящим водителем и гибкий трансфер в аэропорт или отель',
+    ],
+    whoIsFor:
+      'Идеально для транзитных пассажиров, молодожёнов и небольших групп с ограниченным временем, которые всё же хотят увидеть пейзажи горной страны и культуру Канди без обязательств на целую неделю.',
+    bestTimeNote:
+      'Доступно круглый год; сухие месяцы январь–март и июль–август дают самые чистые виды в горах. Ранний старт помогает завершить Канди и Пиннавелу до начала аэропортового трафика на 2-й день.',
+    faq: [
+      {
+        q: 'Может ли этот 2-дневный тур завершиться в аэропорту Бандаранаике?',
+        a: 'Да маршрут разработан для удобной высадки в аэропорту или отеле на 2-й день. Сообщите нам время вашего рейса, чтобы мы соответствующим образом спланировали темп Канди и Пиннавелы.',
+      },
+      {
+        q: 'Включено ли проживание с ночёвкой?',
+        a: 'Проживание не входит в базовую стоимость, но мы можем организовать отель в горной стране или Канди на полупансионе. Многие путешественники бронируют этот тур сразу после пляжного отдыха.',
+      },
+      {
+        q: 'Есть ли у нас время на зип-лайн Flying Ravana?',
+        a: 'Зип-лайн опционален и зависит от погоды. Если вы его бронируете, мы сокращаем другую остановку в Элле обычно более длительное посещение водопадов Равана чтобы день оставался спокойным.',
+      },
+    ],
     days: [
       {
         title: 'Приключение в Удавалаве и Элле',
@@ -588,7 +801,7 @@ export const TOUR2EK: TourContent = {
             type: 'Водопад',
             title: 'Водопад Равана',
             description:
-              'Посетите прекрасный водопад Равана — один из самых знаменитых водопадов Шри-Ланки, расположенный рядом с Эллой.',
+              'Посетите прекрасный водопад Равана один из самых знаменитых водопадов Шри-Ланки, расположенный рядом с Эллой.',
           },
         ],
       },
@@ -599,7 +812,7 @@ export const TOUR2EK: TourContent = {
             type: 'Водопад',
             title: 'Водопад Рамбода',
             description:
-              'Остановитесь у водопада Рамбода — впечатляющего водопада в самом сердце живописной горной местности Шри-Ланки.',
+              'Остановитесь у водопада Рамбода впечатляющего водопада в самом сердце живописной горной местности Шри-Ланки.',
           },
           {
             type: 'Посещение смотровой башни',
@@ -611,7 +824,7 @@ export const TOUR2EK: TourContent = {
             type: 'Культурный визит',
             title: 'Храм Священного Зуба Будды',
             description:
-              'Посетите священный Храм Зуба в Канди — одну из важнейших буддийских святынь мира.',
+              'Посетите священный Храм Зуба в Канди одну из важнейших буддийских святынь мира.',
           },
           {
             type: 'Знакомство с животным миром',

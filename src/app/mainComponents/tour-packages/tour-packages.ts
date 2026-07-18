@@ -1,4 +1,4 @@
-import { Component, Inject, PLATFORM_ID, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject, PLATFORM_ID, inject } from '@angular/core';
 import { RouterLink, RouterModule } from '@angular/router';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { PackageItemComponent } from '../../sharedComponents/package-item-component/package-item-component';
@@ -14,7 +14,8 @@ import { TourContentService, type TourCardView } from '../../i18n/tours/tour-con
   standalone: true,
   imports: [RouterLink, CommonModule, RouterModule, PackageItemComponent, TranslatePipe, FaqSectionComponent],
   templateUrl: './tour-packages.html',
-  styleUrl: './tour-packages.css'
+  styleUrl: './tour-packages.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TourPackages {
   readonly i18n = inject(LocaleService);
@@ -35,32 +36,37 @@ export class TourPackages {
   }
 
   ngOnInit() {
-    const multiPriceMap = new Map(
-      tourdetails.multiDayTours.map((tour: any) => [
-        tour.name,
-        tour.price?.['2'] ?? 0
-      ])
-    );
-
-    const dayPriceMap = new Map(
-      tourdetails.dayTours.map((tour: any) => [
-        tour.name,
-        tour.price?.['2'] ?? 0
-      ])
-    );
+    const resolve = (entries: any[], filecode: string, label: string): number => {
+      const match = entries.find(
+        (t: any) => t.filecode === filecode || t.name === filecode,
+      );
+      const amount = Number(match?.price?.['2'] ?? match?.price?.[2] ?? 0);
+      if (amount > 0) {
+        return amount;
+      }
+      console.error(
+        `[Sundown Tours] Missing ${label} price for "${filecode}" in assets/data/tourdetails.json. ` +
+          `Also check assets/data/US${filecode}.json.`,
+      );
+      return 0;
+    };
 
     this.dayTours = this.tours.cards('day').map((tour) => ({
       ...tour,
-      price: dayPriceMap.get(tour.filecode) ?? 0,
+      price: resolve(tourdetails.dayTours, tour.filecode, 'day-tour'),
     }));
 
     this.multiDayTours = this.tours.cards('multi').map((tour) => ({
       ...tour,
-      price: multiPriceMap.get(tour.filecode) ?? 0,
+      price: resolve(tourdetails.multiDayTours, tour.filecode, 'multi-day'),
     }));
   }
 
   setTab(tab: 'multi' | 'day') {
     this.activeTab = tab;
+  }
+
+  trackByTour(index: number, tour: TourCardView): string | number {
+    return tour.pageId ?? tour.filecode ?? tour.id ?? index;
   }
 }

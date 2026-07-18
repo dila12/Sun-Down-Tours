@@ -21,131 +21,60 @@ ul {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 28px;
   height: 28px;
   border-radius: 50%;
   font-size: 0.8rem;
+  line-height: 1;
 }
 
-.itinerary-header {
-  cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
-}
-
-.itinerary-header:hover {
-  background-color: #c05305;
+.icon-circle--excluded {
+  background-color: #6d6b3a;
   color: #fff;
-  transform: translateX(5px);
 }
 
-.itinerary-header:hover span {
-  transform: rotate(180deg);
-}
-
-.itinerary-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out;
-}
-
-.itinerary-content.open {
-  max-height: 1000px;
-  transition: max-height 0.9s ease-in;
-}
-
-.location-icon {
-  color: #ada878;
-  font-size: 1rem; 
-}
-
-.toggle-icon {
-  transition: transform 0.3s ease;
-}
-
-.toggle-icon.expanded {
-  transform: rotate(180deg);
-}
-
-.itinerary-content {
-  padding-left: 40px; /* shift content slightly to the right */
-}
-.itinerary-content ul {
-  padding-left: 20px; /* extra indent for lists */
-}
-
-.image-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(192, 83, 5, 0.85); /* Updated to use #c05305 with 85% opacity */
+/* Included / Excluded lists — top-aligned icons, wrapped text stays indented */
+.inclusion-list {
+  margin-left: 0;
+  padding-left: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1050;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
-/* Square modal image */
-.image-modal .modal-content {
-  width: 1000px;       /* fixed square width */
-  height: 800px;      /* fixed square height */
-  object-fit: cover;  /* maintain aspect ratio, cover the square */
-  border-radius: 10px;
+.inclusion-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0;
+  line-height: 1.5;
 }
 
-/* Close button */
-.close-btn {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  background: rgba(192, 83, 5, 0.85); /* Updated to use #c05305 with 85% opacity */
-  border: none;
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  z-index: 1100;
+.inclusion-item .icon-circle {
+  margin-top: 0.125rem; /* optically align with first text line */
 }
 
-.close-btn:hover {
-  background: rgba(192, 83, 5, 0.9); /* Updated to use #c05305 with 90% opacity */
+.inclusion-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #333;
+  font-size: 0.95rem;
+  overflow-wrap: break-word;
 }
 
-  .uniform-icon {
-    color: #c05305; /* Bootstrap primary blue */
+@media (max-width: 575.98px) {
+  .inclusion-list {
+    gap: 0.625rem;
   }
 
-  h5 {
-  transition: background 0.3s;
-  padding: 8px;
-  border-radius: 4px;
-}
+  .inclusion-item {
+    gap: 0.625rem;
+  }
 
-h5:hover {
-  background-color: #f0f0f0;
-}
-
-ul {
-  margin-left: 20px;
-  transition: max-height 0.3s ease-in-out;
-}
-
-.icon-circle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  font-size: 0.8rem;
+  .inclusion-text {
+    font-size: 0.9rem;
+  }
 }
 
 .itinerary-header {
@@ -177,7 +106,7 @@ ul {
 }
 
 .location-icon {
-  color: #ada878;
+  color: #6d6b3a;
   font-size: 1rem; 
 }
 
@@ -196,48 +125,347 @@ ul {
   padding-left: 20px; /* extra indent for lists */
 }
 
-.image-modal {
+/* —— Itinerary lightbox gallery —— */
+.itin-lb {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(192, 83, 5, 0.85); /* Updated to use #c05305 with 85% opacity */
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  background: rgba(17, 17, 17, 0.96);
+  color: #fff;
+  touch-action: none;
+  animation: itin-lb-fade-in 0.22s ease-out;
+}
+
+@keyframes itin-lb-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.itin-lb__toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex: 0 0 auto;
+  padding: max(0.85rem, env(safe-area-inset-top, 0px)) 1rem 0.75rem;
+  z-index: 3;
+}
+
+.itin-lb__meta {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.itin-lb__count {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.itin-lb__caption-wrap {
+  min-width: 0;
+}
+
+.itin-lb__caption {
+  margin: 0;
+  font-size: clamp(0.95rem, 2.2vw, 1.125rem);
+  font-weight: 600;
+  line-height: 1.35;
+  color: #fff;
+}
+
+.itin-lb__day {
+  margin: 0.15rem 0 0;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.35;
+}
+
+.itin-lb__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.itin-lb__icon-btn,
+.itin-lb__close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.itin-lb__icon-btn {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.itin-lb__icon-btn:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.itin-lb__close {
+  background: #fff;
+  color: #111;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.itin-lb__close span {
+  margin-top: -2px;
+}
+
+.itin-lb__close:hover {
+  background: #f3f4f6;
+  transform: scale(1.05);
+}
+
+.itin-lb__icon-btn:focus-visible,
+.itin-lb__close:focus-visible,
+.itin-lb__nav:focus-visible,
+.itin-lb__thumb:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+.itin-lb__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background-color 0.18s ease, transform 0.18s ease;
+}
+
+.itin-lb__nav:hover {
+  background: rgba(255, 255, 255, 0.26);
+}
+
+.itin-lb__nav--prev {
+  left: max(0.75rem, env(safe-area-inset-left, 0px));
+}
+
+.itin-lb__nav--next {
+  right: max(0.75rem, env(safe-area-inset-right, 0px));
+}
+
+.itin-lb__stage {
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1050;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0.5rem max(3.75rem, env(safe-area-inset-right, 0px)) 0.5rem max(3.75rem, env(safe-area-inset-left, 0px));
+  cursor: zoom-out;
 }
 
-/* Square modal image */
-.image-modal .modal-content {
-  width: 1000px;       /* fixed square width */
-  height: 800px;      /* fixed square height */
-  object-fit: cover;  /* maintain aspect ratio, cover the square */
-  border-radius: 10px;
+.itin-lb__figure {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.14s ease-out;
+  will-change: transform;
+  animation: itin-lb-reveal 0.28s ease-out;
+  cursor: zoom-in;
 }
 
-/* Close button */
-.close-btn {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  background: rgba(192, 83, 5, 0.85); /* Updated to use #c05305 with 85% opacity */
-  border: none;
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
+.itin-lb__figure.is-zoomed {
+  cursor: grab;
+}
+
+@keyframes itin-lb-reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.itin-lb__figure picture {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.itin-lb__img {
+  display: block;
+  max-width: min(94vw, 1280px);
+  max-height: calc(100vh - 11.5rem);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  -webkit-user-drag: none;
+  background: #0a0a0a;
+}
+
+.itin-lb__figure.is-zoomed .itin-lb__img {
+  max-width: none;
+  max-height: none;
+  width: min(1600px, 140vw);
+  border-radius: 8px;
+}
+
+.itin-lb__thumbs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  padding: 0.65rem 1rem max(1rem, env(safe-area-inset-bottom, 0px));
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.itin-lb__thumb {
+  flex: 0 0 auto;
+  width: 76px;
+  height: 56px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
   cursor: pointer;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  z-index: 1100;
+  opacity: 0.55;
+  transition: opacity 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
 
-.close-btn:hover {
-  background: rgba(192, 83, 5, 0.9); /* Updated to use #c05305 with 90% opacity */
+.itin-lb__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itin-lb__thumb:hover {
+  opacity: 0.85;
+}
+
+.itin-lb__thumb.is-active {
+  opacity: 1;
+  border-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 767.98px) {
+  .itin-lb__toolbar {
+    padding-inline: 0.75rem;
+  }
+
+  .itin-lb__icon-btn,
+  .itin-lb__close {
+    width: 44px;
+    height: 44px;
+  }
+
+  .itin-lb__nav {
+    width: 42px;
+    height: 42px;
+    font-size: 1.65rem;
+  }
+
+  .itin-lb__nav--prev {
+    left: 0.35rem;
+  }
+
+  .itin-lb__nav--next {
+    right: 0.35rem;
+  }
+
+  .itin-lb__stage {
+    padding-inline: 0.5rem;
+  }
+
+  .itin-lb__img {
+    max-width: 96vw;
+    max-height: calc(100vh - 13rem);
+    border-radius: 12px;
+  }
+
+  .itin-lb__thumb {
+    width: 68px;
+    height: 50px;
+  }
+
+  .itin-lb__caption {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .itin-lb__close {
+    width: 52px;
+    height: 52px;
+    font-size: 2.15rem;
+  }
+
+  .itin-lb__thumbs {
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .itin-lb,
+  .itin-lb__figure,
+  .itin-lb__icon-btn,
+  .itin-lb__close,
+  .itin-lb__nav,
+  .itin-lb__thumb {
+    animation: none;
+    transition: none;
+  }
+
+  .itin-lb__close:hover,
+  .itin-lb__thumb.is-active {
+    transform: none;
+  }
 }
 
 /* Scrollable area inside itinerary when too tall */
@@ -277,3 +505,160 @@ ul {
     margin-top: 1rem;
   }
 }
+
+.tour-meta-label { font-size: 0.875rem; font-weight: 600; color: #333; }
+.activity-title { font-size: 1.1rem; font-weight: 600; }
+
+.tour-highlights {
+  padding-left: 1.25rem;
+}
+
+.tour-highlights li {
+  margin-bottom: 0.5rem;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e4e9ec;
+  padding: 0.75rem 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin: 0.5rem 0 0;
+  color: #444;
+}
+
+.tour-explore-inline__lead {
+  font-size: 0.92rem;
+  color: #445;
+  line-height: 1.5;
+}
+
+.tour-explore-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tour-explore-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: #f0f6f9;
+  border: 1px solid #d5e3eb;
+  color: #022d41;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.tour-explore-chip:hover {
+  background: #e4eef4;
+  text-decoration: none;
+  color: #022d41;
+}
+
+.tour-explore-chip--guide {
+  background: #fff8f0;
+  border-color: #f0dcc4;
+}
+
+.tour-explore-panel {
+  background: #fff;
+  border: 1px solid #e4e9ec;
+  border-radius: 12px;
+  padding: 1.25rem 1.35rem;
+  box-shadow: 0 4px 18px rgba(2, 45, 65, 0.05);
+}
+
+.tour-explore-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tour-explore-list li {
+  margin-bottom: 0.4rem;
+}
+
+.tour-explore-list a {
+  color: #022d41;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.booking-trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.65rem;
+}
+
+.booking-trust-strip span {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #0f5132;
+  background: #e8f6ee;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+}
+
+.booking-review-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+}
+
+.booking-review-ctas__link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #022d41;
+}
+
+.mobile-book-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1040;
+  padding: 0.55rem 0.75rem calc(0.55rem + env(safe-area-inset-bottom, 0px));
+  background: rgba(255, 255, 255, 0.97);
+  border-top: 1px solid #e4e9ec;
+  box-shadow: 0 -6px 20px rgba(2, 45, 65, 0.12);
+}
+
+.mobile-book-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.mobile-book-bar__label {
+  display: block;
+  font-size: 0.7rem;
+  color: #667;
+}
+
+.mobile-book-bar__actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991.98px) {
+  .tour-details-body {
+    padding-bottom: 5.5rem;
+  }
+}
+
+

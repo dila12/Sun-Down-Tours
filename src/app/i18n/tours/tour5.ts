@@ -14,7 +14,7 @@ export const TOUR5: TourContent = {
     filecode: '5-day-sri-lanka-tour',
     overview: `Discover the highlights of Sri Lanka in this perfectly balanced 5-day private round tour. 
   Travel through the Cultural Triangle, explore Sigiriya Rock Fortress, experience Kandy’s sacred Temple of the Tooth Relic, journey through the misty tea plantations of Nuwara Eliya, enjoy an exciting Udawalawa National Park safari, and unwind along the beautiful South West Coast. 
-  With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation — perfect for couples, families and small groups.`,
+  With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation perfect for couples, families and small groups.`,
     tourType: 'Round Tour',
     itinerary: [
       {
@@ -38,7 +38,7 @@ export const TOUR5: TourContent = {
             type: 'Safari',
             title: { title: 'Minneriya National Park Safari', icon: 'fa-leaf', color: '#8e44ad' },
             description:
-              'Enjoy a thrilling 4x4 jeep safari in Minneriya National Park, famous for “The Gathering” — one of Asia’s largest wild elephant congregations. Spot elephants, deer, buffalo and diverse bird species.',
+              'Enjoy a thrilling 4x4 jeep safari in Minneriya National Park, famous for “The Gathering” one of Asia’s largest wild elephant congregations. Spot elephants, deer, buffalo and diverse bird species.',
             image: 'assets/img/5daysTours/24.jpg',
           },
           {
@@ -173,7 +173,30 @@ export const TOUR5: TourContent = {
       'Fuel & Parking Fees',
       'Unlimited Mileage for entire tour',
     ],
-    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation (Can be arranged upon request)'],
+    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation available on request primarily 4-Star Hotels (equivalent 3.5-Star may be used if selected hotels are unavailable in peak periods)'],
+    seoIntro:
+      'Five days unlock Sri Lanka\'s cultural triangle, hill country and wildlife corridor in a single private journey. From Pinnawala elephants and Minneriya gatherings near Sigiriya to the Lion Rock ascent, Kandy\'s Tooth Relic ceremonies, Nuwara Eliya tea estates and an Udawalawe or south-coast safari, this Sundown Tours route balances UNESCO heritage with hands-on experiences. Your chauffeur-guide handles the winding mountain roads and early safari starts while you travel in an air-conditioned vehicle with unlimited mileage. Accommodation can be arranged in your preferred star category on half board; we keep entrance fees separate so you control optional stops. Perfect for couples and families who want more depth than a four-day sampler without committing to a full week.',
+    highlights: [
+      'Sigiriya Rock Fortress, Minneriya elephant safari and Cultural Triangle highlights',
+      'Kandy Temple of the Tooth, spice gardens and traditional dance performance',
+      'Nuwara Eliya tea country, Ramboda Falls and scenic highland viewpoints',
+      'Udawalawe or south-coast wildlife safari and turtle conservation visit',
+      'Flexible private transport with English-speaking driver-guide and unlimited mileage',
+    ],
+    faq: [
+      {
+        q: 'Is hotel accommodation included in the 5-day tour price?',
+        a: 'Accommodation is not bundled in the base quote but we arrange half-board hotels in 3–4 star properties on request. Tell us your budget and we send options before you confirm.',
+      },
+      {
+        q: 'Which safari park do we visit Minneriya, Udawalawe or Yala?',
+        a: 'Day 1 features Minneriya or Kaudulla for elephant gatherings when seasonal. Later days use Udawalawe or a south-coast park depending on your route and park closures we confirm the best fit for your travel dates.',
+      },
+      {
+        q: 'How much driving is involved between Sigiriya, Kandy and the south coast?',
+        a: 'Expect 3–5 hours on the longest transfer days. We break journeys with spice gardens, viewpoints and meal stops so the pace stays comfortable for families and seniors.',
+      },
+    ],
   },
   de: {
     title: 'Sri Lanka Privatreise – 5 Tage | Kulturerbe, Hügelland & Wildlife-Safari',
@@ -191,7 +214,34 @@ export const TOUR5: TourContent = {
       'Kraftstoff & Parkgebühren',
       'Unbegrenzte Kilometer für die gesamte Reise',
     ],
-    excludes: ['Eintritts- & Aktivitätsgebühren', 'Speisen & Getränke', 'Unterkunft (auf Anfrage arrangierbar)'],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Fünf Tage erschließen Sri Lankas Kultur-Dreieck, das Hügelland und den Wildtier-Korridor auf einer einzigen privaten Reise. Von den Elefanten in Pinnawala und den Ansammlungen in Minneriya bei Sigiriya über den Aufstieg zum Löwenfelsen, die Zahntempel-Zeremonien in Kandy, die Teeplantagen von Nuwara Eliya bis zu einer Safari in Udawalawe oder an der Südküste verbindet diese Route von Sundown Tours UNESCO-Kulturerbe mit hautnahen Erlebnissen. Ihr Fahrer-Guide übernimmt die kurvigen Bergstraßen und die frühen Safari-Starts, während Sie in einem klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterkunft kann auf Wunsch in Ihrer bevorzugten Sternekategorie auf Halbpension organisiert werden; Eintrittsgebühren halten wir separat, damit Sie die optionalen Stopps selbst steuern. Perfekt für Paare und Familien, die mehr Tiefgang als bei einer Vier-Tage-Tour wünschen, ohne sich für eine ganze Woche zu binden.',
+    highlights: [
+      'Sigiriya-Felsenfestung, Elefanten-Safari in Minneriya und Höhepunkte des Kultur-Dreiecks',
+      'Zahntempel in Kandy, Gewürzgärten und traditionelle Tanzvorführung',
+      'Teeland Nuwara Eliya, Ramboda-Wasserfälle und malerische Aussichtspunkte im Hochland',
+      'Wildtier-Safari in Udawalawe oder an der Südküste sowie Besuch eines Schildkröten-Schutzprojekts',
+      'Flexibler Privattransport mit englischsprachigem Fahrer-Guide und unbegrenzter Kilometerleistung',
+    ],
+    faq: [
+      {
+        q: 'Ist die Hotelunterkunft im Preis der 5-tägigen Tour enthalten?',
+        a: 'Die Unterkunft ist nicht im Grundpreis enthalten, wir organisieren aber auf Wunsch Halbpension-Hotels der 3–4-Sterne-Kategorie. Teilen Sie uns Ihr Budget mit, und wir senden Ihnen Optionen vor der Bestätigung.',
+      },
+      {
+        q: 'Welchen Safaripark besuchen wir – Minneriya, Udawalawe oder Yala?',
+        a: 'Tag 1 führt je nach Saison nach Minneriya oder Kaudulla für Elefantenansammlungen. An späteren Tagen nutzen wir Udawalawe oder einen Park an der Südküste, abhängig von Ihrer Route und Parkschließungen – wir bestätigen die beste Option für Ihre Reisedaten.',
+      },
+      {
+        q: 'Wie viel Fahrzeit liegt zwischen Sigiriya, Kandy und der Südküste?',
+        a: 'Rechnen Sie mit 3–5 Stunden an den längsten Fahrtagen. Wir unterbrechen die Fahrten mit Gewürzgärten, Aussichtspunkten und Essenspausen, damit das Tempo für Familien und Senioren angenehm bleibt.',
+      },
+    ],
     days: [
       {
         title: 'Flughafen nach Sigiriya – Elefanten & Safari-Abenteuer',
@@ -338,7 +388,34 @@ export const TOUR5: TourContent = {
       'Carburant & frais de parking',
       'Kilométrage illimité pour tout le circuit',
     ],
-    excludes: ['Entrées & frais d’activités', 'Repas & boissons', 'Hébergement (sur demande)'],
+    excludes: [
+      'Entrées & frais d’activités',
+      'Repas & boissons',
+      'Hébergement disponible sur demande principalement des hôtels 4 étoiles (des hôtels équivalents 3,5 étoiles peuvent être utilisés si les hôtels sélectionnés ne sont pas disponibles en haute saison)',
+    ],
+    seoIntro:
+      'Cinq jours permettent de découvrir le triangle culturel, les hauts plateaux et le corridor faunique du Sri Lanka au cours d’un seul voyage privé. Des éléphants de Pinnawala et des rassemblements de Minneriya près de Sigiriya à l’ascension du Rocher du Lion, aux cérémonies du Temple de la Dent à Kandy, aux plantations de thé de Nuwara Eliya et à un safari à Udawalawe ou sur la côte sud, cet itinéraire de Sundown Tours allie patrimoine UNESCO et expériences immersives. Votre chauffeur-guide gère les routes de montagne sinueuses et les départs matinaux pour le safari, tandis que vous voyagez dans un véhicule climatisé au kilométrage illimité. L’hébergement peut être organisé dans la catégorie d’étoiles de votre choix en demi-pension ; nous conservons les frais d’entrée séparément afin que vous gardiez le contrôle des arrêts optionnels. Parfait pour les couples et les familles qui souhaitent plus de profondeur qu’un aperçu de quatre jours sans s’engager sur une semaine complète.',
+    highlights: [
+      'Forteresse rocheuse de Sigiriya, safari aux éléphants à Minneriya et points forts du Triangle culturel',
+      'Temple de la Dent à Kandy, jardins d’épices et spectacle de danse traditionnelle',
+      'Pays du thé de Nuwara Eliya, chutes de Ramboda et points de vue panoramiques sur les hauts plateaux',
+      'Safari faunique à Udawalawe ou sur la côte sud et visite d’un centre de conservation des tortues',
+      'Transport privé flexible avec chauffeur-guide anglophone et kilométrage illimité',
+    ],
+    faq: [
+      {
+        q: 'L’hébergement hôtelier est-il inclus dans le prix du circuit de 5 jours ?',
+        a: 'L’hébergement n’est pas inclus dans le tarif de base, mais nous organisons sur demande des hôtels 3-4 étoiles en demi-pension. Indiquez-nous votre budget et nous vous envoyons des options avant la confirmation.',
+      },
+      {
+        q: 'Quel parc de safari visitons-nous Minneriya, Udawalawe ou Yala ?',
+        a: 'Le jour 1 propose Minneriya ou Kaudulla pour les rassemblements d’éléphants selon la saison. Les jours suivants utilisent Udawalawe ou un parc de la côte sud selon votre itinéraire et les fermetures de parcs nous confirmons la meilleure option pour vos dates de voyage.',
+      },
+      {
+        q: 'Combien de temps de route entre Sigiriya, Kandy et la côte sud ?',
+        a: 'Comptez 3 à 5 heures lors des plus longues journées de transfert. Nous ponctuons les trajets de jardins d’épices, de points de vue et de pauses repas pour garder un rythme confortable pour les familles et les seniors.',
+      },
+    ],
     days: [
       {
         title: 'De l’aéroport à Sigiriya – Éléphants & aventure safari',
@@ -359,7 +436,7 @@ export const TOUR5: TourContent = {
             type: 'Safari',
             title: 'Safari au parc national de Minneriya',
             description:
-              'Profitez d’un safari en 4x4 palpitant dans le parc national de Minneriya, célèbre pour « Le Rassemblement » — l’un des plus grands regroupements d’éléphants sauvages d’Asie. Observez éléphants, cerfs, buffles et une avifaune variée.',
+              'Profitez d’un safari en 4x4 palpitant dans le parc national de Minneriya, célèbre pour « Le Rassemblement » l’un des plus grands regroupements d’éléphants sauvages d’Asie. Observez éléphants, cerfs, buffles et une avifaune variée.',
           },
           {
             type: 'Hébergement',
@@ -485,7 +562,34 @@ export const TOUR5: TourContent = {
       'Carburante e parcheggi',
       'Chilometraggio illimitato per tutto il tour',
     ],
-    excludes: ['Biglietti d’ingresso e attività', 'Cibo e bevande', 'Alloggio (organizzabile su richiesta)'],
+    excludes: [
+      'Biglietti d’ingresso e attività',
+      'Cibo e bevande',
+      'Alloggio disponibile su richiesta principalmente hotel 4 stelle (in alta stagione, se non disponibili, potranno essere utilizzati hotel equivalenti a 3,5 stelle)',
+    ],
+    seoIntro:
+      'Cinque giorni permettono di scoprire il triangolo culturale, l’altopiano centrale e il corridoio della fauna selvatica dello Sri Lanka in un unico viaggio privato. Dagli elefanti di Pinnawala e i raduni di Minneriya vicino a Sigiriya, alla salita al Lion Rock, alle cerimonie del Tempio del Dente a Kandy, alle piantagioni di tè di Nuwara Eliya, fino a un safari a Udawalawe o sulla costa meridionale, questo itinerario di Sundown Tours unisce patrimonio UNESCO ed esperienze pratiche. Il vostro autista-guida gestisce le tortuose strade di montagna e le partenze mattutine per il safari, mentre viaggiate in un veicolo climatizzato con chilometraggio illimitato. L’alloggio può essere organizzato nella categoria di stelle preferita in mezza pensione; teniamo i biglietti d’ingresso separati così potete gestire le soste opzionali. Perfetto per coppie e famiglie che desiderano maggiore profondità rispetto a un tour di quattro giorni senza impegnarsi per un’intera settimana.',
+    highlights: [
+      'Fortezza rocciosa di Sigiriya, safari agli elefanti a Minneriya e punti salienti del Triangolo Culturale',
+      'Tempio del Dente a Kandy, giardini di spezie e spettacolo di danza tradizionale',
+      'Terra del tè di Nuwara Eliya, cascate di Ramboda e punti panoramici sull’altopiano',
+      'Safari nella fauna selvatica a Udawalawe o sulla costa meridionale e visita a un centro di conservazione delle tartarughe',
+      'Trasporto privato flessibile con autista-guida di lingua inglese e chilometraggio illimitato',
+    ],
+    faq: [
+      {
+        q: 'L’alloggio in hotel è incluso nel prezzo del tour di 5 giorni?',
+        a: 'L’alloggio non è incluso nel prezzo base, ma organizziamo su richiesta hotel da 3-4 stelle in mezza pensione. Comunicateci il vostro budget e vi invieremo le opzioni prima della conferma.',
+      },
+      {
+        q: 'Quale parco safari visitiamo Minneriya, Udawalawe o Yala?',
+        a: 'Il giorno 1 prevede Minneriya o Kaudulla per i raduni di elefanti in base alla stagione. Nei giorni successivi si utilizza Udawalawe o un parco della costa meridionale in base al vostro percorso e alle chiusure dei parchi confermiamo l’opzione migliore per le vostre date di viaggio.',
+      },
+      {
+        q: 'Quanto tempo di guida c’è tra Sigiriya, Kandy e la costa meridionale?',
+        a: 'Prevedete 3-5 ore nei giorni di trasferimento più lunghi. Suddividiamo i tragitti con giardini di spezie, punti panoramici e soste per i pasti, così il ritmo resta comodo per famiglie e anziani.',
+      },
+    ],
     days: [
       {
         title: 'Dall’Aeroporto a Sigiriya – Elefanti e Avventura Safari',
@@ -506,7 +610,7 @@ export const TOUR5: TourContent = {
             type: 'Safari',
             title: 'Safari nel Parco Nazionale di Minneriya',
             description:
-              'Godetevi un emozionante safari in 4x4 nel Parco Nazionale di Minneriya, famoso per “The Gathering” — uno dei più grandi raduni di elefanti selvatici in Asia. Avvistate elefanti, cervi, bufali e una ricca avifauna.',
+              'Godetevi un emozionante safari in 4x4 nel Parco Nazionale di Minneriya, famoso per “The Gathering” uno dei più grandi raduni di elefanti selvatici in Asia. Avvistate elefanti, cervi, bufali e una ricca avifauna.',
           },
           {
             type: 'Alloggio',
@@ -632,7 +736,34 @@ export const TOUR5: TourContent = {
       'Combustible y tasas de aparcamiento',
       'Kilometraje ilimitado durante todo el circuito',
     ],
-    excludes: ['Entradas y actividades', 'Comidas y bebidas', 'Alojamiento (disponible bajo petición)'],
+    excludes: [
+      'Entradas y actividades',
+      'Comidas y bebidas',
+      'Alojamiento disponible bajo petición principalmente hoteles de 4 estrellas (se podrán utilizar hoteles equivalentes de 3,5 estrellas si los hoteles seleccionados no están disponibles en temporada alta)',
+    ],
+    seoIntro:
+      'Cinco días permiten descubrir el triángulo cultural, las montañas del té y el corredor de fauna de Sri Lanka en un único viaje privado. Desde los elefantes de Pinnawala y las concentraciones de Minneriya cerca de Sigiriya, hasta la ascensión al Lion Rock, las ceremonias del Templo del Diente en Kandy, las plantaciones de té de Nuwara Eliya y un safari en Udawalawe o en la costa sur, esta ruta de Sundown Tours combina patrimonio UNESCO con experiencias prácticas. Su chófer-guía se encarga de las carreteras de montaña sinuosas y las salidas tempranas para el safari, mientras usted viaja en un vehículo con aire acondicionado y kilometraje ilimitado. El alojamiento puede organizarse en la categoría de estrellas que prefiera en media pensión; mantenemos las entradas por separado para que usted controle las paradas opcionales. Perfecto para parejas y familias que buscan más profundidad que en un circuito de cuatro días, sin comprometerse a una semana completa.',
+    highlights: [
+      'Fortaleza rocosa de Sigiriya, safari de elefantes en Minneriya y lo más destacado del Triángulo Cultural',
+      'Templo del Diente en Kandy, jardines de especias y espectáculo de danza tradicional',
+      'País del té de Nuwara Eliya, cataratas de Ramboda y miradores panorámicos en las tierras altas',
+      'Safari de fauna en Udawalawe o en la costa sur y visita a un centro de conservación de tortugas',
+      'Transporte privado flexible con chófer-guía de habla inglesa y kilometraje ilimitado',
+    ],
+    faq: [
+      {
+        q: '¿El alojamiento en hotel está incluido en el precio del circuito de 5 días?',
+        a: 'El alojamiento no está incluido en la tarifa base, pero organizamos hoteles de 3-4 estrellas en media pensión bajo petición. Indíquenos su presupuesto y le enviaremos opciones antes de confirmar.',
+      },
+      {
+        q: '¿Qué parque de safari visitamos: Minneriya, Udawalawe o Yala?',
+        a: 'El día 1 incluye Minneriya o Kaudulla para las concentraciones de elefantes según la temporada. Los días siguientes se utiliza Udawalawe o un parque de la costa sur según su ruta y los cierres de parques; confirmamos la mejor opción para sus fechas de viaje.',
+      },
+      {
+        q: '¿Cuánto tiempo de conducción hay entre Sigiriya, Kandy y la costa sur?',
+        a: 'Calcule entre 3 y 5 horas en los días de traslado más largos. Dividimos los trayectos con jardines de especias, miradores y paradas para comer, de modo que el ritmo sea cómodo para familias y personas mayores.',
+      },
+    ],
     days: [
       {
         title: 'Del Aeropuerto a Sigiriya – Elefantes y Aventura de Safari',
@@ -653,7 +784,7 @@ export const TOUR5: TourContent = {
             type: 'Safari',
             title: 'Safari en el Parque Nacional de Minneriya',
             description:
-              'Disfrute de un emocionante safari en 4x4 por el Parque Nacional de Minneriya, famoso por “El Encuentro” — una de las mayores congregaciones de elefantes salvajes de Asia. Observe elefantes, ciervos, búfalos y una gran variedad de aves.',
+              'Disfrute de un emocionante safari en 4x4 por el Parque Nacional de Minneriya, famoso por “El Encuentro” una de las mayores congregaciones de elefantes salvajes de Asia. Observe elefantes, ciervos, búfalos y una gran variedad de aves.',
           },
           {
             type: 'Alojamiento',
@@ -779,7 +910,34 @@ export const TOUR5: TourContent = {
       'Paliwo i opłaty parkingowe',
       'Nielimitowany przebieg podczas całej wycieczki',
     ],
-    excludes: ['Opłaty za wstęp i atrakcje', 'Jedzenie i napoje', 'Nocleg (do uzgodnienia na życzenie)'],
+    excludes: [
+      'Opłaty za wstęp i atrakcje',
+      'Jedzenie i napoje',
+      'Nocleg dostępny na życzenie – głównie hotele 4-gwiazdkowe (w sezonie szczytowym, jeśli wybrane hotele są niedostępne, mogą zostać zastąpione równoważnymi hotelami 3,5-gwiazdkowymi)',
+    ],
+    seoIntro:
+      'Pięć dni pozwala odkryć Trójkąt Kulturowy, wyżyny herbaciane i korytarz dzikiej przyrody Sri Lanki podczas jednej prywatnej podróży. Od słoni w Pinnawali i zgromadzeń w Minneriya blisko Sigiriya, przez wspinaczkę na Lion Rock, ceremonie w Świątyni Zęba w Kandy, plantacje herbaty w Nuwara Eliya, aż po safari w Udawalawe lub na południowym wybrzeżu – ta trasa Sundown Tours łączy dziedzictwo UNESCO z praktycznymi doświadczeniami. Kierowca-przewodnik zajmuje się krętymi górskimi drogami i wczesnymi wyjazdami na safari, a Państwo podróżują klimatyzowanym pojazdem z nielimitowanym przebiegiem. Nocleg można zorganizować w wybranej kategorii gwiazdek w formule half board; opłaty za wstęp trzymamy osobno, dzięki czemu sami decydują Państwo o opcjonalnych przystankach. Idealne dla par i rodzin, które chcą więcej niż w czterodniowym wyjeździe, ale nie chcą poświęcać całego tygodnia.',
+    highlights: [
+      'Skalna forteca Sigiriya, safari ze słoniami w Minneriya i najważniejsze punkty Trójkąta Kulturowego',
+      'Świątynia Zęba w Kandy, ogrody przypraw i tradycyjny pokaz tańca',
+      'Kraina herbaty Nuwara Eliya, wodospady Ramboda i widokowe punkty w górach',
+      'Safari z dziką przyrodą w Udawalawe lub na południowym wybrzeżu oraz wizyta w ośrodku ochrony żółwi',
+      'Elastyczny prywatny transport z anglojęzycznym kierowcą-przewodnikiem i nielimitowanym przebiegiem',
+    ],
+    faq: [
+      {
+        q: 'Czy zakwaterowanie w hotelu jest wliczone w cenę 5-dniowej wycieczki?',
+        a: 'Zakwaterowanie nie jest wliczone w cenę podstawową, ale na życzenie organizujemy hotele 3–4-gwiazdkowe z wyżywieniem HB. Podajcie nam swój budżet, a wyślemy opcje przed potwierdzeniem.',
+      },
+      {
+        q: 'Który park safari odwiedzamy – Minneriya, Udawalawe czy Yala?',
+        a: 'Dzień 1 obejmuje Minneriya lub Kaudulla dla zgromadzeń słoni, zależnie od sezonu. W kolejnych dniach korzystamy z Udawalawe lub parku na południowym wybrzeżu, w zależności od trasy i zamknięć parków – potwierdzamy najlepszą opcję dla Państwa dat podróży.',
+      },
+      {
+        q: 'Ile czasu zajmuje jazda między Sigiriya, Kandy i południowym wybrzeżem?',
+        a: 'W najdłuższych dniach transferu należy liczyć na 3–5 godzin. Trasy przerywamy ogrodami przypraw, punktami widokowymi i przystankami na posiłki, aby tempo było komfortowe dla rodzin i seniorów.',
+      },
+    ],
     days: [
       {
         title: 'Z Lotniska do Sigiriya – Słonie i Przygoda Safari',
@@ -800,7 +958,7 @@ export const TOUR5: TourContent = {
             type: 'Safari',
             title: 'Safari w Parku Narodowym Minneriya',
             description:
-              'Zażyj emocjonującego safari 4x4 w Parku Narodowym Minneriya, znanym z „Zgromadzenia" — jednego z największych skupisk dzikich słoni w Azji. Zobacz słonie, jelenie, bawoły i bogatą awifaunę.',
+              'Zażyj emocjonującego safari 4x4 w Parku Narodowym Minneriya, znanym z „Zgromadzenia" jednego z największych skupisk dzikich słoni w Azji. Zobacz słonie, jelenie, bawoły i bogatą awifaunę.',
           },
           {
             type: 'Nocleg',
@@ -918,7 +1076,7 @@ export const TOUR5: TourContent = {
     persons: '1-20 человек',
     tourType: 'Тур',
     overview:
-      'Откройте для себя главные достопримечательности Шри-Ланки в этом идеально сбалансированном частном туре на 5 дней. Проедьте через Культурный треугольник, исследуйте скальную крепость Сигирия, посетите священный Храм Зуба Будды в Канди, проедьте через туманные чайные плантации Нувара-Элии, насладитесь увлекательным сафари в национальном парке Удавалаве и отдохните на прекрасном юго-западном побережье. Благодаря частному транспорту, опытному англоговорящему водителю-гиду и комфортному проживанию этот тур предлагает идеальное сочетание культуры, природы, дикой природы и отдыха — идеально для пар, семей и небольших групп.',
+      'Откройте для себя главные достопримечательности Шри-Ланки в этом идеально сбалансированном частном туре на 5 дней. Проедьте через Культурный треугольник, исследуйте скальную крепость Сигирия, посетите священный Храм Зуба Будды в Канди, проедьте через туманные чайные плантации Нувара-Элии, насладитесь увлекательным сафари в национальном парке Удавалаве и отдохните на прекрасном юго-западном побережье. Благодаря частному транспорту, опытному англоговорящему водителю-гиду и комфортному проживанию этот тур предлагает идеальное сочетание культуры, природы, дикой природы и отдыха идеально для пар, семей и небольших групп.',
     includes: [
       'Кондиционированный частный автомобиль',
       'Профессиональный англоговорящий водитель',
@@ -926,7 +1084,34 @@ export const TOUR5: TourContent = {
       'Топливо и парковочные сборы',
       'Неограниченный пробег на протяжении всего тура',
     ],
-    excludes: ['Входные билеты и плата за мероприятия', 'Еда и напитки', 'Проживание (по запросу)'],
+    excludes: [
+      'Входные билеты и плата за мероприятия',
+      'Еда и напитки',
+      'Проживание доступно по запросу преимущественно отели 4★ (в высокий сезон, если выбранные отели недоступны, может использоваться эквивалентный отель 3,5★)',
+    ],
+    seoIntro:
+      'Пять дней открывают Культурный треугольник, чайные горы и коридор дикой природы Шри-Ланки в рамках одной частной поездки. От слонов Пиннавелы и скоплений в Миннерии рядом с Sigiriya, через восхождение на Lion Rock, церемонии в Храме Зуба в Канди, чайные плантации Нувара-Элии и сафари в Удавалаве или на южном побережье этот маршрут Sundown Tours сочетает наследие ЮНЕСКО с живыми впечатлениями. Ваш водитель-гид берёт на себя извилистые горные дороги и ранние выезды на сафари, пока вы путешествуете в кондиционированном автомобиле с неограниченным пробегом. Проживание можно организовать в предпочитаемой категории звёзд на полупансионе; входные билеты мы держим отдельно, чтобы вы сами управляли дополнительными остановками. Идеально для пар и семей, которым нужно больше глубины, чем в четырёхдневном туре, но без обязательств на целую неделю.',
+    highlights: [
+      'Скальная крепость Sigiriya, слоновье сафари в Миннерии и главные достопримечательности Культурного треугольника',
+      'Храм Зуба в Канди, сады специй и традиционное танцевальное представление',
+      'Чайный край Нувара-Элия, водопады Ramboda и живописные смотровые площадки в горах',
+      'Сафари в поисках диких животных в Удавалаве или на южном побережье и визит в центр по охране черепах',
+      'Гибкий частный транспорт с англоговорящим водителем-гидом и неограниченным пробегом',
+    ],
+    faq: [
+      {
+        q: 'Включено ли проживание в отеле в стоимость 5-дневного тура?',
+        a: 'Проживание не входит в базовую стоимость, но по запросу мы организуем отели 3–4★ на полупансионе. Сообщите нам свой бюджет, и мы отправим варианты до подтверждения.',
+      },
+      {
+        q: 'Какой парк для сафари мы посещаем Миннерию, Удавалаве или Ялу?',
+        a: 'В 1-й день, в зависимости от сезона, используется Миннерия или Каудулла для наблюдения за скоплениями слонов. В последующие дни используется Удавалаве или парк на южном побережье в зависимости от маршрута и закрытий парков мы подтверждаем оптимальный вариант для ваших дат поездки.',
+      },
+      {
+        q: 'Сколько времени занимает дорога между Sigiriya, Канди и южным побережьем?',
+        a: 'В самые долгие дни переезда рассчитывайте на 3–5 часов. Мы разбиваем поездки садами специй, смотровыми площадками и остановками на еду, чтобы темп был комфортным для семей и пожилых людей.',
+      },
+    ],
     days: [
       {
         title: 'От Аэропорта до Сигирии – Слоны и Сафари-Приключение',
@@ -941,13 +1126,13 @@ export const TOUR5: TourContent = {
             type: 'Знакомство с животными',
             title: 'Приют для слонов Пиннавела',
             description:
-              'Посетите приют для слонов Пиннавела — известный центр, заботящийся о спасённых и осиротевших слонах. Понаблюдайте за слонами вблизи и, в зависимости от времени, за их незабываемым купанием в реке.',
+              'Посетите приют для слонов Пиннавела известный центр, заботящийся о спасённых и осиротевших слонах. Понаблюдайте за слонами вблизи и, в зависимости от времени, за их незабываемым купанием в реке.',
           },
           {
             type: 'Сафари',
             title: 'Сафари в национальном парке Миннерия',
             description:
-              'Отправьтесь в увлекательное джип-сафари по национальному парку Миннерия, известному «Сбором слонов» — одним из крупнейших скоплений диких слонов в Азии. Увидите слонов, оленей, буйволов и разнообразных птиц.',
+              'Отправьтесь в увлекательное джип-сафари по национальному парку Миннерия, известному «Сбором слонов» одним из крупнейших скоплений диких слонов в Азии. Увидите слонов, оленей, буйволов и разнообразных птиц.',
           },
           {
             type: 'Проживание',
@@ -964,13 +1149,13 @@ export const TOUR5: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Скальная крепость Сигирия',
             description:
-              'Подниметесь на крепость Львиной скалы Сигирия, объект ЮНЕСКО — королевский дворец V века, возвышающийся над джунглями. Откройте для себя древние фрески, Зеркальную стену и панорамный вид с вершины.',
+              'Подниметесь на крепость Львиной скалы Сигирия, объект ЮНЕСКО королевский дворец V века, возвышающийся над джунглями. Откройте для себя древние фрески, Зеркальную стену и панорамный вид с вершины.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Храм Зуба Будды',
             description:
-              'Посетите Шри Далада Малигава в Канди — один из самых священных буддийских храмов в мире. Понаблюдайте за традиционными ритуалами и полюбуйтесь красивой канди-архитектурой храма.',
+              'Посетите Шри Далада Малигава в Канди один из самых священных буддийских храмов в мире. Понаблюдайте за традиционными ритуалами и полюбуйтесь красивой канди-архитектурой храма.',
           },
           {
             type: 'Культурная программа',
@@ -999,13 +1184,13 @@ export const TOUR5: TourContent = {
             type: 'Природа',
             title: 'Водопад Рамбода',
             description:
-              'Остановка у водопада Рамбода — одного из самых высоких водопадов Шри-Ланки, окружённого живописными чайными плантациями и прохладным горным воздухом.',
+              'Остановка у водопада Рамбода одного из самых высоких водопадов Шри-Ланки, окружённого живописными чайными плантациями и прохладным горным воздухом.',
           },
           {
             type: 'Чайный опыт',
             title: 'Посещение чайной фабрики и плантации',
             description:
-              'Узнайте, как производится всемирно известный цейлонский чай — от листа до чашки. Пройдитесь по пышным чайным плантациям и попробуйте свежий чай в горной местности Шри-Ланки.',
+              'Узнайте, как производится всемирно известный цейлонский чай от листа до чашки. Пройдитесь по пышным чайным плантациям и попробуйте свежий чай в горной местности Шри-Ланки.',
           },
           {
             type: 'Проживание',
@@ -1022,18 +1207,18 @@ export const TOUR5: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Мост Девяти Арок',
             description:
-              'Величественный мост Девяти Арок — одна из многих причин остановиться здесь. Этот впечатляющий мост между Эллой и станцией Демодара — одно из инженерных чудес начала XX века.',
+              'Величественный мост Девяти Арок одна из многих причин остановиться здесь. Этот впечатляющий мост между Эллой и станцией Демодара одно из инженерных чудес начала XX века.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Малый пик Адама',
             description:
-              'Высотой 1141 м, подъём от входа занимает 30–45 минут. Виды с вершины невероятны — панорама на 360 градусов с проплывающими облаками — настоящее удовольствие для глаз.',
+              'Высотой 1141 м, подъём от входа занимает 30–45 минут. Виды с вершины невероятны панорама на 360 градусов с проплывающими облаками настоящее удовольствие для глаз.',
           },
           {
             type: 'Проживание',
             title: 'Oak Ray Ella Gap Hotel',
-            description: 'Проживание в Oak Ray Ella Gap Hotel или подобном — с полупансионом.',
+            description: 'Проживание в Oak Ray Ella Gap Hotel или подобном с полупансионом.',
             extra: ['Отель 4 звезды (Премиум)', 'Отдельная ванная комната'],
           },
         ],

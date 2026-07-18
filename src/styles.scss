@@ -13,6 +13,23 @@ body.fonts-ready {
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
+/* Reduce paint work for below-fold blocks until near viewport */
+.packages-section,
+.about-section,
+app-home-seo-section,
+app-home-popular-tours,
+app-home-elfsight-widget,
+app-faq-section,
+app-home-contact-section,
+app-home-team-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 480px;
+}
+
+app-home-team-section {
+  contain-intrinsic-size: 1px 720px;
+}
+
 a,
 button,
 .btn,

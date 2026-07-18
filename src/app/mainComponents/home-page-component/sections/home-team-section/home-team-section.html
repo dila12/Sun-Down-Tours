@@ -1,46 +1,125 @@
-<div class="container-fluid py-5">
-  <div class="container pt-5 pb-3">
-    <div class="text-center mb-3 pb-3">
-      <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team</h6>
-      <h2 class="h1">Our Global Associates</h2>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-5 col-md-6 col-sm-10 pb-4">
-        <div class="team-card">
-          <div class="team-image">
-            <img [src]="team1Src" alt="Dilan Lakshitha - Founder of Sundown Tours" loading="lazy"
-              decoding="async" fetchpriority="low" width="400" height="400" (error)="onImageError($event)">
-            <div class="overlay"></div>
-          </div>
-          <div class="team-info text-center">
-            <h4>Dilan Lakshitha</h4>
-            <span class="role">Owner</span>
-            <p class="country">Sri Lanka</p>
-            <a href="https://wa.me/94714293585" target="_blank" rel="noopener noreferrer" class="chat-btn"
-              aria-label="Chat with Dilan Lakshitha on WhatsApp">
-              <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat Now
-            </a>
-          </div>
+<section class="team-section" aria-labelledby="team-heading">
+  <div class="container">
+    <header class="team-header">
+      <p class="team-eyebrow">Team</p>
+      <h2 id="team-heading" class="team-title">Our Global Associates</h2>
+      <p class="team-lead">Speak directly with our local experts — fast replies, personal itineraries, no call centres.</p>
+    </header>
+
+    <ul class="team-grid" role="list">
+      <li class="team-card">
+        <div class="team-photo-wrap">
+          <img
+            class="team-photo"
+            [src]="bestImageSrc(team1Src, 320)"
+            [srcset]="buildSrcSet(team1Src)"
+            sizes="(max-width: 575px) 160px, 180px"
+            [attr.data-img-base]="team1Src"
+            alt="Dilan Lakshitha - Founder of Sundown Tours"
+            width="180"
+            height="180"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low"
+            (error)="onImageError($event)" />
+          <span class="team-status" aria-label="Available now">
+            <span class="team-status-dot" aria-hidden="true"></span>
+            Available
+          </span>
         </div>
-      </div>
-      <div class="col-lg-5 col-md-6 col-sm-10 pb-4">
-        <div class="team-card">
-          <div class="team-image">
-            <img [src]="team2Src" alt="Yohan Malshika - Senior Consultant" loading="lazy"
-              decoding="async" fetchpriority="low" width="400" height="400" (error)="onImageError($event)">
-            <div class="overlay"></div>
-          </div>
-          <div class="team-info text-center">
-            <h4>Yohan Malshika</h4>
-            <span class="role">Senior Consultant</span>
-            <p class="country">Malasiya</p>
-            <a href="https://wa.me/94714293585" target="_blank" rel="noopener noreferrer" class="chat-btn"
-              aria-label="Chat with Yohan Malshika on WhatsApp">
-              <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat Now
-            </a>
-          </div>
+
+        <div class="team-body">
+          <h3 class="team-name">Dilan Lakshitha</h3>
+          <p class="team-role">Owner &amp; Founder</p>
+          <p class="team-country">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <span>Sri Lanka</span>
+          </p>
+
+          <ul class="team-meta" aria-label="Profile details">
+            <li>
+              <span class="team-meta-label">Languages</span>
+              <span class="team-meta-value">English, Sinhala</span>
+            </li>
+            <li>
+              <span class="team-meta-label">Experience</span>
+              <span class="team-meta-value">8+ years</span>
+            </li>
+          </ul>
+
+          <p class="team-reply">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            Usually replies within 10 minutes
+          </p>
+
+          <a
+            href="https://wa.me/94706293585"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="team-whatsapp-btn"
+            aria-label="Chat with Dilan Lakshitha on WhatsApp">
+            <app-social-icon name="whatsapp" />
+            <span>Chat on WhatsApp</span>
+          </a>
         </div>
-      </div>
-    </div>
+      </li>
+
+      <li class="team-card">
+        <div class="team-photo-wrap">
+          <img
+            class="team-photo"
+            [src]="bestImageSrc(team2Src, 320)"
+            [srcset]="buildSrcSet(team2Src)"
+            sizes="(max-width: 575px) 160px, 180px"
+            [attr.data-img-base]="team2Src"
+            alt="Yohan Malshika - Senior Consultant"
+            width="180"
+            height="180"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low"
+            (error)="onImageError($event)" />
+          <span class="team-status" aria-label="Available now">
+            <span class="team-status-dot" aria-hidden="true"></span>
+            Available
+          </span>
+        </div>
+
+        <div class="team-body">
+          <h3 class="team-name">Yohan Malshika</h3>
+          <p class="team-role">Senior Consultant</p>
+          <p class="team-country">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <span>Malaysia</span>
+          </p>
+
+          <ul class="team-meta" aria-label="Profile details">
+            <li>
+              <span class="team-meta-label">Languages</span>
+              <span class="team-meta-value">English, Sinhala</span>
+            </li>
+            <li>
+              <span class="team-meta-label">Experience</span>
+              <span class="team-meta-value">6+ years</span>
+            </li>
+          </ul>
+
+          <p class="team-reply">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            Usually replies within 10 minutes
+          </p>
+
+          <a
+            href="https://wa.me/94706293585"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="team-whatsapp-btn"
+            aria-label="Chat with Yohan Malshika on WhatsApp">
+            <app-social-icon name="whatsapp" />
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </li>
+    </ul>
   </div>
-</div>
+</section>

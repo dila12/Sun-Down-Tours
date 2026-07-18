@@ -1,25 +1,12 @@
 <section class="container py-5 text-center">
-  <h2 class="mb-4">Popular Sri Lanka Tours</h2>
+  <h2 class="mb-4">{{ 'home.popular.title' | t }}</h2>
   <div class="row justify-content-center">
+    @for (tour of popularTours; track tour.pageId) {
     <div class="col-md-3 mb-3">
-      <a routerLink="/7-day-sri-lanka-tour" class="btn btn-outline-primary w-100">
-        7 Day Sri Lanka Tour
+      <a [routerLink]="path(tour.pageId)" class="btn btn-outline-primary w-100">
+        {{ tour.labelKey | t }}
       </a>
     </div>
-    <div class="col-md-3 mb-3">
-      <a routerLink="/8-day-sri-lanka-private-tour" class="btn btn-outline-primary w-100">
-        8 Day Private Tour
-      </a>
-    </div>
-    <div class="col-md-3 mb-3">
-      <a routerLink="/ella-day-tour" class="btn btn-outline-primary w-100">
-        Ella Day Tour
-      </a>
-    </div>
-    <div class="col-md-3 mb-3">
-      <a routerLink="/sigiriya-day-tour" class="btn btn-outline-primary w-100">
-        Sigiriya Day Tour
-      </a>
-    </div>
+    }
   </div>
 </section>

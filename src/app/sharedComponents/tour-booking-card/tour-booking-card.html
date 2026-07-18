@@ -94,7 +94,7 @@
               class="field-input"
               [(ngModel)]="firstName"
               name="firstName"
-              placeholder="John"
+              [attr.placeholder]="'common.booking.firstNamePh' | t"
               required
               #firstCtrl="ngModel"
             />
@@ -111,7 +111,7 @@
               class="field-input"
               [(ngModel)]="lastName"
               name="lastName"
-              placeholder="Doe"
+              [attr.placeholder]="'common.booking.lastNamePh' | t"
               required
               #lastCtrl="ngModel"
             />
@@ -140,25 +140,89 @@
       </div>
 
       <div class="field-group">
-        <label class="field-label">{{ 'common.booking.phone' | t }} <span class="req">*</span></label>
-        <div class="phone-row">
-          <div class="field-wrap field-wrap--code">
-            <i class="fa fa-phone field-icon"></i>
-            <select class="field-input field-input--select" [(ngModel)]="selectedCountry" name="countryCode" required>
-              <option *ngFor="let c of countriesList" [ngValue]="c">{{ c.dial_code }}</option>
-            </select>
+        <label class="field-label" [attr.for]="'phone-' + filecode">{{ 'common.booking.phone' | t }} <span class="req">*</span></label>
+        <div
+          class="phone-field"
+          [class.phone-field--invalid]="phoneCtrl.invalid && phoneCtrl.touched"
+          [class.phone-field--focused]="phoneFieldFocused || dialPickerOpen"
+          [class.phone-field--open]="dialPickerOpen">
+          <div class="phone-field__code" #dialPickerRoot>
+            <button
+              type="button"
+              class="phone-field__trigger"
+              id="countryCode-{{ filecode }}"
+              [attr.aria-label]="'Country calling code, ' + (selectedCountry?.name || '') + ' ' + (selectedCountry?.dial_code || '')"
+              [attr.aria-expanded]="dialPickerOpen"
+              aria-haspopup="listbox"
+              [attr.aria-controls]="'dial-list-' + filecode"
+              (click)="toggleDialPicker($event)"
+              (focus)="onPhoneFieldFocus()"
+              (blur)="onPhoneFieldBlur()">
+              <span class="phone-field__flag" aria-hidden="true">{{ selectedCountry?.flag || '🌐' }}</span>
+              <span class="phone-field__dial">{{ selectedCountry?.dial_code || '' }}</span>
+              <span class="phone-field__chevron" aria-hidden="true"></span>
+            </button>
+
+            <div
+              class="phone-dial-panel"
+              *ngIf="dialPickerOpen"
+              role="presentation"
+              (click)="$event.stopPropagation()">
+              <label class="phone-dial-panel__search-label" [attr.for]="'dial-search-' + filecode">Search countries</label>
+              <input
+                #dialSearchInput
+                type="search"
+                class="phone-dial-panel__search"
+                id="dial-search-{{ filecode }}"
+                [(ngModel)]="countrySearch"
+                [ngModelOptions]="{standalone: true}"
+                name="dialCountrySearch"
+                placeholder="Search country or code"
+                autocomplete="off"
+                (ngModelChange)="onCountrySearchChange()"
+                (keydown)="onDialSearchKeydown($event)"
+              />
+              <ul
+                class="phone-dial-panel__list"
+                role="listbox"
+                id="dial-list-{{ filecode }}"
+                [attr.aria-label]="'Country calling codes'">
+                <li *ngIf="!filteredDialCountries.length" class="phone-dial-panel__empty" role="presentation">
+                  No countries found
+                </li>
+                <li
+                  *ngFor="let c of filteredDialCountries; trackBy: trackByCountryCode"
+                  role="option"
+                  class="phone-dial-panel__option"
+                  [class.is-active]="c.code === selectedCountry?.code"
+                  [attr.aria-selected]="c.code === selectedCountry?.code"
+                  (click)="selectDialCountry(c)">
+                  <span class="phone-dial-panel__option-flag" aria-hidden="true">{{ c.flag }}</span>
+                  <span class="phone-dial-panel__option-name">{{ c.name }}</span>
+                  <span class="phone-dial-panel__option-dial">{{ c.dial_code }}</span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="field-wrap field-wrap--grow">
+
+          <span class="phone-field__divider" aria-hidden="true"></span>
+
+          <div class="phone-field__number">
             <input
               id="phone-{{ filecode }}"
               type="tel"
-              class="field-input"
+              class="phone-field__input"
               [(ngModel)]="phoneNumber"
               name="phoneNumber"
               placeholder="712345678"
+              autocomplete="tel-national"
+              inputmode="numeric"
               required
               pattern="^\d{7,15}$"
               #phoneCtrl="ngModel"
+              [attr.aria-invalid]="phoneCtrl.invalid && phoneCtrl.touched"
+              (focus)="onPhoneFieldFocus()"
+              (blur)="onPhoneFieldBlur()"
             />
           </div>
         </div>

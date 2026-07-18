@@ -310,11 +310,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Air-Conditioned Private Vehicle',
       'English Speaking Professional Driver',
-      'Half Board Accommodation (9 Nights)',
+      'Half Board Accommodation (9 Nights) in carefully selected 3.5-Star or 4-Star hotels depending on availability',
       'Fuel & Parking Fees',
       'Airport Pickup & Drop Off',
     ],
     excludes: ['Entrance & Activity Fees', 'Lunch & Drinks', 'Personal Expenses'],
+    seoIntro:
+      'Ten days lets you absorb Sri Lanka at a human pace from leopard country in Wilpattu and the sacred bodhi tree of Anuradhapura through Sigiriya, Kandy, Ella\'s Nine Arches Bridge and extended south-coast beach days to a Colombo city finale. This private round tour layers two wildlife safaris, Ayurvedic wellness, tea-country waterfalls and unhurried Hikkaduwa beach time with Madu River mangroves, turtle hatcheries and capital landmarks like Gangaramaya Temple and Galle Face Green. Sundown Tours includes nine nights of half-board 4-star accommodation, airport transfers and an English-speaking chauffeur in a private air-conditioned vehicle. Entrance fees and lunches remain flexible so you control optional stops. The extra days versus a week-long itinerary mean less driving per highlight, room for spontaneous spice-garden visits and enough beach mornings that you actually relax not just photograph the ocean and move on.',
+    highlights: [
+      'Wilpattu and Minneriya jeep safaris plus Yala-style wildlife in the south',
+      'Anuradhapura sacred sites, Sigiriya Lion Rock and Kandy Tooth Relic temple',
+      'Ella Nine Arch Bridge, tea factories, Ramboda Falls and hill-country scenery',
+      'Extended Hikkaduwa and Mirissa beach stays with turtle conservation visits',
+      'Colombo city tour Independence Square, Gangaramaya, Galle Face and Pettah markets',
+    ],
+    whoIsFor:
+      'Best for travellers with a full holiday week plus buffer days who want depth over speed families with teens, photographers and repeat visitors adding north-central heritage to the classic south route.',
+    bestTimeNote:
+      'December–April suits west- and south-coast beaches and Wilpattu access. May–September works well if you prioritise the Cultural Triangle and don\'t mind occasional afternoon showers in the hills.',
+    faq: [
+      {
+        q: 'How does the 10-day tour differ from your 7- or 8-day itineraries?',
+        a: 'You gain Wilpattu and Anuradhapura at the start, two extra beach nights around Hikkaduwa/Mirissa and a full Colombo sightseeing day at the end with fewer multi-hour drives crammed into a single day.',
+      },
+      {
+        q: 'Are all nine hotel nights included in the price?',
+        a: 'Yes nine nights in 4-star half-board hotels, private vehicle, driver and airport transfers are included. Park tickets, safari jeeps, lunches and optional Ayurvedic treatments are paid locally.',
+      },
+      {
+        q: 'Can we finish at the airport instead of touring Colombo on Day 10?',
+        a: 'Yes. If you have an afternoon flight we shorten the Colombo circuit to your must-see stops or transfer directly to Bandaranaike International Airport tell us your flight time when booking.',
+      },
+    ],
   },
   de: {
     title: '10 Tage Sri Lanka Privatreise | Safari, Kultur, Bergland & Strand',
@@ -328,11 +355,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Klimatisiertes Privatfahrzeug',
       'Englischsprachiger professioneller Fahrer',
-      'Halbpension-Unterkunft (9 Nächte)',
+      'Halbpension-Unterkunft (9 Nächte) in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
       'Kraftstoff & Parkgebühren',
       'Abholung & Rückfahrt zum Flughafen',
     ],
     excludes: ['Eintritts- & Aktivitätsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Zehn Tage lassen Sie Sri Lanka in menschlichem Tempo erleben – von Leopardengebiet in Wilpattu und dem heiligen Bodhi-Baum in Anuradhapura über Sigiriya, Kandy, die Nine Arches Bridge in Ella und ausgedehnte Strandtage an der Südküste bis zu einem Finale in Colombo. Diese private Rundreise kombiniert zwei Wildtier-Safaris, ayurvedisches Wellness, Wasserfälle im Teeland und entspannte Strandzeit in Hikkaduwa mit den Mangroven des Madu-Flusses, Schildkröten-Aufzuchtstationen und Hauptstadt-Sehenswürdigkeiten wie dem Gangaramaya-Tempel und Galle Face Green. Sundown Tours beinhaltet neun Nächte Halbpension in 4-Sterne-Unterkünften, Flughafentransfers und einen englischsprachigen Chauffeur in einem privaten klimatisierten Fahrzeug. Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie die optionalen Stopps selbst steuern. Die zusätzlichen Tage im Vergleich zu einer einwöchigen Reise bedeuten weniger Fahrzeit pro Highlight, Raum für spontane Besuche von Gewürzgärten und genug Strandmorgen, um wirklich zu entspannen – statt nur den Ozean zu fotografieren und weiterzuziehen.',
+    highlights: [
+      'Jeep-Safaris in Wilpattu und Minneriya sowie Yala-ähnliche Tierwelt im Süden',
+      'Heilige Stätten von Anuradhapura, Löwenfelsen Sigiriya und Zahnreliquien-Tempel in Kandy',
+      'Nine Arch Bridge in Ella, Teefabriken, Ramboda-Wasserfälle und Landschaft des Hügellands',
+      'Ausgedehnte Strandaufenthalte in Hikkaduwa und Mirissa mit Besuchen von Schildkröten-Schutzprojekten',
+      'Stadtrundfahrt in Colombo – Independence Square, Gangaramaya, Galle Face und Pettah-Märkte',
+    ],
+    whoIsFor:
+      'Am besten für Reisende mit einer vollen Ferienwoche plus Pufferzeit, die Tiefgang statt Tempo wünschen – Familien mit Teenagern, Fotografen und Wiederholungsbesucher, die das Kulturerbe im Norden der Mitte zur klassischen Südroute hinzufügen möchten.',
+    bestTimeNote:
+      'Dezember–April eignet sich für die West- und Südküstenstrände sowie den Zugang zu Wilpattu. Mai–September funktioniert gut, wenn Sie das Kultur-Dreieck priorisieren und gelegentliche Nachmittagsschauer im Hügelland nicht stören.',
+    faq: [
+      {
+        q: 'Wie unterscheidet sich die 10-tägige Tour von Ihren 7- oder 8-tägigen Reisen?',
+        a: 'Sie erhalten zusätzlich Wilpattu und Anuradhapura zu Beginn, zwei zusätzliche Strandnächte rund um Hikkaduwa/Mirissa und einen vollen Sightseeing-Tag in Colombo am Ende – mit weniger mehrstündigen Fahrten an einem einzigen Tag.',
+      },
+      {
+        q: 'Sind alle neun Hotelnächte im Preis enthalten?',
+        a: 'Ja – neun Nächte in 4-Sterne-Halbpension-Hotels, das Privatfahrzeug, der Fahrer und die Flughafentransfers sind enthalten. Parktickets, Safari-Jeeps, Mittagessen und optionale Ayurveda-Behandlungen werden vor Ort bezahlt.',
+      },
+      {
+        q: 'Können wir am Flughafen enden, anstatt am 10. Tag Colombo zu besichtigen?',
+        a: 'Ja. Bei einem Nachmittagsflug verkürzen wir die Colombo-Rundfahrt auf Ihre Wunsch-Stopps oder bringen Sie direkt zum Flughafen Bandaranaike – teilen Sie uns bei der Buchung Ihre Flugzeit mit.',
+      },
+    ],
     days: [
       {
         title: 'Flughafen / Hotel – Wilpattu',
@@ -592,11 +646,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Véhicule privé climatisé',
       'Chauffeur professionnel anglophone',
-      'Hébergement en demi-pension (9 nuits)',
+      'Hébergement en demi-pension (9 nuits) dans des hôtels 3,5 ou 4 étoiles soigneusement sélectionnés, selon disponibilité',
       'Carburant & frais de parking',
       'Prise en charge & dépose à l’aéroport',
     ],
     excludes: ['Entrées & frais d’activités', 'Déjeuners & boissons', 'Dépenses personnelles'],
+    seoIntro:
+      'Dix jours vous permettent de découvrir le Sri Lanka à un rythme humain du territoire des léopards à Wilpattu et de l’arbre de la Bodhi sacré à Anuradhapura, en passant par Sigiriya, Kandy, le pont Nine Arches à Ella et de longues journées de plage sur la côte sud, jusqu’à une conclusion à Colombo. Ce circuit privé combine deux safaris fauniques, du bien-être ayurvédique, des cascades dans le pays du thé et un séjour tranquille à la plage de Hikkaduwa, avec les mangroves de la rivière Madu, des écloseries de tortues et des sites emblématiques de la capitale comme le temple de Gangaramaya et Galle Face Green. Sundown Tours inclut neuf nuits d’hébergement en demi-pension dans des hôtels 4 étoiles, les transferts aéroport et un chauffeur anglophone dans un véhicule privé climatisé. Les frais d’entrée et les déjeuners restent flexibles afin que vous gardiez le contrôle des arrêts optionnels. Les jours supplémentaires par rapport à un itinéraire d’une semaine signifient moins de route par site, de la place pour des visites spontanées de jardins d’épices et suffisamment de matinées à la plage pour vraiment vous détendre pas seulement photographier l’océan et repartir.',
+    highlights: [
+      'Safaris en jeep à Wilpattu et Minneriya, ainsi que faune de type Yala dans le sud',
+      'Sites sacrés d’Anuradhapura, Rocher du Lion de Sigiriya et temple de la Dent à Kandy',
+      'Nine Arch Bridge à Ella, fabriques de thé, chutes de Ramboda et paysages des hauts plateaux',
+      'Longs séjours à la plage à Hikkaduwa et Mirissa avec visites de sites de conservation des tortues',
+      'Visite de la ville de Colombo Independence Square, Gangaramaya, Galle Face et marchés de Pettah',
+    ],
+    whoIsFor:
+      'Idéal pour les voyageurs disposant d’une semaine complète de vacances plus quelques jours tampons, qui préfèrent la profondeur à la vitesse familles avec adolescents, photographes et visiteurs récurrents ajoutant le patrimoine du centre-nord au parcours classique du sud.',
+    bestTimeNote:
+      'Décembre-avril convient aux plages des côtes ouest et sud ainsi qu’à l’accès à Wilpattu. Mai-septembre fonctionne bien si vous privilégiez le Triangle culturel et que quelques averses d’après-midi dans les collines ne vous dérangent pas.',
+    faq: [
+      {
+        q: 'En quoi le circuit de 10 jours diffère-t-il de vos itinéraires de 7 ou 8 jours ?',
+        a: 'Vous gagnez Wilpattu et Anuradhapura au début, deux nuits de plage supplémentaires autour de Hikkaduwa/Mirissa et une journée complète de visite de Colombo à la fin avec moins de trajets de plusieurs heures entassés dans une seule journée.',
+      },
+      {
+        q: 'Les neuf nuits d’hôtel sont-elles toutes incluses dans le prix ?',
+        a: 'Oui neuf nuits en hôtels 4 étoiles en demi-pension, le véhicule privé, le chauffeur et les transferts aéroport sont inclus. Les billets de parc, les jeeps de safari, les déjeuners et les soins ayurvédiques optionnels sont payés sur place.',
+      },
+      {
+        q: 'Pouvons-nous terminer à l’aéroport plutôt que de visiter Colombo le jour 10 ?',
+        a: 'Oui. Si vous avez un vol dans l’après-midi, nous raccourcissons le circuit de Colombo à vos incontournables ou vous transférons directement à l’aéroport international de Bandaranaike indiquez-nous l’heure de votre vol lors de la réservation.',
+      },
+    ],
     days: [
       {
         title: 'Aéroport / Hôtel – Wilpattu',
@@ -856,11 +937,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Veicolo privato climatizzato',
       'Autista professionista di lingua inglese',
-      'Sistemazione in mezza pensione (9 notti)',
+      'Sistemazione in mezza pensione (9 notti) in hotel da 3,5 o 4 stelle attentamente selezionati, in base alla disponibilità',
       'Carburante e parcheggi',
       'Prelievo e riaccompagnamento in aeroporto',
     ],
     excludes: ['Ingressi e costi delle attività', 'Pranzo e bevande', 'Spese personali'],
+    seoIntro:
+      'Dieci giorni vi permettono di vivere lo Sri Lanka a un ritmo umano dal territorio dei leopardi a Wilpattu e il sacro albero della Bodhi ad Anuradhapura, passando per Sigiriya, Kandy, il ponte Nine Arches a Ella e lunghe giornate di spiaggia sulla costa meridionale, fino a un finale a Colombo. Questo tour privato combina due safari nella fauna selvatica, benessere ayurvedico, cascate nella terra del tè e tempo rilassato sulla spiaggia di Hikkaduwa, con le mangrovie del fiume Madu, vivai di tartarughe e luoghi simbolo della capitale come il Tempio di Gangaramaya e Galle Face Green. Sundown Tours include nove notti di sistemazione in mezza pensione in hotel 4 stelle, i transfer aeroportuali e un autista di lingua inglese in un veicolo privato climatizzato. I biglietti d’ingresso e i pranzi restano flessibili, così potete gestire le soste opzionali. I giorni extra rispetto a un itinerario di una settimana significano meno guida per ogni attrazione, spazio per visite spontanee ai giardini di spezie e sufficienti mattinate in spiaggia per rilassarvi davvero non solo fotografare l’oceano e proseguire.',
+    highlights: [
+      'Safari in jeep a Wilpattu e Minneriya, oltre a fauna selvatica in stile Yala nel sud',
+      'Siti sacri di Anuradhapura, Lion Rock di Sigiriya e Tempio della Reliquia del Dente a Kandy',
+      'Nine Arch Bridge a Ella, fabbriche di tè, cascate di Ramboda e panorami dell’altopiano',
+      'Soggiorni prolungati in spiaggia a Hikkaduwa e Mirissa con visite ai centri di conservazione delle tartarughe',
+      'Tour della città di Colombo Independence Square, Gangaramaya, Galle Face e mercati di Pettah',
+    ],
+    whoIsFor:
+      'Ideale per i viaggiatori con una settimana intera di vacanza più giorni cuscinetto che preferiscono la profondità alla velocità famiglie con adolescenti, fotografi e visitatori abituali che aggiungono il patrimonio del nord-centrale al classico percorso meridionale.',
+    bestTimeNote:
+      'Dicembre-aprile è adatto alle spiagge della costa occidentale e meridionale e all’accesso a Wilpattu. Maggio-settembre funziona bene se date priorità al Triangolo Culturale e non vi dispiacciono occasionali piogge pomeridiane sulle colline.',
+    faq: [
+      {
+        q: 'In cosa differisce il tour di 10 giorni dai vostri itinerari di 7 o 8 giorni?',
+        a: 'Guadagnate Wilpattu e Anuradhapura all’inizio, due notti extra in spiaggia intorno a Hikkaduwa/Mirissa e una giornata completa di visite a Colombo alla fine con meno viaggi di più ore concentrati in un solo giorno.',
+      },
+      {
+        q: 'Tutte le nove notti in hotel sono incluse nel prezzo?',
+        a: 'Sì nove notti in hotel 4 stelle in mezza pensione, veicolo privato, autista e transfer aeroportuali sono inclusi. Biglietti dei parchi, jeep per il safari, pranzi e trattamenti ayurvedici opzionali si pagano in loco.',
+      },
+      {
+        q: 'Possiamo concludere in aeroporto invece di visitare Colombo il decimo giorno?',
+        a: 'Sì. Se avete un volo nel pomeriggio, accorciamo il tour di Colombo alle vostre tappe imperdibili oppure vi trasferiamo direttamente all’aeroporto di Bandaranaike comunicateci l’orario del vostro volo al momento della prenotazione.',
+      },
+    ],
     days: [
       {
         title: 'Aeroporto / Hotel – Wilpattu',
@@ -1120,11 +1228,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Vehículo privado con aire acondicionado',
       'Chófer profesional de habla inglesa',
-      'Alojamiento en media pensión (9 noches)',
+      'Alojamiento en media pensión (9 noches) en hoteles de 3,5 o 4 estrellas cuidadosamente seleccionados, según disponibilidad',
       'Combustible y aparcamiento',
       'Recogida y traslado al aeropuerto',
     ],
     excludes: ['Entradas y costes de actividades', 'Almuerzo y bebidas', 'Gastos personales'],
+    seoIntro:
+      'Diez días le permiten disfrutar de Sri Lanka a un ritmo humano: desde el territorio de los leopardos en Wilpattu y el sagrado árbol de la Bodhi en Anuradhapura, pasando por Sigiriya, Kandy, el puente Nine Arches en Ella y largos días de playa en la costa sur, hasta un final en Colombo. Este circuito privado combina dos safaris de fauna, bienestar ayurvédico, cascadas en el país del té y un tiempo relajado en la playa de Hikkaduwa, con los manglares del río Madu, viveros de tortugas e hitos de la capital como el Templo de Gangaramaya y Galle Face Green. Sundown Tours incluye nueve noches de alojamiento en media pensión en hoteles de 4 estrellas, traslados al aeropuerto y un chófer de habla inglesa en un vehículo privado con aire acondicionado. Las entradas y los almuerzos se mantienen flexibles para que usted controle las paradas opcionales. Los días adicionales respecto a un itinerario de una semana significan menos conducción por cada punto destacado, espacio para visitas espontáneas a jardines de especias y suficientes mañanas de playa para relajarse de verdad, no solo fotografiar el océano y seguir adelante.',
+    highlights: [
+      'Safaris en jeep en Wilpattu y Minneriya, además de fauna al estilo Yala en el sur',
+      'Lugares sagrados de Anuradhapura, Lion Rock de Sigiriya y templo de la Reliquia del Diente en Kandy',
+      'Nine Arch Bridge en Ella, fábricas de té, cataratas de Ramboda y paisajes de las tierras altas',
+      'Estancias prolongadas en las playas de Hikkaduwa y Mirissa con visitas a centros de conservación de tortugas',
+      'Recorrido por la ciudad de Colombo: Independence Square, Gangaramaya, Galle Face y mercados de Pettah',
+    ],
+    whoIsFor:
+      'Ideal para viajeros con una semana completa de vacaciones más días de margen que prefieren profundidad a velocidad: familias con adolescentes, fotógrafos y visitantes recurrentes que añaden el patrimonio del centro-norte a la ruta clásica del sur.',
+    bestTimeNote:
+      'Diciembre-abril es adecuado para las playas de las costas oeste y sur y el acceso a Wilpattu. Mayo-septiembre funciona bien si prioriza el Triángulo Cultural y no le importan algunas lluvias vespertinas ocasionales en las colinas.',
+    faq: [
+      {
+        q: '¿En qué se diferencia el circuito de 10 días de sus itinerarios de 7 u 8 días?',
+        a: 'Se añaden Wilpattu y Anuradhapura al inicio, dos noches de playa adicionales en Hikkaduwa/Mirissa y un día completo de turismo en Colombo al final, con menos trayectos de varias horas concentrados en un solo día.',
+      },
+      {
+        q: '¿Están incluidas las nueve noches de hotel en el precio?',
+        a: 'Sí: nueve noches en hoteles de 4 estrellas en media pensión, el vehículo privado, el conductor y los traslados al aeropuerto están incluidos. Las entradas a los parques, los jeeps de safari, los almuerzos y los tratamientos ayurvédicos opcionales se pagan in situ.',
+      },
+      {
+        q: '¿Podemos terminar en el aeropuerto en lugar de hacer turismo en Colombo el día 10?',
+        a: 'Sí. Si tiene un vuelo por la tarde, reducimos el recorrido por Colombo a sus paradas imprescindibles o le trasladamos directamente al aeropuerto internacional de Bandaranaike; indíquenos la hora de su vuelo al reservar.',
+      },
+    ],
     days: [
       {
         title: 'Aeropuerto / Hotel – Wilpattu',
@@ -1384,11 +1519,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Klimatyzowany prywatny pojazd',
       'Profesjonalny kierowca mówiący po angielsku',
-      'Zakwaterowanie w opcji HB (9 nocy)',
+      'Zakwaterowanie w opcji HB (9 nocy) w starannie wybranych hotelach 3,5- lub 4-gwiazdkowych, w zależności od dostępności',
       'Paliwo i opłaty parkingowe',
       'Odbiór i odwóz z lotniska',
     ],
     excludes: ['Bilety wstępu i opłaty za atrakcje', 'Lunch i napoje', 'Wydatki osobiste'],
+    seoIntro:
+      'Dziesięć dni pozwala poznać Sri Lankę w ludzkim tempie – od terytorium lampartów w Wilpattu i świętego drzewa Bodhi w Anuradhapurze, przez Sigiriya, Kandy, most Nine Arches w Elli i długie dni na plaży na południowym wybrzeżu, aż po finał w Colombo. Ta prywatna wycieczka łączy dwa safari z dziką przyrodą, ajurwedyjski wellness, wodospady w krainie herbaty i spokojny czas na plaży w Hikkaduwie z namorzynami rzeki Madu, wylęgarniami żółwi i symbolami stolicy, takimi jak świątynia Gangaramaya i Galle Face Green. Sundown Tours obejmuje dziewięć nocy zakwaterowania w formule half board w hotelach 4-gwiazdkowych, transfery na lotnisko oraz anglojęzycznego kierowcę w prywatnym klimatyzowanym pojeździe. Opłaty za wstęp i lunch pozostają elastyczne, dzięki czemu sami kontrolują Państwo opcjonalne przystanki. Dodatkowe dni w porównaniu do tygodniowego planu oznaczają mniej jazdy na każdą atrakcję, miejsce na spontaniczne wizyty w ogrodach przypraw i wystarczająco wiele plażowych poranków, by naprawdę odpocząć – a nie tylko sfotografować ocean i jechać dalej.',
+    highlights: [
+      'Safari jeepem w Wilpattu i Minneriya oraz dzika przyroda w stylu Yala na południu',
+      'Święte miejsca Anuradhapury, Lion Rock w Sigiriya i świątynia Relikwii Zęba w Kandy',
+      'Most Nine Arch w Elli, fabryki herbaty, wodospady Ramboda i krajobrazy górskiego kraju',
+      'Wydłużone pobyty na plażach Hikkaduwa i Mirissa z wizytami w ośrodkach ochrony żółwi',
+      'Wycieczka po Colombo – Independence Square, Gangaramaya, Galle Face i targi Pettah',
+    ],
+    whoIsFor:
+      'Najlepsza dla podróżnych z pełnym tygodniem urlopu plus dniami buforowymi, którzy wolą głębię niż tempo – rodzin z nastolatkami, fotografów i powracających gości dodających dziedzictwo północno-centralne do klasycznej trasy południowej.',
+    bestTimeNote:
+      'Grudzień–kwiecień sprawdza się na plażach zachodniego i południowego wybrzeża oraz przy dostępie do Wilpattu. Maj–wrzesień działa dobrze, jeśli priorytetem jest Trójkąt Kulturowy i nie przeszkadzają Państwu okazjonalne popołudniowe deszcze w górach.',
+    faq: [
+      {
+        q: 'Czym różni się 10-dniowa wycieczka od Państwa planów 7- lub 8-dniowych?',
+        a: 'Zyskujecie Wilpattu i Anuradhapurę na początku, dwie dodatkowe noce na plaży w okolicach Hikkaduwy/Mirissy oraz cały dzień zwiedzania Colombo na koniec – z mniejszą liczbą wielogodzinnych przejazdów skupionych w jednym dniu.',
+      },
+      {
+        q: 'Czy wszystkie dziewięć nocy w hotelu są wliczone w cenę?',
+        a: 'Tak – dziewięć nocy w hotelach 4-gwiazdkowych z wyżywieniem HB, prywatny pojazd, kierowca i transfery na lotnisko są wliczone. Bilety do parków, jeepy na safari, lunche i opcjonalne zabiegi ajurwedyjskie płaci się na miejscu.',
+      },
+      {
+        q: 'Czy możemy zakończyć na lotnisku, a nie zwiedzać Colombo 10. dnia?',
+        a: 'Tak. Jeśli Państwa lot jest po południu, skracamy trasę po Colombo do najważniejszych punktów lub przewozimy Państwa bezpośrednio na lotnisko Bandaranaike – podajcie nam godzinę lotu przy rezerwacji.',
+      },
+    ],
     days: [
       {
         title: 'Lotnisko / Hotel – Wilpattu',
@@ -1648,11 +1810,38 @@ export const TOUR10: TourContent = {
     includes: [
       'Частный автомобиль с кондиционером',
       'Профессиональный англоговорящий водитель',
-      'Проживание на полупансионе (9 ночей)',
+      'Проживание на полупансионе (9 ночей) в тщательно отобранных отелях 3,5★ или 4★ в зависимости от наличия мест',
       'Топливо и парковка',
       'Встреча и трансфер из аэропорта',
     ],
     excludes: ['Входные билеты и оплата активностей', 'Обед и напитки', 'Личные расходы'],
+    seoIntro:
+      'Десять дней позволяют изучить Шри-Ланку в комфортном темпе от территории леопардов в Wilpattu и священного дерева Бодхи в Anuradhapura через Sigiriya, Канди, мост Nine Arches в Элле и продолжительные пляжные дни на южном побережье до финала в Коломбо. Этот частный тур сочетает два сафари по дикой природе, аюрведический велнес, водопады в чайном крае и спокойное время на пляже Hikkaduwa с мангровыми зарослями реки Маду, инкубаториями для черепах и достопримечательностями столицы, такими как храм Gangaramaya и Galle Face Green. Sundown Tours включает девять ночей проживания на полупансионе в отелях 4★, трансферы из/в аэропорт и англоговорящего шофёра в частном кондиционированном автомобиле. Входные билеты и обеды остаются гибкими, чтобы вы сами контролировали дополнительные остановки. Дополнительные дни по сравнению с недельным маршрутом означают меньше времени в дороге на каждую достопримечательность, место для спонтанных визитов в сады специй и достаточно пляжных утр, чтобы по-настоящему отдохнуть а не просто сфотографировать океан и поехать дальше.',
+    highlights: [
+      'Джип-сафари в Wilpattu и Minneriya, а также дикая природа в стиле Yala на юге',
+      'Священные места Anuradhapura, Lion Rock в Sigiriya и храм Реликвии Зуба в Канди',
+      'Мост Nine Arch в Элле, чайные фабрики, водопады Ramboda и пейзажи горной страны',
+      'Продолжительное пребывание на пляжах Hikkaduwa и Мириссы с посещением центров охраны черепах',
+      'Экскурсия по Коломбо Independence Square, Gangaramaya, Galle Face и рынки Pettah',
+    ],
+    whoIsFor:
+      'Лучший вариант для путешественников с полной отпускной неделей плюс запасными днями, которые предпочитают глубину скорости семей с подростками, фотографов и повторных гостей, добавляющих наследие севера-центра к классическому южному маршруту.',
+    bestTimeNote:
+      'Декабрь–апрель подходит для пляжей западного и южного побережья и доступа к Wilpattu. Май–сентябрь хорошо работает, если приоритетом является Культурный треугольник и вас не смущают периодические послеобеденные дожди в горах.',
+    faq: [
+      {
+        q: 'Чем 10-дневный тур отличается от ваших 7- или 8-дневных маршрутов?',
+        a: 'Вы получаете Wilpattu и Anuradhapura в начале, две дополнительные пляжные ночи в районе Hikkaduwa/Мириссы и полноценный день экскурсий по Коломбо в конце с меньшим количеством многочасовых переездов в один день.',
+      },
+      {
+        q: 'Включены ли все девять ночей в отеле в стоимость?',
+        a: 'Да девять ночей в отелях 4★ на полупансионе, частный автомобиль, водитель и трансферы из/в аэропорт включены. Билеты в парки, джипы для сафари, обеды и дополнительные аюрведические процедуры оплачиваются на месте.',
+      },
+      {
+        q: 'Можем ли мы закончить тур в аэропорту, а не осматривать Коломбо на 10-й день?',
+        a: 'Да. Если у вас дневной рейс, мы сокращаем экскурсию по Коломбо до самых важных остановок или отвезём вас прямо в аэропорт Бандаранаике сообщите нам время рейса при бронировании.',
+      },
+    ],
     days: [
       {
         title: 'Аэропорт / отель – Вилпатту',
@@ -1870,31 +2059,31 @@ export const TOUR10: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Мемориальный зал Независимости',
             description:
-              'Площадь Независимости в Коломбо — исторический памятник, построенный в честь независимости Шри-Ланки, с величественной колониальной архитектурой, пышными садами и умиротворяющей атмосферой.',
+              'Площадь Независимости в Коломбо исторический памятник, построенный в честь независимости Шри-Ланки, с величественной колониальной архитектурой, пышными садами и умиротворяющей атмосферой.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Храм Гангарамая',
             description:
-              'Храм Гангарамая в Коломбо — прекрасный буддийский храм, сочетающий шри-ланкийскую, тайскую и китайскую архитектуру, со статуями, реликвиями и спокойной обстановкой у озера.',
+              'Храм Гангарамая в Коломбо прекрасный буддийский храм, сочетающий шри-ланкийскую, тайскую и китайскую архитектуру, со статуями, реликвиями и спокойной обстановкой у озера.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Galle Face Green',
             description:
-              'Galle Face Green в Коломбо — живописная набережная, идеальная для неспешных прогулок, потрясающих закатов и уличной еды, с оживлённой атмосферой на берегу Индийского океана.',
+              'Galle Face Green в Коломбо живописная набережная, идеальная для неспешных прогулок, потрясающих закатов и уличной еды, с оживлённой атмосферой на берегу Индийского океана.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Рынок Петтах',
             description:
-              'Colombo Fort Market — оживлённый рынок с местными товарами, одеждой, специями и уличной едой, предлагающий яркий шопинг в самом сердце города.',
+              'Colombo Fort Market оживлённый рынок с местными товарами, одеждой, специями и уличной едой, предлагающий яркий шопинг в самом сердце города.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Красная мечеть (мечеть Джами-уль-Альфар)',
             description:
-              'Мечеть Джами-уль-Альфар, известная как Красная мечеть Коломбо, — знаковая достопримечательность с яркой красно-белой архитектурой, раскрывающая богатое исламское наследие Шри-Ланки.',
+              'Мечеть Джами-уль-Альфар, известная как Красная мечеть Коломбо, знаковая достопримечательность с яркой красно-белой архитектурой, раскрывающая богатое исламское наследие Шри-Ланки.',
           },
         ],
       },

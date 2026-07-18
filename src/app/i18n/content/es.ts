@@ -37,6 +37,9 @@ export const es: Dict = {
       multiDayTours: 'Circuitos de varios días',
       destination: 'Destinos',
       packages: 'Circuitos',
+      travelGuides: 'Guías de viaje',
+      cancellation: 'Política de cancelación',
+      privacy: 'Política de privacidad',
     },
     consent: {
       title: 'Tu privacidad importa',
@@ -48,6 +51,7 @@ export const es: Dict = {
       reject: 'Rechazar',
     },
     breadcrumb: { home: 'Inicio' },
+    faqTitle: 'Preguntas frecuentes',
     language: 'Idioma',
     tourUi: {
       duration: 'Duración',
@@ -56,12 +60,21 @@ export const es: Dict = {
       priceBasis: '(según 2 personas)',
       tourType: 'Tipo de circuito',
       overview: 'Resumen del circuito',
+      highlights: 'Lo más destacado',
+      whoIsFor: 'Para quién es este tour',
+      bestTimeNote: 'Mejor época para viajar',
       plan: 'Itinerario del circuito',
       day: 'Día',
       included: 'Incluido',
       excluded: 'No incluido',
       relatedEyebrow: 'También te puede interesar...',
       relatedTitle: 'Circuitos mejor valorados',
+      exploreGraphTitle: 'Planifica este viaje',
+      exploreGraphLead: 'Continúa con destinos, guías y restaurantes vinculados a este circuito.',
+      exploreDestinations: 'Destinos de esta ruta',
+      exploreGuides: 'Guías de viaje útiles',
+      exploreRestaurants: 'Dónde comer',
+      exploreSimilarTours: 'Circuitos similares',
       imageAlt: 'Foto del circuito por Sri Lanka',
       previewAlt: 'Vista previa de la foto del circuito',
     },
@@ -90,7 +103,9 @@ export const es: Dict = {
       emailTeam: 'Escribir a nuestro equipo',
       whatsappUs: 'WhatsApp',
       firstName: 'Nombre',
+      firstNamePh: 'Juan',
       lastName: 'Apellidos',
+      lastNamePh: 'Pérez',
       required: 'Obligatorio',
       email: 'Correo electrónico',
       emailInvalid: 'Correo electrónico válido requerido',
@@ -308,11 +323,46 @@ export const es: Dict = {
       name: 'Tu nombre',
       email: 'Tu correo electrónico',
       phone: 'Tu teléfono',
+      phonePlaceholder: '712345678',
+      countryCode: 'Código de país',
       message: 'Tu mensaje',
       submit: 'Enviar mensaje',
+      sending: 'Enviando…',
+      success: '¡Tu mensaje se ha enviado correctamente!',
+      successToast: '¡Mensaje enviado correctamente!',
+      error: 'Hubo un error al enviar tu mensaje. Inténtalo de nuevo más tarde.',
+      errorToast: 'No se pudo enviar el mensaje',
+      nameRequired: 'Introduce tu nombre',
+      emailRequired: 'Introduce un correo válido',
+      phoneRequired: 'Introduce un teléfono válido (7–15 dígitos)',
+      messageRequired: 'Introduce tu mensaje',
+      trustReply: 'Respuesta en 24 h',
+      trustPrivate: 'Consulta privada',
     },
     infoTitle: 'Información de contacto',
+    infoSubtitle: 'Habla directamente con nuestro equipo de planificación en Sri Lanka.',
     address: 'No 302, Mahawaskaduwa, Waskaduwa, Kalutara North, Sri Lanka',
+    responseTime: 'En un plazo de 24 horas — normalmente antes por WhatsApp',
+    labels: {
+      headquarters: 'Sede',
+      phone: 'Teléfono',
+      whatsapp: 'WhatsApp',
+      email: 'Correo electrónico',
+      hours: 'Horario',
+      response: 'Tiempo de respuesta',
+    },
+    cta: {
+      whatsapp: 'Chatear por WhatsApp',
+      tripadvisor: 'Leer reseñas de TripAdvisor',
+      maps: 'Abrir Google Maps',
+    },
+    trustTitle: 'Por qué nos eligen los viajeros',
+    trust: {
+      experts: 'Expertos locales de Sri Lanka',
+      tailored: 'Circuitos a medida',
+      response: 'Respuesta rápida en 24 horas',
+      travelers: 'Viajeros felices desde 1992',
+    },
     faqTitle: 'Preguntas frecuentes',
     faq: [
       {
@@ -346,6 +396,134 @@ export const es: Dict = {
         a: 'Sí. Podemos añadir fácilmente noches adicionales en la costa sur u oeste para terminar tus vacaciones en Sri Lanka de forma relajada.',
       },
     ],
+  },
+
+  cancellation: {
+    eyebrow: 'Reservas y cambios',
+    h1: 'Política de cancelación',
+    heroText:
+      'Esta página explica cómo Sundown Tours Sri Lanka gestiona los cambios de reserva, los depósitos y las cancelaciones para circuitos privados y servicios de chófer.',
+    lastUpdated: 'Última actualización: 18 de julio de 2026',
+    backLink: 'Volver al inicio',
+    summaryTitle: 'De un vistazo',
+    s1: 'Las consultas son gratuitas \u2014 sin coste antes de la confirmación',
+    s2: 'Puede requerirse un depósito para reservar sus fechas',
+    s3: 'Cancelación gratuita hasta 14 días antes del inicio del circuito',
+    s4: 'Contáctenos por WhatsApp o correo electrónico para solicitar cambios',
+    sec1Title: '1. Antes de confirmar su reserva',
+    sec1P1:
+      'Enviar una consulta o recibir una cotización no le obliga a viajar. Puede retirarse en cualquier momento antes de pagar un depósito, sin coste alguno.',
+    sec1P2:
+      'Confirmaremos por escrito la disponibilidad, los detalles del itinerario y el precio total antes de solicitar cualquier pago.',
+    sec2Title: '2. Depósitos y confirmación',
+    sec2P1:
+      'Para asegurar sus fechas, vehículo y conductor preferidos, podemos solicitar un depósito. El importe y la fecha de vencimiento se indicarán claramente en la confirmación de su reserva.',
+    sec2P2:
+      'Su circuito se considera confirmado una vez que recibimos el depósito acordado y enviamos la confirmación por escrito. El saldo restante suele vencer antes o al inicio de su circuito, según se indique en la confirmación.',
+    sec3Title: '3. Cancelación por su parte',
+    sec3Intro:
+      'Si necesita cancelar una reserva confirmada, póngase en contacto con nosotros lo antes posible. Los reembolsos dependen de con cuánta antelación cancele:',
+    tier1Label: '14 días o más antes de la fecha de inicio del circuito:',
+    tier1Text: 'reembolso completo de cualquier depósito pagado',
+    tier2Label: 'De 7 a 13 días antes de la fecha de inicio del circuito:',
+    tier2Text: '50% de reembolso del depósito',
+    tier3Label: 'Menos de 7 días antes de la fecha de inicio, o no presentación:',
+    tier3Text: 'el depósito no es reembolsable',
+    sec3Note:
+      'Las comisiones bancarias o del proveedor de pagos ya incurridas pueden deducirse de cualquier reembolso. Los costes de terceros que hayamos prepagado en su nombre (entradas a parques, depósitos de hotel, jeeps de safari, etc.) solo se reembolsan si esos proveedores lo permiten.',
+    sec4Title: '4. Cambios en su reserva',
+    sec4P1:
+      'Los cambios de fecha, los ajustes de ruta y las modificaciones del tamaño del grupo suelen ser posibles si tenemos suficiente aviso previo y disponibilidad. Los cambios menores realizados con más de 7 días de antelación al viaje generalmente no tienen coste adicional.',
+    sec4P2:
+      'Los cambios importantes cercanos a su fecha de inicio, o los que requieran reprogramar servicios prepagados, pueden generar costes adicionales. Siempre le explicaremos cualquier coste antes de que confirme el cambio.',
+    sec5Title: '5. Cancelación o cambios por parte de Sundown Tours',
+    sec5P1:
+      'Rara vez cancelamos circuitos confirmados. Si debemos hacerlo por avería del vehículo, enfermedad del conductor u otro problema bajo nuestro control, ofreceremos un conductor o vehículo alternativo, reprogramaremos sus fechas o le reembolsaremos íntegramente los importes pagados por servicios no prestados.',
+    sec6Title: '6. Fuerza mayor',
+    sec6P1:
+      'Eventos fuera de nuestro control razonable \u2014 como condiciones meteorológicas graves, desastres naturales, disturbios civiles, restricciones de salud pública o prohibiciones de viaje gubernamentales \u2014 pueden afectar a su circuito o a nuestra capacidad de operar en determinadas rutas.',
+    sec6P2:
+      'En tales casos, trabajaremos de buena fe con usted para reprogramar el viaje cuando sea posible. Si el viaje no es viable, los reembolsos se gestionarán de forma justa según los servicios ya prestados y los costes que no podamos recuperar de los proveedores.',
+    sec7Title: '7. Seguro de viaje',
+    sec7P1:
+      'Recomendamos un seguro de viaje que cubra cancelación, gastos médicos e interrupción del viaje. Las reclamaciones del seguro se gestionan directamente entre usted y su asegurador; podemos proporcionar documentación de apoyo cuando sea apropiado.',
+    sec8Title: '8. Cómo solicitar un cambio o una cancelación',
+    sec8P1:
+      'Póngase en contacto con nosotros en cuanto cambien sus planes. La forma más rápida de contactarnos es WhatsApp; el correo electrónico es adecuado para registros escritos.',
+    whatsappLabel: 'WhatsApp:',
+    emailLabel: 'Correo electrónico:',
+    locationLabel: 'Ubicación:',
+    sec8P2:
+      'Incluya su nombre, las fechas del circuito y la referencia de la reserva (si dispone de una) para que podamos responder rápidamente.',
+  },
+
+  testimonials: {
+    eyebrow: 'Testimonio',
+    title: 'Lo que dicen nuestros clientes',
+    ariaCarousel: 'Testimonios de clientes',
+    ariaSlide: 'Testimonio',
+  },
+
+  destinationsHub: {
+    h1: 'Destinos en Sri Lanka',
+    breadcrumb: 'Destinos',
+    lead: 'Desde la fortaleza de Sigiriya hasta el país de los leopardos de Yala y el fuerte colonial de Galle: explore los lugares que dan forma a todo gran itinerario en Sri Lanka.',
+    relatedTitle: 'Destinos relacionados',
+  },
+  guidesHub: {
+    h1: 'Guías de viaje de Sri Lanka',
+    breadcrumb: 'Guías de viaje',
+    lead: 'Guías prácticas escritas localmente: visados, temporadas, fauna, playas y viajes con chófer privado en Sri Lanka.',
+    relatedTitle: 'Guías relacionadas',
+    cardCta: 'Leer la guía',
+    restaurantsTitle: 'Dónde comer',
+    restaurantLink: 'Sundown Beach Restaurant',
+    foodGuideLink: 'Guía gastronómica de Sri Lanka',
+  },
+
+  restaurantsExplore: {
+    title: 'Destinos y circuitos cercanos',
+    lead: 'Sundown Beach Restaurant es nuestro socio gastronómico en Waskaduwa — combina la comida con destinos de la costa suroeste y excursiones de un día.',
+    contactCta: 'Planificar un circuito privado',
+  },
+
+  bookingSuccess: {
+    heroTitle: '¡Reserva confirmada!',
+    thankYouPrefix: 'Gracias,',
+    emailSentTo: 'Se ha enviado un correo de confirmación a',
+    tagline: 'Tours privados en Sri Lanka',
+    confirmedBadge: 'CONFIRMADO',
+    issued: 'Emitido el',
+    travelerDetails: 'Datos del viajero',
+    tourDetails: 'Detalles del tour',
+    paymentSummary: 'Resumen de pago',
+    name: 'Nombre',
+    email: 'Correo electrónico',
+    phone: 'Teléfono',
+    country: 'País',
+    travelDate: 'Fecha de viaje',
+    travelers: 'Viajeros',
+    personSingular: 'persona',
+    personPlural: 'personas',
+    tour: 'Tour',
+    duration: 'Duración',
+    tourType: 'Tipo de tour',
+    payment: 'Pago',
+    payAtDestination: 'Pago en destino',
+    description: 'Descripción',
+    qty: 'Cant.',
+    amount: 'Importe',
+    tourPackageFallback: 'Paquete turístico',
+    subtotal: 'Subtotal',
+    amountPaid: 'Importe pagado',
+    amountDue: 'Importe pendiente',
+    presentInvoice:
+      'Presente esta factura a su llegada. Nuestro equipo se pondrá en contacto si necesita algún detalle.',
+    thanks: 'Gracias por su reserva — ¡disfrute de su aventura en Sri Lanka!',
+    printInvoice: 'Imprimir factura',
+    backHome: 'Volver al inicio',
+    defaultTravelerName: 'Viajero',
+    emptyValue: '—',
   },
 
   seo: {
@@ -462,6 +640,114 @@ export const es: Dict = {
       description:
         'Nuestras completas guías de viaje sobre Sri Lanka, con consejos de expertos e información práctica para tu viaje.',
       keywords: 'guía de viaje Sri Lanka, consejos viaje Sri Lanka',
+    },
+    destSigiriya: {
+      title: 'Guía de la fortaleza de Sigiriya | Ascenso, consejos y excursiones',
+      description:
+        'Planifica tu visita a Sigiriya: horario de ascenso, frescos, Pidurangala, consejos de entrada y cómo combinar la fortaleza con Dambulla o un circuito por el Triángulo Cultural.',
+      keywords: 'Sigiriya Sri Lanka, fortaleza de Sigiriya, ascenso a Sigiriya, excursión Sigiriya',
+    },
+    destElla: {
+      title: 'Guía de Ella Sri Lanka | Nine Arch Bridge, senderismo y montaña',
+      description:
+        'Descubre el Nine Arch Bridge de Ella, Little Adam’s Peak, los senderos del té y el tren panorámico, con consejos para una excursión privada o una estancia en la montaña.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, excursión Ella, montaña Sri Lanka',
+    },
+    destYala: {
+      title: 'Guía del Parque Nacional de Yala | Consejos de safari, fauna y mejor época',
+      description:
+        'Planifica un safari en Yala: probabilidades de ver leopardos, consejos para reservar el jeep, mejores meses y cómo combinar Yala con Ella o una estancia en la playa.',
+      keywords: 'Parque Nacional de Yala, safari Yala, leopardos Sri Lanka, jeep safari Yala',
+    },
+    destKandy: {
+      title: 'Guía de Kandy Sri Lanka | Templo del Diente y capital cultural',
+      description:
+        'Explora el Templo del Diente de Kandy, el lago, los Jardines de Peradeniya y el Esala Perahera, con consejos para combinar Kandy con Ella o el Triángulo Cultural.',
+      keywords: 'Kandy Sri Lanka, Templo del Diente, excursión Kandy, capital cultural Sri Lanka',
+    },
+    destDambulla: {
+      title: 'Guía del templo de Dambulla | Consejos sobre el Templo Dorado',
+      description:
+        'Visita el templo rupestre de Dambulla, Patrimonio de la Unesco: murales, estatuas de Buda, consejos de ascenso y cómo combinarlo con Sigiriya en un circuito por el Triángulo Cultural.',
+      keywords: 'templo de Dambulla, Templo Dorado de Dambulla, Dambulla Sri Lanka',
+    },
+    destGalle: {
+      title: 'Guía del fuerte de Galle Sri Lanka | Murallas, faro y costa',
+      description:
+        'Recorre las murallas holandesas del fuerte de Galle, el faro y sus calles con encanto, con consejos para una excursión privada y las playas de la costa sur.',
+      keywords: 'fuerte de Galle, Galle Sri Lanka, excursión Galle, UNESCO Galle',
+    },
+    guideBestTime: {
+      title: 'Mejor época para visitar Sri Lanka | Guía mes a mes',
+      description:
+        'Cuándo visitar Sri Lanka: los dos monzones explicados, mejores meses por región, calendario de safaris y avistamiento de ballenas, y cómo planificar según el clima.',
+      keywords: 'mejor época Sri Lanka, clima Sri Lanka, monzón Sri Lanka, cuándo ir a Sri Lanka',
+    },
+    guideVisa: {
+      title: 'Guía de visado de Sri Lanka | ETA, normas de entrada y consejos prácticos',
+      description:
+        'Cómo funciona el ETA y el visado a la llegada a Sri Lanka para los viajeros, qué documentos preparar y errores de entrada habituales que evitar.',
+      keywords: 'visado Sri Lanka, ETA Sri Lanka, visado a la llegada, requisitos de entrada',
+    },
+    guidePrivateDriver: {
+      title: 'Guía del conductor privado en Sri Lanka | Circuitos con chófer explicados',
+      description:
+        'Por qué los viajeros eligen un conductor privado en Sri Lanka, qué incluye, las distancias diarias habituales y cómo planificar un circuito flexible.',
+      keywords: 'conductor privado Sri Lanka, chófer-guía Sri Lanka, circuito privado Sri Lanka',
+    },
+    guideBudget: {
+      title: 'Guía de presupuesto Sri Lanka | Costes y consejos de dinero',
+      description:
+        'Costes diarios, efectivo y cajeros, propinas y en qué se va el dinero en un tour privado — consejos prácticos de presupuesto.',
+      keywords: 'presupuesto Sri Lanka, costes Sri Lanka, consejos dinero Sri Lanka',
+    },
+    guideWildlife: {
+      title: 'Guía de fauna Sri Lanka | Elefantes, leopardos y ballenas',
+      description:
+        'Dónde ver elefantes, leopardos, ballenas y aves en Sri Lanka — parques nacionales, temporadas y mejores lugares de observación.',
+      keywords: 'fauna Sri Lanka, elefantes Sri Lanka, safari leopardos, avistamiento ballenas',
+    },
+    guideSafari: {
+      title: 'Guía safari Sri Lanka | Yala, Udawalawe y consejos jeep',
+      description:
+        'Planifica un safari en jeep: Yala vs Udawalawe, consejos de reserva, tarifas de parque y qué esperar en un paseo matutino o vespertino.',
+      keywords: 'safari Sri Lanka, safari Yala, jeep Udawalawe, reservar safari',
+    },
+    guideBeaches: {
+      title: 'Mejores playas de Sri Lanka | Sur, oeste y este',
+      description:
+        'Elige la costa adecuada según tu fecha — sur, oeste y este comparados por monzón, surf y calas tranquilas.',
+      keywords: 'playas Sri Lanka, mejores playas Sri Lanka, costa sur, costa este',
+    },
+    guideTeaCountry: {
+      title: 'Guía del país del té Sri Lanka | Montaña y plantaciones',
+      description:
+        'Nuwara Eliya, Ella y rutas del té en la montaña — visitas a plantaciones, trenes panorámicos y senderos en el interior.',
+      keywords: 'país del té Sri Lanka, Nuwara Eliya, Ella montaña, plantaciones de té',
+    },
+    guideFood: {
+      title: 'Guía gastronómica Sri Lanka | Arroz con curry, especias y street food',
+      description:
+        'Cocina de Sri Lanka: arroz con curry, hoppers, kottu, especias y street food — qué probar y cómo pedir con confianza.',
+      keywords: 'comida Sri Lanka, arroz con curry, street food Sri Lanka, gastronomía',
+    },
+    guidePacking: {
+      title: 'Qué llevar a Sri Lanka | Ropa y artículos esenciales',
+      description:
+        'Lista práctica de equipaje: ropa para calor y montaña fresca, códigos en templos, equipo de safari y básicos de viaje.',
+      keywords: 'equipaje Sri Lanka, qué llevar Sri Lanka, lista maleta Sri Lanka',
+    },
+    guideSafety: {
+      title: 'Guía de seguridad Sri Lanka | Consejos para visitantes',
+      description:
+        'Consejos prácticos de seguridad: carreteras, salud básica, estafas a evitar y viajar con seguridad en tour privado.',
+      keywords: 'seguridad Sri Lanka, viajar seguro Sri Lanka, consejos visitantes',
+    },
+    cancellation: {
+      title: 'Política de cancelación | Sundown Tours Sri Lanka',
+      description:
+        'Cambios de reserva, reglas de depósito y condiciones de cancelación para tours privados y servicios de chófer con Sundown Tours.',
+      keywords: 'política cancelación, cancelación tour Sri Lanka, cambios reserva',
     },
     restaurants: {
       title: 'Restaurantes en Sri Lanka | La mejor cocina local',

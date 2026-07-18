@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://www.sundowntours.com/sitemap-index.xml
 Sitemap: https://www.sundowntours.com/sitemap.xml
+Sitemap: https://www.sundowntours.com/sitemap-hreflang.xml
+Sitemap: https://www.sundowntours.com/sitemap-images.xml

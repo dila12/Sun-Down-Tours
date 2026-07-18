@@ -1,0 +1,176 @@
+@if (total > 0) {
+<div class="tgallery" #galleryRoot>
+  <div
+    class="tgallery__main-wrap"
+    (touchstart)="onStageTouchStart($event)"
+    (touchend)="onMainTouchEnd($event)">
+    <button
+      type="button"
+      class="tgallery__main"
+      (click)="openLightbox()"
+      [attr.aria-label]="alt + ' — open gallery'">
+      @if (currentBase) {
+      <picture>
+        @if (currentAvifSrcSet) {
+        <source
+          type="image/avif"
+          [attr.srcset]="currentAvifSrcSet"
+          [attr.sizes]="mainSizes" />
+        }
+        @if (currentSrcSet) {
+        <source
+          type="image/webp"
+          [attr.srcset]="currentSrcSet"
+          [attr.sizes]="mainSizes" />
+        }
+        <img
+          class="tgallery__main-img"
+          [src]="currentSrc"
+          [attr.data-img-base]="currentBase"
+          [alt]="alt"
+          width="1200"
+          height="800"
+          decoding="async"
+          [attr.loading]="currentIndex === 0 ? null : 'lazy'"
+          [attr.fetchpriority]="currentIndex === 0 ? 'high' : 'low'"
+          (error)="onImageError($event)" />
+      </picture>
+      }
+      <span class="tgallery__count" aria-live="polite">{{ counterLabel }}</span>
+    </button>
+
+    @if (canNavigate) {
+    <button type="button" class="tgallery__nav tgallery__nav--prev" (click)="prev(); $event.stopPropagation()" aria-label="Previous photo">
+      <span aria-hidden="true">‹</span>
+    </button>
+    <button type="button" class="tgallery__nav tgallery__nav--next" (click)="next(); $event.stopPropagation()" aria-label="Next photo">
+      <span aria-hidden="true">›</span>
+    </button>
+    }
+  </div>
+
+  <div class="tgallery__thumbs" #thumbStrip role="list" [attr.aria-label]="previewAlt">
+    @for (img of thumbs; track trackByThumb($index, img); let i = $index) {
+    <button
+      type="button"
+      class="tgallery__thumb"
+      role="listitem"
+      [class.is-active]="i === currentIndex"
+      (click)="goToImage(i)"
+      [attr.aria-label]="previewAlt + ' ' + (i + 1)"
+      [attr.aria-current]="i === currentIndex ? 'true' : null">
+      <picture>
+        @if (img.avifSrcset) {
+        <source
+          type="image/avif"
+          [attr.srcset]="img.avifSrcset"
+          [attr.sizes]="thumbSizes" />
+        }
+        @if (img.srcset) {
+        <source
+          type="image/webp"
+          [attr.srcset]="img.srcset"
+          [attr.sizes]="thumbSizes" />
+        }
+        <img
+          [src]="img.src"
+          [attr.data-img-base]="img.base"
+          [alt]="previewAlt"
+          width="112"
+          height="84"
+          [attr.loading]="i === 0 ? null : 'lazy'"
+          decoding="async"
+          fetchpriority="low"
+          (error)="onImageError($event)" />
+      </picture>
+    </button>
+    }
+  </div>
+</div>
+}
+
+@if (lightboxOpen) {
+<div
+  class="tgallery-lb"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-label]="alt"
+  (click)="onLightboxBackdropClick($event)">
+  <div class="tgallery-lb__toolbar">
+    <span class="tgallery-lb__count">{{ counterLabel }}</span>
+    <div class="tgallery-lb__actions">
+      <button type="button" class="tgallery-lb__btn" (click)="toggleZoom()" [attr.aria-label]="zoom > 1 ? 'Zoom out' : 'Zoom in'">
+        {{ zoom > 1 ? '−' : '+' }}
+      </button>
+      <button type="button" class="tgallery-lb__btn" (click)="closeLightbox()" aria-label="Close gallery">×</button>
+    </div>
+  </div>
+
+  @if (canNavigate) {
+  <button type="button" class="tgallery-lb__nav tgallery-lb__nav--prev" (click)="prev()" aria-label="Previous photo">
+    <span aria-hidden="true">‹</span>
+  </button>
+  <button type="button" class="tgallery-lb__nav tgallery-lb__nav--next" (click)="next()" aria-label="Next photo">
+    <span aria-hidden="true">›</span>
+  </button>
+  }
+
+  <div
+    class="tgallery-lb__stage"
+    #lightboxStage
+    (wheel)="onLightboxWheel($event)"
+    (touchstart)="onStageTouchStart($event)"
+    (touchmove)="onStageTouchMove($event)"
+    (touchend)="onStageTouchEnd($event)"
+    (dblclick)="toggleZoom($event)">
+    @if (currentBase) {
+    <picture [style.transform]="lightboxTransform">
+      @if (lightboxAvifSrcSet) {
+      <source
+        type="image/avif"
+        [attr.srcset]="lightboxAvifSrcSet"
+        [attr.sizes]="lightboxSizes" />
+      }
+      @if (lightboxSrcSet) {
+      <source
+        type="image/webp"
+        [attr.srcset]="lightboxSrcSet"
+        [attr.sizes]="lightboxSizes" />
+      }
+      <img
+        class="tgallery-lb__img"
+        [class.is-zoomed]="zoom > 1"
+        [src]="lightboxSrc"
+        [attr.data-img-base]="currentBase"
+        [alt]="alt"
+        width="1600"
+        height="1067"
+        decoding="async"
+        fetchpriority="high"
+        (click)="toggleZoom($event)"
+        (error)="onImageError($event)" />
+    </picture>
+    }
+  </div>
+
+  <div class="tgallery-lb__thumbs" role="list">
+    @for (img of thumbs; track trackByThumb($index, img); let i = $index) {
+    <button
+      type="button"
+      class="tgallery-lb__thumb"
+      [class.is-active]="i === currentIndex"
+      (click)="goToImage(i)"
+      [attr.aria-label]="previewAlt + ' ' + (i + 1)">
+      <img
+        [src]="img.src"
+        [alt]="previewAlt"
+        width="72"
+        height="54"
+        loading="lazy"
+        decoding="async"
+        (error)="onImageError($event)" />
+    </button>
+    }
+  </div>
+</div>
+}

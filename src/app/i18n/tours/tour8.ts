@@ -308,11 +308,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Air-Conditioned Private Vehicle',
       'English Speaking Professional Driver',
-      'Half Board Accommodation (7 Nights)',
+      'Half Board Accommodation (7 Nights) in carefully selected 3.5-Star or 4-Star hotels depending on availability',
       'Fuel & Parking Fees',
       'Airport Pickup & Drop Off',
     ],
     excludes: ['Entrance & Activity Fees', 'Lunch & Drinks', 'Personal Expenses'],
+    seoIntro:
+      'Eight days is the sweet spot when you want ancient kingdoms, hill-country drama and a proper beach finale without rushing. This private Sri Lanka round tour pairs Pidurangala sunset views and Sigiriya Lion Rock with Dambulla cave temples, Kandy\'s Tooth Relic rituals and Ambuluwawa Tower panoramas above the tea estates. Ella delivers Nine Arches Bridge, Little Adam\'s Peak and Ravana Falls before a Yala leopard safari and two nights on the Mirissa coast for whale watching, turtle snorkeling and sunset kayaking. Sundown Tours includes seven nights of half-board 4-star hotels, airport transfers and an English-speaking chauffeur with unlimited mileage in your private vehicle. Entrance fees and optional marine activities stay at your discretion so you can lean into wildlife or beach time. Each day balances UNESCO heritage with hands-on experiences village catamaran rides, spice markets and cinnamon boat safaris that coach tours often skip.',
+    highlights: [
+      'Pidurangala sunset, Sigiriya Lion Rock and Dambulla Cave Temple UNESCO sites',
+      'Kandy Sacred Tooth Relic, cultural dance show and Ambuluwawa Tower viewpoints',
+      'Ella Nine Arch Bridge, Little Adam\'s Peak and Yala National Park jeep safari',
+      'Mirissa whale and dolphin watching, turtle snorkeling and sunset water activities',
+      'Seven nights half-board in carefully selected 3.5-Star or 4-Star hotels depending on availability, with private chauffeur and airport transfers',
+    ],
+    whoIsFor:
+      'Perfect for first-time visitors, honeymooners and active families who want culture, wildlife and beach days in one itinerary. Whale watching requires an early start; we adapt pacing for travellers who prefer more temple time over marine activities.',
+    bestTimeNote:
+      'December–April is prime for Mirissa whale season and dry south-coast weather. The Cultural Triangle and hill country work year-round; Yala may close briefly around September we adjust park choice accordingly.',
+    faq: [
+      {
+        q: 'How many hotel nights are included on the 8-day tour?',
+        a: 'The package covers seven nights in 4-star half-board hotels along the route, plus airport pickup and drop-off. Lunch, park entrance fees and whale-watching boat tickets are paid locally.',
+      },
+      {
+        q: 'Is whale watching guaranteed in Mirissa?',
+        a: 'Whale sightings are very common November–April but nature is unpredictable. We book reputable operators at the best morning slot; if seas are rough we suggest turtle snorkeling or a relaxed beach morning instead.',
+      },
+      {
+        q: 'Can we swap Pidurangala for the full Sigiriya Rock climb?',
+        a: 'Absolutely. Day 2 focuses on Sigiriya Lion Rock while Day 1 uses Pidurangala for sunset. Tell us your fitness level and we can reverse or drop one climb to protect your knees.',
+      },
+    ],
   },
   de: {
     title: '8 Tage Sri Lanka Privatreise | Safari, Kultur, Bergland & Strand',
@@ -326,11 +353,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Klimatisiertes Privatfahrzeug',
       'Englischsprachiger professioneller Fahrer',
-      'Halbpension-Unterkunft (7 Nächte)',
+      'Halbpension-Unterkunft (7 Nächte) in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
       'Kraftstoff & Parkgebühren',
       'Abholung & Rückfahrt zum Flughafen',
     ],
     excludes: ['Eintritts- & Aktivitätsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Acht Tage sind der ideale Zeitrahmen für antike Königreiche, das dramatische Hügelland und einen richtigen Strandabschluss, ohne Eile. Diese private Sri-Lanka-Rundreise verbindet den Sonnenuntergang am Pidurangala und den Löwenfelsen Sigiriya mit den Höhlentempeln von Dambulla, den Zahnreliquien-Ritualen in Kandy und den Panoramen des Ambuluwawa-Turms über den Teeplantagen. In Ella erwarten Sie die Nine Arches Bridge, Little Adam\'s Peak und die Ravana-Wasserfälle, bevor eine Leoparden-Safari in Yala und zwei Nächte an der Küste von Mirissa mit Whale Watching, Schildkröten-Schnorcheln und Sonnenuntergangs-Kajaktouren folgen. Sundown Tours beinhaltet sieben Nächte Halbpension in 4-Sterne-Hotels, Flughafentransfers und einen englischsprachigen Chauffeur mit unbegrenzter Kilometerleistung in Ihrem Privatfahrzeug. Eintrittsgebühren und optionale Wasseraktivitäten bleiben Ihnen selbst überlassen, sodass Sie sich stärker auf Tierwelt oder Strandzeit konzentrieren können. Jeder Tag verbindet UNESCO-Kulturerbe mit hautnahen Erlebnissen – Katamaranfahrten im Dorf, Gewürzmärkte und Zimt-Bootssafaris –, die bei Bustouren oft fehlen.',
+    highlights: [
+      'Sonnenuntergang am Pidurangala, Löwenfelsen Sigiriya und UNESCO-Höhlentempel von Dambulla',
+      'Heilige Zahnreliquie in Kandy, kulturelle Tanzshow und Aussichtspunkte am Ambuluwawa-Turm',
+      'Nine Arch Bridge in Ella, Little Adam\'s Peak und Jeep-Safari im Yala-Nationalpark',
+      'Wal- und Delfinbeobachtung in Mirissa, Schildkröten-Schnorcheln und Wasseraktivitäten bei Sonnenuntergang',
+      'Sieben Nächte Halbpension in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit), mit privatem Chauffeur und Flughafentransfers',
+    ],
+    whoIsFor:
+      'Perfekt für Erstbesucher, Hochzeitsreisende und aktive Familien, die Kultur, Tierwelt und Strandtage in einer Reise verbinden möchten. Whale Watching erfordert einen frühen Start; für Reisende, die mehr Tempelzeit statt Wasseraktivitäten bevorzugen, passen wir das Tempo an.',
+    bestTimeNote:
+      'Dezember–April ist die beste Zeit für die Walsaison in Mirissa und trockenes Wetter an der Südküste. Das Kultur-Dreieck und das Hügelland eignen sich ganzjährig; Yala kann um September kurzzeitig schließen – wir passen die Parkwahl entsprechend an.',
+    faq: [
+      {
+        q: 'Wie viele Hotelnächte sind in der 8-tägigen Tour enthalten?',
+        a: 'Das Paket umfasst sieben Nächte in 4-Sterne-Halbpension-Hotels entlang der Route sowie Abholung und Rückfahrt zum Flughafen. Mittagessen, Parkeintrittsgebühren und Whale-Watching-Bootstickets werden vor Ort bezahlt.',
+      },
+      {
+        q: 'Ist Whale Watching in Mirissa garantiert?',
+        a: 'Walsichtungen sind von November bis April sehr häufig, aber die Natur ist unvorhersehbar. Wir buchen seriöse Anbieter für den besten Morgenslot; bei rauer See empfehlen wir alternativ Schildkröten-Schnorcheln oder einen entspannten Strandmorgen.',
+      },
+      {
+        q: 'Können wir Pidurangala gegen den vollständigen Aufstieg auf den Sigiriya-Felsen tauschen?',
+        a: 'Absolut. Tag 2 konzentriert sich auf den Löwenfelsen Sigiriya, während Tag 1 Pidurangala für den Sonnenuntergang nutzt. Teilen Sie uns Ihr Fitnessniveau mit, und wir können einen Aufstieg umkehren oder streichen, um Ihre Knie zu schonen.',
+      },
+    ],
     days: [
       {
         title: 'Ankunft & Pidurangala-Felsen',
@@ -587,11 +641,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Véhicule privé climatisé',
       'Chauffeur professionnel anglophone',
-      'Hébergement en demi-pension (7 nuits)',
+      'Hébergement en demi-pension (7 nuits) dans des hôtels 3,5 ou 4 étoiles soigneusement sélectionnés, selon disponibilité',
       'Carburant & frais de parking',
       'Prise en charge & dépose à l’aéroport',
     ],
     excludes: ['Entrées & frais d’activités', 'Déjeuners & boissons', 'Dépenses personnelles'],
+    seoIntro:
+      'Huit jours, c’est la durée idéale pour découvrir des royaumes anciens, le spectaculaire pays des collines et une vraie conclusion en bord de mer, sans se presser. Ce circuit privé au Sri Lanka associe le coucher de soleil sur Pidurangala et le Rocher du Lion de Sigiriya aux temples-grottes de Dambulla, aux rituels de la Relique de la Dent à Kandy et aux panoramas de la tour d’Ambuluwawa au-dessus des plantations de thé. Ella offre le pont Nine Arches, Little Adam’s Peak et les chutes de Ravana, avant un safari aux léopards à Yala et deux nuits sur la côte de Mirissa pour l’observation des baleines, la plongée avec les tortues et le kayak au coucher du soleil. Sundown Tours inclut sept nuits en demi-pension dans des hôtels 4 étoiles, les transferts aéroport et un chauffeur anglophone au kilométrage illimité dans votre véhicule privé. Les frais d’entrée et les activités nautiques optionnelles restent à votre discrétion, afin que vous puissiez privilégier la faune ou le temps de plage. Chaque jour associe patrimoine UNESCO et expériences immersives sorties en catamaran de village, marchés d’épices et safaris en bateau à cannelle que les circuits en autocar omettent souvent.',
+    highlights: [
+      'Coucher de soleil à Pidurangala, Rocher du Lion de Sigiriya et temples-grottes UNESCO de Dambulla',
+      'Relique de la Dent Sacrée à Kandy, spectacle de danse traditionnelle et points de vue de la tour d’Ambuluwawa',
+      'Nine Arch Bridge à Ella, Little Adam’s Peak et safari en jeep dans le parc national de Yala',
+      'Observation des baleines et dauphins à Mirissa, plongée avec les tortues et activités nautiques au coucher du soleil',
+      'Sept nuits en demi-pension dans des hôtels 3,5 ou 4 étoiles soigneusement sélectionnés selon disponibilité, avec chauffeur privé et transferts aéroport',
+    ],
+    whoIsFor:
+      'Parfait pour les primo-visiteurs, les jeunes mariés et les familles actives qui souhaitent combiner culture, faune et journées à la plage dans un seul itinéraire. L’observation des baleines nécessite un départ matinal ; nous adaptons le rythme pour les voyageurs préférant plus de temps dans les temples que d’activités marines.',
+    bestTimeNote:
+      'Décembre-avril est idéal pour la saison des baleines à Mirissa et un temps sec sur la côte sud. Le Triangle culturel et le pays des collines se visitent toute l’année ; Yala peut fermer brièvement autour de septembre nous ajustons le choix du parc en conséquence.',
+    faq: [
+      {
+        q: 'Combien de nuits d’hôtel sont incluses dans le circuit de 8 jours ?',
+        a: 'Le forfait couvre sept nuits en hôtels 4 étoiles en demi-pension le long du parcours, ainsi que la prise en charge et la dépose à l’aéroport. Les déjeuners, les frais d’entrée des parcs et les billets de bateau pour l’observation des baleines sont payés sur place.',
+      },
+      {
+        q: 'L’observation des baleines à Mirissa est-elle garantie ?',
+        a: 'Les observations de baleines sont très fréquentes de novembre à avril, mais la nature reste imprévisible. Nous réservons des opérateurs réputés pour le meilleur créneau matinal ; en cas de mer agitée, nous proposons plutôt la plongée avec les tortues ou une matinée plage détendue.',
+      },
+      {
+        q: 'Peut-on remplacer Pidurangala par l’ascension complète du rocher de Sigiriya ?',
+        a: 'Bien sûr. Le jour 2 est consacré au Rocher du Lion de Sigiriya tandis que le jour 1 utilise Pidurangala pour le coucher de soleil. Indiquez-nous votre niveau de forme physique et nous pouvons inverser ou supprimer une ascension pour préserver vos genoux.',
+      },
+    ],
     days: [
       {
         title: 'Arrivée & Rocher de Pidurangala',
@@ -848,11 +929,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Veicolo privato climatizzato',
       'Autista professionista di lingua inglese',
-      'Sistemazione in mezza pensione (7 notti)',
+      'Sistemazione in mezza pensione (7 notti) in hotel da 3,5 o 4 stelle attentamente selezionati, in base alla disponibilità',
       'Carburante e parcheggi',
       'Prelievo e riaccompagnamento in aeroporto',
     ],
     excludes: ['Ingressi e costi delle attività', 'Pranzo e bevande', 'Spese personali'],
+    seoIntro:
+      'Otto giorni sono la durata ideale per antichi regni, il fascino drammatico delle colline e un vero finale in spiaggia, senza fretta. Questo tour privato in Sri Lanka abbina il tramonto a Pidurangala e il Lion Rock di Sigiriya ai templi rupestri di Dambulla, ai rituali della Reliquia del Dente a Kandy e ai panorami della Torre di Ambuluwawa sopra le piantagioni di tè. Ella offre il ponte Nine Arches, Little Adam’s Peak e le cascate di Ravana, prima di un safari ai leopardi a Yala e due notti sulla costa di Mirissa per l’osservazione delle balene, lo snorkeling con le tartarughe e il kayak al tramonto. Sundown Tours include sette notti in mezza pensione in hotel 4 stelle, i transfer aeroportuali e un autista di lingua inglese con chilometraggio illimitato nel vostro veicolo privato. I biglietti d’ingresso e le attività marine opzionali restano a vostra discrezione, così potete concentrarvi maggiormente sulla fauna selvatica o sul tempo in spiaggia. Ogni giorno unisce patrimonio UNESCO ed esperienze pratiche gite in catamarano nei villaggi, mercati delle spezie e safari in barca tra le piantagioni di cannella che i tour in autobus spesso saltano.',
+    highlights: [
+      'Tramonto a Pidurangala, Lion Rock di Sigiriya e templi rupestri UNESCO di Dambulla',
+      'Sacra Reliquia del Dente a Kandy, spettacolo di danza tradizionale e panorami dalla Torre di Ambuluwawa',
+      'Nine Arch Bridge a Ella, Little Adam’s Peak e safari in jeep nel Parco Nazionale di Yala',
+      'Osservazione di balene e delfini a Mirissa, snorkeling con le tartarughe e attività acquatiche al tramonto',
+      'Sette notti in mezza pensione in hotel da 3,5 o 4 stelle attentamente selezionati in base alla disponibilità, con autista privato e transfer aeroportuali',
+    ],
+    whoIsFor:
+      'Perfetto per chi visita lo Sri Lanka per la prima volta, le coppie in luna di miele e le famiglie attive che desiderano unire cultura, fauna selvatica e giornate in spiaggia in un unico itinerario. L’osservazione delle balene richiede una partenza anticipata; per chi preferisce più tempo nei templi rispetto alle attività marine adattiamo il ritmo.',
+    bestTimeNote:
+      'Dicembre-aprile è il periodo migliore per la stagione delle balene a Mirissa e per il clima secco sulla costa meridionale. Il Triangolo Culturale e le colline si visitano tutto l’anno; Yala può chiudere brevemente intorno a settembre adattiamo di conseguenza la scelta del parco.',
+    faq: [
+      {
+        q: 'Quante notti in hotel sono incluse nel tour di 8 giorni?',
+        a: 'Il pacchetto comprende sette notti in hotel 4 stelle in mezza pensione lungo il percorso, oltre al prelievo e riaccompagnamento in aeroporto. Pranzi, biglietti d’ingresso ai parchi e biglietti per l’osservazione delle balene si pagano in loco.',
+      },
+      {
+        q: 'L’osservazione delle balene a Mirissa è garantita?',
+        a: 'Gli avvistamenti di balene sono molto frequenti da novembre ad aprile, ma la natura resta imprevedibile. Prenotiamo operatori affidabili per la fascia orario migliore del mattino; in caso di mare agitato proponiamo lo snorkeling con le tartarughe o una tranquilla mattinata in spiaggia.',
+      },
+      {
+        q: 'Possiamo sostituire Pidurangala con la scalata completa alla Rocca di Sigiriya?',
+        a: 'Certamente. Il giorno 2 è dedicato al Lion Rock di Sigiriya, mentre il giorno 1 utilizza Pidurangala per il tramonto. Comunicateci il vostro livello di forma fisica e potremo invertire o eliminare una delle due scalate per proteggere le vostre ginocchia.',
+      },
+    ],
     days: [
       {
         title: 'Arrivo & Roccia di Pidurangala',
@@ -1109,11 +1217,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Vehículo privado con aire acondicionado',
       'Chófer profesional de habla inglesa',
-      'Alojamiento en media pensión (7 noches)',
+      'Alojamiento en media pensión (7 noches) en hoteles de 3,5 o 4 estrellas cuidadosamente seleccionados, según disponibilidad',
       'Combustible y aparcamiento',
       'Recogida y traslado al aeropuerto',
     ],
     excludes: ['Entradas y costes de actividades', 'Almuerzo y bebidas', 'Gastos personales'],
+    seoIntro:
+      'Ocho días son la duración perfecta para reinos antiguos, el espectacular paisaje de las colinas y un auténtico final de playa, sin prisas. Este circuito privado por Sri Lanka combina el atardecer en Pidurangala y el Lion Rock de Sigiriya con los templos rupestres de Dambulla, los rituales de la Reliquia del Diente en Kandy y las vistas panorámicas de la Torre de Ambuluwawa sobre las plantaciones de té. Ella ofrece el puente Nine Arches, Little Adam’s Peak y las cataratas de Ravana, antes de un safari de leopardos en Yala y dos noches en la costa de Mirissa para el avistamiento de ballenas, el esnórquel con tortugas y el kayak al atardecer. Sundown Tours incluye siete noches en media pensión en hoteles de 4 estrellas, traslados al aeropuerto y un chófer de habla inglesa con kilometraje ilimitado en su vehículo privado. Las entradas y las actividades marinas opcionales quedan a su discreción, para que pueda centrarse más en la fauna o en el tiempo de playa. Cada día combina patrimonio UNESCO con experiencias prácticas: paseos en catamarán por pueblos, mercados de especias y safaris en barco entre plantaciones de canela, que los tours en autobús suelen omitir.',
+    highlights: [
+      'Atardecer en Pidurangala, Lion Rock de Sigiriya y templos rupestres UNESCO de Dambulla',
+      'Reliquia del Diente Sagrado en Kandy, espectáculo de danza tradicional y vistas desde la Torre de Ambuluwawa',
+      'Nine Arch Bridge en Ella, Little Adam’s Peak y safari en jeep por el Parque Nacional de Yala',
+      'Avistamiento de ballenas y delfines en Mirissa, esnórquel con tortugas y actividades acuáticas al atardecer',
+      'Siete noches en media pensión en hoteles de 3,5 o 4 estrellas cuidadosamente seleccionados según disponibilidad, con chófer privado y traslados al aeropuerto',
+    ],
+    whoIsFor:
+      'Perfecto para quienes visitan Sri Lanka por primera vez, parejas en luna de miel y familias activas que desean combinar cultura, fauna y días de playa en un solo itinerario. El avistamiento de ballenas requiere salir temprano; para quienes prefieren más tiempo en templos que en actividades marinas, adaptamos el ritmo.',
+    bestTimeNote:
+      'Diciembre-abril es la mejor época para la temporada de ballenas en Mirissa y el clima seco en la costa sur. El Triángulo Cultural y las tierras altas se visitan todo el año; Yala puede cerrar brevemente alrededor de septiembre, por lo que ajustamos la elección del parque en consecuencia.',
+    faq: [
+      {
+        q: '¿Cuántas noches de hotel están incluidas en el circuito de 8 días?',
+        a: 'El paquete incluye siete noches en hoteles de 4 estrellas en media pensión a lo largo de la ruta, además de la recogida y el traslado al aeropuerto. El almuerzo, las entradas a los parques y los tickets del barco para el avistamiento de ballenas se pagan in situ.',
+      },
+      {
+        q: '¿Está garantizado el avistamiento de ballenas en Mirissa?',
+        a: 'Los avistamientos de ballenas son muy frecuentes de noviembre a abril, pero la naturaleza es impredecible. Reservamos operadores de confianza en el mejor horario matutino; si el mar está agitado, proponemos como alternativa el esnórquel con tortugas o una mañana tranquila de playa.',
+      },
+      {
+        q: '¿Podemos cambiar Pidurangala por la subida completa a la roca de Sigiriya?',
+        a: 'Por supuesto. El día 2 se centra en el Lion Rock de Sigiriya, mientras que el día 1 utiliza Pidurangala para el atardecer. Indíquenos su nivel de forma física y podremos invertir o eliminar una de las subidas para proteger sus rodillas.',
+      },
+    ],
     days: [
       {
         title: 'Llegada y Roca de Pidurangala',
@@ -1370,11 +1505,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Klimatyzowany prywatny pojazd',
       'Profesjonalny kierowca mówiący po angielsku',
-      'Zakwaterowanie w opcji HB (7 nocy)',
+      'Zakwaterowanie w opcji HB (7 nocy) w starannie wybranych hotelach 3,5- lub 4-gwiazdkowych, w zależności od dostępności',
       'Paliwo i opłaty parkingowe',
       'Odbiór i odwóz z lotniska',
     ],
     excludes: ['Bilety wstępu i opłaty za atrakcje', 'Lunch i napoje', 'Wydatki osobiste'],
+    seoIntro:
+      'Osiem dni to idealny czas na starożytne królestwa, dramatyczne krajobrazy górskie i prawdziwy finał na plaży, bez pośpiechu. Ta prywatna wycieczka po Sri Lance łączy zachód słońca na Pidurangali i Lion Rock w Sigiriya z jaskiniowymi świątyniami Dambulli, rytuałami Relikwii Zęba w Kandy oraz panoramami z wieży Ambuluwawa nad plantacjami herbaty. Ella oferuje most Nine Arches, Little Adam’s Peak i wodospady Ravana, a potem safari z lampartami w Yali oraz dwie noce na wybrzeżu Mirissy z obserwacją wielorybów, snorkelingiem z żółwiami i kajakami o zachodzie słońca. Sundown Tours obejmuje siedem nocy w formule half board w hotelach 4-gwiazdkowych, transfery na lotnisko oraz anglojęzycznego kierowcę z nielimitowanym przebiegiem w Państwa prywatnym pojeździe. Opłaty za wstęp i opcjonalne aktywności morskie pozostają do Państwa decyzji, dzięki czemu można skupić się bardziej na dzikiej przyrodzie lub czasie na plaży. Każdy dzień łączy dziedzictwo UNESCO z praktycznymi doświadczeniami – rejsy katamaranem po wioskach, targi przypraw i safari łodzią wśród plantacji cynamonu – które w wycieczkach autokarowych często są pomijane.',
+    highlights: [
+      'Zachód słońca na Pidurangali, Lion Rock w Sigiriya i jaskiniowe świątynie UNESCO w Dambulli',
+      'Święta Relikwia Zęba w Kandy, tradycyjny pokaz tańca i panoramy z wieży Ambuluwawa',
+      'Most Nine Arch w Elli, Little Adam’s Peak i safari jeepem w Parku Narodowym Yala',
+      'Obserwacja wielorybów i delfinów w Mirissie, snorkeling z żółwiami i aktywności wodne o zachodzie słońca',
+      'Siedem nocy w formule half board w starannie wybranych hotelach 3,5- lub 4-gwiazdkowych w zależności od dostępności, z prywatnym kierowcą i transferami na lotnisko',
+    ],
+    whoIsFor:
+      'Idealna dla osób odwiedzających Sri Lankę po raz pierwszy, par w podróży poślubnej i aktywnych rodzin, które chcą połączyć kulturę, dziką przyrodę i dni na plaży w jednym planie podróży. Obserwacja wielorybów wymaga wczesnego wyjazdu; dla podróżnych preferujących więcej czasu w świątyniach niż na aktywnościach morskich dostosowujemy tempo.',
+    bestTimeNote:
+      'Grudzień–kwiecień to najlepszy czas na sezon wielorybów w Mirissie i suchą pogodę na południowym wybrzeżu. Trójkąt Kulturowy i wyżyny można zwiedzać cały rok; Yala może być zamknięta na krótko wokół września – odpowiednio dostosowujemy wybór parku.',
+    faq: [
+      {
+        q: 'Ile nocy w hotelu jest wliczonych w 8-dniową wycieczkę?',
+        a: 'Pakiet obejmuje siedem nocy w hotelach 4-gwiazdkowych z wyżywieniem HB wzdłuż trasy, a także odbiór i odwóz z lotniska. Lunch, opłaty za wstęp do parków i bilety na łódź do obserwacji wielorybów płaci się na miejscu.',
+      },
+      {
+        q: 'Czy obserwacja wielorybów w Mirissie jest gwarantowana?',
+        a: 'Obserwacje wielorybów są bardzo częste od listopada do kwietnia, ale natura jest nieprzewidywalna. Rezerwujemy renomowanych operatorów na najlepszy poranny termin; w razie wzburzonego morza proponujemy snorkeling z żółwiami lub spokojny poranek na plaży.',
+      },
+      {
+        q: 'Czy możemy zamienić Pidurangalę na pełną wspinaczkę na skałę Sigiriya?',
+        a: 'Oczywiście. Dzień 2 skupia się na Lion Rock w Sigiriya, a dzień 1 wykorzystuje Pidurangalę na zachód słońca. Podajcie nam swój poziom sprawności fizycznej, a my możemy odwrócić lub pominąć jedną ze wspinaczek, by chronić Państwa kolana.',
+      },
+    ],
     days: [
       {
         title: 'Przyjazd i Skała Pidurangala',
@@ -1631,11 +1793,38 @@ export const TOUR8: TourContent = {
     includes: [
       'Частный автомобиль с кондиционером',
       'Профессиональный англоговорящий водитель',
-      'Проживание на полупансионе (7 ночей)',
+      'Проживание на полупансионе (7 ночей) в тщательно отобранных отелях 3,5★ или 4★ в зависимости от наличия мест',
       'Топливо и парковка',
       'Встреча и трансфер из аэропорта',
     ],
     excludes: ['Входные билеты и оплата активностей', 'Обед и напитки', 'Личные расходы'],
+    seoIntro:
+      'Восемь дней оптимальная продолжительность для древних королевств, впечатляющей горной страны и настоящего пляжного финала без спешки. Этот частный тур по Шри-Ланке сочетает закат на Pidurangala и Lion Rock в Sigiriya с пещерными храмами Dambulla, ритуалами Реликвии Зуба в Канди и панорамами башни Ambuluwawa над чайными плантациями. В Элле вас ждут мост Nine Arches, Little Adam’s Peak и водопады Ravana, а затем сафари на леопардов в Яле и две ночи на побережье Мириссы с наблюдением за китами, снорклингом с черепахами и катанием на каяках на закате. Sundown Tours включает семь ночей на полупансионе в отелях 4★, трансферы из/в аэропорт и англоговорящего шофёра с неограниченным пробегом в вашем частном автомобиле. Входные билеты и дополнительные морские активности остаются на ваш выбор, чтобы вы могли уделить больше внимания дикой природе или пляжному отдыху. Каждый день сочетает наследие ЮНЕСКО с живыми впечатлениями катамаранные прогулки в деревнях, рынки специй и лодочные сафари среди плантаций корицы которые автобусные туры часто пропускают.',
+    highlights: [
+      'Закат на Pidurangala, Lion Rock в Sigiriya и пещерные храмы ЮНЕСКО в Dambulla',
+      'Священная реликвия зуба в Канди, культурное танцевальное шоу и панорамы башни Ambuluwawa',
+      'Мост Nine Arch в Элле, Little Adam’s Peak и джип-сафари в национальном парке Яла',
+      'Наблюдение за китами и дельфинами в Мириссе, снорклинг с черепахами и водные активности на закате',
+      'Семь ночей на полупансионе в тщательно отобранных отелях 3,5★ или 4★ в зависимости от наличия мест, с частным шофёром и трансферами из/в аэропорт',
+    ],
+    whoIsFor:
+      'Идеально для тех, кто впервые посещает Шри-Ланку, молодожёнов и активных семей, которые хотят объединить культуру, дикую природу и пляжные дни в одном маршруте. Наблюдение за китами требует раннего выезда; для путешественников, предпочитающих больше времени в храмах, чем на морских активностях, мы адаптируем темп.',
+    bestTimeNote:
+      'Декабрь–апрель лучшее время для сезона китов в Мириссе и сухой погоды на южном побережье. Культурный треугольник и горную страну можно посещать круглый год; Яла может быть закрыта на короткое время около сентября мы соответствующим образом корректируем выбор парка.',
+    faq: [
+      {
+        q: 'Сколько ночей в отеле включено в 8-дневный тур?',
+        a: 'Пакет включает семь ночей в отелях 4★ на полупансионе по маршруту, а также встречу и трансфер в аэропорт. Обед, входные билеты в парки и билеты на лодку для наблюдения за китами оплачиваются на месте.',
+      },
+      {
+        q: 'Гарантировано ли наблюдение за китами в Мириссе?',
+        a: 'Наблюдения за китами очень часты с ноября по апрель, но природа непредсказуема. Мы бронируем надёжных операторов на лучшее утреннее время; при неспокойном море мы предлагаем вместо этого снорклинг с черепахами или спокойное утро на пляже.',
+      },
+      {
+        q: 'Можем ли мы заменить Pidurangala на полное восхождение на скалу Sigiriya?',
+        a: 'Конечно. День 2 посвящён Lion Rock в Sigiriya, а день 1 использует Pidurangala для наблюдения заката. Сообщите нам ваш уровень физической подготовки, и мы можем поменять порядок или убрать одно из восхождений, чтобы поберечь ваши колени.',
+      },
+    ],
     days: [
       {
         title: 'Прибытие и скала Пидурангала',
@@ -1645,7 +1834,7 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Скала Пидурангала',
             description:
-              'Начните своё шри-ланкийское приключение с незабываемого похода на скалу Пидурангала — одну из самых впечатляющих смотровых площадок Культурного треугольника. Пройдя через древние храмовые комплексы и скальные образования, вы поднимитесь на вершину, откуда откроется потрясающий закат над скалой-крепостью Сигирия, зелёными лесами и спокойными озёрами.',
+              'Начните своё шри-ланкийское приключение с незабываемого похода на скалу Пидурангала одну из самых впечатляющих смотровых площадок Культурного треугольника. Пройдя через древние храмовые комплексы и скальные образования, вы поднимитесь на вершину, откуда откроется потрясающий закат над скалой-крепостью Сигирия, зелёными лесами и спокойными озёрами.',
           },
           {
             type: 'Проживание',
@@ -1674,13 +1863,13 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Пещерный храм Дамбулла',
             description:
-              'Посетите величественный пещерный храм Дамбулла — крупнейший и лучше всего сохранившийся пещерный комплекс Шри-Ланки, объект ЮНЕСКО. Этому более чем 2000-летнему месту паломничества принадлежат пять пещерных святилищ с буддийскими фресками и хорошо сохранившимися статуями.',
+              'Посетите величественный пещерный храм Дамбулла крупнейший и лучше всего сохранившийся пещерный комплекс Шри-Ланки, объект ЮНЕСКО. Этому более чем 2000-летнему месту паломничества принадлежат пять пещерных святилищ с буддийскими фресками и хорошо сохранившимися статуями.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Экономический центр Дамбулла',
             description:
-              'Откройте для себя оживлённый оптовый рынок Дамбулла — крупнейший рынок фруктов и овощей на Шри-Ланке. Понаблюдайте за суетой торговцев со всего острова и красочным изобилием тропических фруктов, овощей и специй.',
+              'Откройте для себя оживлённый оптовый рынок Дамбулла крупнейший рынок фруктов и овощей на Шри-Ланке. Понаблюдайте за суетой торговцев со всего острова и красочным изобилием тропических фруктов, овощей и специй.',
           },
           {
             type: 'Проживание',
@@ -1697,7 +1886,7 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Шри Далада Малигава',
             description:
-              'Посетите всемирно известный Храм Зуба Будды (Шри Далада Малигава) — одно из самых священных мест паломничества буддистов и объект ЮНЕСКО в историческом городе Канди. Полюбуйтесь кандийской архитектурой, изящной резьбой и святилищами с золочёными крышами.',
+              'Посетите всемирно известный Храм Зуба Будды (Шри Далада Малигава) одно из самых священных мест паломничества буддистов и объект ЮНЕСКО в историческом городе Канди. Полюбуйтесь кандийской архитектурой, изящной резьбой и святилищами с золочёными крышами.',
           },
           {
             type: 'Экскурсия с гидом',
@@ -1709,13 +1898,13 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Храм Шри Мутумариамман',
             description:
-              'Исследуйте великолепный храм Шри Мутумариамман — один из самых красивых индуистских храмов Шри-Ланки. Известный своей яркой архитектурой в дравидийском стиле и детальными скульптурами, он символизирует многокультурное наследие страны.',
+              'Исследуйте великолепный храм Шри Мутумариамман один из самых красивых индуистских храмов Шри-Ланки. Известный своей яркой архитектурой в дравидийском стиле и детальными скульптурами, он символизирует многокультурное наследие страны.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Наланда Гедиге',
             description:
-              'Откройте для себя загадочный Наланда Гедиге неподалёку от Матале — один из самых уникальных исторических памятников Шри-Ланки. Этому каменному сооружению более тысячи лет, и оно объединяет индуистские и буддийские архитектурные традиции среди спокойных ландшафтов.',
+              'Откройте для себя загадочный Наланда Гедиге неподалёку от Матале один из самых уникальных исторических памятников Шри-Ланки. Этому каменному сооружению более тысячи лет, и оно объединяет индуистские и буддийские архитектурные традиции среди спокойных ландшафтов.',
           },
           {
             type: 'Проживание',
@@ -1732,13 +1921,13 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Королевский ботанический сад',
             description:
-              'Посетите знаменитые Королевские ботанические сады в Перадении — один из крупнейших и красивейших ботанических садов Азии. На территории свыше 147 гектаров произрастает более 4000 видов растений, включая редкие орхидеи, пальмовую аллею и лекарственные растения.',
+              'Посетите знаменитые Королевские ботанические сады в Перадении один из крупнейших и красивейших ботанических садов Азии. На территории свыше 147 гектаров произрастает более 4000 видов растений, включая редкие орхидеи, пальмовую аллею и лекарственные растения.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Башня Амбулувава',
             description:
-              'Посетите биоразнообразный комплекс Амбулувава и подниметесь на знаменитую башню — одну из самых необычных смотровых площадок Шри-Ланки. Расположенная на вершине горы, она открывает панораму 360° на горные хребты, леса, реки и чайные плантации.',
+              'Посетите биоразнообразный комплекс Амбулувава и подниметесь на знаменитую башню одну из самых необычных смотровых площадок Шри-Ланки. Расположенная на вершине горы, она открывает панораму 360° на горные хребты, леса, реки и чайные плантации.',
           },
           {
             type: 'Экскурсия с гидом',
@@ -1750,7 +1939,7 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Смотровая площадка водопада Рамбода',
             description:
-              'Полюбуйтесь захватывающими видами водопада Рамбода — одного из самых высоких и живописных на Шри-Ланке. Окружённый чайными плантациями и туманными горными ландшафтами, водопад низвергается по скалистым уступам, создавая впечатляющее природное зрелище.',
+              'Полюбуйтесь захватывающими видами водопада Рамбода одного из самых высоких и живописных на Шри-Ланке. Окружённый чайными плантациями и туманными горными ландшафтами, водопад низвергается по скалистым уступам, создавая впечатляющее природное зрелище.',
           },
           {
             type: 'Проживание',
@@ -1767,19 +1956,19 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Мост Девяти Арок',
             description:
-              'Посетите знаменитый мост Девяти Арок — одну из самых фотографируемых достопримечательностей Шри-Ланки и шедевр колониальной железнодорожной инженерии. Построенный из камня без использования стали среди чайных плантаций Эллы, он до сих пор остаётся действующим железнодорожным мостом.',
+              'Посетите знаменитый мост Девяти Арок одну из самых фотографируемых достопримечательностей Шри-Ланки и шедевр колониальной железнодорожной инженерии. Построенный из камня без использования стали среди чайных плантаций Эллы, он до сих пор остаётся действующим железнодорожным мостом.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Озеро Грегори',
             description:
-              'Насладитесь спокойным отдыхом у живописного озера Грегори — одной из самых популярных достопримечательностей Нувара-Элии. Окружённое горными пейзажами и прохладным климатом высокогорья, озеро располагает к прогулкам, фотографии и лодочным прогулкам.',
+              'Насладитесь спокойным отдыхом у живописного озера Грегори одной из самых популярных достопримечательностей Нувара-Элии. Окружённое горными пейзажами и прохладным климатом высокогорья, озеро располагает к прогулкам, фотографии и лодочным прогулкам.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Малый пик Адама',
             description:
-              'Отправьтесь в живописный поход на Малый пик Адама — одну из самых популярных смотровых площадок Эллы. Лёгкий, но увлекательный подъём проходит через чайные плантации и зелёные холмы до панорамы 360° на разлом Элла и окружающие долины.',
+              'Отправьтесь в живописный поход на Малый пик Адама одну из самых популярных смотровых площадок Эллы. Лёгкий, но увлекательный подъём проходит через чайные плантации и зелёные холмы до панорамы 360° на разлом Элла и окружающие долины.',
           },
           {
             type: 'Проживание',
@@ -1796,13 +1985,13 @@ export const TOUR8: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Национальный парк Яла',
             description:
-              'Совершите незабываемое сафари в национальном парке Яла — самом известном парке Шри-Ланки и одном из лучших мест в Азии для наблюдения за леопардами в дикой природе. В парке обитают слоны, губачи, крокодилы, пятнистые олени, дикие кабаны, буйволы и более 215 видов птиц.',
+              'Совершите незабываемое сафари в национальном парке Яла самом известном парке Шри-Ланки и одном из лучших мест в Азии для наблюдения за леопардами в дикой природе. В парке обитают слоны, губачи, крокодилы, пятнистые олени, дикие кабаны, буйволы и более 215 видов птиц.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Водопад Равана',
             description:
-              'Посетите захватывающий водопад Равана — один из самых красивых и знаменитых водопадов Шри-Ланки среди гор Эллы. По легенде, царь Равана прятал здесь принцессу Ситу в соседних пещерах.',
+              'Посетите захватывающий водопад Равана один из самых красивых и знаменитых водопадов Шри-Ланки среди гор Эллы. По легенде, царь Равана прятал здесь принцессу Ситу в соседних пещерах.',
           },
           {
             type: 'Проживание',
@@ -1819,7 +2008,7 @@ export const TOUR8: TourContent = {
             type: 'Наблюдение за китами',
             title: 'Наблюдение за китами и дельфинами в Мириссе',
             description:
-              'Отправьтесь в незабываемое путешествие по наблюдению за китами и дельфинами в Мириссе — главном месте Шри-Ланки для встречи с морской фауной. Выйдите в открытый океан в поисках синих китов, кашалотов, китов Брайда и весёлых стай дельфинов.',
+              'Отправьтесь в незабываемое путешествие по наблюдению за китами и дельфинами в Мириссе главном месте Шри-Ланки для встречи с морской фауной. Выйдите в открытый океан в поисках синих китов, кашалотов, китов Брайда и весёлых стай дельфинов.',
           },
           {
             type: 'Снорклинг',
@@ -1831,7 +2020,7 @@ export const TOUR8: TourContent = {
             type: 'Снорклинг',
             title: 'Снорклинг с черепахами в Мириссе',
             description:
-              'Поплавайте рядом с изящными морскими черепахами в тёплых водах Мириссы — одно из самых популярных морских развлечений Шри-Ланки. Понаблюдайте за зелёными черепахами и бисса среди тропических рыб и коралловых рифов.',
+              'Поплавайте рядом с изящными морскими черепахами в тёплых водах Мириссы одно из самых популярных морских развлечений Шри-Ланки. Понаблюдайте за зелёными черепахами и бисса среди тропических рыб и коралловых рифов.',
           },
           {
             type: 'Водная активность',
@@ -1861,7 +2050,7 @@ export const TOUR8: TourContent = {
             type: 'Природный и культурный опыт',
             title: 'Coconut Tree Hill в Мириссе',
             description:
-              'Посетите знаменитый холм Кокосовых пальм в Мириссе — одну из самых фотографируемых прибрежных смотровых площадок Шри-Ланки. Расположенный на утёсе над бирюзовыми водами Индийского океана, этот живописный уголок с высокими кокосовыми пальмами создаёт идеальный тропический пейзаж.',
+              'Посетите знаменитый холм Кокосовых пальм в Мириссе одну из самых фотографируемых прибрежных смотровых площадок Шри-Ланки. Расположенный на утёсе над бирюзовыми водами Индийского океана, этот живописный уголок с высокими кокосовыми пальмами создаёт идеальный тропический пейзаж.',
           },
           {
             type: 'Охрана природы',

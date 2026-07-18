@@ -1,0 +1,178 @@
+@if (kind === 'content') {
+<div class="container-fluid page-header">
+  <div class="container">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 280px">
+      <h1 class="display-4 text-white text-uppercase mb-2">
+        {{ (pageId === 'guides' ? 'guidesHub.h1' : 'destinationsHub.h1') | t }}
+      </h1>
+      <nav class="d-inline-flex text-white" aria-label="Breadcrumb">
+        <a class="text-white text-uppercase" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a>
+        <span class="px-3" aria-hidden="true">»</span>
+        <span class="text-uppercase">{{ (pageId === 'guides' ? 'guidesHub.breadcrumb' : 'destinationsHub.breadcrumb') | t }}</span>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<section class="container py-5">
+  <p class="lead text-center mx-auto mb-5" style="max-width: 720px;">
+    {{ (pageId === 'guides' ? 'guidesHub.lead' : 'destinationsHub.lead') | t }}
+  </p>
+  <div class="row">
+    @for (card of hubCards; track trackByPageId($index, card)) {
+    <div class="col-lg-4 col-md-6 mb-4">
+      <a class="hub-card" [routerLink]="path(card.pageId)">
+        <picture>
+          <source
+            type="image/avif"
+            [attr.srcset]="buildAvifSrcSet(toWebpSrc(card.image)) || null"
+            sizes="(max-width: 768px) 100vw, 400px" />
+          <source
+            type="image/webp"
+            [attr.srcset]="buildSrcSet(toWebpSrc(card.image)) || null"
+            sizes="(max-width: 768px) 100vw, 400px" />
+          <img
+            [src]="bestImageSrc(toWebpSrc(card.image), 400)"
+            [alt]="card.title"
+            width="400"
+            height="260"
+            loading="lazy"
+            decoding="async"
+            fetchpriority="low"
+            [attr.data-img-base]="toWebpSrc(card.image)"
+            (error)="onImageError($event)" />
+        </picture>
+        <div class="hub-card__body">
+          <h2 class="h5">{{ card.title }}</h2>
+          <p>{{ card.blurb }}</p>
+          <span class="hub-card__cta">{{ (pageId === 'guides' ? 'guidesHub.cardCta' : 'common.cta.exploreTours') | t }} →</span>
+        </div>
+      </a>
+    </div>
+    }
+  </div>
+</section>
+}
+
+@if (article && (kind === 'destination' || kind === 'guide')) {
+<article class="article-page">
+  <div class="container-fluid page-header article-hero">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 280px">
+        <h1 class="display-4 text-white mb-2">{{ article.h1 }}</h1>
+        <nav class="d-inline-flex text-white" aria-label="Breadcrumb">
+          <a class="text-white text-uppercase" [routerLink]="path('home')">{{ 'common.breadcrumb.home' | t }}</a>
+          <span class="px-3" aria-hidden="true">»</span>
+          <a class="text-white text-uppercase" [routerLink]="path(kind === 'guide' ? 'guides' : 'destinations')">
+            {{ (kind === 'guide' ? 'guidesHub.breadcrumb' : 'destinationsHub.breadcrumb') | t }}
+          </a>
+          <span class="px-3" aria-hidden="true">»</span>
+          <span class="text-uppercase">{{ article.h1 }}</span>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <picture class="article-hero-img rounded shadow mb-4">
+      <source
+        type="image/avif"
+        [attr.srcset]="buildAvifSrcSet(toWebpSrc(article.heroImage)) || null"
+        sizes="(max-width: 992px) 100vw, 960px" />
+      <source
+        type="image/webp"
+        [attr.srcset]="buildSrcSet(toWebpSrc(article.heroImage)) || null"
+        sizes="(max-width: 992px) 100vw, 960px" />
+      <img
+        class="article-hero-img__img"
+        [src]="bestImageSrc(toWebpSrc(article.heroImage), 960)"
+        [alt]="article.heroAlt"
+        width="960"
+        height="540"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+        [attr.data-img-base]="toWebpSrc(article.heroImage)"
+        (error)="onImageError($event)" />
+    </picture>
+
+    <p class="lead">{{ article.lead }}</p>
+
+    @for (section of article.sections; track trackBySection($index, section)) {
+    <section class="article-section" [attr.id]="section.id">
+      <h2>{{ section.title }}</h2>
+      <p style="white-space: pre-line;">{{ section.body }}</p>
+      @if (section.bullets?.length) {
+      <ul>
+        @for (b of section.bullets; track b) {
+        <li>{{ b }}</li>
+        }
+      </ul>
+      }
+    </section>
+    }
+
+    <section class="article-cta my-5 p-4 rounded">
+      <h2 class="h4">{{ article.ctaTitle }}</h2>
+      <p>{{ article.ctaBody }}</p>
+      <a class="btn btn-primary" [routerLink]="path('contact')">{{ article.ctaLabel }}</a>
+      <a class="btn btn-outline-primary ml-2" href="https://wa.me/94706293585" rel="noopener">{{ 'common.cta.whatsapp' | t }}</a>
+    </section>
+
+    @if (article.relatedTours.length) {
+    <section class="mb-4">
+      <h2 class="h4">{{ 'common.tourUi.relatedTitle' | t }}</h2>
+      <ul class="related-list">
+        @for (link of article.relatedTours; track link.pageId) {
+        <li><a [routerLink]="path(link.pageId)">{{ link.label }}</a></li>
+        }
+      </ul>
+    </section>
+    }
+
+    @if (article.relatedDestinations.length) {
+    <section class="mb-4">
+      <h2 class="h4">{{ 'destinationsHub.relatedTitle' | t }}</h2>
+      <ul class="related-list">
+        @for (link of article.relatedDestinations; track link.pageId) {
+        <li><a [routerLink]="path(link.pageId)">{{ link.label }}</a></li>
+        }
+      </ul>
+    </section>
+    }
+
+    @if (article.relatedGuides.length) {
+    <section class="mb-4">
+      <h2 class="h4">{{ 'guidesHub.relatedTitle' | t }}</h2>
+      <ul class="related-list">
+        @for (link of article.relatedGuides; track link.pageId) {
+        <li><a [routerLink]="path(link.pageId)">{{ link.label }}</a></li>
+        }
+      </ul>
+    </section>
+    }
+
+    <section class="mb-4">
+      <h2 class="h4">{{ 'guidesHub.restaurantsTitle' | t }}</h2>
+      <ul class="related-list">
+        <li><a [routerLink]="path('restaurants')">{{ 'guidesHub.restaurantLink' | t }}</a></li>
+        @if (pageId !== 'guideFood') {
+        <li><a [routerLink]="path('guideFood')">{{ 'guidesHub.foodGuideLink' | t }}</a></li>
+        }
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4 mb-3">{{ 'common.faqTitle' | t }}</h2>
+      <div class="faq-inline">
+        @for (item of article.faq; track item.q) {
+        <details class="faq-item">
+          <summary>{{ item.q }}</summary>
+          <p>{{ item.a }}</p>
+        </details>
+        }
+      </div>
+    </section>
+  </div>
+</article>
+}

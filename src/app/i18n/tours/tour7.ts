@@ -360,9 +360,40 @@ export const TOUR7: TourContent = {
       'Fuel & Parking Fees',
       '24 Hours Service',
       'Unlimited Mileage/Kilometer for entire round tour',
-      'Tour Accommodation',
+      'Primarily 4-Star Hotels (equivalent 3.5-Star hotels may be provided if selected hotels are unavailable during peak periods)',
     ],
     excludes: ['Food & Drinks', 'Entrance & Activities Fees'],
+    seoIntro:
+      'A seven-day Sri Lanka round tour is the benchmark first-time itinerary and for good reason. In one week you move from the ancient Cultural Triangle through misty tea country to leopard territory and the palm-lined south coast, without wasteful backtracking or a new hotel every night. Sundown Tours built this private route for couples, families and small groups who want breadth and depth: Wilpattu wildlife at the start, village life and elephant gatherings near Sigiriya, the Lion Rock ascent and Tooth Relic rituals in Kandy, scenic train views into Ella, Nine Arches Bridge and Little Adam\'s Peak, a Yala National Park jeep safari, and UNESCO Galle Fort plus river and turtle experiences before departure. Your English-speaking chauffeur guide handles navigation, timing and local insight while you travel in an air-conditioned private vehicle with unlimited mileage. Accommodation is arranged in selected 4-star hotels on half board, though we can adjust category or add beach nights on request. This is not a rushed coach tour each day balances iconic landmarks with hands-on experiences like Ayurvedic massage, spice gardens and cultural dance shows that many operators skip.',
+    highlights: [
+      '28 curated stops across 10 districts in 7 days with a private chauffeur and unlimited mileage',
+      'Wilpattu safari, Sigiriya Lion Rock, Kandy Temple of the Tooth and Ella hill-country train views',
+      'Yala National Park leopard and elephant safari in your own 4x4 jeep',
+      'Half-board stays in carefully selected 3.5-Star or 4-Star hotels depending on availability',
+      'Sundown extras: village cooking, Ayurvedic wellness, Pidurangala sunset and Madu River mangroves',
+    ],
+    whoIsFor:
+      'Ideal for first-time visitors, families with teens, and couples who want culture, wildlife and scenery in one week without self-driving. Requires moderate fitness for rock climbs and short hikes; we adapt pacing for seniors on request.',
+    bestTimeNote:
+      'Year-round, but December–April offers the driest weather on the west and south coasts and reliable Yala access. May–September suits the Cultural Triangle and east-coast extensions; we adjust safari parks seasonally for elephant gatherings.',
+    faq: [
+      {
+        q: 'How many nights of hotel accommodation are included on the 7-day tour?',
+        a: 'The package covers 6 nights in 4-star half-board hotels along the route. Your driver-guide\'s accommodation and meals are included separately; entrance fees and lunches remain at your discretion.',
+      },
+      {
+        q: 'Can we customize the Day 1 Wilpattu safari or swap Yala for another park?',
+        a: 'Yes. Wildlife routes vary by season we may use Minneriya/Kaudulla for elephant gatherings or Udawalawe as alternatives. Tell us your priorities when booking and we will align park choices and driving times.',
+      },
+      {
+        q: 'Is the scenic train ride in Ella included in the price?',
+        a: 'The iconic Ella train sector is part of the itinerary; ticket costs for the train segment are not included in the base tour price but our guide arranges the best available class and timing for your group.',
+      },
+      {
+        q: 'What fitness level is needed for Sigiriya and Little Adam\'s Peak?',
+        a: 'Sigiriya involves roughly 1,000 steps with some steep sections; Little Adam\'s Peak is a gentler 45-minute walk. Travelers who prefer a lighter option can choose Pidurangala for sunset views instead of the full Sigiriya ascent.',
+      },
+    ],
   },
   de: {
     title: 'Sri Lanka Rundreise – 7 Tage',
@@ -381,9 +412,40 @@ export const TOUR7: TourContent = {
       'Kraftstoff & Parkgebühren',
       '24-Stunden-Service',
       'Unbegrenzte Kilometer für die gesamte Rundreise',
-      'Unterkunft während der Tour',
+      'Überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
     ],
     excludes: ['Speisen & Getränke', 'Eintritts- & Aktivitätsgebühren'],
+    seoIntro:
+      'Eine siebentägige Sri-Lanka-Rundreise ist das klassische Erstbesucher-Programm und das aus gutem Grund. In einer Woche reisen Sie vom antiken Kultur-Dreieck über das neblige Teehochland bis in Leopardengebiete und an die palmen gesäumte Südküste, ohne sinnlose Umwege oder täglich ein neues Hotel. Sundown Tours hat diese private Route für Paare, Familien und kleine Gruppen konzipiert, die Kultur, Tierwelt und Landschaft kombinieren möchten: Wilpattu-Wildlife zu Beginn, Dorfleben und Elefantentreffen bei Sigiriya, Aufstieg auf den Löwenfelsen und Zahntempel-Rituale in Kandy, malerische Zugfahrt nach Ella, Nine Arches Bridge und Little Adam\'s Peak, Jeep-Safari im Yala-Nationalpark sowie UNESCO Galle Fort plus Fluss- und Schildkröten-Erlebnisse vor der Abreise. Ihr englischsprachiger Chauffeur kümmert sich um Navigation, Timing und lokales Wissen, während Sie in einem klimatisierten Privatfahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterbringung erfolgt in ausgewählten 4-Sterne-Hotels auf Halbpension; Kategorie und Strandnächte passen wir auf Wunsch an.',
+    highlights: [
+      '28 kuratierte Stopps in 10 Distrikten an 7 Tagen mit privatem Chauffeur und unbegrenzter Kilometerleistung',
+      'Wilpattu-Safari, Sigiriya Löwenfelsen, Zahntempel in Kandy und Zugpanorama im Hügelland von Ella',
+      'Leoparden- und Elefanten-Safari im Yala-Nationalpark im eigenen 4x4-Jeep',
+      'Halbpension in sorgfältig ausgewählten 4-Sterne-Hotels',
+      'Sundown-Extras: Dorfkochkurs, Ayurveda, Sonnenuntergang am Pidurangala und Madu-Fluss-Mangroven',
+    ],
+    whoIsFor:
+      'Ideal für Erstbesucher, Familien mit Teenagern und Paare, die Kultur, Tierwelt und Landschaft in einer Woche ohne Selbstfahren wünschen. Moderate Fitness für Felsbesteigungen und kurze Wanderungen; für Senioren passen wir das Tempo auf Wunsch an.',
+    bestTimeNote:
+      'Ganzjährig möglich; Dezember–April bietet trockeneres Wetter an West- und Südküste und zuverlässigen Yala-Zugang. Mai–September eignet sich für das Kultur-Dreieck und Ostküsten-Erweiterungen; Safariparks passen wir saisonal für Elefantentreffen an.',
+    faq: [
+      {
+        q: 'Wie viele Hotelübernachtungen sind in der 7-Tage-Tour enthalten?',
+        a: 'Das Paket umfasst 6 Nächte in 4-Sterne-Hotels auf Halbpension entlang der Route. Unterkunft und Verpflegung des Fahrers sind separat inklusive; Eintrittsgebühren und Mittagessen tragen Sie selbst.',
+      },
+      {
+        q: 'Können wir die Wilpattu-Safari an Tag 1 anpassen oder Yala gegen einen anderen Park tauschen?',
+        a: 'Ja. Wildtierrouten variieren je nach Saison wir nutzen gegebenenfalls Minneriya/Kaudulla für Elefantentreffen oder Udawalawe als Alternative. Nennen Sie uns Ihre Prioritäten bei der Buchung.',
+      },
+      {
+        q: 'Ist die malerische Zugfahrt in Ella im Preis enthalten?',
+        a: 'Der ikonische Ella-Zugabschnitt gehört zur Route; Fahrkarten sind nicht im Basispaket enthalten, aber unser Guide organisiert die bestmögliche Klasse und Zeit für Ihre Gruppe.',
+      },
+      {
+        q: 'Welche Fitness braucht man für Sigiriya und Little Adam\'s Peak?',
+        a: 'Sigiriya erfordert etwa 1.000 Stufen mit steileren Passagen; Little Adam\'s Peak ist eine sanftere 45-minütige Wanderung. Wer es leichter möchte, kann Pidurangala für den Sonnenuntergang wählen.',
+      },
+    ],
     days: [
       {
         title: 'Flughafen / Hotel – Wilpattu',
@@ -643,9 +705,40 @@ export const TOUR7: TourContent = {
       'Carburant & frais de parking',
       'Service 24h/24',
       'Kilométrage illimité pour tout le circuit',
-      'Hébergement pendant le circuit',
+      'Principalement des hôtels 4 étoiles (des hôtels équivalents 3,5 étoiles peuvent être proposés si les hôtels sélectionnés ne sont pas disponibles en haute saison)',
     ],
     excludes: ['Repas & boissons', 'Entrées & frais d’activités'],
+    seoIntro:
+      'Un circuit de sept jours au Sri Lanka est l’itinéraire de référence pour une première visite. En une semaine, vous passez du Triangle culturel au pays du thé brumeux, aux territoires des léopards et à la côte sud bordée de palmiers, sans retours inutiles ni changement d’hôtel chaque soir. Sundown Tours a conçu ce parcours privé pour les couples, familles et petits groupes : safari à Wilpattu, vie villageoise et rassemblements d’éléphants près de Sigiriya, ascension du Rocher du Lion et rituels au Temple de la Dent à Kandy, train panoramique vers Ella, Nine Arches Bridge et Little Adam’s Peak, safari en jeep à Yala, Fort de Galle classé UNESCO et expériences fluviales avant le départ. Votre chauffeur anglophone gère navigation et timing dans un véhicule privé climatisé au kilométrage illimité. Hébergement en hôtels 4 étoiles en demi-pension, modifiable sur demande.',
+    highlights: [
+      '28 étapes sélectionnées dans 10 districts en 7 jours avec chauffeur privé et kilométrage illimité',
+      'Safari Wilpattu, Sigiriya, Temple de la Dent à Kandy et vues en train dans les collines d’Ella',
+      'Safari léopards et éléphants à Yala en jeep 4x4 privé',
+      'Demi-pension dans des hôtels 4 étoiles soigneusement choisis',
+      'Extras Sundown : cuisine villageoise, ayurveda, coucher de soleil à Pidurangala et mangroves de la rivière Madu',
+    ],
+    whoIsFor:
+      'Idéal pour les primo-visiteurs, familles avec ados et couples souhaitant culture, faune et paysages en une semaine sans conduire. Fitness modérée pour les ascensions ; rythme adaptable pour les seniors.',
+    bestTimeNote:
+      'Toute l’année ; décembre–avril offre le temps le plus sec sur les côtes ouest et sud et un accès fiable à Yala. Mai–septembre convient au Triangle culturel ; nous adaptons les parcs safari selon la saison.',
+    faq: [
+      {
+        q: 'Combien de nuits d’hôtel sont incluses dans le circuit de 7 jours ?',
+        a: 'Le forfait couvre 6 nuits en hôtels 4 étoiles en demi-pension. L’hébergement et les repas du chauffeur sont inclus ; entrées et déjeuners restent à votre charge.',
+      },
+      {
+        q: 'Peut-on personnaliser le safari Wilpattu ou remplacer Yala par un autre parc ?',
+        a: 'Oui. Les itinéraires faune varient selon la saison Minneriya/Kaudulla ou Udawalawe sont des alternatives. Indiquez vos priorités à la réservation.',
+      },
+      {
+        q: 'Le train panoramique à Ella est-il inclus dans le prix ?',
+        a: 'Le tronçon emblématique fait partie du programme ; les billets ne sont pas inclus dans le tarif de base, mais notre guide organise la meilleure classe et horaire.',
+      },
+      {
+        q: 'Quel niveau de forme pour Sigiriya et Little Adam’s Peak ?',
+        a: 'Sigiriya compte environ 1 000 marches ; Little Adam’s Peak est une marche plus douce d’environ 45 minutes. Pidurangala au coucher du soleil est une option plus légère.',
+      },
+    ],
     days: [
       {
         title: 'Aéroport / Hôtel – Wilpattu',
@@ -905,9 +998,40 @@ export const TOUR7: TourContent = {
       'Carburante e parcheggi',
       'Servizio 24 ore',
       'Chilometraggio illimitato per tutto il tour',
-      'Sistemazione durante il tour',
+      'Principalmente hotel 4 stelle (in alta stagione, se non disponibili, potranno essere forniti hotel equivalenti a 3,5 stelle)',
     ],
     excludes: ['Cibo e bevande', 'Ingressi e costi delle attività'],
+    seoIntro:
+      'Un tour di sette giorni in Sri Lanka è l’itinerario classico per chi visita l’isola per la prima volta. In una settimana si attraversano il Triangolo culturale, le colline del tè, i territori dei leopardi e la costa sud, senza spostamenti inutili. Sundown Tours ha creato questo percorso privato per coppie, famiglie e piccoli gruppi: safari a Wilpattu, vita di villaggio e raduni di elefanti vicino a Sigiriya, salita al Lion Rock e riti al Tempio del Dente a Kandy, treno panoramico verso Ella, Nine Arches Bridge e Little Adam’s Peak, safari in jeep a Yala, Forte di Galle UNESCO ed esperienze fluviali prima della partenza. Il autista parlante inglese guida in un veicolo privato climatizzato con chilometraggio illimitato. Sistemazione in hotel 4 stelle in mezza pensione, personalizzabile su richiesta.',
+    highlights: [
+      '28 tappe selezionate in 10 distretti in 7 giorni con autista privato e chilometraggio illimitato',
+      'Safari Wilpattu, Sigiriya, Tempio del Dente a Kandy e viste in treno sulle colline di Ella',
+      'Safari leopardi ed elefanti a Yala in jeep 4x4 privata',
+      'Mezza pensione in hotel 4 stelle selezionati',
+      'Extra Sundown: cucina villaggiana, ayurveda, tramonto a Pidurangala e mangrovie del fiume Madu',
+    ],
+    whoIsFor:
+      'Ideale per chi visita l’isola per la prima volta, famiglie con adolescenti e coppie che vogliono cultura, fauna e paesaggi in una settimana senza guidare. Fitness moderata per le salite; ritmo adattabile per anziani.',
+    bestTimeNote:
+      'Tutto l’anno; dicembre–aprile offre il clima più secco sulla costa ovest e sud e accesso affidabile a Yala. Maggio–settembre conviene al Triangolo culturale; adattiamo i parchi safari stagionalmente.',
+    faq: [
+      {
+        q: 'Quante notti in hotel sono incluse nel tour di 7 giorni?',
+        a: 'Il pacchetto copre 6 notti in hotel 4 stelle in mezza pensione. Alloggio e pasti dell’autista sono inclusi; ingressi e pranzi restano a carico del viaggiatore.',
+      },
+      {
+        q: 'Possiamo personalizzare il safari Wilpattu o sostituire Yala con un altro parco?',
+        a: 'Sì. Gli itinerari fauna variano per stagione Minneriya/Kaudulla o Udawalawe sono alternative. Comunicate le priorità alla prenotazione.',
+      },
+      {
+        q: 'Il treno panoramico a Ella è incluso nel prezzo?',
+        a: 'Il tratto iconico fa parte del programma; i biglietti non sono nel prezzo base, ma la guida organizza classe e orario migliori.',
+      },
+      {
+        q: 'Quale livello di forma per Sigiriya e Little Adam’s Peak?',
+        a: 'Sigiriya richiede circa 1.000 gradini; Little Adam’s Peak è una camminata più leggera di 45 minuti. Pidurangala al tramonto è un’opzione più facile.',
+      },
+    ],
     days: [
       {
         title: 'Aeroporto / Hotel – Wilpattu',
@@ -1167,9 +1291,40 @@ export const TOUR7: TourContent = {
       'Combustible y aparcamiento',
       'Servicio 24 horas',
       'Kilometraje ilimitado durante todo el circuito',
-      'Alojamiento durante el circuito',
+      'Principalmente hoteles de 4 estrellas (en temporada alta, si no hay disponibilidad, se podrán ofrecer hoteles equivalentes de 3,5 estrellas)',
     ],
     excludes: ['Comidas y bebidas', 'Entradas y costes de actividades'],
+    seoIntro:
+      'Un tour de siete días por Sri Lanka es el itinerario de referencia para quienes visitan la isla por primera vez. En una semana se recorre el Triángulo Cultural, las montañas del té, territorio de leopardos y la costa sur, sin desplazamientos innecesarios. Sundown Tours diseñó esta ruta privada para parejas, familias y grupos pequeños: safari en Wilpattu, vida rural y reuniones de elefantes cerca de Sigiriya, ascenso al Lion Rock y rituales en el Templo del Diente en Kandy, tren panorámico a Ella, Nine Arches Bridge y Little Adam\'s Peak, safari en jeep en Yala, Fuerte de Galle UNESCO y experiencias fluviales antes de la salida. Su chófer de habla inglesa conduce un vehículo privado con aire acondicionado y kilometraje ilimitado. Alojamiento en hoteles 4 estrellas en media pensión, adaptable bajo petición.',
+    highlights: [
+      '28 paradas seleccionadas en 10 distritos en 7 días con chófer privado y kilometraje ilimitado',
+      'Safari Wilpattu, Sigiriya, Templo del Diente en Kandy y vistas en tren en las colinas de Ella',
+      'Safari de leopardos y elefantes en Yala en jeep 4x4 privado',
+      'Media pensión en hoteles 4 estrellas cuidadosamente elegidos',
+      'Extras Sundown: cocina village, ayurveda, atardecer en Pidurangala y manglares del río Madu',
+    ],
+    whoIsFor:
+      'Ideal para primerizos, familias con adolescentes y parejas que buscan cultura, fauna y paisajes en una semana sin conducir. Fitness moderada para subidas; ritmo adaptable para mayores.',
+    bestTimeNote:
+      'Todo el año; diciembre–abril ofrece el clima más seco en las costas oeste y sur y acceso fiable a Yala. Mayo–septiembre conviene al Triángulo Cultural; adaptamos parques safari según temporada.',
+    faq: [
+      {
+        q: '¿Cuántas noches de hotel incluye el tour de 7 días?',
+        a: 'El paquete cubre 6 noches en hoteles 4 estrellas en media pensión. Alojamiento y comidas del chófer incluidos; entradas y almuerzos corren por su cuenta.',
+      },
+      {
+        q: '¿Podemos personalizar el safari Wilpattu o cambiar Yala por otro parque?',
+        a: 'Sí. Las rutas de fauna varían por temporada Minneriya/Kaudulla o Udawalawe son alternativas. Indique sus prioridades al reservar.',
+      },
+      {
+        q: '¿El tren panorámico en Ella está incluido en el precio?',
+        a: 'El tramo icónico forma parte del itinerario; los billetes no están en el precio base, pero la guía organiza la mejor clase y horario.',
+      },
+      {
+        q: '¿Qué nivel de forma se necesita para Sigiriya y Little Adam\'s Peak?',
+        a: 'Sigiriya implica unos 1.000 escalones; Little Adam\'s Peak es una caminata más suave de 45 minutos. Pidurangala al atardecer es una opción más ligera.',
+      },
+    ],
     days: [
       {
         title: 'Aeropuerto / Hotel – Wilpattu',
@@ -1429,9 +1584,40 @@ export const TOUR7: TourContent = {
       'Paliwo i opłaty parkingowe',
       'Obsługa 24 godziny',
       'Nielimitowany kilometraż na całą wycieczkę',
-      'Zakwaterowanie podczas wycieczki',
+      'Głównie hotele 4-gwiazdkowe (w sezonie szczytowym, jeśli wybrane hotele są niedostępne, mogą zostać zapewnione równoważne hotele 3,5-gwiazdkowe)',
     ],
     excludes: ['Jedzenie i napoje', 'Bilety wstępu i opłaty za atrakcje'],
+    seoIntro:
+      'Siedmiodniowa wycieczka po Sri Lance to klasyczny program dla osób odwiedzających wyspę po raz pierwszy. W tydzień przemierzysz Trójkąt Kulturowy, mgliste regiony herbaciane, terytoria lampartów i południowe wybrzeże bez zbędnych objazdów. Sundown Tours stworzyło tę prywatną trasę dla par, rodzin i małych grup: safari Wilpattu, życie wioski i zgromadzenia słoni przy Sigiriya, wspinaczka na Lion Rock i rytuały w Świątyni Zęba w Kandy, panoramiczny pociąg do Ella, Nine Arches Bridge i Little Adam\'s Peak, safari jeepowe w Yala, twierdza Galle UNESCO i doświadczenia rzeczne przed wyjazdem. Anglojęzyczny kierowca prowadzi klimatyzowany pojazd prywatny z nieograniczonym przebiegiem. Zakwaterowanie w hotelach 4-gwiazdkowych w formule half board, dostosowywane na życzenie.',
+    highlights: [
+      '28 wybranych przystanków w 10 dystryktach w 7 dni z prywatnym kierowcą i nieograniczonym przebiegiem',
+      'Safari Wilpattu, Sigiriya, Świątynia Zęba w Kandy i widoki z pociągu w regionie Ella',
+      'Safari po lampartach i słoniach w Yala we własnym jeepie 4x4',
+      'Half board w starannie dobranych hotelach 4-gwiazdkowych',
+      'Dodatki Sundown: gotowanie wiejskie, ajurweda, zachód słońca na Pidurangala i namorzyny rzeki Madu',
+    ],
+    whoIsFor:
+      'Idealne dla debiutantów, rodzin z nastolatkami i par pragnących kultury, przyrody i krajobrazów w tydzień bez samodzielnej jazdy. Umiarkowana kondycja na wspinaczki; tempo dostosowujemy dla seniorów.',
+    bestTimeNote:
+      'Cały rok; grudzień–kwiecień to najsuchsza pogoda na wybrzeżach zachodnim i południowym oraz pewny dostęp do Yala. Maj–wrzesień pasuje do Trójkąta Kulturowego; parki safari dobieramy sezonowo.',
+    faq: [
+      {
+        q: 'Ile noclegów w hotelu obejmuje 7-dniowa wycieczka?',
+        a: 'Pakiet obejmuje 6 nocy w hotelach 4-gwiazdkowych na half board. Zakwaterowanie i posiłki kierowcy w cenie; bilety wstępu i lunche we własnym zakresie.',
+      },
+      {
+        q: 'Czy można dostosować safari Wilpattu lub zamienić Yala na inny park?',
+        a: 'Tak. Trasy wildlife zależą od sezonu Minneriya/Kaudulla lub Udawalawe to alternatywy. Podaj priorytety przy rezerwacji.',
+      },
+      {
+        q: 'Czy panoramiczny pociąg w Ella jest w cenie?',
+        a: 'Ikoniczny odcinek jest w programie; bilety nie wchodzą w cenę bazową, ale przewodnik organizuje najlepszą klasę i termin.',
+      },
+      {
+        q: 'Jaka kondycja jest potrzebna na Sigiriya i Little Adam\'s Peak?',
+        a: 'Sigiriya to ok. 1000 stopni; Little Adam\'s Peak to łagodniejszy 45-minutowy spacer. Pidurangala o zachodzie słońca to lżejsza opcja.',
+      },
+    ],
     days: [
       {
         title: 'Lotnisko / Hotel – Wilpattu',
@@ -1682,7 +1868,7 @@ export const TOUR7: TourContent = {
     persons: '20 человек',
     tourType: 'Обзорный тур',
     overview:
-      'Мы организуем для вас идеальный отдых на «райском острове» Шри-Ланка. Наш 7-дневный пакет (6 ночей) объединяет все знаменитые достопримечательности и редкие впечатления, характерные для Sundown Tours, с проживанием в лучших 4-звёздочных отелях на полупансионе. Сафари в Яле, Сигирия, мост Nine Arches в Элле, поездка на поезде в Эллу, Храм Зуба Будды в Канди, водопад Рамбода, восхождение на Little Adam’s Peak, Нувара-Элия, форт Галле и прогулка по реке Бентота — лишь некоторые из них. Всего вы посетите 28 достопримечательностей в 10 округах на частном транспорте.',
+      'Мы организуем для вас идеальный отдых на «райском острове» Шри-Ланка. Наш 7-дневный пакет (6 ночей) объединяет все знаменитые достопримечательности и редкие впечатления, характерные для Sundown Tours, с проживанием в лучших 4-звёздочных отелях на полупансионе. Сафари в Яле, Сигирия, мост Nine Arches в Элле, поездка на поезде в Эллу, Храм Зуба Будды в Канди, водопад Рамбода, восхождение на Little Adam’s Peak, Нувара-Элия, форт Галле и прогулка по реке Бентота лишь некоторые из них. Всего вы посетите 28 достопримечательностей в 10 округах на частном транспорте.',
     includes: [
       'Частный автомобиль с кондиционером',
       'Профессиональный англоговорящий водитель',
@@ -1691,9 +1877,40 @@ export const TOUR7: TourContent = {
       'Топливо и парковка',
       'Обслуживание 24 часа',
       'Неограниченный пробег на весь тур',
-      'Проживание во время тура',
+      'Преимущественно отели 4★ (в высокий сезон, если выбранные отели недоступны, может быть предоставлен эквивалентный отель 3,5★)',
     ],
     excludes: ['Еда и напитки', 'Входные билеты и оплата активностей'],
+    seoIntro:
+      'Семидневный тур по Шри-Ланке классический маршрут для первого визита. За неделю вы проедете Культурный треугольник, чайные горы, земли леопардов и южное побережье без лишних объездов. Sundown Tours создала этот частный маршрут для пар, семей и небольших групп: сафари в Wilpattu, деревенская жизнь и слоновьи стада у Sigiriya, восхождение на Lion Rock и ритуалы в Храме Зуба в Kandy, живописный поезд в Ella, Nine Arches Bridge и Little Adam\'s Peak, сафари на джипе в Yala, фортец Galle UNESCO и речные впечатления перед отъездом. Англоговорящий шофёр ведёт кондиционированный автомобиль с неограниченным пробегом. Размещение в отелях 4★ на полупансионе, настраивается по запросу.',
+    highlights: [
+      '28 отобранных остановок в 10 округах за 7 дней с частным шофёром и неограниченным пробегом',
+      'Safari Wilpattu, Sigiriya, Храм Зуба в Kandy и виды из поезда в горах Ella',
+      'Сафари на леопардов и слонов в Yala на частном джипе 4x4',
+      'Полупансион в тщательно отобранных отелях 4★',
+      'Бонусы Sundown: деревенская кухня, аюрведа, закат на Pidurangala и мангровые заросли Madu',
+    ],
+    whoIsFor:
+      'Идеально для первого визита, семей с подростками и пар, желающих культуру, природу и пейзажи за неделю без самостоятельного вождения. Умеренная физическая форма для подъёмов; темп адаптируем для пожилых.',
+    bestTimeNote:
+      'Круглый год; декабрь–апрель сухая погода на западном и южном побережьях и надёжный доступ к Yala. Май–сентябрь подходит для Культурного треугольника; парки сафари подбираем по сезону.',
+    faq: [
+      {
+        q: 'Сколько ночей в отеле включено в 7-дневный тур?',
+        a: 'Пакет включает 6 ночей в отелях 4★ на полупансионе. Проживание и питание водителя включены; входные билеты и обеды оплачиваются отдельно.',
+      },
+      {
+        q: 'Можно ли изменить safari Wilpattu или заменить Yala другим парком?',
+        a: 'Да. Маршруты зависят от сезона Minneriya/Kaudulla или Udawalawe как альтернативы. Укажите приоритеты при бронировании.',
+      },
+      {
+        q: 'Включён ли живописный поезд в Ella в цену?',
+        a: 'Знаменитый участок входит в программу; билеты не включены в базовую цену, но гид организует лучший класс и время.',
+      },
+      {
+        q: 'Какая физическая форма нужна для Sigiriya и Little Adam\'s Peak?',
+        a: 'Sigiriya около 1000 ступеней; Little Adam\'s Peak более лёгкая 45-минутная прогулка. Pidurangala на закате облегчённый вариант.',
+      },
+    ],
     days: [
       {
         title: 'Аэропорт / отель – Вилпатту',
@@ -1725,13 +1942,13 @@ export const TOUR7: TourContent = {
             type: 'Сафари',
             title: 'Сафари на джипе в Каудулле и Миннерии',
             description:
-              'Насладитесь сафари на 4x4 в Каудулле или Миннерии — в зависимости от сезона и передвижения животных. Парки известны крупными стадами слонов; в сухой сезон можно увидеть впечатляющее «собрание слонов».',
+              'Насладитесь сафари на 4x4 в Каудулле или Миннерии в зависимости от сезона и передвижения животных. Парки известны крупными стадами слонов; в сухой сезон можно увидеть впечатляющее «собрание слонов».',
           },
           {
             type: 'Оздоровление',
             title: 'Аюрведа в Сигирии – здоровая сторона путешествия',
             description:
-              'После активного дня расслабьтесь на аюрведическом массаже с травяными маслами в традиционном центре в Сигирии — идеально для снятия напряжения и восстановления сил.',
+              'После активного дня расслабьтесь на аюрведическом массаже с травяными маслами в традиционном центре в Сигирии идеально для снятия напряжения и восстановления сил.',
           },
           {
             type: 'Смотровая площадка',
@@ -1772,19 +1989,19 @@ export const TOUR7: TourContent = {
             type: 'Объект ЮНЕСКО',
             title: 'Храм Зуба Будды',
             description:
-              'Посетите Храм Зуба в Канди — одну из главных святынь буддизма и объект ЮНЕСКО. Полюбуйтесь кандийской архитектурой у озера; во время пуджи услышите барабаны и молитвенные ритуалы.',
+              'Посетите Храм Зуба в Канди одну из главных святынь буддизма и объект ЮНЕСКО. Полюбуйтесь кандийской архитектурой у озера; во время пуджи услышите барабаны и молитвенные ритуалы.',
           },
           {
             type: 'Культурное шоу',
             title: 'Культурное шоу в Kandy Lake Club',
             description:
-              'Вечером посмотрите кандийское танцевальное шоу: яркие костюмы, барабаны, танцы в масках и хождение по огню — прекрасное культурное завершение дня.',
+              'Вечером посмотрите кандийское танцевальное шоу: яркие костюмы, барабаны, танцы в масках и хождение по огню прекрасное культурное завершение дня.',
           },
           {
             type: 'Смотровая площадка',
             title: 'Смотровая площадка Канди',
             description:
-              'Со смотровой площадки над озером Канди откроется панорама города, Храма Зуба и зелёных холмов — идеальное место для фото.',
+              'Со смотровой площадки над озером Канди откроется панорама города, Храма Зуба и зелёных холмов идеальное место для фото.',
           },
           {
             type: 'Проживание',
@@ -1801,31 +2018,31 @@ export const TOUR7: TourContent = {
             type: 'Культурный визит',
             title: 'Башня Амбулувава',
             description:
-              'Посетите башню Амбулувава у Гамполы — многоконфессиональное святилище на холме. Поднимитесь по спиральной лестнице на вершину ради захватывающего обзора на 360° на центральное нагорье.',
+              'Посетите башню Амбулувава у Гамполы многоконфессиональное святилище на холме. Поднимитесь по спиральной лестнице на вершину ради захватывающего обзора на 360° на центральное нагорье.',
           },
           {
             type: 'Объект ЮНЕСКО',
             title: 'Посещение чайной фабрики',
             description:
-              'На чайной фабрике в горах вы увидите, как делают знаменитый цейлонский чай — от сбора до сушки — и попробуете свежезаваренную чашку с видом на горы.',
+              'На чайной фабрике в горах вы увидите, как делают знаменитый цейлонский чай от сбора до сушки и попробуете свежезаваренную чашку с видом на горы.',
           },
           {
             type: 'Культурное шоу',
             title: 'Водопад Рамбода',
             description:
-              'Остановка у водопада Рамбода (около 109 м) близ Пусселлавы, среди чайных плантаций и зелени — освежающая панорамная пауза в горах.',
+              'Остановка у водопада Рамбода (около 109 м) близ Пусселлавы, среди чайных плантаций и зелени освежающая панорамная пауза в горах.',
           },
           {
             type: 'Обзор города',
             title: 'Мост Nine Arch',
             description:
-              'Посетите знаменитый мост Nine Arch в Элле, целиком из камня и кирпича, среди чайных плантаций и джунглей. Если повезёт, по нему проедет поезд — идеальный кадр.',
+              'Посетите знаменитый мост Nine Arch в Элле, целиком из камня и кирпича, среди чайных плантаций и джунглей. Если повезёт, по нему проедет поезд идеальный кадр.',
           },
           {
             type: 'Обзор города',
             title: 'Вечерний тур по Элле',
             description:
-              'Короткая прогулка по очаровательному горному городку Элла с видом на Ella Gap и окрестные долины — спокойная атмосфера и множество мест для фото.',
+              'Короткая прогулка по очаровательному горному городку Элла с видом на Ella Gap и окрестные долины спокойная атмосфера и множество мест для фото.',
           },
           {
             type: 'Проживание',
@@ -1842,19 +2059,19 @@ export const TOUR7: TourContent = {
             type: 'Поездка на поезде',
             title: 'Поездка на поезде по Элле',
             description:
-              'Совершите знаменитую поездку на поезде по Элле — одну из красивейших в мире — среди чайных плантаций, туманных гор, тоннелей и водопадов с потрясающими видами.',
+              'Совершите знаменитую поездку на поезде по Элле одну из красивейших в мире среди чайных плантаций, туманных гор, тоннелей и водопадов с потрясающими видами.',
           },
           {
             type: 'Смотровая площадка',
             title: 'Little Adam’s Peak',
             description:
-              'Лёгкая прогулка 30–45 минут среди чайных полей ведёт на Little Adam’s Peak с панорамой Ella Gap — подходит почти всем.',
+              'Лёгкая прогулка 30–45 минут среди чайных полей ведёт на Little Adam’s Peak с панорамой Ella Gap подходит почти всем.',
           },
           {
             type: 'Водопад',
             title: 'Водопад Равана',
             description:
-              'Остановка у широкого водопада Равана близ Эллы, связанного по легенде с Рамаяной — освежающая пауза с чистым горным воздухом.',
+              'Остановка у широкого водопада Равана близ Эллы, связанного по легенде с Рамаяной освежающая пауза с чистым горным воздухом.',
           },
           {
             type: 'Проживание',
@@ -1871,7 +2088,7 @@ export const TOUR7: TourContent = {
             type: 'Наблюдение за китами',
             title: 'Наблюдение за китами и дельфинами в Мириссе',
             description:
-              'Отправьтесь на незабываемое наблюдение за китами и дельфинами в Мириссе — одном из лучших мест в мире. В Индийском океане ищите синих китов, кашалотов и стаи игривых дельфинов.',
+              'Отправьтесь на незабываемое наблюдение за китами и дельфинами в Мириссе одном из лучших мест в мире. В Индийском океане ищите синих китов, кашалотов и стаи игривых дельфинов.',
           },
           {
             type: 'Снорклинг',
@@ -1883,19 +2100,19 @@ export const TOUR7: TourContent = {
             type: 'Снорклинг',
             title: 'Снорклинг с черепахами',
             description:
-              'Поплавайте рядом с грациозными зелёными черепахами и биссами в тёплых водах Мириссы — незабываемая встреча с природой.',
+              'Поплавайте рядом с грациозными зелёными черепахами и биссами в тёплых водах Мириссы незабываемая встреча с природой.',
           },
           {
             type: 'Водная активность',
             title: 'Каяк на закате',
             description:
-              'Гребите вдоль побережья в спокойной прогулке на каяке, пока небо окрашивается в оранжевый, розовый и золотой — одна из красивейших водных активностей юга.',
+              'Гребите вдоль побережья в спокойной прогулке на каяке, пока небо окрашивается в оранжевый, розовый и золотой одна из красивейших водных активностей юга.',
           },
           {
             type: 'Прогулка на лодке',
             title: 'Прогулка на лодке на закате',
             description:
-              'Спокойная прогулка на лодке на закате с панорамой южного побережья — романтично и подходит для семей.',
+              'Спокойная прогулка на лодке на закате с панорамой южного побережья романтично и подходит для семей.',
           },
           {
             type: 'Проживание',
@@ -1913,7 +2130,7 @@ export const TOUR7: TourContent = {
             type: 'Природа и культура',
             title: 'Coconut Tree Hill в Мириссе',
             description:
-              'Посетите Coconut Tree Hill — один из самых фотографируемых прибрежных видов Шри-Ланки: обрыв с кокосовыми пальмами и панорамой бирюзового океана.',
+              'Посетите Coconut Tree Hill один из самых фотографируемых прибрежных видов Шри-Ланки: обрыв с кокосовыми пальмами и панорамой бирюзового океана.',
           },
           {
             type: 'Охрана природы',

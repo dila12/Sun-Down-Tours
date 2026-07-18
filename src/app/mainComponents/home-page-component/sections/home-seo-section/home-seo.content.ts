@@ -65,7 +65,7 @@ const en: HomeSeoContent = {
   tag: 'TRAVEL GUIDE',
   title: 'The Complete Guide to Private Sri Lanka Tours & Tailor-Made Holidays',
   subtitle:
-    'Written by the local experts at Sundown Tours Sri Lanka — licensed chauffeur guides, tailor-made itineraries and thousands of happy travellers from the UK, Germany, France, Switzerland, Italy, Spain and Poland since 1992.',
+    'Written by the local experts at Sundown Tours Sri Lanka licensed chauffeur guides, tailor-made itineraries and thousands of happy travellers from the UK, Germany, France, Switzerland, Italy, Spain and Poland since 1992.',
   tocLabel: 'On this page',
   seeAlsoLabel: 'See also',
   toc: [
@@ -88,7 +88,7 @@ const en: HomeSeoContent = {
       heading: 'Why Visit Sri Lanka?',
       intro: [
         'Sri Lanka is one of the most rewarding island destinations in Asia for European travellers who want variety without long internal flights. In a single <strong>Sri Lanka holiday</strong> you can climb an ancient rock fortress at sunrise, ride a scenic train through misty tea plantations, join a leopard safari and finish the week on a palm-fringed beach.',
-        'Because the island is compact, a well-planned <strong>private Sri Lanka tour</strong> covers the Cultural Triangle, hill country, national parks and the south coast in seven to fourteen days at a comfortable pace — never rushed, and always flexible.',
+        'Because the island is compact, a well-planned <strong>private Sri Lanka tour</strong> covers the Cultural Triangle, hill country, national parks and the south coast in seven to fourteen days at a comfortable pace never rushed, and always flexible.',
         'Sri Lanka is also outstanding value. Boutique hotels, excellent food and world-class wildlife are available at prices that suit both mid-range and <strong>luxury Sri Lanka tours</strong>, and the warmth of local hospitality makes first-time visitors feel welcome the moment they land.',
       ],
       subsections: [
@@ -98,11 +98,11 @@ const en: HomeSeoContent = {
       ],
       cards: [
         { icon: 'fa-landmark', text: 'Eight UNESCO World Heritage Sites including Sigiriya, Kandy and Galle Fort.' },
-        { icon: 'fa-globe', text: 'Year-round travel — with two monsoon patterns there is always a sunny coast.' },
+        { icon: 'fa-globe', text: 'Year-round travel with two monsoon patterns there is always a sunny coast.' },
         { icon: 'fa-route', text: 'Compact size: most highlights are within three to five hours by road.' },
-        { icon: 'fa-paw', text: 'Exceptional wildlife — elephants, leopards, blue whales and tropical birds.' },
+        { icon: 'fa-paw', text: 'Exceptional wildlife elephants, leopards, blue whales and tropical birds.' },
         { icon: 'fa-utensils', text: 'Authentic cuisine blending spices, coconut, seafood and hill-country vegetables.' },
-        { icon: 'fa-car', text: 'Private tours with a dedicated driver-guide — no crowded group coaches.' },
+        { icon: 'fa-car', text: 'Private tours with a dedicated driver-guide no crowded group coaches.' },
       ],
       cardCols: 2,
       seeAlso: [
@@ -114,7 +114,7 @@ const en: HomeSeoContent = {
       anchor: 'best-time',
       heading: 'Best Time to Visit Sri Lanka',
       intro: [
-        'Sri Lanka is a year-round destination. Because two monsoons affect different coasts at different times, there is almost always a region enjoying excellent weather — the key is matching your itinerary to the right coast for your travel dates.',
+        'Sri Lanka is a year-round destination. Because two monsoons affect different coasts at different times, there is almost always a region enjoying excellent weather the key is matching your itinerary to the right coast for your travel dates.',
       ],
       cards: [
         { icon: 'fa-umbrella-beach', title: 'West & South Coast', meta: 'November to April', text: 'Peak season for Europeans escaping winter. Colombo, Galle, Mirissa, Bentota and Hikkaduwa enjoy calm seas and sunny days.' },
@@ -152,8 +152,8 @@ const en: HomeSeoContent = {
       anchor: 'chauffeur-tours',
       heading: 'Private Chauffeur Tours in Sri Lanka',
       intro: [
-        'A <strong>Sri Lanka chauffeur guide</strong> is far more than a driver — he is your daily planner, cultural interpreter and safety net on unfamiliar roads. Every Sundown Tours private tour includes a licensed, experienced chauffeur guide who speaks clear English (and other languages on request).',
-        'European travellers value air-conditioned comfort, flexible departure times and the freedom to stop for photographs, a tea plantation or a spontaneous temple visit — you are never bound to a group schedule.',
+        'A <strong>Sri Lanka chauffeur guide</strong> is far more than a driver he is your daily planner, cultural interpreter and safety net on unfamiliar roads. Every Sundown Tours private tour includes a licensed, experienced chauffeur guide who speaks clear English (and other languages on request).',
+        'European travellers value air-conditioned comfort, flexible departure times and the freedom to stop for photographs, a tea plantation or a spontaneous temple visit you are never bound to a group schedule.',
       ],
       subsections: [{ heading: 'What Is Included in a Private Chauffeur Tour?' }],
       list: [
@@ -162,7 +162,7 @@ const en: HomeSeoContent = {
         'Fuel, parking and driver accommodation, quoted transparently upfront',
         'Local knowledge of roads, attractions, restaurants and seasonal conditions',
         'Help with hotel check-in, safari jeep bookings and train tickets',
-        'A flexible daily schedule — you set the pace',
+        'A flexible daily schedule you set the pace',
       ],
       seeAlso: [
         { pageId: 'about', label: 'About Sundown Tours' },
@@ -177,7 +177,7 @@ const en: HomeSeoContent = {
       ],
       cards: [
         { icon: 'fa-clock', title: 'Short Private Tours', meta: '4–6 Days', text: 'Focused loops covering Sigiriya, Kandy, Ella and Yala in a compact route.', linkPageId: 'tour4', linkLabel: '4 day Sri Lanka tour' },
-        { icon: 'fa-calendar-alt', title: 'One-Week Itineraries', meta: '7–8 Days', text: 'Our most popular option — Cultural Triangle, tea country, Yala safari and south-coast beaches.', linkPageId: 'tour7', linkLabel: '7 day Sri Lanka tour' },
+        { icon: 'fa-calendar-alt', title: 'One-Week Itineraries', meta: '7–8 Days', text: 'Our most popular option Cultural Triangle, tea country, Yala safari and south-coast beaches.', linkPageId: 'tour7', linkLabel: '7 day Sri Lanka tour' },
         { icon: 'fa-calendar-alt', title: 'Extended Island Tours', meta: '10+ Days', text: 'North-central heritage, several safari drives, hill-country hiking and unhurried beach days.', linkPageId: 'tour10', linkLabel: '10 day Sri Lanka tour' },
       ],
       cardCols: 3,
@@ -197,7 +197,7 @@ const en: HomeSeoContent = {
         {
           heading: 'Extended Island Tours (10+ Days)',
           paras: [
-            'A 10 day tour allows north-central heritage sites, multiple safari drives, hill-country hiking and unhurried beach days — popular with French and Italian honeymooners and multi-generational families from Switzerland.',
+            'A 10 day tour allows north-central heritage sites, multiple safari drives, hill-country hiking and unhurried beach days popular with French and Italian honeymooners and multi-generational families from Switzerland.',
           ],
         },
       ],
@@ -212,22 +212,22 @@ const en: HomeSeoContent = {
       anchor: 'wildlife-safaris',
       heading: 'Wildlife Safaris & Yala National Park',
       intro: [
-        '<strong>Sri Lanka safari tours</strong> are a highlight for European nature lovers. The island’s national parks are compact compared with African reserves, so meaningful sightings — leopards, sloth bears, elephants, crocodiles and hundreds of birds — happen within a half-day jeep safari.',
+        '<strong>Sri Lanka safari tours</strong> are a highlight for European nature lovers. The island’s national parks are compact compared with African reserves, so meaningful sightings leopards, sloth bears, elephants, crocodiles and hundreds of birds happen within a half-day jeep safari.',
       ],
       subsections: [
         {
-          heading: 'Yala Safari — Leopard Country',
+          heading: 'Yala Safari Leopard Country',
           paras: [
-            'Yala National Park (Block 1) offers one of the highest leopard densities in the world. Morning drives deliver the best light and animal activity. Our Ella & Yala safari tour pairs hill-country scenery with a game drive — a favourite with British and Polish wildlife photographers.',
+            'Yala National Park (Block 1) offers one of the highest leopard densities in the world. Morning drives deliver the best light and animal activity. Our Ella & Yala safari tour pairs hill-country scenery with a game drive a favourite with British and Polish wildlife photographers.',
           ],
         },
         {
           heading: 'Other Notable Safari Parks',
           list: [
-            '<strong>Udawalawe</strong> — reliable elephant herds; ideal for families with children',
-            '<strong>Wilpattu</strong> — quieter leopard territory; featured on our 8-day route',
-            '<strong>Minneriya / Kaudulla</strong> — seasonal elephant gatherings (July–October)',
-            '<strong>Bundala</strong> — wetland and migratory birds for keen ornithologists',
+            '<strong>Udawalawe</strong> reliable elephant herds; ideal for families with children',
+            '<strong>Wilpattu</strong> quieter leopard territory; featured on our 8-day route',
+            '<strong>Minneriya / Kaudulla</strong> seasonal elephant gatherings (July–October)',
+            '<strong>Bundala</strong> wetland and migratory birds for keen ornithologists',
           ],
         },
       ],
@@ -270,7 +270,7 @@ const en: HomeSeoContent = {
         {
           heading: 'Anuradhapura & Polonnaruwa',
           paras: [
-            'These ancient cities feature enormous stupas, stone sculptures and monastery ruins. On longer itineraries we include a bicycle tour of Polonnaruwa — a highlight for history-focused travellers.',
+            'These ancient cities feature enormous stupas, stone sculptures and monastery ruins. On longer itineraries we include a bicycle tour of Polonnaruwa a highlight for history-focused travellers.',
           ],
         },
       ],
@@ -283,7 +283,7 @@ const en: HomeSeoContent = {
       anchor: 'tea-country',
       heading: 'Tea Country & Ella Hill Station',
       intro: [
-        'Sri Lanka’s hill country — historic Ceylon tea country — offers cooler temperatures, spectacular viewpoints and one of the world’s great train journeys. Nuwara Eliya feels unexpectedly European; Ella has become the hub for hiking, cafés and the famous Nine Arch Bridge.',
+        'Sri Lanka’s hill country historic Ceylon tea country offers cooler temperatures, spectacular viewpoints and one of the world’s great train journeys. Nuwara Eliya feels unexpectedly European; Ella has become the hub for hiking, cafés and the famous Nine Arch Bridge.',
         'The train from Kandy to Ella is consistently rated among the most beautiful rail routes on earth. We reserve seats where possible and coordinate private transfers when schedules do not align with your plan.',
       ],
       seeAlso: [
@@ -307,14 +307,14 @@ const en: HomeSeoContent = {
       anchor: 'luxury-tours',
       heading: 'Luxury Sri Lanka Tours & Bespoke Holidays',
       intro: [
-        '<strong>Sri Lanka luxury tours</strong> are about privacy, space and curated experiences — boutique villas in the hills, beachfront suites in Galle, private safari jeeps and chauffeur guides who anticipate your preferences from day one.',
-        'We design <strong>tailor-made Sri Lanka holidays</strong> with verified luxury partners and transparent pricing — no hidden commissions or forced shopping stops.',
+        '<strong>Sri Lanka luxury tours</strong> are about privacy, space and curated experiences boutique villas in the hills, beachfront suites in Galle, private safari jeeps and chauffeur guides who anticipate your preferences from day one.',
+        'We design <strong>tailor-made Sri Lanka holidays</strong> with verified luxury partners and transparent pricing no hidden commissions or forced shopping stops.',
       ],
       list: [
         'Five-star and boutique hotel reservations at best-available rates',
         'Private guides for archaeology, birding or photography interests',
         'Luxury vehicle fleet including spacious SUVs and vans for families',
-        'Special-occasion planning — anniversaries, proposals and milestone birthdays',
+        'Special-occasion planning anniversaries, proposals and milestone birthdays',
       ],
     },
     {
@@ -322,7 +322,7 @@ const en: HomeSeoContent = {
       heading: 'Sri Lanka Family Tours',
       intro: [
         'Sri Lanka is exceptionally family-friendly. Distances are manageable, hotels offer connecting rooms and pools, and children love elephant orphanages, turtle hatcheries, spice gardens and beach days. Our <strong>Sri Lanka family tours</strong> build in rest days and shorter drives so parents relax too.',
-        'We recommend seven to ten days for families from Europe with school-age children — a typical route mixes Sigiriya, a jeep safari, the Kandy-to-Ella train and two or three beach days.',
+        'We recommend seven to ten days for families from Europe with school-age children a typical route mixes Sigiriya, a jeep safari, the Kandy-to-Ella train and two or three beach days.',
       ],
       seeAlso: [
         { pageId: 'tours', label: 'Family-friendly tour packages' },
@@ -333,7 +333,7 @@ const en: HomeSeoContent = {
       anchor: 'honeymoon',
       heading: 'Sri Lanka Honeymoon Tours & Romantic Escapes',
       intro: [
-        'For couples from Italy, France, Spain and the UK, <strong>Sri Lanka honeymoon tours</strong> combine adventure and intimacy — sunrise from Sigiriya, a candlelit dinner at a tea-estate bungalow, a south-coast catamaran and a plunge-pool villa by the ocean.',
+        'For couples from Italy, France, Spain and the UK, <strong>Sri Lanka honeymoon tours</strong> combine adventure and intimacy sunrise from Sigiriya, a candlelit dinner at a tea-estate bungalow, a south-coast catamaran and a plunge-pool villa by the ocean.',
         'We arrange flowers, cake surprises, couples’ spa treatments and photography on request. Honeymoon routes usually run eight to fourteen days with relaxed two-night stays.',
       ],
       seeAlso: [{ pageId: 'tour7', label: '7 day honeymoon idea' }],
@@ -346,7 +346,7 @@ const en: HomeSeoContent = {
         { icon: 'fa-clock', title: 'Since 1992', text: 'More than three decades of trusted service to international travellers.' },
         { icon: 'fa-user', title: 'Licensed Guides', text: 'Licensed chauffeur guides with deep local knowledge.' },
         { icon: 'fa-heart', title: 'Happy Travellers', text: 'Thousands of happy travellers from across Europe and beyond.' },
-        { icon: 'fa-map-marker-alt', title: 'Tailor-Made', text: 'Every itinerary is tailor-made — no one-size-fits-all coach tours.' },
+        { icon: 'fa-map-marker-alt', title: 'Tailor-Made', text: 'Every itinerary is tailor-made no one-size-fits-all coach tours.' },
       ],
       cardCols: 4,
       seeAlso: [
@@ -358,7 +358,7 @@ const en: HomeSeoContent = {
       anchor: 'europe-travellers',
       heading: 'Planning Your Sri Lanka Holiday from Europe',
       intro: [
-        'Direct and one-stop flights connect Colombo with London, Frankfurt, Paris, Zurich, Milan, Madrid and Warsaw. Most European travellers arrive overnight and begin their tour the next morning — your chauffeur meets you at Bandaranaike International Airport (CMB).',
+        'Direct and one-stop flights connect Colombo with London, Frankfurt, Paris, Zurich, Milan, Madrid and Warsaw. Most European travellers arrive overnight and begin their tour the next morning your chauffeur meets you at Bandaranaike International Airport (CMB).',
       ],
       subsections: [
         {
@@ -367,7 +367,7 @@ const en: HomeSeoContent = {
             'Pack light, breathable clothing plus a layer for hill-country mornings',
             'Remove shoes and cover shoulders and knees at Buddhist temples',
             'Book Sigiriya and Yala safari slots early in peak season',
-            'Try hoppers, kottu roti and fresh fish curry — the food is a highlight',
+            'Try hoppers, kottu roti and fresh fish curry the food is a highlight',
             'Carry sunscreen and insect repellent for safari and evening dining',
             'Keep photocopies of your passport and ETA visa approval',
           ],
@@ -400,7 +400,7 @@ const en: HomeSeoContent = {
     },
     {
       q: 'What is the difference between a group tour and a private Sri Lanka tour?',
-      a: 'A private tour gives you a dedicated vehicle and chauffeur guide — you choose departure times, stops and hotels. Group coach tours follow fixed schedules. Sundown Tours specialises exclusively in private, tailor-made travel.',
+      a: 'A private tour gives you a dedicated vehicle and chauffeur guide you choose departure times, stops and hotels. Group coach tours follow fixed schedules. Sundown Tours specialises exclusively in private, tailor-made travel.',
     },
     {
       q: 'Is a Sri Lanka chauffeur guide worth the cost?',

@@ -18,6 +18,11 @@ export interface TourDayL10n {
   activities?: TourActivityL10n[];
 }
 
+export interface TourFaqItem {
+  q: string;
+  a: string;
+}
+
 export interface TourL10n {
   title?: string;
   description?: string;
@@ -27,6 +32,11 @@ export interface TourL10n {
   tourType?: string;
   includes?: string[];
   excludes?: string[];
+  seoIntro?: string;
+  highlights?: string[];
+  whoIsFor?: string;
+  bestTimeNote?: string;
+  faq?: TourFaqItem[];
   days?: TourDayL10n[];
 }
 
@@ -51,6 +61,11 @@ export interface BaseTour {
   persons: string;
   tourType?: string;
   overview?: string;
+  seoIntro?: string;
+  highlights?: string[];
+  whoIsFor?: string;
+  bestTimeNote?: string;
+  faq?: TourFaqItem[];
   itinerary?: BaseDay[];
   includes?: string[];
   excludes?: string[];
@@ -82,6 +97,11 @@ export function localizeTour(base: BaseTour, l10n?: TourL10n): BaseTour {
     tourType: l10n.tourType ?? base.tourType,
     includes: l10n.includes ?? base.includes,
     excludes: l10n.excludes ?? base.excludes,
+    seoIntro: l10n.seoIntro ?? base.seoIntro,
+    highlights: l10n.highlights ?? base.highlights,
+    whoIsFor: l10n.whoIsFor ?? base.whoIsFor,
+    bestTimeNote: l10n.bestTimeNote ?? base.bestTimeNote,
+    faq: l10n.faq ?? base.faq,
     itinerary: base.itinerary?.map((day, di) => {
       const dl = l10n.days?.[di];
       if (!dl) {

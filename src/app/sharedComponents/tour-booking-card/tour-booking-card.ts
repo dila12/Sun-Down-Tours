@@ -1,11 +1,16 @@
 import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
   Component,
+  ElementRef,
+  HostListener,
   Inject,
   Input,
   OnChanges,
   OnInit,
   PLATFORM_ID,
   SimpleChanges,
+  ViewChild,
 } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -21,12 +26,20 @@ import { LocaleService } from '../../i18n/locale.service';
 
 declare let gtag: Function;
 
+interface DialCountry {
+  name: string;
+  dial_code: string;
+  code: string;
+  flag: string;
+}
+
 @Component({
   selector: 'app-tour-booking-card',
   standalone: true,
   imports: [CommonModule, FormsModule, TranslatePipe],
   templateUrl: './tour-booking-card.html',
   styleUrls: ['./tour-booking-card.css', '../../../styles/ngx-toastr.lazy.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TourBookingCardComponent implements OnInit, OnChanges {
   @Input({ required: true }) tour!: any;
@@ -50,12 +63,19 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   email = '';
   country = '';
   countries: string[] = countriesData.countries;
-  countriesList = countryCode;
-  selectedCountry = this.countriesList.find((c) => c.code === 'LK');
+  countriesList = countryCode as DialCountry[];
+  selectedCountry: DialCountry | undefined = this.countriesList.find((c) => c.code === 'LK');
   phoneNumber = '';
   termsAccepted = false;
   minTravelDate = '';
+  phoneFieldFocused = false;
+  dialPickerOpen = false;
+  countrySearch = '';
+  filteredDialCountries: DialCountry[] = this.countriesList;
   readonly maxOnlineTravelers = 6;
+
+  @ViewChild('dialPickerRoot') dialPickerRoot?: ElementRef<HTMLElement>;
+  @ViewChild('dialSearchInput') dialSearchInput?: ElementRef<HTMLInputElement>;
 
   private isBrowser: boolean;
 
@@ -64,6 +84,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     private router: Router,
     private toastr: ToastrService,
     private i18n: LocaleService,
+    private cdr: ChangeDetectorRef,
     @Inject(PLATFORM_ID) private platformId: Object,
   ) {
     this.isBrowser = isPlatformBrowser(this.platformId);
@@ -92,6 +113,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     this.prices = priceData;
     this.updateAmounts();
     this.isLoadingPrices = false;
+    this.cdr.markForCheck();
   }
 
   get fullPhone(): string {
@@ -146,9 +168,11 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
           }
           this.updateAmounts();
           this.isLoadingPrices = false;
+          this.cdr.markForCheck();
         },
         error: () => {
           this.isLoadingPrices = false;
+          this.cdr.markForCheck();
         },
       });
   }
@@ -170,6 +194,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     const parsed = parseInt(String(value), 10);
     this.travelers = Number.isNaN(parsed) ? 1 : Math.min(20, Math.max(1, parsed));
     this.updateAmounts();
+    this.cdr.markForCheck();
   }
 
   updateAmounts(): void {
@@ -186,6 +211,100 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   onTravelDateChange(dateString: string): void {
     if (dateString) {
       this.travelDate = new Date(dateString);
+    }
+  }
+
+  trackByCountryCode(_: number, country: DialCountry): string {
+    return country.code;
+  }
+
+  onPhoneFieldFocus(): void {
+    this.phoneFieldFocused = true;
+    this.cdr.markForCheck();
+  }
+
+  onPhoneFieldBlur(): void {
+    this.phoneFieldFocused = false;
+    this.cdr.markForCheck();
+  }
+
+  toggleDialPicker(event: Event): void {
+    event.preventDefault();
+    event.stopPropagation();
+    if (this.dialPickerOpen) {
+      this.closeDialPicker();
+    } else {
+      this.openDialPicker();
+    }
+  }
+
+  openDialPicker(): void {
+    this.dialPickerOpen = true;
+    this.countrySearch = '';
+    this.filteredDialCountries = this.countriesList;
+    this.phoneFieldFocused = true;
+    this.cdr.detectChanges();
+    this.dialSearchInput?.nativeElement.focus();
+  }
+
+  closeDialPicker(): void {
+    if (!this.dialPickerOpen) return;
+    this.dialPickerOpen = false;
+    this.countrySearch = '';
+    this.filteredDialCountries = this.countriesList;
+    this.cdr.markForCheck();
+  }
+
+  onCountrySearchChange(): void {
+    const q = this.countrySearch.trim().toLowerCase();
+    if (!q) {
+      this.filteredDialCountries = this.countriesList;
+    } else {
+      this.filteredDialCountries = this.countriesList.filter(
+        (c) =>
+          c.name.toLowerCase().includes(q) ||
+          c.dial_code.toLowerCase().includes(q) ||
+          c.code.toLowerCase().includes(q),
+      );
+    }
+    this.cdr.markForCheck();
+  }
+
+  selectDialCountry(country: DialCountry): void {
+    this.selectedCountry = country;
+    this.closeDialPicker();
+  }
+
+  onDialSearchKeydown(event: KeyboardEvent): void {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      this.closeDialPicker();
+      return;
+    }
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      const first = this.filteredDialCountries[0];
+      if (first) {
+        this.selectDialCountry(first);
+      }
+    }
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    if (!this.isBrowser || !this.dialPickerOpen) return;
+    const root = this.dialPickerRoot?.nativeElement;
+    if (root && !root.contains(event.target as Node)) {
+      this.closeDialPicker();
+    }
+  }
+
+  @HostListener('document:keydown', ['$event'])
+  onDocumentKeydown(event: KeyboardEvent): void {
+    if (!this.isBrowser || !this.dialPickerOpen) return;
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      this.closeDialPicker();
     }
   }
 

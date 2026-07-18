@@ -4,7 +4,8 @@ import { Meta, Title } from '@angular/platform-browser';
 
 import { LOCALE_META, type Locale } from './app/i18n/locales';
 import { LocaleService } from './app/i18n/locale.service';
-import { getPage } from './app/i18n/site-data.mjs';
+import { ArticleContentService } from './app/i18n/articles/article-content.service';
+import { getPage, BASE_URL } from './app/i18n/site-data.mjs';
 
 const OG_IMAGE = 'https://www.sundowntours.com/assets/img/package-2.webp';
 const SITE_NAME = 'Sundown Tours Sri Lanka';
@@ -21,16 +22,29 @@ export class SeoService {
   private readonly meta = inject(Meta);
   private readonly titleService = inject(Title);
   private readonly i18n = inject(LocaleService);
+  private readonly articles = inject(ArticleContentService);
 
   update(pageId: string, locale: Locale): void {
     const page = getPage(pageId);
     const indexable = page ? page.index : true;
+    const article = this.articles.get(pageId, locale);
 
-    const title = this.field(pageId, locale, 'title', SITE_NAME);
-    const description = this.field(pageId, locale, 'description', this.field('home', locale, 'description', ''));
-    const keywords = this.field(pageId, locale, 'keywords', '');
+    const title =
+      this.field(pageId, locale, 'title', '') ||
+      (article ? `${article.h1} | ${SITE_NAME}` : SITE_NAME);
+    const description =
+      this.field(pageId, locale, 'description', '') ||
+      (article ? this.truncate(article.lead) : this.field('home', locale, 'description', ''));
+    const keywords =
+      this.field(pageId, locale, 'keywords', '') ||
+      (article ? `${article.h1.split(/[:|–—-]/)[0].trim()}, Sri Lanka, private tours` : '');
     const url = this.i18n.url(pageId, locale);
     const localeMeta = LOCALE_META[locale];
+    const ogImage = article?.heroImage
+      ? article.heroImage.startsWith('http')
+        ? article.heroImage
+        : `${BASE_URL}/${article.heroImage.replace(/^\//, '')}`
+      : OG_IMAGE;
 
     this.titleService.setTitle(title);
     this.doc.documentElement.setAttribute('lang', localeMeta.htmlLang);
@@ -43,9 +57,9 @@ export class SeoService {
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
     this.meta.updateTag({ property: 'og:url', content: url });
-    this.meta.updateTag({ property: 'og:type', content: 'website' });
+    this.meta.updateTag({ property: 'og:type', content: page?.kind === 'guide' ? 'article' : 'website' });
     this.meta.updateTag({ property: 'og:site_name', content: SITE_NAME });
-    this.meta.updateTag({ property: 'og:image', content: OG_IMAGE });
+    this.meta.updateTag({ property: 'og:image', content: ogImage });
     this.meta.updateTag({ property: 'og:locale', content: localeMeta.ogLocale });
     this.setOgAlternateLocales(locale);
 
@@ -53,10 +67,20 @@ export class SeoService {
     this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
     this.meta.updateTag({ name: 'twitter:title', content: title });
     this.meta.updateTag({ name: 'twitter:description', content: description });
-    this.meta.updateTag({ name: 'twitter:image', content: OG_IMAGE });
+    this.meta.updateTag({ name: 'twitter:image', content: ogImage });
 
     this.setCanonical(url);
     this.setAlternates(pageId);
+  }
+
+  private truncate(text: string, max = 155): string {
+    const trimmed = text.replace(/\s+/g, ' ').trim();
+    if (trimmed.length <= max) {
+      return trimmed;
+    }
+    const cut = trimmed.slice(0, max);
+    const lastSpace = cut.lastIndexOf(' ');
+    return `${(lastSpace > 80 ? cut.slice(0, lastSpace) : cut).trim()}…`;
   }
 
   /**

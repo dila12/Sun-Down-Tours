@@ -158,11 +158,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Air-Conditioned Private Vehicle',
       'English Speaking Professional Driver',
-      'Half Board Accommodation',
+      'Half Board Accommodation in carefully selected 3.5-Star or 4-Star hotels depending on availability',
       'Airport Pickup & Drop Off',
       'Fuel & Parking Fees',
     ],
     excludes: ['Entrance Fees', 'Lunch & Drinks', 'Personal Expenses'],
+    seoIntro:
+      'Four days is the sweet spot when you want Sri Lanka\'s greatest hits without a full-week commitment. This private round tour links the sacred lake city of Kandy, Ella\'s misty ridges and Nine Arches Bridge, a Yala National Park jeep safari for elephants and leopards, and the colonial charm of Galle Fort on the south coast all with one English-speaking chauffeur and unlimited mileage. Sundown Tours paces the driving so you enjoy Peradeniya Gardens and tea country viewpoints rather than rushing between checkpoints. Hotels are arranged on half board in star-class properties; entrance fees and lunches stay flexible so you choose which temples, parks and restaurants matter most. Ideal as a standalone holiday or as a focused add-on before a beach extension.',
+    highlights: [
+      'Kandy Sacred Tooth Relic Temple, cultural dance show and lake viewpoints',
+      'Ella Nine Arch Bridge, tea factory visit and scenic hill-country drives',
+      'Yala National Park 4x4 safari for wild elephants and leopard country',
+      'Galle Fort UNESCO walk and Madu River mangrove boat safari',
+      'Private air-conditioned vehicle with professional driver-guide throughout',
+    ],
+    faq: [
+      {
+        q: 'Can this 4-day tour start from Colombo or only the airport?',
+        a: 'Both work. We can pick you up at Bandaranaike International Airport or any Colombo/West Coast hotel and drop you at the airport or your preferred exit point on Day 4.',
+      },
+      {
+        q: 'Is Yala National Park always open on the itinerary?',
+        a: 'Yala closes briefly for maintenance each year, usually around September. If your dates coincide, we substitute Udawalawe or another park with strong elephant sightings at no change to the tour structure.',
+      },
+      {
+        q: 'Does the price include hotels and safari jeep fees?',
+        a: 'Half-board hotel accommodation and your private vehicle with driver are included. National park entrance tickets, safari jeep hire and activity fees are paid locally so you can tailor optional extras.',
+      },
+    ],
   },
   de: {
     title: 'Sri Lanka Privatreise – 4 Tage | Kandy, Ella, Yala & Südküste',
@@ -176,11 +199,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Klimatisiertes Privatfahrzeug',
       'Englischsprachiger professioneller Fahrer',
-      'Unterkunft mit Halbpension',
+      'Halbpension in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
       'Abholung & Rückfahrt zum Flughafen',
       'Kraftstoff & Parkgebühren',
     ],
     excludes: ['Eintrittsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Vier Tage sind der ideale Zeitrahmen, um die Höhepunkte Sri Lankas zu erleben, ohne sich für eine ganze Woche zu binden. Diese private Rundreise verbindet die heilige Seenstadt Kandy, die nebligen Hügel von Ella mit der Nine Arches Bridge, eine Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten und Leoparden sowie den kolonialen Charme des Galle Forts an der Südküste – alles mit einem englischsprachigen Chauffeur und unbegrenzter Kilometerleistung. Sundown Tours plant die Fahrzeiten so, dass Sie die Peradeniya-Gärten und die Aussichtspunkte im Teeland genießen können, statt zwischen den Stationen zu hetzen. Die Hotels werden auf Halbpension in Häusern gehobener Kategorie gebucht; Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie selbst entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind. Ideal als eigenständiger Urlaub oder als gezielte Ergänzung vor einer Strandverlängerung.',
+    highlights: [
+      'Zahntempel in Kandy, kulturelle Tanzshow und Aussichtspunkte am See',
+      'Nine Arch Bridge in Ella, Besuch einer Teefabrik und malerische Fahrten durchs Hügelland',
+      '4x4-Safari im Yala-Nationalpark auf der Suche nach wilden Elefanten und Leoparden',
+      'Spaziergang durch das UNESCO-Galle-Fort und Bootssafari durch die Mangroven des Madu-Flusses',
+      'Privates klimatisiertes Fahrzeug mit professionellem Fahrer-Guide während der gesamten Reise',
+    ],
+    faq: [
+      {
+        q: 'Kann diese 4-tägige Tour in Colombo starten oder nur am Flughafen?',
+        a: 'Beides ist möglich. Wir holen Sie am Flughafen Bandaranaike oder in jedem Hotel in Colombo bzw. an der Westküste ab und bringen Sie am 4. Tag zum Flughafen oder an Ihren gewünschten Zielort zurück.',
+      },
+      {
+        q: 'Ist der Yala-Nationalpark im Reiseverlauf immer geöffnet?',
+        a: 'Yala schließt jedes Jahr kurzzeitig für Wartungsarbeiten, meist im September. Fällt Ihre Reise in diesen Zeitraum, weichen wir ohne Änderung des Reiseablaufs auf Udawalawe oder einen anderen Park mit guten Elefantensichtungen aus.',
+      },
+      {
+        q: 'Sind Hotels und Safari-Jeep-Gebühren im Preis enthalten?',
+        a: 'Die Halbpension-Unterkunft und Ihr privates Fahrzeug mit Fahrer sind inklusive. Eintrittsgebühren für Nationalparks, die Jeep-Miete und Aktivitätsgebühren werden vor Ort bezahlt, sodass Sie optionale Extras flexibel wählen können.',
+      },
+    ],
     days: [
       {
         title: 'Flughafen / Hotel – Kulturerlebnis in Kandy',
@@ -316,11 +362,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Véhicule privé climatisé',
       'Chauffeur professionnel anglophone',
-      'Hébergement en demi-pension',
+      'Hébergement en demi-pension dans des hôtels 3,5 ou 4 étoiles soigneusement sélectionnés, selon disponibilité',
       'Prise en charge & dépose à l’aéroport',
       'Carburant & frais de parking',
     ],
     excludes: ['Frais d’entrée', 'Déjeuners & boissons', 'Dépenses personnelles'],
+    seoIntro:
+      'Quatre jours, c’est la durée idéale pour découvrir les incontournables du Sri Lanka sans s’engager sur une semaine entière. Ce circuit privé relie la ville sacrée au bord du lac de Kandy, les crêtes brumeuses d’Ella et le pont Nine Arches, un safari en jeep dans le parc national de Yala à la recherche d’éléphants et de léopards, ainsi que le charme colonial du fort de Galle sur la côte sud tout cela avec un chauffeur anglophone et un kilométrage illimité. Sundown Tours rythme les trajets pour que vous puissiez profiter des jardins de Peradeniya et des points de vue sur les plantations de thé plutôt que de vous précipiter d’un site à l’autre. Les hôtels sont réservés en demi-pension dans des établissements de standing ; les frais d’entrée et les déjeuners restent flexibles afin que vous choisissiez vous-même les temples, parcs et restaurants qui vous tiennent le plus à cœur. Idéal comme séjour autonome ou comme complément avant une prolongation en bord de mer.',
+    highlights: [
+      'Temple de la Dent Sacrée à Kandy, spectacle de danse traditionnelle et points de vue sur le lac',
+      'Nine Arch Bridge à Ella, visite d’une fabrique de thé et routes panoramiques dans les hauts plateaux',
+      'Safari en 4x4 dans le parc national de Yala à la recherche d’éléphants sauvages et de léopards',
+      'Balade dans le fort de Galle classé UNESCO et safari en bateau dans les mangroves de la rivière Madu',
+      'Véhicule privé climatisé avec chauffeur-guide professionnel pendant tout le circuit',
+    ],
+    faq: [
+      {
+        q: 'Ce circuit de 4 jours peut-il débuter à Colombo ou uniquement à l’aéroport ?',
+        a: 'Les deux sont possibles. Nous pouvons vous prendre en charge à l’aéroport international de Bandaranaike ou dans tout hôtel de Colombo/côte ouest, et vous déposer à l’aéroport ou au point de sortie de votre choix le jour 4.',
+      },
+      {
+        q: 'Le parc national de Yala est-il toujours ouvert sur cet itinéraire ?',
+        a: 'Yala ferme brièvement chaque année pour entretien, généralement en septembre. Si vos dates coïncident, nous le remplaçons par Udawalawe ou un autre parc offrant de belles observations d’éléphants, sans modifier la structure du circuit.',
+      },
+      {
+        q: 'Le prix inclut-il les hôtels et les frais de jeep pour le safari ?',
+        a: 'L’hébergement en demi-pension et votre véhicule privé avec chauffeur sont inclus. Les billets d’entrée des parcs nationaux, la location du jeep et les frais d’activités sont payés sur place, ce qui vous permet de choisir vos extras optionnels.',
+      },
+    ],
     days: [
       {
         title: 'Aéroport / Hôtel – Découverte culturelle de Kandy',
@@ -454,11 +523,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Veicolo privato con aria condizionata',
       'Autista professionista di lingua inglese',
-      'Soggiorno in mezza pensione',
+      'Soggiorno in mezza pensione in hotel da 3,5 o 4 stelle attentamente selezionati, in base alla disponibilità',
       'Trasferimento andata e ritorno dall’aeroporto',
       'Carburante e parcheggi',
     ],
     excludes: ['Biglietti d’ingresso', 'Pranzi e bevande', 'Spese personali'],
+    seoIntro:
+      'Quattro giorni sono la durata ideale per vivere il meglio dello Sri Lanka senza impegnarsi per un’intera settimana. Questo tour privato collega la sacra città lacustre di Kandy, le colline avvolte nella nebbia di Ella con il ponte Nine Arches, un safari in jeep nel Parco Nazionale di Yala alla ricerca di elefanti e leopardi, e il fascino coloniale del Forte di Galle sulla costa meridionale tutto con un autista di lingua inglese e chilometraggio illimitato. Sundown Tours scandisce i tempi di guida in modo da godersi i Giardini di Peradeniya e i punti panoramici delle piantagioni di tè invece di correre da una tappa all’altra. Gli hotel sono prenotati in mezza pensione in strutture di categoria; i biglietti d’ingresso e i pranzi restano flessibili, così potete scegliere quali templi, parchi e ristoranti preferite. Ideale come vacanza autonoma o come tappa mirata prima di un’estensione al mare.',
+    highlights: [
+      'Tempio della Sacra Reliquia del Dente a Kandy, spettacolo di danza tradizionale e punti panoramici sul lago',
+      'Nine Arch Bridge a Ella, visita a una fabbrica di tè e percorsi panoramici tra le colline',
+      'Safari in 4x4 nel Parco Nazionale di Yala alla ricerca di elefanti selvatici e leopardi',
+      'Passeggiata nel Forte di Galle, patrimonio UNESCO, e safari in barca tra le mangrovie del fiume Madu',
+      'Veicolo privato climatizzato con autista-guida professionale per tutta la durata del tour',
+    ],
+    faq: [
+      {
+        q: 'Questo tour di 4 giorni può partire da Colombo o solo dall’aeroporto?',
+        a: 'Entrambe le opzioni sono possibili. Possiamo venire a prendervi all’aeroporto di Bandaranaike o in qualsiasi hotel di Colombo/costa occidentale e riportarvi in aeroporto o nel luogo desiderato il quarto giorno.',
+      },
+      {
+        q: 'Il Parco Nazionale di Yala è sempre aperto nell’itinerario?',
+        a: 'Yala chiude brevemente ogni anno per manutenzione, di solito a settembre. Se le vostre date coincidono, lo sostituiamo con Udawalawe o un altro parco con buone probabilità di avvistare elefanti, senza modificare la struttura del tour.',
+      },
+      {
+        q: 'Il prezzo include hotel e costi del jeep per il safari?',
+        a: 'L’alloggio in mezza pensione e il veicolo privato con autista sono inclusi. I biglietti d’ingresso ai parchi nazionali, il noleggio del jeep e i costi delle attività si pagano in loco, così potete scegliere liberamente gli extra opzionali.',
+      },
+    ],
     days: [
       {
         title: 'Aeroporto / Hotel – Esperienza Culturale a Kandy',
@@ -586,11 +678,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Vehículo privado con aire acondicionado',
       'Conductor profesional de habla inglesa',
-      'Alojamiento en media pensión',
+      'Alojamiento en media pensión en hoteles de 3,5 o 4 estrellas cuidadosamente seleccionados, según disponibilidad',
       'Traslado de ida y vuelta al aeropuerto',
       'Combustible y tasas de aparcamiento',
     ],
     excludes: ['Entradas', 'Almuerzos y bebidas', 'Gastos personales'],
+    seoIntro:
+      'Cuatro días son la duración perfecta para disfrutar de lo mejor de Sri Lanka sin comprometerse a una semana completa. Este circuito privado conecta la sagrada ciudad lacustre de Kandy, las colinas neblinosas de Ella con el puente Nine Arches, un safari en jeep por el Parque Nacional de Yala en busca de elefantes y leopardos, y el encanto colonial del Fuerte de Galle en la costa sur, todo ello con un chófer de habla inglesa y kilometraje ilimitado. Sundown Tours organiza los trayectos para que pueda disfrutar de los Jardines de Peradeniya y los miradores de las plantaciones de té sin tener que correr de un punto a otro. Los hoteles se reservan en media pensión en establecimientos de categoría; las entradas y los almuerzos se mantienen flexibles para que usted decida qué templos, parques y restaurantes le interesan más. Ideal como escapada independiente o como complemento antes de una ampliación de playa.',
+    highlights: [
+      'Templo de la Sagrada Reliquia del Diente en Kandy, espectáculo de danza tradicional y miradores junto al lago',
+      'Nine Arch Bridge en Ella, visita a una fábrica de té y trayectos panorámicos por las colinas',
+      'Safari en 4x4 por el Parque Nacional de Yala en busca de elefantes salvajes y leopardos',
+      'Paseo por el Fuerte de Galle, Patrimonio de la Humanidad, y safari en barco por los manglares del río Madu',
+      'Vehículo privado con aire acondicionado y chófer-guía profesional durante todo el circuito',
+    ],
+    faq: [
+      {
+        q: '¿Este circuito de 4 días puede comenzar en Colombo o solo en el aeropuerto?',
+        a: 'Ambas opciones son posibles. Podemos recogerle en el aeropuerto internacional de Bandaranaike o en cualquier hotel de Colombo/costa oeste y dejarle en el aeropuerto o en el punto de salida que prefiera el día 4.',
+      },
+      {
+        q: '¿El Parque Nacional de Yala está siempre abierto en el itinerario?',
+        a: 'Yala cierra brevemente cada año por mantenimiento, normalmente en septiembre. Si sus fechas coinciden, lo sustituimos por Udawalawe u otro parque con buenas probabilidades de avistar elefantes, sin cambiar la estructura del circuito.',
+      },
+      {
+        q: '¿El precio incluye los hoteles y las tarifas del jeep del safari?',
+        a: 'El alojamiento en media pensión y su vehículo privado con conductor están incluidos. Las entradas a los parques nacionales, el alquiler del jeep y las tarifas de actividades se pagan in situ, para que pueda elegir libremente sus extras opcionales.',
+      },
+    ],
     days: [
       {
         title: 'Aeropuerto / Hotel – Experiencia Cultural en Kandy',
@@ -718,11 +833,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Prywatny klimatyzowany pojazd',
       'Profesjonalny kierowca mówiący po angielsku',
-      'Nocleg ze śniadaniem i kolacją (HB)',
+      'Nocleg ze śniadaniem i kolacją (HB) w starannie wybranych hotelach 3,5- lub 4-gwiazdkowych, w zależności od dostępności',
       'Transfer z i na lotnisko',
       'Paliwo i opłaty parkingowe',
     ],
     excludes: ['Opłaty za wstęp', 'Lunche i napoje', 'Wydatki osobiste'],
+    seoIntro:
+      'Cztery dni to idealny czas, aby poznać najważniejsze atrakcje Sri Lanki bez konieczności poświęcania całego tygodnia. Ta prywatna wycieczka łączy świętą Kandy nad jeziorem, mgliste wzniesienia Elli z mostem Nine Arches, safari jeepem w Parku Narodowym Yala w poszukiwaniu słoni i lampartów oraz kolonialny urok Fortu Galle na południowym wybrzeżu – wszystko z anglojęzycznym kierowcą i nielimitowanym przebiegiem. Sundown Tours rozkłada czas jazdy tak, aby móc cieszyć się Ogrodami Peradeniya i punktami widokowymi wśród plantacji herbaty, a nie pędzić między punktami programu. Hotele rezerwowane są w formule half board w obiektach wyższej kategorii; opłaty za wstęp i lunch pozostają elastyczne, dzięki czemu sami wybierają Państwo, które świątynie, parki i restauracje są dla Was najważniejsze. Idealna jako samodzielny wyjazd lub jako uzupełnienie przed wydłużeniem pobytu na plaży.',
+    highlights: [
+      'Świątynia Świętej Relikwii Zęba w Kandy, tradycyjny pokaz tańca i punkty widokowe nad jeziorem',
+      'Most Nine Arch w Elli, wizyta w fabryce herbaty i widokowe trasy przez wzgórza',
+      'Safari 4x4 w Parku Narodowym Yala w poszukiwaniu dzikich słoni i lampartów',
+      'Spacer po Forcie Galle wpisanym na listę UNESCO i safari łodzią przez namorzyny rzeki Madu',
+      'Prywatny klimatyzowany pojazd z profesjonalnym kierowcą-przewodnikiem przez całą podróż',
+    ],
+    faq: [
+      {
+        q: 'Czy ta 4-dniowa wycieczka może zaczynać się w Colombo, czy tylko na lotnisku?',
+        a: 'Obie opcje są możliwe. Możemy odebrać Państwa z lotniska Bandaranaike lub z każdego hotelu w Colombo/na wybrzeżu zachodnim, a 4. dnia odwieźć na lotnisko lub w wybrane miejsce.',
+      },
+      {
+        q: 'Czy Park Narodowy Yala jest zawsze otwarty w trakcie tej trasy?',
+        a: 'Yala zamyka się raz w roku na krótką konserwację, zwykle we wrześniu. Jeśli Państwa termin się z tym pokrywa, zastępujemy go Udawalawe lub innym parkiem z dobrymi szansami na spotkanie słoni, bez zmiany struktury wycieczki.',
+      },
+      {
+        q: 'Czy cena obejmuje hotele i opłaty za jeepa na safari?',
+        a: 'Nocleg ze śniadaniem i kolacją oraz prywatny pojazd z kierowcą są wliczone w cenę. Bilety wstępu do parków narodowych, wynajem jeepa i opłaty za atrakcje płaci się na miejscu, dzięki czemu mogą Państwo swobodnie wybierać opcjonalne dodatki.',
+      },
+    ],
     days: [
       {
         title: 'Lotnisko / Hotel – Doświadczenie Kulturowe w Kandy',
@@ -850,11 +988,34 @@ export const TOUR4: TourContent = {
     includes: [
       'Кондиционированный частный автомобиль',
       'Профессиональный англоговорящий водитель',
-      'Проживание с полупансионом',
+      'Проживание на полупансионе в тщательно отобранных отелях 3,5★ или 4★ в зависимости от наличия мест',
       'Трансфер из/в аэропорт',
       'Топливо и парковочные сборы',
     ],
     excludes: ['Входные билеты', 'Обед и напитки', 'Личные расходы'],
+    seoIntro:
+      'Четыре дня оптимальная продолжительность, чтобы увидеть главные достопримечательности Шри-Ланки, не тратя на это целую неделю. Этот частный тур соединяет священный город у озера Канди, туманные гряды Эллы с мостом Nine Arches, джип-сафари в национальном парке Яла в поисках слонов и леопардов, а также колониальное очарование форта Галле на южном побережье и всё это с англоговорящим шофёром и неограниченным пробегом. Sundown Tours распределяет время в пути так, чтобы вы успели насладиться садами Перадении и видовыми точками чайных плантаций, а не спешили между остановками. Отели бронируются на полупансионе в категорийных заведениях; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее. Идеально подходит как самостоятельный отпуск или как дополнение перед продлением отдыха на побережье.',
+    highlights: [
+      'Храм Зуба Будды в Канди, культурное танцевальное шоу и смотровые площадки у озера',
+      'Мост Nine Arch в Элле, посещение чайной фабрики и живописные дороги горной страны',
+      'Джип-сафари 4x4 в национальном парке Яла в поисках диких слонов и леопардов',
+      'Прогулка по форту Галле, объекту ЮНЕСКО, и лодочное сафари по мангровым зарослям реки Маду',
+      'Частный автомобиль с кондиционером и профессиональным водителем-гидом на протяжении всего тура',
+    ],
+    faq: [
+      {
+        q: 'Может ли этот 4-дневный тур начинаться в Коломбо, а не только в аэропорту?',
+        a: 'Возможны оба варианта. Мы можем встретить вас в аэропорту Бандаранаике или в любом отеле Коломбо/западного побережья и отвезти в аэропорт или в удобное для вас место в 4-й день.',
+      },
+      {
+        q: 'Всегда ли национальный парк Яла открыт по маршруту?',
+        a: 'Яла ежегодно закрывается на короткое время для технического обслуживания, обычно в сентябре. Если ваши даты совпадают, мы без изменения структуры тура заменяем его на Удавалаве или другой парк с хорошими шансами увидеть слонов.',
+      },
+      {
+        q: 'Включены ли в стоимость отели и сборы за джип для сафари?',
+        a: 'Проживание на полупансионе и частный автомобиль с водителем включены в стоимость. Входные билеты в национальные парки, аренда джипа и плата за активности оплачиваются на месте, что позволяет гибко выбирать дополнительные опции.',
+      },
+    ],
     days: [
       {
         title: 'Аэропорт / Отель – Культурный опыт в Канди',
@@ -869,7 +1030,7 @@ export const TOUR4: TourContent = {
             type: 'Культурный визит',
             title: 'Храм Зуба Будды',
             description:
-              'Исследуйте Шри Далада Малигава — один из самых священных буддийских храмов в мире, где хранится священная реликвия зуба Будды.',
+              'Исследуйте Шри Далада Малигава один из самых священных буддийских храмов в мире, где хранится священная реликвия зуба Будды.',
           },
           {
             type: 'Культурная программа',
@@ -926,7 +1087,7 @@ export const TOUR4: TourContent = {
           {
             type: 'Водопад',
             title: 'Водопад Равана',
-            description: 'Остановка у водопада Равана — одного из самых живописных водопадов Шри-Ланки на дороге между Эллой и Веллавайей.',
+            description: 'Остановка у водопада Равана одного из самых живописных водопадов Шри-Ланки на дороге между Эллой и Веллавайей.',
           },
           {
             type: 'Историческое место',

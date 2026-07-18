@@ -14,7 +14,8 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { onImageError, toWebpSrc, buildSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, HERO_LCP_BASE } from '../../utils/image.util';
+import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
+import { onImageError, toWebpSrc, buildSrcSet, buildAvifSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, heroLcpAvifSrcSet, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -36,6 +37,7 @@ interface Destination {
   name: string;
   src: string;
   alt: string;
+  pageId: string;
 }
 
 @Component({
@@ -83,9 +85,12 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
+  readonly buildAvifSrcSet = buildAvifSrcSet;
+  readonly heroLcpAvifSrcSet = heroLcpAvifSrcSet();
   readonly heroLcpSrc = heroLcpSrc(640);
   readonly heroLcpSrcSet = buildSrcSet(HERO_LCP_BASE);
   readonly heroLcpBase = HERO_LCP_BASE;
+  readonly whatsappUrl = SITE_WHATSAPP_URL;
 
   readonly heroSlide: TourSlide = {
     src: HERO_LCP_BASE,
@@ -119,12 +124,12 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly slides: TourSlide[] = [this.heroSlide, ...this.extraSlides];
 
   readonly destinations: Destination[] = [
-    { name: 'home.destinations.sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'home.destinations.sigiriyaAlt' },
-    { name: 'home.destinations.ella', src: 'assets/img/destination-2-opt.webp', alt: 'home.destinations.ellaAlt' },
-    { name: 'home.destinations.yala', src: 'assets/img/destination-3-opt.webp', alt: 'home.destinations.yalaAlt' },
-    { name: 'home.destinations.kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'home.destinations.kandyAlt' },
-    { name: 'home.destinations.dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'home.destinations.dambullaAlt' },
-    { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt' },
+    { name: 'home.destinations.sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'home.destinations.sigiriyaAlt', pageId: 'destSigiriya' },
+    { name: 'home.destinations.ella', src: 'assets/img/destination-2-opt.webp', alt: 'home.destinations.ellaAlt', pageId: 'destElla' },
+    { name: 'home.destinations.yala', src: 'assets/img/destination-3-opt.webp', alt: 'home.destinations.yalaAlt', pageId: 'destYala' },
+    { name: 'home.destinations.kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'home.destinations.kandyAlt', pageId: 'destKandy' },
+    { name: 'home.destinations.dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'home.destinations.dambullaAlt', pageId: 'destDambulla' },
+    { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt', pageId: 'destGalle' },
   ];
 
   readonly aboutMainSrc = toWebpSrc('assets/img/5daysTours/6.jpg');
@@ -193,29 +198,53 @@ export class HomePageComponent implements OnInit, OnDestroy {
       return;
     }
 
-    const multiPriceMap = new Map(
-      this.cachedPriceData.multiDayTours.map((tour: any) => [
-        tour.filecode ?? tour.name,
-        tour.price?.['2'] ?? 0,
-      ]),
-    );
-
-    const dayPriceMap = new Map(
-      this.cachedPriceData.dayTours.map((tour: any) => [
-        tour.filecode ?? tour.name,
-        tour.price?.['2'] ?? 0,
-      ]),
-    );
+    const multiPriceMap = this.buildPriceMap(this.cachedPriceData.multiDayTours);
+    const dayPriceMap = this.buildPriceMap(this.cachedPriceData.dayTours);
 
     this.multiDayTours = this.multiDayTours.map((tour) => ({
       ...tour,
-      price: (multiPriceMap.get(tour.filecode) as number | undefined) ?? tour.price ?? 0,
+      price: this.resolveCardPrice(tour.filecode, multiPriceMap, tour.price),
     }));
 
     this.dayTours = this.dayTours.map((tour) => ({
       ...tour,
-      price: (dayPriceMap.get(tour.filecode) as number | undefined) ?? tour.price ?? 0,
+      price: this.resolveCardPrice(tour.filecode, dayPriceMap, tour.price),
     }));
+  }
+
+  private buildPriceMap(entries: any[] | undefined): Map<string, number> {
+    const map = new Map<string, number>();
+    for (const tour of entries ?? []) {
+      const key = tour.filecode ?? tour.name;
+      if (!key) continue;
+      const amount = Number(tour.price?.['2'] ?? tour.price?.[2] ?? 0);
+      if (amount > 0) {
+        map.set(key, amount);
+        if (tour.name && tour.name !== key) {
+          map.set(tour.name, amount);
+        }
+      }
+    }
+    return map;
+  }
+
+  private resolveCardPrice(
+    filecode: string,
+    priceMap: Map<string, number>,
+    existing?: number,
+  ): number {
+    const fromMap = priceMap.get(filecode);
+    if (typeof fromMap === 'number' && fromMap > 0) {
+      return fromMap;
+    }
+    if (typeof existing === 'number' && existing > 0) {
+      return existing;
+    }
+    console.error(
+      `[Sundown Tours] Missing price for tour card "${filecode}". ` +
+        `Expected an entry in home-tour-prices.json / tourdetails.json or assets/data/US${filecode}.json.`,
+    );
+    return 0;
   }
 
   private async loadHomePrices() {
@@ -226,11 +255,48 @@ export class HomePageComponent implements OnInit, OnDestroy {
       this.cachedPriceData = priceData;
       this.hasFullPriceData = false;
       this.applyPrices();
+      await this.fillMissingPricesFromUsFiles();
       this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
       this.cdr.markForCheck();
-    } catch {
+    } catch (err) {
+      console.error('[Sundown Tours] Failed to load assets/data/home-tour-prices.json', err);
       this.cdr.markForCheck();
     }
+  }
+
+  /** When a card still has $0, try the per-tour US price file before leaving it at zero. */
+  private async fillMissingPricesFromUsFiles(): Promise<void> {
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
+    }
+
+    const fill = async (tours: TourCardView[]) =>
+      Promise.all(
+        tours.map(async (tour) => {
+          if ((tour.price ?? 0) > 0 || !tour.filecode) {
+            return tour;
+          }
+          const path = `assets/data/US${tour.filecode}.json`;
+          try {
+            const data = await firstValueFrom(this.http.get<any>(path));
+            const amount = Number(data?.price?.['2'] ?? data?.price?.[2] ?? 0);
+            if (amount > 0) {
+              return { ...tour, price: amount };
+            }
+            console.error(
+              `[Sundown Tours] Price file ${path} loaded but has no usable price["2"] value.`,
+            );
+          } catch {
+            console.error(
+              `[Sundown Tours] Price file missing or unreadable: ${path} (filecode=${tour.filecode}).`,
+            );
+          }
+          return tour;
+        }),
+      );
+
+    this.multiDayTours = await fill(this.multiDayTours);
+    this.dayTours = await fill(this.dayTours);
   }
 
   async loadAllTours() {
@@ -257,10 +323,12 @@ export class HomePageComponent implements OnInit, OnDestroy {
       );
       this.hasFullPriceData = true;
       this.refreshLocalizedCards();
+      await this.fillMissingPricesFromUsFiles();
     }
 
-    this.displayCount = current.length;
-    this.visibleTours = current.slice(0, this.displayCount);
+    const updated = this.activeTab === 'day' ? this.dayTours : this.multiDayTours;
+    this.displayCount = updated.length;
+    this.visibleTours = updated.slice(0, this.displayCount);
     this.loadingMore = false;
     this.showAllTours = true;
     this.cdr.markForCheck();

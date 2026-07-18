@@ -14,7 +14,7 @@ export const TOUR6: TourContent = {
     filecode: '6-day-sri-lanka-private-tour',
     overview: `Discover the highlights of Sri Lanka in this perfectly balanced 6-day private round tour. 
   Travel through the Cultural Triangle, explore Sigiriya Rock Fortress, experience Kandy’s sacred Temple of the Tooth Relic, journey through the misty tea plantations of Nuwara Eliya, enjoy an exciting Udawalawa National Park safari, and unwind along the beautiful South West Coast. 
-  With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation — perfect for couples, families and small groups.`,
+  With private transportation, experienced English-speaking driver guide, and comfortable accommodation options, this tour offers the ideal combination of culture, nature, wildlife and relaxation perfect for couples, families and small groups.`,
     tourType: 'Round Tour',
     itinerary: [
       {
@@ -38,7 +38,7 @@ export const TOUR6: TourContent = {
             type: 'Safari',
             title: { title: 'Minneriya National Park Safari', icon: 'fa-leaf', color: '#8e44ad' },
             description:
-              'Enjoy a thrilling 4x4 jeep safari in Minneriya National Park, famous for “The Gathering” — one of Asia’s largest wild elephant congregations. Spot elephants, deer, buffalo and diverse bird species.',
+              'Enjoy a thrilling 4x4 jeep safari in Minneriya National Park, famous for “The Gathering” one of Asia’s largest wild elephant congregations. Spot elephants, deer, buffalo and diverse bird species.',
             image: 'assets/img/5daysTours/24.jpg',
           },
           {
@@ -203,7 +203,34 @@ export const TOUR6: TourContent = {
       'Fuel & Parking Fees',
       'Unlimited Mileage for entire tour',
     ],
-    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation (Can be arranged upon request)'],
+    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation available on request primarily 4-Star Hotels (equivalent 3.5-Star may be used if selected hotels are unavailable in peak periods)'],
+    seoIntro:
+      'Six days gives you Sri Lanka\'s cultural triangle, misty tea country, leopard territory and the palm-fringed south coast without the pace of a marathon week. This private round tour opens with Pinnawala elephants and a Minneriya jeep safari near Sigiriya, then climbs the Lion Rock fortress and Kandy\'s Sacred Tooth Relic before winding through Peradeniya Gardens, Ramboda Falls and working tea estates in Nuwara Eliya. Day four delivers a Yala National Park 4x4 safari; the final stretch swaps wildlife for Mirissa viewpoints, Dondra Head lighthouse, sea turtle conservation and a Madu River mangrove boat ride. Sundown Tours schedules driving to protect your energy at rock climbs and early safari starts. Your English-speaking chauffeur handles navigation in a private air-conditioned vehicle with unlimited mileage. Hotels can be arranged on half board in 3–4 star properties; entrance fees and lunches stay flexible so you choose which temples, parks and restaurants matter most.',
+    highlights: [
+      'Minneriya elephant gathering safari and Sigiriya Lion Rock UNESCO ascent',
+      'Kandy Temple of the Tooth, cultural dance show and Peradeniya Botanical Gardens',
+      'Nuwara Eliya tea factory visit, Ramboda Falls and scenic hill-country drives',
+      'Yala National Park jeep safari for elephants, leopards and coastal wetlands',
+      'Mirissa coast, Dondra lighthouse, turtle hatchery and Madu River boat safari',
+    ],
+    whoIsFor:
+      'Ideal for couples, families and small groups who want culture, wildlife and beaches in under a week without self-driving. Moderate fitness helps for Sigiriya; we can suggest lighter viewpoints for seniors.',
+    bestTimeNote:
+      'Year-round, but December–April offers driest weather on the south coast and reliable Yala access. May–September suits the Cultural Triangle; we substitute Udawalawe if Yala closes for maintenance.',
+    faq: [
+      {
+        q: 'Is hotel accommodation included in the 6-day tour price?',
+        a: 'Accommodation is not bundled in the base quote but we arrange half-board hotels in 3–4 star properties on request. Share your budget when booking and we send options before you confirm.',
+      },
+      {
+        q: 'Which elephant safari do we visit Minneriya or Kaudulla?',
+        a: 'We use Minneriya or nearby Kaudulla depending on the seasonal elephant gathering. Your driver confirms the best park for your travel dates to maximise wild elephant sightings.',
+      },
+      {
+        q: 'Can this tour start from Colombo instead of the airport?',
+        a: 'Yes. We can pick up at Bandaranaike International Airport, any Colombo hotel or the south coast and drop you at your preferred exit point on Day 6.',
+      },
+    ],
   },
   de: {
     title: 'Sri Lanka Privatreise – 6 Tage | Kulturerbe, Hügelland & Wildlife-Safari',
@@ -221,7 +248,38 @@ export const TOUR6: TourContent = {
       'Kraftstoff & Parkgebühren',
       'Unbegrenzte Kilometer für die gesamte Reise',
     ],
-    excludes: ['Eintritts- & Aktivitätsgebühren', 'Speisen & Getränke', 'Unterkunft (auf Anfrage arrangierbar)'],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Sechs Tage bieten Ihnen Sri Lankas Kultur-Dreieck, das nebelige Teeland, Leopardengebiete und die von Palmen gesäumte Südküste, ohne das Tempo einer Marathonwoche. Diese private Rundreise beginnt mit den Elefanten von Pinnawala und einer Jeep-Safari in Minneriya bei Sigiriya, führt dann zum Aufstieg auf den Löwenfelsen und zur heiligen Zahnreliquie in Kandy, bevor es weiter durch die Peradeniya-Gärten, die Ramboda-Wasserfälle und aktive Teeplantagen in Nuwara Eliya geht. Am vierten Tag folgt eine 4x4-Safari im Yala-Nationalpark; auf der letzten Etappe stehen statt Tierwelt die Aussichtspunkte von Mirissa, der Leuchtturm Dondra Head, der Schutz von Meeresschildkröten und eine Bootstour durch die Mangroven des Madu-Flusses auf dem Programm. Sundown Tours plant die Fahrzeiten so, dass Ihre Energie für die Felsbesteigung und die frühen Safari-Starts erhalten bleibt. Ihr englischsprachiger Chauffeur übernimmt die Navigation in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung. Die Hotels können auf Halbpension in der 3–4-Sterne-Kategorie organisiert werden; Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind.',
+    highlights: [
+      'Elefanten-Safari in Minneriya und Aufstieg zum UNESCO-Löwenfelsen Sigiriya',
+      'Zahntempel in Kandy, kulturelle Tanzshow und Peradeniya Botanical Gardens',
+      'Besuch einer Teefabrik in Nuwara Eliya, Ramboda-Wasserfälle und malerische Fahrten durchs Hügelland',
+      'Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten, Leoparden und Küstenfeuchtgebieten',
+      'Küste von Mirissa, Leuchtturm Dondra, Schildkröten-Aufzuchtstation und Bootssafari auf dem Madu-Fluss',
+    ],
+    whoIsFor:
+      'Ideal für Paare, Familien und kleine Gruppen, die Kultur, Tierwelt und Strände in weniger als einer Woche ohne Selbstfahren erleben möchten. Moderate Fitness ist für Sigiriya hilfreich; für Senioren schlagen wir gerne leichtere Aussichtspunkte vor.',
+    bestTimeNote:
+      'Ganzjährig möglich, doch Dezember–April bietet das trockenste Wetter an der Südküste und zuverlässigen Zugang zu Yala. Mai–September eignet sich für das Kultur-Dreieck; bei Schließung von Yala wegen Wartungsarbeiten weichen wir auf Udawalawe aus.',
+    faq: [
+      {
+        q: 'Ist die Hotelunterkunft im Preis der 6-tägigen Tour enthalten?',
+        a: 'Die Unterkunft ist nicht im Grundpreis enthalten, wir organisieren aber auf Wunsch Halbpension-Hotels der 3–4-Sterne-Kategorie. Teilen Sie uns bei der Buchung Ihr Budget mit, und wir senden Ihnen Optionen vor der Bestätigung.',
+      },
+      {
+        q: 'Welche Elefanten-Safari besuchen wir – Minneriya oder Kaudulla?',
+        a: 'Wir nutzen Minneriya oder das nahegelegene Kaudulla, je nach saisonaler Elefantenansammlung. Ihr Fahrer bestätigt den besten Park für Ihre Reisedaten, um die Sichtungschancen wilder Elefanten zu maximieren.',
+      },
+      {
+        q: 'Kann diese Tour in Colombo statt am Flughafen beginnen?',
+        a: 'Ja. Wir holen Sie am Flughafen Bandaranaike, in jedem Hotel in Colombo oder an der Südküste ab und bringen Sie am 6. Tag zu Ihrem gewünschten Zielort.',
+      },
+    ],
     days: [
       {
         title: 'Flughafen nach Sigiriya – Elefanten & Safari-Abenteuer',
@@ -394,7 +452,38 @@ export const TOUR6: TourContent = {
       'Carburant & frais de parking',
       'Kilométrage illimité pour tout le circuit',
     ],
-    excludes: ['Entrées & frais d’activités', 'Repas & boissons', 'Hébergement (sur demande)'],
+    excludes: [
+      'Entrées & frais d’activités',
+      'Repas & boissons',
+      'Hébergement disponible sur demande principalement des hôtels 4 étoiles (des hôtels équivalents 3,5 étoiles peuvent être utilisés si les hôtels sélectionnés ne sont pas disponibles en haute saison)',
+    ],
+    seoIntro:
+      'Six jours permettent de découvrir le triangle culturel du Sri Lanka, le pays du thé embrumé, le territoire des léopards et la côte sud bordée de palmiers, sans le rythme d’une semaine marathon. Ce circuit privé débute avec les éléphants de Pinnawala et un safari en jeep à Minneriya près de Sigiriya, puis l’ascension de la forteresse du Rocher du Lion et la Relique de la Dent Sacrée à Kandy, avant de traverser les jardins de Peradeniya, les chutes de Ramboda et des plantations de thé en activité à Nuwara Eliya. Le quatrième jour propose un safari en 4x4 dans le parc national de Yala ; la dernière étape remplace la faune par les points de vue de Mirissa, le phare de Dondra Head, la conservation des tortues marines et une balade en bateau dans les mangroves de la rivière Madu. Sundown Tours planifie les trajets pour préserver votre énergie lors des ascensions et des départs matinaux en safari. Votre chauffeur anglophone gère la navigation dans un véhicule privé climatisé au kilométrage illimité. Les hôtels peuvent être organisés en demi-pension dans des établissements 3-4 étoiles ; les frais d’entrée et les déjeuners restent flexibles afin que vous choisissiez les temples, parcs et restaurants qui vous tiennent le plus à cœur.',
+    highlights: [
+      'Safari aux éléphants à Minneriya et ascension du Rocher du Lion classé UNESCO à Sigiriya',
+      'Temple de la Dent à Kandy, spectacle de danse traditionnelle et jardins botaniques de Peradeniya',
+      'Visite d’une fabrique de thé à Nuwara Eliya, chutes de Ramboda et routes panoramiques dans les hauts plateaux',
+      'Safari en jeep dans le parc national de Yala à la recherche d’éléphants, de léopards et de zones humides côtières',
+      'Côte de Mirissa, phare de Dondra, écloserie de tortues et safari en bateau sur la rivière Madu',
+    ],
+    whoIsFor:
+      'Idéal pour les couples, familles et petits groupes qui souhaitent culture, faune et plages en moins d’une semaine sans conduire eux-mêmes. Une forme physique modérée aide pour Sigiriya ; nous pouvons proposer des points de vue plus légers pour les seniors.',
+    bestTimeNote:
+      'Toute l’année, mais décembre-avril offre le temps le plus sec sur la côte sud et un accès fiable à Yala. Mai-septembre convient au Triangle culturel ; nous remplaçons par Udawalawe si Yala ferme pour entretien.',
+    faq: [
+      {
+        q: 'L’hébergement hôtelier est-il inclus dans le prix du circuit de 6 jours ?',
+        a: 'L’hébergement n’est pas inclus dans le tarif de base, mais nous organisons sur demande des hôtels 3-4 étoiles en demi-pension. Indiquez votre budget lors de la réservation et nous vous envoyons des options avant confirmation.',
+      },
+      {
+        q: 'Quel safari aux éléphants visitons-nous Minneriya ou Kaudulla ?',
+        a: 'Nous utilisons Minneriya ou le proche parc de Kaudulla selon le rassemblement saisonnier des éléphants. Votre chauffeur confirme le meilleur parc pour vos dates de voyage afin de maximiser les observations d’éléphants sauvages.',
+      },
+      {
+        q: 'Ce circuit peut-il débuter à Colombo plutôt qu’à l’aéroport ?',
+        a: 'Oui. Nous pouvons vous prendre en charge à l’aéroport international de Bandaranaike, dans tout hôtel de Colombo ou sur la côte sud, et vous déposer au point de sortie de votre choix le jour 6.',
+      },
+    ],
     days: [
       {
         title: 'De l’aéroport à Sigiriya – Éléphants & aventure safari',
@@ -415,7 +504,7 @@ export const TOUR6: TourContent = {
             type: 'Safari',
             title: 'Safari au parc national de Minneriya',
             description:
-              'Profitez d’un safari en 4x4 palpitant dans le parc national de Minneriya, célèbre pour « Le Rassemblement » — l’un des plus grands regroupements d’éléphants sauvages d’Asie. Observez éléphants, cerfs, buffles et une avifaune variée.',
+              'Profitez d’un safari en 4x4 palpitant dans le parc national de Minneriya, célèbre pour « Le Rassemblement » l’un des plus grands regroupements d’éléphants sauvages d’Asie. Observez éléphants, cerfs, buffles et une avifaune variée.',
           },
           {
             type: 'Expérience villageoise',
@@ -566,7 +655,38 @@ export const TOUR6: TourContent = {
       'Carburante e parcheggi',
       'Chilometraggio illimitato per tutto il tour',
     ],
-    excludes: ['Biglietti d’ingresso e attività', 'Cibo e bevande', 'Alloggio (organizzabile su richiesta)'],
+    excludes: [
+      'Biglietti d’ingresso e attività',
+      'Cibo e bevande',
+      'Alloggio disponibile su richiesta principalmente hotel 4 stelle (in alta stagione, se non disponibili, potranno essere utilizzati hotel equivalenti a 3,5 stelle)',
+    ],
+    seoIntro:
+      'Sei giorni vi regalano il triangolo culturale dello Sri Lanka, le nebbiose piantagioni di tè, il territorio dei leopardi e la costa meridionale orlata di palme, senza il ritmo di una settimana maratona. Questo tour privato inizia con gli elefanti di Pinnawala e un safari in jeep a Minneriya vicino a Sigiriya, poi sale alla fortezza del Lion Rock e al Tempio della Sacra Reliquia del Dente a Kandy, prima di attraversare i Giardini di Peradeniya, le cascate di Ramboda e le piantagioni di tè attive di Nuwara Eliya. Il quarto giorno offre un safari in 4x4 nel Parco Nazionale di Yala; l’ultima tappa sostituisce la fauna con i punti panoramici di Mirissa, il faro di Dondra Head, la conservazione delle tartarughe marine e una gita in barca tra le mangrovie del fiume Madu. Sundown Tours pianifica i trasferimenti per preservare le vostre energie durante le scalate e le partenze anticipate per il safari. Il vostro autista di lingua inglese gestisce la navigazione in un veicolo privato climatizzato con chilometraggio illimitato. Gli hotel possono essere organizzati in mezza pensione in strutture da 3-4 stelle; i biglietti d’ingresso e i pranzi restano flessibili, così potete scegliere quali templi, parchi e ristoranti preferite.',
+    highlights: [
+      'Safari agli elefanti a Minneriya e scalata al Lion Rock, patrimonio UNESCO di Sigiriya',
+      'Tempio del Dente a Kandy, spettacolo di danza tradizionale e Giardini Botanici di Peradeniya',
+      'Visita a una fabbrica di tè a Nuwara Eliya, cascate di Ramboda e percorsi panoramici tra le colline',
+      'Safari in jeep nel Parco Nazionale di Yala alla ricerca di elefanti, leopardi e zone umide costiere',
+      'Costa di Mirissa, faro di Dondra, vivaio delle tartarughe e safari in barca sul fiume Madu',
+    ],
+    whoIsFor:
+      'Ideale per coppie, famiglie e piccoli gruppi che desiderano cultura, fauna selvatica e spiagge in meno di una settimana senza guidare. Una forma fisica moderata è utile per Sigiriya; per gli anziani possiamo suggerire punti panoramici più accessibili.',
+    bestTimeNote:
+      'Tutto l’anno, ma dicembre-aprile offre il clima più secco sulla costa meridionale e un accesso affidabile a Yala. Maggio-settembre è adatto al Triangolo Culturale; sostituiamo con Udawalawe se Yala chiude per manutenzione.',
+    faq: [
+      {
+        q: 'L’alloggio in hotel è incluso nel prezzo del tour di 6 giorni?',
+        a: 'L’alloggio non è incluso nel prezzo base, ma organizziamo su richiesta hotel da 3-4 stelle in mezza pensione. Comunicate il vostro budget al momento della prenotazione e vi invieremo le opzioni prima della conferma.',
+      },
+      {
+        q: 'Quale safari agli elefanti visitiamo Minneriya o Kaudulla?',
+        a: 'Utilizziamo Minneriya o il vicino Kaudulla in base al raduno stagionale degli elefanti. Il vostro autista confermerà il parco migliore per le vostre date di viaggio per massimizzare gli avvistamenti di elefanti selvatici.',
+      },
+      {
+        q: 'Questo tour può iniziare da Colombo invece che dall’aeroporto?',
+        a: 'Sì. Possiamo venire a prendervi all’aeroporto di Bandaranaike, in qualsiasi hotel di Colombo o sulla costa meridionale e riportarvi nel luogo desiderato il sesto giorno.',
+      },
+    ],
     days: [
       {
         title: 'Dall’Aeroporto a Sigiriya – Elefanti e Avventura Safari',
@@ -587,7 +707,7 @@ export const TOUR6: TourContent = {
             type: 'Safari',
             title: 'Safari nel Parco Nazionale di Minneriya',
             description:
-              'Godetevi un emozionante safari in 4x4 nel Parco Nazionale di Minneriya, famoso per “The Gathering” — uno dei più grandi raduni di elefanti selvatici in Asia. Avvistate elefanti, cervi, bufali e una ricca avifauna.',
+              'Godetevi un emozionante safari in 4x4 nel Parco Nazionale di Minneriya, famoso per “The Gathering” uno dei più grandi raduni di elefanti selvatici in Asia. Avvistate elefanti, cervi, bufali e una ricca avifauna.',
           },
           {
             type: 'Esperienza di villaggio',
@@ -738,7 +858,38 @@ export const TOUR6: TourContent = {
       'Combustible y tasas de aparcamiento',
       'Kilometraje ilimitado durante todo el circuito',
     ],
-    excludes: ['Entradas y actividades', 'Comidas y bebidas', 'Alojamiento (disponible bajo petición)'],
+    excludes: [
+      'Entradas y actividades',
+      'Comidas y bebidas',
+      'Alojamiento disponible bajo petición principalmente hoteles de 4 estrellas (se podrán utilizar hoteles equivalentes de 3,5 estrellas si los hoteles seleccionados no están disponibles en temporada alta)',
+    ],
+    seoIntro:
+      'Seis días le ofrecen el triángulo cultural de Sri Lanka, las neblinosas montañas del té, el territorio de los leopardos y la costa sur bordeada de palmeras, sin el ritmo de una semana maratón. Este circuito privado comienza con los elefantes de Pinnawala y un safari en jeep en Minneriya cerca de Sigiriya, después asciende a la fortaleza del Lion Rock y a la Reliquia del Diente Sagrado en Kandy, antes de recorrer los Jardines de Peradeniya, las cataratas de Ramboda y plantaciones de té en activo en Nuwara Eliya. El cuarto día ofrece un safari en 4x4 por el Parque Nacional de Yala; el último tramo sustituye la fauna por los miradores de Mirissa, el faro de Dondra Head, la conservación de tortugas marinas y un paseo en barco por los manglares del río Madu. Sundown Tours planifica los trayectos para preservar su energía en las subidas y las salidas tempranas de safari. Su chófer de habla inglesa se encarga de la navegación en un vehículo privado con aire acondicionado y kilometraje ilimitado. Los hoteles pueden organizarse en media pensión en establecimientos de 3-4 estrellas; las entradas y los almuerzos se mantienen flexibles para que usted decida qué templos, parques y restaurantes le interesan más.',
+    highlights: [
+      'Safari de elefantes en Minneriya y ascenso al Lion Rock, Patrimonio de la Humanidad en Sigiriya',
+      'Templo del Diente en Kandy, espectáculo de danza tradicional y Jardines Botánicos de Peradeniya',
+      'Visita a una fábrica de té en Nuwara Eliya, cataratas de Ramboda y trayectos panorámicos por las colinas',
+      'Safari en jeep por el Parque Nacional de Yala en busca de elefantes, leopardos y humedales costeros',
+      'Costa de Mirissa, faro de Dondra, vivero de tortugas y safari en barco por el río Madu',
+    ],
+    whoIsFor:
+      'Ideal para parejas, familias y grupos pequeños que desean cultura, fauna y playas en menos de una semana sin conducir. Una forma física moderada ayuda en Sigiriya; para personas mayores podemos sugerir miradores más accesibles.',
+    bestTimeNote:
+      'Disponible todo el año, aunque diciembre-abril ofrece el clima más seco en la costa sur y un acceso fiable a Yala. Mayo-septiembre es adecuado para el Triángulo Cultural; sustituimos por Udawalawe si Yala cierra por mantenimiento.',
+    faq: [
+      {
+        q: '¿El alojamiento en hotel está incluido en el precio del circuito de 6 días?',
+        a: 'El alojamiento no está incluido en la tarifa base, pero organizamos hoteles de 3-4 estrellas en media pensión bajo petición. Indique su presupuesto al reservar y le enviaremos opciones antes de confirmar.',
+      },
+      {
+        q: '¿Qué safari de elefantes visitamos: Minneriya o Kaudulla?',
+        a: 'Utilizamos Minneriya o el cercano Kaudulla según la concentración estacional de elefantes. Su conductor confirmará el mejor parque para sus fechas de viaje para maximizar las posibilidades de ver elefantes salvajes.',
+      },
+      {
+        q: '¿Puede este circuito comenzar en Colombo en lugar del aeropuerto?',
+        a: 'Sí. Podemos recogerle en el aeropuerto internacional de Bandaranaike, en cualquier hotel de Colombo o en la costa sur, y dejarle en el punto de salida que prefiera el día 6.',
+      },
+    ],
     days: [
       {
         title: 'Del Aeropuerto a Sigiriya – Elefantes y Aventura de Safari',
@@ -759,7 +910,7 @@ export const TOUR6: TourContent = {
             type: 'Safari',
             title: 'Safari en el Parque Nacional de Minneriya',
             description:
-              'Disfrute de un emocionante safari en 4x4 por el Parque Nacional de Minneriya, famoso por “El Encuentro” — una de las mayores congregaciones de elefantes salvajes de Asia. Observe elefantes, ciervos, búfalos y una gran variedad de aves.',
+              'Disfrute de un emocionante safari en 4x4 por el Parque Nacional de Minneriya, famoso por “El Encuentro” una de las mayores congregaciones de elefantes salvajes de Asia. Observe elefantes, ciervos, búfalos y una gran variedad de aves.',
           },
           {
             type: 'Experiencia de aldea',
@@ -910,7 +1061,38 @@ export const TOUR6: TourContent = {
       'Paliwo i opłaty parkingowe',
       'Nielimitowany przebieg podczas całej wycieczki',
     ],
-    excludes: ['Opłaty za wstęp i atrakcje', 'Jedzenie i napoje', 'Nocleg (do uzgodnienia na życzenie)'],
+    excludes: [
+      'Opłaty za wstęp i atrakcje',
+      'Jedzenie i napoje',
+      'Nocleg dostępny na życzenie – głównie hotele 4-gwiazdkowe (w sezonie szczytowym, jeśli wybrane hotele są niedostępne, mogą zostać zastąpione równoważnymi hotelami 3,5-gwiazdkowymi)',
+    ],
+    seoIntro:
+      'Sześć dni to Trójkąt Kulturowy Sri Lanki, mgliste krainy herbaty, terytorium lampartów i południowe wybrzeże otoczone palmami, bez tempa maratońskiego tygodnia. Ta prywatna wycieczka zaczyna się od słoni w Pinnawali i safari jeepem w Minneriya blisko Sigiriya, następnie prowadzi na szczyt fortecy Lion Rock i do Świętej Relikwii Zęba w Kandy, a potem przez Ogrody Peradeniya, wodospady Ramboda i działające plantacje herbaty w Nuwara Eliya. Czwarty dzień to safari 4x4 w Parku Narodowym Yala; ostatni etap zamienia dziką przyrodę na punkty widokowe w Mirissie, latarnię morską Dondra Head, ochronę żółwi morskich i przejażdżkę łodzią przez namorzyny rzeki Madu. Sundown Tours planuje trasy tak, by zachować Państwa energię na wspinaczki i wczesne wyjazdy na safari. Anglojęzyczny kierowca zajmuje się nawigacją w prywatnym klimatyzowanym pojeździe z nielimitowanym przebiegiem. Hotele można zorganizować w formule half board w obiektach 3-4-gwiazdkowych; opłaty za wstęp i lunch pozostają elastyczne, dzięki czemu sami wybierają Państwo, które świątynie, parki i restauracje są najważniejsze.',
+    highlights: [
+      'Safari ze słoniami w Minneriya i wspinaczka na Lion Rock, obiekt UNESCO w Sigiriya',
+      'Świątynia Zęba w Kandy, tradycyjny pokaz tańca i Ogrody Botaniczne Peradeniya',
+      'Wizyta w fabryce herbaty w Nuwara Eliya, wodospady Ramboda i widokowe trasy przez wzgórza',
+      'Safari jeepem w Parku Narodowym Yala w poszukiwaniu słoni, lampartów i przybrzeżnych mokradeł',
+      'Wybrzeże Mirissa, latarnia morska Dondra, wylęgarnia żółwi i safari łodzią na rzece Madu',
+    ],
+    whoIsFor:
+      'Idealna dla par, rodzin i małych grup, które chcą doświadczyć kultury, dzikiej przyrody i plaż w mniej niż tydzień bez samodzielnej jazdy. Umiarkowana kondycja pomaga przy Sigiriya; dla seniorów możemy zaproponować łatwiejsze punkty widokowe.',
+    bestTimeNote:
+      'Dostępna cały rok, choć grudzień–kwiecień to najsuchsza pogoda na południowym wybrzeżu i pewny dostęp do Yala. Maj–wrzesień pasuje do Trójkąta Kulturowego; jeśli Yala jest zamknięta z powodu prac konserwacyjnych, zastępujemy ją Udawalawe.',
+    faq: [
+      {
+        q: 'Czy zakwaterowanie w hotelu jest wliczone w cenę 6-dniowej wycieczki?',
+        a: 'Zakwaterowanie nie jest wliczone w cenę podstawową, ale na życzenie organizujemy hotele 3–4-gwiazdkowe z wyżywieniem HB. Podajcie swój budżet przy rezerwacji, a wyślemy opcje przed potwierdzeniem.',
+      },
+      {
+        q: 'Które safari ze słoniami odwiedzamy – Minneriya czy Kaudulla?',
+        a: 'Korzystamy z Minneriya lub sąsiedniego Kaudulla, zależnie od sezonowego zgromadzenia słoni. Kierowca potwierdzi najlepszy park na Państwa daty podróży, aby zmaksymalizować szansę zobaczenia dzikich słoni.',
+      },
+      {
+        q: 'Czy ta wycieczka może zaczynać się w Colombo, a nie na lotnisku?',
+        a: 'Tak. Możemy odebrać Państwa z lotniska Bandaranaike, z każdego hotelu w Colombo lub z południowego wybrzeża i odwieźć w wybrane miejsce 6. dnia.',
+      },
+    ],
     days: [
       {
         title: 'Z Lotniska do Sigiriya – Słonie i Przygoda Safari',
@@ -931,7 +1113,7 @@ export const TOUR6: TourContent = {
             type: 'Safari',
             title: 'Safari w Parku Narodowym Minneriya',
             description:
-              'Zażyj emocjonującego safari 4x4 w Parku Narodowym Minneriya, znanym z „Zgromadzenia" — jednego z największych skupisk dzikich słoni w Azji. Zobacz słonie, jelenie, bawoły i bogatą awifaunę.',
+              'Zażyj emocjonującego safari 4x4 w Parku Narodowym Minneriya, znanym z „Zgromadzenia" jednego z największych skupisk dzikich słoni w Azji. Zobacz słonie, jelenie, bawoły i bogatą awifaunę.',
           },
           {
             type: 'Doświadczenie wioski',
@@ -1074,7 +1256,7 @@ export const TOUR6: TourContent = {
     persons: '2-20 человек',
     tourType: 'Тур',
     overview:
-      'Откройте для себя главные достопримечательности Шри-Ланки в этом идеально сбалансированном частном туре на 6 дней. Проедьте через Культурный треугольник, исследуйте скальную крепость Сигирия, посетите священный Храм Зуба Будды в Канди, проедьте через туманные чайные плантации Нувара-Элии, насладитесь увлекательным сафари в национальном парке Удавалаве и отдохните на прекрасном юго-западном побережье. Благодаря частному транспорту, опытному англоговорящему водителю-гиду и комфортному проживанию этот тур предлагает идеальное сочетание культуры, природы, дикой природы и отдыха — идеально для пар, семей и небольших групп.',
+      'Откройте для себя главные достопримечательности Шри-Ланки в этом идеально сбалансированном частном туре на 6 дней. Проедьте через Культурный треугольник, исследуйте скальную крепость Сигирия, посетите священный Храм Зуба Будды в Канди, проедьте через туманные чайные плантации Нувара-Элии, насладитесь увлекательным сафари в национальном парке Удавалаве и отдохните на прекрасном юго-западном побережье. Благодаря частному транспорту, опытному англоговорящему водителю-гиду и комфортному проживанию этот тур предлагает идеальное сочетание культуры, природы, дикой природы и отдыха идеально для пар, семей и небольших групп.',
     includes: [
       'Кондиционированный частный автомобиль',
       'Профессиональный англоговорящий водитель',
@@ -1082,7 +1264,38 @@ export const TOUR6: TourContent = {
       'Топливо и парковочные сборы',
       'Неограниченный пробег на протяжении всего тура',
     ],
-    excludes: ['Входные билеты и плата за мероприятия', 'Еда и напитки', 'Проживание (по запросу)'],
+    excludes: [
+      'Входные билеты и плата за мероприятия',
+      'Еда и напитки',
+      'Проживание доступно по запросу преимущественно отели 4★ (в высокий сезон, если выбранные отели недоступны, может использоваться эквивалентный отель 3,5★)',
+    ],
+    seoIntro:
+      'Шесть дней дают вам Культурный треугольник Шри-Ланки, туманные чайные горы, территорию леопардов и южное побережье, окружённое пальмами, без темпа марафонской недели. Этот частный тур начинается со слонов Пиннавелы и джип-сафари в Миннерии рядом с Sigiriya, затем идёт восхождение на крепость Lion Rock и к Священной реликвии зуба в Канди, а после через сады Перадении, водопады Ramboda и действующие чайные плантации в Нувара-Элии. Четвёртый день предлагает джип-сафари 4x4 в национальном парке Яла; на последнем этапе дикую природу сменяют смотровые площадки Мириссы, маяк Dondra Head, охрана морских черепах и прогулка на лодке по мангровым зарослям реки Маду. Sundown Tours планирует переезды так, чтобы сохранить ваши силы для восхождений и ранних выездов на сафари. Ваш англоговорящий шофёр берёт на себя навигацию в частном кондиционированном автомобиле с неограниченным пробегом. Отели можно организовать на полупансионе в категории 3–4★; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее.',
+    highlights: [
+      'Сафари к слонам в Миннерии и восхождение на объект ЮНЕСКО Lion Rock в Sigiriya',
+      'Храм Зуба в Канди, культурное танцевальное шоу и ботанический сад Перадении',
+      'Посещение чайной фабрики в Нувара-Элии, водопады Ramboda и живописные дороги горной страны',
+      'Джип-сафари в национальном парке Яла в поисках слонов, леопардов и прибрежных водно-болотных угодий',
+      'Побережье Мириссы, маяк Dondra, инкубатор для черепах и лодочное сафари по реке Маду',
+    ],
+    whoIsFor:
+      'Идеально для пар, семей и небольших групп, которые хотят увидеть культуру, дикую природу и пляжи менее чем за неделю без самостоятельного вождения. Умеренная физическая форма пригодится для Sigiriya; для пожилых людей мы можем предложить более лёгкие смотровые площадки.',
+    bestTimeNote:
+      'Доступно круглый год, но декабрь–апрель самая сухая погода на южном побережье и надёжный доступ к Яле. Май–сентябрь подходит для Культурного треугольника; при закрытии Ялы на техобслуживание мы заменяем её на Удавалаве.',
+    faq: [
+      {
+        q: 'Включено ли проживание в отеле в стоимость 6-дневного тура?',
+        a: 'Проживание не входит в базовую стоимость, но по запросу мы организуем отели 3–4★ на полупансионе. Сообщите свой бюджет при бронировании, и мы отправим варианты до подтверждения.',
+      },
+      {
+        q: 'Какое сафари к слонам мы посещаем Миннерию или Каудуллу?',
+        a: 'Мы используем Миннерию или соседнюю Каудуллу в зависимости от сезонного скопления слонов. Ваш водитель подтвердит лучший парк для ваших дат поездки, чтобы максимизировать шансы увидеть диких слонов.',
+      },
+      {
+        q: 'Может ли этот тур начинаться в Коломбо, а не в аэропорту?',
+        a: 'Да. Мы можем встретить вас в аэропорту Бандаранаике, в любом отеле Коломбо или на южном побережье и отвезти в удобное для вас место в 6-й день.',
+      },
+    ],
     days: [
       {
         title: 'От Аэропорта до Сигирии – Слоны и Сафари-Приключение',
@@ -1097,13 +1310,13 @@ export const TOUR6: TourContent = {
             type: 'Знакомство с животными',
             title: 'Приют для слонов Пиннавела',
             description:
-              'Посетите приют для слонов Пиннавела — известный центр, заботящийся о спасённых и осиротевших слонах. Понаблюдайте за слонами вблизи и, в зависимости от времени, за их незабываемым купанием в реке.',
+              'Посетите приют для слонов Пиннавела известный центр, заботящийся о спасённых и осиротевших слонах. Понаблюдайте за слонами вблизи и, в зависимости от времени, за их незабываемым купанием в реке.',
           },
           {
             type: 'Сафари',
             title: 'Сафари в национальном парке Миннерия',
             description:
-              'Отправьтесь в увлекательное джип-сафари по национальному парку Миннерия, известному «Сбором слонов» — одним из крупнейших скоплений диких слонов в Азии. Увидите слонов, оленей, буйволов и разнообразных птиц.',
+              'Отправьтесь в увлекательное джип-сафари по национальному парку Миннерия, известному «Сбором слонов» одним из крупнейших скоплений диких слонов в Азии. Увидите слонов, оленей, буйволов и разнообразных птиц.',
           },
           {
             type: 'Знакомство с деревней',
@@ -1125,13 +1338,13 @@ export const TOUR6: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Скальная крепость Сигирия',
             description:
-              'Подниметесь на крепость Львиной скалы Сигирия, объект ЮНЕСКО — королевский дворец V века, возвышающийся над джунглями. Откройте для себя древние фрески, Зеркальную стену и панорамный вид с вершины.',
+              'Подниметесь на крепость Львиной скалы Сигирия, объект ЮНЕСКО королевский дворец V века, возвышающийся над джунглями. Откройте для себя древние фрески, Зеркальную стену и панорамный вид с вершины.',
           },
           {
             type: 'Экскурсия с гидом',
             title: 'Храм Зуба Будды',
             description:
-              'Посетите Шри Далада Малигава в Канди — один из самых священных буддийских храмов в мире. Понаблюдайте за традиционными ритуалами и полюбуйтесь красивой канди-архитектурой храма.',
+              'Посетите Шри Далада Малигава в Канди один из самых священных буддийских храмов в мире. Понаблюдайте за традиционными ритуалами и полюбуйтесь красивой канди-архитектурой храма.',
           },
           {
             type: 'Культурная программа',
@@ -1160,13 +1373,13 @@ export const TOUR6: TourContent = {
             type: 'Природа',
             title: 'Водопад Рамбода',
             description:
-              'Остановка у водопада Рамбода — одного из самых высоких водопадов Шри-Ланки, окружённого живописными чайными плантациями и прохладным горным воздухом.',
+              'Остановка у водопада Рамбода одного из самых высоких водопадов Шри-Ланки, окружённого живописными чайными плантациями и прохладным горным воздухом.',
           },
           {
             type: 'Чайный опыт',
             title: 'Посещение чайной фабрики и плантации',
             description:
-              'Узнайте, как производится всемирно известный цейлонский чай — от листа до чашки. Пройдитесь по пышным чайным плантациям и попробуйте свежий чай в горной местности Шри-Ланки.',
+              'Узнайте, как производится всемирно известный цейлонский чай от листа до чашки. Пройдитесь по пышным чайным плантациям и попробуйте свежий чай в горной местности Шри-Ланки.',
           },
           {
             type: 'Проживание',
@@ -1183,12 +1396,12 @@ export const TOUR6: TourContent = {
             type: 'Сафари',
             title: 'Сафари в национальном парке Яла',
             description:
-              'Отправьтесь в увлекательное сафари по национальному парку Яла — одному из лучших мест Шри-Ланки для наблюдения за дикими слонами в естественной среде обитания. Увидите слонов, крокодилов, оленей и птиц на открытых лугах.',
+              'Отправьтесь в увлекательное сафари по национальному парку Яла одному из лучших мест Шри-Ланки для наблюдения за дикими слонами в естественной среде обитания. Увидите слонов, крокодилов, оленей и птиц на открытых лугах.',
           },
           {
             type: 'Проживание',
             title: 'Grand Tamarind Lake (или подобный) – полупансион',
-            description: 'Проживание в Grand Tamarind Lake или подобном отеле — с полупансионом.',
+            description: 'Проживание в Grand Tamarind Lake или подобном отеле с полупансионом.',
             extra: ['Отель 4 звезды (Премиум)', 'Отдельная ванная комната', 'Ужин'],
           },
         ],
@@ -1214,7 +1427,7 @@ export const TOUR6: TourContent = {
           {
             type: 'Проживание',
             title: 'Somerset Mirissa Hotel',
-            description: 'Проживание в Somerset Mirissa Hotel или подобном отеле — с полупансионом.',
+            description: 'Проживание в Somerset Mirissa Hotel или подобном отеле с полупансионом.',
             extra: ['Отель 4 звезды (Премиум)', 'Завтрак', 'Отдельная ванная комната', 'Ужин'],
           },
         ],

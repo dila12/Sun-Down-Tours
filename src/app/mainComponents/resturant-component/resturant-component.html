@@ -24,7 +24,7 @@
 
       <div class="booking-box mt-4 p-4 text-center">
         <h5>Book a Table</h5>
-        <p class="phone-number">+94 76 858 5532</p>
+            <p class="phone-number">+94 70 629 3585</p>
       </div>
     </div>
 
@@ -171,6 +171,19 @@
 
 </section>
 
+<section class="container py-5">
+  <h2 class="h4 mb-3">{{ 'restaurantsExplore.title' | t }}</h2>
+  <p class="text-muted">{{ 'restaurantsExplore.lead' | t }}</p>
+  <ul class="list-unstyled">
+    <li class="mb-2"><a [routerLink]="path('galleDay')">{{ relatedLabel('galleDay') }}</a></li>
+    <li class="mb-2"><a [routerLink]="path('destGalle')">{{ relatedLabel('destGalle') }}</a></li>
+    <li class="mb-2"><a [routerLink]="path('guideBeaches')">{{ relatedLabel('guideBeaches') }}</a></li>
+    <li class="mb-2"><a [routerLink]="path('guideFood')">{{ 'guidesHub.foodGuideLink' | t }}</a></li>
+    <li class="mb-2"><a [routerLink]="path('tour5')">{{ relatedLabel('tour5') }}</a></li>
+    <li class="mb-2"><a [routerLink]="path('contact')">{{ 'restaurantsExplore.contactCta' | t }}</a></li>
+  </ul>
+</section>
+
 <section class="contact-section py-5">
 
   <div class="container text-center">
@@ -212,7 +225,7 @@
           </div>
           <div>
             <h5>Call Us</h5>
-            <p><a href="tel:+94706293585">+94 76 858 5532</a></p>
+            <p><a href="tel:+94706293585">+94 70 629 3585</a></p>
           </div>
         </div>
       </div>

@@ -88,7 +88,34 @@ export const TOUR2EY: TourContent = {
       '24 Hours Service',
       'Unlimited Mileage for the entire tour',
     ],
-    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation (Can be arranged upon request)'],
+    excludes: ['Entrance & Activity Fees', 'Food & Drinks', 'Accommodation available on request primarily 4-Star Hotels (equivalent 3.5-Star may be used if selected hotels are unavailable in peak periods)'],
+    seoIntro:
+      'Combine Ella\'s misty ridges with a Yala leopard safari in just two private days the classic hill-country-to-wildlife pairing without a full-week itinerary. Day one explores Nine Arches Bridge, Little Adam\'s Peak, optional Flying Ravana zip-lining and Ravana Falls, with half-board accommodation near Ella Gap. Day two descends to Yala National Park for a morning 4x4 jeep safari among elephants, crocodiles and with luck leopards, then revisits Ravana Falls from the low-country side before your onward transfer. Sundown Tours aligns safari entry times and train viewpoints while your English-speaking driver navigates the steep Ella–Yala road in a private air-conditioned vehicle with unlimited mileage. Park jeep hire and entrance fees are paid locally so you can extend the safari or add a beach drop on the south coast.',
+    highlights: [
+      'Ella Nine Arches Bridge, Little Adam\'s Peak and Ravana Falls in one day',
+      'Optional Flying Ravana zip-line with panoramic hill-country views',
+      'Yala National Park morning jeep safari for elephants and leopard habitat',
+      'Half-board Ella Gap hotel night between highlands and wildlife country',
+      'Private chauffeur with unlimited mileage and flexible drop-off options',
+    ],
+    whoIsFor:
+      'Ideal for wildlife enthusiasts and photographers who already plan Ella but want a leopard safari without adding four extra travel days. Moderate fitness helps for the Little Adam\'s Peak walk.',
+    bestTimeNote:
+      'Yala is best February–July when the park is fully open; it closes briefly around September and we suggest Udawalawe instead. Dry-season mornings improve leopard spotting and Nine Arches photography.',
+    faq: [
+      {
+        q: 'Is the Yala safari jeep included in the tour price?',
+        a: 'Your private vehicle and driver are included. Yala park entrance and the registered safari jeep are paid locally typically arranged by your driver on the morning of Day 2.',
+      },
+      {
+        q: 'Can we skip the Ella hotel and do both days from the south coast?',
+        a: 'Possible but tiring expect very early starts from Mirissa or Galle. We recommend the included Ella overnight so you enjoy the highlands without a midnight departure.',
+      },
+      {
+        q: 'What happens if Yala National Park is closed on our dates?',
+        a: 'We substitute Udawalawe or Bundala for strong elephant and bird sightings at no change to the tour structure. Your driver confirms the best park when you book.',
+      },
+    ],
   },
 
   de: {
@@ -109,7 +136,38 @@ export const TOUR2EY: TourContent = {
       '24-Stunden-Service',
       'Unbegrenzte Kilometer für die gesamte Tour',
     ],
-    excludes: ['Eintritts- & Aktivitätsgebühren', 'Speisen & Getränke', 'Unterkunft (auf Anfrage arrangierbar)'],
+    excludes: [
+      'Eintritts- & Aktivitätsgebühren',
+      'Speisen & Getränke',
+      'Unterkunft auf Anfrage verfügbar – überwiegend 4-Sterne-Hotels (bei Nichtverfügbarkeit in der Hochsaison ggf. vergleichbare 3,5-Sterne-Hotels)',
+    ],
+    seoIntro:
+      'Verbinden Sie die nebligen Hügel von Ella mit einer Leoparden-Safari in Yala an nur zwei privaten Tagen – die klassische Kombination aus Hügelland und Tierwelt ohne eine ganze Woche Reisezeit. Tag eins erkundet die Nine Arches Bridge, Little Adam\'s Peak, das optionale Flying-Ravana-Zipline-Abenteuer und die Ravana-Wasserfälle, mit Halbpension-Unterkunft nahe dem Ella Gap. Tag zwei führt hinab zum Yala-Nationalpark für eine morgendliche 4x4-Jeep-Safari zwischen Elefanten, Krokodilen und – mit etwas Glück – Leoparden, bevor die Ravana-Wasserfälle noch einmal von der Tiefland-Seite besucht werden, vor Ihrem Weitertransfer. Sundown Tours stimmt Safari-Eintrittszeiten und Zugblicke ab, während Ihr englischsprachiger Fahrer die steile Straße zwischen Ella und Yala in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung navigiert. Die Jeep-Miete im Park und die Eintrittsgebühren werden vor Ort bezahlt, sodass Sie die Safari verlängern oder einen Strandstopp an der Südküste hinzufügen können.',
+    highlights: [
+      'Nine Arches Bridge, Little Adam\'s Peak und Ravana-Wasserfälle in Ella an einem Tag',
+      'Optionales Flying-Ravana-Zipline-Abenteuer mit Panoramablick auf das Hügelland',
+      'Morgendliche Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten und Leoparden-Habitat',
+      'Halbpension-Übernachtung am Ella Gap zwischen Hügelland und Wildnis',
+      'Privater Chauffeur mit unbegrenzter Kilometerleistung und flexiblen Transfermöglichkeiten',
+    ],
+    whoIsFor:
+      'Ideal für Tierliebhaber und Fotografen, die Ella bereits einplanen, aber eine Leoparden-Safari ohne vier zusätzliche Reisetage hinzufügen möchten. Moderate Fitness ist für die Wanderung zum Little Adam\'s Peak hilfreich.',
+    bestTimeNote:
+      'Yala ist von Februar bis Juli am besten, wenn der Park vollständig geöffnet ist; er schließt kurzzeitig um September, dann empfehlen wir Udawalawe. Morgen in der Trockenzeit verbessern die Chancen auf Leopardensichtungen und Fotos an der Nine Arches Bridge.',
+    faq: [
+      {
+        q: 'Ist der Safari-Jeep für Yala im Tourpreis enthalten?',
+        a: 'Ihr Privatfahrzeug und Fahrer sind inklusive. Der Parkeintritt für Yala und der registrierte Safari-Jeep werden vor Ort bezahlt – meist von Ihrem Fahrer am Morgen des 2. Tages organisiert.',
+      },
+      {
+        q: 'Können wir das Hotel in Ella auslassen und beide Tage von der Südküste aus unternehmen?',
+        a: 'Möglich, aber anstrengend – rechnen Sie mit sehr frühen Starts von Mirissa oder Galle. Wir empfehlen die enthaltene Übernachtung in Ella, damit Sie das Hügelland ohne Mitternachtsabfahrt genießen können.',
+      },
+      {
+        q: 'Was passiert, wenn der Yala-Nationalpark an unseren Reisetagen geschlossen ist?',
+        a: 'Wir weichen ohne Änderung des Reiseablaufs auf Udawalawe oder Bundala aus, die gute Elefanten- und Vogelsichtungen bieten. Ihr Fahrer bestätigt bei der Buchung den besten Park.',
+      },
+    ],
     days: [
       {
         title: 'Ella-Abenteuer',
@@ -184,7 +242,38 @@ export const TOUR2EY: TourContent = {
       'Service 24h/24',
       'Kilométrage illimité pour tout le circuit',
     ],
-    excludes: ['Entrées & frais d’activités', 'Repas & boissons', 'Hébergement (sur demande)'],
+    excludes: [
+      'Entrées & frais d’activités',
+      'Repas & boissons',
+      'Hébergement disponible sur demande principalement des hôtels 4 étoiles (des hôtels équivalents 3,5 étoiles peuvent être utilisés si les hôtels sélectionnés ne sont pas disponibles en haute saison)',
+    ],
+    seoIntro:
+      'Associez les crêtes brumeuses d’Ella à un safari aux léopards à Yala en seulement deux jours privés le duo classique hauts plateaux/faune sans itinéraire d’une semaine complète. Le premier jour explore le pont Nine Arches, Little Adam’s Peak, la tyrolienne optionnelle Flying Ravana et les chutes de Ravana, avec un hébergement en demi-pension près d’Ella Gap. Le second jour descend vers le parc national de Yala pour un safari matinal en jeep 4x4 parmi les éléphants, les crocodiles et, avec un peu de chance, les léopards, avant de revisiter les chutes de Ravana depuis le côté des basses terres avant votre transfert suivant. Sundown Tours coordonne les horaires d’entrée au safari et les points de vue du train, tandis que votre chauffeur anglophone négocie la route escarpée entre Ella et Yala dans un véhicule privé climatisé au kilométrage illimité. La location du jeep du parc et les frais d’entrée sont payés sur place, ce qui vous permet de prolonger le safari ou d’ajouter une escale plage sur la côte sud.',
+    highlights: [
+      'Pont Nine Arches, Little Adam’s Peak et chutes de Ravana à Ella en une journée',
+      'Tyrolienne optionnelle Flying Ravana avec vues panoramiques sur les hauts plateaux',
+      'Safari matinal en jeep dans le parc national de Yala à la recherche d’éléphants et d’habitats de léopards',
+      'Nuit en demi-pension à Ella Gap entre hauts plateaux et territoire sauvage',
+      'Chauffeur privé avec kilométrage illimité et options de dépose flexibles',
+    ],
+    whoIsFor:
+      'Idéal pour les passionnés de faune et les photographes qui prévoient déjà Ella mais souhaitent ajouter un safari aux léopards sans quatre jours de voyage supplémentaires. Une forme physique modérée aide pour la randonnée de Little Adam’s Peak.',
+    bestTimeNote:
+      'Yala est idéal de février à juillet lorsque le parc est entièrement ouvert ; il ferme brièvement autour de septembre et nous suggérons alors Udawalawe. Les matinées de saison sèche améliorent l’observation des léopards et les photos du pont Nine Arches.',
+    faq: [
+      {
+        q: 'Le jeep de safari à Yala est-il inclus dans le prix du circuit ?',
+        a: 'Votre véhicule privé et votre chauffeur sont inclus. L’entrée au parc de Yala et le jeep de safari enregistré sont payés sur place généralement organisés par votre chauffeur le matin du jour 2.',
+      },
+      {
+        q: 'Pouvons-nous éviter l’hôtel à Ella et faire les deux jours depuis la côte sud ?',
+        a: 'C’est possible mais fatigant prévoyez des départs très matinaux depuis Mirissa ou Galle. Nous recommandons la nuit incluse à Ella pour profiter des hauts plateaux sans départ à minuit.',
+      },
+      {
+        q: 'Que se passe-t-il si le parc national de Yala est fermé à nos dates ?',
+        a: 'Nous le remplaçons par Udawalawe ou Bundala pour de belles observations d’éléphants et d’oiseaux, sans modifier la structure du circuit. Votre chauffeur confirme le meilleur parc lors de la réservation.',
+      },
+    ],
     days: [
       {
         title: 'Aventure à Ella',
@@ -259,7 +348,38 @@ export const TOUR2EY: TourContent = {
       'Servizio 24 ore',
       'Chilometraggio illimitato per tutto il tour',
     ],
-    excludes: ['Ingressi e costi delle attività', 'Cibo e bevande', 'Alloggio (disponibile su richiesta)'],
+    excludes: [
+      'Ingressi e costi delle attività',
+      'Cibo e bevande',
+      'Alloggio disponibile su richiesta principalmente hotel 4 stelle (in alta stagione, se non disponibili, potranno essere utilizzati hotel equivalenti a 3,5 stelle)',
+    ],
+    seoIntro:
+      'Unite le colline avvolte nella nebbia di Ella a un safari ai leopardi a Yala in soli due giorni privati l’abbinamento classico tra altopiano e fauna selvatica senza un itinerario di un’intera settimana. Il primo giorno esplora il ponte Nine Arches, Little Adam’s Peak, la tirolesa opzionale Flying Ravana e le cascate di Ravana, con alloggio in mezza pensione vicino a Ella Gap. Il secondo giorno scende verso il Parco Nazionale di Yala per un safari matutino in jeep 4x4 tra elefanti, coccodrilli e, con un po’ di fortuna, leopardi, per poi rivisitare le cascate di Ravana dal lato delle pianure prima del vostro trasferimento successivo. Sundown Tours coordina gli orari di ingresso al safari e i punti panoramici del treno, mentre il vostro autista di lingua inglese percorre la strada tortuosa tra Ella e Yala in un veicolo privato climatizzato con chilometraggio illimitato. Il noleggio del jeep del parco e i biglietti d’ingresso si pagano in loco, così potete prolungare il safari o aggiungere una sosta in spiaggia sulla costa meridionale.',
+    highlights: [
+      'Ponte Nine Arches, Little Adam’s Peak e cascate di Ravana a Ella in un giorno',
+      'Tirolesa opzionale Flying Ravana con vista panoramica sull’altopiano',
+      'Safari matutino in jeep nel Parco Nazionale di Yala alla ricerca di elefanti e habitat dei leopardi',
+      'Notte in mezza pensione a Ella Gap tra altopiano e natura selvaggia',
+      'Autista privato con chilometraggio illimitato e opzioni di trasferimento flessibili',
+    ],
+    whoIsFor:
+      'Ideale per gli appassionati di fauna selvatica e i fotografi che già prevedono di visitare Ella ma desiderano aggiungere un safari ai leopardi senza quattro giorni di viaggio extra. Una forma fisica moderata è utile per la camminata a Little Adam’s Peak.',
+    bestTimeNote:
+      'Yala è al meglio da febbraio a luglio, quando il parco è completamente aperto; chiude brevemente intorno a settembre e in quel caso suggeriamo Udawalawe. Le mattine della stagione secca migliorano l’osservazione dei leopardi e le foto al ponte Nine Arches.',
+    faq: [
+      {
+        q: 'Il jeep per il safari a Yala è incluso nel prezzo del tour?',
+        a: 'Il vostro veicolo privato e l’autista sono inclusi. L’ingresso al parco di Yala e il jeep da safari registrato si pagano in loco generalmente organizzati dal vostro autista la mattina del secondo giorno.',
+      },
+      {
+        q: 'Possiamo evitare l’hotel a Ella e fare entrambi i giorni dalla costa meridionale?',
+        a: 'È possibile ma faticoso aspettatevi partenze molto anticipate da Mirissa o Galle. Raccomandiamo il pernottamento incluso a Ella per godervi l’altopiano senza una partenza a mezzanotte.',
+      },
+      {
+        q: 'Cosa succede se il Parco Nazionale di Yala è chiuso nelle nostre date?',
+        a: 'Lo sostituiamo con Udawalawe o Bundala per ottimi avvistamenti di elefanti e uccelli, senza modificare la struttura del tour. Il vostro autista confermerà il parco migliore al momento della prenotazione.',
+      },
+    ],
     days: [
       {
         title: 'Avventura a Ella',
@@ -334,7 +454,38 @@ export const TOUR2EY: TourContent = {
       'Servicio 24 horas',
       'Kilometraje ilimitado durante todo el tour',
     ],
-    excludes: ['Entradas y costes de actividades', 'Comidas y bebidas', 'Alojamiento (disponible a petición)'],
+    excludes: [
+      'Entradas y costes de actividades',
+      'Comidas y bebidas',
+      'Alojamiento disponible bajo petición principalmente hoteles de 4 estrellas (se podrán utilizar hoteles equivalentes de 3,5 estrellas si los hoteles seleccionados no están disponibles en temporada alta)',
+    ],
+    seoIntro:
+      'Combine las colinas neblinosas de Ella con un safari de leopardos en Yala en solo dos días privados: la clásica combinación de tierras altas y fauna sin un itinerario de una semana completa. El primer día explora el puente Nine Arches, Little Adam’s Peak, la tirolina opcional Flying Ravana y las cataratas de Ravana, con alojamiento en media pensión cerca de Ella Gap. El segundo día desciende al Parque Nacional de Yala para un safari matutino en jeep 4x4 entre elefantes, cocodrilos y, con suerte, leopardos, para después volver a visitar las cataratas de Ravana desde el lado de las tierras bajas antes de su traslado posterior. Sundown Tours coordina los horarios de entrada al safari y los miradores del tren, mientras su conductor de habla inglesa recorre la empinada carretera entre Ella y Yala en un vehículo privado con aire acondicionado y kilometraje ilimitado. El alquiler del jeep del parque y las entradas se pagan in situ, de modo que puede ampliar el safari o añadir una parada de playa en la costa sur.',
+    highlights: [
+      'Puente Nine Arches, Little Adam’s Peak y cataratas de Ravana en Ella en un solo día',
+      'Tirolina opcional Flying Ravana con vistas panorámicas de las tierras altas',
+      'Safari matutino en jeep por el Parque Nacional de Yala en busca de elefantes y hábitat de leopardos',
+      'Noche en media pensión en Ella Gap entre las tierras altas y la naturaleza salvaje',
+      'Chófer privado con kilometraje ilimitado y opciones de traslado flexibles',
+    ],
+    whoIsFor:
+      'Ideal para los amantes de la fauna y los fotógrafos que ya tienen planeado Ella pero desean añadir un safari de leopardos sin cuatro días de viaje adicionales. Una forma física moderada ayuda en la caminata a Little Adam’s Peak.',
+    bestTimeNote:
+      'Yala está en su mejor momento de febrero a julio, cuando el parque está completamente abierto; cierra brevemente alrededor de septiembre y en ese caso sugerimos Udawalawe. Las mañanas de temporada seca mejoran la observación de leopardos y las fotos del puente Nine Arches.',
+    faq: [
+      {
+        q: '¿El jeep del safari en Yala está incluido en el precio del circuito?',
+        a: 'Su vehículo privado y conductor están incluidos. La entrada al parque de Yala y el jeep de safari registrado se pagan in situ, normalmente organizados por su conductor la mañana del día 2.',
+      },
+      {
+        q: '¿Podemos evitar el hotel en Ella y hacer ambos días desde la costa sur?',
+        a: 'Es posible, pero agotador: espere salidas muy tempranas desde Mirissa o Galle. Recomendamos la noche incluida en Ella para disfrutar de las tierras altas sin una salida a medianoche.',
+      },
+      {
+        q: '¿Qué ocurre si el Parque Nacional de Yala está cerrado en nuestras fechas?',
+        a: 'Lo sustituimos por Udawalawe o Bundala, con excelentes avistamientos de elefantes y aves, sin cambiar la estructura del circuito. Su conductor confirmará el mejor parque al reservar.',
+      },
+    ],
     days: [
       {
         title: 'Aventura en Ella',
@@ -409,7 +560,38 @@ export const TOUR2EY: TourContent = {
       'Obsługa 24 godziny',
       'Nielimitowany kilometraż na całą wycieczkę',
     ],
-    excludes: ['Bilety wstępu i opłaty za atrakcje', 'Jedzenie i napoje', 'Zakwaterowanie (możliwe na życzenie)'],
+    excludes: [
+      'Bilety wstępu i opłaty za atrakcje',
+      'Jedzenie i napoje',
+      'Zakwaterowanie dostępne na życzenie – głównie hotele 4-gwiazdkowe (w sezonie szczytowym, jeśli wybrane hotele są niedostępne, mogą zostać zastąpione równoważnymi hotelami 3,5-gwiazdkowymi)',
+    ],
+    seoIntro:
+      'Połącz mgliste wzniesienia Elli z safari na lamparty w Yali w ciągu tylko dwóch prywatnych dni – klasyczne połączenie wyżyn i dzikiej przyrody bez tygodniowego planu podróży. Pierwszy dzień to zwiedzanie mostu Nine Arches, Little Adam’s Peak, opcjonalna tyrolka Flying Ravana i wodospady Ravana, z noclegiem w formule half board blisko Ella Gap. Drugi dzień prowadzi do Parku Narodowego Yala na poranne safari jeepem 4x4 wśród słoni, krokodyli i, z odpowiednią dozą szczęścia, lampartów, a następnie ponowną wizytę przy wodospadach Ravana z niziny, przed dalszym transferem. Sundown Tours koordynuje godziny wejścia na safari i punkty widokowe pociągu, podczas gdy anglojęzyczny kierowca prowadzi po krętej drodze między Ellą i Yalą w prywatnym klimatyzowanym pojeździe z nielimitowanym przebiegiem. Wynajem jeepa w parku i opłaty za wstęp płaci się na miejscu, dzięki czemu można wydłużyć safari lub dodać przystanek na plaży na południowym wybrzeżu.',
+    highlights: [
+      'Most Nine Arches, Little Adam’s Peak i wodospady Ravana w Elli w jeden dzień',
+      'Opcjonalna tyrolka Flying Ravana z panoramicznymi widokami na wyżyny',
+      'Poranne safari jeepem w Parku Narodowym Yala w poszukiwaniu słoni i siedlisk lampartów',
+      'Nocleg w formule half board w Ella Gap między wyżynami a dziką przyrodą',
+      'Prywatny kierowca z nielimitowanym przebiegiem i elastycznymi opcjami transferu',
+    ],
+    whoIsFor:
+      'Idealna dla entuzjastów dzikiej przyrody i fotografów, którzy już planują Ellę, ale chcą dodać safari na lamparty bez czterech dodatkowych dni podróży. Umiarkowana kondycja pomaga przy wędrówce na Little Adam’s Peak.',
+    bestTimeNote:
+      'Yala jest najlepsza od lutego do lipca, gdy park jest w pełni otwarty; zamyka się na krótko wokół września, a w takim przypadku proponujemy Udawalawe. Poranki w sezonie suchym poprawiają szanse na zobaczenie lampartów i zdjęcia mostu Nine Arches.',
+    faq: [
+      {
+        q: 'Czy jeep na safari w Yali jest wliczony w cenę wycieczki?',
+        a: 'Państwa prywatny pojazd i kierowca są wliczeni. Wstęp do parku Yala i zarejestrowany jeep na safari płaci się na miejscu – zwykle organizowane przez kierowcę rano 2. dnia.',
+      },
+      {
+        q: 'Czy możemy pominąć hotel w Elli i zrobić obie części z południowego wybrzeża?',
+        a: 'To możliwe, ale wyczerpujące – należy liczyć się z bardzo wczesnymi wyjazdami z Mirissy lub Galle. Zalecamy wliczony nocleg w Elli, aby cieszyć się wyżynami bez wyjazdu o północy.',
+      },
+      {
+        q: 'Co się stanie, jeśli Park Narodowy Yala będzie zamknięty w naszych terminach?',
+        a: 'Zastępujemy go Udawalawe lub Bundala, gdzie można dobrze zobaczyć słonie i ptaki, bez zmiany struktury wycieczki. Kierowca potwierdzi najlepszy park przy rezerwacji.',
+      },
+    ],
     days: [
       {
         title: 'Przygoda w Elli',
@@ -484,7 +666,38 @@ export const TOUR2EY: TourContent = {
       'Обслуживание 24 часа',
       'Неограниченный пробег на весь тур',
     ],
-    excludes: ['Входные билеты и оплата активностей', 'Еда и напитки', 'Проживание (по запросу)'],
+    excludes: [
+      'Входные билеты и оплата активностей',
+      'Еда и напитки',
+      'Проживание доступно по запросу преимущественно отели 4★ (в высокий сезон, если выбранные отели недоступны, может использоваться эквивалентный отель 3,5★)',
+    ],
+    seoIntro:
+      'Совместите туманные гряды Эллы с сафари на леопардов в Яле всего за два частных дня классическое сочетание горной страны и дикой природы без недельного маршрута. Первый день включает мост Nine Arches, Little Adam’s Peak, опциональный зип-лайн Flying Ravana и водопады Равана, с проживанием на полупансионе рядом с Ella Gap. Второй день ведёт в национальный парк Яла для утреннего джип-сафари 4x4 среди слонов, крокодилов и, при удаче, леопардов, а затем повторное посещение водопадов Равана со стороны низменности перед вашим дальнейшим трансфером. Sundown Tours согласовывает время входа на сафари и смотровые точки поезда, пока ваш англоговорящий водитель ведёт машину по крутой дороге между Эллой и Ялой в частном кондиционированном автомобиле с неограниченным пробегом. Аренда джипа в парке и входные билеты оплачиваются на месте, что позволяет продлить сафари или добавить остановку на пляже южного побережья.',
+    highlights: [
+      'Мост Nine Arches, Little Adam’s Peak и водопады Равана в Элле за один день',
+      'Опциональный зип-лайн Flying Ravana с панорамными видами горной страны',
+      'Утреннее джип-сафари в национальном парке Яла в поисках слонов и мест обитания леопардов',
+      'Ночь на полупансионе в Ella Gap между горной страной и дикой природой',
+      'Частный шофёр с неограниченным пробегом и гибкими вариантами трансфера',
+    ],
+    whoIsFor:
+      'Идеально для любителей дикой природы и фотографов, которые уже планируют посетить Эллу, но хотят добавить сафари на леопардов без четырёх дополнительных дней путешествия. Умеренная физическая форма пригодится для прогулки на Little Adam’s Peak.',
+    bestTimeNote:
+      'Яла лучше всего с февраля по июль, когда парк полностью открыт; он закрывается на короткое время около сентября, и в этом случае мы предлагаем Удавалаве. Утра в сухой сезон улучшают шансы увидеть леопардов и сделать фото у моста Nine Arches.',
+    faq: [
+      {
+        q: 'Включён ли джип для сафари в Яле в стоимость тура?',
+        a: 'Ваш частный автомобиль и водитель включены. Входной билет в парк Яла и зарегистрированный сафари-джип оплачиваются на месте обычно организуются вашим водителем утром 2-го дня.',
+      },
+      {
+        q: 'Можем ли мы пропустить отель в Элле и провести оба дня с южного побережья?',
+        a: 'Это возможно, но утомительно ожидайте очень раннего выезда из Мириссы или Галле. Мы рекомендуем включённую ночёвку в Элле, чтобы вы наслаждались горной страной без выезда в полночь.',
+      },
+      {
+        q: 'Что произойдёт, если национальный парк Яла закрыт на наши даты?',
+        a: 'Мы заменяем его на Удавалаве или Бундала с хорошими шансами увидеть слонов и птиц, без изменения структуры тура. Ваш водитель подтвердит лучший парк при бронировании.',
+      },
+    ],
     days: [
       {
         title: 'Приключение в Элле',
@@ -511,7 +724,7 @@ export const TOUR2EY: TourContent = {
             type: 'Водопад',
             title: 'Водопад Равана',
             description:
-              'Посетите прекрасный водопад Равана — один из самых знаменитых водопадов Шри-Ланки, расположенный рядом с Эллой.',
+              'Посетите прекрасный водопад Равана один из самых знаменитых водопадов Шри-Ланки, расположенный рядом с Эллой.',
           },
           {
             type: 'Проживание',
@@ -528,7 +741,7 @@ export const TOUR2EY: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Национальный парк Яла',
             description:
-              'В парке Яла обитают 44 вида млекопитающих и 215 видов птиц. Среди самых известных обитателей — самая большая в мире концентрация леопардов.',
+              'В парке Яла обитают 44 вида млекопитающих и 215 видов птиц. Среди самых известных обитателей самая большая в мире концентрация леопардов.',
           },
           {
             type: 'Экскурсия с гидом',

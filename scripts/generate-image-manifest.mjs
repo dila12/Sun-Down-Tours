@@ -22,12 +22,12 @@ async function walk(dir, relPrefix = 'assets/img') {
       continue;
     }
 
-    const match = entry.name.match(/^(.+)-(\d+)w\.webp$/i);
+    const match = entry.name.match(/^(.+)-(\d+)w\.(webp|avif)$/i);
     if (!match) {
       continue;
     }
 
-    const basePath = `${relPrefix}/${match[1]}.webp`.replace(/\\/g, '/');
+    const basePath = `${relPrefix}/${match[1]}.${match[3]}`.replace(/\\/g, '/');
     const width = Number.parseInt(match[2], 10);
     const existing = variants.get(basePath) ?? new Set();
     existing.add(width);

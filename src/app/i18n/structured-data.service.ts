@@ -3,25 +3,43 @@ import { Injectable, inject } from '@angular/core';
 
 import { LOCALE_META, type Locale } from './locales';
 import { LocaleService } from './locale.service';
+import { ArticleContentService } from './articles/article-content.service';
+import { TourContentService } from './tours/tour-content.service';
 import { BASE_URL, getPage } from './site-data.mjs';
+import {
+  SITE_ADDRESS_LOCALITY,
+  SITE_ADDRESS_STREET,
+  SITE_BRAND,
+  SITE_EMAIL,
+  SITE_FACEBOOK_URL,
+  SITE_GEO,
+  SITE_HOURS_CLOSES,
+  SITE_HOURS_OPENS,
+  SITE_INSTAGRAM_URL,
+  SITE_PHONE_E164,
+  SITE_TRIPADVISOR_URL,
+} from './site-contact';
 
 const SCRIPT_ID = 'ld-json-graph';
 const OG_IMAGE = `${BASE_URL}/assets/img/package-2.webp`;
 const LOGO = `${BASE_URL}/assets/img/favicon.png`;
 
-/** Page ids that have localized FAQ + breadcrumb content. */
-const CONTENT_NS = ['home', 'about', 'services', 'tours', 'contact', 'tour7'] as const;
+/** Page ids that have localized FAQ + breadcrumb content in content/*.ts. */
+const CONTENT_NS = ['home', 'about', 'services', 'tours', 'contact'] as const;
 
 /**
  * Builds and injects the per-page, per-locale JSON-LD `@graph`:
  * TravelAgency + LocalBusiness, Organization, WebSite, BreadcrumbList,
- * FAQPage and (for tours) a Product/TouristTrip with offer, aggregate rating
- * and a review. SSR-safe via the injected DOCUMENT.
+ * FAQPage and (for tours) a Product/TouristTrip with offer + aggregate rating.
+ * Destinations emit TouristDestination; guides emit Article.
+ * SSR-safe via the injected DOCUMENT.
  */
 @Injectable({ providedIn: 'root' })
 export class StructuredDataService {
   private readonly doc = inject(DOCUMENT);
   private readonly i18n = inject(LocaleService);
+  private readonly articles = inject(ArticleContentService);
+  private readonly tours = inject(TourContentService);
 
   update(pageId: string, locale: Locale): void {
     const graph: Record<string, unknown>[] = [
@@ -45,6 +63,16 @@ export class StructuredDataService {
       graph.push(product);
     }
 
+    const destination = this.touristDestination(pageId, locale);
+    if (destination) {
+      graph.push(destination);
+    }
+
+    const article = this.guideArticle(pageId, locale);
+    if (article) {
+      graph.push(article);
+    }
+
     this.inject({ '@context': 'https://schema.org', '@graph': graph });
   }
 
@@ -52,28 +80,43 @@ export class StructuredDataService {
     return {
       '@type': ['TravelAgency', 'LocalBusiness'],
       '@id': `${BASE_URL}/#travelagency`,
-      name: 'Sundown Tours Sri Lanka',
+      name: SITE_BRAND,
       url: BASE_URL,
       logo: LOGO,
       image: OG_IMAGE,
-      telephone: '+94706293585',
-      email: 'sundowntoursrilanka@gmail.com',
+      telephone: SITE_PHONE_E164,
+      email: SITE_EMAIL,
       priceRange: '$$',
       description: this.i18n.t('seo.home.description', locale),
       areaServed: 'Sri Lanka',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'No 302, Mahawaskaduwa',
-        addressLocality: 'Waskaduwa',
+        streetAddress: SITE_ADDRESS_STREET,
+        addressLocality: SITE_ADDRESS_LOCALITY,
         addressRegion: 'Western Province',
+        postalCode: '',
         addressCountry: 'LK',
       },
-      geo: { '@type': 'GeoCoordinates', latitude: 6.6331, longitude: 79.9533 },
-      sameAs: [
-        'https://www.facebook.com/profile.php?id=61563992655756',
-        'https://www.instagram.com/sundowntourssr',
-        'https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html',
-      ],
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: SITE_GEO.latitude,
+        longitude: SITE_GEO.longitude,
+      },
+      openingHoursSpecification: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday',
+        ],
+        opens: SITE_HOURS_OPENS,
+        closes: SITE_HOURS_CLOSES,
+      },
+      sameAs: [SITE_FACEBOOK_URL, SITE_INSTAGRAM_URL, SITE_TRIPADVISOR_URL],
       aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '187' },
     };
   }
@@ -82,7 +125,7 @@ export class StructuredDataService {
     return {
       '@type': 'Organization',
       '@id': `${BASE_URL}/#organization`,
-      name: 'Sundown Tours Sri Lanka',
+      name: SITE_BRAND,
       url: BASE_URL,
       logo: { '@type': 'ImageObject', url: LOGO },
       description: this.i18n.t('seo.about.description', locale),
@@ -94,7 +137,7 @@ export class StructuredDataService {
       '@type': 'WebSite',
       '@id': `${BASE_URL}/#website`,
       url: BASE_URL,
-      name: 'Sundown Tours Sri Lanka',
+      name: SITE_BRAND,
       inLanguage: LOCALE_META[locale].htmlLang,
       publisher: { '@id': `${BASE_URL}/#organization` },
     };
@@ -104,18 +147,67 @@ export class StructuredDataService {
     if (pageId === 'home') {
       return null;
     }
+
     const homeName = this.i18n.t('common.breadcrumb.home', locale);
-    const pageName = this.breadcrumbLabel(pageId, locale);
+    const page = getPage(pageId);
+    const elements: Record<string, unknown>[] = [
+      { '@type': 'ListItem', position: 1, name: homeName, item: this.i18n.url('home', locale) },
+    ];
+
+    if (page?.kind === 'destination' || page?.kind === 'guide') {
+      const hubId = page.kind === 'guide' ? 'guides' : 'destinations';
+      const hubKey = page.kind === 'guide' ? 'guidesHub.breadcrumb' : 'destinationsHub.breadcrumb';
+      elements.push({
+        '@type': 'ListItem',
+        position: 2,
+        name: this.i18n.t(hubKey, locale),
+        item: this.i18n.url(hubId, locale),
+      });
+      elements.push({
+        '@type': 'ListItem',
+        position: 3,
+        name: this.breadcrumbLabel(pageId, locale),
+        item: this.i18n.url(pageId, locale),
+      });
+    } else if (page?.kind === 'tour') {
+      elements.push({
+        '@type': 'ListItem',
+        position: 2,
+        name: this.i18n.t('tours.breadcrumb', locale),
+        item: this.i18n.url('tours', locale),
+      });
+      elements.push({
+        '@type': 'ListItem',
+        position: 3,
+        name: this.breadcrumbLabel(pageId, locale),
+        item: this.i18n.url(pageId, locale),
+      });
+    } else {
+      elements.push({
+        '@type': 'ListItem',
+        position: 2,
+        name: this.breadcrumbLabel(pageId, locale),
+        item: this.i18n.url(pageId, locale),
+      });
+    }
+
     return {
       '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: homeName, item: this.i18n.url('home', locale) },
-        { '@type': 'ListItem', position: 2, name: pageName, item: this.i18n.url(pageId, locale) },
-      ],
+      itemListElement: elements,
     };
   }
 
   private breadcrumbLabel(pageId: string, locale: Locale): string {
+    const article = this.articles.get(pageId, locale);
+    if (article) {
+      return article.h1;
+    }
+    if (pageId === 'destinations') {
+      return this.i18n.t('destinationsHub.breadcrumb', locale);
+    }
+    if (pageId === 'guides') {
+      return this.i18n.t('guidesHub.breadcrumb', locale);
+    }
     const ns = this.ns(pageId);
     if (ns) {
       return this.i18n.t(`${ns}.breadcrumb`, locale);
@@ -124,6 +216,20 @@ export class StructuredDataService {
   }
 
   private faqPage(pageId: string, locale: Locale): Record<string, unknown> | null {
+    const page = getPage(pageId);
+
+    if (page?.kind === 'tour') {
+      const tour = this.tours.detail(pageId, locale);
+      if (tour?.faq?.length) {
+        return this.faqSchema(tour.faq);
+      }
+    }
+
+    const article = this.articles.get(pageId, locale);
+    if (article?.faq?.length) {
+      return this.faqSchema(article.faq);
+    }
+
     const ns = this.ns(pageId);
     if (!ns) {
       return null;
@@ -132,6 +238,10 @@ export class StructuredDataService {
     if (!items.length) {
       return null;
     }
+    return this.faqSchema(items);
+  }
+
+  private faqSchema(items: { q: string; a: string }[]): Record<string, unknown> {
     return {
       '@type': 'FAQPage',
       mainEntity: items.map((item) => ({
@@ -151,7 +261,10 @@ export class StructuredDataService {
       '@type': ['Product', 'TouristTrip'],
       name: this.i18n.t(`seo.${pageId}.title`, locale).split('|')[0].trim(),
       description: this.i18n.t(`seo.${pageId}.description`, locale),
-      image: OG_IMAGE,
+      image: {
+        '@type': 'ImageObject',
+        url: OG_IMAGE,
+      },
       url: this.i18n.url(pageId, locale),
       brand: { '@id': `${BASE_URL}/#organization` },
       provider: { '@id': `${BASE_URL}/#travelagency` },
@@ -161,13 +274,63 @@ export class StructuredDataService {
         availability: 'https://schema.org/InStock',
         url: this.i18n.url(pageId, locale),
       },
+      // AggregateRating kept; unverifiable single-review schema removed.
       aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '187' },
-      review: {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'A. Traveller' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'An unforgettable private tour of Sri Lanka with an excellent chauffeur guide.',
+    };
+  }
+
+  private touristDestination(pageId: string, locale: Locale): Record<string, unknown> | null {
+    const page = getPage(pageId);
+    if (!page || page.kind !== 'destination') {
+      return null;
+    }
+    const article = this.articles.get(pageId, locale);
+    if (!article) {
+      return null;
+    }
+    const imageUrl = article.heroImage.startsWith('http')
+      ? article.heroImage
+      : `${BASE_URL}/${article.heroImage.replace(/^\//, '')}`;
+    return {
+      '@type': ['TouristDestination', 'Place'],
+      name: article.h1,
+      description: article.lead,
+      url: this.i18n.url(pageId, locale),
+      image: {
+        '@type': 'ImageObject',
+        url: imageUrl,
+        description: article.heroAlt,
       },
+      touristType: 'Sightseeing',
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'LK',
+      },
+    };
+  }
+
+  private guideArticle(pageId: string, locale: Locale): Record<string, unknown> | null {
+    const page = getPage(pageId);
+    if (!page || page.kind !== 'guide') {
+      return null;
+    }
+    const article = this.articles.get(pageId, locale);
+    if (!article) {
+      return null;
+    }
+    const imageUrl = article.heroImage.startsWith('http')
+      ? article.heroImage
+      : `${BASE_URL}/${article.heroImage.replace(/^\//, '')}`;
+    return {
+      '@type': 'Article',
+      headline: article.h1,
+      description: article.lead,
+      image: imageUrl,
+      url: this.i18n.url(pageId, locale),
+      inLanguage: LOCALE_META[locale].htmlLang,
+      author: { '@id': `${BASE_URL}/#organization` },
+      publisher: { '@id': `${BASE_URL}/#organization` },
+      mainEntityOfPage: this.i18n.url(pageId, locale),
     };
   }
 

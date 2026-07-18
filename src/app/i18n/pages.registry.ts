@@ -64,9 +64,45 @@ export const PAGE_LOADERS: Record<string, ComponentLoader> = {
       (m) => m.SigiriyaDayTourComponent,
     ),
 
+  // Hubs + destination/guide detail pages share one article shell.
   destinations: () =>
-    import('../sharedComponents/destination-component/destination-component').then((m) => m.DestinationComponent),
-  guides: () => import('../sharedComponents/travel-guides/travel-guides').then((m) => m.TravelGuides),
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guides: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
+  destSigiriya: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destElla: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destYala: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destKandy: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destDambulla: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destGalle: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
+  // Guides with authored content (remaining guide IDs stay in site-data until written).
+  guideBestTime: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideVisa: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guidePrivateDriver: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideBudget: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideWildlife: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideSafari: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideBeaches: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideTeaCountry: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideFood: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guidePacking: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  guideSafety: () =>
+    import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+
+  cancellation: () =>
+    import('../sharedComponents/cancellation-policy/cancellation-policy').then((m) => m.CancellationPolicyComponent),
+
   restaurants: () =>
     import('../mainComponents/resturant-component/resturant-component').then((m) => m.ResturantComponent),
   testimonials: () => import('../sharedComponents/testimonial/testimonial').then((m) => m.Testimonial),

@@ -93,6 +93,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Lunch',
     ],
     excludes: ['Safari entrance tickets and jeep', 'Personal expenses'],
+    seoIntro:
+      'A Sigiriya day tour distils two thousand years of history and wild elephant country into a single unforgettable outing. Begin at the Dambulla Cave Temple\'s golden Buddha statues, continue with your choice of climbing Sigiriya Lion Rock or the sunset-friendly Pidurangala viewpoint, and finish with an afternoon jeep safari where herds of elephants roam free. Sundown Tours handles early starts, ticket queues and the heat of the rock ascent so you travel in a private air-conditioned vehicle with an English-speaking driver-guide. Lunch is included; safari jeep and park entrance fees are billed locally so you can opt in or out on the day. Perfect for culture lovers and wildlife photographers based in Colombo, Kandy or the Cultural Triangle.',
+    highlights: [
+      'UNESCO Dambulla Cave Temple with ancient murals and golden statues',
+      'Sigiriya Lion Rock or Pidurangala Rock climb for fortress ruins and jungle views',
+      'Afternoon wild elephant safari in Minneriya, Kaudulla or nearby park',
+      'Private air-conditioned transport with professional English-speaking driver',
+      'Included lunch at a local restaurant between cultural and safari stops',
+    ],
+    faq: [
+      {
+        q: 'Should we climb Sigiriya Rock or Pidurangala on a one-day tour?',
+        a: 'Sigiriya offers the UNESCO fortress experience with frescoes and palace ruins but involves more steps and heat. Pidurangala is shorter, cheaper and famous for Lion Rock views ideal if you prefer lighter climbing or travel with younger children.',
+      },
+      {
+        q: 'Are safari jeep and national park fees included?',
+        a: 'Your tour price covers the vehicle, driver, guide, temple entrances and lunch. Safari park tickets and jeep hire are paid locally (typically USD 30–50 per person) so you can skip the safari if you prefer more time at the rocks.',
+      },
+      {
+        q: 'How early does the day start from Colombo or Kandy?',
+        a: 'Plan a 5:00–6:00 am departure from Colombo or 7:00–8:00 am from Kandy to fit Dambulla, the rock climb and an afternoon safari before dusk. We confirm exact pickup when you book.',
+      },
+    ],
   },
 
   de: {
@@ -112,6 +135,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Mittagessen',
     ],
     excludes: ['Safari-Eintrittstickets und Jeep', 'Persönliche Ausgaben'],
+    seoIntro:
+      'Eine Sigiriya-Tagestour verdichtet zweitausend Jahre Geschichte und wilde Elefantengebiete in einen einzigen unvergesslichen Ausflug. Beginnen Sie bei den goldenen Buddha-Statuen des Höhlentempels von Dambulla, entscheiden Sie sich anschließend für den Aufstieg auf den Löwenfelsen Sigiriya oder den sonnenuntergangsfreundlichen Aussichtspunkt Pidurangala, und schließen Sie den Tag mit einer nachmittäglichen Jeep-Safari ab, bei der Elefantenherden frei umherziehen. Sundown Tours übernimmt frühe Startzeiten, Ticket-Warteschlangen und die Hitze beim Felsaufstieg, während Sie in einem privaten klimatisierten Fahrzeug mit einem englischsprachigen Fahrer-Guide reisen. Mittagessen ist inklusive; Safari-Jeep und Parkeintrittsgebühren werden vor Ort abgerechnet, sodass Sie am Tag selbst entscheiden können. Perfekt für Kulturliebhaber und Tierfotografen mit Standort in Colombo, Kandy oder dem Kultur-Dreieck.',
+    highlights: [
+      'UNESCO-Höhlentempel von Dambulla mit antiken Wandmalereien und goldenen Statuen',
+      'Aufstieg auf den Löwenfelsen Sigiriya oder den Pidurangala-Felsen für Festungsruinen und Dschungelblicke',
+      'Nachmittägliche Wildelefanten-Safari in Minneriya, Kaudulla oder einem nahegelegenen Park',
+      'Privater klimatisierter Transport mit professionellem englischsprachigem Fahrer',
+      'Inklusive Mittagessen in einem lokalen Restaurant zwischen Kultur- und Safari-Stopps',
+    ],
+    faq: [
+      {
+        q: 'Sollten wir bei einer eintägigen Tour Sigiriya-Felsen oder Pidurangala besteigen?',
+        a: 'Sigiriya bietet das UNESCO-Festungserlebnis mit Fresken und Palastruinen, erfordert aber mehr Stufen und Hitze. Pidurangala ist kürzer, günstiger und berühmt für die Aussicht auf den Löwenfelsen – ideal, wenn Sie einen leichteren Aufstieg bevorzugen oder mit jüngeren Kindern reisen.',
+      },
+      {
+        q: 'Sind Safari-Jeep und Nationalpark-Gebühren enthalten?',
+        a: 'Ihr Tourpreis umfasst Fahrzeug, Fahrer, Guide, Tempeleintritte und Mittagessen. Safari-Parktickets und Jeep-Miete werden vor Ort bezahlt (in der Regel 30–50 USD pro Person), sodass Sie die Safari auch auslassen können, um mehr Zeit an den Felsen zu haben.',
+      },
+      {
+        q: 'Wie früh beginnt der Tag von Colombo oder Kandy aus?',
+        a: 'Planen Sie eine Abfahrt um 5:00–6:00 Uhr von Colombo oder 7:00–8:00 Uhr von Kandy, um Dambulla, den Felsaufstieg und eine Nachmittags-Safari vor Einbruch der Dunkelheit unterzubringen. Wir bestätigen die genaue Abholzeit bei der Buchung.',
+      },
+    ],
     days: [
       {
         title: 'Sigiriya Tagestour Reiseroute',
@@ -168,6 +214,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Déjeuner',
     ],
     excludes: ['Billets d’entrée safari et jeep', 'Dépenses personnelles'],
+    seoIntro:
+      'Une excursion d’une journée à Sigiriya condense deux mille ans d’histoire et un territoire d’éléphants sauvages en une seule sortie inoubliable. Commencez par les statues de Bouddha dorées du temple-grotte de Dambulla, poursuivez au choix par l’ascension du Rocher du Lion de Sigiriya ou le point de vue de Pidurangala, idéal au coucher du soleil, et terminez par un safari en jeep l’après-midi où des troupeaux d’éléphants évoluent en liberté. Sundown Tours gère les départs matinaux, les files d’attente aux billets et la chaleur de l’ascension du rocher, tandis que vous voyagez dans un véhicule privé climatisé avec un chauffeur-guide anglophone. Le déjeuner est inclus ; le jeep de safari et les frais d’entrée au parc sont facturés sur place, vous laissant le choix d’y participer ou non le jour même. Parfait pour les amateurs de culture et les photographes de faune basés à Colombo, Kandy ou dans le Triangle culturel.',
+    highlights: [
+      'Temple-grotte de Dambulla classé UNESCO avec fresques anciennes et statues dorées',
+      'Ascension du Rocher du Lion de Sigiriya ou du rocher de Pidurangala pour les ruines de la forteresse et les vues sur la jungle',
+      'Safari aux éléphants sauvages l’après-midi à Minneriya, Kaudulla ou dans un parc voisin',
+      'Transport privé climatisé avec chauffeur professionnel anglophone',
+      'Déjeuner inclus dans un restaurant local entre les arrêts culturels et le safari',
+    ],
+    faq: [
+      {
+        q: 'Devons-nous gravir le rocher de Sigiriya ou celui de Pidurangala lors d’un circuit d’une journée ?',
+        a: 'Sigiriya offre l’expérience de la forteresse classée UNESCO avec fresques et ruines du palais, mais implique plus de marches et de chaleur. Pidurangala est plus court, moins cher et réputé pour ses vues sur le Rocher du Lion idéal si vous préférez une ascension plus légère ou voyagez avec de jeunes enfants.',
+      },
+      {
+        q: 'Le jeep de safari et les frais du parc national sont-ils inclus ?',
+        a: 'Le prix de votre circuit couvre le véhicule, le chauffeur, le guide, les entrées des temples et le déjeuner. Les billets du parc safari et la location du jeep sont payés sur place (généralement 30 à 50 USD par personne), ce qui vous permet de sauter le safari si vous préférez plus de temps aux rochers.',
+      },
+      {
+        q: 'À quelle heure la journée commence-t-elle depuis Colombo ou Kandy ?',
+        a: 'Prévoyez un départ entre 5h00 et 6h00 depuis Colombo ou entre 7h00 et 8h00 depuis Kandy pour intégrer Dambulla, l’ascension du rocher et un safari l’après-midi avant la tombée de la nuit. Nous confirmons l’heure exacte de prise en charge lors de la réservation.',
+      },
+    ],
     days: [
       {
         title: 'Itinéraire de l’excursion à Sigiriya',
@@ -224,6 +293,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Pranzo',
     ],
     excludes: ['Biglietti d’ingresso safari e jeep', 'Spese personali'],
+    seoIntro:
+      'Un’escursione di un giorno a Sigiriya condensa duemila anni di storia e un territorio di elefanti selvatici in una sola indimenticabile uscita. Iniziate con le statue dorate del Buddha nel tempio rupestre di Dambulla, continuate scegliendo tra la scalata al Lion Rock di Sigiriya o il punto panoramico di Pidurangala, ideale al tramonto, e concludete con un safari in jeep nel pomeriggio dove mandrie di elefanti vivono libere. Sundown Tours gestisce le partenze anticipate, le code ai biglietti e il caldo della scalata alla roccia, mentre voi viaggiate in un veicolo privato climatizzato con un autista-guida di lingua inglese. Il pranzo è incluso; il jeep per il safari e i biglietti d’ingresso al parco vengono fatturati in loco, così potete decidere il giorno stesso se partecipare o no. Perfetto per gli amanti della cultura e i fotografi naturalisti con base a Colombo, Kandy o nel Triangolo Culturale.',
+    highlights: [
+      'Tempio rupestre UNESCO di Dambulla con antichi murales e statue dorate',
+      'Scalata al Lion Rock di Sigiriya o alla Rocca di Pidurangala per le rovine della fortezza e le viste sulla giungla',
+      'Safari agli elefanti selvatici nel pomeriggio a Minneriya, Kaudulla o in un parco vicino',
+      'Trasporto privato climatizzato con autista professionista di lingua inglese',
+      'Pranzo incluso in un ristorante locale tra le soste culturali e il safari',
+    ],
+    faq: [
+      {
+        q: 'Dobbiamo scalare la Roccia di Sigiriya o quella di Pidurangala in un tour di un giorno?',
+        a: 'Sigiriya offre l’esperienza della fortezza UNESCO con affreschi e rovine del palazzo, ma comporta più gradini e caldo. Pidurangala è più breve, più economica e famosa per le vedute sul Lion Rock ideale se preferite una salita più leggera o viaggiate con bambini piccoli.',
+      },
+      {
+        q: 'Il jeep per il safari e i biglietti del parco nazionale sono inclusi?',
+        a: 'Il prezzo del tour comprende veicolo, autista, guida, ingressi ai templi e pranzo. I biglietti del parco safari e il noleggio del jeep si pagano in loco (generalmente 30-50 USD a persona), così potete saltare il safari se preferite più tempo alle rocce.',
+      },
+      {
+        q: 'A che ora inizia la giornata da Colombo o Kandy?',
+        a: 'Prevedete una partenza tra le 5:00 e le 6:00 da Colombo o tra le 7:00 e le 8:00 da Kandy per inserire Dambulla, la scalata alla roccia e un safari pomeridiano prima del tramonto. Confermiamo l’orario esatto di ritiro al momento della prenotazione.',
+      },
+    ],
     days: [
       {
         title: 'Itinerario dell’escursione a Sigiriya',
@@ -280,6 +372,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Almuerzo',
     ],
     excludes: ['Entradas del safari y jeep', 'Gastos personales'],
+    seoIntro:
+      'Una excursión de un día a Sigiriya condensa dos mil años de historia y un territorio de elefantes salvajes en una sola salida inolvidable. Comience con las estatuas doradas de Buda del templo rupestre de Dambulla, continúe eligiendo entre la ascensión al Lion Rock de Sigiriya o el mirador de Pidurangala, ideal para el atardecer, y termine con un safari en jeep por la tarde donde manadas de elefantes se mueven en libertad. Sundown Tours se encarga de las salidas tempranas, las colas de entradas y el calor de la subida a la roca, mientras usted viaja en un vehículo privado con aire acondicionado y un chófer-guía de habla inglesa. El almuerzo está incluido; el jeep de safari y las entradas al parque se facturan in situ, para que pueda decidir participar o no el mismo día. Perfecto para los amantes de la cultura y los fotógrafos de naturaleza con base en Colombo, Kandy o el Triángulo Cultural.',
+    highlights: [
+      'Templo rupestre de Dambulla, Patrimonio UNESCO, con antiguos murales y estatuas doradas',
+      'Ascenso al Lion Rock de Sigiriya o a la roca de Pidurangala para ver las ruinas de la fortaleza y vistas de la jungla',
+      'Safari de elefantes salvajes por la tarde en Minneriya, Kaudulla o un parque cercano',
+      'Transporte privado con aire acondicionado y conductor profesional de habla inglesa',
+      'Almuerzo incluido en un restaurante local entre las paradas culturales y el safari',
+    ],
+    faq: [
+      {
+        q: '¿Deberíamos subir a la roca de Sigiriya o a Pidurangala en un circuito de un día?',
+        a: 'Sigiriya ofrece la experiencia de la fortaleza UNESCO con frescos y ruinas del palacio, pero implica más escalones y calor. Pidurangala es más corta, más económica y famosa por sus vistas del Lion Rock, ideal si prefiere una subida más ligera o viaja con niños pequeños.',
+      },
+      {
+        q: '¿Están incluidos el jeep de safari y las tarifas del parque nacional?',
+        a: 'El precio de su circuito cubre el vehículo, el conductor, el guía, las entradas a los templos y el almuerzo. Las entradas al parque de safari y el alquiler del jeep se pagan in situ (normalmente entre 30 y 50 USD por persona), por lo que puede omitir el safari si prefiere pasar más tiempo en las rocas.',
+      },
+      {
+        q: '¿A qué hora empieza el día desde Colombo o Kandy?',
+        a: 'Planifique una salida entre las 5:00 y las 6:00 desde Colombo o entre las 7:00 y las 8:00 desde Kandy para incluir Dambulla, la subida a la roca y un safari por la tarde antes del atardecer. Confirmamos la hora exacta de recogida al reservar.',
+      },
+    ],
     days: [
       {
         title: 'Itinerario de la excursión a Sigiriya',
@@ -336,6 +451,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Obiad',
     ],
     excludes: ['Bilety wstępu na safari i jeep', 'Wydatki osobiste'],
+    seoIntro:
+      'Jednodniowa wycieczka do Sigiriyi łączy dwa tysiące lat historii i teren dzikich słoni w jedną niezapomnianą wyprawę. Zacznij od złotych posągów Buddy w jaskiniowej świątyni Dambulla, następnie wybierz wspinaczkę na Lion Rock w Sigiriya lub punkt widokowy Pidurangala, idealny na zachód słońca, a na koniec weź udział w popołudniowym safari jeepem, gdzie stada słoni żyją na wolności. Sundown Tours zajmuje się wczesnymi wyjazdami, kolejkami po bilety i upałem podczas wspinaczki na skałę, podczas gdy Państwo podróżują prywatnym klimatyzowanym pojazdem z anglojęzycznym kierowcą-przewodnikiem. Lunch jest wliczony; jeep na safari i opłaty za wstęp do parku są rozliczane na miejscu, dzięki czemu można zdecydować tego samego dnia. Idealna dla miłośników kultury i fotografów przyrody mieszkających w Colombo, Kandy lub Trójkącie Kulturowym.',
+    highlights: [
+      'Jaskiniowa świątynia Dambulla wpisana na listę UNESCO z antycznymi malowidłami i złotymi posągami',
+      'Wspinaczka na Lion Rock w Sigiriya lub skałę Pidurangala dla widoku na ruiny fortecy i dżunglę',
+      'Popołudniowe safari z dzikimi słoniami w Minneriya, Kaudulla lub pobliskim parku',
+      'Prywatny klimatyzowany transport z profesjonalnym anglojęzycznym kierowcą',
+      'Wliczony lunch w lokalnej restauracji między przystankami kulturowymi i safari',
+    ],
+    faq: [
+      {
+        q: 'Czy w ramach jednodniowej wycieczki powinniśmy wspinać się na skałę Sigiriya czy Pidurangala?',
+        a: 'Sigiriya oferuje doświadczenie fortecy UNESCO z freskami i ruinami pałacu, ale wymaga więcej stopni i wytrzymania upału. Pidurangala jest krótsza, tańsza i znana z widoków na Lion Rock – idealna, jeśli preferujecie łatwiejszą wspinaczkę lub podróżujecie z małymi dziećmi.',
+      },
+      {
+        q: 'Czy jeep na safari i opłaty za park narodowy są wliczone?',
+        a: 'Cena wycieczki obejmuje pojazd, kierowcę, przewodnika, wstępy do świątyń i lunch. Bilety do parku safari i wynajem jeepa płaci się na miejscu (zwykle 30–50 USD na osobę), dzięki czemu można pominąć safari, jeśli wolicie więcej czasu przy skałach.',
+      },
+      {
+        q: 'Jak wcześnie zaczyna się dzień z Colombo lub Kandy?',
+        a: 'Planujcie wyjazd o 5:00–6:00 z Colombo lub 7:00–8:00 z Kandy, aby zmieścić Dambullę, wspinaczkę na skałę i popołudniowe safari przed zmierzchem. Potwierdzamy dokładną godzinę odbioru przy rezerwacji.',
+      },
+    ],
     days: [
       {
         title: 'Plan wycieczki do Sigiriyi',
@@ -383,7 +521,7 @@ export const SIGIRIYA_DAY: TourContent = {
     persons: '1–20 путешественников',
     tourType: 'Однодневный тур',
     overview:
-      'Этот однодневный тур в Сигирию предлагает идеальное сочетание культуры, приключений и дикой природы. Начните с посещения Золотого пещерного храма в Дамбулле, затем взойдите на скальную крепость Сигирия или на скалу Пидурангала ради захватывающих видов. Завершите день увлекательным сафари в поисках диких слонов — идеально для любителей природы и истории.',
+      'Этот однодневный тур в Сигирию предлагает идеальное сочетание культуры, приключений и дикой природы. Начните с посещения Золотого пещерного храма в Дамбулле, затем взойдите на скальную крепость Сигирия или на скалу Пидурангала ради захватывающих видов. Завершите день увлекательным сафари в поисках диких слонов идеально для любителей природы и истории.',
     includes: [
       'Все входные билеты на достопримечательности (без входа на сафари и джипа)',
       'Дорожные сборы и парковка',
@@ -392,6 +530,29 @@ export const SIGIRIYA_DAY: TourContent = {
       'Обед',
     ],
     excludes: ['Входные билеты на сафари и джип', 'Личные расходы'],
+    seoIntro:
+      'Однодневный тур в Сигирию объединяет две тысячи лет истории и территорию диких слонов в одну незабываемую поездку. Начните с золотых статуй Будды в пещерном храме Dambulla, затем выберите восхождение на Lion Rock в Sigiriya или смотровую точку Pidurangala, идеальную для закатов, и завершите день послеобеденным джип-сафари, где стада слонов свободно бродят по местности. Sundown Tours берёт на себя ранние выезды, очереди за билетами и жару при подъёме на скалу, пока вы путешествуете в частном кондиционированном автомобиле с англоговорящим водителем-гидом. Обед включён; сафари-джип и входные билеты в парк оплачиваются на месте, что позволяет решить в день поездки, участвовать ли в сафари. Идеально для любителей культуры и фотографов дикой природы, проживающих в Коломбо, Канди или Культурном треугольнике.',
+    highlights: [
+      'Пещерный храм Dambulla, объект ЮНЕСКО, с древними росписями и золотыми статуями',
+      'Восхождение на Lion Rock в Sigiriya или скалу Pidurangala с видом на руины крепости и джунгли',
+      'Послеобеденное сафари на диких слонов в Minneriya, Kaudulla или соседнем парке',
+      'Частный кондиционированный транспорт с профессиональным англоговорящим водителем',
+      'Включённый обед в местном ресторане между культурными остановками и сафари',
+    ],
+    faq: [
+      {
+        q: 'Стоит ли подниматься на скалу Sigiriya или Pidurangala в рамках однодневного тура?',
+        a: 'Sigiriya предлагает впечатления от крепости ЮНЕСКО с фресками и руинами дворца, но требует больше ступеней и жары. Pidurangala короче, дешевле и славится видами на Lion Rock идеально, если вы предпочитаете более лёгкий подъём или путешествуете с маленькими детьми.',
+      },
+      {
+        q: 'Включены ли сафари-джип и сборы за национальный парк?',
+        a: 'Стоимость тура включает автомобиль, водителя, гида, входные билеты в храмы и обед. Билеты в парк для сафари и аренда джипа оплачиваются на месте (обычно 30–50 долларов США на человека), так что вы можете пропустить сафари, если предпочитаете больше времени у скал.',
+      },
+      {
+        q: 'Как рано начинается день из Коломбо или Канди?',
+        a: 'Планируйте выезд в 5:00–6:00 из Коломбо или в 7:00–8:00 из Канди, чтобы успеть в Dambulla, подняться на скалу и провести послеобеденное сафари до наступления темноты. Мы подтверждаем точное время встречи при бронировании.',
+      },
+    ],
     days: [
       {
         title: 'Маршрут тура в Сигирию',
