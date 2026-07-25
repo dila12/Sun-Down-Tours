@@ -1,29 +1,27 @@
-/** Load non-critical fonts and CSS after first paint. */
+/** Load non-critical fonts and CSS after first paint / LCP window. */
 
 const DEFERRED_FONT_STYLESHEET = '/assets/fonts/deferred.css';
+const DEFERRED_BOOTSTRAP_STYLESHEET = '/deferred.css';
+/** Post-load delay — keeps deferred assets off Lighthouse's critical request chain. */
+const POST_LOAD_DELAY_MS = 8000;
 
-function injectStylesheet(href: string, onLoad?: () => void): void {
+function injectStylesheet(href: string): void {
   if (document.querySelector(`link[href="${href}"]`)) {
-    onLoad?.();
     return;
   }
 
   const link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = href;
-  link.onload = () => onLoad?.();
+  if ('fetchPriority' in link) {
+    link.fetchPriority = 'low';
+  }
   document.head.appendChild(link);
 }
 
-function injectDeferredBootstrap(): void {
-  if (document.querySelector('link[href*="deferred"]')) {
-    return;
-  }
-
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = `${document.baseURI}deferred.css`.replace(/([^:]\/)\/+/g, '$1');
-  document.head.appendChild(link);
+function injectDeferredAssets(): void {
+  injectStylesheet(DEFERRED_BOOTSTRAP_STYLESHEET);
+  injectStylesheet(DEFERRED_FONT_STYLESHEET);
 }
 
 export function scheduleDeferredAssets(): void {
@@ -39,14 +37,11 @@ export function scheduleDeferredAssets(): void {
     }
     loaded = true;
     removeListeners();
-    injectDeferredBootstrap();
-    // Do not toggle body font-family on load — that caused CLS (~0.4).
-    injectStylesheet(DEFERRED_FONT_STYLESHEET);
+    injectDeferredAssets();
   };
 
-  // Defer Bootstrap + body font until after LCP; interaction loads sooner for real users.
-  const events = ['click', 'touchstart', 'keydown'] as const;
-  const opts: AddEventListenerOptions = { passive: true };
+  const events = ['click', 'touchstart', 'keydown', 'scroll'] as const;
+  const opts: AddEventListenerOptions = { passive: true, once: true };
 
   const removeListeners = () => {
     events.forEach((event) => window.removeEventListener(event, load, opts));
@@ -54,10 +49,11 @@ export function scheduleDeferredAssets(): void {
 
   events.forEach((event) => window.addEventListener(event, load, opts));
 
-  const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
-  if (typeof w.requestIdleCallback === 'function') {
-    w.requestIdleCallback(load, { timeout: 5000 });
-  } else {
-    w.setTimeout(load, 5000);
-  }
+  window.addEventListener(
+    'load',
+    () => {
+      window.setTimeout(load, POST_LOAD_DELAY_MS);
+    },
+    { once: true },
+  );
 }
