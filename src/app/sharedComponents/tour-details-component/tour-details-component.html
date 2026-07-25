@@ -1,29 +1,32 @@
-<div class="container-fluid booking mt-5">
+<div class="container-fluid booking tour-hero">
   <div class="container">
-    <h1 class="text-center text-primary text-uppercase mb-3 pt-5" style="letter-spacing: 3px; font-size: 2rem;">
+    <h1 class="tour-hero__title text-center text-primary mb-3 pt-4 pt-md-5">
       {{ tour.title }}
     </h1>
-    <div class="bg-light shadow rounded-3 p-2">
-      <div class="row text-center gy-4">
-        <div class="col-6 col-md-3">
-          <i class="fas fa-clock fa-2x uniform-icon mb-2"></i>
-          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.duration' | t }}</p>
-          <p class="fw-bold mb-0">{{ tour.duration }}</p>
+    <div class="tour-meta-card bg-light shadow rounded-3">
+      <div class="tour-meta-card__grid">
+        <div class="tour-meta-card__item">
+          <i class="fas fa-clock tour-meta-card__icon" aria-hidden="true"></i>
+          <p class="tour-meta-label">{{ 'common.tourUi.duration' | t }}</p>
+          <p class="tour-meta-card__value">{{ tour.duration }}</p>
         </div>
-        <div class="col-6 col-md-3">
-          <i class="fas fa-users fa-2x uniform-icon mb-2"></i>
-          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.maxPeople' | t }}</p>
-          <p class="fw-bold mb-0">{{ tour.persons }}</p>
+        <div class="tour-meta-card__item">
+          <i class="fas fa-users tour-meta-card__icon" aria-hidden="true"></i>
+          <p class="tour-meta-label">{{ 'common.tourUi.maxPeople' | t }}</p>
+          <p class="tour-meta-card__value">{{ tour.persons }}</p>
         </div>
-        <div class="col-6 col-md-3">
-          <i class="fas fa-dollar-sign fa-2x uniform-icon mb-2"></i>
-          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.price' | t }}</p>
-          <p class="fw-bold mb-0">$ {{ displayPrice }} {{ 'common.tourUi.priceBasis' | t }}</p>
+        <div class="tour-meta-card__item">
+          <i class="fas fa-dollar-sign tour-meta-card__icon" aria-hidden="true"></i>
+          <p class="tour-meta-label">{{ 'common.tourUi.price' | t }}</p>
+          <p class="tour-meta-card__value">
+            <span class="tour-meta-card__price">$ {{ displayPrice }}</span>
+            <span class="tour-meta-card__basis">{{ 'common.tourUi.priceBasis' | t }}</span>
+          </p>
         </div>
-        <div class="col-6 col-md-3">
-          <i class="fas fa-map-marked-alt fa-2x uniform-icon mb-2"></i>
-          <p class="mb-1 tour-meta-label">{{ 'common.tourUi.tourType' | t }}</p>
-          <p class="fw-bold mb-0">{{ tour.tourType }}</p>
+        <div class="tour-meta-card__item">
+          <i class="fas fa-map-marked-alt tour-meta-card__icon" aria-hidden="true"></i>
+          <p class="tour-meta-label">{{ 'common.tourUi.tourType' | t }}</p>
+          <p class="tour-meta-card__value">{{ tour.tourType }}</p>
         </div>
       </div>
     </div>
@@ -34,11 +37,11 @@
   <div class="container">
     <div class="row g-4">
       <!-- Left: overview, itinerary, includes/excludes -->
-      <div class="col-lg-8 order-2 order-lg-1">
-        <div class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
-          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.overview' | t }}</h2>
-          <p [class.mb-0]="!tour.seoIntro">{{ tour.overview }}</p>
-          <p *ngIf="tour.seoIntro" class="mb-0 mt-3">{{ tour.seoIntro }}</p>
+      <div class="col-lg-8 order-lg-1">
+        <div class="tour-content-panel bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="tour-section-heading text-primary">{{ 'common.tourUi.overview' | t }}</h2>
+          <p class="tour-body-text" [class.mb-0]="!tour.seoIntro">{{ tour.overview }}</p>
+          <p *ngIf="tour.seoIntro" class="tour-body-text mb-0 mt-3">{{ tour.seoIntro }}</p>
           <nav *ngIf="relatedGraph" class="tour-explore-inline mt-4" aria-label="Related destinations and guides">
             <p class="tour-explore-inline__lead mb-2">{{ relatedGraph.context }}</p>
             <div class="tour-explore-chips">
@@ -52,25 +55,25 @@
           </nav>
         </div>
 
-        <div *ngIf="tour.highlights?.length" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
-          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.highlights' | t }}</h2>
+        <div *ngIf="tour.highlights?.length" class="tour-content-panel bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="tour-section-heading text-primary">{{ 'common.tourUi.highlights' | t }}</h2>
           <ul class="tour-highlights mb-0">
             <li *ngFor="let item of tour.highlights; trackBy: trackByItem">{{ item }}</li>
           </ul>
         </div>
 
-        <div *ngIf="tour.whoIsFor" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
-          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.whoIsFor' | t }}</h2>
-          <p class="mb-0">{{ tour.whoIsFor }}</p>
+        <div *ngIf="tour.whoIsFor" class="tour-content-panel bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="tour-section-heading text-primary">{{ 'common.tourUi.whoIsFor' | t }}</h2>
+          <p class="tour-body-text mb-0">{{ tour.whoIsFor }}</p>
         </div>
 
-        <div *ngIf="tour.bestTimeNote" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
-          <h2 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ 'common.tourUi.bestTimeNote' | t }}</h2>
-          <p class="mb-0">{{ tour.bestTimeNote }}</p>
+        <div *ngIf="tour.bestTimeNote" class="tour-content-panel bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="tour-section-heading text-primary">{{ 'common.tourUi.bestTimeNote' | t }}</h2>
+          <p class="tour-body-text mb-0">{{ tour.bestTimeNote }}</p>
         </div>
 
-        <div *ngIf="tour.faq?.length" class="bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
-          <h2 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">{{ 'common.faqTitle' | t }}</h2>
+        <div *ngIf="tour.faq?.length" class="tour-content-panel bg-white p-4 p-lg-5 my-lg-3 shadow-sm rounded-3">
+          <h2 class="tour-section-heading text-primary mb-3">{{ 'common.faqTitle' | t }}</h2>
           <div class="faq-inline">
             <details *ngFor="let item of tour.faq; trackBy: trackByFaq" class="faq-item">
               <summary>{{ item.q }}</summary>
@@ -80,7 +83,7 @@
         </div>
 
         <div class="bg-white p-2 p-lg-5 shadow-sm rounded-3 mb-4" *ngIf="tour.itinerary">
-          <h3 class="mb-3">{{ 'common.tourUi.plan' | t }}</h3>
+          <h3 class="tour-section-heading text-primary mb-3">{{ 'common.tourUi.plan' | t }}</h3>
           <div *ngFor="let day of tour.itinerary; trackBy: trackByDay" class="border-bottom">
             <h4 (click)="toggleDay(day.day)" class="itinerary-header">
               <i class="fas fa-map-marker-alt location-icon me-2"></i>
@@ -157,8 +160,8 @@
         </div>
       </div>
 
-      <!-- Right: booking card -->
-      <div class="col-lg-4 order-1 order-lg-2" id="tour-booking-section" *ngIf="showBooking">
+      <!-- Right: booking card (desktop only — mobile uses sticky bar + sheet) -->
+      <div class="col-lg-4 order-lg-2 d-none d-lg-block" id="tour-booking-section" *ngIf="showBooking">
         <div class="booking-sidebar">
           <div class="booking-trust-strip" aria-label="Trust signals">
             <span>{{ 'common.tourUi.trustFreeCancel' | t }}</span>
@@ -226,19 +229,57 @@
   </div>
 </div>
 
-<div class="mobile-book-bar d-lg-none" *ngIf="showBooking" role="region" aria-label="Mobile booking actions">
+<div class="mobile-book-bar d-lg-none" *ngIf="showBooking" role="region" [attr.aria-label]="'common.booking.title' | t">
   <div class="mobile-book-bar__inner">
-    <div class="mobile-book-bar__price">
+    <div class="mobile-book-bar__copy">
       <span class="mobile-book-bar__label">{{ 'common.tourUi.mobileBookBar' | t }}</span>
-      <strong>$ {{ displayPrice }} {{ 'common.tourUi.priceBasis' | t }}</strong>
+      <strong class="mobile-book-bar__price">
+        <span class="mobile-book-bar__currency">$</span>{{ displayPrice | number:'1.0-0' }}
+        <span class="mobile-book-bar__basis">{{ 'common.tourUi.priceBasis' | t }}</span>
+      </strong>
     </div>
     <div class="mobile-book-bar__actions">
-      <a class="btn btn-success btn-sm" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">
-        {{ 'common.tourUi.chatWhatsApp' | t }}
+      <a
+        class="mobile-book-bar__wa"
+        [href]="whatsappTourUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+        [attr.aria-label]="'common.tourUi.chatWhatsApp' | t">
+        <app-social-icon name="whatsapp" />
+        <span class="mobile-book-bar__wa-text">{{ 'common.tourUi.chatWhatsApp' | t }}</span>
       </a>
-      <button type="button" class="btn btn-primary btn-sm" (click)="scrollToBooking()">
-        {{ 'common.tourUi.bookNow' | t }}
+      <button type="button" class="mobile-book-bar__book" (click)="openMobileBooking()">
+        {{ 'common.cta.bookNow' | t }}
       </button>
+    </div>
+  </div>
+</div>
+
+<div
+  *ngIf="mobileBookingOpen"
+  class="mobile-booking-sheet"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-label]="'common.booking.title' | t"
+  (click)="onMobileBookingBackdrop($event)">
+  <div class="mobile-booking-sheet__panel" (click)="$event.stopPropagation()">
+    <header class="mobile-booking-sheet__header">
+      <div>
+        <p class="mobile-booking-sheet__eyebrow">{{ 'common.tourUi.trustFreeCancel' | t }} · {{ 'common.tourUi.trustPayLater' | t }}</p>
+        <h2 class="mobile-booking-sheet__title">{{ 'common.booking.title' | t }}</h2>
+      </div>
+      <button type="button" class="mobile-booking-sheet__close" (click)="closeMobileBooking()" aria-label="Close booking form">
+        <span aria-hidden="true">×</span>
+      </button>
+    </header>
+    <div class="mobile-booking-sheet__body">
+      <app-tour-booking-card
+        [tour]="bookingTour!"
+        [filecode]="filecode!"
+        [image]="image!"
+        [priceList]="prices"
+        [autoLoadPrices]="false">
+      </app-tour-booking-card>
     </div>
   </div>
 </div>

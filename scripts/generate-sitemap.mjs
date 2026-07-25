@@ -1,11 +1,19 @@
-import { writeFile } from 'node:fs/promises';
+import { writeFile, unlink } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-import { PAGES, INDEXABLE_LOCALES, BASE_URL, buildUrl, buildAlternates } from '../src/app/i18n/site-data.mjs';
+import {
+  BASE_URL,
+  collectSitemapEntries,
+  formatLastmod,
+  validateHreflangReciprocity,
+  xmlEscape,
+} from './sitemap-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PUBLIC_DIR = join(__dirname, '..', 'public');
+const ROOT_DIR = join(__dirname, '..');
+const PUBLIC_DIR = join(ROOT_DIR, 'public');
 
 const GUIDE_HERO_IMAGES = {
   guideBestTime: 'assets/img/mainpage/1.webp',
@@ -22,17 +30,8 @@ const GUIDE_HERO_IMAGES = {
   guides: 'assets/img/mainpage/1.webp',
 };
 
-function xmlEscape(value) {
-  return value
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-function buildUrlEntry(page, locale, lastmod) {
-  const loc = buildUrl(page.id, locale);
-  const alternates = buildAlternates(page.id)
+function buildUrlEntry(entry) {
+  const alternatesXml = entry.alternates
     .map(
       (alt) =>
         `    <xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${xmlEscape(alt.href)}" />`,
@@ -41,58 +40,57 @@ function buildUrlEntry(page, locale, lastmod) {
 
   return [
     '  <url>',
-    `    <loc>${xmlEscape(loc)}</loc>`,
-    alternates,
-    `    <lastmod>${lastmod}</lastmod>`,
-    `    <changefreq>${page.changefreq ?? 'monthly'}</changefreq>`,
-    `    <priority>${(page.priority ?? 0.6).toFixed(2)}</priority>`,
+    `    <loc>${xmlEscape(entry.url)}</loc>`,
+    alternatesXml,
+    `    <lastmod>${entry.lastmod}</lastmod>`,
+    `    <changefreq>${entry.page.changefreq ?? 'monthly'}</changefreq>`,
+    `    <priority>${(entry.page.priority ?? 0.6).toFixed(2)}</priority>`,
     '  </url>',
   ].join('\n');
-}
-
-function buildHreflangEntry(pageId) {
-  const lines = ['  <url>'];
-  for (const alt of buildAlternates(pageId)) {
-    lines.push(
-      `    <xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${xmlEscape(alt.href)}" />`,
-    );
-  }
-  // Primary loc = x-default / English canonical for the cluster
-  lines.push(`    <loc>${xmlEscape(buildUrl(pageId, 'en'))}</loc>`);
-  lines.push('  </url>');
-  return lines.join('\n');
 }
 
 function absoluteAsset(path) {
   return `${BASE_URL}/${path.replace(/^\//, '')}`;
 }
 
-function buildImageEntry(pageId, locale, imagePath, lastmod) {
-  const loc = buildUrl(pageId, locale);
-  const title = pageId;
+function buildImageEntry(entry, imagePath) {
   return [
     '  <url>',
-    `    <loc>${xmlEscape(loc)}</loc>`,
-    `    <lastmod>${lastmod}</lastmod>`,
+    `    <loc>${xmlEscape(entry.url)}</loc>`,
+    `    <lastmod>${entry.lastmod}</lastmod>`,
     '    <image:image>',
     `      <image:loc>${xmlEscape(absoluteAsset(imagePath))}</image:loc>`,
-    `      <image:title>${xmlEscape(title)}</image:title>`,
+    `      <image:title>${xmlEscape(entry.page.id)}</image:title>`,
     '    </image:image>',
     '  </url>',
   ].join('\n');
 }
 
 async function main() {
-  const lastmod = new Date().toISOString().split('T')[0];
-  const indexablePages = PAGES.filter((page) => page.index);
+  const { included, excluded, candidateCount } = collectSitemapEntries(ROOT_DIR);
 
-  const urlEntries = [];
-  for (const page of indexablePages) {
-    for (const locale of INDEXABLE_LOCALES) {
-      urlEntries.push(buildUrlEntry(page, locale, lastmod));
+  const reciprocity = validateHreflangReciprocity(included);
+  if (!reciprocity.ok) {
+    console.warn('[sitemap] hreflang reciprocity warnings:');
+    for (const issue of reciprocity.issues) {
+      console.warn(`  - ${issue}`);
     }
+  } else {
+    console.log('[sitemap] hreflang reciprocity: all clusters OK');
   }
 
+  if (excluded.length > 0) {
+    const byReason = excluded.reduce((acc, row) => {
+      acc[row.reason] = (acc[row.reason] ?? 0) + 1;
+      return acc;
+    }, {});
+    console.log(
+      `[sitemap] filtered ${excluded.length} of ${candidateCount} candidates:`,
+      byReason,
+    );
+  }
+
+  const urlEntries = included.map(buildUrlEntry);
   const sitemapXml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
@@ -102,26 +100,21 @@ async function main() {
     '',
   ].join('\n');
 
-  const hreflangEntries = indexablePages.map((page) => buildHreflangEntry(page.id));
-  const hreflangXml = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-    '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-    hreflangEntries.join('\n'),
-    '</urlset>',
-    '',
-  ].join('\n');
-
-  const imagePages = indexablePages.filter(
-    (page) => page.kind === 'guide' || page.id === 'guides' || GUIDE_HERO_IMAGES[page.id],
+  const imagePageIds = new Set(
+    included
+      .filter(
+        ({ page }) =>
+          page.kind === 'guide' || page.id === 'guides' || GUIDE_HERO_IMAGES[page.id],
+      )
+      .map(({ page }) => page.id),
   );
+
   const imageEntries = [];
-  for (const page of imagePages) {
-    const imagePath = GUIDE_HERO_IMAGES[page.id];
+  for (const entry of included) {
+    if (!imagePageIds.has(entry.page.id)) continue;
+    const imagePath = GUIDE_HERO_IMAGES[entry.page.id];
     if (!imagePath) continue;
-    for (const locale of INDEXABLE_LOCALES) {
-      imageEntries.push(buildImageEntry(page.id, locale, imagePath, lastmod));
-    }
+    imageEntries.push(buildImageEntry(entry, imagePath));
   }
 
   const imageXml = [
@@ -133,32 +126,64 @@ async function main() {
     '',
   ].join('\n');
 
+  const indexLastmod = formatLastmod(
+    Math.max(...included.map((e) => e.lastmodMs), Date.now()),
+  );
+
   const indexXml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     '  <sitemap>',
     `    <loc>${BASE_URL}/sitemap.xml</loc>`,
-    `    <lastmod>${lastmod}</lastmod>`,
-    '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>${BASE_URL}/sitemap-hreflang.xml</loc>`,
-    `    <lastmod>${lastmod}</lastmod>`,
+    `    <lastmod>${indexLastmod}</lastmod>`,
     '  </sitemap>',
     '  <sitemap>',
     `    <loc>${BASE_URL}/sitemap-images.xml</loc>`,
-    `    <lastmod>${lastmod}</lastmod>`,
+    `    <lastmod>${indexLastmod}</lastmod>`,
     '  </sitemap>',
     '</sitemapindex>',
     '',
   ].join('\n');
 
   await writeFile(join(PUBLIC_DIR, 'sitemap.xml'), sitemapXml, 'utf8');
-  await writeFile(join(PUBLIC_DIR, 'sitemap-hreflang.xml'), hreflangXml, 'utf8');
   await writeFile(join(PUBLIC_DIR, 'sitemap-images.xml'), imageXml, 'utf8');
   await writeFile(join(PUBLIC_DIR, 'sitemap-index.xml'), indexXml, 'utf8');
 
+  const legacyHreflangPath = join(PUBLIC_DIR, 'sitemap-hreflang.xml');
+  if (existsSync(legacyHreflangPath)) {
+    await unlink(legacyHreflangPath);
+    console.log('[sitemap] removed legacy sitemap-hreflang.xml (hreflang merged into sitemap.xml)');
+  }
+
+  const sample = included.slice(0, 3).map((e) => ({
+    loc: e.url,
+    lastmod: e.lastmod,
+    alternateCount: e.alternates.length,
+    alternates: e.alternates.map((a) => `${a.hreflang}→${a.href}`),
+  }));
+
   console.log(
-    `Wrote sitemap.xml (${urlEntries.length} URLs), sitemap-hreflang.xml (${hreflangEntries.length} clusters), sitemap-images.xml (${imageEntries.length} image URLs), sitemap-index.xml`,
+    JSON.stringify(
+      {
+        urls: {
+          candidates: candidateCount,
+          included: included.length,
+          excluded: excluded.length,
+        },
+        hreflang: {
+          reciprocityOk: reciprocity.ok,
+          issueCount: reciprocity.issues.length,
+          issues: reciprocity.issues.slice(0, 10),
+        },
+        sampleEntries: sample,
+      },
+      null,
+      2,
+    ),
+  );
+
+  console.log(
+    `Wrote sitemap.xml (${included.length} URLs), sitemap-images.xml (${imageEntries.length} image URLs), sitemap-index.xml`,
   );
 }
 

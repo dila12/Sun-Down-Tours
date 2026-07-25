@@ -74,6 +74,20 @@ h6,
     z-index: 11;
 }
 
+@media (max-width: 991.98px) {
+    body.has-mobile-book-bar .back-to-top {
+        bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    body.has-mobile-book-bar .whatsapp-float {
+        display: none !important;
+    }
+
+    body.mobile-booking-sheet-open .back-to-top {
+        display: none !important;
+    }
+}
+
 .nav-bar::before {
     position: absolute;
     content: "";

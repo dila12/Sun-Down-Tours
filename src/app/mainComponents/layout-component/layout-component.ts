@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, ChangeDetectorRef, inject } from '@angular/core';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef, HostListener, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
@@ -41,6 +41,7 @@ export class LayoutComponent {
   readonly whatsappUrl = SITE_WHATSAPP_URL;
 
   navOpen = false;
+  langMenuOpen = false;
   readonly onImageError = onImageError;
   readonly logoSrc = withImageVersion(LOGO_80);
   /** 64w for ~32px mobile CSS; 80w/160w for desktop 1x/2x. Same brand asset, sized correctly. */
@@ -70,10 +71,29 @@ export class LayoutComponent {
   changeLang(locale: Locale): void {
     if (locale === this.i18n.locale()) {
       this.closeNav();
+      this.closeLangMenu();
       return;
     }
     const target = this.i18n.path(this.i18n.pageId(), locale);
     this.router.navigateByUrl(target);
     this.closeNav();
+    this.closeLangMenu();
+  }
+
+  toggleLangMenu(event: Event): void {
+    event.stopPropagation();
+    this.langMenuOpen = !this.langMenuOpen;
+    this.cdr.markForCheck();
+  }
+
+  closeLangMenu(): void {
+    if (!this.langMenuOpen) return;
+    this.langMenuOpen = false;
+    this.cdr.markForCheck();
+  }
+
+  @HostListener('document:click')
+  onDocumentClick(): void {
+    this.closeLangMenu();
   }
 }

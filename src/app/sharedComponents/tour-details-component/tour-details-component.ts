@@ -16,6 +16,7 @@ import {
 import { HttpClient } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { TourBookingCardComponent } from '../tour-booking-card/tour-booking-card';
+import { SocialIconComponent } from '../social-icon/social-icon';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LocaleService } from '../../i18n/locale.service';
 import { getTourRelatedGraph, type TourRelatedGraph } from '../../i18n/tours/tour-related-graph';
@@ -89,7 +90,7 @@ export interface ItineraryGalleryItem {
 @Component({
   selector: 'app-tour-details-component',
   standalone: true,
-  imports: [CommonModule, RouterModule, TourBookingCardComponent, TranslatePipe],
+  imports: [CommonModule, RouterModule, TourBookingCardComponent, SocialIconComponent, TranslatePipe],
   templateUrl: './tour-details-component.html',
   styleUrl: './tour-details-component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -113,6 +114,7 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
   zoom = 1;
   panX = 0;
   panY = 0;
+  mobileBookingOpen = false;
 
   readonly onImageError = onImageError;
   readonly bestImageSrc = bestImageSrc;
@@ -151,6 +153,11 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
 
   get displayPrice(): number {
     return this.prices['2'] ?? this.tour?.price ?? 0;
+  }
+
+  get whatsappTourUrl(): string {
+    const title = this.tour?.title ?? 'this tour';
+    return `${this.whatsappUrl}?text=${encodeURIComponent(`Hi, I would like to enquire about ${title}`)}`;
   }
 
   path(pageId: string): string {
@@ -192,11 +199,26 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
     return link;
   }
 
-  scrollToBooking(): void {
+  openMobileBooking(): void {
     if (!this.isBrowser) return;
-    this.doc
-      .getElementById('tour-booking-section')
-      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    this.mobileBookingOpen = true;
+    this.lockBodyScroll();
+    this.doc.body.classList.add('mobile-booking-sheet-open');
+    this.cdr.markForCheck();
+  }
+
+  closeMobileBooking(): void {
+    if (!this.mobileBookingOpen) return;
+    this.mobileBookingOpen = false;
+    this.unlockBodyScroll();
+    this.doc.body.classList.remove('mobile-booking-sheet-open');
+    this.cdr.markForCheck();
+  }
+
+  onMobileBookingBackdrop(event: MouseEvent): void {
+    if (event.target === event.currentTarget) {
+      this.closeMobileBooking();
+    }
   }
 
   get galleryItems(): ItineraryGalleryItem[] {
@@ -254,11 +276,18 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
     if (this.filecode && this.isBrowser) {
       this.loadPrices(this.filecode);
     }
+    if (this.showBooking && this.isBrowser) {
+      this.doc.body.classList.add('has-mobile-book-bar');
+    }
   }
 
   ngOnDestroy(): void {
     this.clearPreloads();
+    this.closeMobileBooking();
     this.unlockBodyScroll();
+    if (this.isBrowser) {
+      this.doc.body.classList.remove('has-mobile-book-bar');
+    }
   }
 
   loadPrices(filecode: string): void {
@@ -463,7 +492,15 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
 
   @HostListener('document:keydown', ['$event'])
   onDocumentKeydown(event: KeyboardEvent): void {
-    if (!this.isBrowser || !this.galleryOpen) return;
+    if (!this.isBrowser) return;
+
+    if (event.key === 'Escape' && this.mobileBookingOpen) {
+      event.preventDefault();
+      this.closeMobileBooking();
+      return;
+    }
+
+    if (!this.galleryOpen) return;
 
     if (event.key === 'Escape') {
       event.preventDefault();

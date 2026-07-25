@@ -13,9 +13,10 @@
                 </p>
             </div>
 
-            <!-- Right side: social icons -->
-            <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-end align-items-center">
-                <div class="lang-pill d-flex flex-wrap" role="group" [attr.aria-label]="'common.language' | t">
+            <!-- Right side: language + social -->
+            <div class="col-12 col-lg-6 topbar-actions">
+                <!-- Wide desktop: compact inline flags -->
+                <div class="lang-pill lang-pill--desktop d-none d-xl-flex" role="group" [attr.aria-label]="'common.language' | t">
                     @for (code of locales; track code) {
                     <button class="lang-flag" [class.active]="i18n.locale() === code" (click)="changeLang(code)"
                         [title]="localeMeta[code].label" [attr.aria-label]="localeMeta[code].label"
@@ -25,7 +26,54 @@
                     </button>
                     }
                 </div>
-                <div class="d-flex ml-2">
+
+                <!-- Tablet / laptop: compact dropdown -->
+                <div class="lang-dropdown d-xl-none">
+                    <button
+                        type="button"
+                        class="lang-dropdown__trigger"
+                        (click)="toggleLangMenu($event)"
+                        [attr.aria-expanded]="langMenuOpen"
+                        aria-haspopup="listbox"
+                        [attr.aria-label]="'common.language' | t">
+                        <img
+                            class="lang-dropdown__flag"
+                            [src]="'https://flagcdn.com/w20/' + localeMeta[i18n.locale()].flag + '.png'"
+                            alt=""
+                            width="20"
+                            height="15"
+                            loading="lazy"
+                            decoding="async">
+                        <span class="lang-dropdown__label">{{ localeMeta[i18n.locale()].label }}</span>
+                        <span class="lang-dropdown__chevron" aria-hidden="true"></span>
+                    </button>
+                    @if (langMenuOpen) {
+                    <ul class="lang-dropdown__menu" role="listbox" [attr.aria-label]="'common.language' | t">
+                        @for (code of locales; track code) {
+                        <li role="presentation">
+                            <button
+                                type="button"
+                                role="option"
+                                class="lang-dropdown__option"
+                                [class.is-active]="i18n.locale() === code"
+                                [attr.aria-selected]="i18n.locale() === code"
+                                (click)="changeLang(code)">
+                                <img
+                                    [src]="'https://flagcdn.com/w20/' + localeMeta[code].flag + '.png'"
+                                    alt=""
+                                    width="20"
+                                    height="15"
+                                    loading="lazy"
+                                    decoding="async">
+                                <span>{{ localeMeta[code].label }}</span>
+                            </button>
+                        </li>
+                        }
+                    </ul>
+                    }
+                </div>
+
+                <div class="topbar-socials layout-socials">
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.facebook.com/profile.php?id=61563992655756"
                         aria-label="Visit our Facebook page">

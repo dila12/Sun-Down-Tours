@@ -49,6 +49,33 @@ body { top: 0px !important; }
     background: linear-gradient(90deg,#022d41, #c05305);
 }
 
+.navbar-color > .container-fluid > .row {
+    min-height: 38px;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 992px) {
+    .topbar-actions {
+        justify-content: flex-end;
+        gap: 0.65rem;
+    }
+}
+
+.topbar-socials {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 2px;
+    margin-left: 0;
+}
+
 .navbar-color .nav-link,
 .navbar-color .navbar-brand .brand-title {
     color: #ffffff; /* White text */
@@ -84,58 +111,28 @@ body { top: 0px !important; }
     padding-right: 10px !important;
   }
 
-  /* 2. Single-row horizontal layout for flags & socials on mobile to prevent height wrapping */
-  .navbar-color .col-12.col-lg-6 {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    gap: 4px !important;
+  /* Single-row layout: language dropdown + social icons */
+  .topbar-actions {
     width: 100% !important;
   }
 
-  .lang-pill {
-    display: inline-flex !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none !important; /* Hide scrollbar Firefox */
-    margin-right: 4px !important;
-    padding: 1px 3px !important;
-    max-width: calc(100% - 140px) !important; /* reserve space for socials */
-  }
-
-  .lang-pill::-webkit-scrollbar {
-    display: none !important; /* Hide scrollbar Chrome/Safari */
-  }
-
-  /* 3. Maintain accessible tap targets (>= 44x44px) but optimize their inner/outer spacing */
-  .lang-flag {
-    padding: 0 !important;
-    min-width: 44px !important;
-    min-height: 44px !important;
-    margin: 0 !important;
+  .layout-socials {
+    margin-left: 0 !important;
+    gap: 2px !important;
   }
 
   .navbar-color .btn-square,
   .navbar-color .btn-sm-square {
-    min-width: 44px !important;
-    min-height: 44px !important;
+    min-width: 36px !important;
+    min-height: 36px !important;
     margin: 0 !important;
     padding: 0 !important;
-  }
-
-  .navbar-color .d-flex.ml-2 {
-    margin-left: 0 !important;
-    gap: 2px !important;
   }
 
   .navbar-color .btn-square.mr-2 {
     margin-right: 0 !important;
   }
 
-  /* 4. Optimize the main navbar spacing and height */
   .navbar {
     padding-top: 4px !important;
     padding-bottom: 4px !important;
@@ -250,62 +247,178 @@ body { top: 0px !important; }
 .lang-pill {
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: #b34c02;        /* dark pill */
-  padding: 4px 8px;
+  gap: 2px;
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: min(100%, 22rem);
+  padding: 2px 4px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 999px;
-  margin-right: 12px;
+  background: rgba(0, 0, 0, 0.16);
+  margin-right: 0;
+}
+
+.lang-pill--desktop {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.lang-pill--desktop::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile language dropdown */
+.lang-dropdown {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.lang-dropdown__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 34px;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.18);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lang-dropdown__flag {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.lang-dropdown__label {
+  max-width: 5.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lang-dropdown__chevron {
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  transform: rotate(45deg) translateY(-1px);
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.lang-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 10001;
+  min-width: 11.5rem;
+  max-height: 16rem;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(2, 45, 65, 0.22);
+}
+
+@media (min-width: 992px) {
+  .lang-dropdown__menu {
+    left: auto;
+    right: 0;
+  }
+}
+
+.lang-dropdown__option {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 100%;
+  min-height: 40px;
+  padding: 0.45rem 0.55rem;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #022d41;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lang-dropdown__option:hover,
+.lang-dropdown__option.is-active {
+  background: #eef4f8;
+}
+
+.lang-dropdown__option.is-active {
+  font-weight: 700;
+}
+
+.layout-socials {
+  flex-shrink: 0;
+  gap: 2px;
 }
 
 .lang-flag {
   background: transparent;
   border: none;
-  padding: 10px;
-  min-width: 44px;
-  min-height: 44px;
+  padding: 4px;
+  min-width: 30px;
+  min-height: 30px;
   cursor: pointer;
-  border-radius: 6px;
-  opacity: 0.6;
-  transition: all 0.2s ease;
+  border-radius: 999px;
+  opacity: 0.72;
+  transition: opacity 0.18s ease, background 0.18s ease, transform 0.18s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .lang-flag img {
-  width: 20px;
-  height: 15px;
+  width: 18px;
+  height: 13px;
   display: block;
   object-fit: cover;
+  border-radius: 1px;
+}
+
+.lang-flag:hover {
+  opacity: 1;
+  transform: scale(1.06);
+}
+
+.lang-flag.active {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
 }
 
 .navbar-color .btn-square,
 .navbar-color .btn-sm-square {
-  min-width: 44px;
-  min-height: 44px;
+  min-width: 34px;
+  min-height: 34px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 0;
 }
 
 .navbar-color .btn-square app-social-icon,
 .whatsapp-float app-social-icon {
   font-size: inherit;
 }
-
-.lang-flag:hover {
-  opacity: 1;
-  transform: scale(1.1);
-}
-
-.lang-flag.active {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.5);
-}
-
-/* Consolidate with mobile styles above */
 
 /* Footer newsletter — minimal form styles until deferred Bootstrap CSS loads */
 .input-group {
