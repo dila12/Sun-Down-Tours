@@ -3,6 +3,7 @@ import { LayoutComponent } from '../mainComponents/layout-component/layout-compo
 import { DEFAULT_LOCALE, NON_DEFAULT_LOCALES, type Locale } from './locales';
 import { REGISTRY } from './pages.registry';
 import { articleResolver } from './articles/article.resolver';
+import { tourResolver } from './tours/tour.resolver';
 import {
   LEGACY_DEST_REDIRECTS,
   LEGACY_GUIDE_REDIRECTS,
@@ -10,6 +11,22 @@ import {
   buildPath,
   getPage,
 } from './site-data.mjs';
+
+function routeResolve(kind: string, pageId: string) {
+  const needsArticle =
+    kind === 'destination' ||
+    kind === 'guide' ||
+    pageId === 'destinations' ||
+    pageId === 'guides';
+  const needsTour = kind === 'tour';
+  if (!needsArticle && !needsTour) {
+    return undefined;
+  }
+  return {
+    ...(needsArticle ? { article: articleResolver } : {}),
+    ...(needsTour ? { tour: tourResolver } : {}),
+  };
+}
 
 /**
  * Builds the full route table from the page registry:
@@ -26,16 +43,11 @@ export function buildRoutes(): Routes {
 
   // English (default locale) at the site root.
   for (const page of REGISTRY) {
-    const needsArticle =
-      page.kind === 'destination' ||
-      page.kind === 'guide' ||
-      page.id === 'destinations' ||
-      page.id === 'guides';
     children.push({
       path: page.slugs[DEFAULT_LOCALE],
       loadComponent: page.load,
       data: { pageId: page.id, locale: DEFAULT_LOCALE, kind: page.kind },
-      resolve: needsArticle ? { article: articleResolver } : undefined,
+      resolve: routeResolve(page.kind, page.id),
     });
   }
 
@@ -45,16 +57,11 @@ export function buildRoutes(): Routes {
   // Prefixed locales with translated slugs.
   for (const locale of NON_DEFAULT_LOCALES) {
     const localeChildren: Routes = REGISTRY.map((page) => {
-      const needsArticle =
-        page.kind === 'destination' ||
-        page.kind === 'guide' ||
-        page.id === 'destinations' ||
-        page.id === 'guides';
       return {
         path: page.slugs[locale],
         loadComponent: page.load,
         data: { pageId: page.id, locale, kind: page.kind },
-        resolve: needsArticle ? { article: articleResolver } : undefined,
+        resolve: routeResolve(page.kind, page.id),
       };
     });
 

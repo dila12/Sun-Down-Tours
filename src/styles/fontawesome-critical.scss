@@ -1,4 +1,4 @@
-/* Solid icon font — small subset woff2, loaded in the critical path so above-fold icons render */
+/* Solid icon font — not preloaded so hero/LCP wins bandwidth; icons swap in when ready. */
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;

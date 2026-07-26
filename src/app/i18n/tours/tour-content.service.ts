@@ -10,18 +10,6 @@ import {
 } from './catalog';
 import { TOUR_CARDS, type TourCardCopy } from './cards';
 import { localizeTour, type BaseTour, type TourContent } from './localize';
-import { TOUR2EK } from './tour2ek';
-import { TOUR2EY } from './tour2ey';
-import { TOUR4 } from './tour4';
-import { TOUR5 } from './tour5';
-import { TOUR6 } from './tour6';
-import { TOUR7 } from './tour7';
-import { TOUR8 } from './tour8';
-import { TOUR10 } from './tour10';
-import { ELLA_DAY } from './ellaDay';
-import { GALLE_DAY } from './galleDay';
-import { KANDY_DAY } from './kandyDay';
-import { SIGIRIYA_DAY } from './sigiriyaDay';
 
 /**
  * Localized tour card ready for PackageItemComponent / lists.
@@ -44,25 +32,32 @@ export interface TourCardView {
   price?: number;
 }
 
-/** Full registry of per-tour localized content (detail pages). */
-const TOUR_DETAIL: Record<string, TourContent> = {
-  tour2ek: TOUR2EK,
-  tour2ey: TOUR2EY,
-  tour4: TOUR4,
-  tour5: TOUR5,
-  tour6: TOUR6,
-  tour7: TOUR7,
-  tour8: TOUR8,
-  tour10: TOUR10,
-  ellaDay: ELLA_DAY,
-  galleDay: GALLE_DAY,
-  kandyDay: KANDY_DAY,
-  sigiriyaDay: SIGIRIYA_DAY,
+type TourDetailLoader = () => Promise<TourContent>;
+
+/**
+ * Per-pageId dynamic imports keep the home / tours-list chunks free of
+ * full itinerary dictionaries (~1 MB of tour detail source).
+ */
+const TOUR_DETAIL_LOADERS: Record<string, TourDetailLoader> = {
+  tour2ek: () => import('./tour2ek').then((m) => m.TOUR2EK),
+  tour2ey: () => import('./tour2ey').then((m) => m.TOUR2EY),
+  tour4: () => import('./tour4').then((m) => m.TOUR4),
+  tour5: () => import('./tour5').then((m) => m.TOUR5),
+  tour6: () => import('./tour6').then((m) => m.TOUR6),
+  tour7: () => import('./tour7').then((m) => m.TOUR7),
+  tour8: () => import('./tour8').then((m) => m.TOUR8),
+  tour10: () => import('./tour10').then((m) => m.TOUR10),
+  ellaDay: () => import('./ellaDay').then((m) => m.ELLA_DAY),
+  galleDay: () => import('./galleDay').then((m) => m.GALLE_DAY),
+  kandyDay: () => import('./kandyDay').then((m) => m.KANDY_DAY),
+  sigiriyaDay: () => import('./sigiriyaDay').then((m) => m.SIGIRIYA_DAY),
 };
 
 @Injectable({ providedIn: 'root' })
 export class TourContentService {
   private readonly i18n = inject(LocaleService);
+  private readonly entries = new Map<string, TourContent>();
+  private readonly inflight = new Map<string, Promise<TourContent | undefined>>();
 
   /** Structural meta for a page id. */
   meta(pageId: string): TourMeta | undefined {
@@ -120,13 +115,16 @@ export class TourContentService {
       .filter(Boolean);
   }
 
+  hasLoader(pageId: string): boolean {
+    return pageId in TOUR_DETAIL_LOADERS;
+  }
+
   /**
-   * Full localized tour detail for a page.
-   * English content in the registry is the base; other locales overlay by index.
-   * Returns undefined if detail content has not been authored yet.
+   * Sync read of full localized tour detail.
+   * Returns undefined until {@link preloadDetail} / the tour route resolver has run.
    */
   detail(pageId: string, locale: Locale = this.i18n.locale()): BaseTour | undefined {
-    const content = TOUR_DETAIL[pageId];
+    const content = this.entries.get(pageId);
     if (!content?.en) {
       return undefined;
     }
@@ -136,10 +134,47 @@ export class TourContentService {
     return localizeTour(content.en, content[locale]);
   }
 
-  /** Register / look up whether detail content exists. */
+  /** Preload detail dictionaries for a tour page (route resolver / SSR). */
+  async preloadDetail(pageId: string): Promise<BaseTour | undefined> {
+    const entry = await this.loadEntry(pageId);
+    if (!entry?.en) {
+      return undefined;
+    }
+    return this.detail(pageId);
+  }
+
+  /** Whether detail content exists (authored) for this page id. */
   hasDetail(pageId: string): boolean {
-    return !!TOUR_DETAIL[pageId]?.en;
+    if (this.entries.has(pageId)) {
+      return !!this.entries.get(pageId)?.en;
+    }
+    return this.hasLoader(pageId);
+  }
+
+  private loadEntry(pageId: string): Promise<TourContent | undefined> {
+    const cached = this.entries.get(pageId);
+    if (cached) {
+      return Promise.resolve(cached);
+    }
+    const pending = this.inflight.get(pageId);
+    if (pending) {
+      return pending;
+    }
+    const loader = TOUR_DETAIL_LOADERS[pageId];
+    if (!loader) {
+      return Promise.resolve(undefined);
+    }
+    const task = loader()
+      .then((entry) => {
+        this.entries.set(pageId, entry);
+        this.inflight.delete(pageId);
+        return entry;
+      })
+      .catch((err) => {
+        this.inflight.delete(pageId);
+        throw err;
+      });
+    this.inflight.set(pageId, task);
+    return task;
   }
 }
-
-export { TOUR_DETAIL };
