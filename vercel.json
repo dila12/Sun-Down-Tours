@@ -698,6 +698,11 @@
       "permanent": true
     },
     {
+      "source": "/packages",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
       "source": "/pl/10-day-sri-lanka-tour",
       "destination": "/pl/10-dniowa-wycieczka-sri-lanka",
       "permanent": true
@@ -1050,6 +1055,16 @@
     {
       "source": "/sri-lanka-wildlife-guide",
       "destination": "/travel-guides/sri-lanka-wildlife-guide",
+      "permanent": true
+    },
+    {
+      "source": "/tour-packages",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
+      "source": "/twodaystours",
+      "destination": "/sri-lanka-private-tour",
       "permanent": true
     },
     {

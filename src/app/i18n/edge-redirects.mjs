@@ -23,6 +23,9 @@ const STATIC_PATH_REDIRECTS = {
   '/index.html': '/',
   '/index.htm': '/',
   '/contact': '/contact-us',
+  '/packages': '/sri-lanka-private-tour',
+  '/tour-packages': '/sri-lanka-private-tour',
+  '/twodaystours': '/sri-lanka-private-tour',
 };
 
 /**
