@@ -832,9 +832,9 @@ export const es: Dict = {
       keywords: "guideHoneymoon",
     },
     guideFamilyTours: {
-      title: "Sri Lanka Family Tours | Private Trips with Kids",
-      description: "Family-friendly private Sri Lanka tours with flexible pacing and wildlife options.",
-      keywords: "guideFamilyTours",
+      title: "Tours familiares por Sri Lanka | Viajes privados con niños",
+      description: "Tours privados por Sri Lanka pensados para familias, con ritmo tranquilo, safaris por la mañana y descanso en la playa.",
+      keywords: "tour familiar Sri Lanka, viaje privado con niños, safari en familia Sri Lanka",
     },
     guideLuxuryTours: {
       title: "Sri Lanka Luxury Tours | Private Chauffeur Travel",

@@ -3,27 +3,22 @@
   <div class="row align-items-center">
 
     <div class="col-lg-6 mb-4 w-100 h-100">
-      <img src="assets/img/logos/6.webp" alt="Luxury Restaurant in Sri Lanka" class="img-fluid rounded shadow" loading="lazy" decoding="async" fetchpriority="low">
+      <img src="assets/img/logos/6.webp" [attr.alt]="copy.heroAlt" class="img-fluid rounded shadow" loading="lazy" decoding="async" fetchpriority="low">
     </div>
 
     <div class="col-lg-6">
-      <h2 class="mb-3">Sundown Beach Restaurant – Fresh Seafood & Sri Lankan Cuisine</h2>
+      <h2 class="mb-3">{{ copy.heroTitle }}</h2>
 
       <p class="text-muted">
-        Discover the rich flavors of Sri Lanka in a relaxing and elegant atmosphere.
-        Our restaurant offers freshly prepared local dishes, international favorites,
-        and a curated selection of beverages to enhance your dining experience.
+        {{ copy.heroBody }}
       </p>
 
       <ul class="list-unstyled mt-4">
-        <li>✔ Traditional Sri Lankan Rice & Curry</li>
-        <li>✔ Fresh Seafood Specialties</li>
-        <li>✔ Vegetarian & Vegan Options</li>
-        <li>✔ Private Dining & Group Bookings</li>
+        <li *ngFor="let bullet of copy.bullets">✔ {{ bullet }}</li>
       </ul>
 
       <div class="booking-box mt-4 p-4 text-center">
-        <h5>Book a Table</h5>
+        <h5>{{ copy.bookTable }}</h5>
             <p class="phone-number">+94 70 629 3585</p>
       </div>
     </div>
@@ -35,57 +30,57 @@
 <section class="menu-section py-5">
 
   <div class="container text-center">
-    <p class="menu-small-title">OUR MENU</p>
+    <p class="menu-small-title">{{ copy.ourMenu }}</p>
     <h2 class="menu-main-title">
-      Check Our <span class="highlight">Sundown Menu</span>
+      {{ copy.menuTitleBefore }} <span class="highlight">{{ copy.menuTitleHighlight }}</span>
     </h2>
 
     <!-- Tabs -->
     <ul class="nav justify-content-center menu-tabs mt-4">
 
       <li class="nav-item" (click)="selectCategory('seafood')">
-        <a class="nav-link" [class.active]="selectedCategory==='seafood'">Seafood</a>
+        <a class="nav-link" [class.active]="selectedCategory==='seafood'">{{ categoryLabel('seafood') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('rice')">
-        <a class="nav-link" [class.active]="selectedCategory==='rice'">Rice & Curry</a>
+        <a class="nav-link" [class.active]="selectedCategory==='rice'">{{ categoryLabel('rice') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('fried')">
-        <a class="nav-link" [class.active]="selectedCategory==='fried'">Fried Rice</a>
+        <a class="nav-link" [class.active]="selectedCategory==='fried'">{{ categoryLabel('fried') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('devilled')">
-        <a class="nav-link" [class.active]="selectedCategory==='devilled'">Devilled</a>
+        <a class="nav-link" [class.active]="selectedCategory==='devilled'">{{ categoryLabel('devilled') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('noodles')">
-        <a class="nav-link" [class.active]="selectedCategory==='noodles'">Noodles</a>
+        <a class="nav-link" [class.active]="selectedCategory==='noodles'">{{ categoryLabel('noodles') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('spaghetti')">
-        <a class="nav-link" [class.active]="selectedCategory==='spaghetti'">Spaghetti</a>
+        <a class="nav-link" [class.active]="selectedCategory==='spaghetti'">{{ categoryLabel('spaghetti') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('salads')">
-        <a class="nav-link" [class.active]="selectedCategory==='salads'">Salads</a>
+        <a class="nav-link" [class.active]="selectedCategory==='salads'">{{ categoryLabel('salads') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('sandwich')">
-        <a class="nav-link" [class.active]="selectedCategory==='sandwich'">Sandwich</a>
+        <a class="nav-link" [class.active]="selectedCategory==='sandwich'">{{ categoryLabel('sandwich') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('soup')">
-        <a class="nav-link" [class.active]="selectedCategory==='soup'">Soup</a>
+        <a class="nav-link" [class.active]="selectedCategory==='soup'">{{ categoryLabel('soup') }}</a>
       </li>
 
       <li class="nav-item" (click)="selectCategory('drinks')">
-        <a class="nav-link" [class.active]="selectedCategory==='drinks'">Drinks</a>
+        <a class="nav-link" [class.active]="selectedCategory==='drinks'">{{ categoryLabel('drinks') }}</a>
       </li>
     </ul>
 
-    <p class="menu-label mt-4">MENU</p>
-    <h3 class="menu-category-title">{{ selectedCategory | titlecase }}</h3>
+    <p class="menu-label mt-4">{{ copy.menuLabel }}</p>
+    <h3 class="menu-category-title">{{ categoryLabel(selectedCategory) }}</h3>
 
     <!-- Menu Items -->
     <div class="row mt-5">
@@ -124,9 +119,9 @@
 <section class="contact-section py-5">
 
   <div class="container text-center">
-    <p class="small-title">NEED HELP?</p>
+    <p class="small-title">{{ copy.needHelp }}</p>
     <h2 class="main-title">
-      <span class="highlight">Contact Us</span>
+      <span class="highlight">{{ copy.contactUs }}</span>
     </h2>
   </div>
 
@@ -148,7 +143,7 @@
             <i class="fa fa-map-marker"></i>
           </div>
           <div>
-            <h5>Address</h5>
+            <h5>{{ copy.addressLabel }}</h5>
             <p>No 302, Mahawaskaduwa, Waskaduwa,<br>
               Kalutara North, Sri Lanka</p>
           </div>
@@ -161,7 +156,7 @@
             <i class="fa fa-phone"></i>
           </div>
           <div>
-            <h5>Call Us</h5>
+            <h5>{{ copy.callUs }}</h5>
             <p><a href="tel:+94706293585">+94 70 629 3585</a></p>
           </div>
         </div>
@@ -173,7 +168,7 @@
             <i class="fa fa-envelope"></i>
           </div>
           <div>
-            <h5>Email Us</h5>
+            <h5>{{ copy.emailUs }}</h5>
             <p><a href="mailto:sundowntoursrilanka@gmail.com">
                 sundowntoursrilanka@gmail.com
               </a></p>
@@ -187,8 +182,8 @@
             <i class="fa fa-clock-o"></i>
           </div>
           <div>
-            <h5>Opening Hours</h5>
-            <p>Mon-Sun: 8:00 AM - 10:00 PM</p>
+            <h5>{{ copy.openingHoursLabel }}</h5>
+            <p>{{ copy.openingHoursValue }}</p>
           </div>
         </div>
       </div>
