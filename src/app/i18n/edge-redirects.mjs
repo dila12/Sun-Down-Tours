@@ -16,11 +16,25 @@ import {
 const DORMANT_SET = new Set(DORMANT_LOCALE_PREFIXES);
 
 /**
+ * Fixed path redirects (not locale-prefixed). Keep `/fr/contact` alone — FR slug is `contact`.
+ * @type {Record<string, string>}
+ */
+const STATIC_PATH_REDIRECTS = {
+  '/index.html': '/',
+  '/index.htm': '/',
+  '/contact': '/contact-us',
+};
+
+/**
  * @returns {Map<string, string>} pathname (no query) → root-relative target path
  */
 export function buildEdgeRedirectMap() {
   /** @type {Map<string, string>} */
   const map = new Map();
+
+  for (const [from, to] of Object.entries(STATIC_PATH_REDIRECTS)) {
+    map.set(from, to);
+  }
 
   const legacyMaps = [LEGACY_GUIDE_REDIRECTS, LEGACY_TOUR_REDIRECTS, LEGACY_DEST_REDIRECTS];
 

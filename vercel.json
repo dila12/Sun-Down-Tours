@@ -18,6 +18,11 @@
       "permanent": true
     },
     {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
       "source": "/de/10-day-sri-lanka-tour",
       "destination": "/de/10-tage-sri-lanka-rundreise",
       "permanent": true
@@ -415,6 +420,16 @@
     {
       "source": "/fr/sri-lanka-wildlife-guide",
       "destination": "/fr/guides/faune-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/index.htm",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
       "permanent": true
     },
     {
