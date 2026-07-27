@@ -5,7 +5,10 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildEdgeRedirectMap } from '../src/app/i18n/edge-redirects.mjs';
+import {
+  buildDormantLocaleVercelRedirects,
+  buildEdgeRedirectMap,
+} from '../src/app/i18n/edge-redirects.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -15,7 +18,9 @@ const apexRedirect = {
   source: '/:path*',
   has: [{ type: 'host', value: 'sundowntours.com' }],
   destination: 'https://www.sundowntours.com/:path*',
-  permanent: true,
+  // Explicit 308 so GSC treats apex→www as permanent (permanent:true alone can
+  // still lose to a Domain-level 307 configured in the Vercel dashboard).
+  statusCode: 308,
 };
 
 function pathToSource(path) {
@@ -25,7 +30,7 @@ function pathToSource(path) {
 
 async function main() {
   const map = buildEdgeRedirectMap();
-  const generated = [...map.entries()]
+  const legacyGenerated = [...map.entries()]
     .filter(([from, to]) => from !== to)
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([from, to]) => ({
@@ -33,6 +38,8 @@ async function main() {
       destination: to,
       permanent: true,
     }));
+  const dormantGenerated = buildDormantLocaleVercelRedirects();
+  const generated = [...legacyGenerated, ...dormantGenerated];
 
   let existing = {};
   try {

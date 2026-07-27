@@ -33,6 +33,8 @@ export const LOCALES: Locale[];
 export const INDEXABLE_LOCALES: Locale[];
 export const DEFAULT_LOCALE: Locale;
 export const NON_DEFAULT_LOCALES: Locale[];
+/** Unsupported former locale URL prefixes (301 → English path). */
+export const DORMANT_LOCALE_PREFIXES: string[];
 export const HREFLANG: Record<Locale, string>;
 export const PAGES: PageData[];
 /** Legacy flat English guide/hub slugs → page ids for permanent redirects. */

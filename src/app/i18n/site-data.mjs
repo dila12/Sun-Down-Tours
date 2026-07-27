@@ -24,6 +24,32 @@ export const DEFAULT_LOCALE = 'en';
 
 export const NON_DEFAULT_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
 
+/**
+ * Former / unsupported locale URL prefixes. Not in {@link LOCALES}; any
+ * `/{code}` or `/{code}/...` request should 301 to the English equivalent
+ * so Google stops indexing ghost locale URLs (e.g. `/cs/privacy-policy`).
+ */
+export const DORMANT_LOCALE_PREFIXES = [
+  'cs',
+  'pt',
+  'ja',
+  'zh',
+  'ar',
+  'tr',
+  'sv',
+  'da',
+  'fi',
+  'hu',
+  'ro',
+  'sk',
+  'uk',
+  'ko',
+  'th',
+  'vi',
+  'id',
+  'hi',
+];
+
 /** hreflang codes emitted in alternate links (identity map for now). */
 export const HREFLANG = {
   en: 'en',
@@ -572,7 +598,7 @@ export const PAGES = [
   {
     id: 'destMirissa',
     kind: 'destination',
-    index: false,
+    index: true,
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -1184,7 +1210,7 @@ export const PAGES = [
   }),
 
   // Utility pages (kept out of the sitemap / marked noindex).
-  { id: 'privacy', kind: 'utility', index: false, slugs: same('privacy-policy') },
+  { id: 'privacy', kind: 'utility', index: true, priority: 0.3, changefreq: 'yearly', slugs: same('privacy-policy') },
   { id: 'cancellation', kind: 'utility', index: true, priority: 0.4, changefreq: 'yearly', slugs: same('cancellation-policy') },
   { id: 'terms', kind: 'utility', index: false, slugs: same('terms-of-service') },
   { id: 'bookingPolicy', kind: 'utility', index: false, slugs: same('booking-policy') },

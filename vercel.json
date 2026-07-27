@@ -10,7 +10,7 @@
         }
       ],
       "destination": "https://www.sundowntours.com/:path*",
-      "permanent": true
+      "statusCode": 308
     },
     {
       "source": "/best-time-to-visit-sri-lanka",
@@ -1035,6 +1035,186 @@
     {
       "source": "/sri-lanka-wildlife-guide",
       "destination": "/travel-guides/sri-lanka-wildlife-guide",
+      "permanent": true
+    },
+    {
+      "source": "/cs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cs/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/pt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ja",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/zh",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/zh/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ar",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tr",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tr/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/sv",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sv/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/da",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/da/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/fi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fi/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/hu",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hu/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ro",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ro/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/sk",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sk/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/uk",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/uk/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ko",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/th",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/th/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/vi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/vi/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/id",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/id/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/hi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hi/:path*",
+      "destination": "/:path*",
       "permanent": true
     }
   ],

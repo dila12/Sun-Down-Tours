@@ -1,16 +1,19 @@
 /**
- * HTTP 301 redirect map for legacy slugs.
+ * HTTP 301 redirect map for legacy slugs + dormant locale prefixes.
  * Consumed by Express (`server.ts`) and `scripts/generate-vercel-redirects.mjs`.
  * Does not strip or redirect Dutch — `/nl/*` stays available in the UI.
  */
 import {
   DEFAULT_LOCALE,
+  DORMANT_LOCALE_PREFIXES,
   LEGACY_DEST_REDIRECTS,
   LEGACY_GUIDE_REDIRECTS,
   LEGACY_TOUR_REDIRECTS,
   NON_DEFAULT_LOCALES,
   buildPath,
 } from './site-data.mjs';
+
+const DORMANT_SET = new Set(DORMANT_LOCALE_PREFIXES);
 
 /**
  * @returns {Map<string, string>} pathname (no query) → root-relative target path
@@ -47,6 +50,20 @@ export function buildEdgeRedirectMap() {
 }
 
 /**
+ * Strip a dormant locale prefix: `/cs/privacy-policy` → `/privacy-policy`.
+ * @param {string} path normalized pathname (no trailing slash except root)
+ * @returns {string | null}
+ */
+export function resolveDormantLocaleRedirect(path) {
+  const segments = path.split('/').filter(Boolean);
+  if (!segments.length || !DORMANT_SET.has(segments[0])) {
+    return null;
+  }
+  const rest = segments.slice(1).join('/');
+  return rest ? `/${rest}` : '/';
+}
+
+/**
  * @param {string} pathname
  * @param {Map<string, string>} [map]
  * @returns {string | null}
@@ -59,5 +76,33 @@ export function resolveEdgeRedirect(pathname, map = buildEdgeRedirectMap()) {
   if (path.length > 1 && path.endsWith('/')) {
     path = path.slice(0, -1);
   }
+
+  const dormant = resolveDormantLocaleRedirect(path);
+  if (dormant) {
+    return dormant;
+  }
+
   return map.get(path) ?? null;
+}
+
+/**
+ * Vercel catch-all 301s for every dormant locale prefix.
+ * @returns {{ source: string, destination: string, permanent: boolean }[]}
+ */
+export function buildDormantLocaleVercelRedirects() {
+  /** @type {{ source: string, destination: string, permanent: boolean }[]} */
+  const rules = [];
+  for (const code of DORMANT_LOCALE_PREFIXES) {
+    rules.push({
+      source: `/${code}`,
+      destination: '/',
+      permanent: true,
+    });
+    rules.push({
+      source: `/${code}/:path*`,
+      destination: '/:path*',
+      permanent: true,
+    });
+  }
+  return rules;
 }

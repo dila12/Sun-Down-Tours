@@ -873,9 +873,10 @@ export const en: Dict = {
       keywords: "destBentota",
     },
     destMirissa: {
-      title: "Mirissa Sri Lanka | Beaches and Whale Watching",
-      description: "Mirissa beaches and whale watching on private south-coast Sri Lanka tours.",
-      keywords: "destMirissa",
+      title: 'Mirissa Sri Lanka Guide | Whale Watching, Beaches & Coconut Tree Hill',
+      description:
+        'Plan Mirissa: whale watching season, Coconut Tree Hill, beaches and pairing with Galle Fort on a private south-coast Sri Lanka tour.',
+      keywords: 'Mirissa Sri Lanka, Mirissa whale watching, Coconut Tree Hill, Mirissa beach',
     },
     destNuwaraEliya: {
       title: "Nuwara Eliya Sri Lanka | Tea Country Highlands",

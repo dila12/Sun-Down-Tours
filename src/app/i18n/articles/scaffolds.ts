@@ -91,18 +91,6 @@ export const SCAFFOLD_ARTICLES: Record<string, ArticleContent> = {
       { pageId: 'guideBestTime', label: 'Best time to visit' },
     ],
   }),
-  destMirissa: stub({
-    h1: 'Mirissa, Sri Lanka: Beaches and Whale Watching',
-    lead: 'Mirissa is known for palm-backed beaches and seasonal whale watching on the south coast, pairing well with Galle Fort and a private driver route along the southern shoreline.',
-    relatedDestinations: [
-      { pageId: 'destGalle', label: 'Galle' },
-      { pageId: 'destYala', label: 'Yala' },
-    ],
-    relatedGuides: [
-      { pageId: 'guideWhaleWatching', label: 'Whale watching' },
-      { pageId: 'guideBeaches', label: 'Beaches guide' },
-    ],
-  }),
   destNuwaraEliya: stub({
     h1: 'Nuwara Eliya, Sri Lanka: Tea Country Highlands',
     lead: 'Nuwara Eliya sits in the cool central highlands among tea estates, lakes and colonial-era gardens a natural stop between Kandy and Ella on private hill-country itineraries.',

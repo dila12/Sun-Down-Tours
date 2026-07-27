@@ -5,6 +5,7 @@ import { YALA_DEST } from './yala';
 import { KANDY_DEST } from './kandy';
 import { DAMBULLA_DEST } from './dambulla';
 import { GALLE_DEST } from './galle';
+import { MIRISSA_DEST } from './mirissa';
 
 export { DEST_PAGE_IDS, DEST_HUB_CARDS, getDestHubCardMeta } from './catalog';
 export type { DestHubCardMeta, DestPageId } from './catalog';
@@ -20,6 +21,7 @@ export const DESTINATION_CONTENT: Record<string, ArticleContent> = {
   destKandy: KANDY_DEST,
   destDambulla: DAMBULLA_DEST,
   destGalle: GALLE_DEST,
+  destMirissa: MIRISSA_DEST,
 };
 
 /** Look up the full localized-content registry entry for a destination page id. */

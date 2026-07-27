@@ -21,6 +21,7 @@ export const DEST_PAGE_IDS = [
   'destKandy',
   'destDambulla',
   'destGalle',
+  'destMirissa',
 ] as const;
 
 export type DestPageId = (typeof DEST_PAGE_IDS)[number];
@@ -55,6 +56,11 @@ export const DEST_HUB_CARDS: DestHubCardMeta[] = [
     pageId: 'destGalle',
     image: 'assets/img/destination-6.webp',
     imageAlt: 'Galle Fort ramparts overlooking the Indian Ocean',
+  },
+  {
+    pageId: 'destMirissa',
+    image: 'assets/img/destination-6.webp',
+    imageAlt: "Palm-fringed beach on Sri Lanka's south coast near Mirissa",
   },
 ];
 

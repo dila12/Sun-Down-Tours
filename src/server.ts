@@ -23,12 +23,12 @@ const angularApp = new AngularNodeAppEngine({
   ],
 });
 
-/** Canonical host: apex → www (HTTP 301). Skip local/dev hosts. */
+/** Canonical host: apex → www (HTTP 308 permanent). Skip local/dev hosts. */
 app.use((req, res, next) => {
   const host = (req.headers.host || '').split(':')[0].toLowerCase();
   if (host === 'sundowntours.com') {
     const target = `https://www.sundowntours.com${req.originalUrl || '/'}`;
-    res.redirect(301, target);
+    res.redirect(308, target);
     return;
   }
   next();
