@@ -3,30 +3,46 @@
     <h1 class="tour-hero__title text-center text-primary mb-3 pt-4 pt-md-5">
       {{ tour.title }}
     </h1>
-    <div class="tour-meta-card bg-light shadow rounded-3">
+    <div class="tour-meta-card" role="list" [attr.aria-label]="'common.tourUi.overview' | t">
       <div class="tour-meta-card__grid">
-        <div class="tour-meta-card__item">
-          <i class="fas fa-clock tour-meta-card__icon" aria-hidden="true"></i>
-          <p class="tour-meta-label">{{ 'common.tourUi.duration' | t }}</p>
-          <p class="tour-meta-card__value">{{ tour.duration }}</p>
+        <div class="tour-meta-card__item" role="listitem">
+          <span class="tour-meta-card__icon-wrap" aria-hidden="true">
+            <i class="fas fa-clock tour-meta-card__icon"></i>
+          </span>
+          <div class="tour-meta-card__text">
+            <p class="tour-meta-label">{{ 'common.tourUi.duration' | t }}</p>
+            <p class="tour-meta-card__value">{{ tour.duration }}</p>
+          </div>
         </div>
-        <div class="tour-meta-card__item">
-          <i class="fas fa-users tour-meta-card__icon" aria-hidden="true"></i>
-          <p class="tour-meta-label">{{ 'common.tourUi.maxPeople' | t }}</p>
-          <p class="tour-meta-card__value">{{ tour.persons }}</p>
+        <div class="tour-meta-card__item" role="listitem">
+          <span class="tour-meta-card__icon-wrap" aria-hidden="true">
+            <i class="fas fa-users tour-meta-card__icon"></i>
+          </span>
+          <div class="tour-meta-card__text">
+            <p class="tour-meta-label">{{ 'common.tourUi.maxPeople' | t }}</p>
+            <p class="tour-meta-card__value">{{ tour.persons }}</p>
+          </div>
         </div>
-        <div class="tour-meta-card__item">
-          <i class="fas fa-dollar-sign tour-meta-card__icon" aria-hidden="true"></i>
-          <p class="tour-meta-label">{{ 'common.tourUi.price' | t }}</p>
-          <p class="tour-meta-card__value">
-            <span class="tour-meta-card__price">$ {{ displayPrice }}</span>
-            <span class="tour-meta-card__basis">{{ 'common.tourUi.priceBasis' | t }}</span>
-          </p>
+        <div class="tour-meta-card__item tour-meta-card__item--price" role="listitem">
+          <span class="tour-meta-card__icon-wrap" aria-hidden="true">
+            <i class="fas fa-dollar-sign tour-meta-card__icon"></i>
+          </span>
+          <div class="tour-meta-card__text">
+            <p class="tour-meta-label">{{ 'common.tourUi.price' | t }}</p>
+            <p class="tour-meta-card__value">
+              <span class="tour-meta-card__price">$ {{ displayPrice }}</span>
+              <span class="tour-meta-card__basis">{{ 'common.tourUi.priceBasis' | t }}</span>
+            </p>
+          </div>
         </div>
-        <div class="tour-meta-card__item">
-          <i class="fas fa-map-marked-alt tour-meta-card__icon" aria-hidden="true"></i>
-          <p class="tour-meta-label">{{ 'common.tourUi.tourType' | t }}</p>
-          <p class="tour-meta-card__value">{{ tour.tourType }}</p>
+        <div class="tour-meta-card__item" role="listitem">
+          <span class="tour-meta-card__icon-wrap" aria-hidden="true">
+            <i class="fas fa-map-marked-alt tour-meta-card__icon"></i>
+          </span>
+          <div class="tour-meta-card__text">
+            <p class="tour-meta-label">{{ 'common.tourUi.tourType' | t }}</p>
+            <p class="tour-meta-card__value">{{ tour.tourType }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -120,43 +136,40 @@
           </div>
         </div>
 
-        <div class="row g-4 mb-4">
-          <div class="col-md-6">
-            <div class="card shadow-sm h-100">
-              <div class="card-header bg-white d-flex align-items-center border-bottom border-primary">
-                <i class="fas fa-check-circle mr-2 text-primary"></i>
-                <h3 class="h5 mb-0 text-primary">{{ 'common.tourUi.included' | t }}</h3>
-              </div>
-              <div class="card-body">
-                <ul class="inclusion-list list-unstyled mb-0" role="list">
-                  <li *ngFor="let item of tour.includes; trackBy: trackByItem" class="inclusion-item">
-                    <span class="icon-circle bg-success text-white" aria-hidden="true">
-                      <i class="fas fa-check"></i>
-                    </span>
-                    <span class="inclusion-text">{{ item }}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card shadow-sm h-100 border" style="border-color: #6d6b3a;">
-              <div class="card-header bg-white d-flex align-items-center" style="border-bottom: 2px solid #6d6b3a;">
-                <i class="fas fa-times-circle mr-2" style="color: #6d6b3a;"></i>
-                <h3 class="h5 mb-0" style="color: #6d6b3a;">{{ 'common.tourUi.excluded' | t }}</h3>
-              </div>
-              <div class="card-body">
-                <ul class="inclusion-list list-unstyled mb-0" role="list">
-                  <li *ngFor="let item of tour.excludes; trackBy: trackByItem" class="inclusion-item">
-                    <span class="icon-circle icon-circle--excluded" aria-hidden="true">
-                      <i class="fas fa-times"></i>
-                    </span>
-                    <span class="inclusion-text">{{ item }}</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="tour-split-grid mb-4">
+          <section class="tour-split-card tour-split-card--include" aria-labelledby="tour-included-heading">
+            <header class="tour-split-card__head">
+              <span class="tour-split-card__badge" aria-hidden="true">
+                <i class="fas fa-check"></i>
+              </span>
+              <h3 id="tour-included-heading" class="tour-split-card__title">{{ 'common.tourUi.included' | t }}</h3>
+            </header>
+            <ul class="inclusion-list list-unstyled mb-0" role="list">
+              <li *ngFor="let item of tour.includes; trackBy: trackByItem" class="inclusion-item">
+                <span class="icon-circle icon-circle--included" aria-hidden="true">
+                  <i class="fas fa-check"></i>
+                </span>
+                <span class="inclusion-text">{{ item }}</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="tour-split-card tour-split-card--exclude" aria-labelledby="tour-excluded-heading">
+            <header class="tour-split-card__head">
+              <span class="tour-split-card__badge" aria-hidden="true">
+                <i class="fas fa-times"></i>
+              </span>
+              <h3 id="tour-excluded-heading" class="tour-split-card__title">{{ 'common.tourUi.excluded' | t }}</h3>
+            </header>
+            <ul class="inclusion-list list-unstyled mb-0" role="list">
+              <li *ngFor="let item of tour.excludes; trackBy: trackByItem" class="inclusion-item">
+                <span class="icon-circle icon-circle--excluded" aria-hidden="true">
+                  <i class="fas fa-times"></i>
+                </span>
+                <span class="inclusion-text">{{ item }}</span>
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
 
@@ -173,6 +186,7 @@
             [tour]="bookingTour!"
             [filecode]="filecode!"
             [image]="image!"
+            [pageId]="tour?.pageId"
             [priceList]="prices"
             [autoLoadPrices]="false">
           </app-tour-booking-card>
@@ -277,6 +291,7 @@
         [tour]="bookingTour!"
         [filecode]="filecode!"
         [image]="image!"
+        [pageId]="tour?.pageId"
         [priceList]="prices"
         [autoLoadPrices]="false">
       </app-tour-booking-card>

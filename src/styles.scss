@@ -37,3 +37,15 @@ button,
 [role="button"] {
   touch-action: manipulation;
 }
+
+/* Equal-height tour listing cards across Bootstrap columns */
+.row > [class*='col-']:has(> app-package-item-component) {
+  display: flex;
+}
+
+.row > [class*='col-'] > app-package-item-component {
+  display: block;
+  width: 100%;
+  flex: 1 1 auto;
+}
+

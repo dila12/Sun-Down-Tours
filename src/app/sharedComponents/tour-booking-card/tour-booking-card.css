@@ -470,6 +470,400 @@
   cursor: not-allowed;
 }
 
+.booking-card__ahead {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin: 0.55rem 0 0;
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: #fff4e8;
+  border: 1px solid #f0d5b5;
+  color: #7a3e0b;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.booking-card__ahead i {
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  color: #d35400;
+}
+
+.booking-card__ahead-sep {
+  margin: 0 0.25rem;
+  opacity: 0.7;
+}
+
+.field-wrap--button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0;
+  min-height: 42px;
+  position: relative;
+}
+
+.date-picker {
+  position: relative;
+}
+
+.date-picker__trigger {
+  padding-right: 2rem;
+}
+
+.date-picker__trigger--open {
+  border-color: #e67e22;
+  box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.15);
+}
+
+.date-picker__value {
+  flex: 1;
+  font-size: 0.875rem;
+  color: #1f2937;
+  padding: 0.5rem 0.5rem 0.5rem 2.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date-picker__value--empty {
+  color: #9ca3af;
+}
+
+.date-picker__chevron {
+  position: absolute;
+  right: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 0.7rem;
+  color: #9ca3af;
+  pointer-events: none;
+}
+
+.date-picker__trigger--open .date-picker__chevron {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.date-picker__panel {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  left: auto;
+  width: min(288px, calc(100vw - 2rem));
+  padding: 0.75rem;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+}
+
+.date-picker__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.55rem;
+}
+
+.date-picker__month {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.date-picker__nav-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+  color: #4b5563;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-picker__nav-btn:hover {
+  border-color: #e67e22;
+  color: #e67e22;
+}
+
+.date-picker__weekdays,
+.date-picker__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.2rem;
+}
+
+.date-picker__weekdays {
+  margin-bottom: 0.25rem;
+}
+
+.date-picker__weekdays span {
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #9ca3af;
+  padding: 0.15rem 0;
+}
+
+.date-picker__day {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #1f2937;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-picker__day:hover:not(:disabled):not(.date-picker__day--empty) {
+  background: #f3f4f6;
+}
+
+.date-picker__day--empty {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.date-picker__day--muted,
+.date-picker__day:disabled {
+  color: #d1d5db;
+  cursor: default;
+}
+
+.date-picker__day--demand {
+  background: #fff8ef;
+  color: #a85a12;
+  box-shadow: inset 0 0 0 1px #f0d5b5;
+}
+
+.date-picker__day--hot {
+  background: #fff1f0;
+  color: #922b21;
+  box-shadow: inset 0 0 0 1px #f5c2c0;
+}
+
+.date-picker__day--selected {
+  background: #e67e22 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.date-picker__day--selected.date-picker__day--hot {
+  background: #c0392b !important;
+}
+
+.date-picker__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.65rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+.date-picker__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.date-picker__legend-item i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.date-picker__legend-item--demand i {
+  background: #e67e22;
+}
+
+.date-picker__legend-item--hot i {
+  background: #c0392b;
+}
+
+.booking-warn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin: 0.25rem 0 0.45rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  background: #fff8ef;
+  border: 1px solid #f0d5b5;
+  border-left: 4px solid #e67e22;
+}
+
+.booking-warn__icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e67e22;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.booking-warn__icon .fa {
+  color: #fff;
+  font-size: inherit;
+  line-height: 1;
+}
+
+.booking-warn__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.booking-warn__title {
+  margin: 0 0 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #7a3e0b;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.booking-warn__body {
+  margin: 0;
+  font-size: 0.74rem;
+  color: #6b4a2a;
+  line-height: 1.4;
+}
+
+.booking-warn--hot {
+  background: #fff1f0;
+  border-color: #f5c2c0;
+  border-left-color: #c0392b;
+}
+
+.booking-warn--hot .booking-warn__icon {
+  background: #c0392b;
+}
+
+.booking-warn--hot .booking-warn__title {
+  color: #922b21;
+}
+
+.booking-warn--hot .booking-warn__body {
+  color: #7a3a34;
+}
+
+.booking-confirm-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin: 0 0 0.65rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: #eef6fb;
+  border: 1px solid #b8d4e8;
+  color: #123a4d;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.booking-confirm-note i {
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  color: #022d41;
+}
+
+.availability-panel {
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 0.35rem;
+}
+
+.availability-panel--blocked {
+  background: linear-gradient(135deg, #fff5f5 0%, #fdecea 100%);
+  border: 1px solid #f5c2c0;
+}
+
+.availability-panel--peak {
+  background: linear-gradient(135deg, #fff8ef 0%, #fff1e0 100%);
+  border: 1px solid #f0d5b5;
+}
+
+.availability-panel__icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 0.65rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.availability-panel--blocked .availability-panel__icon {
+  background: #c0392b;
+}
+
+.availability-panel--peak .availability-panel__icon {
+  background: #d35400;
+}
+
+.availability-panel__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.45rem;
+}
+
+.availability-panel--blocked .availability-panel__title {
+  color: #922b21;
+}
+
+.availability-panel--peak .availability-panel__title {
+  color: #7a3e0b;
+}
+
+.availability-panel__text {
+  font-size: 0.8rem;
+  color: #444;
+  line-height: 1.5;
+  margin: 0 0 0.85rem;
+}
+
+.availability-panel__hint {
+  font-size: 0.72rem;
+  color: #666;
+  margin: 0.65rem 0 0;
+  line-height: 1.4;
+}
+
+.availability-panel__hint i {
+  margin-right: 0.25rem;
+  color: #022d41;
+}
+
 .form-hint {
   display: block;
   font-size: 0.68rem;

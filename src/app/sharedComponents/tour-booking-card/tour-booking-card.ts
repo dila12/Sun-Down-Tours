@@ -29,6 +29,19 @@ import {
   SITE_PHONE_DISPLAY,
   SITE_WHATSAPP_URL,
 } from '../../i18n/site-contact';
+import {
+  bookingsLeftDetailKey,
+  bookingsLeftLeadKey,
+  defaultBookingDateForTour,
+  demandInfoForDate,
+  formatShortCardDate,
+  listTourDemandHints,
+  resolveDemandTourKey,
+  toIsoDate,
+  type DemandStatus,
+  type SpotsLeft,
+  type TourDemandHint,
+} from '../../utils/booking-demand.util';
 
 declare let gtag: Function;
 
@@ -38,6 +51,50 @@ interface DialCountry {
   code: string;
   flag: string;
 }
+
+interface BookingAvailabilityConfig {
+  warningDaysPerWeekMin: number;
+  warningDaysPerWeekMax: number;
+  blockedDates: string[];
+  multiDayTourTypes: string[];
+}
+
+type DateAvailabilityStatus = DemandStatus;
+
+interface CalendarDayCell {
+  empty: boolean;
+  day: number;
+  iso: string;
+  disabled: boolean;
+  selected: boolean;
+  status: 'open' | 'demand' | 'lastSpot';
+}
+
+const DEFAULT_AVAILABILITY: BookingAvailabilityConfig = {
+  warningDaysPerWeekMin: 4,
+  warningDaysPerWeekMax: 4,
+  blockedDates: [],
+  multiDayTourTypes: [
+    'Round Tour',
+    'Rundreise',
+    'Circuit',
+    'Tour completo',
+    'Circuito',
+    'Wycieczka objazdowa',
+    'Обзорный тур',
+  ],
+};
+
+const DAY_TOUR_TYPE_LABELS = new Set([
+  'day tour',
+  'tagestour',
+  "excursion d’une journée",
+  "excursion d'une journée",
+  'tour di un giorno',
+  'excursión de un día',
+  'wycieczka jednodniowa',
+  'однодневный тур',
+]);
 
 @Component({
   selector: 'app-tour-booking-card',
@@ -51,6 +108,8 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   @Input({ required: true }) tour!: any;
   @Input({ required: true }) filecode!: string;
   @Input({ required: true }) image!: string;
+  /** Same id listing cards use (e.g. tour2ek) so default date/warning match the card. */
+  @Input() pageId?: string;
   @Input() priceList: Record<string, number> | null = null;
   @Input() autoLoadPrices = true;
 
@@ -76,6 +135,9 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   minTravelDate = '';
   phoneFieldFocused = false;
   dialPickerOpen = false;
+  calendarOpen = false;
+  /** First day of the month currently shown in the custom calendar. */
+  calendarView = new Date();
   countrySearch = '';
   filteredDialCountries: DialCountry[] = this.countriesList;
   readonly maxOnlineTravelers = 6;
@@ -84,11 +146,202 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   readonly whatsappUrl = SITE_WHATSAPP_URL;
   readonly encodeURIComponent = encodeURIComponent;
 
+  private availability: BookingAvailabilityConfig = { ...DEFAULT_AVAILABILITY };
+  private blockedDateSet = new Set<string>();
+  dateStatus: DateAvailabilityStatus = 'open';
+  spotsLeft: 0 | SpotsLeft = 0;
+
   get eurLabel(): string {
     return formatTourPriceEur(this.total || 0);
   }
 
+  /** 1 = day tour, 2 = two-day, 3+ = longer round tours */
+  get tourLengthDays(): number {
+    const code = String(this.filecode ?? '').toLowerCase();
+    if (/^\d+-day-/.test(code)) {
+      return parseInt(code, 10);
+    }
+    if (code.includes('day-tour')) {
+      return 1;
+    }
+    const tourType = String(this.tour?.tourType ?? '').trim().toLowerCase();
+    if (DAY_TOUR_TYPE_LABELS.has(tourType)) {
+      return 1;
+    }
+    if (this.availability.multiDayTourTypes.some((t) => t.toLowerCase() === tourType)) {
+      return 3;
+    }
+    return 0;
+  }
+
+  get isMultiDayTour(): boolean {
+    return this.tourLengthDays >= 2;
+  }
+
+  /** True when selected date hits this tour’s demand dates (never blocks booking). */
+  get showDemandWarning(): boolean {
+    return (
+      !this.isGroupBooking &&
+      !!this.travelDate &&
+      (this.dateStatus === 'demand' || this.dateStatus === 'lastSpot' || this.dateStatus === 'blocked')
+    );
+  }
+
+  get warningTitleKey(): string {
+    if (this.dateStatus === 'lastSpot') {
+      return bookingsLeftLeadKey(this.spotsLeft);
+    }
+    if (this.dateStatus === 'blocked') {
+      return 'common.booking.almostFullLead';
+    }
+    return 'common.booking.demandWarningLead';
+  }
+
+  get warningBodyKey(): string {
+    if (this.dateStatus === 'lastSpot') {
+      return bookingsLeftDetailKey(this.spotsLeft);
+    }
+    if (this.dateStatus === 'blocked') {
+      return 'common.booking.almostFullDetail';
+    }
+    return 'common.booking.demandWarningDetail';
+  }
+
+  get isHotWarning(): boolean {
+    return this.dateStatus === 'blocked' || this.dateStatus === 'lastSpot';
+  }
+
+  get travelDateIso(): string {
+    if (!this.travelDate) {
+      return '';
+    }
+    return toIsoDate(this.travelDate);
+  }
+
+  /** Clickable popular dates under the calendar (next ~2 months for this tour). */
+  get demandDateHints(): TourDemandHint[] {
+    if (this.isGroupBooking) {
+      return [];
+    }
+    return listTourDemandHints(this.tourDemandKey());
+  }
+
+  demandHintLabel(hint: TourDemandHint): string {
+    return formatShortCardDate(hint.date, this.i18n.locale());
+  }
+
+  selectDemandHint(hint: TourDemandHint): void {
+    this.onTravelDateChange(hint.iso);
+    this.closeCalendar();
+  }
+
+  get weekdayLabels(): string[] {
+    const locale = this.i18n.locale();
+    const fmt = new Intl.DateTimeFormat(locale, { weekday: 'narrow' });
+    // 2024-01-01 was a Monday
+    return Array.from({ length: 7 }, (_, i) => fmt.format(new Date(2024, 0, 1 + i)));
+  }
+
+  get calendarMonthLabel(): string {
+    try {
+      return new Intl.DateTimeFormat(this.i18n.locale(), {
+        month: 'long',
+        year: 'numeric',
+      }).format(this.calendarView);
+    } catch {
+      return `${this.calendarView.getMonth() + 1}/${this.calendarView.getFullYear()}`;
+    }
+  }
+
+  get calendarCells(): CalendarDayCell[] {
+    const year = this.calendarView.getFullYear();
+    const month = this.calendarView.getMonth();
+    const first = new Date(year, month, 1);
+    const startPad = (first.getDay() + 6) % 7;
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const hintMap = new Map(
+      this.demandDateHints.map((h) => [h.iso, h.status] as const),
+    );
+    const selected = this.travelDateIso;
+    const minIso = this.minTravelDate || toIsoDate(new Date());
+    const cells: CalendarDayCell[] = [];
+
+    for (let i = 0; i < startPad; i++) {
+      cells.push({
+        empty: true,
+        day: 0,
+        iso: '',
+        disabled: true,
+        selected: false,
+        status: 'open',
+      });
+    }
+
+    for (let day = 1; day <= daysInMonth; day++) {
+      const iso = toIsoDate(new Date(year, month, day));
+      const status = hintMap.get(iso) || 'open';
+      cells.push({
+        empty: false,
+        day,
+        iso,
+        disabled: iso < minIso,
+        selected: iso === selected,
+        status,
+      });
+    }
+
+    return cells;
+  }
+
+  toggleCalendar(event: Event): void {
+    event.preventDefault();
+    event.stopPropagation();
+    if (this.calendarOpen) {
+      this.closeCalendar();
+    } else {
+      this.openCalendar();
+    }
+  }
+
+  openCalendar(): void {
+    this.closeDialPicker();
+    const base = this.travelDate || new Date();
+    this.calendarView = new Date(base.getFullYear(), base.getMonth(), 1);
+    this.calendarOpen = true;
+    this.cdr.markForCheck();
+  }
+
+  closeCalendar(): void {
+    if (!this.calendarOpen) {
+      return;
+    }
+    this.calendarOpen = false;
+    this.cdr.markForCheck();
+  }
+
+  shiftCalendarMonth(delta: number): void {
+    this.calendarView = new Date(
+      this.calendarView.getFullYear(),
+      this.calendarView.getMonth() + delta,
+      1,
+    );
+    this.cdr.markForCheck();
+  }
+
+  selectCalendarDay(cell: CalendarDayCell): void {
+    if (cell.empty || cell.disabled || !cell.iso) {
+      return;
+    }
+    this.onTravelDateChange(cell.iso);
+    this.closeCalendar();
+  }
+
+  trackByCalendarCell(index: number, cell: CalendarDayCell): string {
+    return cell.iso || `e-${index}`;
+  }
+
   @ViewChild('dialPickerRoot') dialPickerRoot?: ElementRef<HTMLElement>;
+  @ViewChild('datePickerRoot') datePickerRoot?: ElementRef<HTMLElement>;
   @ViewChild('dialSearchInput') dialSearchInput?: ElementRef<HTMLInputElement>;
 
   private isBrowser: boolean;
@@ -108,19 +361,55 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     if (!this.isBrowser) {
       return;
     }
-    this.minTravelDate = new Date().toISOString().slice(0, 10);
+    this.minTravelDate = toIsoDate(new Date());
     this.generateOrderNumber();
+    this.loadAvailabilityConfig();
     if (this.priceList && Object.keys(this.priceList).length) {
       this.applyPrices(this.priceList);
     } else if (this.autoLoadPrices && this.filecode) {
       this.loadTourPrices(this.filecode);
     }
+    this.applyDefaultTravelDate();
+    this.refreshDateStatus();
   }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['priceList'] && this.priceList && Object.keys(this.priceList).length) {
       this.applyPrices(this.priceList);
     }
+    if (changes['tour'] || changes['filecode'] || changes['pageId']) {
+      this.applyDefaultTravelDate();
+      this.refreshDateStatus();
+    }
+  }
+
+  /** Same key as listing cards (always pageId) so badge date matches booking warning. */
+  private tourDemandKey(): string {
+    return resolveDemandTourKey(
+      this.pageId || this.tour?.pageId,
+      this.filecode || this.tour?.filecode,
+      this.tour?.title,
+    );
+  }
+
+  /**
+   * Prefill calendar with the card’s badge date (High demand / 1 left).
+   * Never forces “today” — only a matching demand date, or leaves empty.
+   */
+  private applyDefaultTravelDate(): void {
+    if (this.travelDate) {
+      return;
+    }
+    const suggested = defaultBookingDateForTour(this.tourDemandKey());
+    if (!suggested) {
+      return;
+    }
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    if (suggested < today) {
+      return;
+    }
+    this.travelDate = suggested;
   }
 
   private applyPrices(priceData: Record<string, number>): void {
@@ -159,6 +448,50 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     return !this.isGroupBooking && !this.isLoadingPrices && this.total > 0;
   }
 
+  private loadAvailabilityConfig(): void {
+    this.http.get<BookingAvailabilityConfig>('/assets/data/booking-availability.json').subscribe({
+      next: (data) => {
+        const min = typeof data?.warningDaysPerWeekMin === 'number' ? data.warningDaysPerWeekMin : 4;
+        const max = typeof data?.warningDaysPerWeekMax === 'number' ? data.warningDaysPerWeekMax : 4;
+        this.availability = {
+          warningDaysPerWeekMin: Math.min(7, Math.max(1, min)),
+          warningDaysPerWeekMax: Math.min(7, Math.max(min, max)),
+          blockedDates: Array.isArray(data?.blockedDates) ? data.blockedDates : [],
+          multiDayTourTypes:
+            Array.isArray(data?.multiDayTourTypes) && data.multiDayTourTypes.length
+              ? data.multiDayTourTypes
+              : DEFAULT_AVAILABILITY.multiDayTourTypes,
+        };
+        this.blockedDateSet = new Set(
+          this.availability.blockedDates.map((d) => String(d).slice(0, 10)),
+        );
+        this.refreshDateStatus();
+        this.cdr.markForCheck();
+      },
+      error: () => {
+        this.availability = { ...DEFAULT_AVAILABILITY };
+        this.blockedDateSet = new Set();
+        this.refreshDateStatus();
+        this.cdr.markForCheck();
+      },
+    });
+  }
+
+  private refreshDateStatus(): void {
+    if (!this.travelDate) {
+      this.dateStatus = 'open';
+      this.spotsLeft = 0;
+      return;
+    }
+    const info = demandInfoForDate(
+      this.travelDate,
+      this.tourDemandKey(),
+      this.blockedDateSet,
+    );
+    this.dateStatus = info.status;
+    this.spotsLeft = info.spotsLeft;
+  }
+
   loadTourPrices(fileName: string): void {
     this.isLoadingPrices = true;
     const defaultFile = `/assets/data/US${fileName}.json`;
@@ -181,6 +514,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
             this.image = data.images[0];
           }
           this.updateAmounts();
+          this.refreshDateStatus();
           this.isLoadingPrices = false;
           this.cdr.markForCheck();
         },
@@ -224,8 +558,13 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
 
   onTravelDateChange(dateString: string): void {
     if (dateString) {
-      this.travelDate = new Date(dateString);
+      const [y, m, d] = dateString.split('-').map((n) => parseInt(n, 10));
+      this.travelDate = new Date(y, m - 1, d);
+    } else {
+      this.travelDate = undefined;
     }
+    this.refreshDateStatus();
+    this.cdr.markForCheck();
   }
 
   trackByCountryCode(_: number, country: DialCountry): string {
@@ -253,6 +592,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   }
 
   openDialPicker(): void {
+    this.closeCalendar();
     this.dialPickerOpen = true;
     this.countrySearch = '';
     this.filteredDialCountries = this.countriesList;
@@ -306,19 +646,36 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent): void {
-    if (!this.isBrowser || !this.dialPickerOpen) return;
-    const root = this.dialPickerRoot?.nativeElement;
-    if (root && !root.contains(event.target as Node)) {
-      this.closeDialPicker();
+    if (!this.isBrowser) {
+      return;
+    }
+    const target = event.target as Node;
+    if (this.dialPickerOpen) {
+      const dialRoot = this.dialPickerRoot?.nativeElement;
+      if (dialRoot && !dialRoot.contains(target)) {
+        this.closeDialPicker();
+      }
+    }
+    if (this.calendarOpen) {
+      const dateRoot = this.datePickerRoot?.nativeElement;
+      if (dateRoot && !dateRoot.contains(target)) {
+        this.closeCalendar();
+      }
     }
   }
 
   @HostListener('document:keydown', ['$event'])
   onDocumentKeydown(event: KeyboardEvent): void {
-    if (!this.isBrowser || !this.dialPickerOpen) return;
-    if (event.key === 'Escape') {
+    if (!this.isBrowser || event.key !== 'Escape') {
+      return;
+    }
+    if (this.dialPickerOpen) {
       event.preventDefault();
       this.closeDialPicker();
+    }
+    if (this.calendarOpen) {
+      event.preventDefault();
+      this.closeCalendar();
     }
   }
 

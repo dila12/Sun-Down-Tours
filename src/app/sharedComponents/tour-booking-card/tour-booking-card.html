@@ -31,23 +31,99 @@
       </div>
       <div class="col-6">
         <label class="field-label" for="travelDate-{{ filecode }}">{{ 'common.booking.date' | t }} <span class="req">*</span></label>
-        <div class="field-wrap">
-          <i class="fa fa-calendar field-icon"></i>
-          <input
+        <div class="date-picker" #datePickerRoot>
+          <button
+            type="button"
             id="travelDate-{{ filecode }}"
-            type="date"
-            class="field-input"
-            [min]="minTravelDate"
-            [ngModel]="travelDate | date:'yyyy-MM-dd'"
-            (ngModelChange)="onTravelDateChange($event)"
+            class="field-wrap field-wrap--button date-picker__trigger"
+            [class.date-picker__trigger--open]="calendarOpen"
+            [attr.aria-expanded]="calendarOpen"
+            aria-haspopup="dialog"
+            (click)="toggleCalendar($event)"
+          >
+            <i class="fa fa-calendar field-icon" aria-hidden="true"></i>
+            <span class="date-picker__value" [class.date-picker__value--empty]="!travelDate">
+              {{ travelDate ? (travelDate | date:'mediumDate') : ('common.booking.date' | t) }}
+            </span>
+            <i class="fa fa-angle-right date-picker__chevron" aria-hidden="true"></i>
+          </button>
+
+          <input
+            type="hidden"
             name="travelDate"
+            [ngModel]="travelDateIso"
             required
             #dateCtrl="ngModel"
           />
+
+          <div
+            class="date-picker__panel"
+            *ngIf="calendarOpen"
+            role="dialog"
+            [attr.aria-label]="'common.booking.date' | t"
+            (click)="$event.stopPropagation()"
+          >
+            <div class="date-picker__nav">
+              <button type="button" class="date-picker__nav-btn" (click)="shiftCalendarMonth(-1)" [attr.aria-label]="'common.booking.prevMonth' | t">
+                <span aria-hidden="true">‹</span>
+              </button>
+              <span class="date-picker__month">{{ calendarMonthLabel }}</span>
+              <button type="button" class="date-picker__nav-btn" (click)="shiftCalendarMonth(1)" [attr.aria-label]="'common.booking.nextMonth' | t">
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+
+            <div class="date-picker__weekdays" aria-hidden="true">
+              <span *ngFor="let wd of weekdayLabels">{{ wd }}</span>
+            </div>
+
+            <div class="date-picker__grid" role="grid">
+              <button
+                type="button"
+                class="date-picker__day"
+                *ngFor="let cell of calendarCells; trackBy: trackByCalendarCell"
+                [disabled]="cell.disabled || cell.empty"
+                [class.date-picker__day--empty]="cell.empty"
+                [class.date-picker__day--muted]="cell.disabled"
+                [class.date-picker__day--selected]="cell.selected"
+                [class.date-picker__day--demand]="cell.status === 'demand'"
+                [class.date-picker__day--hot]="cell.status === 'lastSpot'"
+                [attr.aria-label]="cell.iso || null"
+                [attr.aria-pressed]="cell.selected"
+                (click)="selectCalendarDay(cell)"
+              >
+                <span *ngIf="!cell.empty">{{ cell.day }}</span>
+              </button>
+            </div>
+
+            <div class="date-picker__legend" *ngIf="demandDateHints.length">
+              <span class="date-picker__legend-item date-picker__legend-item--demand">
+                <i aria-hidden="true"></i>{{ 'common.booking.demandWarningLead' | t }}
+              </span>
+              <span class="date-picker__legend-item date-picker__legend-item--hot">
+                <i aria-hidden="true"></i>{{ 'common.booking.fewSpotsLeft' | t }}
+              </span>
+            </div>
+          </div>
         </div>
         <small class="field-error" *ngIf="dateCtrl.invalid && dateCtrl.touched">{{ 'common.booking.dateRequired' | t }}</small>
       </div>
     </div>
+
+    <aside
+      class="booking-warn"
+      *ngIf="!isGroupBooking && travelDate && showDemandWarning"
+      role="alert"
+      [class.booking-warn--hot]="isHotWarning"
+    >
+      <span class="booking-warn__icon" aria-hidden="true">
+        <i class="fa" [class.fa-bolt]="dateStatus === 'demand'" [class.fa-exclamation-circle]="dateStatus !== 'demand'"></i>
+      </span>
+      <div class="booking-warn__content">
+        <p class="booking-warn__title">{{ warningTitleKey | t }}</p>
+        <p class="booking-warn__body">{{ warningBodyKey | t }}</p>
+      </div>
+    </aside>
 
     <!-- Group booking: 7+ travelers — contact team, no price / no online checkout -->
     <div *ngIf="isGroupBooking" class="group-contact-panel">
@@ -76,7 +152,7 @@
       </p>
     </div>
 
-    <!-- Standard online booking: 1–6 travelers -->
+    <!-- Standard online booking: 1–6 travelers (warnings never block checkout) -->
     <ng-container *ngIf="!isGroupBooking">
       <div class="price-strip" *ngIf="canBookOnline">
         <span>{{ travelers }} {{ 'common.booking.travelersWord' | t }}</span>
@@ -255,6 +331,15 @@
         </div>
         <small class="total-bar__note"><i class="fa fa-info-circle"></i> {{ 'common.booking.payAtDestination' | t }}</small>
       </div>
+
+      <p class="booking-confirm-note" *ngIf="isMultiDayTour && tourLengthDays > 2 && travelDate && !showDemandWarning" role="note">
+        <i class="fa fa-clock" aria-hidden="true"></i>
+        <span>
+          <strong>{{ 'common.booking.confirmLead' | t }}</strong>
+          <span class="booking-card__ahead-sep" aria-hidden="true">•</span>
+          {{ 'common.booking.confirmDetail' | t }}
+        </span>
+      </p>
 
       <label class="terms-row" [attr.for]="'terms-' + filecode">
         <input

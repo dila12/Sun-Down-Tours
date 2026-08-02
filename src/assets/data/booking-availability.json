@@ -1,0 +1,14 @@
+{
+  "warningDaysPerWeekMin": 4,
+  "warningDaysPerWeekMax": 4,
+  "blockedDates": [],
+  "multiDayTourTypes": [
+    "Round Tour",
+    "Rundreise",
+    "Circuit",
+    "Tour completo",
+    "Circuito",
+    "Wycieczka objazdowa",
+    "Обзорный тур"
+  ]
+}

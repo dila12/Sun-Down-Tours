@@ -27,6 +27,15 @@
             <span>{{ 'common.card.perPerson' | t }}</span>
         </div>
 
+        <div
+            class="demand-ribbon"
+            *ngIf="demandBadge"
+            [class.demand-ribbon--hot]="demandBadge === 'lastSpot'"
+        >
+            <i class="fa" [class.fa-bolt]="demandBadge === 'demand'" [class.fa-exclamation-circle]="demandBadge === 'lastSpot'" aria-hidden="true"></i>
+            {{ demandBadgeTitleKey | t }}
+        </div>
+
     </div>
 
     <div class="tour-content">
@@ -42,6 +51,20 @@
                 {{ tour.persons }}
             </span>
         </div>
+
+        <p
+            class="card-demand-date"
+            [class.card-demand-date--empty]="!(demandBadge && demandBadgeDateLabel)"
+            [attr.aria-hidden]="!(demandBadge && demandBadgeDateLabel)"
+        >
+            <ng-container *ngIf="demandBadge && demandBadgeDateLabel; else demandDateSpacer">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <strong>{{ demandBadgeDateLabel }}</strong>
+                <span aria-hidden="true">·</span>
+                {{ demandBadgeTitleKey | t }}
+            </ng-container>
+            <ng-template #demandDateSpacer>&nbsp;</ng-template>
+        </p>
 
         <h3 class="tour-title">
             {{ tour.title }}

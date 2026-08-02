@@ -4,6 +4,15 @@ import { RouterModule } from '@angular/router';
 import { buildTourImagePath, onImageError, buildSrcSet, defaultSizes, toWebpSrc, bestImageSrc } from '../../utils/image.util';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LocaleService } from '../../i18n/locale.service';
+import {
+  bookingsLeftLeadKey,
+  cardDemandBadge,
+  cardSpotsLeft,
+  formatShortCardDate,
+  nextCardBadgeDate,
+  resolveDemandTourKey,
+  type CardDemandBadge,
+} from '../../utils/booking-demand.util';
 
 const CARD_IMAGE_MAX_WIDTH = 400;
 
@@ -62,6 +71,37 @@ export class PackageItemComponent {
 
   get alt(): string {
     return this.tour.imageAlt || this.tour.title;
+  }
+
+  private get tourKey(): string {
+    return resolveDemandTourKey(
+      this.tour.pageId,
+      (this.tour as { filecode?: string }).filecode,
+      this.tour.path || this.tour.routerLink || this.tour.title,
+    );
+  }
+
+  get demandBadge(): CardDemandBadge {
+    return cardDemandBadge(this.tourKey);
+  }
+
+  get demandBadgeDateLabel(): string {
+    const badge = this.demandBadge;
+    if (!badge) {
+      return '';
+    }
+    const next = nextCardBadgeDate(badge, this.tourKey);
+    if (!next) {
+      return '';
+    }
+    return formatShortCardDate(next, this.i18n.locale());
+  }
+
+  get demandBadgeTitleKey(): string {
+    if (this.demandBadge === 'lastSpot') {
+      return bookingsLeftLeadKey(cardSpotsLeft(this.tourKey));
+    }
+    return 'common.booking.demandWarningLead';
   }
 
   trackByIndex(index: number): number {
