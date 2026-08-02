@@ -1,4 +1,4 @@
-const GA_MEASUREMENT_ID = 'G-KVF224182X';
+const GA_MEASUREMENT_ID = 'G-MLGT0JLHNQ';
 /**
  * Real Google Ads conversion ID only — never ship the placeholder AW-1234567890.
  * Leave empty until a production Ads account ID is configured.

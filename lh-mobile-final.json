@@ -455,7 +455,7 @@
             "scriptParseCompile": 0
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "total": 316.90000000000066,
             "scripting": 241.55600000000067,
             "scriptParseCompile": 73.508
@@ -1186,7 +1186,7 @@
             "entity": "localhost"
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "sessionTargetType": "page",
             "protocol": "h2",
             "cache": "none",
@@ -1835,7 +1835,7 @@
             "startTime": 948.88925
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "duration": 192,
             "startTime": 5931.964750000001
           },
@@ -1845,7 +1845,7 @@
             "startTime": 4149.557000000002
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "duration": 110,
             "startTime": 6123.964750000001
           },
@@ -1880,7 +1880,7 @@
           "type": "debugdata",
           "urls": [
             "http://localhost:4000/",
-            "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "http://localhost:4000/chunk-MZ7L2US5.js",
             "Unattributable"
           ],
@@ -2114,7 +2114,7 @@
             "unusedBytes": 62
           },
           {
-            "name": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "name": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "resourceBytes": 483337,
             "encodedBytes": 162312,
             "unusedBytes": 263491
@@ -2147,7 +2147,7 @@
         ],
         "items": [
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "totalBytes": 163982
           },
           {
@@ -2357,7 +2357,7 @@
         ],
         "items": [
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "totalBytes": 162312,
             "wastedBytes": 88484,
             "wastedPercent": 54.5149657485357
@@ -3278,7 +3278,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+                  "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
                   "mainThreadTime": 78.17400002479553,
                   "transferSize": 163982
                 }

@@ -1240,7 +1240,7 @@
             "entity": "localhost"
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "sessionTargetType": "page",
             "protocol": "h2",
             "cache": "none",
@@ -1456,7 +1456,7 @@
             "entity": "Other Google APIs/SDKs"
           },
           {
-            "url": "https://analytics.google.com/g/collect?v=2&tid=G-KVF224182X&gtm=45je67f0v9246233421za200zd9246233421&_p=1784349292698&em=tv.1~ec.e3&_gaz=1&gcs=G111&gcd=13v3v3v3v5G6&npa=0&dma=0&ecid=193159825&_eu=AAAAAGA&are=1&cid=450643802.1784349293&ec_mode=a&frm=0&pscdl=noapi&rcb=6&sr=800x600&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&dt=Sundown%20Tours%20Sri%20Lanka%20%7C%20Private%20%26%20Tailor-Made%20Tours&dl=http%3A%2F%2Flocalhost%3A4000%2F&dp=%2F&sid=1784349292&sct=1&seg=0&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1341",
+            "url": "https://analytics.google.com/g/collect?v=2&tid=G-MLGT0JLHNQ&gtm=45je67f0v9246233421za200zd9246233421&_p=1784349292698&em=tv.1~ec.e3&_gaz=1&gcs=G111&gcd=13v3v3v3v5G6&npa=0&dma=0&ecid=193159825&_eu=AAAAAGA&are=1&cid=450643802.1784349293&ec_mode=a&frm=0&pscdl=noapi&rcb=6&sr=800x600&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&dt=Sundown%20Tours%20Sri%20Lanka%20%7C%20Private%20%26%20Tailor-Made%20Tours&dl=http%3A%2F%2Flocalhost%3A4000%2F&dp=%2F&sid=1784349292&sct=1&seg=0&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1341",
             "sessionTargetType": "page",
             "protocol": "h2",
             "cache": "none",
@@ -1474,7 +1474,7 @@
             "entity": "Google Analytics"
           },
           {
-            "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KVF224182X&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999",
+            "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-MLGT0JLHNQ&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999",
             "sessionTargetType": "page",
             "protocol": "h2",
             "cache": "none",
@@ -1492,7 +1492,7 @@
             "entity": "Google/Doubleclick Ads"
           },
           {
-            "url": "https://www.google.lk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KVF224182X&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&z=1565999489",
+            "url": "https://www.google.lk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-MLGT0JLHNQ&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&z=1565999489",
             "sessionTargetType": "page",
             "protocol": "h2",
             "cache": "none",
@@ -2350,7 +2350,7 @@
         ],
         "items": [
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "duration": 109,
             "startTime": 1893.9822000000004
           },
@@ -2374,7 +2374,7 @@
         "debugData": {
           "type": "debugdata",
           "urls": [
-            "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "https://www.googletagmanager.com/gtag/js?id=AW-1234567890&cx=c&gtm=4e67f0",
             "http://localhost:4000/"
           ],
@@ -2866,7 +2866,7 @@
             "unusedBytes": 913
           },
           {
-            "name": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "name": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "resourceBytes": 544299,
             "encodedBytes": 182338,
             "unusedBytes": 164240
@@ -3957,7 +3957,7 @@
         ],
         "items": [
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "totalBytes": 182669
           },
           {
@@ -4150,7 +4150,7 @@
             "wastedPercent": 41.649770413304616
           },
           {
-            "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
             "totalBytes": 182338,
             "wastedBytes": 55020,
             "wastedPercent": 30.174591538841707
@@ -4397,7 +4397,7 @@
             },
             "source": {
               "type": "source-location",
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
               "urlProvider": "network",
               "line": 1004,
               "column": 121
@@ -4511,7 +4511,7 @@
             },
             "source": {
               "type": "source-location",
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
               "urlProvider": "network",
               "line": 322,
               "column": 105
@@ -5887,7 +5887,7 @@
                   "transferSize": 146363
                 },
                 {
-                  "url": "https://www.googletagmanager.com/gtag/js?id=G-KVF224182X",
+                  "url": "https://www.googletagmanager.com/gtag/js?id=G-MLGT0JLHNQ",
                   "mainThreadTime": 36.28799992799759,
                   "transferSize": 182669
                 }
@@ -5912,7 +5912,7 @@
                   "transferSize": 2670
                 },
                 {
-                  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KVF224182X&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999",
+                  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-MLGT0JLHNQ&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999",
                   "mainThreadTime": 0,
                   "transferSize": 556
                 },
@@ -6017,7 +6017,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google.lk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KVF224182X&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&z=1565999489",
+                  "url": "https://www.google.lk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-MLGT0JLHNQ&cid=450643802.1784349293&gtm=45je67f0v9246233421za200zd9246233421&rcb=6&aip=1&dma=0&gcs=G111&gcd=13v3v3v3v5G6&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&z=1565999489",
                   "mainThreadTime": 0,
                   "transferSize": 408
                 },
@@ -6042,7 +6042,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-KVF224182X&gtm=45je67f0v9246233421za200zd9246233421&_p=1784349292698&em=tv.1~ec.e3&_gaz=1&gcs=G111&gcd=13v3v3v3v5G6&npa=0&dma=0&ecid=193159825&_eu=AAAAAGA&are=1&cid=450643802.1784349293&ec_mode=a&frm=0&pscdl=noapi&rcb=6&sr=800x600&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&dt=Sundown%20Tours%20Sri%20Lanka%20%7C%20Private%20%26%20Tailor-Made%20Tours&dl=http%3A%2F%2Flocalhost%3A4000%2F&dp=%2F&sid=1784349292&sct=1&seg=0&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1341",
+                  "url": "https://analytics.google.com/g/collect?v=2&tid=G-MLGT0JLHNQ&gtm=45je67f0v9246233421za200zd9246233421&_p=1784349292698&em=tv.1~ec.e3&_gaz=1&gcs=G111&gcd=13v3v3v3v5G6&npa=0&dma=0&ecid=193159825&_eu=AAAAAGA&are=1&cid=450643802.1784349293&ec_mode=a&frm=0&pscdl=noapi&rcb=6&sr=800x600&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118395333~118897920~118897930~119996999&dt=Sundown%20Tours%20Sri%20Lanka%20%7C%20Private%20%26%20Tailor-Made%20Tours&dl=http%3A%2F%2Flocalhost%3A4000%2F&dp=%2F&sid=1784349292&sct=1&seg=0&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1341",
                   "mainThreadTime": 0,
                   "transferSize": 547
                 }
