@@ -31,6 +31,7 @@ const GRANTED_CONSENT: ConsentState = {
 
 let gaLoading = false;
 let gaReady = false;
+let speedInsightsInjected = false;
 
 declare global {
   interface Window {
@@ -188,6 +189,7 @@ export function acceptAnalyticsConsent(): void {
   localStorage.setItem(CONSENT_KEY, JSON.stringify(GRANTED_CONSENT));
   window.gtag?.('consent', 'update', GRANTED_CONSENT);
   trackPageView();
+  initializeSpeedInsights();
 }
 
 export function rejectAnalyticsConsent(): void {
@@ -198,6 +200,28 @@ export function rejectAnalyticsConsent(): void {
   ensureGtag();
   localStorage.setItem(CONSENT_KEY, JSON.stringify(DENIED_CONSENT));
   window.gtag?.('consent', 'update', DENIED_CONSENT);
+}
+
+/**
+ * Vercel Speed Insights — samples Core Web Vitals on production only.
+ * Loads after analytics consent; no-op in local development.
+ */
+export function initializeSpeedInsights(): void {
+  if (!isBrowser() || speedInsightsInjected) {
+    return;
+  }
+  if (!analyticsAllowed(getStoredConsent())) {
+    return;
+  }
+
+  speedInsightsInjected = true;
+  void import('@vercel/speed-insights')
+    .then(({ injectSpeedInsights }) => {
+      injectSpeedInsights();
+    })
+    .catch(() => {
+      speedInsightsInjected = false;
+    });
 }
 
 export function trackPageView(): void {

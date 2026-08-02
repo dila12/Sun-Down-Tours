@@ -41,6 +41,7 @@
     "@angular/router": "20.3.1",
     "@angular/ssr": "^20.3.21",
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "@vercel/speed-insights": "^2.0.0",
     "animate.css": "^4.1.1",
     "body-parser": "^2.2.0",
     "bootstrap": "^4.6.2",

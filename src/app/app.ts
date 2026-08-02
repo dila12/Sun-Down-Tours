@@ -24,6 +24,7 @@ import {
   hasConsentChoice,
   initializeGoogleAnalytics,
   initializeGoogleConsent,
+  initializeSpeedInsights,
   rejectAnalyticsConsent,
   trackPageView,
 } from './utils/third-party-scripts.util';
@@ -97,6 +98,7 @@ export class AppComponent implements OnInit {
     initializeGoogleConsent();
     this.showConsentBanner = !hasConsentChoice();
     initializeGoogleAnalytics();
+    initializeSpeedInsights();
     scheduleDeferredAssets();
   }
 
