@@ -27,6 +27,7 @@ import {
   rejectAnalyticsConsent,
   trackPageView,
 } from './utils/third-party-scripts.util';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 @Component({
   selector: 'app-root',
@@ -98,6 +99,11 @@ export class AppComponent implements OnInit {
     this.showConsentBanner = !hasConsentChoice();
     initializeGoogleAnalytics();
     scheduleDeferredAssets();
+    
+    // Initialize Vercel Speed Insights
+    injectSpeedInsights({
+      framework: 'angular',
+    });
   }
 
   acceptCookies(): void {
