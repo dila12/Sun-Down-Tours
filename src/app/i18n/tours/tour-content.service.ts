@@ -135,12 +135,15 @@ export class TourContentService {
   }
 
   /** Preload detail dictionaries for a tour page (route resolver / SSR). */
-  async preloadDetail(pageId: string): Promise<BaseTour | undefined> {
+  async preloadDetail(
+    pageId: string,
+    locale: Locale = this.i18n.locale(),
+  ): Promise<BaseTour | undefined> {
     const entry = await this.loadEntry(pageId);
     if (!entry?.en) {
       return undefined;
     }
-    return this.detail(pageId);
+    return this.detail(pageId, locale);
   }
 
   /** Whether detail content exists (authored) for this page id. */

@@ -5,7 +5,7 @@ import { Meta, Title } from '@angular/platform-browser';
 import { INDEXABLE_LOCALES, LOCALE_META, isIndexableLocale, type Locale } from './app/i18n/locales';
 import { LocaleService } from './app/i18n/locale.service';
 import { ArticleContentService } from './app/i18n/articles/article-content.service';
-import { getPage, BASE_URL } from './app/i18n/site-data.mjs';
+import { getPage, getIndexableLocalesForPage, isPageIndexable, BASE_URL } from './app/i18n/site-data.mjs';
 
 const OG_IMAGE = 'https://www.sundowntours.com/assets/img/package-2.webp';
 const SITE_NAME = 'Sundown Tours Sri Lanka';
@@ -26,8 +26,10 @@ export class SeoService {
 
   update(pageId: string, locale: Locale): void {
     const page = getPage(pageId);
-    // Dutch remains reachable in the UI but stays noindex until professionally translated.
-    const indexable = (page ? page.index : true) && isIndexableLocale(locale);
+    // Dutch + locales without authored body copy stay noindex until translated.
+    const indexable = page
+      ? isPageIndexable(page, locale)
+      : isIndexableLocale(locale);
     const article = this.articles.get(pageId, locale);
 
     const title =
@@ -62,7 +64,7 @@ export class SeoService {
     this.meta.updateTag({ property: 'og:site_name', content: SITE_NAME });
     this.meta.updateTag({ property: 'og:image', content: ogImage });
     this.meta.updateTag({ property: 'og:locale', content: localeMeta.ogLocale });
-    this.setOgAlternateLocales(locale);
+    this.setOgAlternateLocales(locale, pageId);
 
     // Twitter
     this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
@@ -154,13 +156,15 @@ export class SeoService {
     }
   }
 
-  private setOgAlternateLocales(active: Locale): void {
+  private setOgAlternateLocales(active: Locale, pageId: string): void {
     this.meta.removeTag('property="og:locale:alternate"');
-    for (const code of INDEXABLE_LOCALES) {
+    const page = getPage(pageId);
+    const locales = page ? getIndexableLocalesForPage(page) : INDEXABLE_LOCALES;
+    for (const code of locales) {
       if (code === active) {
         continue;
       }
-      this.meta.addTag({ property: 'og:locale:alternate', content: LOCALE_META[code].ogLocale });
+      this.meta.addTag({ property: 'og:locale:alternate', content: LOCALE_META[code as Locale].ogLocale });
     }
   }
 }

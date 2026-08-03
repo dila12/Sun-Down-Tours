@@ -3,6 +3,7 @@ import { Injectable, inject } from '@angular/core';
 import { LocaleService } from '../locale.service';
 import type { Locale } from '../locales';
 import { DEFAULT_LOCALE } from '../locales';
+import { getPage, isPageIndexable } from '../site-data.mjs';
 import { DEST_HUB_CARDS } from '../destinations/catalog';
 import { GUIDE_HUB_CARDS } from '../guides/catalog';
 import { localizeArticle, type ArticleContent, type BaseArticle } from './types';
@@ -100,12 +101,12 @@ export class ArticleContentService {
     return this.localize(entry, locale);
   }
 
-  async preload(pageId: string): Promise<BaseArticle | null> {
+  async preload(pageId: string, locale: Locale = this.i18n.locale()): Promise<BaseArticle | null> {
     const entry = await this.loadEntry(pageId);
     if (!entry) {
       return null;
     }
-    return this.localize(entry, this.i18n.locale());
+    return this.localize(entry, locale);
   }
 
   async destinationHubCards(locale: Locale = this.i18n.locale()): Promise<ArticleHubCard[]> {
@@ -114,7 +115,10 @@ export class ArticleContentService {
       if (!this.hasLoader(meta.pageId)) {
         continue;
       }
-      const article = await this.preload(meta.pageId);
+      if (!isPageIndexable(getPage(meta.pageId), locale)) {
+        continue;
+      }
+      const article = await this.preload(meta.pageId, locale);
       if (!article) {
         continue;
       }
@@ -134,7 +138,10 @@ export class ArticleContentService {
       if (!this.hasLoader(meta.pageId)) {
         continue;
       }
-      const article = await this.preload(meta.pageId);
+      if (!isPageIndexable(getPage(meta.pageId), locale)) {
+        continue;
+      }
+      const article = await this.preload(meta.pageId, locale);
       if (!article) {
         continue;
       }

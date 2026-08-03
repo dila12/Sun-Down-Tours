@@ -10,6 +10,8 @@ import {
   buildUrl,
   buildAlternates,
   getPage,
+  getIndexableLocalesForPage,
+  isPageIndexable,
 } from '../src/app/i18n/site-data.mjs';
 
 /** Primary content files per page — used to derive per-page lastmod from filesystem mtimes. */
@@ -151,10 +153,11 @@ const SITE_DATA_FILE = 'src/app/i18n/site-data.mjs';
 
 /**
  * Whether a page/locale pair should be considered for the sitemap.
- * Mirrors SeoService indexability: noindex pages and Dutch are excluded.
+ * Mirrors SeoService indexability: noindex pages, Dutch, and locales without
+ * authored translations (`indexLocales`) are excluded.
  */
 export function isSitemapEligible(page, locale) {
-  return Boolean(page?.index) && INDEXABLE_LOCALES.includes(locale);
+  return isPageIndexable(page, locale);
 }
 
 /**
@@ -263,10 +266,10 @@ export function validateHreflangReciprocity(entries) {
   const issues = [];
   const byLoc = new Map(entries.map((e) => [e.url, e]));
 
-  const expectedAltCount = INDEXABLE_LOCALES.length + 1;
-
   for (const entry of entries) {
     const { url, alternates, page } = entry;
+    const expectedLocales = getIndexableLocalesForPage(page);
+    const expectedAltCount = expectedLocales.length + (expectedLocales.includes('en') ? 1 : 0);
 
     if (alternates.length !== expectedAltCount) {
       issues.push(`${page.id} (${url}): expected ${expectedAltCount} alternates, got ${alternates.length}`);
@@ -278,8 +281,6 @@ export function validateHreflangReciprocity(entries) {
     }
 
     const langs = alternates.map((a) => a.hreflang).sort();
-    const expectedLangs = [...INDEXABLE_LOCALES.map((l) => (l === 'en' ? 'en' : l)), 'x-default'].sort();
-    // HREFLANG uses identity map — rebuild expected from alternates helper
     const expectedFromHelper = buildAlternates(page.id)
       .map((a) => a.hreflang)
       .sort();
@@ -301,8 +302,6 @@ export function validateHreflangReciprocity(entries) {
       const backLink = partner.alternates.find((a) => a.href === url);
       if (!backLink) {
         issues.push(`Non-reciprocal: ${url} → ${alt.href} but ${alt.href} does not link back`);
-      } else if (backLink.hreflang !== alternates.find((a) => a.href === url)?.hreflang) {
-        // Self hreflang on partner should reference entry's locale — checked via full set equality below
       }
     }
   }

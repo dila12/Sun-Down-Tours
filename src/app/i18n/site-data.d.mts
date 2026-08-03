@@ -16,6 +16,11 @@ export interface PageData {
   id: string;
   kind: PageKind;
   index: boolean;
+  /**
+   * When set, only these locales are sitemap/hreflang/indexable for the page
+   * (even if `index` is true). Omit to allow all {@link INDEXABLE_LOCALES}.
+   */
+  indexLocales?: Locale[];
   priority?: number;
   changefreq?: string;
   days?: number;
@@ -45,6 +50,8 @@ export const LEGACY_TOUR_REDIRECTS: Record<string, string>;
 export const LEGACY_DEST_REDIRECTS: Record<string, string>;
 
 export function getPage(id: string): PageData | undefined;
+export function getIndexableLocalesForPage(page: PageData | undefined): Locale[];
+export function isPageIndexable(page: PageData | undefined, locale: Locale): boolean;
 export function buildPath(id: string, locale: Locale): string;
 export function buildUrl(id: string, locale: Locale): string;
 export function buildAlternates(id: string): Alternate[];

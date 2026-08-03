@@ -904,11 +904,14 @@ export const PAGES = [
     },
   },
 
-  // P2 activity scaffolds (missing themes only — safari/wildlife/tea/beaches already exist).
+  // P2 guides — body copy currently authored for EN+DE only. Other locales stay
+  // reachable in the UI but are noindex / out of sitemap until translated
+  // (English fallback bodies cause "Discovered - currently not indexed" / duplicate-canonical).
   {
     id: 'guideWhaleWatching',
     kind: 'guide',
     index: true,
+    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -926,6 +929,7 @@ export const PAGES = [
     id: 'guideTrainJourneys',
     kind: 'guide',
     index: true,
+    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -943,6 +947,7 @@ export const PAGES = [
     id: 'guideHoneymoon',
     kind: 'guide',
     index: true,
+    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -977,6 +982,7 @@ export const PAGES = [
     id: 'guideLuxuryTours',
     kind: 'guide',
     index: true,
+    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -994,6 +1000,7 @@ export const PAGES = [
     id: 'guideAirportTransfers',
     kind: 'guide',
     index: true,
+    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -1311,15 +1318,44 @@ export function buildUrl(id, locale) {
 }
 
 /**
- * Builds hreflang alternates (all locales + x-default -> English) for a page.
+ * Locales that may be indexed / listed in sitemap+hreflang for a page.
+ * Uses optional `page.indexLocales` when only some translations are ready.
+ * @param {object | undefined} page
+ * @returns {string[]}
+ */
+export function getIndexableLocalesForPage(page) {
+  if (!page?.index) {
+    return [];
+  }
+  const allowed = page.indexLocales?.length
+    ? page.indexLocales.filter((l) => INDEXABLE_LOCALES.includes(l))
+    : INDEXABLE_LOCALES;
+  return allowed;
+}
+
+/**
+ * Whether a page/locale pair should be indexed (mirrors SeoService + sitemap).
+ * @param {object | undefined} page
+ * @param {string} locale
+ */
+export function isPageIndexable(page, locale) {
+  return getIndexableLocalesForPage(page).includes(locale);
+}
+
+/**
+ * Builds hreflang alternates (indexable locales for this page + x-default → English).
  * @param {string} id
  * @returns {{ hreflang: string, href: string }[]}
  */
 export function buildAlternates(id) {
-  const alts = INDEXABLE_LOCALES.map((locale) => ({
+  const page = getPage(id);
+  const locales = getIndexableLocalesForPage(page);
+  const alts = locales.map((locale) => ({
     hreflang: HREFLANG[locale],
     href: buildUrl(id, locale),
   }));
-  alts.push({ hreflang: 'x-default', href: buildUrl(id, DEFAULT_LOCALE) });
+  if (locales.includes(DEFAULT_LOCALE)) {
+    alts.push({ hreflang: 'x-default', href: buildUrl(id, DEFAULT_LOCALE) });
+  }
   return alts;
 }
