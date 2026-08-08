@@ -2,7 +2,7 @@ import { Component, ChangeDetectionStrategy, ChangeDetectorRef, HostListener, in
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
-import { onImageError, withImageVersion } from '../../utils/image.util';
+import { withImageVersion } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
@@ -42,12 +42,10 @@ export class LayoutComponent {
 
   navOpen = false;
   langMenuOpen = false;
-  readonly onImageError = onImageError;
   readonly logoSrc = withImageVersion(LOGO_80);
-  /** 64w for ~32px mobile CSS; 80w/160w for desktop 1x/2x. Same brand asset, sized correctly. */
+  /** Same brand mark as logos/2.png — sized for the 32px/80px navbar slot. */
   readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w, ${withImageVersion(LOGO_160)} 160w`;
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
-  readonly logoFallback = LOGO_160;
 
   /** Localized root-relative path for a page in the current locale. */
   path(pageId: string): string {

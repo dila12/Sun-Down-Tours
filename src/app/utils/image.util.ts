@@ -1,12 +1,12 @@
 import { IMAGE_VARIANTS } from './image-variants.generated';
 
-export const PLACEHOLDER_IMAGE = '/assets/img/package-2.webp';
+export const PLACEHOLDER_IMAGE = '/assets/img/image-fallback.webp';
 
 /**
  * Bump when regenerating optimized assets so browsers/CDN drop stale WebP/AVIF.
  * Appended as ?v= to image URLs (not routing — only asset query).
  */
-export const IMAGE_ASSET_VERSION = '20260808a';
+export const IMAGE_ASSET_VERSION = '20260808b';
 
 export type ImageFormat = 'webp' | 'avif';
 
@@ -235,7 +235,7 @@ export function onImageError(event: Event, customFallback?: string): void {
     }
   }
 
-  if (stage === '' && customFallback) {
+  if ((stage === '' || stage === 'base') && customFallback) {
     img.setAttribute('data-img-fallback', 'custom');
     img.src = withImageVersion(customFallback);
     return;
@@ -247,15 +247,14 @@ export function onImageError(event: Event, customFallback?: string): void {
     return;
   }
 
-  if (stage === '' && /\.webp($|\?)/i.test(img.src)) {
+  if ((stage === '' || stage === 'webp') && /\.webp($|\?)/i.test(img.src)) {
     img.setAttribute('data-img-fallback', 'jpg');
     img.src = img.src.replace(/\.webp($|\?)/i, '.jpg$1');
     return;
   }
 
-  const fallback = customFallback ?? PLACEHOLDER_IMAGE;
-  if (stage !== 'placeholder' && !img.src.includes('package-placeholder')) {
+  if (stage !== 'placeholder' && !img.src.includes('image-fallback')) {
     img.setAttribute('data-img-fallback', 'placeholder');
-    img.src = withImageVersion(fallback === customFallback ? PLACEHOLDER_IMAGE : fallback);
+    img.src = withImageVersion(customFallback ?? PLACEHOLDER_IMAGE);
   }
 }

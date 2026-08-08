@@ -92,11 +92,13 @@ async function removeStaleVariants(dir, baseName) {
   const entries = await readdir(dir);
   for (const name of entries) {
     // Remove old responsive + base encodes so we never serve stale crushed files.
-    if (
-      name === `${baseName}.webp` ||
-      name === `${baseName}.avif` ||
-      new RegExp(`^${escapeRegExp(baseName)}-\\d+w\\.(webp|avif)$`, 'i').test(name)
-    ) {
+    if (name === `${baseName}.webp` || name === `${baseName}.avif`) {
+      await unlink(join(dir, name));
+      continue;
+    }
+    const variant = name.match(new RegExp(`^${escapeRegExp(baseName)}-(\\d+)w\\.(webp|avif)$`, 'i'));
+    // Keep hand-tuned logo thumbs (64/80/160) — WIDTHS starts at 320.
+    if (variant && Number(variant[1]) >= 320) {
       await unlink(join(dir, name));
     }
   }

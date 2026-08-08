@@ -22,7 +22,7 @@ import {
 } from '../../utils/booking-demand.util';
 
 const CARD_IMAGE_MAX_WIDTH = 400;
-const CARD_SRCSET_MAX = 640;
+const CARD_SRCSET_MAX = 400;
 
 @Component({
   selector: 'app-package-item-component',
