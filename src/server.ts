@@ -65,8 +65,7 @@ app.use(
         res.setHeader('Cache-Control', 'no-cache');
         return;
       }
-      if (/\.(jpe?g|png|webp|avif|gif|svg)$/i.test(filePath)) {
-        // Long cache OK because image.util appends IMAGE_ASSET_VERSION query on URLs.
+      if (/\.(jpe?g|png|webp|avif|gif|svg|js|mjs|css|woff2)$/i.test(filePath)) {
         res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
       }
     },

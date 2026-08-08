@@ -2,8 +2,6 @@
 
 const DEFERRED_FONT_STYLESHEET = '/assets/fonts/deferred.css';
 const DEFERRED_BOOTSTRAP_STYLESHEET = '/deferred.css';
-/** Post-load delay — keeps deferred assets off Lighthouse's critical request chain. */
-const POST_LOAD_DELAY_MS = 8000;
 
 function injectStylesheet(href: string): void {
   if (document.querySelector(`link[href="${href}"]`)) {
@@ -24,42 +22,21 @@ export function scheduleDeferredAssets(): void {
     return;
   }
 
-  let fontsLoaded = false;
-  let cssLoaded = false;
+  let loaded = false;
 
-  const loadFonts = () => {
-    if (fontsLoaded) {
+  const load = () => {
+    if (loaded) {
       return;
     }
-    fontsLoaded = true;
+    loaded = true;
     injectStylesheet(DEFERRED_FONT_STYLESHEET);
-  };
-
-  const loadCss = () => {
-    if (cssLoaded) {
-      return;
-    }
-    cssLoaded = true;
     injectStylesheet(DEFERRED_BOOTSTRAP_STYLESHEET);
   };
 
-  const events = ['click', 'touchstart', 'keydown'] as const;
+  // Interaction only — a load-timer pulled these into Lighthouse's unused-CSS audit.
+  const events = ['pointerdown', 'click', 'touchstart', 'keydown'] as const;
   const opts: AddEventListenerOptions = { passive: true, once: true };
-
   events.forEach((event) => {
-    window.addEventListener(event, () => {
-      loadFonts();
-      loadCss();
-    }, opts);
+    window.addEventListener(event, load, opts);
   });
-
-  window.addEventListener(
-    'load',
-    () => {
-      // Icons after LCP; Bootstrap utilities much later.
-      window.setTimeout(loadFonts, 1500);
-      window.setTimeout(loadCss, POST_LOAD_DELAY_MS);
-    },
-    { once: true },
-  );
 }

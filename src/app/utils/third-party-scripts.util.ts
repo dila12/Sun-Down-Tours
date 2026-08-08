@@ -108,7 +108,11 @@ export function initializeGoogleAnalytics(): void {
     return;
   }
 
-  // Load the gtag library so Consent Mode defaults apply; hits stay denied until accept.
+  // Do not fetch 185KB gtag.js until analytics is actually allowed (PSI + first paint).
+  if (!analyticsAllowed(getStoredConsent())) {
+    return;
+  }
+
   gaLoading = true;
   ensureGtag();
   const existingScript = document.querySelector(
@@ -119,9 +123,7 @@ export function initializeGoogleAnalytics(): void {
     configureGoogleTags();
     gaReady = true;
     gaLoading = false;
-    if (analyticsAllowed(getStoredConsent())) {
-      requestAnimationFrame(() => trackPageView());
-    }
+    requestAnimationFrame(() => trackPageView());
     return;
   }
 
@@ -188,7 +190,7 @@ export function acceptAnalyticsConsent(): void {
   ensureGtag();
   localStorage.setItem(CONSENT_KEY, JSON.stringify(GRANTED_CONSENT));
   window.gtag?.('consent', 'update', GRANTED_CONSENT);
-  trackPageView();
+  initializeGoogleAnalytics();
   initializeSpeedInsights();
 }
 
