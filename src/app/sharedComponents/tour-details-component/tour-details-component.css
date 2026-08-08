@@ -1025,13 +1025,13 @@ ul {
   padding: 0 0.85rem;
   border-radius: 10px;
   border: 0;
-  background: #25d366;
+  background: #0d7a3b;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 3px 10px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 3px 10px rgba(13, 122, 59, 0.35);
   transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -1042,11 +1042,11 @@ ul {
 }
 
 .mobile-book-bar__wa:hover {
-  background: #1ebe57;
+  background: #0a6230;
   color: #fff;
   text-decoration: none;
   transform: translateY(-1px);
-  box-shadow: 0 5px 14px rgba(37, 211, 102, 0.42);
+  box-shadow: 0 5px 14px rgba(13, 122, 59, 0.42);
 }
 
 .mobile-book-bar__wa-text {

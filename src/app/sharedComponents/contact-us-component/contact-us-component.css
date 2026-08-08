@@ -342,16 +342,16 @@
 }
 
 .contact-cta--whatsapp {
-  background: #25d366;
+  background: #0d7a3b;
   color: #fff;
-  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.28);
+  box-shadow: 0 4px 14px rgba(13, 122, 59, 0.28);
 }
 
 .contact-cta--whatsapp:hover,
 .contact-cta--whatsapp:focus-visible {
-  background: #1ebe57;
+  background: #0a6230;
   color: #fff;
-  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 6px 18px rgba(13, 122, 59, 0.35);
 }
 
 .contact-cta--tripadvisor {

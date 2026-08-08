@@ -5,8 +5,8 @@
   --team-line: #e8ecef;
   --team-surface: #ffffff;
   --team-wash: #f6f4f1;
-  --team-whatsapp: #25d366;
-  --team-whatsapp-hover: #1ebe57;
+  --team-whatsapp: #0d7a3b;
+  --team-whatsapp-hover: #0a6230;
   --team-radius: 1.25rem;
   --team-shadow: 0 8px 28px rgba(26, 26, 26, 0.08);
   --team-shadow-hover: 0 18px 40px rgba(26, 26, 26, 0.14);
@@ -206,7 +206,7 @@
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #8a939c;
+  color: #3f4a55;
 }
 
 .team-meta-value {
@@ -247,7 +247,7 @@
   font-size: 0.9375rem;
   font-weight: 600;
   text-decoration: none;
-  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.28);
+  box-shadow: 0 6px 16px rgba(13, 122, 59, 0.28);
   transition:
     background-color 0.2s ease,
     transform 0.2s ease,
@@ -264,7 +264,7 @@
   color: #fff;
   text-decoration: none;
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 10px 22px rgba(13, 122, 59, 0.35);
 }
 
 .team-whatsapp-btn:focus-visible {
