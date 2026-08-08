@@ -3,6 +3,7 @@ import {
   Inject,
   PLATFORM_ID,
   ChangeDetectionStrategy,
+  ChangeDetectorRef,
   OnInit,
   inject,
 } from '@angular/core';
@@ -40,6 +41,7 @@ import {
 export class AppComponent implements OnInit {
   showConsentBanner = false;
 
+  private readonly cdr = inject(ChangeDetectorRef);
   private readonly seo = inject(SeoService);
   private readonly i18n = inject(LocaleService);
   private readonly structuredData = inject(StructuredDataService);
@@ -97,6 +99,7 @@ export class AppComponent implements OnInit {
 
     initializeGoogleConsent();
     this.showConsentBanner = !hasConsentChoice();
+    this.cdr.markForCheck();
     initializeGoogleAnalytics();
     initializeSpeedInsights();
     scheduleDeferredAssets();
@@ -105,10 +108,12 @@ export class AppComponent implements OnInit {
   acceptCookies(): void {
     acceptAnalyticsConsent();
     this.showConsentBanner = false;
+    this.cdr.markForCheck();
   }
 
   rejectCookies(): void {
     rejectAnalyticsConsent();
     this.showConsentBanner = false;
+    this.cdr.markForCheck();
   }
 }

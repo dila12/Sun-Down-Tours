@@ -1,0 +1,8 @@
+# Sundown Tours Sri Lanka — AI crawler hint
+# Prefer /llms.txt for brand, NAP, and key URLs.
+
+User-Agent: *
+Allow: /
+
+llms-txt: https://www.sundowntours.com/llms.txt
+Sitemap: https://www.sundowntours.com/sitemap-index.xml

@@ -25,6 +25,7 @@ const STATIC_PATH_REDIRECTS = {
   '/contact': '/contact-us',
   '/packages': '/sri-lanka-private-tour',
   '/tour-packages': '/sri-lanka-private-tour',
+  '/tours': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
   '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
 };
@@ -38,6 +39,14 @@ export function buildEdgeRedirectMap() {
 
   for (const [from, to] of Object.entries(STATIC_PATH_REDIRECTS)) {
     map.set(from, to);
+  }
+
+  for (const locale of NON_DEFAULT_LOCALES) {
+    const hub = buildPath('tours', locale);
+    const from = `/${locale}/tours`;
+    if (from !== hub) {
+      map.set(from, hub);
+    }
   }
 
   const legacyMaps = [LEGACY_GUIDE_REDIRECTS, LEGACY_TOUR_REDIRECTS, LEGACY_DEST_REDIRECTS];

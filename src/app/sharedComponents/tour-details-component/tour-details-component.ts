@@ -23,6 +23,7 @@ import { getTourRelatedGraph, type TourRelatedGraph } from '../../i18n/tours/tou
 import { TourContentService } from '../../i18n/tours/tour-content.service';
 import type { RelatedLink } from '../../i18n/articles/types';
 import { SITE_TRIPADVISOR_URL, SITE_WHATSAPP_URL } from '../../i18n/site-contact';
+import { getTourOfferPriceUsd } from '../../utils/tour-prices.static';
 import {
   bestImageSrc,
   buildAvifSrcSet,
@@ -152,7 +153,15 @@ export class TourDetailsComponent implements OnInit, OnDestroy {
   }
 
   get displayPrice(): number {
-    return this.prices['2'] ?? this.tour?.price ?? 0;
+    const fromJson = this.prices['2'];
+    if (fromJson > 0) {
+      return fromJson;
+    }
+    if (this.tour?.price > 0) {
+      return this.tour.price;
+    }
+    const pageId = this.tour?.pageId;
+    return (pageId ? getTourOfferPriceUsd(pageId) : undefined) ?? 0;
   }
 
   get whatsappTourUrl(): string {

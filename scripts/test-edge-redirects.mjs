@@ -28,6 +28,8 @@ const cases = [
   ['/index.html', '/'],
   ['/packages', '/sri-lanka-private-tour'],
   ['/tour-packages', '/sri-lanka-private-tour'],
+  ['/tours', '/sri-lanka-private-tour'],
+  ['/de/tours', '/de/sri-lanka-rundreise'],
   ['/twodaystours', '/sri-lanka-private-tour'],
   ['/2-day-sri-lanka-tour', '/2-day-ella-kandy-private-tour-sri-lanka'],
   ['/zh', '/'],

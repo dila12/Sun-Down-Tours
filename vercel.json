@@ -178,6 +178,11 @@
       "permanent": true
     },
     {
+      "source": "/de/tours",
+      "destination": "/de/sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
       "source": "/de/yala-sri-lanka",
       "destination": "/de/yala-nationalpark-sri-lanka",
       "permanent": true
@@ -318,6 +323,11 @@
       "permanent": true
     },
     {
+      "source": "/es/tours",
+      "destination": "/es/circuito-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/fr/10-day-sri-lanka-tour",
       "destination": "/fr/circuit-sri-lanka-10-jours",
       "permanent": true
@@ -445,6 +455,11 @@
     {
       "source": "/fr/sri-lanka-wildlife-guide",
       "destination": "/fr/guides/faune-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tours",
+      "destination": "/fr/circuit-sri-lanka",
       "permanent": true
     },
     {
@@ -593,6 +608,11 @@
       "permanent": true
     },
     {
+      "source": "/it/tours",
+      "destination": "/it/tour-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/nl/10-day-sri-lanka-tour",
       "destination": "/nl/10-daagse-sri-lanka-rondreis",
       "permanent": true
@@ -720,6 +740,11 @@
     {
       "source": "/nl/sri-lanka-wildlife-guide",
       "destination": "/nl/reisgidsen/wildlife-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/nl/tours",
+      "destination": "/nl/sri-lanka-prive-rondreis",
       "permanent": true
     },
     {
@@ -860,6 +885,11 @@
     {
       "source": "/pl/sri-lanka-wildlife-guide",
       "destination": "/pl/przewodniki/przyroda-sri-lanki",
+      "permanent": true
+    },
+    {
+      "source": "/pl/tours",
+      "destination": "/pl/wycieczka-sri-lanka",
       "permanent": true
     },
     {
@@ -1023,6 +1053,11 @@
       "permanent": true
     },
     {
+      "source": "/ru/tours",
+      "destination": "/ru/tury-shri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/ru/yala-sri-lanka",
       "destination": "/ru/yala-shri-lanka",
       "permanent": true
@@ -1084,6 +1119,11 @@
     },
     {
       "source": "/tour-packages",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
+      "source": "/tours",
       "destination": "/sri-lanka-private-tour",
       "permanent": true
     },

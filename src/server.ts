@@ -79,7 +79,20 @@ app.use((req, res, next) => {
     .then((response) =>
       response ? writeResponseToNodeResponse(response, res) : next(),
     )
-    .catch(next);
+    .catch((err) => {
+      console.error('[ssr]', req.path, err);
+      if (res.headersSent) {
+        next(err);
+        return;
+      }
+      // Never 500 unknown URLs — Googlebot treats 5xx as a site outage.
+      res
+        .status(404)
+        .type('text/html; charset=utf-8')
+        .send(
+          '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Not Found</title></head><body><h1>404</h1><p>Not Found</p></body></html>',
+        );
+    });
 });
 
 /** Unknown paths: 404 instead of a blank Express fall-through. */

@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 
+# LLM / AI crawler summary (not a sitemap).
+# https://www.sundowntours.com/llms.txt
+
 # Submit only the sitemap index to Google Search Console and Bing.
 # Child sitemaps are discovered via sitemap-index.xml.
 Sitemap: https://www.sundowntours.com/sitemap-index.xml

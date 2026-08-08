@@ -1,6 +1,7 @@
 .cookie-banner {
   position: fixed;
-  left: 24px;
+  right: 24px;
+  left: auto;
   bottom: 24px;
   z-index: 99999;
 
@@ -156,7 +157,8 @@
 
 @media (max-width: 767px) {
   .cookie-banner {
-    left: 12px;
+    /* Keep left clear for the WhatsApp float (20px + 60px). */
+    left: 88px;
     right: 12px;
     bottom: 12px;
 
