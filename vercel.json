@@ -13,6 +13,31 @@
       "statusCode": 308
     },
     {
+      "source": "/:code(aa|ab|ae|af|ak|am|an|ar|as|av|ay|az|ba|be|bg|bh|bi|bm|bn|bo|br|bs|ca|ce|ch|co|cr|cs|cu|cv|cy|da|dv|dz|ee|el|en|eo|et|eu|fa|ff|fi|fj|fo|fy|ga|gd|gl|gn|gu|gv|ha|he|hi|ho|hr|ht|hu|hy|hz|ia|id|ie|ig|ii|ik|io|is|iu|ja|jv|ka|kg|ki|kj|kk|kl|km|kn|ko|kr|ks|ku|kv|kw|ky|la|lb|lg|li|ln|lo|lt|lu|lv|mg|mh|mi|mk|ml|mn|mr|ms|mt|my|na|nb|nd|ne|ng|nn|no|nr|nv|ny|oc|oj|om|or|os|pa|pi|ps|pt|qu|rm|rn|ro|rw|sa|sc|sd|se|sg|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|ty|ug|uk|ur|uz|ve|vi|vo|wa|wo|xh|yi|yo|za|zh|zu)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:code(aa|ab|ae|af|ak|am|an|ar|as|av|ay|az|ba|be|bg|bh|bi|bm|bn|bo|br|bs|ca|ce|ch|co|cr|cs|cu|cv|cy|da|dv|dz|ee|el|en|eo|et|eu|fa|ff|fi|fj|fo|fy|ga|gd|gl|gn|gu|gv|ha|he|hi|ho|hr|ht|hu|hy|hz|ia|id|ie|ig|ii|ik|io|is|iu|ja|jv|ka|kg|ki|kj|kk|kl|km|kn|ko|kr|ks|ku|kv|kw|ky|la|lb|lg|li|ln|lo|lt|lu|lv|mg|mh|mi|mk|ml|mn|mr|ms|mt|my|na|nb|nd|ne|ng|nn|no|nr|nv|ny|oc|oj|om|or|os|pa|pi|ps|pt|qu|rm|rn|ro|rw|sa|sc|sd|se|sg|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|ty|ug|uk|ur|uz|ve|vi|vo|wa|wo|xh|yi|yo|za|zh|zu)/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:code(aa|ab|ae|af|ak|am|an|ar|as|av|ay|az|ba|be|bg|bh|bi|bm|bn|bo|br|bs|ca|ce|ch|co|cr|cs|cu|cv|cy|da|dv|dz|ee|el|en|eo|et|eu|fa|ff|fi|fj|fo|fy|ga|gd|gl|gn|gu|gv|ha|he|hi|ho|hr|ht|hu|hy|hz|ia|id|ie|ig|ii|ik|io|is|iu|ja|jv|ka|kg|ki|kj|kk|kl|km|kn|ko|kr|ks|ku|kv|kw|ky|la|lb|lg|li|ln|lo|lt|lu|lv|mg|mh|mi|mk|ml|mn|mr|ms|mt|my|na|nb|nd|ne|ng|nn|no|nr|nv|ny|oc|oj|om|or|os|pa|pi|ps|pt|qu|rm|rn|ro|rw|sa|sc|sd|se|sg|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|ty|ug|uk|ur|uz|ve|vi|vo|wa|wo|xh|yi|yo|za|zh|zu)/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(de|fr|it|es|pl|ru|nl)/",
+      "destination": "/:locale",
+      "permanent": true
+    },
+    {
+      "source": "/2-day-sri-lanka-tour",
+      "destination": "/2-day-ella-kandy-private-tour-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/best-time-to-visit-sri-lanka",
       "destination": "/travel-guides/best-time-to-visit-sri-lanka",
       "permanent": true
@@ -1065,186 +1090,6 @@
     {
       "source": "/twodaystours",
       "destination": "/sri-lanka-private-tour",
-      "permanent": true
-    },
-    {
-      "source": "/cs",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/cs/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/pt",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/pt/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/ja",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ja/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/zh",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/zh/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/ar",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ar/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/tr",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/tr/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/sv",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/sv/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/da",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/da/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/fi",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/fi/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/hu",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/hu/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/ro",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ro/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/sk",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/sk/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/uk",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/uk/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/ko",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/ko/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/th",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/th/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/vi",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/vi/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/id",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/id/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/hi",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/hi/:path*",
-      "destination": "/:path*",
       "permanent": true
     }
   ],

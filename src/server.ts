@@ -82,6 +82,11 @@ app.use((req, res, next) => {
     .catch(next);
 });
 
+/** Unknown paths: 404 instead of a blank Express fall-through. */
+app.use((_req, res) => {
+  res.status(404).type('text/plain').send('Not Found');
+});
+
 if (isMainModule(import.meta.url)) {
   const port = process.env['PORT'] || 4000;
   app.listen(port, (error) => {

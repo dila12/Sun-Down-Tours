@@ -32,6 +32,10 @@ export const PAGE_CONTENT_SOURCES = {
   restaurants: ['src/app/mainComponents/resturant-component/resturant-component.ts'],
   testimonials: ['src/app/sharedComponents/testimonial/testimonial.ts'],
   cancellation: ['src/app/sharedComponents/cancellation-policy/cancellation-policy.ts'],
+  privacy: [
+    'src/app/sharedComponents/privacy-policy/privacy-policy-component/privacy-policy-component.ts',
+    'src/app/i18n/content/en.ts',
+  ],
 
   tour7: [
     'src/app/mainComponents/tour-packages/roundTours/seven-days-tour-component/seven-days-tour-component.ts',
@@ -129,6 +133,7 @@ export const PAGE_CONTENT_SOURCES = {
   destKandy: ['src/app/i18n/destinations/kandy.ts'],
   destDambulla: ['src/app/i18n/destinations/dambulla.ts'],
   destGalle: ['src/app/i18n/destinations/galle.ts'],
+  destMirissa: ['src/app/i18n/destinations/mirissa.ts'],
 
   guideBestTime: ['src/app/i18n/guides/bestTime.ts'],
   guideVisa: ['src/app/i18n/guides/visa.ts'],

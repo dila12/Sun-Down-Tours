@@ -26,6 +26,7 @@ const STATIC_PATH_REDIRECTS = {
   '/packages': '/sri-lanka-private-tour',
   '/tour-packages': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
+  '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
 };
 
 /**
@@ -90,7 +91,8 @@ export function resolveEdgeRedirect(pathname, map = buildEdgeRedirectMap()) {
     return null;
   }
   let path = pathname.split('?')[0].split('#')[0];
-  if (path.length > 1 && path.endsWith('/')) {
+  const hadTrailingSlash = path.length > 1 && path.endsWith('/');
+  if (hadTrailingSlash) {
     path = path.slice(0, -1);
   }
 
@@ -99,27 +101,41 @@ export function resolveEdgeRedirect(pathname, map = buildEdgeRedirectMap()) {
     return dormant;
   }
 
-  return map.get(path) ?? null;
+  const mapped = map.get(path);
+  if (mapped) {
+    return mapped;
+  }
+
+  // Canonicalize `/pl/` → `/pl` (sitemap + hreflang omit the trailing slash).
+  if (hadTrailingSlash) {
+    return path;
+  }
+
+  return null;
 }
 
 /**
  * Vercel catch-all 301s for every dormant locale prefix.
+ * `/:code/` is listed explicitly — `/:code` does not match a trailing slash,
+ * and `/:code/:path*` requires at least one extra segment.
  * @returns {{ source: string, destination: string, permanent: boolean }[]}
  */
 export function buildDormantLocaleVercelRedirects() {
-  /** @type {{ source: string, destination: string, permanent: boolean }[]} */
-  const rules = [];
-  for (const code of DORMANT_LOCALE_PREFIXES) {
-    rules.push({
-      source: `/${code}`,
-      destination: '/',
-      permanent: true,
-    });
-    rules.push({
-      source: `/${code}/:path*`,
-      destination: '/:path*',
-      permanent: true,
-    });
-  }
-  return rules;
+  const codes = DORMANT_LOCALE_PREFIXES.join('|');
+  return [
+    { source: `/:code(${codes})`, destination: '/', permanent: true },
+    { source: `/:code(${codes})/`, destination: '/', permanent: true },
+    { source: `/:code(${codes})/:path*`, destination: '/:path*', permanent: true },
+  ];
+}
+
+/**
+ * Live locale homepages: `/de/` → `/de` so Google indexes one URL.
+ * @returns {{ source: string, destination: string, permanent: boolean }[]}
+ */
+export function buildLocaleHomeTrailingSlashRedirects() {
+  const codes = NON_DEFAULT_LOCALES.join('|');
+  return [
+    { source: `/:locale(${codes})/`, destination: '/:locale', permanent: true },
+  ];
 }

@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import {
   buildDormantLocaleVercelRedirects,
   buildEdgeRedirectMap,
+  buildLocaleHomeTrailingSlashRedirects,
 } from '../src/app/i18n/edge-redirects.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -39,7 +40,10 @@ async function main() {
       permanent: true,
     }));
   const dormantGenerated = buildDormantLocaleVercelRedirects();
-  const generated = [...legacyGenerated, ...dormantGenerated];
+  const localeSlashGenerated = buildLocaleHomeTrailingSlashRedirects();
+  // Dormant + locale-home slash rules must run before legacy slugs so
+  // `/lt/` and `/pl/` never fall through to SSR.
+  const generated = [...dormantGenerated, ...localeSlashGenerated, ...legacyGenerated];
 
   let existing = {};
   try {

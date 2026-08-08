@@ -25,30 +25,42 @@ export const DEFAULT_LOCALE = 'en';
 export const NON_DEFAULT_LOCALES = LOCALES.filter((l) => l !== DEFAULT_LOCALE);
 
 /**
- * Former / unsupported locale URL prefixes. Not in {@link LOCALES}; any
- * `/{code}` or `/{code}/...` request should 301 to the English equivalent
- * so Google stops indexing ghost locale URLs (e.g. `/cs/privacy-policy`).
+ * ISO 639-1 codes. Unsupported prefixes (plus `/en`, since English lives at
+ * the site root) 301 to the unprefixed English path so Google does not keep
+ * ghost locale URLs such as `/lt/` or `/cs/privacy-policy`.
  */
-export const DORMANT_LOCALE_PREFIXES = [
-  'cs',
-  'pt',
-  'ja',
-  'zh',
-  'ar',
-  'tr',
-  'sv',
-  'da',
-  'fi',
-  'hu',
-  'ro',
-  'sk',
-  'uk',
-  'ko',
-  'th',
-  'vi',
-  'id',
-  'hi',
+const ISO_639_1 = [
+  'aa', 'ab', 'ae', 'af', 'ak', 'am', 'an', 'ar', 'as', 'av', 'ay', 'az',
+  'ba', 'be', 'bg', 'bh', 'bi', 'bm', 'bn', 'bo', 'br', 'bs',
+  'ca', 'ce', 'ch', 'co', 'cr', 'cs', 'cu', 'cv', 'cy',
+  'da', 'de', 'dv', 'dz',
+  'ee', 'el', 'en', 'eo', 'es', 'et', 'eu',
+  'fa', 'ff', 'fi', 'fj', 'fo', 'fr', 'fy',
+  'ga', 'gd', 'gl', 'gn', 'gu', 'gv',
+  'ha', 'he', 'hi', 'ho', 'hr', 'ht', 'hu', 'hy', 'hz',
+  'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'io', 'is', 'it', 'iu',
+  'ja', 'jv',
+  'ka', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn', 'ko', 'kr', 'ks', 'ku', 'kv', 'kw', 'ky',
+  'la', 'lb', 'lg', 'li', 'ln', 'lo', 'lt', 'lu', 'lv',
+  'mg', 'mh', 'mi', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my',
+  'na', 'nb', 'nd', 'ne', 'ng', 'nl', 'nn', 'no', 'nr', 'nv', 'ny',
+  'oc', 'oj', 'om', 'or', 'os',
+  'pa', 'pi', 'pl', 'ps', 'pt',
+  'qu',
+  'rm', 'rn', 'ro', 'ru', 'rw',
+  'sa', 'sc', 'sd', 'se', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sq', 'sr', 'ss', 'st', 'su', 'sv', 'sw',
+  'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tr', 'ts', 'tt', 'tw', 'ty',
+  'ug', 'uk', 'ur', 'uz',
+  've', 'vi', 'vo',
+  'wa', 'wo',
+  'xh',
+  'yi', 'yo',
+  'za', 'zh', 'zu',
 ];
+
+/** Active prefixed locales stay routable; every other ISO code (including `en`) 301s. */
+const LIVE_PREFIXES = new Set(NON_DEFAULT_LOCALES);
+export const DORMANT_LOCALE_PREFIXES = ISO_639_1.filter((code) => !LIVE_PREFIXES.has(code));
 
 /** hreflang codes emitted in alternate links (identity map for now). */
 export const HREFLANG = {
@@ -599,7 +611,7 @@ export const PAGES = [
     id: 'destMirissa',
     kind: 'destination',
     index: true,
-    priority: 0.55,
+    priority: 0.9,
     changefreq: 'monthly',
     slugs: {
       en: 'mirissa-sri-lanka',
@@ -1216,7 +1228,7 @@ export const PAGES = [
     };
   }),
 
-  // Utility pages (kept out of the sitemap / marked noindex).
+  // Utility pages. Privacy + cancellation are indexable; the rest stay noindex.
   { id: 'privacy', kind: 'utility', index: true, priority: 0.3, changefreq: 'yearly', slugs: same('privacy-policy') },
   { id: 'cancellation', kind: 'utility', index: true, priority: 0.4, changefreq: 'yearly', slugs: same('cancellation-policy') },
   { id: 'terms', kind: 'utility', index: false, slugs: same('terms-of-service') },
