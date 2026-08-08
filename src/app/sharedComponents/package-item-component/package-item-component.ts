@@ -1,7 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { buildTourImagePath, onImageError, buildSrcSet, defaultSizes, toWebpSrc, bestImageSrc } from '../../utils/image.util';
+import {
+  buildTourImagePath,
+  onImageError,
+  buildCappedAvifSrcSet,
+  buildCappedSrcSet,
+  toWebpSrc,
+  bestImageSrc,
+} from '../../utils/image.util';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LocaleService } from '../../i18n/locale.service';
 import {
@@ -15,6 +22,7 @@ import {
 } from '../../utils/booking-demand.util';
 
 const CARD_IMAGE_MAX_WIDTH = 400;
+const CARD_SRCSET_MAX = 640;
 
 @Component({
   selector: 'app-package-item-component',
@@ -43,7 +51,8 @@ export class PackageItemComponent {
   };
 
   readonly onImageError = onImageError;
-  readonly defaultSizes = defaultSizes;
+  readonly cardSizes =
+    '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 382px';
 
   /** Locale-correct link — prefers pageId → path(), never bare English URLs. */
   get link(): string {
@@ -66,7 +75,11 @@ export class PackageItemComponent {
   }
 
   get imageSrcSet(): string {
-    return buildSrcSet(this.imagePath);
+    return buildCappedSrcSet(this.imagePath, CARD_SRCSET_MAX);
+  }
+
+  get imageAvifSrcSet(): string {
+    return buildCappedAvifSrcSet(this.imagePath, CARD_SRCSET_MAX);
   }
 
   get alt(): string {

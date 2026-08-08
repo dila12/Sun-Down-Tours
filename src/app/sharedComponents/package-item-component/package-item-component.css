@@ -32,6 +32,12 @@
   overflow: hidden;
 }
 
+.tour-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .tour-image img {
   width: 100%;
   height: 100%;

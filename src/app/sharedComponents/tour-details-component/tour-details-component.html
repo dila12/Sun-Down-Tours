@@ -176,7 +176,7 @@
       <!-- Right: booking card (desktop only — mobile uses sticky bar + sheet) -->
       <div class="col-lg-4 order-lg-2 d-none d-lg-block" id="tour-booking-section" *ngIf="showBooking">
         <div class="booking-sidebar">
-          <div class="booking-trust-strip" aria-label="Trust signals">
+          <div class="booking-trust-strip" role="group" aria-label="Trust signals">
             <span>{{ 'common.tourUi.trustFreeCancel' | t }}</span>
             <span>{{ 'common.tourUi.trustPayLater' | t }}</span>
             <span>{{ 'common.tourUi.trustLocal' | t }}</span>

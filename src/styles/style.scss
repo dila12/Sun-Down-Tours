@@ -219,12 +219,13 @@ h6,
 
 @media (max-width: 768px) {
   .hero-carousel {
-    height: clamp(380px, 62vh, 520px);
+    /* Fixed px — 62vh shifts when the mobile URL bar shows/hides (CLS). */
+    height: 420px;
   }
 
   .hero-carousel-slide img {
     height: 100%;
-    min-height: clamp(380px, 62vh, 520px);
+    min-height: 420px;
   }
 
   #header-carousel.hero-carousel .carousel-caption {
@@ -349,7 +350,15 @@ h6,
 }
 
 .bg-registration {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/carousel-1.webp') no-repeat center center;
+    background-color: #022d41;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        image-set(
+            url('/assets/img/carousel-1-bg.avif?v=20260808a') type('image/avif'),
+            url('/assets/img/carousel-1-bg.webp?v=20260808a') type('image/webp')
+        );
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 

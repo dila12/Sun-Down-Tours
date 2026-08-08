@@ -1,8 +1,9 @@
-<div #elfsightHost class="elfsight-widget-host">
-  <div class="elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c" aria-label="Customer reviews"></div>
+<section #elfsightHost class="elfsight-widget-host" aria-labelledby="home-reviews-heading">
+  <h2 id="home-reviews-heading" class="sr-only">Customer reviews</h2>
+  <div class="elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c"></div>
   @if (!widgetReady) {
-    <div class="elfsight-placeholder py-5 text-center text-muted" aria-hidden="true">
+    <div class="elfsight-placeholder" aria-hidden="true">
       <p>Loading reviews…</p>
     </div>
   }
-</div>
+</section>

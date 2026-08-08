@@ -8,7 +8,7 @@ import { existsSync } from 'node:fs';
  * Prefer visual quality over aggressive KB targets.
  */
 const IMG_DIR = 'src/assets/img';
-const WIDTHS = [320, 640, 960, 1280, 1600, 1920];
+const WIDTHS = [320, 400, 640, 960, 1280, 1600, 1920];
 
 /** Homepage LCP / carousel. */
 const HERO_PATTERNS = [/mainpage\//i, /carousel/i, /destination-\d/i];
@@ -128,7 +128,7 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     if (w > maxWidth) continue;
     const variantOut = join(dir, `${baseName}-${w}w${ext}`);
     // Thumbnails (320) can use a slightly tighter budget; main/hero widths keep quality.
-    const variantMax = w <= 320 ? Math.min(maxKb, 90) : maxKb;
+    const variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
     const { buffer: variantBuf } = await optimizeToTarget(buffer, variantMax, w, format);
     await sharp(variantBuf).toFile(variantOut);
   }

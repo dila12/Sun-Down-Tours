@@ -1,8 +1,27 @@
 .elfsight-widget-host {
   position: relative;
-  min-height: 640px;
+  /* Fixed box so late Elfsight render cannot shift FAQ/SEO below (mobile CLS). */
+  height: 960px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .elfsight-widget-host {
+    height: 720px;
+  }
 }
 
 .elfsight-placeholder {
-  min-height: 640px;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: #f3f6f8;
+  color: #6b7280;
+}
+
+.elfsight-placeholder p {
+  margin: 0;
 }

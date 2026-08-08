@@ -2,18 +2,24 @@
 
     <div class="tour-image">
 
-        <img
-            [src]="imageSrc"
-            [srcset]="imageSrcSet || null"
-            [sizes]="imageSrcSet ? defaultSizes() : null"
-            [attr.data-img-base]="imagePath"
-            [alt]="alt"
-            width="400"
-            height="260"
-            loading="lazy"
-            decoding="async"
-            fetchpriority="low"
-            (error)="onImageError($event)">
+        <picture>
+            @if (imageAvifSrcSet) {
+            <source type="image/avif" [attr.srcset]="imageAvifSrcSet" [attr.sizes]="cardSizes" />
+            }
+            @if (imageSrcSet) {
+            <source type="image/webp" [attr.srcset]="imageSrcSet" [attr.sizes]="cardSizes" />
+            }
+            <img
+                [src]="imageSrc"
+                [attr.data-img-base]="imagePath"
+                [alt]="alt"
+                width="400"
+                height="260"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
+                (error)="onImageError($event)">
+        </picture>
 
         <div class="overlay"></div>
 
