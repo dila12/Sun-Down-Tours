@@ -1,11 +1,4 @@
-/* Solid icon font — not preloaded so hero/LCP wins bandwidth; icons swap in when ready. */
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
-}
+/* Icon class map only — the 77KB woff2 is injected after first paint (deferred.css). */
 
 .fa,
 .fas,

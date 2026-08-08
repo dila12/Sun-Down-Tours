@@ -14,7 +14,6 @@ import { RouterModule } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ToastrService } from 'ngx-toastr';
 import { environment } from '../../../../environment';
-import countryCode from './../../../assets/data/countryCode.json';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import {
@@ -31,6 +30,30 @@ import {
 } from '../../i18n/site-contact';
 import { FaqSectionComponent } from '../faq-section/faq-section';
 import { SocialIconComponent } from '../social-icon/social-icon';
+
+interface DialCountry {
+  name: string;
+  dial_code: string;
+  code: string;
+  flag?: string;
+}
+
+/** First-paint list — full ISO file loads when the select is opened. */
+const PRIORITY_COUNTRIES: DialCountry[] = [
+  { name: 'Sri Lanka', dial_code: '+94', code: 'LK' },
+  { name: 'United Kingdom', dial_code: '+44', code: 'GB' },
+  { name: 'Germany', dial_code: '+49', code: 'DE' },
+  { name: 'France', dial_code: '+33', code: 'FR' },
+  { name: 'Italy', dial_code: '+39', code: 'IT' },
+  { name: 'Spain', dial_code: '+34', code: 'ES' },
+  { name: 'Netherlands', dial_code: '+31', code: 'NL' },
+  { name: 'United States', dial_code: '+1', code: 'US' },
+  { name: 'Australia', dial_code: '+61', code: 'AU' },
+  { name: 'India', dial_code: '+91', code: 'IN' },
+  { name: 'United Arab Emirates', dial_code: '+971', code: 'AE' },
+  { name: 'Poland', dial_code: '+48', code: 'PL' },
+  { name: 'Russia', dial_code: '+7', code: 'RU' },
+];
 
 @Component({
   selector: 'app-contact-us-component',
@@ -80,14 +103,35 @@ export class ContactUsComponent {
   successMessage = '';
   submitOk = false;
   submitting = false;
-  countriesList = countryCode;
+  countriesList: DialCountry[] = PRIORITY_COUNTRIES;
   selectedCountryCode = 'LK';
   private timeoutId: ReturnType<typeof setTimeout> | null = null;
+  private allCountriesLoaded = false;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   path(pageId: string): string {
     return this.i18n.path(pageId);
+  }
+
+  loadAllCountries(): void {
+    if (this.allCountriesLoaded || !isPlatformBrowser(this.platformId)) {
+      return;
+    }
+    this.allCountriesLoaded = true;
+    this.http.get<DialCountry[]>('/assets/data/countryCode.json').subscribe({
+      next: (list) => {
+        if (!Array.isArray(list) || !list.length) {
+          this.allCountriesLoaded = false;
+          return;
+        }
+        this.countriesList = list;
+        this.cdr.markForCheck();
+      },
+      error: () => {
+        this.allCountriesLoaded = false;
+      },
+    });
   }
 
   onSubmit(): void {

@@ -19,40 +19,46 @@ function injectStylesheet(href: string): void {
   document.head.appendChild(link);
 }
 
-function injectDeferredAssets(): void {
-  injectStylesheet(DEFERRED_BOOTSTRAP_STYLESHEET);
-  injectStylesheet(DEFERRED_FONT_STYLESHEET);
-}
-
 export function scheduleDeferredAssets(): void {
   if (typeof window === 'undefined') {
     return;
   }
 
-  let loaded = false;
+  let fontsLoaded = false;
+  let cssLoaded = false;
 
-  const load = () => {
-    if (loaded) {
+  const loadFonts = () => {
+    if (fontsLoaded) {
       return;
     }
-    loaded = true;
-    removeListeners();
-    injectDeferredAssets();
+    fontsLoaded = true;
+    injectStylesheet(DEFERRED_FONT_STYLESHEET);
+  };
+
+  const loadCss = () => {
+    if (cssLoaded) {
+      return;
+    }
+    cssLoaded = true;
+    injectStylesheet(DEFERRED_BOOTSTRAP_STYLESHEET);
   };
 
   const events = ['click', 'touchstart', 'keydown'] as const;
   const opts: AddEventListenerOptions = { passive: true, once: true };
 
-  const removeListeners = () => {
-    events.forEach((event) => window.removeEventListener(event, load, opts));
-  };
-
-  events.forEach((event) => window.addEventListener(event, load, opts));
+  events.forEach((event) => {
+    window.addEventListener(event, () => {
+      loadFonts();
+      loadCss();
+    }, opts);
+  });
 
   window.addEventListener(
     'load',
     () => {
-      window.setTimeout(load, POST_LOAD_DELAY_MS);
+      // Icons after LCP; Bootstrap utilities much later.
+      window.setTimeout(loadFonts, 1500);
+      window.setTimeout(loadCss, POST_LOAD_DELAY_MS);
     },
     { once: true },
   );

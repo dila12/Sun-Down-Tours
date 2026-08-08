@@ -215,6 +215,8 @@
                 name="countryCode"
                 [ngModelOptions]="{ standalone: true }"
                 [attr.aria-label]="'contact.form.countryCode' | t"
+                (focus)="loadAllCountries()"
+                (mousedown)="loadAllCountries()"
                 required>
                 @for (country of countriesList; track country.code) {
                 <option [value]="country.code">{{ country.name }} ({{ country.dial_code }})</option>
@@ -286,5 +288,9 @@
 </section>
 
 @if (!homecontact) {
+@defer (on viewport) {
 <app-faq-section faqKey="contact.faq" titleKey="contact.faqTitle" />
+} @placeholder {
+<div class="py-5" aria-hidden="true"></div>
+}
 }

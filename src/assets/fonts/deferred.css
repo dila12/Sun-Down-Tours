@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-weight: 400;
-  /* optional: avoid late body-text reflow after the swap period (CLS). */
-  font-display: optional;
-  src: url('/assets/fonts/poppins-latin-400-normal.woff2') format('woff2');
+  font-weight: 900;
+  font-display: swap;
+  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
 }
