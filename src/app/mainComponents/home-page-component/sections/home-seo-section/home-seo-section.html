@@ -1,122 +1,99 @@
 <section class="seo-section py-5" aria-labelledby="seo-guide-heading">
-  <div class="container">
+  <div class="container seo-container">
 
-    <div class="text-center mb-5">
+    <header class="text-center mb-5">
       <p class="section-tag">{{ content().tag }}</p>
       <h2 id="seo-guide-heading" class="section-title">{{ content().title }}</h2>
       <p class="section-subtitle">{{ content().subtitle }}</p>
-    </div>
+    </header>
 
-    <div class="row justify-content-center mb-5">
-      <div class="col-12 seo-content-col">
-        <nav class="seo-toc card" aria-label="Guide contents">
-          <div class="card-body p-4">
-            <p class="text-uppercase text-muted small font-weight-bold mb-3 letter-spacing-1">{{ content().tocLabel }}</p>
-            <div class="row">
-              @for (item of content().toc; track item.anchor) {
-                <div class="col-sm-6 col-lg-4"><a [href]="'#' + item.anchor">{{ item.label }}</a></div>
-              }
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
+    <nav class="seo-toc" aria-label="Guide contents">
+      <p class="text-uppercase text-muted small font-weight-bold mb-3 letter-spacing-1">{{ content().tocLabel }}</p>
+      <ul class="seo-toc-list">
+        @for (item of content().toc; track item.anchor) {
+          <li><a [href]="'#' + item.anchor">{{ item.label }}</a></li>
+        }
+      </ul>
+    </nav>
 
     @for (section of content().sections; track section.anchor) {
-      <div class="row justify-content-center seo-block">
-        <div class="col-12 seo-content-col">
-          @if (section.eyebrow) {
-            <div class="text-center mb-4">
-              <p class="section-tag">{{ section.eyebrow }}</p>
-              <h2 class="section-title h3" [id]="section.anchor">{{ section.heading }}</h2>
-            </div>
-          }
-          <div class="seo-panel p-4 p-md-5 seo-prose">
-            @if (!section.eyebrow) {
-              <h2 class="section-title h3 mb-4" [id]="section.anchor">{{ section.heading }}</h2>
-            }
+      <article class="seo-block seo-panel seo-prose" [attr.id]="section.anchor">
+        @if (section.eyebrow) {
+          <p class="section-tag">{{ section.eyebrow }}</p>
+        }
+        <h2 class="section-title h3 mb-4">{{ section.heading }}</h2>
 
-            @for (para of section.intro; track $index) {
-              <p [innerHTML]="para"></p>
-            }
+        @for (para of section.intro; track $index) {
+          <p [innerHTML]="para"></p>
+        }
 
-            @if (section.cards && section.cards.length) {
-              <div class="row g-3 mb-4">
-                @for (card of section.cards; track $index) {
-                  <div [class]="cardColClass(section.cardCols)">
-                    <div class="seo-card h-100" [class.text-center]="section.cardCols === 4">
-                      <i class="fa {{ card.icon }} seo-icon" aria-hidden="true"></i>
-                      @if (card.title) { <h3 class="h5">{{ card.title }}</h3> }
-                      @if (card.meta) { <p class="small text-muted mb-2">{{ card.meta }}</p> }
-                      <p class="mb-2">{{ card.text }}</p>
-                      @if (card.linkPageId) {
-                        <a [routerLink]="path(card.linkPageId)">{{ card.linkLabel }} →</a>
-                      }
-                    </div>
-                  </div>
+        @if (section.cards && section.cards.length) {
+          <div class="seo-card-grid" [attr.data-cols]="section.cardCols || 2">
+            @for (card of section.cards; track $index) {
+              <div class="seo-card" [class.text-center]="section.cardCols === 4">
+                <i class="fa {{ card.icon }} seo-icon" aria-hidden="true"></i>
+                @if (card.title) { <h3 class="h5">{{ card.title }}</h3> }
+                @if (card.meta) { <p class="small text-muted mb-2">{{ card.meta }}</p> }
+                <p class="mb-2">{{ card.text }}</p>
+                @if (card.linkPageId) {
+                  <a [routerLink]="path(card.linkPageId)">{{ card.linkLabel }} →</a>
                 }
               </div>
             }
-
-            @for (sub of section.subsections; track $index) {
-              <h3>{{ sub.heading }}</h3>
-              @for (p of sub.paras; track $index) {
-                <p [innerHTML]="p"></p>
-              }
-              @if (sub.list && sub.list.length) {
-                <ul>
-                  @for (li of sub.list; track $index) { <li [innerHTML]="li"></li> }
-                </ul>
-              }
-            }
-
-            @if (section.list && section.list.length) {
-              <ul>
-                @for (li of section.list; track $index) { <li [innerHTML]="li"></li> }
-              </ul>
-            }
-
-            @if (section.seeAlso && section.seeAlso.length) {
-              <p class="seo-see-also mb-0">
-                <strong>{{ content().seeAlsoLabel }}:</strong>
-                @for (l of section.seeAlso; track $index) {
-                  <a class="mr-3" [routerLink]="path(l.pageId)">{{ l.label }}</a>
-                }
-              </p>
-            }
           </div>
-        </div>
-      </div>
+        }
+
+        @for (sub of section.subsections; track $index) {
+          <h3>{{ sub.heading }}</h3>
+          @for (p of sub.paras; track $index) {
+            <p [innerHTML]="p"></p>
+          }
+          @if (sub.list && sub.list.length) {
+            <ul>
+              @for (li of sub.list; track $index) { <li [innerHTML]="li"></li> }
+            </ul>
+          }
+        }
+
+        @if (section.list && section.list.length) {
+          <ul>
+            @for (li of section.list; track $index) { <li [innerHTML]="li"></li> }
+          </ul>
+        }
+
+        @if (section.seeAlso && section.seeAlso.length) {
+          <p class="seo-see-also mb-0">
+            <strong>{{ content().seeAlsoLabel }}:</strong>
+            @for (l of section.seeAlso; track $index) {
+              <a class="mr-3" [routerLink]="path(l.pageId)">{{ l.label }}</a>
+            }
+          </p>
+        }
+      </article>
     }
 
-    <div class="row justify-content-center seo-block">
-      <div class="col-12 seo-content-col">
-        <div class="seo-panel p-4 p-md-5 seo-prose">
-          <section aria-labelledby="faq-heading" itemscope itemtype="https://schema.org/FAQPage">
-            <div class="text-center mb-4">
-              <p class="section-tag">{{ content().faqEyebrow }}</p>
-              <h2 id="faq-heading" class="section-title h3">{{ content().faqHeading }}</h2>
-            </div>
-
-            @for (faq of content().faqs; track $index) {
-              <article class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <h3 itemprop="name">{{ faq.q }}</h3>
-                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                  <p itemprop="text">
-                    {{ faq.a }}
-                    @if (faq.links && faq.links.length) {
-                      @for (l of faq.links; track $index) {
-                        <a [routerLink]="path(l.pageId)">{{ l.label }}</a>
-                      }
-                    }
-                  </p>
-                </div>
-              </article>
-            }
-          </section>
-        </div>
+    <section class="seo-panel seo-prose" aria-labelledby="faq-heading" itemscope itemtype="https://schema.org/FAQPage">
+      <div class="text-center mb-4">
+        <p class="section-tag">{{ content().faqEyebrow }}</p>
+        <h2 id="faq-heading" class="section-title h3">{{ content().faqHeading }}</h2>
       </div>
-    </div>
+
+      @for (faq of content().faqs; track $index) {
+        <article class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">{{ faq.q }}</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              {{ faq.a }}
+              @if (faq.links && faq.links.length) {
+                @for (l of faq.links; track $index) {
+                  <a [routerLink]="path(l.pageId)">{{ l.label }}</a>
+                }
+              }
+            </p>
+          </div>
+        </article>
+      }
+    </section>
 
   </div>
 </section>

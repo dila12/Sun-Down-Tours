@@ -5,7 +5,6 @@ import {
   Inject,
   OnDestroy,
   OnInit,
-  AfterViewInit,
   PLATFORM_ID,
   inject,
 } from '@angular/core';
@@ -15,17 +14,19 @@ import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
-import { onImageError, toWebpSrc, buildSrcSet, buildAvifSrcSet, buildCappedSrcSet, buildCappedAvifSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, HERO_LCP_BASE } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
 import { HomePopularToursComponent } from './sections/home-popular-tours/home-popular-tours';
 import { HomeSeoSectionComponent } from './sections/home-seo-section/home-seo-section';
-import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
+import { HeroLcpImageComponent } from './sections/hero-lcp-image';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { FaqSectionComponent } from '../../sharedComponents/faq-section/faq-section';
 import { TourContentService, type TourCardView } from '../../i18n/tours/tour-content.service';
+
+const INITIAL_TOUR_COUNT = 3;
 
 interface TourSlide {
   src: string;
@@ -52,7 +53,7 @@ interface Destination {
     HomeElfsightWidgetComponent,
     HomePopularToursComponent,
     HomeSeoSectionComponent,
-    SocialIconComponent,
+    HeroLcpImageComponent,
     TranslatePipe,
     FaqSectionComponent,
   ],
@@ -70,7 +71,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   dayTours: TourCardView[] = [];
   multiDayTours: TourCardView[] = [];
-  displayCount = 6;
+  displayCount = INITIAL_TOUR_COUNT;
   visibleTours: TourCardView[] = [];
 
   activeTab: 'multi' | 'day' = 'multi';
@@ -81,18 +82,11 @@ export class HomePageComponent implements OnInit, OnDestroy {
   private carouselTimer?: ReturnType<typeof setInterval>;
 
   readonly onImageError = onImageError;
-  readonly buildSrcSet = buildSrcSet;
   readonly buildCappedSrcSet = buildCappedSrcSet;
   readonly buildCappedAvifSrcSet = buildCappedAvifSrcSet;
   readonly bestImageSrc = bestImageSrc;
-  readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
-  readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
-  readonly buildAvifSrcSet = buildAvifSrcSet;
-  readonly heroLcpAvifSrcSet = buildCappedAvifSrcSet(HERO_LCP_BASE, 1280);
-  readonly heroLcpSrc = heroLcpSrc(640);
-  readonly heroLcpSrcSet = buildCappedSrcSet(HERO_LCP_BASE, 1280);
-  readonly heroLcpBase = HERO_LCP_BASE;
+  readonly destSizes = '(max-width: 575px) calc(100vw - 2rem), (max-width: 991px) calc(50vw - 2rem), 360px';
   readonly whatsappUrl = SITE_WHATSAPP_URL;
 
   readonly heroSlide: TourSlide = {
@@ -127,11 +121,11 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly slides: TourSlide[] = [this.heroSlide, ...this.extraSlides];
 
   readonly destinations: Destination[] = [
-    { name: 'home.destinations.sigiriya', src: 'assets/img/destination-1-opt.webp', alt: 'home.destinations.sigiriyaAlt', pageId: 'destSigiriya' },
-    { name: 'home.destinations.ella', src: 'assets/img/destination-2-opt.webp', alt: 'home.destinations.ellaAlt', pageId: 'destElla' },
-    { name: 'home.destinations.yala', src: 'assets/img/destination-3-opt.webp', alt: 'home.destinations.yalaAlt', pageId: 'destYala' },
+    { name: 'home.destinations.sigiriya', src: toWebpSrc('assets/img/destination-1.jpg'), alt: 'home.destinations.sigiriyaAlt', pageId: 'destSigiriya' },
+    { name: 'home.destinations.ella', src: toWebpSrc('assets/img/destination-2.jpg'), alt: 'home.destinations.ellaAlt', pageId: 'destElla' },
+    { name: 'home.destinations.yala', src: toWebpSrc('assets/img/destination-3.jpg'), alt: 'home.destinations.yalaAlt', pageId: 'destYala' },
     { name: 'home.destinations.kandy', src: toWebpSrc('assets/img/destination-4.jpg'), alt: 'home.destinations.kandyAlt', pageId: 'destKandy' },
-    { name: 'home.destinations.dambulla', src: 'assets/img/destination-5-opt.webp', alt: 'home.destinations.dambullaAlt', pageId: 'destDambulla' },
+    { name: 'home.destinations.dambulla', src: toWebpSrc('assets/img/destination-5.jpg'), alt: 'home.destinations.dambullaAlt', pageId: 'destDambulla' },
     { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt', pageId: 'destGalle' },
   ];
 
@@ -349,7 +343,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
     }
 
     this.activeTab = tab;
-    this.displayCount = 6;
+    this.displayCount = INITIAL_TOUR_COUNT;
     this.refreshLocalizedCards();
     this.showAllTours = false;
     this.cdr.markForCheck();

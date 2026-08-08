@@ -161,17 +161,9 @@ h6,
   overflow: hidden;
 }
 
-.hero-carousel-track {
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-  /* Only promote during animation, not constantly */
-  will-change: auto;
-}
-
 .hero-carousel-slide {
-  flex: 0 0 100%;
   position: relative;
+  width: 100%;
   height: 100%;
 }
 

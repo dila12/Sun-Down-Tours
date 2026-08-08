@@ -17,7 +17,6 @@ import {
 /** Small navbar logo — never fall back to the 1024×1024 PNG master. */
 const LOGO_64 = '/assets/img/logos/2-64w.webp';
 const LOGO_80 = '/assets/img/logos/2-80w.webp';
-const LOGO_160 = '/assets/img/logos/2-160w.webp';
 
 @Component({
   selector: 'app-layout-component',
@@ -43,8 +42,8 @@ export class LayoutComponent {
   navOpen = false;
   langMenuOpen = false;
   readonly logoSrc = withImageVersion(LOGO_80);
-  /** Same brand mark as logos/2.png — sized for the 32px/80px navbar slot. */
-  readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w, ${withImageVersion(LOGO_160)} 160w`;
+  /** 64/80 only — 160w is ~15KB and oversized for the 32px/80px slot. */
+  readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w`;
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
 
   /** Localized root-relative path for a page in the current locale. */

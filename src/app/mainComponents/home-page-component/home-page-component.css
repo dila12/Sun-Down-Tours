@@ -1,3 +1,25 @@
+.hero-wa-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.home-defer-ph {
+  min-height: 16rem;
+}
+
+.home-defer-ph--sm {
+  min-height: 8rem;
+}
+
+.home-defer-ph--contact {
+  min-height: 28rem;
+}
+
+.home-defer-ph--team {
+  min-height: 22rem;
+}
+
 .tabs-wrapper {
   display: flex;
   justify-content: center;

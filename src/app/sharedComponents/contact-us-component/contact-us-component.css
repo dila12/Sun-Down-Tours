@@ -235,10 +235,16 @@
 }
 
 .contact-info-list__icon app-social-icon,
+.contact-info-list__icon .social-svg,
 .contact-cta app-social-icon {
   display: inline-flex;
   font-size: 1.1em;
   line-height: 1;
+}
+
+.contact-info-list__icon .social-svg {
+  width: 1.1em;
+  height: 1.1em;
 }
 
 .contact-cta app-social-icon {

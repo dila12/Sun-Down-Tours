@@ -22,17 +22,4 @@ export class HomeSeoSectionComponent {
   path(pageId: string): string {
     return this.i18n.path(pageId);
   }
-
-  /** Bootstrap column class for a card grid of the given column count. */
-  cardColClass(cols?: number): string {
-    switch (cols) {
-      case 4:
-        return 'col-sm-6 col-lg-3';
-      case 3:
-        return 'col-md-4';
-      case 2:
-      default:
-        return 'col-md-6';
-    }
-  }
 }

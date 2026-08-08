@@ -76,9 +76,26 @@ app.use(
 app.use((req, res, next) => {
   angularApp
     .handle(req)
-    .then((response) =>
-      response ? writeResponseToNodeResponse(response, res) : next(),
-    )
+    .then((response) => {
+      if (!response) {
+        next();
+        return;
+      }
+      // Edge-cache prerendered HTML so repeat visits skip a cold SSR hop.
+      if (req.method === 'GET' && response.status === 200) {
+        const headers = new Headers(response.headers);
+        headers.set('Cache-Control', 'public, s-maxage=120, stale-while-revalidate=86400');
+        return writeResponseToNodeResponse(
+          new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers,
+          }),
+          res,
+        );
+      }
+      return writeResponseToNodeResponse(response, res);
+    })
     .catch((err) => {
       console.error('[ssr]', req.path, err);
       if (res.headersSent) {
