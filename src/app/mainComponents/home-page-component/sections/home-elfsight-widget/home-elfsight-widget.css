@@ -1,8 +1,8 @@
 .elfsight-widget-host {
   position: relative;
-  min-height: 120px;
+  min-height: 640px;
 }
 
 .elfsight-placeholder {
-  min-height: 120px;
+  min-height: 640px;
 }

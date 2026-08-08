@@ -29,9 +29,9 @@
           [attr.data-img-base]="currentBase"
           [alt]="alt"
           width="1200"
-          height="800"
+          height="750"
           decoding="async"
-          [attr.loading]="currentIndex === 0 ? null : 'lazy'"
+          [attr.loading]="currentIndex === 0 ? 'eager' : 'lazy'"
           [attr.fetchpriority]="currentIndex === 0 ? 'high' : 'low'"
           (error)="onImageError($event)" />
       </picture>
@@ -78,7 +78,7 @@
           [alt]="previewAlt"
           width="112"
           height="84"
-          [attr.loading]="i === 0 ? null : 'lazy'"
+          loading="lazy"
           decoding="async"
           fetchpriority="low"
           (error)="onImageError($event)" />

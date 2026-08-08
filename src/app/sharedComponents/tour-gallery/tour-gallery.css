@@ -13,11 +13,14 @@
   border-radius: var(--tg-radius);
   overflow: hidden;
   background: var(--tg-surface);
+  aspect-ratio: 16 / 10;
+  max-height: min(62vh, 680px);
 }
 
 .tgallery__main {
   display: block;
   width: 100%;
+  height: 100%;
   padding: 0;
   border: 0;
   background: transparent;
@@ -27,16 +30,16 @@
 
 .tgallery__main picture {
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .tgallery__main-img {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: min(62vh, 680px);
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  aspect-ratio: 16 / 10;
   background: var(--tg-surface);
 }
 

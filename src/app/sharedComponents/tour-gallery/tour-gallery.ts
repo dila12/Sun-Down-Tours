@@ -63,7 +63,7 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
   readonly onImageError = onImageError;
   /** Retina-aware sizes so desktop gets the full base, not a soft mid-size. */
   readonly mainSizes =
-    '(max-width: 576px) 100vw, (max-width: 992px) 92vw, (max-width: 1400px) min(1100px, 70vw), 1200px';
+    '(max-width: 576px) 100vw, (max-width: 992px) 92vw, (max-width: 1200px) 70vw, 1100px';
   readonly thumbSizes = '(max-width: 576px) 22vw, 112px';
   readonly lightboxSizes = '100vw';
 
@@ -97,6 +97,7 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
       this.resolveBases();
       this.emitCurrent();
     }
+    this.syncLcpPreload();
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -104,6 +105,7 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
       this.resolveBases();
       this.currentIndex = 0;
       this.emitCurrent();
+      this.syncLcpPreload();
     }
   }
 
@@ -113,6 +115,7 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
 
   ngOnDestroy(): void {
     this.unlockBodyScroll();
+    this.removeLcpPreload();
   }
 
   get total(): number {
@@ -133,11 +136,11 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
   }
 
   get currentSrcSet(): string {
-    return this.currentBase ? buildSrcSet(this.currentBase) : '';
+    return this.currentBase ? buildCappedSrcSet(this.currentBase, 1100) : '';
   }
 
   get currentAvifSrcSet(): string {
-    return this.currentBase ? buildAvifSrcSet(this.currentBase) : '';
+    return this.currentBase ? buildCappedAvifSrcSet(this.currentBase, 1100) : '';
   }
 
   get lightboxSrc(): string {
@@ -160,6 +163,47 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
       avifSrcset: buildCappedAvifSrcSet(base, 640),
       index,
     }));
+  }
+
+  private lcpPreloadEl: HTMLLinkElement | null = null;
+
+  private syncLcpPreload(): void {
+    const base = this.bases[0];
+    const head = this.doc.head;
+    if (!base || !head) {
+      this.removeLcpPreload();
+      return;
+    }
+
+    const avif = buildCappedAvifSrcSet(base, 960);
+    const href = avif
+      ? (avif.split(',')[0]?.trim().split(/\s+/)[0] ?? '')
+      : galleryMainSrc(base);
+    if (!href) {
+      this.removeLcpPreload();
+      return;
+    }
+
+    let link =
+      this.lcpPreloadEl ??
+      this.doc.querySelector<HTMLLinkElement>('link[data-tgallery-lcp]');
+    if (!link) {
+      link = this.doc.createElement('link');
+      link.setAttribute('rel', 'preload');
+      link.setAttribute('as', 'image');
+      link.setAttribute('fetchpriority', 'high');
+      link.setAttribute('data-tgallery-lcp', '');
+      head.appendChild(link);
+    }
+    link.setAttribute('href', href);
+    link.setAttribute('type', avif ? 'image/avif' : 'image/webp');
+    this.lcpPreloadEl = link;
+  }
+
+  private removeLcpPreload(): void {
+    this.lcpPreloadEl?.remove();
+    this.lcpPreloadEl = null;
+    this.doc.querySelector('link[data-tgallery-lcp]')?.remove();
   }
 
   get lightboxTransform(): string {

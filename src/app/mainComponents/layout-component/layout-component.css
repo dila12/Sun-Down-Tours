@@ -47,6 +47,11 @@ body { top: 0px !important; }
     top: 0;
     z-index: 9999;
     background: linear-gradient(90deg,#022d41, #c05305);
+    min-height: 42px;
+}
+
+.nav-bar .navbar {
+    min-height: 80px;
 }
 
 .navbar-color > .container-fluid > .row {

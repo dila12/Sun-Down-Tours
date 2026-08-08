@@ -170,9 +170,9 @@ export function buildCappedAvifSrcSet(basePath: string, maxVariantWidth: number)
   return buildCappedSrcSet(basePath, maxVariantWidth, 'avif');
 }
 
-/** Tour gallery main stage — sharp on desktop/retina. */
+/** Tour gallery main stage — cap so LCP is not a 1920–full master. */
 export function galleryMainSrc(basePath: string): string {
-  return bestImageSrc(basePath, 1920);
+  return bestImageSrc(basePath, 1100);
 }
 
 /** Lightbox / zoom — always the full base encode (never a mid-size crop). */

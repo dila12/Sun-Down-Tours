@@ -19,10 +19,10 @@
                 </picture>
                 } @else {
                 <picture>
-                  @if (buildAvifSrcSet(slide.src)) {
-                  <source type="image/avif" [attr.srcset]="buildAvifSrcSet(slide.src)" [attr.sizes]="heroSizes" />
+                  @if (buildCappedAvifSrcSet(slide.src, 1280)) {
+                  <source type="image/avif" [attr.srcset]="buildCappedAvifSrcSet(slide.src, 1280)" [attr.sizes]="heroSizes" />
                   }
-                  <source type="image/webp" [attr.srcset]="buildSrcSet(slide.src)" [attr.sizes]="heroSizes" />
+                  <source type="image/webp" [attr.srcset]="buildCappedSrcSet(slide.src, 1280)" [attr.sizes]="heroSizes" />
                   <img class="w-100" [src]="bestImageSrc(slide.src, 640)" [sizes]="heroSizes"
                     [alt]="slide.alt | t" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low"
                     [attr.data-img-base]="slide.src" (error)="onImageError($event)">
@@ -87,7 +87,6 @@
                 {{ 'home.destinations.subtitle' | t }}
             </p>
         </div>
-        @defer (on viewport) {
         <div class="row g-4">
             @for (dest of destinations; track trackByIndex($index)) {
             <div class="col-12 col-md-6 col-lg-4">
@@ -104,15 +103,6 @@
             </div>
             }
         </div>
-        } @placeholder {
-        <div class="row g-4" aria-hidden="true">
-            @for (dest of destinations; track trackByIndex($index)) {
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="premium-card premium-card-placeholder"></div>
-            </div>
-            }
-        </div>
-        }
     </div>
 </section>
 
@@ -135,7 +125,6 @@
                 {{ 'home.packages.day' | t }}
             </button>
         </div>
-        @defer (on viewport) {
         <div class="row">
             @for (tour of visibleTours; track tour.id) {
             <div class="col-12 col-md-6 col-lg-4 mb-4 package-card-wrapper">
@@ -152,21 +141,11 @@
             </button>
         </div>
         }
-        } @placeholder {
-        <div class="row g-4" aria-hidden="true">
-            @for (i of [1,2,3,4,5,6]; track i) {
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="premium-card premium-card-placeholder" style="min-height: 280px;"></div>
-            </div>
-            }
-        </div>
-        }
     </div>
 </section>
 
 <section class="about-section pb-5">
     <div class="container">
-        @defer (on viewport) {
         <div class="about-wrapper">
             <div class="about-image">
                 <img [src]="bestImageSrc(aboutMainSrc, 640)" [srcset]="buildSrcSet(aboutMainSrc)"
@@ -189,13 +168,9 @@
                 <a [routerLink]="path('contact')" class="about-btn">{{ 'common.cta.planTour' | t }} →</a>
             </div>
         </div>
-        } @placeholder {
-        <div class="about-wrapper" aria-hidden="true" style="min-height: 320px;"></div>
-        }
     </div>
 </section>
 
-@defer (on viewport) {
 <div class="container-fluid pb-5 py-5" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pb-5">
         <div class="row">
@@ -238,11 +213,7 @@
         </div>
     </div>
 </div>
-} @placeholder {
-<div class="py-5" aria-hidden="true"></div>
-}
 
-@defer (on viewport) {
 <div class="container-fluid" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-4 pb-3">
@@ -277,33 +248,14 @@
         </div>
     </div>
 </div>
-} @placeholder {
-<div class="py-5" aria-hidden="true"></div>
-}
 
-@defer (on viewport) {
 <app-home-contact-section />
-} @placeholder {
-<div class="py-5" aria-hidden="true"></div>
-}
 
-@defer (on viewport) {
 <app-home-team-section />
-} @placeholder {
-<div class="py-5" aria-hidden="true"></div>
-}
 
-@defer (on viewport) {
 <app-home-elfsight-widget />
-} @placeholder {
-<div class="py-5" aria-hidden="true"></div>
-}
 
-@defer (on viewport) {
 <app-home-popular-tours />
-} @placeholder {
-<div class="py-3" aria-hidden="true"></div>
-}
 
 <app-faq-section faqKey="home.faq" titleKey="home.faqTitle" />
 

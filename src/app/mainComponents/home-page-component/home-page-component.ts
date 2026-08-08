@@ -15,7 +15,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
-import { onImageError, toWebpSrc, buildSrcSet, buildAvifSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, heroLcpAvifSrcSet, HERO_LCP_BASE } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildSrcSet, buildAvifSrcSet, buildCappedSrcSet, buildCappedAvifSrcSet, defaultSizes, bestImageSrc, heroLcpSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -77,18 +77,21 @@ export class HomePageComponent implements OnInit, OnDestroy {
   showAllTours = false;
   loadingMore = false;
   activeSlide = 0;
+  private carouselDelay?: ReturnType<typeof setTimeout>;
   private carouselTimer?: ReturnType<typeof setInterval>;
 
   readonly onImageError = onImageError;
   readonly buildSrcSet = buildSrcSet;
+  readonly buildCappedSrcSet = buildCappedSrcSet;
+  readonly buildCappedAvifSrcSet = buildCappedAvifSrcSet;
   readonly bestImageSrc = bestImageSrc;
   readonly defaultSizes = defaultSizes;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 400px';
   readonly buildAvifSrcSet = buildAvifSrcSet;
-  readonly heroLcpAvifSrcSet = heroLcpAvifSrcSet();
+  readonly heroLcpAvifSrcSet = buildCappedAvifSrcSet(HERO_LCP_BASE, 1280);
   readonly heroLcpSrc = heroLcpSrc(640);
-  readonly heroLcpSrcSet = buildSrcSet(HERO_LCP_BASE);
+  readonly heroLcpSrcSet = buildCappedSrcSet(HERO_LCP_BASE, 1280);
   readonly heroLcpBase = HERO_LCP_BASE;
   readonly whatsappUrl = SITE_WHATSAPP_URL;
 
@@ -164,6 +167,9 @@ export class HomePageComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
+    if (this.carouselDelay) {
+      clearTimeout(this.carouselDelay);
+    }
     if (this.carouselTimer) {
       clearInterval(this.carouselTimer);
     }
@@ -190,7 +196,10 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   private startCarouselAutoplay() {
     if (!isPlatformBrowser(this.platformId) || this.slides.length <= 1) return;
-    this.carouselTimer = setInterval(() => this.nextSlide(), 6000);
+    // Delay first advance so autoplay cannot replace the LCP hero mid-load.
+    this.carouselDelay = setTimeout(() => {
+      this.carouselTimer = setInterval(() => this.nextSlide(), 8000);
+    }, 15000);
   }
 
   private applyPrices() {

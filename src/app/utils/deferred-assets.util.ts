@@ -40,7 +40,7 @@ export function scheduleDeferredAssets(): void {
     injectDeferredAssets();
   };
 
-  const events = ['click', 'touchstart', 'keydown', 'scroll'] as const;
+  const events = ['click', 'touchstart', 'keydown'] as const;
   const opts: AddEventListenerOptions = { passive: true, once: true };
 
   const removeListeners = () => {

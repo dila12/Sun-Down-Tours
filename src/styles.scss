@@ -1,8 +1,16 @@
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: url('/assets/fonts/poppins-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 600;
-  font-display: swap;
+  font-display: optional;
   src: url('/assets/fonts/poppins-latin-600-normal.woff2') format('woff2');
 }
 
@@ -15,20 +23,6 @@ html, body {
   overflow-x: clip;
   /* Poppins 600 is critical; avoid a late system-ui → Poppins swap (CLS). */
   font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
-
-/* content-visibility only on far below-fold blocks, with realistic placeholders
-   (1px intrinsic height was causing ~0.38 CLS on main#main-content). */
-app-home-elfsight-widget,
-app-faq-section,
-app-home-contact-section,
-app-home-team-section {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 640px;
-}
-
-app-home-team-section {
-  contain-intrinsic-size: auto 800px;
 }
 
 a,
