@@ -572,10 +572,8 @@ ul {
   position: sticky;
   /* Sit just under the sticky top bar (was 100px — left a large empty band) */
   top: 3.75rem;
-  max-height: calc(100dvh - 4.25rem);
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  scrollbar-width: thin;
+  max-height: none;
+  overflow: visible;
   padding-bottom: 0.25rem;
 }
 
@@ -588,8 +586,6 @@ ul {
   .booking-sidebar {
     position: static;
     margin-top: 1rem;
-    max-height: none;
-    overflow: visible;
   }
 }
 

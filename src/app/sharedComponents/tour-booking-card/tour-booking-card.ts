@@ -696,6 +696,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
       total: this.total,
       bookingDate: this.bookingDate,
       travelDate: this.travelDate,
+      paymentMethod: this.i18n.t('common.booking.payAtDestination'),
     };
 
     this.isSubmitting = true;

@@ -25,7 +25,11 @@ export default async function handler(req, res) {
     total,
     bookingDate,
     travelDate,
+    paymentMethod,
   } = req.body;
+
+  const paymentMethodLabel =
+    paymentMethod || "Payment Later (Pay at Destination)";
 
   try {
     const transporter = nodemailer.createTransport({
@@ -135,6 +139,10 @@ export default async function handler(req, res) {
                 <td style="padding: 6px 0; font-weight: bold;">Total Amount:</td>
                 <td style="color: #16a34a; font-weight: bold;">$${total}</td>
               </tr>
+              <tr>
+                <td style="padding: 6px 0; font-weight: bold;">Payment Method:</td>
+                <td>${paymentMethodLabel}</td>
+              </tr>
             </table>
 
             <p style="margin-top: 30px; font-size: 14px; color: #6b7280;">
@@ -214,6 +222,10 @@ export default async function handler(req, res) {
                 <td style="padding:10px;border:1px solid #e5e7eb;color:#16a34a;font-weight:bold;">
                   $${total}
                 </td>
+              </tr>
+              <tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Payment Method</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">${paymentMethodLabel}</td>
               </tr>
             </table>
 

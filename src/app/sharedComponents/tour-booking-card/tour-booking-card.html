@@ -326,10 +326,19 @@
 
       <div class="total-bar" *ngIf="canBookOnline">
         <div class="total-bar__row">
-          <span>{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
-          <span class="total-bar__amount">${{ total.toFixed(2) }} <small class="text-muted">(≈ {{ eurLabel }})</small></span>
+          <span class="total-bar__label">{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
+          <div class="total-bar__amount">
+            <strong>${{ total.toFixed(2) }}</strong>
+            <small>≈ {{ eurLabel }}</small>
+          </div>
         </div>
-        <small class="total-bar__note"><i class="fa fa-info-circle"></i> {{ 'common.booking.payAtDestination' | t }}</small>
+        <div class="payment-method" role="status">
+          <i class="fa fa-shield-alt" aria-hidden="true"></i>
+          <div class="payment-method__text">
+            <span class="payment-method__label">{{ 'common.booking.paymentMethod' | t }}</span>
+            <span class="payment-method__value">{{ 'common.booking.payAtDestination' | t }}</span>
+          </div>
+        </div>
       </div>
 
       <p class="booking-confirm-note" *ngIf="isMultiDayTour && tourLengthDays > 2 && travelDate && !showDemandWarning" role="note">
