@@ -14,27 +14,27 @@ export const SAFETY_GUIDE: ArticleContent = {
       {
         id: 'generalSafety',
         title: 'General safety: what visitors should actually expect',
-        body: 'Petty theft exists in busy markets, bus stations and crowded beacheseep phones and wallets in front pockets or a cross-body bag, not hanging from a chair at a café. Violent crime targeting tourists is rare; disputes are more often about money, transport fares or misunderstood “guides” at sites.\n\nPolitical demonstrations occur occasionally in Colombo; avoid large gatherings, follow local news and trust your driver-guide to reroute if needed. Sri Lankans are broadly hospitablesking your hotel or driver about local conditions beats relying on outdated forum posts.',
+        body: 'Petty theft exists in busy markets, bus stations and crowded beaches. Keep phones and wallets in front pockets or a cross-body bag, not hanging from a chair at a café. Violent crime targeting tourists is rare; disputes are more often about money, transport fares or misunderstood “guides” at sites.\n\nPolitical demonstrations occur occasionally in Colombo; avoid large gatherings, follow local news and trust your driver-guide to reroute if needed. Sri Lankans are broadly hospitable. Asking your hotel or driver about local conditions beats relying on outdated forum posts.',
       },
       {
         id: 'scamsToAvoid',
         title: 'Common scams and how to sidestep them',
-        body: 'At Sigiriya, Dambulla and the Temple of the Tooth, unofficial “guides” may claim you need them to enter or offer gemstones and spice-shop detours with heavy commission pressurefficial tickets are sold at clear counters; politely decline unsolicited escorts. Tuk-tuk drivers offering “free” temple tours often end at overpriced shops.\n\nGem and spice purchases should be treated as optional sightseeing, not obligations. Agree tuk-tuk and taxi fares before setting off, or use ride apps in Colombo. Your private chauffeur-guide removes most of this friction on a pre-booked round tour.',
+        body: 'At Sigiriya, Dambulla and the Temple of the Tooth, unofficial “guides” may claim you need them to enter or offer gemstones and spice-shop detours with heavy commission pressure. Official tickets are sold at clear counters; politely decline unsolicited escorts. Tuk-tuk drivers offering “free” temple tours often end at overpriced shops.\n\nGem and spice purchases should be treated as optional sightseeing, not obligations. Agree tuk-tuk and taxi fares before setting off, or use ride apps in Colombo. Your private chauffeur-guide removes most of this friction on a pre-booked round tour.',
       },
       {
         id: 'roadTravel',
         title: 'Road travel, tuk-tuks and private drivers',
-        body: 'Sri Lankan driving is assertive by Western standardsarrow roads, buses overtaking on bends and pedestrians on highway edges are normal. As a passenger, wear seatbelts when available and avoid night driving on unfamiliar hill-country roads if you self-drive.\n\nMost visitors on round tours travel with a licensed chauffeur-guide in an insured vehicle, which is the safest and least stressful way to cover distance. If you use tuk-tuks locally, choose drivers with roadworthy vehicles and helmet yourself on busy routes.',
+        body: 'Sri Lankan driving is assertive by Western standards. Narrow roads, buses overtaking on bends and pedestrians on highway edges are normal. As a passenger, wear seatbelts when available and avoid night driving on unfamiliar hill-country roads if you self-drive.\n\nMost visitors on round tours travel with a licensed chauffeur-guide in an insured vehicle, which is the safest and least stressful way to cover distance. If you use tuk-tuks locally, choose drivers with roadworthy vehicles and helmet yourself on busy routes.',
       },
       {
         id: 'templesAndRespect',
         title: 'Temples, cultural respect and photography',
-        body: 'Religious sites require modest dress, quiet behaviour and no selfies with your back to Buddha statues serious cultural offence. Photography rules vary: some inner shrines prohibit cameras entirely; ask before shooting monks or worshippers at prayer.\n\nRemove shoes before entering shrine floors; socks help on hot stone. Small donations are welcome but never mandatoryore anyone insisting on a fixed “entry fee” beyond the official ticket counter.',
+        body: 'Religious sites require modest dress, quiet behaviour and no selfies with your back to Buddha statues serious cultural offence. Photography rules vary: some inner shrines prohibit cameras entirely; ask before shooting monks or worshippers at prayer.\n\nRemove shoes before entering shrine floors; socks help on hot stone. Small donations are welcome but never mandatory. Ignore anyone insisting on a fixed “entry fee” beyond the official ticket counter.',
       },
       {
         id: 'wildlifeDistance',
         title: 'Wildlife, national parks and keeping your distance',
-        body: 'Yala, Udawalawe and Minneriya are not zooslephants, buffalo and leopards are wild. Stay inside safari jeeps unless guides instruct otherwise; never approach elephants on foot, especially lone males or herds with calves. Feeding monkeys at temples and roadside creates aggressive behaviour and risks bites.\n\nSea currents on the south coast can be strongd local flags and lifeguard advice. Snorkelling and diving operators should be licensed; do not touch coral or marine life.',
+        body: 'Yala, Udawalawe and Minneriya are not zoos. Elephants, buffalo and leopards are wild. Stay inside safari jeeps unless guides instruct otherwise; never approach elephants on foot, especially lone males or herds with calves. Feeding monkeys at temples and roadside creates aggressive behaviour and risks bites.\n\nSea currents on the south coast can be strong. Heed local flags and lifeguard advice. Snorkelling and diving operators should be licensed; do not touch coral or marine life.',
       },
       {
         id: 'healthEmergency',
@@ -44,7 +44,7 @@ export const SAFETY_GUIDE: ArticleContent = {
     ],
     faq: [
       {
-        q: 'Is Sri Lanka safe for tourists in 2025?',
+        q: 'Is Sri Lanka safe for tourists in 2026?',
         a: 'Yes, for typical holiday routes Colombo, the Cultural Triangle, hill country and south-coast beaches when standard precautions apply. Stay informed about local news, use reputable transport and keep valuables secure in crowds.',
       },
       {
@@ -235,7 +235,7 @@ export const SAFETY_GUIDE: ArticleContent = {
     sections: [
       {
         title: 'Sicurezza generale: cosa aspettarsi davvero',
-        body: 'Furti di piccola entità capitano in mercati affollati, stazioni degli autobus e spiagge pieneelefono e portafoglio in tasca anteriore o borsa a tracolla, non appesi allo schienale al bar. Crimini violenti contro turisti sono rari; le dispute riguardano più spesso soldi, tariffe o «guide» fraintese ai siti.\n\nManifestazioni politiche occasionali a Colombo; evitate folle numerose, seguite notizie locali e fidatevi dell’autista-guida per deviare se serve. I sri-lankesi sono in massima parte ospitali chiedere all’hotel o all’autista batte post forum datati.',
+        body: 'Furti di piccola entità capitano in mercati affollati, stazioni degli autobus e spiagge piene. Tenete telefono e portafoglio in tasca anteriore o borsa a tracolla, non appesi allo schienale al bar. Crimini violenti contro turisti sono rari; le dispute riguardano più spesso soldi, tariffe o «guide» fraintese ai siti.\n\nManifestazioni politiche occasionali a Colombo; evitate folle numerose, seguite notizie locali e fidatevi dell’autista-guida per deviare se serve. I sri-lankesi sono in massima parte ospitali: chiedere all’hotel o all’autista batte post forum datati.',
       },
       {
         title: 'Truffe comuni e come evitarle',
@@ -243,15 +243,15 @@ export const SAFETY_GUIDE: ArticleContent = {
       },
       {
         title: 'Viaggio su strada, tuk-tuk e autisti privati',
-        body: 'La guida sri-lankese è assertiva agli standard occidentalitrade strette, bus in curva, pedoni sul ciglio. Come passeggero, cinture quando disponibili; evitate guida notturna su strade di montagna sconosciute se guidate da soli.\n\nLa maggior parte dei visitatori in tour viaggia con autista-guida licenziato in veicolo assicuratomodo più sicuro e rilassato per coprire distanze. Con tuk-tuk locali, scegliete veicoli in buono stato e casco su strade trafficate.',
+        body: 'La guida sri-lankese è assertiva agli standard occidentali: strade strette, bus in curva, pedoni sul ciglio. Come passeggero, cinture quando disponibili; evitate guida notturna su strade di montagna sconosciute se guidate da soli.\n\nLa maggior parte dei visitatori in tour viaggia con autista-guida licenziato in veicolo assicurato — il modo più sicuro e rilassato per coprire distanze. Con tuk-tuk locali, scegliete veicoli in buono stato e casco su strade trafficate.',
       },
       {
         title: 'Templi, rispetto culturale e fotografia',
-        body: 'I siti religiosi richiedono abiti modesti, comportamento quieto e niente selfie con le spalle alle statue del Buddha offesa culturale seria. Regole foto variabili: alcuni santuari interni vietano macchine fotografiche; chiedete prima di fotografare monaci o fedeli in preghiera.\n\nTogliete scarpe prima dei pavimenti del santuario; calzini utili su pietra calda. Piccole donazioni benvenute, mai obbligatorie ignorate «tasse d’ingresso» fisse oltre lo sportello ufficiale.',
+        body: 'I siti religiosi richiedono abiti modesti, comportamento quieto e niente selfie con le spalle alle statue del Buddha: offesa culturale seria. Regole foto variabili: alcuni santuari interni vietano macchine fotografiche; chiedete prima di fotografare monaci o fedeli in preghiera.\n\nTogliete scarpe prima dei pavimenti del santuario; calzini utili su pietra calda. Piccole donazioni benvenute, mai obbligatorie; ignorate «tasse d’ingresso» fisse oltre lo sportello ufficiale.',
       },
       {
         title: 'Fauna, parchi nazionali e distanza da mantenere',
-        body: 'Yala, Udawalawe e Minneriya non sono zoo elefanti, bufali e leopardi sono selvatici. Restate nei jeep safari salvo diversa istruzione; non avvicinatevi agli elefanti a piedi, soprattutto maschi solitari o branchi con piccoli. Dare cibo alle scimmie ai templi crea aggressività e rischio morsi.\n\nCorrenti marine sulla costa sud possono essere forti rispettate bandiere e bagnini. Operatori snorkel e immersioni licenziati; non toccate coralli o vita marina.',
+        body: 'Yala, Udawalawe e Minneriya non sono zoo elefanti, bufali e leopardi sono selvatici. Restate nei jeep safari salvo diversa istruzione; non avvicinatevi agli elefanti a piedi, soprattutto maschi solitari o branchi con piccoli. Dare cibo alle scimmie ai templi crea aggressività e rischio morsi.\n\nCorrenti marine sulla costa sud possono essere forti: rispettate bandiere e bagnini. Operatori snorkel e immersioni licenziati; non toccate coralli o vita marina.',
       },
       {
         title: 'Acqua, cibo, emergenze e viaggiatrici sole',

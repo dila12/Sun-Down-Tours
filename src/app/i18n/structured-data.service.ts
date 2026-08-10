@@ -78,6 +78,11 @@ export class StructuredDataService {
       graph.push(article);
     }
 
+    const restaurant = this.restaurant(pageId, locale);
+    if (restaurant) {
+      graph.push(restaurant);
+    }
+
     this.inject({ '@context': 'https://schema.org', '@graph': graph });
   }
 
@@ -284,6 +289,13 @@ export class StructuredDataService {
       return this.faqSchema(article.faq);
     }
 
+    if (pageId === 'restaurants') {
+      const items = this.i18n.faq('restaurantsExplore.faq', locale);
+      if (items.length) {
+        return this.faqSchema(items);
+      }
+    }
+
     const ns = this.ns(pageId);
     if (!ns) {
       return null;
@@ -373,6 +385,50 @@ export class StructuredDataService {
         '@type': 'PostalAddress',
         addressCountry: 'LK',
       },
+    };
+  }
+
+  private restaurant(pageId: string, locale: Locale): Record<string, unknown> | null {
+    if (pageId !== 'restaurants') {
+      return null;
+    }
+    return {
+      '@type': 'Restaurant',
+      '@id': `${this.i18n.url(pageId, locale)}#restaurant`,
+      name: 'Sundown Beach Restaurant',
+      url: this.i18n.url(pageId, locale),
+      image: OG_IMAGE,
+      telephone: SITE_PHONE_E164,
+      email: SITE_EMAIL,
+      servesCuisine: ['Sri Lankan', 'Seafood'],
+      priceRange: '$$',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: SITE_ADDRESS_STREET,
+        addressLocality: SITE_ADDRESS_LOCALITY,
+        addressRegion: SITE_ADDRESS_REGION,
+        addressCountry: 'LK',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: SITE_GEO.latitude,
+        longitude: SITE_GEO.longitude,
+      },
+      openingHoursSpecification: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday',
+        ],
+        opens: SITE_HOURS_OPENS,
+        closes: SITE_HOURS_CLOSES,
+      },
+      parentOrganization: { '@id': `${BASE_URL}/#travelagency` },
     };
   }
 

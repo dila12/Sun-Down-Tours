@@ -511,9 +511,41 @@ export const it: Dict = {
   },
 
   restaurantsExplore: {
+    h1: 'Dove mangiare in Sri Lanka: costa, Galle Fort e Sundown Beach Restaurant',
+    breadcrumb: 'Ristoranti',
+    intro:
+      'Mangiare bene in Sri Lanka non è una classifica unica dei «migliori ristoranti», ma abbinare il pasto alla costa, all’ora e a quanto volete ancora spostarvi dopo cena. Il rice and curry è lo staple nell’entroterra; il pesce alla griglia definisce le coste sud e ovest; Galle Fort mescola sale coloniali e buon caffè. Questa pagina spiega dove i viaggiatori in tour privato mangiano davvero, poi elenca il menu completo del Sundown Beach Restaurant a Waskaduwa — la nostra cucina costiera tra Colombo e Galle.',
+    aroundTitle: 'Come si mangia durante un tour',
+    aroundBody:
+      'In un tour con autista-guida, il pranzo è di solito un rice and curry scelto per pulizia e ritmo, non una lunga sosta gourmet. La cena è la vera scelta: ristorante dell’hotel, grill in spiaggia o la città in cui dormite. Prima di ordinare pesce intero o granchio, confermate se il prezzo è al chilo o a porzione — la sorpresa più comune sulla costa sud.\n\nI vegetariani se la cavano chiedendo curry di verdure senza pesce delle Maldive; i vegani devono dirlo chiaramente. Bevete acqua sigillata. Una mancia del 5–10% basta se il servizio non è già incluso.',
+    westTitle: 'Costa ovest: Negombo, Kalutara e Waskaduwa',
+    westBody:
+      'La costa ovest è dove atterrano la maggior parte dei voli europei: il primo e l’ultimo pasto del viaggio accadono spesso qui. Negombo ha grill turistici vicino alla spiaggia; Colombo offre hotel dining e qualche buona sala di rice and curry. Tra Kalutara e Waskaduwa il pescato è locale — tonno, seer, gamberi e granchio — cucinato in giornata.\n\nIl Sundown Beach Restaurant è su questo tratto (n. 302, Mahawaskaduwa, Waskaduwa). Gli ospiti dei nostri tour privati si fermano spesso per un pranzo di mare o un’ultima cena prima della partenza da CMB. Aperto tutti i giorni 8:00–22:00; prenotate al +94 70 629 3585.',
+    southTitle: 'Costa sud e Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa e Tangalle sono i più forti per il pesce semplicemente grigliato con lime, peperoncino e burro all’aglio. Dentro Galle Fort, antiche case olandesi uniscono spezie sri-lankesi e tecnica internazionale; i prezzi salgono dentro le mura, la qualità è di solito affidabile. Combinate una mattina sui bastioni con il pranzo nel fort, o un pasto più tardi sulla costa Kalutara–Waskaduwa se risalite a nord.\n\nPer un primer più ampio — hoppers, kottu, livelli di spezie — leggete la nostra guida gastronomica. Il menu sotto è quello del Sundown Beach Restaurant, non un elenco generico di tutta l’isola.',
     title: 'Destinazioni e tour nelle vicinanze',
-    lead: 'Sundown Beach Restaurant è il nostro partner gastronomico a Waskaduwa abbina il pranzo a destinazioni della costa sud-ovest e tour giornalieri.',
+    lead: 'Il Sundown Beach Restaurant a Waskaduwa si abbina facilmente alle tappe della costa sud-ovest e ai tour giornalieri — Galle Fort, spiagge e itinerari privati.',
     contactCta: 'Pianifica un tour privato',
+    faqTitle: 'FAQ ristoranti e Sundown Beach',
+    faq: [
+      {
+        q: 'Il Sundown Beach Restaurant è aperto anche a chi non è in hotel?',
+        a: 'Sì. È un ristorante sulla costa a Waskaduwa, aperto tutti i giorni 8:00–22:00. Non serve essere in un pacchetto Sundown Tours per prenotare un tavolo.',
+      },
+      {
+        q: 'Dove cenare la sera dell’arrivo a CMB?',
+        a: 'La maggior parte degli ospiti resta vicino a Negombo o sulla costa ovest (Kalutara/Waskaduwa) e cena in zona invece di guidare fino a Galle la stessa sera. Il Sundown Beach Restaurant è una sosta di mare semplice su quel tratto.',
+      },
+      {
+        q: 'Il pesce è a porzione o al chilo?',
+        a: 'Al Sundown Beach Restaurant i prezzi in menu sono per piatto. Altrove sulla costa sud confermate sempre chilo o porzione prima di ordinare pesce intero o granchio.',
+      },
+      {
+        q: 'Potete includere soste al ristorante in un tour privato?',
+        a: 'Sì. Indicate le esigenze alimentari in prenotazione. I pranzi seguono i tempi di guida; la cena può essere al Sundown Beach Restaurant se dormite sulla costa ovest, o a Galle Fort / in una località balneare sulla costa sud.',
+      },
+    ],
   },
 
   bookingSuccess: {
@@ -713,10 +745,10 @@ export const it: Dict = {
       keywords: 'periodo migliore Sri Lanka, meteo Sri Lanka, monsone Sri Lanka, quando andare Sri Lanka',
     },
     guideVisa: {
-      title: 'Guida al visto Sri Lanka | ETA, regole di ingresso e consigli pratici',
+      title: 'Visto Sri Lanka 2026 | ETA gratuita per 40 Paesi',
       description:
-        'Come funzionano l’ETA e il visto all’arrivo in Sri Lanka per i viaggiatori, quali documenti preparare e gli errori comuni di ingresso da evitare.',
-      keywords: 'visto Sri Lanka, ETA Sri Lanka, visto all’arrivo, requisiti di ingresso',
+        'Regole ETA dal 25 maggio 2026: ETA turistica gratuita di 30 giorni per 40 Paesi tra cui l’Italia. Domanda obbligatoria prima del viaggio su eta.gov.lk.',
+      keywords: 'visto Sri Lanka, ETA Sri Lanka 2026, ETA gratuita, eta.gov.lk, requisiti di ingresso',
     },
     guidePrivateDriver: {
       title: 'Guida all’autista privato Sri Lanka | Tour con chauffeur spiegati',
@@ -779,10 +811,10 @@ export const it: Dict = {
       keywords: 'politica cancellazione, cancellazione tour Sri Lanka, modifica prenotazione',
     },
     restaurants: {
-      title: 'Ristoranti in Sri Lanka | La migliore cucina locale',
+      title: 'Dove mangiare in Sri Lanka | Menu Sundown Beach Restaurant',
       description:
-        'Scopri i migliori ristoranti dello Sri Lanka con autentica cucina locale e piatti internazionali.',
-      keywords: 'ristoranti Sri Lanka, dove mangiare in Sri Lanka',
+        'Dove si mangia in un tour privato in Sri Lanka: pesce della costa ovest, ristoranti di Galle Fort e menu completo del Sundown Beach Restaurant a Waskaduwa.',
+      keywords: 'ristoranti Sri Lanka, dove mangiare Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
     },
     testimonials: {
       title: 'Recensioni dei clienti | Sundown Tours Sri Lanka',
@@ -852,14 +884,16 @@ export const it: Dict = {
       keywords: "guideWhaleWatching",
     },
     guideTrainJourneys: {
-      title: "Sri Lanka Train Journeys | Ella and Kandy",
-      description: "Scenic Sri Lanka train journeys with private driver station transfers in tea country.",
-      keywords: "guideTrainJourneys",
+      title: 'Treni Sri Lanka | Kandy–Ella e regione del tè',
+      description:
+        'Treno panoramico Kandy–Ella o Nanu Oya–Ella: posti riservati, bagagli con l’autista e come inserirlo in un tour privato.',
+      keywords: 'treno Kandy Ella, treno Sri Lanka, Nanu Oya Ella, tour privato treno',
     },
     guideHoneymoon: {
-      title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
-      description: "Private honeymoon itineraries mixing culture, tea country and beach time.",
-      keywords: "guideHoneymoon",
+      title: 'Luna di miele Sri Lanka | Itinerari privati per coppie',
+      description:
+        'Itinerari di nozze privati: Triangolo Culturale, regione del tè, spiaggia sud e autista dedicato. 8–12 giorni, ritmo onesto.',
+      keywords: 'luna di miele Sri Lanka, viaggio di nozze privato, tour coppia Sri Lanka',
     },
     guideFamilyTours: {
       title: "Tour Sri Lanka in famiglia | Viaggi privati con bambini",
@@ -872,9 +906,10 @@ export const it: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private Pickup",
-      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
-      keywords: "guideAirportTransfers",
+      title: 'Transfer aeroporto Sri Lanka | Tempi da CMB',
+      description:
+        'Transfer privato da Bandaranaike (CMB): tempi per Negombo, Colombo, Waskaduwa, Kandy, Sigiriya e Galle, arrivi notturni e tariffa fissa.',
+      keywords: 'transfer aeroporto Colombo, CMB privato, transfer Negombo, transfer Kalutara',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",

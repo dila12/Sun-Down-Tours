@@ -6,6 +6,7 @@ import {
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { LocaleService } from '../../i18n/locale.service';
+import type { FaqItem } from '../../i18n/content/types';
 import {
   RESTAURANTS_PAGE,
   restaurantCopy,
@@ -53,6 +54,23 @@ export class ResturantComponent {
   }
 
   selectedCategory = 'seafood';
+
+  readonly categoryOrder = [
+    'seafood',
+    'rice',
+    'fried',
+    'devilled',
+    'noodles',
+    'spaghetti',
+    'salads',
+    'sandwich',
+    'soup',
+    'drinks',
+  ] as const;
+
+  get faqs(): FaqItem[] {
+    return this.i18n.faq('restaurantsExplore.faq');
+  }
 
   private readonly categoryIcons: Record<string, string> = {
     seafood: 'fa-fish',
@@ -155,10 +173,10 @@ export class ResturantComponent {
     { id: 'mango-juice', category: 'drinks', price: 700 },
   ];
 
-  get filteredMenu() {
+  itemsFor(category: string) {
     const copy = this.copy;
     return this.menuItems
-      .filter((item) => item.category === this.selectedCategory)
+      .filter((item) => item.category === category)
       .map((item) => {
         const entry = copy.menu[item.id] ?? RESTAURANTS_PAGE.en.menu[item.id];
         return {
@@ -169,7 +187,10 @@ export class ResturantComponent {
       });
   }
 
-  selectCategory(category: string) {
+  selectCategory(category: string, event?: Event) {
+    event?.preventDefault();
     this.selectedCategory = category;
+    const el = typeof document !== 'undefined' ? document.getElementById(`menu-${category}`) : null;
+    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }

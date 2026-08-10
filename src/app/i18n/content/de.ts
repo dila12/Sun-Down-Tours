@@ -512,9 +512,41 @@ export const de: Dict = {
   },
 
   restaurantsExplore: {
+    h1: 'Essen in Sri Lanka: Küste, Galle Fort und Sundown Beach Restaurant',
+    breadcrumb: 'Restaurants',
+    intro:
+      'Gut essen in Sri Lanka heißt nicht eine einzige „Beste Restaurants“-Liste, sondern die Mahlzeit zur Küste, zur Uhrzeit und zur Reststrecke nach dem Abendessen passend zu wählen. Rice and Curry ist das Alltagsgericht im Inland; gegrillter Fisch prägt Süd- und Westküste; Galle Fort mischt koloniale Speisesäle mit gutem Kaffee. Diese Seite erklärt, wo Privatreisende wirklich essen, und listet danach die komplette Karte des Sundown Beach Restaurant in Waskaduwa — unsere Küchenstation zwischen Colombo und Galle.',
+    aroundTitle: 'Essen während einer Rundreise',
+    aroundBody:
+      'Auf einer Chauffeur-Rundreise ist das Mittagessen meist ein Rice-and-Curry-Haus, gewählt nach Sauberkeit und Tempo, kein langer Gourmetstopp. Das Abendessen ist die echte Wahl: Hotelrestaurant, Strandgrill oder die Stadt, in der Sie übernachten. Klären Sie vor ganzer Fisch- oder Krabbenbestellung, ob der Preis pro Kilo oder pro Portion gilt — die häufigste Rechnungsüberraschung an der Südküste.\n\nVegetarier kommen gut klar, wenn sie Gemüsecurries ohne Maledivenfisch verlangen; Veganer sollten das klar sagen. Trinken Sie versiegeltes Wasser. 5–10 % Trinkgeld reichen, wenn Service nicht schon enthalten ist.',
+    westTitle: 'Westküste: Negombo, Kalutara und Waskaduwa',
+    westBody:
+      'An der Westküste landen die meisten Europaflüge: erstes und letztes Essen einer Reise finden oft hier statt. Negombo hat Touristengrills am Strand; Colombo bietet Hotelrestaurants und einige starke lokale Rice-and-Curry-Stuben. Zwischen Kalutara und Waskaduwa ist der Fang lokal — Thunfisch, Seer, Garnelen und Krabbe — am selben Tag gekocht.\n\nDas Sundown Beach Restaurant liegt auf diesem Abschnitt (Nr. 302, Mahawaskaduwa, Waskaduwa). Gäste unserer Privattouren halten oft für ein Meeresfrüchte-Mittagessen oder ein letztes Abendessen vor dem CMB-Abflug. Täglich 8:00–22:00 Uhr; Tisch unter +94 70 629 3585.',
+    southTitle: 'Südküste und Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa und Tangalle sind am stärksten bei schlicht gegrilltem Fisch mit Limette, Chili und Knoblauchbutter. Im Galle Fort servieren umgebaute holländische Häuser sri-lankische Gewürze mit internationaler Technik; Preise steigen innerhalb der Mauern, die Qualität ist meist zuverlässig. Kombinieren Sie einen Vormittag auf den Wällen mit Mittagessen im Fort — oder eine spätere Mahlzeit an der Küste Kalutara–Waskaduwa, wenn Sie nach Norden zurückfahren.\n\nFür einen breiteren Food-Primer — Hoppers, Kottu, Schärfegrade — lesen Sie unseren Küchen-Guide. Die Karte unten ist die des Sundown Beach Restaurant, keine generische Insel-Liste.',
     title: 'Nahe Reiseziele & Touren entdecken',
-    lead: 'Sundown Beach Restaurant ist unser Partner an der Küste von Waskaduwa kombinieren Sie das Essen mit Zielen an der Südwestküste und Tagestouren.',
+    lead: 'Das Sundown Beach Restaurant in Waskaduwa lässt sich leicht mit Stopps an der Südwestküste und Tagestouren kombinieren — Galle Fort, Strände und private Chauffeur-Routen.',
     contactCta: 'Private Tour planen',
+    faqTitle: 'FAQ Restaurants & Sundown Beach',
+    faq: [
+      {
+        q: 'Ist das Sundown Beach Restaurant auch für Nicht-Hotelgäste offen?',
+        a: 'Ja. Es ist ein Küstenrestaurant in Waskaduwa, täglich 8:00–22:00 Uhr. Sie müssen kein Sundown-Tours-Paket gebucht haben, um einen Tisch zu reservieren.',
+      },
+      {
+        q: 'Wo am Ankunftsabend nach CMB essen?',
+        a: 'Die meisten Gäste bleiben bei Negombo oder an der Westküste (Kalutara/Waskaduwa) und essen lokal, statt noch nach Galle zu fahren. Das Sundown Beach Restaurant ist ein unkomplizierter Meeresfrüchte-Stopp auf diesem Abschnitt.',
+      },
+      {
+        q: 'Sind Meeresfrüchte pro Portion oder pro Kilo?',
+        a: 'Im Sundown Beach Restaurant gelten die Listenpreise pro Gericht. Anderswo an der Südküste immer Kilo versus Portion klären, bevor Sie ganzen Fisch oder Krabbe bestellen.',
+      },
+      {
+        q: 'Können Restaurantstopps in eine Privattour?',
+        a: 'Ja. Nennen Sie Ernährungsbedürfnisse bei der Buchung. Mittagessen folgt der Fahrzeit; Abendessen kann im Sundown Beach Restaurant sein, wenn Sie an der Westküste schlafen, oder in Galle Fort / einem Strandort an Südküstennächten.',
+      },
+    ],
   },
 
   bookingSuccess: {
@@ -780,10 +812,10 @@ export const de: Dict = {
       keywords: 'Stornierung, Tour Stornierung Sri Lanka, Buchungsänderungen',
     },
     restaurants: {
-      title: 'Restaurants in Sri Lanka | Beste lokale Küche',
+      title: 'Essen in Sri Lanka | Karte Sundown Beach Restaurant',
       description:
-        'Entdecken Sie die besten Restaurants Sri Lankas mit authentischer lokaler Küche und internationalen Gerichten.',
-      keywords: 'Restaurants Sri Lanka, Essen in Sri Lanka',
+        'Wo Privatreisende in Sri Lanka essen: Meeresfrüchte an der Westküste, Galle Fort und die volle Karte des Sundown Beach Restaurant in Waskaduwa.',
+      keywords: 'Restaurants Sri Lanka, Essen Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
     },
     testimonials: {
       title: 'Kundenbewertungen | Sundown Tours Sri Lanka',
@@ -873,9 +905,10 @@ export const de: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private Pickup",
-      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
-      keywords: "guideAirportTransfers",
+      title: 'Sri Lanka Flughafentransfer | Fahrzeiten ab CMB',
+      description:
+        'Privater Transfer vom Bandaranaike Airport (CMB): Fahrzeiten nach Negombo, Colombo, Waskaduwa, Kandy, Sigiriya und Galle, Nachtankünfte und Festpreise.',
+      keywords: 'Colombo Flughafentransfer, CMB privat, Negombo Transfer, Kalutara Transfer',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",

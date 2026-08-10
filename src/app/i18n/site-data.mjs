@@ -916,9 +916,10 @@ export const PAGES = [
     },
   },
 
-  // P2 guides — body copy currently authored for EN+DE only. Other locales stay
+  // P2 guides — whale + luxury body copy is still EN+DE only. Other locales stay
   // reachable in the UI but are noindex / out of sitemap until translated
   // (English fallback bodies cause "Discovered - currently not indexed" / duplicate-canonical).
+  // Train, honeymoon and airport-transfer guides are translated for all indexable locales.
   {
     id: 'guideWhaleWatching',
     kind: 'guide',
@@ -941,7 +942,6 @@ export const PAGES = [
     id: 'guideTrainJourneys',
     kind: 'guide',
     index: true,
-    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -959,7 +959,6 @@ export const PAGES = [
     id: 'guideHoneymoon',
     kind: 'guide',
     index: true,
-    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {
@@ -1012,7 +1011,6 @@ export const PAGES = [
     id: 'guideAirportTransfers',
     kind: 'guide',
     index: true,
-    indexLocales: ['en', 'de'],
     priority: 0.55,
     changefreq: 'monthly',
     slugs: {

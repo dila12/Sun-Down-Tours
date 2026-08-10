@@ -49,6 +49,26 @@
   color: #b34c02;
 }
 
+.menu-category-block {
+  scroll-margin-top: 96px;
+  text-align: center;
+}
+
+.restaurant-guide h2 {
+  color: #333;
+}
+
+.faq-inline .faq-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.75rem 0;
+  text-align: left;
+}
+
+.faq-inline summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
 .menu-visual {
   width: 220px;
   height: 220px;

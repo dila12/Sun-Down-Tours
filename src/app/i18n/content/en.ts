@@ -611,9 +611,41 @@ export const en: Dict = {
   },
 
   restaurantsExplore: {
+    h1: 'Where to Eat in Sri Lanka: Coast Dining & Sundown Beach Restaurant',
+    breadcrumb: 'Restaurants',
+    intro:
+      'Eating well in Sri Lanka is less about a single “best restaurant” list and more about matching the meal to the coast, the time of day and how far you want to travel after dinner. Rice and curry is the everyday staple inland; grilled seafood defines the south and west coasts; Galle Fort mixes colonial dining rooms with serious coffee. This page explains where travellers actually eat on a private tour, then lists the full menu at Sundown Beach Restaurant in Waskaduwa — our own coastal kitchen between Colombo and Galle.',
+    aroundTitle: 'How dining works on a Sri Lanka tour',
+    aroundBody:
+      'On a chauffeur-guided round tour, lunch is usually a set rice-and-curry house chosen for cleanliness and pace, not a long restaurant stop. Dinner is where you choose: hotel restaurant, a beach grill, or a town you are already sleeping in. Confirm whether seafood is priced per kilo before ordering whole fish or crab — the most common bill surprise on the south coast.\n\nVegetarians eat easily if you ask for vegetable curries without Maldive fish; vegans should say so clearly. Drink sealed water. Tip 5–10% only when service is not already included.',
+    westTitle: 'West coast: Negombo, Kalutara and Waskaduwa',
+    westBody:
+      'The west coast is where most European flights land, so the first and last meals of a trip often happen here. Negombo has tourist grills near the beach; Colombo has hotel dining and a few strong local rice-and-curry rooms. Between Kalutara and Waskaduwa the catch is local — tuna, seer, prawns and crab — cooked the same day.\n\nSundown Beach Restaurant sits on this stretch (No 302, Mahawaskaduwa, Waskaduwa). Guests on our private tours often stop for a seafood lunch or a last dinner before a CMB departure. Opening hours are 8:00–22:00 daily; call +94 70 629 3585 to reserve a table.',
+    southTitle: 'South coast and Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa and Tangalle are strongest for simply grilled fish with lime, chilli and garlic butter. Inside Galle Fort, converted Dutch houses serve Sri Lankan spice with international technique; prices rise inside the walls, quality is usually reliable. Combine a morning on the ramparts with lunch in the fort or a later meal back on the Kalutara–Waskaduwa coast if you are heading north.\n\nFor a wider food primer — hoppers, kottu, hoppers vs string hoppers, and spice levels — read our Sri Lanka food guide. The menu below is the working card at Sundown Beach Restaurant, not a generic island-wide list.',
     title: 'Explore nearby destinations & tours',
-    lead: 'Sundown Beach Restaurant is our Waskaduwa coastal dining partner pair a meal with south-west coast destinations and day tours.',
+    lead: 'Sundown Beach Restaurant in Waskaduwa pairs easily with south-west coast stops and day tours — Galle Fort, west-coast beaches and private chauffeur itineraries.',
     contactCta: 'Plan a private tour',
+    faqTitle: 'Restaurants & Sundown Beach FAQ',
+    faq: [
+      {
+        q: 'Is Sundown Beach Restaurant open to non-hotel guests?',
+        a: 'Yes. It is a coastal restaurant in Waskaduwa, open daily 8:00–22:00. You do not need to be on a Sundown Tours package to book a table.',
+      },
+      {
+        q: 'Where should I eat on a first night after landing at CMB?',
+        a: 'Most guests stay near Negombo or on the west coast (Kalutara/Waskaduwa) and eat locally rather than driving to Galle the same evening. Sundown Beach Restaurant is a straightforward seafood stop on that stretch.',
+      },
+      {
+        q: 'Is seafood priced per portion or per kilo?',
+        a: 'At Sundown Beach Restaurant the listed menu prices are per dish. Elsewhere on the south coast, always confirm per-kilo versus per-portion pricing before ordering whole fish or crab.',
+      },
+      {
+        q: 'Can you include restaurant stops on a private tour?',
+        a: 'Yes. Tell us dietary needs when you book. Lunch stops are planned around driving time; dinner can be at Sundown Beach Restaurant when you sleep on the west coast, or in Galle Fort / a beach town on south-coast nights.',
+      },
+    ],
   },
 
   bookingSuccess: {
@@ -807,10 +839,10 @@ export const en: Dict = {
       keywords: 'best time to visit Sri Lanka, Sri Lanka weather, Sri Lanka monsoon, when to go Sri Lanka',
     },
     guideVisa: {
-      title: 'Sri Lanka Visa Guide | ETA, Entry Rules & Practical Tips',
+      title: 'Sri Lanka Visa Guide 2026 | Free ETA for 40 Countries',
       description:
-        'How the Sri Lanka ETA and visa-on-arrival process works for travellers, what documents to prepare, and common entry mistakes to avoid.',
-      keywords: 'Sri Lanka visa, Sri Lanka ETA, visa on arrival Sri Lanka, entry requirements',
+        'Sri Lanka ETA rules from 25 May 2026: free 30-day tourist ETA for 40 countries including the UK, EU and Russia. Still apply before travel at eta.gov.lk.',
+      keywords: 'Sri Lanka visa, Sri Lanka ETA 2026, free ETA Sri Lanka, eta.gov.lk, entry requirements',
     },
     guidePrivateDriver: {
       title: 'Sri Lanka Private Driver Guide | Chauffeur Tours Explained',
@@ -873,9 +905,10 @@ export const en: Dict = {
       keywords: 'cancellation policy, tour cancellation Sri Lanka, booking changes',
     },
     restaurants: {
-      title: 'Restaurants in Sri Lanka | Best Local Cuisine',
-      description: 'Discover the best restaurants in Sri Lanka offering authentic local cuisine and international dishes.',
-      keywords: 'Sri Lanka restaurants, best restaurants in Sri Lanka',
+      title: 'Where to Eat in Sri Lanka | Sundown Beach Restaurant Menu',
+      description:
+        'Where travellers eat on a Sri Lanka private tour: west-coast seafood, Galle Fort dining and the full Sundown Beach Restaurant menu in Waskaduwa.',
+      keywords: 'Sri Lanka restaurants, where to eat Sri Lanka, Sundown Beach Restaurant, Waskaduwa seafood',
     },
     testimonials: {
       title: 'Guest Reviews | Sundown Tours Sri Lanka Review Center',
@@ -970,10 +1003,10 @@ export const en: Dict = {
       keywords: "Sri Lanka luxury tour, boutique private chauffeur, premium Sri Lanka holiday",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private CMB Pickup",
+      title: 'Sri Lanka Airport Transfers | CMB Drive Times & Private Pickup',
       description:
-        "Private airport transfers from Colombo (CMB) to Negombo, Colombo city or your first tour hotel fixed quotes.",
-      keywords: "Colombo airport transfer, CMB private pickup, Negombo airport transfer",
+        'Private transfers from Colombo Bandaranaike (CMB): drive times to Negombo, Colombo, Waskaduwa, Kandy, Sigiriya and Galle, night arrivals and fixed quotes.',
+      keywords: 'Colombo airport transfer, CMB private pickup, Negombo airport transfer, Kalutara airport transfer',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",

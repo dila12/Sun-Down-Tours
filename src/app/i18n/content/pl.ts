@@ -852,14 +852,16 @@ export const pl: Dict = {
       keywords: "guideWhaleWatching",
     },
     guideTrainJourneys: {
-      title: "Sri Lanka Train Journeys | Ella and Kandy",
-      description: "Scenic Sri Lanka train journeys with private driver station transfers in tea country.",
-      keywords: "guideTrainJourneys",
+      title: 'Pociągi Sri Lanka | Kandy–Ella i kraj herbaty',
+      description:
+        'Malowniczy pociąg Kandy–Ella lub Nanu Oya–Ella: zarezerwowane miejsca, bagaż z kierowcą i jak wpiąć to w prywatny tour.',
+      keywords: 'pociąg Kandy Ella, pociąg Sri Lanka, Nanu Oya Ella, prywatny tour pociąg',
     },
     guideHoneymoon: {
-      title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
-      description: "Private honeymoon itineraries mixing culture, tea country and beach time.",
-      keywords: "guideHoneymoon",
+      title: 'Miesiąc miodowy Sri Lanka | Prywatne trasy dla par',
+      description:
+        'Prywatne trasy miesiąca miodowego: Trójkąt Kulturowy, kraj herbaty, południowa plaża i dedykowany kierowca. 8–12 dni, uczciwe tempo.',
+      keywords: 'miesiąc miodowy Sri Lanka, podróż poślubna prywatna, tour para Sri Lanka',
     },
     guideFamilyTours: {
       title: "Sri Lanka wycieczki rodzinne | Prywatne podróże z dziećmi",
@@ -872,9 +874,10 @@ export const pl: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private Pickup",
-      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
-      keywords: "guideAirportTransfers",
+      title: 'Transfer z lotniska Sri Lanka | Czasy z CMB',
+      description:
+        'Prywatny transfer z Bandaranaike (CMB): czasy do Negombo, Colombo, Waskaduwa, Kandy, Sigiriyi i Galle, nocne przyloty i stała cena.',
+      keywords: 'transfer lotnisko Colombo, CMB prywatny, transfer Negombo, transfer Kalutara',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",

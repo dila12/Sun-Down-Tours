@@ -7,24 +7,24 @@ import type { ArticleContent } from '../articles/types';
 export const VISA_GUIDE: ArticleContent = {
   en: {
     h1: 'Sri Lanka Visa Guide: ETA, Requirements and How to Apply',
-    lead: 'Almost every visitor to Sri Lanka needs an Electronic Travel Authorisation before boarding their flight a straightforward online process, but one with enough fine print about validity, extensions and passport rules that it pays to get right well before departure.',
+    lead: 'Almost every visitor to Sri Lanka still needs an Electronic Travel Authorisation (ETA) before boarding — including nationals of the 40 countries that receive a free 30-day tourist ETA from 25 May 2026. The process is straightforward on the official site, but validity, double-entry rules and unofficial lookalike websites still catch first-time travellers out.',
     heroImage: 'assets/img/mainpage/2.webp',
     heroAlt: 'Passport and travel documents prepared for a Sri Lanka trip',
     sections: [
       {
         id: 'etaBasics',
         title: 'What the ETA is and who needs one',
-        body: 'The Electronic Travel Authorisation (ETA) is Sri Lanka’s visa-on-arrival equivalent, applied for and approved online before you travel, for tourism, business or transit purposes. Citizens of most countries need an ETA; a short list of nationalities have visa-free arrangements or different requirements, so check the official government portal for your specific passport before assuming.\n\nApply through the official Sri Lanka ETA website only third-party sites that charge inflated "service fees" for the same application are a common trap for first-time visitors.',
+        body: 'The Electronic Travel Authorisation (ETA) is Sri Lanka’s online pre-arrival permission for tourism, business or transit. All foreign nationals must obtain an ETA before arrival, including countries that now receive it free of charge. Apply only at the official portal eta.gov.lk (or eta.gov.lk/slvisa). Third-party sites that charge inflated “service fees” for the same form are a common trap.\n\nFrom 25 May 2026, nationals of 40 countries — including the United Kingdom, Germany, France, Italy, Spain, Poland, the Netherlands, Russia, the United States, Canada, India, Australia and China — can obtain a tourist ETA free of charge for 30 days with double entry. Maldives, Seychelles and Singapore continue to receive free processing (Maldivian nationals: 90 days). Fees paid before 25 May 2026 are not refunded. Other passports follow the standard paid ETA rules. Always re-check the official list for your passport before you fly.',
       },
       {
         id: 'howToApply',
         title: 'How and when to apply',
-        body: 'Apply online at least a few days before departure, though approval is often issued within 24 hours for straightforward tourist applications. You will need your passport details, a return or onward flight itinerary, and a valid credit or debit card for the fee.\n\nPrint or save a digital copy of your approval to show at check-in and immigration; airlines have been known to deny boarding to passengers who cannot produce evidence of ETA approval, even though immigration itself can verify it electronically.',
+        body: 'Apply online at least a few days before departure, though approval is often issued within 24 hours for straightforward tourist applications. You will need your passport details and a return or onward flight itinerary. If a fee applies, have a valid credit or debit card ready; under the free tourist scheme the same form is still required, just without payment.\n\nPrint or save a digital copy of your approval to show at check-in and immigration; airlines have been known to deny boarding to passengers who cannot produce evidence of ETA approval, even though immigration itself can verify it electronically.',
       },
       {
         id: 'validityStay',
         title: 'Validity and length of stay',
-        body: 'The standard tourist ETA permits an initial stay of up to 30 days from the date of arrival, and is generally valid for use within a set window from the date of approval, so avoid applying many months ahead of a flexible trip. Multiple-entry options exist for travellers planning to leave and re-enter Sri Lanka during their trip, such as a side trip to the Maldives or India.\n\nCheck the exact current validity period and permitted stay on the official ETA site before booking flights, as rules are updated periodically.',
+        body: 'The standard tourist ETA — including the free scheme for the 40 listed countries — permits an initial stay of up to 30 days from first arrival, with double entry allowed inside that window (useful for a short Maldives or India side trip). Avoid applying many months ahead of a flexible trip; use the approval window stated on the official site.\n\nCheck the exact current validity period and permitted stay on eta.gov.lk before booking flights. Rules are updated by gazette and the portal text is the source of truth, not blog posts or airline rumours.',
       },
       {
         id: 'extensions',
@@ -45,7 +45,7 @@ export const VISA_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Do I need a visa to visit Sri Lanka?',
-        a: 'Almost all visitors need an Electronic Travel Authorisation (ETA) applied for online before travel; a small number of nationalities have different arrangements, so check the official ETA portal for your passport specifically.',
+        a: 'Yes. Almost all visitors must get an ETA online before travel at eta.gov.lk — even if your nationality qualifies for the free 30-day tourist ETA from 25 May 2026. Free does not mean walk-in on arrival.',
       },
       {
         q: 'How long does ETA approval take?',
@@ -60,8 +60,12 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'Yes apply for an extension through the Department of Immigration and Emigration in Colombo, or online where available, before your current authorisation expires to avoid fines or complications.',
       },
       {
+        q: 'Is the Sri Lanka ETA free in 2026?',
+        a: 'For nationals of 40 listed countries (including the UK, much of the EU, Russia, the US, Canada, India and Australia) the tourist ETA is free from 25 May 2026 for 30 days with double entry. Everyone still applies in advance on eta.gov.lk. Other passports follow paid ETA rules.',
+      },
+      {
         q: 'Where should I apply for my Sri Lanka ETA?',
-        a: 'Only through the official Sri Lanka government ETA website. Third-party sites often charge significantly inflated fees for the same straightforward application.',
+        a: 'Only through the official government site eta.gov.lk. Third-party sites often charge significantly inflated fees for the same form.',
       },
     ],
     ctaTitle: 'Let us help with the practical details',
@@ -148,12 +152,12 @@ export const VISA_GUIDE: ArticleContent = {
 
   fr: {
     h1: 'Guide du visa pour le Sri Lanka : ETA, conditions et démarche',
-    lead: 'Presque tous les visiteurs du Sri Lanka doivent obtenir une autorisation de voyage électronique avant l’embarquement une démarche en ligne simple, mais avec suffisamment de subtilités sur la validité, les prolongations et les règles de passeport pour qu’il vaille la peine de bien s’en occuper avant le départ.',
+    lead: 'Presque tous les visiteurs du Sri Lanka doivent toujours obtenir une autorisation de voyage électronique (ETA) avant l’embarquement — y compris les ressortissants des 40 pays qui bénéficient d’une ETA touristique gratuite de 30 jours depuis le 25 mai 2026. La démarche est simple sur le site officiel, mais la validité, la double entrée et les sites tiers restent des pièges fréquents.',
     heroAlt: 'Passeport et documents de voyage préparés pour un séjour au Sri Lanka',
     sections: [
       {
         title: 'Ce qu’est l’ETA et qui en a besoin',
-        body: 'L’Electronic Travel Authorisation (ETA) est l’équivalent sri-lankais du visa à l’arrivée, demandé et approuvé en ligne avant le voyage, pour le tourisme, les affaires ou le transit. Les ressortissants de la plupart des pays ont besoin d’une ETA ; une courte liste de nationalités bénéficie de dispenses de visa ou de règles différentes vérifiez le portail officiel du gouvernement pour votre passeport spécifique plutôt que de le supposer.\n\nFaites votre demande uniquement via le site officiel de l’ETA sri-lankaise les sites tiers qui facturent des « frais de service » gonflés pour la même demande sont un piège courant pour les primo-visiteurs.',
+        body: 'L’Electronic Travel Authorisation (ETA) est l’autorisation en ligne à obtenir avant l’arrivée, pour le tourisme, les affaires ou le transit. Tous les ressortissants étrangers doivent en faire la demande avant d’arriver, y compris les pays désormais exonérés de frais. Demandez uniquement sur le portail officiel eta.gov.lk. Les sites tiers qui facturent des « frais de service » gonflés pour le même formulaire restent un piège courant.\n\nDepuis le 25 mai 2026, les ressortissants de 40 pays — dont la France, l’Allemagne, l’Italie, l’Espagne, la Pologne, les Pays-Bas, le Royaume-Uni, la Russie, les États-Unis, le Canada, l’Inde et l’Australie — peuvent obtenir une ETA touristique gratuite de 30 jours avec double entrée. Maldives, Seychelles et Singapour restent en traitement gratuit (Maldives : 90 jours). Les frais payés avant le 25 mai 2026 ne sont pas remboursés. Vérifiez toujours la liste officielle pour votre passeport.',
       },
       {
         title: 'Comment et quand faire sa demande',
@@ -161,7 +165,7 @@ export const VISA_GUIDE: ArticleContent = {
       },
       {
         title: 'Validité et durée du séjour',
-        body: 'L’ETA touristique standard autorise un séjour initial de jusqu’à 30 jours à compter de la date d’arrivée, et reste généralement valable dans une fenêtre définie à partir de la date d’approbation évitez donc de la demander de nombreux mois avant un voyage flexible. Des options d’entrées multiples existent pour les voyageurs prévoyant de quitter puis de revenir au Sri Lanka durant leur séjour, par exemple pour une escapade aux Maldives ou en Inde.\n\nVérifiez la période de validité exacte actuelle et la durée de séjour autorisée sur le site officiel de l’ETA avant de réserver vos vols, car les règles sont mises à jour périodiquement.',
+        body: 'L’ETA touristique standard — y compris le régime gratuit pour les 40 pays listés — autorise un séjour initial de jusqu’à 30 jours à compter de la première arrivée, avec double entrée dans cette fenêtre (utile pour une courte escapade aux Maldives ou en Inde). Évitez de la demander de nombreux mois avant un voyage aux dates flexibles.\n\nVérifiez la validité exacte et la durée autorisée sur eta.gov.lk avant de réserver vos vols. Le texte du portail officiel prime sur les blogs et les rumeurs des compagnies aériennes.',
       },
       {
         title: 'Prolonger votre séjour',
@@ -179,7 +183,7 @@ export const VISA_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Ai-je besoin d’un visa pour visiter le Sri Lanka ?',
-        a: 'Presque tous les visiteurs ont besoin d’une autorisation de voyage électronique (ETA) demandée en ligne avant le voyage ; un petit nombre de nationalités bénéficie de dispositions différentes vérifiez le portail officiel de l’ETA spécifiquement pour votre passeport.',
+        a: 'Oui. Presque tous les visiteurs doivent obtenir une ETA en ligne avant le voyage sur eta.gov.lk — même si votre nationalité entre dans le régime d’ETA touristique gratuite de 30 jours depuis le 25 mai 2026. Gratuit ne veut pas dire sans demande à l’arrivée.',
       },
       {
         q: 'Combien de temps prend l’approbation de l’ETA ?',
@@ -194,8 +198,12 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'Oui demandez une prolongation auprès du Department of Immigration and Emigration à Colombo, ou en ligne le cas échéant, avant l’expiration de votre autorisation actuelle pour éviter amendes ou complications.',
       },
       {
+        q: 'L’ETA sri-lankaise est-elle gratuite en 2026 ?',
+        a: 'Pour les ressortissants de 40 pays listés (dont la France, une grande partie de l’UE, la Russie, le Royaume-Uni, les États-Unis, le Canada, l’Inde et l’Australie), l’ETA touristique est gratuite depuis le 25 mai 2026 pour 30 jours avec double entrée. Tout le monde doit quand même faire la demande à l’avance sur eta.gov.lk.',
+      },
+      {
         q: 'Où dois-je demander mon ETA pour le Sri Lanka ?',
-        a: 'Uniquement via le site officiel de l’ETA du gouvernement sri-lankais. Les sites tiers facturent souvent des frais nettement gonflés pour la même démarche simple.',
+        a: 'Uniquement sur le site officiel eta.gov.lk. Les sites tiers facturent souvent des frais nettement gonflés pour le même formulaire.',
       },
     ],
     ctaTitle: 'Laissez-nous vous aider pour les détails pratiques',
@@ -215,12 +223,12 @@ export const VISA_GUIDE: ArticleContent = {
 
   it: {
     h1: 'Guida al visto per lo Sri Lanka: ETA, requisiti e come richiederlo',
-    lead: 'Quasi ogni visitatore dello Sri Lanka ha bisogno di un’autorizzazione di viaggio elettronica prima di salire a bordo una procedura online semplice, ma con abbastanza dettagli su validità, proroghe e regole del passaporto da meritare attenzione ben prima della partenza.',
+    lead: 'Quasi ogni visitatore dello Sri Lanka deve ancora ottenere un’autorizzazione di viaggio elettronica (ETA) prima di imbarcarsi — compresi i cittadini dei 40 Paesi che dal 25 maggio 2026 ricevono un’ETA turistica gratuita di 30 giorni. La procedura è semplice sul sito ufficiale, ma validità, doppio ingresso e siti clone restano trappole frequenti.',
     heroAlt: 'Passaporto e documenti di viaggio pronti per un viaggio in Sri Lanka',
     sections: [
       {
         title: 'Cos’è l’ETA e chi ne ha bisogno',
-        body: 'L’Electronic Travel Authorisation (ETA) è l’equivalente del visto all’arrivo dello Sri Lanka, richiesto e approvato online prima di viaggiare, per turismo, affari o transito. I cittadini della maggior parte dei paesi hanno bisogno di un’ETA; un breve elenco di nazionalità ha accordi senza visto o requisiti diversi, quindi controllate il portale governativo ufficiale per il vostro passaporto specifico prima di assumerlo per certo.\n\nRichiedete l’ETA solo tramite il sito ufficiale dello Sri Lanka i siti di terze parti che applicano “commissioni di servizio” gonfiate per la stessa domanda sono una trappola comune per chi visita per la prima volta.',
+        body: 'L’Electronic Travel Authorisation (ETA) è il permesso online da ottenere prima dell’arrivo, per turismo, affari o transito. Tutti i cittadini stranieri devono richiederla prima di arrivare, compresi i Paesi ora esenti da tassa. Domanda solo su eta.gov.lk. I siti terzi che applicano “commissioni di servizio” gonfiate per lo stesso modulo restano una trappola comune.\n\nDal 25 maggio 2026 i cittadini di 40 Paesi — tra cui Italia, Francia, Germania, Spagna, Polonia, Paesi Bassi, Regno Unito, Russia, Stati Uniti, Canada, India e Australia — possono ottenere un’ETA turistica gratuita di 30 giorni con doppio ingresso. Maldive, Seychelles e Singapore restano in elaborazione gratuita (Maldive: 90 giorni). Le tasse pagate prima del 25 maggio 2026 non sono rimborsate. Controllate sempre l’elenco ufficiale per il vostro passaporto.',
       },
       {
         title: 'Come e quando fare domanda',
@@ -228,7 +236,7 @@ export const VISA_GUIDE: ArticleContent = {
       },
       {
         title: 'Validità e durata del soggiorno',
-        body: 'L’ETA turistica standard consente un soggiorno iniziale fino a 30 giorni dalla data di arrivo, ed è generalmente valida per l’uso entro una finestra prestabilita dalla data di approvazione, quindi evitate di richiederla molti mesi prima di un viaggio flessibile. Esistono opzioni a ingressi multipli per i viaggiatori che intendono lasciare e rientrare in Sri Lanka durante il viaggio, ad esempio per una deviazione alle Maldive o in India.\n\nControllate il periodo di validità attuale esatto e il soggiorno consentito sul sito ufficiale dell’ETA prima di prenotare i voli, poiché le regole vengono aggiornate periodicamente.',
+        body: 'L’ETA turistica standard — incluso il regime gratuito per i 40 Paesi elencati — consente un soggiorno iniziale fino a 30 giorni dal primo arrivo, con doppio ingresso in quella finestra (utile per una breve deviazione alle Maldive o in India). Evitate di richiederla molti mesi prima di un viaggio con date flessibili.\n\nControllate validità e soggiorno consentito su eta.gov.lk prima di prenotare i voli. Il testo del portale ufficiale prevale su blog e voci delle compagnie aeree.',
       },
       {
         title: 'Prolungare il soggiorno',
@@ -246,7 +254,7 @@ export const VISA_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Ho bisogno di un visto per visitare lo Sri Lanka?',
-        a: 'Quasi tutti i visitatori hanno bisogno di un’autorizzazione di viaggio elettronica (ETA) richiesta online prima del viaggio; un piccolo numero di nazionalità ha accordi diversi, quindi controllate il portale ufficiale dell’ETA specificamente per il vostro passaporto.',
+        a: 'Sì. Quasi tutti i visitatori devono ottenere un’ETA online prima del viaggio su eta.gov.lk — anche se la vostra nazionalità rientra nell’ETA turistica gratuita di 30 giorni dal 25 maggio 2026. Gratuito non significa senza domanda all’arrivo.',
       },
       {
         q: 'Quanto tempo richiede l’approvazione dell’ETA?',
@@ -261,8 +269,12 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'Sì richiedete una proroga tramite il Department of Immigration and Emigration a Colombo, o online dove disponibile, prima che scada la vostra autorizzazione attuale, per evitare multe o complicazioni.',
       },
       {
+        q: 'L’ETA dello Sri Lanka è gratuita nel 2026?',
+        a: 'Per i cittadini di 40 Paesi elencati (tra cui Italia, gran parte dell’UE, Russia, Regno Unito, USA, Canada, India e Australia) l’ETA turistica è gratuita dal 25 maggio 2026 per 30 giorni con doppio ingresso. Tutti devono comunque fare domanda in anticipo su eta.gov.lk.',
+      },
+      {
         q: 'Dove dovrei richiedere la mia ETA per lo Sri Lanka?',
-        a: 'Solo tramite il sito ufficiale del governo dello Sri Lanka per l’ETA. I siti di terze parti spesso applicano tariffe significativamente gonfiate per la stessa semplice domanda.',
+        a: 'Solo sul sito ufficiale eta.gov.lk. I siti di terze parti spesso applicano tariffe gonfiate per lo stesso modulo.',
       },
     ],
     ctaTitle: 'Lasciateci aiutare con i dettagli pratici',
@@ -416,12 +428,12 @@ export const VISA_GUIDE: ArticleContent = {
 
   ru: {
     h1: 'Гид по визе в Шри-Ланку: ETA, требования и как подать заявку',
-    lead: 'Почти каждому посетителю Шри-Ланки нужно электронное разрешение на поездку перед посадкой на рейс простой онлайн-процесс, но с достаточным количеством нюансов о сроке действия, продлении и паспортных правилах, чтобы разобраться с этим заранее, до отъезда.',
+    lead: 'Почти каждому посетителю Шри-Ланки по-прежнему нужно электронное разрешение на поездку (ETA) до посадки — включая граждан 40 стран, которые с 25 мая 2026 года получают бесплатную туристическую ETA на 30 дней. На официальном сайте процесс простой, но срок действия, двойной въезд и сторонние сайты-двойники всё ещё подводят тех, кто едет впервые.',
     heroAlt: 'Паспорт и документы, подготовленные для поездки в Шри-Ланку',
     sections: [
       {
         title: 'Что такое ETA и кому она нужна',
-        body: 'Electronic Travel Authorisation (ETA) это шри-ланкийский аналог визы по прилёту, которую оформляют и одобряют онлайн перед поездкой, для туризма, бизнеса или транзита. Гражданам большинства стран нужна ETA; короткий список национальностей имеет безвизовые договорённости или другие требования, поэтому проверьте официальный государственный портал именно для вашего паспорта, а не предполагайте.\n\nПодавайте заявку только через официальный сайт ETA Шри-Ланки сторонние сайты, взимающие завышенные «сервисные сборы» за ту же заявку, распространённая ловушка для тех, кто едет впервые.',
+        body: 'Electronic Travel Authorisation (ETA) — онлайн-разрешение, которое нужно получить до прибытия, для туризма, бизнеса или транзита. Все иностранные граждане должны оформить ETA заранее, включая страны, для которых сбор теперь не взимается. Подавайте заявку только на официальном портале eta.gov.lk. Сторонние сайты с завышенными «сервисными сборами» за ту же форму — частая ловушка.\n\nС 25 мая 2026 года граждане 40 стран — включая Россию, Великобританию, Германию, Францию, Италию, Испанию, Польшу, Нидерланды, США, Канаду, Индию и Австралию — могут получить бесплатную туристическую ETA на 30 дней с правом двойного въезда. Мальдивы, Сейшелы и Сингапур по-прежнему без сбора (Мальдивы: 90 дней). Сборы, уплаченные до 25 мая 2026, не возвращаются. Всегда сверяйтесь с официальным списком для вашего паспорта.',
       },
       {
         title: 'Как и когда подавать заявку',
@@ -429,7 +441,7 @@ export const VISA_GUIDE: ArticleContent = {
       },
       {
         title: 'Срок действия и продолжительность пребывания',
-        body: 'Стандартная туристическая ETA разрешает первоначальное пребывание до 30 дней с даты прибытия и обычно действует в течение установленного окна с даты одобрения, поэтому не подавайте заявку за много месяцев до гибкой по датам поездки. Для путешественников, планирующих выезжать и возвращаться в Шри-Ланку во время поездки, например для вылазки на Мальдивы или в Индию, существуют варианты с многократным въездом.\n\nПроверьте точный текущий срок действия и разрешённое пребывание на официальном сайте ETA перед бронированием рейсов, поскольку правила периодически обновляются.',
+        body: 'Стандартная туристическая ETA — включая бесплатную схему для 40 перечисленных стран — разрешает первоначальное пребывание до 30 дней с первого въезда, с двойным въездом в этом окне (удобно для короткой вылазки на Мальдивы или в Индию). Не подавайте заявку за много месяцев до поездки с гибкими датами.\n\nПроверьте точный срок действия и разрешённое пребывание на eta.gov.lk перед бронированием рейсов. Текст официального портала важнее блогов и слухов авиакомпаний.',
       },
       {
         title: 'Продление пребывания',
@@ -447,7 +459,7 @@ export const VISA_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Нужна ли мне виза для посещения Шри-Ланки?',
-        a: 'Почти всем посетителям нужно электронное разрешение на поездку (ETA), оформляемое онлайн перед поездкой; небольшое число национальностей имеет другие договорённости, поэтому проверьте официальный портал ETA конкретно для своего паспорта.',
+        a: 'Да. Почти всем посетителям нужно оформить ETA онлайн до поездки на eta.gov.lk — даже если ваша страна входит в бесплатную 30-дневную туристическую ETA с 25 мая 2026 года. Бесплатно не значит без заявки по прилёту.',
       },
       {
         q: 'Сколько времени занимает одобрение ETA?',
@@ -462,8 +474,12 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'Да подайте заявку на продление в Департамент иммиграции и эмиграции в Коломбо или онлайн, где это доступно, до истечения текущего разрешения, чтобы избежать штрафов или осложнений.',
       },
       {
+        q: 'Бесплатна ли ETA Шри-Ланки в 2026 году?',
+        a: 'Для граждан 40 перечисленных стран (включая Россию, большую часть ЕС, Великобританию, США, Канаду, Индию и Австралию) туристическая ETA бесплатна с 25 мая 2026 года на 30 дней с двойным въездом. Заявку всё равно нужно подать заранее на eta.gov.lk.',
+      },
+      {
         q: 'Где мне следует подавать заявку на ETA в Шри-Ланку?',
-        a: 'Только через официальный государственный сайт ETA Шри-Ланки. Сторонние сайты часто взимают значительно завышенные сборы за ту же простую заявку.',
+        a: 'Только на официальном сайте eta.gov.lk. Сторонние сайты часто берут сильно завышенную плату за ту же форму.',
       },
     ],
     ctaTitle: 'Позвольте нам помочь с практическими деталями',

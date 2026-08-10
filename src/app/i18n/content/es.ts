@@ -852,14 +852,16 @@ export const es: Dict = {
       keywords: "guideWhaleWatching",
     },
     guideTrainJourneys: {
-      title: "Sri Lanka Train Journeys | Ella and Kandy",
-      description: "Scenic Sri Lanka train journeys with private driver station transfers in tea country.",
-      keywords: "guideTrainJourneys",
+      title: 'Trenes Sri Lanka | Kandy–Ella y país del té',
+      description:
+        'Tren panorámico Kandy–Ella o Nanu Oya–Ella: asientos reservados, maletas con el chófer y cómo encajarlo en un circuito privado.',
+      keywords: 'tren Kandy Ella, tren Sri Lanka, Nanu Oya Ella, circuito privado tren',
     },
     guideHoneymoon: {
-      title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
-      description: "Private honeymoon itineraries mixing culture, tea country and beach time.",
-      keywords: "guideHoneymoon",
+      title: 'Luna de miel Sri Lanka | Circuitos privados para parejas',
+      description:
+        'Rutas de novios privadas: Triángulo Cultural, país del té, playa sur y chófer dedicado. 8–12 días, ritmo honesto.',
+      keywords: 'luna de miel Sri Lanka, viaje de novios privado, circuito pareja Sri Lanka',
     },
     guideFamilyTours: {
       title: "Tours familiares por Sri Lanka | Viajes privados con niños",
@@ -872,9 +874,10 @@ export const es: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private Pickup",
-      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
-      keywords: "guideAirportTransfers",
+      title: 'Traslados aeropuerto Sri Lanka | Tiempos desde CMB',
+      description:
+        'Traslado privado desde Bandaranaike (CMB): tiempos a Negombo, Colombo, Waskaduwa, Kandy, Sigiriya y Galle, llegadas nocturnas y tarifa fija.',
+      keywords: 'traslado aeropuerto Colombo, CMB privado, traslado Negombo, traslado Kalutara',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",

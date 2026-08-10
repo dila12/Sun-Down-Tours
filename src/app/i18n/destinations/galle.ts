@@ -19,12 +19,12 @@ export const GALLE_DEST: ArticleContent = {
       {
         id: 'culture',
         title: 'A genuine living heritage town',
-        body: 'Unlike many restored colonial sites, Galle Fort is not a museum pieceund 400 families still live inside the walls, alongside boutique hotels, cafés and galleries in converted Dutch merchant houses. Mosques, churches and Buddhist temples sit within a few streets of each other, reflecting the trading-post diversity that shaped the town for four centuries.\n\nUNESCO listed the fort as a World Heritage Site in 1988, recognising it as the best-preserved example of a fortified colonial city built by Europeans in South and Southeast Asia.',
+        body: 'Unlike many restored colonial sites, Galle Fort is not a museum piece. Around 400 families still live inside the walls, alongside boutique hotels, cafés and galleries in converted Dutch merchant houses. Mosques, churches and Buddhist temples sit within a few streets of each other, reflecting the trading-post diversity that shaped the town for four centuries.\n\nUNESCO listed the fort as a World Heritage Site in 1988, recognising it as the best-preserved example of a fortified colonial city built by Europeans in South and Southeast Asia.',
       },
       {
         id: 'thingsToDo',
         title: 'What to do in Galle',
-        body: 'Walking the ramparts, roughly 90 minutes at an easy pace, is the essential Galle activityalls circle the entire peninsula and offer sea views on one side and rooftops on the other, best done at sunset when the light softens over the ocean. The Dutch Reformed Church, the old Dutch hospital (now shops and restaurants) and the National Maritime Museum fill in the historical detail.\n\nGalle’s narrow streets reward slow, aimless wandering more than any checklist of sights: independent boutiques selling batik, jewellery and antiques occupy converted colonial storefronts throughout the fort, and stopping for a coffee in a shaded courtyard is as much the point as any single monument.',
+        body: 'Walking the ramparts, roughly 90 minutes at an easy pace, is the essential Galle activity. The walls circle the entire peninsula and offer sea views on one side and rooftops on the other, best done at sunset when the light softens over the ocean. The Dutch Reformed Church, the old Dutch hospital (now shops and restaurants) and the National Maritime Museum fill in the historical detail.\n\nGalle’s narrow streets reward slow, aimless wandering more than any checklist of sights: independent boutiques selling batik, jewellery and antiques occupy converted colonial storefronts throughout the fort, and stopping for a coffee in a shaded courtyard is as much the point as any single monument.',
       },
       {
         id: 'travelTips',
@@ -67,7 +67,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         q: 'Can I combine Galle with beach time on the south coast?',
-        a: 'Yesna and Mirissa are both under an hour away, making a Galle Fort morning followed by a beach afternoon a common and easy combination on south-coast itineraries.',
+        a: 'Yes. Unawatuna and Mirissa are both under an hour away, making a Galle Fort morning followed by a beach afternoon a common and easy combination on south-coast itineraries.',
       },
       {
         q: 'Is Galle Fort a good base for exploring the south coast?',
@@ -172,7 +172,7 @@ export const GALLE_DEST: ArticleContent = {
 
   fr: {
     h1: 'Galle, Sri Lanka : une ville coloniale fortifiée sur la côte sud',
-    lead: 'Derrière des remparts construits par les Néerlandais sur des fondations portugaises, le fort de Galle est une ville vivante classée au patrimoine mondial de l’UNESCOes pavées, villas coloniales transformées en hôtels de charme, et un phare toujours en activité guidant les navires au-delà du même récif qui façonne cette côte depuis des siècles.',
+    lead: 'Derrière des remparts construits par les Néerlandais sur des fondations portugaises, le fort de Galle est une ville vivante classée au patrimoine mondial de l’UNESCO : rues pavées, villas coloniales transformées en hôtels de charme, et un phare toujours en activité guidant les navires au-delà du même récif qui façonne cette côte depuis des siècles.',
     heroAlt: 'Les remparts et le phare du fort de Galle surplombant l’océan Indien',
     sections: [
       {
@@ -181,11 +181,11 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         title: 'Une véritable ville-héritage vivante',
-        body: 'Contrairement à de nombreux sites coloniaux restaurés, le fort de Galle n’est pas une pièce de musée 400 familles vivent encore à l’intérieur des murs, aux côtés d’hôtels de charme, de cafés et de galeries installés dans d’anciennes maisons de négociants néerlandais. Mosquées, églises et temples bouddhistes se côtoient à quelques rues d’intervalle, reflétant la diversité de ce comptoir commercial qui a façonné la ville durant quatre siècles.\n\nL’UNESCO a inscrit le fort au patrimoine mondial en 1988, le reconnaissant comme le meilleur exemple préservé d’une ville coloniale fortifiée construite par des Européens en Asie du Sud et du Sud-Est.',
+        body: 'Contrairement à de nombreux sites coloniaux restaurés, le fort de Galle n’est pas une pièce de musée : environ 400 familles vivent encore à l’intérieur des murs, aux côtés d’hôtels de charme, de cafés et de galeries installés dans d’anciennes maisons de négociants néerlandais. Mosquées, églises et temples bouddhistes se côtoient à quelques rues d’intervalle, reflétant la diversité de ce comptoir commercial qui a façonné la ville durant quatre siècles.\n\nL’UNESCO a inscrit le fort au patrimoine mondial en 1988, le reconnaissant comme le meilleur exemple préservé d’une ville coloniale fortifiée construite par des Européens en Asie du Sud et du Sud-Est.',
       },
       {
         title: 'Que faire à Galle',
-        body: 'Marcher sur les remparts, environ 90 minutes à allure tranquille, est l’activité incontournable de Galleurs encerclent toute la péninsule et offrent des vues sur la mer d’un côté et sur les toits de l’autre, idéalement au coucher du soleil quand la lumière s’adoucit sur l’océan. L’église réformée néerlandaise, l’ancien hôpital néerlandais (aujourd’hui boutiques et restaurants) et le Musée maritime national complètent le tableau historique.\n\nLes rues étroites de Galle récompensent la déambulation lente et sans but plus que toute liste de sites à voir : des boutiques indépendantes vendant batiks, bijoux et antiquités occupent des devantures coloniales reconverties dans tout le fort, et s’arrêter pour un café dans une cour ombragée compte tout autant que n’importe quel monument.',
+        body: 'Marcher sur les remparts, environ 90 minutes à allure tranquille, est l’activité incontournable de Galle. Les murs encerclent toute la péninsule et offrent des vues sur la mer d’un côté et sur les toits de l’autre, idéalement au coucher du soleil quand la lumière s’adoucit sur l’océan. L’église réformée néerlandaise, l’ancien hôpital néerlandais (aujourd’hui boutiques et restaurants) et le Musée maritime national complètent le tableau historique.\n\nLes rues étroites de Galle récompensent la déambulation lente et sans but plus que toute liste de sites à voir : des boutiques indépendantes vendant batiks, bijoux et antiquités occupent des devantures coloniales reconverties dans tout le fort, et s’arrêter pour un café dans une cour ombragée compte tout autant que n’importe quel monument.',
       },
       {
         title: 'Conseils pratiques pour la visite',
@@ -197,7 +197,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         title: 'Sites à combiner aux alentours',
-        body: 'Unawatuna et Mirissa, deux des villes balnéaires les plus connues de la côte sud, se trouvent respectivement à 15-30 minutes et environ une heure, faisant de Galle une escapade culturelle facile d’une demi-journée depuis un séjour à la plage. Des bateaux d’observation des baleines partent de Mirissa en saison (environ novembre à avril), souvent combinés avec une matinée au fort de Galle.\n\nKoggala et Weligama, connues pour leurs pêcheurs sur échasses et leurs spots de surf, se trouvent sur la même route côtière et conviennent aux voyageurs élaborant un itinéraire plus lent sur la côte sud autour de Galle.',
+        body: 'Unawatuna et Mirissa, deux des villes balnéaires les plus connues de la côte sud, se trouvent respectivement à 15-30 minutes et environ une heure, faisant de Galle une escapade culturelle facile d’une demi-journée depuis un séjour à la plage. Des bateaux d’observation des baleines partent de Mirissa en saison (environ novembre à avril), souvent combinés avec une matinée au fort de Galle.\n\nKoggala et Weligama, connues pour leurs pêcheurs sur échasses et leurs spots de surf, se trouvent sur la même route côtière et conviennent aux voyageurs élaborant un itinéraire plus lent sur la côte sud autour de Galle. Depuis Waskaduwa ou Kalutara, où est basé Sundown Tours, le fort se fait en excursion d’une journée via l’autoroute du Sud, avec déjeuner de fruits de mer au retour si vous ne dînez pas dans le fort.',
       },
       {
         title: 'Où loger',
@@ -215,7 +215,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         q: 'Le fort de Galle se visite-t-il à pied, ou faut-il un transport à l’intérieur ?',
-        a: 'Il se visite entièrement à pieda vieille ville est petite et largement adaptée aux piétons, les voitures restant généralement en périphérie. C’est l’un des sites historiques les plus faciles du Sri Lanka à explorer sans guide.',
+        a: 'Il se visite entièrement à pied. La vieille ville est petite et largement adaptée aux piétons, les voitures restant généralement en périphérie. C’est l’un des sites historiques les plus faciles du Sri Lanka à explorer sans guide.',
       },
       {
         q: 'Quel est le meilleur moment de la journée pour marcher sur les remparts de Galle ?',
@@ -223,7 +223,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         q: 'Puis-je combiner Galle avec du temps à la plage sur la côte sud ?',
-        a: 'Oui Unawatuna et Mirissa sont toutes deux à moins d’une heure, faisant d’une matinée au fort de Galle suivie d’un après-midi à la plage une combinaison courante et facile sur les itinéraires de la côte sud.',
+        a: 'Oui. Unawatuna et Mirissa sont toutes deux à moins d’une heure, faisant d’une matinée au fort de Galle suivie d’un après-midi à la plage une combinaison courante et facile sur les itinéraires de la côte sud.',
       },
       {
         q: 'Le fort de Galle est-il une bonne base pour explorer la côte sud ?',
