@@ -1,4 +1,13 @@
 .booking-card {
+  /* Vertical density knobs — tightened on short viewports so the whole card
+     (up to the submit button) stays inside a single screen. */
+  --bk-field-h: 36px;
+  --bk-form-gap: 0.5rem;
+  --bk-form-pad-y: 0.75rem;
+  --bk-form-pad-b: 0.9rem;
+  --bk-form-pad-x: 1rem;
+  --bk-head-pad-y: 0.85rem;
+  --bk-submit-h: 40px;
   background: #fff;
   border-radius: 14px;
   box-shadow: 0 4px 24px rgba(2, 45, 65, 0.1);
@@ -9,7 +18,7 @@
 .booking-card__top {
   background: linear-gradient(135deg, #022d41, #0a4a6e);
   color: #fff;
-  padding: 0.85rem 1rem;
+  padding: var(--bk-head-pad-y) 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,10 +62,10 @@
 }
 
 .booking-card__form {
-  padding: 0.75rem 1rem 0.9rem;
+  padding: var(--bk-form-pad-y) var(--bk-form-pad-x) var(--bk-form-pad-b);
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: var(--bk-form-gap);
 }
 
 .field-group {
@@ -95,7 +104,7 @@
 
 .field-input {
   width: 100%;
-  height: 36px;
+  height: var(--bk-field-h);
   padding: 0 0.65rem 0 2rem;
   border: 1.5px solid #dde3e8;
   border-radius: 8px;
@@ -145,8 +154,8 @@
   display: flex;
   align-items: stretch;
   width: 100%;
-  min-height: 36px;
-  height: 36px;
+  min-height: var(--bk-field-h);
+  height: var(--bk-field-h);
   border: 1.5px solid #dde3e8;
   border-radius: 8px;
   background: #fafbfc;
@@ -514,7 +523,7 @@
 
 .booking-card__submit {
   width: 100%;
-  height: 40px;
+  height: var(--bk-submit-h);
   border: none;
   border-radius: 8px;
   background: linear-gradient(135deg, #e67e22, #d35400);
@@ -571,12 +580,18 @@
   align-items: center;
   text-align: left;
   cursor: pointer;
-  background: #fff;
-  border: 1px solid #d1d5db;
+  background: #fafbfc;
+  border: 1.5px solid #dde3e8;
   border-radius: 8px;
   padding: 0;
-  min-height: 42px;
+  height: var(--bk-field-h);
+  min-height: var(--bk-field-h);
   position: relative;
+}
+
+.field-wrap--button:hover {
+  border-color: #b8c5ce;
+  background: #fff;
 }
 
 .date-picker {
@@ -594,9 +609,10 @@
 
 .date-picker__value {
   flex: 1;
-  font-size: 0.875rem;
+  min-width: 0;
+  font-size: 0.85rem;
   color: #1f2937;
-  padding: 0.5rem 0.5rem 0.5rem 2.1rem;
+  padding: 0 0.5rem 0 2rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1067,6 +1083,107 @@
   text-decoration: underline;
 }
 
+/* —— Desktop sidebar on short screens ——
+   Laptop viewports (≈700–900px tall) are shorter than the full booking form, which
+   left the submit button unreachable while the sidebar was stuck. These tiers trade
+   padding for reach so the card fits one screen. */
+@media (min-width: 992px) and (max-height: 900px) {
+  .booking-card {
+    --bk-field-h: 34px;
+    --bk-form-gap: 0.4rem;
+    --bk-form-pad-y: 0.6rem;
+    --bk-form-pad-b: 0.7rem;
+    --bk-head-pad-y: 0.6rem;
+    --bk-submit-h: 38px;
+  }
+
+  /* Same promises already shown in the sidebar trust strip above the card */
+  .booking-card__trust {
+    display: none;
+  }
+
+  .field-label {
+    font-size: 0.7rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .booking-warn {
+    margin: 0.1rem 0 0.2rem;
+    padding: 0.5rem 0.6rem;
+  }
+
+  .total-bar {
+    padding: 0.4rem 0.65rem;
+  }
+
+  .payment-method {
+    margin-top: 0.35rem;
+    padding: 0.32rem 0.5rem;
+  }
+
+  .phone-dial-panel__list {
+    max-height: min(220px, 32vh);
+  }
+}
+
+@media (min-width: 992px) and (max-height: 780px) {
+  .booking-card {
+    --bk-field-h: 32px;
+    --bk-form-gap: 0.3rem;
+    --bk-form-pad-y: 0.5rem;
+    --bk-form-pad-b: 0.55rem;
+    --bk-head-pad-y: 0.5rem;
+  }
+
+  .booking-card__title {
+    font-size: 0.9rem;
+  }
+
+  .booking-warn {
+    padding: 0.42rem 0.55rem;
+  }
+
+  .total-bar {
+    padding: 0.32rem 0.6rem;
+  }
+
+  .payment-method {
+    margin-top: 0.28rem;
+    padding: 0.26rem 0.45rem;
+  }
+
+  /* Same figure as the total bar further down — drop the duplicate here */
+  .price-strip {
+    display: none;
+  }
+
+  .total-bar__amount strong {
+    font-size: 1.08rem;
+  }
+
+  .form-hint,
+  .field-error {
+    font-size: 0.65rem;
+  }
+
+  .terms-row {
+    font-size: 0.74rem;
+  }
+
+  /* Keep the country list from spilling past the sidebar's scroll edge */
+  .phone-dial-panel__list {
+    max-height: min(220px, 26vh);
+  }
+}
+
+/* Touch layouts (mobile booking sheet) — keep every control at the larger
+   tap height the date trigger already used. */
+@media (max-width: 991.98px) {
+  .booking-card {
+    --bk-field-h: 42px;
+  }
+}
+
 @media (max-width: 400px) {
   .booking-card__form .col-6 {
     flex: 0 0 100%;
@@ -1086,7 +1203,7 @@
   }
 
   .phone-field__trigger {
-    min-height: 36px;
+    min-height: var(--bk-field-h);
     border-radius: 7px 7px 0 0;
     justify-content: flex-start;
   }
@@ -1097,7 +1214,7 @@
   }
 
   .phone-field__number {
-    min-height: 36px;
+    min-height: var(--bk-field-h);
     border-radius: 0 0 7px 7px;
   }
 

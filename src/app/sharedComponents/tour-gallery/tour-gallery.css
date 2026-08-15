@@ -1,8 +1,17 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
 .tgallery {
   --tg-brand: #022d41;
   --tg-brand-soft: rgba(2, 45, 65, 0.72);
   --tg-surface: #f3f6f8;
   --tg-radius: 6px;
+  /* Height cap for the hero image; the 16:10 width it implies is shared with
+     the thumb strip so both stay the same width and centred. */
+  --tg-main-max-h: min(62vh, 680px);
+  --tg-main-max-w: calc(var(--tg-main-max-h) * 16 / 10);
   width: min(1120px, 100%);
   margin: 0 auto;
   padding: 0 12px;
@@ -14,7 +23,12 @@
   overflow: hidden;
   background: var(--tg-surface);
   aspect-ratio: 16 / 10;
-  max-height: min(62vh, 680px);
+  max-height: var(--tg-main-max-h);
+  /* The height cap makes this box narrower than the gallery on short screens,
+     so centre it rather than letting it hug the left edge. */
+  width: 100%;
+  max-width: var(--tg-main-max-w);
+  margin-inline: auto;
 }
 
 .tgallery__main {
@@ -96,6 +110,8 @@
   display: flex;
   gap: 8px;
   margin-top: 10px;
+  max-width: var(--tg-main-max-w);
+  margin-inline: auto;
   overflow-x: auto;
   padding-bottom: 4px;
   scroll-snap-type: x proximity;
