@@ -1084,17 +1084,15 @@
 }
 
 /* —— Desktop sidebar on short screens ——
-   Laptop viewports (≈700–900px tall) are shorter than the full booking form, which
-   left the submit button unreachable while the sidebar was stuck. These tiers trade
-   padding for reach so the card fits one screen. */
+   Compact enough for one viewport with no sidebar scrollbar. */
 @media (min-width: 992px) and (max-height: 900px) {
   .booking-card {
-    --bk-field-h: 34px;
-    --bk-form-gap: 0.4rem;
-    --bk-form-pad-y: 0.6rem;
-    --bk-form-pad-b: 0.7rem;
-    --bk-head-pad-y: 0.6rem;
-    --bk-submit-h: 38px;
+    --bk-field-h: 32px;
+    --bk-form-gap: 0.32rem;
+    --bk-form-pad-y: 0.5rem;
+    --bk-form-pad-b: 0.55rem;
+    --bk-head-pad-y: 0.5rem;
+    --bk-submit-h: 36px;
   }
 
   /* Same promises already shown in the sidebar trust strip above the card */
@@ -1102,77 +1100,100 @@
     display: none;
   }
 
+  /* Duplicates the total bar further down */
+  .price-strip {
+    display: none;
+  }
+
+  .form-hint,
+  .booking-confirm-note {
+    display: none;
+  }
+
   .field-label {
-    font-size: 0.7rem;
-    margin-bottom: 0.15rem;
+    font-size: 0.68rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .field-error {
+    min-height: 0;
+    margin-top: 0.05rem;
   }
 
   .booking-warn {
-    margin: 0.1rem 0 0.2rem;
-    padding: 0.5rem 0.6rem;
+    margin: 0;
+    padding: 0.4rem 0.55rem;
+  }
+
+  .booking-warn__title {
+    font-size: 0.72rem;
+  }
+
+  .booking-warn__body {
+    font-size: 0.68rem;
   }
 
   .total-bar {
-    padding: 0.4rem 0.65rem;
+    padding: 0.35rem 0.55rem;
   }
 
   .payment-method {
-    margin-top: 0.35rem;
-    padding: 0.32rem 0.5rem;
+    margin-top: 0.28rem;
+    padding: 0.28rem 0.45rem;
+  }
+
+  .terms-row {
+    font-size: 0.72rem;
   }
 
   .phone-dial-panel__list {
-    max-height: min(220px, 32vh);
+    max-height: min(200px, 30vh);
   }
 }
 
 @media (min-width: 992px) and (max-height: 780px) {
   .booking-card {
-    --bk-field-h: 32px;
-    --bk-form-gap: 0.3rem;
-    --bk-form-pad-y: 0.5rem;
-    --bk-form-pad-b: 0.55rem;
-    --bk-head-pad-y: 0.5rem;
+    --bk-field-h: 30px;
+    --bk-form-gap: 0.26rem;
+    --bk-form-pad-y: 0.4rem;
+    --bk-form-pad-b: 0.45rem;
+    --bk-head-pad-y: 0.4rem;
+    --bk-submit-h: 34px;
   }
 
   .booking-card__title {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
   }
 
   .booking-warn {
-    padding: 0.42rem 0.55rem;
+    padding: 0.32rem 0.5rem;
+  }
+
+  .booking-warn__icon {
+    width: 22px;
+    height: 22px;
+    font-size: 0.72rem;
   }
 
   .total-bar {
-    padding: 0.32rem 0.6rem;
-  }
-
-  .payment-method {
-    margin-top: 0.28rem;
-    padding: 0.26rem 0.45rem;
-  }
-
-  /* Same figure as the total bar further down — drop the duplicate here */
-  .price-strip {
-    display: none;
+    padding: 0.28rem 0.5rem;
   }
 
   .total-bar__amount strong {
-    font-size: 1.08rem;
+    font-size: 1.02rem;
   }
 
-  .form-hint,
-  .field-error {
-    font-size: 0.65rem;
+  .payment-method {
+    margin-top: 0.22rem;
+    padding: 0.22rem 0.4rem;
   }
 
-  .terms-row {
+  .payment-method__value {
     font-size: 0.74rem;
   }
 
-  /* Keep the country list from spilling past the sidebar's scroll edge */
   .phone-dial-panel__list {
-    max-height: min(220px, 26vh);
+    max-height: min(180px, 24vh);
   }
 }
 

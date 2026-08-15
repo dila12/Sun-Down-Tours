@@ -573,27 +573,10 @@ ul {
   --booking-sidebar-top: 3.75rem;
   position: sticky;
   top: var(--booking-sidebar-top);
-  /* The stuck sidebar can never be scrolled past, so cap it to the viewport:
-     on screens too short for the whole form, it scrolls internally instead of
-     hiding the submit button off-screen. */
-  max-height: calc(100vh - var(--booking-sidebar-top) - 0.75rem);
-  max-height: calc(100dvh - var(--booking-sidebar-top) - 0.75rem);
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  scrollbar-width: thin;
-  scrollbar-color: #c3ced5 transparent;
-  /* Room for the card shadow and scrollbar without shifting the column edges */
-  padding: 0 0.4rem 0.25rem;
-  margin: 0 -0.4rem;
-}
-
-.booking-sidebar::-webkit-scrollbar {
-  width: 6px;
-}
-
-.booking-sidebar::-webkit-scrollbar-thumb {
-  background-color: #c3ced5;
-  border-radius: 3px;
+  /* No internal scrollbar — the card is compacted to fit one screen instead. */
+  max-height: none;
+  overflow: visible;
+  padding-bottom: 0.25rem;
 }
 
 .tour-details-body {
@@ -1242,39 +1225,45 @@ ul {
 }
 
 /* —— Short desktop viewports ——
-   Give the sticky sidebar back the vertical room it needs so the booking card
-   ends inside the first screen instead of below the fold. */
+   Keep the sticky booking card on one screen with no internal scrollbar. */
 @media (min-width: 992px) and (max-height: 900px) {
   .booking-sidebar {
     --booking-sidebar-top: 3.25rem;
   }
 
   .booking-trust-strip {
-    margin-bottom: 0.35rem;
-  }
-
-  .booking-review-ctas {
-    flex-direction: row;
-    gap: 0.75rem;
-    margin-top: 0.5rem;
-  }
-}
-
-@media (min-width: 992px) and (max-height: 780px) {
-  .booking-sidebar {
-    --booking-sidebar-top: 2.9rem;
-    max-height: calc(100vh - var(--booking-sidebar-top) - 0.35rem);
-    max-height: calc(100dvh - var(--booking-sidebar-top) - 0.35rem);
-  }
-
-  .booking-trust-strip {
-    gap: 0.3rem;
     margin-bottom: 0.3rem;
   }
 
   .booking-trust-strip span {
     font-size: 0.64rem;
-    padding: 0.1rem 0.45rem;
+    padding: 0.12rem 0.45rem;
+  }
+
+  .booking-review-ctas {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.55rem 0.85rem;
+    margin-top: 0.4rem;
+  }
+
+  .booking-review-ctas__link {
+    font-size: 0.76rem;
+  }
+}
+
+@media (min-width: 992px) and (max-height: 780px) {
+  .booking-sidebar {
+    --booking-sidebar-top: 2.75rem;
+  }
+
+  /* Secondary links — drop them so the form itself stays fully on-screen */
+  .booking-review-ctas {
+    display: none;
+  }
+
+  .booking-trust-strip {
+    margin-bottom: 0.25rem;
   }
 }
 
