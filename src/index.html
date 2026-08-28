@@ -34,10 +34,16 @@
   <style>
     .hero-carousel{position:relative;width:100%;height:420px;overflow:hidden;background:#022d41}
     .hero-carousel-slide{position:relative;width:100%;height:100%}
-    app-hero-lcp-image{display:block;width:100%;height:100%}
-    .hero-carousel-slide img{display:block;width:100%;height:420px;object-fit:cover}
+    app-hero-lcp-image{display:block;position:absolute;inset:0}
+    .hero-carousel-slide img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
+    #header-carousel .carousel-caption{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:.75rem 1rem 1.25rem;pointer-events:none;background:linear-gradient(to top,rgba(0,0,0,.82) 0%,rgba(0,0,0,.45) 45%,rgba(0,0,0,.15) 100%)}
+    #header-carousel .carousel-caption .p-3{max-width:900px;width:100%;pointer-events:auto}
+    #header-carousel .carousel-caption h1,#header-carousel .carousel-caption h2{font-size:1.35rem;line-height:1.25;margin:0 0 .5rem;color:#fff;font-weight:600}
+    #header-carousel .carousel-caption p{font-size:.875rem;line-height:1.4;margin:0 0 .75rem;color:#fff}
     @media (min-width:769px){
-      .hero-carousel,.hero-carousel-slide img{height:600px}
+      .hero-carousel{height:600px}
+      #header-carousel .carousel-caption{padding:0 1.5rem 3.25rem}
+      #header-carousel .carousel-caption h1,#header-carousel .carousel-caption h2{font-size:2.5rem;line-height:1.2;margin-bottom:1.5rem}
     }
   </style>
   <link rel="canonical" href="https://www.sundowntours.com/">

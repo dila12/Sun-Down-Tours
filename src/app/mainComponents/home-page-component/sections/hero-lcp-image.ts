@@ -16,15 +16,15 @@ import { IMAGE_ASSET_VERSION } from '../../../utils/image.util';
       [attr.srcset]="srcset"
       sizes="100vw"
       width="960"
-      height="495"
+      height="420"
       fetchpriority="high"
-      decoding="sync"
+      decoding="async"
       [alt]="alt"
     />
   `,
   host: {
     ngSkipHydration: 'true',
-    style: 'display:block',
+    style: 'display:block;position:absolute;inset:0',
   },
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
