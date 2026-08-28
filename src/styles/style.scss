@@ -280,7 +280,11 @@ h6,
   }
 
   .hero-carousel .carousel-caption .hero-caption {
-    min-height: 11rem;
+    height: 13.5rem;
+    min-height: 13.5rem;
+    overflow: hidden;
+    contain: layout;
+    padding: 0 0.25rem;
   }
 
   .hero-carousel .carousel-caption .btn {
@@ -300,6 +304,13 @@ h6,
         position: relative;
         margin-top: -60px !important;
         z-index: 1;
+    }
+
+    .hero-carousel .carousel-caption .hero-caption {
+      height: auto;
+      min-height: 0;
+      overflow: visible;
+      padding: 0;
     }
 }
 

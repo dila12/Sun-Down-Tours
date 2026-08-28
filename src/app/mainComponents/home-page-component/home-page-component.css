@@ -404,19 +404,32 @@ html, body {
   border-color: #ffd700;
 }
 
-/* INTRO SECTION */
+/* INTRO SECTION — mobile-first sizes so CSS load does not shrink the title (CLS). */
 .intro-section {
   background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
 }
 
-/* TITLE */
 .intro-title {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
   font-weight: 700;
   color: #1f2937;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
+  min-height: 3.9rem;
+}
+
+@media (min-width: 769px) {
+  .intro-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .intro-title {
+    font-size: 2.2rem;
+    min-height: 0;
+  }
 }
 
 /* SUBTEXT */
