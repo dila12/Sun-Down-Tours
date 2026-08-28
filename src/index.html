@@ -29,12 +29,15 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.webp">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Exact LCP URL (no font preloads — they steal bandwidth; Poppins is font-display:optional). -->
-  <link rel="preload" as="image" type="image/avif" fetchpriority="high"
-    href="/assets/img/mainpage/1-960w.avif?v=20260828h">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" media="(max-width: 767px)"
+    href="/assets/img/mainpage/hero-slide-boards-mobile-640w.avif?v=20260828i">
+  <link rel="preload" as="image" type="image/avif" fetchpriority="high" media="(min-width: 768px)"
+    href="/assets/img/mainpage/hero-slide-boards-960w.avif?v=20260828i">
   <style>
     .hero-carousel{position:relative;width:100%;height:420px;overflow:hidden;background:#022d41;contain:layout}
     .hero-carousel-slide{position:relative;width:100%;height:100%}
     app-hero-lcp-image{display:block;position:absolute;inset:0}
+    app-hero-lcp-image picture{display:block;position:absolute;inset:0}
     .hero-carousel-slide img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover}
     #header-carousel .carousel-caption{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:.75rem 1rem 1.25rem;pointer-events:none;background:linear-gradient(to top,rgba(0,0,0,.82) 0%,rgba(0,0,0,.45) 45%,rgba(0,0,0,.15) 100%)}
     #header-carousel .hero-caption{max-width:900px;width:100%;pointer-events:auto;min-height:11rem}

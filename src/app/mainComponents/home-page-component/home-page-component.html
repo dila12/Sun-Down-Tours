@@ -3,7 +3,7 @@
     <div id="header-carousel" class="hero-carousel" role="region" aria-label="Featured tour highlights"
         aria-roledescription="carousel">
         <div class="hero-carousel-slide is-active" role="group"
-            [class.hero-carousel-slide--people]="activeSlide === slides.length - 1"
+            [class.hero-carousel-slide--people]="!!slides[activeSlide].people"
             [class.hero-carousel-slide--boards]="!!slides[activeSlide].mobileSrc"
             [attr.aria-label]="'Slide ' + (activeSlide + 1) + ' of ' + slides.length">
             @if (activeSlide === 0) {

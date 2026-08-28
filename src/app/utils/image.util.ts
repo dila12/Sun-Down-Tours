@@ -7,7 +7,7 @@ export const PLACEHOLDER_IMAGE = '/assets/img/image-fallback.webp';
  * Appended as ?v= to image URLs (not routing — only asset query).
  * Also update the hero preload `?v=` in `src/index.html`.
  */
-export const IMAGE_ASSET_VERSION = '20260828h';
+export const IMAGE_ASSET_VERSION = '20260828i';
 
 export type ImageFormat = 'webp' | 'avif';
 
@@ -196,7 +196,7 @@ export function heroLcpAvifSrcSet(): string {
   return buildAvifSrcSet(HERO_LCP_BASE);
 }
 
-export const HERO_LCP_BASE = '/assets/img/mainpage/1.webp';
+export const HERO_LCP_BASE = '/assets/img/mainpage/hero-slide-boards.webp';
 
 /** Width descriptors for NgOptimizedImage on the homepage hero (LCP). */
 export function heroLcpNgSrcSet(): string {
