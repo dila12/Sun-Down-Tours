@@ -46,10 +46,11 @@ export function scheduleDeferredAssets(): void {
   const loadWhenIdle = () => {
     const idle = (window as Window & { requestIdleCallback?: typeof requestIdleCallback })
       .requestIdleCallback;
+    // Wait past typical LCP (~3–4s on Slow 4G) so FA/deferred.css stay off the LCP chain.
     if (typeof idle === 'function') {
-      idle(() => load(), { timeout: 2000 });
+      idle(() => load(), { timeout: 4500 });
     } else {
-      window.setTimeout(load, 1200);
+      window.setTimeout(load, 4000);
     }
   };
 
