@@ -34,9 +34,12 @@ const WEBP_START = 93;
 const AVIF_START = 84;
 /** Skip AVIF when even high-quality encode is still soft vs WebP — require AVIF quality >= 80. */
 const AVIF_MIN_QUALITY = 80;
-/** Homepage LCP 960w AVIF — Lighthouse “Improve image delivery” (~6 KiB on 20 KiB). */
+/** Homepage LCP AVIFs — match displayed CSS pixels (PSI “Improve image delivery”). */
 const LCP_AVIF_960_MAX_KB = 14;
+const LCP_AVIF_MOBILE_400_MAX_KB = 22;
 const LCP_AVIF_MIN_QUALITY = 36;
+/** Homepage tour-card thumbs (~320 CSS px). */
+const CARD_AVIF_320_MAX_KB = 10;
 const FORMATS = ['webp', 'avif'];
 /** Cap masters at Full HD — sharp on desktop/retina without huge payloads. */
 const MASTER_MAX_WIDTH = 1920;
@@ -117,7 +120,10 @@ function escapeRegExp(s) {
 async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format, rel = '') {
   const ext = `.${format}`;
   const mainOut = join(dir, `${baseName}${ext}`);
-  const isLcpHero = /mainpage[/\\]1\.(jpe?g|png)$/i.test(rel.replace(/\\/g, '/'));
+  const relPosix = rel.replace(/\\/g, '/');
+  const isLcpHero = /mainpage[/\\](1|hero-slide-boards)\.(jpe?g|png)$/i.test(relPosix);
+  const isLcpMobile = /mainpage[/\\]hero-slide-boards-mobile\.(jpe?g|png)$/i.test(relPosix);
+  const isCardThumb = /\/package-\d+\.(jpe?g|png)$/i.test(relPosix);
   const { buffer: mainBuf, quality: mainQ } = await optimizeToTarget(
     buffer,
     maxKb,
@@ -139,8 +145,18 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     // Thumbnails (320) can use a slightly tighter budget; main/hero widths keep quality.
     let variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
     const lcpOpts = {};
-    if (isLcpHero && format === 'avif' && w === 960) {
+    if (format === 'avif' && isLcpHero && w === 960) {
       variantMax = LCP_AVIF_960_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    if (format === 'avif' && isLcpMobile && w === 400) {
+      variantMax = LCP_AVIF_MOBILE_400_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    if (format === 'avif' && isCardThumb && w === 320) {
+      variantMax = CARD_AVIF_320_MAX_KB;
       lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
       lcpOpts.effort = 6;
     }
