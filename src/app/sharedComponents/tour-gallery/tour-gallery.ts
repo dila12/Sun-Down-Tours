@@ -132,15 +132,15 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
   }
 
   get currentSrc(): string {
-    return this.currentBase ? galleryMainSrc(this.currentBase) : '';
+    return this.currentBase ? galleryLightboxSrc(this.currentBase) : '';
   }
 
   get currentSrcSet(): string {
-    return this.currentBase ? buildCappedSrcSet(this.currentBase, 1100) : '';
+    return this.currentBase ? buildSrcSet(this.currentBase) : '';
   }
 
   get currentAvifSrcSet(): string {
-    return this.currentBase ? buildCappedAvifSrcSet(this.currentBase, 1100) : '';
+    return this.currentBase ? buildAvifSrcSet(this.currentBase) : '';
   }
 
   get lightboxSrc(): string {

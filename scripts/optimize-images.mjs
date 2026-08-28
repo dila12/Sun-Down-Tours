@@ -34,6 +34,9 @@ const WEBP_START = 93;
 const AVIF_START = 84;
 /** Skip AVIF when even high-quality encode is still soft vs WebP — require AVIF quality >= 80. */
 const AVIF_MIN_QUALITY = 80;
+/** Homepage LCP 960w AVIF — Lighthouse “Improve image delivery” (~6 KiB on 20 KiB). */
+const LCP_AVIF_960_MAX_KB = 14;
+const LCP_AVIF_MIN_QUALITY = 36;
 const FORMATS = ['webp', 'avif'];
 /** Cap masters at Full HD — sharp on desktop/retina without huge payloads. */
 const MASTER_MAX_WIDTH = 1920;
@@ -65,16 +68,19 @@ function maxKbFor(kind) {
   return OTHER_MAX_KB;
 }
 
-async function optimizeToTarget(buffer, maxKb, width, format) {
+async function optimizeToTarget(buffer, maxKb, width, format, opts = {}) {
   let quality = format === 'avif' ? AVIF_START : WEBP_START;
-  const floor = format === 'avif' ? Math.max(QUALITY_FLOOR, AVIF_MIN_QUALITY) : QUALITY_FLOOR;
+  const floor =
+    opts.minQuality ??
+    (format === 'avif' ? Math.max(QUALITY_FLOOR, AVIF_MIN_QUALITY) : QUALITY_FLOOR);
+  const avifEffort = opts.effort ?? 5;
 
   const encode = (q) => {
     const pipeline = sharp(buffer)
       .rotate()
       .resize({ width, withoutEnlargement: true, kernel: sharp.kernel.lanczos3 });
     if (format === 'avif') {
-      return pipeline.avif({ quality: q, effort: 5, chromaSubsampling: '4:2:0' }).toBuffer();
+      return pipeline.avif({ quality: q, effort: avifEffort, chromaSubsampling: '4:2:0' }).toBuffer();
     }
     return pipeline.webp({ quality: q, effort: 4, smartSubsample: true }).toBuffer();
   };
@@ -108,9 +114,10 @@ function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format) {
+async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format, rel = '') {
   const ext = `.${format}`;
   const mainOut = join(dir, `${baseName}${ext}`);
+  const isLcpHero = /mainpage[/\\]1\.(jpe?g|png)$/i.test(rel.replace(/\\/g, '/'));
   const { buffer: mainBuf, quality: mainQ } = await optimizeToTarget(
     buffer,
     maxKb,
@@ -130,8 +137,20 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     if (w > maxWidth) continue;
     const variantOut = join(dir, `${baseName}-${w}w${ext}`);
     // Thumbnails (320) can use a slightly tighter budget; main/hero widths keep quality.
-    const variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
-    const { buffer: variantBuf } = await optimizeToTarget(buffer, variantMax, w, format);
+    let variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
+    const lcpOpts = {};
+    if (isLcpHero && format === 'avif' && w === 960) {
+      variantMax = LCP_AVIF_960_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    const { buffer: variantBuf } = await optimizeToTarget(
+      buffer,
+      variantMax,
+      w,
+      format,
+      lcpOpts,
+    );
     await sharp(variantBuf).toFile(variantOut);
   }
 
@@ -153,7 +172,7 @@ async function processImage(filePath) {
 
   const sizes = {};
   for (const format of FORMATS) {
-    sizes[format] = await writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format);
+    sizes[format] = await writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format, rel);
   }
 
   const webp = sizes.webp;

@@ -34,5 +34,7 @@ export class HeroLcpImageComponent {
   readonly src = `/assets/img/mainpage/1-960w.avif?v=${IMAGE_ASSET_VERSION}`;
   readonly srcset =
     `/assets/img/mainpage/1-640w.avif?v=${IMAGE_ASSET_VERSION} 640w, ` +
-    `/assets/img/mainpage/1-960w.avif?v=${IMAGE_ASSET_VERSION} 960w`;
+    `/assets/img/mainpage/1-960w.avif?v=${IMAGE_ASSET_VERSION} 960w, ` +
+    `/assets/img/mainpage/1-1280w.avif?v=${IMAGE_ASSET_VERSION} 1280w, ` +
+    `/assets/img/mainpage/1-1920w.avif?v=${IMAGE_ASSET_VERSION} 1920w`;
 }

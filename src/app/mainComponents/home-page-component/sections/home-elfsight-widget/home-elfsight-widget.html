@@ -1,4 +1,8 @@
-<section #elfsightHost class="elfsight-widget-host" aria-labelledby="home-reviews-heading">
+<section
+  #elfsightHost
+  class="elfsight-widget-host"
+  [class.is-ready]="widgetReady"
+  aria-labelledby="home-reviews-heading">
   <h2 id="home-reviews-heading" class="sr-only">Customer reviews</h2>
   <div class="elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c"></div>
   @if (!widgetReady) {

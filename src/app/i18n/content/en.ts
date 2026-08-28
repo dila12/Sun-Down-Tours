@@ -226,8 +226,8 @@ export const en: Dict = {
       title: 'Trusted Sri Lanka Tour Company',
       p1: 'Sundown Tours Sri Lanka has been delivering trusted travel experiences since 1992. With over three decades of expertise, we specialize in private tours, tailor-made holidays, and chauffeur driven journeys designed around each traveler\u2019s unique needs.',
       p2: 'From the cultural heritage of Sigiriya and Kandy to the scenic beauty of Ella, Nuwara Eliya, and the wildlife of Yala National Park, we create unforgettable journeys across Sri Lanka.',
-      gallery1Alt: 'Private Sri Lanka tour with Sundown Tours',
-      gallery2Alt: 'Sri Lanka tour packages with chauffeur guide',
+      gallery1Alt: 'Guests holding a Sundown Tours board on a Sri Lanka viewpoint',
+      gallery2Alt: 'Sundown Tours guests at Labookellie tea estate',
     },
     features: {
       f1Title: 'Affordable Sri Lanka Tour Packages',

@@ -3,23 +3,35 @@
     <div id="header-carousel" class="hero-carousel" role="region" aria-label="Featured tour highlights"
         aria-roledescription="carousel">
         <div class="hero-carousel-slide is-active" role="group"
+            [class.hero-carousel-slide--people]="activeSlide === slides.length - 1"
+            [class.hero-carousel-slide--boards]="!!slides[activeSlide].mobileSrc"
             [attr.aria-label]="'Slide ' + (activeSlide + 1) + ' of ' + slides.length">
             @if (activeSlide === 0) {
             <app-hero-lcp-image ngSkipHydration [alt]="slides[0].alt | t" />
             } @else {
             <picture>
-                @if (buildCappedAvifSrcSet(slides[activeSlide].src, 960)) {
-                <source type="image/avif" [attr.srcset]="buildCappedAvifSrcSet(slides[activeSlide].src, 960)"
+                @if (slides[activeSlide].mobileSrc) {
+                @if (buildCappedAvifSrcSet(slides[activeSlide].mobileSrc!, 960)) {
+                <source type="image/avif" media="(max-width: 767px)"
+                    [attr.srcset]="buildCappedAvifSrcSet(slides[activeSlide].mobileSrc!, 960)"
                     [attr.sizes]="heroSizes" />
                 }
-                <source type="image/webp" [attr.srcset]="buildCappedSrcSet(slides[activeSlide].src, 960)"
+                <source type="image/webp" media="(max-width: 767px)"
+                    [attr.srcset]="buildCappedSrcSet(slides[activeSlide].mobileSrc!, 960)"
                     [attr.sizes]="heroSizes" />
-                <img class="w-100" [src]="bestImageSrc(slides[activeSlide].src, 640)" [sizes]="heroSizes"
-                    [alt]="slides[activeSlide].alt | t" width="960" height="495" decoding="async" fetchpriority="low"
+                }
+                @if (buildCappedAvifSrcSet(slides[activeSlide].src, 1920)) {
+                <source type="image/avif" [attr.srcset]="buildCappedAvifSrcSet(slides[activeSlide].src, 1920)"
+                    [attr.sizes]="heroSizes" />
+                }
+                <source type="image/webp" [attr.srcset]="buildCappedSrcSet(slides[activeSlide].src, 1920)"
+                    [attr.sizes]="heroSizes" />
+                <img class="w-100" [src]="bestImageSrc(slides[activeSlide].src, 1280)" [sizes]="heroSizes"
+                    [alt]="slides[activeSlide].alt | t" width="1920" height="600" decoding="async" fetchpriority="low"
                     [attr.data-img-base]="slides[activeSlide].src" (error)="onImageError($event)">
             </picture>
             }
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-end">
                 <div class="p-3" style="max-width: 900px;">
                     @if (activeSlide === 0) {
                     <h1 class="display-3 text-white mb-md-4">{{ slides[0].heading | t }}</h1>
@@ -144,7 +156,7 @@
     <div class="container">
         <div class="about-wrapper">
             <div class="about-image">
-                <img [src]="bestImageSrc(aboutMainSrc, 640)" [srcset]="buildCappedSrcSet(aboutMainSrc, 640)"
+                <img [src]="bestImageSrc(aboutMainSrc, 1280)" [srcset]="buildSrcSet(aboutMainSrc)"
                     sizes="(max-width: 992px) 100vw, 600px" [attr.data-img-base]="aboutMainSrc"
                     [alt]="'home.about.title' | t" width="600" height="400" loading="lazy"
                     decoding="async" fetchpriority="low" (error)="onImageError($event)">

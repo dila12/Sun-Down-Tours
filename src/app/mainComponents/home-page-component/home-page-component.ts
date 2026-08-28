@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
-import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, buildSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -30,6 +30,7 @@ const INITIAL_TOUR_COUNT = 3;
 
 interface TourSlide {
   src: string;
+  mobileSrc?: string;
   alt: string;
   heading: string;
 }
@@ -84,6 +85,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly onImageError = onImageError;
   readonly buildCappedSrcSet = buildCappedSrcSet;
   readonly buildCappedAvifSrcSet = buildCappedAvifSrcSet;
+  readonly buildSrcSet = buildSrcSet;
   readonly bestImageSrc = bestImageSrc;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 575px) calc(100vw - 2rem), (max-width: 991px) calc(50vw - 2rem), 360px';
@@ -102,19 +104,20 @@ export class HomePageComponent implements OnInit, OnDestroy {
       heading: 'home.hero.slide2',
     },
     {
-      src: toWebpSrc('assets/img/5daysTours/28.png'),
-      alt: 'home.hero.slide3',
-      heading: 'home.hero.slide3',
-    },
-    {
-      src: toWebpSrc('assets/img/5daysTours/41.jpg'),
-      alt: 'home.hero.slide4',
-      heading: 'home.hero.slide4',
-    },
-    {
-      src: toWebpSrc('assets/img/mainpage/5.jpg'),
+      src: toWebpSrc('assets/img/mainpage/hero-slide-5.jpg'),
       alt: 'home.hero.slide5',
       heading: 'home.hero.slide5',
+    },
+    {
+      src: toWebpSrc('assets/img/mainpage/hero-slide-boards.jpg'),
+      mobileSrc: toWebpSrc('assets/img/mainpage/hero-slide-boards-mobile.jpg'),
+      alt: 'home.hero.slide2',
+      heading: 'home.hero.slide2',
+    },
+    {
+      src: toWebpSrc('assets/img/mainpage/hero-slide-3.jpg'),
+      alt: 'home.hero.slide3',
+      heading: 'home.hero.slide3',
     },
   ];
 
@@ -129,10 +132,10 @@ export class HomePageComponent implements OnInit, OnDestroy {
     { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt', pageId: 'destGalle' },
   ];
 
-  readonly aboutMainSrc = toWebpSrc('assets/img/5daysTours/6.jpg');
+  readonly aboutMainSrc = toWebpSrc('assets/img/7dayschange/Greece-5.jpeg');
   readonly aboutGallery = [
-    { src: toWebpSrc('assets/img/about-1.jpg'), alt: 'home.about.gallery1Alt' },
-    { src: toWebpSrc('assets/img/about-2.jpg'), alt: 'home.about.gallery2Alt' },
+    { src: toWebpSrc('assets/img/tour-galleries/seven-day/07.jpg'), alt: 'home.about.gallery1Alt' },
+    { src: toWebpSrc('assets/img/tour-galleries/seven-day/06.jpg'), alt: 'home.about.gallery2Alt' },
   ];
 
   private cachedPriceData: any = null;

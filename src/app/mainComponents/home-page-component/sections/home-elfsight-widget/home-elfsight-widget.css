@@ -1,14 +1,30 @@
+:host {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 .elfsight-widget-host {
   position: relative;
-  /* Fixed box so late Elfsight render cannot shift FAQ/SEO below (mobile CLS). */
-  height: 960px;
+  /* Reserve space while Elfsight loads so the page does not jump, then
+     grow with the widget so review cards are not clipped. */
+  min-height: 28rem;
   overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .elfsight-widget-host {
-    height: 720px;
+    min-height: 36rem;
   }
+}
+
+.elfsight-widget-host.is-ready {
+  min-height: 0;
+  overflow: visible;
+  padding-bottom: 0.5rem;
+}
+
+.elfsight-widget-host.is-ready .elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c {
+  min-height: 0;
 }
 
 .elfsight-placeholder {

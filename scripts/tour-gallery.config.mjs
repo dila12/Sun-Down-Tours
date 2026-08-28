@@ -44,8 +44,7 @@ export const TOUR_GALLERIES = {
   },
   'six-day': { folder: 'SixdaysTous' },
   'seven-day': {
-    folder: '5daysTours',
-    include: ['1', '18', '28', '24', '34'],
+    folder: 'tour-galleries/seven-day',
   },
   'eight-day': {
     folder: '7dayschange',
