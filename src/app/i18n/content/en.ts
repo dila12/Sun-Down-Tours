@@ -715,7 +715,7 @@ export const en: Dict = {
         'Sri Lanka tour packages, Sri Lanka holidays, Sri Lanka private tour, 7 day Sri Lanka tour, 10 day Sri Lanka itinerary',
     },
     services: {
-      title: 'Private Tours, Chauffeur & Holiday Services | Sri Lanka'
+      title: 'Private Tours, Chauffeur & Holiday Services | Sri Lanka',
       description:
         'Explore our range of services including private tours, tailor-made holiday packages, chauffeur driven round tours and day trips.',
       keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours, chauffeur service',
@@ -727,7 +727,7 @@ export const en: Dict = {
       keywords: 'Sri Lanka travel agency, Sri Lanka tour operator, trusted Sri Lanka tours',
     },
     contact: {
-      title: 'Plan Your Private Sri Lanka Tour | Contact'
+      title: 'Plan Your Private Sri Lanka Tour | Contact',
       description:
         'Get in touch with Sundown Tours for customized Sri Lanka tour packages and private travel services. We reply within 24 hours.',
       keywords: 'contact Sri Lanka tour company, book Sri Lanka private tour',
