@@ -173,17 +173,17 @@ export const en: Dict = {
 
   home: {
     hero: {
-      title: 'Sri Lanka Tours & Private Driver Services',
+      title: 'Sri Lanka Tours, Holiday Packages & Private Driver',
       subtitle:
-        'Discover private Sri Lanka tours with experienced local chauffeur guides. Explore Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa and Galle with customized itineraries for couples, families and luxury travelers.',
+        'Book private Sri Lanka tours and tailor-made holiday packages with a local chauffeur guide. Explore Sigiriya, Ella, Yala safari, Kandy, Nuwara Eliya, Mirissa and Galle — designed for travellers from the UK and Europe.',
       slide2: 'Unforgettable Sri Lanka Tour Packages',
       slide3: 'Private Tours Across Beautiful Sri Lanka',
       slide4: 'Discover Sigiriya, Ella & Sri Lanka Highlights',
       slide5: 'Sri Lanka Wildlife Safaris & Adventure Tours',
     },
     intro: {
-      title: 'Sri Lanka Tours with Local Experts',
-      subtitle: 'Private tours, chauffeur driver services and tailor-made holidays across Sri Lanka.',
+      title: 'Sri Lanka Tours & Vacation Packages with Local Experts',
+      subtitle: 'Private Sri Lanka tours, chauffeur-driver holidays and custom itineraries for 7, 8 and 10 day island trips.',
       feature1: 'Private Tours',
       feature2: 'Chauffeur Drivers',
       feature3: 'Tailor-Made Packages',
@@ -255,16 +255,24 @@ export const en: Dict = {
         a: 'You can book directly through WhatsApp or our contact form. We reply within 24 hours with a tailor-made itinerary and a transparent quote for your private tour.',
       },
       {
-        q: 'Do your tours include a private driver guide?',
-        a: 'Yes. Every Sundown Tours package includes a licensed English-speaking chauffeur guide, a comfortable air-conditioned vehicle, fuel and all driver expenses.',
+        q: 'Do your Sri Lanka tour packages include a private driver?',
+        a: 'Yes. Every Sundown Tours holiday package includes a licensed English-speaking chauffeur guide, an air-conditioned vehicle, fuel and all driver expenses. You do not share the car with other groups.',
       },
       {
-        q: 'Can the itinerary be customized?',
-        a: 'Absolutely. All of our Sri Lanka tours are fully tailor-made. Tell us your travel dates, interests and budget and we will design the perfect route for you.',
+        q: 'Can I customise a Sri Lanka vacation itinerary?',
+        a: 'Yes. All Sri Lanka tours are tailor-made. Tell us your dates, pace and interests (safari, tea country, beaches, family travel) and we design the route around you.',
       },
       {
-        q: 'When is the best time to visit Sri Lanka?',
-        a: 'Sri Lanka is a year-round destination. The south and west coasts are best from December to April, while the east coast shines from May to September.',
+        q: 'When is the best time to visit Sri Lanka from Europe?',
+        a: 'Sri Lanka is a year-round destination. The south and west coasts are best from December to April; the east coast is typically better from May to September. We plan private itineraries around the monsoon that matches your travel month.',
+      },
+      {
+        q: 'Which Sri Lanka tour package is best for first-time visitors?',
+        a: 'Most first-time visitors from the UK and Europe choose a 7, 8 or 10 day private round tour: Cultural Triangle (Sigiriya, Kandy), hill country (Ella, Nuwara Eliya), a wildlife safari and a beach finish.',
+      },
+      {
+        q: 'Do you offer Sri Lanka holidays for travellers from the UK and Europe?',
+        a: 'Yes. We specialise in private chauffeur tours for guests from the UK, Germany, France, Italy, Spain, the Netherlands, Switzerland and Poland, with English-speaking driver-guides and WhatsApp planning before you fly.',
       },
     ],
   },
@@ -382,8 +390,8 @@ export const en: Dict = {
     header: 'Sri Lanka Tour Packages',
     breadcrumb: 'Tour Packages',
     eyebrow: 'Private Round Tours',
-    title: 'Private Sri Lanka Tour Packages',
-    lead: 'Discover our best-selling private Sri Lanka round tours, from short 2-day escapes to complete 10-day island journeys. Every tour is private, tailor-made and led by an experienced chauffeur guide.',
+    title: 'Sri Lanka Tour Packages & Private Holidays',
+    lead: 'Compare 7, 8 and 10 day Sri Lanka tour packages plus shorter private trips. Every holiday is private, tailor-made and led by a local chauffeur guide — no group coaches.',
     faqTitle: 'Frequently Asked Questions',
     faq: [
       {
@@ -391,12 +399,16 @@ export const en: Dict = {
         a: 'Yes, every tour is 100% private. You travel only with your own group, your own chauffeur guide and your own vehicle, with the freedom to adjust the itinerary.',
       },
       {
-        q: 'How much does a private Sri Lanka tour cost?',
-        a: 'Prices depend on the number of travelers, hotel category and season. Contact us for a transparent, tailor-made quote with no hidden fees.',
+        q: 'How much do Sri Lanka tour packages cost?',
+        a: 'Prices depend on travellers, hotel category and season. We quote in a clear package (vehicle, driver-guide, fuel) so you can compare private holidays without hidden extras. Message us for a tailored quote.',
       },
       {
-        q: 'Which tour is best for first-time visitors?',
+        q: 'Which Sri Lanka holiday is best for first-time visitors?',
         a: 'Our 7 to 10 day round tours are ideal for first-time visitors as they combine culture, wildlife, hill country and beaches in one balanced itinerary.',
+      },
+      {
+        q: 'Can I book a Sri Lanka vacation with a private driver only?',
+        a: 'Yes. Choose a full tour package with hotels arranged, or a chauffeur-only itinerary if you prefer to book stays yourself. Both options include a licensed private driver-guide.',
       },
     ],
   },
@@ -689,19 +701,21 @@ export const en: Dict = {
 
   seo: {
     home: {
-      title: 'Sundown Tours Sri Lanka | Private & Tailor-Made Tours',
+      title: 'Sri Lanka Tours & Holiday Packages | Private Driver'
       description:
-        'Explore Sri Lanka with private tours, tailor-made holiday packages and experienced local driver guides. Discover beaches, wildlife and cultural heritage.',
-      keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours, Sri Lanka private driver',
+        'Private Sri Lanka tours and holiday packages with a local chauffeur guide. 7, 8 and 10 day itineraries covering Sigiriya, Ella, Yala safari and beaches. Trusted since 1992.',
+      keywords:
+        'Sri Lanka tours, Sri Lanka tour packages, Sri Lanka holidays, vacation Sri Lanka, Sri Lanka private driver, Sri Lanka itinerary',
     },
     tours: {
-      title: 'Sri Lanka Tour Packages | Private Round Tours from UK & Europe',
+      title: 'Sri Lanka Tour Packages | 7, 8 & 10 Day Private Holidays',
       description:
-        'Discover our customizable Sri Lanka tour packages for European travelers. Tailor-made holidays, private drivers, and luxury safaris.',
-      keywords: 'Sri Lanka tour packages, Sri Lanka round tours, Sri Lanka holidays from UK, private tours',
+        'Browse Sri Lanka tour packages for UK and Europe travellers: private 7, 8 and 10 day holidays with chauffeur guide, safari and beach time. Tailor-made, not group tours.',
+      keywords:
+        'Sri Lanka tour packages, Sri Lanka holidays, Sri Lanka private tour, 7 day Sri Lanka tour, 10 day Sri Lanka itinerary',
     },
     services: {
-      title: 'Our Services | Sundown Tours Sri Lanka',
+      title: 'Private Tours, Chauffeur & Holiday Services | Sri Lanka'
       description:
         'Explore our range of services including private tours, tailor-made holiday packages, chauffeur driven round tours and day trips.',
       keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours, chauffeur service',
@@ -713,7 +727,7 @@ export const en: Dict = {
       keywords: 'Sri Lanka travel agency, Sri Lanka tour operator, trusted Sri Lanka tours',
     },
     contact: {
-      title: 'Contact Sundown Tours Sri Lanka | Plan Your Private Tour',
+      title: 'Plan Your Private Sri Lanka Tour | Contact'
       description:
         'Get in touch with Sundown Tours for customized Sri Lanka tour packages and private travel services. We reply within 24 hours.',
       keywords: 'contact Sri Lanka tour company, book Sri Lanka private tour',
@@ -924,17 +938,17 @@ export const en: Dict = {
     destColombo: {
       title: "Colombo Sri Lanka Travel Guide | Private Tours",
       description: "Plan Colombo as your arrival hub with private airport transfers and tailor-made Sri Lanka itineraries.",
-      keywords: "destColombo",
+      keywords: "Colombo Sri Lanka, Colombo city tour, Colombo airport",
     },
     destNegombo: {
       title: "Negombo Sri Lanka | Beach Near Airport",
       description: "Stay in Negombo near Bandaranaike Airport before a private Cultural Triangle or west-coast tour.",
-      keywords: "destNegombo",
+      keywords: "Negombo Sri Lanka, Negombo beach, airport hotel Negombo",
     },
     destBentota: {
       title: "Bentota Sri Lanka | West Coast Beach Holidays",
       description: "Bentota beach holidays with private chauffeur links to Galle and the south coast.",
-      keywords: "destBentota",
+      keywords: "Bentota Sri Lanka, Bentota beach, Bentota tour",
     },
     destMirissa: {
       title: 'Mirissa Sri Lanka Guide | Whale Watching, Beaches & Coconut Tree Hill',
@@ -943,34 +957,34 @@ export const en: Dict = {
       keywords: 'Mirissa Sri Lanka, Mirissa whale watching, Coconut Tree Hill, Mirissa beach',
     },
     destNuwaraEliya: {
-      title: "Nuwara Eliya Sri Lanka | Tea Country Highlands",
+      title: "Nuwara Eliya Sri Lanka | Tea Country Tours & Highlands",
       description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill-country itineraries.",
-      keywords: "destNuwaraEliya",
+      keywords: "Nuwara Eliya Sri Lanka, tea country, Nuwara Eliya tour",
     },
     destAnuradhapura: {
       title: "Anuradhapura Sri Lanka | Ancient Sacred City",
       description: "Explore Anuradhapura with a private driver in Sri Lanka Cultural Triangle itineraries.",
-      keywords: "destAnuradhapura",
+      keywords: "Anuradhapura Sri Lanka, Anuradhapura tour, Cultural Triangle",
     },
     destPolonnaruwa: {
       title: "Polonnaruwa Sri Lanka | Medieval Ruins Guide",
       description: "Visit Polonnaruwa ruins on a private Cultural Triangle tour with Sundown Tours.",
-      keywords: "destPolonnaruwa",
+      keywords: "Polonnaruwa Sri Lanka, Polonnaruwa tour, Cultural Triangle",
     },
     destTrincomalee: {
       title: "Trincomalee Sri Lanka | East Coast Beaches",
       description: "Trincomalee east-coast beaches and harbour stops on seasonal private itineraries.",
-      keywords: "destTrincomalee",
+      keywords: "Trincomalee Sri Lanka, Trincomalee beach, east coast Sri Lanka",
     },
     destArugamBay: {
       title: "Arugam Bay Sri Lanka | Surf and East Coast",
       description: "Arugam Bay surf town stays linked by private transfer after wildlife or culture days.",
-      keywords: "destArugamBay",
+      keywords: "Arugam Bay Sri Lanka, Arugam Bay surf, east coast Sri Lanka",
     },
     destKalpitiya: {
       title: "Kalpitiya Sri Lanka | Lagoon and Dolphins",
       description: "Kalpitiya lagoon, kitesurf and dolphin trips with private transfers from Negombo.",
-      keywords: "destKalpitiya",
+      keywords: "Kalpitiya Sri Lanka, Kalpitiya dolphins, west coast lagoon",
     },
     guideWhaleWatching: {
       title: "Whale Watching Sri Lanka | Mirissa & Private Tours",
@@ -1011,112 +1025,112 @@ export const en: Dict = {
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
       description: "Private Sri Lanka tours for travellers from Germany with local chauffeur-guides.",
-      keywords: "marketGermany",
+      keywords: "Sri Lanka tours from Germany, Sri Lanka Rundreise, Privatreise Sri Lanka",
     },
     marketFrance: {
       title: "Sri Lanka Tours from France | Circuits Privés",
       description: "Private Sri Lanka circuits for travellers from France with flexible hotels.",
-      keywords: "marketFrance",
+      keywords: "circuit Sri Lanka, voyage Sri Lanka, Sri Lanka from France",
     },
     marketItaly: {
       title: "Sri Lanka Tours from Italy | Private Travel",
       description: "Tailor-made private Sri Lanka tours for travellers from Italy.",
-      keywords: "marketItaly",
+      keywords: "tour Sri Lanka, viaggio Sri Lanka, pacchetti Sri Lanka",
     },
     marketSpain: {
       title: "Sri Lanka Tours from Spain | Private Holidays",
       description: "Private Sri Lanka holidays for travellers from Spain with coast and culture.",
-      keywords: "marketSpain",
+      keywords: "viaje a Sri Lanka, circuito Sri Lanka, vacaciones Sri Lanka",
     },
     marketPoland: {
       title: "Sri Lanka Tours from Poland | Private Itineraries",
       description: "Private Sri Lanka itineraries for travellers from Poland.",
-      keywords: "marketPoland",
+      keywords: "wycieczka Sri Lanka, Sri Lanka from Poland",
     },
     marketRussia: {
       title: "Sri Lanka Tours from Russia | Private Driver Holidays",
       description: "Private chauffeur holidays in Sri Lanka for travellers from Russia.",
-      keywords: "marketRussia",
+      keywords: "туры Шри-Ланка, Sri Lanka from Russia",
     },
     marketNetherlands: {
       title: "Sri Lanka Tours from the Netherlands | Privé Rondreizen",
       description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
-      keywords: "marketNetherlands",
+      keywords: "Sri Lanka vakantie, privé rondreis Sri Lanka",
     },
     marketUK: {
       title: "Sri Lanka Tours from the UK | Private Holidays",
-      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
-      keywords: "marketUK",
+      description: "Private Sri Lanka holidays and tour packages for travellers from the United Kingdom, with a local chauffeur guide.",
+      keywords: "Sri Lanka tours from UK, Sri Lanka holiday packages, Sri Lanka vacation UK",
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",
       description: "Private Sri Lanka Rundreisen for travellers from Austria.",
-      keywords: "marketAustria",
+      keywords: "Sri Lanka Rundreise Österreich, Privatreise Sri Lanka",
     },
     marketSwitzerland: {
       title: "Sri Lanka Tours from Switzerland | Tailor-Made Travel",
       description: "Tailor-made private Sri Lanka travel for visitors from Switzerland.",
-      keywords: "marketSwitzerland",
+      keywords: "Sri Lanka Rundreise Schweiz, Sri Lanka holidays Switzerland",
     },
     monthJanuary: {
       title: "Sri Lanka in January | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in January regions, weather and private itinerary ideas.",
-      keywords: "monthJanuary",
+      keywords: "Sri Lanka in January, January Sri Lanka weather, Sri Lanka holiday January",
     },
     monthFebruary: {
       title: "Sri Lanka in February | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in February regions, weather and private itinerary ideas.",
-      keywords: "monthFebruary",
+      keywords: "Sri Lanka in February, February Sri Lanka weather",
     },
     monthMarch: {
       title: "Sri Lanka in March | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in March regions, weather and private itinerary ideas.",
-      keywords: "monthMarch",
+      keywords: "Sri Lanka in March, March Sri Lanka weather",
     },
     monthApril: {
       title: "Sri Lanka in April | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in April regions, weather and private itinerary ideas.",
-      keywords: "monthApril",
+      keywords: "Sri Lanka in April, April Sri Lanka weather",
     },
     monthMay: {
       title: "Sri Lanka in May | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in May regions, weather and private itinerary ideas.",
-      keywords: "monthMay",
+      keywords: "Sri Lanka in May, May Sri Lanka weather",
     },
     monthJune: {
       title: "Sri Lanka in June | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in June regions, weather and private itinerary ideas.",
-      keywords: "monthJune",
+      keywords: "Sri Lanka in June, June Sri Lanka weather",
     },
     monthJuly: {
       title: "Sri Lanka in July | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in July regions, weather and private itinerary ideas.",
-      keywords: "monthJuly",
+      keywords: "Sri Lanka in July, July Sri Lanka weather",
     },
     monthAugust: {
       title: "Sri Lanka in August | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in August regions, weather and private itinerary ideas.",
-      keywords: "monthAugust",
+      keywords: "Sri Lanka in August, places to visit Sri Lanka August",
     },
     monthSeptember: {
       title: "Sri Lanka in September | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in September regions, weather and private itinerary ideas.",
-      keywords: "monthSeptember",
+      keywords: "Sri Lanka in September, things to do Sri Lanka September",
     },
     monthOctober: {
       title: "Sri Lanka in October | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in October regions, weather and private itinerary ideas.",
-      keywords: "monthOctober",
+      keywords: "Sri Lanka in October, Sri Lanka October travel",
     },
     monthNovember: {
       title: "Sri Lanka in November | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in November regions, weather and private itinerary ideas.",
-      keywords: "monthNovember",
+      keywords: "Sri Lanka in November, November Sri Lanka weather",
     },
     monthDecember: {
       title: "Sri Lanka in December | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in December regions, weather and private itinerary ideas.",
-      keywords: "monthDecember",
+      keywords: "Sri Lanka in December, December Sri Lanka holiday",
     },
     terms: {
       title: "Terms of Service | Sundown Tours Sri Lanka",

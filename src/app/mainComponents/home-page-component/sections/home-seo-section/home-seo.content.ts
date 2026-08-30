@@ -63,9 +63,9 @@ export interface HomeSeoContent {
 
 const en: HomeSeoContent = {
   tag: 'TRAVEL GUIDE',
-  title: 'The Complete Guide to Private Sri Lanka Tours & Tailor-Made Holidays',
+  title: 'Sri Lanka Tours, Holiday Packages & Private Driver Guide',
   subtitle:
-    'Written by the local experts at Sundown Tours Sri Lanka licensed chauffeur guides, tailor-made itineraries and thousands of happy travellers from the UK, Germany, France, Switzerland, Italy, Spain and Poland since 1992.',
+    'How to plan Sri Lanka tours and vacation packages with a licensed chauffeur guide — itineraries, safari timing and tailor-made holidays for travellers from the UK, Germany, France, Switzerland, Italy, Spain and Poland since 1992.',
   tocLabel: 'On this page',
   seeAlsoLabel: 'See also',
   toc: [
@@ -426,6 +426,23 @@ const en: HomeSeoContent = {
       q: 'How do I book a private tour with Sundown Tours?',
       a: 'Browse our tour packages, choose a duration and submit an enquiry via the contact form or WhatsApp. We reply within 24 hours with a tailor-made proposal and transparent pricing.',
       links: [{ pageId: 'contact', label: 'Contact us' }],
+    },
+    {
+      q: 'What is included in a Sri Lanka holiday package?',
+      a: 'A typical private package includes your chauffeur-guide, air-conditioned vehicle, fuel and driver costs. Hotels, national-park jeeps and attraction tickets can be bundled or booked yourself — we quote both options clearly.',
+    },
+    {
+      q: 'Is a 7 day or 10 day Sri Lanka itinerary better?',
+      a: 'Seven days covers Sigiriya, Kandy, Ella, a safari and a beach finish without rushing. Ten days adds slower hill-country time, a second wildlife drive or the Cultural Triangle in more depth — better if you have a two-week vacation including flights.',
+      links: [
+        { pageId: 'tour7', label: '7 day tour' },
+        { pageId: 'tour10', label: '10 day tour' },
+      ],
+    },
+    {
+      q: 'Can I hire a private driver in Sri Lanka without a full tour package?',
+      a: 'Yes. Many guests book a chauffeur-only itinerary and arrange hotels independently. You still get a licensed local driver-guide, airport pickup and a flexible daily plan.',
+      links: [{ pageId: 'guidePrivateDriver', label: 'Private driver guide' }],
     },
   ],
 };

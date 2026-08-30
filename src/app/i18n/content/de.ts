@@ -161,17 +161,17 @@ export const de: Dict = {
 
   home: {
     hero: {
-      title: 'Sri Lanka Rundreise & Privatreise mit Fahrer',
+      title: 'Sri Lanka Rundreisen, Reisepakete & privater Fahrer',
       subtitle:
-        'Entdecken Sie private Sri Lanka Rundreisen mit erfahrenen einheimischen Fahrern und Guides. Erkunden Sie Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa und Galle mit maßgeschneiderten Reiserouten für Paare, Familien und Luxusreisende.',
+        'Private Sri Lanka Rundreisen und Urlaubspakete mit lokalem Fahrer-Guide. Entdecken Sie Sigiriya, Ella, Yala-Safari, Kandy, Nuwara Eliya, Mirissa und Galle – für Reisende aus Deutschland, Österreich und der Schweiz.',
       slide2: 'Unvergessliche Sri Lanka Reisepakete',
       slide3: 'Private Rundreisen durch das schöne Sri Lanka',
       slide4: 'Entdecken Sie Sigiriya, Ella & die Höhepunkte Sri Lankas',
       slide5: 'Sri Lanka Safaris & Abenteuerreisen',
     },
     intro: {
-      title: 'Sri Lanka Reisen mit lokalen Experten',
-      subtitle: 'Private Touren, Fahrerservice und maßgeschneiderter Urlaub in ganz Sri Lanka.',
+      title: 'Sri Lanka Rundreisen & Urlaubspakete mit lokalen Experten',
+      subtitle: 'Private Rundreisen, Fahrer-Guides und maßgeschneiderte 7-, 8- und 10-Tage-Inselreisen.',
       feature1: 'Private Touren',
       feature2: 'Persönliche Fahrer',
       feature3: 'Maßgeschneiderte Pakete',
@@ -236,16 +236,24 @@ export const de: Dict = {
         a: 'Sie können direkt über WhatsApp oder unser Kontaktformular buchen. Wir antworten innerhalb von 24 Stunden mit einer maßgeschneiderten Reiseroute und einem transparenten Angebot.',
       },
       {
-        q: 'Ist ein privater Fahrer im Preis enthalten?',
-        a: 'Ja. Jedes Sundown Tours Paket beinhaltet einen lizenzierten, englischsprachigen Fahrer-Guide, ein komfortables klimatisiertes Fahrzeug, Kraftstoff und alle Fahrerkosten.',
+        q: 'Sind Fahrer und Fahrzeug in den Reisepaketen enthalten?',
+        a: 'Ja. Jedes private Urlaubspaket umfasst einen lizenzierten, englischsprachigen Fahrer-Guide, ein klimatisiertes Fahrzeug, Kraftstoff und alle Fahrerkosten. Sie teilen das Auto nicht mit anderen Gruppen.',
       },
       {
-        q: 'Kann die Reiseroute individuell angepasst werden?',
-        a: 'Selbstverständlich. Alle unsere Sri Lanka Reisen sind vollständig maßgeschneidert. Nennen Sie uns Ihre Reisedaten, Interessen und Ihr Budget und wir gestalten die perfekte Route.',
+        q: 'Kann ich meinen Sri-Lanka-Urlaub individuell planen?',
+        a: 'Ja. Alle Rundreisen sind maßgeschneidert. Nennen Sie uns Daten, Tempo und Interessen (Safari, Teeland, Strände, Familie) – wir bauen die Route darum herum.',
       },
       {
-        q: 'Wann ist die beste Reisezeit für Sri Lanka?',
-        a: 'Sri Lanka ist ein Ganzjahresziel. Die Süd- und Westküste ist von Dezember bis April am besten, die Ostküste von Mai bis September.',
+        q: 'Wann ist die beste Reisezeit für Sri Lanka aus Europa?',
+        a: 'Sri Lanka ist ein Ganzjahresziel. Süd- und Westküste sind von Dezember bis April am besten, die Ostküste meist von Mai bis September. Wir planen die Privatreise nach dem Monsun Ihres Reisemonats.',
+      },
+      {
+        q: 'Welches Reisepaket eignet sich für Erstbesucher?',
+        a: 'Die meisten Gäste aus Deutschland, Österreich und der Schweiz wählen 7, 8 oder 10 Tage: Kulturdreieck (Sigiriya, Kandy), Bergland (Ella, Nuwara Eliya), Safari und Strandabschluss.',
+      },
+      {
+        q: 'Bieten Sie Sri-Lanka-Urlaub für Reisende aus Europa an?',
+        a: 'Ja. Wir planen private Fahrer-Touren für Gäste aus Deutschland, der Schweiz, Österreich und ganz Europa, mit englischsprachigen Fahrer-Guides und WhatsApp-Planung vor dem Flug.',
       },
     ],
   },
@@ -324,8 +332,8 @@ export const de: Dict = {
     header: 'Sri Lanka Reisepakete',
     breadcrumb: 'Reisepakete',
     eyebrow: 'Private Rundreisen',
-    title: 'Private Sri Lanka Rundreisen',
-    lead: 'Entdecken Sie unsere beliebtesten privaten Sri Lanka Rundreisen – von kurzen 2-Tages-Ausflügen bis zu kompletten 10-tägigen Inselreisen. Jede Reise ist privat, maßgeschneidert und wird von einem erfahrenen Fahrer-Guide begleitet.',
+    title: 'Sri Lanka Reisepakete & Privatreisen',
+    lead: 'Vergleichen Sie 7-, 8- und 10-Tage-Reisepakete sowie kürzere Privatreisen. Jeder Urlaub ist privat, maßgeschneidert und mit lokalem Fahrer-Guide – keine Gruppenbusse.',
     faqTitle: 'Häufig gestellte Fragen',
     faq: [
       {
@@ -339,6 +347,10 @@ export const de: Dict = {
       {
         q: 'Welche Reise eignet sich am besten für Erstbesucher?',
         a: 'Unsere 7- bis 10-tägigen Rundreisen sind ideal für Erstbesucher, da sie Kultur, Tierwelt, Bergland und Strände in einer ausgewogenen Route verbinden.',
+      },
+      {
+        q: 'Kann ich nur einen privaten Fahrer buchen, ohne Hotelpaket?',
+        a: 'Ja. Wählen Sie ein komplettes Reisepaket mit Hotels oder nur den Fahrer-Guide, wenn Sie Unterkünfte selbst buchen. Beide Varianten beinhalten einen lizenzierten privaten Fahrer-Guide.',
       },
     ],
   },
@@ -590,19 +602,19 @@ export const de: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Rundreise & Privatreise mit Fahrer | Sundown Tours',
+      title: 'Sri Lanka Rundreisen & Urlaubspakete | Privater Fahrer',
       description:
-        'Sri Lanka Rundreise privat erleben: maßgeschneiderte Privatreisen mit erfahrenem Fahrer, Safari und Strandurlaub. Jetzt Ihre Sri Lanka Reise planen.',
-      keywords: 'Sri Lanka Rundreise, Sri Lanka Privatreise, Sri Lanka Fahrer, Sri Lanka Safari, Sri Lanka Urlaub',
+        'Private Sri Lanka Rundreisen und Urlaubspakete mit lokalem Fahrer-Guide. 7-, 8- und 10-Tage-Routen mit Sigiriya, Ella, Yala-Safari und Strand. Seit 1992.',
+      keywords: 'Sri Lanka Rundreise, Sri Lanka Reisepakete, Sri Lanka Urlaub, privater Fahrer Sri Lanka, Sri Lanka Privatreise',
     },
     tours: {
-      title: 'Sri Lanka Rundreise Pakete | Private Reisen mit Fahrer',
+      title: 'Sri Lanka Reisepakete | 7, 8 & 10 Tage Privatreise',
       description:
-        'Entdecken Sie private Sri Lanka Rundreisen für europäische Reisende – maßgeschneiderte Urlaube, privater Fahrer und Luxus-Safaris.',
-      keywords: 'Sri Lanka Rundreise, Sri Lanka Reisepakete, Sri Lanka Privatreise, Sri Lanka Urlaub',
+        'Sri Lanka Reisepakete für Gäste aus Deutschland, Österreich und der Schweiz: private 7-, 8- und 10-Tage-Urlaube mit Fahrer-Guide, Safari und Strand – keine Gruppenreisen.',
+      keywords: 'Sri Lanka Reisepakete, Sri Lanka Rundreise, Sri Lanka Urlaub, 7 Tage Sri Lanka, 10 Tage Sri Lanka',
     },
     services: {
-      title: 'Unsere Leistungen | Sundown Tours Sri Lanka',
+      title: 'Private Touren, Fahrer & Urlaubsservice | Sri Lanka',
       description:
         'Unsere Leistungen: private Touren, maßgeschneiderte Urlaubspakete, Rundreisen mit Fahrer und Tagesausflüge in Sri Lanka.',
       keywords: 'Sri Lanka Fahrer, Sri Lanka Privatreise, Sri Lanka Reisepakete, Sri Lanka Safari',
@@ -614,7 +626,7 @@ export const de: Dict = {
       keywords: 'Sri Lanka Reiseveranstalter, Sri Lanka Reiseagentur, Sri Lanka Rundreise',
     },
     contact: {
-      title: 'Kontakt | Sri Lanka Rundreise planen | Sundown Tours',
+      title: 'Sri Lanka Rundreise planen | Kontakt',
       description:
         'Kontaktieren Sie Sundown Tours für maßgeschneiderte Sri Lanka Rundreisen und private Reisen. Wir antworten innerhalb von 24 Stunden.',
       keywords: 'Sri Lanka Reise buchen, Sri Lanka Privatreise Kontakt, Sri Lanka Fahrer buchen',

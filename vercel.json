@@ -1078,6 +1078,11 @@
       "permanent": true
     },
     {
+      "source": "/sri-lanka-holidays",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
       "source": "/sri-lanka-packing-guide",
       "destination": "/travel-guides/sri-lanka-packing-guide",
       "permanent": true
@@ -1103,8 +1108,23 @@
       "permanent": true
     },
     {
+      "source": "/sri-lanka-tour-packages",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-tours",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
       "source": "/sri-lanka-travel-guides",
       "destination": "/travel-guides",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-vacation",
+      "destination": "/sri-lanka-private-tour",
       "permanent": true
     },
     {

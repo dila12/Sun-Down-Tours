@@ -26,6 +26,10 @@ const STATIC_PATH_REDIRECTS = {
   '/packages': '/sri-lanka-private-tour',
   '/tour-packages': '/sri-lanka-private-tour',
   '/tours': '/sri-lanka-private-tour',
+  '/sri-lanka-tours': '/sri-lanka-private-tour',
+  '/sri-lanka-tour-packages': '/sri-lanka-private-tour',
+  '/sri-lanka-holidays': '/sri-lanka-private-tour',
+  '/sri-lanka-vacation': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
   '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
 };

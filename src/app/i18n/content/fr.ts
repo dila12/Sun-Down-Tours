@@ -161,17 +161,17 @@ export const fr: Dict = {
 
   home: {
     hero: {
-      title: 'Circuit Sri Lanka & chauffeur privé',
+      title: 'Circuits Sri Lanka, séjours & chauffeur privé',
       subtitle:
-        'Découvrez des circuits privés au Sri Lanka avec des chauffeurs-guides locaux expérimentés. Explorez Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa et Galle avec des itinéraires sur mesure pour couples, familles et voyageurs de luxe.',
+        'Réservez des circuits privés et des séjours sur mesure au Sri Lanka avec un chauffeur-guide local. Sigiriya, Ella, safari à Yala, Kandy, Nuwara Eliya, Mirissa et Galle — pour voyageurs de France, Belgique et Suisse.',
       slide2: 'Des voyages inoubliables au Sri Lanka',
       slide3: 'Circuits privés à travers le magnifique Sri Lanka',
       slide4: 'Découvrez Sigiriya, Ella et les incontournables du Sri Lanka',
       slide5: 'Safaris et circuits aventure au Sri Lanka',
     },
     intro: {
-      title: 'Voyages au Sri Lanka avec des experts locaux',
-      subtitle: 'Circuits privés, chauffeur privé et séjours sur mesure dans tout le Sri Lanka.',
+      title: 'Circuits Sri Lanka & séjours avec des experts locaux',
+      subtitle: 'Circuits privés, chauffeur-guide et itinéraires de 7, 8 et 10 jours à travers l’île.',
       feature1: 'Circuits privés',
       feature2: 'Chauffeurs privés',
       feature3: 'Circuits sur mesure',
@@ -236,16 +236,24 @@ export const fr: Dict = {
         a: "Vous pouvez réserver directement via WhatsApp ou notre formulaire de contact. Nous répondons sous 24 heures avec un itinéraire sur mesure et un devis transparent.",
       },
       {
-        q: 'Un chauffeur privé est-il inclus dans vos circuits ?',
-        a: 'Oui. Chaque circuit Sundown Tours inclut un chauffeur-guide anglophone agréé, un véhicule climatisé confortable, le carburant et tous les frais de chauffeur.',
+        q: 'Le chauffeur est-il inclus dans vos séjours ?',
+        a: 'Oui. Chaque séjour privé inclut un chauffeur-guide anglophone agréé, un véhicule climatisé, le carburant et les frais de chauffeur. Vous ne partagez pas la voiture avec d’autres groupes.',
       },
       {
-        q: "L'itinéraire peut-il être personnalisé ?",
-        a: 'Absolument. Tous nos circuits au Sri Lanka sont entièrement sur mesure. Indiquez-nous vos dates, vos centres d\u2019intérêt et votre budget, et nous concevrons l\u2019itinéraire parfait.',
+        q: 'Puis-je personnaliser mon voyage au Sri Lanka ?',
+        a: 'Oui. Tous les circuits sont sur mesure. Indiquez dates, rythme et envies (safari, pays du thé, plages, famille) : nous construisons l’itinéraire autour de vous.',
       },
       {
-        q: 'Quelle est la meilleure période pour visiter le Sri Lanka ?',
-        a: 'Le Sri Lanka se visite toute l\u2019année. Les côtes sud et ouest sont idéales de décembre à avril, tandis que la côte est brille de mai à septembre.',
+        q: 'Quelle est la meilleure période pour un voyage au Sri Lanka depuis l’Europe ?',
+        a: 'Le Sri Lanka se visite toute l’année. Côtes sud et ouest : décembre à avril ; côte est : souvent mai à septembre. Nous adaptons le circuit privé à la mousson de votre mois de voyage.',
+      },
+      {
+        q: 'Quel circuit convient aux premières visites ?',
+        a: 'La plupart des voyageurs français choisissent 7, 8 ou 10 jours : triangle culturel (Sigiriya, Kandy), collines (Ella, Nuwara Eliya), safari et fin de séjour à la plage.',
+      },
+      {
+        q: 'Organisez-vous des circuits Sri Lanka pour des voyageurs d’Europe ?',
+        a: 'Oui. Nous préparons des circuits privés avec chauffeur pour des hôtes de France, Belgique, Suisse et d’Europe, avec chauffeur-guide anglophone et organisation par WhatsApp avant le vol.',
       },
     ],
   },
@@ -323,8 +331,8 @@ export const fr: Dict = {
     header: 'Circuits au Sri Lanka',
     breadcrumb: 'Circuits',
     eyebrow: 'Circuits privés',
-    title: 'Circuits privés au Sri Lanka',
-    lead: "Découvrez nos circuits privés les plus populaires au Sri Lanka, des courtes escapades de 2 jours aux voyages complets de 10 jours à travers l'île. Chaque circuit est privé, sur mesure et accompagné d'un chauffeur-guide expérimenté.",
+    title: 'Circuits Sri Lanka & séjours privés',
+    lead: 'Comparez les circuits de 7, 8 et 10 jours et les séjours plus courts. Chaque voyage est privé, sur mesure et accompagné d’un chauffeur-guide local — pas de cars de groupe.',
     faqTitle: 'Questions fréquentes',
     faq: [
       {
