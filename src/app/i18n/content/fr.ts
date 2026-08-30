@@ -347,6 +347,10 @@ export const fr: Dict = {
         q: 'Quel circuit convient le mieux aux premiers visiteurs ?',
         a: "Nos circuits de 7 à 10 jours sont idéaux pour une première visite car ils combinent culture, faune, montagnes et plages dans un itinéraire équilibré.",
       },
+      {
+        q: 'Puis-je réserver seulement un chauffeur privé, sans forfait hôtel ?',
+        a: 'Oui. Choisissez un séjour complet avec hôtels, ou uniquement le chauffeur-guide si vous réservez vos nuits. Les deux options incluent un chauffeur-guide agréé.',
+      },
     ],
   },
 
@@ -597,19 +601,19 @@ export const fr: Dict = {
 
   seo: {
     home: {
-      title: 'Circuit Sri Lanka & chauffeur privé | Sundown Tours',
+      title: 'Circuits Sri Lanka & séjours | Chauffeur privé',
       description:
-        'Circuit Sri Lanka privé sur mesure avec chauffeur expérimenté, safari et séjours balnéaires. Planifiez dès maintenant votre voyage au Sri Lanka.',
-      keywords: 'Circuit Sri Lanka, Voyage Sri Lanka, Chauffeur Privé Sri Lanka, Safari Sri Lanka',
+        'Circuits privés et séjours au Sri Lanka avec chauffeur-guide local. Itinéraires de 7, 8 et 10 jours : Sigiriya, Ella, safari à Yala et plages. Depuis 1992.',
+      keywords: 'circuit Sri Lanka, voyage Sri Lanka, chauffeur privé Sri Lanka, séjour Sri Lanka, safari Sri Lanka',
     },
     tours: {
-      title: 'Circuits Sri Lanka | Voyages privés avec chauffeur',
+      title: 'Circuits Sri Lanka | 7, 8 et 10 jours en privé',
       description:
-        'Découvrez nos circuits privés au Sri Lanka pour voyageurs européens : séjours sur mesure, chauffeur privé et safaris de luxe.',
-      keywords: 'Circuit Sri Lanka, Voyage Sri Lanka, Chauffeur Privé Sri Lanka, Safari Sri Lanka',
+        'Circuits Sri Lanka pour voyageurs d’Europe : séjours privés de 7, 8 et 10 jours avec chauffeur-guide, safari et plage — pas de voyages de groupe.',
+      keywords: 'circuits Sri Lanka, voyage Sri Lanka, circuit 7 jours, circuit 10 jours, chauffeur privé',
     },
     services: {
-      title: 'Nos services | Sundown Tours Sri Lanka',
+      title: 'Circuits privés, chauffeur et séjours | Sri Lanka',
       description:
         'Nos services : circuits privés, séjours sur mesure, circuits avec chauffeur et excursions à la journée au Sri Lanka.',
       keywords: 'Chauffeur Privé Sri Lanka, Voyage Sri Lanka, Circuit Sri Lanka, Safari Sri Lanka',
@@ -621,7 +625,7 @@ export const fr: Dict = {
       keywords: 'agence de voyage Sri Lanka, voyagiste Sri Lanka, Circuit Sri Lanka',
     },
     contact: {
-      title: 'Contact | Planifiez votre circuit Sri Lanka | Sundown Tours',
+      title: 'Planifiez votre circuit Sri Lanka | Contact',
       description:
         'Contactez Sundown Tours pour des circuits privés sur mesure au Sri Lanka. Nous répondons sous 24 heures.',
       keywords: 'réserver voyage Sri Lanka, contact circuit Sri Lanka, Chauffeur Privé Sri Lanka',

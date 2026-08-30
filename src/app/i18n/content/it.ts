@@ -161,17 +161,17 @@ export const it: Dict = {
 
   home: {
     hero: {
-      title: 'Tour Sri Lanka & autista privato',
+      title: 'Tour Sri Lanka, pacchetti vacanze e autista privato',
       subtitle:
-        'Scopri tour privati in Sri Lanka con esperti autisti-guida locali. Esplora Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa e Galle con itinerari su misura per coppie, famiglie e viaggiatori di lusso.',
+        'Tour privati e pacchetti vacanze in Sri Lanka con autista-guida locale. Sigiriya, Ella, safari a Yala, Kandy, Nuwara Eliya, Mirissa e Galle — per viaggiatori da Italia e Svizzera.',
       slide2: 'Viaggi indimenticabili in Sri Lanka',
       slide3: 'Tour privati attraverso il bellissimo Sri Lanka',
       slide4: 'Scopri Sigiriya, Ella e le meraviglie dello Sri Lanka',
       slide5: 'Safari e tour avventura in Sri Lanka',
     },
     intro: {
-      title: 'Viaggi in Sri Lanka con esperti locali',
-      subtitle: 'Tour privati, servizio autista e viaggi su misura in tutto lo Sri Lanka.',
+      title: 'Tour Sri Lanka e pacchetti vacanze con esperti locali',
+      subtitle: 'Tour privati, autista-guida e itinerari di 7, 8 e 10 giorni in tutta l’isola.',
       feature1: 'Tour privati',
       feature2: 'Autisti privati',
       feature3: 'Pacchetti su misura',
@@ -236,16 +236,24 @@ export const it: Dict = {
         a: 'Puoi prenotare direttamente tramite WhatsApp o il nostro modulo di contatto. Rispondiamo entro 24 ore con un itinerario su misura e un preventivo trasparente.',
       },
       {
-        q: 'I tour includono un autista-guida privato?',
-        a: "Sì. Ogni pacchetto Sundown Tours include un autista-guida autorizzato che parla inglese, un comodo veicolo climatizzato, carburante e tutte le spese dell'autista.",
+        q: 'I pacchetti vacanze includono un autista privato?',
+        a: 'Sì. Ogni pacchetto privato include un autista-guida autorizzato di lingua inglese, un veicolo climatizzato, carburante e tutte le spese dell’autista. Non condividi l’auto con altri gruppi.',
       },
       {
-        q: "L'itinerario può essere personalizzato?",
-        a: 'Assolutamente. Tutti i nostri tour in Sri Lanka sono completamente su misura. Indicaci le tue date, i tuoi interessi e il tuo budget e creeremo l\u2019itinerario perfetto.',
+        q: 'Posso personalizzare la vacanza in Sri Lanka?',
+        a: 'Sì. Tutti i tour sono su misura. Dicci date, ritmo e interessi (safari, colline del tè, spiagge, famiglia) e costruiamo l’itinerario intorno a te.',
       },
       {
-        q: "Qual è il periodo migliore per visitare lo Sri Lanka?",
-        a: 'Lo Sri Lanka è una destinazione per tutto l\u2019anno. Le coste sud e ovest sono ideali da dicembre ad aprile, mentre la costa est dà il meglio da maggio a settembre.',
+        q: 'Qual è il periodo migliore per un viaggio in Sri Lanka dall’Europa?',
+        a: 'Lo Sri Lanka è visitabile tutto l’anno. Coste sud e ovest: da dicembre ad aprile; costa est: di solito da maggio a settembre. Adattiamo il tour privato al monsone del tuo mese di viaggio.',
+      },
+      {
+        q: 'Quale pacchetto è meglio per una prima visita?',
+        a: 'La maggior parte dei viaggiatori italiani sceglie 7, 8 o 10 giorni: Triangolo Culturale (Sigiriya, Kandy), colline (Ella, Nuwara Eliya), safari e spiaggia.',
+      },
+      {
+        q: 'Organizzate tour in Sri Lanka per viaggiatori dall’Europa?',
+        a: 'Sì. Organizziamo tour privati con autista per ospiti da Italia, Svizzera e dal resto d’Europa, con autista-guida in inglese e pianificazione via WhatsApp prima del volo.',
       },
     ],
   },
@@ -323,8 +331,8 @@ export const it: Dict = {
     header: 'Pacchetti tour Sri Lanka',
     breadcrumb: 'Tour',
     eyebrow: 'Tour privati',
-    title: 'Tour privati in Sri Lanka',
-    lead: "Scopri i nostri tour privati più venduti in Sri Lanka, dalle brevi fughe di 2 giorni ai viaggi completi di 10 giorni sull'isola. Ogni tour è privato, su misura e guidato da un autista-guida esperto.",
+    title: 'Pacchetti tour Sri Lanka e vacanze private',
+    lead: 'Confronta pacchetti di 7, 8 e 10 giorni e tour più brevi. Ogni vacanza è privata, su misura e con autista-guida locale — niente pullman di gruppo.',
     faqTitle: 'Domande frequenti',
     faq: [
       {
@@ -338,6 +346,10 @@ export const it: Dict = {
       {
         q: 'Quale tour è il migliore per chi visita per la prima volta?',
         a: 'I nostri tour da 7 a 10 giorni sono ideali per la prima visita perché combinano cultura, fauna, montagne e spiagge in un itinerario equilibrato.',
+      },
+      {
+        q: 'Posso prenotare solo un autista privato, senza pacchetto hotel?',
+        a: 'Sì. Scegli un pacchetto completo con hotel, oppure solo l’autista-guida se prenoti tu le notti. Entrambe le opzioni includono un autista-guida autorizzato.',
       },
     ],
   },
@@ -589,19 +601,19 @@ export const it: Dict = {
 
   seo: {
     home: {
-      title: 'Tour Sri Lanka & autista privato | Sundown Tours',
+      title: 'Tour Sri Lanka e pacchetti vacanze | Autista privato',
       description:
-        'Tour Sri Lanka privati su misura con autista esperto, safari e vacanze al mare. Pianifica ora il tuo viaggio in Sri Lanka.',
-      keywords: 'Tour Sri Lanka, Viaggio Sri Lanka, Autista Privato Sri Lanka, safari Sri Lanka',
+        'Tour privati e pacchetti vacanze in Sri Lanka con autista-guida locale. Itinerari di 7, 8 e 10 giorni: Sigiriya, Ella, safari a Yala e spiagge. Dal 1992.',
+      keywords: 'tour Sri Lanka, viaggio Sri Lanka, pacchetti Sri Lanka, autista privato Sri Lanka, safari Sri Lanka',
     },
     tours: {
-      title: 'Tour Sri Lanka | Viaggi privati con autista',
+      title: 'Pacchetti tour Sri Lanka | 7, 8 e 10 giorni in privato',
       description:
-        'Scopri i nostri tour privati in Sri Lanka per viaggiatori europei: viaggi su misura, autista privato e safari di lusso.',
-      keywords: 'Tour Sri Lanka, Viaggio Sri Lanka, Autista Privato Sri Lanka, pacchetti Sri Lanka',
+        'Pacchetti tour Sri Lanka per viaggiatori dall’Europa: vacanze private di 7, 8 e 10 giorni con autista-guida, safari e spiaggia — non tour di gruppo.',
+      keywords: 'pacchetti Sri Lanka, tour Sri Lanka, viaggio Sri Lanka, tour 7 giorni, itinerario 10 giorni',
     },
     services: {
-      title: 'I nostri servizi | Sundown Tours Sri Lanka',
+      title: 'Tour privati, autista e vacanze | Sri Lanka',
       description:
         'I nostri servizi: tour privati, pacchetti su misura, tour con autista ed escursioni giornaliere in Sri Lanka.',
       keywords: 'Autista Privato Sri Lanka, Viaggio Sri Lanka, Tour Sri Lanka, safari Sri Lanka',
@@ -613,7 +625,7 @@ export const it: Dict = {
       keywords: 'agenzia viaggi Sri Lanka, tour operator Sri Lanka, Tour Sri Lanka',
     },
     contact: {
-      title: 'Contatti | Pianifica il tuo tour in Sri Lanka | Sundown Tours',
+      title: 'Pianifica il tuo tour in Sri Lanka | Contatti',
       description:
         'Contatta Sundown Tours per tour privati su misura in Sri Lanka. Rispondiamo entro 24 ore.',
       keywords: 'prenota viaggio Sri Lanka, contatto tour Sri Lanka, Autista Privato Sri Lanka',

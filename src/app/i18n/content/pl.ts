@@ -161,17 +161,17 @@ export const pl: Dict = {
 
   home: {
     hero: {
-      title: 'Wycieczka na Sri Lankę z prywatnym kierowcą',
+      title: 'Wycieczki Sri Lanka, pakiety wakacyjne i prywatny kierowca',
       subtitle:
-        'Odkryj prywatne wycieczki po Sri Lance z doświadczonymi lokalnymi kierowcami-przewodnikami. Zwiedzaj Sigiriya, Ellę, Yalę, Kandy, Nuwara Eliya, Mirissę i Galle według planów szytych na miarę dla par, rodzin i podróżnych premium.',
+        'Prywatne wycieczki i pakiety wakacyjne po Sri Lance z lokalnym kierowcą-przewodnikiem. Sigiriya, Ella, safari w Yali, Kandy, Nuwara Eliya, Mirissa i Galle — dla podróżnych z Polski i Europy.',
       slide2: 'Niezapomniane wycieczki po Sri Lance',
       slide3: 'Prywatne objazdy po pięknej Sri Lance',
       slide4: 'Odkryj Sigiriya, Ellę i największe atrakcje Sri Lanki',
       slide5: 'Safari i wyprawy przygodowe na Sri Lance',
     },
     intro: {
-      title: 'Podróże na Sri Lankę z lokalnymi ekspertami',
-      subtitle: 'Prywatne wycieczki, usługi kierowcy i wakacje szyte na miarę w całej Sri Lance.',
+      title: 'Wycieczki i pakiety wakacyjne na Sri Lankę z lokalnymi ekspertami',
+      subtitle: 'Prywatne objazdy, kierowca-przewodnik oraz trasy 7, 8 i 10 dni po całej wyspie.',
       feature1: 'Prywatne wycieczki',
       feature2: 'Prywatni kierowcy',
       feature3: 'Pakiety na miarę',
@@ -236,16 +236,24 @@ export const pl: Dict = {
         a: 'Możesz zarezerwować bezpośrednio przez WhatsApp lub nasz formularz kontaktowy. Odpowiadamy w ciągu 24 godzin, przesyłając plan szyty na miarę i przejrzystą wycenę.',
       },
       {
-        q: 'Czy wycieczki obejmują prywatnego kierowcę-przewodnika?',
-        a: 'Tak. Każdy pakiet Sundown Tours obejmuje licencjonowanego, anglojęzycznego kierowcę-przewodnika, komfortowy klimatyzowany pojazd, paliwo i wszystkie koszty kierowcy.',
+        q: 'Czy pakiety wakacyjne obejmują prywatnego kierowcę?',
+        a: 'Tak. Każdy prywatny pakiet obejmuje licencjonowanego, anglojęzycznego kierowcę-przewodnika, klimatyzowany pojazd, paliwo i wszystkie koszty kierowcy. Nie dzielisz auta z innymi grupami.',
       },
       {
-        q: 'Czy plan podróży można dostosować?',
-        a: 'Oczywiście. Wszystkie nasze wycieczki po Sri Lance są w pełni szyte na miarę. Podaj nam terminy, zainteresowania i budżet, a zaprojektujemy idealną trasę.',
+        q: 'Czy mogę dostosować wakacje na Sri Lance?',
+        a: 'Tak. Wszystkie wycieczki są szyte na miarę. Podaj terminy, tempo i zainteresowania (safari, herbaciane wzgórza, plaże, rodzina) — ułożymy trasę wokół Ciebie.',
       },
       {
-        q: 'Kiedy najlepiej odwiedzić Sri Lankę?',
-        a: 'Sri Lanka to kierunek całoroczny. Wybrzeże południowe i zachodnie jest najlepsze od grudnia do kwietnia, a wschodnie od maja do września.',
+        q: 'Kiedy najlepiej lecieć na Sri Lankę z Europy?',
+        a: 'Sri Lanka jest destynacją całoroczną. Południe i zachód: grudzień–kwiecień; wschód: zwykle maj–wrzesień. Dopasowujemy prywatną trasę do monsunu w miesiącu Twojej podróży.',
+      },
+      {
+        q: 'Który pakiet jest najlepszy na pierwszą wizytę?',
+        a: 'Większość gości z Polski wybiera 7, 8 lub 10 dni: Trójkąt Kulturowy (Sigiriya, Kandy), góry (Ella, Nuwara Eliya), safari i plażę.',
+      },
+      {
+        q: 'Czy organizujecie wycieczki na Sri Lankę dla podróżnych z Europy?',
+        a: 'Tak. Planujemy prywatne objazdy z kierowcą dla gości z Polski i Europy, z anglojęzycznym kierowcą-przewodnikiem i ustaleniami przez WhatsApp przed wylotem.',
       },
     ],
   },
@@ -323,8 +331,8 @@ export const pl: Dict = {
     header: 'Wycieczki po Sri Lance',
     breadcrumb: 'Wycieczki',
     eyebrow: 'Prywatne objazdy',
-    title: 'Prywatne wycieczki po Sri Lance',
-    lead: 'Odkryj nasze najpopularniejsze prywatne objazdy po Sri Lance – od krótkich 2-dniowych wypadów po pełne 10-dniowe podróże po wyspie. Każda wycieczka jest prywatna, szyta na miarę i prowadzona przez doświadczonego kierowcę-przewodnika.',
+    title: 'Pakiety i prywatne wycieczki po Sri Lance',
+    lead: 'Porównaj pakiety 7, 8 i 10 dni oraz krótsze wyjazdy. Każde wakacje są prywatne, szyte na miarę i z lokalnym kierowcą-przewodnikiem — bez autokarów grupowych.',
     faqTitle: 'Najczęściej zadawane pytania',
     faq: [
       {
@@ -338,6 +346,10 @@ export const pl: Dict = {
       {
         q: 'Która wycieczka jest najlepsza dla osób odwiedzających po raz pierwszy?',
         a: 'Nasze 7–10-dniowe objazdy są idealne na pierwszą wizytę, ponieważ łączą kulturę, przyrodę, góry i plaże w zrównoważonej trasie.',
+      },
+      {
+        q: 'Czy mogę wynająć tylko prywatnego kierowcę, bez pakietu hoteli?',
+        a: 'Tak. Wybierz pełny pakiet z hotelami albo samego kierowcę-przewodnika, jeśli noclegi rezerwujesz samodzielnie. Obie opcje obejmują licencjonowanego prywatnego kierowcę-przewodnika.',
       },
     ],
   },
@@ -557,19 +569,19 @@ export const pl: Dict = {
 
   seo: {
     home: {
-      title: 'Wycieczka Sri Lanka z prywatnym kierowcą | Sundown Tours',
+      title: 'Wycieczki Sri Lanka i pakiety wakacyjne | Prywatny kierowca',
       description:
-        'Prywatna wycieczka na Sri Lankę szyta na miarę z doświadczonym kierowcą, safari i wakacjami na plaży. Zaplanuj podróż już dziś.',
-      keywords: 'Wycieczka Sri Lanka, Prywatny Kierowca Sri Lanka, Objazd Sri Lanka, safari Sri Lanka',
+        'Prywatne wycieczki i pakiety wakacyjne po Sri Lance z lokalnym kierowcą-przewodnikiem. Trasy 7, 8 i 10 dni: Sigiriya, Ella, safari w Yali i plaże. Od 1992.',
+      keywords: 'wycieczka Sri Lanka, pakiety Sri Lanka, prywatny kierowca Sri Lanka, safari Sri Lanka',
     },
     tours: {
-      title: 'Wycieczki Sri Lanka | Prywatne podróże z kierowcą',
+      title: 'Pakiety wycieczek Sri Lanka | 7, 8 i 10 dni prywatnie',
       description:
-        'Odkryj nasze prywatne wycieczki po Sri Lance dla europejskich podróżnych: wakacje na miarę, prywatny kierowca i luksusowe safari.',
-      keywords: 'Wycieczka Sri Lanka, Objazd Sri Lanka, Prywatny Kierowca Sri Lanka, pakiety Sri Lanka',
+        'Pakiety wycieczek po Sri Lance dla podróżnych z Europy: prywatne wakacje 7, 8 i 10 dni z kierowcą-przewodnikiem, safari i plażą — nie wycieczki grupowe.',
+      keywords: 'pakiety Sri Lanka, wycieczka Sri Lanka, objazd 7 dni, objazd 10 dni',
     },
     services: {
-      title: 'Nasze usługi | Sundown Tours Sri Lanka',
+      title: 'Prywatne wycieczki, kierowca i wakacje | Sri Lanka',
       description:
         'Nasze usługi: prywatne wycieczki, pakiety na miarę, objazdy z kierowcą i wycieczki jednodniowe na Sri Lance.',
       keywords: 'Prywatny Kierowca Sri Lanka, Wycieczka Sri Lanka, Objazd Sri Lanka, safari Sri Lanka',
@@ -581,7 +593,7 @@ export const pl: Dict = {
       keywords: 'biuro podróży Sri Lanka, organizator Sri Lanka, Wycieczka Sri Lanka',
     },
     contact: {
-      title: 'Kontakt | Zaplanuj wycieczkę po Sri Lance | Sundown Tours',
+      title: 'Zaplanuj wycieczkę po Sri Lance | Kontakt',
       description:
         'Skontaktuj się z Sundown Tours w sprawie prywatnych wycieczek szytych na miarę po Sri Lance. Odpowiadamy w ciągu 24 godzin.',
       keywords: 'rezerwacja Sri Lanka, kontakt wycieczka Sri Lanka, Prywatny Kierowca Sri Lanka',

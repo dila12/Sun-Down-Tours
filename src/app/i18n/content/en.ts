@@ -701,7 +701,7 @@ export const en: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Tours & Holiday Packages | Private Driver'
+      title: 'Sri Lanka Tours & Holiday Packages | Private Driver',
       description:
         'Private Sri Lanka tours and holiday packages with a local chauffeur guide. 7, 8 and 10 day itineraries covering Sigiriya, Ella, Yala safari and beaches. Trusted since 1992.',
       keywords:

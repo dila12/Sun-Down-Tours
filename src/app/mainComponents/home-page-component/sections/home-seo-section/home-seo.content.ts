@@ -449,7 +449,7 @@ const en: HomeSeoContent = {
 
 const de: HomeSeoContent = {
   tag: 'REISEFÜHRER',
-  title: 'Der komplette Ratgeber für private Sri Lanka Rundreisen & maßgeschneiderten Urlaub',
+  title: 'Sri Lanka Rundreisen, Urlaubspakete & privater Fahrer',
   subtitle:
     'Geschrieben von den lokalen Experten von Sundown Tours Sri Lanka – lizenzierte Fahrer-Guides, maßgeschneiderte Routen und seit 1992 tausende zufriedene Reisende aus Deutschland, der Schweiz, Österreich und ganz Europa.',
   tocLabel: 'Auf dieser Seite',
@@ -814,7 +814,7 @@ const de: HomeSeoContent = {
 
 const fr: HomeSeoContent = {
   tag: 'GUIDE DE VOYAGE',
-  title: 'Le guide complet des circuits privés au Sri Lanka & séjours sur mesure',
+  title: 'Circuits Sri Lanka, séjours & chauffeur privé',
   subtitle:
     'Rédigé par les experts locaux de Sundown Tours Sri Lanka – chauffeurs-guides agréés, itinéraires sur mesure et des milliers de voyageurs satisfaits venus de France, de Belgique, de Suisse et de toute l’Europe depuis 1992.',
   tocLabel: 'Sur cette page',
@@ -1179,7 +1179,7 @@ const fr: HomeSeoContent = {
 
 const it: HomeSeoContent = {
   tag: 'GUIDA DI VIAGGIO',
-  title: 'La guida completa ai tour privati in Sri Lanka & vacanze su misura',
+  title: 'Tour Sri Lanka, pacchetti vacanze e autista privato',
   subtitle:
     'Scritta dagli esperti locali di Sundown Tours Sri Lanka – autisti-guida autorizzati, itinerari su misura e migliaia di viaggiatori soddisfatti da Italia, Svizzera e da tutta Europa dal 1992.',
   tocLabel: 'In questa pagina',
@@ -1544,7 +1544,7 @@ const it: HomeSeoContent = {
 
 const es: HomeSeoContent = {
   tag: 'GUÍA DE VIAJE',
-  title: 'La guía completa de circuitos privados por Sri Lanka y viajes a medida',
+  title: 'Viajes a Sri Lanka, paquetes vacacionales y conductor privado',
   subtitle:
     'Escrita por los expertos locales de Sundown Tours Sri Lanka: chóferes-guía autorizados, itinerarios a medida y miles de viajeros satisfechos de España, América Latina y toda Europa desde 1992.',
   tocLabel: 'En esta página',
@@ -1909,7 +1909,7 @@ const es: HomeSeoContent = {
 
 const pl: HomeSeoContent = {
   tag: 'PRZEWODNIK',
-  title: 'Kompletny przewodnik po prywatnych wycieczkach po Sri Lance i wyjazdach na miarę',
+  title: 'Wycieczki Sri Lanka, pakiety wakacyjne i prywatny kierowca',
   subtitle:
     'Napisany przez lokalnych ekspertów Sundown Tours Sri Lanka – licencjonowani kierowcy-przewodnicy, indywidualne trasy i tysiące zadowolonych podróżnych z Polski i całej Europy od 1992 roku.',
   tocLabel: 'Na tej stronie',
@@ -2274,7 +2274,7 @@ const pl: HomeSeoContent = {
 
 const ru: HomeSeoContent = {
   tag: 'ПУТЕВОДИТЕЛЬ',
-  title: 'Полный гид по частным турам на Шри-Ланку и индивидуальному отдыху',
+  title: 'Туры на Шри-Ланку, пакеты и частный водитель',
   subtitle:
     'Составлено местными экспертами Sundown Tours Sri Lanka – лицензированные водители-гиды, индивидуальные маршруты и тысячи довольных путешественников из России, СНГ и всей Европы с 1992 года.',
   tocLabel: 'На этой странице',

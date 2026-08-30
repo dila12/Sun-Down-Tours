@@ -168,17 +168,17 @@ export const nl: Dict = {
 
   home: {
     hero: {
-      title: 'Sri Lanka rondreizen & privé chauffeur',
+      title: 'Sri Lanka rondreizen, vakantiepakketten & privé chauffeur',
       subtitle:
-        'Ontdek privé rondreizen door Sri Lanka met ervaren lokale chauffeurs-gidsen. Verken Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa en Galle met op maat gemaakte itineraries voor stellen, gezinnen en luxe reizigers.',
+        'Privé rondreizen en vakantiepakketten door Sri Lanka met een lokale chauffeur-gids. Sigiriya, Ella, Yala-safari, Kandy, Nuwara Eliya, Mirissa en Galle — voor reizigers uit Nederland, België en Europa.',
       slide2: 'Onvergetelijke Sri Lanka reisepakketten',
       slide3: 'Privé rondreizen door het mooie Sri Lanka',
       slide4: 'Ontdek Sigiriya, Ella & de hoogtepunten van Sri Lanka',
       slide5: 'Sri Lanka wildlife-safaris & avontuurlijke tours',
     },
     intro: {
-      title: 'Sri Lanka-reizen met lokale experts',
-      subtitle: 'Privé rondreizen, chauffeurservice en vakanties op maat door heel Sri Lanka.',
+      title: 'Sri Lanka-rondreizen & vakantiepakketten met lokale experts',
+      subtitle: 'Privé rondreizen, chauffeur-gids en 7-, 8- en 10-daagse eilandroutes.',
       feature1: 'Privé rondreizen',
       feature2: 'Privé chauffeurs',
       feature3: 'Pakketten op maat',
@@ -250,16 +250,24 @@ export const nl: Dict = {
         a: 'U kunt direct boeken via WhatsApp of ons contactformulier. Wij antwoorden binnen 24 uur met een itinerary op maat en een transparante offerte voor uw privé rondreis.',
       },
       {
-        q: 'Inclusief privé chauffeur-gids?',
-        a: 'Ja. Elk Sundown Tours-pakket omvat een gediplomeerde Engelssprekende chauffeur-gids, een comfortabele airconditioned auto, brandstof en alle chauffeurskosten.',
+        q: 'Zit een privé chauffeur in de vakantiepakketten?',
+        a: 'Ja. Elk privé pakket omvat een gediplomeerde Engelssprekende chauffeur-gids, een auto met airco, brandstof en alle chauffeurskosten. U deelt de auto niet met andere groepen.',
       },
       {
-        q: 'Kan het reisplan worden aangepast?',
-        a: 'Absoluut. Al onze Sri Lanka-rondreizen zijn volledig op maat. Geef uw reisdata, interesses en budget door en wij ontwerpen de perfecte route voor u.',
+        q: 'Kan ik mijn Sri Lanka-vakantie op maat laten maken?',
+        a: 'Ja. Alle rondreizen zijn op maat. Geef data, tempo en interesses door (safari, theeheuvels, stranden, gezin) — wij bouwen de route daaromheen.',
       },
       {
-        q: 'Wat is de beste tijd om Sri Lanka te bezoeken?',
-        a: 'Sri Lanka is een jaarrondbestemming. De zuid- en westkust zijn het beste van december tot april; de oostkust schittert van mei tot september.',
+        q: 'Wat is de beste reistijd voor Sri Lanka vanuit Europa?',
+        a: 'Sri Lanka is jaarrond bereisbaar. Zuid- en westkust: december tot april; oostkust: meestal mei tot september. Wij plannen de privéroute rond de moesson van uw reismaand.',
+      },
+      {
+        q: 'Welk pakket past bij een eerste bezoek?',
+        a: 'De meeste gasten uit Nederland en België kiezen 7, 8 of 10 dagen: Culturele Driehoek (Sigiriya, Kandy), heuvelland (Ella, Nuwara Eliya), safari en strandeinde.',
+      },
+      {
+        q: 'Organiseren jullie Sri Lanka-vakanties voor reizigers uit Europa?',
+        a: 'Ja. Wij plannen privé chauffeurtours voor gasten uit Nederland, België en Europa, met Engelssprekende chauffeur-gids en WhatsApp-planning voor de vlucht.',
       },
     ],
   },
@@ -377,8 +385,8 @@ export const nl: Dict = {
     header: 'Sri Lanka reisepakketten',
     breadcrumb: 'Reisepakketten',
     eyebrow: 'Privé rondreizen',
-    title: 'Privé Sri Lanka reisepakketten',
-    lead: 'Ontdek onze bestverkochte privé Sri Lanka rondreizen van korte 2-daagse escapes tot complete 10-daagse eilandreizen. Elke tour is privé, op maat en begeleid door een ervaren chauffeur-gids.',
+    title: 'Sri Lanka reisepakketten & privé vakanties',
+    lead: 'Vergelijk 7-, 8- en 10-daagse pakketten plus kortere privétrips. Elke vakantie is privé, op maat en met lokale chauffeur-gids — geen groepsbussen.',
     faqTitle: 'Veelgestelde vragen',
     faq: [
       {
@@ -392,6 +400,10 @@ export const nl: Dict = {
       {
         q: 'Welke rondreis is het beste voor eerste bezoekers?',
         a: 'Onze 7- tot 10-daagse rondreizen zijn ideaal voor eerste bezoekers: cultuur, wildlife, heuvelland en stranden in één evenwichtig itinerary.',
+      },
+      {
+        q: 'Kan ik alleen een privé chauffeur boeken, zonder hotelpakket?',
+        a: 'Ja. Kies een volledig pakket met hotels, of alleen de chauffeur-gids als u zelf overnacht. Beide opties omvatten een gediplomeerde privé chauffeur-gids.',
       },
     ],
   },
@@ -611,20 +623,20 @@ export const nl: Dict = {
 
   seo: {
     home: {
-      title: 'Sundown Tours Sri Lanka | Privé rondreis & chauffeur',
+      title: 'Sri Lanka rondreizen & vakantiepakketten | Privé chauffeur',
       description:
-        'Privé rondreis Sri Lanka met ervaren lokale chauffeur. Op maat gemaakte vakanties, safari en strand. Plan nu uw Sri Lanka-reis.',
+        'Privé rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur-gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala-safari en strand. Sinds 1992.',
       keywords:
-        'privé rondreis Sri Lanka, Sri Lanka chauffeur, Sri Lanka reisepakket, privé chauffeur Sri Lanka, Sri Lanka vakantie',
+        'Sri Lanka rondreis, Sri Lanka vakantie, Sri Lanka reisepakket, privé chauffeur Sri Lanka, Sri Lanka vakantie',
     },
     tours: {
-      title: 'Sri Lanka reisepakketten | Privé rondreis met chauffeur',
+      title: 'Sri Lanka reisepakketten | 7, 8 & 10 dagen privé',
       description:
-        'Ontdek privé Sri Lanka-rondreizen voor Nederlandse en Europese reizigers. Vakanties op maat, privé chauffeur en luxe safari’s.',
-      keywords: 'Sri Lanka reisepakket, privé rondreis Sri Lanka, Sri Lanka vakantie, chauffeur Sri Lanka',
+        'Sri Lanka-reisepakketten voor reizigers uit Nederland en Europa: privé vakanties van 7, 8 en 10 dagen met chauffeur-gids, safari en strand — geen groepsreizen.',
+      keywords: 'Sri Lanka reisepakket, privé rondreis Sri Lanka, Sri Lanka vakantie, 7 dagen Sri Lanka',
     },
     services: {
-      title: 'Onze diensten | Sundown Tours Sri Lanka',
+      title: 'Privé rondreizen, chauffeur & vakanties | Sri Lanka',
       description:
         'Onze diensten: privé rondreizen, vakantiepakketten op maat, rondritten met chauffeur en dagtrips in Sri Lanka.',
       keywords: 'Sri Lanka chauffeur, privé rondreis Sri Lanka, Sri Lanka reisepakket, chauffeurservice',
@@ -636,7 +648,7 @@ export const nl: Dict = {
       keywords: 'Sri Lanka reisbureau, Sri Lanka touroperator, betrouwbare Sri Lanka-reizen',
     },
     contact: {
-      title: 'Contact Sundown Tours | Plan uw privé rondreis Sri Lanka',
+      title: 'Plan uw privé rondreis Sri Lanka | Contact',
       description:
         'Neem contact op met Sundown Tours voor Sri Lanka-reisepakketten op maat en privé reisservice. Wij antwoorden binnen 24 uur.',
       keywords: 'contact Sri Lanka reisbureau, privé rondreis Sri Lanka boeken, chauffeur Sri Lanka',

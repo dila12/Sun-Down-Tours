@@ -161,17 +161,17 @@ export const es: Dict = {
 
   home: {
     hero: {
-      title: 'Viaje a Sri Lanka & conductor privado',
+      title: 'Viajes a Sri Lanka, paquetes vacacionales y conductor privado',
       subtitle:
-        'Descubre circuitos privados por Sri Lanka con experimentados conductores-guía locales. Explora Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa y Galle con itinerarios a medida para parejas, familias y viajeros de lujo.',
+        'Circuitos privados y paquetes vacacionales por Sri Lanka con chófer-guía local. Sigiriya, Ella, safari en Yala, Kandy, Nuwara Eliya, Mirissa y Galle — para viajeros de España y Europa.',
       slide2: 'Viajes inolvidables por Sri Lanka',
       slide3: 'Circuitos privados por el hermoso Sri Lanka',
       slide4: 'Descubre Sigiriya, Ella y lo mejor de Sri Lanka',
       slide5: 'Safaris y circuitos de aventura en Sri Lanka',
     },
     intro: {
-      title: 'Viajes a Sri Lanka con expertos locales',
-      subtitle: 'Circuitos privados, servicio de conductor y viajes a medida por todo Sri Lanka.',
+      title: 'Viajes a Sri Lanka y paquetes vacacionales con expertos locales',
+      subtitle: 'Circuitos privados, chófer-guía e itinerarios de 7, 8 y 10 días por toda la isla.',
       feature1: 'Circuitos privados',
       feature2: 'Conductores privados',
       feature3: 'Paquetes a medida',
@@ -236,16 +236,24 @@ export const es: Dict = {
         a: 'Puedes reservar directamente por WhatsApp o mediante nuestro formulario de contacto. Respondemos en un plazo de 24 horas con un itinerario a medida y un presupuesto transparente.',
       },
       {
-        q: '¿Los circuitos incluyen un conductor-guía privado?',
-        a: 'Sí. Cada paquete de Sundown Tours incluye un conductor-guía autorizado que habla inglés, un cómodo vehículo con aire acondicionado, combustible y todos los gastos del conductor.',
+        q: '¿Los paquetes vacacionales incluyen conductor privado?',
+        a: 'Sí. Cada paquete privado incluye un chófer-guía autorizado de habla inglesa, un vehículo con aire acondicionado, combustible y todos los gastos del conductor. No compartes el coche con otros grupos.',
       },
       {
-        q: '¿Se puede personalizar el itinerario?',
-        a: 'Por supuesto. Todos nuestros circuitos por Sri Lanka son totalmente a medida. Indícanos tus fechas, intereses y presupuesto y diseñaremos la ruta perfecta.',
+        q: '¿Puedo personalizar mis vacaciones en Sri Lanka?',
+        a: 'Sí. Todos los circuitos son a medida. Dinos fechas, ritmo e intereses (safari, plantaciones de té, playas, familia) y diseñamos la ruta a tu alrededor.',
       },
       {
-        q: '¿Cuál es la mejor época para visitar Sri Lanka?',
-        a: 'Sri Lanka es un destino para todo el año. Las costas sur y oeste son ideales de diciembre a abril, mientras que la costa este destaca de mayo a septiembre.',
+        q: '¿Cuál es la mejor época para un viaje a Sri Lanka desde Europa?',
+        a: 'Sri Lanka se visita todo el año. Costas sur y oeste: de diciembre a abril; costa este: suele ser de mayo a septiembre. Adaptamos el circuito privado al monzón de tu mes de viaje.',
+      },
+      {
+        q: '¿Qué paquete es mejor para una primera visita?',
+        a: 'La mayoría de los viajeros españoles eligen 7, 8 o 10 días: Triángulo Cultural (Sigiriya, Kandy), montaña (Ella, Nuwara Eliya), safari y playa.',
+      },
+      {
+        q: '¿Organizáis viajes a Sri Lanka para viajeros de Europa?',
+        a: 'Sí. Preparamos circuitos privados con chófer para huéspedes de España y de Europa, con chófer-guía en inglés y planificación por WhatsApp antes del vuelo.',
       },
     ],
   },
@@ -323,8 +331,8 @@ export const es: Dict = {
     header: 'Circuitos por Sri Lanka',
     breadcrumb: 'Circuitos',
     eyebrow: 'Circuitos privados',
-    title: 'Circuitos privados por Sri Lanka',
-    lead: 'Descubre nuestros circuitos privados más vendidos por Sri Lanka, desde escapadas cortas de 2 días hasta viajes completos de 10 días por la isla. Cada circuito es privado, a medida y guiado por un conductor-guía con experiencia.',
+    title: 'Paquetes y circuitos privados por Sri Lanka',
+    lead: 'Compara paquetes de 7, 8 y 10 días y viajes más cortos. Cada vacación es privada, a medida y con chófer-guía local — sin autocares de grupo.',
     faqTitle: 'Preguntas frecuentes',
     faq: [
       {
@@ -338,6 +346,10 @@ export const es: Dict = {
       {
         q: '¿Qué circuito es mejor para quienes visitan por primera vez?',
         a: 'Nuestros circuitos de 7 a 10 días son ideales para una primera visita, ya que combinan cultura, fauna, montañas y playas en un itinerario equilibrado.',
+      },
+      {
+        q: '¿Puedo reservar solo un conductor privado, sin paquete de hoteles?',
+        a: 'Sí. Elige un paquete completo con hoteles, o solo el chófer-guía si reservas tú las noches. Ambas opciones incluyen un chófer-guía autorizado.',
       },
     ],
   },
@@ -557,19 +569,19 @@ export const es: Dict = {
 
   seo: {
     home: {
-      title: 'Viaje a Sri Lanka & conductor privado | Sundown Tours',
+      title: 'Viajes a Sri Lanka y paquetes vacacionales | Conductor privado',
       description:
-        'Viaje a Sri Lanka privado y a medida con conductor experto, safari y vacaciones en la playa. Planifica ahora tu circuito por Sri Lanka.',
-      keywords: 'Viaje Sri Lanka, Circuito Sri Lanka, Conductor Privado Sri Lanka, safari Sri Lanka',
+        'Viajes privados y paquetes vacacionales por Sri Lanka con chófer-guía local. Itinerarios de 7, 8 y 10 días: Sigiriya, Ella, safari en Yala y playas. Desde 1992.',
+      keywords: 'viaje a Sri Lanka, circuitos Sri Lanka, vacaciones Sri Lanka, conductor privado Sri Lanka',
     },
     tours: {
-      title: 'Circuitos Sri Lanka | Viajes privados con conductor',
+      title: 'Circuitos Sri Lanka | 7, 8 y 10 días en privado',
       description:
-        'Descubre nuestros circuitos privados por Sri Lanka para viajeros europeos: viajes a medida, conductor privado y safaris de lujo.',
-      keywords: 'Circuito Sri Lanka, Viaje Sri Lanka, Conductor Privado Sri Lanka, paquetes Sri Lanka',
+        'Circuitos y paquetes por Sri Lanka para viajeros de Europa: vacaciones privadas de 7, 8 y 10 días con chófer-guía, safari y playa — no viajes de grupo.',
+      keywords: 'circuitos Sri Lanka, viaje a Sri Lanka, paquetes Sri Lanka, Sri Lanka 10 dias, Sri Lanka 8 dias',
     },
     services: {
-      title: 'Nuestros servicios | Sundown Tours Sri Lanka',
+      title: 'Circuitos privados, conductor y vacaciones | Sri Lanka',
       description:
         'Nuestros servicios: circuitos privados, paquetes a medida, circuitos con conductor y excursiones de un día en Sri Lanka.',
       keywords: 'Conductor Privado Sri Lanka, Viaje Sri Lanka, Circuito Sri Lanka, safari Sri Lanka',
@@ -581,7 +593,7 @@ export const es: Dict = {
       keywords: 'agencia de viajes Sri Lanka, operador Sri Lanka, Circuito Sri Lanka',
     },
     contact: {
-      title: 'Contacto | Planifica tu circuito por Sri Lanka | Sundown Tours',
+      title: 'Planifica tu circuito por Sri Lanka | Contacto',
       description:
         'Contacta con Sundown Tours para circuitos privados a medida por Sri Lanka. Respondemos en un plazo de 24 horas.',
       keywords: 'reservar viaje Sri Lanka, contacto circuito Sri Lanka, Conductor Privado Sri Lanka',
