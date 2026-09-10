@@ -11,7 +11,7 @@ export const SITE_WHATSAPP_URL = `https://wa.me/${SITE_WHATSAPP}`;
 
 export const SITE_EMAIL = 'sundowntoursrilanka@gmail.com';
 
-/** Headquarters — only office published on the website. */
+/** Headquartersonly office published on the website. */
 export const SITE_ADDRESS_STREET = 'No 302, Mahawaskaduwa';
 export const SITE_ADDRESS_LOCALITY = 'Waskaduwa';
 export const SITE_ADDRESS_REGION = 'Kalutara North';
@@ -22,9 +22,9 @@ export const SITE_ADDRESS_FULL =
 /** Office hours used in UI + LocalBusiness schema (WhatsApp messages welcome anytime). */
 export const SITE_HOURS_OPENS = '08:00';
 export const SITE_HOURS_CLOSES = '20:00';
-export const SITE_HOURS_LABEL = 'Open 08:00–20:00 · 7 days a week';
+export const SITE_HOURS_LABEL = 'Open 08:00 to 20:00 · 7 days a week';
 export const SITE_HOURS_NOTE =
-  'Office hours 08:00–20:00 (Sri Lanka time). WhatsApp messages are welcome any time we typically reply within a few hours.';
+  'Office hours 08:00 to 20:00 (Sri Lanka time). WhatsApp messages are welcome any time we typically reply within a few hours.';
 
 export const SITE_GEO = { latitude: 6.6331, longitude: 79.9533 };
 

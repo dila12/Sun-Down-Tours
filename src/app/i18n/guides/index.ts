@@ -15,7 +15,7 @@ export { GUIDE_PAGE_IDS, GUIDE_HUB_CARDS, getGuideHubCardMeta } from './catalog'
 export type { GuideHubCardMeta, GuidePageId } from './catalog';
 
 /**
- * Registry of authored travel-guide detail content.
+ * Registry of authored travel guide detail content.
  * Only guides with full ArticleContent are listed here; hub cards hide the rest.
  */
 export const GUIDE_CONTENT: Record<string, ArticleContent> = {

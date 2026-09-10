@@ -9,7 +9,7 @@ import type { BaseTour } from './localize';
  * Preloads tour detail dictionaries into TourContentService before the page
  * activates, so components / StructuredDataService can read them synchronously.
  *
- * Locale must come from route data — resolvers run before NavigationEnd, so
+ * Locale must come from route dataresolvers run before NavigationEnd, so
  * LocaleService may still hold the previous (or default) locale during SSR.
  */
 export const tourResolver: ResolveFn<BaseTour | undefined> = (route) => {

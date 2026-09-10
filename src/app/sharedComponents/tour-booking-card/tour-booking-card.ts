@@ -23,7 +23,6 @@ import countriesData from '../../../assets/data/countries.json';
 import countryCode from '../../../assets/data/countryCode.json';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LocaleService } from '../../i18n/locale.service';
-import { formatTourPriceEur } from '../../utils/tour-prices.static';
 import {
   SITE_EMAIL,
   SITE_PHONE_DISPLAY,
@@ -86,12 +85,16 @@ const DEFAULT_AVAILABILITY: BookingAvailabilityConfig = {
 };
 
 const DAY_TOUR_TYPE_LABELS = new Set([
+  'day-tour',
   'day tour',
   'tagestour',
   "excursion d’une journée",
   "excursion d'une journée",
+  "excursion d’une journee",
+  "excursion d'une journee",
   'tour di un giorno',
   'excursión de un día',
+  'excursion de un dia',
   'wycieczka jednodniowa',
   'однодневный тур',
 ]);
@@ -150,10 +153,6 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   private blockedDateSet = new Set<string>();
   dateStatus: DateAvailabilityStatus = 'open';
   spotsLeft: 0 | SpotsLeft = 0;
-
-  get eurLabel(): string {
-    return formatTourPriceEur(this.total || 0);
-  }
 
   /** 1 = day tour, 2 = two-day, 3+ = longer round tours */
   get tourLengthDays(): number {
@@ -394,7 +393,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
 
   /**
    * Prefill calendar with the card’s badge date (High demand / 1 left).
-   * Never forces “today” — only a matching demand date, or leaves empty.
+   * Never forces “today”only a matching demand date, or leaves empty.
    */
   private applyDefaultTravelDate(): void {
     if (this.travelDate) {
@@ -439,7 +438,7 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
     return 0;
   }
 
-  /** Online booking & pricing available for 1–6 travelers only */
+  /** Online booking & pricing available for 1 to 6 travelers only */
   get isGroupBooking(): boolean {
     return this.travelers > this.maxOnlineTravelers;
   }

@@ -27,7 +27,7 @@ export interface TourCardView {
   days: string;
   persons: string;
   imageAlt: string;
-  /** Locale-prefixed path — NEVER a hard-coded English URL. */
+  /** Locale-prefixed pathNEVER a hard-coded English URL. */
   path: string;
   price?: number;
 }

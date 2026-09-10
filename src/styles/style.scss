@@ -232,12 +232,12 @@ h6,
   filter: invert(1);
 }
 
-/* Avoid content-visibility on intro/about/seo — they sit near first paint and
+/* Avoid content-visibility on intro/about/seothey sit near first paint and
    incorrect placeholders caused large CLS on main#main-content. */
 
 @media (max-width: 768px) {
   .hero-carousel {
-    /* Fixed px — 62vh shifts when the mobile URL bar shows/hides (CLS). */
+    /* Fixed px62vh shifts when the mobile URL bar shows/hides (CLS). */
     height: 420px;
   }
 

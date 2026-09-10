@@ -39,7 +39,7 @@ interface DialCountry {
   flag?: string;
 }
 
-/** First-paint list — full ISO file loads when the select is opened. */
+/** First-paint listfull ISO file loads when the select is opened. */
 const PRIORITY_COUNTRIES: DialCountry[] = [
   { name: 'Sri Lanka', dial_code: '+94', code: 'LK' },
   { name: 'United Kingdom', dial_code: '+44', code: 'GB' },

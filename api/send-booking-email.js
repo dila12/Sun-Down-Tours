@@ -176,7 +176,7 @@ export default async function handler(req, res) {
               Booking Confirmation
             </h1>
             <p style="color:#cbd5e1;margin:5px 0 0;font-size:14px;">
-              Sundown Tours – Sri Lanka
+              Sundown Tours  Sri Lanka
             </p>
           </div>
 

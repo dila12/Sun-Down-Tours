@@ -9,7 +9,7 @@ export interface TourRelatedGraph {
   guides: RelatedLink[];
   restaurants: RelatedLink[];
   tours: RelatedLink[];
-  /** Short contextual blurb shown above link chips (English; UI uses as-is). */
+  /** Short contextual blurb shown above link chips (English; UI uses as is). */
   context: string;
 }
 
@@ -21,7 +21,7 @@ const restaurant: RelatedLink = {
 export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
   ellaDay: {
     context:
-      'This day trip centres on Ella explore the destination guide, tea-country tips, and related hill-country tours before you book.',
+      'This day trip centres on Ella explore the destination guide, tea country tips, and related hill country tours before you book.',
     destinations: [
       { pageId: 'destElla', label: 'Ella destination guide' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -33,8 +33,8 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour2ey', label: '2-day Ella & Yala' },
-      { pageId: 'tour2ek', label: '2-day Ella & Kandy' },
+      { pageId: 'tour2ey', label: '2 day Ella & Yala' },
+      { pageId: 'tour2ek', label: '2 day Ella & Kandy' },
       { pageId: 'kandyDay', label: 'Kandy day tour' },
     ],
   },
@@ -44,6 +44,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     destinations: [
       { pageId: 'destGalle', label: 'Galle destination guide' },
       { pageId: 'destMirissa', label: 'Mirissa' },
+      { pageId: 'destHiriketiya', label: 'Hiriketiya' },
       { pageId: 'destElla', label: 'Ella' },
     ],
     guides: [
@@ -54,14 +55,14 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour5', label: '5-day Sri Lanka tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour5', label: '5 day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
       { pageId: 'ellaDay', label: 'Ella day tour' },
     ],
   },
   kandyDay: {
     context:
-      'Kandy day trips cover the Temple of the Tooth and hill-country approaches link through to destination and tea-country guides.',
+      'Kandy day trips cover the Temple of the Tooth and hill country approaches link through to destination and tea country guides.',
     destinations: [
       { pageId: 'destKandy', label: 'Kandy destination guide' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -74,9 +75,9 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour2ek', label: '2-day Ella & Kandy' },
+      { pageId: 'tour2ek', label: '2 day Ella & Kandy' },
       { pageId: 'sigiriyaDay', label: 'Sigiriya day tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
     ],
   },
   sigiriyaDay: {
@@ -94,8 +95,8 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour4', label: '4-day Cultural Triangle' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour4', label: '4 day Cultural Triangle' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
       { pageId: 'kandyDay', label: 'Kandy day tour' },
     ],
   },
@@ -115,13 +116,13 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     restaurants: [restaurant],
     tours: [
       { pageId: 'ellaDay', label: 'Ella day tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
-      { pageId: 'tour5', label: '5-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
+      { pageId: 'tour5', label: '5 day Sri Lanka tour' },
     ],
   },
   tour2ek: {
     context:
-      'Ella and Kandy cover tea country and the hill capital deepen planning with destination and tea-country guides.',
+      'Ella and Kandy cover tea country and the hill capital deepen planning with destination and tea country guides.',
     destinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -136,12 +137,12 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     tours: [
       { pageId: 'ellaDay', label: 'Ella day tour' },
       { pageId: 'kandyDay', label: 'Kandy day tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
     ],
   },
   tour4: {
     context:
-      'A four-day Cultural Triangle route links Sigiriya, Dambulla and Kandy follow those destination pages and related guides.',
+      'A four day Cultural Triangle route links Sigiriya, Dambulla and Kandy follow those destination pages and related guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destDambulla', label: 'Dambulla' },
@@ -155,13 +156,13 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     restaurants: [restaurant],
     tours: [
       { pageId: 'sigiriyaDay', label: 'Sigiriya day tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
-      { pageId: 'tour5', label: '5-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
+      { pageId: 'tour5', label: '5 day Sri Lanka tour' },
     ],
   },
   tour5: {
     context:
-      'Five-day itineraries usually mix culture, hills and coast explore Sigiriya, Ella, Galle and supporting travel guides.',
+      'Five day itineraries usually mix culture, hills and coast explore Sigiriya, Ella, Galle and supporting travel guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destElla', label: 'Ella' },
@@ -175,14 +176,14 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
       { pageId: 'galleDay', label: 'Galle day tour' },
       { pageId: 'ellaDay', label: 'Ella day tour' },
     ],
   },
   tour6: {
     context:
-      'Six-day private tours typically include wildlife or coast time link to Yala, Ella and safari planning content.',
+      'Six day private tours typically include wildlife or coast time link to Yala, Ella and safari planning content.',
     destinations: [
       { pageId: 'destYala', label: 'Yala' },
       { pageId: 'destElla', label: 'Ella' },
@@ -196,14 +197,14 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour2ey', label: '2-day Ella & Yala' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
-      { pageId: 'tour8', label: '8-day private tour' },
+      { pageId: 'tour2ey', label: '2 day Ella & Yala' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
+      { pageId: 'tour8', label: '8 days private tour' },
     ],
   },
   tour7: {
     context:
-      'The classic seven-day circuit covers Sigiriya, Kandy, Ella, Yala and Galle use each destination page and matching guides.',
+      'The classic seven day circuit covers Sigiriya, Kandy, Ella, Yala and Galle use each destination page and matching guides.',
     destinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destKandy', label: 'Kandy' },
@@ -219,33 +220,35 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour8', label: '8-day private tour' },
-      { pageId: 'tour10', label: '10-day Sri Lanka tour' },
-      { pageId: 'tour5', label: '5-day Sri Lanka tour' },
+      { pageId: 'tour8', label: '8 days private tour' },
+      { pageId: 'tour10', label: '10 day Sri Lanka tour' },
+      { pageId: 'tour5', label: '5 day Sri Lanka tour' },
     ],
   },
   tour8: {
     context:
-      'An eight-day private tour adds breathing room across culture, hills, wildlife and coast dig into destination and guide pages below.',
+      'An eight day private tour adds breathing room across culture, hills, wildlife and coast dig into destination and guide pages below.',
     destinations: [
-      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destSigiriya', label: 'Sigiriya Lion Rock' },
       { pageId: 'destDambulla', label: 'Dambulla' },
       { pageId: 'destKandy', label: 'Kandy' },
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destYala', label: 'Yala' },
       { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destHiriketiya', label: 'Hiriketiya' },
     ],
     guides: [
       { pageId: 'guideBestTime', label: 'Best time to visit' },
       { pageId: 'guideSafari', label: 'Safari guide' },
       { pageId: 'guideTeaCountry', label: 'Tea country guide' },
       { pageId: 'guideBeaches', label: 'Beaches guide' },
+      { pageId: 'marketUK', label: 'Holidays from the UK' },
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
-      { pageId: 'tour10', label: '10-day Sri Lanka tour' },
-      { pageId: 'tour6', label: '6-day private tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
+      { pageId: 'tour10', label: '10 day Sri Lanka tour' },
+      { pageId: 'tour6', label: '6 day private tour' },
     ],
   },
   tour10: {
@@ -258,18 +261,26 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destYala', label: 'Yala' },
       { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destWeligama', label: 'Weligama' },
+      { pageId: 'destTrincomalee', label: 'Trincomalee' },
     ],
     guides: [
       { pageId: 'guideVisa', label: 'Visa & ETA guide' },
       { pageId: 'guideBudget', label: 'Budget guide' },
       { pageId: 'guideSafety', label: 'Safety guide' },
       { pageId: 'guideBestTime', label: 'Best time to visit' },
+      { pageId: 'marketGermany', label: 'Rundreise from Germany' },
+      { pageId: 'marketFrance', label: 'Circuits from France' },
+      { pageId: 'marketItaly', label: 'Tours from Italy' },
+      { pageId: 'marketSpain', label: 'Tours from Spain' },
+      { pageId: 'marketPoland', label: 'Tours from Poland' },
+      { pageId: 'marketRussia', label: 'Tours from Russia' },
     ],
     restaurants: [restaurant],
     tours: [
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
-      { pageId: 'tour8', label: '8-day private tour' },
-      { pageId: 'tour5', label: '5-day Sri Lanka tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
+      { pageId: 'tour8', label: '8 days private tour' },
+      { pageId: 'tour5', label: '5 day Sri Lanka tour' },
     ],
   },
 };

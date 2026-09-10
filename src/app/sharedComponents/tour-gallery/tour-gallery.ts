@@ -49,7 +49,7 @@ export interface GalleryThumb {
 export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy {
   /** Preferred: gallery id from tour-gallery.config / tour-galleries/{id}/ folder. */
   @Input() galleryId = '';
-  /** Optional explicit override — if set, takes precedence over galleryId. */
+  /** Optional explicit overrideif set, takes precedence over galleryId. */
   @Input() images: string[] | null = null;
   @Input() alt = 'Tour image';
   @Input() previewAlt = 'Tour preview';

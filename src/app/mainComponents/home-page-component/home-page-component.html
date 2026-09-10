@@ -94,7 +94,7 @@
             @for (dest of destinations; track trackByIndex($index)) {
             <div class="col-12 col-md-6 col-lg-4">
                 <a class="premium-card" [routerLink]="path(dest.pageId)"
-                    [attr.aria-label]="(dest.name | t) + ' — ' + ('home.destinations.explore' | t)">
+                    [attr.aria-label]="(dest.name | t) + '' + ('home.destinations.explore' | t)">
                     <picture>
                       @if (buildCappedAvifSrcSet(dest.src, 400)) {
                       <source type="image/avif" [attr.srcset]="buildCappedAvifSrcSet(dest.src, 400)" [attr.sizes]="destSizes" />

@@ -1,5 +1,5 @@
 /**
- * Tour gallery sources — add images under the folder (or tour-galleries/{id}/)
+ * Tour gallery sourcesadd images under the folder (or tour-galleries/{id}/)
  * and re-run `npm run generate-tour-gallery-manifest`. No TypeScript edits needed.
  *
  * Options:

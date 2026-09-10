@@ -3,7 +3,7 @@ import { firstValueFrom } from 'rxjs';
 
 /**
  * Loads the 2-person package price from `assets/data/US{filecode}.json`.
- * Logs clearly when the file is missing or has no usable price — never hides that.
+ * Logs clearly when the file is missing or has no usable pricenever hides that.
  */
 export async function loadTourPrice2p(
   http: HttpClient,

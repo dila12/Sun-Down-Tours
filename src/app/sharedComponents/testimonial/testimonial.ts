@@ -17,7 +17,7 @@ interface ReviewTopic {
 }
 
 /**
- * Review Center — real guest feedback only via Elfsight + TripAdvisor.
+ * Review Centerreal guest feedback only via Elfsight + TripAdvisor.
  * No invented quotes, ratings, or review schema that is not visible on-page.
  */
 @Component({

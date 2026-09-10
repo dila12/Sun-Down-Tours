@@ -9,7 +9,7 @@ import { ru } from './ru';
 import { nl } from './nl';
 
 /**
- * All bundled translation dictionaries. Bundled (not HTTP-loaded) so they are
+ * All bundled translation dictionaries. Bundled (not HTTP loaded) so they are
  * available synchronously during SSR/prerender, producing fully translated
  * HTML with no flash of untranslated content.
  *

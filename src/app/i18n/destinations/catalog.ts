@@ -1,5 +1,5 @@
 /**
- * Structural destination catalog — NO visible marketing copy.
+ * Structural destination catalogNO visible marketing copy.
  * Hub-card titles and blurbs are derived from the localized `ArticleContent`
  * registry at render time (see `ArticleContentService`); this file only
  * holds the stable page id, the hero image path and a plain fallback alt.
@@ -8,7 +8,7 @@
 export interface DestHubCardMeta {
   /** Stable page id used by routing / site-data / language switcher. */
   pageId: string;
-  /** Card thumbnail — same asset family as the article hero image. */
+  /** Card thumbnailsame asset family as the article hero image. */
   image: string;
   /** Plain fallback alt text (English); localized cards prefer the article h1. */
   imageAlt: string;
@@ -22,6 +22,12 @@ export const DEST_PAGE_IDS = [
   'destDambulla',
   'destGalle',
   'destMirissa',
+  'destHiriketiya',
+  'destWeligama',
+  'destColombo',
+  'destNegombo',
+  'destBentota',
+  'destTrincomalee',
 ] as const;
 
 export type DestPageId = (typeof DEST_PAGE_IDS)[number];
@@ -60,7 +66,37 @@ export const DEST_HUB_CARDS: DestHubCardMeta[] = [
   {
     pageId: 'destMirissa',
     image: 'assets/img/destination-6.webp',
-    imageAlt: "Palm-fringed beach on Sri Lanka's south coast near Mirissa",
+    imageAlt: "palm fringed beach on Sri Lanka's south coast near Mirissa",
+  },
+  {
+    pageId: 'destHiriketiya',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'Horseshoe surf bay at Hiriketiya on Sri Lanka’s south coast',
+  },
+  {
+    pageId: 'destColombo',
+    image: 'assets/img/destination-6.webp',
+    imageAlt: 'Colombo city and Indian Ocean coastline',
+  },
+  {
+    pageId: 'destNegombo',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'Negombo beach near Colombo airport',
+  },
+  {
+    pageId: 'destBentota',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'Bentota west-coast beach',
+  },
+  {
+    pageId: 'destWeligama',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'Weligama surf bay on the south coast',
+  },
+  {
+    pageId: 'destTrincomalee',
+    image: 'assets/img/mainpage/5.webp',
+    imageAlt: 'east coast beach near Trincomalee',
   },
 ];
 

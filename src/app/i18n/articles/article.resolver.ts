@@ -10,7 +10,7 @@ import type { BaseArticle } from './types';
  * before the page activates, so SeoService / StructuredDataService can read
  * them synchronously on NavigationEnd. Hub pages warm the card catalogue.
  *
- * Locale must come from route data — resolvers run before NavigationEnd, so
+ * Locale must come from route dataresolvers run before NavigationEnd, so
  * LocaleService may still hold the previous (or default) locale during SSR.
  */
 export const articleResolver: ResolveFn<BaseArticle | null> = (route) => {

@@ -1,6 +1,6 @@
 const GA_MEASUREMENT_ID = 'G-MLGT0JLHNQ';
 /**
- * Real Google Ads conversion ID only — never ship the placeholder AW-1234567890.
+ * Real Google Ads conversion ID onlynever ship the placeholder AW-1234567890.
  * Leave empty until a production Ads account ID is configured.
  */
 const GOOGLE_ADS_ID: string = '';
@@ -167,12 +167,12 @@ function sendGaEvent(eventName: string, params: Record<string, unknown> = {}): v
   window.gtag?.('event', eventName, params);
 }
 
-/** WhatsApp tap — import this event in Google Ads as Contact. */
+/** WhatsApp tapimport this event in Google Ads as Contact. */
 export function trackWhatsAppClick(): void {
   sendGaEvent('whatsapp_click');
 }
 
-/** Contact form email sent — import in Google Ads as Submit lead form. */
+/** Contact form email sentimport in Google Ads as Submit lead form. */
 export function trackContactFormSubmit(): void {
   sendGaEvent('contact_form_submit');
 }
@@ -258,7 +258,7 @@ export function rejectAnalyticsConsent(): void {
 }
 
 /**
- * Vercel Speed Insights — samples Core Web Vitals on production only.
+ * Vercel Speed Insightssamples Core Web Vitals on production only.
  * Loads after analytics consent; no-op in local development.
  */
 export function initializeSpeedInsights(): void {

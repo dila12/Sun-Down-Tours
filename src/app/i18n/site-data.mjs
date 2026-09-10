@@ -16,7 +16,7 @@ export const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pl', 'ru', 'nl'];
 
 /**
  * Locales emitted in sitemaps and hreflang. Dutch stays out until professionally
- * translated (pages remain reachable but noindex — see SeoService).
+ * translated (pages remain reachable but noindexsee SeoService).
  */
 export const INDEXABLE_LOCALES = LOCALES.filter((l) => l !== 'nl');
 
@@ -161,7 +161,7 @@ export const PAGES = [
     },
   },
 
-  // Round tours — localized slugs per market.
+  // Round tourslocalized slugs per market.
   {
     id: 'tour7',
     kind: 'tour',
@@ -555,12 +555,13 @@ export const PAGES = [
     },
   },
 
-  // P2 destination scaffolds (thin stubs — expand content later).
+  // P2 destination scaffolds (thin stubsexpand content later).
   {
     id: 'destColombo',
     kind: 'destination',
-    index: false,
-    priority: 0.55,
+    index: true,
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    priority: 0.85,
     changefreq: 'monthly',
     slugs: {
       en: 'colombo-sri-lanka',
@@ -576,8 +577,9 @@ export const PAGES = [
   {
     id: 'destNegombo',
     kind: 'destination',
-    index: false,
-    priority: 0.55,
+    index: true,
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    priority: 0.82,
     changefreq: 'monthly',
     slugs: {
       en: 'negombo-sri-lanka',
@@ -593,8 +595,9 @@ export const PAGES = [
   {
     id: 'destBentota',
     kind: 'destination',
-    index: false,
-    priority: 0.55,
+    index: true,
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    priority: 0.82,
     changefreq: 'monthly',
     slugs: {
       en: 'bentota-sri-lanka',
@@ -622,6 +625,42 @@ export const PAGES = [
       pl: 'mirissa-sri-lanka',
       ru: 'mirissa-shri-lanka',
       nl: 'mirissa-sri-lanka',
+    },
+  },
+  {
+    id: 'destHiriketiya',
+    kind: 'destination',
+    index: true,
+    indexLocales: ['en'],
+    priority: 0.88,
+    changefreq: 'monthly',
+    slugs: {
+      en: 'hiriketiya-sri-lanka',
+      de: 'hiriketiya-sri-lanka',
+      fr: 'hiriketiya-sri-lanka',
+      it: 'hiriketiya-sri-lanka',
+      es: 'hiriketiya-sri-lanka',
+      pl: 'hiriketiya-sri-lanka',
+      ru: 'hiriketiya-shri-lanka',
+      nl: 'hiriketiya-sri-lanka',
+    },
+  },
+  {
+    id: 'destWeligama',
+    kind: 'destination',
+    index: true,
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    priority: 0.84,
+    changefreq: 'monthly',
+    slugs: {
+      en: 'weligama-sri-lanka',
+      de: 'weligama-sri-lanka',
+      fr: 'weligama-sri-lanka',
+      it: 'weligama-sri-lanka',
+      es: 'weligama-sri-lanka',
+      pl: 'weligama-sri-lanka',
+      ru: 'veligama-shri-lanka',
+      nl: 'weligama-sri-lanka',
     },
   },
   {
@@ -678,8 +717,9 @@ export const PAGES = [
   {
     id: 'destTrincomalee',
     kind: 'destination',
-    index: false,
-    priority: 0.55,
+    index: true,
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    priority: 0.82,
     changefreq: 'monthly',
     slugs: {
       en: 'trincomalee-sri-lanka',
@@ -916,7 +956,7 @@ export const PAGES = [
     },
   },
 
-  // P2 guides — whale + luxury body copy is still EN+DE only. Other locales stay
+  // P2 guideswhale + luxury body copy is still EN+DE only. Other locales stay
   // reachable in the UI but are noindex / out of sitemap until translated
   // (English fallback bodies cause "Discovered - currently not indexed" / duplicate-canonical).
   // Train, honeymoon and airport-transfer guides are translated for all indexable locales.
@@ -1025,12 +1065,13 @@ export const PAGES = [
     },
   },
 
-  // P2 market scaffolds.
+  // Germany market landingfull DE+EN copy, indexed for those locales only.
   {
     id: 'marketGermany',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'de'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-germany',
@@ -1046,8 +1087,9 @@ export const PAGES = [
   {
     id: 'marketFrance',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'fr'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-france',
@@ -1063,8 +1105,9 @@ export const PAGES = [
   {
     id: 'marketItaly',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'it'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-italy',
@@ -1080,8 +1123,9 @@ export const PAGES = [
   {
     id: 'marketSpain',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'es'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-spain',
@@ -1097,8 +1141,9 @@ export const PAGES = [
   {
     id: 'marketPoland',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'pl'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-poland',
@@ -1114,8 +1159,9 @@ export const PAGES = [
   {
     id: 'marketRussia',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'ru'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-russia',
@@ -1148,8 +1194,9 @@ export const PAGES = [
   {
     id: 'marketUK',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-uk',
@@ -1210,8 +1257,9 @@ export const PAGES = [
     return {
       id,
       kind: 'guide',
-      index: false,
-      priority: 0.5,
+      index: month === 'august',
+      indexLocales: month === 'august' ? ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'] : undefined,
+      priority: month === 'august' ? 0.82 : 0.5,
       changefreq: 'yearly',
       slugs: {
         en: `travel-guides/sri-lanka-in-${month}`,

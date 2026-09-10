@@ -13,7 +13,7 @@ const WIDTHS = [320, 400, 640, 960, 1280, 1600, 1920];
 /** Homepage LCP / carousel. */
 const HERO_PATTERNS = [/mainpage\//i, /carousel/i, /destination-\d/i];
 
-/** Tour gallery & package hero imagery — keep crisp on desktop/retina. */
+/** Tour gallery & package hero imagerykeep crisp on desktop/retina. */
 const GALLERY_PATTERNS = [
   /5daysTours\//i,
   /SixdaysTous\//i,
@@ -26,22 +26,22 @@ const GALLERY_PATTERNS = [
 ];
 
 const HERO_MAX_KB = 380;
-/** Gallery masters stay premium — avoid soft mid-size compression. */
+/** Gallery masters stay premiumavoid soft mid-size compression. */
 const GALLERY_MAX_KB = 520;
 const OTHER_MAX_KB = 180;
 const QUALITY_FLOOR = 88;
 const WEBP_START = 93;
 const AVIF_START = 84;
-/** Skip AVIF when even high-quality encode is still soft vs WebP — require AVIF quality >= 80. */
+/** Skip AVIF when even high-quality encode is still soft vs WebPrequire AVIF quality >= 80. */
 const AVIF_MIN_QUALITY = 80;
-/** Homepage LCP AVIFs — match displayed CSS pixels (PSI “Improve image delivery”). */
+/** Homepage LCP AVIFsmatch displayed CSS pixels (PSI “Improve image delivery”). */
 const LCP_AVIF_960_MAX_KB = 14;
 const LCP_AVIF_MOBILE_400_MAX_KB = 22;
 const LCP_AVIF_MIN_QUALITY = 36;
 /** Homepage tour-card thumbs (~320 CSS px). */
 const CARD_AVIF_320_MAX_KB = 10;
 const FORMATS = ['webp', 'avif'];
-/** Cap masters at Full HD — sharp on desktop/retina without huge payloads. */
+/** Cap masters at Full HDsharp on desktop/retina without huge payloads. */
 const MASTER_MAX_WIDTH = 1920;
 
 async function walk(dir) {
@@ -106,7 +106,7 @@ async function removeStaleVariants(dir, baseName) {
       continue;
     }
     const variant = name.match(new RegExp(`^${escapeRegExp(baseName)}-(\\d+)w\\.(webp|avif)$`, 'i'));
-    // Keep hand-tuned logo thumbs (64/80/160) — WIDTHS starts at 320.
+    // Keep hand-tuned logo thumbs (64/80/160)WIDTHS starts at 320.
     if (variant && Number(variant[1]) >= 320) {
       await unlink(join(dir, name));
     }
@@ -131,7 +131,7 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     format,
   );
 
-  // Drop AVIF if quality had to fall to the floor and file is still huge relative to soft — keep only excellent AVIF.
+  // Drop AVIF if quality had to fall to the floor and file is still huge relative to softkeep only excellent AVIF.
   if (format === 'avif' && mainQ < AVIF_MIN_QUALITY) {
     return { skipped: true, bytes: 0, quality: mainQ };
   }

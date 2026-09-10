@@ -1,7 +1,7 @@
 /**
  * HTTP 301 redirect map for legacy slugs + dormant locale prefixes.
  * Consumed by Express (`server.ts`) and `scripts/generate-vercel-redirects.mjs`.
- * Does not strip or redirect Dutch — `/nl/*` stays available in the UI.
+ * Does not strip or redirect Dutch`/nl/*` stays available in the UI.
  */
 import {
   DEFAULT_LOCALE,
@@ -16,7 +16,7 @@ import {
 const DORMANT_SET = new Set(DORMANT_LOCALE_PREFIXES);
 
 /**
- * Fixed path redirects (not locale-prefixed). Keep `/fr/contact` alone — FR slug is `contact`.
+ * Fixed path redirects (not locale-prefixed). Keep `/fr/contact` aloneFR slug is `contact`.
  * @type {Record<string, string>}
  */
 const STATIC_PATH_REDIRECTS = {
@@ -129,7 +129,7 @@ export function resolveEdgeRedirect(pathname, map = buildEdgeRedirectMap()) {
 
 /**
  * Vercel catch-all 301s for every dormant locale prefix.
- * `/:code/` is listed explicitly — `/:code` does not match a trailing slash,
+ * `/:code/` is listed explicitly`/:code` does not match a trailing slash,
  * and `/:code/:path*` requires at least one extra segment.
  * @returns {{ source: string, destination: string, permanent: boolean }[]}
  */

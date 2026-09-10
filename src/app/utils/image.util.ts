@@ -4,7 +4,7 @@ export const PLACEHOLDER_IMAGE = '/assets/img/image-fallback.webp';
 
 /**
  * Bump when regenerating optimized assets so browsers/CDN drop stale WebP/AVIF.
- * Appended as ?v= to image URLs (not routing — only asset query).
+ * Appended as ?v= to image URLs (not routingonly asset query).
  * Also update the hero preload `?v=` in `src/index.html`.
  */
 export const IMAGE_ASSET_VERSION = '20260828j';
@@ -39,7 +39,7 @@ export function withImageVersion(path: string): string {
 }
 
 function getVariantWidths(basePath: string, format: ImageFormat = 'webp'): number[] {
-  // AVIF must only use real AVIF manifest entries — never invent .avif paths
+  // AVIF must only use real AVIF manifest entriesnever invent .avif paths
   // from WebP widths (missing AVIF files break <picture> in some browsers).
   if (format === 'avif') {
     return [...(IMAGE_VARIANTS[toAvifSrc(basePath)] ?? [])].sort((a, b) => a - b);
@@ -87,7 +87,7 @@ export function buildSrcSet(
   return parts.join(', ');
 }
 
-/** AVIF srcset helper — same widths as WebP when both were generated together. */
+/** AVIF srcset helpersame widths as WebP when both were generated together. */
 export function buildAvifSrcSet(
   basePath: string,
   includeVariants = true,
@@ -117,7 +117,7 @@ export function buildNgSrcSet(
 }
 
 /**
- * Best default src — prefer the largest variant ≤ maxWidth.
+ * Best default srcprefer the largest variant ≤ maxWidth.
  * For tour heroes use maxWidth ≥ 1280 (or 1600) so desktop is not served a soft 640/960.
  */
 export function bestImageSrc(
@@ -147,7 +147,7 @@ export function bestImageSrc(
 }
 
 /**
- * Srcset capped at maxVariantWidth — for thumbnails so browsers never download
+ * Srcset capped at maxVariantWidthfor thumbnails so browsers never download
  * full-resolution masters for 100–160px slots (Lighthouse-friendly).
  */
 export function buildCappedSrcSet(
@@ -171,12 +171,12 @@ export function buildCappedAvifSrcSet(basePath: string, maxVariantWidth: number)
   return buildCappedSrcSet(basePath, maxVariantWidth, 'avif');
 }
 
-/** Tour gallery main stage — cap so LCP is not a 1920–full master. */
+/** Tour gallery main stagecap so LCP is not a 1920–full master. */
 export function galleryMainSrc(basePath: string): string {
   return bestImageSrc(basePath, 1100);
 }
 
-/** Lightbox / zoom — always the full base encode (never a mid-size crop). */
+/** Lightbox / zoomalways the full base encode (never a mid-size crop). */
 export function galleryLightboxSrc(basePath: string, format: ImageFormat = 'webp'): string {
   return withImageVersion(format === 'avif' ? toAvifSrc(basePath) : toWebpSrc(basePath));
 }

@@ -1,4 +1,4 @@
-# Sundown Tours Sri Lanka — AI crawler hint
+# Sundown Tours Sri LankaAI crawler hint
 # Prefer /llms.txt for brand, NAP, and key URLs.
 
 User-Agent: *

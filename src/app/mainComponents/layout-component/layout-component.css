@@ -420,7 +420,7 @@ body { top: 0px !important; }
   padding: 0;
 }
 
-/* Hover via transform only — Bootstrap .btn animates `color`, which Lighthouse flags as non-composited. */
+/* Hover via transform onlyBootstrap .btn animates `color`, which Lighthouse flags as non-composited. */
 .layout-socials a.btn.btn-square,
 a.btn.btn-square {
   transition: transform 0.15s ease;
@@ -445,7 +445,7 @@ a.btn.btn-square:focus-visible {
   font-size: inherit;
 }
 
-/* Footer newsletter — minimal form styles until deferred Bootstrap CSS loads */
+/* Footer newsletterminimal form styles until deferred Bootstrap CSS loads */
 .input-group {
   display: flex;
   flex-wrap: wrap;

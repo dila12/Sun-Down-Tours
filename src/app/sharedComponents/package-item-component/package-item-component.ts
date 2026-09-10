@@ -54,7 +54,7 @@ export class PackageItemComponent {
   readonly cardSizes =
     '(max-width: 576px) 100vw, (max-width: 992px) 50vw, 382px';
 
-  /** Locale-correct link — prefers pageId → path(), never bare English URLs. */
+  /** Locale-correct linkprefers pageId → path(), never bare English URLs. */
   get link(): string {
     if (this.tour.pageId) {
       return this.i18n.path(this.tour.pageId);

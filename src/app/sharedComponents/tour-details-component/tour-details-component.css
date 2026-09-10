@@ -39,7 +39,7 @@ ul {
   color: #fff;
 }
 
-/* Included / Excluded — separate cards matching the meta fact cards */
+/* Included / Excludedseparate cards matching the meta fact cards */
 .tour-split-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -569,11 +569,11 @@ ul {
 }
 
 .booking-sidebar {
-  /* Sit just under the sticky top bar (was 100px — left a large empty band) */
+  /* Sit just under the sticky top bar (was 100pxleft a large empty band) */
   --booking-sidebar-top: 3.75rem;
   position: sticky;
   top: var(--booking-sidebar-top);
-  /* No internal scrollbar — the card is compacted to fit one screen instead. */
+  /* No internal scrollbarthe card is compacted to fit one screen instead. */
   max-height: none;
   overflow: visible;
   padding-bottom: 0.25rem;
@@ -625,7 +625,7 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
-/* Tour hero — responsive title & meta card */
+/* Tour heroresponsive title & meta card */
 .tour-hero {
   margin-top: 0.5rem;
 }
@@ -642,7 +642,7 @@ ul {
   padding-inline: 0.25rem;
 }
 
-/* Clean professional fact strip — 4 separate cards, full content width */
+/* Clean professional fact strip4 separate cards, full content width */
 .tour-meta-card {
   --meta-ink: #022d41;
   --meta-accent: #c05305;
@@ -1257,7 +1257,7 @@ ul {
     --booking-sidebar-top: 2.75rem;
   }
 
-  /* Secondary links — drop them so the form itself stays fully on-screen */
+  /* Secondary linksdrop them so the form itself stays fully on-screen */
   .booking-review-ctas {
     display: none;
   }

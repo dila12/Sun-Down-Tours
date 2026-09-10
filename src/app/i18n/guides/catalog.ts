@@ -1,5 +1,5 @@
 /**
- * Structural travel-guide catalog — NO visible marketing copy.
+ * Structural travel-guide catalogNO visible marketing copy.
  * Hub-card titles and blurbs are derived from the localized `ArticleContent`
  * registry at render time (see `ArticleContentService`); this file only
  * holds the stable page id, the hero image path and a plain fallback alt.
@@ -8,7 +8,7 @@
 export interface GuideHubCardMeta {
   /** Stable page id used by routing / site-data / language switcher. */
   pageId: string;
-  /** Card thumbnail — reuses existing gallery/mainpage imagery. */
+  /** Card thumbnailreuses existing gallery/mainpage imagery. */
   image: string;
   /** Plain fallback alt text (English); localized cards prefer the article h1. */
   imageAlt: string;
@@ -32,6 +32,14 @@ export const GUIDE_PAGE_IDS = [
   'guideFamilyTours',
   'guideLuxuryTours',
   'guideAirportTransfers',
+  'marketUK',
+  'marketGermany',
+  'marketFrance',
+  'marketItaly',
+  'marketSpain',
+  'marketPoland',
+  'marketRussia',
+  'monthAugust',
 ] as const;
 
 export type GuidePageId = (typeof GUIDE_PAGE_IDS)[number];
@@ -110,7 +118,7 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
   {
     pageId: 'guideFamilyTours',
     image: 'assets/img/5daysTours/33.webp',
-    imageAlt: 'Family-friendly wildlife and touring in Sri Lanka',
+    imageAlt: 'family friendly wildlife and touring in Sri Lanka',
   },
   {
     pageId: 'guideLuxuryTours',
@@ -121,6 +129,46 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
     pageId: 'guideAirportTransfers',
     image: 'assets/img/mainpage/3.webp',
     imageAlt: 'Private airport transfer vehicle in Sri Lanka',
+  },
+  {
+    pageId: 'marketUK',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Sri Lanka holidays from the UK with a private chauffeur guide',
+  },
+  {
+    pageId: 'marketGermany',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Sri Lanka Rundreise aus Deutschland mit privatem Fahrer Guide',
+  },
+  {
+    pageId: 'marketFrance',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Circuit prive au Sri Lanka depuis la France avec chauffeur guide',
+  },
+  {
+    pageId: 'marketItaly',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Tour privato in Sri Lanka dall’Italia con autista guida',
+  },
+  {
+    pageId: 'marketSpain',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Circuito privado por Sri Lanka desde Espana con chofer guia',
+  },
+  {
+    pageId: 'marketPoland',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Prywatna wycieczka po Sri Lance z Polski z kierowca przewodnikiem',
+  },
+  {
+    pageId: 'marketRussia',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Частный тур по Шри Ланке из России с водителем гидом',
+  },
+  {
+    pageId: 'monthAugust',
+    image: 'assets/img/mainpage/1.webp',
+    imageAlt: 'Sri Lanka travel in August across Cultural Triangle and east coast',
   },
 ];
 

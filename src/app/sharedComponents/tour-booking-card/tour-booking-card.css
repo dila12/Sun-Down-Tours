@@ -1,5 +1,5 @@
 .booking-card {
-  /* Vertical density knobs — tightened on short viewports so the whole card
+  /* Vertical density knobstightened on short viewports so the whole card
      (up to the submit button) stays inside a single screen. */
   --bk-field-h: 36px;
   --bk-form-gap: 0.5rem;
@@ -148,7 +148,7 @@
   min-height: 0.9rem;
 }
 
-/* Connected phone control — Booking / Airbnb style */
+/* Connected phone controlBooking / Airbnb style */
 .phone-field {
   position: relative;
   display: flex;
@@ -440,14 +440,6 @@
 .total-bar__amount strong {
   font-size: 1.15rem;
   font-weight: 700;
-  white-space: nowrap;
-}
-
-.total-bar__amount small {
-  margin-top: 0.12rem;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #6b7c85;
   white-space: nowrap;
 }
 
@@ -1197,7 +1189,7 @@
   }
 }
 
-/* Touch layouts (mobile booking sheet) — keep every control at the larger
+/* Touch layouts (mobile booking sheet)keep every control at the larger
    tap height the date trigger already used. */
 @media (max-width: 991.98px) {
   .booking-card {

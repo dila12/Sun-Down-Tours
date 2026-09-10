@@ -1,7 +1,8 @@
 import type { TourContent } from './localize';
+import { PACKAGE_EXCLUDES, PACKAGE_INCLUDES } from './package-inclusions';
 
 /**
- * 4-day Sri Lanka round tour (id: tour4).
+ * 4 day Sri Lanka round tour (id: tour4).
  * English is the full BaseTour; locale overlays are authored separately.
  */
 export const TOUR4: TourContent = {
@@ -13,12 +14,12 @@ export const TOUR4: TourContent = {
     persons: '1-20 Persons',
     filecode: '4-day-sri-lanka-tour',
     overview:
-      'Discover Sri Lanka’s perfect combination of culture, scenic beauty, wildlife and coastal charm in this 4-day private tour. Visit the sacred city of Kandy, experience the breathtaking hill country of Ella, enjoy a thrilling safari in Yala National Park and explore the historic Galle Fort before your airport drop.',
+      'Discover Sri Lanka’s perfect combination of culture, scenic beauty, wildlife and coastal charm in this 4 day private tour. Visit the sacred city of Kandy, experience the breathtaking hill country of Ella, enjoy a thrilling safari in Yala National Park and explore the historic Galle Fort before your airport drop.',
     tourType: 'Round Tour',
     itinerary: [
       {
         day: 1,
-        title: 'Airport / Hotel – Kandy Cultural Experience',
+        title: 'Airport / Hotel  Kandy Cultural Experience',
         activities: [
           {
             type: 'Wildlife Experience',
@@ -50,14 +51,14 @@ export const TOUR4: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Overnight Stay Topez Hotel in Kandy', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Stay overnight in a comfortable star-class hotel in Kandy on a Half Board basis.',
+            description: 'Stay overnight in a comfortable star class hotel in Kandy on a half  Board basis.',
             extra: ['Dinner Included', 'Private Room'],
           },
         ],
       },
       {
         day: 2,
-        title: 'Kandy – Ella Hill Country Journey',
+        title: 'Kandy  Ella Hill Country Journey',
         activities: [
           {
             type: 'Nature',
@@ -70,13 +71,13 @@ export const TOUR4: TourContent = {
             type: 'Tea Experience',
             title: { title: 'Glenloch Tea Factory Visit', icon: 'fa-mug-hot', color: '#8B4513' },
             description:
-              'Discover how world-famous Ceylon tea is produced and enjoy a fresh cup while overlooking scenic tea plantations.',
+              'Discover how world famous Ceylon tea is produced and enjoy a fresh cup while overlooking scenic tea plantations.',
             image: 'assets/img/5daysTours/17.jpg',
           },
           {
             type: 'Scenic Visit',
             title: { title: 'Nine Arch Bridge', icon: 'fa-bridge', color: '#A9A9A9' },
-            description: 'Visit the iconic colonial-era Nine Arch Bridge surrounded by lush greenery and rolling hills.',
+            description: 'Visit the iconic colonial era Nine Arch Bridge surrounded by lush greenery and rolling hills.',
             image: 'assets/img/5daysTours/5.jpg',
           },
           {
@@ -92,20 +93,20 @@ export const TOUR4: TourContent = {
               icon: 'fa-hotel',
               color: '#16a085',
             },
-            description: 'Overnight stay in a scenic hill country hotel on Half Board basis.',
+            description: 'Overnight stay in a scenic hill country hotel on half  Board basis.',
             extra: ['Breakfast & Dinner Included', 'Private Room'],
           },
         ],
       },
       {
         day: 3,
-        title: 'Ella – Yala Wildlife Safari',
+        title: 'Ella  Yala Wildlife Safari',
         activities: [
           {
             type: 'Waterfall',
             title: { title: 'Ravana Falls', icon: 'fa-water', color: '#3498db' },
             description:
-              'Stop at Ravana Falls, one of Sri Lanka’s most picturesque waterfalls located along the Ella–Wellawaya road.',
+              'Stop at Ravana Falls, one of Sri Lanka’s most picturesque waterfalls located along the Ella to Wellawaya road.',
             image: 'assets/img/5daysTours/n0oxsxmicxgleixkq2rx.jpg',
           },
           {
@@ -124,14 +125,14 @@ export const TOUR4: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Overnight Stay in Yala', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Overnight stay in a comfortable safari-area hotel with Half Board.',
+            description: 'Overnight stay in a comfortable safari area hotel with half  Board.',
             extra: ['Breakfast & Dinner Included'],
           },
         ],
       },
       {
         day: 4,
-        title: 'Yala – Galle – Bentota – Airport',
+        title: 'Yala  Galle  Bentota  Airport',
         activities: [
           {
             type: 'Beach Visit',
@@ -142,7 +143,7 @@ export const TOUR4: TourContent = {
           {
             type: 'Heritage',
             title: { title: 'Galle Dutch Fort', icon: 'fa-landmark', color: '#8e44ad' },
-            description: 'Explore the UNESCO-listed Galle Fort with colonial architecture, ramparts and ocean views.',
+            description: 'Explore the UNESCO listed Galle Fort with colonial architecture, ramparts and ocean views.',
             image: 'assets/img/5daysTours/22.jpg',
           },
           {
@@ -155,26 +156,20 @@ export const TOUR4: TourContent = {
         ],
       },
     ],
-    includes: [
-      'Air-Conditioned Private Vehicle',
-      'English Speaking Professional Driver',
-      'Half Board Accommodation in carefully selected 3.5-Star or 4-Star hotels depending on availability',
-      'Airport Pickup & Drop Off',
-      'Fuel & Parking Fees',
-    ],
-    excludes: ['Entrance Fees', 'Lunch & Drinks', 'Personal Expenses'],
+    includes: PACKAGE_INCLUDES.en,
+    excludes: PACKAGE_EXCLUDES.en,
     seoIntro:
-      'Four days is the sweet spot when you want Sri Lanka\'s greatest hits without a full-week commitment. This private round tour links the sacred lake city of Kandy, Ella\'s misty ridges and Nine Arches Bridge, a Yala National Park jeep safari for elephants and leopards, and the colonial charm of Galle Fort on the south coast all with one English-speaking chauffeur and unlimited mileage. Sundown Tours paces the driving so you enjoy Peradeniya Gardens and tea country viewpoints rather than rushing between checkpoints. Hotels are arranged on half board in star-class properties; entrance fees and lunches stay flexible so you choose which temples, parks and restaurants matter most. Ideal as a standalone holiday or as a focused add-on before a beach extension.',
+      'Four days is the sweet spot when you want Sri Lanka\'s greatest hits without a full week commitment. This private round tour links the sacred lake city of Kandy, Ella\'s misty ridges and Nine Arches Bridge, a Yala National Park jeep safari for elephants and leopards, and the colonial charm of Galle Fort on the south coast all with one English speaking chauffeur and unlimited mileage. Sundown Tours paces the driving so you enjoy Peradeniya Gardens and tea country viewpoints rather than rushing between checkpoints. Hotels are arranged on half  board in star class properties; entrance fees and lunches stay flexible so you choose which temples, parks and restaurants matter most. Ideal as a standalone holiday or as a focused add on before a beach extension.',
     highlights: [
       'Kandy Sacred Tooth Relic Temple, cultural dance show and lake viewpoints',
-      'Ella Nine Arch Bridge, tea factory visit and scenic hill-country drives',
+      'Ella Nine Arch Bridge, tea factory visit and scenic hill country drives',
       'Yala National Park 4x4 safari for wild elephants and leopard country',
       'Galle Fort UNESCO walk and Madu River mangrove boat safari',
-      'Private air-conditioned vehicle with professional driver-guide throughout',
+      'Private air conditioned vehicle with professional driver guide throughout',
     ],
     faq: [
       {
-        q: 'Can this 4-day tour start from Colombo or only the airport?',
+        q: 'Can this 4 day tour start from Colombo or only the airport?',
         a: 'Both work. We can pick you up at Bandaranaike International Airport or any Colombo/West Coast hotel and drop you at the airport or your preferred exit point on Day 4.',
       },
       {
@@ -183,59 +178,53 @@ export const TOUR4: TourContent = {
       },
       {
         q: 'Does the price include hotels and safari jeep fees?',
-        a: 'Half-board hotel accommodation and your private vehicle with driver are included. National park entrance tickets, safari jeep hire and activity fees are paid locally so you can tailor optional extras.',
+        a: 'half board hotel accommodation and your private vehicle with driver are included. National park entrance tickets, safari jeep hire and activity fees are paid locally so you can tailor optional extras.',
       },
     ],
   },
   de: {
-    title: 'Sri Lanka Privatreise – 4 Tage | Kandy, Ella, Yala & Südküste',
+    title: 'Sri Lanka Privatreise  4 Tage | Kandy, Ella, Yala & Sudkuste',
     description:
-      'Erleben Sie Sri Lanka in 4 unvergesslichen Tagen mit dem Kulturerbe von Kandy, dem Hügelland von Ella, einem spannenden Safari-Abenteuer in Yala und der traumhaften Südküste.',
+      'Erleben Sie Sri Lanka in 4 unvergesslichen Tagen mit dem Kulturerbe von Kandy, dem Hugelland von Ella, einem spannenden Safari Abenteuer in Yala und der traumhaften Sudkuste.',
     duration: '4 Tage',
     persons: '1-20 Personen',
     tourType: 'Privatreise',
     overview:
-      'Entdecken Sie auf dieser 4-tägigen Privatreise die perfekte Mischung aus Kultur, Landschaft, Tierwelt und Küstenzauber Sri Lankas. Besuchen Sie die heilige Stadt Kandy, erleben Sie das atemberaubende Hügelland von Ella, genießen Sie eine spannende Safari im Yala-Nationalpark und erkunden Sie das historische Galle Fort vor Ihrem Transfer zum Flughafen.',
-    includes: [
-      'Klimatisiertes Privatfahrzeug',
-      'Englischsprachiger professioneller Fahrer',
-      'Halbpension in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
-      'Abholung & Rückfahrt zum Flughafen',
-      'Kraftstoff & Parkgebühren',
-    ],
-    excludes: ['Eintrittsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+      'Entdecken Sie auf dieser 4 tagigen Privatreise die perfekte Mischung aus Kultur, Landschaft, Tierwelt und Kustenzauber Sri Lankas. Besuchen Sie die heilige Stadt Kandy, erleben Sie das atemberaubende Hugelland von Ella, geniessen Sie eine spannende Safari im Yala Nationalpark und erkunden Sie das historische Galle Fort vor Ihrem Transfer zum Flughafen.',
+    includes: PACKAGE_INCLUDES.de,
+    excludes: PACKAGE_EXCLUDES.de,
     seoIntro:
-      'Vier Tage sind der ideale Zeitrahmen, um die Höhepunkte Sri Lankas zu erleben, ohne sich für eine ganze Woche zu binden. Diese private Rundreise verbindet die heilige Seenstadt Kandy, die nebligen Hügel von Ella mit der Nine Arches Bridge, eine Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten und Leoparden sowie den kolonialen Charme des Galle Forts an der Südküste – alles mit einem englischsprachigen Chauffeur und unbegrenzter Kilometerleistung. Sundown Tours plant die Fahrzeiten so, dass Sie die Peradeniya-Gärten und die Aussichtspunkte im Teeland genießen können, statt zwischen den Stationen zu hetzen. Die Hotels werden auf Halbpension in Häusern gehobener Kategorie gebucht; Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie selbst entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind. Ideal als eigenständiger Urlaub oder als gezielte Ergänzung vor einer Strandverlängerung.',
+      'Vier Tage sind der ideale Zeitrahmen, um die Hohepunkte Sri Lankas zu erleben, ohne sich fur eine ganze Woche zu binden. Diese private Rundreise verbindet die heilige Seenstadt Kandy, die nebligen Hugel von Ella mit der Nine Arches Bridge, eine Jeep Safari im Yala Nationalpark auf der Suche nach Elefanten und Leoparden sowie den kolonialen Charme des Galle Forts an der Sudkuste  alles mit einem englischsprachigen Chauffeur und unbegrenzter Kilometerleistung. Sundown Tours plant die Fahrzeiten so, dass Sie die Peradeniya Garten und die Aussichtspunkte im Teeland geniessen konnen, statt zwischen den Stationen zu hetzen. Die Hotels werden auf Halbpension in Hausern gehobener Kategorie gebucht; Eintrittsgebuhren und Mittagessen bleiben flexibel, sodass Sie selbst entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind. Ideal als eigenstandiger Urlaub oder als gezielte Erganzung vor einer Strandverlangerung.',
     highlights: [
       'Zahntempel in Kandy, kulturelle Tanzshow und Aussichtspunkte am See',
-      'Nine Arch Bridge in Ella, Besuch einer Teefabrik und malerische Fahrten durchs Hügelland',
-      '4x4-Safari im Yala-Nationalpark auf der Suche nach wilden Elefanten und Leoparden',
-      'Spaziergang durch das UNESCO-Galle-Fort und Bootssafari durch die Mangroven des Madu-Flusses',
-      'Privates klimatisiertes Fahrzeug mit professionellem Fahrer-Guide während der gesamten Reise',
+      'Nine Arch Bridge in Ella, Besuch einer Teefabrik und malerische Fahrten durchs Hugelland',
+      '4x4 Safari im Yala Nationalpark auf der Suche nach wilden Elefanten und Leoparden',
+      'Spaziergang durch das UNESCO Galle Fort und Bootssafari durch die Mangroven des Madu Flusses',
+      'Privates klimatisiertes Fahrzeug mit professionellem Fahrer Guide wahrend der gesamten Reise',
     ],
     faq: [
       {
-        q: 'Kann diese 4-tägige Tour in Colombo starten oder nur am Flughafen?',
-        a: 'Beides ist möglich. Wir holen Sie am Flughafen Bandaranaike oder in jedem Hotel in Colombo bzw. an der Westküste ab und bringen Sie am 4. Tag zum Flughafen oder an Ihren gewünschten Zielort zurück.',
+        q: 'Kann diese 4 tagige Tour in Colombo starten oder nur am Flughafen?',
+        a: 'Beides ist moglich. Wir holen Sie am Flughafen Bandaranaike oder in jedem Hotel in Colombo bzw. an der Westkuste ab und bringen Sie am 4. Tag zum Flughafen oder an Ihren gewunschten Zielort zuruck.',
       },
       {
-        q: 'Ist der Yala-Nationalpark im Reiseverlauf immer geöffnet?',
-        a: 'Yala schließt jedes Jahr kurzzeitig für Wartungsarbeiten, meist im September. Fällt Ihre Reise in diesen Zeitraum, weichen wir ohne Änderung des Reiseablaufs auf Udawalawe oder einen anderen Park mit guten Elefantensichtungen aus.',
+        q: 'Ist der Yala Nationalpark im Reiseverlauf immer geoffnet?',
+        a: 'Yala schliesst jedes Jahr kurzzeitig fur Wartungsarbeiten, meist im September. Fallt Ihre Reise in diesen Zeitraum, weichen wir ohne Anderung des Reiseablaufs auf Udawalawe oder einen anderen Park mit guten Elefantensichtungen aus.',
       },
       {
-        q: 'Sind Hotels und Safari-Jeep-Gebühren im Preis enthalten?',
-        a: 'Die Halbpension-Unterkunft und Ihr privates Fahrzeug mit Fahrer sind inklusive. Eintrittsgebühren für Nationalparks, die Jeep-Miete und Aktivitätsgebühren werden vor Ort bezahlt, sodass Sie optionale Extras flexibel wählen können.',
+        q: 'Sind Hotels und Safari Jeep Gebuhren im Preis enthalten?',
+        a: 'Die Halbpension Unterkunft und Ihr privates Fahrzeug mit Fahrer sind inklusive. Eintrittsgebuhren fur Nationalparks, die Jeep Miete und Aktivitatsgebuhren werden vor Ort bezahlt, sodass Sie optionale Extras flexibel wahlen konnen.',
       },
     ],
     days: [
       {
-        title: 'Flughafen / Hotel – Kulturerlebnis in Kandy',
+        title: 'Flughafen / Hotel  Kulturerlebnis in Kandy',
         activities: [
           {
             type: 'Tiererlebnis',
-            title: 'Pinnawala-Elefantenwaisenhaus',
+            title: 'Pinnawala Elefantenwaisenhaus',
             description:
-              'Besuchen Sie das berühmte Pinnawala-Elefantenwaisenhaus, in dem gerettete Elefanten versorgt und geschützt werden. Beobachten Sie die Tiere beim Baden im Fluss und erfahren Sie mehr über die Schutzprojekte.',
+              'Besuchen Sie das beruhmte Pinnawala Elefantenwaisenhaus, in dem gerettete Elefanten versorgt und geschutzt werden. Beobachten Sie die Tiere beim Baden im Fluss und erfahren Sie mehr uber die Schutzprojekte.',
           },
           {
             type: 'Kulturbesuch',
@@ -247,265 +236,259 @@ export const TOUR4: TourContent = {
             type: 'Kulturerlebnis',
             title: 'Kandyanische Tanzshow',
             description:
-              'Erleben Sie eine traditionelle kandyanische Tanzvorführung mit Feuerlauf, Trommelmusik und farbenprächtigen Kostümen.',
+              'Erleben Sie eine traditionelle kandyanische Tanzvorfuhrung mit Feuerlauf, Trommelmusik und farbenprachtigen Kostumen.',
           },
           {
             type: 'Aussichtspunkt',
             title: 'Aussichtspunkt Kandy',
             description:
-              'Halten Sie am Aussichtspunkt Kandy für einen Panoramablick auf die Stadt, den See und die umliegenden Hügel.',
+              'Halten Sie am Aussichtspunkt Kandy fur einen Panoramablick auf die Stadt, den See und die umliegenden Hugel.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung im Topez Hotel in Kandy',
-            description: 'Übernachtung in einem komfortablen Sterne-Hotel in Kandy auf Halbpension.',
+            title: 'Ubernachtung im Topez Hotel in Kandy',
+            description: 'Ubernachtung in einem komfortablen Sterne Hotel in Kandy auf Halbpension.',
             extra: ['Abendessen inklusive', 'Privatzimmer'],
           },
         ],
       },
       {
-        title: 'Kandy – Reise ins Hügelland von Ella',
+        title: 'Kandy  Reise ins Hugelland von Ella',
         activities: [
           {
             type: 'Natur',
             title: 'Royal Botanic Gardens Peradeniya',
             description:
-              'Spazieren Sie durch einen der schönsten botanischen Gärten Asiens mit Orchideen, Palmen, Bambus und tropischen Pflanzen.',
+              'Spazieren Sie durch einen der schonsten botanischen Garten Asiens mit Orchideen, Palmen, Bambus und tropischen Pflanzen.',
           },
           {
-            type: 'Tee-Erlebnis',
-            title: 'Besuch der Glenloch-Teefabrik',
+            type: 'Tee Erlebnis',
+            title: 'Besuch der Glenloch Teefabrik',
             description:
-              'Erfahren Sie, wie der weltberühmte Ceylon-Tee hergestellt wird, und genießen Sie eine frische Tasse mit Blick auf die Teeplantagen.',
+              'Erfahren Sie, wie der weltberuhmte Ceylon Tee hergestellt wird, und geniessen Sie eine frische Tasse mit Blick auf die Teeplantagen.',
           },
           {
             type: 'Aussichtspunkt',
             title: 'Nine Arch Bridge',
             description:
-              'Besuchen Sie die berühmte Nine Arch Bridge aus der Kolonialzeit, umgeben von üppigem Grün und sanften Hügeln.',
+              'Besuchen Sie die beruhmte Nine Arch Bridge aus der Kolonialzeit, umgeben von uppigem Grun und sanften Hugeln.',
           },
           {
             type: 'Wanderung',
             title: 'Little Adam’s Peak',
             description:
-              'Genießen Sie eine leichte Wanderung mit Panoramablick auf den Ella Gap und die umliegende Berglandschaft.',
+              'Geniessen Sie eine leichte Wanderung mit Panoramablick auf den Ella Gap und die umliegende Berglandschaft.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung im Oak Ray Ella Gap Hotel oder ähnlich – Halbpension in Ella',
-            description: 'Übernachtung in einem malerischen Hotel im Hügelland auf Halbpension.',
-            extra: ['Frühstück & Abendessen inklusive', 'Privatzimmer'],
+            title: 'Ubernachtung im Oak Ray Ella Gap Hotel oder ahnlich  Halbpension in Ella',
+            description: 'Ubernachtung in einem malerischen Hotel im Hugelland auf Halbpension.',
+            extra: ['Fruhstuck & Abendessen inklusive', 'Privatzimmer'],
           },
         ],
       },
       {
-        title: 'Ella – Wildlife-Safari in Yala',
+        title: 'Ella  Wildlife Safari in Yala',
         activities: [
           {
             type: 'Wasserfall',
-            title: 'Ravana-Wasserfälle',
+            title: 'Ravana Wasserfalle',
             description:
-              'Halten Sie an den Ravana-Wasserfällen, einem der malerischsten Wasserfälle Sri Lankas an der Straße zwischen Ella und Wellawaya.',
+              'Halten Sie an den Ravana Wasserfallen, einem der malerischsten Wasserfalle Sri Lankas an der Strasse zwischen Ella und Wellawaya.',
           },
           {
-            type: 'Historische Stätte',
-            title: 'Buduruwagala-Tempel',
+            type: 'Historische Statte',
+            title: 'Buduruwagala Tempel',
             description:
-              'Besuchen Sie diesen antiken Felsentempel mit beeindruckenden, in den Fels gemeißelten Buddha-Statuen.',
+              'Besuchen Sie diesen antiken Felsentempel mit beeindruckenden, in den Fels gemeisselten Buddha Statuen.',
           },
           {
             type: 'Safari',
-            title: 'Safari im Yala-Nationalpark',
+            title: 'Safari im Yala Nationalpark',
             description:
-              'Erleben Sie eine spannende Jeep-Safari im Yala-Nationalpark, Heimat von Leoparden, Elefanten, Krokodilen und einer vielfältigen Tierwelt.',
+              'Erleben Sie eine spannende Jeep Safari im Yala Nationalpark, Heimat von Leoparden, Elefanten, Krokodilen und einer vielfaltigen Tierwelt.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung in Yala',
-            description: 'Übernachtung in einem komfortablen Hotel im Safari-Gebiet mit Halbpension.',
-            extra: ['Frühstück & Abendessen inklusive'],
+            title: 'Ubernachtung in Yala',
+            description: 'Ubernachtung in einem komfortablen Hotel im Safari Gebiet mit Halbpension.',
+            extra: ['Fruhstuck & Abendessen inklusive'],
           },
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Flughafen',
+        title: 'Yala  Galle  Bentota  Flughafen',
         activities: [
           {
             type: 'Strandbesuch',
             title: 'Mirissa Beach',
-            description: 'Entspannen Sie am Mirissa Beach oder genießen Sie optional Whale Watching und die Küstenlandschaft.',
+            description: 'Entspannen Sie am Mirissa Beach oder geniessen Sie optional Whale Watching und die Kustenlandschaft.',
           },
           {
             type: 'Kulturerbe',
             title: 'Galle Dutch Fort',
-            description: 'Erkunden Sie das UNESCO-gelistete Galle Fort mit kolonialer Architektur, Festungsmauern und Meerblick.',
+            description: 'Erkunden Sie das UNESCO gelistete Galle Fort mit kolonialer Architektur, Festungsmauern und Meerblick.',
           },
           {
             type: 'Bootssafari',
-            title: 'Bootssafari auf dem Madu-Fluss',
+            title: 'Bootssafari auf dem Madu Fluss',
             description:
-              'Genießen Sie eine entspannte Bootsfahrt durch Mangroven und kleine Inseln in einem der artenreichsten Feuchtgebiete Sri Lankas.',
+              'Geniessen Sie eine entspannte Bootsfahrt durch Mangroven und kleine Inseln in einem der artenreichsten Feuchtgebiete Sri Lankas.',
           },
         ],
       },
     ],
   },
   fr: {
-    title: 'Circuit Privé de 4 Jours au Sri Lanka | Kandy, Ella, Yala & Côte Sud',
+    title: 'Circuit Prive de 4 Jours au Sri Lanka | Kandy, Ella, Yala & Cote Sud',
     description:
-      'Découvrez le Sri Lanka en 4 jours inoubliables : patrimoine culturel de Kandy, hauts plateaux d’Ella, safari palpitant à Yala et la magnifique côte sud.',
+      'Decouvrez le Sri Lanka en 4 jours inoubliables : patrimoine culturel de Kandy, hauts plateaux d’Ella, safari palpitant a Yala et la magnifique cote sud.',
     duration: '4 jours',
-    persons: '1 à 20 personnes',
+    persons: '1 a 20 personnes',
     tourType: 'Circuit',
     overview:
-      'Découvrez la combinaison parfaite entre culture, paysages, faune et charme côtier du Sri Lanka lors de ce circuit privé de 4 jours. Visitez la ville sacrée de Kandy, explorez les hauts plateaux d’Ella à couper le souffle, profitez d’un safari palpitant dans le parc national de Yala et découvrez le fort historique de Galle avant votre transfert à l’aéroport.',
-    includes: [
-      'Véhicule privé climatisé',
-      'Chauffeur professionnel anglophone',
-      'Hébergement en demi-pension dans des hôtels 3,5 ou 4 étoiles soigneusement sélectionnés, selon disponibilité',
-      'Prise en charge & dépose à l’aéroport',
-      'Carburant & frais de parking',
-    ],
-    excludes: ['Frais d’entrée', 'Déjeuners & boissons', 'Dépenses personnelles'],
+      'Decouvrez la combinaison parfaite entre culture, paysages, faune et charme cotier du Sri Lanka lors de ce circuit prive de 4 jours. Visitez la ville sacree de Kandy, explorez les hauts plateaux d’Ella a couper le souffle, profitez d’un safari palpitant dans le parc national de Yala et decouvrez le fort historique de Galle avant votre transfert a l’aeroport.',
+    includes: PACKAGE_INCLUDES.fr,
+    excludes: PACKAGE_EXCLUDES.fr,
     seoIntro:
-      'Quatre jours, c’est la durée idéale pour découvrir les incontournables du Sri Lanka sans s’engager sur une semaine entière. Ce circuit privé relie la ville sacrée au bord du lac de Kandy, les crêtes brumeuses d’Ella et le pont Nine Arches, un safari en jeep dans le parc national de Yala à la recherche d’éléphants et de léopards, ainsi que le charme colonial du fort de Galle sur la côte sud tout cela avec un chauffeur anglophone et un kilométrage illimité. Sundown Tours rythme les trajets pour que vous puissiez profiter des jardins de Peradeniya et des points de vue sur les plantations de thé plutôt que de vous précipiter d’un site à l’autre. Les hôtels sont réservés en demi-pension dans des établissements de standing ; les frais d’entrée et les déjeuners restent flexibles afin que vous choisissiez vous-même les temples, parcs et restaurants qui vous tiennent le plus à cœur. Idéal comme séjour autonome ou comme complément avant une prolongation en bord de mer.',
+      'Quatre jours, c’est la duree ideale pour decouvrir les incontournables du Sri Lanka sans s’engager sur une semaine entiere. Ce circuit prive relie la ville sacree au bord du lac de Kandy, les cretes brumeuses d’Ella et le pont Nine Arches, un safari en jeep dans le parc national de Yala a la recherche d’elephants et de leopards, ainsi que le charme colonial du fort de Galle sur la cote sud tout cela avec un chauffeur anglophone et un kilometrage illimite. Sundown Tours rythme les trajets pour que vous puissiez profiter des jardins de Peradeniya et des points de vue sur les plantations de the plutot que de vous precipiter d’un site a l’autre. Les hotels sont reserves en demi pension dans des etablissements de standing ; les frais d’entree et les dejeuners restent flexibles afin que vous choisissiez vous meme les temples, parcs et restaurants qui vous tiennent le plus a coeur. Ideal comme sejour autonome ou comme complement avant une prolongation en bord de mer.',
     highlights: [
-      'Temple de la Dent Sacrée à Kandy, spectacle de danse traditionnelle et points de vue sur le lac',
-      'Nine Arch Bridge à Ella, visite d’une fabrique de thé et routes panoramiques dans les hauts plateaux',
-      'Safari en 4x4 dans le parc national de Yala à la recherche d’éléphants sauvages et de léopards',
-      'Balade dans le fort de Galle classé UNESCO et safari en bateau dans les mangroves de la rivière Madu',
-      'Véhicule privé climatisé avec chauffeur-guide professionnel pendant tout le circuit',
+      'Temple de la Dent Sacree a Kandy, spectacle de danse traditionnelle et points de vue sur le lac',
+      'Nine Arch Bridge a Ella, visite d’une fabrique de the et routes panoramiques dans les hauts plateaux',
+      'Safari en 4x4 dans le parc national de Yala a la recherche d’elephants sauvages et de leopards',
+      'Balade dans le fort de Galle classe UNESCO et safari en bateau dans les mangroves de la riviere Madu',
+      'Vehicule prive climatise avec chauffeur guide professionnel pendant tout le circuit',
     ],
     faq: [
       {
-        q: 'Ce circuit de 4 jours peut-il débuter à Colombo ou uniquement à l’aéroport ?',
-        a: 'Les deux sont possibles. Nous pouvons vous prendre en charge à l’aéroport international de Bandaranaike ou dans tout hôtel de Colombo/côte ouest, et vous déposer à l’aéroport ou au point de sortie de votre choix le jour 4.',
+        q: 'Ce circuit de 4 jours peut il debuter a Colombo ou uniquement a l’aeroport ?',
+        a: 'Les deux sont possibles. Nous pouvons vous prendre en charge a l’aeroport international de Bandaranaike ou dans tout hotel de Colombo/cote ouest, et vous deposer a l’aeroport ou au point de sortie de votre choix le jour 4.',
       },
       {
-        q: 'Le parc national de Yala est-il toujours ouvert sur cet itinéraire ?',
-        a: 'Yala ferme brièvement chaque année pour entretien, généralement en septembre. Si vos dates coïncident, nous le remplaçons par Udawalawe ou un autre parc offrant de belles observations d’éléphants, sans modifier la structure du circuit.',
+        q: 'Le parc national de Yala est il toujours ouvert sur cet itineraire ?',
+        a: 'Yala ferme brievement chaque annee pour entretien, generalement en septembre. Si vos dates coincident, nous le remplacons par Udawalawe ou un autre parc offrant de belles observations d’elephants, sans modifier la structure du circuit.',
       },
       {
-        q: 'Le prix inclut-il les hôtels et les frais de jeep pour le safari ?',
-        a: 'L’hébergement en demi-pension et votre véhicule privé avec chauffeur sont inclus. Les billets d’entrée des parcs nationaux, la location du jeep et les frais d’activités sont payés sur place, ce qui vous permet de choisir vos extras optionnels.',
+        q: 'Le prix inclut il les hotels et les frais de jeep pour le safari ?',
+        a: 'L’hebergement en demi pension et votre vehicule prive avec chauffeur sont inclus. Les billets d’entree des parcs nationaux, la location du jeep et les frais d’activites sont payes sur place, ce qui vous permet de choisir vos extras optionnels.',
       },
     ],
     days: [
       {
-        title: 'Aéroport / Hôtel – Découverte culturelle de Kandy',
+        title: 'Aeroport / Hotel  Decouverte culturelle de Kandy',
         activities: [
           {
-            type: 'Rencontre animalière',
-            title: 'Orphelinat des éléphants de Pinnawala',
+            type: 'Rencontre animaliere',
+            title: 'Orphelinat des elephants de Pinnawala',
             description:
-              'Visitez le célèbre orphelinat des éléphants de Pinnawala, où des éléphants secourus sont soignés et protégés. Observez-les se baigner dans la rivière et découvrez les actions de préservation menées sur place.',
+              'Visitez le celebre orphelinat des elephants de Pinnawala, ou des elephants secourus sont soignes et proteges. Observez les se baigner dans la riviere et decouvrez les actions de preservation menees sur place.',
           },
           {
             type: 'Visite culturelle',
-            title: 'Temple de la Dent Sacrée',
+            title: 'Temple de la Dent Sacree',
             description:
-              'Explorez le Sri Dalada Maligawa, l’un des temples bouddhistes les plus sacrés au monde, qui abrite la relique de la dent sacrée du Bouddha.',
+              'Explorez le Sri Dalada Maligawa, l’un des temples bouddhistes les plus sacres au monde, qui abrite la relique de la dent sacree du Bouddha.',
           },
           {
-            type: 'Expérience culturelle',
+            type: 'Experience culturelle',
             title: 'Spectacle de danse traditionnelle de Kandy',
             description:
-              'Assistez à un spectacle de danse kandyenne traditionnelle mêlant marche sur le feu, percussions et costumes chatoyants.',
+              'Assistez a un spectacle de danse kandyenne traditionnelle melant marche sur le feu, percussions et costumes chatoyants.',
           },
           {
             type: 'Point de vue',
             title: 'Point de vue de Kandy',
-            description: 'Arrêt au point de vue de Kandy pour une vue panoramique sur la ville, le lac et les collines environnantes.',
+            description: 'Arret au point de vue de Kandy pour une vue panoramique sur la ville, le lac et les collines environnantes.',
           },
           {
-            type: 'Hébergement',
-            title: 'Nuit au Topez Hotel à Kandy',
-            description: 'Nuit dans un hôtel confortable de standing à Kandy, en demi-pension.',
-            extra: ['Dîner inclus', 'Chambre privée'],
+            type: 'Hebergement',
+            title: 'Nuit au Topez Hotel a Kandy',
+            description: 'Nuit dans un hotel confortable de standing a Kandy, en demi pension.',
+            extra: ['Diner inclus', 'Chambre privee'],
           },
         ],
       },
       {
-        title: 'Kandy – Voyage vers les hauts plateaux d’Ella',
+        title: 'Kandy  Voyage vers les hauts plateaux d’Ella',
         activities: [
           {
             type: 'Nature',
             title: 'Jardins botaniques royaux de Peradeniya',
             description:
-              'Promenez-vous dans l’un des plus beaux jardins botaniques d’Asie, avec ses orchidées, palmiers, bambous et plantes tropicales.',
+              'Promenez vous dans l’un des plus beaux jardins botaniques d’Asie, avec ses orchidees, palmiers, bambous et plantes tropicales.',
           },
           {
-            type: 'Découverte du thé',
-            title: 'Visite de la fabrique de thé de Glenloch',
+            type: 'Decouverte du the',
+            title: 'Visite de la fabrique de the de Glenloch',
             description:
-              'Découvrez comment est produit le célèbre thé de Ceylan et dégustez une tasse fraîche avec vue sur les plantations.',
+              'Decouvrez comment est produit le celebre the de Ceylan et degustez une tasse fraiche avec vue sur les plantations.',
           },
           {
             type: 'Visite panoramique',
             title: 'Nine Arch Bridge',
             description:
-              'Découvrez l’emblématique pont Nine Arch datant de l’époque coloniale, entouré d’une végétation luxuriante et de collines verdoyantes.',
+              'Decouvrez l’emblematique pont Nine Arch datant de l’epoque coloniale, entoure d’une vegetation luxuriante et de collines verdoyantes.',
           },
           {
-            type: 'Randonnée',
+            type: 'Randonnee',
             title: 'Little Adam’s Peak',
-            description: 'Profitez d’une randonnée facile offrant une vue panoramique sur l’Ella Gap et les montagnes environnantes.',
+            description: 'Profitez d’une randonnee facile offrant une vue panoramique sur l’Ella Gap et les montagnes environnantes.',
           },
           {
-            type: 'Hébergement',
-            title: 'Nuit au Oak Ray Ella Gap Hotel ou similaire – demi-pension à Ella',
-            description: 'Nuit dans un hôtel pittoresque des hauts plateaux, en demi-pension.',
-            extra: ['Petit-déjeuner & dîner inclus', 'Chambre privée'],
+            type: 'Hebergement',
+            title: 'Nuit au Oak Ray Ella Gap Hotel ou similaire  demi pension a Ella',
+            description: 'Nuit dans un hotel pittoresque des hauts plateaux, en demi pension.',
+            extra: ['Petit dejeuner & diner inclus', 'Chambre privee'],
           },
         ],
       },
       {
-        title: 'Ella – Safari animalier à Yala',
+        title: 'Ella  Safari animalier a Yala',
         activities: [
           {
             type: 'Cascade',
             title: 'Chutes de Ravana',
             description:
-              'Arrêt aux chutes de Ravana, l’une des cascades les plus pittoresques du Sri Lanka, située sur la route entre Ella et Wellawaya.',
+              'Arret aux chutes de Ravana, l’une des cascades les plus pittoresques du Sri Lanka, situee sur la route entre Ella et Wellawaya.',
           },
           {
             type: 'Site historique',
             title: 'Temple de Buduruwagala',
             description:
-              'Visitez ce complexe de temples rupestres antiques abritant d’impressionnantes statues de Bouddha sculptées dans la roche.',
+              'Visitez ce complexe de temples rupestres antiques abritant d’impressionnantes statues de Bouddha sculptees dans la roche.',
           },
           {
             type: 'Safari',
             title: 'Safari au parc national de Yala',
             description:
-              'Vivez un safari en jeep palpitant dans le parc national de Yala, refuge des léopards, éléphants, crocodiles et d’une faune variée.',
+              'Vivez un safari en jeep palpitant dans le parc national de Yala, refuge des leopards, elephants, crocodiles et d’une faune variee.',
           },
           {
-            type: 'Hébergement',
-            title: 'Nuit à Yala',
-            description: 'Nuit dans un hôtel confortable proche de la zone de safari, en demi-pension.',
-            extra: ['Petit-déjeuner & dîner inclus'],
+            type: 'Hebergement',
+            title: 'Nuit a Yala',
+            description: 'Nuit dans un hotel confortable proche de la zone de safari, en demi pension.',
+            extra: ['Petit dejeuner & diner inclus'],
           },
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Aéroport',
+        title: 'Yala  Galle  Bentota  Aeroport',
         activities: [
           {
-            type: 'Détente à la plage',
+            type: 'Detente a la plage',
             title: 'Plage de Mirissa',
-            description: 'Détendez-vous sur la plage de Mirissa ou profitez, en option, d’une sortie d’observation des baleines et du panorama côtier.',
+            description: 'Detendez vous sur la plage de Mirissa ou profitez, en option, d’une sortie d’observation des baleines et du panorama cotier.',
           },
           {
             type: 'Patrimoine',
             title: 'Fort hollandais de Galle',
-            description: 'Explorez le fort de Galle, classé au patrimoine mondial de l’UNESCO, avec son architecture coloniale, ses remparts et sa vue sur l’océan.',
+            description: 'Explorez le fort de Galle, classe au patrimoine mondial de l’UNESCO, avec son architecture coloniale, ses remparts et sa vue sur l’ocean.',
           },
           {
             type: 'Safari fluvial',
-            title: 'Safari sur la rivière Madu',
+            title: 'Safari sur la riviere Madu',
             description:
-              'Profitez d’une paisible balade en bateau à travers les mangroves et petites îles de l’un des écosystèmes humides les plus riches du Sri Lanka.',
+              'Profitez d’une paisible balade en bateau a travers les mangroves et petites iles de l’un des ecosystemes humides les plus riches du Sri Lanka.',
           },
         ],
       },
@@ -519,41 +502,35 @@ export const TOUR4: TourContent = {
     persons: '1-20 persone',
     tourType: 'Tour',
     overview:
-      'Scoprite la combinazione perfetta tra cultura, paesaggi, fauna selvatica e fascino costiero dello Sri Lanka in questo tour privato di 4 giorni. Visitate la città sacra di Kandy, vivete le splendide colline di Ella, godetevi un emozionante safari nel Parco Nazionale di Yala ed esplorate lo storico Forte di Galle prima del trasferimento in aeroporto.',
-    includes: [
-      'Veicolo privato con aria condizionata',
-      'Autista professionista di lingua inglese',
-      'Soggiorno in mezza pensione in hotel da 3,5 o 4 stelle attentamente selezionati, in base alla disponibilità',
-      'Trasferimento andata e ritorno dall’aeroporto',
-      'Carburante e parcheggi',
-    ],
-    excludes: ['Biglietti d’ingresso', 'Pranzi e bevande', 'Spese personali'],
+      'Scoprite la combinazione perfetta tra cultura, paesaggi, fauna selvatica e fascino costiero dello Sri Lanka in questo tour privato di 4 giorni. Visitate la citta sacra di Kandy, vivete le splendide colline di Ella, godetevi un emozionante safari nel Parco Nazionale di Yala ed esplorate lo storico Forte di Galle prima del trasferimento in aeroporto.',
+    includes: PACKAGE_INCLUDES.it,
+    excludes: PACKAGE_EXCLUDES.it,
     seoIntro:
-      'Quattro giorni sono la durata ideale per vivere il meglio dello Sri Lanka senza impegnarsi per un’intera settimana. Questo tour privato collega la sacra città lacustre di Kandy, le colline avvolte nella nebbia di Ella con il ponte Nine Arches, un safari in jeep nel Parco Nazionale di Yala alla ricerca di elefanti e leopardi, e il fascino coloniale del Forte di Galle sulla costa meridionale tutto con un autista di lingua inglese e chilometraggio illimitato. Sundown Tours scandisce i tempi di guida in modo da godersi i Giardini di Peradeniya e i punti panoramici delle piantagioni di tè invece di correre da una tappa all’altra. Gli hotel sono prenotati in mezza pensione in strutture di categoria; i biglietti d’ingresso e i pranzi restano flessibili, così potete scegliere quali templi, parchi e ristoranti preferite. Ideale come vacanza autonoma o come tappa mirata prima di un’estensione al mare.',
+      'Quattro giorni sono la durata ideale per vivere il meglio dello Sri Lanka senza impegnarsi per un’intera settimana. Questo tour privato collega la sacra citta lacustre di Kandy, le colline avvolte nella nebbia di Ella con il ponte Nine Arches, un safari in jeep nel Parco Nazionale di Yala alla ricerca di elefanti e leopardi, e il fascino coloniale del Forte di Galle sulla costa meridionale tutto con un autista di lingua inglese e chilometraggio illimitato. Sundown Tours scandisce i tempi di guida in modo da godersi i Giardini di Peradeniya e i punti panoramici delle piantagioni di te invece di correre da una tappa all’altra. Gli hotel sono prenotati in mezza pensione in strutture di categoria; i biglietti d’ingresso e i pranzi restano flessibili, cosi potete scegliere quali templi, parchi e ristoranti preferite. Ideale come vacanza autonoma o come tappa mirata prima di un’estensione al mare.',
     highlights: [
       'Tempio della Sacra Reliquia del Dente a Kandy, spettacolo di danza tradizionale e punti panoramici sul lago',
-      'Nine Arch Bridge a Ella, visita a una fabbrica di tè e percorsi panoramici tra le colline',
+      'Nine Arch Bridge a Ella, visita a una fabbrica di te e percorsi panoramici tra le colline',
       'Safari in 4x4 nel Parco Nazionale di Yala alla ricerca di elefanti selvatici e leopardi',
       'Passeggiata nel Forte di Galle, patrimonio UNESCO, e safari in barca tra le mangrovie del fiume Madu',
-      'Veicolo privato climatizzato con autista-guida professionale per tutta la durata del tour',
+      'Veicolo privato climatizzato con autista guida professionale per tutta la durata del tour',
     ],
     faq: [
       {
-        q: 'Questo tour di 4 giorni può partire da Colombo o solo dall’aeroporto?',
+        q: 'Questo tour di 4 giorni puo partire da Colombo o solo dall’aeroporto?',
         a: 'Entrambe le opzioni sono possibili. Possiamo venire a prendervi all’aeroporto di Bandaranaike o in qualsiasi hotel di Colombo/costa occidentale e riportarvi in aeroporto o nel luogo desiderato il quarto giorno.',
       },
       {
-        q: 'Il Parco Nazionale di Yala è sempre aperto nell’itinerario?',
-        a: 'Yala chiude brevemente ogni anno per manutenzione, di solito a settembre. Se le vostre date coincidono, lo sostituiamo con Udawalawe o un altro parco con buone probabilità di avvistare elefanti, senza modificare la struttura del tour.',
+        q: 'Il Parco Nazionale di Yala e sempre aperto nell’itinerario?',
+        a: 'Yala chiude brevemente ogni anno per manutenzione, di solito a settembre. Se le vostre date coincidono, lo sostituiamo con Udawalawe o un altro parco con buone probabilita di avvistare elefanti, senza modificare la struttura del tour.',
       },
       {
         q: 'Il prezzo include hotel e costi del jeep per il safari?',
-        a: 'L’alloggio in mezza pensione e il veicolo privato con autista sono inclusi. I biglietti d’ingresso ai parchi nazionali, il noleggio del jeep e i costi delle attività si pagano in loco, così potete scegliere liberamente gli extra opzionali.',
+        a: 'L’alloggio in mezza pensione e il veicolo privato con autista sono inclusi. I biglietti d’ingresso ai parchi nazionali, il noleggio del jeep e i costi delle attivita si pagano in loco, cosi potete scegliere liberamente gli extra opzionali.',
       },
     ],
     days: [
       {
-        title: 'Aeroporto / Hotel – Esperienza Culturale a Kandy',
+        title: 'Aeroporto / Hotel  Esperienza Culturale a Kandy',
         activities: [
           {
             type: 'Esperienza con la fauna',
@@ -565,7 +542,7 @@ export const TOUR4: TourContent = {
             type: 'Visita culturale',
             title: 'Tempio della Sacra Reliquia del Dente',
             description:
-              'Esplorate il Sri Dalada Maligawa, uno dei templi buddisti più sacri al mondo, custode della sacra reliquia del dente del Buddha.',
+              'Esplorate il Sri Dalada Maligawa, uno dei templi buddisti piu sacri al mondo, custode della sacra reliquia del dente del Buddha.',
           },
           {
             type: 'Esperienza culturale',
@@ -575,7 +552,7 @@ export const TOUR4: TourContent = {
           {
             type: 'Punto panoramico',
             title: 'Punto panoramico di Kandy',
-            description: 'Sosta al punto panoramico di Kandy per una vista a 360° sulla città, il lago e le colline circostanti.',
+            description: 'Sosta al punto panoramico di Kandy per una vista a 360° sulla citta, il lago e le colline circostanti.',
           },
           {
             type: 'Alloggio',
@@ -586,17 +563,17 @@ export const TOUR4: TourContent = {
         ],
       },
       {
-        title: 'Kandy – Viaggio verso le Colline di Ella',
+        title: 'Kandy  Viaggio verso le Colline di Ella',
         activities: [
           {
             type: 'Natura',
             title: 'Royal Botanic Gardens di Peradeniya',
-            description: 'Passeggiate in uno dei più bei giardini botanici dell’Asia, tra orchidee, palme, bambù e piante tropicali.',
+            description: 'Passeggiate in uno dei piu bei giardini botanici dell’Asia, tra orchidee, palme, bambu e piante tropicali.',
           },
           {
-            type: 'Esperienza del tè',
-            title: 'Visita alla fabbrica di tè di Glenloch',
-            description: 'Scoprite come viene prodotto il famoso tè di Ceylon e gustate una tazza fresca ammirando le piantagioni.',
+            type: 'Esperienza del te',
+            title: 'Visita alla fabbrica di te di Glenloch',
+            description: 'Scoprite come viene prodotto il famoso te di Ceylon e gustate una tazza fresca ammirando le piantagioni.',
           },
           {
             type: 'Visita panoramica',
@@ -610,19 +587,19 @@ export const TOUR4: TourContent = {
           },
           {
             type: 'Alloggio',
-            title: 'Pernottamento all’Oak Ray Ella Gap Hotel o similare – mezza pensione a Ella',
+            title: 'Pernottamento all’Oak Ray Ella Gap Hotel o similare  mezza pensione a Ella',
             description: 'Pernottamento in un pittoresco hotel tra le colline in mezza pensione.',
             extra: ['Colazione e cena incluse', 'Camera privata'],
           },
         ],
       },
       {
-        title: 'Ella – Safari nella Fauna di Yala',
+        title: 'Ella  Safari nella Fauna di Yala',
         activities: [
           {
             type: 'Cascata',
             title: 'Cascate di Ravana',
-            description: 'Sosta alle cascate di Ravana, una delle più suggestive dello Sri Lanka, lungo la strada tra Ella e Wellawaya.',
+            description: 'Sosta alle cascate di Ravana, una delle piu suggestive dello Sri Lanka, lungo la strada tra Ella e Wellawaya.',
           },
           {
             type: 'Sito storico',
@@ -644,7 +621,7 @@ export const TOUR4: TourContent = {
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Aeroporto',
+        title: 'Yala  Galle  Bentota  Aeroporto',
         activities: [
           {
             type: 'Sosta in spiaggia',
@@ -660,127 +637,121 @@ export const TOUR4: TourContent = {
             type: 'Safari in barca',
             title: 'Safari sul fiume Madu',
             description:
-              'Godetevi una tranquilla gita in barca tra le mangrovie e le piccole isole di uno degli ecosistemi umidi più ricchi dello Sri Lanka.',
+              'Godetevi una tranquilla gita in barca tra le mangrovie e le piccole isole di uno degli ecosistemi umidi piu ricchi dello Sri Lanka.',
           },
         ],
       },
     ],
   },
   es: {
-    title: 'Circuito Privado de 4 Días en Sri Lanka | Kandy, Ella, Yala y Costa Sur',
+    title: 'Circuito Privado de 4 Dias en Sri Lanka | Kandy, Ella, Yala y Costa Sur',
     description:
-      'Descubra Sri Lanka en 4 días inolvidables: el patrimonio cultural de Kandy, las colinas de Ella, una emocionante aventura de safari en Yala y la impresionante costa sur.',
-    duration: '4 días',
+      'Descubra Sri Lanka en 4 dias inolvidables: el patrimonio cultural de Kandy, las colinas de Ella, una emocionante aventura de safari en Yala y la impresionante costa sur.',
+    duration: '4 dias',
     persons: '1-20 personas',
     tourType: 'Circuito',
     overview:
-      'Descubra la combinación perfecta de cultura, paisajes, fauna y encanto costero de Sri Lanka en este circuito privado de 4 días. Visite la sagrada ciudad de Kandy, disfrute de las impresionantes colinas de Ella, viva un emocionante safari en el Parque Nacional de Yala y explore el histórico Fuerte de Galle antes de su traslado al aeropuerto.',
-    includes: [
-      'Vehículo privado con aire acondicionado',
-      'Conductor profesional de habla inglesa',
-      'Alojamiento en media pensión en hoteles de 3,5 o 4 estrellas cuidadosamente seleccionados, según disponibilidad',
-      'Traslado de ida y vuelta al aeropuerto',
-      'Combustible y tasas de aparcamiento',
-    ],
-    excludes: ['Entradas', 'Almuerzos y bebidas', 'Gastos personales'],
+      'Descubra la combinacion perfecta de cultura, paisajes, fauna y encanto costero de Sri Lanka en este circuito privado de 4 dias. Visite la sagrada ciudad de Kandy, disfrute de las impresionantes colinas de Ella, viva un emocionante safari en el Parque Nacional de Yala y explore el historico Fuerte de Galle antes de su traslado al aeropuerto.',
+    includes: PACKAGE_INCLUDES.es,
+    excludes: PACKAGE_EXCLUDES.es,
     seoIntro:
-      'Cuatro días son la duración perfecta para disfrutar de lo mejor de Sri Lanka sin comprometerse a una semana completa. Este circuito privado conecta la sagrada ciudad lacustre de Kandy, las colinas neblinosas de Ella con el puente Nine Arches, un safari en jeep por el Parque Nacional de Yala en busca de elefantes y leopardos, y el encanto colonial del Fuerte de Galle en la costa sur, todo ello con un chófer de habla inglesa y kilometraje ilimitado. Sundown Tours organiza los trayectos para que pueda disfrutar de los Jardines de Peradeniya y los miradores de las plantaciones de té sin tener que correr de un punto a otro. Los hoteles se reservan en media pensión en establecimientos de categoría; las entradas y los almuerzos se mantienen flexibles para que usted decida qué templos, parques y restaurantes le interesan más. Ideal como escapada independiente o como complemento antes de una ampliación de playa.',
+      'Cuatro dias son la duracion perfecta para disfrutar de lo mejor de Sri Lanka sin comprometerse a una semana completa. Este circuito privado conecta la sagrada ciudad lacustre de Kandy, las colinas neblinosas de Ella con el puente Nine Arches, un safari en jeep por el Parque Nacional de Yala en busca de elefantes y leopardos, y el encanto colonial del Fuerte de Galle en la costa sur, todo ello con un chofer de habla inglesa y kilometraje ilimitado. Sundown Tours organiza los trayectos para que pueda disfrutar de los Jardines de Peradeniya y los miradores de las plantaciones de te sin tener que correr de un punto a otro. Los hoteles se reservan en media pension en establecimientos de categoria; las entradas y los almuerzos se mantienen flexibles para que usted decida que templos, parques y restaurantes le interesan mas. Ideal como escapada independiente o como complemento antes de una ampliacion de playa.',
     highlights: [
-      'Templo de la Sagrada Reliquia del Diente en Kandy, espectáculo de danza tradicional y miradores junto al lago',
-      'Nine Arch Bridge en Ella, visita a una fábrica de té y trayectos panorámicos por las colinas',
+      'Templo de la Sagrada Reliquia del Diente en Kandy, espectaculo de danza tradicional y miradores junto al lago',
+      'Nine Arch Bridge en Ella, visita a una fabrica de te y trayectos panoramicos por las colinas',
       'Safari en 4x4 por el Parque Nacional de Yala en busca de elefantes salvajes y leopardos',
-      'Paseo por el Fuerte de Galle, Patrimonio de la Humanidad, y safari en barco por los manglares del río Madu',
-      'Vehículo privado con aire acondicionado y chófer-guía profesional durante todo el circuito',
+      'Paseo por el Fuerte de Galle, Patrimonio de la Humanidad, y safari en barco por los manglares del rio Madu',
+      'Vehiculo privado con aire acondicionado y chofer guia profesional durante todo el circuito',
     ],
     faq: [
       {
-        q: '¿Este circuito de 4 días puede comenzar en Colombo o solo en el aeropuerto?',
-        a: 'Ambas opciones son posibles. Podemos recogerle en el aeropuerto internacional de Bandaranaike o en cualquier hotel de Colombo/costa oeste y dejarle en el aeropuerto o en el punto de salida que prefiera el día 4.',
+        q: 'Este circuito de 4 dias puede comenzar en Colombo o solo en el aeropuerto?',
+        a: 'Ambas opciones son posibles. Podemos recogerle en el aeropuerto internacional de Bandaranaike o en cualquier hotel de Colombo/costa oeste y dejarle en el aeropuerto o en el punto de salida que prefiera el dia 4.',
       },
       {
-        q: '¿El Parque Nacional de Yala está siempre abierto en el itinerario?',
-        a: 'Yala cierra brevemente cada año por mantenimiento, normalmente en septiembre. Si sus fechas coinciden, lo sustituimos por Udawalawe u otro parque con buenas probabilidades de avistar elefantes, sin cambiar la estructura del circuito.',
+        q: 'El Parque Nacional de Yala esta siempre abierto en el itinerario?',
+        a: 'Yala cierra brevemente cada ano por mantenimiento, normalmente en septiembre. Si sus fechas coinciden, lo sustituimos por Udawalawe u otro parque con buenas probabilidades de avistar elefantes, sin cambiar la estructura del circuito.',
       },
       {
-        q: '¿El precio incluye los hoteles y las tarifas del jeep del safari?',
-        a: 'El alojamiento en media pensión y su vehículo privado con conductor están incluidos. Las entradas a los parques nacionales, el alquiler del jeep y las tarifas de actividades se pagan in situ, para que pueda elegir libremente sus extras opcionales.',
+        q: 'El precio incluye los hoteles y las tarifas del jeep del safari?',
+        a: 'El alojamiento en media pension y su vehiculo privado con conductor estan incluidos. Las entradas a los parques nacionales, el alquiler del jeep y las tarifas de actividades se pagan in situ, para que pueda elegir libremente sus extras opcionales.',
       },
     ],
     days: [
       {
-        title: 'Aeropuerto / Hotel – Experiencia Cultural en Kandy',
+        title: 'Aeropuerto / Hotel  Experiencia Cultural en Kandy',
         activities: [
           {
             type: 'Experiencia con fauna',
             title: 'Orfanato de Elefantes de Pinnawala',
             description:
-              'Visite el famoso orfanato de elefantes de Pinnawala, donde se cuida y protege a elefantes rescatados. Observe a los elefantes bañándose en el río y conozca las labores de conservación.',
+              'Visite el famoso orfanato de elefantes de Pinnawala, donde se cuida y protege a elefantes rescatados. Observe a los elefantes banandose en el rio y conozca las labores de conservacion.',
           },
           {
             type: 'Visita cultural',
             title: 'Templo de la Sagrada Reliquia del Diente',
             description:
-              'Explore el Sri Dalada Maligawa, uno de los templos budistas más sagrados del mundo, hogar de la sagrada reliquia del diente de Buda.',
+              'Explore el Sri Dalada Maligawa, uno de los templos budistas mas sagrados del mundo, hogar de la sagrada reliquia del diente de Buda.',
           },
           {
             type: 'Experiencia cultural',
-            title: 'Espectáculo de Danza Tradicional de Kandy',
-            description: 'Disfrute de una danza kandiana tradicional con caminata sobre fuego, percusión y vistosos trajes.',
+            title: 'Espectaculo de Danza Tradicional de Kandy',
+            description: 'Disfrute de una danza kandiana tradicional con caminata sobre fuego, percusion y vistosos trajes.',
           },
           {
             type: 'Mirador',
             title: 'Mirador de Kandy',
-            description: 'Parada en el mirador de Kandy para disfrutar de vistas panorámicas de la ciudad, el lago y las colinas circundantes.',
+            description: 'Parada en el mirador de Kandy para disfrutar de vistas panoramicas de la ciudad, el lago y las colinas circundantes.',
           },
           {
             type: 'Alojamiento',
             title: 'Noche en el Topez Hotel en Kandy',
-            description: 'Alojamiento en un cómodo hotel de categoría en Kandy en régimen de media pensión.',
-            extra: ['Cena incluida', 'Habitación privada'],
+            description: 'Alojamiento en un comodo hotel de categoria en Kandy en regimen de media pension.',
+            extra: ['Cena incluida', 'Habitacion privada'],
           },
         ],
       },
       {
-        title: 'Kandy – Viaje a las Colinas de Ella',
+        title: 'Kandy  Viaje a las Colinas de Ella',
         activities: [
           {
             type: 'Naturaleza',
-            title: 'Jardines Botánicos Reales de Peradeniya',
-            description: 'Paseo por uno de los jardines botánicos más bellos de Asia, con orquídeas, palmeras, bambú y plantas tropicales.',
+            title: 'Jardines Botanicos Reales de Peradeniya',
+            description: 'Paseo por uno de los jardines botanicos mas bellos de Asia, con orquideas, palmeras, bambu y plantas tropicales.',
           },
           {
-            type: 'Experiencia del té',
-            title: 'Visita a la Fábrica de Té de Glenloch',
-            description: 'Descubra cómo se produce el famoso té de Ceilán y disfrute de una taza recién hecha con vistas a las plantaciones.',
+            type: 'Experiencia del te',
+            title: 'Visita a la Fabrica de Te de Glenloch',
+            description: 'Descubra como se produce el famoso te de Ceilan y disfrute de una taza recien hecha con vistas a las plantaciones.',
           },
           {
-            type: 'Visita panorámica',
+            type: 'Visita panoramica',
             title: 'Nine Arch Bridge',
-            description: 'Visite el icónico puente colonial Nine Arch, rodeado de exuberante vegetación y suaves colinas.',
+            description: 'Visite el iconico puente colonial Nine Arch, rodeado de exuberante vegetacion y suaves colinas.',
           },
           {
             type: 'Senderismo',
             title: 'Little Adam’s Peak',
-            description: 'Disfrute de una caminata suave con vistas panorámicas del Ella Gap y las montañas circundantes.',
+            description: 'Disfrute de una caminata suave con vistas panoramicas del Ella Gap y las montanas circundantes.',
           },
           {
             type: 'Alojamiento',
-            title: 'Noche en el Oak Ray Ella Gap Hotel o similar – media pensión en Ella',
-            description: 'Alojamiento en un pintoresco hotel de montaña en régimen de media pensión.',
-            extra: ['Desayuno y cena incluidos', 'Habitación privada'],
+            title: 'Noche en el Oak Ray Ella Gap Hotel o similar  media pension en Ella',
+            description: 'Alojamiento en un pintoresco hotel de montana en regimen de media pension.',
+            extra: ['Desayuno y cena incluidos', 'Habitacion privada'],
           },
         ],
       },
       {
-        title: 'Ella – Safari de Fauna en Yala',
+        title: 'Ella  Safari de Fauna en Yala',
         activities: [
           {
             type: 'Cascada',
             title: 'Cataratas de Ravana',
-            description: 'Parada en las cataratas de Ravana, una de las más pintorescas de Sri Lanka, en la carretera entre Ella y Wellawaya.',
+            description: 'Parada en las cataratas de Ravana, una de las mas pintorescas de Sri Lanka, en la carretera entre Ella y Wellawaya.',
           },
           {
-            type: 'Sitio histórico',
+            type: 'Sitio historico',
             title: 'Templo de Buduruwagala',
             description: 'Visite este antiguo complejo de templos rupestres con impresionantes estatuas de Buda talladas en piedra.',
           },
@@ -793,219 +764,207 @@ export const TOUR4: TourContent = {
           {
             type: 'Alojamiento',
             title: 'Noche en Yala',
-            description: 'Alojamiento en un cómodo hotel en la zona del safari, en régimen de media pensión.',
+            description: 'Alojamiento en un comodo hotel en la zona del safari, en regimen de media pension.',
             extra: ['Desayuno y cena incluidos'],
           },
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Aeropuerto',
+        title: 'Yala  Galle  Bentota  Aeropuerto',
         activities: [
           {
             type: 'Visita a la playa',
             title: 'Playa de Mirissa',
-            description: 'Relájese en la playa de Mirissa o disfrute, de forma opcional, de un avistamiento de ballenas y las vistas costeras.',
+            description: 'Relajese en la playa de Mirissa o disfrute, de forma opcional, de un avistamiento de ballenas y las vistas costeras.',
           },
           {
             type: 'Patrimonio',
-            title: 'Fuerte Holandés de Galle',
+            title: 'Fuerte Holandes de Galle',
             description: 'Explore el Fuerte de Galle, declarado Patrimonio de la Humanidad por la UNESCO, con su arquitectura colonial, murallas y vistas al mar.',
           },
           {
             type: 'Safari en barco',
-            title: 'Safari por el Río Madu',
+            title: 'Safari por el Rio Madu',
             description:
-              'Disfrute de un tranquilo paseo en barco por los manglares y pequeñas islas de uno de los ecosistemas de humedales más ricos de Sri Lanka.',
+              'Disfrute de un tranquilo paseo en barco por los manglares y pequenas islas de uno de los ecosistemas de humedales mas ricos de Sri Lanka.',
           },
         ],
       },
     ],
   },
   pl: {
-    title: 'Prywatna Wycieczka 4-Dniowa po Sri Lance | Kandy, Ella, Yala i Wybrzeże Południowe',
+    title: 'Prywatna Wycieczka 4 Dniowa po Sri Lance | Kandy, Ella, Yala i Wybrzeze Poludniowe',
     description:
-      'Odkryj Sri Lankę podczas 4 niezapomnianych dni: dziedzictwo kulturowe Kandy, wyżyny Elli, emocjonujące safari w Yali oraz wspaniałe południowe wybrzeże.',
+      'Odkryj Sri Lanke podczas 4 niezapomnianych dni: dziedzictwo kulturowe Kandy, wyzyny Elli, emocjonujace safari w Yali oraz wspaniale poludniowe wybrzeze.',
     duration: '4 dni',
-    persons: '1-20 osób',
+    persons: '1-20 osob',
     tourType: 'Wycieczka',
     overview:
-      'Odkryj idealne połączenie kultury, malowniczych krajobrazów, dzikiej przyrody i nadmorskiego uroku Sri Lanki podczas tej 4-dniowej prywatnej wycieczki. Odwiedź świętą Kandy, poznaj zapierające dech w piersiach wyżyny Elli, zobacz emocjonujące safari w Parku Narodowym Yala i zwiedź historyczny Fort Galle przed transferem na lotnisko.',
-    includes: [
-      'Prywatny klimatyzowany pojazd',
-      'Profesjonalny kierowca mówiący po angielsku',
-      'Nocleg ze śniadaniem i kolacją (HB) w starannie wybranych hotelach 3,5- lub 4-gwiazdkowych, w zależności od dostępności',
-      'Transfer z i na lotnisko',
-      'Paliwo i opłaty parkingowe',
-    ],
-    excludes: ['Opłaty za wstęp', 'Lunche i napoje', 'Wydatki osobiste'],
+      'Odkryj idealne polaczenie kultury, malowniczych krajobrazow, dzikiej przyrody i nadmorskiego uroku Sri Lanki podczas tej 4 dniowej prywatnej wycieczki. Odwiedz swieta Kandy, poznaj zapierajace dech w piersiach wyzyny Elli, zobacz emocjonujace safari w Parku Narodowym Yala i zwiedz historyczny Fort Galle przed transferem na lotnisko.',
+    includes: PACKAGE_INCLUDES.pl,
+    excludes: PACKAGE_EXCLUDES.pl,
     seoIntro:
-      'Cztery dni to idealny czas, aby poznać najważniejsze atrakcje Sri Lanki bez konieczności poświęcania całego tygodnia. Ta prywatna wycieczka łączy świętą Kandy nad jeziorem, mgliste wzniesienia Elli z mostem Nine Arches, safari jeepem w Parku Narodowym Yala w poszukiwaniu słoni i lampartów oraz kolonialny urok Fortu Galle na południowym wybrzeżu – wszystko z anglojęzycznym kierowcą i nielimitowanym przebiegiem. Sundown Tours rozkłada czas jazdy tak, aby móc cieszyć się Ogrodami Peradeniya i punktami widokowymi wśród plantacji herbaty, a nie pędzić między punktami programu. Hotele rezerwowane są w formule half board w obiektach wyższej kategorii; opłaty za wstęp i lunch pozostają elastyczne, dzięki czemu sami wybierają Państwo, które świątynie, parki i restauracje są dla Was najważniejsze. Idealna jako samodzielny wyjazd lub jako uzupełnienie przed wydłużeniem pobytu na plaży.',
+      'Cztery dni to idealny czas, aby poznac najwazniejsze atrakcje Sri Lanki bez koniecznosci poswiecania calego tygodnia. Ta prywatna wycieczka laczy swieta Kandy nad jeziorem, mgliste wzniesienia Elli z mostem Nine Arches, safari jeepem w Parku Narodowym Yala w poszukiwaniu sloni i lampartow oraz kolonialny urok Fortu Galle na poludniowym wybrzezu  wszystko z anglojezycznym kierowca i nielimitowanym przebiegiem. Sundown Tours rozklada czas jazdy tak, aby moc cieszyc sie Ogrodami Peradeniya i punktami widokowymi wsrod plantacji herbaty, a nie pedzic miedzy punktami programu. Hotele rezerwowane sa w formule half  board w obiektach wyzszej kategorii; oplaty za wstep i lunch pozostaja elastyczne, dzieki czemu sami wybieraja Panstwo, ktore swiatynie, parki i restauracje sa dla Was najwazniejsze. Idealna jako samodzielny wyjazd lub jako uzupelnienie przed wydluzeniem pobytu na plazy.',
     highlights: [
-      'Świątynia Świętej Relikwii Zęba w Kandy, tradycyjny pokaz tańca i punkty widokowe nad jeziorem',
-      'Most Nine Arch w Elli, wizyta w fabryce herbaty i widokowe trasy przez wzgórza',
-      'Safari 4x4 w Parku Narodowym Yala w poszukiwaniu dzikich słoni i lampartów',
-      'Spacer po Forcie Galle wpisanym na listę UNESCO i safari łodzią przez namorzyny rzeki Madu',
-      'Prywatny klimatyzowany pojazd z profesjonalnym kierowcą-przewodnikiem przez całą podróż',
+      'Swiatynia Swietej Relikwii Zeba w Kandy, tradycyjny pokaz tanca i punkty widokowe nad jeziorem',
+      'Most Nine Arch w Elli, wizyta w fabryce herbaty i widokowe trasy przez wzgorza',
+      'Safari 4x4 w Parku Narodowym Yala w poszukiwaniu dzikich sloni i lampartow',
+      'Spacer po Forcie Galle wpisanym na liste UNESCO i safari lodzia przez namorzyny rzeki Madu',
+      'Prywatny klimatyzowany pojazd z profesjonalnym kierowca przewodnikiem przez cala podroz',
     ],
     faq: [
       {
-        q: 'Czy ta 4-dniowa wycieczka może zaczynać się w Colombo, czy tylko na lotnisku?',
-        a: 'Obie opcje są możliwe. Możemy odebrać Państwa z lotniska Bandaranaike lub z każdego hotelu w Colombo/na wybrzeżu zachodnim, a 4. dnia odwieźć na lotnisko lub w wybrane miejsce.',
+        q: 'Czy ta 4 dniowa wycieczka moze zaczynac sie w Colombo, czy tylko na lotnisku?',
+        a: 'Obie opcje sa mozliwe. Mozemy odebrac Panstwa z lotniska Bandaranaike lub z kazdego hotelu w Colombo/na wybrzezu zachodnim, a 4. dnia odwiezc na lotnisko lub w wybrane miejsce.',
       },
       {
         q: 'Czy Park Narodowy Yala jest zawsze otwarty w trakcie tej trasy?',
-        a: 'Yala zamyka się raz w roku na krótką konserwację, zwykle we wrześniu. Jeśli Państwa termin się z tym pokrywa, zastępujemy go Udawalawe lub innym parkiem z dobrymi szansami na spotkanie słoni, bez zmiany struktury wycieczki.',
+        a: 'Yala zamyka sie raz w roku na krotka konserwacje, zwykle we wrzesniu. Jesli Panstwa termin sie z tym pokrywa, zastepujemy go Udawalawe lub innym parkiem z dobrymi szansami na spotkanie sloni, bez zmiany struktury wycieczki.',
       },
       {
-        q: 'Czy cena obejmuje hotele i opłaty za jeepa na safari?',
-        a: 'Nocleg ze śniadaniem i kolacją oraz prywatny pojazd z kierowcą są wliczone w cenę. Bilety wstępu do parków narodowych, wynajem jeepa i opłaty za atrakcje płaci się na miejscu, dzięki czemu mogą Państwo swobodnie wybierać opcjonalne dodatki.',
+        q: 'Czy cena obejmuje hotele i oplaty za jeepa na safari?',
+        a: 'Nocleg ze sniadaniem i kolacja oraz prywatny pojazd z kierowca sa wliczone w cene. Bilety wstepu do parkow narodowych, wynajem jeepa i oplaty za atrakcje placi sie na miejscu, dzieki czemu moga Panstwo swobodnie wybierac opcjonalne dodatki.',
       },
     ],
     days: [
       {
-        title: 'Lotnisko / Hotel – Doświadczenie Kulturowe w Kandy',
+        title: 'Lotnisko / Hotel  Doswiadczenie Kulturowe w Kandy',
         activities: [
           {
-            type: 'Spotkanie z dziką przyrodą',
-            title: 'Sierociniec dla Słoni w Pinnawali',
+            type: 'Spotkanie z dzika przyroda',
+            title: 'Sierociniec dla Sloni w Pinnawali',
             description:
-              'Odwiedź słynny sierociniec dla słoni w Pinnawali, gdzie opiekują się uratowanymi słoniami. Zobacz słonie kąpiące się w rzece i poznaj działania na rzecz ich ochrony.',
+              'Odwiedz slynny sierociniec dla sloni w Pinnawali, gdzie opiekuja sie uratowanymi sloniami. Zobacz slonie kapiace sie w rzece i poznaj dzialania na rzecz ich ochrony.',
           },
           {
             type: 'Wizyta kulturowa',
-            title: 'Świątynia Świętej Relikwii Zęba',
+            title: 'Swiatynia Swietej Relikwii Zeba',
             description:
-              'Zwiedź Sri Dalada Maligawa, jedną z najświętszych buddyjskich świątyń na świecie, w której przechowywana jest święta relikwia zęba Buddy.',
+              'Zwiedz Sri Dalada Maligawa, jedna z najswietszych buddyjskich swiatyn na swiecie, w ktorej przechowywana jest swieta relikwia zeba Buddy.',
           },
           {
-            type: 'Doświadczenie kulturowe',
-            title: 'Pokaz Tradycyjnych Tańców Kandy',
-            description: 'Zobacz tradycyjny pokaz tańca kandyjskiego z chodzeniem po ogniu, grą na bębnach i barwnymi kostiumami.',
+            type: 'Doswiadczenie kulturowe',
+            title: 'Pokaz Tradycyjnych Tancow Kandy',
+            description: 'Zobacz tradycyjny pokaz tanca kandyjskiego z chodzeniem po ogniu, gra na bebnach i barwnymi kostiumami.',
           },
           {
             type: 'Punkt widokowy',
             title: 'Punkt Widokowy Kandy',
-            description: 'Zatrzymaj się w punkcie widokowym Kandy, aby zobaczyć panoramę miasta, jeziora i otaczających wzgórz.',
+            description: 'Zatrzymaj sie w punkcie widokowym Kandy, aby zobaczyc panorame miasta, jeziora i otaczajacych wzgorz.',
           },
           {
             type: 'Nocleg',
             title: 'Nocleg w Topez Hotel w Kandy',
-            description: 'Nocleg w komfortowym hotelu w Kandy ze śniadaniem i kolacją.',
-            extra: ['Kolacja wliczona w cenę', 'Prywatny pokój'],
+            description: 'Nocleg w komfortowym hotelu w Kandy ze sniadaniem i kolacja.',
+            extra: ['Kolacja wliczona w cene', 'Prywatny pokoj'],
           },
         ],
       },
       {
-        title: 'Kandy – Podróż w Wyżyny Elli',
+        title: 'Kandy  Podroz w Wyzyny Elli',
         activities: [
           {
             type: 'Natura',
-            title: 'Królewskie Ogrody Botaniczne w Peradeniya',
-            description: 'Przejdź się po jednym z najpiękniejszych ogrodów botanicznych Azji, z orchideami, palmami, bambusem i tropikalnymi roślinami.',
+            title: 'Krolewskie Ogrody Botaniczne w Peradeniya',
+            description: 'Przejdz sie po jednym z najpiekniejszych ogrodow botanicznych Azji, z orchideami, palmami, bambusem i tropikalnymi roslinami.',
           },
           {
-            type: 'Doświadczenie z herbatą',
+            type: 'Doswiadczenie z herbata',
             title: 'Wizyta w Fabryce Herbaty Glenloch',
-            description: 'Poznaj proces produkcji słynnej herbaty cejlońskiej i napij się świeżo parzonej herbaty z widokiem na plantacje.',
+            description: 'Poznaj proces produkcji slynnej herbaty cejlonskiej i napij sie swiezo parzonej herbaty z widokiem na plantacje.',
           },
           {
             type: 'Wizyta widokowa',
-            title: 'Most Dziewięciu Łuków',
-            description: 'Zobacz słynny kolonialny Most Dziewięciu Łuków otoczony bujną zielenią i łagodnymi wzgórzami.',
+            title: 'Most Dziewieciu Lukow',
+            description: 'Zobacz slynny kolonialny Most Dziewieciu Lukow otoczony bujna zielenia i lagodnymi wzgorzami.',
           },
           {
-            type: 'Piesza wędrówka',
+            type: 'Piesza wedrowka',
             title: 'Little Adam’s Peak',
-            description: 'Zażyj łagodnej wędrówki z panoramicznym widokiem na Ella Gap i otaczające góry.',
+            description: 'Zazyj lagodnej wedrowki z panoramicznym widokiem na Ella Gap i otaczajace gory.',
           },
           {
             type: 'Nocleg',
-            title: 'Nocleg w Oak Ray Ella Gap Hotel lub podobnym – wyżywienie HB w Elli',
-            description: 'Nocleg w malowniczym hotelu w górach ze śniadaniem i kolacją.',
-            extra: ['Śniadanie i kolacja wliczone', 'Prywatny pokój'],
+            title: 'Nocleg w Oak Ray Ella Gap Hotel lub podobnym  wyzywienie HB w Elli',
+            description: 'Nocleg w malowniczym hotelu w gorach ze sniadaniem i kolacja.',
+            extra: ['Sniadanie i kolacja wliczone', 'Prywatny pokoj'],
           },
         ],
       },
       {
-        title: 'Ella – Safari w Yali',
+        title: 'Ella  Safari w Yali',
         activities: [
           {
             type: 'Wodospad',
             title: 'Wodospad Ravana',
-            description: 'Zatrzymaj się przy wodospadzie Ravana, jednym z najbardziej malowniczych wodospadów Sri Lanki, przy drodze między Ellą i Wellawaya.',
+            description: 'Zatrzymaj sie przy wodospadzie Ravana, jednym z najbardziej malowniczych wodospadow Sri Lanki, przy drodze miedzy Ella i Wellawaya.',
           },
           {
             type: 'Miejsce historyczne',
-            title: 'Świątynia Buduruwagala',
-            description: 'Odwiedź ten starożytny kompleks skalny z imponującymi posągami Buddy wykutymi w skale.',
+            title: 'Swiatynia Buduruwagala',
+            description: 'Odwiedz ten starozytny kompleks skalny z imponujacymi posagami Buddy wykutymi w skale.',
           },
           {
             type: 'Safari',
             title: 'Safari w Parku Narodowym Yala',
             description:
-              'Przeżyj emocjonujące safari jeepem w Parku Narodowym Yala, domu lampartów, słoni, krokodyli i różnorodnej dzikiej przyrody.',
+              'Przezyj emocjonujace safari jeepem w Parku Narodowym Yala, domu lampartow, sloni, krokodyli i roznorodnej dzikiej przyrody.',
           },
           {
             type: 'Nocleg',
             title: 'Nocleg w Yali',
-            description: 'Nocleg w komfortowym hotelu w okolicy safari ze śniadaniem i kolacją.',
-            extra: ['Śniadanie i kolacja wliczone'],
+            description: 'Nocleg w komfortowym hotelu w okolicy safari ze sniadaniem i kolacja.',
+            extra: ['Sniadanie i kolacja wliczone'],
           },
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Lotnisko',
+        title: 'Yala  Galle  Bentota  Lotnisko',
         activities: [
           {
-            type: 'Wizyta na plaży',
-            title: 'Plaża Mirissa',
-            description: 'Odpocznij na plaży Mirissa lub skorzystaj opcjonalnie z wycieczki na obserwację wielorybów i widoków na wybrzeże.',
+            type: 'Wizyta na plazy',
+            title: 'Plaza Mirissa',
+            description: 'Odpocznij na plazy Mirissa lub skorzystaj opcjonalnie z wycieczki na obserwacje wielorybow i widokow na wybrzeze.',
           },
           {
             type: 'Dziedzictwo',
             title: 'Holenderski Fort w Galle',
-            description: 'Zwiedź wpisany na listę UNESCO Fort Galle z kolonialną architekturą, murami obronnymi i widokiem na ocean.',
+            description: 'Zwiedz wpisany na liste UNESCO Fort Galle z kolonialna architektura, murami obronnymi i widokiem na ocean.',
           },
           {
-            type: 'Safari łodzią',
+            type: 'Safari lodzia',
             title: 'Safari na Rzece Madu',
             description:
-              'Skorzystaj ze spokojnej przejażdżki łodzią przez namorzyny i małe wyspy jednego z najbogatszych ekosystemów wodno-błotnych Sri Lanki.',
+              'Skorzystaj ze spokojnej przejazdzki lodzia przez namorzyny i male wyspy jednego z najbogatszych ekosystemow wodno blotnych Sri Lanki.',
           },
         ],
       },
     ],
   },
   ru: {
-    title: 'Частный тур на 4 дня по Шри-Ланке | Канди, Элла, Яла и Южное побережье',
+    title: 'Частный тур на 4 дня по Шри Ланке | Канди, Элла, Яла и Южное побережье',
     description:
-      'Откройте для себя Шри-Ланку за 4 незабываемых дня: культурное наследие Канди, горную страну Эллы, увлекательное сафари в Яле и потрясающее южное побережье.',
+      'Откройте для себя Шри Ланку за 4 незабываемых дня: культурное наследие Канди, горную страну Эллы, увлекательное сафари в Яле и потрясающее южное побережье.',
     duration: '4 дня',
     persons: '1-20 человек',
     tourType: 'Тур',
     overview:
-      'Откройте идеальное сочетание культуры, живописной природы, дикой природы и очарования побережья Шри-Ланки в этом частном туре на 4 дня. Посетите священный город Канди, познакомьтесь с захватывающей дух горной страной Эллы, насладитесь увлекательным сафари в национальном парке Яла и исследуйте исторический форт Галле перед трансфером в аэропорт.',
-    includes: [
-      'Кондиционированный частный автомобиль',
-      'Профессиональный англоговорящий водитель',
-      'Проживание на полупансионе в тщательно отобранных отелях 3,5★ или 4★ в зависимости от наличия мест',
-      'Трансфер из/в аэропорт',
-      'Топливо и парковочные сборы',
-    ],
-    excludes: ['Входные билеты', 'Обед и напитки', 'Личные расходы'],
+      'Откройте идеальное сочетание культуры, живописной природы, дикой природы и очарования побережья Шри Ланки в этом частном туре на 4 дня. Посетите священный город Канди, познакомьтесь с захватывающей дух горной страной Эллы, насладитесь увлекательным сафари в национальном парке Яла и исследуйте исторический форт Галле перед трансфером в аэропорт.',
+    includes: PACKAGE_INCLUDES.ru,
+    excludes: PACKAGE_EXCLUDES.ru,
     seoIntro:
-      'Четыре дня оптимальная продолжительность, чтобы увидеть главные достопримечательности Шри-Ланки, не тратя на это целую неделю. Этот частный тур соединяет священный город у озера Канди, туманные гряды Эллы с мостом Nine Arches, джип-сафари в национальном парке Яла в поисках слонов и леопардов, а также колониальное очарование форта Галле на южном побережье и всё это с англоговорящим шофёром и неограниченным пробегом. Sundown Tours распределяет время в пути так, чтобы вы успели насладиться садами Перадении и видовыми точками чайных плантаций, а не спешили между остановками. Отели бронируются на полупансионе в категорийных заведениях; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее. Идеально подходит как самостоятельный отпуск или как дополнение перед продлением отдыха на побережье.',
+      'Четыре дня оптимальная продолжительность, чтобы увидеть главные достопримечательности Шри Ланки, не тратя на это целую неделю. Этот частный тур соединяет священный город у озера Канди, туманные гряды Эллы с мостом Nine Arches, джип сафари в национальном парке Яла в поисках слонов и леопардов, а также колониальное очарование форта Галле на южном побережье и всё это с англоговорящим шофёром и неограниченным пробегом. Sundown Tours распределяет время в пути так, чтобы вы успели насладиться садами Перадении и видовыми точками чайных плантаций, а не спешили между остановками. Отели бронируются на полупансионе в категорийных заведениях; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее. Идеально подходит как самостоятельный отпуск или как дополнение перед продлением отдыха на побережье.',
     highlights: [
       'Храм Зуба Будды в Канди, культурное танцевальное шоу и смотровые площадки у озера',
       'Мост Nine Arch в Элле, посещение чайной фабрики и живописные дороги горной страны',
-      'Джип-сафари 4x4 в национальном парке Яла в поисках диких слонов и леопардов',
+      'Джип сафари 4x4 в национальном парке Яла в поисках диких слонов и леопардов',
       'Прогулка по форту Галле, объекту ЮНЕСКО, и лодочное сафари по мангровым зарослям реки Маду',
-      'Частный автомобиль с кондиционером и профессиональным водителем-гидом на протяжении всего тура',
+      'Частный автомобиль с кондиционером и профессиональным водителем гидом на протяжении всего тура',
     ],
     faq: [
       {
-        q: 'Может ли этот 4-дневный тур начинаться в Коломбо, а не только в аэропорту?',
-        a: 'Возможны оба варианта. Мы можем встретить вас в аэропорту Бандаранаике или в любом отеле Коломбо/западного побережья и отвезти в аэропорт или в удобное для вас место в 4-й день.',
+        q: 'Может ли этот 4 дневный тур начинаться в Коломбо, а не только в аэропорту?',
+        a: 'Возможны оба варианта. Мы можем встретить вас в аэропорту Бандаранаике или в любом отеле Коломбо/западного побережья и отвезти в аэропорт или в удобное для вас место в 4 й день.',
       },
       {
         q: 'Всегда ли национальный парк Яла открыт по маршруту?',
@@ -1018,7 +977,7 @@ export const TOUR4: TourContent = {
     ],
     days: [
       {
-        title: 'Аэропорт / Отель – Культурный опыт в Канди',
+        title: 'Аэропорт / Отель  Культурный опыт в Канди',
         activities: [
           {
             type: 'Знакомство с животными',
@@ -1035,7 +994,7 @@ export const TOUR4: TourContent = {
           {
             type: 'Культурная программа',
             title: 'Танцевальное шоу Канди',
-            description: 'Насладитесь традиционным канди-танцевальным представлением с хождением по огню, барабанным боем и яркими костюмами.',
+            description: 'Насладитесь традиционным канди танцевальным представлением с хождением по огню, барабанным боем и яркими костюмами.',
           },
           {
             type: 'Обзорная точка',
@@ -1051,7 +1010,7 @@ export const TOUR4: TourContent = {
         ],
       },
       {
-        title: 'Канди – Путешествие в горную страну Эллы',
+        title: 'Канди  Путешествие в горную страну Эллы',
         activities: [
           {
             type: 'Природа',
@@ -1071,23 +1030,23 @@ export const TOUR4: TourContent = {
           {
             type: 'Пеший поход',
             title: 'Малый пик Адама',
-            description: 'Насладитесь лёгким походом с панорамным видом на ущелье Элла-Гэп и окружающие горы.',
+            description: 'Насладитесь лёгким походом с панорамным видом на ущелье Элла Гэп и окружающие горы.',
           },
           {
             type: 'Проживание',
-            title: 'Ночь в отеле Oak Ray Ella Gap или подобном – полупансион в Элле',
+            title: 'Ночь в отеле Oak Ray Ella Gap или подобном  полупансион в Элле',
             description: 'Ночь в живописном отеле горной страны с полупансионом.',
             extra: ['Завтрак и ужин включены', 'Отдельный номер'],
           },
         ],
       },
       {
-        title: 'Элла – Сафари в Яле',
+        title: 'Элла  Сафари в Яле',
         activities: [
           {
             type: 'Водопад',
             title: 'Водопад Равана',
-            description: 'Остановка у водопада Равана одного из самых живописных водопадов Шри-Ланки на дороге между Эллой и Веллавайей.',
+            description: 'Остановка у водопада Равана одного из самых живописных водопадов Шри Ланки на дороге между Эллой и Веллавайей.',
           },
           {
             type: 'Историческое место',
@@ -1098,7 +1057,7 @@ export const TOUR4: TourContent = {
             type: 'Сафари',
             title: 'Сафари в национальном парке Яла',
             description:
-              'Отправьтесь в захватывающее джип-сафари по национальному парку Яла, дому леопардов, слонов, крокодилов и разнообразной дикой природы.',
+              'Отправьтесь в захватывающее джип сафари по национальному парку Яла, дому леопардов, слонов, крокодилов и разнообразной дикой природы.',
           },
           {
             type: 'Проживание',
@@ -1109,7 +1068,7 @@ export const TOUR4: TourContent = {
         ],
       },
       {
-        title: 'Яла – Галле – Бентота – Аэропорт',
+        title: 'Яла  Галле  Бентота  Аэропорт',
         activities: [
           {
             type: 'Пляжный отдых',
@@ -1125,61 +1084,55 @@ export const TOUR4: TourContent = {
             type: 'Лодочное сафари',
             title: 'Сафари на реке Маду',
             description:
-              'Насладитесь спокойной прогулкой на лодке через мангровые заросли и небольшие острова одной из самых богатых водно-болотных экосистем Шри-Ланки.',
+              'Насладитесь спокойной прогулкой на лодке через мангровые заросли и небольшие острова одной из самых богатых водно болотных экосистем Шри Ланки.',
           },
         ],
       },
     ],
   },
   nl: {
-    title: 'Sri Lanka Privatreise – 4 Tage | Kandy, Ella, Yala & Südküste',
+    title: 'Sri Lanka Privatreise  4 Tage | Kandy, Ella, Yala & Sudkuste',
     description:
-      'Erleben Sie Sri Lanka in 4 unvergesslichen Tagen mit dem Kulturerbe von Kandy, dem Hügelland von Ella, einem spannenden Safari-Abenteuer in Yala und der traumhaften Südküste.',
+      'Erleben Sie Sri Lanka in 4 unvergesslichen Tagen mit dem Kulturerbe von Kandy, dem Hugelland von Ella, einem spannenden Safari Abenteuer in Yala und der traumhaften Sudkuste.',
     duration: '4 Tage',
     persons: '1-20 Personen',
     tourType: 'Privatreise',
     overview:
-      'Entdecken Sie auf dieser 4-tägigen Privatreise die perfekte Mischung aus Kultur, Landschaft, Tierwelt und Küstenzauber Sri Lankas. Besuchen Sie die heilige Stadt Kandy, erleben Sie das atemberaubende Hügelland von Ella, genießen Sie eine spannende Safari im Yala-Nationalpark und erkunden Sie das historische Galle Fort vor Ihrem Transfer zum Flughafen.',
-    includes: [
-      'Klimatisiertes Privatfahrzeug',
-      'Englischsprachiger professioneller Fahrer',
-      'Halbpension in sorgfältig ausgewählten 3,5- oder 4-Sterne-Hotels (je nach Verfügbarkeit)',
-      'Abholung & Rückfahrt zum Flughafen',
-      'Kraftstoff & Parkgebühren',
-    ],
-    excludes: ['Eintrittsgebühren', 'Mittagessen & Getränke', 'Persönliche Ausgaben'],
+      'Entdecken Sie auf dieser 4 tagigen Privatreise die perfekte Mischung aus Kultur, Landschaft, Tierwelt und Kustenzauber Sri Lankas. Besuchen Sie die heilige Stadt Kandy, erleben Sie das atemberaubende Hugelland von Ella, geniessen Sie eine spannende Safari im Yala Nationalpark und erkunden Sie das historische Galle Fort vor Ihrem Transfer zum Flughafen.',
+    includes: PACKAGE_INCLUDES.nl,
+    excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Vier Tage sind der ideale Zeitrahmen, um die Höhepunkte Sri Lankas zu erleben, ohne sich für eine ganze Woche zu binden. Diese private Rundreise verbindet die heilige Seenstadt Kandy, die nebligen Hügel von Ella mit der Nine Arches Bridge, eine Jeep-Safari im Yala-Nationalpark auf der Suche nach Elefanten und Leoparden sowie den kolonialen Charme des Galle Forts an der Südküste – alles mit einem englischsprachigen Chauffeur und unbegrenzter Kilometerleistung. Sundown Tours plant die Fahrzeiten so, dass Sie die Peradeniya-Gärten und die Aussichtspunkte im Teeland genießen können, statt zwischen den Stationen zu hetzen. Die Hotels werden auf Halbpension in Häusern gehobener Kategorie gebucht; Eintrittsgebühren und Mittagessen bleiben flexibel, sodass Sie selbst entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind. Ideal als eigenständiger Urlaub oder als gezielte Ergänzung vor einer Strandverlängerung.',
+      'Vier Tage sind der ideale Zeitrahmen, um die Hohepunkte Sri Lankas zu erleben, ohne sich fur eine ganze Woche zu binden. Diese private Rundreise verbindet die heilige Seenstadt Kandy, die nebligen Hugel von Ella mit der Nine Arches Bridge, eine Jeep Safari im Yala Nationalpark auf der Suche nach Elefanten und Leoparden sowie den kolonialen Charme des Galle Forts an der Sudkuste  alles mit einem englischsprachigen Chauffeur und unbegrenzter Kilometerleistung. Sundown Tours plant die Fahrzeiten so, dass Sie die Peradeniya Garten und die Aussichtspunkte im Teeland geniessen konnen, statt zwischen den Stationen zu hetzen. Die Hotels werden auf Halbpension in Hausern gehobener Kategorie gebucht; Eintrittsgebuhren und Mittagessen bleiben flexibel, sodass Sie selbst entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind. Ideal als eigenstandiger Urlaub oder als gezielte Erganzung vor einer Strandverlangerung.',
     highlights: [
       'Zahntempel in Kandy, kulturelle Tanzshow und Aussichtspunkte am See',
-      'Nine Arch Bridge in Ella, Besuch einer Teefabrik und malerische Fahrten durchs Hügelland',
-      '4x4-Safari im Yala-Nationalpark auf der Suche nach wilden Elefanten und Leoparden',
-      'Spaziergang durch das UNESCO-Galle-Fort und Bootssafari durch die Mangroven des Madu-Flusses',
-      'Privates klimatisiertes Fahrzeug mit professionellem Fahrer-Guide während der gesamten Reise',
+      'Nine Arch Bridge in Ella, Besuch einer Teefabrik und malerische Fahrten durchs Hugelland',
+      '4x4 Safari im Yala Nationalpark auf der Suche nach wilden Elefanten und Leoparden',
+      'Spaziergang durch das UNESCO Galle Fort und Bootssafari durch die Mangroven des Madu Flusses',
+      'Privates klimatisiertes Fahrzeug mit professionellem Fahrer Guide wahrend der gesamten Reise',
     ],
     faq: [
       {
-        q: 'Kann diese 4-tägige Tour in Colombo starten oder nur am Flughafen?',
-        a: 'Beides ist möglich. Wir holen Sie am Flughafen Bandaranaike oder in jedem Hotel in Colombo bzw. an der Westküste ab und bringen Sie am 4. Tag zum Flughafen oder an Ihren gewünschten Zielort zurück.',
+        q: 'Kann diese 4 tagige Tour in Colombo starten oder nur am Flughafen?',
+        a: 'Beides ist moglich. Wir holen Sie am Flughafen Bandaranaike oder in jedem Hotel in Colombo bzw. an der Westkuste ab und bringen Sie am 4. Tag zum Flughafen oder an Ihren gewunschten Zielort zuruck.',
       },
       {
-        q: 'Ist der Yala-Nationalpark im Reiseverlauf immer geöffnet?',
-        a: 'Yala schließt jedes Jahr kurzzeitig für Wartungsarbeiten, meist im September. Fällt Ihre Reise in diesen Zeitraum, weichen wir ohne Änderung des Reiseablaufs auf Udawalawe oder einen anderen Park mit guten Elefantensichtungen aus.',
+        q: 'Ist der Yala Nationalpark im Reiseverlauf immer geoffnet?',
+        a: 'Yala schliesst jedes Jahr kurzzeitig fur Wartungsarbeiten, meist im September. Fallt Ihre Reise in diesen Zeitraum, weichen wir ohne Anderung des Reiseablaufs auf Udawalawe oder einen anderen Park mit guten Elefantensichtungen aus.',
       },
       {
-        q: 'Sind Hotels und Safari-Jeep-Gebühren im Preis enthalten?',
-        a: 'Die Halbpension-Unterkunft und Ihr privates Fahrzeug mit Fahrer sind inklusive. Eintrittsgebühren für Nationalparks, die Jeep-Miete und Aktivitätsgebühren werden vor Ort bezahlt, sodass Sie optionale Extras flexibel wählen können.',
+        q: 'Sind Hotels und Safari Jeep Gebuhren im Preis enthalten?',
+        a: 'Die Halbpension Unterkunft und Ihr privates Fahrzeug mit Fahrer sind inklusive. Eintrittsgebuhren fur Nationalparks, die Jeep Miete und Aktivitatsgebuhren werden vor Ort bezahlt, sodass Sie optionale Extras flexibel wahlen konnen.',
       },
     ],
     days: [
       {
-        title: 'Flughafen / Hotel – Kulturerlebnis in Kandy',
+        title: 'Flughafen / Hotel  Kulturerlebnis in Kandy',
         activities: [
           {
             type: 'Tiererlebnis',
-            title: 'Pinnawala-Elefantenwaisenhaus',
+            title: 'Pinnawala Elefantenwaisenhaus',
             description:
-              'Besuchen Sie das berühmte Pinnawala-Elefantenwaisenhaus, in dem gerettete Elefanten versorgt und geschützt werden. Beobachten Sie die Tiere beim Baden im Fluss und erfahren Sie mehr über die Schutzprojekte.',
+              'Besuchen Sie das beruhmte Pinnawala Elefantenwaisenhaus, in dem gerettete Elefanten versorgt und geschutzt werden. Beobachten Sie die Tiere beim Baden im Fluss und erfahren Sie mehr uber die Schutzprojekte.',
           },
           {
             type: 'Kulturbesuch',
@@ -1191,104 +1144,104 @@ export const TOUR4: TourContent = {
             type: 'Kulturerlebnis',
             title: 'Kandyanische Tanzshow',
             description:
-              'Erleben Sie eine traditionelle kandyanische Tanzvorführung mit Feuerlauf, Trommelmusik und farbenprächtigen Kostümen.',
+              'Erleben Sie eine traditionelle kandyanische Tanzvorfuhrung mit Feuerlauf, Trommelmusik und farbenprachtigen Kostumen.',
           },
           {
             type: 'Aussichtspunkt',
             title: 'Aussichtspunkt Kandy',
             description:
-              'Halten Sie am Aussichtspunkt Kandy für einen Panoramablick auf die Stadt, den See und die umliegenden Hügel.',
+              'Halten Sie am Aussichtspunkt Kandy fur einen Panoramablick auf die Stadt, den See und die umliegenden Hugel.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung im Topez Hotel in Kandy',
-            description: 'Übernachtung in einem komfortablen Sterne-Hotel in Kandy auf Halbpension.',
+            title: 'Ubernachtung im Topez Hotel in Kandy',
+            description: 'Ubernachtung in einem komfortablen Sterne Hotel in Kandy auf Halbpension.',
             extra: ['Abendessen inklusive', 'Privatzimmer'],
           },
         ],
       },
       {
-        title: 'Kandy – Reise ins Hügelland von Ella',
+        title: 'Kandy  Reise ins Hugelland von Ella',
         activities: [
           {
             type: 'Natur',
             title: 'Royal Botanic Gardens Peradeniya',
             description:
-              'Spazieren Sie durch einen der schönsten botanischen Gärten Asiens mit Orchideen, Palmen, Bambus und tropischen Pflanzen.',
+              'Spazieren Sie durch einen der schonsten botanischen Garten Asiens mit Orchideen, Palmen, Bambus und tropischen Pflanzen.',
           },
           {
-            type: 'Tee-Erlebnis',
-            title: 'Besuch der Glenloch-Teefabrik',
+            type: 'Tee Erlebnis',
+            title: 'Besuch der Glenloch Teefabrik',
             description:
-              'Erfahren Sie, wie der weltberühmte Ceylon-Tee hergestellt wird, und genießen Sie eine frische Tasse mit Blick auf die Teeplantagen.',
+              'Erfahren Sie, wie der weltberuhmte Ceylon Tee hergestellt wird, und geniessen Sie eine frische Tasse mit Blick auf die Teeplantagen.',
           },
           {
             type: 'Aussichtspunkt',
             title: 'Nine Arch Bridge',
             description:
-              'Besuchen Sie die berühmte Nine Arch Bridge aus der Kolonialzeit, umgeben von üppigem Grün und sanften Hügeln.',
+              'Besuchen Sie die beruhmte Nine Arch Bridge aus der Kolonialzeit, umgeben von uppigem Grun und sanften Hugeln.',
           },
           {
             type: 'Wanderung',
             title: 'Little Adam’s Peak',
             description:
-              'Genießen Sie eine leichte Wanderung mit Panoramablick auf den Ella Gap und die umliegende Berglandschaft.',
+              'Geniessen Sie eine leichte Wanderung mit Panoramablick auf den Ella Gap und die umliegende Berglandschaft.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung im Oak Ray Ella Gap Hotel oder ähnlich – Halbpension in Ella',
-            description: 'Übernachtung in einem malerischen Hotel im Hügelland auf Halbpension.',
-            extra: ['Frühstück & Abendessen inklusive', 'Privatzimmer'],
+            title: 'Ubernachtung im Oak Ray Ella Gap Hotel oder ahnlich  Halbpension in Ella',
+            description: 'Ubernachtung in einem malerischen Hotel im Hugelland auf Halbpension.',
+            extra: ['Fruhstuck & Abendessen inklusive', 'Privatzimmer'],
           },
         ],
       },
       {
-        title: 'Ella – Wildlife-Safari in Yala',
+        title: 'Ella  Wildlife Safari in Yala',
         activities: [
           {
             type: 'Wasserfall',
-            title: 'Ravana-Wasserfälle',
+            title: 'Ravana Wasserfalle',
             description:
-              'Halten Sie an den Ravana-Wasserfällen, einem der malerischsten Wasserfälle Sri Lankas an der Straße zwischen Ella und Wellawaya.',
+              'Halten Sie an den Ravana Wasserfallen, einem der malerischsten Wasserfalle Sri Lankas an der Strasse zwischen Ella und Wellawaya.',
           },
           {
-            type: 'Historische Stätte',
-            title: 'Buduruwagala-Tempel',
+            type: 'Historische Statte',
+            title: 'Buduruwagala Tempel',
             description:
-              'Besuchen Sie diesen antiken Felsentempel mit beeindruckenden, in den Fels gemeißelten Buddha-Statuen.',
+              'Besuchen Sie diesen antiken Felsentempel mit beeindruckenden, in den Fels gemeisselten Buddha Statuen.',
           },
           {
             type: 'Safari',
-            title: 'Safari im Yala-Nationalpark',
+            title: 'Safari im Yala Nationalpark',
             description:
-              'Erleben Sie eine spannende Jeep-Safari im Yala-Nationalpark, Heimat von Leoparden, Elefanten, Krokodilen und einer vielfältigen Tierwelt.',
+              'Erleben Sie eine spannende Jeep Safari im Yala Nationalpark, Heimat von Leoparden, Elefanten, Krokodilen und einer vielfaltigen Tierwelt.',
           },
           {
             type: 'Unterkunft',
-            title: 'Übernachtung in Yala',
-            description: 'Übernachtung in einem komfortablen Hotel im Safari-Gebiet mit Halbpension.',
-            extra: ['Frühstück & Abendessen inklusive'],
+            title: 'Ubernachtung in Yala',
+            description: 'Ubernachtung in einem komfortablen Hotel im Safari Gebiet mit Halbpension.',
+            extra: ['Fruhstuck & Abendessen inklusive'],
           },
         ],
       },
       {
-        title: 'Yala – Galle – Bentota – Flughafen',
+        title: 'Yala  Galle  Bentota  Flughafen',
         activities: [
           {
             type: 'Strandbesuch',
             title: 'Mirissa Beach',
-            description: 'Entspannen Sie am Mirissa Beach oder genießen Sie optional Whale Watching und die Küstenlandschaft.',
+            description: 'Entspannen Sie am Mirissa Beach oder geniessen Sie optional Whale Watching und die Kustenlandschaft.',
           },
           {
             type: 'Kulturerbe',
             title: 'Galle Dutch Fort',
-            description: 'Erkunden Sie das UNESCO-gelistete Galle Fort mit kolonialer Architektur, Festungsmauern und Meerblick.',
+            description: 'Erkunden Sie das UNESCO gelistete Galle Fort mit kolonialer Architektur, Festungsmauern und Meerblick.',
           },
           {
             type: 'Bootssafari',
-            title: 'Bootssafari auf dem Madu-Fluss',
+            title: 'Bootssafari auf dem Madu Fluss',
             description:
-              'Genießen Sie eine entspannte Bootsfahrt durch Mangroven und kleine Inseln in einem der artenreichsten Feuchtgebiete Sri Lankas.',
+              'Geniessen Sie eine entspannte Bootsfahrt durch Mangroven und kleine Inseln in einem der artenreichsten Feuchtgebiete Sri Lankas.',
           },
         ],
       },

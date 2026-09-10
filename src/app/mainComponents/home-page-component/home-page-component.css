@@ -50,7 +50,7 @@
 }
 
 
-/* Package card hover — defined once below with will-change */
+/* Package card hoverdefined once below with will-change */
 .packages-section {
   background: #f9fafb;
 }
@@ -404,7 +404,7 @@ html, body {
   border-color: #ffd700;
 }
 
-/* INTRO SECTION — mobile-first sizes so CSS load does not shrink the title (CLS). */
+/* INTRO SECTIONmobile-first sizes so CSS load does not shrink the title (CLS). */
 .intro-section {
   background: #ffffff;
   padding-top: 2.5rem;
