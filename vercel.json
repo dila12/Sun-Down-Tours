@@ -538,6 +538,16 @@
       "permanent": true
     },
     {
+      "source": "/it/guides/osservazione-balene-sri-lanka",
+      "destination": "/it/guide/avvistamento-balene-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/guides/trasferte-aeroporto-sri-lanka",
+      "destination": "/it/guide/transfer-aeroporto-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/it/kandy-day-tour",
       "destination": "/it/escursione-giornaliera-kandy",
       "permanent": true

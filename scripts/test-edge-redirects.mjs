@@ -38,6 +38,14 @@ const cases = [
   ['/2-day-sri-lanka-tour', '/2-day-ella-kandy-private-tour-sri-lanka'],
   ['/zh', '/'],
   ['/zh/', '/'],
+  [
+    '/it/guides/osservazione-balene-sri-lanka',
+    '/it/guide/avvistamento-balene-sri-lanka',
+  ],
+  [
+    '/it/guides/trasferte-aeroporto-sri-lanka',
+    '/it/guide/transfer-aeroporto-sri-lanka',
+  ],
   ['/it/restaurants-in-sri-lanka', '/it/ristoranti-in-sri-lanka'],
   ['/de/2-day-ella-kandy-private-tour-sri-lanka', '/de/2-tage-ella-kandy-private-rundreise'],
   ['/ru/5-day-sri-lanka-tour', '/ru/5-dnevnyy-tur-shri-lanka'],

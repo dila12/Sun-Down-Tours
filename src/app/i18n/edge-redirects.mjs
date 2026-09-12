@@ -32,6 +32,9 @@ const STATIC_PATH_REDIRECTS = {
   '/sri-lanka-vacation': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
   '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
+  // Old Italian hub (`guides`) + draft slugs that 500 today instead of 301.
+  '/it/guides/osservazione-balene-sri-lanka': '/it/guide/avvistamento-balene-sri-lanka',
+  '/it/guides/trasferte-aeroporto-sri-lanka': '/it/guide/transfer-aeroporto-sri-lanka',
 };
 
 /**
