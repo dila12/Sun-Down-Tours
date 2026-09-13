@@ -242,7 +242,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
       { pageId: 'guideSafari', label: 'Safari guide' },
       { pageId: 'guideTeaCountry', label: 'Tea country guide' },
       { pageId: 'guideBeaches', label: 'Beaches guide' },
-      { pageId: 'marketUK', label: 'Holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
     restaurants: [restaurant],
     tours: [
@@ -269,12 +269,7 @@ export const TOUR_RELATED_GRAPH: Record<string, TourRelatedGraph> = {
       { pageId: 'guideBudget', label: 'Budget guide' },
       { pageId: 'guideSafety', label: 'Safety guide' },
       { pageId: 'guideBestTime', label: 'Best time to visit' },
-      { pageId: 'marketGermany', label: 'Rundreise from Germany' },
-      { pageId: 'marketFrance', label: 'Circuits from France' },
-      { pageId: 'marketItaly', label: 'Tours from Italy' },
-      { pageId: 'marketSpain', label: 'Tours from Spain' },
-      { pageId: 'marketPoland', label: 'Tours from Poland' },
-      { pageId: 'marketRussia', label: 'Tours from Russia' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
     restaurants: [restaurant],
     tours: [

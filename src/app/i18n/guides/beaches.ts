@@ -81,7 +81,7 @@ export const BEACHES_GUIDE: ArticleContent = {
       { pageId: 'guideBestTime', label: 'Best Time to Visit Sri Lanka' },
       { pageId: 'guideSafety', label: 'Sri Lanka Safety Guide' },
       { pageId: 'guidePrivateDriver', label: 'Private Driver Guide' },
-      { pageId: 'marketUK', label: 'Holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
   },
 

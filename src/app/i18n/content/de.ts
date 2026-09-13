@@ -602,11 +602,11 @@ export const de: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Rundreise & Urlaub | Privater Fahrer aus DE',
+      title: 'Sri Lanka Rundreise | Privater Fahrer Guide 7 bis 10 Tage',
       description:
-        'Private Sri Lanka Rundreise und Urlaub mit Fahrer Guide: 7 bis 14 Tage, Sigiriya Lion Rock, Kandy, Ella, Yala, Mirissa. Flugzeit ab Frankfurt, Einreise, beste Reisezeit. Seit 1992.',
+        'Private Sri Lanka Rundreise mit Fahrer Guide: 7, 8 und 10 Tage, Sigiriya Lion Rock, Kandy, Ella, Yala Safari und Strand. Fur Reisende aus Deutschland, Osterreich und der Schweiz. Seit 1992.',
       keywords:
-        'Sri Lanka Rundreise, Urlaub Sri Lanka, Sri Lanka Urlaub, Sri Lanka Reise, beste Reisezeit Sri Lanka, privater Fahrer Sri Lanka',
+        'Sri Lanka Rundreise, Urlaub Sri Lanka, Sri Lanka Urlaub, privater Fahrer Sri Lanka, Rundreise Sri Lanka 7 Tage, Sri Lanka Reise',
     },
     tours: {
       title: 'Sri Lanka Reisepakete | 7, 8 & 10 Tage Privatreise',
@@ -971,9 +971,10 @@ export const de: Dict = {
       keywords: "marketNetherlands",
     },
     marketUK: {
-      title: "Sri Lanka Tours from the UK | Private Holidays",
-      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
-      keywords: "marketUK",
+      title: 'Sri Lanka Urlaub aus Grossbritannien | Private Rundreise',
+      description:
+        'Sri Lanka Urlaub aus Grossbritannien: privater Fahrer Guide, Fluge nach Colombo, ETA und Rundreise 7 bis 10 Tage.',
+      keywords: 'Sri Lanka Urlaub, private Rundreise, Fahrer Guide',
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",

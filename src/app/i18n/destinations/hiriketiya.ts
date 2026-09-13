@@ -72,7 +72,7 @@ export const HIRIKETIYA_DEST: ArticleContent = {
     relatedGuides: [
       { pageId: 'guideBeaches', label: 'Sri Lanka beaches' },
       { pageId: 'guideBestTime', label: 'Best time to visit' },
-      { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Sri Lanka private driver guide' },
     ],
   },
 };

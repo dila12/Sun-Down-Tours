@@ -31,7 +31,7 @@ export const HONEYMOON_GUIDE: ArticleContent = {
       {
         id: 'withSundown',
         title: 'Planning with Sundown Tours',
-        body: 'Based in Waskaduwa, we plan private honeymoon circuits for couples from the UK and Europe. You message the same planning team on WhatsApp before and during the trip.\n\nShare your travel month, hotel style and must see listwe reply with a proposed route and clear pricing.',
+        body: 'Based in Waskaduwa, we plan private honeymoon circuits for couples from Italy, France, Spain, the UK and Germany. You message the same planning team on WhatsApp before and during the trip.\n\nShare your travel month, hotel style and must see list. We reply with a proposed route and clear pricing.',
       },
     ],
     faq: [

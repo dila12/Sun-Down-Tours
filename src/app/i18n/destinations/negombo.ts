@@ -48,7 +48,7 @@ export const NEGOMBO_DEST: ArticleContent = {
     ],
     relatedGuides: [
       { pageId: 'guideAirportTransfers', label: 'Airport transfers' },
-      { pageId: 'marketGermany', label: 'Tours from Germany' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
   },
   de: {

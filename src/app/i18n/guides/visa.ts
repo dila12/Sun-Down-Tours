@@ -64,7 +64,7 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'For nationals of 40 listed countries (including the UK, much of the EU, Russia, the US, Canada, India and Australia) the tourist ETA is free from 25 May 2026 for 30 days with double entry. Everyone still applies in advance on eta.gov.lk. Other passports follow paid ETA rules.',
       },
       {
-        q: 'What are Sri Lanka entry requirements for UK travellers?',
+        q: 'What are Sri Lanka entry requirements for European travellers?',
         a: 'UK passport holders must obtain an ETA at eta.gov.lk before travel. From 25 May 2026 the tourist ETA is free for 30 days with double entry, but you still apply in advance. Keep roughly six months’ passport validity and proof of onward travel.',
       },
       {
@@ -84,7 +84,7 @@ export const VISA_GUIDE: ArticleContent = {
     relatedGuides: [
       { pageId: 'guideSafety', label: 'Sri Lanka Safety Guide' },
       { pageId: 'guideBudget', label: 'Sri Lanka Budget Travel Guide' },
-      { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Sri Lanka private driver guide' },
     ],
   },
 

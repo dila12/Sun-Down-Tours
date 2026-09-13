@@ -65,7 +65,7 @@ const en: HomeSeoContent = {
   tag: 'TRAVEL GUIDE',
   title: 'Sri Lanka Tours, Holiday Packages & Private Driver Guide',
   subtitle:
-    'How to plan Sri Lanka tours and vacation packages with a licensed chauffeur guideitineraries, safari timing and tailor made holidays for travellers from the UK, Germany, France, Switzerland, Italy, Spain and Poland since 1992.',
+    'How to plan Sri Lanka tours and vacation packages with a licensed chauffeur guide: itineraries, safari timing and tailor made holidays for travellers from Germany, the UK, France, Italy, Spain, Switzerland and Poland since 1992.',
   tocLabel: 'On this page',
   seeAlsoLabel: 'See also',
   toc: [
@@ -108,7 +108,7 @@ const en: HomeSeoContent = {
       seeAlso: [
         { pageId: 'destinations', label: 'Sri Lanka destinations guide' },
         { pageId: 'tours', label: 'Sri Lanka tour packages' },
-        { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
+        { pageId: 'guidePrivateDriver', label: 'Sri Lanka private driver guide' },
       ],
     },
     {
@@ -192,7 +192,7 @@ const en: HomeSeoContent = {
         {
           heading: 'One Week Itineraries (7 to 8 Days)',
           paras: [
-            'The 7 day tour is our most popular option for UK and German travellers with one week off, balancing culture, tea country, Yala safari and beaches. The 8 day private tour adds Wilpattu or extended park time plus Hikkaduwa.',
+            'The 7 day tour is our most popular option for first time visitors with one week off, balancing culture, tea country, Yala safari and beaches. The 8 day private tour adds Wilpattu or extended park time plus Hikkaduwa.',
           ],
         },
         {
@@ -417,7 +417,7 @@ const en: HomeSeoContent = {
       a: 'Absolutely. Shorter drives, hotel pools, elephant orphanages, turtle hatcheries and beach days keep children engaged. We plan family tours with flexible pacing and child friendly restaurants.',
     },
     {
-      q: 'Do I need a visa to visit Sri Lanka from the UK or EU?',
+      q: 'Do I need a visa to visit Sri Lanka from Europe?',
       a: 'Most European citizens need an ETA (Electronic Travel Authorisation) obtained online before travel. Apply at least 48 hours before departure; children need their own ETA.',
     },
     {
@@ -425,18 +425,21 @@ const en: HomeSeoContent = {
       a: 'Every Sundown Tours itinerary is tailor made. We arrange boutique hotels, private dining, spa treatments and special surprises for honeymoons and luxury holidays.',
     },
     {
-      q: 'How long is the flight from London to Sri Lanka?',
-      a: 'Direct Heathrow to Colombo (CMB) flights are typically 10.5 to 11.5 hours hours. Connections via Dubai, Doha or Istanbul take longer. We do not sell air tickets; we meet you after landing with a private driver guide.',
-      links: [{ pageId: 'marketUK', label: 'UK holidays guide' }],
+      q: 'How long is the flight from Europe to Sri Lanka?',
+      a: 'From Frankfurt, Munich, Zurich or London expect about 10 to 12 hours, often via the Gulf or Istanbul. Direct options vary by season. We do not sell air tickets; we meet you at Colombo (CMB) with a private driver guide.',
+      links: [
+        { pageId: 'marketGermany', label: 'Sri Lanka tours from Germany' },
+        { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
+      ],
     },
     {
-      q: 'What are Sri Lanka entry requirements for UK travellers?',
-      a: 'Apply for an ETA at eta.gov.lk before you fly. From 25 May 2026 the tourist ETA is free for UK passports for 30 days with double entry, but you still need approval in advance.',
+      q: 'What are Sri Lanka entry requirements for European travellers?',
+      a: 'Apply for an ETA at eta.gov.lk before you fly. From 25 May 2026 the tourist ETA is free for 40 listed countries (including Germany, the UK, France, Italy, Spain and Poland) for 30 days with double entry, but you still need approval in advance.',
       links: [{ pageId: 'guideVisa', label: 'Entry requirements / ETA' }],
     },
     {
-      q: 'Is Sri Lanka safe for tourists from the UK?',
-      a: 'Yes on standard holiday routes when you use reputable transport and normal precautions. A licensed chauffeur guide is how most UK visitors travel between sites.',
+      q: 'Is Sri Lanka safe for tourists from Europe?',
+      a: 'Yes on standard holiday routes when you use reputable transport and normal precautions. A licensed chauffeur guide is how most European visitors travel between sites.',
       links: [{ pageId: 'guideSafety', label: 'Safety guide' }],
     },
     {

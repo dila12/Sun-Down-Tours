@@ -175,7 +175,7 @@ export const en: Dict = {
     hero: {
       title: 'Sri Lanka Tours, Holiday Packages & Private Driver',
       subtitle:
-        'Book private Sri Lanka tours and tailor made holiday packages with a local chauffeur guide. Explore Sigiriya, Ella, Yala safari, Kandy, Nuwara Eliya, Mirissa and Galledesigned for travellers from the UK and Europe.',
+        'Book private Sri Lanka tours and tailor made holiday packages with a local chauffeur guide. Explore Sigiriya, Ella, Yala safari, Kandy, Nuwara Eliya, Mirissa and Galle. Built for travellers from Germany, the UK, France, Italy, Spain, Poland and the rest of Europe.',
       slide2: 'Unforgettable Sri Lanka Tour Packages',
       slide3: 'Private Tours Across Beautiful Sri Lanka',
       slide4: 'Discover Sigiriya, Ella & Sri Lanka Highlights',
@@ -268,11 +268,11 @@ export const en: Dict = {
       },
       {
         q: 'Which Sri Lanka tour package is best for first time visitors?',
-        a: 'Most first time visitors from the UK and Europe choose a 7, 8 or 10 day private round tour: Cultural Triangle (Sigiriya, Kandy), hill country (Ella, Nuwara Eliya), a wildlife safari and a beach finish.',
+        a: 'Most first time visitors choose a 7, 8 or 10 day private round tour: Cultural Triangle (Sigiriya, Kandy), hill country (Ella, Nuwara Eliya), a wildlife safari and a beach finish.',
       },
       {
-        q: 'Do you offer Sri Lanka holidays for travellers from the UK and Europe?',
-        a: 'Yes. We specialise in private chauffeur tours for guests from the UK, Germany, France, Italy, Spain, the Netherlands, Switzerland and Poland, with English speaking driver guides and WhatsApp planning before you fly.',
+        q: 'Do you offer Sri Lanka holidays for travellers from Europe?',
+        a: 'Yes. We specialise in private chauffeur tours for guests from Germany, the UK, France, Italy, Spain, the Netherlands, Switzerland and Poland, with driver guides in English, German, Polish and Russian and WhatsApp planning before you fly.',
       },
     ],
   },
@@ -282,7 +282,7 @@ export const en: Dict = {
     breadcrumb: 'About',
     eyebrow: 'About Us',
     title: 'Trusted Sri Lanka Tour Company Since 1992',
-    p1: 'Sundown Tours Sri Lanka is a locally registered tour operator based in Waskaduwa on the west coast. Since 1992 we have planned private chauffeur driven tours for travellers from the UK, Europe and beyond focusing on clear communication, licensed guides and itineraries that match your pace rather than a fixed group schedule.',
+    p1: 'Sundown Tours Sri Lanka is a locally registered tour operator based in Waskaduwa on the west coast. Since 1992 we have planned private chauffeur driven tours for travellers from Germany, the UK, France, Italy, Spain, Poland and beyond, focusing on clear communication, licensed guides and itineraries that match your pace rather than a fixed group schedule.',
     p2: 'Our routes cover the Cultural Triangle (Sigiriya, Dambulla, Anuradhapura), Kandy and the hill country (Ella, Nuwara Eliya), wildlife parks such as Yala and Udawalawe, and the southwest coast around Galle and Hikkaduwa. Every package includes a private air conditioned vehicle, an English speaking chauffeur guide, fuel and driver expenses hotels, entrance tickets and safaris can be arranged with transparent pricing.',
     p3: 'Whether you need a one day Sigiriya excursion or a ten day island circuit finishing at the beach, you speak directly with our planning team on WhatsApp or email. We reply within 24 hours with a proposed route, realistic driving times and a clear quoteo call centres, no hard sell.',
     whyTitle: 'Why Choose Sundown Tours',
@@ -290,7 +290,7 @@ export const en: Dict = {
       'We are a Waskaduwa based family tour company. You speak with the same local planners who build your route call centreravel with a private chauffeur guide who knows the roads, timings and seasonal conditions.',
     why1Title: 'Local expertise since 1992',
     why1Body:
-      'Three decades of private chauffeur driven tours for travellers from the UK, Europe and beyond, with realistic driving times and transparent quotes.',
+      'Three decades of private chauffeur driven tours for travellers from Germany, the UK, France, Italy, Spain, Poland and beyond, with realistic driving times and transparent quotes.',
     why2Title: 'Named people you can message',
     why2Body:
       'Meet Dilan (Founder) and Yohan (Senior Consultant) on our team sectiontsApp them directly for itinerary questions before you book.',
@@ -701,18 +701,18 @@ export const en: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Tours & Holidays from the UK | Private Driver',
+      title: 'Sri Lanka Private Tours | 7 8 10 Day Chauffeur Holidays',
       description:
-        'Private Sri Lanka holidays and tour packages for UK travellers: chauffeur guide, 7 to 10 day itineraries, Sigiriya Lion Rock, Kandy, Yala safari, Galle, Mirissa and Hiriketiya. Local team since 1992.',
+        'Private Sri Lanka tours with a local chauffeur guide. 7, 8 and 10 day packages covering Sigiriya, Kandy, Ella, Yala safari, Galle and Mirissa. Licensed team since 1992.',
       keywords:
-        'Sri Lanka holidays, holidays to Sri Lanka, Sri Lanka tours from UK, Sri Lanka travel, Sri Lanka private driver, Sri Lanka holiday packages',
+        'Sri Lanka private tour, Sri Lanka tour packages, private driver Sri Lanka, 7 day Sri Lanka tour, 10 day Sri Lanka itinerary, Sri Lanka chauffeur',
     },
     tours: {
-      title: 'Sri Lanka Tour Packages | 7, 8 & 10 Day Private Holidays',
+      title: 'Sri Lanka Tour Packages | 7, 8 and 10 Day Private Holidays',
       description:
-        'Browse Sri Lanka tour packages for UK and Europe travellers: private 7, 8 and 10 day holidays with chauffeur guide, safari and beach time. tailor made, not group tours.',
+        'Browse private Sri Lanka tour packages: 7, 8 and 10 day holidays with chauffeur guide, safari and beach time. Tailor made, not group tours.',
       keywords:
-        'Sri Lanka tour packages, Sri Lanka holidays, Sri Lanka private tour, 7 day Sri Lanka tour, 10 day Sri Lanka itinerary',
+        'Sri Lanka tour packages, Sri Lanka private tour, 7 day Sri Lanka tour, 10 day Sri Lanka itinerary, private driver Sri Lanka',
     },
     services: {
       title: 'Private Tours, Chauffeur & Holiday Services | Sri Lanka',
@@ -849,13 +849,13 @@ export const en: Dict = {
     guideBestTime: {
       title: 'Best Time to Visit Sri Lanka | Weather & Month by Month Guide',
       description:
-        'Best time to visit Sri Lanka from the UK: two monsoons, weather by region, safari and whale watching timing, and how to plan a private itinerary around the season.',
+        'Best time to visit Sri Lanka: two monsoons, weather by region, safari and whale watching timing, and how to plan a private itinerary around the season.',
       keywords: 'best time to visit Sri Lanka, weather in Sri Lanka, Sri Lanka weather, Sri Lanka monsoon, Sri Lanka in August',
     },
     guideVisa: {
       title: 'Sri Lanka Entry Requirements 2026 | ETA & Visa Guide',
       description:
-        'Sri Lanka entry requirements for UK travellers: ETA rules from 25 May 2026, free 30 day tourist ETA for 40 countries. Apply before travel at eta.gov.lknot on unofficial sites.',
+        'Sri Lanka entry requirements for European travellers: ETA rules from 25 May 2026, free 30 day tourist ETA for 40 countries. Apply before travel at eta.gov.lk, not on unofficial sites.',
       keywords: 'sri lanka entry requirements, Sri Lanka visa, Sri Lanka ETA 2026, travel restrictions, eta.gov.lk',
     },
     guidePrivateDriver: {
@@ -907,10 +907,10 @@ export const en: Dict = {
       keywords: 'packing list Sri Lanka, what to pack Sri Lanka, Sri Lanka travel essentials',
     },
     guideSafety: {
-      title: 'Is Sri Lanka Safe to Travel? | Safety Guide for UK Visitors',
+      title: 'Is Sri Lanka Safe to Travel? | Safety Guide for Visitors',
       description:
-        'Is it safe to travel to Sri Lanka? Practical advice for UK and European visitors: roads, scams, wildlife, health and travelling with a private driver.',
-      keywords: 'is sri lanka safe, is it safe to travel to sri lanka, Sri Lanka travel safety, UK visitors',
+        'Is it safe to travel to Sri Lanka? Practical advice for European visitors: roads, scams, wildlife, health and travelling with a private driver.',
+      keywords: 'is sri lanka safe, is it safe to travel to sri lanka, Sri Lanka travel safety',
     },
     cancellation: {
       title: 'Cancellation Policy | Sundown Tours Sri Lanka',
@@ -962,7 +962,7 @@ export const en: Dict = {
     destHiriketiya: {
       title: 'Hiriketiya Sri Lanka Guide | Surf Bay, Cafes & South Coast',
       description:
-        'Hiriketiya is a compact south coast surf bay. When to visit, how it compares with Mirissa, and how to add it to a private Sri Lanka holiday from the UK.',
+        'Hiriketiya is a compact south coast surf bay. When to visit, how it compares with Mirissa, and how to add it to a private Sri Lanka holiday.',
       keywords: 'hiriketiya, hiriketiya sri lanka, Hiriketiya beach, south coast Sri Lanka',
     },
     destWeligama: {
@@ -1140,7 +1140,7 @@ export const en: Dict = {
     monthAugust: {
       title: 'Sri Lanka in August | Weather, East Coast & Cultural Triangle',
       description:
-        'Sri Lanka in August: southwest monsoon vs east coast, Sigiriya and Kandy Perahera timing, Yala safari notes and private itinerary ideas for UK travellers.',
+        'Sri Lanka in August: southwest monsoon vs east coast, Sigiriya and Kandy Perahera timing, Yala safari notes and private itinerary ideas for European travellers.',
       keywords: 'sri lanka in august, weather in Sri Lanka August, August Sri Lanka holiday',
     },
     monthSeptember: {

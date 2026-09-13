@@ -88,7 +88,7 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       { pageId: 'guideWildlife', label: 'Sri Lanka Wildlife Guide' },
       { pageId: 'guidePacking', label: 'Sri Lanka Packing Guide' },
       { pageId: 'monthAugust', label: 'Sri Lanka in August' },
-      { pageId: 'marketUK', label: 'Holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
   },
 

@@ -81,7 +81,7 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
       { pageId: 'guideVisa', label: 'Visa & ETA guide' },
       { pageId: 'guideBestTime', label: 'Best time to visit' },
-      { pageId: 'marketUK', label: 'Holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
     ],
   },
   de: {

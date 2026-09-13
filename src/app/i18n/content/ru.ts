@@ -970,9 +970,9 @@ export const ru: Dict = {
       keywords: "marketNetherlands",
     },
     marketUK: {
-      title: "Sri Lanka Tours from the UK | Private Holidays",
-      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
-      keywords: "marketUK",
+      title: 'Туры на Шри Ланку из Великобритании | Частный водитель',
+      description: 'Частные туры по Шри Ланке для путешественников из Великобритании: водитель гид, рейсы в Коломбо и маршруты 7–10 дней.',
+      keywords: 'туры Шри Ланка, частный водитель, тур 7 дней',
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",

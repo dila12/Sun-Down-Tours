@@ -62,7 +62,7 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
     relatedGuides: [
       { pageId: 'guideBestTime', label: 'Best time to visit Sri Lanka' },
       { pageId: 'guideBeaches', label: 'Beaches by season' },
-      { pageId: 'marketUK', label: 'Holidays from the UK' },
+      { pageId: 'guidePrivateDriver', label: 'Private driver guide' },
       { pageId: 'marketGermany', label: 'From Germany' },
     ],
   },

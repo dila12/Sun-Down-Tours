@@ -60,7 +60,7 @@ export const SAFETY_GUIDE: ArticleContent = {
         a: 'Yes when you stay in approved jeeps with licensed park guides and follow distance rules around elephants and other wildlife. Never exit the vehicle inside the park unless explicitly permitted.',
       },
       {
-        q: 'Is it safe to travel to Sri Lanka from the UK?',
+        q: 'Is it safe to travel to Sri Lanka from Europe?',
         a: 'Yes for typical holiday routes when you use reputable transport, keep valuables secure in crowds and follow temple etiquette. Check current FCDO advice before you fly. A licensed private chauffeur guide is how most UK visitors move around.',
       },
       {
@@ -85,7 +85,7 @@ export const SAFETY_GUIDE: ArticleContent = {
       { pageId: 'guidePrivateDriver', label: 'Private Driver Guide' },
       { pageId: 'guideFood', label: 'Sri Lanka Food Guide' },
       { pageId: 'guidePacking', label: 'Sri Lanka Packing Guide' },
-      { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
+      { pageId: 'guideBestTime', label: 'Best time to visit Sri Lanka' },
     ],
   },
 

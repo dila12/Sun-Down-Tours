@@ -941,9 +941,9 @@ export const pl: Dict = {
       keywords: "marketNetherlands",
     },
     marketUK: {
-      title: "Sri Lanka Tours from the UK | Private Holidays",
-      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
-      keywords: "marketUK",
+      title: 'Wakacje Sri Lanka z Wielkiej Brytanii | Prywatna wycieczka',
+      description: 'Prywatna wycieczka po Sri Lance dla podroznych z Wielkiej Brytanii: kierowca przewodnik, loty do Colombo i trasy 7 do 10 dni.',
+      keywords: 'wakacje Sri Lanka, prywatna wycieczka, kierowca przewodnik',
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",

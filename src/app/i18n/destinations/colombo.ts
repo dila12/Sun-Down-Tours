@@ -61,8 +61,7 @@ export const COLOMBO_DEST: ArticleContent = {
     ],
     relatedGuides: [
       { pageId: 'guideAirportTransfers', label: 'Airport transfers' },
-      { pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' },
-      { pageId: 'marketGermany', label: 'Tours from Germany' },
+      { pageId: 'guidePrivateDriver', label: 'Sri Lanka private driver guide' },
       { pageId: 'guideVisa', label: 'Entry requirements' },
     ],
   },
