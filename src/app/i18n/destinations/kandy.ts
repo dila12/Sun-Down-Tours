@@ -6,8 +6,8 @@ import type { ArticleContent } from '../articles/types';
  */
 export const KANDY_DEST: ArticleContent = {
   en: {
-    h1: 'Kandy, Sri Lanka: The Sacred Hill Capital of the Last Kingdom',
-    lead: 'The last capital to fall to colonial rule, Kandy still feels like the spiritual heart of Sri Lanka a lake-side city built around a temple that holds one of Buddhism’s most sacred relics, ringed by hills, botanical gardens and the tea estates beyond.',
+    h1: 'Kandy Temple of the Tooth, Sri Lanka: Sacred Relic of the Last Kingdom',
+    lead: 'The Kandy Temple of the Tooth (Sri Dalada Maligawa) is the spiritual heart of Sri Lanka — a lakeside shrine for one of Buddhism’s most sacred relics, ringed by hills, botanical gardens and the tea estates beyond.',
     heroImage: 'assets/img/destination-4.webp',
     heroAlt: 'Temple of the Sacred Tooth Relic reflected in Kandy Lake',
     sections: [

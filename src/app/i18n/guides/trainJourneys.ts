@@ -2,7 +2,7 @@ import type { ArticleContent } from '../articles/types';
 
 export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
   en: {
-    h1: 'Sri Lanka Train Journeys: Kandy to Ella and Tea Country by Rail',
+    h1: 'Kandy to Ella Train Ride: Scenic Sri Lanka Railway and Nine Arch Bridge',
     lead:
       'The hill-country train between Kandy, Nanu Oya (for Nuwara Eliya) and Ella is one of Sri Lanka’s signature experiences: tea slopes, viaducts and village stations. A private chauffeur tour pairs best with selected scenic segments rather than trying to move all luggage by rail every day.',
     heroImage: 'assets/img/mainpage/6.webp',

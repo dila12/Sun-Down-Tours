@@ -6,8 +6,8 @@ import type { ArticleContent } from '../articles/types';
  */
 export const ELLA_DEST: ArticleContent = {
   en: {
-    h1: 'Ella, Sri Lanka: Hill Country Views, Tea and the Nine Arch Bridge',
-    lead: 'Cool mountain air, a valley of tea bushes rolling away in every direction, and the sound of the blue train crossing a century-old viaduct Ella is the hill-country stop that makes travellers extend their itinerary by an extra day.',
+    h1: 'Ella Sri Lanka: Nine Arch Bridge, Train Ride and Hill Country Views',
+    lead: 'Ella is the hill-country stop travellers extend for: the Nine Arch Bridge, the Kandy to Ella train ride through tea estates, and cool mountain air that makes Little Adam’s Peak and Ella Rock worth an extra day.',
     heroImage: 'assets/img/destination-2.webp',
     heroAlt: 'Nine Arch Bridge surrounded by green tea plantations near Ella',
     sections: [
@@ -23,7 +23,7 @@ export const ELLA_DEST: ArticleContent = {
       },
       {
         id: 'thingsToDo',
-        title: 'What to do in Ella',
+        title: 'Nine Arch Bridge, train ride and what to do in Ella',
         body: 'The Nine Arch Bridge is the postcard shot everyone comes for a curved stone viaduct with no steel reinforcement at all, best seen (or better, walked across between trains) in the early morning light. Little Adam’s Peak is a gentler alternative to its famous namesake, a 45–60 minute climb rewarded with a 360-degree view over the valley and tea estates.\n\nElla Rock is the more serious hike of the two, three to four hours round trip through active tea plantations with a local guide recommended, since the trail crosses estate land and isn’t always clearly marked. Ravana Falls, a short tuk-tuk ride away, is an easy add-on, especially after rain when the falls run at full force.',
       },
       {
@@ -87,6 +87,7 @@ export const ELLA_DEST: ArticleContent = {
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
+      { pageId: 'guideTrainJourneys', label: 'Kandy to Ella Train Ride' },
       { pageId: 'guideTeaCountry', label: 'Sri Lanka Tea Country Guide' },
       { pageId: 'guideBestTime', label: 'Best Time to Visit Sri Lanka' },
     ],

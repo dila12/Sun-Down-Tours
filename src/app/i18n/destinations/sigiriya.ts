@@ -6,8 +6,8 @@ import type { ArticleContent } from '../articles/types';
  */
 export const SIGIRIYA_DEST: ArticleContent = {
   en: {
-    h1: 'Sigiriya, Sri Lanka: The Rock Fortress of the Cultural Triangle',
-    lead: 'A 200-metre granite monolith crowned by a fifth-century royal palace, Sigiriya is the single most photographed sight in Sri Lanka and one of the few places on earth where you climb through a lion’s mouth to reach a throne room in the clouds.',
+    h1: 'Sigiriya Rock Fortress, Sri Lanka: Climb, Day Tours & the Cultural Triangle',
+    lead: 'Sigiriya Rock Fortress is a 200-metre granite monolith crowned by a fifth-century royal palace — the most photographed sight in Sri Lanka, and one of the few places on earth where you climb through a lion’s mouth to a throne room in the clouds.',
     heroImage: 'assets/img/destination-1.webp',
     heroAlt: 'Sigiriya Rock Fortress rising above the surrounding jungle at dawn',
     sections: [

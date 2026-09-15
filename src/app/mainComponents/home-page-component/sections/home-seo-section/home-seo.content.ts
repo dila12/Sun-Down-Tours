@@ -74,6 +74,7 @@ const en: HomeSeoContent = {
     { label: 'Private Tours', anchor: 'chauffeur-tours' },
     { label: 'Tour Packages', anchor: 'tour-packages' },
     { label: 'Wildlife Safaris', anchor: 'wildlife-safaris' },
+    { label: 'Most Beautiful Places', anchor: 'destinations-cards' },
     { label: 'Cultural Triangle', anchor: 'cultural-triangle' },
     { label: 'Tea Country', anchor: 'tea-country' },
     { label: 'Beaches', anchor: 'beaches' },
@@ -232,21 +233,31 @@ const en: HomeSeoContent = {
         },
       ],
       seeAlso: [
+        { pageId: 'destYala', label: 'Yala National Park safari' },
+        { pageId: 'guideSafari', label: 'Sri Lanka safari guide' },
         { pageId: 'tour2ey', label: '2 day Ella & Yala safari tour' },
-        { pageId: 'tours', label: 'Safari tour packages' },
       ],
     },
     {
       anchor: 'destinations-cards',
-      eyebrow: 'DESTINATIONS',
-      heading: 'Popular Sri Lanka Destinations',
-      cards: [
-        { icon: 'fa-landmark', title: 'Sigiriya', text: 'Sri Lanka’s most iconic rock fortress, rising 200 metres above the central plains.', linkPageId: 'sigiriyaDay', linkLabel: 'Sigiriya tour' },
-        { icon: 'fa-place-of-worship', title: 'Kandy', text: 'The last royal capital and home to the Temple of the Sacred Tooth Relic.', linkPageId: 'kandyDay', linkLabel: 'Kandy tour' },
-        { icon: 'fa-train', title: 'Ella', text: 'Hill-country hub for hiking, cafés and the famous Nine Arch Bridge.', linkPageId: 'ellaDay', linkLabel: 'Ella tour' },
-        { icon: 'fa-ship', title: 'Galle', text: 'UNESCO-listed walled fort with Dutch colonial streets and sunset ramparts.', linkPageId: 'galleDay', linkLabel: 'Galle tour' },
+      eyebrow: 'TRAVEL PLACES',
+      heading: 'Most Beautiful Places in Sri Lanka',
+      intro: [
+        'These Sri Lanka travel places appear on almost every first-time private tour. Each destination page below explains how to visit with a chauffeur guide — not a crowded coach.',
       ],
-      cardCols: 4,
+      cards: [
+        { icon: 'fa-landmark', title: 'Sigiriya Rock Fortress', text: 'UNESCO rock fortress and one of the most beautiful places in Sri Lanka — climb at sunrise on a private day tour.', linkPageId: 'destSigiriya', linkLabel: 'Sigiriya guide' },
+        { icon: 'fa-place-of-worship', title: 'Kandy Temple of the Tooth', text: 'Sri Dalada Maligawa, the sacred tooth relic temple beside Kandy Lake, with daily ceremonies and Peradeniya Gardens nearby.', linkPageId: 'destKandy', linkLabel: 'Temple of the Tooth guide' },
+        { icon: 'fa-train', title: 'Ella & Nine Arch Bridge', text: 'Hill-country views, the Nine Arch Bridge and the Kandy to Ella train ride through tea estates.', linkPageId: 'destElla', linkLabel: 'Ella & Nine Arch guide' },
+        { icon: 'fa-paw', title: 'Yala National Park Safari', text: 'The classic Sri Lanka safari for leopards, elephants and birds on a morning jeep game drive.', linkPageId: 'destYala', linkLabel: 'Yala safari guide' },
+        { icon: 'fa-ship', title: 'Galle Fort', text: 'UNESCO-listed Dutch ramparts, lighthouse and south-coast beaches after culture and safari days.', linkPageId: 'destGalle', linkLabel: 'Galle Fort guide' },
+        { icon: 'fa-subway', title: 'Kandy to Ella Train', text: 'Sri Lanka’s most famous train ride, timed with reserved seats and a private driver for luggage.', linkPageId: 'guideTrainJourneys', linkLabel: 'Train ride guide' },
+      ],
+      cardCols: 3,
+      seeAlso: [
+        { pageId: 'destinations', label: 'All Sri Lanka travel places' },
+        { pageId: 'tours', label: 'Sri Lanka private tour packages' },
+      ],
     },
     {
       anchor: 'cultural-triangle',
@@ -275,6 +286,8 @@ const en: HomeSeoContent = {
         },
       ],
       seeAlso: [
+        { pageId: 'destSigiriya', label: 'Sigiriya rock fortress' },
+        { pageId: 'destKandy', label: 'Kandy Temple of the Tooth' },
         { pageId: 'sigiriyaDay', label: 'Sigiriya day tour' },
         { pageId: 'kandyDay', label: 'Kandy day tour' },
       ],
@@ -287,6 +300,8 @@ const en: HomeSeoContent = {
         'The train from Kandy to Ella is consistently rated among the most beautiful rail routes on earth. We reserve seats where possible and coordinate private transfers when schedules do not align with your plan.',
       ],
       seeAlso: [
+        { pageId: 'destElla', label: 'Ella & Nine Arch Bridge' },
+        { pageId: 'guideTrainJourneys', label: 'Kandy to Ella train ride' },
         { pageId: 'ellaDay', label: 'Ella day tour' },
         { pageId: 'tour2ek', label: '2 day Ella & Kandy private tour' },
       ],
@@ -421,6 +436,15 @@ const en: HomeSeoContent = {
     {
       q: 'Can you customise a Sri Lanka honeymoon or luxury tour?',
       a: 'Every Sundown Tours itinerary is tailor-made. We arrange boutique hotels, private dining, spa treatments and special surprises for honeymoons and luxury holidays.',
+    },
+    {
+      q: 'What are the most beautiful places in Sri Lanka?',
+      a: 'First-time private tours usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, a Yala safari, and a south-coast stay near Galle or Mirissa.',
+      links: [
+        { pageId: 'destinations', label: 'Sri Lanka travel places' },
+        { pageId: 'destSigiriya', label: 'Sigiriya' },
+        { pageId: 'destElla', label: 'Ella & Nine Arch' },
+      ],
     },
     {
       q: 'How do I book a private tour with Sundown Tours?',

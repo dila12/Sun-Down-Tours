@@ -6,8 +6,8 @@ import type { ArticleContent } from '../articles/types';
  */
 export const YALA_DEST: ArticleContent = {
   en: {
-    h1: 'Yala National Park, Sri Lanka: The Best Place on Earth to See a Leopard',
-    lead: 'Yala holds one of the highest densities of leopards anywhere in the world, alongside elephants, sloth bears, crocodiles and hundreds of bird species all inside a dry-zone park that feels genuinely wild despite being one of the most visited in Sri Lanka.',
+    h1: 'Yala National Park Safari, Sri Lanka: The Best Place to See a Leopard',
+    lead: 'A Yala National Park safari is the classic Sri Lanka wildlife day: one of the highest leopard densities in the world, plus elephants, sloth bears, crocodiles and hundreds of bird species in a dry-zone park that still feels wild despite being one of the most visited on the island.',
     heroImage: 'assets/img/destination-3.webp',
     heroAlt: 'A leopard resting on a rock outcrop in Yala National Park',
     sections: [

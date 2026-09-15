@@ -611,7 +611,7 @@ export const nl: Dict = {
 
   seo: {
     home: {
-      title: 'Sundown Tours Sri Lanka | Privé rondreis & chauffeur',
+      title: 'Sri Lanka rondreizen | Privé chauffeur & vakanties op maat',
       description:
         'Privé rondreis Sri Lanka met ervaren lokale chauffeur. Op maat gemaakte vakanties, safari en strand. Plan nu uw Sri Lanka-reis.',
       keywords:

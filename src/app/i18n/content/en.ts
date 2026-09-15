@@ -175,7 +175,7 @@ export const en: Dict = {
     hero: {
       title: 'Sri Lanka Tours & Private Driver Services',
       subtitle:
-        'Discover private Sri Lanka tours with experienced local chauffeur guides. Explore Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa and Galle with customized itineraries for couples, families and luxury travelers.',
+        'Private Sri Lanka tours with local chauffeur guides. Explore the most beautiful places in Sri Lanka: Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge, the hill-country train and Yala safari.',
       slide2: 'Unforgettable Sri Lanka Tour Packages',
       slide3: 'Private Tours Across Beautiful Sri Lanka',
       slide4: 'Discover Sigiriya, Ella & Sri Lanka Highlights',
@@ -183,28 +183,28 @@ export const en: Dict = {
     },
     intro: {
       title: 'Sri Lanka Tours with Local Experts',
-      subtitle: 'Private tours, chauffeur driver services and tailor-made holidays across Sri Lanka.',
+      subtitle: 'Sri Lanka private tours, inbound tourism with a chauffeur driver, and tailor-made holidays across the island.',
       feature1: 'Private Tours',
       feature2: 'Chauffeur Drivers',
       feature3: 'Tailor-Made Packages',
       feature4: 'Trusted Local Guides',
     },
     destinations: {
-      title: 'Top Sri Lanka Destinations',
-      subtitle: 'Discover handpicked destinations with luxury experiences across Sri Lanka.',
+      title: 'Most Beautiful Places in Sri Lanka',
+      subtitle: 'Sri Lanka travel places we include on private tours: Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge, the hill-country train and Yala safari.',
       explore: 'Explore destination',
       exploreAria: 'Explore',
-      sigiriya: 'Sigiriya',
+      sigiriya: 'Sigiriya Rock Fortress',
       sigiriyaAlt: 'Sigiriya Rock Fortress Sri Lanka',
-      ella: 'Ella',
-      ellaAlt: 'Ella scenic train journey Sri Lanka',
-      yala: 'Yala Safari',
+      ella: 'Ella & Nine Arch Bridge',
+      ellaAlt: 'Nine Arch Bridge and Ella scenic train journey Sri Lanka',
+      yala: 'Yala National Park Safari',
       yalaAlt: 'Yala National Park safari Sri Lanka',
-      kandy: 'Kandy',
-      kandyAlt: 'Kandy cultural city Sri Lanka',
+      kandy: 'Kandy Temple of the Tooth',
+      kandyAlt: 'Temple of the Tooth Relic Kandy Sri Lanka',
       dambulla: 'Dambulla',
       dambullaAlt: 'Dambulla cave temple Sri Lanka',
-      galle: 'Galle',
+      galle: 'Galle Fort',
       galleAlt: 'Galle Fort Sri Lanka',
     },
     popular: {
@@ -224,8 +224,8 @@ export const en: Dict = {
     about: {
       tag: 'ABOUT US',
       title: 'Trusted Sri Lanka Tour Company',
-      p1: 'Sundown Tours Sri Lanka has been delivering trusted travel experiences since 1992. With over three decades of expertise, we specialize in private tours, tailor-made holidays, and chauffeur driven journeys designed around each traveler\u2019s unique needs.',
-      p2: 'From the cultural heritage of Sigiriya and Kandy to the scenic beauty of Ella, Nuwara Eliya, and the wildlife of Yala National Park, we create unforgettable journeys across Sri Lanka.',
+      p1: 'Sundown Tours Sri Lanka has been a licensed inbound tourism operator since 1992. With over three decades of expertise, we specialise in Sri Lanka private tours, tailor-made holidays and chauffeur-driven journeys designed around each traveller’s needs.',
+      p2: 'From Sigiriya Rock Fortress and the Kandy Temple of the Tooth to Ella’s Nine Arch Bridge, the hill-country train ride and Yala National Park safari, we plan the most beautiful places in Sri Lanka into one private itinerary.',
       gallery1Alt: 'Private Sri Lanka tour with Sundown Tours',
       gallery2Alt: 'Sri Lanka tour packages with chauffeur guide',
     },
@@ -263,6 +263,18 @@ export const en: Dict = {
         a: 'Absolutely. All of our Sri Lanka tours are fully tailor-made. Tell us your travel dates, interests and budget and we will design the perfect route for you.',
       },
       {
+        q: 'What are the most beautiful places in Sri Lanka?',
+        a: 'On a private tour we usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, a Yala National Park safari, and a south-coast stay near Galle or Mirissa.',
+      },
+      {
+        q: 'Do you handle Sri Lanka inbound tourism for private groups?',
+        a: 'Yes. Sundown Tours is a local inbound tourism operator based in Waskaduwa. We plan Sri Lanka private tours for travellers from the UK and Europe, with a chauffeur guide, hotels and safari bookings.',
+      },
+      {
+        q: 'Where is the best Sri Lanka safari?',
+        a: 'Yala National Park is the best-known Sri Lanka safari for leopards. Udawalawe is stronger for elephants and families. We book private jeep safaris to match your dates and route.',
+      },
+      {
         q: 'When is the best time to visit Sri Lanka?',
         a: 'Sri Lanka is a year-round destination. The south and west coasts are best from December to April, while the east coast shines from May to September.',
       },
@@ -274,8 +286,8 @@ export const en: Dict = {
     breadcrumb: 'About',
     eyebrow: 'About Us',
     title: 'Trusted Sri Lanka Tour Company Since 1992',
-    p1: 'Sundown Tours Sri Lanka is a locally registered tour operator based in Waskaduwa on the west coast. Since 1992 we have planned private chauffeur-driven tours for travellers from the UK, Europe and beyond focusing on clear communication, licensed guides and itineraries that match your pace rather than a fixed group schedule.',
-    p2: 'Our routes cover the Cultural Triangle (Sigiriya, Dambulla, Anuradhapura), Kandy and the hill country (Ella, Nuwara Eliya), wildlife parks such as Yala and Udawalawe, and the south-west coast around Galle and Hikkaduwa. Every package includes a private air-conditioned vehicle, an English-speaking chauffeur guide, fuel and driver expenses hotels, entrance tickets and safaris can be arranged with transparent pricing.',
+    p1: 'Sundown Tours Sri Lanka is a locally registered inbound tourism operator based in Waskaduwa on the west coast. Since 1992 we have planned Sri Lanka private tours for travellers from the UK, Europe and beyond — licensed chauffeur guides and itineraries that match your pace rather than a fixed group schedule.',
+    p2: 'Our routes cover the most beautiful places in Sri Lanka: Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, Yala National Park safari, and the south-west coast around Galle. Every package includes a private air-conditioned vehicle, an English-speaking chauffeur guide, fuel and driver expenses; hotels, entrance tickets and safaris can be arranged with transparent pricing.',
     p3: 'Whether you need a one-day Sigiriya excursion or a ten-day island circuit finishing at the beach, you speak directly with our planning team on WhatsApp or email. We reply within 24 hours with a proposed route, realistic driving times and a clear quoteo call centres, no hard sell.',
     whyTitle: 'Why Choose Sundown Tours',
     whyIntro:
@@ -594,9 +606,9 @@ export const en: Dict = {
   },
 
   destinationsHub: {
-    h1: 'Sri Lanka Destinations',
+    h1: 'Most Beautiful Places in Sri Lanka',
     breadcrumb: 'Destinations',
-    lead: 'From Sigiriya’s rock fortress to Yala’s leopard country and Galle’s colonial fort explore the places that shape every great Sri Lanka itinerary.',
+    lead: 'Sri Lanka travel places that shape a private tour: Sigiriya rock fortress, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, Yala National Park safari, Dambulla, Galle Fort and Mirissa.',
     relatedTitle: 'Related destinations',
   },
   guidesHub: {
@@ -689,16 +701,17 @@ export const en: Dict = {
 
   seo: {
     home: {
-      title: 'Sundown Tours Sri Lanka | Private & Tailor-Made Tours',
+      title: 'Sri Lanka Tours | Private Tours, Safari & Custom Packages',
       description:
-        'Explore Sri Lanka with private tours, tailor-made holiday packages and experienced local driver guides. Discover beaches, wildlife and cultural heritage.',
-      keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours, Sri Lanka private driver',
+        'Sri Lanka tours and private chauffeur holidays with a local inbound tourism operator. Visit Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch train ride and Yala safari.',
+      keywords:
+        'Sri Lanka tours, Sri Lanka private tours, Sri Lanka inbound tourism, Sri Lanka safari, Sri Lanka travel places, most beautiful place in Sri Lanka, private Sri Lanka tour',
     },
     tours: {
-      title: 'Sri Lanka Tour Packages | Private Round Tours from UK & Europe',
+      title: 'Sri Lanka Tour Packages | Private 7, 8 & 10 Day Round Tours',
       description:
-        'Discover our customizable Sri Lanka tour packages for European travelers. Tailor-made holidays, private drivers, and luxury safaris.',
-      keywords: 'Sri Lanka tour packages, Sri Lanka round tours, Sri Lanka holidays from UK, private tours',
+        'Private Sri Lanka tour packages for travellers from the UK and Europe. Tailor-made 7, 8 and 10 day round tours with a chauffeur guide, safari and beach time.',
+      keywords: 'Sri Lanka tours, Sri Lanka tour packages, Sri Lanka round tours, Sri Lanka holidays from UK, private tours',
     },
     services: {
       title: 'Our Services | Sundown Tours Sri Lanka',
@@ -709,8 +722,8 @@ export const en: Dict = {
     about: {
       title: 'About Sundown Tours | Trusted Sri Lanka Travel Agency',
       description:
-        'Learn about Sundown Tours Sri Lanka, your trusted local tour operator providing customized and private Sri Lanka tours since 1992.',
-      keywords: 'Sri Lanka travel agency, Sri Lanka tour operator, trusted Sri Lanka tours',
+        'Sundown Tours is a Sri Lanka inbound tourism operator since 1992, planning private tours to Sigiriya, Kandy Temple of the Tooth, Ella, Yala safari and the south coast.',
+      keywords: 'Sri Lanka inbound tourism, Sri Lanka travel agency, Sri Lanka tour operator, Sri Lanka private tours',
     },
     contact: {
       title: 'Contact Sundown Tours Sri Lanka | Plan Your Private Tour',
@@ -766,9 +779,10 @@ export const en: Dict = {
       keywords: 'Ella Yala safari tour, 2 day Sri Lanka safari tour, Yala national park safari',
     },
     ellaDay: {
-      title: 'Ella Day Tour | Scenic Train & Nine Arch Bridge',
-      description: "Enjoy a private Ella day tour including Nine Arch Bridge, Little Adam's Peak and Ravana Falls.",
-      keywords: 'Ella day tour, Ella private tour',
+      title: 'Ella Day Tour | Nine Arch Bridge, Train Ride & Little Adam’s Peak',
+      description:
+        'Private Ella day tour: Nine Arch Bridge, scenic train views, Little Adam’s Peak and Ravana Falls with a chauffeur guide.',
+      keywords: 'Ella day tour, Nine Arch Bridge tour, Ella train ride, Ella private tour',
     },
     galleDay: {
       title: 'Galle Day Tour | Galle Fort & Southern Coast',
@@ -776,20 +790,23 @@ export const en: Dict = {
       keywords: 'Galle day tour, Galle fort tour',
     },
     kandyDay: {
-      title: 'Kandy Day Tour | Cultural & Scenic Highlights',
+      title: 'Kandy Day Tour | Temple of the Tooth & Botanical Gardens',
       description:
-        'Experience the cultural and scenic highlights of Kandy including the Temple of the Sacred Tooth Relic and royal gardens.',
-      keywords: 'Kandy day tour, Kandy private tour',
+        'Private Kandy day tour to the Temple of the Tooth, Kandy Lake and Peradeniya Royal Botanical Gardens with a chauffeur guide.',
+      keywords: 'Kandy day tour, Temple of the Tooth tour, Kandy private tour, Sri Dalada Maligawa',
     },
     sigiriyaDay: {
-      title: 'Sigiriya Day Tour | Ancient Rock Fortress',
-      description: 'Explore the ancient Sigiriya rock fortress and its surrounding gardens with our private day tour.',
-      keywords: 'Sigiriya day tour, Sigiriya private tour',
+      title: 'Sigiriya Day Tour | Rock Fortress, Dambulla & Private Driver',
+      description:
+        'A private Sigiriya day tour covering the rock fortress climb, Dambulla cave temple and optional wild elephant safari with a chauffeur guide.',
+      keywords: 'Sigiriya day tour, Sigiriya private tour, Sigiriya rock fortress tour',
     },
     destinations: {
-      title: 'Sri Lanka Destinations | Beaches, Wildlife & Cultural Sites',
-      description: 'Explore the top Sri Lanka destinations including beaches, wildlife parks and cultural heritage sites.',
-      keywords: 'Sri Lanka destinations, best places to visit in Sri Lanka',
+      title: 'Most Beautiful Places in Sri Lanka | Travel Destinations',
+      description:
+        'Sri Lanka travel places for a private tour: Sigiriya rock fortress, Kandy Temple of the Tooth, Ella Nine Arch Bridge, hill-country train ride and Yala National Park safari.',
+      keywords:
+        'most beautiful place in Sri Lanka, Sri Lanka travel places, Sri Lanka destinations, Sigiriya, Temple of the Tooth, Nine Arch Bridge, Yala safari',
     },
     guides: {
       title: 'Sri Lanka Travel Guides | Expert Insights & Tips',
@@ -797,37 +814,39 @@ export const en: Dict = {
       keywords: 'Sri Lanka travel guides, Sri Lanka travel tips',
     },
     destSigiriya: {
-      title: 'Sigiriya Rock Fortress Guide | Climb, Tips & Day Tours',
+      title: 'Sigiriya Rock Fortress | Tours, Climb Guide & Day Trip',
       description:
-        'Plan your Sigiriya visit: climb timing, frescoes, Pidurangala, entrance tips and how to combine the rock fortress with Dambulla or a Cultural Triangle tour.',
-      keywords: 'Sigiriya Sri Lanka, Sigiriya rock fortress, climb Sigiriya, Sigiriya day tour',
+        'Visit Sigiriya, Sri Lanka’s rock fortress: climb timing, frescoes, Pidurangala, tickets and private day tours combined with Dambulla or the Cultural Triangle.',
+      keywords: 'Sigiriya, Sigiriya Sri Lanka, Sigiriya rock fortress, climb Sigiriya, Sigiriya day tour, Sigiriya tours',
     },
     destElla: {
-      title: 'Ella Sri Lanka Guide | Nine Arch Bridge, Hikes & Hill Country',
+      title: 'Ella Sri Lanka | Nine Arch Bridge, Train Ride & Hill Country',
       description:
-        'Discover Ella’s Nine Arch Bridge, Little Adam’s Peak, tea trails and the scenic train with practical tips for a private day trip or multi-day hill-country stay.',
-      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Ella day tour, Sri Lanka hill country',
+        'Visit Ella, Sri Lanka: Nine Arch Bridge, the Kandy to Ella train ride, Little Adam’s Peak and tea trails on a private hill-country day trip or overnight stay.',
+      keywords:
+        'Ella Sri Lanka, Nine Arch Bridge, Ella train ride, Kandy to Ella train, Ella day tour, Sri Lanka hill country',
     },
     destYala: {
-      title: 'Yala National Park Guide | Safari Tips, Wildlife & Best Time',
+      title: 'Yala National Park Safari | Jeep Safari & Leopards',
       description:
-        'Plan a Yala safari: leopard odds, jeep booking tips, best months to visit and how to combine Yala with Ella or a south-coast beach stay.',
-      keywords: 'Yala National Park, Yala safari, Sri Lanka leopards, Yala jeep safari',
+        'Book a Yala National Park safari in Sri Lanka: leopard jeep safari tips, best time to visit, park fees and how to combine Yala with Ella or the south coast.',
+      keywords: 'Yala National Park safari, Yala safari, Yala jeep safari, Sri Lanka safari, Yala leopards',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka Guide | Temple of the Tooth & Cultural Capital',
+      title: 'Kandy Temple of the Tooth | Sacred Relic & Sri Lanka Tours',
       description:
-        'Explore Kandy’s Temple of the Tooth, lake walks, Peradeniya Gardens and Esala Perahera plus tips for pairing Kandy with Ella or the Cultural Triangle.',
-      keywords: 'Kandy Sri Lanka, Temple of the Tooth, Kandy day tour, Sri Lanka cultural capital',
+        'Visit the Kandy Temple of the Tooth (Sri Dalada Maligawa): ceremony times, dress code, lake walks, Peradeniya Gardens and private day tours from Colombo.',
+      keywords:
+        'Kandy Temple of the Tooth, Temple of the Tooth Sri Lanka, Sri Dalada Maligawa, Kandy Sri Lanka, Kandy day tour',
     },
     destDambulla: {
-      title: 'Dambulla Cave Temple Guide | Golden Rock Temple Tips',
+      title: 'Dambulla Cave Temple | Golden Rock Temple & Sigiriya Day Tours',
       description:
         'Visit Dambulla’s UNESCO cave temple: murals, Buddha statues, climb tips and how to combine it with Sigiriya on a Cultural Triangle day tour.',
-      keywords: 'Dambulla cave temple, Golden Temple Dambulla, Dambulla Sri Lanka',
+      keywords: 'Dambulla cave temple, Golden Temple Dambulla, Dambulla Sri Lanka, Dambulla Sigiriya tour',
     },
     destGalle: {
-      title: 'Galle Fort Sri Lanka Guide | Ramparts, Lighthouse & Coast',
+      title: 'Galle Fort Sri Lanka | Ramparts, Lighthouse & Coast Tours',
       description:
         'Walk Galle Fort’s Dutch ramparts, lighthouse and boutique lanes with tips for a private day tour and combining the fort with south-coast beaches.',
       keywords: 'Galle Fort, Galle Sri Lanka, Galle day tour, UNESCO Galle',
@@ -863,10 +882,10 @@ export const en: Dict = {
       keywords: 'Sri Lanka wildlife, elephants Sri Lanka, leopard safari, whale watching Sri Lanka',
     },
     guideSafari: {
-      title: 'Sri Lanka Safari Guide | Yala, Udawalawe & Jeep Tips',
+      title: 'Sri Lanka Safari | Yala, Udawalawe & Jeep Safari Guide',
       description:
-        'Plan a jeep safari in Sri Lanka: Yala vs Udawalawe, booking tips, park fees and what to expect on a morning or afternoon game drive.',
-      keywords: 'Sri Lanka safari, Yala safari, Udawalawe jeep safari, safari booking tips',
+        'Plan a Sri Lanka safari: Yala vs Udawalawe, jeep booking, park fees and what to expect on a morning or afternoon game drive with a private driver.',
+      keywords: 'Sri Lanka safari, Sri Lankan safari, Yala safari, Udawalawe jeep safari, jeep safari Sri Lanka',
     },
     guideBeaches: {
       title: 'Best Beaches in Sri Lanka | South, West & East Coast',
@@ -937,7 +956,7 @@ export const en: Dict = {
       keywords: "destBentota",
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka Guide | Whale Watching, Beaches & Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Whale Watching, Beaches & Coconut Tree Hill',
       description:
         'Plan Mirissa: whale watching season, Coconut Tree Hill, beaches and pairing with Galle Fort on a private south-coast Sri Lanka tour.',
       keywords: 'Mirissa Sri Lanka, Mirissa whale watching, Coconut Tree Hill, Mirissa beach',
@@ -979,10 +998,10 @@ export const en: Dict = {
       keywords: "whale watching Sri Lanka, Mirissa whales, private south coast tour",
     },
     guideTrainJourneys: {
-      title: "Sri Lanka Train Journeys | Kandy to Ella",
+      title: 'Kandy to Ella Train | Scenic Sri Lanka Train Ride & Nine Arch',
       description:
-        "How to ride the scenic Kandy–Ella tea country train with reserved seats and private driver station transfers.",
-      keywords: "Sri Lanka train, Kandy Ella train, tea country railway",
+        'Ride the Kandy to Ella train through tea country: reserved seats, Nine Arch Bridge views, Nanu Oya stops and private driver station transfers.',
+      keywords: 'Sri Lanka train ride, Kandy to Ella train, Nine Arch Bridge train, scenic train Sri Lanka, tea country railway',
     },
     guideHoneymoon: {
       title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
