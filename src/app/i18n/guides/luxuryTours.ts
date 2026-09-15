@@ -4,14 +4,14 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
   en: {
     h1: 'Sri Lanka Luxury Tours: Private Chauffeur and Boutique Stays',
     lead:
-      'Luxury in Sri Lanka is less about ticking every sight and more about timing, privacy and stays that match your style. A dedicated chauffeur-guide, carefully chosen boutique hotels and honest driving days create a premium private holiday without group-tour compromise.',
+      'Luxury in Sri Lanka is less about ticking every sight and more about timing, privacy and stays that match your style. A dedicated chauffeur guide, carefully chosen boutique hotels and honest driving days create a premium private holiday without group tour compromise.',
     heroImage: 'assets/img/package-2.webp',
     heroAlt: 'Luxury private chauffeur touring in Sri Lanka',
     sections: [
       {
         id: 'define',
         title: 'What “luxury private tour” means here',
-        body: 'We focus on private vehicles in good condition, experienced chauffeur-guides, flexible daily pacing and hotels you would choose yourself not a coach seat and a fixed buffet lunch stop.\n\nEntrance tickets, spa reservations and specialty experiences can be arranged transparently in your quote.',
+        body: 'We focus on private vehicles in good condition, experienced chauffeur guides, flexible daily pacing and hotels you would choose yourself not a coach seat and a fixed buffet lunch stop.\n\nEntrance tickets, spa reservations and specialty experiences can be arranged transparently in your quote.',
       },
       {
         id: 'stays',
@@ -36,29 +36,29 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
     ],
     faq: [
       {
-        q: 'Do luxury tours include five-star hotels by default?',
+        q: 'Do luxury tours include Five star  hotels by default?',
         a: 'Only if you request them. Quotes list hotel options by category so you control the standard and price.',
       },
       {
         q: 'Can you arrange private dinners or spa bookings?',
-        a: 'Yes, where partners allow we include known fees in the quote rather than surprising add-ons on arrival.',
+        a: 'Yes, where partners allow we include known fees in the quote rather than surprising add ons on arrival.',
       },
       {
         q: 'Is a private guide separate from the driver?',
-        a: 'Many days use a chauffeur-guide. Specialist site guides can be added at major monuments when useful.',
+        a: 'Many days use a chauffeur guide. Specialist site guides can be added at major monuments when useful.',
       },
       {
         q: 'What vehicle types do you use?',
-        a: 'Air-conditioned cars or vans sized to your group. Exact fleet allocation is confirmed for your dates we do not publish misleading model guarantees months ahead.',
+        a: 'air conditioned cars or vans sized to your group. Exact fleet allocation is confirmed for your dates we do not publish misleading model guarantees months ahead.',
       },
     ],
     ctaTitle: 'Design a luxury private Sri Lanka tour',
     ctaBody: 'Tell us your dates and preferred hotel style we will propose a private chauffeur itinerary with transparent options.',
     ctaLabel: 'Contact us',
     relatedTours: [
-      { pageId: 'tour10', label: '10-day Sri Lanka tour' },
-      { pageId: 'tour8', label: '8-day private tour' },
-      { pageId: 'tour7', label: '7-day Sri Lanka tour' },
+      { pageId: 'tour10', label: '10 day Sri Lanka tour' },
+      { pageId: 'tour8', label: '8 days private tour' },
+      { pageId: 'tour7', label: '7 day Sri Lanka tour' },
     ],
     relatedDestinations: [
       { pageId: 'destGalle', label: 'Galle' },
@@ -73,11 +73,11 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
     ],
   },
   de: {
-    h1: 'Sri Lanka Luxusreisen: Privater Chauffeur und Boutique-Hotels',
+    h1: 'Sri Lanka Luxusreisen: Privater Chauffeur und Boutique Hotels',
     lead:
-      'Luxus bedeutet Timing, Privatsphäre und passende Unterkünfte nicht jeden Punkt abzuhaken. Privater Chauffeur-Guide und ehrliche Fahrttage schaffen eine Premium-Reise ohne Gruppentour-Kompromisse.',
-    ctaTitle: 'Luxuriöse Privattour gestalten',
-    ctaBody: 'Nennen Sie Daten und Hotelstil wir schlagen eine Chauffeur-Route mit transparenten Optionen vor.',
+      'Luxus bedeutet Timing, Privatsphare und passende Unterkunfte nicht jeden Punkt abzuhaken. Privater Chauffeur Guide und ehrliche Fahrttage schaffen eine Premium Reise ohne Gruppentour Kompromisse.',
+    ctaTitle: 'Luxuriose Privattour gestalten',
+    ctaBody: 'Nennen Sie Daten und Hotelstil wir schlagen eine Chauffeur Route mit transparenten Optionen vor.',
     ctaLabel: 'Kontakt',
   },
 };

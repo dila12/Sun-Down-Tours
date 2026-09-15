@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Route, Routes } from '@angular/router';
 import { LayoutComponent } from '../mainComponents/layout-component/layout-component';
 import { DEFAULT_LOCALE, NON_DEFAULT_LOCALES, type Locale } from './locales';
 import { REGISTRY } from './pages.registry';
@@ -11,6 +11,15 @@ import {
   buildPath,
   getPage,
 } from './site-data.mjs';
+
+function notFoundRoute(locale?: Locale): Route {
+  return {
+    path: '**',
+    loadComponent: () =>
+      import('../mainComponents/not-found/not-found.component').then((m) => m.NotFoundComponent),
+    data: locale ? { notFound: true, locale } : { notFound: true },
+  };
+}
 
 function routeResolve(kind: string, pageId: string) {
   const needsArticle =
@@ -68,6 +77,9 @@ export function buildRoutes(): Routes {
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_GUIDE_REDIRECTS);
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_TOUR_REDIRECTS);
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_DEST_REDIRECTS);
+    // Wildcard must live inside the locale group. Otherwise `/es/unknown`
+    // matches `es` then has no child route and SSR throws 500.
+    localeChildren.push(notFoundRoute(locale as Locale));
 
     children.push({
       path: locale,
@@ -77,12 +89,7 @@ export function buildRoutes(): Routes {
 
   // True 404 (HTTP status set in NotFoundComponent via RESPONSE_INIT on SSR).
   // Legacy slug 301s are handled at the edge (Express / Vercel), not here.
-  children.push({
-    path: '**',
-    loadComponent: () =>
-      import('../mainComponents/not-found/not-found.component').then((m) => m.NotFoundComponent),
-    data: { notFound: true },
-  });
+  children.push(notFoundRoute());
 
   return [
     {

@@ -14,7 +14,7 @@ import {
   isPageIndexable,
 } from '../src/app/i18n/site-data.mjs';
 
-/** Primary content files per page — used to derive per-page lastmod from filesystem mtimes. */
+/** Primary content files per pageused to derive per-page lastmod from filesystem mtimes. */
 export const PAGE_CONTENT_SOURCES = {
   home: [
     'src/app/mainComponents/home-page-component/home-page-component.ts',
@@ -163,6 +163,14 @@ export const PAGE_CONTENT_SOURCES = {
   guideFamilyTours: ['src/app/i18n/guides/familyTours.ts'],
   guideLuxuryTours: ['src/app/i18n/guides/luxuryTours.ts'],
   guideAirportTransfers: ['src/app/i18n/guides/airportTransfers.ts'],
+  marketUK: ['src/app/i18n/guides/ukFromUk.ts'],
+  marketGermany: ['src/app/i18n/guides/germanyFromDe.ts'],
+  marketFrance: ['src/app/i18n/guides/franceFromFr.ts'],
+  marketItaly: ['src/app/i18n/guides/italyFromIt.ts'],
+  marketSpain: ['src/app/i18n/guides/spainFromEs.ts'],
+  marketPoland: ['src/app/i18n/guides/polandFromPl.ts'],
+  marketRussia: ['src/app/i18n/guides/russiaFromRu.ts'],
+  monthAugust: ['src/app/i18n/guides/monthAugust.ts'],
 };
 
 const SITE_DATA_FILE = 'src/app/i18n/site-data.mjs';
@@ -189,7 +197,7 @@ export function getPageLastmodMs(pageId, rootDir, fallbackMs = Date.now()) {
       const ms = statSync(join(rootDir, rel)).mtimeMs;
       if (ms > maxMs) maxMs = ms;
     } catch {
-      // Missing optional source — skip.
+      // Missing optional sourceskip.
     }
   }
 

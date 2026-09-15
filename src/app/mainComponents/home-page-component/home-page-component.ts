@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
-import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
+import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, buildSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
@@ -27,9 +27,13 @@ import { FaqSectionComponent } from '../../sharedComponents/faq-section/faq-sect
 import { TourContentService, type TourCardView } from '../../i18n/tours/tour-content.service';
 
 const INITIAL_TOUR_COUNT = 3;
+/** Homepage Multi-Day tab: show these three first; the rest after View More. */
+const HOME_FEATURED_MULTI = ['tour7', 'tour8', 'tour5'] as const;
 
 interface TourSlide {
   src: string;
+  mobileSrc?: string;
+  people?: boolean;
   alt: string;
   heading: string;
 }
@@ -84,6 +88,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
   readonly onImageError = onImageError;
   readonly buildCappedSrcSet = buildCappedSrcSet;
   readonly buildCappedAvifSrcSet = buildCappedAvifSrcSet;
+  readonly buildSrcSet = buildSrcSet;
   readonly bestImageSrc = bestImageSrc;
   readonly heroSizes = '100vw';
   readonly destSizes = '(max-width: 575px) calc(100vw - 2rem), (max-width: 991px) calc(50vw - 2rem), 360px';
@@ -91,30 +96,32 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   readonly heroSlide: TourSlide = {
     src: HERO_LCP_BASE,
+    mobileSrc: toWebpSrc('assets/img/mainpage/hero-slide-boards-mobile.jpg'),
     alt: 'home.hero.title',
     heading: 'home.hero.title',
   };
 
   readonly extraSlides: TourSlide[] = [
     {
+      src: toWebpSrc('assets/img/mainpage/hero-slide-3.jpg'),
+      people: true,
+      alt: 'home.hero.slide3',
+      heading: 'home.hero.slide3',
+    },
+    {
+      src: toWebpSrc('assets/img/mainpage/hero-slide-5.jpg'),
+      alt: 'home.hero.slide5',
+      heading: 'home.hero.slide5',
+    },
+    {
       src: toWebpSrc('assets/img/5daysTours/32.jpg'),
       alt: 'home.hero.slide2',
       heading: 'home.hero.slide2',
     },
     {
-      src: toWebpSrc('assets/img/5daysTours/28.png'),
-      alt: 'home.hero.slide3',
-      heading: 'home.hero.slide3',
-    },
-    {
-      src: toWebpSrc('assets/img/5daysTours/41.jpg'),
-      alt: 'home.hero.slide4',
-      heading: 'home.hero.slide4',
-    },
-    {
-      src: toWebpSrc('assets/img/mainpage/5.jpg'),
-      alt: 'home.hero.slide5',
-      heading: 'home.hero.slide5',
+      src: toWebpSrc('assets/img/mainpage/1.jpg'),
+      alt: 'home.hero.slide2',
+      heading: 'home.hero.slide2',
     },
   ];
 
@@ -129,10 +136,10 @@ export class HomePageComponent implements OnInit, OnDestroy {
     { name: 'home.destinations.galle', src: toWebpSrc('assets/img/destination-6.jpg'), alt: 'home.destinations.galleAlt', pageId: 'destGalle' },
   ];
 
-  readonly aboutMainSrc = toWebpSrc('assets/img/5daysTours/6.jpg');
+  readonly aboutMainSrc = toWebpSrc('assets/img/7dayschange/Greece-5.jpeg');
   readonly aboutGallery = [
-    { src: toWebpSrc('assets/img/about-1.jpg'), alt: 'home.about.gallery1Alt' },
-    { src: toWebpSrc('assets/img/about-2.jpg'), alt: 'home.about.gallery2Alt' },
+    { src: toWebpSrc('assets/img/tour-galleries/seven-day/07.jpg'), alt: 'home.about.gallery1Alt' },
+    { src: toWebpSrc('assets/img/tour-galleries/seven-day/06.jpg'), alt: 'home.about.gallery2Alt' },
   ];
 
   private cachedPriceData: any = null;
@@ -152,12 +159,26 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   /** Rebuild card lists from locale dictionaries (no English JSON text). */
   private refreshLocalizedCards() {
-    this.multiDayTours = this.tourContent.cards('multi');
+    this.multiDayTours = this.orderMultiDayTours(this.tourContent.cards('multi'));
     this.dayTours = this.tourContent.cards('day');
     this.applyPrices();
-    this.visibleTours = (
-      this.activeTab === 'day' ? this.dayTours : this.multiDayTours
-    ).slice(0, this.displayCount);
+    this.syncVisibleTours();
+  }
+
+  /** 7-day, 8-day, then 5-day, then remaining multi-day packages. */
+  private orderMultiDayTours(tours: TourCardView[]): TourCardView[] {
+    const featured = HOME_FEATURED_MULTI.map((id) =>
+      tours.find((t) => t.pageId === id),
+    ).filter((t): t is TourCardView => !!t);
+    const featuredIds: readonly string[] = HOME_FEATURED_MULTI;
+    const rest = tours.filter((t) => !featuredIds.includes(t.pageId));
+    return [...featured, ...rest];
+  }
+
+  private syncVisibleTours() {
+    const current = this.activeTab === 'day' ? this.dayTours : this.multiDayTours;
+    this.visibleTours = current.slice(0, this.displayCount);
+    this.showAllTours = this.displayCount >= current.length;
   }
 
   ngOnDestroy() {
@@ -204,10 +225,12 @@ export class HomePageComponent implements OnInit, OnDestroy {
     const multiPriceMap = this.buildPriceMap(this.cachedPriceData.multiDayTours);
     const dayPriceMap = this.buildPriceMap(this.cachedPriceData.dayTours);
 
-    this.multiDayTours = this.multiDayTours.map((tour) => ({
-      ...tour,
-      price: this.resolveCardPrice(tour.filecode, multiPriceMap, tour.price),
-    }));
+    this.multiDayTours = this.orderMultiDayTours(
+      this.multiDayTours.map((tour) => ({
+        ...tour,
+        price: this.resolveCardPrice(tour.filecode, multiPriceMap, tour.price),
+      })),
+    );
 
     this.dayTours = this.dayTours.map((tour) => ({
       ...tour,
@@ -259,7 +282,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
       this.hasFullPriceData = false;
       this.applyPrices();
       await this.fillMissingPricesFromUsFiles();
-      this.visibleTours = this.multiDayTours.slice(0, this.displayCount);
+      this.syncVisibleTours();
       this.cdr.markForCheck();
     } catch (err) {
       console.error('[Sundown Tours] Failed to load assets/data/home-tour-prices.json', err);
@@ -298,7 +321,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
         }),
       );
 
-    this.multiDayTours = await fill(this.multiDayTours);
+    this.multiDayTours = this.orderMultiDayTours(await fill(this.multiDayTours));
     this.dayTours = await fill(this.dayTours);
   }
 
@@ -311,8 +334,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
     if (this.displayCount < current.length) {
       this.displayCount += 6;
-      this.visibleTours = current.slice(0, this.displayCount);
-      this.showAllTours = this.displayCount >= current.length;
+      this.syncVisibleTours();
       this.cdr.markForCheck();
       return;
     }
@@ -331,9 +353,8 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
     const updated = this.activeTab === 'day' ? this.dayTours : this.multiDayTours;
     this.displayCount = updated.length;
-    this.visibleTours = updated.slice(0, this.displayCount);
+    this.syncVisibleTours();
     this.loadingMore = false;
-    this.showAllTours = true;
     this.cdr.markForCheck();
   }
 

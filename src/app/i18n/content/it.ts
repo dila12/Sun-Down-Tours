@@ -18,7 +18,7 @@ export const it: Dict = {
       loading: 'Caricamento...',
       planTour: 'Pianifica il tuo viaggio in Sri Lanka',
       bookNow: 'Prenota ora',
-      readMore: 'Scopri di più',
+      readMore: 'Scopri di piu',
       signUp: 'Iscriviti',
       sendMessage: 'Invia messaggio',
       viewTour: 'Vedi il tour',
@@ -31,10 +31,10 @@ export const it: Dict = {
       quickMenuTitle: 'Menu rapido',
       contactTitle: 'Contatti',
       newsletter: 'Newsletter',
-      emailPlaceholder: 'La tua e-mail',
+      emailPlaceholder: 'La tua e mail',
       rights: 'Tutti i diritti riservati.',
       dayTours: 'Escursioni giornaliere',
-      multiDayTours: 'Tour di più giorni',
+      multiDayTours: 'Tour di piu giorni',
       destination: 'Destinazioni',
       packages: 'Tour',
       travelGuides: 'Guide di viaggio',
@@ -42,7 +42,7 @@ export const it: Dict = {
       privacy: 'Informativa sulla privacy',
     },
     consent: {
-      title: 'La tua privacy è importante',
+      title: 'La tua privacy e importante',
       subtitle: 'Preferenze di analisi',
       message:
         "Utilizziamo cookie di analisi facoltativi per capire come i visitatori usano il nostro sito e migliorare i nostri tour e servizi. Puoi accettare o rifiutare i cookie di analisi in qualsiasi momento.",
@@ -61,14 +61,14 @@ export const it: Dict = {
       tourType: 'Tipo di tour',
       overview: 'Panoramica del tour',
       highlights: 'Punti salienti del tour',
-      whoIsFor: 'A chi è adatto questo tour',
+      whoIsFor: 'A chi e adatto questo tour',
       bestTimeNote: 'Periodo migliore',
       plan: 'Programma del tour',
       day: 'Giorno',
       included: 'Incluso',
       excluded: 'Non incluso',
       relatedEyebrow: 'Potrebbe interessarti anche...',
-      relatedTitle: 'Tour più apprezzati',
+      relatedTitle: 'Tour piu apprezzati',
       exploreGraphTitle: 'Pianifica questo viaggio',
       exploreGraphLead: 'Continua con destinazioni, guide e ristoranti collegati a questo tour.',
       exploreDestinations: 'Destinazioni di questo itinerario',
@@ -93,11 +93,11 @@ export const it: Dict = {
       date: 'Data',
       onlineUpToPre: 'Prenotazione online fino a',
       onlineUpToPost: 'viaggiatori',
-      travelersInvalid: 'Obbligatorio (1–20)',
+      travelersInvalid: 'Obbligatorio (1 to 20)',
       dateRequired: 'Data obbligatoria',
       groupTitle: 'Prenotazione di gruppo',
       groupText:
-        'Per gruppi di 7 o più viaggiatori i prezzi online non sono disponibili. Il nostro team preparerà un itinerario su misura e vi offrirà la migliore tariffa di gruppo.',
+        'Per gruppi di 7 o piu viaggiatori i prezzi online non sono disponibili. Il nostro team preparera un itinerario su misura e vi offrira la migliore tariffa di gruppo.',
       groupHintPre: 'Prenotazione immediata? Seleziona',
       groupHintPost: 'viaggiatori o meno qui sopra.',
       emailTeam: 'Scrivi al nostro team',
@@ -107,8 +107,8 @@ export const it: Dict = {
       lastName: 'Cognome',
       lastNamePh: 'Rossi',
       required: 'Obbligatorio',
-      email: 'E-mail',
-      emailInvalid: 'E-mail valida richiesta',
+      email: 'E mail',
+      emailInvalid: 'E mail valida richiesta',
       phone: 'Telefono',
       phoneInvalid: 'Numero di telefono valido richiesto',
       country: 'Paese',
@@ -121,57 +121,57 @@ export const it: Dict = {
       acceptTermsError: 'Devi accettare i termini',
       complete: 'Completa la prenotazione',
       bookAheadLead: 'Le date si riempiono in fretta',
-      bookAheadDetail: 'I tour privati sono limitati — blocca subito la data che preferisci.',
+      bookAheadDetail: 'I tour privati sono limitatiblocca subito la data che preferisci.',
       demandWarningLead: 'Alta richiesta',
-      demandWarningDetail: 'Questo giorno si prenota in fretta — assicurati presto la data che preferisci. Ancora disponibile online.',
+      demandWarningDetail: 'Questo giorno si prenota in frettaassicurati presto la data che preferisci. Ancora disponibile online.',
       oneBookingLeftLead: 'Solo 1 prenotazione rimasta',
-      oneBookingLeftDetail: 'Questa data sta per esaurirsi — completa ora per bloccarla.',
+      oneBookingLeftDetail: 'Questa data sta per esaurirsicompleta ora per bloccarla.',
       bookingsLeftLead1: 'Solo 1 prenotazione rimasta',
       bookingsLeftLead2: 'Solo 2 prenotazioni rimaste',
       bookingsLeftLead3: 'Solo 3 prenotazioni rimaste',
-      bookingsLeftDetail1: 'Questa data sta per esaurirsi — completa ora per bloccarla.',
-      bookingsLeftDetail2: 'Restano poche prenotazioni per questa data — prenota presto.',
-      bookingsLeftDetail3: 'Restano poche prenotazioni per questa data — prenota presto.',
+      bookingsLeftDetail1: 'Questa data sta per esaurirsicompleta ora per bloccarla.',
+      bookingsLeftDetail2: 'Restano poche prenotazioni per questa dataprenota presto.',
+      bookingsLeftDetail3: 'Restano poche prenotazioni per questa dataprenota presto.',
       fewSpotsLeft: 'Pochi posti',
       almostFullLead: 'Quasi al completo',
-      almostFullDetail: 'Questa data si sta riempiendo in fretta — completa ora per bloccarla. Ancora disponibile online.',
-      demandBookSoon: 'Ancora prenotabile online — assicura questa data ora.',
-      softUrgencyLead: 'Le date più richieste finiscono in fretta',
-      softUrgencyDetail: 'I tour privati si esauriscono presto nei giorni più richiesti.',
+      almostFullDetail: 'Questa data si sta riempiendo in frettacompleta ora per bloccarla. Ancora disponibile online.',
+      demandBookSoon: 'Ancora prenotabile onlineassicura questa data ora.',
+      softUrgencyLead: 'Le date piu richieste finiscono in fretta',
+      softUrgencyDetail: 'I tour privati si esauriscono presto nei giorni piu richiesti.',
       popularDates: 'Date popolari',
       blockedTitle: 'Al completo',
       blockedText:
-        'Questa data di partenza è al completo. Contattaci per una lista d’attesa o un’altra data.',
+        'Questa data di partenza e al completo. Contattaci per una lista d’attesa o un’altra data.',
       peakTitle: 'Alta richiesta',
       peakText:
-        'I sabati sono spesso al completo per i tour privati multi-giorno. Scrivici per verificare la disponibilità.',
+        'I sabati sono spesso al completo per i tour privati multi giorno. Scrivici per verificare la disponibilita.',
       confirmLead: 'Soggetto a conferma',
       confirmDetail: 'Confermeremo il tuo autista privato entro 24 ore dalla prenotazione.',
       tryAnotherDate: 'Oppure scegli un’altra data sopra per prenotare online.',
       processing: 'Elaborazione in corso...',
       toastProcessing: 'Elaborazione della prenotazione...',
       toastPleaseWait: 'Attendere prego',
-      toastSuccess: 'La tua prenotazione è stata completata con successo!',
+      toastSuccess: 'La tua prenotazione e stata completata con successo!',
       toastConfirmed: 'Prenotazione confermata',
       toastErrorMsg:
-        'Si è verificato un errore durante l’elaborazione della prenotazione. Riprova più tardi.',
+        'Si e verificato un errore durante l’elaborazione della prenotazione. Riprova piu tardi.',
       toastFailed: 'Prenotazione non riuscita',
     },
   },
 
   home: {
     hero: {
-      title: 'Tour Sri Lanka & autista privato',
+      title: 'Tour Sri Lanka, pacchetti vacanze e autista privato',
       subtitle:
-        'Scopri tour privati in Sri Lanka con esperti autisti-guida locali. Esplora Sigiriya, Ella, Yala, Kandy, Nuwara Eliya, Mirissa e Galle con itinerari su misura per coppie, famiglie e viaggiatori di lusso.',
+        'Tour privati e pacchetti vacanze in Sri Lanka con autista guida locale. Sigiriya, Ella, safari a Yala, Kandy, Nuwara Eliya, Mirissa e Galleper viaggiatori da Italia e Svizzera.',
       slide2: 'Viaggi indimenticabili in Sri Lanka',
       slide3: 'Tour privati attraverso il bellissimo Sri Lanka',
       slide4: 'Scopri Sigiriya, Ella e le meraviglie dello Sri Lanka',
       slide5: 'Safari e tour avventura in Sri Lanka',
     },
     intro: {
-      title: 'Viaggi in Sri Lanka con esperti locali',
-      subtitle: 'Tour privati, servizio autista e viaggi su misura in tutto lo Sri Lanka.',
+      title: 'Tour Sri Lanka e pacchetti vacanze con esperti locali',
+      subtitle: 'Tour privati, autista guida e itinerari di 7, 8 e 10 giorni in tutta l’isola.',
       feature1: 'Tour privati',
       feature2: 'Autisti privati',
       feature3: 'Pacchetti su misura',
@@ -189,7 +189,7 @@ export const it: Dict = {
       yala: 'Safari a Yala',
       yalaAlt: 'Safari nel Parco Nazionale di Yala',
       kandy: 'Kandy',
-      kandyAlt: 'Città culturale di Kandy in Sri Lanka',
+      kandyAlt: 'Citta culturale di Kandy in Sri Lanka',
       dambulla: 'Dambulla',
       dambullaAlt: 'Tempio rupestre di Dambulla',
       galle: 'Galle',
@@ -198,8 +198,8 @@ export const it: Dict = {
     packages: {
       tag: 'TOUR',
       title: 'Scopri i nostri migliori tour',
-      subtitle: 'Scegli tra i nostri tour più venduti in Sri Lanka o personalizza la tua esperienza privata.',
-      multiDay: 'Tour di più giorni',
+      subtitle: 'Scegli tra i nostri tour piu venduti in Sri Lanka o personalizza la tua esperienza privata.',
+      multiDay: 'Tour di piu giorni',
       day: 'Escursioni giornaliere',
     },
     about: {
@@ -208,13 +208,13 @@ export const it: Dict = {
       p1: "Sundown Tours Sri Lanka offre esperienze di viaggio affidabili dal 1992. Con oltre tre decenni di esperienza, siamo specializzati in tour privati, viaggi su misura e viaggi con autista pensati per le esigenze di ogni viaggiatore.",
       p2: "Dal patrimonio culturale di Sigiriya e Kandy alla bellezza paesaggistica di Ella e Nuwara Eliya, fino alla fauna del Parco Nazionale di Yala, creiamo viaggi indimenticabili in tutto lo Sri Lanka.",
       gallery1Alt: 'Tour privato in Sri Lanka con Sundown Tours',
-      gallery2Alt: 'Pacchetti tour Sri Lanka con autista-guida',
+      gallery2Alt: 'Pacchetti tour Sri Lanka con autista guida',
     },
     features: {
       f1Title: 'Pacchetti tour Sri Lanka a prezzi accessibili',
       f1Desc: 'Tour privati e pacchetti su misura in Sri Lanka accessibili per ogni budget.',
-      f2Title: 'Autisti-guida professionali e servizio personalizzato',
-      f2Desc: 'Autisti-guida esperti che coprono Sigiriya, Kandy, Ella, Yala e Galle.',
+      f2Title: 'Autisti guida professionali e servizio personalizzato',
+      f2Desc: 'Autisti guida esperti che coprono Sigiriya, Kandy, Ella, Yala e Galle.',
       f3Title: 'Esperti di viaggi in Sri Lanka di fiducia',
       f3Desc: 'Tour culturali, safari, vacanze al mare e tour privati di lusso.',
     },
@@ -222,8 +222,8 @@ export const it: Dict = {
       eyebrow: 'Servizi di viaggio in Sri Lanka',
       title: 'Tour, viaggi e servizi di autista di alto livello in Sri Lanka',
       lead: "Soluzioni di viaggio complete in Sri Lanka: tour privati, tour con autista, prenotazioni alberghiere, biglietti del treno e pacchetti vacanza su misura.",
-      s1Title: 'Autisti-guida privati multilingue in Sri Lanka',
-      s1Desc: 'Autisti-guida multilingue professionali per tour privati personalizzati.',
+      s1Title: 'Autisti guida privati multilingue in Sri Lanka',
+      s1Desc: 'Autisti guida multilingue professionali per tour privati personalizzati.',
       s2Title: 'Biglietti del treno e ingressi alle attrazioni',
       s2Desc: "Biglietti del treno per Ella, prenotazioni safari e biglietti d'ingresso organizzati per te.",
       s3Title: 'Prenotazione hotel e alloggi su misura',
@@ -236,16 +236,24 @@ export const it: Dict = {
         a: 'Puoi prenotare direttamente tramite WhatsApp o il nostro modulo di contatto. Rispondiamo entro 24 ore con un itinerario su misura e un preventivo trasparente.',
       },
       {
-        q: 'I tour includono un autista-guida privato?',
-        a: "Sì. Ogni pacchetto Sundown Tours include un autista-guida autorizzato che parla inglese, un comodo veicolo climatizzato, carburante e tutte le spese dell'autista.",
+        q: 'I pacchetti vacanze includono un autista privato?',
+        a: 'Si. Ogni pacchetto privato include un autista guida autorizzato di lingua inglese, un veicolo climatizzato, carburante e tutte le spese dell’autista. Non condividi l’auto con altri gruppi.',
       },
       {
-        q: "L'itinerario può essere personalizzato?",
-        a: 'Assolutamente. Tutti i nostri tour in Sri Lanka sono completamente su misura. Indicaci le tue date, i tuoi interessi e il tuo budget e creeremo l\u2019itinerario perfetto.',
+        q: 'Posso personalizzare la vacanza in Sri Lanka?',
+        a: 'Si. Tutti i tour sono su misura. Dicci date, ritmo e interessi (safari, colline del te, spiagge, famiglia) e costruiamo l’itinerario intorno a te.',
       },
       {
-        q: "Qual è il periodo migliore per visitare lo Sri Lanka?",
-        a: 'Lo Sri Lanka è una destinazione per tutto l\u2019anno. Le coste sud e ovest sono ideali da dicembre ad aprile, mentre la costa est dà il meglio da maggio a settembre.',
+        q: 'Qual e il periodo migliore per un viaggio in Sri Lanka dall’Europa?',
+        a: 'Lo Sri Lanka e visitabile tutto l’anno. Coste sud e ovest: da dicembre ad aprile; costa est: di solito da maggio a settembre. Adattiamo il tour privato al monsone del tuo mese di viaggio.',
+      },
+      {
+        q: 'Quale pacchetto e meglio per una prima visita?',
+        a: 'La maggior parte dei viaggiatori italiani sceglie 7, 8 o 10 giorni: Triangolo Culturale (Sigiriya, Kandy), colline (Ella, Nuwara Eliya), safari e spiaggia.',
+      },
+      {
+        q: 'Organizzate tour in Sri Lanka per viaggiatori dall’Europa?',
+        a: 'Si. Organizziamo tour privati con autista per ospiti da Italia, Svizzera e dal resto d’Europa, con autista guida in inglese e pianificazione via WhatsApp prima del volo.',
       },
     ],
   },
@@ -255,16 +263,16 @@ export const it: Dict = {
     breadcrumb: 'Chi siamo',
     eyebrow: 'Chi siamo',
     title: 'Agenzia di viaggi di fiducia in Sri Lanka',
-    p1: "Sundown Tours Sri Lanka è un'agenzia locale di fiducia che offre tour privati, pacchetti vacanza su misura e tour con autista in tutta l'isola.",
-    p2: "Esplora il meglio dello Sri Lanka: Sigiriya, Kandy, Ella, Nuwara Eliya, Galle e il Parco Nazionale di Yala. Offriamo veicoli confortevoli, autisti-guida cordiali ed esperienze personalizzate per famiglie, coppie e viaggi di nozze.",
+    p1: "Sundown Tours Sri Lanka e un'agenzia locale di fiducia che offre tour privati, pacchetti vacanza su misura e tour con autista in tutta l'isola.",
+    p2: "Esplora il meglio dello Sri Lanka: Sigiriya, Kandy, Ella, Nuwara Eliya, Galle e il Parco Nazionale di Yala. Offriamo veicoli confortevoli, autisti guida cordiali ed esperienze personalizzate per famiglie, coppie e viaggi di nozze.",
     p3: 'Pianifica la tua vacanza perfetta in Sri Lanka con un tour operator locale affidabile e goditi viaggi sicuri, comodi e indimenticabili.',
     features: {
       f1Title: 'Pacchetti tour Sri Lanka a prezzi accessibili',
       f1Desc:
-        'Offriamo tour privati, pacchetti su misura e viaggi con autista accessibili per ogni budget, senza compromessi su comfort, sicurezza e qualità.',
-      f2Title: 'Autisti-guida professionali e servizio personalizzato',
+        'Offriamo tour privati, pacchetti su misura e viaggi con autista accessibili per ogni budget, senza compromessi su comfort, sicurezza e qualita.',
+      f2Title: 'Autisti guida professionali e servizio personalizzato',
       f2Desc:
-        'I nostri esperti autisti-guida garantiscono un\u2019esperienza sicura, comoda e personalizzata, coprendo Sigiriya, Kandy, Ella, Yala e Galle.',
+        'I nostri esperti autisti guida garantiscono un\u2019esperienza sicura, comoda e personalizzata, coprendo Sigiriya, Kandy, Ella, Yala e Galle.',
       f3Title: 'Esperti di viaggi in Sri Lanka di fiducia',
       f3Desc:
         'Come tour operator locale di fiducia, accogliamo viaggiatori da tutto il mondo e offriamo tour culturali, safari, vacanze al mare e tour privati di lusso in Sri Lanka.',
@@ -277,11 +285,11 @@ export const it: Dict = {
       },
       {
         q: 'Siete un tour operator locale autorizzato?',
-        a: 'Sì, Sundown Tours è un tour operator dello Sri Lanka registrato e autorizzato, con autisti-guida professionali approvati dal governo.',
+        a: 'Si, Sundown Tours e un tour operator dello Sri Lanka registrato e autorizzato, con autisti guida professionali approvati dal governo.',
       },
       {
         q: 'Quali lingue parlano le vostre guide?',
-        a: "I nostri autisti-guida parlano inglese fluente e, su richiesta, possiamo organizzare guide per altre lingue europee.",
+        a: "I nostri autisti guida parlano inglese fluente e, su richiesta, possiamo organizzare guide per altre lingue europee.",
       },
     ],
   },
@@ -294,7 +302,7 @@ export const it: Dict = {
     lead: "Dai tour privati e le escursioni giornaliere alle prenotazioni alberghiere e ai biglietti del treno, gestiamo ogni dettaglio della tua vacanza in Sri Lanka.",
     items: {
       s1Title: 'Tour privati in Sri Lanka',
-      s1Desc: 'Tour privati di più giorni con autista-guida dedicato: cultura, fauna, montagne e spiagge.',
+      s1Desc: 'Tour privati di piu giorni con autista guida dedicato: cultura, fauna, montagne e spiagge.',
       s2Title: 'Servizio autista privato',
       s2Desc: "Veicoli climatizzati confortevoli con autista autorizzato che parla inglese per l'intero viaggio.",
       s3Title: 'Pacchetti vacanza su misura',
@@ -310,11 +318,11 @@ export const it: Dict = {
     faq: [
       {
         q: 'Cosa include il servizio autista?',
-        a: "Il nostro servizio autista include un moderno veicolo climatizzato, un autista-guida autorizzato che parla inglese, carburante, parcheggio e vitto e alloggio dell'autista.",
+        a: "Il nostro servizio autista include un moderno veicolo climatizzato, un autista guida autorizzato che parla inglese, carburante, parcheggio e vitto e alloggio dell'autista.",
       },
       {
         q: "Offrite il trasferimento dall'aeroporto?",
-        a: "Sì, offriamo un trasferimento affidabile da e per l'aeroporto internazionale di Bandaranaike (CMB) come parte di ogni tour.",
+        a: "Si, offriamo un trasferimento affidabile da e per l'aeroporto internazionale di Bandaranaike (CMB) come parte di ogni tour.",
       },
     ],
   },
@@ -323,21 +331,25 @@ export const it: Dict = {
     header: 'Pacchetti tour Sri Lanka',
     breadcrumb: 'Tour',
     eyebrow: 'Tour privati',
-    title: 'Tour privati in Sri Lanka',
-    lead: "Scopri i nostri tour privati più venduti in Sri Lanka, dalle brevi fughe di 2 giorni ai viaggi completi di 10 giorni sull'isola. Ogni tour è privato, su misura e guidato da un autista-guida esperto.",
+    title: 'Pacchetti tour Sri Lanka e vacanze private',
+    lead: 'Confronta pacchetti di 7, 8 e 10 giorni e tour piu brevi. Ogni vacanza e privata, su misura e con autista guida localeniente pullman di gruppo.',
     faqTitle: 'Domande frequenti',
     faq: [
       {
         q: 'Questi tour in Sri Lanka sono privati?',
-        a: 'Sì, ogni tour è 100% privato. Viaggi solo con il tuo gruppo, il tuo autista-guida e il tuo veicolo, con la libertà di modificare l\u2019itinerario.',
+        a: 'Si, ogni tour e 100% privato. Viaggi solo con il tuo gruppo, il tuo autista guida e il tuo veicolo, con la liberta di modificare l\u2019itinerario.',
       },
       {
         q: 'Quanto costa un tour privato in Sri Lanka?',
         a: "I prezzi dipendono dal numero di viaggiatori, dalla categoria dell'hotel e dalla stagione. Contattaci per un preventivo trasparente e su misura, senza costi nascosti.",
       },
       {
-        q: 'Quale tour è il migliore per chi visita per la prima volta?',
-        a: 'I nostri tour da 7 a 10 giorni sono ideali per la prima visita perché combinano cultura, fauna, montagne e spiagge in un itinerario equilibrato.',
+        q: 'Quale tour e il migliore per chi visita per la prima volta?',
+        a: 'I nostri tour da 7 a 10 giorni sono ideali per la prima visita perche combinano cultura, fauna, montagne e spiagge in un itinerario equilibrato.',
+      },
+      {
+        q: 'Posso prenotare solo un autista privato, senza pacchetto hotel?',
+        a: 'Si. Scegli un pacchetto completo con hotel, oppure solo l’autista guida se prenoti tu le notti. Entrambe le opzioni includono un autista guida autorizzato.',
       },
     ],
   },
@@ -347,23 +359,23 @@ export const it: Dict = {
     breadcrumb: 'Contatti',
     eyebrow: 'Contattaci',
     title: 'Pianifica il tuo viaggio in Sri Lanka',
-    lead: 'Raccontaci la tua vacanza da sogno in Sri Lanka e il nostro team locale ti risponderà entro 24 ore con un itinerario su misura.',
+    lead: 'Raccontaci la tua vacanza da sogno in Sri Lanka e il nostro team locale ti rispondera entro 24 ore con un itinerario su misura.',
     form: {
       name: 'Il tuo nome',
-      email: 'La tua e-mail',
+      email: 'La tua e mail',
       phone: 'Il tuo telefono',
       phonePlaceholder: '712345678',
       countryCode: 'Prefisso internazionale',
       message: 'Il tuo messaggio',
       submit: 'Invia messaggio',
       sending: 'Invio in corso…',
-      success: 'Il tuo messaggio è stato inviato con successo!',
+      success: 'Il tuo messaggio e stato inviato con successo!',
       successToast: 'Messaggio inviato con successo!',
-      error: "Si è verificato un errore durante l'invio. Riprova più tardi.",
+      error: "Si e verificato un errore durante l'invio. Riprova piu tardi.",
       errorToast: 'Invio del messaggio non riuscito',
       nameRequired: 'Inserisci il tuo nome',
-      emailRequired: 'Inserisci un’e-mail valida',
-      phoneRequired: 'Inserisci un numero valido (7–15 cifre)',
+      emailRequired: 'Inserisci un’e mail valida',
+      phoneRequired: 'Inserisci un numero valido (7 to 15 cifre)',
       messageRequired: 'Inserisci il tuo messaggio',
       trustReply: 'Risposta entro 24h',
       trustPrivate: 'Richiesta privata',
@@ -371,12 +383,12 @@ export const it: Dict = {
     infoTitle: 'Informazioni di contatto',
     infoSubtitle: 'Parla direttamente con il nostro team di pianificazione in Sri Lanka.',
     address: 'No 302, Mahawaskaduwa, Waskaduwa, Kalutara North, Sri Lanka',
-    responseTime: 'Entro 24 ore di solito più veloce su WhatsApp',
+    responseTime: 'Entro 24 ore di solito piu veloce su WhatsApp',
     labels: {
       headquarters: 'Sede',
       phone: 'Telefono',
       whatsapp: 'WhatsApp',
-      email: 'E-mail',
+      email: 'E mail',
       hours: 'Orari',
       response: 'Tempo di risposta',
     },
@@ -385,7 +397,7 @@ export const it: Dict = {
       tripadvisor: 'Leggi le recensioni TripAdvisor',
       maps: 'Apri Google Maps',
     },
-    trustTitle: 'Perché i viaggiatori ci scelgono',
+    trustTitle: 'Perche i viaggiatori ci scelgono',
     trust: {
       experts: 'Esperti locali dello Sri Lanka',
       tailored: 'Tour su misura',
@@ -396,11 +408,11 @@ export const it: Dict = {
     faq: [
       {
         q: 'Quanto velocemente rispondete alla mia richiesta?',
-        a: 'Rispondiamo a tutte le richieste entro 24 ore, di solito molto più velocemente via WhatsApp.',
+        a: 'Rispondiamo a tutte le richieste entro 24 ore, di solito molto piu velocemente via WhatsApp.',
       },
       {
         q: 'Posso contattarvi su WhatsApp?',
-        a: 'Sì, WhatsApp è il modo più rapido per contattarci. Scrivici in qualsiasi momento e il nostro team locale ti aiuterà a pianificare il viaggio.',
+        a: 'Si, WhatsApp e il modo piu rapido per contattarci. Scrivici in qualsiasi momento e il nostro team locale ti aiutera a pianificare il viaggio.',
       },
     ],
   },
@@ -409,12 +421,12 @@ export const it: Dict = {
     header: 'Tour Sri Lanka 7 giorni',
     breadcrumb: 'Tour Sri Lanka 7 giorni',
     title: 'Tour privato in Sri Lanka di 7 giorni',
-    lead: "Vivi il meglio dello Sri Lanka in sette giorni: la fortezza rocciosa di Sigiriya, la città sacra di Kandy, i paesaggi di Ella e un safari indimenticabile a Yala, il tutto con il tuo autista-guida privato.",
+    lead: "Vivi il meglio dello Sri Lanka in sette giorni: la fortezza rocciosa di Sigiriya, la citta sacra di Kandy, i paesaggi di Ella e un safari indimenticabile a Yala, il tutto con il tuo autista guida privato.",
     faqTitle: 'Domande frequenti',
     faq: [
       {
         q: 'Cosa include il tour di 7 giorni in Sri Lanka?',
-        a: "Il tour include un autista-guida privato, un veicolo climatizzato, tutti i trasporti e un itinerario flessibile che copre Sigiriya, Kandy, Ella e il Parco Nazionale di Yala. Gli hotel possono essere aggiunti nella categoria che preferisci.",
+        a: "Il tour include un autista guida privato, un veicolo climatizzato, tutti i trasporti e un itinerario flessibile che copre Sigiriya, Kandy, Ella e il Parco Nazionale di Yala. Gli hotel possono essere aggiunti nella categoria che preferisci.",
       },
       {
         q: '7 giorni bastano per vedere lo Sri Lanka?',
@@ -422,7 +434,7 @@ export const it: Dict = {
       },
       {
         q: 'Posso prolungare il tour di 7 giorni con un soggiorno al mare?',
-        a: 'Sì. Possiamo facilmente aggiungere notti extra sulla costa sud o ovest per concludere la tua vacanza in Sri Lanka in totale relax.',
+        a: 'Si. Possiamo facilmente aggiungere notti extra sulla costa sud o ovest per concludere la tua vacanza in Sri Lanka in totale relax.',
       },
     ],
   },
@@ -438,31 +450,31 @@ export const it: Dict = {
     s1: 'Le richieste sono gratuite \u2014 nessun costo prima della conferma',
     s2: 'Potrebbe essere richiesto un acconto per bloccare le date',
     s3: 'Cancellazione gratuita fino a 14 giorni prima della partenza',
-    s4: 'Contattaci su WhatsApp o e-mail per richiedere modifiche',
+    s4: 'Contattaci su WhatsApp o e mail per richiedere modifiche',
     sec1Title: '1. Prima della conferma della prenotazione',
     sec1P1:
       "Inviare una richiesta o ricevere un preventivo non ti impegna a viaggiare. Puoi ritirarti in qualsiasi momento prima del versamento di un acconto, senza costi.",
     sec1P2:
-      "Confermeremo per iscritto la disponibilità, i dettagli dell'itinerario e il prezzo totale prima di richiedere qualsiasi pagamento.",
+      "Confermeremo per iscritto la disponibilita, i dettagli dell'itinerario e il prezzo totale prima di richiedere qualsiasi pagamento.",
     sec2Title: '2. Acconti e conferma',
     sec2P1:
       "Per garantire le date, il veicolo e l'autista preferiti, potremmo richiedere un acconto. L'importo e la data di scadenza saranno indicati chiaramente nella conferma di prenotazione.",
     sec2P2:
-      "Il tour è considerato confermato una volta ricevuto l'acconto concordato e inviata la conferma scritta. Il saldo rimanente è generalmente dovuto prima o all'inizio del tour, come indicato nella conferma.",
+      "Il tour e considerato confermato una volta ricevuto l'acconto concordato e inviata la conferma scritta. Il saldo rimanente e generalmente dovuto prima o all'inizio del tour, come indicato nella conferma.",
     sec3Title: '3. Cancellazione da parte tua',
     sec3Intro:
       "Se devi cancellare una prenotazione confermata, contattaci il prima possibile. I rimborsi dipendono da quanto tempo prima cancelli:",
-    tier1Label: '14 giorni o più prima della data di inizio del tour:',
+    tier1Label: '14 giorni o piu prima della data di inizio del tour:',
     tier1Text: "rimborso completo di eventuali acconti versati",
     tier2Label: '7\u201313 giorni prima della data di inizio del tour:',
     tier2Text: "rimborso del 50% dell'acconto",
     tier3Label: 'Meno di 7 giorni prima della data di inizio, o mancata presentazione:',
-    tier3Text: "l'acconto non è rimborsabile",
+    tier3Text: "l'acconto non e rimborsabile",
     sec3Note:
-      "Le commissioni bancarie o del fornitore di pagamento già sostenute potranno essere dedotte da qualsiasi rimborso. I costi di terzi prepagati per tuo conto (biglietti dei parchi, acconti hotel, jeep safari, ecc.) vengono rimborsati solo se questi fornitori lo consentono.",
+      "Le commissioni bancarie o del fornitore di pagamento gia sostenute potranno essere dedotte da qualsiasi rimborso. I costi di terzi prepagati per tuo conto (biglietti dei parchi, acconti hotel, jeep safari, ecc.) vengono rimborsati solo se questi fornitori lo consentono.",
     sec4Title: '4. Modifiche alla prenotazione',
     sec4P1:
-      "Cambi di data, adeguamenti del percorso e modifiche alla dimensione del gruppo sono spesso possibili con un preavviso e una disponibilità sufficienti. Le modifiche minori effettuate più di 7 giorni prima del viaggio sono generalmente gestite senza costi aggiuntivi.",
+      "Cambi di data, adeguamenti del percorso e modifiche alla dimensione del gruppo sono spesso possibili con un preavviso e una disponibilita sufficienti. Le modifiche minori effettuate piu di 7 giorni prima del viaggio sono generalmente gestite senza costi aggiuntivi.",
     sec4P2:
       "Modifiche importanti vicino alla data di partenza, o modifiche che richiedono la riprenotazione di servizi prepagati, possono comportare costi aggiuntivi. Spiegheremo sempre eventuali costi prima che tu confermi la modifica.",
     sec5Title: '5. Cancellazione o modifiche da parte di Sundown Tours',
@@ -470,17 +482,17 @@ export const it: Dict = {
       "Cancelliamo raramente tour confermati. Se dovessimo farlo per guasto del veicolo, malattia dell'autista o altro problema sotto il nostro controllo, offriremo un autista o veicolo alternativo, riprogrammeremo le date o rimborseremo integralmente gli importi versati per servizi non erogati.",
     sec6Title: '6. Causa di forza maggiore',
     sec6P1:
-      "Eventi che vanno oltre il nostro ragionevole controllo \u2014 come condizioni meteo estreme, disastri naturali, disordini civili, restrizioni sanitarie o divieti di viaggio governativi \u2014 possono influire sul tuo tour o sulla nostra capacità di operare su determinati percorsi.",
+      "Eventi che vanno oltre il nostro ragionevole controllo \u2014 come condizioni meteo estreme, disastri naturali, disordini civili, restrizioni sanitarie o divieti di viaggio governativi \u2014 possono influire sul tuo tour o sulla nostra capacita di operare su determinati percorsi.",
     sec6P2:
-      "In tali casi, collaboreremo in buona fede per riprogrammare il viaggio quando possibile. Se il viaggio non è praticabile, i rimborsi saranno gestiti in modo equo in base ai servizi già forniti e ai costi non recuperabili dai fornitori.",
+      "In tali casi, collaboreremo in buona fede per riprogrammare il viaggio quando possibile. Se il viaggio non e praticabile, i rimborsi saranno gestiti in modo equo in base ai servizi gia forniti e ai costi non recuperabili dai fornitori.",
     sec7Title: '7. Assicurazione di viaggio',
     sec7P1:
       "Raccomandiamo un'assicurazione di viaggio che copra cancellazione, spese mediche e interruzione del viaggio. I reclami assicurativi vengono gestiti direttamente tra te e il tuo assicuratore; possiamo fornire documentazione a supporto della richiesta, se necessario.",
     sec8Title: '8. Come richiedere una modifica o una cancellazione',
     sec8P1:
-      "Contattaci non appena i tuoi piani cambiano. Il modo più rapido per raggiungerci è WhatsApp; l'e-mail è indicata per registrazioni scritte.",
+      "Contattaci non appena i tuoi piani cambiano. Il modo piu rapido per raggiungerci e WhatsApp; l'e mail e indicata per registrazioni scritte.",
     whatsappLabel: 'WhatsApp:',
-    emailLabel: 'E-mail:',
+    emailLabel: 'E mail:',
     locationLabel: 'Posizione:',
     sec8P2:
       "Includi il tuo nome, le date del tour e il riferimento della prenotazione (se disponibile) per permetterci di rispondere rapidamente.",
@@ -514,36 +526,36 @@ export const it: Dict = {
     h1: 'Dove mangiare in Sri Lanka: costa, Galle Fort e Sundown Beach Restaurant',
     breadcrumb: 'Ristoranti',
     intro:
-      'Mangiare bene in Sri Lanka non è una classifica unica dei «migliori ristoranti», ma abbinare il pasto alla costa, all’ora e a quanto volete ancora spostarvi dopo cena. Il rice and curry è lo staple nell’entroterra; il pesce alla griglia definisce le coste sud e ovest; Galle Fort mescola sale coloniali e buon caffè. Questa pagina spiega dove i viaggiatori in tour privato mangiano davvero, poi elenca il menu completo del Sundown Beach Restaurant a Waskaduwa — la nostra cucina costiera tra Colombo e Galle.',
+      'Mangiare bene in Sri Lanka non e una classifica unica dei «migliori ristoranti», ma abbinare il pasto alla costa, all’ora e a quanto volete ancora spostarvi dopo cena. Il rice and curry e lo staple nell’entroterra; il pesce alla griglia definisce le coste sud e ovest; Galle Fort mescola sale coloniali e buon caffe. Questa pagina spiega dove i viaggiatori in tour privato mangiano davvero, poi elenca il menu completo del Sundown Beach Restaurant a Waskaduwala nostra cucina costiera tra Colombo e Galle.',
     aroundTitle: 'Come si mangia durante un tour',
     aroundBody:
-      'In un tour con autista-guida, il pranzo è di solito un rice and curry scelto per pulizia e ritmo, non una lunga sosta gourmet. La cena è la vera scelta: ristorante dell’hotel, grill in spiaggia o la città in cui dormite. Prima di ordinare pesce intero o granchio, confermate se il prezzo è al chilo o a porzione — la sorpresa più comune sulla costa sud.\n\nI vegetariani se la cavano chiedendo curry di verdure senza pesce delle Maldive; i vegani devono dirlo chiaramente. Bevete acqua sigillata. Una mancia del 5–10% basta se il servizio non è già incluso.',
+      'In un tour con autista guida, il pranzo e di solito un rice and curry scelto per pulizia e ritmo, non una lunga sosta gourmet. La cena e la vera scelta: ristorante dell’hotel, grill in spiaggia o la citta in cui dormite. Prima di ordinare pesce intero o granchio, confermate se il prezzo e al chilo o a porzionela sorpresa piu comune sulla costa sud.\n\nI vegetariani se la cavano chiedendo curry di verdure senza pesce delle Maldive; i vegani devono dirlo chiaramente. Bevete acqua sigillata. Una mancia del 5 to 10% basta se il servizio non e gia incluso.',
     westTitle: 'Costa ovest: Negombo, Kalutara e Waskaduwa',
     westBody:
-      'La costa ovest è dove atterrano la maggior parte dei voli europei: il primo e l’ultimo pasto del viaggio accadono spesso qui. Negombo ha grill turistici vicino alla spiaggia; Colombo offre hotel dining e qualche buona sala di rice and curry. Tra Kalutara e Waskaduwa il pescato è locale — tonno, seer, gamberi e granchio — cucinato in giornata.\n\nIl Sundown Beach Restaurant è su questo tratto (n. 302, Mahawaskaduwa, Waskaduwa). Gli ospiti dei nostri tour privati si fermano spesso per un pranzo di mare o un’ultima cena prima della partenza da CMB. Aperto tutti i giorni 8:00–22:00; prenotate al +94 70 629 3585.',
+      'La costa ovest e dove atterrano la maggior parte dei voli europei: il primo e l’ultimo pasto del viaggio accadono spesso qui. Negombo ha grill turistici vicino alla spiaggia; Colombo offre hotel dining e qualche buona sala di rice and curry. Tra Kalutara e Waskaduwa il pescato e localetonno, seer, gamberi e granchiocucinato in giornata.\n\nIl Sundown Beach Restaurant e su questo tratto (n. 302, Mahawaskaduwa, Waskaduwa). Gli ospiti dei nostri tour privati si fermano spesso per un pranzo di mare o un’ultima cena prima della partenza da CMB. Aperto tutti i giorni 8:00 to 22:00; prenotate al +94 70 629 3585.',
     southTitle: 'Costa sud e Galle Fort',
     southBody:
-      'Unawatuna, Mirissa e Tangalle sono i più forti per il pesce semplicemente grigliato con lime, peperoncino e burro all’aglio. Dentro Galle Fort, antiche case olandesi uniscono spezie sri-lankesi e tecnica internazionale; i prezzi salgono dentro le mura, la qualità è di solito affidabile. Combinate una mattina sui bastioni con il pranzo nel fort, o un pasto più tardi sulla costa Kalutara–Waskaduwa se risalite a nord.\n\nPer un primer più ampio — hoppers, kottu, livelli di spezie — leggete la nostra guida gastronomica. Il menu sotto è quello del Sundown Beach Restaurant, non un elenco generico di tutta l’isola.',
+      'Unawatuna, Mirissa e Tangalle sono i piu forti per il pesce semplicemente grigliato con lime, peperoncino e burro all’aglio. Dentro Galle Fort, antiche case olandesi uniscono spezie sri lankesi e tecnica internazionale; i prezzi salgono dentro le mura, la qualita e di solito affidabile. Combinate una mattina sui bastioni con il pranzo nel fort, o un pasto piu tardi sulla costa Kalutara to Waskaduwa se risalite a nord.\n\nPer un primer piu ampiohoppers, kottu, livelli di spezieleggete la nostra guida gastronomica. Il menu sotto e quello del Sundown Beach Restaurant, non un elenco generico di tutta l’isola.',
     title: 'Destinazioni e tour nelle vicinanze',
-    lead: 'Il Sundown Beach Restaurant a Waskaduwa si abbina facilmente alle tappe della costa sud-ovest e ai tour giornalieri — Galle Fort, spiagge e itinerari privati.',
+    lead: 'Il Sundown Beach Restaurant a Waskaduwa si abbina facilmente alle tappe della costa sud ovest e ai tour giornalieriGalle Fort, spiagge e itinerari privati.',
     contactCta: 'Pianifica un tour privato',
     faqTitle: 'FAQ ristoranti e Sundown Beach',
     faq: [
       {
-        q: 'Il Sundown Beach Restaurant è aperto anche a chi non è in hotel?',
-        a: 'Sì. È un ristorante sulla costa a Waskaduwa, aperto tutti i giorni 8:00–22:00. Non serve essere in un pacchetto Sundown Tours per prenotare un tavolo.',
+        q: 'Il Sundown Beach Restaurant e aperto anche a chi non e in hotel?',
+        a: 'Si. E un ristorante sulla costa a Waskaduwa, aperto tutti i giorni 8:00 to 22:00. Non serve essere in un pacchetto Sundown Tours per prenotare un tavolo.',
       },
       {
         q: 'Dove cenare la sera dell’arrivo a CMB?',
-        a: 'La maggior parte degli ospiti resta vicino a Negombo o sulla costa ovest (Kalutara/Waskaduwa) e cena in zona invece di guidare fino a Galle la stessa sera. Il Sundown Beach Restaurant è una sosta di mare semplice su quel tratto.',
+        a: 'La maggior parte degli ospiti resta vicino a Negombo o sulla costa ovest (Kalutara/Waskaduwa) e cena in zona invece di guidare fino a Galle la stessa sera. Il Sundown Beach Restaurant e una sosta di mare semplice su quel tratto.',
       },
       {
-        q: 'Il pesce è a porzione o al chilo?',
+        q: 'Il pesce e a porzione o al chilo?',
         a: 'Al Sundown Beach Restaurant i prezzi in menu sono per piatto. Altrove sulla costa sud confermate sempre chilo o porzione prima di ordinare pesce intero o granchio.',
       },
       {
         q: 'Potete includere soste al ristorante in un tour privato?',
-        a: 'Sì. Indicate le esigenze alimentari in prenotazione. I pranzi seguono i tempi di guida; la cena può essere al Sundown Beach Restaurant se dormite sulla costa ovest, o a Galle Fort / in una località balneare sulla costa sud.',
+        a: 'Si. Indicate le esigenze alimentari in prenotazione. I pranzi seguono i tempi di guida; la cena puo essere al Sundown Beach Restaurant se dormite sulla costa ovest, o a Galle Fort / in una localita balneare sulla costa sud.',
       },
     ],
   },
@@ -551,7 +563,7 @@ export const it: Dict = {
   bookingSuccess: {
     heroTitle: 'Prenotazione confermata!',
     thankYouPrefix: 'Grazie,',
-    emailSentTo: "Un'e-mail di conferma è stata inviata a",
+    emailSentTo: "Un'e mail di conferma e stata inviata a",
     tagline: 'Tour privati nello Sri Lanka',
     confirmedBadge: 'CONFERMATO',
     issued: 'Emesso il',
@@ -559,7 +571,7 @@ export const it: Dict = {
     tourDetails: 'Dettagli del tour',
     paymentSummary: 'Riepilogo pagamento',
     name: 'Nome',
-    email: 'E-mail',
+    email: 'E mail',
     phone: 'Telefono',
     country: 'Paese',
     travelDate: 'Data del viaggio',
@@ -572,14 +584,14 @@ export const it: Dict = {
     payment: 'Metodo di pagamento',
     payAtDestination: 'Pagamento in seguito (pagamento a destinazione)',
     description: 'Descrizione',
-    qty: 'Qtà',
+    qty: 'Qta',
     amount: 'Importo',
     tourPackageFallback: 'Pacchetto tour',
     subtotal: 'Subtotale',
     amountPaid: 'Importo pagato',
     amountDue: 'Importo dovuto',
     presentInvoice:
-      "Presenta questa fattura all'arrivo. Il nostro team ti contatterà se servono altri dettagli.",
+      "Presenta questa fattura all'arrivo. Il nostro team ti contattera se servono altri dettagli.",
     thanks: 'Grazie per la prenotazione buon viaggio nello Sri Lanka!',
     printInvoice: 'Stampa fattura',
     backHome: 'Torna alla home',
@@ -589,19 +601,20 @@ export const it: Dict = {
 
   seo: {
     home: {
-      title: 'Tour Sri Lanka & autista privato | Sundown Tours',
+      title: 'Viaggio Sri Lanka | Tour privati dall’Italia',
       description:
-        'Tour Sri Lanka privati su misura con autista esperto, safari e vacanze al mare. Pianifica ora il tuo viaggio in Sri Lanka.',
-      keywords: 'Tour Sri Lanka, Viaggio Sri Lanka, Autista Privato Sri Lanka, safari Sri Lanka',
+        'Viaggio in Sri Lanka dall’Italia: tour privato con autista guida, quando andare, volo Milano, visto ETA, Lion Rock, safari e spiagge. Dal 1992.',
+      keywords:
+        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, cosa vedere Sri Lanka, autista privato Sri Lanka',
     },
     tours: {
-      title: 'Tour Sri Lanka | Viaggi privati con autista',
+      title: 'Pacchetti tour Sri Lanka | 7, 8 e 10 giorni in privato',
       description:
-        'Scopri i nostri tour privati in Sri Lanka per viaggiatori europei: viaggi su misura, autista privato e safari di lusso.',
-      keywords: 'Tour Sri Lanka, Viaggio Sri Lanka, Autista Privato Sri Lanka, pacchetti Sri Lanka',
+        'Pacchetti tour Sri Lanka per viaggiatori dall’Europa: vacanze private di 7, 8 e 10 giorni con autista guida, safari e spiaggianon tour di gruppo.',
+      keywords: 'pacchetti Sri Lanka, tour Sri Lanka, viaggio Sri Lanka, tour 7 giorni, itinerario 10 giorni',
     },
     services: {
-      title: 'I nostri servizi | Sundown Tours Sri Lanka',
+      title: 'Tour privati, autista e vacanze | Sri Lanka',
       description:
         'I nostri servizi: tour privati, pacchetti su misura, tour con autista ed escursioni giornaliere in Sri Lanka.',
       keywords: 'Autista Privato Sri Lanka, Viaggio Sri Lanka, Tour Sri Lanka, safari Sri Lanka',
@@ -613,7 +626,7 @@ export const it: Dict = {
       keywords: 'agenzia viaggi Sri Lanka, tour operator Sri Lanka, Tour Sri Lanka',
     },
     contact: {
-      title: 'Contatti | Pianifica il tuo tour in Sri Lanka | Sundown Tours',
+      title: 'Pianifica il tuo tour in Sri Lanka | Contatti',
       description:
         'Contatta Sundown Tours per tour privati su misura in Sri Lanka. Rispondiamo entro 24 ore.',
       keywords: 'prenota viaggio Sri Lanka, contatto tour Sri Lanka, Autista Privato Sri Lanka',
@@ -621,13 +634,13 @@ export const it: Dict = {
     tour7: {
       title: 'Tour Sri Lanka 7 giorni | Cultura, montagne e safari',
       description:
-        'Vivi lo Sri Lanka in 7 giorni: Sigiriya, Kandy, Ella e safari a Yala con autista-guida privato. Richiedi il tuo tour su misura.',
+        'Vivi lo Sri Lanka in 7 giorni: Sigiriya, Kandy, Ella e safari a Yala con autista guida privato. Richiedi il tuo tour su misura.',
       keywords: 'tour Sri Lanka 7 giorni, Viaggio Sri Lanka, Autista Privato Sri Lanka, safari Sri Lanka',
     },
     tour10: {
       title: 'Tour Sri Lanka 10 giorni | Il giro completo dell’isola',
       description:
-        'Scopri lo Sri Lanka in 10 giorni: spiagge, safari, montagne e siti culturali con autista-guida privato. Richiedi il tuo tour su misura.',
+        'Scopri lo Sri Lanka in 10 giorni: spiagge, safari, montagne e siti culturali con autista guida privato. Richiedi il tuo tour su misura.',
       keywords: 'tour Sri Lanka 10 giorni, Sri Lanka 10 giorni, viaggio privato Sri Lanka, giro dell’isola Sri Lanka',
     },
     tour8: {
@@ -639,23 +652,23 @@ export const it: Dict = {
     tour6: {
       title: 'Tour Sri Lanka 6 giorni | Sigiriya, Kandy, Ella e safari a Yala',
       description:
-        'Lo Sri Lanka in 6 giorni in privato: Sigiriya, Kandy, le montagne di Ella, safari a Yala e spiagge suggestive con autista-guida esperto.',
+        'Lo Sri Lanka in 6 giorni in privato: Sigiriya, Kandy, le montagne di Ella, safari a Yala e spiagge suggestive con autista guida esperto.',
       keywords: 'tour Sri Lanka 6 giorni, Sri Lanka 6 giorni, Sigiriya Kandy Ella, safari Yala',
     },
     tour5: {
       title: 'Tour Sri Lanka 5 giorni | Cultura, natura e fauna',
       description:
-        'Un tour equilibrato di 5 giorni in Sri Lanka con cultura, montagne ed esperienza safari – privato e su misura.',
+        'Un tour equilibrato di 5 giorni in Sri Lanka con cultura, montagne ed esperienza safari  privato e su misura.',
       keywords: 'tour Sri Lanka 5 giorni, Sri Lanka 5 giorni, viaggio breve Sri Lanka',
     },
     tour4: {
       title: 'Tour Sri Lanka 4 giorni | Highlights e safari',
       description:
-        'Vivi lo Sri Lanka in 4 giorni: Sigiriya, Kandy, Ella e safari a Yala in un tour privato con autista-guida.',
+        'Vivi lo Sri Lanka in 4 giorni: Sigiriya, Kandy, Ella e safari a Yala in un tour privato con autista guida.',
       keywords: 'tour Sri Lanka 4 giorni, Sri Lanka 4 giorni, viaggio breve Sri Lanka',
     },
     tour2ek: {
-      title: 'Tour privato Sri Lanka 2 giorni – Ella, Kandy e Udawalawa | Transfer aeroporto o hotel',
+      title: 'Tour privato Sri Lanka 2 giorni  Ella, Kandy e Udawalawa | Transfer aeroporto o hotel',
       description:
         'Tour privato di 2 giorni in Sri Lanka: Udawalawa, highlights di Ella, cascate di Ramboda, torre di Ambuluwawa e Tempio del Dente a Kandy.',
       keywords: 'tour Sri Lanka 2 giorni, Ella Kandy, viaggio privato Sri Lanka',
@@ -663,7 +676,7 @@ export const it: Dict = {
     tour2ey: {
       title: 'Tour privato 2 giorni Ella e safari a Yala | Fauna dello Sri Lanka',
       description:
-        'Tour privato di 2 giorni con gli highlights di Ella e un emozionante safari in jeep nel Parco Nazionale di Yala – leopardi, elefanti e altro.',
+        'Tour privato di 2 giorni con gli highlights di Ella e un emozionante safari in jeep nel Parco Nazionale di Yala  leopardi, elefanti e altro.',
       keywords: 'safari Ella Yala, safari Sri Lanka 2 giorni, Parco Nazionale Yala',
     },
     ellaDay: {
@@ -693,7 +706,7 @@ export const it: Dict = {
     destinations: {
       title: 'Destinazioni Sri Lanka | Spiagge, fauna e siti culturali',
       description:
-        'Scopri le più belle destinazioni dello Sri Lanka: spiagge, parchi nazionali e luoghi di interesse culturale.',
+        'Scopri le piu belle destinazioni dello Sri Lanka: spiagge, parchi nazionali e luoghi di interesse culturale.',
       keywords: 'destinazioni Sri Lanka, cosa vedere in Sri Lanka',
     },
     guides: {
@@ -703,28 +716,28 @@ export const it: Dict = {
       keywords: 'guida di viaggio Sri Lanka, consigli viaggio Sri Lanka',
     },
     destSigiriya: {
-      title: 'Guida alla fortezza di Sigiriya | Salita, consigli e tour giornalieri',
+      title: 'Lion Rock Sri Lanka | Sigiriya, salita e consigli',
       description:
-        'Pianifica la tua visita a Sigiriya: orari di salita, affreschi, Pidurangala, consigli sui biglietti e come abbinare la fortezza a Dambulla o a un tour del Triangolo Culturale.',
-      keywords: 'Sigiriya Sri Lanka, fortezza di Sigiriya, salita a Sigiriya, escursione Sigiriya',
+        'Visitare il Lion Rock (Sigiriya): orari di salita, affreschi, Pidurangala e tour del Triangolo Culturale con autista privato.',
+      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, fortezza di Sigiriya, cosa vedere Sri Lanka',
     },
     destElla: {
-      title: 'Guida a Ella Sri Lanka | Nine Arch Bridge, escursioni e montagne',
+      title: 'Ella Sri Lanka | Treno, Nine Arch Bridge e paese del te',
       description:
-        'Scopri il Nine Arch Bridge di Ella, Little Adam’s Peak, i sentieri del tè e il treno panoramico con consigli per un’escursione privata o un soggiorno in montagna.',
-      keywords: 'Ella Sri Lanka, Nine Arch Bridge, escursione Ella, montagne Sri Lanka',
+        'Ella Sri Lanka: treno Kandy to Ella, ponte dei nove archi, sentieri e notti in montagna in un tour privato.',
+      keywords: 'ella Sri Lanka, Ella, treno Sri Lanka, Nine Arch Bridge',
     },
     destYala: {
-      title: 'Guida al Parco Nazionale di Yala | Consigli safari, fauna e periodo migliore',
+      title: 'Safari Yala Sri Lanka | Leopardi, jeep e Udawalawe',
       description:
-        'Pianifica un safari a Yala: probabilità di vedere leopardi, consigli per la prenotazione del jeep, mesi migliori e come abbinare Yala a Ella o a un soggiorno al mare.',
-      keywords: 'Parco Nazionale di Yala, safari Yala, leopardi Sri Lanka, jeep safari Yala',
+        'Safari Sri Lanka: Yala, Udawalawe, Wilpattu e Minneriya, probabilita leopardo e abbinamento con Ella o il mare.',
+      keywords: 'safari Sri Lanka, yala Sri Lanka, Udawalawe national park, Minneriya, Wilpattu',
     },
     destKandy: {
-      title: 'Guida a Kandy Sri Lanka | Tempio del Dente e capitale culturale',
+      title: 'Kandy Sri Lanka | Tempio del Dente e capitale delle colline',
       description:
-        'Esplora il Tempio del Dente di Kandy, il lago, i Giardini di Peradeniya e l’Esala Perahera con consigli per abbinare Kandy con Ella o il Triangolo Culturale.',
-      keywords: 'Kandy Sri Lanka, Tempio del Dente, escursione Kandy, capitale culturale Sri Lanka',
+        'Cosa vedere a Kandy: Tempio del Dente, lago, Peradeniya e treno verso Ella in un tour privato.',
+      keywords: 'kandy Sri Lanka, Kandy, Tempio del Dente, cosa vedere Sri Lanka',
     },
     destDambulla: {
       title: 'Guida al Tempio di Dambulla | Consigli sul Tempio d’Oro',
@@ -733,34 +746,35 @@ export const it: Dict = {
       keywords: 'Tempio di Dambulla, Tempio d’Oro Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Guida al Forte di Galle Sri Lanka | Bastioni, faro e costa',
+      title: 'Galle Sri Lanka | Forte, faro e mare del sud',
       description:
-        'Passeggia sui bastioni olandesi del Forte di Galle, il faro e le vie boutique con consigli per un tour privato di un giorno e le spiagge della costa sud.',
-      keywords: 'Forte di Galle, Galle Sri Lanka, escursione Galle, UNESCO Galle',
+        'Forte di Galle: bastioni olandesi, faro e spiagge del sud in un tour privato.',
+      keywords: 'galle Sri Lanka, Galle, Forte di Galle, spiagge Sri Lanka, mare Sri Lanka',
     },
     guideBestTime: {
-      title: 'Periodo migliore per visitare lo Sri Lanka | Guida mese per mese',
+      title: 'Quando andare in Sri Lanka | Meteo, agosto e periodo migliore',
       description:
-        'Quando visitare lo Sri Lanka: i due monsoni spiegati, mesi migliori per regione, timing per safari e whale watching, e pianificazione in base al meteo.',
-      keywords: 'periodo migliore Sri Lanka, meteo Sri Lanka, monsone Sri Lanka, quando andare Sri Lanka',
+        'Quando andare in Sri Lanka: due monsoni, meteo, Sri Lanka ad agosto, dicembre, spiagge e safari. Periodo migliore per costa.',
+      keywords:
+        'quando andare in Sri Lanka, quando andare Sri Lanka, periodo migliore Sri Lanka, meteo Sri Lanka, sri lanka agosto',
     },
     guideVisa: {
-      title: 'Visto Sri Lanka 2026 | ETA gratuita per 40 Paesi',
+      title: 'Visto Sri Lanka 2026 | ETA, passaporto italiano, eta.gov.lk',
       description:
-        'Regole ETA dal 25 maggio 2026: ETA turistica gratuita di 30 giorni per 40 Paesi tra cui l’Italia. Domanda obbligatoria prima del viaggio su eta.gov.lk.',
-      keywords: 'visto Sri Lanka, ETA Sri Lanka 2026, ETA gratuita, eta.gov.lk, requisiti di ingresso',
+        'ETA Sri Lanka per l’Italia: dal 25 maggio 2026 turistica gratuita 30 giorni per 40 Paesi. Solo eta.gov.lk prima del volo.',
+      keywords: 'visto Sri Lanka, ETA Sri Lanka 2026, eta.gov.lk, passaporto italiano',
     },
     guidePrivateDriver: {
       title: 'Guida all’autista privato Sri Lanka | Tour con chauffeur spiegati',
       description:
-        'Perché i viaggiatori scelgono un autista privato in Sri Lanka, cosa è incluso, le distanze giornaliere tipiche e come pianificare un tour flessibile.',
-      keywords: 'autista privato Sri Lanka, autista-guida Sri Lanka, tour privato Sri Lanka',
+        'Perche i viaggiatori scelgono un autista privato in Sri Lanka, cosa e incluso, le distanze giornaliere tipiche e come pianificare un tour flessibile.',
+      keywords: 'autista privato Sri Lanka, autista guida Sri Lanka, tour privato Sri Lanka',
     },
     guideBudget: {
-      title: 'Guida budget Sri Lanka | Costi e consigli sul denaro',
+      title: 'Cambio euro Sri Lanka | Rupia (LKR) e costi',
       description:
-        'Costi giornalieri, contanti e bancomat, mance e dove va il budget in un tour privato consigli pratici per risparmiare.',
-      keywords: 'budget Sri Lanka, costi Sri Lanka, consigli denaro Sri Lanka',
+        'Euro rate in Sri Lanka: valuta LKR, ATM, dove cambiare e costi reali di un tour privato. Non un tasso live.',
+      keywords: 'euro rate in sri lanka, valuta Sri Lanka, budget Sri Lanka, LKR',
     },
     guideWildlife: {
       title: 'Guida fauna Sri Lanka | Elefanti, leopardi e balene',
@@ -769,22 +783,22 @@ export const it: Dict = {
       keywords: 'fauna Sri Lanka, elefanti Sri Lanka, safari leopardo, whale watching',
     },
     guideSafari: {
-      title: 'Guida safari Sri Lanka | Yala, Udawalawe e consigli jeep',
+      title: 'Safari Sri Lanka | Yala, Udawalawe, Wilpattu e Minneriya',
       description:
-        'Organizzare un safari in jeep: Yala vs Udawalawe, consigli prenotazione, tariffe parco e cosa aspettarsi al mattino o al pomeriggio.',
-      keywords: 'safari Sri Lanka, safari Yala, jeep Udawalawe, prenotare safari',
+        'Safari Sri Lanka: parco Yala, Udawalawe, Wilpattu, Minneriya, prenotazione jeep e cosa aspettarsi.',
+      keywords: 'safari Sri Lanka, yala Sri Lanka, Udawalawe national park, Minneriya, Wilpattu',
     },
     guideBeaches: {
-      title: 'Migliori spiagge dello Sri Lanka | Sud, ovest e est',
+      title: 'Mare e spiagge Sri Lanka | Sud, Mirissa, Weligama, est',
       description:
-        'Scegliere la costa giusta per le date sud, ovest ed est a confronto per monsoni, surf e baie tranquille.',
-      keywords: 'spiagge Sri Lanka, migliori spiagge, costa sud Sri Lanka, costa est',
+        'Spiagge Sri Lanka: mare sud e ovest, Mirissa, Weligama, Galle; costa est (Trincomalee, Arugam Bay) secondo il monsone.',
+      keywords: 'spiagge Sri Lanka, mare Sri Lanka, sri lanka mare, sri lanka spiagge, Mirissa, Weligama',
     },
     guideTeaCountry: {
-      title: 'Guida al paese del tè Sri Lanka | Altopiani e piantagioni',
+      title: 'Guida al paese del te Sri Lanka | Altopiani e piantagioni',
       description:
-        'Nuwara Eliya, Ella e sentieri del tè visite alle piantagioni, treni panoramici e passeggiate in montagna.',
-      keywords: 'paese del tè Sri Lanka, Nuwara Eliya, Ella montagna, piantagioni tè',
+        'Nuwara Eliya, Ella e sentieri del te visite alle piantagioni, treni panoramici e passeggiate in montagna.',
+      keywords: 'paese del te Sri Lanka, Nuwara Eliya, Ella montagna, piantagioni te',
     },
     guideFood: {
       title: 'Guida gastronomica Sri Lanka | Rice & curry, spezie e street food',
@@ -799,10 +813,10 @@ export const it: Dict = {
       keywords: 'valigia Sri Lanka, cosa portare Sri Lanka, lista bagaglio Sri Lanka',
     },
     guideSafety: {
-      title: 'Guida sicurezza Sri Lanka | Consigli per i visitatori',
+      title: 'Viaggiare sicuri in Sri Lanka | Consigli pratici',
       description:
-        'Consigli pratici: strade, salute di base, truffe da evitare e viaggiare in sicurezza con autista privato.',
-      keywords: 'sicurezza Sri Lanka, viaggio sicuro Sri Lanka, consigli visitatori',
+        'Viaggiare sicuri in Sri Lanka: strade, truffe, salute di base e tour privato. Integrate con gli avvisi MAECI, non sostituiteli.',
+      keywords: 'viaggiare sicuri Sri Lanka, sri lanka viaggiare sicuri, sicurezza Sri Lanka',
     },
     cancellation: {
       title: 'Politica di cancellazione | Sundown Tours Sri Lanka',
@@ -828,29 +842,38 @@ export const it: Dict = {
       keywords: 'informativa privacy',
     },
     destColombo: {
-      title: "Colombo Sri Lanka Travel Guide | Private Tours",
-      description: "Plan Colombo as your arrival hub with private airport transfers and tailor-made Sri Lanka itineraries.",
-      keywords: "destColombo",
+      title: 'Colombo Sri Lanka | Capitale, citta e aeroporto CMB',
+      description:
+        'Colombo Sri Lanka: hub di arrivo, Sri Jayawardenepura Kotte vs Colombo, tempi dall’aeroporto e tour privato.',
+      keywords: 'colombo, colombo Sri Lanka, capitale Sri Lanka, sri lanka capitale, aeroporto Sri Lanka',
     },
     destNegombo: {
-      title: "Negombo Sri Lanka | Beach Near Airport",
-      description: "Stay in Negombo near Bandaranaike Airport before a private Cultural Triangle or west-coast tour.",
-      keywords: "destNegombo",
+      title: 'Negombo Sri Lanka | Spiaggia vicino all’aeroporto',
+      description:
+        'Negombo Sri Lanka: 20 to 40 minuti da CMB, ideale dopo un volo da Milano prima del tour.',
+      keywords: 'negombo, negombo Sri Lanka, sri lanka negombo',
     },
     destBentota: {
-      title: "Bentota Sri Lanka | West Coast Beach Holidays",
-      description: "Bentota beach holidays with private chauffeur links to Galle and the south coast.",
-      keywords: "destBentota",
+      title: 'Bentota Sri Lanka | Mare della costa ovest',
+      description:
+        'Bentota: spiagge della costa ovest e collegamenti privati verso Galle e il sud.',
+      keywords: 'bentota Sri Lanka, mare Sri Lanka, spiagge Sri Lanka',
     },
     destMirissa: {
-      title: 'Guida a Mirissa Sri Lanka | Avvistamento balene, spiagge e Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Balene, spiaggia e Coconut Tree Hill',
       description:
-        'Organizza Mirissa: stagione di avvistamento balene, Coconut Tree Hill, spiagge e abbinamento con il Forte di Galle su un tour privato della costa sud.',
-      keywords: 'Mirissa Sri Lanka, avvistamento balene Mirissa, Coconut Tree Hill, spiaggia di Mirissa',
+        'Mirissa Sri Lanka: whale watching, spiaggia e abbinamento con Galle o Weligama in un tour privato.',
+      keywords: 'mirissa Sri Lanka, Mirissa, spiagge Sri Lanka, mare Sri Lanka',
+    },
+    destWeligama: {
+      title: 'Weligama Sri Lanka | Surf e baia del sud',
+      description:
+        'Weligama tra Galle e Mirissa: surf per principianti e finale al mare di un tour privato.',
+      keywords: 'weligama, weligama Sri Lanka, surf Sri Lanka, spiagge Sri Lanka',
     },
     destNuwaraEliya: {
       title: "Nuwara Eliya Sri Lanka | Tea Country Highlands",
-      description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill-country itineraries.",
+      description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill country itineraries.",
       keywords: "destNuwaraEliya",
     },
     destAnuradhapura: {
@@ -864,9 +887,10 @@ export const it: Dict = {
       keywords: "destPolonnaruwa",
     },
     destTrincomalee: {
-      title: "Trincomalee Sri Lanka | East Coast Beaches",
-      description: "Trincomalee east-coast beaches and harbour stops on seasonal private itineraries.",
-      keywords: "destTrincomalee",
+      title: 'Trincomalee Sri Lanka | Costa est e Pigeon Island',
+      description:
+        'Trincomalee e Pigeon Island in stagione; Arugam Bay e un’altra tappa est, non un hotel a Trinco.',
+      keywords: 'trincomalee Sri Lanka, pigeon island sri lanka, arugam bay, spiagge Sri Lanka',
     },
     destArugamBay: {
       title: "Arugam Bay Sri Lanka | Surf and East Coast",
@@ -880,19 +904,19 @@ export const it: Dict = {
     },
     guideWhaleWatching: {
       title: "Whale Watching Sri Lanka | Mirissa Guide",
-      description: "Plan Mirissa whale watching on a private south-coast Sri Lanka itinerary.",
+      description: "Plan Mirissa whale watching on a private south coast Sri Lanka itinerary.",
       keywords: "guideWhaleWatching",
     },
     guideTrainJourneys: {
-      title: 'Treni Sri Lanka | Kandy–Ella e regione del tè',
+      title: 'Treni Sri Lanka | Kandy to Ella e regione del te',
       description:
-        'Treno panoramico Kandy–Ella o Nanu Oya–Ella: posti riservati, bagagli con l’autista e come inserirlo in un tour privato.',
+        'Treno panoramico Kandy to Ella o Nanu Oya to Ella: posti riservati, bagagli con l’autista e come inserirlo in un tour privato.',
       keywords: 'treno Kandy Ella, treno Sri Lanka, Nanu Oya Ella, tour privato treno',
     },
     guideHoneymoon: {
       title: 'Luna di miele Sri Lanka | Itinerari privati per coppie',
       description:
-        'Itinerari di nozze privati: Triangolo Culturale, regione del tè, spiaggia sud e autista dedicato. 8–12 giorni, ritmo onesto.',
+        'Itinerari di nozze privati: Triangolo Culturale, regione del te, spiaggia sud e autista dedicato. 8 to 12 giorni, ritmo onesto.',
       keywords: 'luna di miele Sri Lanka, viaggio di nozze privato, tour coppia Sri Lanka',
     },
     guideFamilyTours: {
@@ -906,25 +930,27 @@ export const it: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: 'Transfer aeroporto Sri Lanka | Tempi da CMB',
+      title: 'Aeroporto Sri Lanka | Transfer privato da CMB',
       description:
-        'Transfer privato da Bandaranaike (CMB): tempi per Negombo, Colombo, Waskaduwa, Kandy, Sigiriya e Galle, arrivi notturni e tariffa fissa.',
-      keywords: 'transfer aeroporto Colombo, CMB privato, transfer Negombo, transfer Kalutara',
+        'Aeroporto Sri Lanka (Bandaranaike CMB): tempi per Negombo, Colombo, Kandy e Galle con transfer privato.',
+      keywords: 'aeroporto Sri Lanka, sri lanka aeroporto, transfer Colombo, CMB, Negombo',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
-      description: "Private Sri Lanka tours for travellers from Germany with local chauffeur-guides.",
+      description: "Private Sri Lanka tours for travellers from Germany with local chauffeur guides.",
       keywords: "marketGermany",
     },
     marketFrance: {
-      title: "Sri Lanka Tours from France | Circuits Privés",
+      title: "Sri Lanka Tours from France | Circuits Prives",
       description: "Private Sri Lanka circuits for travellers from France with flexible hotels.",
       keywords: "marketFrance",
     },
     marketItaly: {
-      title: "Sri Lanka Tours from Italy | Private Travel",
-      description: "Tailor-made private Sri Lanka tours for travellers from Italy.",
-      keywords: "marketItaly",
+      title: 'Viaggio Sri Lanka dall’Italia | Quando andare, volo Milano, tour privato',
+      description:
+        'Viaggio in Sri Lanka dall’Italia: durata volo Milano, quando andare, agosto, ETA, Lion Rock, safari e tour con autista dopo CMB.',
+      keywords:
+        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, voli Sri Lanka, cosa vedere Sri Lanka, volo Milano Sri Lanka',
     },
     marketSpain: {
       title: "Sri Lanka Tours from Spain | Private Holidays",
@@ -942,14 +968,14 @@ export const it: Dict = {
       keywords: "marketRussia",
     },
     marketNetherlands: {
-      title: "Sri Lanka Tours from the Netherlands | Privé Rondreizen",
+      title: "Sri Lanka Tours from the Netherlands | Prive Rondreizen",
       description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
       keywords: "marketNetherlands",
     },
     marketUK: {
-      title: "Sri Lanka Tours from the UK | Private Holidays",
-      description: "Private Sri Lanka holidays for travellers from the United Kingdom.",
-      keywords: "marketUK",
+      title: 'Vacanze Sri Lanka dal Regno Unito | Tour privato',
+      description: 'Tour privato in Sri Lanka per viaggiatori dal Regno Unito: autista guida, volo per Colombo e itinerari 7 a 10 giorni.',
+      keywords: 'vacanze Sri Lanka, tour privato, autista guida',
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",
@@ -957,8 +983,8 @@ export const it: Dict = {
       keywords: "marketAustria",
     },
     marketSwitzerland: {
-      title: "Sri Lanka Tours from Switzerland | Tailor-Made Travel",
-      description: "Tailor-made private Sri Lanka travel for visitors from Switzerland.",
+      title: "Sri Lanka Tours from Switzerland | tailor made Travel",
+      description: "tailor made private Sri Lanka travel for visitors from Switzerland.",
       keywords: "marketSwitzerland",
     },
     monthJanuary: {
@@ -997,9 +1023,10 @@ export const it: Dict = {
       keywords: "monthJuly",
     },
     monthAugust: {
-      title: "Sri Lanka in August | Weather and Travel Tips",
-      description: "Travel tips for Sri Lanka in August regions, weather and private itinerary ideas.",
-      keywords: "monthAugust",
+      title: 'Sri Lanka ad agosto | Meteo, costa est e safari',
+      description:
+        'Sri Lanka ad agosto e Sri Lanka agosto: monsone sud ovest, costa est, Lion Rock e safari di stagione secca. Tour privato, non volo.',
+      keywords: 'sri lanka ad agosto, sri lanka agosto, quando andare in Sri Lanka, meteo Sri Lanka',
     },
     monthSeptember: {
       title: "Sri Lanka in September | Weather and Travel Tips",
@@ -1033,7 +1060,7 @@ export const it: Dict = {
     },
     bookingSuccess: {
       title: 'Prenotazione ricevuta | Sundown Tours Sri Lanka',
-      description: 'Grazie per la tua richiesta di tour in Sri Lanka. Il nostro team ti contatterà a breve.',
+      description: 'Grazie per la tua richiesta di tour in Sri Lanka. Il nostro team ti contattera a breve.',
       keywords: '',
     },
   },

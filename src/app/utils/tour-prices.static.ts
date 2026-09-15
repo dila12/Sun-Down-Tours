@@ -1,6 +1,6 @@
 /**
  * Sync 2-person tour prices (USD) for JSON-LD Offer schema.
- * Source of truth remains assets/data/US{filecode}.json — keep in sync when prices change.
+ * Source of truth remains assets/data/US{filecode}.jsonkeep in sync when prices change.
  */
 export const TOUR_OFFER_CURRENCY = 'USD' as const;
 
@@ -25,10 +25,3 @@ export function getTourOfferPriceUsd(pageId: string): number | undefined {
   return price > 0 ? price : undefined;
 }
 
-/** Approximate EUR display helper — backend/price JSON stays USD. */
-export const USD_TO_EUR_RATE = 0.92;
-
-export function formatTourPriceEur(usd: number): string {
-  const eur = Math.round(usd * USD_TO_EUR_RATE);
-  return `€${eur}`;
-}

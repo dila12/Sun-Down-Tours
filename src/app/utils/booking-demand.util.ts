@@ -110,7 +110,7 @@ function addDays(from: Date, days: number): Date {
   return d;
 }
 
-/** Fri / Sat / Sun — common private-tour start days (slightly denser warnings). */
+/** Fri / Sat / Suncommon private-tour start days (slightly denser warnings). */
 function isNiceTravelStart(date: Date): boolean {
   const dow = date.getDay();
   return dow === 0 || dow === 5 || dow === 6;
@@ -265,7 +265,7 @@ export function listTourDemandHints(tourKey: string, now = new Date()): TourDema
   return items;
 }
 
-/** @deprecated kept for any leftover callers — prefer listTourDemandHints / dayDemandFor */
+/** @deprecated kept for any leftover callersprefer listTourDemandHints / dayDemandFor */
 export interface TourWarningSchedule {
   demand: string[];
   lastSpot: string[];

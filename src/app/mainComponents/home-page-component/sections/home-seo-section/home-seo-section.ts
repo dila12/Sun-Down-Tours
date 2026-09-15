@@ -15,10 +15,10 @@ import { HOME_SEO } from './home-seo.content';
 export class HomeSeoSectionComponent {
   private readonly i18n = inject(LocaleService);
 
-  /** Locale-aware content model (reacts to the active locale signal). */
+  /** Locale aware content model (reacts to the active locale signal). */
   readonly content = computed(() => HOME_SEO[this.i18n.locale()]);
 
-  /** Locale-correct, language-prefixed internal link for a page id. */
+  /** Locale correct, language prefixed internal link for a page id. */
   path(pageId: string): string {
     return this.i18n.path(pageId);
   }

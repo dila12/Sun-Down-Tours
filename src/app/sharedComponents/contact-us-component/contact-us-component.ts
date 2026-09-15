@@ -30,6 +30,7 @@ import {
 } from '../../i18n/site-contact';
 import { FaqSectionComponent } from '../faq-section/faq-section';
 import { SocialIconComponent } from '../social-icon/social-icon';
+import { trackContactFormSubmit } from '../../utils/third-party-scripts.util';
 
 interface DialCountry {
   name: string;
@@ -38,7 +39,7 @@ interface DialCountry {
   flag?: string;
 }
 
-/** First-paint list — full ISO file loads when the select is opened. */
+/** First-paint listfull ISO file loads when the select is opened. */
 const PRIORITY_COUNTRIES: DialCountry[] = [
   { name: 'Sri Lanka', dial_code: '+94', code: 'LK' },
   { name: 'United Kingdom', dial_code: '+44', code: 'GB' },
@@ -168,6 +169,7 @@ export class ContactUsComponent {
         this.submitOk = true;
         this.successMessage = this.i18n.t('contact.form.success');
         this.toastr.success(this.i18n.t('contact.form.successToast'));
+        trackContactFormSubmit();
         this.contactForm.reset();
         this.clearStatusLater();
         this.cdr.markForCheck();

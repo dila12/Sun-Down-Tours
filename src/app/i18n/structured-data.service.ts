@@ -32,11 +32,11 @@ const LOGO = `${BASE_URL}/assets/img/favicon.png`;
 const CONTENT_NS = ['home', 'about', 'services', 'tours', 'contact'] as const;
 
 /**
- * Builds and injects the per-page, per-locale JSON-LD `@graph`:
+ * Builds and injects the per page, per locale JSON LD `@graph`:
  * TravelAgency + LocalBusiness, Organization, WebSite, BreadcrumbList,
  * FAQPage and (for tours) a Product/TouristTrip with Offer (no AggregateRating).
  * Destinations emit TouristDestination; guides emit Article.
- * SSR-safe via the injected DOCUMENT.
+ * SSR safe via the injected DOCUMENT.
  */
 @Injectable({ providedIn: 'root' })
 export class StructuredDataService {
@@ -98,7 +98,27 @@ export class StructuredDataService {
       email: SITE_EMAIL,
       priceRange: '$$',
       description: this.i18n.t('seo.home.description', locale),
-      areaServed: 'Sri Lanka',
+      alternateName: 'Sri Lanka Private Tours',
+      knowsAbout: [
+        'Sri Lanka tours',
+        'Sri Lanka tour packages',
+        'Sri Lanka holidays',
+        'private chauffeur tours',
+        'Yala safari',
+        'Sigiriya',
+        'Ella train journey',
+      ],
+      areaServed: [
+        { '@type': 'Country', name: 'Sri Lanka' },
+        { '@type': 'Country', name: 'United Kingdom' },
+        { '@type': 'Country', name: 'Germany' },
+        { '@type': 'Country', name: 'France' },
+        { '@type': 'Country', name: 'Italy' },
+        { '@type': 'Country', name: 'Spain' },
+        { '@type': 'Country', name: 'Netherlands' },
+        { '@type': 'Country', name: 'Switzerland' },
+        { '@type': 'Country', name: 'Poland' },
+      ],
       address: {
         '@type': 'PostalAddress',
         streetAddress: SITE_ADDRESS_STREET,
@@ -137,10 +157,10 @@ export class StructuredDataService {
       url: BASE_URL,
       logo: { '@type': 'ImageObject', url: LOGO },
       description: this.i18n.t('seo.about.description', locale),
-      founder: { '@id': `${BASE_URL}/#person-dilan-lakshitha` },
+      founder: { '@id': `${BASE_URL}/#person dilan lakshitha` },
       employee: [
-        { '@id': `${BASE_URL}/#person-dilan-lakshitha` },
-        { '@id': `${BASE_URL}/#person-yohan-malshika` },
+        { '@id': `${BASE_URL}/#person dilan lakshitha` },
+        { '@id': `${BASE_URL}/#person yohan malshika` },
       ],
       address: {
         '@type': 'PostalAddress',
@@ -166,7 +186,7 @@ export class StructuredDataService {
     return [
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person-dilan-lakshitha`,
+        '@id': `${BASE_URL}/#person dilan lakshitha`,
         name: 'Dilan Lakshitha',
         jobTitle: 'Owner & Founder',
         worksFor: { '@id': `${BASE_URL}/#organization` },
@@ -180,7 +200,7 @@ export class StructuredDataService {
       },
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person-yohan-malshika`,
+        '@id': `${BASE_URL}/#person yohan malshika`,
         name: 'Yohan Malshika',
         jobTitle: 'Senior Consultant',
         worksFor: { '@id': `${BASE_URL}/#organization` },
@@ -197,6 +217,7 @@ export class StructuredDataService {
       '@id': `${BASE_URL}/#website`,
       url: BASE_URL,
       name: SITE_BRAND,
+      alternateName: 'Sri Lanka Tours',
       inLanguage: LOCALE_META[locale].htmlLang,
       publisher: { '@id': `${BASE_URL}/#organization` },
     };
@@ -472,7 +493,7 @@ export class StructuredDataService {
     script.textContent = JSON.stringify(data);
   }
 
-  /** Remove JSON-LD on 404 so soft-home schema is not emitted for unknown URLs. */
+  /** Remove JSON LD on 404 so soft home schema is not emitted for unknown URLs. */
   clear(): void {
     const script = this.doc.getElementById(SCRIPT_ID);
     if (script) {

@@ -1,7 +1,7 @@
 /**
  * HTTP 301 redirect map for legacy slugs + dormant locale prefixes.
  * Consumed by Express (`server.ts`) and `scripts/generate-vercel-redirects.mjs`.
- * Does not strip or redirect Dutch — `/nl/*` stays available in the UI.
+ * Does not strip or redirect Dutch`/nl/*` stays available in the UI.
  */
 import {
   DEFAULT_LOCALE,
@@ -16,7 +16,7 @@ import {
 const DORMANT_SET = new Set(DORMANT_LOCALE_PREFIXES);
 
 /**
- * Fixed path redirects (not locale-prefixed). Keep `/fr/contact` alone — FR slug is `contact`.
+ * Fixed path redirects (not locale-prefixed). Keep `/fr/contact` aloneFR slug is `contact`.
  * @type {Record<string, string>}
  */
 const STATIC_PATH_REDIRECTS = {
@@ -26,8 +26,15 @@ const STATIC_PATH_REDIRECTS = {
   '/packages': '/sri-lanka-private-tour',
   '/tour-packages': '/sri-lanka-private-tour',
   '/tours': '/sri-lanka-private-tour',
+  '/sri-lanka-tours': '/sri-lanka-private-tour',
+  '/sri-lanka-tour-packages': '/sri-lanka-private-tour',
+  '/sri-lanka-holidays': '/sri-lanka-private-tour',
+  '/sri-lanka-vacation': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
   '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
+  // Old Italian hub (`guides`) + draft slugs that 500 today instead of 301.
+  '/it/guides/osservazione-balene-sri-lanka': '/it/guide/avvistamento-balene-sri-lanka',
+  '/it/guides/trasferte-aeroporto-sri-lanka': '/it/guide/transfer-aeroporto-sri-lanka',
 };
 
 /**
@@ -125,7 +132,7 @@ export function resolveEdgeRedirect(pathname, map = buildEdgeRedirectMap()) {
 
 /**
  * Vercel catch-all 301s for every dormant locale prefix.
- * `/:code/` is listed explicitly — `/:code` does not match a trailing slash,
+ * `/:code/` is listed explicitly`/:code` does not match a trailing slash,
  * and `/:code/:path*` requires at least one extra segment.
  * @returns {{ source: string, destination: string, permanent: boolean }[]}
  */

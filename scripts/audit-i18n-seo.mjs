@@ -7,7 +7,7 @@ import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
 
-// Dynamic TS content is not loaded here — check slugs only + list expected seo ids.
+// Dynamic TS content is not loaded herecheck slugs only + list expected seo ids.
 const missingSlugs = [];
 for (const page of PAGES) {
   for (const locale of LOCALES) {

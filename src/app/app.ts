@@ -22,6 +22,7 @@ import { localeFromUrl, type Locale } from './i18n/locales';
 
 import {
   acceptAnalyticsConsent,
+  bindWhatsAppConversionClicks,
   hasConsentChoice,
   initializeGoogleAnalytics,
   initializeGoogleConsent,
@@ -102,6 +103,7 @@ export class AppComponent implements OnInit {
     this.cdr.markForCheck();
     initializeGoogleAnalytics();
     initializeSpeedInsights();
+    bindWhatsAppConversionClicks();
     scheduleDeferredAssets();
   }
 

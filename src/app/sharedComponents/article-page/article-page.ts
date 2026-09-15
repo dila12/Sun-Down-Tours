@@ -57,7 +57,7 @@ export class ArticlePageComponent implements OnInit {
     const locale = (this.route.snapshot.data['locale'] as Locale | undefined) ?? this.i18n.locale();
     if (pageKind === 'destination' || pageKind === 'guide') {
       this.kind = pageKind;
-      // Prefer a sync re-localize for the route locale — resolver data can be
+      // Prefer a sync re-localize for the route localeresolver data can be
       // English if LocaleService had not synced yet when the resolver ran.
       this.article =
         this.articles.get(this.pageId, locale) ??

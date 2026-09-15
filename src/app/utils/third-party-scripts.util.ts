@@ -1,6 +1,6 @@
 const GA_MEASUREMENT_ID = 'G-MLGT0JLHNQ';
 /**
- * Real Google Ads conversion ID only — never ship the placeholder AW-1234567890.
+ * Real Google Ads conversion ID onlynever ship the placeholder AW-1234567890.
  * Leave empty until a production Ads account ID is configured.
  */
 const GOOGLE_ADS_ID: string = '';
@@ -156,26 +156,79 @@ function configureGoogleTags(): void {
   }
 }
 
-export function trackBookingConversion(
-  orderNumber: string,
-  value: number,
-  _currency: string = 'USD',
-): void {
-  if (!isBrowser() || !orderNumber || value <= 0) {
+function sendGaEvent(eventName: string, params: Record<string, unknown> = {}): void {
+  if (!isBrowser()) {
     return;
   }
   if (!analyticsAllowed(getStoredConsent())) {
     return;
   }
   ensureGtag();
+  window.gtag?.('event', eventName, params);
+}
+
+/** WhatsApp tapimport this event in Google Ads as Contact. */
+export function trackWhatsAppClick(): void {
+  sendGaEvent('whatsapp_click');
+}
+
+/** Contact form email sentimport in Google Ads as Submit lead form. */
+export function trackContactFormSubmit(): void {
+  sendGaEvent('contact_form_submit');
+}
+
+/**
+ * Booking thank-you page. Event name matches the existing Ads import
+ * `tour_booking_success`.
+ */
+export function trackBookingConversion(
+  orderNumber: string,
+  value: number,
+  currency: string = 'USD',
+): void {
+  if (!isBrowser() || !orderNumber) {
+    return;
+  }
   const conversionKey = `booking_conversion_${orderNumber}`;
 
   if (sessionStorage.getItem(conversionKey)) {
     return;
   }
 
-  // Conversion send_to requires a real Ads ID + label — intentionally not wired to a placeholder.
   sessionStorage.setItem(conversionKey, 'true');
+  const params: Record<string, unknown> = {
+    transaction_id: orderNumber,
+    currency,
+  };
+  if (value > 0) {
+    params['value'] = value;
+  }
+  sendGaEvent('tour_booking_success', params);
+}
+
+let whatsappClicksBound = false;
+
+/** One listener for every wa.me / WhatsApp link on the site. */
+export function bindWhatsAppConversionClicks(): void {
+  if (!isBrowser() || whatsappClicksBound) {
+    return;
+  }
+  whatsappClicksBound = true;
+  document.addEventListener(
+    'click',
+    (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) {
+        return;
+      }
+      const link = target.closest('a');
+      const href = link?.getAttribute('href') ?? '';
+      if (/wa\.me|whatsapp\.com|api\.whatsapp/i.test(href)) {
+        trackWhatsAppClick();
+      }
+    },
+    true,
+  );
 }
 
 export function hasConsentChoice(): boolean {
@@ -205,7 +258,7 @@ export function rejectAnalyticsConsent(): void {
 }
 
 /**
- * Vercel Speed Insights — samples Core Web Vitals on production only.
+ * Vercel Speed Insightssamples Core Web Vitals on production only.
  * Loads after analytics consent; no-op in local development.
  */
 export function initializeSpeedInsights(): void {

@@ -1,8 +1,8 @@
 /**
  * Typed locale facade for the Angular app.
  *
- * Raw locale/slug data lives in `site-data.mjs` (shared with the Node build
- * scripts). This module adds the app-only, strongly typed metadata (labels,
+ * Raw locale/slug data lives in `site data.mjs` (shared with the Node build
+ * scripts). This module adds the app only, strongly typed metadata (labels,
  * flags, og:locale) plus small helpers.
  */
 
@@ -37,9 +37,9 @@ export interface LocaleMeta {
 export const LOCALE_META: Record<Locale, LocaleMeta> = {
   en: { code: 'en', label: 'English', flag: 'gb', ogLocale: 'en_GB', htmlLang: 'en' },
   de: { code: 'de', label: 'Deutsch', flag: 'de', ogLocale: 'de_DE', htmlLang: 'de' },
-  fr: { code: 'fr', label: 'Français', flag: 'fr', ogLocale: 'fr_FR', htmlLang: 'fr' },
+  fr: { code: 'fr', label: 'Francais', flag: 'fr', ogLocale: 'fr_FR', htmlLang: 'fr' },
   it: { code: 'it', label: 'Italiano', flag: 'it', ogLocale: 'it_IT', htmlLang: 'it' },
-  es: { code: 'es', label: 'Español', flag: 'es', ogLocale: 'es_ES', htmlLang: 'es' },
+  es: { code: 'es', label: 'Espanol', flag: 'es', ogLocale: 'es_ES', htmlLang: 'es' },
   pl: { code: 'pl', label: 'Polski', flag: 'pl', ogLocale: 'pl_PL', htmlLang: 'pl' },
   ru: { code: 'ru', label: 'Русский', flag: 'ru', ogLocale: 'ru_RU', htmlLang: 'ru' },
   nl: { code: 'nl', label: 'Nederlands', flag: 'nl', ogLocale: 'nl_NL', htmlLang: 'nl' },
@@ -55,7 +55,7 @@ export function isIndexableLocale(locale: Locale): boolean {
 
 /**
  * Parses the active locale from a URL path. The first path segment is treated
- * as a locale prefix only when it matches a known non-default locale.
+ * as a locale prefix only when it matches a known non default locale.
  */
 export function localeFromUrl(url: string): Locale {
   const clean = (url || '/').split('#')[0].split('?')[0];

@@ -33,10 +33,30 @@ export function scheduleDeferredAssets(): void {
     injectStylesheet(DEFERRED_BOOTSTRAP_STYLESHEET);
   };
 
-  // Interaction only — a load-timer pulled these into Lighthouse's unused-CSS audit.
+  // Interaction is the fastest trigger, but it cannot be the only one: the icon
+  // webfont lives here, so waiting for a click leaves every icon blank on arrival.
   const events = ['pointerdown', 'click', 'touchstart', 'keydown'] as const;
   const opts: AddEventListenerOptions = { passive: true, once: true };
   events.forEach((event) => {
     window.addEventListener(event, load, opts);
   });
+
+  // Otherwise pick them up once the page is idle, which keeps them off the
+  // critical path while still resolving icons without any user action.
+  const loadWhenIdle = () => {
+    const idle = (window as Window & { requestIdleCallback?: typeof requestIdleCallback })
+      .requestIdleCallback;
+    // Wait past typical LCP (~3–4s on Slow 4G) so FA/deferred.css stay off the LCP chain.
+    if (typeof idle === 'function') {
+      idle(() => load(), { timeout: 4500 });
+    } else {
+      window.setTimeout(load, 4000);
+    }
+  };
+
+  if (document.readyState === 'complete') {
+    loadWhenIdle();
+  } else {
+    window.addEventListener('load', loadWhenIdle, { once: true });
+  }
 }

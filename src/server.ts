@@ -101,7 +101,7 @@ app.use((req, res, next) => {
         next(err);
         return;
       }
-      // Never 500 unknown URLs — Googlebot treats 5xx as a site outage.
+      // Never 500 unknown URLsGooglebot treats 5xx as a site outage.
       res
         .status(404)
         .type('text/html; charset=utf-8')

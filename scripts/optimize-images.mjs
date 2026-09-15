@@ -13,7 +13,7 @@ const WIDTHS = [320, 400, 640, 960, 1280, 1600, 1920];
 /** Homepage LCP / carousel. */
 const HERO_PATTERNS = [/mainpage\//i, /carousel/i, /destination-\d/i];
 
-/** Tour gallery & package hero imagery — keep crisp on desktop/retina. */
+/** Tour gallery & package hero imagerykeep crisp on desktop/retina. */
 const GALLERY_PATTERNS = [
   /5daysTours\//i,
   /SixdaysTous\//i,
@@ -26,16 +26,22 @@ const GALLERY_PATTERNS = [
 ];
 
 const HERO_MAX_KB = 380;
-/** Gallery masters stay premium — avoid soft mid-size compression. */
+/** Gallery masters stay premiumavoid soft mid-size compression. */
 const GALLERY_MAX_KB = 520;
 const OTHER_MAX_KB = 180;
 const QUALITY_FLOOR = 88;
 const WEBP_START = 93;
 const AVIF_START = 84;
-/** Skip AVIF when even high-quality encode is still soft vs WebP — require AVIF quality >= 80. */
+/** Skip AVIF when even high-quality encode is still soft vs WebPrequire AVIF quality >= 80. */
 const AVIF_MIN_QUALITY = 80;
+/** Homepage LCP AVIFsmatch displayed CSS pixels (PSI “Improve image delivery”). */
+const LCP_AVIF_960_MAX_KB = 14;
+const LCP_AVIF_MOBILE_400_MAX_KB = 22;
+const LCP_AVIF_MIN_QUALITY = 36;
+/** Homepage tour-card thumbs (~320 CSS px). */
+const CARD_AVIF_320_MAX_KB = 10;
 const FORMATS = ['webp', 'avif'];
-/** Cap masters at Full HD — sharp on desktop/retina without huge payloads. */
+/** Cap masters at Full HDsharp on desktop/retina without huge payloads. */
 const MASTER_MAX_WIDTH = 1920;
 
 async function walk(dir) {
@@ -65,16 +71,19 @@ function maxKbFor(kind) {
   return OTHER_MAX_KB;
 }
 
-async function optimizeToTarget(buffer, maxKb, width, format) {
+async function optimizeToTarget(buffer, maxKb, width, format, opts = {}) {
   let quality = format === 'avif' ? AVIF_START : WEBP_START;
-  const floor = format === 'avif' ? Math.max(QUALITY_FLOOR, AVIF_MIN_QUALITY) : QUALITY_FLOOR;
+  const floor =
+    opts.minQuality ??
+    (format === 'avif' ? Math.max(QUALITY_FLOOR, AVIF_MIN_QUALITY) : QUALITY_FLOOR);
+  const avifEffort = opts.effort ?? 5;
 
   const encode = (q) => {
     const pipeline = sharp(buffer)
       .rotate()
       .resize({ width, withoutEnlargement: true, kernel: sharp.kernel.lanczos3 });
     if (format === 'avif') {
-      return pipeline.avif({ quality: q, effort: 5, chromaSubsampling: '4:2:0' }).toBuffer();
+      return pipeline.avif({ quality: q, effort: avifEffort, chromaSubsampling: '4:2:0' }).toBuffer();
     }
     return pipeline.webp({ quality: q, effort: 4, smartSubsample: true }).toBuffer();
   };
@@ -97,7 +106,7 @@ async function removeStaleVariants(dir, baseName) {
       continue;
     }
     const variant = name.match(new RegExp(`^${escapeRegExp(baseName)}-(\\d+)w\\.(webp|avif)$`, 'i'));
-    // Keep hand-tuned logo thumbs (64/80/160) — WIDTHS starts at 320.
+    // Keep hand-tuned logo thumbs (64/80/160)WIDTHS starts at 320.
     if (variant && Number(variant[1]) >= 320) {
       await unlink(join(dir, name));
     }
@@ -108,9 +117,13 @@ function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format) {
+async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format, rel = '') {
   const ext = `.${format}`;
   const mainOut = join(dir, `${baseName}${ext}`);
+  const relPosix = rel.replace(/\\/g, '/');
+  const isLcpHero = /mainpage[/\\](1|hero-slide-boards)\.(jpe?g|png)$/i.test(relPosix);
+  const isLcpMobile = /mainpage[/\\]hero-slide-boards-mobile\.(jpe?g|png)$/i.test(relPosix);
+  const isCardThumb = /\/package-\d+\.(jpe?g|png)$/i.test(relPosix);
   const { buffer: mainBuf, quality: mainQ } = await optimizeToTarget(
     buffer,
     maxKb,
@@ -118,7 +131,7 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     format,
   );
 
-  // Drop AVIF if quality had to fall to the floor and file is still huge relative to soft — keep only excellent AVIF.
+  // Drop AVIF if quality had to fall to the floor and file is still huge relative to softkeep only excellent AVIF.
   if (format === 'avif' && mainQ < AVIF_MIN_QUALITY) {
     return { skipped: true, bytes: 0, quality: mainQ };
   }
@@ -130,8 +143,30 @@ async function writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format
     if (w > maxWidth) continue;
     const variantOut = join(dir, `${baseName}-${w}w${ext}`);
     // Thumbnails (320) can use a slightly tighter budget; main/hero widths keep quality.
-    const variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
-    const { buffer: variantBuf } = await optimizeToTarget(buffer, variantMax, w, format);
+    let variantMax = w <= 400 ? Math.min(maxKb, 48) : maxKb;
+    const lcpOpts = {};
+    if (format === 'avif' && isLcpHero && w === 960) {
+      variantMax = LCP_AVIF_960_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    if (format === 'avif' && isLcpMobile && w === 400) {
+      variantMax = LCP_AVIF_MOBILE_400_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    if (format === 'avif' && isCardThumb && w === 320) {
+      variantMax = CARD_AVIF_320_MAX_KB;
+      lcpOpts.minQuality = LCP_AVIF_MIN_QUALITY;
+      lcpOpts.effort = 6;
+    }
+    const { buffer: variantBuf } = await optimizeToTarget(
+      buffer,
+      variantMax,
+      w,
+      format,
+      lcpOpts,
+    );
     await sharp(variantBuf).toFile(variantOut);
   }
 
@@ -153,7 +188,7 @@ async function processImage(filePath) {
 
   const sizes = {};
   for (const format of FORMATS) {
-    sizes[format] = await writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format);
+    sizes[format] = await writeFormatOutputs(buffer, dir, baseName, maxKb, maxWidth, format, rel);
   }
 
   const webp = sizes.webp;

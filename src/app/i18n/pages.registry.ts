@@ -82,6 +82,8 @@ export const PAGE_LOADERS: Record<string, ComponentLoader> = {
   destNegombo: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destBentota: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destMirissa: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destHiriketiya: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
+  destWeligama: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destNuwaraEliya: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destAnuradhapura: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),
   destPolonnaruwa: () => import('../sharedComponents/article-page/article-page').then((m) => m.ArticlePageComponent),

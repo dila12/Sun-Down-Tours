@@ -27,6 +27,14 @@ const GUIDE_HERO_IMAGES = {
   guideFood: 'assets/img/5daysTours/9.webp',
   guidePacking: 'assets/img/5daysTours/17.webp',
   guideSafety: 'assets/img/5daysTours/26.webp',
+  marketUK: 'assets/img/package-2.webp',
+  marketGermany: 'assets/img/package-2.webp',
+  marketFrance: 'assets/img/package-2.webp',
+  marketItaly: 'assets/img/package-2.webp',
+  marketSpain: 'assets/img/package-2.webp',
+  marketPoland: 'assets/img/package-2.webp',
+  marketRussia: 'assets/img/package-2.webp',
+  monthAugust: 'assets/img/mainpage/1.webp',
   guides: 'assets/img/mainpage/1.webp',
 };
 

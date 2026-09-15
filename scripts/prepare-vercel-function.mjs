@@ -1,6 +1,6 @@
 /**
  * Vercel packages `includeFiles` into the SSR function (250 MB limit).
- * `excludeFiles` is unreliable — do not depend on it.
+ * `excludeFiles` is unreliabledo not depend on it.
  *
  * Strategy:
  * 1. Keep `dist/Travelwebsite/browser` intact (with assets/img) → CDN via
@@ -58,7 +58,7 @@ if (!existsSync(imgBrowser) && existsSync(imgPublic)) {
 }
 
 if (!existsSync(imgBrowser)) {
-  console.warn('[prepare-vercel] Warning: browser/assets/img missing — CDN images will 404.');
+  console.warn('[prepare-vercel] Warning: browser/assets/img missingCDN images will 404.');
 }
 
 if (existsSync(ssrBundle)) {

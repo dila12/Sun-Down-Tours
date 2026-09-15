@@ -1,5 +1,5 @@
 /**
- * Structural tour catalog — NO visible marketing copy.
+ * Structural tour catalogNO visible marketing copy.
  * Titles, day labels, persons, overview, itinerary prose etc. live in
  * locale content (`cards.ts` + per-tour content files).
  */

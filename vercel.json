@@ -538,6 +538,16 @@
       "permanent": true
     },
     {
+      "source": "/it/guides/osservazione-balene-sri-lanka",
+      "destination": "/it/guide/avvistamento-balene-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/it/guides/trasferte-aeroporto-sri-lanka",
+      "destination": "/it/guide/transfer-aeroporto-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/it/kandy-day-tour",
       "destination": "/it/escursione-giornaliera-kandy",
       "permanent": true
@@ -1078,6 +1088,11 @@
       "permanent": true
     },
     {
+      "source": "/sri-lanka-holidays",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
       "source": "/sri-lanka-packing-guide",
       "destination": "/travel-guides/sri-lanka-packing-guide",
       "permanent": true
@@ -1103,8 +1118,23 @@
       "permanent": true
     },
     {
+      "source": "/sri-lanka-tour-packages",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-tours",
+      "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
       "source": "/sri-lanka-travel-guides",
       "destination": "/travel-guides",
+      "permanent": true
+    },
+    {
+      "source": "/sri-lanka-vacation",
+      "destination": "/sri-lanka-private-tour",
       "permanent": true
     },
     {
@@ -1134,6 +1164,33 @@
     }
   ],
   "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap-index.xml",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap-images.xml",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
     {
       "source": "/assets/(.*)",
       "headers": [

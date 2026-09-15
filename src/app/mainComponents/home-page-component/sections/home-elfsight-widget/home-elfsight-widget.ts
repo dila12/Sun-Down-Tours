@@ -27,8 +27,10 @@ export class HomeElfsightWidgetComponent implements AfterViewInit, OnDestroy {
 
   widgetReady = false;
   private scriptLoading = false;
+  private destroyed = false;
   private intersectionObserver?: IntersectionObserver;
   private mutationObserver?: MutationObserver;
+  private heightObserver?: ResizeObserver;
   private renderTimeout?: ReturnType<typeof setTimeout>;
 
   constructor(
@@ -133,11 +135,46 @@ export class HomeElfsightWidgetComponent implements AfterViewInit, OnDestroy {
   private markReady() {
     this.widgetReady = true;
     this.cdr.markForCheck();
+    if (typeof requestAnimationFrame === 'function') {
+      requestAnimationFrame(() => this.watchWidgetHeight());
+    } else {
+      this.watchWidgetHeight();
+    }
+  }
+
+  /** Keep the host as tall as Elfsight’s rendered cards so nothing is clipped. */
+  private watchWidgetHeight() {
+    const host = this.elfsightHost?.nativeElement;
+    const widget = host?.querySelector(WIDGET_SELECTOR) as HTMLElement | null;
+    if (!host || !widget || typeof ResizeObserver === 'undefined') {
+      return;
+    }
+
+    const apply = () => {
+      if (this.destroyed) return;
+      const height = Math.ceil(Math.max(widget.scrollHeight, widget.getBoundingClientRect().height));
+      if (height > 80) {
+        host.style.minHeight = `${height}px`;
+      }
+    };
+
+    this.heightObserver?.disconnect();
+    this.heightObserver = new ResizeObserver(apply);
+    this.heightObserver.observe(widget);
+    const iframe = widget.querySelector('iframe');
+    if (iframe) {
+      this.heightObserver.observe(iframe);
+    }
+    apply();
+    setTimeout(apply, 400);
+    setTimeout(apply, 1600);
   }
 
   ngOnDestroy() {
+    this.destroyed = true;
     this.intersectionObserver?.disconnect();
     this.mutationObserver?.disconnect();
+    this.heightObserver?.disconnect();
     if (this.renderTimeout) clearTimeout(this.renderTimeout);
   }
 }

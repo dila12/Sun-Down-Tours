@@ -420,12 +420,32 @@ body { top: 0px !important; }
   padding: 0;
 }
 
+/* Hover via transform onlyBootstrap .btn animates `color`, which Lighthouse flags as non-composited. */
+.layout-socials a.btn.btn-square,
+a.btn.btn-square {
+  transition: transform 0.15s ease;
+}
+
+.layout-socials a.btn.btn-square:hover,
+.layout-socials a.btn.btn-square:focus-visible,
+a.btn.btn-square:hover,
+a.btn.btn-square:focus-visible {
+  transform: scale(1.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layout-socials a.btn.btn-square,
+  a.btn.btn-square {
+    transition: none;
+  }
+}
+
 .navbar-color .btn-square app-social-icon,
 .whatsapp-float app-social-icon {
   font-size: inherit;
 }
 
-/* Footer newsletter — minimal form styles until deferred Bootstrap CSS loads */
+/* Footer newsletterminimal form styles until deferred Bootstrap CSS loads */
 .input-group {
   display: flex;
   flex-wrap: wrap;

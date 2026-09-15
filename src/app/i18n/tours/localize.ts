@@ -1,7 +1,7 @@
 import type { Locale } from '../locales';
 
 /**
- * Locale-overlay system for tour itineraries.
+ * Locale overlay system for tour itineraries.
  *
  * English (`en`) is the complete structural base (text + images + icons).
  * Other locales overlay visible text by index. Missing strings fall back to English.
@@ -73,7 +73,7 @@ export interface BaseTour {
 }
 
 /**
- * Per-tour content: English is the full structural base; other locales overlay text.
+ * Per tour content: English is the full structural base; other locales overlay text.
  */
 export type TourContent = {
   en: BaseTour;

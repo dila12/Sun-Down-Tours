@@ -14,7 +14,7 @@ import {
   SITE_WHATSAPP_URL,
 } from '../../i18n/site-contact';
 
-/** Small navbar logo — never fall back to the 1024×1024 PNG master. */
+/** Small navbar logonever fall back to the 1024×1024 PNG master. */
 const LOGO_64 = '/assets/img/logos/2-64w.webp';
 const LOGO_80 = '/assets/img/logos/2-80w.webp';
 
@@ -42,7 +42,7 @@ export class LayoutComponent {
   navOpen = false;
   langMenuOpen = false;
   readonly logoSrc = withImageVersion(LOGO_80);
-  /** 64/80 only — 160w is ~15KB and oversized for the 32px/80px slot. */
+  /** 64/80 only160w is ~15KB and oversized for the 32px/80px slot. */
   readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w`;
   readonly logoSizes = '(max-width: 767px) 32px, 80px';
 

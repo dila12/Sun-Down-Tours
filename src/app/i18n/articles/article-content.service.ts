@@ -39,13 +39,15 @@ const ARTICLE_LOADERS: Record<string, ArticleLoader> = {
   guideSafety: () => import('../guides/safety').then((m) => m.SAFETY_GUIDE),
 
   // P2 scaffolds (destinations, activities, markets, months)
-  destColombo: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destColombo']),
-  destNegombo: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destNegombo']),
-  destBentota: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destBentota']),
+  destColombo: () => import('../destinations/colombo').then((m) => m.COLOMBO_DEST),
+  destHiriketiya: () => import('../destinations/hiriketiya').then((m) => m.HIRIKETIYA_DEST),
+  destNegombo: () => import('../destinations/negombo').then((m) => m.NEGOMBO_DEST),
+  destBentota: () => import('../destinations/bentota').then((m) => m.BENTOTA_DEST),
   destNuwaraEliya: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destNuwaraEliya']),
   destAnuradhapura: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destAnuradhapura']),
   destPolonnaruwa: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destPolonnaruwa']),
-  destTrincomalee: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destTrincomalee']),
+  destTrincomalee: () => import('../destinations/trincomalee').then((m) => m.TRINCOMALEE_DEST),
+  destWeligama: () => import('../destinations/weligama').then((m) => m.WELIGAMA_DEST),
   destArugamBay: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destArugamBay']),
   destKalpitiya: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['destKalpitiya']),
   guideWhaleWatching: () => import('../guides/whaleWatching').then((m) => m.WHALE_WATCHING_GUIDE),
@@ -54,14 +56,14 @@ const ARTICLE_LOADERS: Record<string, ArticleLoader> = {
   guideFamilyTours: () => import('../guides/familyTours').then((m) => m.FAMILY_TOURS_GUIDE),
   guideLuxuryTours: () => import('../guides/luxuryTours').then((m) => m.LUXURY_TOURS_GUIDE),
   guideAirportTransfers: () => import('../guides/airportTransfers').then((m) => m.AIRPORT_TRANSFERS_GUIDE),
-  marketGermany: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketGermany']),
-  marketFrance: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketFrance']),
-  marketItaly: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketItaly']),
-  marketSpain: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketSpain']),
-  marketPoland: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketPoland']),
-  marketRussia: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketRussia']),
+  marketGermany: () => import('../guides/germanyFromDe').then((m) => m.GERMANY_FROM_DE_GUIDE),
+  marketFrance: () => import('../guides/franceFromFr').then((m) => m.FRANCE_FROM_FR_GUIDE),
+  marketItaly: () => import('../guides/italyFromIt').then((m) => m.ITALY_FROM_IT_GUIDE),
+  marketSpain: () => import('../guides/spainFromEs').then((m) => m.SPAIN_FROM_ES_GUIDE),
+  marketPoland: () => import('../guides/polandFromPl').then((m) => m.POLAND_FROM_PL_GUIDE),
+  marketRussia: () => import('../guides/russiaFromRu').then((m) => m.RUSSIA_FROM_RU_GUIDE),
   marketNetherlands: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketNetherlands']),
-  marketUK: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketUK']),
+  marketUK: () => import('../guides/ukFromUk').then((m) => m.UK_FROM_UK_GUIDE),
   marketAustria: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketAustria']),
   marketSwitzerland: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketSwitzerland']),
   monthJanuary: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthJanuary']),
@@ -71,7 +73,7 @@ const ARTICLE_LOADERS: Record<string, ArticleLoader> = {
   monthMay: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthMay']),
   monthJune: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthJune']),
   monthJuly: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthJuly']),
-  monthAugust: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthAugust']),
+  monthAugust: () => import('../guides/monthAugust').then((m) => m.MONTH_AUGUST_GUIDE),
   monthSeptember: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthSeptember']),
   monthOctober: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthOctober']),
   monthNovember: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['monthNovember']),
@@ -92,7 +94,7 @@ export class ArticleContentService {
     return pageId in ARTICLE_LOADERS;
   }
 
-  /** Sync read — returns null until {@link preload} / {@link resolve} has run. */
+  /** Sync readreturns null until {@link preload} / {@link resolve} has run. */
   get(pageId: string, locale: Locale = this.i18n.locale()): BaseArticle | null {
     const entry = this.entries.get(pageId);
     if (!entry) {

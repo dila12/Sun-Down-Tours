@@ -125,7 +125,7 @@
       </div>
     </aside>
 
-    <!-- Group booking: 7+ travelers — contact team, no price / no online checkout -->
+    <!-- Group booking: 7+ travelerscontact team, no price / no online checkout -->
     <div *ngIf="isGroupBooking" class="group-contact-panel">
       <div class="group-contact-panel__icon">
         <i class="fa fa-users"></i>
@@ -152,7 +152,7 @@
       </p>
     </div>
 
-    <!-- Standard online booking: 1–6 travelers (warnings never block checkout) -->
+    <!-- Standard online booking: 1 to 6 travelers (warnings never block checkout) -->
     <ng-container *ngIf="!isGroupBooking">
       <div class="price-strip" *ngIf="canBookOnline">
         <span>{{ travelers }} {{ 'common.booking.travelersWord' | t }}</span>
@@ -329,7 +329,6 @@
           <span class="total-bar__label">{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
           <div class="total-bar__amount">
             <strong>${{ total.toFixed(2) }}</strong>
-            <small>≈ {{ eurLabel }}</small>
           </div>
         </div>
         <div class="payment-method" role="status">

@@ -49,7 +49,7 @@ export interface GalleryThumb {
 export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy {
   /** Preferred: gallery id from tour-gallery.config / tour-galleries/{id}/ folder. */
   @Input() galleryId = '';
-  /** Optional explicit override — if set, takes precedence over galleryId. */
+  /** Optional explicit overrideif set, takes precedence over galleryId. */
   @Input() images: string[] | null = null;
   @Input() alt = 'Tour image';
   @Input() previewAlt = 'Tour preview';
@@ -132,15 +132,15 @@ export class TourGalleryComponent implements OnInit, OnChanges, AfterViewInit, O
   }
 
   get currentSrc(): string {
-    return this.currentBase ? galleryMainSrc(this.currentBase) : '';
+    return this.currentBase ? galleryLightboxSrc(this.currentBase) : '';
   }
 
   get currentSrcSet(): string {
-    return this.currentBase ? buildCappedSrcSet(this.currentBase, 1100) : '';
+    return this.currentBase ? buildSrcSet(this.currentBase) : '';
   }
 
   get currentAvifSrcSet(): string {
-    return this.currentBase ? buildCappedAvifSrcSet(this.currentBase, 1100) : '';
+    return this.currentBase ? buildAvifSrcSet(this.currentBase) : '';
   }
 
   get lightboxSrc(): string {
