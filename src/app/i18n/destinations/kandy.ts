@@ -7,7 +7,7 @@ import type { ArticleContent } from '../articles/types';
 export const KANDY_DEST: ArticleContent = {
   en: {
     h1: 'Kandy Temple of the Tooth, Sri Lanka: Sacred Relic of the Last Kingdom',
-    lead: 'The Kandy Temple of the Tooth (Sri Dalada Maligawa) is the spiritual heart of Sri Lanka — a lakeside shrine for one of Buddhism’s most sacred relics, ringed by hills, botanical gardens and the tea estates beyond.',
+    lead: 'The Kandy Temple of the Tooth (Sri Dalada Maligawa) is the spiritual heart of Sri Lanka a lakeside shrine for one of Buddhism’s most sacred relics, ringed by hills, botanical gardens and the tea estates beyond.',
     heroImage: 'assets/img/destination-4.webp',
     heroAlt: 'Temple of the Sacred Tooth Relic reflected in Kandy Lake',
     sections: [

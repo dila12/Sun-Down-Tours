@@ -107,11 +107,11 @@ export class TwoDayTourComponent implements OnInit, OnDestroy {
           {
             type: 'Accommodation',
             title: {
-              title: 'Sigiriya - HB Deluxe Accommodation',
+              title: 'Sigiriya HB Deluxe Accommodation',
               icon: 'fa-hotel',
               color: '#27ae60',
             },
-            description: 'Overnight Stay in Sigiriya - HB Deluxe Accommodation',
+            description: 'Overnight Stay in Sigiriya HB Deluxe Accommodation',
             image: 'assets/img/2daysTours/uodwqeongrw5pyubbddc.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Dinner'],
           },

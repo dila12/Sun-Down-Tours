@@ -60,7 +60,7 @@ export const TOUR7: TourContent = {
           },
           {
             type: 'Scenic Hike',
-            title: { title: 'Ayurveda Isiwara Paura Sigiriya - Healthy side of your life', icon: 'fa-mountain', color: '#e74c3c' },
+            title: { title: 'Ayurveda Isiwara Paura Sigiriya Healthy side of your life', icon: 'fa-mountain', color: '#e74c3c' },
             description:
               'After an active day exploring Sigiriya and the surrounding attractions, enjoy a relaxing Ayurvedic wellness experience at a traditional Ayurveda center in Sigiriya. This session includes a traditional Sri Lankan herbal oil massage performed by experienced therapists using natural oils prepared with local medicinal herbs. The treatment is designed to help relieve muscle tension, improve circulation, and promote overall relaxation. Guests will learn about the principles of Ayurveda, Sri Lanka’s ancient healing system, and how natural therapies are used to balance the body and mind. The peaceful environment provides the perfect opportunity to unwind and refresh after sightseeing activities. This experience offers a soothing and authentic wellness touch to your Cultural Triangle journey.',
             image: 'assets/img/5daysTours/43.jpg',
@@ -181,7 +181,7 @@ export const TOUR7: TourContent = {
             type: 'Accommodation',
             title: { title: ' La Ella Breeze  Hotel', icon: 'fa-hotel', color: '#16a085' },
             description:
-              'Accommodation in  La Ella Breeze  Hotel or Similar hotel - HB Basis',
+              'Accommodation in  La Ella Breeze  Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daysTours/DJI_20240418061903_0457_D.png',
             extra: [
               'Hotel 4 stars (Premium)',
@@ -194,7 +194,7 @@ export const TOUR7: TourContent = {
       },
       {
         day: 5,
-        title: 'Ella - Mirissa',
+        title: 'Ella Mirissa',
         activities: [
           {
             type: 'Ella Train Ride',
@@ -229,7 +229,7 @@ export const TOUR7: TourContent = {
       },
       {
         day: 6,
-        title: 'Mirissa - Whale Watching & Water Activities',
+        title: 'Mirissa Whale Watching & Water Activities',
         activities: [
           {
             type: 'Whale Watching',

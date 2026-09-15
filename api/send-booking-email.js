@@ -51,7 +51,7 @@ export default async function handler(req, res) {
     const mailOptions = {
       from: `"Tour Booking" <${process.env.EMAIL_USER}>`,
       to: adminEmails,
-      subject: `New Booking Received - ${orderNumber}`,
+      subject: `New Booking Received ${orderNumber}`,
       html: `
       <div style="font-family: Arial, Helvetica, sans-serif; background-color: #f4f6f8; padding: 30px;">
         <div style="max-width: 700px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
@@ -62,7 +62,7 @@ export default async function handler(req, res) {
               New Booking Notification
             </h1>
             <p style="color: #cbd5e1; margin: 5px 0 0; font-size: 14px;">
-              Sundown Tours - Booking System
+              Sundown Tours Booking System
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default async function handler(req, res) {
     const customerMailOptions = {
       from: '"Sundown Tours"',
       to: email,
-      subject: `Thank you for your booking! - ${tour.title}`,
+      subject: `Thank you for your booking! ${tour.title}`,
       html: `
       <div style="margin:0;padding:0;background-color:#f4f6f8;font-family:Arial,Helvetica,sans-serif;">
         <div style="max-width:700px;margin:40px auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.05);">

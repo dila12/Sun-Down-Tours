@@ -53,7 +53,7 @@ export const TOUR2EY: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Oak Ray Ella Gap Hotel', icon: 'fa-hotel', color: '#27ae60' },
-            description: 'Accommodation in Oak Ray Ella Gap Hotel or Similar - HB Basis',
+            description: 'Accommodation in Oak Ray Ella Gap Hotel or Similar HB Basis',
             image: 'assets/img/7dayschange/nhm6ktdm7nimqwwrgtbm.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
           },

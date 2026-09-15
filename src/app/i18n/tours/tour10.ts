@@ -155,8 +155,8 @@ export const TOUR10: TourContent = {
           },
           {
             type: 'Accommodation',
-            title: { title: ' Oak Ray Ella Gap Hotel (or similar) - HB Basis', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Overnight stay in  Oak Ray Ella Gap Hotel (or similar) - HB Basis.',
+            title: { title: ' Oak Ray Ella Gap Hotel (or similar) HB Basis', icon: 'fa-hotel', color: '#16a085' },
+            description: 'Overnight stay in  Oak Ray Ella Gap Hotel (or similar) HB Basis.',
             image: 'assets/img/5daysTours/xowpqo2nib4z21zdldhp.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
           },
@@ -181,7 +181,7 @@ export const TOUR10: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Somerset Mirissa Hotel', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel - HB Basis',
+            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daysTours/35.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Breakfast', 'Private bathroom', 'Dinner'],
           },
@@ -200,7 +200,7 @@ export const TOUR10: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Somerset Mirissa Hotel', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel - HB Basis',
+            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daysTours/35.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Breakfast', 'Private bathroom', 'Dinner'],
           },
@@ -219,7 +219,7 @@ export const TOUR10: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Somerset Mirissa Hotel', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel - HB Basis',
+            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daysTours/35.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Breakfast', 'Private bathroom', 'Dinner'],
           },
@@ -252,8 +252,8 @@ export const TOUR10: TourContent = {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Kamili Beach Resort (or similar) - HB Basis', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Overnight stay in  Kamili Beach Resort (or similar) - HB Basis.',
+            title: { title: 'Kamili Beach Resort (or similar) HB Basis', icon: 'fa-hotel', color: '#16a085' },
+            description: 'Overnight stay in  Kamili Beach Resort (or similar) HB Basis.',
             image: 'assets/img/5daysTours/46.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Breakfast', 'Dinner Included'],
           },

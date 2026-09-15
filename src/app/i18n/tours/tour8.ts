@@ -35,7 +35,7 @@ export const TOUR8: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Fresco Water Villa', icon: 'fa-hotel', color: '#27ae60' },
-            description: 'Accommodation in Hotel Fresco Water Villa or Similar Hotel - HB Basis',
+            description: 'Accommodation in Hotel Fresco Water Villa or Similar Hotel HB Basis',
             image: 'assets/img/7dayschange/f4yqlbw3bjsz3szp3hbq.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Dinner'],
           },
@@ -95,7 +95,7 @@ export const TOUR8: TourContent = {
           },
           {
             type: 'Guided tour',
-            title: { title: 'Kandy Lake Club - Cultural Dance Show', icon: 'fa-theater-masks', color: '#8e44ad' },
+            title: { title: 'Kandy Lake Club Cultural Dance Show', icon: 'fa-theater-masks', color: '#8e44ad' },
             description:
               'Experience the vibrant traditions of Sri Lanka through the famous Kandy Cultural Dance Show. Witness an exciting performance featuring traditional Kandyan drumming, energetic folk dances, colorful costumes, fire walking, and fire breathing acts. This captivating cultural experience showcases centuries old Sri Lankan performing arts and offers visitors a deeper understanding of the island’s rich heritage and cultural diversity.',
             image: 'assets/img/7dayschange/upxn0ge9htdg20ycpgp6.jpg',
@@ -117,7 +117,7 @@ export const TOUR8: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Hotel Topaz', icon: 'fa-hotel', color: '#27ae60' },
-            description: 'Accommodation in Hotel Topaz or similar - HB Basis',
+            description: 'Accommodation in Hotel Topaz or similar HB Basis',
             image: 'assets/img/7dayschange/sxapeujg7mpergbd5nic.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
           },
@@ -158,7 +158,7 @@ export const TOUR8: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Ramboda Falls Hotel', icon: 'fa-hotel', color: '#27ae60' },
-            description: 'Accommodation in Ramboda Falls Hotel or Similar - HB Basis',
+            description: 'Accommodation in Ramboda Falls Hotel or Similar HB Basis',
             image: 'assets/img/7dayschange/zxla06noouvzn6e0teui.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom'],
           },
@@ -192,7 +192,7 @@ export const TOUR8: TourContent = {
           {
             type: 'Accommodation',
             title: { title: ' La Ella Breeze  Hotel', icon: 'fa-hotel', color: '#16a085' },
-            description: 'Accommodation in  La Ella Breeze  Hotel or Similar hotel - HB Basis',
+            description: 'Accommodation in  La Ella Breeze  Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daysTours/DJI_20240418061903_0457_D.png',
             extra: ['Hotel 4 stars (Premium)', 'Breakfast', 'Private bathroom', 'Dinner'],
           },
@@ -227,7 +227,7 @@ export const TOUR8: TourContent = {
       },
       {
         day: 7,
-        title: 'Mirissa - Whale Watching & Water Activities',
+        title: 'Mirissa Whale Watching & Water Activities',
         activities: [
           {
             type: 'Whale Watching',

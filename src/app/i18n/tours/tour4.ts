@@ -89,7 +89,7 @@ export const TOUR4: TourContent = {
           {
             type: 'Accommodation',
             title: {
-              title: 'Overnight Stay Oak Ray Ella Gap Hotel or similar - HB Basis in Ella',
+              title: 'Overnight Stay Oak Ray Ella Gap Hotel or similar HB Basis in Ella',
               icon: 'fa-hotel',
               color: '#16a085',
             },

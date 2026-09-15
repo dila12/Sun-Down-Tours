@@ -315,7 +315,7 @@ export const VISA_GUIDE: ArticleContent = {
     sections: [
       {
         title: 'Que es la ETA y quien la necesita',
-        body: 'La Electronic Travel Authorisation (ETA) es el permiso en linea que hay que obtener antes de llegar, para turismo, negocios o transito. Pedidla solo en el portal oficial eta.gov.lk. Los sitios de terceros que cobran «tasas de servicio» infladas por el mismo formulario son una trampa habitual.\n\nDesde el 25 de mayo de 2026, los nacionales de 40 paises —incluida Espana, Francia, Alemania, Italia, Polonia, Paises Bajos, Reino Unido, Rusia, Estados Unidos, Canada, India y Australia— pueden obtener una ETA turistica gratuita de 30 dias con doble entrada. Maldivas, Seychelles y Singapur siguen en tramitacion gratuita (Maldivas: 90 dias). Las tasas pagadas antes del 25 de mayo de 2026 no se reembolsan. Comprobad siempre la lista oficial para vuestro pasaporte.',
+        body: 'La Electronic Travel Authorisation (ETA) es el permiso en linea que hay que obtener antes de llegar, para turismo, negocios o transito. Pedidla solo en el portal oficial eta.gov.lk. Los sitios de terceros que cobran «tasas de servicio» infladas por el mismo formulario son una trampa habitual.\n\nDesde el 25 de mayo de 2026, los nacionales de 40 paisesincluida Espana, Francia, Alemania, Italia, Polonia, Paises Bajos, Reino Unido, Rusia, Estados Unidos, Canada, India y Australia— pueden obtener una ETA turistica gratuita de 30 dias con doble entrada. Maldivas, Seychelles y Singapur siguen en tramitacion gratuita (Maldivas: 90 dias). Las tasas pagadas antes del 25 de mayo de 2026 no se reembolsan. Comprobad siempre la lista oficial para vuestro pasaporte.',
       },
       {
         title: 'Como y cuando solicitarla',

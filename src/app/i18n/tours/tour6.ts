@@ -138,8 +138,8 @@ export const TOUR6: TourContent = {
           },
           {
             type: 'Accommodation',
-            title: { title: 'Grand Tamarind Lake (or similar) - HB Basis', icon: 'fa-hotel', color: '#2c3e50' },
-            description: 'Accommodation in Grand Tamarind Lake or Similar hotel - HB Basis',
+            title: { title: 'Grand Tamarind Lake (or similar) HB Basis', icon: 'fa-hotel', color: '#2c3e50' },
+            description: 'Accommodation in Grand Tamarind Lake or Similar hotel HB Basis',
             image: 'assets/img/7daystour/lrqee4ssqh6w9efbewzi.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Private bathroom', 'Dinner'],
           },
@@ -170,7 +170,7 @@ export const TOUR6: TourContent = {
           {
             type: 'Accommodation',
             title: { title: 'Somerset Mirissa Hotel', icon: 'fa-hotel', color: '#2c3e50' },
-            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel - HB Basis',
+            description: 'Accommodation in Somerset Mirissa Hotel or Similar hotel HB Basis',
             image: 'assets/img/5daystour/35.jpg',
             extra: ['Hotel 4 stars (Premium)', 'Breakfast', 'Private bathroom', 'Dinner'],
           },

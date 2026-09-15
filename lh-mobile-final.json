@@ -3708,7 +3708,7 @@
     },
     "insights": {
       "title": "Insights",
-      "description": "These insights are also available in the Chrome DevTools Performance Panel - [record a trace](https://developer.chrome.com/docs/devtools/performance/reference) to view more detailed information."
+      "description": "These insights are also available in the Chrome DevTools Performance Panel [record a trace](https://developer.chrome.com/docs/devtools/performance/reference) to view more detailed information."
     },
     "diagnostics": {
       "title": "Diagnostics",

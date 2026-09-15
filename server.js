@@ -41,7 +41,7 @@ app.post("/send-booking-email", async (req, res) => {
     const mailOptions = {
       from: '"Tour Booking" <sundowntoursrilanka@gmail.com>',
       to: adminEmails,
-      subject: `New Booking Received - ${orderNumber}`,
+      subject: `New Booking Received ${orderNumber}`,
       html: `
     <div style="font-family: Arial, sans-serif; color: #333;">
       <h1 style="color: #4CAF50;">🎉 New Booking Received!</h1>
@@ -81,7 +81,7 @@ app.post("/send-booking-email", async (req, res) => {
     const customerMailOptions = {
       from: '"Sundown Tours"',
       to: email,
-      subject: `Thank you for your booking! - ${tour.title}`,
+      subject: `Thank you for your booking! ${tour.title}`,
       html: `
     <div style="font-family: Arial, sans-serif; color: #333; background: #f9f9f9; padding: 20px; border-radius: 10px;">
       <h1 style="color: #4CAF50;">Thank you for your booking, ${firstName}!</h1>
