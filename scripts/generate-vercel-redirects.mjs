@@ -6,6 +6,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  buildApexShortcutRedirects,
   buildDormantLocaleVercelRedirects,
   buildEdgeRedirectMap,
   buildLocaleHomeTrailingSlashRedirects,
@@ -69,7 +70,7 @@ async function main() {
     // Build uses package.json `vercel-build` only (do not set buildCommand —
     // it made Vercel rebuild once per api/*.js file).
     outputDirectory: 'dist/Travelwebsite/browser',
-    redirects: [apexRedirect, ...generated],
+    redirects: [...buildApexShortcutRedirects(), apexRedirect, ...generated],
     headers: existing.headers ?? [
       {
         source: '/assets/(.*)',

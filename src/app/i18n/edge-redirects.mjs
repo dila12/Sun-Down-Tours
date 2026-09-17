@@ -155,3 +155,41 @@ export function buildLocaleHomeTrailingSlashRedirects() {
     { source: `/:locale(${codes})/`, destination: '/:locale', permanent: true },
   ];
 }
+
+/**
+ * Apex-host shortcuts so `sundowntours.com/pl/` and `sundowntours.com/zh/`
+ * 308 once to the www canonical (not apex→www `/pl/` then a second hop).
+ * Must be listed before the catch-all apex `/:path*` rule.
+ * @returns {{ source: string, destination: string, statusCode: number, has: object[] }[]}
+ */
+export function buildApexShortcutRedirects() {
+  const live = NON_DEFAULT_LOCALES.join('|');
+  const dormant = DORMANT_LOCALE_PREFIXES.join('|');
+  const apex = [{ type: 'host', value: 'sundowntours.com' }];
+  return [
+    {
+      source: `/:locale(${live})/`,
+      has: apex,
+      destination: 'https://www.sundowntours.com/:locale',
+      statusCode: 308,
+    },
+    {
+      source: `/:code(${dormant})`,
+      has: apex,
+      destination: 'https://www.sundowntours.com/',
+      statusCode: 308,
+    },
+    {
+      source: `/:code(${dormant})/`,
+      has: apex,
+      destination: 'https://www.sundowntours.com/',
+      statusCode: 308,
+    },
+    {
+      source: `/:code(${dormant})/:path*`,
+      has: apex,
+      destination: 'https://www.sundowntours.com/:path*',
+      statusCode: 308,
+    },
+  ];
+}

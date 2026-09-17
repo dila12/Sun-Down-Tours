@@ -23,23 +23,22 @@ const angularApp = new AngularNodeAppEngine({
   ],
 });
 
-/** Canonical host: apex → www (HTTP 308 permanent). Skip local/dev hosts. */
+/**
+ * Canonical host + path in one hop (before Angular). Apex `/pl/` must land on
+ * `https://www.sundowntours.com/pl`, not www `/pl/` then a second 308.
+ */
 app.use((req, res, next) => {
   const host = (req.headers.host || '').split(':')[0].toLowerCase();
+  const pathTarget = resolveEdgeRedirect(req.path || '/', edgeRedirects);
+  const qs = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+
   if (host === 'sundowntours.com') {
-    const target = `https://www.sundowntours.com${req.originalUrl || '/'}`;
-    res.redirect(308, target);
+    const path = pathTarget || req.path || '/';
+    res.redirect(308, `https://www.sundowntours.com${path}${qs}`);
     return;
   }
-  next();
-});
-
-/** Legacy slug + dormant-locale HTTP 301s (before Angular soft routing). */
-app.use((req, res, next) => {
-  const target = resolveEdgeRedirect(req.path || '/', edgeRedirects);
-  if (target) {
-    const qs = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
-    res.redirect(301, `${target}${qs}`);
+  if (pathTarget) {
+    res.redirect(301, `${pathTarget}${qs}`);
     return;
   }
   next();

@@ -2,12 +2,14 @@
  * Asserts GSC "Page with redirect" sources resolve in one hop.
  * Run: node scripts/test-edge-redirects.mjs
  */
+import { readFileSync } from 'node:fs';
 import {
+  buildApexShortcutRedirects,
   buildDormantLocaleVercelRedirects,
   buildLocaleHomeTrailingSlashRedirects,
   resolveEdgeRedirect,
 } from '../src/app/i18n/edge-redirects.mjs';
-import { DORMANT_LOCALE_PREFIXES, NON_DEFAULT_LOCALES } from '../src/app/i18n/site-data.mjs';
+import { BASE_URL, DORMANT_LOCALE_PREFIXES, NON_DEFAULT_LOCALES } from '../src/app/i18n/site-data.mjs';
 
 /** @type {[string, string | null][]} */
 const cases = [
@@ -101,6 +103,44 @@ if (
 ) {
   failed += 1;
   console.error('FAIL Vercel locale-home trailing-slash rule');
+}
+
+const apexShortcuts = buildApexShortcutRedirects();
+if (
+  apexShortcuts.length !== 4 ||
+  apexShortcuts[0].destination !== 'https://www.sundowntours.com/:locale' ||
+  !apexShortcuts[0].source.includes('pl') ||
+  apexShortcuts[1].destination !== 'https://www.sundowntours.com/' ||
+  !apexShortcuts[1].source.includes('zh')
+) {
+  failed += 1;
+  console.error('FAIL Vercel apex shortcut redirects');
+}
+
+const sitemap = readFileSync(new URL('../public/sitemap.xml', import.meta.url), 'utf8');
+const sitemapLocs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+for (const loc of sitemapLocs) {
+  let url;
+  try {
+    url = new URL(loc);
+  } catch {
+    failed += 1;
+    console.error(`FAIL sitemap loc is not a URL: ${loc}`);
+    continue;
+  }
+  if (url.origin !== BASE_URL) {
+    failed += 1;
+    console.error(`FAIL sitemap loc must be on ${BASE_URL}: ${loc}`);
+  }
+  if (url.pathname.length > 1 && url.pathname.endsWith('/')) {
+    failed += 1;
+    console.error(`FAIL sitemap loc has trailing slash (redirects): ${loc}`);
+  }
+  const redirectTo = resolveEdgeRedirect(url.pathname);
+  if (redirectTo) {
+    failed += 1;
+    console.error(`FAIL sitemap loc redirects ${url.pathname} → ${redirectTo}`);
+  }
 }
 
 if (failed) {
