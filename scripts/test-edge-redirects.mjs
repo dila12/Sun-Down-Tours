@@ -57,6 +57,12 @@ const cases = [
   ['/de/4-day-sri-lanka-tour', '/de/4-tage-sri-lanka-rundreise'],
   ['/pl/galle-day-tour', '/pl/wycieczka-jednodniowa-galle'],
   ['/ru/restaurants-in-sri-lanka', '/ru/restorany-na-shri-lanka'],
+  ['/es/welligama-sri-lanka', '/es/weligama-sri-lanka'],
+  ['/welligama-sri-lanka', '/weligama-sri-lanka'],
+  ['/ru/welligama-sri-lanka', '/ru/veligama-shri-lanka'],
+  ['/it/7-cay-sri-lanka-tour', '/it/tour-sri-lanka-7-giorni'],
+  ['/7-cay-sri-lanka-tour', '/7-day-sri-lanka-tour'],
+  ['/de/7-cay-sri-lanka-tour', '/de/7-tage-sri-lanka-rundreise'],
 ];
 
 let failed = 0;

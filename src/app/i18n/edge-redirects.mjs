@@ -38,6 +38,16 @@ const STATIC_PATH_REDIRECTS = {
 };
 
 /**
+ * Misspellings Google already crawled. These 500 in SSR today, so they stay
+ * in "Crawled - currently not indexed" until they 301 to the live page.
+ * @type {Record<string, string>} slug → page id
+ */
+const TYPO_PAGE_REDIRECTS = {
+  'welligama-sri-lanka': 'destWeligama',
+  '7-cay-sri-lanka-tour': 'tour7',
+};
+
+/**
  * @returns {Map<string, string>} pathname (no query) → root-relative target path
  */
 export function buildEdgeRedirectMap() {
@@ -62,6 +72,24 @@ export function buildEdgeRedirectMap() {
     for (const [legacySlug, pageId] of Object.entries(legacy)) {
       const target = buildPath(pageId, DEFAULT_LOCALE);
       const from = `/${legacySlug}`;
+      if (from !== target) {
+        map.set(from, target);
+      }
+    }
+  }
+
+  for (const [typo, pageId] of Object.entries(TYPO_PAGE_REDIRECTS)) {
+    const target = buildPath(pageId, DEFAULT_LOCALE);
+    const from = `/${typo}`;
+    if (from !== target) {
+      map.set(from, target);
+    }
+  }
+
+  for (const locale of NON_DEFAULT_LOCALES) {
+    for (const [typo, pageId] of Object.entries(TYPO_PAGE_REDIRECTS)) {
+      const target = buildPath(pageId, locale);
+      const from = `/${locale}/${typo}`;
       if (from !== target) {
         map.set(from, target);
       }

@@ -82,6 +82,11 @@
       "permanent": true
     },
     {
+      "source": "/7-cay-sri-lanka-tour",
+      "destination": "/7-day-sri-lanka-tour",
+      "permanent": true
+    },
+    {
       "source": "/best-time-to-visit-sri-lanka",
       "destination": "/travel-guides/best-time-to-visit-sri-lanka",
       "permanent": true
@@ -119,6 +124,11 @@
     {
       "source": "/de/6-day-sri-lanka-private-tour",
       "destination": "/de/6-tage-private-sri-lanka-rundreise",
+      "permanent": true
+    },
+    {
+      "source": "/de/7-cay-sri-lanka-tour",
+      "destination": "/de/7-tage-sri-lanka-rundreise",
       "permanent": true
     },
     {
@@ -227,6 +237,11 @@
       "permanent": true
     },
     {
+      "source": "/de/welligama-sri-lanka",
+      "destination": "/de/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/de/yala-sri-lanka",
       "destination": "/de/yala-nationalpark-sri-lanka",
       "permanent": true
@@ -259,6 +274,11 @@
     {
       "source": "/es/6-day-sri-lanka-private-tour",
       "destination": "/es/circuito-privado-sri-lanka-6-dias",
+      "permanent": true
+    },
+    {
+      "source": "/es/7-cay-sri-lanka-tour",
+      "destination": "/es/circuito-sri-lanka-7-dias",
       "permanent": true
     },
     {
@@ -372,6 +392,11 @@
       "permanent": true
     },
     {
+      "source": "/es/welligama-sri-lanka",
+      "destination": "/es/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/fr/10-day-sri-lanka-tour",
       "destination": "/fr/circuit-sri-lanka-10-jours",
       "permanent": true
@@ -399,6 +424,11 @@
     {
       "source": "/fr/6-day-sri-lanka-private-tour",
       "destination": "/fr/circuit-prive-sri-lanka-6-jours",
+      "permanent": true
+    },
+    {
+      "source": "/fr/7-cay-sri-lanka-tour",
+      "destination": "/fr/circuit-sri-lanka-7-jours",
       "permanent": true
     },
     {
@@ -507,6 +537,11 @@
       "permanent": true
     },
     {
+      "source": "/fr/welligama-sri-lanka",
+      "destination": "/fr/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/index.htm",
       "destination": "/",
       "permanent": true
@@ -544,6 +579,11 @@
     {
       "source": "/it/6-day-sri-lanka-private-tour",
       "destination": "/it/tour-privato-sri-lanka-6-giorni",
+      "permanent": true
+    },
+    {
+      "source": "/it/7-cay-sri-lanka-tour",
+      "destination": "/it/tour-sri-lanka-7-giorni",
       "permanent": true
     },
     {
@@ -667,6 +707,11 @@
       "permanent": true
     },
     {
+      "source": "/it/welligama-sri-lanka",
+      "destination": "/it/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/nl/10-day-sri-lanka-tour",
       "destination": "/nl/10-daagse-sri-lanka-rondreis",
       "permanent": true
@@ -694,6 +739,11 @@
     {
       "source": "/nl/6-day-sri-lanka-private-tour",
       "destination": "/nl/6-daagse-prive-sri-lanka-rondreis",
+      "permanent": true
+    },
+    {
+      "source": "/nl/7-cay-sri-lanka-tour",
+      "destination": "/nl/7-daagse-sri-lanka-rondreis",
       "permanent": true
     },
     {
@@ -802,6 +852,11 @@
       "permanent": true
     },
     {
+      "source": "/nl/welligama-sri-lanka",
+      "destination": "/nl/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/packages",
       "destination": "/sri-lanka-private-tour",
       "permanent": true
@@ -834,6 +889,11 @@
     {
       "source": "/pl/6-day-sri-lanka-private-tour",
       "destination": "/pl/6-dniowa-prywatna-wycieczka-sri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/pl/7-cay-sri-lanka-tour",
+      "destination": "/pl/7-dniowa-wycieczka-sri-lanka",
       "permanent": true
     },
     {
@@ -947,6 +1007,11 @@
       "permanent": true
     },
     {
+      "source": "/pl/welligama-sri-lanka",
+      "destination": "/pl/weligama-sri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/ru/10-day-sri-lanka-tour",
       "destination": "/ru/10-dnevnyy-tur-shri-lanka",
       "permanent": true
@@ -974,6 +1039,11 @@
     {
       "source": "/ru/6-day-sri-lanka-private-tour",
       "destination": "/ru/6-dnevnyy-individualnyy-tur-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/7-cay-sri-lanka-tour",
+      "destination": "/ru/7-dnevnyy-tur-shri-lanka",
       "permanent": true
     },
     {
@@ -1112,6 +1182,11 @@
       "permanent": true
     },
     {
+      "source": "/ru/welligama-sri-lanka",
+      "destination": "/ru/veligama-shri-lanka",
+      "permanent": true
+    },
+    {
       "source": "/ru/yala-sri-lanka",
       "destination": "/ru/yala-shri-lanka",
       "permanent": true
@@ -1204,6 +1279,11 @@
     {
       "source": "/twodaystours",
       "destination": "/sri-lanka-private-tour",
+      "permanent": true
+    },
+    {
+      "source": "/welligama-sri-lanka",
+      "destination": "/weligama-sri-lanka",
       "permanent": true
     }
   ],
