@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const SAFARI_GUIDE: ArticleContent = {
   en: {
-    h1: 'Sri Lanka Safari: Jeeps, National Parks and What to Expect on Game Drives',
+    h1: 'Sri Lanka Safari Tours: Jeeps, National Parks and Game Drives',
     lead: 'A Sri Lanka safari is a jeep game drive through national parks, not the open-bush format of East Africa. Understanding how bookings work, which park fits your dates and what a morning drive realistically delivers will save you from disappointment and from paying twice for the same muddy track.',
     heroImage: 'assets/img/5daysTours/33.webp',
     heroAlt: 'Open safari jeep on a game drive in a Sri Lankan national park',

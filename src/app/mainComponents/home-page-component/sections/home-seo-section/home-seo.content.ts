@@ -63,9 +63,9 @@ export interface HomeSeoContent {
 
 const en: HomeSeoContent = {
   tag: 'TRAVEL GUIDE',
-  title: 'Sri Lanka Tours, Holiday Packages & Private Driver Guide',
+  title: 'Tours in Sri Lanka and Tours to Sri Lanka with a Private Driver',
   subtitle:
-    'How to plan Sri Lanka tours and vacation packages with a licensed chauffeur guide: itineraries, safari timing and tailor made holidays for travellers from Germany, the UK, France, Italy, Spain, Switzerland and Poland since 1992.',
+    'How to plan tours of Sri Lanka: private guided tours, day tours, safari tours, luxury tours and holiday packages for travellers from Europe, India and Australia since 1992.',
   tocLabel: 'On this page',
   seeAlsoLabel: 'See also',
   toc: [
@@ -88,7 +88,7 @@ const en: HomeSeoContent = {
       anchor: 'why-sri-lanka',
       heading: 'Why Visit Sri Lanka?',
       intro: [
-        'Sri Lanka is one of the most rewarding island destinations in Asia for European travellers who want variety without long internal flights. In a single <strong>Sri Lanka holiday</strong> you can climb an ancient rock fortress at sunrise, ride a scenic train through misty tea plantations, join a leopard safari and finish the week on a palm fringed beach.',
+        'Sri Lanka is one of the most rewarding island destinations in Asia for UK and European travellers who want variety without long internal flights. In a single <strong>sri lanka holiday</strong> you can climb <strong>sigiriya sri lanka</strong> (lion rock) at sunrise, visit <strong>kandy sri lanka</strong>, ride the <strong>kandy to ella train</strong>, join a <strong>sri lanka safari</strong> and finish on a south coast beach.',
         'Because the island is compact, a well planned <strong>private Sri Lanka tour</strong> covers the Cultural Triangle, hill country, national parks and the south coast in seven to fourteen days at a comfortable pace never rushed, and always flexible.',
         'Sri Lanka is also outstanding value. Boutique hotels, excellent food and world class wildlife are available at prices that suit both mid range and <strong>luxury Sri Lanka tours</strong>, and the warmth of local hospitality makes first time visitors feel welcome the moment they land.',
       ],
@@ -152,9 +152,9 @@ const en: HomeSeoContent = {
     },
     {
       anchor: 'chauffeur-tours',
-      heading: 'Private Chauffeur Tours in Sri Lanka',
+      heading: 'Sri Lanka Private Driver and Chauffeur Tours',
       intro: [
-        'A <strong>Sri Lanka chauffeur guide</strong> is far more than a driver he is your daily planner, cultural interpreter and safety net on unfamiliar roads. Every Sundown Tours private tour includes a licensed, experienced chauffeur guide who speaks clear English (and other languages on request).',
+        'A <strong>Sri Lanka private driver</strong> is more than a taxi. Travellers who search driver Sri Lanka or chauffeur Sri Lanka want a licensed chauffeur guide: daily planner, cultural interpreter and safety net on unfamiliar roads. Every Sundown Tours private tour includes an experienced chauffeur guide who speaks clear English (and other languages on request).',
         'European travellers value air conditioned comfort, flexible departure times and the freedom to stop for photographs, a tea plantation or a spontaneous temple visit you are never bound to a group schedule.',
       ],
       subsections: [{ heading: 'What Is Included in a Private Chauffeur Tour?' }],
@@ -173,9 +173,9 @@ const en: HomeSeoContent = {
     },
     {
       anchor: 'tour-packages',
-      heading: 'Sri Lanka Tour Packages for Every Duration',
+      heading: 'Tours in Sri Lanka, Tours to Sri Lanka and Tour Packages',
       intro: [
-        'The right length for your <strong>Sri Lanka tour package</strong> depends on how deeply you want to explore. Short itineraries suit repeat visitors or beach focused trips; longer routes combine culture, wildlife and relaxation without rushing. Every package below can be customised.',
+        'The right length for <strong>tours of Sri Lanka</strong> depends on how deeply you want to explore. Short Sri Lanka day tours suit a tight schedule; longer Sri Lanka tour packages combine culture, wildlife and beach without rushing. Every package is a private guided tour, not a large group coach.',
       ],
       cards: [
         { icon: 'fa-clock', title: 'Short Private Tours', meta: '4 to 6 Days', text: 'Focused loops covering Sigiriya, Kandy, Ella and Yala in a compact route.', linkPageId: 'tour4', linkLabel: '4 day Sri Lanka tour' },
@@ -212,7 +212,7 @@ const en: HomeSeoContent = {
     },
     {
       anchor: 'wildlife-safaris',
-      heading: 'Wildlife Safaris & Yala National Park',
+      heading: 'Sri Lanka Safari Tours and Wildlife Parks',
       intro: [
         '<strong>Sri Lanka safari tours</strong> are a highlight for European nature lovers. The island’s national parks are compact compared with African reserves, so meaningful sightings leopards, sloth bears, elephants, crocodiles and hundreds of birds happen within a half  day jeep safari.',
       ],
@@ -227,8 +227,9 @@ const en: HomeSeoContent = {
           heading: 'Other Notable Safari Parks',
           list: [
             '<strong>Udawalawe</strong> reliable elephant herds; ideal for families with children',
-            '<strong>Wilpattu</strong> quieter leopard territory; featured on our 8 days route',
+            '<strong>Wilpattu national park</strong> quieter leopard territory; featured on our 8 days route',
             '<strong>Minneriya / Kaudulla</strong> seasonal elephant gatherings (July to October)',
+            '<strong>Madu river safari Sri Lanka</strong> mangrove boat safari near Balapitiya and Bentota',
             '<strong>Bundala</strong> wetland and migratory birds for keen ornithologists',
           ],
         },
@@ -242,9 +243,9 @@ const en: HomeSeoContent = {
     {
       anchor: 'destinations-cards',
       eyebrow: 'TRAVEL PLACES',
-      heading: 'Most Beautiful Places in Sri Lanka',
+      heading: 'Things to Do in Sri Lanka: Top Places on a Private Tour',
       intro: [
-        'These Sri Lanka travel places appear on almost every first-time private tour. Each destination page below explains how to visit with a chauffeur guide not a crowded coach.',
+        'These are the top 10 places to visit in Sri Lanka on almost every first time private tour. Each destination page below explains how to visit with a chauffeur guide, not a crowded coach.',
       ],
       cards: [
         { icon: 'fa-landmark', title: 'Sigiriya Rock Fortress', text: 'UNESCO rock fortress and one of the most beautiful places in Sri Lanka climb at sunrise on a private day tour.', linkPageId: 'destSigiriya', linkLabel: 'Sigiriya guide' },
@@ -270,19 +271,19 @@ const en: HomeSeoContent = {
         {
           heading: 'Sigiriya Rock Fortress',
           paras: [
-            'Rising 200 metres above the plains, Sigiriya Lion Rock is Sri Lanka’s most iconic landmark. Climb in the cool early morning for frescoes, the lion’s paw gateway, the mirror wall and summit views over the jungle canopy.',
+            'Rising 200 metres above the plains, sigiriya sri lanka (lion rock / lions rock) is the island’s most iconic landmark. Climb in the cool early morning for frescoes, the lion’s paw gateway, the water gardens and summit views. Pidurangala rock is the sunset photo of the fortress.',
           ],
         },
         {
           heading: 'Kandy & the Temple of the Tooth',
           paras: [
-            'Kandy, the last royal capital, sits beside a lake surrounded by hills. The Temple of the Sacred Tooth Relic is a living pilgrimage site with daily puja ceremonies, often combined with the Peradeniya Royal Botanical Gardens and a cultural dance show.',
+            'Kandy sri lanka, the last royal capital, sits beside kandy lake. The Temple of the Sacred Tooth Relic is a living pilgrimage site with daily puja ceremonies, often combined with Peradeniya Gardens. What to do in kandy then continues south on the kandy to ella train.',
           ],
         },
         {
           heading: 'Anuradhapura & Polonnaruwa',
           paras: [
-            'These ancient cities feature enormous stupas, stone sculptures and monastery ruins. On longer itineraries we include a bicycle tour of Polonnaruwa a highlight for history focused travellers.',
+            'These ancient cities feature enormous stupas, stone sculptures and monastery ruins. On longer itineraries we include a bicycle tour of polonnaruwa ancient city a highlight for history focused travellers. Mihintale pairs with Anuradhapura.',
           ],
         },
       ],
@@ -297,8 +298,8 @@ const en: HomeSeoContent = {
       anchor: 'tea-country',
       heading: 'Tea Country & Ella Hill Station',
       intro: [
-        'Sri Lanka’s hill country historic Ceylon tea country offers cooler temperatures, spectacular viewpoints and one of the world’s great train journeys. Nuwara Eliya feels unexpectedly European; Ella has become the hub for hiking, cafes and the famous Nine Arch Bridge.',
-        'The train from Kandy to Ella is consistently rated among the most beautiful rail routes on earth. We reserve seats where possible and coordinate private transfers when schedules do not align with your plan.',
+        'Sri Lanka hill country and Nuwara Eliya Sri Lanka offer cooler temperatures, tea trails and one of the world’s great train journeys. Ella is the hub for hiking, cafes and the Nine Arch Bridge.',
+        'The Kandy to Ella train (and Nanu Oya to Ella train connections) is among the most beautiful rail routes on earth. We reserve seats where possible and coordinate private transfers when schedules do not align with your plan.',
       ],
       seeAlso: [
         { pageId: 'destElla', label: 'Ella & Nine Arch Bridge' },
@@ -433,7 +434,13 @@ const en: HomeSeoContent = {
     },
     {
       q: 'Do I need a visa to visit Sri Lanka from Europe?',
-      a: 'Most European citizens need an ETA (Electronic Travel Authorisation) obtained online before travel. Apply at least 48 hours before departure; children need their own ETA.',
+      a: 'Most European citizens need an ETA (Electronic Travel Authorisation) obtained online before travel. Apply at least 48 hours before departure; children need their own ETA. That is sri lanka entry requirements, not a cricket visa.',
+      links: [{ pageId: 'guideVisa', label: 'Sri Lanka visa and ETA' }],
+    },
+    {
+      q: 'Where is Sri Lanka and are you TUI?',
+      a: 'Where is sri lanka: south of India. Sri lanka holidays and sri lanka private tours with a local chauffeur. Not TUI, not Intrepid, not helicopter tours. Time in sri lanka is UTC+5:30.',
+      links: [{ pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' }],
     },
     {
       q: 'Can you customise a Sri Lanka honeymoon or luxury tour?',
@@ -470,14 +477,19 @@ const en: HomeSeoContent = {
       a: 'Yes. Many guests book a chauffeur only  itinerary and arrange hotels independently. You still get a licensed local driver guide, airport pickup and a flexible daily plan.',
       links: [{ pageId: 'guidePrivateDriver', label: 'Private driver guide' }],
     },
+    {
+      q: 'Do you offer Sri Lanka tours from India or Australia?',
+      a: 'Yes. We plan tours to Sri Lanka after you land in Colombo: private guided tours, day tours and multi day packages. We do not sell flights. Guests looking for Sri Lanka tours from India or Sri Lanka tours from Australia receive a chauffeur itinerary and optional hotels.',
+      links: [{ pageId: 'tours', label: 'Sri Lanka tour packages' }],
+    },
   ],
 };
 
 const de: HomeSeoContent = {
   tag: 'REISEFUHRER',
-  title: 'Sri Lanka Rundreisen, Urlaubspakete & privater Fahrer',
+  title: 'Sri Lanka Tour, Rundreise und Urlaub aus Deutschland',
   subtitle:
-    'Geschrieben von den lokalen Experten von Sundown Tours Sri Lanka  lizenzierte Fahrer Guides, massgeschneiderte Routen und seit 1992 tausende zufriedene Reisende aus Deutschland, der Schweiz, Osterreich und ganz Europa.',
+    'Sri lanka private tours und holiday tours fur Reisende aus Deutschland: Ella, Galle, Colombo, beste Reisezeit, Einreise und privater Fahrer seit 1992.',
   tocLabel: 'Auf dieser Seite',
   seeAlsoLabel: 'Siehe auch',
   toc: [
@@ -521,9 +533,9 @@ const de: HomeSeoContent = {
     },
     {
       anchor: 'best-time',
-      heading: 'Beste Reisezeit fur Sri Lanka',
+      heading: 'Beste Reisezeit Sri Lanka und Wetter',
       intro: [
-        'Sri Lanka ist ein Ganzjahresziel. Da zwei Monsune unterschiedliche Kusten zu unterschiedlichen Zeiten betreffen, hat fast immer eine Region ideales Wetter  entscheidend ist, die Route zu Ihren Reisedaten passend zu wahlen.',
+        'Wetter sri lanka und sri lanka reisezeit: zwei Monsune, fast immer eine sonnige Kuste. Entscheidend ist die Route zu Ihren Daten aus Deutschland, nicht ein einziger Monat.',
       ],
       cards: [
         { icon: 'fa-umbrella-beach', title: 'West und Sudkuste', meta: 'November bis April', text: 'Hauptsaison fur Wintersonne. Colombo, Galle, Mirissa, Bentota und Hikkaduwa bieten ruhige See und Sonne.' },
@@ -559,7 +571,7 @@ const de: HomeSeoContent = {
     },
     {
       anchor: 'chauffeur-tours',
-      heading: 'Private Rundreisen mit Fahrer Guide',
+      heading: 'Privater Fahrer Sri Lanka und Rundreise mit Chauffeur',
       intro: [
         'Ein <strong>Fahrer Guide in Sri Lanka</strong> ist weit mehr als ein Fahrer  er ist Ihr taglicher Planer, kultureller Dolmetscher und Sicherheitsnetz auf fremden Strassen. Jede private Sundown Tours Reise umfasst einen lizenzierten, erfahrenen Fahrer Guide, der klar Englisch spricht (weitere Sprachen auf Anfrage).',
         'Europaische Reisende schatzen klimatisierten Komfort, flexible Startzeiten und die Freiheit, fur Fotos, eine Teeplantage oder einen spontanen Tempelbesuch anzuhalten  Sie sind an keinen Gruppenplan gebunden.',
@@ -692,7 +704,7 @@ const de: HomeSeoContent = {
       anchor: 'tea-country',
       heading: 'Teeland & Bergstation Ella',
       intro: [
-        'Sri Lankas Bergland  das historische Ceylon Teeland  bietet kuhlere Temperaturen, spektakulare Aussichtspunkte und eine der schonsten Zugfahrten der Welt. Nuwara Eliya wirkt uberraschend europaisch; Ella ist das Zentrum fur Wanderungen, Cafes und die Nine Arch Bridge.',
+        'Sri Lankas Bergland  das historische Ceylon Teeland  bietet kuhlere Temperaturen, spektakulare Aussichtspunkte und eine der schonsten Zugfahrten der Welt. Der heutige Name von Ceylon ist Sri Lanka; ceylon tee trinken Sie in Nuwara Eliya und Ella. Nuwara Eliya wirkt uberraschend europaisch; Ella ist das Zentrum fur Wanderungen, Cafes und die Nine Arch Bridge.',
         'Die Zugfahrt von Kandy nach Ella zahlt durchweg zu den schonsten Bahnstrecken der Welt. Wir reservieren nach Moglichkeit Sitzplatze und organisieren private Transfers, wenn die Fahrplane nicht zu Ihrer Route passen.',
       ],
       seeAlso: [
@@ -880,7 +892,7 @@ const fr: HomeSeoContent = {
       anchor: 'why-sri-lanka',
       heading: 'Pourquoi visiter le Sri Lanka ?',
       intro: [
-        'Le Sri Lanka est l’une des destinations insulaires les plus enrichissantes d’Asie pour les voyageurs europeens en quete de diversite sans longs vols interieurs. En un seul <strong>voyage au Sri Lanka</strong>, vous gravissez une forteresse rocheuse au lever du jour, traversez en train des plantations de the embrumees, partez en safari aux leopards et terminez la semaine sur une plage bordee de palmiers.',
+        'Le Sri Lanka est l’une des destinations insulaires les plus enrichissantes d’Asie pour les voyageurs europeens en quete de diversite sans longs vols interieurs. En un seul <strong>voyage au Sri Lanka</strong>, vous gravissez le <strong>rocher du lion sri lanka</strong> au lever du jour, visitez <strong>kandy sri lanka</strong>, traversez en train des plantations de the, partez en safari et terminez la semaine a la plage.',
         'L’ile etant compacte, un <strong>circuit prive au Sri Lanka</strong> bien pense relie le triangle culturel, les montagnes, les parcs nationaux et la cote sud en sept a quatorze jours, a un rythme agreable et toujours flexible.',
         'Le Sri Lanka offre aussi un excellent rapport qualite prix. Hotels de charme, cuisine savoureuse et faune d’exception sont accessibles a des tarifs adaptes aux voyages de milieu de gamme comme aux <strong>circuits de luxe au Sri Lanka</strong>, et la chaleur de l’accueil met a l’aise des l’arrivee.',
       ],
@@ -940,7 +952,7 @@ const fr: HomeSeoContent = {
     },
     {
       anchor: 'chauffeur-tours',
-      heading: 'Circuits prives avec chauffeur guide',
+      heading: 'Chauffeur prive Sri Lanka et circuits avec agence locale',
       intro: [
         'Un <strong>chauffeur guide au Sri Lanka</strong> est bien plus qu’un conducteur : il est votre organisateur quotidien, votre interprete culturel et votre securite sur des routes inconnues. Chaque circuit prive Sundown Tours inclut un chauffeur guide agree et experimente parlant un anglais clair (autres langues sur demande).',
         'Les voyageurs europeens apprecient le confort climatise, la souplesse des horaires et la liberte de s’arreter pour une photo, une plantation de the ou un temple  vous n’etes jamais lie a un programme de groupe.',
@@ -1054,7 +1066,7 @@ const fr: HomeSeoContent = {
         {
           heading: 'Kandy & le Temple de la Dent',
           paras: [
-            'Kandy, derniere capitale royale, borde un lac entoure de collines. Le Temple de la Dent sacree est un lieu de pelerinage vivant, souvent associe au jardin botanique de Peradeniya et a un spectacle de danse.',
+            'Kandy sri lanka, derniere capitale royale, borde un lac entoure de collines. Le Temple de la Dent sacree est un lieu de pelerinage vivant, souvent associe au jardin botanique de Peradeniya et a un spectacle de danse. Presque chaque circuit sri lanka y passe.',
           ],
         },
         {
@@ -1216,8 +1228,13 @@ const fr: HomeSeoContent = {
     },
     {
       q: 'Quand partir / que visiter au Sri Lanka ?',
-      a: 'Decembre to mars pour le sud et l’ouest (Mirissa, Weligama, Galle). Mai to septembre souvent mieux pour l’est, le Triangle Culturel et le safari. Un premier voyage : rocher du lion de Sigiriya, Kandy, train vers Ella, Yala ou Udawalawe, puis la plage.',
+      a: 'Quand partir sri lanka et quand aller au sri lanka : decembre to mars pour le sud et l’ouest. Que faire au sri lanka : rocher du lion sri lanka, kandy sri lanka, train, safari, plage. Meteo sri lanka selon la cote.',
       links: [{ pageId: 'guideBestTime', label: 'Quand partir' }],
+    },
+    {
+      q: 'Ou se trouve le Sri Lanka et quel est le cours euro ?',
+      a: 'Ou se trouve le sri lanka : ocean Indien, sud de l’Inde. Sri lanka euro et euro sri lanka changent chaque jour ; voyage au sri lanka prix dans notre devis. Pas Jet Tours, pas Booking.com.',
+      links: [{ pageId: 'marketFrance', label: 'Voyage depuis la France' }],
     },
     {
       q: 'Pouvez vous personnaliser une lune de miel ou un circuit de luxe ?',
@@ -1317,7 +1334,7 @@ const it: HomeSeoContent = {
     },
     {
       anchor: 'chauffeur-tours',
-      heading: 'Tour privati con autista guida',
+      heading: 'Autista privato Sri Lanka e tour organizzato',
       intro: [
         'Un <strong>autista guida in Sri Lanka</strong> e molto piu di un conducente: e il tuo organizzatore quotidiano, interprete culturale e sicurezza su strade sconosciute. Ogni tour privato Sundown Tours include un autista guida autorizzato ed esperto che parla un inglese chiaro (altre lingue su richiesta).',
         'I viaggiatori europei apprezzano il comfort climatizzato, gli orari flessibili e la liberta di fermarsi per una foto, una piantagione di te o un tempio  non sei mai vincolato a un programma di gruppo.',
@@ -1645,7 +1662,7 @@ const es: HomeSeoContent = {
       anchor: 'why-sri-lanka',
       heading: 'Por que visitar Sri Lanka?',
       intro: [
-        'Sri Lanka es uno de los destinos insulares mas gratificantes de Asia para los viajeros europeos que buscan variedad sin largos vuelos internos. En un solo <strong>viaje a Sri Lanka</strong> puedes subir a una antigua fortaleza rocosa al amanecer, cruzar en tren plantaciones de te entre la niebla, hacer un safari de leopardos y cerrar la semana en una playa de palmeras.',
+        'Sri Lanka es uno de los destinos insulares mas gratificantes de Asia para los viajeros europeos que buscan variedad sin largos vuelos internos. En un solo <strong>viaje a Sri Lanka</strong> subis a Sigiriya al amanecer, visitais <strong>kandy sri lanka</strong> y <strong>ella sri lanka</strong>, haceis <strong>safari sri lanka</strong> y cerrais la semana en <strong>playas sri lanka</strong>.',
         'Como la isla es compacta, un <strong>circuito privado por Sri Lanka</strong> bien planificado une el triangulo cultural, la montana, los parques nacionales y la costa sur en siete a catorce dias, a un ritmo comodo y siempre flexible.',
         'Sri Lanka ofrece ademas una excelente relacion calidad precio. Hoteles con encanto, buena gastronomia y fauna de primer nivel a precios adecuados tanto para viajes de gama media como para <strong>circuitos de lujo por Sri Lanka</strong>, y la calidez de su gente hace sentir bienvenido desde la llegada.',
       ],
@@ -1705,7 +1722,7 @@ const es: HomeSeoContent = {
     },
     {
       anchor: 'chauffeur-tours',
-      heading: 'Circuitos privados con chofer guia',
+      heading: 'Conductor privado Sri Lanka y chofer guia en espanol',
       intro: [
         'Un <strong>chofer guia en Sri Lanka</strong> es mucho mas que un conductor: es tu organizador diario, interprete cultural y seguridad en carreteras desconocidas. Cada circuito privado de Sundown Tours incluye un chofer guia autorizado y experimentado que habla un ingles claro (otros idiomas bajo peticion).',
         'Los viajeros europeos valoran el confort del aire acondicionado, los horarios flexibles y la libertad de parar para una foto, una plantacion de te o un templo; nunca estas atado a un programa de grupo.',
@@ -1819,7 +1836,7 @@ const es: HomeSeoContent = {
         {
           heading: 'Kandy y el Templo del Diente',
           paras: [
-            'Kandy, ultima capital real, se asoma a un lago rodeado de colinas. El Templo del Diente es un lugar de peregrinacion vivo con ceremonias puja diarias, a menudo combinado con el jardin botanico de Peradeniya y un espectaculo de danza.',
+            'Kandy sri lanka, ultima capital real, se asoma a un lago rodeado de colinas. El Templo del Diente es un lugar de peregrinacion vivo con ceremonias puja diarias, a menudo combinado con el jardin botanico de Peradeniya y un espectaculo de danza. Casi todo viaje a sri lanka duerme aqui una noche.',
           ],
         },
         {
@@ -1981,8 +1998,13 @@ const es: HomeSeoContent = {
     },
     {
       q: 'Que hora es en Sri Lanka y que ver en un primer viaje?',
-      a: 'UTC+5:30: 4 h 30 de adelanto en invierno y 3 h 30 en verano espanol. Un primer viaje: Lion Rock de Sigiriya, Kandy, tren a Ella, safari en Yala o Wilpattu y playa en Mirissa o Weligama.',
+      a: 'Que hora es en sri lanka y hora sri lanka: UTC+5:30. Que ver en sri lanka: kandy sri lanka, ella sri lanka, safari sri lanka y playas sri lanka. Mejor epoca para viajar a sri lanka segun la costa.',
       links: [{ pageId: 'guideBestTime', label: 'Mejor epoca y tiempo' }],
+    },
+    {
+      q: 'Donde esta Sri Lanka y cual es el cambio de la rupia?',
+      a: 'Donde esta sri lanka: al sur de la India, no forma parte de la India. Rupia sri lanka euro cambia cada dia. Capital de sri lanka: Kotte; llegada en colombo sri lanka. No vendemos vuelos sri lanka.',
+      links: [{ pageId: 'marketSpain', label: 'Viajar desde Espana' }],
     },
     {
       q: 'Pueden personalizar una luna de miel o un circuito de lujo?',
@@ -2375,9 +2397,9 @@ const pl: HomeSeoContent = {
 
 const ru: HomeSeoContent = {
   tag: 'ПУТЕВОДИТЕЛЬ',
-  title: 'Туры на Шри Ланку: пакеты, аэропорт Коломбо и водитель',
+  title: 'Туры шри ланка: пакеты, погода, виза и водитель',
   subtitle:
-    'Составлено местными экспертами Sundown Tours Sri Lanka  лицензированные водители гиды, индивидуальные маршруты и тысячи довольных путешественников из России, СНГ и всей Европы с 1992 года.',
+    'Sundown Tours на острове с 1992 года: частные туры шри ланка для гостей из России. Пишем шри ланка через пробел. Не авиабилеты, не Travelata и не новости.',
   tocLabel: 'На этой странице',
   seeAlsoLabel: 'Смотрите также',
   toc: [
@@ -2399,8 +2421,8 @@ const ru: HomeSeoContent = {
       anchor: 'why-sri-lanka',
       heading: 'Почему стоит поехать на Шри Ланку?',
       intro: [
-        'Шри Ланка  один из самых благодарных островных направлений Азии для европейских путешественников, которым нужна разнообразие без долгих внутренних перелётов. За один <strong>отпуск на Шри Ланке</strong> вы подниметесь на древнюю скальную крепость на рассвете, проедете на поезде сквозь туманные чайные плантации, отправитесь на сафари за леопардами и завершите неделю на пляже под пальмами.',
-        'Остров компактный, поэтому хорошо спланированный <strong>частный тур по Шри Ланке</strong> соединяет культурный треугольник, горы, национальные парки и южное побережье за семь–четырнадцать дней в комфортном темпе и всегда гибко.',
+        'Шри ланка это островная страна в Индийском океане, южнее Индии (шри ланка где, шри ланка на карте, шри ланка какой океан). Шри ланка на английском: Sri Lanka. За один отдых шри ланка вы поднимаетесь на Сигирию, едете поездом шри ланка через чай, делаете сафари и заканчиваете у моря.',
+        'Остров компактный, поэтому частный тур шри ланка соединяет культуру, горы, парки и юг за семь–четырнадцать дней. Время шри ланка: UTC+5:30.',
         'Шри Ланка также отличается прекрасным соотношением цены и качества. Бутик отели, отличная кухня и природа мирового класса доступны по ценам, подходящим и для среднего сегмента, и для <strong>люксовых туров по Шри Ланке</strong>, а тёплое гостеприимство создаёт ощущение желанного гостя с первых минут.',
       ],
       subsections: [{ heading: 'Чем Шри Ланка отличается от других направлений Азии?' }],
@@ -2423,7 +2445,7 @@ const ru: HomeSeoContent = {
       anchor: 'best-time',
       heading: 'Когда лучше ехать на Шри Ланку',
       intro: [
-        'Шри Ланку можно посещать круглый год. Поскольку два муссона затрагивают разные побережья в разное время, почти всегда есть регион с идеальной погодой  главное подобрать маршрут под ваши даты.',
+        'Шри ланку можно посещать круглый год. Шри ланка погода и сезон шри ланка зависят от берега: два муссона. Шри ланка когда лучше ехать: запад и юг обычно декабрь–апрель; восток май–сентябрь. Шри ланка летом чаще восток, культура и сафари.',
       ],
       cards: [
         { icon: 'fa-umbrella-beach', title: 'Запад и юг', meta: 'Ноябрь–апрель', text: 'Высокий сезон для зимнего солнца. Коломбо, Галле, Мирисса, Бентота и Хиккадува  спокойное море и солнце.' },
@@ -2684,7 +2706,7 @@ const ru: HomeSeoContent = {
         {
           heading: 'Виза (ETA) для граждан Европы',
           paras: [
-            'Большинству европейских граждан нужна электронная виза (ETA) до прибытия. Подайте заявку онлайн минимум за 24 to 48 часов до вылета и сохраните подтверждение и номер. Детям нужна отдельная ETA.',
+            'Большинству гостей из России нужна шри ланка виза: ETA до прибытия на eta.gov.lk. С 25 мая 2026 туристическая ETA часто бесплатна 30 дней. Arrival card её не заменяет.',
           ],
         },
         {
@@ -2731,7 +2753,7 @@ const ru: HomeSeoContent = {
     },
     {
       q: 'Сколько лететь из Москвы на Шри Ланку?',
-      a: 'Обычно около 8 to 12 часов в воздухе плюс стыковка (Дубай, Доха, Абу Даби или Стамбул). Билеты не продаём; первую ночь подгоняем под реальное прибытие в CMB.',
+      a: 'Обычно около 8–12 часов в воздухе плюс стыковка. Шри ланка билеты и аэрофлот не продаём; первую ночь подгоняем под прибытие в CMB.',
       links: [{ pageId: 'marketRussia', label: 'Туры из России' }],
     },
     {
@@ -2741,8 +2763,13 @@ const ru: HomeSeoContent = {
     },
     {
       q: 'Что посмотреть и какие пляжи выбрать?',
-      a: 'Львиная скала (Сигирия), Канди, поезд до Эллы, сафари в Яле, затем Хиккадува, Мирисса, Негомбо или Бентота по сезону. Мальдивыотдельный перелёт из CMB.',
+      a: 'Львиная скала (Сигирия), Канди, поезд до Эллы, сафари в Яле, затем Хиккадува, унаватуна, Мирисса, Негомбо или Бентота по сезону. Мальдивы отдельный рейс из CMB.',
       links: [{ pageId: 'guideBeaches', label: 'Пляжи' }],
+    },
+    {
+      q: 'Какое время шри ланка и какая валюта?',
+      a: 'Время шри ланка UTC+5:30 круглый год. Шри ланка валюта рупия (LKR); курс рубля к рупии смотрите в банке, мы не обменник.',
+      links: [{ pageId: 'guideBudget', label: 'Бюджет и деньги' }],
     },
     {
       q: 'Можно ли составить индивидуальный медовый месяц или люксовый тур?',
@@ -2756,4 +2783,43 @@ const ru: HomeSeoContent = {
   ],
 };
 
-export const HOME_SEO: Record<Locale, HomeSeoContent> = { en, de, fr, it, es, pl, ru, nl: en };
+const nl: HomeSeoContent = {
+  ...en,
+  tag: 'REISGIDS',
+  title: 'Sri Lanka rondreis, vakantie en prive chauffeur',
+  subtitle:
+    'Sri Lanka vakantie vanuit Nederland: prive rondreis, visum ETA, beste tijd, Sigiriya, Kandy, Ella, safari en luchthaven Colombo. Lokaal sinds 1992. Geen vliegtickets.',
+  tocLabel: 'Op deze pagina',
+  seeAlsoLabel: 'Zie ook',
+  faqEyebrow: 'FAQ',
+  faqHeading: 'Veelgestelde vragen over Sri Lanka rondreizen',
+  faqs: [
+    {
+      q: 'Wat is een prive Sri Lanka rondreis?',
+      a: 'U reist met eigen chauffeur gids en auto, geen groepsbus. Wij plannen Sigiriya, Kandy, Ella, safari en strand rond uw data.',
+      links: [{ pageId: 'tours', label: 'Reisepakketten' }],
+    },
+    {
+      q: 'Heb ik een visum Sri Lanka nodig?',
+      a: 'Ja. ETA vooraf op eta.gov.lk. Gratis betekent niet zonder aanvraag. Arrival card vervangt de ETA niet.',
+      links: [{ pageId: 'guideVisa', label: 'Visum en ETA' }],
+    },
+    {
+      q: 'Wat is de beste tijd voor Sri Lanka?',
+      a: 'Twee moessons. Zuid en west meestal december tot april; oost mei tot september. Cultuur en heuvels zijn jaarrond mogelijk.',
+      links: [{ pageId: 'guideBestTime', label: 'Beste tijd' }],
+    },
+    {
+      q: 'Waar is de luchthaven Colombo?',
+      a: 'CMB in Katunayake, niet in het stadscentrum. Negombo is dichterbij voor een late landing. Wij halen u op; vliegtickets verkopen wij niet.',
+      links: [{ pageId: 'guideAirportTransfers', label: 'Luchthaven transfer' }],
+    },
+    {
+      q: 'Is dit self drive of een chauffeur?',
+      a: 'Licensed chauffeur gids met verzekerde auto. U rijdt niet zelf in het Sri Lankaanse verkeer.',
+      links: [{ pageId: 'guidePrivateDriver', label: 'Prive chauffeur' }],
+    },
+  ],
+};
+
+export const HOME_SEO: Record<Locale, HomeSeoContent> = { en, de, fr, it, es, pl, ru, nl };

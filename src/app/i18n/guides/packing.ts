@@ -327,7 +327,7 @@ export const PACKING_GUIDE: ArticleContent = {
       },
       {
         title: 'Adaptadores, documentos y que no llevar de mas',
-        body: 'Sri Lanka usa enchufes Type D (tres redondos) y Type G (estilo UK)adaptador universal con proteccion de sobretension cubre la mayoria de hoteles. Tension 230 V; compruebe dual voltage en secadores y planchas.\n\nDeje en casa ropa formal pesada, varias guias impresas y farmacia completacias y librerias en Colombo y pueblos turisticos. Una maleta mediana mas mochila diaria bastan para una semana de tour privado con lavanderia en hoteles de gama media.',
+        body: 'Sri Lanka usa enchufes Type D (tres redondos) y Type G (estilo UK). Enchufe sri lanka: adaptador universal con proteccion de sobretension cubre la mayoria de hoteles. Tension 230 V; compruebe dual voltage en secadores y planchas.\n\nDeje en casa ropa formal pesada, varias guias impresas y farmacia completacias y librerias en Colombo y pueblos turisticos. Una maleta mediana mas mochila diaria bastan para una semana de tour privado con lavanderia en hoteles de gama media.',
       },
     ],
     faq: [
@@ -349,7 +349,7 @@ export const PACKING_GUIDE: ArticleContent = {
       },
       {
         q: 'Que adaptador electrico necesito?',
-        a: 'Type D y Type G son estandar; adaptador universal en la mayoria de hoteles. 230 V compruebe dual voltage en secador y plancha.',
+        a: 'Enchufe sri lanka: Type D y Type G. Adaptador universal en la mayoria de hoteles. 230 V; compruebe dual voltage en secador y plancha.',
       },
     ],
     ctaTitle: 'Viaje ligero con un tour privado planificado',

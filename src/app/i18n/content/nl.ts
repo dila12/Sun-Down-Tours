@@ -269,6 +269,10 @@ export const nl: Dict = {
         q: 'Organiseren jullie Sri Lanka vakanties voor reizigers uit Europa?',
         a: 'Ja. Wij plannen prive chauffeurtours voor gasten uit Nederland, Belgie en Europa, met Engelssprekende chauffeur gids en WhatsApp planning voor de vlucht.',
       },
+      {
+        q: 'Heb ik een visum nodig en waar is de luchthaven?',
+        a: 'Sri Lanka visum: ETA op eta.gov.lk voor de vlucht. Luchthaven Colombo (CMB) in Katunayake is de ontmoetingsplaats. Beste tijd hangt af van de kust, niet van een enkele maand.',
+      },
     ],
   },
 
@@ -627,7 +631,7 @@ export const nl: Dict = {
       description:
         'Prive rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala safari en strand. Sinds 1992.',
       keywords:
-        'Sri Lanka rondreis, Sri Lanka vakantie, Sri Lanka reisepakket, prive chauffeur Sri Lanka, Sri Lanka vakantie',
+        'sri lanka rondreis, sri lanka vakantie, sri lanka reisepakket, prive chauffeur sri lanka, visum sri lanka, beste tijd sri lanka, sigiriya, kandy, ella, safari sri lanka, luchthaven colombo',
     },
     tours: {
       title: 'Sri Lanka reisepakketten | 7, 8 & 10 dagen prive',
@@ -783,7 +787,7 @@ export const nl: Dict = {
       title: 'Sri Lanka visum gids | ETA, inreisregels & praktische tips',
       description:
         'Hoe de Sri Lanka ETA en visa on arrival werken voor reizigers, welke documenten u nodig heeft en veelgemaakte inreisfouten om te vermijden.',
-      keywords: 'Sri Lanka visum, Sri Lanka ETA, visa on arrival Sri Lanka, inreisvereisten',
+      keywords: 'sri lanka visum, sri lanka eta, eta.gov.lk, inreisvereisten sri lanka',
     },
     guidePrivateDriver: {
       title: 'Sri Lanka prive chauffeur gids | Chauffeur tours uitgelegd',
@@ -863,9 +867,10 @@ export const nl: Dict = {
       keywords: 'privacybeleid',
     },
     destColombo: {
-      title: "Colombo Sri Lanka Travel Guide | Private Tours",
-      description: "Plan Colombo as your arrival hub with private airport transfers and tailor made Sri Lanka itineraries.",
-      keywords: "destColombo",
+      title: 'Colombo Sri Lanka | Luchthaven CMB, stad en eerste nacht',
+      description:
+        'Colombo Sri Lanka: luchthaven Bandaranaike (CMB) in Katunayake, Negombo vs stad, hoofdstad Kotte en eerste nacht van een prive rondreis.',
+      keywords: 'colombo sri lanka, luchthaven colombo, sri lanka luchthaven, cmb, negombo',
     },
     destNegombo: {
       title: "Negombo Sri Lanka | Beach Near Airport",
@@ -938,9 +943,10 @@ export const nl: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: "Sri Lanka Airport Transfers | Private Pickup",
-      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
-      keywords: "guideAirportTransfers",
+      title: 'Sri Lanka luchthaven | Prive transfer vanaf CMB',
+      description:
+        'Luchthaven Colombo (CMB): prive ophaalservice naar Negombo, Colombo en het eerste hotel van uw rondreis. Geen vliegtickets.',
+      keywords: 'sri lanka luchthaven, luchthaven colombo, cmb transfer, negombo transfer',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
@@ -973,9 +979,11 @@ export const nl: Dict = {
       keywords: "marketRussia",
     },
     marketNetherlands: {
-      title: "Sri Lanka Tours from the Netherlands | Prive Rondreizen",
-      description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
-      keywords: "marketNetherlands",
+      title: 'Sri Lanka vakantie vanuit Nederland | Prive rondreis en chauffeur',
+      description:
+        'Sri Lanka rondreis vanuit Nederland: visum ETA, beste tijd, Sigiriya, safari en chauffeur na CMB. Geen vliegtickets en geen touroperator uit een brochure.',
+      keywords:
+        'sri lanka vakantie, sri lanka rondreis, prive chauffeur sri lanka, visum sri lanka, beste tijd sri lanka, sigiriya, safari sri lanka, luchthaven colombo',
     },
     marketUK: {
       title: 'Sri Lanka vakantie vanuit het VK | Prive rondreis',

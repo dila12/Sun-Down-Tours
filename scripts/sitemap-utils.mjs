@@ -170,6 +170,7 @@ export const PAGE_CONTENT_SOURCES = {
   marketSpain: ['src/app/i18n/guides/spainFromEs.ts'],
   marketPoland: ['src/app/i18n/guides/polandFromPl.ts'],
   marketRussia: ['src/app/i18n/guides/russiaFromRu.ts'],
+  marketNetherlands: ['src/app/i18n/guides/netherlandsFromNl.ts'],
   monthAugust: ['src/app/i18n/guides/monthAugust.ts'],
 };
 
@@ -177,8 +178,8 @@ const SITE_DATA_FILE = 'src/app/i18n/site-data.mjs';
 
 /**
  * Whether a page/locale pair should be considered for the sitemap.
- * Mirrors SeoService indexability: noindex pages, Dutch, and locales without
- * authored translations (`indexLocales`) are excluded.
+ * Mirrors SeoService indexability: noindex pages and locales omitted from
+ * `indexLocales` are excluded.
  */
 export function isSitemapEligible(page, locale) {
   return isPageIndexable(page, locale);

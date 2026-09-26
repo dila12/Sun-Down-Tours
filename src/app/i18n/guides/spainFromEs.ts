@@ -15,12 +15,12 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
       {
         id: 'who',
         title: 'A Sri Lanka trip from Spainprivate tour, not a brochure package',
-        body: 'Sundown Tours is based in Sri Lanka. We do not sell airline tickets and we are not a Spanish wholesaler. We meet you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made itinerary: Cultural Triangle, hill country, safari and beach.\n\nSearches such as “vuelos Sri Lanka”, Etihad or Qatar Airways are shopping for seats. Searches such as “viajar a Sri Lanka”, “viaje Sri Lanka”, “que ver en Sri Lanka” and “que hacer en Sri Lanka” are what we organise.',
+        body: 'Sundown Tours is based in Sri Lanka. We do not sell airline tickets (not Etihad, not Turkish Airlines) and we are not a Spanish wholesaler. We meet you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made itinerary: Cultural Triangle, kandy sri lanka, ella sri lanka, safari and beach.\n\nSearches such as sri lanka vuelos, vuelos sri lanka or vuelos a sri lanka are shopping for seats. Viajar a sri lanka, viaje sri lanka, viaje a sri lanka, que ver en sri lanka and que hacer en sri lanka are what we organise.',
       },
       {
         id: 'where',
         title: 'Where is Sri Lanka?',
-        body: 'Sri Lanka is an island in the Indian Ocean, just south of India. It is not next to the Maldives by road: a Maldives add on is a separate flight from Colombo (CMB), not a driving day. The island is compact enough that a private 7 to 10 day circuit can cover culture, tea country, safari and beach.',
+        body: 'Sri Lanka is an island in the Indian Ocean, just south of India. Sri lanka pertenece a la india? No: it is an independent country. India sri lanka in travel searches often means geography or a two country trip; we run the island circuit, not cricket.\n\nIt is not next to the Maldives by road: sri lanka maldivas / sri lanka y maldivas is a separate flight from Colombo (CMB). Sri lanka mapa and sri lanka maps: we draw the private circuit; we are not a news site. Capital sri lanka / sri lanka capital: administrative Sri Jayawardenepura Kotte; travellers land in colombo sri lanka.',
       },
       {
         id: 'flight',
@@ -40,12 +40,12 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
       {
         id: 'when',
         title: 'Best time, weather and clock',
-        body: 'December to March is peak for west and south beaches (Negombo, Mirissa, Weligama, Galle). May to September often favours the east (Trincomalee, Pigeon Island) and is strong for Cultural Triangle sightseeing and dry season safari (Yala, Wilpattu, Minneriya, Udawalawe).\n\nSri Lanka is UTC+5:30. Time difference with Spain: 4 hours 30 minutes in winter, 3 hours 30 minutes during Spanish summer time. Currency is the Sri Lankan rupee (LKR).',
+        body: 'December to March is peak for west and south beaches (Negombo, Mirissa, Weligama, Galle). May to September often favours the east (Trincomalee, Pigeon Island) and is strong for Cultural Triangle sightseeing and dry season safari (Yala, Wilpattu, Minneriya, Udawalawe).\n\nMejor epoca para viajar a sri lanka depends on the coast. Tiempo sri lanka / tiempo en sri lanka / sri lanka weather: two monsoons. Hora sri lanka, sri lanka hora, que hora es en sri lanka, hora en sri lanka, hora sri lanka ahora, sri lanka time and time in sri lanka: UTC+5:30. Currency is LKR; we do not publish a live rupia sri lanka euro ticker.',
       },
       {
         id: 'whatToDo',
         title: 'What to see: Lion Rock, Kandy, Ella train, safari, beaches',
-        body: 'A first visit typically includes Sigiriya Lion Rock, Dambulla, Kandy’s Temple of the Tooth, the Kandy to Ella tea country train, a jeep safari at Yala (or Wilpattu/Minneriya depending on dates), and a beach finish at Mirissa, Weligama or Galle. Buddhism is the majority religion; dress modestly at temples.\n\nSeven days covers the highlights. Ten days is calmer.',
+        body: 'A first visit typically includes Sigiriya Lion Rock, Dambulla, Kandy’s Temple of the Tooth (kandy sri lanka), the Kandy to Ella tea country train (ella sri lanka), a jeep safari sri lanka at Yala (or Wilpattu/Minneriya depending on dates), and playas sri lanka at Mirissa, Weligama or Galle. Buddhism is the majority religion; dress modestly at temples.\n\nSri lanka language on tour: Sinhala and Tamil official, English in tourism. Seven days covers the highlights. Ten days is calmer.',
       },
     ],
     faq: [
@@ -60,6 +60,10 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
       {
         q: 'When is the best time to travel to Sri Lanka from Spain?',
         a: 'It depends on the coast. December to March for the south and west; May to September often better for the east, Cultural Triangle and dry season safari.',
+      },
+      {
+        q: 'Where is Sri Lanka and what is the capital?',
+        a: 'Donde esta sri lanka: island south of India, not part of India. Capital de sri lanka: Kotte administrative; colombo sri lanka is where you land.',
       },
     ],
     ctaTitle: 'Plan a private Sri Lanka trip from Spain',
@@ -93,18 +97,18 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
     ],
   },
   es: {
-    h1: 'Viajar a Sri Lanka desde Espana: vuelos, que ver y circuito privado',
+    h1: 'Viajar a Sri Lanka desde Espana: viaje, que ver y circuito privado',
     lead:
       'Quien busca viajar a Sri Lanka desde Espana suele querer tres respuestas: duracion del vuelo desde Madrid o Barcelona, mejor epoca (tiempo) y que ver sin un paquete de autobus. Esta pagina cubre el aeropuerto CMB, ETA, playas, Lion Rock, safari, tren y como funciona un circuito privado con chofer al aterrizar.',
     heroAlt: 'Circuito privado por Sri Lanka con chofer guia para viajeros desde Espana',
     sections: [
       {
         title: 'Viaje a Sri Lanka desde Espanacircuito privado, no un folleto de mayorista',
-        body: 'Sundown Tours esta en Sri Lanka. No vendemos billetes de avion ni competimos con Etihad o Qatar Airways. Os recogemos en Colombo (CMB) con un chofer guia autorizado y montamos un itinerario a medida: Triangulo Cultural, pais del te, safari y playa.\n\nLas busquedas «vuelos Sri Lanka» o «SriLankan Airlines» buscan asiento. «Viajar a Sri Lanka», «viaje Sri Lanka», «que ver en Sri Lanka» y «que hacer en Sri Lanka» es lo que organizamos desde 1992.',
+        body: 'Sundown Tours esta en Sri Lanka. No vendemos sri lanka vuelos ni billetes Etihad o Turkish Airlines. Os recogemos en colombo sri lanka (CMB) con un chofer guia autorizado y montamos viaje sri lanka a medida: Triangulo Cultural, kandy sri lanka, ella sri lanka, safari sri lanka y playas sri lanka.\n\nLas busquedas vuelos sri lanka o vuelos a sri lanka buscan asiento. Viajar a sri lanka, viaje a sri lanka, viaje sri lanka, que ver en sri lanka y que hacer en sri lanka es lo que organizamos desde 1992.',
       },
       {
         title: 'Donde esta Sri Lanka?',
-        body: 'Sri Lanka es una isla en el oceano Indico, al sur de la India. No esta unida por carretera a Maldivas: un tramo Maldivas es otro vuelo desde CMB, no una etapa en coche. La isla es lo bastante compacta para unir cultura, montana, safari y playa en 7 to 10 dias privados.',
+        body: 'Donde esta sri lanka: isla en el oceano Indico, al sur de la India. Sri lanka pertenece a la india? No: es un pais independiente. India sri lanka en busquedas de viaje suele ser geografia o un segundo destino; nosotros hacemos el circuito de la isla, no cricket ni sri lanka news.\n\nSri lanka maldivas y sri lanka y maldivas: otro vuelo desde CMB, no una etapa en coche. Sri lanka mapa y sri lanka maps: trazamos el circuito privado. Capital sri lanka, sri lanka capital y capital de sri lanka: administrativa Sri Jayawardenepura Kotte; aterrizais en colombo sri lanka.',
       },
       {
         title: 'Vuelos de Espana a Sri Lanka',
@@ -120,11 +124,11 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
       },
       {
         title: 'Mejor epoca, tiempo y hora en Sri Lanka',
-        body: 'Diciembre to marzo es alta para playas del oeste y sur (Negombo, Mirissa, Weligama, Galle). Mayo to septiembre suele favorecer el este (Trincomalee, Pigeon Island) y el safari de estacion seca (Yala, Wilpattu, Minneriya, Udawalawe).\n\nHora en Sri Lanka: UTC+5:30. Diferencia con Espana: 4 h 30 en invierno, 3 h 30 en horario de verano. Moneda: rupia de Sri Lanka (LKR).',
+        body: 'Diciembre to marzo es alta para playas sri lanka del oeste y sur (Negombo, Mirissa, Weligama, Galle). Mayo to septiembre suele favorecer el este (Trincomalee, Pigeon Island) y el safari sri lanka de estacion seca (Yala, Wilpattu, Minneriya, Udawalawe).\n\nMejor epoca para viajar a sri lanka depende de la costa. Tiempo sri lanka, tiempo en sri lanka y sri lanka weather: dos monzones.\n\nHora sri lanka, sri lanka hora, que hora es en sri lanka, hora en sri lanka, hora sri lanka ahora, sri lanka time y time in sri lanka: UTC+5:30. Diferencia con Espana: 4 h 30 en invierno, 3 h 30 en verano. Rupia sri lanka euro y rupias sri lanka a euros cambian cada dia; no somos un ticker.',
       },
       {
         title: 'Que ver y que hacer: Lion Rock, tren, safari, playas',
-        body: 'Un primer viaje suele incluir el Lion Rock de Sigiriya, Dambulla, el Templo del Diente en Kandy, el tren Kandy to Ella, un safari en jeep en Yala (o Wilpattu/Minneriya segun fechas) y un final de playa en Mirissa, Weligama o Galle. El budismo es mayoritario; vestid modestos en templos.\n\nSiete dias cubren lo esencial. Diez dias van mas holgados.',
+        body: 'Un primer viaje suele incluir Sigiriya, Dambulla, kandy sri lanka (Templo del Diente), ella sri lanka (tren), safari sri lanka en Yala (o Wilpattu/Minneriya) y sri lanka playas en Mirissa, Weligama o Galle. El budismo es mayoritario; vestid modestos en templos.\n\nSri lanka language: cingales y tamil oficiales, ingles en turismo. Siete dias cubren lo esencial. Diez dias van mas holgados. Enchufe sri lanka: tipo D y G, ver guia de maleta.',
       },
     ],
     faq: [
@@ -142,7 +146,23 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
       },
       {
         q: 'Que ver en Sri Lanka en una primera visita?',
-        a: 'Sigiriya (Lion Rock), Dambulla, Kandy, tren a Ella, un safari (Yala, Wilpattu o Minneriya) y playa en Mirissa, Weligama o Galle. Siete a diez dias privados cubren eso sin autobus de grupo.',
+        a: 'Que ver en sri lanka y sri lanka que ver: Sigiriya, Dambulla, kandy sri lanka, tren a ella sri lanka, safari sri lanka y playas sri lanka. Siete a diez dias privados. Que hacer en sri lanka es el mismo circuito, no un paquete de autobus.',
+      },
+      {
+        q: 'Donde esta Sri Lanka y cual es la capital?',
+        a: 'Donde esta sri lanka: al sur de la India, oceano Indico. Sri lanka pertenece a la india? No. Capital de sri lanka / sri lanka capital: Kotte administrativo; colombo sri lanka es la llegada. Sri lanka mapa: el circuito lo dibujamos nosotros.',
+      },
+      {
+        q: 'Que hora es en Sri Lanka y que idioma se habla?',
+        a: 'Que hora es en sri lanka, hora sri lanka ahora y sri lanka hora: UTC+5:30. Sri lanka language: cingales y tamil; ingles en el circuito. Planificacion en espanol por WhatsApp.',
+      },
+      {
+        q: 'Como va el cambio rupia sri lanka euro?',
+        a: 'Rupias sri lanka a euros y rupia sri lanka euro varian cada dia. Pagad en LKR. Cotizamos el viaje a sri lanka en tierra, no un tipo de cambio en vivo.',
+      },
+      {
+        q: 'Vendeis vuelos sri lanka o Etihad?',
+        a: 'No. Sri lanka vuelos, vuelos sri lanka y vuelos a sri lanka los compra la aerolinea. Visado sri lanka / visa sri lanka: ETA en eta.gov.lk. Luego chofer en CMB.',
       },
     ],
     ctaTitle: 'Planificar un viaje privado a Sri Lanka desde Espana',

@@ -73,6 +73,10 @@ export const ELLA_DEST: ArticleContent = {
         q: 'Can I visit Ella and Yala on the same trip?',
         a: 'Yes Yala is around two hours from Ella by private vehicle, so many itineraries pair a Yala morning safari with an Ella afternoon, or base in Ella for two nights and add a full day Yala excursion.',
       },
+      {
+        q: 'What to do in Ella besides the train?',
+        a: 'Things to do in ella: Nine Arch Bridge, Little Adam’s Peak or ella rock, tea factory, then ella to yala national park if you want a safari the next morning. Sri lanka train from kandy to ella is the classic arrival.',
+      },
     ],
     ctaTitle: 'Plan your time in Ella',
     ctaBody: 'Our private tours include Ella as a hill country stop on multi day itineraries, with your chauffeur guide timing the drive around the scenic train, tea factory visits and the best light for the Nine Arch Bridge.',
@@ -94,7 +98,7 @@ export const ELLA_DEST: ArticleContent = {
   },
 
   de: {
-    h1: 'Ella, Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
+    h1: 'Ella Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
     lead: 'Kuhle Bergluft, ein Tal voller Teebusche, das sich in jede Richtung erstreckt, und das Gerausch des blauen Zuges, der ein jahrhundertealtes Viadukt uberquert  Ella ist der Bergland Stopp, wegen dem Reisende ihre Route gerne um einen Tag verlangern.',
     heroAlt: 'Die Nine Arch Bridge inmitten gruner Teeplantagen bei Ella',
     sections: [
@@ -328,7 +332,7 @@ export const ELLA_DEST: ArticleContent = {
   },
 
   es: {
-    h1: 'Ella, Sri Lanka: vistas de montana, te y el puente de los Nueve Arcos',
+    h1: 'Ella Sri Lanka: vistas de montana, te y el puente de los Nueve Arcos',
     lead: 'Aire fresco de montana, un valle de plantaciones de te que se extiende en todas direcciones y el sonido del tren azul cruzando un viaducto centenario: Ella es la parada de las tierras altas que hace que los viajeros alarguen su itinerario un dia mas.',
     heroAlt: 'El puente de los Nueve Arcos rodeado de verdes plantaciones de te cerca de Ella',
     sections: [
@@ -561,7 +565,7 @@ export const ELLA_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Ella, Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
+    h1: 'Ella Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
     lead: 'Kuhle Bergluft, ein Tal voller Teebusche, das sich in jede Richtung erstreckt, und das Gerausch des blauen Zuges, der ein jahrhundertealtes Viadukt uberquert  Ella ist der Bergland Stopp, wegen dem Reisende ihre Route gerne um einen Tag verlangern.',
     heroAlt: 'Die Nine Arch Bridge inmitten gruner Teeplantagen bei Ella',
     sections: [

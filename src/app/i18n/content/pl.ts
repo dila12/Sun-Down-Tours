@@ -255,6 +255,10 @@ export const pl: Dict = {
         q: 'Czy organizujecie wycieczki na Sri Lanke dla podroznych z Europy?',
         a: 'Tak. Planujemy prywatne objazdy z kierowca dla gosci z Polski i Europy, z anglojezycznym kierowca przewodnikiem i ustaleniami przez WhatsApp przed wylotem.',
       },
+      {
+        q: 'Czy potrzebna jest wiza i jakie jest lotnisko?',
+        a: 'Wiza Sri Lanka: ETA na eta.gov.lk przed lotem. Lotnisko Kolombo (CMB) to miejsce odbioru. Pogoda i pora deszczowa zaleza od wybrzeza nie od jednego kalendarza.',
+      },
     ],
   },
 
@@ -569,17 +573,17 @@ export const pl: Dict = {
 
   seo: {
     home: {
-      title: 'Wakacje Sri Lanka | Prywatne wycieczki z Polski',
+      title: 'Wakacje Sri Lanka | Wycieczka z kierowca z Polski',
       description:
-        'Wakacje na Sri Lance z Polski: prywatna wycieczka z kierowca, pogoda, ile trwa lot z Warszawy, wiza ETA, Lion Rock, safari i plaze. Od 1992.',
+        'Wakacje Sri Lanka z Polski: prywatna wycieczka, wiza ETA, pogoda, Sigiriya, Kandy, Ella, safari Yala i lotnisko Kolombo. Od 1992. Nie sprzedajemy biletow.',
       keywords:
-        'wakacje Sri Lanka, wycieczka Sri Lanka, pogoda Sri Lanka, co zobaczyc Sri Lanka, atrakcje Sri Lanka',
+        'wakacje sri lanka, wycieczka sri lanka, prywatny kierowca sri lanka, wiza sri lanka, pogoda sri lanka, sigiriya, kandy, ella, safari sri lanka, lotnisko kolombo',
     },
     tours: {
       title: 'Pakiety wycieczek Sri Lanka | 7, 8 i 10 dni prywatnie',
       description:
         'Pakiety wycieczek po Sri Lance dla podroznych z Europy: prywatne wakacje 7, 8 i 10 dni z kierowca przewodnikiem, safari i plazanie wycieczki grupowe.',
-      keywords: 'pakiety Sri Lanka, wycieczka Sri Lanka, objazd 7 dni, objazd 10 dni',
+      keywords: 'pakiety sri lanka, wycieczka sri lanka, objazd 7 dni, objazd 10 dni, safari sri lanka, sigiriya kandy ella',
     },
     services: {
       title: 'Prywatne wycieczki, kierowca i wakacje | Sri Lanka',
@@ -684,10 +688,10 @@ export const pl: Dict = {
       keywords: 'przewodnik Sri Lanka, porady podroz Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya, wejscie i wskazowki',
+      title: 'Sigiriya Sri Lanka | Lwia Skala, wejscie i wycieczka',
       description:
-        'Lion Rock (Sigiriya): godziny wejscia, freski, Pidurangala i objazd Trojkata Kulturowego z prywatnym kierowca.',
-      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, twierdza Sigiriya, atrakcje Sri Lanka',
+        'Sigiriya (Lwia Skala): godziny wejscia, freski, Pidurangala i objazd Trojkata Kulturowego z prywatnym kierowca.',
+      keywords: 'sigiriya sri lanka, lwia skala, twierdza sigiriya, atrakcje sri lanka',
     },
     destElla: {
       title: 'Ella Sri Lanka | Pociag, Nine Arch Bridge i kraina herbaty',
@@ -733,7 +737,7 @@ export const pl: Dict = {
       keywords: 'wiza Sri Lanka, sri lanka wiza, ETA Sri Lanka, eta.gov.lk, sri lanka gov',
     },
     guidePrivateDriver: {
-      title: 'Przewodnik po prywatnym kierowcy na Sri Lance | Wycieczki z szoferem',
+      title: 'Prywatny kierowca Sri Lanka | Objazd z kierowca przewodnikiem',
       description:
         'Dlaczego podrozni wybieraja prywatnego kierowce na Sri Lance, co jest w cenie, typowe dzienne odleglosci i jak zaplanowac elastyczna wycieczke objazdowa.',
       keywords: 'prywatny kierowca Sri Lanka, kierowca przewodnik Sri Lanka, prywatna wycieczka Sri Lanka',
@@ -813,7 +817,7 @@ export const pl: Dict = {
       title: 'Kolombo Sri Lanka | Lotnisko CMB, miasto i pierwsza noc',
       description:
         'Kolombo i lotnisko Sri Lanka (CMB): miasto vs Katunayake, Negombo na pierwsza noc po locie z Warszawy.',
-      keywords: 'colombo Sri Lanka, Kolombo, lotnisko Sri Lanka, CMB',
+      keywords: 'colombo sri lanka, kolombo, lotnisko kolombo, lotnisko sri lanka, cmb',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Plaza przy lotnisku Colombo',
@@ -928,7 +932,7 @@ export const pl: Dict = {
       description:
         'Wakacje na Sri Lance z Polski: ile trwa lot z Warszawy, pogoda i pora deszczowa, wiza ETA, Lion Rock, safari, Bentota i prywatny objazd po CMBnie Itaka ani TUI.',
       keywords:
-        'wakacje Sri Lanka, wycieczka Sri Lanka, pogoda Sri Lanka, loty Sri Lanka, wiza Sri Lanka, kiedy jechac Sri Lanka, co zobaczyc Sri Lanka',
+        'wakacje sri lanka, wycieczka sri lanka, pogoda sri lanka, wiza sri lanka, prywatny kierowca sri lanka, safari sri lanka, sigiriya, lot z warszawy, lotnisko kolombo',
     },
     marketRussia: {
       title: "Sri Lanka Tours from Russia | Private Driver Holidays",

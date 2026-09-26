@@ -2,7 +2,7 @@ import type { ArticleContent } from '../articles/types';
 
 export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
   en: {
-    h1: 'Kandy to Ella Train Ride: Scenic Sri Lanka Railway and Nine Arch Bridge',
+    h1: 'Kandy to Ella Train and Nanu Oya to Ella Train Ride',
     lead:
       'The hill country train between Kandy, Nanu Oya (for Nuwara Eliya) and Ella is one of Sri Lanka’s signature experiences: tea slopes, viaducts and village stations. A private chauffeur tour pairs best with selected scenic segments rather than trying to move all luggage by rail every day.',
     heroImage: 'assets/img/mainpage/6.webp',
@@ -392,7 +392,7 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
     ],
   },
   ru: {
-    h1: 'Поезда Шри Ланки: Канди–Элла и чайные холмы по железной дороге',
+    h1: 'Поезд шри ланка: Канди Элла и чайные холмы',
     lead:
       'Горный поезд между Канди, Нану Ойя (для Нувара Элии) и Эллойодна из визитных карточек Шри Ланки: чайные склоны, виадуки и деревенские станции. Частный тур с водителем лучше сочетать с выбранными отрезками, а не возить весь багаж поездом каждый день.',
     heroAlt: 'Чайные пейзажи холмов у живописной железной дороги Шри Ланки',

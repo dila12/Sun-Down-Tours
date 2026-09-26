@@ -26,7 +26,7 @@ export class SeoService {
 
   update(pageId: string, locale: Locale): void {
     const page = getPage(pageId);
-    // Dutch + locales without authored body copy stay noindex until translated.
+    // Dutch + locales without authored body copy stay noindex when page.indexLocales omits them.
     const indexable = page
       ? isPageIndexable(page, locale)
       : isIndexableLocale(locale);

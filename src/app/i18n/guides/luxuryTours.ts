@@ -11,7 +11,7 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
       {
         id: 'define',
         title: 'What “luxury private tour” means here',
-        body: 'We focus on private vehicles in good condition, experienced chauffeur guides, flexible daily pacing and hotels you would choose yourself not a coach seat and a fixed buffet lunch stop.\n\nEntrance tickets, spa reservations and specialty experiences can be arranged transparently in your quote.',
+        body: 'We focus on private vehicles in good condition, experienced chauffeur guides, flexible daily pacing and hotels you would choose yourself not a coach seat and a fixed buffet lunch stop. That is how our sri lanka luxury tours differ from TUI style group holidays or helicopter tours we do not sell.\n\nEntrance tickets, spa reservations and specialty experiences can be arranged transparently in your quote.',
       },
       {
         id: 'stays',

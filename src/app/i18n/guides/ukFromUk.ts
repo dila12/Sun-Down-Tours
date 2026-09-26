@@ -7,7 +7,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const UK_FROM_UK_GUIDE: ArticleContent = {
   en: {
-    h1: 'Sri Lanka Holidays from the UK: Flights, Entry Requirements and Private Tours',
+    h1: 'Sri Lanka Holidays from the UK: Private Tours, Weather and Entry Requirements',
     lead:
       'UK travellers searching for Sri Lanka holidays in 2026 usually need three answers first: how long is the flight from London, what are the entry requirements, and how to turn a long haul arrival into a calm private itinerary. This guide covers flights from Heathrow and Manchester, ETA rules, safety, weather and how a local chauffeur guide trip actually works.',
     heroImage: 'assets/img/package-2.webp',
@@ -16,12 +16,12 @@ export const UK_FROM_UK_GUIDE: ArticleContent = {
       {
         id: 'whoThisIsFor',
         title: 'Sri Lanka holidays from the UK, without a coach tour',
-        body: 'Sundown Tours is a Sri Lanka based private tour operator, not a UK package giant. We do not sell airline tickets. We meet you after you land at Colombo (CMB) with a licensed chauffeur guide, then run a tailor made round trip covering culture, wildlife and beaches at your pace.\n\nThat is the useful split of intent. Searches such as “TUI Sri Lanka” or “cheap flights to Sri Lanka” are shopping for flights and all inclusive hotels. Searches such as “Sri Lanka private tour”, “travel to Sri Lanka from UK” and “holidays to Sri Lanka” with a driver are what we rank for: independent travel with a local team since 1992.',
+        body: 'Sundown Tours is a Sri Lanka based private tour operator, not TUI, Intrepid, Trailfinders, Jetwing Travels or a UK coach brand. We do not sell airline tickets, helicopter tours or remittance (send money to sri lanka). We meet you after you land at Colombo (CMB) with a licensed chauffeur guide, then run sri lanka private tours covering culture, wildlife and beaches.\n\nSearches such as TUI sri lanka, cheap flights or google flights are shopping for seats. Sri lanka tours, tours to sri lanka, tours in sri lanka, sri lanka tour, visit sri lanka tours, sri lanka holidays 2026 and holidays to sri lanka with a driver are what we organise since 1992. We are not sri lanka group tours; if you searched sri lanka small group tours, a private vehicle is the usual UK fit.',
       },
       {
         id: 'flightTime',
         title: 'London to Sri Lanka flight time (Heathrow, Gatwick and Manchester)',
-        body: 'A direct London to Sri Lanka flight is typically about 10.5 to 11.5 hours, Heathrow to Bandaranaike International Airport (CMB) near Colombo. SriLankan Airlines is the usual nonstop carrier. one stop itineraries via Dubai, Doha, Abu Dhabi or Istanbul add 3 to 8 hours depending on the layover.\n\n“UK to Sri Lanka flight time” from Manchester is similar in the air if you find a one stop or seasonal routing; many Manchester passengers still connect through Heathrow or the Gulf. Heathrow to Sri Lanka remains the most searched UK route. Check current schedules with the airlinewe plan your first hotel night around the actual arrival, including overnight landings.\n\nTicket prices swing with season and how early you book. We cannot quote airfares. Once you have dates, we quote the ground tour: vehicle, driver guide, and optional hotels.',
+        body: 'A direct london to sri lanka flight is typically about 10.5 to 11.5 hours, Heathrow to Bandaranaike International Airport (CMB) near colombo sri lanka. SriLankan Airlines is the usual nonstop carrier. One stop itineraries via Dubai, Doha, Abu Dhabi or Istanbul add 3 to 8 hours.\n\nSri lanka flights, flight to sri lanka and flights to sri lanka are airline shopping. We cannot quote airfares. Once you have dates, we quote the ground tour: vehicle, driver guide, and optional sri lanka hotels.',
       },
       {
         id: 'afterLanding',
@@ -31,7 +31,7 @@ export const UK_FROM_UK_GUIDE: ArticleContent = {
       {
         id: 'entry',
         title: 'Sri Lanka entry requirements for UK passport holders',
-        body: 'UK nationals still need an Electronic Travel Authorisation (ETA) before boarding. From 25 May 2026, tourist ETAs for 40 listed countriesincluding the United Kingdomare free for 30 days with double entry, but you still apply in advance at the official site eta.gov.lk. Free does not mean walk in on arrival.\n\nPassports should generally be valid for at least six months from arrival. Carry proof of onward travel. Rules change by gazette; the government portal beats blog posts. See our full visa guide for extensions and common mistakes (unofficial “visa” websites charging extra fees).',
+        body: 'UK nationals still need an Electronic Travel Authorisation (ETA) before boarding. From 25 May 2026, tourist ETAs for 40 listed countries including the United Kingdom are free for 30 days with double entry, but you still apply in advance at eta.gov.lk. Sri lanka visa and sri lanka entry requirements are this process, not cricket or sri lanka news.\n\nPassports should generally be valid for at least six months from arrival. Carry proof of onward travel. See our full visa guide for unofficial website traps.',
       },
       {
         id: 'safety',
@@ -41,12 +41,12 @@ export const UK_FROM_UK_GUIDE: ArticleContent = {
       {
         id: 'whenToGo',
         title: 'Best time to visit Sri Lanka from the UK (including August)',
-        body: 'There is no single best month. December to March is peak for west and south beaches (Galle, Mirissa, Hiriketiya) and the busiest, priciest window for UK winter sun holidays. April to September favours the east coast and is often excellent for Cultural Triangle sightseeing and Yala’s dry season wildlife.\n\n“Sri Lanka in August” is a rising UK search: the southwest monsoon can mean rain and rough seas on the west/south coast, while the east and Cultural Triangle are frequently the better bet. A private itinerary can route you to whichever coast is drier on your dates. Sri Lanka is GMT+5:305 hours 30 minutes ahead of the UK in winter, 4 hours 30 minutes during British Summer Time.',
+        body: 'There is no single best month. December to March is peak for west and south beaches (Galle, Mirissa, Hiriketiya). April to September favours the east coast and is often excellent for Cultural Triangle sightseeing and Yala dry season wildlife.\n\nSri lanka weather, weather sri lanka, weather in sri lanka and sri lanka weather january depend on the coast. Best time to visit sri lanka is a routing question, not one month. Time sri lanka, sri lanka time and time in sri lanka: UTC+5:30 (5 hours 30 minutes ahead of the UK in winter, 4 hours 30 minutes in British Summer Time). Gbp to lkr changes daily; we quote the tour, not a Global Exchange ticker.',
       },
       {
         id: 'itineraries',
         title: 'How long should a Sri Lanka holiday from the UK be?',
-        body: 'A week on the ground (plus two travel days) covers Sigiriya Lion Rock, Kandy, Ella, a safari and a beach finishour 7 day private tour. Ten days adds breathing room for tea country, a second wildlife morning or a slower south coast stay including Galle and Mirissa.\n\nAll inclusive beach only holidays are a different product. If you want culture and wildlife as well as swimming, a chauffeur guided circuit then two or three beach nights beats a single resort week. Hiriketiya is a popular surf and cafe bay for travellers who find Mirissa busy; we can end a round tour there in the south coast dry season.',
+        body: 'A week on the ground covers sigiriya sri lanka (lion rock), kandy sri lanka, ella sri lanka, a sri lanka safari and a beach finish. Ten days adds tea country, a second wildlife morning or galle sri lanka and mirissa sri lanka.\n\nSri lanka things to do / things to do in sri lanka on our routes: Cultural Triangle, kandy to ella train, yala safari or wilpattu national park, then the south or east coast. Where is sri lanka: island south of India, not a state of India (india sri lanka in travel searches). Sri lanka map: we draw the private circuit. Maldives is a separate flight from CMB.',
       },
       {
         id: 'maldives',
@@ -77,7 +77,15 @@ export const UK_FROM_UK_GUIDE: ArticleContent = {
       },
       {
         q: 'Can you arrange a Sri Lanka holiday for 2026 if I already booked flights?',
-        a: 'Yes. Send arrival and departure dates, passenger count and interests (safari, beaches, tea country, family pacing). We propose a private chauffeur itinerary and optional hotels. Airport pickup is included on our multi day tours.',
+        a: 'Yes. Sri lanka holidays 2026, sri lanka holidays 2025 and sri lanka holidays 2024 style dates all work: send arrival, departure and interests. We propose sri lanka private tours and optional sri lanka hotels. Not TUI, not a group coach.',
+      },
+      {
+        q: 'Where is Sri Lanka and what time is it?',
+        a: 'Where is sri lanka: Indian Ocean, south of India. Time in sri lanka and sri lanka time: UTC+5:30. We do not cover england vs sri lanka cricket or send money to sri lanka from uk.',
+      },
+      {
+        q: 'Do you run group tours, heli tours or TUI packages?',
+        a: 'No helicopter tours. No TUI sri lanka, Intrepid or Trailfinders. Sri lanka guided tours here means a private chauffeur. Sri lanka package tours and sri lanka tour package are tailor made, not a catalogue coach.',
       },
     ],
     ctaTitle: 'Plan a private Sri Lanka holiday from the UK',

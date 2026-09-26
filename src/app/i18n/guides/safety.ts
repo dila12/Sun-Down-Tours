@@ -64,6 +64,10 @@ export const SAFETY_GUIDE: ArticleContent = {
         a: 'Yes for typical holiday routes when you use reputable transport, keep valuables secure in crowds and follow temple etiquette. Check current FCDO advice before you fly. A licensed private chauffeur guide is how most UK visitors move around.',
       },
       {
+        q: 'Is sri lanka safe compared with the news?',
+        a: 'Is sri lanka safe on standard holiday routes: generally yes with a private driver. We are not a sri lanka news desk and we do not cover cricket scorecards.',
+      },
+      {
         q: 'What emergency numbers should I save in Sri Lanka?',
         a: 'Save 119 for police, 1990 for ambulance services and 1912 for tourist police. Keep your embassy contact and travel insurance emergency line in your phone as well.',
       },
@@ -90,12 +94,12 @@ export const SAFETY_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Ist Sri Lanka sicher? Praktische Tipps fur eine selbstbewusste Reise',
-    lead: 'Sri Lanka ist fur internationale Besucher im Allgemeinen sicher und gastfreundlich, mit niedrigeren Raten gewalttatiger Kriminalitat als in vielen Landern doch wie uberall machen vernunftige Gewohnheiten bei Strassenverkehr, Betrug, Wildtieren und Gesundheit den Unterschied zwischen reibungslosem Urlaub und vermeidbarem Arger. Dieser Ratgeber zeigt, worauf Sie achten sollten, nicht wovor Sie Angst haben mussen.',
+    h1: 'Sri Lanka aktuelle Lage: Sicherheit fur Reisende aus Deutschland',
+    lead: 'Sri lanka aktuelle lage: die Insel ist fur Urlaubsrouten in der Regel sicher und gastfreundlich. Wie uberall zahlen Vorsicht im Verkehr, bei Betrug und Wildtieren. Dieser Ratgeber zeigt, worauf Sie achten, nicht wovor Sie Angst haben.',
     heroAlt: 'Reisender bereitet sich sicher auf eine Sri Lanka Roadtrip mit Privatfahrer vor',
     sections: [
       {
-        title: 'Allgemeine Sicherheit: was Besucher wirklich erwarten sollten',
+        title: 'Sri Lanka aktuelle Lage: was Besucher erwarten sollten',
         body: 'Kleine Diebstahle gibt es auf belebten Markten, Busbahnhofen und vollen Stranden Handy und Geldborse in Vorder- oder Umhangetasche, nicht uber dem Stuhl im Cafe hangen. Gewalttaten gegen Touristen sind selten; Streit geht eher um Geld, Fahrpreise oder missverstandene „Fuhrer“ an Sehenswurdigkeiten.\n\nPolitische Demonstrationen kommen gelegentlich in Colombo vor; grosse Ansammlungen meiden, lokale Nachrichten verfolgen und Ihrem Fahrer Guide vertrauen, wenn Umleitung notig ist. Sri Lanker sind uberwiegend gastfreundlich Hotel oder Fahrer nach lokalen Bedingungen fragen schlagt veraltete Forenbeitrage.',
       },
       {
@@ -139,6 +143,10 @@ export const SAFETY_GUIDE: ArticleContent = {
       {
         q: 'Ist Sri Lanka sicher fur Reisende aus Deutschland?',
         a: 'Ja auf den ublichen Urlaubsrouten bei seriosem Transport und normaler Vorsicht. Hinweise des Auswartigen Amts vor dem Flug prufen. Ein lizenzierter Fahrer Guide ist fur die meisten Gaste aus DE, AT und CH die Standardlosung.',
+      },
+      {
+        q: 'Wie ist die sri lanka aktuelle lage?',
+        a: 'Sri lanka aktuelle lage fur Rundreisen: in der Regel gut bereisbar. Vor dem Flug Auswartiges Amt lesen. Wir sind Reiseveranstalter, kein Nachrichtenportal.',
       },
       {
         q: 'Welche Notrufnummern sollte ich speichern?',
@@ -200,6 +208,10 @@ export const SAFETY_GUIDE: ArticleContent = {
       {
         q: 'Le Sri Lanka est il sur pour les touristes ?',
         a: 'Oui, sur les itineraires classiques Colombo, Triangle Culturel, hautes terres et cote sud avec precautions standard. Restez informe, utilisez un transport repute et securisez vos objets de valeur dans la foule.',
+      },
+      {
+        q: 'Is sri lanka safe to travel from France?',
+        a: 'Is sri lanka safe to travel : oui sur les routes classiques avec chauffeur prive. Sri lanka travel advice : France Diplomatie avant le vol. Nous ne couvrons pas le cricket ni sri lanka news.',
       },
       {
         q: 'Quelle est l’arnaque touristique la plus courante ?',
@@ -345,6 +357,10 @@ export const SAFETY_GUIDE: ArticleContent = {
       {
         q: 'Es seguro Sri Lanka para turistas?',
         a: 'Si, en rutas tipicas Colombo, Triangulo Cultural, tierras altas y costa sur con precauciones estandar. Mantengase informado, use transporte reputado y asegure objetos de valor en multitudes.',
+      },
+      {
+        q: 'Sri Lanka news o cricket cambian el viaje?',
+        a: 'Planificamos viaje a sri lanka, no sri lanka news ni partidos. Consultad el MAE antes de volar. El circuito sigue siendo cultura, safari sri lanka y playas.',
       },
       {
         q: 'Cual es la estafa turistica mas comun?',

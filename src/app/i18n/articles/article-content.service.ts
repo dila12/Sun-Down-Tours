@@ -62,7 +62,7 @@ const ARTICLE_LOADERS: Record<string, ArticleLoader> = {
   marketSpain: () => import('../guides/spainFromEs').then((m) => m.SPAIN_FROM_ES_GUIDE),
   marketPoland: () => import('../guides/polandFromPl').then((m) => m.POLAND_FROM_PL_GUIDE),
   marketRussia: () => import('../guides/russiaFromRu').then((m) => m.RUSSIA_FROM_RU_GUIDE),
-  marketNetherlands: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketNetherlands']),
+  marketNetherlands: () => import('../guides/netherlandsFromNl').then((m) => m.NETHERLANDS_FROM_NL_GUIDE),
   marketUK: () => import('../guides/ukFromUk').then((m) => m.UK_FROM_UK_GUIDE),
   marketAustria: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketAustria']),
   marketSwitzerland: () => import('./scaffolds').then((m) => m.SCAFFOLD_ARTICLES['marketSwitzerland']),

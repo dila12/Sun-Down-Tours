@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const SIGIRIYA_DEST: ArticleContent = {
   en: {
-    h1: 'Sigiriya Lion Rock, Sri Lanka: Climb, Day Tours & the Cultural Triangle',
+    h1: 'Sigiriya Sri Lanka: Lion Rock, Climb and Cultural Triangle Day Tours',
     lead: 'Sigiriya Rock Fortress is a 200-metre granite monolith crowned by a fifth-century royal palace the most photographed sight in Sri Lanka, and one of the few places on earth where you climb through a lion’s mouth to a throne room in the clouds.',
     heroImage: 'assets/img/destination-1.webp',
     heroAlt: 'Sigiriya Rock Fortress rising above the surrounding jungle at dawn',
@@ -24,7 +24,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
       {
         id: 'thingsToDo',
         title: 'What to do at Sigiriya',
-        body: 'Climbing the rock itself takes most visitors 60 to 90 minutes each way up a mix of stone steps and metal staircases, including the famous spiral stairway bolted onto the cliff face beside the giant lion’s paws that once flanked the entrance. The summit holds the foundations of Kashyapa’s palace, a royal pool cut into the rock and views across the plains for many kilometres in every direction.\n\nAt the base, the water gardens are engineering in their own right: symmetrical pools, fountains that still spurt after rain using gravity alone, and a boulder garden used for meditation by monks long before Kashyapa arrived. Many travellers pair the climb with an afternoon village tour by ox cart and catamaran, or a wild elephant safari nearby.',
+        body: 'Climbing the rock itself takes most visitors 60 to 90 minutes each way up a mix of stone steps and metal staircases, including the famous spiral stairway bolted onto the cliff face beside the giant lion’s paws that once flanked the entrance. What to do in sigiriya: water gardens at the base, fresco gallery, summit palace foundations, then optional pidurangala rock at sunset.\n\nWhere is sigiriya located: Cultural Triangle, inland north of Colombo. Colombo to sigiriya is about four to five hours by road; kandy to sigiriya about two hours; negombo to sigiriya is similar to the Colombo drive after a first night near the airport. Colombo airport to sigiriya the same evening after a long haul landing is rarely kind.',
       },
       {
         id: 'travelTips',
@@ -34,12 +34,12 @@ export const SIGIRIYA_DEST: ArticleContent = {
       {
         id: 'weather',
         title: 'Weather and best time to climb',
-        body: 'Sigiriya sits in Sri Lanka’s dry zone, so it is climbable comfortably almost year round, with January to April generally the driest and hottest stretch. Afternoon thunderstorms are common from October to December; the rock steps become slippery in rain and the summit is occasionally closed to climbers during lightning.\n\nWhatever the season, mornings are calmer and cooler than afternoons, and the light on the rock face at sunrise is the best of the day for photography.',
+        body: 'Sigiriya sits in Sri Lanka’s dry zone, so it is climbable comfortably almost year round, with January to April generally the driest and hottest stretch. Weather sigiriya / sigiriya weather: afternoon thunderstorms are common from October to December; the rock steps become slippery in rain and the summit is occasionally closed during lightning.\n\nWhatever the season, mornings are calmer and cooler than afternoons, and the light on the rock face at sunrise is the best of the day for photography.',
       },
       {
         id: 'nearby',
         title: 'Nearby attractions worth combining',
-        body: 'Dambulla’s cave temple is a twenty minute drive away and pairs naturally with Sigiriya on a single day out. Pidurangala Rock, directly opposite Sigiriya, offers a rougher scramble and arguably the best view there is of the fortress itself, especially at sunset.\n\nMinneriya and Kaudulla National Parks, roughly 30 to 45 minutes north, are known for "the gathering" large herds of wild elephants along their reservoir shores, particularly from July to Octoberhile Kandy is a comfortable two hour drive south for travellers continuing into the hill country.',
+        body: 'Dambulla sri lanka cave temple is a twenty minute drive (dambulla to sigiriya). Pidurangala rock, directly opposite, offers a rougher scramble and the best view of the fortress, especially at sunset. Polonnaruwa ancient city is a longer Cultural Triangle day if you have extra time. Mihintale sits nearer Anuradhapura on extended circuits.\n\nMinneriya and Kaudulla, roughly 30 to 45 minutes north, are known for wild elephants. Kandy is about two hours south if you continue toward the kandy to ella train. Sigiriya to trincomalee is an east coast option in the May to September window. Ambuluwawa tower is a Kandy area add on on some two day hill routes, not a Sigiriya climb substitute.',
       },
       {
         id: 'hotels',
@@ -71,7 +71,15 @@ export const SIGIRIYA_DEST: ArticleContent = {
       },
       {
         q: 'Can Sigiriya be visited as a day trip?',
-        a: 'Yesigiriya is a popular full day private tour from Kandy, Habarana, Dambulla or even Negombo, usually combined with the Dambulla cave temple and, in some itineraries, a wild elephant safari at Minneriya or Kaudulla.',
+        a: 'Yes. Sigiriya is a popular full day private tour from Kandy, Habarana, Dambulla or even Negombo, usually combined with the Dambulla cave temple and, in some itineraries, a wild elephant safari at Minneriya or Kaudulla.',
+      },
+      {
+        q: 'Where is Sigiriya located?',
+        a: 'Where is sigiriya located: Cultural Triangle of sri lanka, inland north of Colombo. Colombo to sigiriya and colombo airport to sigiriya are typically four to five hours by private car. Kandy to sigiriya is about two hours. We do not use the Colombo to sigiriya train as the main transfer.',
+      },
+      {
+        q: 'Is Sigiriya the lion rock?',
+        a: 'Yes. Lion rock, lions rock, the lion rock, sri lanka lion rock and lions rock sigiriya all mean Sigiriya rock fortress. Sigiriya things to do: climb, water gardens, optional pidurangala.',
       },
     ],
     ctaTitle: 'Ready to climb Sigiriya?',

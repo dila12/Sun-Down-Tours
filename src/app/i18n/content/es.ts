@@ -255,6 +255,18 @@ export const es: Dict = {
         q: 'Organizais viajes a Sri Lanka para viajeros de Europa?',
         a: 'Si. Preparamos circuitos privados con chofer para huespedes de Espana y de Europa, con chofer guia en ingles y planificacion por WhatsApp antes del vuelo.',
       },
+      {
+        q: 'Donde esta Sri Lanka y cual es la capital?',
+        a: 'Donde esta sri lanka: isla al sur de la India. Sri lanka pertenece a la india? No. Capital de sri lanka: Kotte administrativo; aterrizais en colombo sri lanka.',
+      },
+      {
+        q: 'Que hora es en Sri Lanka?',
+        a: 'Que hora es en sri lanka, hora sri lanka y sri lanka time: UTC+5:30. 4 h 30 de adelanto en invierno, 3 h 30 en verano espanol.',
+      },
+      {
+        q: 'Que ver y que hacer en Sri Lanka?',
+        a: 'Que ver en sri lanka y que hacer en sri lanka: kandy sri lanka, ella sri lanka, safari sri lanka y playas sri lanka. Visado sri lanka (ETA) antes del vuelo.',
+      },
     ],
   },
 
@@ -569,17 +581,18 @@ export const es: Dict = {
 
   seo: {
     home: {
-      title: 'Viajar a Sri Lanka | Circuitos privados desde Espana',
+      title: 'Viajar a Sri Lanka | Viaje y circuito privado desde Espana',
       description:
-        'Viaje a Sri Lanka desde Espana: circuito privado con chofer guia, vuelos Madrid/Barcelona, que ver, mejor epoca, visado ETA, safari y playas. Desde 1992.',
+        'Viajar a sri lanka, viaje sri lanka y viaje a sri lanka: chofer, kandy sri lanka, ella sri lanka, que ver en sri lanka. Agencia local desde 1992. Sin billetes de avion.',
       keywords:
-        'viajar a Sri Lanka, viaje Sri Lanka, que ver en Sri Lanka, que hacer en Sri Lanka, circuitos Sri Lanka, vacaciones Sri Lanka',
+        'viajar a sri lanka, viaje sri lanka, viaje a sri lanka, que ver en sri lanka, que hacer en sri lanka, kandy sri lanka, ella sri lanka, safari sri lanka, playas sri lanka',
     },
     tours: {
-      title: 'Circuitos Sri Lanka | 7, 8 y 10 dias en privado',
+      title: 'Viaje a Sri Lanka | Circuitos 7 8 y 10 dias en privado',
       description:
-        'Circuitos y paquetes por Sri Lanka para viajeros de Europa: vacaciones privadas de 7, 8 y 10 dias con chofer guia, safari y playano viajes de grupo.',
-      keywords: 'circuitos Sri Lanka, viaje a Sri Lanka, paquetes Sri Lanka, Sri Lanka 10 dias, Sri Lanka 8 dias',
+        'Viaje a sri lanka y viajar a sri lanka: 7 u 10 dias, safari sri lanka, kandy sri lanka, playas sri lanka. Sin grupo de autobus.',
+      keywords:
+        'viaje a sri lanka, viajar a sri lanka, viaje sri lanka, que ver en sri lanka, safari sri lanka, playas sri lanka, kandy sri lanka, ella sri lanka',
     },
     services: {
       title: 'Circuitos privados, conductor y vacaciones | Sri Lanka',
@@ -594,10 +607,10 @@ export const es: Dict = {
       keywords: 'agencia de viajes Sri Lanka, operador Sri Lanka, Circuito Sri Lanka',
     },
     contact: {
-      title: 'Planifica tu circuito por Sri Lanka | Contacto',
+      title: 'Viajar a Sri Lanka | Contacto circuito privado',
       description:
-        'Contacta con Sundown Tours para circuitos privados a medida por Sri Lanka. Respondemos en un plazo de 24 horas.',
-      keywords: 'reservar viaje Sri Lanka, contacto circuito Sri Lanka, Conductor Privado Sri Lanka',
+        'Viajar a sri lanka: WhatsApp o formulario. Viaje a sri lanka con chofer. Respuesta en 24 horas. No vendemos vuelos sri lanka.',
+      keywords: 'viajar a sri lanka, viaje a sri lanka, viaje sri lanka, contacto circuito Sri Lanka',
     },
     tour7: {
       title: 'Circuito Sri Lanka 7 dias | Cultura, montanas y safari',
@@ -648,10 +661,10 @@ export const es: Dict = {
       keywords: 'safari Ella Yala, safari Sri Lanka 2 dias, Parque Nacional Yala',
     },
     ellaDay: {
-      title: 'Excursion de un dia a Ella | Tren panoramico y Nine Arch Bridge',
+      title: 'Ella Sri Lanka | Tren panoramico y Nine Arch Bridge',
       description:
-        'Excursion privada a Ella con el Nine Arch Bridge, Little Adam’s Peak y las cascadas de Ravana en las montanas de Sri Lanka.',
-      keywords: 'excursion Ella, dia en Ella, Nine Arch Bridge',
+        'Ella sri lanka: puente de nueve arcos, Little Adam’s Peak y tren en un dia privado.',
+      keywords: 'ella sri lanka, excursion Ella, tren Sri Lanka, Nine Arch Bridge',
     },
     galleDay: {
       title: 'Excursion de un dia a Galle | Fuerte de Galle y costa sur',
@@ -660,10 +673,10 @@ export const es: Dict = {
       keywords: 'excursion Galle, Fuerte de Galle, costa sur Sri Lanka',
     },
     kandyDay: {
-      title: 'Excursion de un dia a Kandy | Cultura y paisajes',
+      title: 'Kandy Sri Lanka | Excursion de un dia Templo del Diente',
       description:
-        'Vive lo mejor de Kandy, incluido el Templo del Diente y el Jardin Botanico Real, en una excursion privada de un dia.',
-      keywords: 'excursion Kandy, dia en Kandy, Templo del Diente',
+        'Kandy sri lanka en dia privado: Templo del Diente, jardin botanico, lago. Encaja en un viaje a sri lanka.',
+      keywords: 'kandy sri lanka, kandy, excursion Kandy, Templo del Diente',
     },
     sigiriyaDay: {
       title: 'Excursion a Sigiriya | Lion Rock, fortaleza y jardines',
@@ -675,7 +688,7 @@ export const es: Dict = {
       title: 'Destinos de Sri Lanka | Playas, fauna y sitios culturales',
       description:
         'Descubre los mejores destinos de Sri Lanka: playas, parques nacionales y lugares de interes cultural.',
-      keywords: 'destinos Sri Lanka, que visitar en Sri Lanka',
+      keywords: 'destinos Sri Lanka, que ver en sri lanka, que hacer en sri lanka, sri lanka mapa, sri lanka maps',
     },
     guides: {
       title: 'Guias de viaje de Sri Lanka | Consejos de expertos',
@@ -684,28 +697,28 @@ export const es: Dict = {
       keywords: 'guia de viaje Sri Lanka, consejos viaje Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya, ascenso y consejos',
+      title: 'Sigiriya Sri Lanka | Roca del Leon, ascenso y circuito',
       description:
-        'Visitar el Lion Rock (Sigiriya): horario de ascenso, frescos, Pidurangala y circuito del Triangulo Cultural con chofer privado.',
-      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, fortaleza de Sigiriya, que ver en Sri Lanka',
+        'Sigiriya (roca del leon): horario de ascenso, frescos, Pidurangala y circuito del Triangulo Cultural con chofer privado.',
+      keywords: 'sigiriya sri lanka, roca del leon, fortaleza de sigiriya, que ver en sri lanka',
     },
     destElla: {
       title: 'Ella Sri Lanka | Tren, Nine Arch Bridge y pais del te',
       description:
-        'Ella Sri Lanka: tren Kandy to Ella, puente de los nueve arcos, senderismo y noches de montana en un circuito privado.',
-      keywords: 'ella Sri Lanka, Ella, tren Sri Lanka, Nine Arch Bridge',
+        'Ella sri lanka: tren Kandy to Ella, puente de los nueve arcos y noches de montana en un viaje a sri lanka privado.',
+      keywords: 'ella sri lanka, Ella, tren Sri Lanka, Nine Arch Bridge, que ver en sri lanka',
     },
     destYala: {
       title: 'Parque nacional Yala Sri Lanka | Safari, leopardos y jeep',
       description:
         'Safari Sri Lanka: Yala vs Udawalawe, Wilpattu and Minneriya, mejores chances de leopardo y combinacion con Ella o la playa.',
-      keywords: 'safari Sri Lanka, yala Sri Lanka, parque nacional Yala, Wilpattu, Minneriya',
+      keywords: 'safari sri lanka, yala Sri Lanka, parque nacional Yala, Wilpattu, Minneriya',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka | Templo del Diente y capital de las colinas',
+      title: 'Kandy Sri Lanka | Templo del Diente y colinas',
       description:
-        'Que ver en Kandy: Templo del Diente, lago, Peradeniya y tren hacia Ella en un circuito privado.',
-      keywords: 'kandy Sri Lanka, Kandy, Templo del Diente, que ver en Sri Lanka',
+        'Kandy sri lanka: Templo del Diente, lago, Peradeniya y tren hacia ella sri lanka en circuito privado.',
+      keywords: 'kandy sri lanka, kandy, Templo del Diente, que ver en sri lanka',
     },
     destDambulla: {
       title: 'Dambulla Sri Lanka | Templo rupestre del Triangulo Cultural',
@@ -717,32 +730,32 @@ export const es: Dict = {
       title: 'Galle Sri Lanka | Fuerte, faro y costa sur',
       description:
         'Fuerte de Galle: murallas holandesas, faro y playas del sur en un circuito privado.',
-      keywords: 'galle Sri Lanka, Galle, fuerte de Galle, playas Sri Lanka',
+      keywords: 'galle Sri Lanka, Galle, fuerte de Galle, playas sri lanka, sri lanka playas',
     },
     guideBestTime: {
-      title: 'Mejor epoca para viajar a Sri Lanka | Tiempo y monzones',
+      title: 'Mejor epoca para viajar a Sri Lanka | Tiempo y hora',
       description:
-        'Cuando viajar a Sri Lanka: tiempo por costa, dos monzones, safari, playas y diferencia horaria con Espana.',
+        'Mejor epoca para viajar a sri lanka: tiempo sri lanka, tiempo en sri lanka, sri lanka weather y dos monzones. Hora sri lanka UTC+5:30.',
       keywords:
-        'mejor epoca para viajar a Sri Lanka, tiempo Sri Lanka, tiempo en Sri Lanka, cuando ir a Sri Lanka',
+        'mejor epoca para viajar a sri lanka, tiempo sri lanka, tiempo en sri lanka, sri lanka weather, hora sri lanka, sri lanka hora',
     },
     guideVisa: {
-      title: 'Visado Sri Lanka 2026 | ETA gratuita para Espana',
+      title: 'Visado Sri Lanka | Visa y ETA para Espana',
       description:
-        'Visado Sri Lanka desde Espana: ETA turistica gratuita 30 dias desde el 25 de mayo de 2026. Solicitud solo en eta.gov.lk.',
-      keywords: 'visado Sri Lanka, ETA Sri Lanka, eta.gov.lk, requisitos de entrada Espana',
+        'Visado sri lanka, visa sri lanka y sri lanka visa: ETA turistica en eta.gov.lk. No Etihad, no cricket.',
+      keywords: 'visado sri lanka, visa sri lanka, sri lanka visa, ETA Sri Lanka, eta.gov.lk',
     },
     guidePrivateDriver: {
-      title: 'Guia del conductor privado en Sri Lanka | Circuitos con chofer explicados',
+      title: 'Conductor privado Sri Lanka | Chofer guia en espanol',
       description:
-        'Por que los viajeros eligen un conductor privado en Sri Lanka, que incluye, las distancias diarias habituales y como planificar un circuito flexible.',
-      keywords: 'conductor privado Sri Lanka, chofer guia Sri Lanka, circuito privado Sri Lanka',
+        'Conductor privado Sri Lanka y chofer guia en espanol: que incluye, distancias diarias y como planificar un itinerario flexible.',
+      keywords: 'conductor privado sri lanka, chofer sri lanka, chofer guia sri lanka en espanol, conductor sri lanka espanol, alquiler coche con conductor sri lanka',
     },
     guideBudget: {
-      title: 'Presupuesto y moneda Sri Lanka | Rupia (LKR) y costes',
+      title: 'Rupia Sri Lanka Euro | Presupuesto del viaje',
       description:
-        'Moneda Sri Lanka (rupia LKR), presupuesto diario, cajeros y en que se va el dinero en un circuito privado.',
-      keywords: 'moneda Sri Lanka, presupuesto Sri Lanka, rupia Sri Lanka, LKR',
+        'Rupia sri lanka euro y rupias sri lanka a euros: pagad en LKR. Presupuesto de un viaje a sri lanka privado. Sin tipo de cambio en vivo.',
+      keywords: 'rupia sri lanka euro, rupias sri lanka a euros, moneda Sri Lanka, presupuesto Sri Lanka, LKR',
     },
     guideWildlife: {
       title: 'Guia de fauna Sri Lanka | Elefantes, leopardos y ballenas',
@@ -754,13 +767,13 @@ export const es: Dict = {
       title: 'Safari Sri Lanka | Yala, Wilpattu, Minneriya y jeep',
       description:
         'Safari Sri Lanka: parque nacional Yala, Wilpattu, Minneriya, Udawalawe, reserva de jeep y que esperar en un game drive.',
-      keywords: 'safari Sri Lanka, yala Sri Lanka, Wilpattu national park, Minneriya, parque nacional Yala',
+      keywords: 'safari sri lanka, yala Sri Lanka, Wilpattu national park, Minneriya, parque nacional Yala',
     },
     guideBeaches: {
       title: 'Playas Sri Lanka | Sur, oeste, este, Mirissa y Weligama',
       description:
         'Playas de Sri Lanka segun la temporada: Mirissa, Weligama, Negombo, Trincomalee y Pigeon Island. Que costa segun vuestras fechas.',
-      keywords: 'playas Sri Lanka, Sri Lanka playas, playas de Sri Lanka, Mirissa, Weligama',
+      keywords: 'playas sri lanka, mejores playas sri lanka, sri lanka playas, mirissa, weligama',
     },
     guideTeaCountry: {
       title: 'Guia del pais del te Sri Lanka | Montana y plantaciones',
@@ -775,10 +788,10 @@ export const es: Dict = {
       keywords: 'comida Sri Lanka, arroz con curry, street food Sri Lanka, gastronomia',
     },
     guidePacking: {
-      title: 'Que llevar a Sri Lanka | Ropa y articulos esenciales',
+      title: 'Enchufe Sri Lanka | Que llevar a playas, templos y montana',
       description:
-        'Lista practica de equipaje: ropa para calor y montana fresca, codigos en templos, equipo de safari y basicos de viaje.',
-      keywords: 'equipaje Sri Lanka, que llevar Sri Lanka, lista maleta Sri Lanka',
+        'Enchufe sri lanka: tipo D y G. Lista de maleta para viaje a sri lanka: calor, montana y templos.',
+      keywords: 'enchufe sri lanka, equipaje Sri Lanka, que llevar Sri Lanka, lista maleta Sri Lanka',
     },
     guideSafety: {
       title: 'Guia de seguridad Sri Lanka | Consejos para visitantes',
@@ -810,10 +823,11 @@ export const es: Dict = {
       keywords: 'politica de privacidad',
     },
     destColombo: {
-      title: 'Colombo Sri Lanka | Aeropuerto CMB, ciudad y primera noche',
+      title: 'Colombo Sri Lanka | Capital, CMB y primera noche',
       description:
-        'Colombo y aeropuerto Sri Lanka (CMB): ciudad vs Katunayake, Negombo la primera noche tras un vuelo desde Espana.',
-      keywords: 'colombo Sri Lanka, Colombo, aeropuerto Sri Lanka, CMB',
+        'Colombo sri lanka: aeropuerto CMB tras vuelos a sri lanka, capital de sri lanka, primera noche Negombo.',
+      keywords:
+        'colombo sri lanka, colombo, capital sri lanka, sri lanka capital, capital de sri lanka, vuelos sri lanka',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Playa cerca del aeropuerto de Colombo',
@@ -900,8 +914,8 @@ export const es: Dict = {
     guideAirportTransfers: {
       title: 'Traslados aeropuerto Sri Lanka | Tiempos desde CMB',
       description:
-        'Traslado privado desde Bandaranaike (CMB): tiempos a Negombo, Colombo, Waskaduwa, Kandy, Sigiriya y Galle, llegadas nocturnas y tarifa fija.',
-      keywords: 'traslado aeropuerto Colombo, aeropuerto Sri Lanka, CMB, traslado Negombo',
+        'Traslado privado desde Bandaranaike (CMB) despues de vuelos sri lanka / vuelos a sri lanka: tiempos a Negombo y Colombo. No vendemos Etihad ni Turkish Airlines.',
+      keywords: 'vuelos sri lanka, sri lanka vuelos, vuelos a sri lanka, traslado aeropuerto Colombo, CMB',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
@@ -919,11 +933,11 @@ export const es: Dict = {
       keywords: "marketItaly",
     },
     marketSpain: {
-      title: 'Viajar a Sri Lanka desde Espana | Vuelos, que ver y circuito privado',
+      title: 'Viajar a Sri Lanka | Viaje, visado, hora y que ver',
       description:
-        'Viaje a Sri Lanka desde Espana: duracion del vuelo Madrid/Barcelona, visado ETA, tiempo, Lion Rock, safari, tren Ella y circuito con chofer al aterrizar.',
+        'Viajar a sri lanka desde Espana: viaje a sri lanka, visado sri lanka, hora sri lanka, que ver en sri lanka, kandy sri lanka, ella sri lanka, safari sri lanka. Circuito chofer en Colombo.',
       keywords:
-        'viajar a Sri Lanka, viaje Sri Lanka, que ver en Sri Lanka, que hacer en Sri Lanka, vuelos Sri Lanka, mejor epoca para viajar a Sri Lanka',
+        'viajar a sri lanka, viaje sri lanka, viaje a sri lanka, que ver en sri lanka, que hacer en sri lanka, sri lanka que ver, kandy sri lanka, ella sri lanka, safari sri lanka, playas sri lanka, sri lanka playas, vuelos sri lanka, sri lanka vuelos, vuelos a sri lanka, visado sri lanka, visa sri lanka, sri lanka visa, mejor epoca para viajar a sri lanka, tiempo sri lanka, tiempo en sri lanka, sri lanka weather, hora sri lanka, sri lanka hora, que hora es en sri lanka, hora en sri lanka, colombo sri lanka, sri lanka capital, capital de sri lanka, donde esta sri lanka, sri lanka mapa, sri lanka maps, sri lanka maldivas, rupia sri lanka euro, sri lanka language, enchufe sri lanka',
     },
     marketPoland: {
       title: "Sri Lanka Tours from Poland | Private Itineraries",

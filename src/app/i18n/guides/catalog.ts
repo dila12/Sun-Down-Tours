@@ -39,6 +39,7 @@ export const GUIDE_PAGE_IDS = [
   'marketSpain',
   'marketPoland',
   'marketRussia',
+  'marketNetherlands',
   'monthAugust',
 ] as const;
 
@@ -164,6 +165,11 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
     pageId: 'marketRussia',
     image: 'assets/img/package-2.webp',
     imageAlt: 'Частный тур по Шри Ланке из России с водителем гидом',
+  },
+  {
+    pageId: 'marketNetherlands',
+    image: 'assets/img/package-2.webp',
+    imageAlt: 'Prive Sri Lanka rondreis vanuit Nederland met chauffeur gids',
   },
   {
     pageId: 'monthAugust',

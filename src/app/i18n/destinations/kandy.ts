@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const KANDY_DEST: ArticleContent = {
   en: {
-    h1: 'Kandy Temple of the Tooth, Sri Lanka: Sacred Relic of the Last Kingdom',
+    h1: 'Kandy Sri Lanka: Temple of the Sacred Tooth Relic and Lake',
     lead: 'The Kandy Temple of the Tooth (Sri Dalada Maligawa) is the spiritual heart of Sri Lanka a lakeside shrine for one of Buddhism’s most sacred relics, ringed by hills, botanical gardens and the tea estates beyond.',
     heroImage: 'assets/img/destination-4.webp',
     heroAlt: 'Temple of the Sacred Tooth Relic reflected in Kandy Lake',
@@ -72,6 +72,10 @@ export const KANDY_DEST: ArticleContent = {
       {
         q: 'Is Pinnawala Elephant Orphanage worth visiting?',
         a: 'Opinions vary Pinnawala is convenient and easy to reach from Kandy, but many independent travellers now prefer wild elephant sightings at Minneriya, Kaudulla or Udawalawe National Park for a more naturalistic experience.',
+      },
+      {
+        q: 'What to do in Kandy Sri Lanka?',
+        a: 'What to do in kandy sri lanka: Temple of the Sacred Tooth Relic, kandy lake walk, Peradeniya Gardens, optional dance show. Then kandy to ella by train or road.',
       },
     ],
     ctaTitle: 'Add Kandy to your itinerary',
@@ -171,7 +175,7 @@ export const KANDY_DEST: ArticleContent = {
   },
 
   fr: {
-    h1: 'Kandy, Sri Lanka : la capitale sacree des collines du dernier royaume',
+    h1: 'Kandy Sri Lanka : Temple de la Dent et capitale sacree des collines',
     lead: 'Derniere capitale a tomber sous domination coloniale, Kandy reste le coeur spirituel du Sri Lanka une ville au bord d’un lac construite autour d’un temple qui abrite l’une des reliques les plus sacrees du bouddhisme, entouree de collines, de jardins botaniques et de plantations de the.',
     heroAlt: 'Le temple de la Dent sacree se refletant dans le lac de Kandy',
     sections: [
@@ -224,6 +228,10 @@ export const KANDY_DEST: ArticleContent = {
       {
         q: 'Kandy est elle une bonne base pour explorer les hautes terres ?',
         a: 'Oui Kandy se trouve a l’extremite nord de la ligne ferroviaire panoramique des hautes terres vers Ella et Nuwara Eliya, et se situe a peu pres a egale distance du Triangle Culturel et des hauts plateaux, ce qui en fait un point de depart pratique pour des circuits de plusieurs jours.',
+      },
+      {
+        q: 'Pourquoi visiter kandy sri lanka sur un circuit ?',
+        a: 'Kandy sri lanka est l’etape classique entre Sigiriya et Ella : Temple de la Dent, lac, jardins. Presque tous nos circuits sri lanka y passent une nuit.',
       },
       {
         q: 'L’orphelinat d’elephants de Pinnawala vaut il la visite ?',
@@ -327,7 +335,7 @@ export const KANDY_DEST: ArticleContent = {
   },
 
   es: {
-    h1: 'Kandy, Sri Lanka: la sagrada capital de las colinas del ultimo reino',
+    h1: 'Kandy Sri Lanka: Templo del Diente y capital sagrada de las colinas',
     lead: 'Ultima capital en caer bajo el dominio colonial, Kandy sigue sintiendose como el corazon espiritual de Sri Lanka: una ciudad junto a un lago construida alrededor de un templo que guarda una de las reliquias mas sagradas del budismo, rodeada de colinas, jardines botanicos y plantaciones de te.',
     heroAlt: 'El Templo del Diente Sagrado reflejado en el lago de Kandy',
     sections: [
@@ -380,6 +388,10 @@ export const KANDY_DEST: ArticleContent = {
       {
         q: 'Es Kandy una buena base para explorar las tierras altas?',
         a: 'Si: Kandy se encuentra en el extremo norte de la panoramica linea ferroviaria de las tierras altas hacia Ella y Nuwara Eliya, y esta a una distancia similar del Triangulo Cultural y del altiplano, lo que la convierte en un punto de partida practico para itinerarios de varios dias.',
+      },
+      {
+        q: 'Por que incluir kandy sri lanka en el circuito?',
+        a: 'Kandy sri lanka es la parada clasica entre Sigiriya y ella sri lanka: Templo del Diente, lago y jardines. Casi todos nuestros viajes a sri lanka duermen aqui una noche.',
       },
       {
         q: 'Merece la pena visitar el orfanato de elefantes de Pinnawala?',

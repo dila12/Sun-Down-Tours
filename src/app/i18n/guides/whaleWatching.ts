@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const WHALE_WATCHING_GUIDE: ArticleContent = {
   en: {
-    h1: 'Whale Watching in Sri Lanka: Mirissa, Trincomalee and Private Tour Timing',
+    h1: 'Whale Watching Sri Lanka | Mirissa Boat Tours',
     lead:
       'Sri Lanka is one of the few places where blue whales and sperm whales can be seen relatively close to shore in season. Most European travellers combine a morning boat trip from Mirissa (south coast) or Trincomalee (east coast) with a private chauffeur itinerary so hotels, transfers and rest days stay flexible.',
     heroImage: 'assets/img/mainpage/5.webp',

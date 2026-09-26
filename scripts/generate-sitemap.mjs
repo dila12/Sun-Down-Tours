@@ -34,6 +34,7 @@ const GUIDE_HERO_IMAGES = {
   marketSpain: 'assets/img/package-2.webp',
   marketPoland: 'assets/img/package-2.webp',
   marketRussia: 'assets/img/package-2.webp',
+  marketNetherlands: 'assets/img/package-2.webp',
   monthAugust: 'assets/img/mainpage/1.webp',
   guides: 'assets/img/mainpage/1.webp',
 };

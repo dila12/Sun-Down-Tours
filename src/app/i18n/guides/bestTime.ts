@@ -93,8 +93,8 @@ export const BEST_TIME_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Beste Reisezeit fur Sri Lanka: ein Monat fur Monat Ratgeber',
-    lead: 'Sri Lanka hat zwei Monsune, die zu unterschiedlichen Jahreszeiten entgegengesetzte Kusten treffen  daher gibt es fast immer irgendwo auf der Insel eine trockene, sonnige Region. Die eigentliche Kunst besteht darin, die Route der Saison anzupassen, statt einen einzigen „besten“ Monat zu suchen.',
+    h1: 'Beste Reisezeit Sri Lanka: Wetter und Monat fur Monat',
+    lead: 'Wetter sri lanka und sri lanka reisezeit: zwei Monsune treffen gegensatzliche Kusten. Fast immer ist irgendwo Sonne. Die Kunst ist die Route, nicht ein einziger bester Monat.',
     heroAlt: 'Sonniger Strand mit Palmen an der srilankischen Kuste',
     sections: [
       {
@@ -129,7 +129,15 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       },
       {
         q: 'Wann ist die Regenzeit in Sri Lanka?',
-        a: 'Der Sudwestmonsun dauert etwa von Mai bis September und betrifft Westkuste, Sudkuste und Bergland; der Nordostmonsun dauert etwa von Oktober bis Januar und betrifft die Ostkuste und Teile des Kulturdreiecks. Beide uberlappen sich selten.',
+        a: 'Sri lanka regenzeit: Sudwestmonsun etwa Mai bis September (West, Sud, Bergland); Nordostmonsun etwa Oktober bis Januar (Ostkuste). Beide uberlappen sich selten.',
+      },
+      {
+        q: 'Wie ist sri lanka wetter november und dezember?',
+        a: 'Sri lanka wetter november: Sud und Westkuste werden oft trockener. Sri lanka wetter dezember ist Hochsaison dort. Die Ostkuste kann nasser sein. Eine Rundreise wechselt die Kuste.',
+      },
+      {
+        q: 'Was ist die beste reisezeit sri lanka rundreise?',
+        a: 'Beste reisezeit sri lanka rundreise: Dezember bis Marz fur Klassiker plus Baden im Suden; Mai bis September oft Ostkuste und Kulturdreieck. Wir legen die Route auf Ihre Daten.',
       },
       {
         q: 'Lohnt sich Sri Lanka in der Nebensaison?',
@@ -214,6 +222,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       {
         q: 'Le Sri Lanka connait il une saison des ouragans ou cyclones ?',
         a: 'Le Sri Lanka se trouve au sud de la principale ceinture cyclonique et est rarement touche directement, bien que des depressions de mousson puissent apporter des pluies fortes et soutenues, notamment sur la cote est vers novembre.',
+      },
+      {
+        q: 'Quand partir au Sri Lanka et quand aller ?',
+        a: 'Quand partir sri lanka, quand partir au sri lanka, sri lanka quand partir et quand aller au sri lanka : sud et ouest de decembre a mars ; est souvent de mai a septembre. Meteo sri lanka / sri lanka meteo selon la cote, pas un seul mois.',
       },
     ],
     ctaTitle: 'Laissez nous organiser votre itineraire autour de la meteo',
@@ -359,6 +371,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
         q: 'Tiene Sri Lanka temporada de huracanes o ciclones?',
         a: 'Sri Lanka se encuentra al sur del principal cinturon de ciclones y rara vez se ve afectada directamente, aunque las depresiones monzonicas pueden traer lluvias intensas y prolongadas, especialmente en la costa este alrededor de noviembre.',
       },
+      {
+        q: 'Cual es la mejor epoca para viajar a Sri Lanka?',
+        a: 'Mejor epoca para viajar a sri lanka: sur y oeste de diciembre a marzo; este a menudo de mayo a septiembre. Tiempo sri lanka, tiempo en sri lanka y sri lanka weather segun la costa, no un solo mes.',
+      },
     ],
     ctaTitle: 'Dejenos organizar su itinerario segun el clima',
     ctaBody: 'Nuestros tours privados con chofer se planifican mes a mes segun los dos monzones de Sri Lanka, dirigiendole hacia las regiones mas secas en sus fechas de viaje.',
@@ -453,13 +469,13 @@ export const BEST_TIME_GUIDE: ArticleContent = {
   },
 
   ru: {
-    h1: 'Когда ехать на Шри Ланку: погода, пляжи и лучшие месяцы',
-    lead: 'В Шри Ланке два муссона, которые обрушиваются на противоположные побережья в разное время года, поэтому почти всегда где то на острове сухо и солнечно настоящее искусство в том, чтобы подстроить маршрут под сезон, а не искать один «лучший» месяц.',
+    h1: 'Сезон шри ланка: погода, когда лучше ехать, лето и июль',
+    lead: 'Шри ланка погода и погода шри ланка это два муссона на разных берегах. Сезон шри ланка / шри ланка сезон / сезон отдыха: почти всегда где то сухо. Шри ланка когда сезон и шри ланка когда лучше ехать зависят от пляжа, который вы хотите.',
     heroAlt: 'Солнечный пляж с пальмами на побережье Шри Ланки',
     sections: [
       {
         title: 'Почему в Шри Ланке два сухих сезона, а не один',
-        body: 'Муссон Яла приносит дожди на юго западное побережье и в горную местность примерно с мая по сентябрь, а муссон Маха приносит дожди на северо восток и в Культурный треугольник примерно с октября по январь. Это означает, что западное побережье, южное побережье, горная местность и Культурный треугольник редко переживают сезон дождей одновременно.\n\nДля пляжного отдыха в одном регионе это имеет огромное значение; для многодневного маршрута, охватывающего разные регионы, меньшее, так как маршрут можно построить вокруг тех областей, которые будут наиболее сухими в ваши даты поездки.',
+        body: 'Шри ланка сезон дождей это не один календарь на весь остров. Муссон Яла мочит юго запад и холмы примерно с мая по сентябрь; муссон Маха северо восток примерно с октября по январь. Запад, юг, горы и культурный треугольник редко мокнут одновременно.\n\nДля пляжа в одном регионе это важно; для многодневного тура шри ланка меньше, потому что маршрут можно вести по сухому берегу ваших дат.',
       },
       {
         title: 'С декабря по март: высокий сезон для запада и юга',
@@ -485,11 +501,11 @@ export const BEST_TIME_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Какой единственный лучший месяц для поездки в Шри Ланку?',
-        a: 'Такого нет всё зависит от того, какие регионы вы планируете посетить. Февраль разумно безопасный универсальный выбор, поскольку попадает в сухой сезон и для запада/юга побережья, и для Культурного треугольника, но хорошо спланированный маршрут может сработать почти в любой месяц.',
+        a: 'Такого нет. Шри ланка когда лучше ехать зависит от региона. Февраль часто универсален для запада, юга и культуры; шри ланка летом и шри ланка в июле лучше на востоке плюс сафари, не южный пляж.',
       },
       {
         q: 'Когда сезон дождей в Шри Ланке?',
-        a: 'Юго западный муссон длится примерно с мая по сентябрь и затрагивает западное побережье, южное побережье и горную местность; северо восточный муссон длится примерно с октября по январь и затрагивает восточное побережье и часть Культурного треугольника. Они редко перекрываются.',
+        a: 'Шри ланка сезон дождей: юго запад примерно май–сентябрь; северо восток примерно октябрь–январь. Они редко полностью совпадают. Сезон на шри ланке для купания это сухое окно выбранного берега.',
       },
       {
         q: 'Стоит ли ехать в Шри Ланку в низкий сезон?',
@@ -502,6 +518,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       {
         q: 'Есть ли в Шри Ланке сезон ураганов или циклонов?',
         a: 'Шри Ланка находится южнее основного циклонового пояса и редко подвергается прямому удару, хотя муссонные депрессии могут приносить сильные, продолжительные дожди, особенно на восточное побережье около ноября.',
+      },
+      {
+        q: 'Какая шри ланка погода сейчас для планирования тура?',
+        a: 'Погода шри ланка на карте не одна цифра. Назовите месяц: мы ставим пляж туда, где сезон отдыха реально сухой, а культуру и сафари оставляем в маршруте.',
       },
     ],
     ctaTitle: 'Позвольте нам спланировать маршрут с учётом погоды',
@@ -524,8 +544,8 @@ export const BEST_TIME_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Beste Reisezeit fur Sri Lanka: ein Monat fur Monat Ratgeber',
-    lead: 'Sri Lanka hat zwei Monsune, die zu unterschiedlichen Jahreszeiten entgegengesetzte Kusten treffen  daher gibt es fast immer irgendwo auf der Insel eine trockene, sonnige Region. Die eigentliche Kunst besteht darin, die Route der Saison anzupassen, statt einen einzigen „besten“ Monat zu suchen.',
+    h1: 'Beste tijd sri lanka: weer, seizoen en wanneer gaan',
+    lead: 'Sri lanka weer hangt van de kust af. Twee moessons, dus bijna altijd ergens droog. Beste tijd sri lanka is de droge fase van de kust die u wilt, niet een enkele beste maand.',
     heroAlt: 'Sonniger Strand mit Palmen an der srilankischen Kuste',
     sections: [
       {
@@ -560,7 +580,15 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       },
       {
         q: 'Wann ist die Regenzeit in Sri Lanka?',
-        a: 'Der Sudwestmonsun dauert etwa von Mai bis September und betrifft Westkuste, Sudkuste und Bergland; der Nordostmonsun dauert etwa von Oktober bis Januar und betrifft die Ostkuste und Teile des Kulturdreiecks. Beide uberlappen sich selten.',
+        a: 'Sri lanka regenzeit: Sudwestmonsun etwa Mai bis September (West, Sud, Bergland); Nordostmonsun etwa Oktober bis Januar (Ostkuste). Beide uberlappen sich selten.',
+      },
+      {
+        q: 'Wie ist sri lanka wetter november und dezember?',
+        a: 'Sri lanka wetter november: Sud und Westkuste werden oft trockener. Sri lanka wetter dezember ist Hochsaison dort. Die Ostkuste kann nasser sein. Eine Rundreise wechselt die Kuste.',
+      },
+      {
+        q: 'Was ist die beste reisezeit sri lanka rundreise?',
+        a: 'Beste reisezeit sri lanka rundreise: Dezember bis Marz fur Klassiker plus Baden im Suden; Mai bis September oft Ostkuste und Kulturdreieck. Wir legen die Route auf Ihre Daten.',
       },
       {
         q: 'Lohnt sich Sri Lanka in der Nebensaison?',

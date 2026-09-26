@@ -5,15 +5,15 @@ import type { ArticleContent } from '../articles/types';
  */
 export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   en: {
-    h1: 'Why Sri Lanka Is Best Explored With a Private driver guide',
-    lead: 'Sri Lanka rewards travellers who move slowly through it, and a private driver guide is what makes that possible someone who knows which viewpoint to stop at, when to skip the traffic, and how to turn a long transfer into part of the holiday rather than dead time.',
+    h1: 'Sri Lanka Private Driver Guide | Hire a Chauffeur for Tours',
+    lead: 'A Sri Lanka private driver is the easiest way to tour the island. Hire a chauffeur guide who knows when to stop, how to skip traffic, and how to turn a long transfer into part of the holiday.',
     heroImage: 'assets/img/mainpage/3.webp',
     heroAlt: 'Private chauffeur driven car for touring Sri Lanka',
     sections: [
       {
         id: 'whyPrivate',
         title: 'Why a private driver beats self driving or public transport',
-        body: 'Renting a self drive car in Sri Lanka means adjusting to narrow, winding roads, unfamiliar overtaking customs and a driving style that takes visitors time to read; most short term visitors find it more stressful than relaxing. Public buses and trains are an experience in themselves but run on their own schedule, not yours, which matters when you are trying to catch sunrise at a viewpoint or a specific train.\n\nA private driver guide removes both problems: you get a fixed daily rate, a vehicle suited to the roads, and someone who already knows the detours worth taking, without the fatigue of navigating unfamiliar traffic yourself.',
+        body: 'Searches for driver Sri Lanka, private driver Sri Lanka and chauffeur Sri Lanka usually mean a licensed chauffeur guide with a private car, not a shared bus. Self drive means narrow winding roads and unfamiliar overtaking; public buses run on their own timetable.\n\nA private driver guide gives you a fixed daily rate, a vehicle suited to the roads, and someone who already knows the detours worth taking.',
       },
       {
         id: 'whatIncluded',
@@ -44,7 +44,7 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Is a private driver in Sri Lanka expensive?',
-        a: 'Costs vary by vehicle and trip length, but are generally reasonable given the convenience, comfort and local knowledge included, especially compared with the combined cost of self drive rental, fuel and the stress of unfamiliar roads.',
+        a: 'Costs vary by vehicle and trip length. A Sri Lanka private driver for multi day tours is usually better value than self drive plus fuel once you count comfort and local knowledge. Ask for a written daily rate that includes fuel and driver expenses.',
       },
       {
         q: 'Do I need to tip my driver guide?',
@@ -79,8 +79,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Warum man Sri Lanka am besten mit einem privaten Fahrer Guide erlebt',
-    lead: 'Sri Lanka belohnt Reisende, die sich langsam durchs Land bewegen, und ein privater Fahrer Guide macht genau das moglich  jemand, der weiss, an welchem Aussichtspunkt man anhalten sollte, wann man den Verkehr umgeht und wie man aus einer langen Fahrt einen Teil des Urlaubs macht statt toter Zeit.',
+    h1: 'Privater Fahrer Sri Lanka | Chauffeur und Rundreise',
+    lead: 'Ein privater Fahrer Sri Lanka macht die Rundreise entspannt: Ihr Chauffeur Guide weiss, wo Sie halten sollten, wie Sie Stau umgehen und wie aus einer langen Fahrt Urlaub wird statt toter Zeit.',
     heroAlt: 'Privater Chauffeurwagen fur Touren durch Sri Lanka',
     sections: [
       {
@@ -146,8 +146,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   },
 
   fr: {
-    h1: 'Pourquoi decouvrir le Sri Lanka avec un chauffeur guide prive est la meilleure option',
-    lead: 'Le Sri Lanka recompense les voyageurs qui le parcourent lentement, et un chauffeur guide prive est ce qui rend cela possiblelqu’un qui sait a quel point de vue s’arreter, quand eviter les embouteillages, et comment transformer un long trajet en partie du voyage plutot qu’en temps mort.',
+    h1: 'Chauffeur prive Sri Lanka | Agence locale et circuits',
+    lead: 'Un chauffeur prive Sri Lanka permet de voyager a votre rythme. Agence locale: un chauffeur guide qui sait ou s arreter, comment eviter les embouteillages et comment transformer un long trajet en partie du voyage.',
     heroAlt: 'Voiture privee avec chauffeur pour visiter le Sri Lanka',
     sections: [
       {
@@ -213,8 +213,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   },
 
   it: {
-    h1: 'Perche lo Sri Lanka si scopre meglio con un autista guida privato',
-    lead: 'Lo Sri Lanka ripaga i viaggiatori che lo attraversano con calma, e un autista guida privato e cio che rende possibile tutto questo qualcuno che sa a quale punto panoramico fermarsi, quando evitare il traffico e come trasformare un lungo trasferimento in parte della vacanza invece che tempo morto.',
+    h1: 'Autista privato Sri Lanka | Tour e itinerario su misura',
+    lead: 'Un autista privato Sri Lanka e il modo piu semplice per un viaggio organizzato: qualcuno che sa dove fermarsi, quando evitare il traffico e come trasformare un trasferimento in parte della vacanza.',
     heroAlt: 'Auto privata con conducente per visitare lo Sri Lanka',
     sections: [
       {
@@ -280,8 +280,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   },
 
   es: {
-    h1: 'Por que Sri Lanka se disfruta mejor con un chofer guia privado',
-    lead: 'Sri Lanka premia a los viajeros que lo recorren despacio, y un chofer guia privado es lo que hace eso posible: alguien que sabe en que mirador detenerse, cuando evitar el trafico y como convertir un trayecto largo en parte de las vacaciones en lugar de tiempo muerto.',
+    h1: 'Conductor privado Sri Lanka | Chofer guia en espanol',
+    lead: 'Un conductor privado Sri Lanka es la forma mas comoda de viajar. Chofer guia en espanol o ingles que sabe donde parar, como evitar el trafico y como convertir un trayecto largo en parte del viaje.',
     heroAlt: 'Coche privado con conductor para recorrer Sri Lanka',
     sections: [
       {
@@ -485,8 +485,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Warum man Sri Lanka am besten mit einem privaten Fahrer Guide erlebt',
-    lead: 'Sri Lanka belohnt Reisende, die sich langsam durchs Land bewegen, und ein privater Fahrer Guide macht genau das moglich  jemand, der weiss, an welchem Aussichtspunkt man anhalten sollte, wann man den Verkehr umgeht und wie man aus einer langen Fahrt einen Teil des Urlaubs macht statt toter Zeit.',
+    h1: 'Prive chauffeur sri lanka: tour met chauffeur gids',
+    lead: 'Prive chauffeur sri lanka is een licensed chauffeur gids met auto, geen self drive. Wij plannen ophalen, dagen en strandfinale rond uw data.',
     heroAlt: 'Privater Chauffeurwagen fur Touren durch Sri Lanka',
     sections: [
       {

@@ -173,9 +173,9 @@ export const en: Dict = {
 
   home: {
     hero: {
-      title: 'Sri Lanka Tours, Holiday Packages & Private Driver',
+      title: 'Tours in Sri Lanka, Private Tours and Holiday Packages',
       subtitle:
-        'Private Sri Lanka tours with local chauffeur guides. Explore the most beautiful places in Sri Lanka: Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge, the hill-country train and Yala safari.',
+        'Tours to Sri Lanka and tours of Sri Lanka with a local private driver. Plan Sri Lanka holidays, day tours, safari tours and itineraries covering Sigiriya, Kandy, Ella and Galle.',
       slide2: 'Unforgettable Sri Lanka Tour Packages',
       slide3: 'Private Tours Across Beautiful Sri Lanka',
       slide4: 'Discover Sigiriya, Ella & Sri Lanka Highlights',
@@ -183,15 +183,15 @@ export const en: Dict = {
     },
     intro: {
       title: 'Sri Lanka Tours with Local Experts',
-      subtitle: 'Sri Lanka private tours, inbound tourism with a chauffeur driver, and tailor-made holidays across the island.',
+      subtitle: 'Tours in Sri Lanka with a private chauffeur guide: hire a driver for tailor made holidays, safari tours, day tours and beach time.',
       feature1: 'Private Tours',
       feature2: 'Chauffeur Drivers',
       feature3: 'tailor made Packages',
       feature4: 'Trusted Local Guides',
     },
     destinations: {
-      title: 'Most Beautiful Places in Sri Lanka',
-      subtitle: 'Sri Lanka travel places we include on private tours: Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge, the hill-country train and Yala safari.',
+      title: 'What to See in Sri Lanka',
+      subtitle: 'Top 10 places to visit in Sri Lanka on a private tour: Sigiriya, Kandy Temple of the Tooth, Ella train, Nuwara Eliya Sri Lanka, Yala safari and Galle.',
       explore: 'Explore destination',
       exploreAria: 'Explore',
       sigiriya: 'Sigiriya Rock Fortress',
@@ -217,7 +217,7 @@ export const en: Dict = {
     packages: {
       tag: 'PACKAGES',
       title: 'Explore Our Best Tours',
-      subtitle: 'Choose from our best selling Sri Lanka tours or customize your private experience.',
+      subtitle: 'Tours in Sri Lanka, tours to Sri Lanka and Sri Lanka tour packages. Private guided tours, not large coach groups.',
       multiDay: 'Multi Day Tours',
       day: 'Day Tours',
     },
@@ -285,6 +285,30 @@ export const en: Dict = {
       {
         q: 'Do you offer Sri Lanka holidays for travellers from Europe?',
         a: 'Yes. We specialise in private chauffeur tours for guests from Germany, the UK, France, Italy, Spain, the Netherlands, Switzerland and Poland, with driver guides in English, German, Polish and Russian and WhatsApp planning before you fly.',
+      },
+      {
+        q: 'Can I hire a Sri Lanka private driver or chauffeur?',
+        a: 'Yes. Searchers looking for driver Sri Lanka, Sri Lanka private driver or chauffeur Sri Lanka get a licensed chauffeur guide, not a shared coach. Airport pickup in Colombo is included on multi day tours.',
+      },
+      {
+        q: 'What to see in Sri Lanka in one trip?',
+        a: 'Top 10 places to visit in Sri Lanka on our routes include Sigiriya, Dambulla, Kandy, Nuwara Eliya, Ella train, Yala or Wilpattu safari, Galle, Mirissa whale watching in season, Bentota or Madu River, and Colombo if you want a city day.',
+      },
+      {
+        q: 'Do you run Sri Lanka group tours or private tours?',
+        a: 'We run Sri Lanka private tours for your own family or friends. That is a small private group with your own vehicle and tour guide, not a large Sri Lanka group tour coach. If you searched Sri Lanka small group tours, this private format is usually the better fit.',
+      },
+      {
+        q: 'Do you offer Sri Lanka day tours and guided tours from Colombo?',
+        a: 'Yes. Sri Lanka day tours include Sigiriya, Kandy, Ella and Galle with a licensed chauffeur tour guide. Multi day tours of Sri Lanka add safari, hill country and beach time.',
+      },
+      {
+        q: 'Where is Sri Lanka and what time is it from the UK?',
+        a: 'Where is sri lanka: island south of India. Time sri lanka / sri lanka time: UTC+5:30. We plan sri lanka holidays, not england vs sri lanka cricket.',
+      },
+      {
+        q: 'Are you TUI or Intrepid?',
+        a: 'No. Sri lanka private tours and sri lanka guided tours with a local chauffeur. Not TUI sri lanka, not Intrepid, not Trailfinders, not helicopter tours.',
       },
     ],
   },
@@ -402,8 +426,8 @@ export const en: Dict = {
     header: 'Sri Lanka Tour Packages',
     breadcrumb: 'Tour Packages',
     eyebrow: 'Private Round Tours',
-    title: 'Sri Lanka Tour Packages & Private Holidays',
-    lead: 'Compare 7, 8 and 10 day Sri Lanka tour packages plus shorter private trips. Every holiday is private, tailor made and led by a local chauffeur guideno group coaches.',
+    title: 'Tours of Sri Lanka and Tour Packages',
+    lead: 'Compare tours in Sri Lanka, tours to Sri Lanka and Sri Lanka tour packages from Colombo. Private holiday tours, package tours and guided tours for 4 to 10 days. We also plan Sri Lanka tours from India and Sri Lanka tours from Australia with a clear quote.',
     faqTitle: 'Frequently Asked Questions',
     faq: [
       {
@@ -420,7 +444,23 @@ export const en: Dict = {
       },
       {
         q: 'Can I book a Sri Lanka vacation with a private driver only?',
-        a: 'Yes. Choose a full tour package with hotels arranged, or a chauffeur only  itinerary if you prefer to book stays yourself. Both options include a licensed private driver guide.',
+        a: 'Yes. Choose a full tour package with hotels arranged, or a chauffeur only itinerary if you prefer to book stays yourself. Both options include a licensed private driver guide.',
+      },
+      {
+        q: 'Do you offer Sri Lanka tour packages from India?',
+        a: 'Yes. Travellers searching for Sri Lanka tours from India, India and Sri Lanka tours, or Sri Lanka trip cost from India receive a private driver quote from Colombo airport, with hotels optional.',
+      },
+      {
+        q: 'What is a good Sri Lanka itinerary for 7 or 10 days?',
+        a: 'A 7 day Sri Lanka itinerary covers Sigiriya, Kandy, Ella and safari plus beach. A 10 day Sri Lanka itinerary adds slower hill country, Nuwara Eliya and extra wildlife or coast time.',
+      },
+      {
+        q: 'Do you offer Sri Lanka tours from Australia?',
+        a: 'Yes. Guests booking tours to Sri Lanka from Australia get the same private guided format after they land in Colombo. We do not sell flights. We plan the island tour, driver and hotels.',
+      },
+      {
+        q: 'Are these Sri Lanka package tours private or group?',
+        a: 'Every Sri Lanka tour package is private. You do not join a large group tour. Your own small group travels with one chauffeur tour guide.',
       },
     ],
   },
@@ -713,47 +753,52 @@ export const en: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Tours | Private Tours, Safari & Custom Packages',
+      title: 'Tours in Sri Lanka | Private Tours to Sri Lanka 2026',
       description:
-        'Sri Lanka tours and private chauffeur holidays with a local inbound tourism operator. Visit Sigiriya, Kandy Temple of the Tooth, Ella’s Nine Arch train ride and Yala safari.',
+        'Tours in Sri Lanka, tours to Sri Lanka and tours of Sri Lanka with a private driver. Guided tours, day tours, safari tours and holiday packages from Colombo since 1992.',
       keywords:
-        'Sri Lanka tours, Sri Lanka private tours, Sri Lanka inbound tourism, Sri Lanka safari, Sri Lanka travel places, most beautiful place in Sri Lanka, private Sri Lanka tour',
+        'tours in sri lanka, tours to sri lanka, tours of sri lanka, sri lanka tours, sri lanka tour, sri lanka private tours, sri lanka guided tours, sri lanka day tours, visit sri lanka tours, sri lanka holidays, holidays to sri lanka, sri lanka holiday, sri lanka tourism, sri lanka things to do, things to do in sri lanka, visiting sri lanka',
     },
     tours: {
-      title: 'Sri Lanka Tour Packages | Private 7, 8 & 10 Day Round Tours',
+      title: 'Sri Lanka Tour Packages | Package Tours and Holiday Tours',
       description:
-        'Private Sri Lanka tour packages for travellers from the UK and Europe. Tailor-made 7, 8 and 10 day round tours with a chauffeur guide, safari and beach time.',
-      keywords: 'Sri Lanka tours, Sri Lanka tour packages, Sri Lanka round tours, Sri Lanka holidays from UK, private tours',
+        'Sri Lanka tour packages, package tours and holiday tours. Private tours of Sri Lanka from Colombo, plus tours from India and tours from Australia. Not a large group coach.',
+      keywords:
+        'sri lanka tour packages, sri lanka tours packages, sri lanka package tours, sri lanka tour package, sri lanka holiday tours, sri lanka holidays, holidays in sri lanka, sri lanka private tours, sri lanka group tours, sri lanka small group tours, sri lanka luxury tours, sri lanka safari tours, sri lanka adventure tours, sri lanka holidays 2026',
     },
     services: {
-      title: 'Private Tours, Chauffeur & Holiday Services | Sri Lanka',
+      title: 'Private Driver Sri Lanka | Chauffeur Tours and Holiday Services',
       description:
-        'Explore our range of services including private tours, tailor made holiday packages, chauffeur driven round tours and day trips.',
-      keywords: 'Sri Lanka private tours, Sri Lanka tour packages, tailor made Sri Lanka tours, chauffeur service',
+        'Hire a Sri Lanka private driver, chauffeur guide and private tours from Colombo. Day trips, round tours and holiday packages with a licensed local operator.',
+      keywords:
+        'sri lanka private driver, private driver sri lanka, chauffeur sri lanka, driver sri lanka, sri lanka adventure tours, sri lanka day tours, sri lanka guided tours',
     },
     about: {
-      title: 'About Sundown Tours | Trusted Sri Lanka Travel Agency',
+      title: 'About Sundown Tours | Local Travel Agency Sri Lanka',
       description:
-        'Sundown Tours is a Sri Lanka inbound tourism operator since 1992, planning private tours to Sigiriya, Kandy Temple of the Tooth, Ella, Yala safari and the south coast.',
-      keywords: 'Sri Lanka inbound tourism, Sri Lanka travel agency, Sri Lanka tour operator, Sri Lanka private tours',
+        'Sundown Tours is a local travel agency and tour operator in Sri Lanka since 1992. Private tours, chauffeur guide and holidays from Colombo.',
+      keywords:
+        'sri lanka travel agency, local travel agency sri lanka, sri lanka tour operator, travel agency in colombo sri lanka, sri lanka tours and travels',
     },
     contact: {
-      title: 'Plan Your Private Sri Lanka Tour | Contact',
+      title: 'Travel to Sri Lanka | Book a Private Tour from the UK',
       description:
-        'Get in touch with Sundown Tours for customized Sri Lanka tour packages and private travel services. We reply within 24 hours.',
-      keywords: 'contact Sri Lanka tour company, book Sri Lanka private tour',
+        'Travel to sri lanka and sri lanka travel: WhatsApp for sri lanka private tours. We reply within 24 hours. Not TUI, not airline tickets.',
+      keywords: 'travel to sri lanka, sri lanka travel, visiting sri lanka, sri lanka private tours, sri lanka holidays',
     },
     tour7: {
-      title: '7 Day Sri Lanka Tour Package | Cultural & Scenic Round Trip',
+      title: '7 Day Sri Lanka Tour | One Week Itinerary with Private Driver',
       description:
-        'Experience the best of Sri Lanka in 7 days including Sigiriya, Kandy, Ella and Yala safari with a private chauffeur guide.',
-      keywords: '7 day Sri Lanka tour, Sri Lanka 1 week itinerary, private Sri Lanka round tour',
+        'One week in Sri Lanka itinerary: Sigiriya, Kandy, Ella and Yala safari with a private chauffeur guide. Best Sri Lanka itinerary for first time visitors.',
+      keywords:
+        '7 day sri lanka tour, sri lanka in 7 days, one week in sri lanka, 1 week in sri lanka itinerary, sri lanka one week, best sri lanka itinerary',
     },
     tour10: {
-      title: '10 Day Sri Lanka Tour | Complete Island Exploration',
+      title: '10 Day Sri Lanka Tour | 10 Day Itinerary and Island Circuit',
       description:
-        'Explore Sri Lanka in 10 days with beaches, wildlife safaris, hill country and cultural heritage sites.',
-      keywords: '10 day Sri Lanka tour, Sri Lanka 10 day itinerary',
+        'Sri Lanka 10 day itinerary with beaches, safari, hill country and cultural sites. Also a base for 12 day and 14 day itinerary Sri Lanka private tours.',
+      keywords:
+        'sri lanka 10 day itinerary, sri lanka itinerary 10 days, sri lanka in 10 days, 10 days in sri lanka, sri lanka 10 days itinerary, 14 day itinerary sri lanka, 12 day itinerary sri lanka',
     },
     tour8: {
       title: '8 Day Sri Lanka Private Tour | Wilpattu Safari, Sigiriya, Kandy, Ella & Beach Stay',
@@ -768,15 +813,15 @@ export const en: Dict = {
       keywords: '6 day Sri Lanka tour, Sri Lanka 6 day itinerary, Sigiriya Kandy Ella tour',
     },
     tour5: {
-      title: '5 Day Sri Lanka Tour | Balanced Cultural & Scenic Experience',
-      description: 'Discover a balanced mix of cultural heritage, scenic beauty and wildlife in 5 days.',
-      keywords: '5 day Sri Lanka tour, Sri Lanka 5 day itinerary',
+      title: '5 Day Sri Lanka Tour | 5 Day Itinerary Private Round Trip',
+      description: 'Sri Lanka 5 day itinerary mixing culture, hill country and wildlife with a private driver.',
+      keywords: '5 day sri lanka tour, sri lanka 5 day itinerary, 5 days in sri lanka itinerary',
     },
     tour4: {
-      title: '4 Day Sri Lanka Tour | Cultural & Scenic Highlights',
+      title: '4 Day Sri Lanka Tour | 4 Days Highlights with Private Driver',
       description:
-        'Experience the best of Sri Lanka in 4 days with a private guided tour covering Sigiriya, Kandy, Ella and Yala safari.',
-      keywords: '4 day Sri Lanka tour, Sri Lanka 4 day itinerary',
+        '4 days Sri Lanka private tour: Sigiriya, Kandy, Ella and Yala safari with a chauffeur guide.',
+      keywords: '4 days sri lanka, 4 day sri lanka tour, sri lanka 4 days itinerary',
     },
     tour2ek: {
       title: '2 Day Sri Lanka Private Tour \u2013 Ella, Kandy & Udawalawa | Airport or Hotel Drop',
@@ -788,116 +833,117 @@ export const en: Dict = {
       title: '2 Day Ella & Yala Safari Private Tour | Sri Lanka Wildlife Experience',
       description:
         'A 2 day private tour covering Ella highlights and an exciting Yala National Park jeep safari to see leopards, elephants and wildlife.',
-      keywords: 'Ella Yala safari tour, 2 day Sri Lanka safari tour, Yala national park safari',
+      keywords: 'Ella Yala safari tour, sri lanka safari tours, sri lanka wildlife tours, yala national park safari',
     },
     ellaDay: {
-      title: 'Ella Day Tour | Nine Arch Bridge, Train Ride & Little Adam’s Peak',
+      title: 'Ella Day Tour | Sri Lanka Day Tours from Hill Country',
       description:
-        'Private Ella day tour: Nine Arch Bridge, scenic train views, Little Adam’s Peak and Ravana Falls with a chauffeur guide.',
-      keywords: 'Ella day tour, Nine Arch Bridge tour, Ella train ride, Ella private tour',
+        'Sri Lanka day tours to Ella: Nine Arch Bridge, scenic train views, Little Adams Peak and Ravana Falls with a private chauffeur tour guide.',
+      keywords: 'sri lanka day tours, ella day tour, ella sri lanka, nine arch bridge, ella private tour',
     },
     galleDay: {
-      title: 'Galle Day Tour | Galle Fort & Southern Coast',
-      description: 'Discover Galle Fort, beaches and southern coastal attractions with our private day tour.',
-      keywords: 'Galle day tour, Galle fort tour',
+      title: 'Galle Day Tour | Sri Lanka Day Tours to Galle Fort',
+      description: 'Sri Lanka day tours to Galle Fort, beaches and the southern coast with a private driver.',
+      keywords: 'sri lanka day tours, galle day tour, galle sri lanka, galle fort tour',
     },
     kandyDay: {
-      title: 'Kandy Day Tour | Temple of the Tooth & Botanical Gardens',
+      title: 'Kandy Day Tour | Sri Lanka Day Tours to the Temple of the Tooth',
       description:
-        'Private Kandy day tour to the Temple of the Tooth, Kandy Lake and Peradeniya Royal Botanical Gardens with a chauffeur guide.',
-      keywords: 'Kandy day tour, Temple of the Tooth tour, Kandy private tour, Sri Dalada Maligawa',
+        'Sri Lanka day tours to Kandy: Temple of the Tooth, Kandy Lake and Peradeniya Gardens with a chauffeur tour guide.',
+      keywords: 'sri lanka day tours, kandy day tour, kandy sri lanka, kandy lake, temple of the sacred tooth relic, temple of the tooth',
     },
     sigiriyaDay: {
-      title: 'Sigiriya Day Tour | Rock Fortress, Dambulla & Private Driver',
+      title: 'Sigiriya Day Tour | Sri Lanka Day Tours to Lion Rock',
       description:
-        'A private Sigiriya day tour covering the rock fortress climb, Dambulla cave temple and optional wild elephant safari with a chauffeur guide.',
-      keywords: 'Sigiriya day tour, Sigiriya private tour, Sigiriya rock fortress tour',
+        'Sri Lanka day tours to Sigiriya rock fortress, Dambulla cave temple and optional elephant safari with a private driver.',
+      keywords: 'sri lanka day tours, sigiriya day tour, sigiriya sri lanka, lion rock, lions rock, sigiriya rock fortress, what to do in sigiriya',
     },
     destinations: {
-      title: 'Most Beautiful Places in Sri Lanka | Travel Destinations',
+      title: 'What to See in Sri Lanka | Things to Do and Top 10 Places',
       description:
-        'Sri Lanka travel places for a private tour: Sigiriya rock fortress, Kandy Temple of the Tooth, Ella Nine Arch Bridge, hill-country train ride and Yala National Park safari.',
+        'Things to do in Sri Lanka and what to see: Sigiriya, Kandy, Ella train, Nuwara Eliya, Yala safari, Galle, Mirissa and Colombo on a private tour.',
       keywords:
-        'most beautiful place in Sri Lanka, Sri Lanka travel places, Sri Lanka destinations, Sigiriya, Temple of the Tooth, Nine Arch Bridge, Yala safari',
+        'things to do in sri lanka, sri lanka things to do, what to see in sri lanka, sri lanka map, where is sri lanka, sigiriya sri lanka, kandy sri lanka, ella sri lanka',
     },
     guides: {
-      title: 'Sri Lanka Travel Guides | Expert Insights & Tips',
-      description: 'Explore our comprehensive travel guides for Sri Lanka, offering expert insights and practical tips.',
-      keywords: 'Sri Lanka travel guides, Sri Lanka travel tips',
+      title: 'Sri Lanka Travel Guides | Itinerary Tips and Local Advice',
+      description: 'Sri Lanka travel guides for itineraries, private driver hire, safari, trains and holidays.',
+      keywords: 'sri lanka travel guide, sri lanka travel, sri lanka itinerary, sri lanka tourism',
     },
     destSigiriya: {
-      title: 'Sigiriya Rock Fortress | Tours, Climb Guide & Day Trip',
+      title: 'Sigiriya Sri Lanka | Lion Rock, Fortress and Day Tours',
       description:
-        'Visit Sigiriya, Sri Lanka’s rock fortress: climb timing, frescoes, Pidurangala, tickets and private day tours combined with Dambulla or the Cultural Triangle.',
-      keywords: 'Sigiriya, Sigiriya Sri Lanka, Sigiriya rock fortress, climb Sigiriya, Sigiriya day tour, Sigiriya tours',
+        'Sigiriya sri lanka, lion rock sri lanka and lions rock: climb, water gardens, pidurangala, what to do in sigiriya. Private day tour from Colombo, Negombo or Kandy.',
+      keywords:
+        'sigiriya, sigiriya sri lanka, sri lanka sigiriya, sigiriya rock, sigiriya rock sri lanka, lion rock, lion rock sri lanka, sri lanka lion rock, lions rock, the lion rock, lions rock sigiriya, sigiriya fortress, sigiriya rock fortress, where is sigiriya located, what to do in sigiriya, sigiriya things to do, pidurangala, pidurangala rock, weather sigiriya, sigiriya weather, colombo to sigiriya, sigiriya to colombo, kandy to sigiriya, sigiriya to kandy, negombo to sigiriya, colombo airport to sigiriya',
     },
     destElla: {
       title: 'Ella Sri Lanka | Nine Arch Bridge, Train Ride & Hill Country',
       description:
         'Visit Ella, Sri Lanka: Nine Arch Bridge, the Kandy to Ella train ride, Little Adam’s Peak and tea trails on a private hill-country day trip or overnight stay.',
       keywords:
-        'Ella Sri Lanka, Nine Arch Bridge, Ella train ride, Kandy to Ella train, Ella day tour, Sri Lanka hill country',
+        'ella sri lanka, things to do in ella, ella rock, kandy to ella, kandy to ella train, sri lanka train, nine arch bridge, ella day tour',
     },
     destYala: {
       title: 'Yala National Park Safari | Jeep Safari & Leopards',
       description:
         'Book a Yala National Park safari in Sri Lanka: leopard jeep safari tips, best time to visit, park fees and how to combine Yala with Ella or the south coast.',
-      keywords: 'Yala National Park safari, Yala safari, Yala jeep safari, Sri Lanka safari, Yala leopards',
+      keywords: 'yala national park safari, yala safari, safari sri lanka, sri lanka safari, sri lanka safari tours, sri lanka wildlife tours, wilpattu national park, ella to yala national park',
     },
     destKandy: {
-      title: 'Kandy Temple of the Tooth | Sacred Relic & Sri Lanka Tours',
+      title: 'Kandy Sri Lanka | Temple of the Tooth and Day Tours',
       description:
         'Visit the Kandy Temple of the Tooth (Sri Dalada Maligawa): ceremony times, dress code, lake walks, Peradeniya Gardens and private day tours from Colombo.',
-      keywords:
-        'Kandy Temple of the Tooth, Temple of the Tooth Sri Lanka, Sri Dalada Maligawa, Kandy Sri Lanka, Kandy day tour',
+      keywords: 'kandy sri lanka, kandy, kandy lake, what to do in kandy, what to do in kandy sri lanka, temple of the sacred tooth relic, kandy temple of the tooth, kandy weather, kandy day tour',
     },
     destDambulla: {
       title: 'Dambulla Cave Temple | Golden Rock Temple & Sigiriya Day Tours',
       description:
         'Visit Dambulla’s UNESCO cave temple: murals, Buddha statues, climb tips and how to combine it with Sigiriya on a Cultural Triangle day tour.',
-      keywords: 'Dambulla cave temple, Golden Temple Dambulla, Dambulla Sri Lanka, Dambulla Sigiriya tour',
+      keywords: 'dambulla sri lanka, dambulla, dambulla to sigiriya, Dambulla cave temple, Golden Temple Dambulla',
     },
     destGalle: {
       title: 'Galle Fort Sri Lanka | Ramparts, Lighthouse & Coast Tours',
       description:
         'Walk Galle Fort’s Dutch ramparts, lighthouse and boutique lanes. Private day tour tips and how to combine Galle Sri Lanka with Mirissa or Hiriketiya beaches.',
-      keywords: 'galle sri lanka, Galle Fort, Galle, Galle day tour, UNESCO Galle',
+      keywords: 'galle sri lanka, galle, galle fort, galle day tour, unesco galle',
     },
     guideBestTime: {
       title: 'Best Time to Visit Sri Lanka | Weather & Month by Month Guide',
       description:
         'Best time to visit Sri Lanka: two monsoons, weather by region, safari and whale watching timing, and how to plan a private itinerary around the season.',
-      keywords: 'best time to visit Sri Lanka, weather in Sri Lanka, Sri Lanka weather, Sri Lanka monsoon, Sri Lanka in August',
+      keywords: 'best time to visit sri lanka, sri lanka weather, weather sri lanka, weather in sri lanka, sri lanka weather january, colombo weather, kandy weather, weather sigiriya',
     },
     guideVisa: {
       title: 'Sri Lanka Entry Requirements 2026 | ETA & Visa Guide',
       description:
         'Sri Lanka entry requirements for European travellers: ETA rules from 25 May 2026, free 30 day tourist ETA for 40 countries. Apply before travel at eta.gov.lk, not on unofficial sites.',
-      keywords: 'sri lanka entry requirements, Sri Lanka visa, Sri Lanka ETA 2026, travel restrictions, eta.gov.lk',
+      keywords: 'sri lanka entry requirements, sri lanka visa, Sri Lanka ETA 2026, eta.gov.lk',
     },
     guidePrivateDriver: {
-      title: 'Sri Lanka Private Driver Guide | Chauffeur Tours Explained',
+      title: 'Sri Lanka Private Driver | Hire a Chauffeur Guide',
       description:
-        'Why travellers choose a private chauffeur driver  in Sri Lanka, what is included, typical daily distances, and how to plan a flexible round tour itinerary.',
-      keywords: 'Sri Lanka private driver, chauffeur guide Sri Lanka, private tour Sri Lanka',
+        'Hire a Sri Lanka private driver or chauffeur. What a driver Sri Lanka tour includes, daily costs, tipping and how to plan a flexible itinerary with a local chauffeur guide.',
+      keywords:
+        'sri lanka private driver, private driver sri lanka, sri lanka tour guide, sri lanka guided tours, driver sri lanka, sri lanka driver, sri lanka driver guide, chauffeur sri lanka, private taxi sri lanka, sri lanka tour driver, private driver tours sri lanka',
     },
     guideBudget: {
-      title: 'Sri Lanka Budget Travel Guide | Costs & Money Tips',
+      title: 'GBP to LKR | Sri Lanka Costs on a Private Holiday',
       description:
-        'Daily costs, cash and ATMs, tipping customs, and where your money goes on a private Sri Lanka tour practical budget tips for travellers.',
-      keywords: 'Sri Lanka budget travel, Sri Lanka costs, money tips Sri Lanka, travel budget',
+        'Gbp to lkr changes daily. We quote sri lanka holidays clearly. We do not send money to sri lanka from uk or run a Global Exchange ticker.',
+      keywords: 'gbp to lkr, sri lanka hotels, Sri Lanka budget travel, Sri Lanka costs',
     },
     guideWildlife: {
       title: 'Sri Lanka Wildlife Guide | Elephants, Leopards & Whales',
       description:
         'Where to see elephants, leopards, whales and birds in Sri Lanka national parks, seasons and wildlife hotspots explained.',
-      keywords: 'Sri Lanka wildlife, elephants Sri Lanka, leopard safari, whale watching Sri Lanka',
+      keywords: 'sri lanka wildlife tours, sri lanka wildlife, elephants sri lanka, leopard safari, whale watching sri lanka',
     },
     guideSafari: {
       title: 'Sri Lanka Safari | Yala, Udawalawe & Jeep Safari Guide',
       description:
         'Plan a Sri Lanka safari: Yala vs Udawalawe, jeep booking, park fees and what to expect on a morning or afternoon game drive with a private driver.',
-      keywords: 'Sri Lanka safari, Sri Lankan safari, Yala safari, Udawalawe jeep safari, jeep safari Sri Lanka',
+      keywords: 'sri lanka safari tours, sri lanka safari, safari sri lanka, safaris in sri lanka, yala safari, udawalawe jeep safari, wilpattu national park, minneriya safari, kaudulla national park safari, madu river safari sri lanka',
     },
     guideBeaches: {
       title: 'Sri Lanka Beaches Guide | Mirissa, Hiriketiya, Galle & East Coast',
@@ -915,7 +961,7 @@ export const en: Dict = {
       title: 'Sri Lanka Food Guide | Rice & Curry, Spices & Street Food',
       description:
         'Sri Lankan cuisine explained: rice and curry, hoppers, kottu, spices and street food what to try and how to order with confidence.',
-      keywords: 'Sri Lanka food, rice and curry, Sri Lankan street food, Sri Lanka cuisine',
+      keywords: 'sri lanka food tours, sri lanka food, rice and curry, sri lankan street food, sri lanka cuisine',
     },
     guidePacking: {
       title: 'What to Pack for Sri Lanka | Clothing & Essentials',
@@ -927,7 +973,7 @@ export const en: Dict = {
       title: 'Is Sri Lanka Safe to Travel? | Safety Guide for Visitors',
       description:
         'Is it safe to travel to Sri Lanka? Practical advice for European visitors: roads, scams, wildlife, health and travelling with a private driver.',
-      keywords: 'is sri lanka safe, is it safe to travel to sri lanka, Sri Lanka travel safety',
+      keywords: 'is sri lanka safe, is it safe to travel to sri lanka, sri lanka travel, travel to sri lanka',
     },
     cancellation: {
       title: 'Cancellation Policy | Sundown Tours Sri Lanka',
@@ -956,25 +1002,25 @@ export const en: Dict = {
       title: 'Colombo Sri Lanka Guide | Airport, City and First Night',
       description:
         'Colombo Sri Lanka as your UK flight gateway: CMB vs the city, first night hotels, a one day city loop and how Colombo fits a private island itinerary.',
-      keywords: 'colombo sri lanka, Colombo, Colombo airport, CMB, Colombo city tour',
+      keywords: 'colombo sri lanka, colombo, sri lanka airport, colombo airport, colombo weather, colombo to sigiriya, colombo to kandy, colombo to negombo',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Beach Next to Colombo Airport',
       description:
         'Negombo as first night after CMB: 20 to 40 minute transfer, lagoon town, then private tour onward to Sigiriya or the west coast.',
-      keywords: 'Negombo Sri Lanka, Negombo beach, Colombo airport Negombo',
+      keywords: 'negombo sri lanka, negombo, colombo airport, colombo to negombo, negombo to sigiriya',
     },
     destBentota: {
       title: 'Bentota Sri Lanka | West Coast Beach Holidays',
       description:
         'Bentota beach holidays with private chauffeur links to Galle, Mirissa and Weligamabest in the west coast dry season.',
-      keywords: 'Bentota Sri Lanka, Bentota beach, Bentota tour',
+      keywords: 'bentota sri lanka, bentota river, madu river safari sri lanka, madu ganga balapitiya, bentota tour',
     },
     destMirissa: {
       title: 'Mirissa Sri Lanka | Whale Watching, Beaches & Coconut Tree Hill',
       description:
         'Plan Mirissa Sri Lanka: whale watching season, Coconut Tree Hill, beaches and pairing with Galle Fort or Hiriketiya on a private south coast tour.',
-      keywords: 'mirissa sri lanka, Mirissa, Mirissa whale watching, Coconut Tree Hill, Mirissa beach',
+      keywords: 'mirissa, mirissa sri lanka, mirissa whale watching, coconut tree hill, mirissa beach',
     },
     destHiriketiya: {
       title: 'Hiriketiya Sri Lanka Guide | Surf Bay, Cafes & South Coast',
@@ -989,25 +1035,25 @@ export const en: Dict = {
       keywords: 'Weligama Sri Lanka, Weligama surf, Weligama beach',
     },
     destNuwaraEliya: {
-      title: "Nuwara Eliya Sri Lanka | Tea Country Tours & Highlands",
-      description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill country itineraries.",
-      keywords: "Nuwara Eliya Sri Lanka, tea country, Nuwara Eliya tour",
+      title: "Nuwara Eliya Sri Lanka | Tea Country Tours and Highlands",
+      description: "Nuwara Eliya Sri Lanka tea country stays between Kandy and Ella on private hill country itineraries.",
+      keywords: 'nuwara eliya sri lanka, nuwara eliya, tea country, kandy to nuwara eliya by train',
     },
     destAnuradhapura: {
       title: "Anuradhapura Sri Lanka | Ancient Sacred City",
       description: "Explore Anuradhapura with a private driver in Sri Lanka Cultural Triangle itineraries.",
-      keywords: "Anuradhapura Sri Lanka, Anuradhapura tour, Cultural Triangle",
+      keywords: "Anuradhapura Sri Lanka, mihintale, Anuradhapura tour, Cultural Triangle",
     },
     destPolonnaruwa: {
       title: "Polonnaruwa Sri Lanka | Medieval Ruins Guide",
       description: "Visit Polonnaruwa ruins on a private Cultural Triangle tour with Sundown Tours.",
-      keywords: "Polonnaruwa Sri Lanka, Polonnaruwa tour, Cultural Triangle",
+      keywords: "polonnaruwa ancient city, Polonnaruwa Sri Lanka, Polonnaruwa tour, Cultural Triangle",
     },
     destTrincomalee: {
       title: 'Trincomalee Sri Lanka | East Coast Beaches & Harbour',
       description:
         'Trincomalee, Nilaveli and Uppuveli: when the east coast is drier than Galle, what to do, and how to fit it into a 10 to 14 day private tour.',
-      keywords: 'Trincomalee Sri Lanka, east coast Sri Lanka, Nilaveli, Ostkuste',
+      keywords: 'Trincomalee Sri Lanka, trincomalee, nilaveli beach, Nilaveli, east coast Sri Lanka, sigiriya to trincomalee',
     },
     destArugamBay: {
       title: "Arugam Bay Sri Lanka | Surf and East Coast",
@@ -1023,13 +1069,13 @@ export const en: Dict = {
       title: "Whale Watching Sri Lanka | Mirissa & Private Tours",
       description:
         "Plan seasonal whale watching from Mirissa or Trincomalee inside a private chauffeur itinerary realistic seasons, no guaranteed sightings.",
-      keywords: "whale watching Sri Lanka, Mirissa whales, private south coast tour",
+      keywords: 'whale watching sri lanka, mirissa whale watching, whale watching mirissa',
     },
     guideTrainJourneys: {
       title: 'Kandy to Ella Train | Scenic Sri Lanka Train Ride & Nine Arch',
       description:
         'Ride the Kandy to Ella train through tea country: reserved seats, Nine Arch Bridge views, Nanu Oya stops and private driver station transfers.',
-      keywords: 'Sri Lanka train ride, Kandy to Ella train, Nine Arch Bridge train, scenic train Sri Lanka, tea country railway',
+      keywords: 'kandy to ella train, kandy to ella, sri lanka train, nanu oya to ella train, ella train ride sri lanka',
     },
     guideHoneymoon: {
       title: "Sri Lanka Honeymoon Tours | Private Couples Travel",
@@ -1041,47 +1087,47 @@ export const en: Dict = {
       title: "Sri Lanka Family Tours | Private Trips with Kids",
       description:
         "family friendly private Sri Lanka tours with sensible driving days, wildlife mornings and beach recovery time.",
-      keywords: "Sri Lanka family tour, private tour with kids, family safari Sri Lanka",
+      keywords: 'sri lanka family tour, things to do in sri lanka with kids, places to visit in sri lanka with family, travel with family sri lanka',
     },
     guideLuxuryTours: {
-      title: "Sri Lanka Luxury Tours | Private Chauffeur Travel",
+      title: 'Sri Lanka Luxury Tours | Private Chauffeur and Boutique Stays',
       description:
-        "Luxury private chauffeur tours with boutique hotel options, honest pacing and transparent inclusions.",
-      keywords: "Sri Lanka luxury tour, boutique private chauffeur, premium Sri Lanka holiday",
+        'Sri Lanka luxury tours with a private chauffeur, boutique hotels and honest pacing. Premium private holidays, not a group coach.',
+      keywords: 'sri lanka luxury tours, sri lanka luxury tour, boutique private chauffeur, premium sri lanka holiday',
     },
     guideAirportTransfers: {
       title: 'Sri Lanka Airport Transfers | CMB Drive Times & Private Pickup',
       description:
         'Private transfers from Colombo Bandaranaike (CMB): drive times to Negombo, Colombo, Waskaduwa, Kandy, Sigiriya and Galle, night arrivals and fixed quotes.',
-      keywords: 'Colombo airport transfer, CMB private pickup, Negombo airport transfer, Kalutara airport transfer',
+      keywords: 'sri lanka airport, colombo airport, colombo airport to sigiriya, london to sri lanka, flights to sri lanka, flight to sri lanka, sri lanka flights',
     },
     marketGermany: {
       title: 'Sri Lanka Rundreise from Germany | Flights, Best Time & Private Tours',
       description:
         'Sri Lanka tours from Germany: Frankfurt flight time, direct flights, ETA entry rules, best travel season, two week round trips and private chauffeur itineraries after you land.',
       keywords:
-        'Sri Lanka Rundreise, Sri Lanka Urlaub, Flugzeit Sri Lanka Frankfurt, Einreise Sri Lanka, beste Reisezeit Sri Lanka, Rundreise 2 Wochen',
+        'sri lanka rundreise, sri lanka urlaub, fahrer sri lanka, privater fahrer sri lanka, flughafen colombo, rundreise sri lanka',
     },
     marketFrance: {
       title: 'Sri Lanka Tours from France | Paris Flights, When to Go & Private Circuits',
       description:
         'Sri Lanka travel from France: Paris to Colombo flight time, direct flights, ETA and arrival card, weather, Lion Rock, safari and private chauffeur circuits after you land.',
       keywords:
-        'voyage Sri Lanka, visiter Sri Lanka, circuit Sri Lanka, vol Paris Sri Lanka, quand partir Sri Lanka, visa Sri Lanka',
+        'voyage sri lanka, circuit sri lanka, chauffeur sri lanka, chauffeur prive sri lanka, agence locale sri lanka, 10 jours au sri lanka, visiter sri lanka',
     },
     marketItaly: {
       title: 'Sri Lanka Tours from Italy | When to Go, Milan Flights & Private Travel',
       description:
         'Sri Lanka from Italy: Milan flight time, when to go, August vs December weather, ETA, Lion Rock, safari and private chauffeur itineraries after CMB.',
       keywords:
-        'viaggio Sri Lanka, tour Sri Lanka, quando andare Sri Lanka, voli Sri Lanka, cosa vedere Sri Lanka',
+        'viaggio sri lanka, tour sri lanka, autista privato sri lanka, itinerario sri lanka, tour sri lanka 10 giorni, viaggio organizzato in sri lanka, cosa vedere in sri lanka',
     },
     marketSpain: {
       title: 'Sri Lanka Tours from Spain | Flights, What to See & Private Holidays',
       description:
         'Sri Lanka travel from Spain: Madrid/Barcelona flight time, ETA, weather, Lion Rock, safari, Ella train and private chauffeur itineraries after you land in Colombo.',
       keywords:
-        'viaje a Sri Lanka, viajar a Sri Lanka, que ver en Sri Lanka, vuelos Sri Lanka, mejor epoca Sri Lanka',
+        'viaje a sri lanka, sri lanka viaje, viajar a sri lanka, conductor privado sri lanka, chofer guia sri lanka en espanol, itinerario sri lanka, viaje organizado sri lanka, que ver en sri lanka, sri lanka 10 dias',
     },
     marketPoland: {
       title: 'Sri Lanka Holidays from Poland | Weather, Warsaw Flights & Private Tours',
@@ -1098,16 +1144,18 @@ export const en: Dict = {
         'sri lanka tours, sri lanka tour packages, туры Шри Ланка, sri lanka holidays, travel agents in sri lanka, car rental with driver sri lanka',
     },
     marketNetherlands: {
-      title: "Sri Lanka Tours from the Netherlands | Prive Rondreizen",
-      description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
-      keywords: "Sri Lanka vakantie, prive rondreis Sri Lanka",
+      title: 'Sri Lanka holidays from the Netherlands | Private rondreis',
+      description:
+        'Sri lanka vakantie and sri lanka rondreis from the Netherlands: private chauffeur after Colombo, visa ETA, best time, Sigiriya and safari. Not airline tickets.',
+      keywords:
+        'sri lanka vakantie, sri lanka rondreis, prive chauffeur sri lanka, sri lanka tours from netherlands',
     },
     marketUK: {
-      title: 'Sri Lanka Holidays from the UK | Flights, ETA & Private Tours',
+      title: 'Sri Lanka Holidays from the UK | Private Tours 2026',
       description:
-        'Sri Lanka holidays from the UK: London to Colombo flight time, Heathrow and Manchester routes, 2026 entry requirements, safety, weather and private chauffeur tours after you land.',
+        'Sri lanka holidays, holidays to sri lanka and sri lanka tours from the UK: london to sri lanka, sri lanka visa, sri lanka weather, time in sri lanka, sigiriya lion rock, kandy sri lanka. Private chauffeur after CMB. Not TUI.',
       keywords:
-        'sri lanka holidays, holidays to sri lanka, uk to sri lanka flight, london to sri lanka flight time, sri lanka entry requirements, travel to sri lanka from uk, direct flights to sri lanka from uk',
+        'sri lanka holidays, sri lanka holiday, holidays to sri lanka, holidays in sri lanka, sri lanka holidays 2026, sri lanka holidays 2025, sri lanka tours, tours to sri lanka, tours in sri lanka, sri lanka tour, visit sri lanka tours, sri lanka private tours, sri lanka guided tours, sri lanka package tours, sri lanka tour package, sri lanka day tours, sri lanka luxury tours, sri lanka safari tours, sri lanka things to do, things to do in sri lanka, travel to sri lanka, sri lanka travel, visiting sri lanka, sri lanka visa, sri lanka entry requirements, sri lanka weather, weather sri lanka, best time to visit sri lanka, time in sri lanka, sri lanka time, london to sri lanka, flights to sri lanka, colombo sri lanka, sri lanka airport, sri lanka map, where is sri lanka, is sri lanka safe, kandy sri lanka, ella sri lanka, galle sri lanka, mirissa sri lanka, gbp to lkr',
     },
     marketAustria: {
       title: "Sri Lanka Tours from Austria | Private Rundreisen",
@@ -1122,7 +1170,7 @@ export const en: Dict = {
     monthJanuary: {
       title: "Sri Lanka in January | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in January regions, weather and private itinerary ideas.",
-      keywords: "Sri Lanka in January, January Sri Lanka weather, Sri Lanka holiday January",
+      keywords: "sri lanka weather january, Sri Lanka in January, January Sri Lanka weather, Sri Lanka holiday January",
     },
     monthFebruary: {
       title: "Sri Lanka in February | Weather and Travel Tips",
@@ -1163,12 +1211,12 @@ export const en: Dict = {
     monthSeptember: {
       title: "Sri Lanka in September | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in September regions, weather and private itinerary ideas.",
-      keywords: "Sri Lanka in September, things to do Sri Lanka September",
+      keywords: "sri lanka in september, sri lanka en septiembre",
     },
     monthOctober: {
       title: "Sri Lanka in October | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in October regions, weather and private itinerary ideas.",
-      keywords: "Sri Lanka in October, Sri Lanka October travel",
+      keywords: "sri lanka in october, sri lanka october, sri lanka octubre",
     },
     monthNovember: {
       title: "Sri Lanka in November | Weather and Travel Tips",
@@ -1178,7 +1226,7 @@ export const en: Dict = {
     monthDecember: {
       title: "Sri Lanka in December | Weather and Travel Tips",
       description: "Travel tips for Sri Lanka in December regions, weather and private itinerary ideas.",
-      keywords: "Sri Lanka in December, December Sri Lanka holiday",
+      keywords: "sri lanka in december, sri lanka places to visit in december, sri lanka diciembre",
     },
     terms: {
       title: "Terms of Service | Sundown Tours Sri Lanka",

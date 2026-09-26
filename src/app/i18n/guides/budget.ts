@@ -34,7 +34,7 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         id: 'moneyTips',
         title: 'Cash, cards and practical money tips',
-        body: 'ATMs are widespread in towns and tourist areas; smaller villages and some rural hotels still prefer cash in Sri Lankan rupees. Major cards work at many hotels and larger restaurants, but smaller eateries and tip boxes often do not.\n\nCarry a mix of cash and card, keep a small float for tips and temple donations, and avoid exchanging large amounts at the worst airport rates if you can wait for a bank or reputable exchanger in Colombo or Negombo.',
+        body: 'ATMs are widespread in towns and tourist areas; smaller villages and some rural hotels still prefer cash in Sri Lankan rupees. Major cards work at many hotels and larger restaurants, but smaller eateries and tip boxes often do not.\n\nGbp to lkr and euro to LKR change daily. We quote the private tour clearly; we are not Global Exchange and we do not send money to sri lanka from uk. Carry a mix of cash and card, keep a small float for tips and temple donations, and avoid exchanging large amounts at the worst airport rates if you can wait for a bank or reputable exchanger in Colombo or Negombo.',
       },
       {
         id: 'valueChoices',
@@ -63,6 +63,10 @@ export const BUDGET_GUIDE: ArticleContent = {
         q: 'When are hotels cheapest in Sri Lanka?',
         a: 'Outside December to March on the south and west coasts, and away from major holidays, rates soften. east coast peak timing differs, so match your beach region to the season for better value.',
       },
+      {
+        q: 'Do you publish gbp to lkr today?',
+        a: 'Gbp to lkr moves daily. Pay in rupees on the island. We quote sri lanka holidays; we do not send money to sri lanka from uk.',
+      },
     ],
     ctaTitle: 'Get a clear quote for your dates',
     ctaBody: 'Tell us your travel window, group size and pace we will outline a private itinerary with transparent inclusions so you know what you are paying for before you book.',
@@ -82,8 +86,8 @@ export const BUDGET_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Sri Lanka Budgetreise Ratgeber: realistische Kosten fur eine Privatreise',
-    lead: 'Sri Lanka gehort weiterhin zu Asiens lohnenden Reisezielen  aber „gunstig“ hangt ganz davon ab, wie Sie reisen. Eine private Rundreise mit Fahrer Guide liegt in einer anderen Preisklasse als Rucksackbusse; wer weiss, wohin das Geld wirklich fliesst, plant ohne bose Uberraschungen.',
+    h1: 'Euro in Sri Lanka Rupien wechseln: Kurs und Reisekosten',
+    lead: 'Euro in sri lanka rupien wechseln und 1 euro in sri lanka rupees: grober Uberblick, kein Live Kurs. Private Rundreise Preise rechnen wir klar, Devisen verkaufen wir nicht.',
     heroAlt: 'Notizen und Karte zur Budgetplanung fur eine Sri Lanka Reise',
     sections: [
       {
@@ -103,8 +107,8 @@ export const BUDGET_GUIDE: ArticleContent = {
         body: 'Auslandertickets fur Sigiriya, den Zahntempel, die Hohlen von Dambulla und grosse Nationalparks sind getrennt von Einheimischenpreisen und gehoren zu den spurbarsten Ausgaben einer Kultur- oder Wildtierreise. In Yala und ahnlichen Parks kommt zur Parkgebuhr oft noch die Jeepmiete.\n\nWalbeobachtung, Kochkurse, Sitzplatzreservierungen im Panoramazug und optionale Aktivitaten gehoren in Ihr Reisebudget, damit der Tagesdurchschnitt ehrlich bleibt.',
       },
       {
-        title: 'Bargeld, Karten und praktische Geldtipps',
-        body: 'Geldautomaten sind in Stadten und Touristenorten verbreitet; kleinere Dorfer und manche Landhotels bevorzugen weiterhin Bargeld in sri lankischen Rupien. Grosse Karten funktionieren in vielen Hotels und grosseren Restaurants, in kleinen Imbissen und bei Trinkgeld oft nicht.\n\nNehmen Sie eine Mischung aus Bargeld und Karte mit, halten Sie etwas Reserve fur Trinkgelder und Tempelspenden bereit, und wechseln Sie grosse Betrage moglichst nicht zu den schlechtesten Flughafen Kursen, wenn Sie auf eine Bank oder seriose Wechselstube in Colombo oder Negombo warten konnen.',
+        title: 'Bargeld, Karten und Euro Sri Lanka Rupie',
+        body: 'Suchen wie sri lanka euro, euro sri lanka rupie und euro sri lanka rupees wollen den groben Kurs, keinen Live Ticker. Zahlen Sie vor Ort in sri lankischen Rupien. Geldautomaten sind in Stadten verbreitet; kleinere Dorfer und manche Landhotels bevorzugen Bargeld.\n\nNehmen Sie Karte plus etwas Reserve fur Trinkgeld und Tempel. Grosse Betraege nicht zum schlechtesten Flughafen Kurs wechseln, wenn Sie auf Colombo oder Negombo warten konnen.',
       },
       {
         title: 'Wo mehr (oder weniger) Ausgeben wirklich hilft',
@@ -115,6 +119,18 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         q: 'Ist Sri Lanka teuer fur Touristen?',
         a: 'Im sudasiatischen Vergleich mittel: lokales Essen und einfache Unterkunfte sind gunstig, Auslandereintritte, Privattransport und Strandhotels in der Hochsaison treiben die Summe. Ein klares Reiseangebot verhindert die meisten Preisschocks.',
+      },
+      {
+        q: 'Wie ist Euro Sri Lanka zum Rupie Kurs?',
+        a: 'Der Kurs sri lanka rupie euro andert sich. Heben Sie Rupien am Automaten ab oder wechseln Sie in Colombo. Wir sind Reiseveranstalter, keine Bank. Private Touren rechnen wir vorab klar.',
+      },
+      {
+        q: 'Kann ich Euro in Sri Lanka Rupien wechseln?',
+        a: 'Ja. Euro in sri lanka rupien wechseln Sie an Automaten, Banken oder Wechselstuben. 1 euro in sri lanka rupees today ist ein Bankkurs, den wir nicht live anzeigen. Sri lanka rupie in euro rechnen Sie in Ihrer Banking App.',
+      },
+      {
+        q: 'Was kosten urlaub sri lanka und sri lanka urlaub kosten?',
+        a: 'Urlaub sri lanka kosten hangen von Gruppe, Hotel und Saison ab. Wir nennen Fahrer, Auto und optionale sri lanka hotel Naechte klar. Kein Dumpingpreis aus einem Katalog.',
       },
       {
         q: 'Wie viel Bargeld sollte ich nach Sri Lanka mitnehmen?',
@@ -173,7 +189,7 @@ export const BUDGET_GUIDE: ArticleContent = {
       },
       {
         title: 'Especes, cartes et monnaie (roupie sri lankaise)',
-        body: 'La monnaie Sri Lanka est la roupie sri lankaise (LKR). Les distributeurs sont repandus en ville et zones touristiques ; villages plus petits et certains hotels ruraux preferent encore les roupies en liquide. Les cartes majeures marchent dans beaucoup d’hotels et grands restaurants, rarement dans les petites cantines et pour les pourboires.\n\nEmportez un mix especes/carte, gardez une petite reserve pour pourboires et dons aux temples, et evitez de changer de gros montants aux pires taux d’aeroport si vous pouvez attendre une banque ou un changeur serieux a Colombo ou Negombo.',
+        body: 'La monnaie Sri Lanka est la roupie sri lankaise (LKR). Les distributeurs sont repandus en ville et zones touristiques ; villages plus petits et certains hotels ruraux preferent encore les roupies en liquide. Les cartes majeures marchent dans beaucoup d’hotels et grands restaurants, rarement dans les petites cantines et pour les pourboires.\n\nSri lanka euro, euro sri lanka, euro to lkr, euro rupee sri lanka et euro to sri lanka rupee changent chaque jour. Voyage au sri lanka prix : nous chiffrons le circuit, pas un cours euro rate in sri lanka today. Emportez un mix especes/carte, gardez une petite reserve pour pourboires et dons aux temples, et evitez de changer de gros montants aux pires taux d’aeroport si vous pouvez attendre une banque ou un changeur serieux a Colombo ou Negombo.',
       },
       {
         title: 'Ou depenser plus (ou moins) aide vraiment',
@@ -200,6 +216,14 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         q: 'Quand les hotels sont ils les moins chers ?',
         a: 'Hors decembre to mars sur les cotes sud et ouest, et hors grandes fetes, les tarifs baissent. Le pic de la cote est differe alignez region balneaire et saison pour un meilleur rapport qualite prix.',
+      },
+      {
+        q: 'Quel est le cours euro sri lanka ?',
+        a: 'Sri lanka euro et euro sri lanka rupee varient chaque jour. Payez en LKR. Hotel sri lanka dans nos devis. Nous ne sommes pas un ticker euro to lkr.',
+      },
+      {
+        q: 'Combien coute un voyage au sri lanka ?',
+        a: 'Voyage au sri lanka prix depend des personnes, hotels et saison. Un circuit sri lanka prive avec chauffeur est souvent plus clair qu’un collage Booking plus taxis.',
       },
     ],
     ctaTitle: 'Obtenez un devis clair pour vos dates',
@@ -311,7 +335,7 @@ export const BUDGET_GUIDE: ArticleContent = {
       },
       {
         title: 'Efectivo, tarjetas y moneda (rupia de Sri Lanka)',
-        body: 'La moneda de Sri Lanka es la rupia (LKR). Hay cajeros en ciudades y zonas turisticas; pueblos pequenos y algunos hoteles rurales siguen prefiriendo efectivo en rupias. Las tarjetas principales funcionan en muchos hoteles y restaurantes grandes; en comedores pequenos y propinas, a menudo no.\n\nLleven mezcla de efectivo y tarjeta, una pequena reserva para propinas y donativos en templos, y eviten cambiar grandes sumas a los peores tipos del aeropuerto si pueden esperar a un banco o casa de cambio seria en Colombo o Negombo.',
+        body: 'La moneda de Sri Lanka es la rupia (LKR). Hay cajeros en ciudades y zonas turisticas; pueblos pequenos y algunos hoteles rurales siguen prefiriendo efectivo en rupias. Las tarjetas principales funcionan en muchos hoteles y restaurantes grandes; en comedores pequenos y propinas, a menudo no.\n\nRupia sri lanka euro y rupias sri lanka a euros cambian cada dia. Cotizamos el viaje a sri lanka, no un ticker. Lleven mezcla de efectivo y tarjeta, una pequena reserva para propinas y donativos en templos, y eviten cambiar grandes sumas a los peores tipos del aeropuerto si pueden esperar a un banco o casa de cambio seria en Colombo o Negombo.',
       },
       {
         title: 'Donde gastar mas (o menos) ayuda de verdad',
@@ -338,6 +362,10 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         q: 'Cuando estan mas baratos los hoteles?',
         a: 'Fuera de diciembre to marzo en las costas sur y oeste, y lejos de fiestas importantes, bajan las tarifas. El pico de la costa este es distinto alineen region de playa y temporada para mejor valor.',
+      },
+      {
+        q: 'Como va rupia sri lanka euro?',
+        a: 'Rupias sri lanka a euros y rupia sri lanka euro varian cada dia. Pagad en LKR. No publicamos un tipo en vivo.',
       },
     ],
     ctaTitle: 'Consigan un presupuesto claro para sus fechas',
@@ -449,7 +477,7 @@ export const BUDGET_GUIDE: ArticleContent = {
       },
       {
         title: 'Наличные, карты и практические советы',
-        body: 'Банкоматы распространены в городах и турзонах; в небольших деревнях и части сельских отелей по прежнему предпочитают наличные в рупиях. Крупные карты работают во многих отелях и больших ресторанах; в мелких едальнях и на чаевые часто нет.\n\nБерите смесь наличных и карты, держите небольшой запас на чаевые и пожертвования в храмах и не меняйте крупные суммы по худшим аэропортовым курсам, если можете подождать банк или надёжный обмен в Коломбо или Негомбо.',
+        body: 'Банкоматы есть в городах и турзонах; в деревнях часто ждут наличные рупии. Шри ланка валюта: ланкийская рупия (LKR). Курс рубля к рупии шри ланка, курс рупии шри ланка к рублю и рупия шри ланка к рублю это банковский курс, не наша страница и не живой тикер.\n\nБерите смесь наличных и карты. Не меняйте крупные суммы по худшему аэропортовому курсу, если можете подождать банк в Коломбо или Негомбо.',
       },
       {
         title: 'Где тратить больше (или меньше) действительно помогает',
@@ -476,6 +504,10 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         q: 'Когда отели на Шри Ланке дешевле всего?',
         a: 'Вне декабря–марта на юге и западе и вдали от крупных праздников тарифы мягче. Пик на восточном побережье другой стыкуйте пляжный регион с сезоном.',
+      },
+      {
+        q: 'Какой курс рубля к рупии шри ланка?',
+        a: 'Мы не публикуем курс. Шри ланка валюта это рупия; смотрите банк или карту в день обмена. Тур считаем в понятной смете, не в тикере форекс.',
       },
     ],
     ctaTitle: 'Получите прозрачную смету на ваши даты',
@@ -516,8 +548,8 @@ export const BUDGET_GUIDE: ArticleContent = {
         body: 'Auslandertickets fur Sigiriya, den Zahntempel, die Hohlen von Dambulla und grosse Nationalparks sind getrennt von Einheimischenpreisen und gehoren zu den spurbarsten Ausgaben einer Kultur- oder Wildtierreise. In Yala und ahnlichen Parks kommt zur Parkgebuhr oft noch die Jeepmiete.\n\nWalbeobachtung, Kochkurse, Sitzplatzreservierungen im Panoramazug und optionale Aktivitaten gehoren in Ihr Reisebudget, damit der Tagesdurchschnitt ehrlich bleibt.',
       },
       {
-        title: 'Bargeld, Karten und praktische Geldtipps',
-        body: 'Geldautomaten sind in Stadten und Touristenorten verbreitet; kleinere Dorfer und manche Landhotels bevorzugen weiterhin Bargeld in sri lankischen Rupien. Grosse Karten funktionieren in vielen Hotels und grosseren Restaurants, in kleinen Imbissen und bei Trinkgeld oft nicht.\n\nNehmen Sie eine Mischung aus Bargeld und Karte mit, halten Sie etwas Reserve fur Trinkgelder und Tempelspenden bereit, und wechseln Sie grosse Betrage moglichst nicht zu den schlechtesten Flughafen Kursen, wenn Sie auf eine Bank oder seriose Wechselstube in Colombo oder Negombo warten konnen.',
+        title: 'Bargeld, Karten und Euro Sri Lanka Rupie',
+        body: 'Suchen wie sri lanka euro, euro sri lanka rupie und euro sri lanka rupees wollen den groben Kurs, keinen Live Ticker. Zahlen Sie vor Ort in sri lankischen Rupien. Geldautomaten sind in Stadten verbreitet; kleinere Dorfer und manche Landhotels bevorzugen Bargeld.\n\nNehmen Sie Karte plus etwas Reserve fur Trinkgeld und Tempel. Grosse Betraege nicht zum schlechtesten Flughafen Kurs wechseln, wenn Sie auf Colombo oder Negombo warten konnen.',
       },
       {
         title: 'Wo mehr (oder weniger) Ausgeben wirklich hilft',
@@ -528,6 +560,18 @@ export const BUDGET_GUIDE: ArticleContent = {
       {
         q: 'Ist Sri Lanka teuer fur Touristen?',
         a: 'Im sudasiatischen Vergleich mittel: lokales Essen und einfache Unterkunfte sind gunstig, Auslandereintritte, Privattransport und Strandhotels in der Hochsaison treiben die Summe. Ein klares Reiseangebot verhindert die meisten Preisschocks.',
+      },
+      {
+        q: 'Wie ist Euro Sri Lanka zum Rupie Kurs?',
+        a: 'Der Kurs sri lanka rupie euro andert sich. Heben Sie Rupien am Automaten ab oder wechseln Sie in Colombo. Wir sind Reiseveranstalter, keine Bank. Private Touren rechnen wir vorab klar.',
+      },
+      {
+        q: 'Kann ich Euro in Sri Lanka Rupien wechseln?',
+        a: 'Ja. Euro in sri lanka rupien wechseln Sie an Automaten, Banken oder Wechselstuben. 1 euro in sri lanka rupees today ist ein Bankkurs, den wir nicht live anzeigen. Sri lanka rupie in euro rechnen Sie in Ihrer Banking App.',
+      },
+      {
+        q: 'Was kosten urlaub sri lanka und sri lanka urlaub kosten?',
+        a: 'Urlaub sri lanka kosten hangen von Gruppe, Hotel und Saison ab. Wir nennen Fahrer, Auto und optionale sri lanka hotel Naechte klar. Kein Dumpingpreis aus einem Katalog.',
       },
       {
         q: 'Wie viel Bargeld sollte ich nach Sri Lanka mitnehmen?',

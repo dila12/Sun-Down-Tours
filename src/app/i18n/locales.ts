@@ -35,14 +35,14 @@ export interface LocaleMeta {
 }
 
 export const LOCALE_META: Record<Locale, LocaleMeta> = {
-  en: { code: 'en', label: 'English', flag: 'gb', ogLocale: 'en_GB', htmlLang: 'en' },
-  de: { code: 'de', label: 'Deutsch', flag: 'de', ogLocale: 'de_DE', htmlLang: 'de' },
-  fr: { code: 'fr', label: 'Francais', flag: 'fr', ogLocale: 'fr_FR', htmlLang: 'fr' },
-  it: { code: 'it', label: 'Italiano', flag: 'it', ogLocale: 'it_IT', htmlLang: 'it' },
-  es: { code: 'es', label: 'Espanol', flag: 'es', ogLocale: 'es_ES', htmlLang: 'es' },
-  pl: { code: 'pl', label: 'Polski', flag: 'pl', ogLocale: 'pl_PL', htmlLang: 'pl' },
-  ru: { code: 'ru', label: 'Русский', flag: 'ru', ogLocale: 'ru_RU', htmlLang: 'ru' },
-  nl: { code: 'nl', label: 'Nederlands', flag: 'nl', ogLocale: 'nl_NL', htmlLang: 'nl' },
+  en: { code: 'en', label: 'English', flag: 'gb', ogLocale: 'en_GB', htmlLang: 'en-GB' },
+  de: { code: 'de', label: 'Deutsch', flag: 'de', ogLocale: 'de_DE', htmlLang: 'de-DE' },
+  fr: { code: 'fr', label: 'Francais', flag: 'fr', ogLocale: 'fr_FR', htmlLang: 'fr-FR' },
+  it: { code: 'it', label: 'Italiano', flag: 'it', ogLocale: 'it_IT', htmlLang: 'it-IT' },
+  es: { code: 'es', label: 'Espanol', flag: 'es', ogLocale: 'es_ES', htmlLang: 'es-ES' },
+  pl: { code: 'pl', label: 'Polski', flag: 'pl', ogLocale: 'pl_PL', htmlLang: 'pl-PL' },
+  ru: { code: 'ru', label: 'Русский', flag: 'ru', ogLocale: 'ru_RU', htmlLang: 'ru-RU' },
+  nl: { code: 'nl', label: 'Nederlands', flag: 'nl', ogLocale: 'nl_NL', htmlLang: 'nl-NL' },
 };
 
 export function isLocale(value: string | null | undefined): value is Locale {

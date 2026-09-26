@@ -78,8 +78,8 @@ export const FAMILY_TOURS_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Sri Lanka Familienreisen: Private Touren mit Kindern',
-    lead: 'Familienurlaub in Sri Lanka gelingt am besten mit einem privaten Fahrzeug, kurzeren Fahrtstrecken pro Tag und einer Mischung aus Wildlife, sanften Kulturstopps und Strandzeit. Wir planen rund um die Schulferien in Europa und das Alter Ihrer Kinder nicht nach einem starren Busfahrplan.',
+    h1: 'Sri Lanka mit Kindern: Private Familien Rundreise',
+    lead: 'Sri lanka mit kindern gelingt mit privatem Fahrzeug, kurzen Etappen, Wildlife, Kultur und Strand. Wir planen um Schulferien in Deutschland, nicht nach Busfahrplan.',
     heroAlt: 'Familienfreundliche private Sri Lanka Rundreise mit Wildlife und Strandzeit',
     sections: [
       {

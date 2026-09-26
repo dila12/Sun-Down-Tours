@@ -15,7 +15,7 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
       {
         id: 'who',
         title: 'Sri Lanka holidays from Germanyprivate, not a coach tour',
-        body: 'Sundown Tours is a Sri Lanka based operator. We do not sell airline tickets. We collect you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made round trip: Cultural Triangle, hill country, safari and beach.\n\nSearches such as “gunstige Fluge nach Sri Lanka” or “SriLankan Airlines” are shopping for seats. Searches such as “Sri Lanka Rundreise”, “Urlaub Sri Lanka” and “Rundreise 2 Wochen” are what we serve: independent travel with a local team since 1992.',
+        body: 'Sundown Tours is a Sri Lanka based operator. We do not sell airline tickets. We collect you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made round trip: Cultural Triangle, hill country, safari and beach.\n\nThe present name of Ceylon is Sri Lanka. Ceylon land, sri lanka ceylon and ceylon sri lanka are the same island. Ceylon tea and true cinnamon still use the historic name; we run tours, not a grocery shop.\n\nSearches such as “gunstige Fluge nach Sri Lanka” or “SriLankan Airlines” are shopping for seats. Searches such as “Sri Lanka Rundreise”, “Urlaub Sri Lanka” and “Rundreise 2 Wochen” are what we serve: independent travel with a local team since 1992.',
       },
       {
         id: 'flight',
@@ -51,6 +51,16 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
         id: 'maldives',
         title: 'Sri Lanka and the Maldives',
         body: 'A short Maldives add on is possible inside a double entry ETA window. It is a separate flight from CMB, not a road trip. We handle the Sri Lanka land portion; you book the island hop with an airline or Maldives operator.',
+      },
+      {
+        id: 'currency',
+        title: 'Euro, rupees and daily costs',
+        body: 'The currency is the Sri Lankan rupee (LKR). “Sri Lanka euro” and “euro sri lanka rupees” searches want a rough idea, not a live bank rate. Carry a card plus a modest cash buffer; ATMs in towns are common. We quote private tours clearly so you are not guessing the euro to rupee split for driver, hotels and park tickets.\n\nAirport exchange is often worse than a bank or reputable changer in Colombo or Negombo. We do not sell forex.',
+      },
+      {
+        id: 'language',
+        title: 'Language in Sri Lanka',
+        body: 'Sinhala and Tamil are official languages. English is widely used in tourism, hotels and with chauffeur guides. German speaking planning is available on WhatsApp before you fly; your driver guide on the road is typically English speaking unless booked otherwise.',
       },
     ],
     faq: [
@@ -102,14 +112,14 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
     ],
   },
   de: {
-    h1: 'Sri Lanka Rundreise aus Deutschland: Flugzeit, Einreise und private Urlaubsplanung',
+    h1: 'Sri Lanka Rundreise aus Deutschland: Tour, Einreise und Urlaub',
     lead:
-      'Wer in Deutschland nach Sri Lanka sucht, will zuerst wissen: Wie lange dauert der Flug ab Frankfurt, wann ist die beste Reisezeit, was gilt bei der Einreise  und wie wird daraus eine ruhige Rundreise statt einer Pauschalwoche im Resort. Dieser Ratgeber beantwortet das und erklart, wie eine private Chauffeur Rundreise nach der Landung in Colombo funktioniert.',
+      'Sri Lanka tour und sri lanka private tours aus Deutschland: Flugzeit, beste Reisezeit, Einreise, Euro Rupie, Uhrzeit und wie daraus eine ruhige Rundreise wird. Keine Flugtickets, keine Hubschrauber Touren.',
     heroAlt: 'Private Sri Lanka Rundreise mit Fahrer Guide fur Reisende aus Deutschland',
     sections: [
       {
         title: 'Sri Lanka Urlaub aus Deutschland  privat, kein Reisebus',
-        body: 'Sundown Tours ist ein Veranstalter mit Sitz in Sri Lanka. Wir verkaufen keine Flugtickets. Wir holen Sie am Flughafen Colombo (CMB) mit einem lizenzierten Fahrer Guide ab und fuhren eine massgeschneiderte Rundreise: Kulturdreieck, Bergland, Safari und Strand.\n\nSuchen wie „gunstige Fluge nach Sri Lanka“ oder „SriLankan Airlines“ gelten dem Ticket. Suchen wie „Sri Lanka Rundreise“, „Urlaub Sri Lanka“, „Sri Lanka Reise“ und „Rundreise 2 Wochen“ sind unser Feld: unabhangiges Reisen mit lokalem Team seit 1992.',
+        body: 'Sundown Tours ist ein Veranstalter mit Sitz in Sri Lanka. Wir verkaufen keine Flugtickets. Wir holen Sie am Flughafen Colombo (CMB) mit einem lizenzierten Fahrer Guide ab und fuhren eine massgeschneiderte Rundreise: Kulturdreieck, Bergland, Safari und Strand.\n\nHeutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka meinen dieselbe Insel. Ceylon tee und ceylon zimt tragen den alten Namen; wir fahren Touren, kein Gewurzshop.\n\nSuchen wie „gunstige Fluge nach Sri Lanka“ oder „SriLankan Airlines“ gelten dem Ticket. Suchen wie „Sri Lanka Rundreise“, „Urlaub Sri Lanka“, „Sri Lanka Reise“ und „Rundreise 2 Wochen“ sind unser Feld: unabhangiges Reisen mit lokalem Team seit 1992.',
       },
       {
         title: 'Flugzeit Frankfurt to Sri Lanka und Direktflug',
@@ -124,7 +134,7 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
         body: 'Deutsche Staatsangehorige benotigen vor dem Boarding eine Electronic Travel Authorisation (ETA). Ab 25. Mai 2026 ist die Touristen ETA fur 40 gelistete Lander  darunter Deutschland  30 Tage mit Doppeleinreise kostenlos. Den Antrag stellen Sie trotzdem vorab auf eta.gov.lk. Kostenlos heisst nicht: ohne Antrag einreisen.\n\nRechnen Sie mit rund sechs Monaten Passgultigkeit und einem Nachweis fur die Weiter- oder Ruckreise. Nur die offizielle Seite nutzen. Details zu Verlangerungen und Fake Visa Seiten stehen in unserem Visum Ratgeber.',
       },
       {
-        title: 'Beste Reisezeit, Wetter und Regenzeit',
+        title: 'Beste Reisezeit, Wetter Sri Lanka und Regenzeit',
         body: 'Es gibt keinen einzigen besten Monat. Dezember bis Marz ist Hochsaison fur West und Sudkuste (Bentota, Mirissa, Weligama, Galle). Mai bis September begunstigt oft die Ostkuste (Trincomalee, Arugam Bay) und eignet sich gut furs Kulturdreieck sowie Trockenzeit Safaris in Yala oder Udawalawe.\n\nDer Sudwestmonsun (etwa Mai to September) ist die Regenzeit, die die meisten mit Colombo, Galle und der Sudwestkuste meinen. Der Nordostmonsun trifft die Ostkuste spater im Jahr. Eine private Route fuhrt Sie zur jeweils trockeneren Kuste.\n\nSri Lanka hat UTC+5:30  4,5 Stunden vor Deutschland im Winter, 3,5 Stunden wahrend der mitteleuropaischen Sommerzeit (Zeitverschiebung).',
       },
       {
@@ -139,11 +149,27 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
         title: 'Sri Lanka und Malediven',
         body: 'Ein kurzer Malediven Anschluss ist im Fenster einer Doppeleinreise ETA moglich. Das ist ein separater Flug ab CMB, keine Autofahrt. Wir organisieren den Landteil in Sri Lanka; den Inselhop buchen Sie bei der Airline oder einem Malediven Veranstalter.',
       },
+      {
+        title: 'Euro Sri Lanka, Rupie und Reisekosten',
+        body: 'Die Wahrung ist die sri lankische Rupie (LKR). Suchen wie sri lanka euro, euro sri lanka, euro in sri lanka und sri lanka rupie euro meinen einen groben Uberblick, keinen Live Bankkurs. Karte plus etwas Bargeld reicht; Geldautomaten gibt es in den Stadten. Private Rundreisen rechnen wir klar, damit Fahrer, Hotels und Parktickets nicht im Kursdschungel verschwinden.\n\nAm Flughafen wechseln Sie oft schlechter als in Colombo oder Negombo. Devisen verkaufen wir nicht.',
+      },
+      {
+        title: 'Sprache Sri Lanka und Uhrzeit Sri Lanka',
+        body: 'Sprache Sri Lanka: Singhalesisch und Tamilisch sind Amtssprachen. Im Tourismus spricht man Englisch. Planung auf Deutsch machen wir per WhatsApp vor dem Flug; der Fahrer Guide vor Ort spricht in der Regel Englisch, andere Sprachen auf Anfrage.\n\nUhrzeit Sri Lanka (sri lanka time): UTC+5:30. Das sind 4,5 Stunden Vorsprung gegenuber Deutschland im Winter und 3,5 Stunden in der Sommerzeit.',
+      },
     ],
     faq: [
       {
         q: 'Wie lange dauert der Flug von Frankfurt nach Sri Lanka?',
         a: 'In der Luft typischerweise etwa 9,5 to 11 Stunden, plus Umsteigezeit. Ob ein Direktflug an Ihren Daten existiert, sagt der aktuelle Airline Flugplan. Wir legen die erste Nacht um Ihre echte Ankunft.',
+      },
+      {
+        q: 'Wie lange fliegt man nach Sri Lanka?',
+        a: 'Wie lange fliegt man nach sri lanka hangt vom Umsteigen ab. Frankfurt to Colombo oft 9,5 bis 11 Stunden in der Luft. Flug nach sri lanka und sri lanka airlines Tickets kaufen Sie bei der Airline. Wir holen Sie am Flughafen ab.',
+      },
+      {
+        q: 'Wie spat ist es in Sri Lanka?',
+        a: 'Wie spat ist es in sri lanka: UTC+5:30 (time in sri lanka, sri lanka time). 4,5 Stunden vor Deutschland im Winter, 3,5 Stunden in der Sommerzeit.',
       },
       {
         q: 'Gibt es einen Direktflug von Deutschland nach Sri Lanka?',
@@ -158,12 +184,40 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
         a: 'Sieben Tage decken die Klassiker ab. Zehn bis vierzehn Tage (zwei Wochen Urlaub inkl. Flug) sind entspannter fur Teeland, eine zweite Safari und richtigen Strand.',
       },
       {
+        q: 'Was ist eine rundreise sri lanka 2 wochen?',
+        a: 'Sri lanka rundreise 2 wochen vor Ort: Kulturdreieck, Ella, Safari und rundreise sri lanka und baden an der Kuste. Flugzeit sri lanka extra einplanen, Tickets kaufen Sie selbst.',
+      },
+      {
+        q: 'Ist das urlaub sri lanka all inclusive?',
+        a: 'Sri lanka all inclusive im Katalog Sinne ist Resort. Wir machen private sri lanka pauschalreise mit Fahrer und Hotels, oft Halbpension, plus Strandnachte. Kein TUI, kein Check24.',
+      },
+      {
         q: 'Ist Sri Lanka sicher fur Reisende aus Deutschland?',
         a: 'Ja auf den Standardrouten bei seriosem Transport und ublicher Vorsicht. Ein lizenzierter Fahrer Guide ist fur die meisten Gaste aus DE, AT und CH die ubliche Losung. Aktuelle Lage: Auswartiges Amt.',
       },
       {
         q: 'Welche Uhrzeit hat Sri Lanka / wie gross ist die Zeitverschiebung?',
-        a: 'Sri Lanka liegt in UTC+5:30. Das sind 4,5 Stunden Vorsprung gegenuber Deutschland im Winter und 3,5 Stunden wahrend der Sommerzeit.',
+        a: 'Uhrzeit Sri Lanka liegt in UTC+5:30. Das sind 4,5 Stunden Vorsprung gegenuber Deutschland im Winter und 3,5 Stunden wahrend der Sommerzeit (sri lanka time).',
+      },
+      {
+        q: 'Wie ist der Euro Kurs in Sri Lanka?',
+        a: 'Sri Lanka euro und euro sri lanka rupees andern sich taglich. Zahlen Sie vor Ort in Rupien. Wir nennen Rundreise Preise klar in einer vereinbarten Wahrung, sind aber keine Wechselstube.',
+      },
+      {
+        q: 'Welche Sprache spricht man in Sri Lanka?',
+        a: 'Welche sprache spricht man in sri lanka: Singhalesisch und Tamilisch offiziell, Englisch im Tourismus. Deutsch per WhatsApp vor der Reise.',
+      },
+      {
+        q: 'Kann ich Euro in Sri Lanka Rupien wechseln?',
+        a: 'Euro in sri lanka rupien wechseln: ja, in Rupien vor Ort. 1 euro in sri lanka rupees und wechselkurs euro sri lanka rupie andern sich taglich. Wir sind keine Wechselstube und kein Live Ticker.',
+      },
+      {
+        q: 'Wie lautet der heutige Name von Ceylon?',
+        a: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land und sri lanka ceylon sind dieselbe Insel. Im Kreuzwortratsel oft acht Buchstaben ohne Leerzeichen: SRILANKA. Wir planen Urlaub dort, keine Bank of Ceylon Konten und keine Restaurants in Deutschland.',
+      },
+      {
+        q: 'Kann ich Ceylon Tee und Zimt auf der Rundreise sehen?',
+        a: 'Ja: ceylon tee in den Bergen, ceylon zimt im Gewurzgarten. Ceylon zimt unterschied zu cassia zimt erklart der Guide vor Ort. Wir verkaufen keinen zimt kaufen Versand nach Deutschland.',
       },
     ],
     ctaTitle: 'Private Sri Lanka Rundreise aus Deutschland planen',
@@ -194,6 +248,7 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
       { pageId: 'guideFamilyTours', label: 'Mit Kindern' },
       { pageId: 'guideAirportTransfers', label: 'Flughafentransfer' },
       { pageId: 'guideBeaches', label: 'Strande' },
+      { pageId: 'guideBudget', label: 'Euro und Rupie' },
     ],
   },
 };

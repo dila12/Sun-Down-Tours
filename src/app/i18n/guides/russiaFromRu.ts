@@ -15,12 +15,12 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
       {
         id: 'who',
         title: 'Sri Lanka tours from Russialocal operator, not a hotel brand or airline',
-        body: 'Sundown Tours is a Sri Lanka travel agency and tour operator based on the island since 1992. We do not sell flights (SriLankan Airlines, Air Arabia, Google Flights, cheap tickets to Qatar) and we are not RIU, Centara Ceysands, Heritance Ahungalla, Anantara, Marriott Weligama, Sheraton Kosgoda, Radisson Blu Galle, Club Bentota, Cinnamon Bey, Taj Bentota or Jungle Beach.\n\nSearches such as “sri lanka flights” and “sri lanka air” are shopping for seats. Searches such as “sri lanka tours”, “tour packages”, “guided tours”, “travel agents in sri lanka” and “car rental with driver” are what we organise: a licensed chauffeur guide from CMB, hotels chosen for your dates, Cultural Triangle, safari and beach. Luxury west coast resorts can be the beach nights of that circuit if you want themwe book rooms as part of a private itinerary, we do not run a hotel website. We do not operate helicopter tours.',
+        body: 'Sundown Tours is a Sri Lanka travel agency based on the island since 1992. We do not sell flights (Aeroflot, SriLankan Airlines) and we are not Travelata, Tourvisor or RIU. We organise private tours: chauffeur from CMB, Cultural Triangle, safari and beach.\n\nWhere is Sri Lanka: an island country in the Indian Ocean, south of India. English name: Sri Lanka. Capital: Sri Jayawardenepura Kotte; travellers land in Colombo.',
       },
       {
         id: 'flight',
         title: 'Flights from Russia to Sri Lankaduration only',
-        body: 'Typical air time from Moscow is about 8 to 12 hours plus a Gulf or Istanbul connection (Dubai, Doha, Abu Dhabi appear in search because they are common hubs). Direct options change with season and airline; we do not quote airfares.\n\nOnce you have PNR and landing time at Colombo (CMB), we quote the ground tour package and plan the first hotel nightNegombo if you arrive late, Colombo city if you want a short urban stop.',
+        body: 'Typical air time from Moscow is about 8 to 12 hours plus a connection. Same for Krasnoyarsk or Novosibirsk with extra legs. We do not sell Aeroflot tickets.\n\nOnce you have landing time at Colombo (CMB), we quote the ground package and first hotel night.',
       },
       {
         id: 'airport',
@@ -40,7 +40,7 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
       {
         id: 'whatToDo',
         title: 'Things to do: Lion Rock, Yala, beaches, Maldives add on',
-        body: 'A first visit typically includes Sigiriya Lion Rock, Kandy, the tea country train to Ella, a jeep safari at Yala (or Udawalawe), and a beach finish at Negombo, Hikkaduwa, Bentota, Mirissa, Weligama or Galle. Seven days covers the highlights. Ten days is calmer.\n\nSri Lanka to Maldives is a separate flight from CMB, not a driving day. Adventure days (train, safari, rock climb) sit inside the same private circuitwe are not a heli tour company.',
+        body: 'A first visit typically includes Sigiriya Lion Rock, Kandy, the tea country train to Ella, a jeep safari at Yala, and a beach finish at Negombo, Hikkaduwa, Unawatuna, Mirissa, Weligama or Galle. Seven days covers the highlights.\n\nSri Lanka time is UTC+5:30. Weather has two monsoons. Maldives is a separate flight from CMB. We are not a news site about default or emergencies.',
       },
     ],
     faq: [
@@ -89,18 +89,18 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
     ],
   },
   ru: {
-    h1: 'Туры на Шри Ланку из России: пакеты, аэропорт Коломбо и водитель',
+    h1: 'Туры шри ланка из России: отдых, виза и частный водитель',
     lead:
-      'Запросы «Шри Ланка», sri lanka tours и tour packages обычно означают частный объезд острова после Коломбоне билеты SriLankan Airlines, не RIU Ahungalla и не вертолёт. Эта страница: аэропорт CMB, ETA и arrival card, авто с водителем, Львиная скала, сафари, пляжи (Хиккадува, Мирисса, Негомбо) и как мы считаем пакет на земле.',
+      'Туры шри ланка, шри ланка туры, шри ланка тур и отдых шри ланка обычно значат частный объезд острова после Коломбо, не шри ланка билеты и не отель RIU. Пишем шри ланка через пробел (не через дефис). Эта страница: погода, сезон, виза, время шри ланка, аэропорт CMB, водитель, что посмотреть и первая ночь в коломбо шри ланка.'
     heroAlt: 'Частный тур по Шри Ланке с водителем гидом для путешественников из России',
     sections: [
       {
         title: 'Туры Шри Ланка из Россииместный оператор, не отель и не авиакомпания',
-        body: 'Sundown Toursтурагентство и туроператор на Шри Ланке с 1992 года. Мы не продаём авиабилеты (SriLankan Airlines, Air Arabia, Google Flights, cheap flights) и не являемся RIU, Centara Ceysands, Heritance Ahungalla, Anantara, Marriott Weligama, Sheraton Kosgoda, Radisson Blu Galle, Club Bentota, Cinnamon Bey, Taj Bentota или Jungle Beach.\n\n«Sri lanka flights» и «sri lanka air»это поиск кресла в самолёте. «Sri lanka tours», «tour packages», «guided tours», «travel agents in sri lanka» и «car rental with driver»то, что мы организуем: лицензированный водитель гид от CMB, отели под ваши даты, Культурный треугольник, сафари и пляж. Люксовые курорты запада можно взять как пляжные ночи этого маршрутамы бронируем номера внутри частного тура, это не сайт сети отелей. Вертолётные туры не проводим.',
+        body: 'Sundown Toursтуроператор на острове с 1992 года. Мы не продаём шри ланка билеты, аэрофлот шри ланка и москва шри ланка билеты. Мы не Travelata, не Турвизор и не RIU. Туры шри ланка, шри ланка туры, шри ланка тур и тур шри ланка это частный маршрут с водителем: встреча в CMB, культура, сафари, пляж.\n\nШри ланка где и шри ланка это какая страна: остров шри ланка в Индийском океане, южнее Индии. Шри ланка на английском: Sri Lanka. Шриланка без пробела то же место. Столица шри ланка / шри ланка столица / столица шри ланки: административно Шри Джаяварденепура Котте; вы садитесь в коломбо шри ланка.',
       },
       {
         title: 'Перелёт из России на Шри Ланку: только длительность',
-        body: 'Из Москвы в воздухе обычно около 8 to 12 часов плюс стыковка в Заливе или Стамбуле (Дубай, Доха, Абу Даби в трендах, потому что это типовые хабы). Прямые рейсы зависят от сезона и авиакомпании; цены билетов не публикуем.\n\nКогда есть PNR и время посадки в Коломбо (CMB), считаем наземный пакет и первую ночь: Негомбо при позднем прилёте, город Коломбоесли нужна короткая городская остановка.',
+        body: 'Москва шри ланка и шри ланка сколько лететь: в воздухе обычно 8–12 часов плюс стыковка. Шри ланка из красноярска и новосибирск шри ланка те же стыковки, дольше по общему времени. Шри ланка самолет аэрофлота и аэрофлот шри ланка билеты не продаём.\n\nКогда есть время посадки в коломбо шри ланка (CMB), считаем наземный тур и первую ночь. Аэропорт шри ланка / шри ланка аэропорт: Катунаяке, не центр города.',
       },
       {
         title: 'Аэропорт Шри Ланки и Коломбо',
@@ -108,7 +108,7 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
       },
       {
         title: 'ETA, arrival card и российский паспорт',
-        body: 'Гражданам России нужна Electronic Travel Authorisation (ETA) до посадки. С 25 мая 2026 туристическая ETA бесплатна для 40 стран, включая Россию, на 30 дней с двойным въездомзаявку всё равно подаёте заранее только на eta.gov.lk.\n\nArrival card не заменяет ETA. Иммиграция может собрать данные прибытия по официальной процедуре. Паспорт примерно с шестью месяцами срока.',
+        body: 'Гражданам России нужна ETA до посадки. Шри ланка виза, виза шри ланка, виза шри ланка для россиян и шри ланка правила въезда: заявка на eta.gov.lk. С 25 мая 2026 туристическая ETA для России часто бесплатна 30 дней с двойным въездом, заявку всё равно подаёте заранее.\n\nArrival card не заменяет ETA. Мы не пишем шри ланка новости, не про дефолт и не про чрезвычайное положение.',
       },
       {
         title: 'Аренда авто с водителемне self drive',
@@ -116,13 +116,33 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
       },
       {
         title: 'Что посмотреть: Львиная скала, Яла, пляжи, Мальдивы',
-        body: 'Первая поездка обычно включает Львиную скалу Сигирии, Канди, чайный поезд до Эллы, джип сафари в Яле (или Удавалаве) и пляж: Негомбо, Хиккадува, Бентота, Мирисса, Велигама или Галле. Семь дней закрывают главное. Десять спокойнее.\n\nШри Ланка и Мальдивыотдельный перелёт из CMB, не день на машине. Приключения (поезд, сафари, скала) внутри того же частного маршрута; вертолёты не предлагаем.',
+        body: 'Шри ланка что посмотреть и экскурсии шри ланка: Сигирия, Канди, поезд шри ланка до Эллы, сафари Яла, пляж. Шри ланка море и шри ланка отдых: Негомбо, Хиккадува, унаватуна шри ланка, Мирисса, Галле. Семь дней закрывают главное.\n\nШри ланка на карте, шри ланка карта, шри ланка какой океан и шри ланка океан: Индийский океан, остров южнее Индии. Мальдивы отдельный рейс из CMB. Шри ланка отели бронируем внутри тура, не каталог.',
       },
     ],
     faq: [
       {
         q: 'Сколько лететь из Москвы на Шри Ланку?',
-        a: 'Обычно около 8 to 12 часов в воздухе плюс стыковка. Билеты не продаём; первую ночь подгоняем под реальное прибытие в CMB.',
+        a: 'Обычно около 8–12 часов в воздухе плюс стыковка. Шри ланка билеты и аэрофлот шри ланка не продаём; первую ночь подгоняем под прибытие в CMB.',
+      },
+      {
+        q: 'Какая погода и когда сезон шри ланка?',
+        a: 'Шри ланка погода и погода шри ланка зависят от побережья: два муссона. Сезон шри ланка / шри ланка сезон / когда лучше ехать: запад и юг обычно декабрь–апрель; восток май–сентябрь. Шри ланка летом и шри ланка в июле чаще восток, культура и сафари, не южный пляж. Подробнее в гиде по месяцам.',
+      },
+      {
+        q: 'Какое время шри ланка и часовой пояс?',
+        a: 'Время шри ланка / шри ланка время / шри ланка время сейчас: UTC+5:30 круглый год, без летнего перевода. Шри ланка часовой пояс один на весь остров. Москва обычно на 2,5 часа «назад» зимой (проверьте свой регион РФ).',
+      },
+      {
+        q: 'Нужна ли шри ланка виза для россиян?',
+        a: 'Да. Виза шри ланка и шри ланка правила въезда: ETA на eta.gov.lk до посадки. Arrival card её не заменяет.',
+      },
+      {
+        q: 'Шри ланка где, какая страна и какой океан?',
+        a: 'Остров шри ланка в Индийском океане, южнее Индии. Шри ланка на карте / шри ланка карта: каплевидный остров у южной оконечности Индии. Шри ланка на английском: Sri Lanka. Шриланка без пробела то же место.',
+      },
+      {
+        q: 'Курс рубля к рупии шри ланка: вы меняете валюту?',
+        a: 'Нет. Валюта острова это ланкийская рупия (LKR). Курс рупии шри ланка к рублю смотрите в банке; мы не обменник. На земле удобнее рупии и карта, не живой тикер.',
       },
       {
         q: 'Продаёте ли вы пакеты RIU, Marriott или Heritance?',

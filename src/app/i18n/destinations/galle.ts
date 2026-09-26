@@ -93,7 +93,7 @@ export const GALLE_DEST: ArticleContent = {
   },
 
   de: {
-    h1: 'Galle, Sri Lanka: eine befestigte Kolonialstadt an der Sudkuste',
+    h1: 'Galle Sri Lanka: eine befestigte Kolonialstadt an der Sudkuste',
     lead: 'Hinter Wallen, die die Niederlander auf portugiesischen Fundamenten errichteten, ist Galle Fort eine lebendige UNESCO Welterbestadt  Kopfsteinpflastergassen, koloniale Villen als Boutique Hotels und ein aktiver Leuchtturm, der Schiffe noch immer an demselben Riff vorbeileitet, das diese Kuste seit Jahrhunderten pragt.',
     heroAlt: 'Die Walle und der Leuchtturm von Galle Fort mit Blick auf den Indischen Ozean',
     sections: [
@@ -484,7 +484,7 @@ export const GALLE_DEST: ArticleContent = {
 
   ru: {
     h1: 'Галле, Шри Ланка: укреплённый колониальный город на южном побережье',
-    lead: 'За стенами, возведёнными голландцами на португальском фундаменте, форт Галле живой город из списка Всемирного наследия ЮНЕСКО: мощёные улочки, колониальные виллы, превращённые в бутик отели, и действующий маяк, до сих пор проводящий суда мимо того же рифа, который формирует это побережье веками.',
+    lead: 'За стенами форта Галле живой город ЮНЕСКО. Рядом унаватуна шри ланка: защищённая бухта для шри ланка море после экскурсии по форту.',
     heroAlt: 'Стены и маяк форта Галле над Индийским океаном',
     sections: [
       {
@@ -535,7 +535,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         q: 'Можно ли совместить Галле с пляжным отдыхом на южном побережье?',
-        a: 'Да Унавату и Мирисса находятся менее часа езды, поэтому утро в форте Галле с последующим пляжным днём обычное и простое сочетание в маршрутах южного побережья.',
+        a: 'Да. Унаватуна шри ланка и Мирисса менее часа езды. Утро в форте и день на шри ланка море обычное сочетание. Шри ланка унаватуна и унаватуна это одна бухта у Галле.',
       },
       {
         q: 'Является ли форт Галле хорошей базой для изучения южного побережья?',
@@ -560,7 +560,7 @@ export const GALLE_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Galle, Sri Lanka: eine befestigte Kolonialstadt an der Sudkuste',
+    h1: 'Galle Sri Lanka: eine befestigte Kolonialstadt an der Sudkuste',
     lead: 'Hinter Wallen, die die Niederlander auf portugiesischen Fundamenten errichteten, ist Galle Fort eine lebendige UNESCO Welterbestadt  Kopfsteinpflastergassen, koloniale Villen als Boutique Hotels und ein aktiver Leuchtturm, der Schiffe noch immer an demselben Riff vorbeileitet, das diese Kuste seit Jahrhunderten pragt.',
     heroAlt: 'Die Walle und der Leuchtturm von Galle Fort mit Blick auf den Indischen Ozean',
     sections: [

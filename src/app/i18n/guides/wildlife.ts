@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const WILDLIFE_GUIDE: ArticleContent = {
   en: {
-    h1: 'Sri Lanka Wildlife Guide: Elephants, Leopards, Whales and Where to See Them',
+    h1: 'Sri Lanka Wildlife Tours: Elephants, Leopards, Whales and Where to See Them',
     lead: 'For an island roughly the size of Ireland, Sri Lanka packs an extraordinary density of wildlife Asian elephants in open grasslands, leopards in dry forest, blue whales off the south coast and endemic birds in rainforest pockets. The trick is matching species to the right park and season, not trying to see everything in one rushed morning.',
     heroImage: 'assets/img/5daysTours/45.webp',
     heroAlt: 'Wild elephants grazing in a Sri Lankan national park',

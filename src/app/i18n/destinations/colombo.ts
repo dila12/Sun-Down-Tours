@@ -316,7 +316,7 @@ export const COLOMBO_DEST: ArticleContent = {
     sections: [
       {
         title: 'Аэропорт Шри Ланки и город Коломбо',
-        body: 'CMB в Катунаяке, не в центре. Негомбо20 to 40 минут от терминала и подходит для поздних прилётов из Москвы. Город Коломбо обычно 45 to 90 минут. Путать «sri lanka airport» с центромтипичная ошибка первой ночи.',
+        body: 'CMB в Катунаяке, не в центре. Коломбо шри ланка и шри ланка коломбо: коммерческие ворота. Аэропорт шри ланка / шри ланка аэропорт это Бандаранайке, не Котте. Негомбо 20–40 минут от терминала после Москвы.',
       },
       {
         title: 'Что успеть за день в Коломбо',
@@ -326,7 +326,7 @@ export const COLOMBO_DEST: ArticleContent = {
     faq: [
       {
         q: 'Какая столица Шри Ланки?',
-        a: 'Шри Джаяварденепура Коттеадминистративная столица. Коломбо остаётся городом прилёта международных рейсов и деловым центром.',
+        a: 'Шри Джаяварденепура Котте административная столица шри ланка / шри ланка столица / столица шри ланки. Коломбо остаётся городом прилёта и деловым центром. На карте оба рядом на западном берегу.',
       },
     ],
     ctaTitle: 'Начать или закончить в Коломбо с частным водителем',
@@ -345,6 +345,45 @@ export const COLOMBO_DEST: ArticleContent = {
       { pageId: 'guideAirportTransfers', label: 'Трансфер из аэропорта' },
       { pageId: 'marketRussia', label: 'Туры из России' },
       { pageId: 'guideVisa', label: 'Виза / ETA' },
+    ],
+  },
+  nl: {
+    h1: 'Colombo sri lanka: luchthaven CMB, stad en eerste nacht',
+    lead:
+      'Bijna alle vluchten vanuit Nederland landen in Colombo. Luchthaven colombo (CMB) ligt in Katunayake, niet in het centrum. Een nacht of een dag in de stad volstaat voor een prive rondreis.',
+    heroAlt: 'Colombo en de Indische Oceaan, Sri Lanka',
+    sections: [
+      {
+        title: 'Luchthaven sri lanka versus Colombo stad',
+        body: 'CMB ligt in Katunayake. Negombo is 20 tot 40 minuten van de terminal na een late landing. Colombo stad is meestal 45 tot 90 minuten. Verwissel luchthaven colombo niet met het stadscentrum.',
+      },
+      {
+        title: 'Wat te doen in een dag in Colombo',
+        body: 'Een prive ronde kan Galle Face Green, het nationale museum, Gangaramaya, Pettah (met gids) en Fort omvatten. Na een nachtvlucht is een rustig hotel vaak beter dan een volle museumdag.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Waar is de luchthaven sri lanka ten opzichte van Colombo?',
+        a: 'In Katunayake. Negombo is dichterbij CMB dan het centrum.',
+      },
+    ],
+    ctaTitle: 'Begin of eindig in Colombo met prive chauffeur',
+    ctaBody: 'Wij regelen ophalen in CMB, een zinnige eerste nacht en vertrek naar de Culturele Driehoek of de kust.',
+    ctaLabel: 'Transfer plannen',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis 7 dagen' },
+      { pageId: 'tour5', label: 'Rondreis 5 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destNegombo', label: 'Negombo' },
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideAirportTransfers', label: 'Luchthaven transfer' },
+      { pageId: 'marketNetherlands', label: 'Vakantie vanuit Nederland' },
+      { pageId: 'guideVisa', label: 'Visum / ETA' },
     ],
   },
 };

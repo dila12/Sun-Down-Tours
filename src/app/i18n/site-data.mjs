@@ -15,10 +15,9 @@ export const BASE_URL = 'https://www.sundowntours.com';
 export const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pl', 'ru', 'nl'];
 
 /**
- * Locales emitted in sitemaps and hreflang. Dutch stays out until professionally
- * translated (pages remain reachable but noindexsee SeoService).
+ * Locales emitted in sitemaps, hreflang and index,follow robots.
  */
-export const INDEXABLE_LOCALES = LOCALES.filter((l) => l !== 'nl');
+export const INDEXABLE_LOCALES = LOCALES;
 
 export const DEFAULT_LOCALE = 'en';
 
@@ -64,14 +63,14 @@ export const DORMANT_LOCALE_PREFIXES = ISO_639_1.filter((code) => !LIVE_PREFIXES
 
 /** hreflang codes emitted in alternate links (identity map for now). */
 export const HREFLANG = {
-  en: 'en',
-  de: 'de',
-  fr: 'fr',
-  it: 'it',
-  es: 'es',
-  pl: 'pl',
-  ru: 'ru',
-  nl: 'nl',
+  en: 'en-GB',
+  de: 'de-DE',
+  fr: 'fr-FR',
+  it: 'it-IT',
+  es: 'es-ES',
+  pl: 'pl-PL',
+  ru: 'ru-RU',
+  nl: 'nl-NL',
 };
 
 /** Helper: same slug across every locale (only the language prefix differs). */
@@ -560,7 +559,7 @@ export const PAGES = [
     id: 'destColombo',
     kind: 'destination',
     index: true,
-    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru', 'nl'],
     priority: 0.85,
     changefreq: 'monthly',
     slugs: {
@@ -578,7 +577,7 @@ export const PAGES = [
     id: 'destNegombo',
     kind: 'destination',
     index: true,
-    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru', 'nl'],
     priority: 0.82,
     changefreq: 'monthly',
     slugs: {
@@ -596,7 +595,7 @@ export const PAGES = [
     id: 'destBentota',
     kind: 'destination',
     index: true,
-    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru', 'nl'],
     priority: 0.82,
     changefreq: 'monthly',
     slugs: {
@@ -649,7 +648,7 @@ export const PAGES = [
     id: 'destWeligama',
     kind: 'destination',
     index: true,
-    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru', 'nl'],
     priority: 0.84,
     changefreq: 'monthly',
     slugs: {
@@ -718,7 +717,7 @@ export const PAGES = [
     id: 'destTrincomalee',
     kind: 'destination',
     index: true,
-    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru'],
+    indexLocales: ['en', 'de', 'fr', 'es', 'pl', 'it', 'ru', 'nl'],
     priority: 0.82,
     changefreq: 'monthly',
     slugs: {
@@ -1177,8 +1176,9 @@ export const PAGES = [
   {
     id: 'marketNetherlands',
     kind: 'guide',
-    index: false,
-    priority: 0.5,
+    index: true,
+    indexLocales: ['en', 'nl'],
+    priority: 0.92,
     changefreq: 'monthly',
     slugs: {
       en: 'travel-guides/sri-lanka-tours-from-netherlands',

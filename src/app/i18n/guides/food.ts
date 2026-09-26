@@ -6,7 +6,7 @@ import type { ArticleContent } from '../articles/types';
  */
 export const FOOD_GUIDE: ArticleContent = {
   en: {
-    h1: 'Sri Lanka Food Guide: What to Eat, Where to Try It and How to Order',
+    h1: 'Sri Lanka Food Tours and What to Eat on a Private Holiday',
     lead: 'Sri Lankan cuisine is built around rice, coconut, spice and the sea from a simple rice and curry lunch to late night kottu on a Colombo street corner. Knowing a few dishes, how heat is handled and where hygiene matters most helps you eat confidently without missing the island’s best flavours.',
     heroImage: 'assets/img/5daysTours/9.webp',
     heroAlt: 'Colourful Sri Lankan rice and curry spread with sambols and side dishes',
@@ -39,7 +39,7 @@ export const FOOD_GUIDE: ArticleContent = {
       {
         id: 'drinksAndHygiene',
         title: 'What to drink and practical hygiene tips',
-        body: 'King coconut (thambili) sold from roadside stalls is a safe, refreshing choice when the vendor cuts it fresh in front of you. Ceylon tea needs no introduction drink it plain, with milk or as iced tea in the heat. Lion beer and arrack (coconut spirit) are local staples; bottled water should be your default for drinking and brushing teeth outside upscale hotels.\n\nEat cooked food hot where possible, peel fruit yourself and use hand sanitiser before short eats. Upscale hotels and established restaurants in tourist towns generally meet international hygiene standards; on long driving days, your chauffeur guide often knows dependable lunch stops that balance authenticity with cleanliness.',
+        body: 'King coconut (thambili) sold from roadside stalls is a safe, refreshing choice when the vendor cuts it fresh in front of you. Ceylon tea needs no introduction drink it plain, with milk or as iced tea in the heat. Lion beer and arrack (coconut spirit) are local staples; bottled water should be your default for drinking and brushing teeth outside upscale hotels.\n\nCeylon curry here means rice and curry on the island, not a takeaway in a German city. Spice gardens show ceylon zimt on the plant. We do not run restaurants in Germany.\n\nEat cooked food hot where possible, peel fruit yourself and use hand sanitiser before short eats. Upscale hotels and established restaurants in tourist towns generally meet international hygiene standards; on long driving days, your chauffeur guide often knows dependable lunch stops that balance authenticity with cleanliness.',
       },
     ],
     faq: [
@@ -62,6 +62,10 @@ export const FOOD_GUIDE: ArticleContent = {
       {
         q: 'Is tap water safe in Sri Lanka?',
         a: 'No stick to sealed bottled or filtered water for drinking and tooth brushing outside trusted hotels. Ice in established restaurants and hotels is usually fine; be cautious with ice from unknown street vendors.',
+      },
+      {
+        q: 'Is ceylon curry a restaurant in Germany?',
+        a: 'On this site ceylon curry means Sri Lankan rice and curry on the island. We do not operate a ceylon restaurant or imbiss in Germany.',
       },
     ],
     ctaTitle: 'Taste the island on a private round tour',
@@ -111,7 +115,7 @@ export const FOOD_GUIDE: ArticleContent = {
       },
       {
         title: 'Getranke und praktische Hygienetipps',
-        body: 'King Coconut (Thambili) von Strassenstanden ist eine sichere, erfrischende Wahl, wenn der Verkaufer sie frisch vor Ihnen offnet. Ceylon Tee braucht keine Vorstellung pur, mit Milch oder als Eistee in der Hitze. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte ausserhalb gehobener Hotels Standard zum Trinken und Zahneputzen sein.\n\nEssen Sie gekochtes Essen moglichst heiss, schalen Sie Obst selbst und nutzen Sie Handedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer Guide oft verlassliche Mittagsstopps zwischen Authentizitat und Sauberkeit.',
+        body: 'King Coconut (Thambili) von Strassenstanden ist eine sichere, erfrischende Wahl, wenn der Verkaufer sie frisch vor Ihnen offnet. Ceylon tee und ceylon tea brauchen keine Vorstellung: pur, mit Milch oder als Eistee. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte ausserhalb gehobener Hotels Standard zum Trinken und Zahneputzen sein.\n\nCeylon curry auf dieser Seite meint Rice and Curry auf der Insel, kein ceylon restaurant und kein ceylon imbiss in Deutschland. Ceylon zimt sehen Sie im Gewurzgarten.\n\nEssen Sie gekochtes Essen moglichst heiss, schalen Sie Obst selbst und nutzen Sie Handedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer Guide oft verlassliche Mittagsstopps zwischen Authentizitat und Sauberkeit.',
       },
     ],
     faq: [
@@ -134,6 +138,10 @@ export const FOOD_GUIDE: ArticleContent = {
       {
         q: 'Ist Leitungswasser in Sri Lanka sicher?',
         a: 'Nein verwenden Sie verschlossenes Flaschen- oder gefiltertes Wasser zum Trinken und Zahneputzen ausserhalb vertrauenswurdiger Hotels. Eis in etablierten Restaurants und Hotels ist meist in Ordnung; seien Sie vorsichtig bei unbekannten Strassenverkaufern.',
+      },
+      {
+        q: 'Was ist Ceylon Curry auf einer Rundreise?',
+        a: 'Ceylon curry hier ist Rice and Curry auf Sri Lanka, kein Restaurant in Leverkusen. Ceylon tee dazu im Hochland. Kein ceylon imbiss in Deutschland.',
       },
     ],
     ctaTitle: 'Probieren Sie die Insel auf einer privaten Rundreise',
@@ -542,7 +550,7 @@ export const FOOD_GUIDE: ArticleContent = {
       },
       {
         title: 'Getranke und praktische Hygienetipps',
-        body: 'King Coconut (Thambili) von Strassenstanden ist eine sichere, erfrischende Wahl, wenn der Verkaufer sie frisch vor Ihnen offnet. Ceylon Tee braucht keine Vorstellung pur, mit Milch oder als Eistee in der Hitze. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte ausserhalb gehobener Hotels Standard zum Trinken und Zahneputzen sein.\n\nEssen Sie gekochtes Essen moglichst heiss, schalen Sie Obst selbst und nutzen Sie Handedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer Guide oft verlassliche Mittagsstopps zwischen Authentizitat und Sauberkeit.',
+        body: 'King Coconut (Thambili) von Strassenstanden ist eine sichere, erfrischende Wahl, wenn der Verkaufer sie frisch vor Ihnen offnet. Ceylon tee und ceylon tea brauchen keine Vorstellung: pur, mit Milch oder als Eistee. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte ausserhalb gehobener Hotels Standard zum Trinken und Zahneputzen sein.\n\nCeylon curry auf dieser Seite meint Rice and Curry auf der Insel, kein ceylon restaurant und kein ceylon imbiss in Deutschland. Ceylon zimt sehen Sie im Gewurzgarten.\n\nEssen Sie gekochtes Essen moglichst heiss, schalen Sie Obst selbst und nutzen Sie Handedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer Guide oft verlassliche Mittagsstopps zwischen Authentizitat und Sauberkeit.',
       },
     ],
     faq: [
@@ -565,6 +573,10 @@ export const FOOD_GUIDE: ArticleContent = {
       {
         q: 'Ist Leitungswasser in Sri Lanka sicher?',
         a: 'Nein verwenden Sie verschlossenes Flaschen- oder gefiltertes Wasser zum Trinken und Zahneputzen ausserhalb vertrauenswurdiger Hotels. Eis in etablierten Restaurants und Hotels ist meist in Ordnung; seien Sie vorsichtig bei unbekannten Strassenverkaufern.',
+      },
+      {
+        q: 'Was ist Ceylon Curry auf einer Rundreise?',
+        a: 'Ceylon curry hier ist Rice and Curry auf Sri Lanka, kein Restaurant in Leverkusen. Ceylon tee dazu im Hochland. Kein ceylon imbiss in Deutschland.',
       },
     ],
     ctaTitle: 'Probieren Sie die Insel auf einer privaten Rundreise',

@@ -71,6 +71,10 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'Where should I apply for my Sri Lanka ETA?',
         a: 'Only through the official government site eta.gov.lk. Third party sites often charge significantly inflated fees for the same form.',
       },
+      {
+        q: 'What are sri lanka entry requirements from the UK?',
+        a: 'Sri lanka visa and sri lanka entry requirements: ETA at eta.gov.lk before you fly. From 25 May 2026 the tourist ETA is free for UK passports for 30 days with double entry, but you still apply in advance.',
+      },
     ],
     ctaTitle: 'Let us help with the practical details',
     ctaBody: 'Once your ETA is approved, our team can help plan an itinerary around your exact travel dates, with airport pickup and a private driver guide from the moment you land.',
@@ -89,8 +93,8 @@ export const VISA_GUIDE: ArticleContent = {
   },
 
   de: {
-    h1: 'Einreise Sri Lanka: ETA, Visum und Antragstellung',
-    lead: 'Fast jeder Besucher Sri Lankas benotigt vor dem Boarding eine elektronische Reisegenehmigung (ETA)  ein unkomplizierter Online Vorgang, allerdings mit genug Kleingedrucktem zu Gultigkeit, Verlangerungen und Passregeln, dass es sich lohnt, ihn rechtzeitig vor der Abreise korrekt zu erledigen.',
+    h1: 'Visum Sri Lanka beantragen: ETA, Einreise und Antrag',
+    lead: 'Visum sri lanka beantragen und sri lanka visum beantragen heisst: ETA vor dem Boarding auf der offiziellen Seite. Unkompliziert, aber rechtzeitig und ohne Drittanbieter Fallen.',
     heroAlt: 'Reisepass und Reisedokumente fur eine Sri Lanka Reise vorbereitet',
     sections: [
       {
@@ -98,8 +102,8 @@ export const VISA_GUIDE: ArticleContent = {
         body: 'Die Electronic Travel Authorisation (ETA) ist Sri Lankas Aquivalent zum Visum bei Einreise, online vor der Reise beantragt und genehmigt, fur Tourismus, Geschaft oder Transit. Burger der meisten Lander benotigen eine ETA; eine kurze Liste von Nationalitaten hat visumfreie Regelungen oder andere Anforderungen  prufen Sie das offizielle Regierungsportal fur Ihren spezifischen Pass, statt es anzunehmen.\n\nBeantragen Sie die ETA nur uber die offizielle Sri Lanka ETA Website  Drittanbieter Seiten, die uberhohte „Servicegebuhren“ fur denselben Antrag verlangen, sind eine haufige Falle fur Erstbesucher.',
       },
       {
-        title: 'Wie und wann man den Antrag stellt',
-        body: 'Beantragen Sie die ETA online mindestens einige Tage vor der Abreise, obwohl die Genehmigung fur unkomplizierte touristische Antrage oft innerhalb von 24 Stunden erfolgt. Sie benotigen Ihre Passdaten, ein Ruck- oder Weiterflugticket und eine gultige Kredit- oder Debitkarte fur die Gebuhr.\n\nDrucken Sie Ihre Genehmigung aus oder speichern Sie eine digitale Kopie, um sie beim check in und bei der Einreise vorzuzeigen; Fluggesellschaften haben Passagieren schon das Boarding verweigert, die keinen Nachweis der ETA Genehmigung vorlegen konnten, obwohl die Einreisebehorde selbst diese elektronisch prufen kann.',
+        title: 'Wie visum sri lanka beantragen',
+        body: 'Sri lanka visum beantragen: ETA online mindestens einige Tage vor der Abreise. Unkomplizierte touristische Antrage sind oft innerhalb von 24 Stunden fertig. Sie brauchen Passdaten, ein Ruck oder Weiterflugticket und eine Karte. Ab 25. Mai 2026 ist die Touristen ETA fur Deutschland oft kostenlos, der Antrag bleibt Pflicht.\n\nNur eta.gov.lk. Ausdruck oder digitale Kopie fur Check in und Einreise.',
       },
       {
         title: 'Gultigkeit und Aufenthaltsdauer',
@@ -138,6 +142,10 @@ export const VISA_GUIDE: ArticleContent = {
       {
         q: 'Was gilt bei der Einreise Sri Lanka mit deutschem Pass?',
         a: 'ETA vorab auf eta.gov.lk beantragen. Ab 25. Mai 2026 ist die Touristen ETA fur Deutschland 30 Tage mit Doppeleinreise kostenlos  die Genehmigung brauchen Sie trotzdem vor dem Flug.',
+      },
+      {
+        q: 'Wie visum sri lanka beantragen?',
+        a: 'Sri lanka visum beantragen heisst ETA auf eta.gov.lk vor dem Flug. Keine Drittanbieter Seiten. Wir verkaufen keine Visa, wir planen die Rundreise danach.',
       },
       {
         q: 'Wo sollte ich meine Sri Lanka ETA beantragen?',
@@ -218,6 +226,10 @@ export const VISA_GUIDE: ArticleContent = {
       {
         q: 'Ou dois je demander mon ETA pour le Sri Lanka ?',
         a: 'Uniquement sur le site officiel eta.gov.lk. Les sites tiers facturent souvent des frais nettement gonfles pour le meme formulaire.',
+      },
+      {
+        q: 'Visa sri lanka ou electronic travel authorization ?',
+        a: 'Visa sri lanka, sri lanka visa et eta sri lanka designent l’electronic travel authorization sri lanka sur eta.gov.lk. Sri lanka travel restrictions pour un Francais : ETA avant le vol, pas un site clone.',
       },
     ],
     ctaTitle: 'Laissez nous vous aider pour les details pratiques',
@@ -363,6 +375,10 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'La ETA de Sri Lanka es gratuita en 2026 para pasaporte espanol?',
         a: 'Para nacionales de 40 paises listados (incluida Espana) la ETA turistica es gratuita desde el 25 de mayo de 2026, 30 dias con doble entrada. Hay que pedirla igual por adelantado en eta.gov.lk.',
       },
+      {
+        q: 'Visado sri lanka o visa sri lanka es lo mismo?',
+        a: 'Visado sri lanka, visa sri lanka y sri lanka visa apuntan a la ETA en eta.gov.lk antes del vuelo. Gratis no significa sin solicitud.',
+      },
     ],
     ctaTitle: 'Dejenos ayudarle con los detalles practicos',
     ctaBody: 'Una vez aprobada su ETA, nuestro equipo puede planificar un itinerario segun sus fechas exactas de viaje, con recogida en el aeropuerto y un chofer guia privado desde el momento en que aterrice.',
@@ -453,13 +469,13 @@ export const VISA_GUIDE: ArticleContent = {
   },
 
   ru: {
-    h1: 'ETA Шри Ланка 2026: виза, arrival card и российский паспорт',
-    lead: 'Почти каждому посетителю Шри Ланки по прежнему нужно электронное разрешение на поездку (ETA) до посадкивключая граждан 40 стран, которые с 25 мая 2026 года получают бесплатную туристическую ETA на 30 дней. На официальном сайте процесс простой, но срок действия, двойной въезд и сторонние сайты двойники всё ещё подводят тех, кто едет впервые.',
+    h1: 'Шри ланка виза 2026: ETA для россиян и правила въезда',
+    lead: 'Шри ланка виза и виза шри ланка для почти всех гостей это ETA до посадки. Шри ланка правила въезда: только eta.gov.lk. С 25 мая 2026 туристическая ETA для России часто бесплатна 30 дней с двойным въездом заявка всё равно нужна заранее.',
     heroAlt: 'Паспорт и документы, подготовленные для поездки в Шри Ланку',
     sections: [
       {
         title: 'Что такое ETA и кому она нужна',
-        body: 'Electronic Travel Authorisation (ETA)онлайн разрешение, которое нужно получить до прибытия, для туризма, бизнеса или транзита. Все иностранные граждане должны оформить ETA заранее, включая страны, для которых сбор теперь не взимается. Подавайте заявку только на официальном портале eta.gov.lk. Сторонние сайты с завышенными «сервисными сборами» за ту же формучастая ловушка.\n\nС 25 мая 2026 года граждане 40 странвключая Россию, Великобританию, Германию, Францию, Италию, Испанию, Польшу, Нидерланды, США, Канаду, Индию и Австралиюмогут получить бесплатную туристическую ETA на 30 дней с правом двойного въезда. Мальдивы, Сейшелы и Сингапур по прежнему без сбора (Мальдивы: 90 дней). Сборы, уплаченные до 25 мая 2026, не возвращаются. Всегда сверяйтесь с официальным списком для вашего паспорта.',
+        body: 'Шри ланка виза, виза шри ланка и виза шри ланка для россиян: Electronic Travel Authorisation (ETA) до прибытия. Подавайте только на eta.gov.lk. Сторонние сайты с «сервисными сборами» частая ловушка.\n\nС 25 мая 2026 года граждане 40 стран включая Россию, Великобританию, Германию, Францию, Италию, Испанию, Польшу, Нидерланды, США, Канаду, Индию и Австралию могут получить бесплатную туристическую ETA на 30 дней с двойным въездом. Шри ланка правила въезда не новости про дефолт: это ETA плюс паспорт.',
       },
       {
         title: 'Как и когда подавать заявку',
@@ -485,7 +501,7 @@ export const VISA_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'Нужна ли мне виза для посещения Шри Ланки?',
-        a: 'Да. Почти всем посетителям нужно оформить ETA онлайн до поездки на eta.gov.lkдаже если ваша страна входит в бесплатную 30 дневную туристическую ETA с 25 мая 2026 года. Бесплатно не значит без заявки по прилёту.',
+        a: 'Да. Шри ланка виза и виза шри ланка: ETA онлайн до поездки на eta.gov.lk, даже если ваша страна в бесплатной 30 дневной схеме с 25 мая 2026. Бесплатно не значит по прилёту.',
       },
       {
         q: 'Сколько времени занимает одобрение ETA?',
@@ -508,6 +524,10 @@ export const VISA_GUIDE: ArticleContent = {
         a: 'Только на официальном сайте eta.gov.lk. Сторонние сайты часто берут сильно завышенную плату за ту же форму.',
       },
       {
+        q: 'Какие шри ланка правила въезда для россиян?',
+        a: 'Виза шри ланка для россиян: ETA до посадки, паспорт с запасом срока, обратный билет по запросу иммиграции. Arrival card не заменяет ETA. Мы не продаём визы и не пишем новости.',
+      },
+      {
         q: 'Нужна ли ещё arrival card, если есть ETA?',
         a: 'ETA обязательна до посадки. Arrival card не заменяет её. Следуйте официальной иммиграционной процедуре по прилёте; не покупайте «карточки» на сторонних сайтах.',
       },
@@ -528,13 +548,13 @@ export const VISA_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Visum Ratgeber: ETA, Anforderungen und Antragstellung',
-    lead: 'Fast jeder Besucher Sri Lankas benotigt vor dem Boarding eine elektronische Reisegenehmigung (ETA)  ein unkomplizierter Online Vorgang, allerdings mit genug Kleingedrucktem zu Gultigkeit, Verlangerungen und Passregeln, dass es sich lohnt, ihn rechtzeitig vor der Abreise korrekt zu erledigen.',
-    heroAlt: 'Reisepass und Reisedokumente fur eine Sri Lanka Reise vorbereitet',
+    h1: 'Sri Lanka visum: ETA aanvragen voor Nederland',
+    lead: 'Visum sri lanka is een ETA voor het boarden, alleen op eta.gov.lk. Gratis vanaf 25 mei 2026 voor veel paspoorten, waaronder Nederland, betekent niet zonder aanvraag. Arrival card vervangt de ETA niet.',
+    heroAlt: 'Paspoort en reisdocumenten voor een Sri Lanka reis',
     sections: [
       {
-        title: 'Was die ETA ist und wer eine braucht',
-        body: 'Die Electronic Travel Authorisation (ETA) ist Sri Lankas Aquivalent zum Visum bei Einreise, online vor der Reise beantragt und genehmigt, fur Tourismus, Geschaft oder Transit. Burger der meisten Lander benotigen eine ETA; eine kurze Liste von Nationalitaten hat visumfreie Regelungen oder andere Anforderungen  prufen Sie das offizielle Regierungsportal fur Ihren spezifischen Pass, statt es anzunehmen.\n\nBeantragen Sie die ETA nur uber die offizielle Sri Lanka ETA Website  Drittanbieter Seiten, die uberhohte „Servicegebuhren“ fur denselben Antrag verlangen, sind eine haufige Falle fur Erstbesucher.',
+        title: 'Wat de ETA is en wie die nodig heeft',
+        body: 'Visum sri lanka voor Nederlanders: Electronic Travel Authorisation (ETA) voor aankomst. Vraag alleen aan op eta.gov.lk. Derde partijen met extra servicekosten zijn een val.\n\nVanaf 25 mei 2026 kunnen burgers van 40 landen, waaronder Nederland, vaak een gratis toeristische ETA van 30 dagen met dubbele binnenkomst krijgen. U vraagt die nog steeds vooraf aan.',
       },
       {
         title: 'Wie und wann man den Antrag stellt',

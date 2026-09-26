@@ -15,7 +15,7 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
       {
         id: 'who',
         title: 'A Sri Lanka trip from Franceprivate circuit, not a package brochure',
-        body: 'Sundown Tours is based in Sri Lanka. We do not sell airline tickets and we are not Le Routard. We meet you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made circuit: Cultural Triangle, hill country, safari and beach.\n\nSearches such as “SriLankan Airlines” or “vol Paris Sri Lanka” are shopping for seats. Searches such as “voyage Sri Lanka”, “visiter le Sri Lanka”, “circuit Sri Lanka” and “que faire au Sri Lanka” are what we serve.',
+        body: 'Sundown Tours is based in Sri Lanka. We do not sell airline tickets, we are not Jet Tours, Fram or Booking.com, and we are not Le Routard. We meet you at Colombo (CMB) with a licensed chauffeur guide and run a tailor made circuit: Cultural Triangle, kandy sri lanka, hill country, safari and beach.\n\nSearches such as SriLankan Airlines, Air France, Skyscanner or vol paris sri lanka are shopping for seats. Searches such as voyage sri lanka, partir au sri lanka, voyager au sri lanka, circuit sri lanka, circuit au sri lanka and que faire au sri lanka are what we serve.',
       },
       {
         id: 'flight',
@@ -35,12 +35,12 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
       {
         id: 'when',
         title: 'When to go: weather and “quand partir au Sri Lanka”',
-        body: 'December to March is peak for west and south beaches (Negombo, Mirissa, Weligama, Galle). May to September often favours the east and is strong for Cultural Triangle sightseeing and dry season safari (Yala, Udawalawe).\n\nSri Lanka is UTC+5:30. Time difference with France: 4 hours 30 minutes in winter, 3 hours 30 minutes during French summer time. Currency is the Sri Lankan rupee (LKR).',
+        body: 'December to March is peak for west and south beaches (Negombo, Mirissa, Weligama, Galle). May to September often favours the east and is strong for Cultural Triangle sightseeing and dry season safari (Yala, Udawalawe).\n\nQuand partir sri lanka and quand aller au sri lanka depend on the coast, not a single month. Sri lanka heure / time in sri lanka is UTC+5:30. Currency is the Sri Lankan rupee (LKR). We do not publish a live euro rate in sri lanka ticker.',
       },
       {
         id: 'whatToDo',
         title: 'What to do: temples, Lion Rock, train, safari, beaches',
-        body: 'A first visit typically includes Sigiriya Lion Rock (rocher du lion), Kandy’s Temple of the Tooth, the Kandy to Ella tea country train, a jeep safari at Yala or Udawalawe, and a beach finish at Mirissa or Weligama. Buddhism is the majority religion; dress modestly at temples.\n\nSeven days covers the highlights. Ten days is calmer. A Maldives add on is a separate flight from CMB, not a road trip.',
+        body: 'A first visit typically includes Sigiriya Lion Rock (rocher du lion sri lanka), Kandy’s Temple of the Tooth (kandy sri lanka), the Kandy to Ella tea country train, a jeep safari at Yala or Udawalawe, and a beach finish at Mirissa or Weligama. Buddhism is the majority religion; dress modestly at temples.\n\nSeven days covers the highlights. Ten days is calmer. A Maldives add on is a separate flight from CMB, not a road trip. Ou se trouve le sri lanka: Indian Ocean, south of India. Sri lanka carte: we plan the circuit on a map; we are not a news site and not cricket coverage.',
       },
     ],
     faq: [
@@ -55,6 +55,14 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
       {
         q: 'When is the best time to visit Sri Lanka from France?',
         a: 'It depends on the coast. December to March for the south and west; May to September often better for the east, Cultural Triangle and dry season safari.',
+      },
+      {
+        q: 'Where is Sri Lanka and what is the capital?',
+        a: 'Ou se trouve le sri lanka: island in the Indian Ocean, south of India. Capitale sri lanka: administrative Sri Jayawardenepura Kotte; travellers land in Colombo. Sri lanka time is UTC+5:30.',
+      },
+      {
+        q: 'Euro to LKR  do you give today’s rate?',
+        a: 'Sri lanka euro and euro sri lanka rupee change daily. Pay in rupees on the island. We quote the private circuit clearly; we are not a bureau de change.',
       },
     ],
     ctaTitle: 'Plan a private Sri Lanka trip from France',
@@ -84,14 +92,14 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
     ],
   },
   fr: {
-    h1: 'Voyage Sri Lanka depuis la France : vol Paris, quand partir et circuit prive',
+    h1: 'Voyage au Sri Lanka depuis la France : vol Paris, quand partir et circuit prive',
     lead:
       'Pour un voyage au Sri Lanka, les recherches francaises commencent souvent par la duree du vol Paris to Colombo, la meteo, le visa et que visiter sans circuit autocar. Cette page repond : vol direct, aeroport CMB, ETA / arrival card, decalage horaire, temples, safari, train, puis comment un circuit prive avec chauffeur fonctionne apres l’atterrissage.',
     heroAlt: 'Circuit prive au Sri Lanka avec chauffeur guide pour voyageurs venus de France',
     sections: [
       {
         title: 'Voyage Sri Lanka depuis la Francecircuit prive, pas un brochure de voyagiste',
-        body: 'Sundown Tours est base au Sri Lanka. Nous ne vendons pas de billets d’avion et nous ne remplacons pas Le Routard. Nous vous accueillons a Colombo (CMB) avec un chauffeur guide agree et construisons un circuit sur mesure : Triangle Culturel, pays du the, safari et plage.\n\nLes recherches « SriLankan Airlines » ou « vol Paris Sri Lanka » concernent le siege avion. « Voyage Sri Lanka », « visiter le Sri Lanka », « circuit Sri Lanka », « sejour Sri Lanka » et « que faire au Sri Lanka » correspondent a ce que nous organisons depuis 1992.',
+        body: 'Sundown Tours est base au Sri Lanka. Nous ne vendons pas de billets d’avion. Nous ne sommes pas Jet Tours, Fram, Booking.com, Air France ni Le Routard. Nous vous accueillons a Colombo (CMB) avec un chauffeur guide agree et construisons un circuit sri lanka sur mesure : Triangle Culturel, kandy sri lanka, pays du the, safari et plage.\n\nLes recherches sri lanka vol, vol sri lanka, vol paris sri lanka, Air France ou Skyscanner concernent le siege avion. Voyage sri lanka, voyage au sri lanka, partir au sri lanka, voyager au sri lanka, le sri lanka, circuit sri lanka, circuit au sri lanka et que faire au sri lanka correspondent a ce que nous organisons depuis 1992.',
       },
       {
         title: 'Vol Paris to Sri Lanka : duree et vol direct',
@@ -107,11 +115,11 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
       },
       {
         title: 'Quand partir au Sri Lanka : meteo et saisons',
-        body: 'Decembre to mars est la haute saison pour les plages ouest et sud (Negombo, Mirissa, Weligama, Galle). Mai to septembre favorise souvent l’est et convient au Triangle Culturel et aux safaris de saison seche (Yala, Udawalawe).\n\nHeure Sri Lanka : UTC+5:30. Decalage horaire avec la France : 4 h 30 en hiver, 3 h 30 pendant l’heure d’ete. Monnaie : roupie sri lankaise (LKR).',
+        body: 'Decembre to mars est la haute saison pour les plages ouest et sud (Negombo, Mirissa, Weligama, Galle). Mai to septembre favorise souvent l’est et convient au Triangle Culturel et aux safaris de saison seche (Yala, Udawalawe).\n\nQuand partir sri lanka, sri lanka quand partir et quand aller au sri lanka dependent de la cote. Meteo sri lanka / sri lanka meteo : deux moussons, pas un seul mois magique.\n\nHeure sri lanka, sri lanka heure, heure au sri lanka, time in sri lanka et sri lanka time now : UTC+5:30. Decalage avec la France : 4 h 30 en hiver, 3 h 30 pendant l’heure d’ete. Monnaie : roupie (LKR). Sri lanka euro et euro sri lanka changent chaque jour ; nous ne publions pas de euro rate in sri lanka today.',
       },
       {
         title: 'Que faire au Sri Lanka : temples, rocher du lion, train, safari, plages',
-        body: 'Un premier voyage combine en general le rocher du lion de Sigiriya, le Temple de la Dent a Kandy, le train Kandy to Ella dans le pays du the, un safari en jeep a Yala ou Udawalawe, et une fin de sejour a Mirissa ou Weligama. Le bouddhisme est la religion majoritaire ; tenue correcte dans les temples.\n\nSept jours couvrent les incontournables. Dix jours sont plus confortables. Un prolongement Maldives est un vol separe depuis CMB, pas une etape routiere.',
+        body: 'Un premier voyage combine en general le rocher du lion sri lanka (Sigiriya), le Temple de la Dent a kandy sri lanka, le train Kandy to Ella dans le pays du the, un safari en jeep a Yala ou Udawalawe, et une fin de sejour a Mirissa ou Weligama. Le bouddhisme est la religion majoritaire ; tenue correcte dans les temples.\n\nOu se trouve le sri lanka : ile de l’ocean Indien, au sud de l’Inde. Sri lanka carte et carte sri lanka : nous tracons le circuit ; ce n’est pas un fil d’actu ni du cricket.\n\nSept jours couvrent les incontournables. Dix jours sont plus confortables. Voyage au sri lanka prix : devis clair chauffeur + hotels. Un prolongement sri lanka maldives est un vol separe depuis CMB. Hotel sri lanka : nous reservons des hotels pour le circuit, pas un comparateur Booking.',
       },
     ],
     faq: [
@@ -133,7 +141,23 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
       },
       {
         q: 'Quel est le decalage horaire avec la France ?',
-        a: 'Le Sri Lanka est a UTC+5:30 : 4 h 30 d’avance en hiver, 3 h 30 pendant l’heure d’ete francaise.',
+        a: 'Heure sri lanka et sri lanka heure : UTC+5:30 (time in sri lanka, sri lanka time). 4 h 30 d’avance en hiver, 3 h 30 pendant l’heure d’ete francaise.',
+      },
+      {
+        q: 'Ou se trouve le Sri Lanka ?',
+        a: 'Ou se trouve le sri lanka : ile au sud de l’Inde, ocean Indien. Le sri lanka et travel to sri lanka depuis Paris : vol vers Colombo (CMB). Sri lanka capital / capitale sri lanka : Kotte administratif, Colombo pour l’arrivee.',
+      },
+      {
+        q: 'Quel est le cours euro sri lanka ?',
+        a: 'Sri lanka euro, euro sri lanka, euro to lkr et euro rupee sri lanka varient chaque jour. Payez en roupies sur place. Today euro rate in sri lanka n’est pas un ticker que nous tenons. Voyage au sri lanka prix : nous chiffrons le circuit prive.',
+      },
+      {
+        q: 'Faut il passer par Jet Tours ou Booking ?',
+        a: 'Non. Circuit sri lanka et circuit au sri lanka avec chauffeur local. Pas Jet Tours, pas Fram, pas Booking.com. Voyage sri lanka avis : page temoignages, pas un OTA.',
+      },
+      {
+        q: 'Que faire au Sri Lanka en premier voyage ?',
+        a: 'Que faire au sri lanka : rocher du lion sri lanka, kandy sri lanka, train, safari, plage. Hotel sri lanka dans le circuit, visa sri lanka (eta sri lanka) avant le vol.',
       },
     ],
     ctaTitle: 'Planifier un voyage prive au Sri Lanka depuis la France',

@@ -255,6 +255,10 @@ export const it: Dict = {
         q: 'Organizzate tour in Sri Lanka per viaggiatori dall’Europa?',
         a: 'Si. Organizziamo tour privati con autista per ospiti da Italia, Svizzera e dal resto d’Europa, con autista guida in inglese e pianificazione via WhatsApp prima del volo.',
       },
+      {
+        q: 'Serve il visto Sri Lanka e quando andare?',
+        a: 'Visto Sri Lanka: ETA su eta.gov.lk prima del volo. Meteo Sri Lanka e quando andare: sud e ovest dicembre–aprile, est maggio–settembre. Aeroporto Colombo (CMB) e il punto di incontro.',
+      },
     ],
   },
 
@@ -601,17 +605,17 @@ export const it: Dict = {
 
   seo: {
     home: {
-      title: 'Viaggio Sri Lanka | Tour privati dall’Italia',
+      title: 'Viaggio Sri Lanka | Tour privato, visto e autista',
       description:
-        'Viaggio in Sri Lanka dall’Italia: tour privato con autista guida, quando andare, volo Milano, visto ETA, Lion Rock, safari e spiagge. Dal 1992.',
+        'Viaggio Sri Lanka: tour privato, visto ETA, meteo, Sigiriya, Kandy, Ella, safari Yala e aeroporto Colombo. Autista locale dal 1992. Non vendiamo voli.',
       keywords:
-        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, cosa vedere Sri Lanka, autista privato Sri Lanka',
+        'viaggio sri lanka, tour sri lanka, autista privato sri lanka, visto sri lanka, meteo sri lanka, quando andare in sri lanka, sigiriya, kandy sri lanka, ella sri lanka, safari sri lanka, aeroporto colombo',
     },
     tours: {
-      title: 'Pacchetti tour Sri Lanka | 7, 8 e 10 giorni in privato',
+      title: 'Pacchetti tour Sri Lanka | 7 8 e 10 giorni in privato',
       description:
-        'Pacchetti tour Sri Lanka per viaggiatori dall’Europa: vacanze private di 7, 8 e 10 giorni con autista guida, safari e spiaggianon tour di gruppo.',
-      keywords: 'pacchetti Sri Lanka, tour Sri Lanka, viaggio Sri Lanka, tour 7 giorni, itinerario 10 giorni',
+        'Pacchetti Sri Lanka: tour 10 giorni o una settimana, safari e spiaggia con autista guida. Niente tour di gruppo.',
+      keywords: 'pacchetti sri lanka, tour sri lanka, itinerario sri lanka, tour sri lanka 10 giorni, sri lanka 10 giorni, viaggio organizzato sri lanka',
     },
     services: {
       title: 'Tour privati, autista e vacanze | Sri Lanka',
@@ -629,7 +633,7 @@ export const it: Dict = {
       title: 'Pianifica il tuo tour in Sri Lanka | Contatti',
       description:
         'Contatta Sundown Tours per tour privati su misura in Sri Lanka. Rispondiamo entro 24 ore.',
-      keywords: 'prenota viaggio Sri Lanka, contatto tour Sri Lanka, Autista Privato Sri Lanka',
+      keywords: 'prenota viaggio sri lanka, contatto tour sri lanka, autista privato sri lanka, visto sri lanka',
     },
     tour7: {
       title: 'Tour Sri Lanka 7 giorni | Cultura, montagne e safari',
@@ -707,7 +711,7 @@ export const it: Dict = {
       title: 'Destinazioni Sri Lanka | Spiagge, fauna e siti culturali',
       description:
         'Scopri le piu belle destinazioni dello Sri Lanka: spiagge, parchi nazionali e luoghi di interesse culturale.',
-      keywords: 'destinazioni Sri Lanka, cosa vedere in Sri Lanka',
+      keywords: 'destinazioni sri lanka, cosa vedere in sri lanka, sigiriya, kandy, ella, galle, safari yala',
     },
     guides: {
       title: 'Guide di viaggio Sri Lanka | Consigli degli esperti',
@@ -716,10 +720,10 @@ export const it: Dict = {
       keywords: 'guida di viaggio Sri Lanka, consigli viaggio Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya, salita e consigli',
+      title: 'Sigiriya Sri Lanka | Roccia del Leone, salita e tour',
       description:
-        'Visitare il Lion Rock (Sigiriya): orari di salita, affreschi, Pidurangala e tour del Triangolo Culturale con autista privato.',
-      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, fortezza di Sigiriya, cosa vedere Sri Lanka',
+        'Sigiriya (roccia del Leone): orari di salita, affreschi, Pidurangala e tour del Triangolo Culturale con autista privato.',
+      keywords: 'sigiriya sri lanka, roccia del leone, fortezza di sigiriya, cosa vedere sri lanka',
     },
     destElla: {
       title: 'Ella Sri Lanka | Treno, Nine Arch Bridge e paese del te',
@@ -765,16 +769,16 @@ export const it: Dict = {
       keywords: 'visto Sri Lanka, ETA Sri Lanka 2026, eta.gov.lk, passaporto italiano',
     },
     guidePrivateDriver: {
-      title: 'Guida all’autista privato Sri Lanka | Tour con chauffeur spiegati',
+      title: 'Autista privato Sri Lanka | Tour con chauffeur',
       description:
-        'Perche i viaggiatori scelgono un autista privato in Sri Lanka, cosa e incluso, le distanze giornaliere tipiche e come pianificare un tour flessibile.',
-      keywords: 'autista privato Sri Lanka, autista guida Sri Lanka, tour privato Sri Lanka',
+        'Autista privato Sri Lanka: cosa e incluso, distanze giornaliere e come pianificare un itinerario flessibile.',
+      keywords: 'autista privato sri lanka, chauffeur sri lanka, tour con autista sri lanka, tour privato sri lanka',
     },
     guideBudget: {
-      title: 'Cambio euro Sri Lanka | Rupia (LKR) e costi',
+      title: 'Cambio euro Sri Lanka | Rupia e costi del tour',
       description:
-        'Euro rate in Sri Lanka: valuta LKR, ATM, dove cambiare e costi reali di un tour privato. Non un tasso live.',
-      keywords: 'euro rate in sri lanka, valuta Sri Lanka, budget Sri Lanka, LKR',
+        'Cambio euro Sri Lanka e rupia (LKR): bancomat, dove cambiare e costi di un tour privato. Non un tasso in tempo reale.',
+      keywords: 'cambio euro sri lanka, rupia sri lanka, valuta sri lanka, costi tour sri lanka',
     },
     guideWildlife: {
       title: 'Guida fauna Sri Lanka | Elefanti, leopardi e balene',
@@ -845,7 +849,7 @@ export const it: Dict = {
       title: 'Colombo Sri Lanka | Capitale, citta e aeroporto CMB',
       description:
         'Colombo Sri Lanka: hub di arrivo, Sri Jayawardenepura Kotte vs Colombo, tempi dall’aeroporto e tour privato.',
-      keywords: 'colombo, colombo Sri Lanka, capitale Sri Lanka, sri lanka capitale, aeroporto Sri Lanka',
+      keywords: 'colombo sri lanka, capitale sri lanka, aeroporto colombo, aeroporto sri lanka, cmb',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Spiaggia vicino all’aeroporto',
@@ -950,7 +954,7 @@ export const it: Dict = {
       description:
         'Viaggio in Sri Lanka dall’Italia: durata volo Milano, quando andare, agosto, ETA, Lion Rock, safari e tour con autista dopo CMB.',
       keywords:
-        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, voli Sri Lanka, cosa vedere Sri Lanka, volo Milano Sri Lanka',
+        'viaggio sri lanka, tour sri lanka, quando andare in sri lanka, visto sri lanka, meteo sri lanka, sigiriya, safari sri lanka, volo milano sri lanka, aeroporto colombo',
     },
     marketSpain: {
       title: "Sri Lanka Tours from Spain | Private Holidays",

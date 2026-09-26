@@ -41,6 +41,16 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
         title: 'Cool climate packing and practical tips',
         body: 'Pack a fleece or light jacket, closed shoes with grip for wet platforms and a rain shell umbrellas struggle in hill wind. Sunscreen still matters at altitude; UV is strong when clouds break.\n\nMotion sickness affects some travellers on winding hill roads; sit forward, avoid heavy curry lunches before long drives and build in stops at viewpoints rather than rushing arrival times. Tea country rewards slow mornings a misty terrace with a cup of orange pekoe beats another hour in the car.',
       },
+      {
+        id: 'ceylonName',
+        title: 'Ceylon and Sri Lanka: the name on the map',
+        body: 'The present name of Ceylon is Sri Lanka. Germans searching ceylon land, heutiger name von ceylon or sri lanka ceylon are looking at the same island. Ceylon remains the historic name for tea (ceylon tea, ceylon tee) and for true cinnamon grown here.\n\nWe run private hill country tours. We do not sell supermarket jars or tea bags in Germany.',
+      },
+      {
+        id: 'ceylonCinnamon',
+        title: 'Ceylon tea and cinnamon on a private tour',
+        body: 'A factory visit explains orange pekoe and ceylon tea tasting. Spice gardens on the Kandy road often show Cinnamomum verum (cinnamomum ceylanicum), the thin bark sold as ceylon zimt, not cassia. That is a tour stop, not medical advice and not zimt kaufen at a German drugstore.\n\nIf you want a plantation day, we fold it into Kandy, Nuwara Eliya or Ella with your chauffeur guide.',
+      },
     ],
     faq: [
       {
@@ -62,6 +72,14 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       {
         q: 'Nuwara Eliya or Ella where to stay?',
         a: 'Nuwara Eliya for colonial cool and gardens; Ella for hikes, cafes and Nine Arch Bridge. Many itineraries include one night in each.',
+      },
+      {
+        q: 'What is the present name of Ceylon?',
+        a: 'Sri Lanka. Ceylon tea and true cinnamon still use the old name. We run private tours on the island, not grocery cinnamon sales.',
+      },
+      {
+        q: 'Ceylon zimt or cassia on a tour?',
+        a: 'Spice gardens show ceylon zimt (Cinnamomum verum). Cassia zimt is a different bark. We do not sell jars and we do not give health advice.',
       },
     ],
     ctaTitle: 'Weave tea country into your private route',
@@ -112,6 +130,14 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
         title: 'Packliste fur kuhles Klima und praktische Tipps',
         body: 'Fleece oder leichte Jacke, geschlossene Schuhe mit Grip fur nasse Bahnsteige, Regenjacke Regenschirme scheitern am Bergwind. Sonnenschutz trotzdem wichtig in der Hohe; UV stark bei Wolkenlucken.\n\nReisekrankheit betrifft manche auf kurvigen Bergstrassen vorn sitzen, kein schweres Curry vor langen Fahrten, Stopps an Aussichtspunkten statt Hetze. Tee Land belohnt langsame Morgen neblige Terrasse mit Orange Pekoe schlagt eine Autostunde.',
       },
+      {
+        title: 'Heutiger Name von Ceylon: Sri Lanka',
+        body: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka meinen dieselbe Insel. Ceylon bleibt der Name fur ceylon tee und echten Zimt von hier.\n\nWir fahren private Teeland Touren. Wir verkaufen keine Gewurzglaser in Deutschland.',
+      },
+      {
+        title: 'Ceylon Tee und Ceylon Zimt auf der Rundreise',
+        body: 'In der Fabrik sehen Sie ceylon tea Verkostung. An Gewurzgarten zwischen Colombo und Kandy wachst Cinnamomum verum, dunnrinde ceylon zimt, nicht cassia zimt. Das ist ein Ausflug, kein Rat welcher zimt ist gesund und kein zimt kaufen Shop.\n\nCeylon zimt unterschied zu cassia: echter Ceylon Zimt ist dunn und rohrrig. Cassia ist dicker. Wir sind Reiseveranstalter, keine Drogerie. Ceylon zimtstangen sehen Sie am Strauch, nicht als Supermarkt Glas.',
+      },
     ],
     faq: [
       {
@@ -133,6 +159,18 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       {
         q: 'Nuwara Eliya oder Ella zum Ubernachten?',
         a: 'Nuwara Eliya fur koloniale Kuhle und Garten; Ella fur Wanderungen, Cafes und Nine Arch Bridge. Viele Routen nutzen je eine Nacht.',
+      },
+      {
+        q: 'Wie lautet der heutige Name von Ceylon?',
+        a: 'Heutiger name von ceylon ist Sri Lanka (im Kreuzwortratsel oft acht Buchstaben ohne Leerzeichen: SRILANKA). Ceylon land ist dasselbe Land.',
+      },
+      {
+        q: 'Was ist der Unterschied Ceylon Zimt und Cassia?',
+        a: 'Zimt cassia oder ceylon und ceylon vs cassia: echter ceylon zimt ist dunn, cassia zimt dicker. Sie sehen das im Gewurzgarten. Kein Drogerie Vergleich, kein Cumarin Rat, kein zimt kaufen.',
+      },
+      {
+        q: 'Wo trinke ich Ceylon Tee auf der Reise?',
+        a: 'Ceylon tee und ceylon tea in Fabriken um Nuwara Eliya und Ella, dazu schwarzer Tee Verkostung. Ceylon cay ist derselbe schwarze Tee. Assam tee ist Indien, nicht unsere Route.',
       },
     ],
     ctaTitle: 'Tee Land in Ihre private Route einweben',
@@ -537,6 +575,14 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
         title: 'Packliste fur kuhles Klima und praktische Tipps',
         body: 'Fleece oder leichte Jacke, geschlossene Schuhe mit Grip fur nasse Bahnsteige, Regenjacke Regenschirme scheitern am Bergwind. Sonnenschutz trotzdem wichtig in der Hohe; UV stark bei Wolkenlucken.\n\nReisekrankheit betrifft manche auf kurvigen Bergstrassen vorn sitzen, kein schweres Curry vor langen Fahrten, Stopps an Aussichtspunkten statt Hetze. Tee Land belohnt langsame Morgen neblige Terrasse mit Orange Pekoe schlagt eine Autostunde.',
       },
+      {
+        title: 'Heutiger Name von Ceylon: Sri Lanka',
+        body: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka meinen dieselbe Insel. Ceylon bleibt der Name fur ceylon tee und echten Zimt von hier.\n\nWir fahren private Teeland Touren. Wir verkaufen keine Gewurzglaser in Deutschland.',
+      },
+      {
+        title: 'Ceylon Tee und Ceylon Zimt auf der Rundreise',
+        body: 'In der Fabrik sehen Sie ceylon tea Verkostung. An Gewurzgarten zwischen Colombo und Kandy wachst Cinnamomum verum, dunnrinde ceylon zimt, nicht cassia zimt. Das ist ein Ausflug, kein Rat welcher zimt ist gesund und kein zimt kaufen Shop.\n\nCeylon zimt unterschied zu cassia: echter Ceylon Zimt ist dunn und rohrrig. Cassia ist dicker. Wir sind Reiseveranstalter, keine Drogerie. Ceylon zimtstangen sehen Sie am Strauch, nicht als Supermarkt Glas.',
+      },
     ],
     faq: [
       {
@@ -558,6 +604,18 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       {
         q: 'Nuwara Eliya oder Ella zum Ubernachten?',
         a: 'Nuwara Eliya fur koloniale Kuhle und Garten; Ella fur Wanderungen, Cafes und Nine Arch Bridge. Viele Routen nutzen je eine Nacht.',
+      },
+      {
+        q: 'Wie lautet der heutige Name von Ceylon?',
+        a: 'Heutiger name von ceylon ist Sri Lanka (im Kreuzwortratsel oft acht Buchstaben ohne Leerzeichen: SRILANKA). Ceylon land ist dasselbe Land.',
+      },
+      {
+        q: 'Was ist der Unterschied Ceylon Zimt und Cassia?',
+        a: 'Zimt cassia oder ceylon und ceylon vs cassia: echter ceylon zimt ist dunn, cassia zimt dicker. Sie sehen das im Gewurzgarten. Kein Drogerie Vergleich, kein Cumarin Rat, kein zimt kaufen.',
+      },
+      {
+        q: 'Wo trinke ich Ceylon Tee auf der Reise?',
+        a: 'Ceylon tee und ceylon tea in Fabriken um Nuwara Eliya und Ella, dazu schwarzer Tee Verkostung. Ceylon cay ist derselbe schwarze Tee. Assam tee ist Indien, nicht unsere Route.',
       },
     ],
     ctaTitle: 'Tee Land in Ihre private Route einweben',
