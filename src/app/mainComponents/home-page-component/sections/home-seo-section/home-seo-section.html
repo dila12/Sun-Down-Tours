@@ -72,17 +72,17 @@
       </article>
     }
 
-    <section class="seo-panel seo-prose" aria-labelledby="faq-heading" itemscope itemtype="https://schema.org/FAQPage">
+    <section class="seo-panel seo-prose" aria-labelledby="faq-heading">
       <div class="text-center mb-4">
         <p class="section-tag">{{ content().faqEyebrow }}</p>
         <h2 id="faq-heading" class="section-title h3">{{ content().faqHeading }}</h2>
       </div>
 
       @for (faq of content().faqs; track $index) {
-        <article class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <h3 itemprop="name">{{ faq.q }}</h3>
-          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p itemprop="text" class="aeo-answer">
+        <article class="faq-card">
+          <h3>{{ faq.q }}</h3>
+          <div>
+            <p class="aeo-answer">
               {{ faq.a }}
               @if (faq.links && faq.links.length) {
                 @for (l of faq.links; track $index) {

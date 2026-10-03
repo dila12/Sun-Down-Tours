@@ -178,7 +178,7 @@ export const nl: Dict = {
     },
     intro: {
       title: 'Sri Lanka rondreizen & vakantiepakketten met lokale experts',
-      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8 en 10 daagse eilandroutes.',
+      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8- en 10 daagse eilandroutes.',
       feature1: 'Prive rondreizen',
       feature2: 'Prive chauffeurs',
       feature3: 'Pakketten op maat',
@@ -278,7 +278,7 @@ export const nl: Dict = {
       },
       {
         q: 'Wat is de beste reistijd voor Sri Lanka vanuit Europa?',
-        a: 'Sri Lanka is jaarrond bereisbaar. Zuidkust en westkust: december tot april; oostkust: meestal mei tot september. Wij plannen de priveroute rond de moesson van uw reismaand.',
+        a: 'Sri Lanka is jaarrond bereisbaar. Zuid- en westkust: december tot april; oostkust: meestal mei tot september. Wij plannen de priveroute rond de moesson van uw reismaand.',
       },
       {
         q: 'Welk pakket past bij een eerste bezoek?',
@@ -658,11 +658,11 @@ export const nl: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka rondreizen | Privé chauffeur & vakanties op maat',
+      title: 'Sri Lanka rondreizen & vakantiepakketten | Prive chauffeur',
       description:
         'Prive rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala safari en strand. Sinds 1992.',
       keywords:
-        'sri lanka rondreis, sri lanka vakantie, sri lanka reisepakket, prive chauffeur sri lanka, visum sri lanka, beste tijd sri lanka, sigiriya, kandy, ella, safari sri lanka, luchthaven colombo',
+        'Sri Lanka rondreis, Sri Lanka vakantie, Sri Lanka reisepakket, prive chauffeur Sri Lanka, Sri Lanka vakantie',
     },
     tours: {
       title: 'Sri Lanka reisepakketten | 7, 8 & 10 dagen prive',
@@ -818,7 +818,7 @@ export const nl: Dict = {
       title: 'Sri Lanka visum gids | ETA, inreisregels & praktische tips',
       description:
         'Hoe de Sri Lanka ETA en visa on arrival werken voor reizigers, welke documenten u nodig heeft en veelgemaakte inreisfouten om te vermijden.',
-      keywords: 'sri lanka visum, sri lanka eta, eta.gov.lk, inreisvereisten sri lanka',
+      keywords: 'Sri Lanka visum, Sri Lanka ETA, visa on arrival Sri Lanka, inreisvereisten',
     },
     guidePrivateDriver: {
       title: 'Sri Lanka prive chauffeur gids | Chauffeur tours uitgelegd',
@@ -898,10 +898,9 @@ export const nl: Dict = {
       keywords: 'privacybeleid',
     },
     destColombo: {
-      title: 'Colombo Sri Lanka | Luchthaven CMB, stad en eerste nacht',
-      description:
-        'Colombo Sri Lanka: luchthaven Bandaranaike (CMB) in Katunayake, Negombo vs stad, hoofdstad Kotte en eerste nacht van een prive rondreis.',
-      keywords: 'colombo sri lanka, luchthaven colombo, sri lanka luchthaven, cmb, negombo',
+      title: "Colombo Sri Lanka Travel Guide | Private Tours",
+      description: "Plan Colombo as your arrival hub with private airport transfers and tailor made Sri Lanka itineraries.",
+      keywords: "destColombo",
     },
     destNegombo: {
       title: "Negombo Sri Lanka | Beach Near Airport",
@@ -974,10 +973,9 @@ export const nl: Dict = {
       keywords: "guideLuxuryTours",
     },
     guideAirportTransfers: {
-      title: 'Sri Lanka luchthaven | Prive transfer vanaf CMB',
-      description:
-        'Luchthaven Colombo (CMB): prive ophaalservice naar Negombo, Colombo en het eerste hotel van uw rondreis. Geen vliegtickets.',
-      keywords: 'sri lanka luchthaven, luchthaven colombo, cmb transfer, negombo transfer',
+      title: "Sri Lanka Airport Transfers | Private Pickup",
+      description: "Private CMB airport transfers to Negombo, Colombo and your first tour hotel.",
+      keywords: "guideAirportTransfers",
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
@@ -1010,11 +1008,9 @@ export const nl: Dict = {
       keywords: "marketRussia",
     },
     marketNetherlands: {
-      title: 'Sri Lanka vakantie vanuit Nederland | Prive rondreis en chauffeur',
-      description:
-        'Sri Lanka rondreis vanuit Nederland: visum ETA, beste tijd, Sigiriya, safari en chauffeur na CMB. Geen vliegtickets en geen touroperator uit een brochure.',
-      keywords:
-        'sri lanka vakantie, sri lanka rondreis, prive chauffeur sri lanka, visum sri lanka, beste tijd sri lanka, sigiriya, safari sri lanka, luchthaven colombo',
+      title: "Sri Lanka Tours from the Netherlands | Prive Rondreizen",
+      description: "Private Sri Lanka rondreizen for travellers from the Netherlands.",
+      keywords: "marketNetherlands",
     },
     marketUK: {
       title: 'Sri Lanka vakantie vanuit het VK | Prive rondreis',

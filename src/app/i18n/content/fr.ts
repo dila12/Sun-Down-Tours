@@ -636,18 +636,17 @@ export const fr: Dict = {
 
   seo: {
     home: {
-      title: 'Voyage Sri Lanka | Circuit prive depuis la France',
+      title: 'Voyage Sri Lanka | Circuits prives depuis la France',
       description:
-        'Voyage sri lanka et voyage au sri lanka : circuit chauffeur, kandy sri lanka, que faire au sri lanka. Agence locale depuis 1992. Pas Jet Tours, pas de billets d avion.',
+        'Voyage au Sri Lanka depuis la France : circuit prive avec chauffeur guide, vol Paris to Colombo, quand partir, visa ETA, Sigiriya, safari et plages. Depuis 1992.',
       keywords:
-        'voyage sri lanka, voyage au sri lanka, partir au sri lanka, voyager au sri lanka, le sri lanka, circuit sri lanka, circuit au sri lanka, que faire au sri lanka, kandy sri lanka, vol paris sri lanka',
+        'voyage Sri Lanka, visiter Sri Lanka, circuit Sri Lanka, sejour Sri Lanka, que faire au Sri Lanka, chauffeur prive Sri Lanka',
     },
     tours: {
-      title: 'Circuit Sri Lanka | Circuit au Sri Lanka prive 7 a 10 jours',
+      title: 'Circuits Sri Lanka | 7, 8 et 10 jours en prive',
       description:
-        'Circuit sri lanka et circuit au sri lanka : 7 ou 10 jours, safari, kandy sri lanka, plage. Voyage au sri lanka prix dans le devis. Pas de depart autocar.',
-      keywords:
-        'circuit sri lanka, circuit au sri lanka, voyage sri lanka, voyage au sri lanka prix, que faire au sri lanka, kandy sri lanka, hotel sri lanka',
+        'Circuits Sri Lanka pour voyageurs d’Europe : sejours prives de 7, 8 et 10 jours avec chauffeur guide, safari et plagepas de voyages de groupe.',
+      keywords: 'circuits Sri Lanka, voyage Sri Lanka, circuit 7 jours, circuit 10 jours, chauffeur prive',
     },
     services: {
       title: 'Circuits prives, chauffeur et sejours | Sri Lanka',
@@ -662,10 +661,10 @@ export const fr: Dict = {
       keywords: 'agence de voyage Sri Lanka, voyagiste Sri Lanka, Circuit Sri Lanka',
     },
     contact: {
-      title: 'Partir au Sri Lanka | Contact circuit prive',
+      title: 'Planifiez votre circuit Sri Lanka | Contact',
       description:
-        'Partir au sri lanka : WhatsApp ou formulaire. Circuit chauffeur, hotel sri lanka dans le devis. Reponse sous 24 heures. Pas Booking.com.',
-      keywords: 'partir au sri lanka, voyager au sri lanka, voyage sri lanka, circuit sri lanka contact',
+        'Contactez Sundown Tours pour des circuits prives sur mesure au Sri Lanka. Nous repondons sous 24 heures.',
+      keywords: 'reserver voyage Sri Lanka, contact circuit Sri Lanka, Chauffeur Prive Sri Lanka',
     },
     tour7: {
       title: 'Circuit Sri Lanka 7 jours | Culture, montagnes & safari',
@@ -728,34 +727,34 @@ export const fr: Dict = {
       keywords: 'excursion Galle, fort de Galle, cote sud Sri Lanka',
     },
     kandyDay: {
-      title: 'Kandy Sri Lanka | Excursion journee Temple de la Dent',
+      title: 'Excursion d’une journee a Kandy | Culture & paysages',
       description:
-        'Kandy sri lanka en journee privee : Temple de la Dent, jardin botanique, lac. Combineable avec un circuit sri lanka.',
-      keywords: 'kandy sri lanka, excursion Kandy, journee Kandy, Temple de la Dent',
+        'Vivez les incontournables de Kandy, dont le Temple de la Dent et le Jardin botanique royal, lors d’une excursion privee d’une journee.',
+      keywords: 'excursion Kandy, journee Kandy, Temple de la Dent',
     },
     sigiriyaDay: {
       title: 'Excursion Sigiriya | Rocher du lion, forteresse et jardins',
       description:
         'Journee privee au rocher du lion de Sigiriya : ascension, fresques, jardins et combinaison avec Dambulla.',
-      keywords: 'rocher du lion sri lanka, lion rock Sri Lanka, excursion Sigiriya, Sigiriya Sri Lanka',
+      keywords: 'rocher du lion Sri Lanka, lion rock Sri Lanka, excursion Sigiriya, Sigiriya Sri Lanka',
     },
     destinations: {
       title: 'Destinations Sri Lanka | Plages, faune & sites culturels',
       description:
         'Decouvrez les plus belles destinations du Sri Lanka : plages, parcs nationaux et hauts lieux culturels.',
-      keywords: 'destinations Sri Lanka, que faire au sri lanka, sri lanka carte, carte sri lanka, kandy sri lanka',
+      keywords: 'destinations Sri Lanka, que visiter au Sri Lanka',
     },
     guides: {
-      title: 'Sri Lanka Travel Guide | Guides pratiques pour un circuit prive',
+      title: 'Guides de voyage Sri Lanka | Conseils d’experts',
       description:
-        'Sri lanka travel guide et sri lanka travel advice : visa, meteo, budget euro, securite. Pour travel to sri lanka avec chauffeur, pas un blog OTA.',
-      keywords: 'sri lanka travel guide, sri lanka travel advice, travel to sri lanka, guide de voyage Sri Lanka',
+        'Nos guides de voyage complets sur le Sri Lanka, avec conseils d’experts et informations pratiques pour votre sejour.',
+      keywords: 'guide de voyage Sri Lanka, conseils voyage Sri Lanka',
     },
     destSigiriya: {
       title: 'Rocher du lion Sri Lanka | Sigiriya, ascension et conseils',
       description:
         'Visiter le rocher du lion (Sigiriya) : horaire d’ascension, fresques, Pidurangala et circuit Triangle Culturel avec chauffeur prive.',
-      keywords: 'rocher du lion sri lanka, sigiriya sri lanka, visiter sigiriya, temple sri lanka',
+      keywords: 'rocher du lion Sri Lanka, lion rock Sri Lanka, Sigiriya Sri Lanka, temple Sri Lanka, visiter Sigiriya',
     },
     destElla: {
       title: 'Ella Sri Lanka | Train, Nine Arch Bridge et pays du the',
@@ -770,10 +769,10 @@ export const fr: Dict = {
       keywords: 'safari Sri Lanka, yala Sri Lanka, Udawalawe, jeep safari, parc national Yala',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka | Temple de la Dent et collines',
+      title: 'Kandy Sri Lanka | Temple de la Dent et capitale des collines',
       description:
-        'Kandy sri lanka : Temple de la Dent, lac, Peradeniya et train vers Ella sur un circuit sri lanka prive.',
-      keywords: 'kandy sri lanka, temple Sri Lanka, Temple de la Dent, visiter Kandy, circuit sri lanka',
+        'Visiter Kandy : Temple de la Dent, lac, jardins de Peradeniya et train vers Ella sur un circuit prive.',
+      keywords: 'kandy Sri Lanka, temple Sri Lanka, Temple de la Dent, visiter Kandy',
     },
     destDambulla: {
       title: 'Guide du temple de Dambulla | Conseils pour le Temple d’Or',
@@ -788,31 +787,29 @@ export const fr: Dict = {
       keywords: 'fort de Galle, Galle Sri Lanka, excursion Galle, UNESCO Galle',
     },
     guideBestTime: {
-      title: 'Quand partir au Sri Lanka | Quand aller, meteo et saisons',
+      title: 'Quand partir au Sri Lanka | Meteo, saisons et mois par mois',
       description:
-        'Quand partir sri lanka, quand aller au sri lanka et sri lanka quand partir : deux moussons, meteo sri lanka par cote, safari et plages.',
+        'Quand aller au Sri Lanka : deux moussons, meteo par cote, meilleure periode safari et plages, decalage horaire et planification selon vos dates.',
       keywords:
-        'quand partir sri lanka, quand partir au sri lanka, sri lanka quand partir, quand aller au sri lanka, meteo sri lanka, sri lanka meteo',
+        'quand partir Sri Lanka, quand aller au Sri Lanka, meteo Sri Lanka, meteo Sri Lanka, meilleure periode Sri Lanka',
     },
     guideVisa: {
-      title: 'Visa Sri Lanka | ETA et electronic travel authorization',
+      title: 'Visa Sri Lanka 2026 | ETA, arrival card et eta.gov.lk',
       description:
-        'Visa sri lanka et sri lanka visa depuis la France : eta sri lanka sur eta.gov.lk, electronic travel authorization sri lanka. Pas un site tiers.',
-      keywords:
-        'visa sri lanka, sri lanka visa, eta sri lanka, electronic travel authorization sri lanka, arrival card Sri Lanka, eta.gov.lk',
+        'Visa Sri Lanka depuis la France : ETA touristique gratuite 30 jours des le 25 mai 2026, arrival card officielle, demande uniquement sur eta.gov.lk.',
+      keywords: 'visa Sri Lanka, arrival card Sri Lanka, ETA Sri Lanka, eta.gov.lk, formalites Sri Lanka',
     },
     guidePrivateDriver: {
-      title: 'Chauffeur prive Sri Lanka | Agence locale francophone',
+      title: 'Guide du chauffeur prive Sri Lanka | Circuits avec chauffeur expliques',
       description:
-        'Chauffeur prive Sri Lanka: prix chauffeur, location voiture avec chauffeur et circuit flexible avec agence locale Sri Lanka francophone.',
-      keywords: 'chauffeur sri lanka, chauffeur prive sri lanka, prix chauffeur sri lanka, location voiture chauffeur sri lanka, agence locale sri lanka francophone',
+        'Pourquoi les voyageurs choisissent un chauffeur prive au Sri Lanka, ce qui est inclus, les distances quotidiennes types et comment planifier un circuit flexible.',
+      keywords: 'chauffeur prive Sri Lanka, chauffeur guide Sri Lanka, circuit prive Sri Lanka',
     },
     guideBudget: {
-      title: 'Sri Lanka Euro | Budget, roupie et voyage au Sri Lanka prix',
+      title: 'Budget et monnaie Sri Lanka | Roupie (LKR) et couts',
       description:
-        'Sri lanka euro, euro sri lanka et euro to lkr : payez en roupies. Voyage au sri lanka prix pour un circuit prive. Pas de cours live.',
-      keywords:
-        'sri lanka euro, euro sri lanka, euro to lkr, euro rupee sri lanka, euro sri lanka rupee, euro to sri lanka, voyage au sri lanka prix, hotel sri lanka',
+        'Monnaie Sri Lanka (roupie LKR), budget quotidien, distributeurs et repartition des depenses en circuit prive.',
+      keywords: 'monnaie Sri Lanka, budget Sri Lanka, roupie sri lankaise, LKR',
     },
     guideWildlife: {
       title: 'Guide faune Sri Lanka | Elephants, leopards et baleines',
@@ -851,11 +848,10 @@ export const fr: Dict = {
       keywords: 'valise Sri Lanka, que emporter Sri Lanka, liste bagages Sri Lanka',
     },
     guideSafety: {
-      title: 'Is Sri Lanka Safe to Travel | Conseils voyage Sri Lanka',
+      title: 'Guide securite Sri Lanka | Conseils pour les visiteurs',
       description:
-        'Is sri lanka safe to travel et sri lanka travel advice : itineraires classiques avec chauffeur prive. Sri lanka travel restrictions : ETA, pas un fil cricket.',
-      keywords:
-        'is sri lanka safe to travel, sri lanka travel advice, sri lanka travel guide, travel to sri lanka, securite Sri Lanka',
+        'Conseils pratiques : routes, sante de base, arnaques a eviter et voyager en securite avec un chauffeur prive.',
+      keywords: 'securite Sri Lanka, voyage sur Sri Lanka, conseils visiteurs',
     },
     cancellation: {
       title: 'Politique d’annulation | Sundown Tours Sri Lanka',
@@ -870,10 +866,10 @@ export const fr: Dict = {
       keywords: 'restaurants Sri Lanka, ou manger au Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
     },
     testimonials: {
-      title: 'Voyage Sri Lanka avis | Temoignages Sundown Tours',
+      title: 'Avis clients | Sundown Tours Sri Lanka',
       description:
-        'Voyage sri lanka avis de voyageurs en circuit prive avec chauffeur. Agence locale depuis 1992, pas un catalogue Jet Tours.',
-      keywords: 'voyage sri lanka avis, avis Sri Lanka, temoignages circuit Sri Lanka',
+        'Lisez les avis de nos clients satisfaits qui ont vecu nos circuits prives au Sri Lanka.',
+      keywords: 'avis Sri Lanka, temoignages circuit Sri Lanka',
     },
     privacy: {
       title: 'Politique de confidentialite | Sundown Tours Sri Lanka',
@@ -881,11 +877,10 @@ export const fr: Dict = {
       keywords: 'politique de confidentialite',
     },
     destColombo: {
-      title: 'Colombo Sri Lanka | Capitale, CMB et vol Paris',
+      title: 'Colombo Sri Lanka | Aeroport CMB, capitale et premiere nuit',
       description:
-        'Colombo sri lanka et sri lanka colombo : aeroport CMB apres vol paris sri lanka, capitale sri lanka, premiere nuit Negombo.',
-      keywords:
-        'colombo sri lanka, sri lanka colombo, colombo, capitale sri lanka, sri lanka capitale, sri lanka capital, vol paris sri lanka, paris sri lanka',
+        'Colombo et aeroport Sri Lanka (CMB) : ville vs Katunayake, capitale, Negombo en premiere nuit apres un vol Paris.',
+      keywords: 'colombo Sri Lanka, Colombo, aeroport Sri Lanka, capitale Sri Lanka, CMB',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Plage pres de l’aeroport de Colombo',
@@ -972,8 +967,8 @@ export const fr: Dict = {
     guideAirportTransfers: {
       title: 'Transferts aeroport Sri Lanka | Temps de route CMB',
       description:
-        'Transfert prive depuis Bandaranaike (CMB) apres sri lanka vol / vol sri lanka : temps vers Negombo, Colombo, Kandy. Nous ne vendons pas les billets Air France.',
-      keywords: 'vol sri lanka, sri lanka vol, vol paris sri lanka, paris sri lanka, transfert aeroport Colombo, CMB',
+        'Transfert prive depuis Bandaranaike (CMB) : temps vers Negombo, Colombo, Waskaduwa, Kandy, Sigiriya et Galle, arrivees de nuit et tarif fixe.',
+      keywords: 'transfert aeroport Colombo, aeroport Sri Lanka, CMB, transfert Negombo',
     },
     marketGermany: {
       title: "Sri Lanka Tours from Germany | Private Rundreisen",
@@ -981,11 +976,11 @@ export const fr: Dict = {
       keywords: "marketGermany",
     },
     marketFrance: {
-      title: 'Voyage au Sri Lanka | Vol Paris, visa, euro et circuit prive',
+      title: 'Voyage Sri Lanka depuis la France | Vol Paris, visa et circuit prive',
       description:
-        'Voyage au sri lanka depuis la France : vol paris sri lanka, visa sri lanka, sri lanka euro, quand partir, que faire au sri lanka, kandy sri lanka. Circuit chauffeur apres Colombo.',
+        'Voyage au Sri Lanka depuis la France : duree du vol Paris to Colombo, vol direct, ETA et arrival card, meteo, rocher du lion, safari et circuit chauffeur apres l’atterrissage.',
       keywords:
-        'voyage sri lanka, voyage au sri lanka, partir au sri lanka, voyager au sri lanka, circuit sri lanka, circuit au sri lanka, que faire au sri lanka, kandy sri lanka, vol paris sri lanka, paris sri lanka, visa sri lanka, eta sri lanka, sri lanka euro, euro sri lanka, quand partir sri lanka, quand aller au sri lanka, ou se trouve le sri lanka, sri lanka heure, meteo sri lanka, rocher du lion sri lanka, hotel sri lanka, voyage sri lanka avis, voyage au sri lanka prix, le sri lanka, colombo sri lanka, sri lanka carte',
+        'voyage Sri Lanka, visiter le Sri Lanka, circuit Sri Lanka, vol Paris Sri Lanka, quand partir au Sri Lanka, visa Sri Lanka, que faire au Sri Lanka',
     },
     marketItaly: {
       title: "Sri Lanka Tours from Italy | Private Travel",

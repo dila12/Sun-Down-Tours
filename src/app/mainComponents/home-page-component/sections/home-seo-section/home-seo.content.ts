@@ -426,7 +426,7 @@ const en: HomeSeoContent = {
     },
     {
       q: 'When is the best time for a Yala safari?',
-      a: 'Yala Block 1 is open year round; dry months (February to July) make leopard spotting easier as animals gather near water. Book morning safaris for cooler temperatures and better light.',
+      a: 'Yala is usually open outside its scheduled annual closure, which often takes place around September. The dry season from May to September generally improves leopard sightings as animals gather near water. Check current park notices before booking.',
     },
     {
       q: 'Are Sri Lanka tours suitable for families with children?',
@@ -434,12 +434,12 @@ const en: HomeSeoContent = {
     },
     {
       q: 'Do I need a visa to visit Sri Lanka from Europe?',
-      a: 'Most European citizens need an ETA (Electronic Travel Authorisation) obtained online before travel. Apply at least 48 hours before departure; children need their own ETA. That is sri lanka entry requirements, not a cricket visa.',
+      a: 'Most European citizens need an ETA (Electronic Travel Authorisation) obtained online before travel. Apply at least 48 hours before departure; children need their own ETA. Check the official immigration site for current requirements.',
       links: [{ pageId: 'guideVisa', label: 'Sri Lanka visa and ETA' }],
     },
     {
-      q: 'Where is Sri Lanka and are you TUI?',
-      a: 'Where is sri lanka: south of India. Sri lanka holidays and sri lanka private tours with a local chauffeur. Not TUI, not Intrepid, not helicopter tours. Time in sri lanka is UTC+5:30.',
+      q: 'Where is Sri Lanka located?',
+      a: 'Sri Lanka is an island in the Indian Ocean, south of India. Its standard time is UTC+5:30, and most international visitors arrive through Bandaranaike International Airport near Colombo.',
       links: [{ pageId: 'marketUK', label: 'Sri Lanka holidays from the UK' }],
     },
     {
@@ -829,7 +829,7 @@ const de: HomeSeoContent = {
     },
     {
       q: 'Wann ist die beste Zeit fur eine Yala Safari?',
-      a: 'Yala Block 1 ist ganzjahrig geoffnet; in den Trockenmonaten (Februar bis Juli) sind Leoparden leichter zu sehen, da sich Tiere am Wasser sammeln. Buchen Sie Morgensafaris fur kuhlere Temperaturen und besseres Licht.',
+      a: 'Yala ist normalerweise außerhalb der geplanten jährlichen Schließzeit geöffnet, die oft um den September liegt. In der Trockenzeit von Mai bis September sammeln sich Tiere häufiger an Wasserstellen, was Leoparden Sichtungen erleichtern kann. Prüfen Sie vor der Buchung die aktuellen Parkmeldungen.',
     },
     {
       q: 'Sind Sri Lanka Reisen fur Familien mit Kindern geeignet?',
@@ -1233,7 +1233,7 @@ const fr: HomeSeoContent = {
     },
     {
       q: 'Ou se trouve le Sri Lanka et quel est le cours euro ?',
-      a: 'Ou se trouve le sri lanka : ocean Indien, sud de l’Inde. Sri lanka euro et euro sri lanka changent chaque jour ; voyage au sri lanka prix dans notre devis. Pas Jet Tours, pas Booking.com.',
+      a: 'Le Sri Lanka est une île de l’océan Indien, au sud de l’Inde. Sa monnaie est la roupie sri lankaise. Le taux de change varie chaque jour, vérifiez le cours avant votre voyage.',
       links: [{ pageId: 'marketFrance', label: 'Voyage depuis la France' }],
     },
     {

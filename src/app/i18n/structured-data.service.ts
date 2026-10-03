@@ -181,10 +181,10 @@ export class StructuredDataService {
       logo: { '@type': 'ImageObject', url: LOGO },
       description: this.i18n.t('seo.about.description', locale),
       foundingDate: '1992',
-      founder: { '@id': `${BASE_URL}/#person dilan lakshitha` },
+      founder: { '@id': `${BASE_URL}/#persondilanlakshitha` },
       employee: [
-        { '@id': `${BASE_URL}/#person dilan lakshitha` },
-        { '@id': `${BASE_URL}/#person yohan malshika` },
+        { '@id': `${BASE_URL}/#persondilanlakshitha` },
+        { '@id': `${BASE_URL}/#personyohanmalshika` },
       ],
       address: {
         '@type': 'PostalAddress',
@@ -210,7 +210,7 @@ export class StructuredDataService {
     return [
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person dilan lakshitha`,
+        '@id': `${BASE_URL}/#persondilanlakshitha`,
         name: 'Dilan Lakshitha',
         jobTitle: 'Owner & Founder',
         worksFor: { '@id': `${BASE_URL}/#organization` },
@@ -224,7 +224,7 @@ export class StructuredDataService {
       },
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person yohan malshika`,
+        '@id': `${BASE_URL}/#personyohanmalshika`,
         name: 'Yohan Malshika',
         jobTitle: 'Senior Consultant',
         worksFor: { '@id': `${BASE_URL}/#organization` },
@@ -286,7 +286,6 @@ export class StructuredDataService {
       name: this.i18n.t('home.aeo.howTitle', locale),
       description: this.i18n.t('home.aeo.bookA', locale),
       inLanguage: LOCALE_META[locale].htmlLang,
-      totalTime: 'PT24H',
       step: steps,
     };
   }

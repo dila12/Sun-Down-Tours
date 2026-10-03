@@ -161,9 +161,9 @@ export const de: Dict = {
 
   home: {
     hero: {
-      title: 'Sri Lanka Tour und Rundreise | Privater Fahrer aus Deutschland',
+      title: 'Sri Lanka Rundreisen, Reisepakete & privater Fahrer',
       subtitle:
-        'Urlaub in sri lanka und urlaub auf sri lanka mit privatem Fahrer. Rundreise, Reisezeit, Strand zum Baden, Ella, Galle und Colombo. Fur Reisende aus Deutschland.',
+        'Private Sri Lanka Rundreisen und Urlaubspakete mit lokalem Fahrer Guide. Sigiriya Lion Rock, Ella, Yala, Kandy, Mirissa, Weligama und Galle  fur Reisende aus Deutschland, Osterreich und der Schweiz.',
       slide2: 'Unvergessliche Sri Lanka Reisepakete',
       slide3: 'Private Rundreisen durch das schone Sri Lanka',
       slide4: 'Entdecken Sie Sigiriya, Ella & die Hohepunkte Sri Lankas',
@@ -171,7 +171,7 @@ export const de: Dict = {
     },
     intro: {
       title: 'Sri Lanka Rundreisen & Urlaubspakete mit lokalen Experten',
-      subtitle: 'Urlaub sri lanka, sri lanka reise und rundreise sri lanka: privat mit Fahrer, nicht im Reisebus.',
+      subtitle: 'Private Rundreisen mit Fahrer Guide und individuelle Inselreisen fur 7, 8 oder 10 Tage.',
       feature1: 'Private Touren',
       feature2: 'Personliche Fahrer',
       feature3: 'Massgeschneiderte Pakete',
@@ -197,8 +197,8 @@ export const de: Dict = {
       how3: 'Sie bestatigen die Daten. Wir stellen einen Fahrer Guide und holen Sie am Flughafen Colombo oder im Hotel ab.',
     },
     destinations: {
-      title: 'Ella Sri Lanka und Galle Sri Lanka',
-      subtitle: 'Visit sri lanka tours zu Ella, Galle, Sigiriya, Kandy und Colombo  privat mit Fahrer Guide.',
+      title: 'Die schonsten Reiseziele Sri Lankas',
+      subtitle: 'Entdecken Sie handverlesene Reiseziele mit Luxuserlebnissen in ganz Sri Lanka.',
       explore: 'Touren entdecken',
       exploreAria: 'Touren entdecken fur',
       sigiriya: 'Sigiriya',
@@ -217,7 +217,7 @@ export const de: Dict = {
     packages: {
       tag: 'REISEPAKETE',
       title: 'Entdecken Sie unsere besten Touren',
-      subtitle: 'Sri Lanka holiday tours, sri lanka private tours und Rundreise Sri Lanka  massgeschneidert aus Deutschland.',
+      subtitle: 'Wahlen Sie aus unseren beliebtesten Sri Lanka Rundreisen oder gestalten Sie Ihre private Reise.',
       multiDay: 'Mehrtagige Touren',
       day: 'Tagestouren',
     },
@@ -403,8 +403,8 @@ export const de: Dict = {
     header: 'Sri Lanka Reisepakete',
     breadcrumb: 'Reisepakete',
     eyebrow: 'Private Rundreisen',
-    title: 'Sri Lanka Tour, Holiday Tours und Rundreise',
-    lead: 'Urlaub in sri lanka und urlaub auf sri lanka: Rundreise, sri lanka reise, sri lanka hotel auf Wunsch, Strand zum Baden. Private Pauschalreise mit Fahrer, keine Flugtickets, kein TUI Bus.',
+    title: 'Sri Lanka Reisepakete & Privatreisen',
+    lead: 'Vergleichen Sie 7, 8- und 10 Tage Reisepakete sowie kurzere Privatreisen. Jeder Urlaub ist privat, massgeschneidert und mit lokalem Fahrer Guide  keine Gruppenbusse.',
     faqTitle: 'Haufig gestellte Fragen',
     faq: [
       {
@@ -685,18 +685,17 @@ export const de: Dict = {
 
   seo: {
     home: {
-      title: 'Urlaub in Sri Lanka | Private Rundreise aus Deutschland',
+      title: 'Sri Lanka Rundreise | Privater Fahrer Guide 7 bis 10 Tage',
       description:
-        'Urlaub in sri lanka und urlaub auf sri lanka: Rundreise, Reisezeit, Baden, sri lanka hotel auf Wunsch. Private Tours aus Deutschland seit 1992. Keine Flugtickets.',
+        'Private Sri Lanka Rundreise mit Fahrer Guide: 7, 8 und 10 Tage, Sigiriya Lion Rock, Kandy, Ella, Yala Safari und Strand. Fur Reisende aus Deutschland, Osterreich und der Schweiz. Seit 1992.',
       keywords:
-        'urlaub sri lanka, sri lanka urlaub, urlaub in sri lanka, urlaub auf sri lanka, sri lanka reise, reise sri lanka, sri lanka reisen, sri lanka rundreise, rundreise sri lanka, sri lanka pauschalreise, urlaub sri lanka buchen, sri lanka hotel, heutiger name von ceylon, ceylon land, sri lanka ceylon, ceylon sri lanka',
+        'Sri Lanka Rundreise, Urlaub Sri Lanka, Sri Lanka Urlaub, privater Fahrer Sri Lanka, Rundreise Sri Lanka 7 Tage, Sri Lanka Reise',
     },
     tours: {
-      title: 'Rundreise Sri Lanka | 2 Wochen, Baden und Pauschalreise privat',
+      title: 'Sri Lanka Reisepakete | 7, 8 & 10 Tage Privatreise',
       description:
-        'Rundreise sri lanka 2 wochen, rundreise sri lanka und baden, sri lanka pauschalreise privat. Urlaub sri lanka kosten klar im Angebot. Kein Reisebus.',
-      keywords:
-        'rundreise sri lanka 2 wochen, sri lanka rundreise 2 wochen, rundreise sri lanka und baden, sri lanka rundreise und baden, sri lanka pauschalreise, urlaub sri lanka kosten, sri lanka urlaub kosten, urlaub sri lanka all inclusive, sri lanka all inclusive, sri lanka hotel, beste reisezeit sri lanka rundreise',
+        'Sri Lanka Reisepakete fur Gaste aus Deutschland, Osterreich und der Schweiz: private 7, 8- und 10 Tage Urlaube mit Fahrer Guide, Safari und Strand  keine Gruppenreisen.',
+      keywords: 'Sri Lanka Reisepakete, Sri Lanka Rundreise, Sri Lanka Urlaub, 7 Tage Sri Lanka, 10 Tage Sri Lanka',
     },
     services: {
       title: 'Private Touren, Fahrer & Urlaubsservice | Sri Lanka',
@@ -711,10 +710,10 @@ export const de: Dict = {
       keywords: 'Sri Lanka Reiseveranstalter, Sri Lanka Reiseagentur, Sri Lanka Rundreise',
     },
     contact: {
-      title: 'Urlaub Sri Lanka buchen | Kontakt',
+      title: 'Sri Lanka Rundreise planen | Kontakt',
       description:
-        'Urlaub sri lanka buchen: WhatsApp oder Formular. Private Rundreise, sri lanka hotel auf Wunsch. Antwort in 24 Stunden.',
-      keywords: 'urlaub sri lanka buchen, sri lanka reise buchen, sri lanka privatreise kontakt',
+        'Kontaktieren Sie Sundown Tours fur massgeschneiderte Sri Lanka Rundreisen und private Reisen. Wir antworten innerhalb von 24 Stunden.',
+      keywords: 'Sri Lanka Reise buchen, Sri Lanka Privatreise Kontakt, Sri Lanka Fahrer buchen',
     },
     tour7: {
       title: '7 Tage Sri Lanka Rundreise | Kultur, Bergland & Safari',
@@ -726,7 +725,7 @@ export const de: Dict = {
       title: 'Sri Lanka Rundreise 2 Wochen | 10 Tage mit privatem Fahrer',
       description:
         'Rundreise Sri Lanka 2 Wochen planen: 10 Tage Kultur, Teeland, Safari und Strand mit Chauffeur Guide  die komfortable Alternative zur gehetzten Woche.',
-      keywords: 'sri lanka rundreise 2 wochen, rundreise sri lanka 2 wochen, beste reisezeit sri lanka rundreise, rundreise sri lanka und baden, 10 tage sri lanka',
+      keywords: 'sri lanka rundreise 2 wochen, rundreise sri lanka 2 wochen, 10 Tage Sri Lanka, Sri Lanka Inselrundreise',
     },
     tour8: {
       title: '8 Tage Sri Lanka Rundreise | Wilpattu Safari, Sigiriya, Kandy, Ella & Strand',
@@ -768,13 +767,13 @@ export const de: Dict = {
       title: 'Ella Tagestour | Zugfahrt & Nine Arch Bridge',
       description:
         'Private Ella Tagestour mit Nine Arch Bridge, Little Adam’s Peak und dem Ravana Wasserfall im Bergland von Sri Lanka.',
-      keywords: 'ella sri lanka, ella tagestour, nine arch bridge, ella ausflug',
+      keywords: 'Ella Tagestour, Ella Ausflug, Nine Arch Bridge',
     },
     galleDay: {
       title: 'Galle Tagestour | Galle Fort & Sudkuste',
       description:
         'Entdecken Sie das Galle Fort, Strande und die Attraktionen der Sudkuste auf unserer privaten Tagestour.',
-      keywords: 'galle sri lanka, galle tagestour, galle fort, sudkuste sri lanka',
+      keywords: 'Galle Tagestour, Galle Fort, Sudkuste Sri Lanka',
     },
     kandyDay: {
       title: 'Kandy Tagestour | Kultur & landschaftliche Hohepunkte',
@@ -789,10 +788,10 @@ export const de: Dict = {
       keywords: 'Sigiriya Tagestour, Sigiriya Felsen, Lowenfelsen',
     },
     destinations: {
-      title: 'Sri Lanka Sehenswurdigkeiten | Maps, Strande und Kultur',
+      title: 'Sri Lanka Reiseziele | Strande, Tierwelt & Kulturstatten',
       description:
-        'Sri lanka maps fur die Rundreise: Ella, Galle, Colombo, Sigiriya und Safari Parks. Private Route statt nur eine Karte.',
-      keywords: 'sri lanka maps, sri lanka sehenswurdigkeiten, sri lanka reiseziele, ella sri lanka, galle sri lanka',
+        'Entdecken Sie die schonsten Reiseziele Sri Lankas: Strande, Nationalparks und kulturelle Hohepunkte.',
+      keywords: 'Sri Lanka Reiseziele, Sri Lanka Sehenswurdigkeiten',
     },
     guides: {
       title: 'Sri Lanka Reisefuhrer | Expertentipps & Insiderwissen',
@@ -801,16 +800,16 @@ export const de: Dict = {
       keywords: 'Sri Lanka Reisefuhrer, Sri Lanka Reisetipps',
     },
     destSigiriya: {
-      title: 'Sigiriya Sri Lanka | Lowenfelsen, Aufstieg und Tour',
+      title: 'Lion Rock Sri Lanka | Sigiriya Felsenfestung Guide',
       description:
-        'Sigiriya Lowenfelsen: Aufstieg, Fresken, Pidurangala und Kombination mit Dambulla auf einer privaten Kulturdreieck Tour.',
-      keywords: 'sigiriya sri lanka, lowenfelsen, sigiriya felsenfestung, sehenswurdigkeiten sri lanka',
+        'Sigiriya Lion Rock: Aufstieg, Fresken, Lowenpranken, Pidurangala und Kombination mit Dambulla auf einer privaten Kulturdreieck Tour.',
+      keywords: 'lion rock sri lanka, Sigiriya, Lowenfelsen, Sigiriya Felsenfestung, Sehenswurdigkeiten Sri Lanka',
     },
     destElla: {
-      title: 'Ella Sri Lanka | Nine Arch Bridge, Zug und Bergland',
+      title: 'Ella Sri Lanka Guide | Nine Arch Bridge, Zug & Bergland',
       description:
-        'Ella Sri Lanka: Nine Arch Bridge, Little Adams Peak, Teeplantagen und Panoramazug. Privat als Tagestour oder in der Rundreise.',
-      keywords: 'ella sri lanka, ella tagestour, nine arch bridge, sri lanka hochland',
+        'Ella Sri Lanka: Nine Arch Bridge, Little Adam’s Peak, Teeplantagen und die Panoramazugfahrt  privat als Tagestour oder in der Rundreise.',
+      keywords: 'ella sri lanka, Ella, Nine Arch Bridge, Ella Tagestour, Sri Lanka Hochland',
     },
     destYala: {
       title: 'Yala National Park | Safari, Leoparden & beste Reisezeit',
@@ -831,37 +830,34 @@ export const de: Dict = {
       keywords: 'Dambulla Hohlentempel, Goldener Tempel Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Galle Sri Lanka | Fort, Leuchtturm und Sudkuste',
+      title: 'Galle Fort Sri Lanka Guide | Wallanlagen, Leuchtturm & Kuste',
       description:
-        'Galle Sri Lanka und Galle Fort: Wallanlagen, Leuchtturm und Boutiquen. Private Tagestour oder Stopp auf der Rundreise.',
-      keywords: 'galle sri lanka, galle fort, galle tagestour, unesco galle',
+        'Galle Fort erkunden: hollandische Wallanlagen, Leuchtturm und Boutiquegassen  mit Tipps fur eine private Tagestour und die Sudkuste.',
+      keywords: 'Galle Fort, Galle Sri Lanka, Galle Tagestour, UNESCO Galle',
     },
     guideBestTime: {
-      title: 'Beste Reisezeit Sri Lanka | Wetter und Reisezeit',
+      title: 'Beste Reisezeit Sri Lanka | Wetter, Regenzeit & Monsun',
       description:
-        'Beste reisezeit sri lanka und wetter sri lanka: Monsun, Regenzeit West vs Ost, Safari und private Rundreise nach Monat.',
-      keywords:
-        'beste reisezeit sri lanka, sri lanka beste reisezeit, sri lanka reisezeit, reisezeit sri lanka, beste reisezeit sri lanka rundreise, wetter sri lanka, sri lanka wetter, sri lanka regenzeit, sri lanka wetter november, sri lanka wetter dezember, sri lanka november, sri lanka oktober, sri lanka august',
+        'Beste Reisezeit Sri Lanka und Wetter erklart: zwei Monsune, Regenzeit West- vs Ostkuste, Safari Zeiten und private Routen nach Monat.',
+      keywords: 'beste reisezeit sri lanka, sri lanka reisezeit, wetter sri lanka, sri lanka regenzeit, sri lanka wetter',
     },
     guideVisa: {
-      title: 'Visum Sri Lanka beantragen | Einreise ETA fur Deutsche',
+      title: 'Einreise Sri Lanka 2026 | ETA & Visum fur Deutsche',
       description:
-        'Visum sri lanka beantragen und sri lanka visum beantragen: ETA vor dem Flug auf eta.gov.lk. Einreise Sri Lanka fur deutsche Passe, keine inoffiziellen Visa Seiten.',
-      keywords:
-        'visum sri lanka beantragen, sri lanka visum beantragen, visum sri lanka, sri lanka visum, visa sri lanka, sri lanka visa, einreise sri lanka, sri lanka einreise',
+        'Einreise Sri Lanka: ETA Pflicht, ab 25. Mai 2026 kostenlose Touristen ETA fur Deutschland, Antrag nur auf eta.gov.lk  keine inoffiziellen Visa Seiten.',
+      keywords: 'einreise sri lanka, sri lanka einreise, Sri Lanka Visum, Sri Lanka ETA, Einreisebestimmungen',
     },
     guidePrivateDriver: {
-      title: 'Privater Fahrer Sri Lanka | Kosten und Chauffeur Tour',
+      title: 'Sri Lanka privater Fahrer | Chauffeur Touren erklart',
       description:
-        'Fahrer Sri Lanka und privater Fahrer: was enthalten ist, typische Tagesstrecken und wie Sie eine flexible Rundreise planen.',
-      keywords: 'fahrer sri lanka, privater fahrer sri lanka, sri lanka privater fahrer, sri lanka fahrer buchen kosten, sri lanka privater fahrer kosten, private fahrer sri lanka',
+        'Warum Reisende einen privaten Fahrer Guide wahlen, was enthalten ist, typische Tagesstrecken und wie Sie eine flexible Rundreise planen.',
+      keywords: 'Sri Lanka privater Fahrer, Chauffeur Guide Sri Lanka, Privatreise Sri Lanka',
     },
     guideBudget: {
-      title: 'Euro in Sri Lanka Rupien wechseln | Kurs und Reisekosten',
+      title: 'Sri Lanka Budget Reisefuhrer | Kosten & Geld Tipps',
       description:
-        'Euro in sri lanka rupien wechseln und urlaub sri lanka kosten: grober Kurs, kein Live Ticker. Sri lanka urlaub kosten fur private Rundreise klar vorab.',
-      keywords:
-        'urlaub sri lanka kosten, sri lanka urlaub kosten, euro in sri lanka rupien wechseln, 1 euro in sri lanka rupees, wechselkurs euro sri lanka rupie, sri lanka euro',
+        'Tagesbudget, Bargeld und Geldautomaten, Trinkgeld und wofur Ihr Geld bei einer Privatreise anfallt praktische Tipps fur Reisende.',
+      keywords: 'Sri Lanka Budget, Sri Lanka Kosten, Geld Tipps Sri Lanka, Reisebudget',
     },
     guideWildlife: {
       title: 'Sri Lanka Wildlife Guide | Elefanten, Leoparden & Wale',
@@ -882,30 +878,28 @@ export const de: Dict = {
       keywords: 'sri lanka strande, strande sri lanka, sri lanka strand, ostkuste sri lanka, Mirissa, Bentota',
     },
     guideTeaCountry: {
-      title: 'Ceylon Tee Sri Lanka | Plantagen und heutiger Name von Ceylon',
+      title: 'Sri Lanka Tee Land Guide | Hochland & Plantagen',
       description:
-        'Ceylon tee und ceylon tea im Hochland: Nuwara Eliya, Ella, Plantagen. Heutiger name von ceylon ist Sri Lanka. Ceylon zimt im Gewurzgarten, nicht im deutschen Supermarkt.',
-      keywords:
-        'ceylon tee, ceylon tea, ceylon zimt, zimt ceylon, ceylon zimt unterschied, ceylon vs cassia, cassia zimt, zimt cassia oder ceylon, ceylon zimt oder cassia, heutiger name von ceylon, ceylon land, sri lanka ceylon, ceylon sri lanka, cinnamomum ceylanicum, ceylon zimtstangen, schwarzer tee, ceylon cay',
+        'Nuwara Eliya, Ella und Teeplantagen im Hochlandagenbesuche, Panoramazuge und Wanderwege in den Bergen.',
+      keywords: 'Sri Lanka Tee Land, Nuwara Eliya, Ella Hochland, Teeplantagen Sri Lanka',
     },
     guideFood: {
-      title: 'Sri Lanka Food Guide | Rice and Curry, Ceylon Tee und Gewurze',
+      title: 'Sri Lanka Food Guide | Rice & Curry, Gewurze & Street Food',
       description:
-        'Rice and curry, ceylon curry auf der Insel, Hoppers, Kottu, ceylon tee. Gewurzgarten mit ceylon zimt auf der privaten Rundreise, keine Imbiss Suche in Deutschland.',
-      keywords:
-        'ceylon curry, rice and curry, ceylon tee, Sri Lanka Essen, Street Food Sri Lanka, sri lankische Kuche, ceylon zimt',
+        'Sri Lankische Kuche: Rice & Curry, Hoppers, Kottu, Gewurze und Street Food Sie probieren sollten und wie Sie bestellen.',
+      keywords: 'Sri Lanka Essen, Rice and Curry, Street Food Sri Lanka, sri lankische Kuche',
     },
     guidePacking: {
       title: 'Packliste Sri Lanka | Kleidung & Reise Utensilien',
       description:
         'Praktische Packliste fur Sri Lankaleidung fur Hitze und kuhles Hochland, Tempelkleidung, Safari Ausrustung und Essentials.',
-      keywords: 'packliste sri lanka, sprache sri lanka, sri lanka sprache, was einpacken sri lanka',
+      keywords: 'Packliste Sri Lanka, was einpacken Sri Lanka, Reiseutensilien Sri Lanka',
     },
     guideSafety: {
-      title: 'Sri Lanka aktuelle Lage | Sicherheit fur Reisende aus Deutschland',
+      title: 'Sri Lanka Sicherheit | Ist die Reise sicher?',
       description:
-        'Sri lanka aktuelle lage und Sicherheit: Strassen, Betrug, Wildtiere und Reisen mit privatem Fahrer. Vor dem Flug Auswartiges Amt lesen.',
-      keywords: 'sri lanka urlaub gefahrlich, sri lanka aktuelle lage, sri lanka sicherheit, ist sri lanka sicher',
+        'Sri Lanka Sicherheit fur Reisende aus Deutschland: Strassen, Betrug, Wildtiere, Gesundheit und Reisen mit privatem Fahrer Guide.',
+      keywords: 'sri lanka sicherheit, ist Sri Lanka sicher, Reisesicherheit Sri Lanka',
     },
     cancellation: {
       title: 'Stornierungsbedingungen | Sundown Tours Sri Lanka',
@@ -920,10 +914,10 @@ export const de: Dict = {
       keywords: 'Restaurants Sri Lanka, Essen Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
     },
     testimonials: {
-      title: 'Urlaub Sri Lanka Erfahrungen | Gastebewertungen',
+      title: 'Kundenbewertungen | Sundown Tours Sri Lanka',
       description:
-        'Urlaub sri lanka erfahrungen und sri lanka urlaub erfahrungen: echte Gaste zu privaten Rundreisen. Keine erfundenen Texte.',
-      keywords: 'urlaub sri lanka erfahrungen, sri lanka urlaub erfahrungen, sri lanka bewertungen',
+        'Lesen Sie Bewertungen zufriedener Kunden, die unsere privaten Sri Lanka Rundreisen erlebt haben.',
+      keywords: 'Sri Lanka Bewertungen, Erfahrungsberichte Sri Lanka',
     },
     privacy: {
       title: 'Datenschutzerklarung | Sundown Tours Sri Lanka',
@@ -931,10 +925,10 @@ export const de: Dict = {
       keywords: 'Datenschutz',
     },
     destColombo: {
-      title: 'Colombo Sri Lanka | Flughafen, Stadt und erste Nacht',
+      title: 'Colombo Sri Lanka | Flughafen CMB, Stadt & erste Nacht',
       description:
-        'Colombo Sri Lanka und sri lanka colombo: Unterschied Stadt vs Flughafen Sri Lanka (CMB), Negombo als erste Nacht, Fahrzeiten.',
-      keywords: 'colombo sri lanka, sri lanka colombo, colombo, sri lanka flughafen, flughafen sri lanka, cmb',
+        'Colombo und Flughafen Sri Lanka (CMB): Unterschied Stadt vs Katunayake, Negombo als erste Nacht, Fahrzeiten nach Frankfurt Ankunft.',
+      keywords: 'colombo sri lanka, Colombo, Flughafen Sri Lanka, sri lanka flughafen, CMB',
     },
     destNegombo: {
       title: 'Negombo Sri Lanka | Strand beim Flughafen Colombo',
@@ -961,10 +955,9 @@ export const de: Dict = {
       keywords: 'weligama sri lanka, Weligama, Weligama Surf, Sudkuste',
     },
     destNuwaraEliya: {
-      title: 'Nuwara Eliya Sri Lanka | Ceylon Tee Hochland',
-      description:
-        'Nuwara Eliya ceylon tee Plantagen zwischen Kandy und Ella: Fabrik, Verkostung und kuhle Nachte auf der privaten Rundreise.',
-      keywords: 'nuwara eliya, ceylon tee, ceylon tea, teeplantagen sri lanka, ceylon zimt',
+      title: "Nuwara Eliya Sri Lanka | Tea Country Highlands",
+      description: "Nuwara Eliya tea country stays between Kandy and Ella on private hill country itineraries.",
+      keywords: "destNuwaraEliya",
     },
     destAnuradhapura: {
       title: "Anuradhapura Sri Lanka | Ancient Sacred City",
@@ -1008,10 +1001,9 @@ export const de: Dict = {
       keywords: "guideHoneymoon",
     },
     guideFamilyTours: {
-      title: 'Sri Lanka mit Kindern | Private Familien Rundreise',
-      description:
-        'Sri lanka mit kindern: kurze Etappen, Safari Vormittag, Pool und Strand. Private Rundreise, kein Reisebus.',
-      keywords: 'sri lanka mit kindern, sri lanka familienreise, urlaub sri lanka mit kindern, private reise mit kindern',
+      title: "Sri Lanka Familienreisen | Private Touren mit Kindern",
+      description: "Familienfreundliche private Sri Lanka Rundreisen mit angenehmem Tempo, Safari Vormittagen und Erholung am Strand.",
+      keywords: "Sri Lanka Familienreise, private Reise mit Kindern, Familiensafari Sri Lanka",
     },
     guideLuxuryTours: {
       title: "Sri Lanka Luxury Tours | Private Chauffeur Travel",
@@ -1022,14 +1014,14 @@ export const de: Dict = {
       title: 'Sri Lanka Flughafentransfer | Fahrzeiten ab CMB',
       description:
         'Privater Transfer vom Bandaranaike Airport (CMB): Fahrzeiten nach Negombo, Colombo, Waskaduwa, Kandy, Sigiriya und Galle, Nachtankunfte und Festpreise.',
-      keywords: 'sri lanka flughafen, flughafen sri lanka, flugzeit sri lanka, sri lanka flugzeit, colombo flughafen, cmb privat',
+      keywords: 'Colombo Flughafentransfer, CMB privat, Negombo Transfer, Kalutara Transfer',
     },
     marketGermany: {
-      title: 'Sri Lanka Rundreise 2 Wochen aus Deutschland | Urlaub buchen',
+      title: 'Sri Lanka Rundreise aus Deutschland | Flug, Einreise, 2 Wochen',
       description:
-        'Welche Sprache spricht man in Sri Lanka, wie spat ist es, Visum beantragen, Euro wechseln und aktuelle Lage. Private Rundreise nach der Landung in Colombo seit 1992.',
+        'Sri Lanka Urlaub aus Deutschland: Flugzeit Frankfurt, Direktflug, Einreise/ETA, beste Reisezeit, Regenzeit, Sicherheit und private Rundreise 7 bis 14 Tage mit Fahrer Guide.',
       keywords:
-        'sri lanka rundreise, urlaub sri lanka, heutiger name von ceylon, ceylon land, sri lanka ceylon, ceylon sri lanka, welche sprache spricht man in sri lanka, wie lange fliegt man nach sri lanka, visum sri lanka beantragen, euro in sri lanka rupien wechseln, sri lanka aktuelle lage, beste reisezeit sri lanka, einreise sri lanka, time in sri lanka, sri lanka time, sri lanka maps',
+        'sri lanka rundreise, urlaub sri lanka, flugzeit sri lanka, einreise sri lanka, direktflug sri lanka, rundreise sri lanka 2 wochen, beste reisezeit sri lanka',
     },
     marketFrance: {
       title: "Sri Lanka Tours from France | Circuits Prives",
@@ -1116,7 +1108,7 @@ export const de: Dict = {
       title: 'Sri Lanka im August | Wetter, Ostkuste & Kulturdreieck',
       description:
         'Sri Lanka im August: Sudwestmonsun vs Ostkuste, Sigiriya, Kandy Perahera, Yala und private Routen statt nassem Sudkusten Strandurlaub.',
-      keywords: 'sri lanka august, sri lanka im august, reisezeit august, ostkuste august',
+      keywords: 'Sri Lanka August, Regenzeit August, Ostkuste August, Reisezeit August',
     },
     monthSeptember: {
       title: "Sri Lanka in September | Weather and Travel Tips",
@@ -1124,19 +1116,19 @@ export const de: Dict = {
       keywords: "monthSeptember",
     },
     monthOctober: {
-      title: 'Sri Lanka Oktober | Wetter und Reisezeit',
-      description: 'Sri lanka oktober und sri lanka wetter: welche Kuste passt, Safari und private Rundreise.',
-      keywords: 'sri lanka oktober, wetter sri lanka oktober, reisezeit oktober',
+      title: "Sri Lanka in October | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in October regions, weather and private itinerary ideas.",
+      keywords: "monthOctober",
     },
     monthNovember: {
-      title: 'Sri Lanka November | Wetter und Sudkuste',
-      description: 'Sri lanka november und sri lanka wetter november: Sudkuste startet oft in die Trockenzeit. Private Rundreise statt nur Strand.',
-      keywords: 'sri lanka november, sri lanka wetter november, reisezeit november',
+      title: "Sri Lanka in November | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in November regions, weather and private itinerary ideas.",
+      keywords: "monthNovember",
     },
     monthDecember: {
-      title: 'Sri Lanka Dezember | Wetter und Hochsaison',
-      description: 'Sri lanka wetter dezember: West und Sudkuste oft trocken, Hochsaison. Rundreise plus Baden planen.',
-      keywords: 'sri lanka dezember, sri lanka wetter dezember, urlaub sri lanka dezember',
+      title: "Sri Lanka in December | Weather and Travel Tips",
+      description: "Travel tips for Sri Lanka in December regions, weather and private itinerary ideas.",
+      keywords: "monthDecember",
     },
     terms: {
       title: "Terms of Service | Sundown Tours Sri Lanka",
