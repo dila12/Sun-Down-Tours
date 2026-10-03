@@ -41,22 +41,15 @@ export function scheduleDeferredAssets(): void {
     window.addEventListener(event, load, opts);
   });
 
-  // Otherwise pick them up once the page is idle, which keeps them off the
-  // critical path while still resolving icons without any user action.
-  const loadWhenIdle = () => {
-    const idle = (window as Window & { requestIdleCallback?: typeof requestIdleCallback })
-      .requestIdleCallback;
-    // Wait past typical LCP (~3–4s on Slow 4G) so FA/deferred.css stay off the LCP chain.
-    if (typeof idle === 'function') {
-      idle(() => load(), { timeout: 4500 });
-    } else {
-      window.setTimeout(load, 4000);
-    }
+  // requestIdleCallback can run in an early idle gap, before mobile LCP settles.
+  // Use a fixed post-load delay; interaction still loads these assets immediately.
+  const loadAfterDelay = () => {
+    window.setTimeout(load, 5000);
   };
 
   if (document.readyState === 'complete') {
-    loadWhenIdle();
+    loadAfterDelay();
   } else {
-    window.addEventListener('load', loadWhenIdle, { once: true });
+    window.addEventListener('load', loadAfterDelay, { once: true });
   }
 }
