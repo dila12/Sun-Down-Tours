@@ -404,7 +404,7 @@ export const de: Dict = {
     breadcrumb: 'Reisepakete',
     eyebrow: 'Private Rundreisen',
     title: 'Sri Lanka Reisepakete & Privatreisen',
-    lead: 'Vergleichen Sie 7, 8- und 10 Tage Reisepakete sowie kurzere Privatreisen. Jeder Urlaub ist privat, massgeschneidert und mit lokalem Fahrer Guide  keine Gruppenbusse.',
+    lead: 'Vergleichen Sie 7, 8 und 10 Tage Reisepakete sowie kurzere Privatreisen. Jeder Urlaub ist privat, massgeschneidert und mit lokalem Fahrer Guide  keine Gruppenbusse.',
     faqTitle: 'Haufig gestellte Fragen',
     faq: [
       {
@@ -694,7 +694,7 @@ export const de: Dict = {
     tours: {
       title: 'Sri Lanka Reisepakete | 7, 8 & 10 Tage Privatreise',
       description:
-        'Sri Lanka Reisepakete fur Gaste aus Deutschland, Osterreich und der Schweiz: private 7, 8- und 10 Tage Urlaube mit Fahrer Guide, Safari und Strand  keine Gruppenreisen.',
+        'Sri Lanka Reisepakete fur Gaste aus Deutschland, Osterreich und der Schweiz: private 7, 8 und 10 Tage Urlaube mit Fahrer Guide, Safari und Strand  keine Gruppenreisen.',
       keywords: 'Sri Lanka Reisepakete, Sri Lanka Rundreise, Sri Lanka Urlaub, 7 Tage Sri Lanka, 10 Tage Sri Lanka',
     },
     services: {

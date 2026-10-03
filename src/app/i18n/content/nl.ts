@@ -178,7 +178,7 @@ export const nl: Dict = {
     },
     intro: {
       title: 'Sri Lanka rondreizen & vakantiepakketten met lokale experts',
-      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8- en 10 daagse eilandroutes.',
+      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8 en 10 daagse eilandroutes.',
       feature1: 'Prive rondreizen',
       feature2: 'Prive chauffeurs',
       feature3: 'Pakketten op maat',
@@ -421,7 +421,7 @@ export const nl: Dict = {
     breadcrumb: 'Reisepakketten',
     eyebrow: 'Prive rondreizen',
     title: 'Sri Lanka reisepakketten & prive vakanties',
-    lead: 'Vergelijk 7, 8- en 10 daagse pakketten plus kortere privetrips. Elke vakantie is prive, op maat en met lokale chauffeur gidsgeen groepsbussen.',
+    lead: 'Vergelijk 7, 8 en 10 daagse pakketten plus kortere privetrips. Elke vakantie is prive, op maat en met lokale chauffeur gidsgeen groepsbussen.',
     faqTitle: 'Veelgestelde vragen',
     faq: [
       {
