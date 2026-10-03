@@ -177,6 +177,25 @@ export const pl: Dict = {
       feature3: 'Pakiety na miare',
       feature4: 'Zaufani lokalni przewodnicy',
     },
+    aeo: {
+      heading: 'Krotkie odpowiedzi o Sundown Tours',
+      whoQ: 'Czym jest Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka to lokalny organizator w Waskaduwa, Kalutara. Planujemy prywatne wycieczki po Sri Lance z kierowca przewodnikiem od 1992 roku.',
+      whereQ: 'Gdzie mieści sie Sundown Tours?',
+      whereA:
+        'Nasze biuro jest w Waskaduwa, Kalutara North, na zachodnim wybrzezu Sri Lanki. Odbior z lotniska jest na Bandaranaike (CMB) w Katunayake.',
+      whenQ: 'Kiedy najlepiej odwiedzic Sri Lanke?',
+      whenA:
+        'Sri Lanka jest destynacja caloroczna. Poludnie i zachod sa najlepsze od grudnia do kwietnia. Wschod jest zwykle lepszy od maja do wrzesnia.',
+      bookQ: 'Jak zarezerwowac prywatna wycieczke?',
+      bookA:
+        'Napisz na WhatsApp lub uzyj formularza. Odpowiadamy w ciagu 24 godzin z trasa szyta na miare i jasna wycena.',
+      howTitle: 'Jak zarezerwowac prywatna wycieczke po Sri Lance',
+      how1: 'Podaj terminy, liczbe osob i zainteresowania na WhatsApp lub w formularzu.',
+      how2: 'Wysylamy trase, czasy jazdy i przejrzysta cene w ciagu 24 godzin.',
+      how3: 'Potwierdzasz terminy. Przydzielamy kierowce przewodnika i spotykamy sie na lotnisku w Kolombo lub w hotelu.',
+    },
     destinations: {
       title: 'Najlepsze kierunki na Sri Lance',
       subtitle: 'Odkryj starannie wybrane kierunki i luksusowe doswiadczenia w calej Sri Lance.',
@@ -257,7 +276,19 @@ export const pl: Dict = {
       },
       {
         q: 'Czy potrzebna jest wiza i jakie jest lotnisko?',
-        a: 'Wiza Sri Lanka: ETA na eta.gov.lk przed lotem. Lotnisko Kolombo (CMB) to miejsce odbioru. Pogoda i pora deszczowa zaleza od wybrzeza nie od jednego kalendarza.',
+        a: 'Wiza Sri Lanka: ETA na eta.gov.lk przed lotem. Lotnisko Kolombo (CMB) to miejsce odbioru. Pogoda i pora deszczowa zaleza od wybrzeza, nie od jednego kalendarza.',
+      },
+      {
+        q: 'Ile dni potrzeba na wycieczke po Sri Lance?',
+        a: 'Siedem, osiem lub dziesiec dni obejmuje Trojkat Kulturowy, gory, safari i plaze. Czternascie dni daje wiecej czasu na polnoc lub wschodnie wybrzeze.',
+      },
+      {
+        q: 'Czy organizujecie wycieczki grupowe czy prywatne?',
+        a: 'Organizujemy prywatne wycieczki dla Twojej rodziny lub przyjaciol. Jedziesz wlasnym pojazdem z kierowca przewodnikiem, nie autobusem grupy.',
+      },
+      {
+        q: 'Ktora godzine ma Sri Lanka?',
+        a: 'Czas na Sri Lance to UTC+5:30. Wzgledem Polski to 4,5 godziny zima i 3,5 godziny latem.',
       },
     ],
   },

@@ -4,6 +4,41 @@
   vertical-align: -0.125em;
 }
 
+.aeo-facts {
+  padding: 0 0 2.5rem;
+}
+
+.aeo-facts .intro-title {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.aeo-facts-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.aeo-facts-list div {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+
+.aeo-facts-list dt {
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.35rem;
+}
+
+.aeo-facts-list dd {
+  margin: 0;
+  color: #374151;
+  line-height: 1.55;
+}
+
 .home-defer-ph {
   min-height: 16rem;
 }

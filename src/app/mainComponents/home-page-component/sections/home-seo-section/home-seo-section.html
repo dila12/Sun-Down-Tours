@@ -82,7 +82,7 @@
         <article class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <h3 itemprop="name">{{ faq.q }}</h3>
           <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p itemprop="text">
+            <p itemprop="text" class="aeo-answer">
               {{ faq.a }}
               @if (faq.links && faq.links.length) {
                 @for (l of faq.links; track $index) {

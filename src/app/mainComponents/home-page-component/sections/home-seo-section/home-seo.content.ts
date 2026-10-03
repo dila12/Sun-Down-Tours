@@ -250,9 +250,9 @@ const en: HomeSeoContent = {
       cards: [
         { icon: 'fa-landmark', title: 'Sigiriya Rock Fortress', text: 'UNESCO rock fortress and one of the most beautiful places in Sri Lanka climb at sunrise on a private day tour.', linkPageId: 'destSigiriya', linkLabel: 'Sigiriya guide' },
         { icon: 'fa-place-of-worship', title: 'Kandy Temple of the Tooth', text: 'Sri Dalada Maligawa, the sacred tooth relic temple beside Kandy Lake, with daily ceremonies and Peradeniya Gardens nearby.', linkPageId: 'destKandy', linkLabel: 'Temple of the Tooth guide' },
-        { icon: 'fa-train', title: 'Ella & Nine Arch Bridge', text: 'Hill-country views, the Nine Arch Bridge and the Kandy to Ella train ride through tea estates.', linkPageId: 'destElla', linkLabel: 'Ella & Nine Arch guide' },
+        { icon: 'fa-train', title: 'Ella & Nine Arch Bridge', text: 'Hill country views, the Nine Arch Bridge and the Kandy to Ella train ride through tea estates.', linkPageId: 'destElla', linkLabel: 'Ella & Nine Arch guide' },
         { icon: 'fa-paw', title: 'Yala National Park Safari', text: 'The classic Sri Lanka safari for leopards, elephants and birds on a morning jeep game drive.', linkPageId: 'destYala', linkLabel: 'Yala safari guide' },
-        { icon: 'fa-ship', title: 'Galle Fort', text: 'UNESCO-listed Dutch ramparts, lighthouse and south-coast beaches after culture and safari days.', linkPageId: 'destGalle', linkLabel: 'Galle Fort guide' },
+        { icon: 'fa-ship', title: 'Galle Fort', text: 'UNESCO listed Dutch ramparts, lighthouse and south coast beaches after culture and safari days.', linkPageId: 'destGalle', linkLabel: 'Galle Fort guide' },
         { icon: 'fa-subway', title: 'Kandy to Ella Train', text: 'Sri Lanka’s most famous train ride, timed with reserved seats and a private driver for luggage.', linkPageId: 'guideTrainJourneys', linkLabel: 'Train ride guide' },
       ],
       cardCols: 3,
@@ -444,11 +444,11 @@ const en: HomeSeoContent = {
     },
     {
       q: 'Can you customise a Sri Lanka honeymoon or luxury tour?',
-      a: 'Every Sundown Tours itinerary is tailor-made. We arrange boutique hotels, private dining, spa treatments and special surprises for honeymoons and luxury holidays.',
+      a: 'Every Sundown Tours itinerary is tailor made. We arrange boutique hotels, private dining, spa treatments and special surprises for honeymoons and luxury holidays.',
     },
     {
       q: 'What are the most beautiful places in Sri Lanka?',
-      a: 'First-time private tours usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, a Yala safari, and a south-coast stay near Galle or Mirissa.',
+      a: 'First time private tours usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill country train, a Yala safari, and a south coast stay near Galle or Mirissa.',
       links: [
         { pageId: 'destinations', label: 'Sri Lanka travel places' },
         { pageId: 'destSigiriya', label: 'Sigiriya' },

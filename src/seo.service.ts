@@ -74,6 +74,7 @@ export class SeoService {
 
     this.setCanonical(url);
     this.setAlternates(pageId);
+    this.setLlmsHint();
   }
 
   private truncate(text: string, max = 155): string {
@@ -139,6 +140,20 @@ export class SeoService {
       this.doc.head.appendChild(link);
     }
     link.setAttribute('href', url);
+  }
+
+  /** Point AI crawlers at the plain text citation file on every page. */
+  private setLlmsHint(): void {
+    let link = this.doc.head.querySelector<HTMLLinkElement>('link[data-seo-llms]');
+    if (!link) {
+      link = this.doc.createElement('link');
+      link.setAttribute('rel', 'alternate');
+      link.setAttribute('type', 'text/plain');
+      link.setAttribute('title', 'LLM content');
+      link.setAttribute('data-seo-llms', '');
+      this.doc.head.appendChild(link);
+    }
+    link.setAttribute('href', `${BASE_URL}/llms.txt`);
   }
 
   private setAlternates(pageId: string): void {

@@ -177,6 +177,25 @@ export const it: Dict = {
       feature3: 'Pacchetti su misura',
       feature4: 'Guide locali affidabili',
     },
+    aeo: {
+      heading: 'Risposte rapide su Sundown Tours',
+      whoQ: 'Chi e Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka e un tour operator locale a Waskaduwa, Kalutara. Organizziamo tour privati in Sri Lanka con autista guida dal 1992.',
+      whereQ: 'Dove ha sede Sundown Tours?',
+      whereA:
+        'Il nostro ufficio e a Waskaduwa, Kalutara North, sulla costa ovest dello Sri Lanka. Il ritiro aeroporto e a Bandaranaike (CMB) a Katunayake.',
+      whenQ: 'Qual e il periodo migliore per visitare lo Sri Lanka?',
+      whenA:
+        'Lo Sri Lanka e visitabile tutto l anno. Le coste sud e ovest sono ideali da dicembre ad aprile. La costa est e di solito migliore da maggio a settembre.',
+      bookQ: 'Come prenoto un tour privato?',
+      bookA:
+        'Scrivici su WhatsApp o usa il modulo di contatto. Rispondiamo entro 24 ore con un itinerario su misura e un preventivo chiaro.',
+      howTitle: 'Come prenotare un tour privato in Sri Lanka',
+      how1: 'Comunica date, viaggiatori e interessi su WhatsApp o nel modulo.',
+      how2: 'Inviamo itinerario, tempi di guida e un prezzo trasparente entro 24 ore.',
+      how3: 'Confermi le date. Assegniamo un autista guida e ti incontriamo all aeroporto di Colombo o in hotel.',
+    },
     destinations: {
       title: 'Le migliori destinazioni dello Sri Lanka',
       subtitle: 'Scopri destinazioni selezionate ed esperienze di lusso in tutto lo Sri Lanka.',
@@ -257,7 +276,19 @@ export const it: Dict = {
       },
       {
         q: 'Serve il visto Sri Lanka e quando andare?',
-        a: 'Visto Sri Lanka: ETA su eta.gov.lk prima del volo. Meteo Sri Lanka e quando andare: sud e ovest dicembre–aprile, est maggio–settembre. Aeroporto Colombo (CMB) e il punto di incontro.',
+        a: 'Visto Sri Lanka: ETA su eta.gov.lk prima del volo. Meteo Sri Lanka e quando andare: sud e ovest dicembre ad aprile, est maggio a settembre. Aeroporto Colombo (CMB) e il punto di incontro.',
+      },
+      {
+        q: 'Quanti giorni servono per un tour in Sri Lanka?',
+        a: 'Sette, otto o dieci giorni coprono il Triangolo Culturale, le colline, un safari e la spiaggia. Quattordici giorni lasciano piu tempo al nord o alla costa est.',
+      },
+      {
+        q: 'Fate tour di gruppo o tour privati?',
+        a: 'Facciamo tour privati per la tua famiglia o i tuoi amici. Viaggi con un veicolo dedicato e un autista guida, non con un pullman di gruppo.',
+      },
+      {
+        q: 'Che ora e in Sri Lanka?',
+        a: 'L ora in Sri Lanka e UTC+5:30. Rispetto all Italia sono 4,5 ore in inverno e 3,5 ore in estate.',
       },
     ],
   },

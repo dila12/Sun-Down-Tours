@@ -177,6 +177,25 @@ export const es: Dict = {
       feature3: 'Paquetes a medida',
       feature4: 'Guias locales de confianza',
     },
+    aeo: {
+      heading: 'Respuestas rapidas sobre Sundown Tours',
+      whoQ: 'Quien es Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka es un operador local en Waskaduwa, Kalutara. Planificamos circuitos privados por Sri Lanka con chofer guia desde 1992.',
+      whereQ: 'Donde esta Sundown Tours?',
+      whereA:
+        'Nuestra oficina esta en Waskaduwa, Kalutara North, en la costa oeste de Sri Lanka. La recogida en aeropuerto es en Bandaranaike (CMB) en Katunayake.',
+      whenQ: 'Cual es la mejor epoca para visitar Sri Lanka?',
+      whenA:
+        'Sri Lanka se visita todo el ano. Las costas sur y oeste son mejores de diciembre a abril. La costa este suele ser mejor de mayo a septiembre.',
+      bookQ: 'Como reservo un circuito privado?',
+      bookA:
+        'Escribenos por WhatsApp o usa el formulario. Respondemos en 24 horas con un itinerario a medida y un presupuesto claro.',
+      howTitle: 'Como reservar un circuito privado por Sri Lanka',
+      how1: 'Indica fechas, viajeros e intereses por WhatsApp o el formulario.',
+      how2: 'Enviamos ruta, tiempos de conduccion y un precio transparente en 24 horas.',
+      how3: 'Confirmas las fechas. Asignamos un chofer guia y te recogemos en el aeropuerto de Colombo o en el hotel.',
+    },
     destinations: {
       title: 'Los mejores destinos de Sri Lanka',
       subtitle: 'Descubre destinos seleccionados y experiencias de lujo por todo Sri Lanka.',

@@ -177,6 +177,25 @@ export const de: Dict = {
       feature3: 'Massgeschneiderte Pakete',
       feature4: 'Vertrauenswurdige lokale Guides',
     },
+    aeo: {
+      heading: 'Kurze Antworten zu Sundown Tours',
+      whoQ: 'Wer ist Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka ist ein lokaler Reiseveranstalter in Waskaduwa, Kalutara. Wir planen private Sri Lanka Rundreisen mit Fahrer Guide seit 1992.',
+      whereQ: 'Wo hat Sundown Tours seinen Sitz?',
+      whereA:
+        'Unser Buro liegt in Waskaduwa, Kalutara North, an der Westkuste Sri Lankas. Die Abholung erfolgt am Flughafen Bandaranaike (CMB) in Katunayake.',
+      whenQ: 'Wann ist die beste Reisezeit fur Sri Lanka?',
+      whenA:
+        'Sri Lanka ist ein Ganzjahresziel. Sudkuste und Westkuste sind von Dezember bis April am besten. Die Ostkuste ist meist von Mai bis September besser.',
+      bookQ: 'Wie buche ich eine private Rundreise?',
+      bookA:
+        'Schreiben Sie uns per WhatsApp oder nutzen Sie das Kontaktformular. Wir antworten innerhalb von 24 Stunden mit einer massgeschneiderten Route und einem klaren Angebot.',
+      howTitle: 'So buchen Sie eine private Sri Lanka Rundreise',
+      how1: 'Nennen Sie uns Daten, Reisende und Interessen per WhatsApp oder Formular.',
+      how2: 'Wir senden Route, Fahrzeiten und einen transparenten Preis innerhalb von 24 Stunden.',
+      how3: 'Sie bestatigen die Daten. Wir stellen einen Fahrer Guide und holen Sie am Flughafen Colombo oder im Hotel ab.',
+    },
     destinations: {
       title: 'Ella Sri Lanka und Galle Sri Lanka',
       subtitle: 'Visit sri lanka tours zu Ella, Galle, Sigiriya, Kandy und Colombo  privat mit Fahrer Guide.',

@@ -27,6 +27,12 @@ import { TOUR_CATALOG } from './tours/catalog';
 const SCRIPT_ID = 'ld-json-graph';
 const OG_IMAGE = `${BASE_URL}/assets/img/package-2.webp`;
 const LOGO = `${BASE_URL}/assets/img/favicon.png`;
+/** Citation date for Article / HowTo freshness signals. */
+const CONTENT_MODIFIED = '2026-10-03';
+const SPEAKABLE = {
+  '@type': 'SpeakableSpecification',
+  cssSelector: ['h1', '.aeo-answer', '.faq-answer', '.faq-question', '.intro-subtitle'],
+};
 
 /** Page ids that have localized FAQ + breadcrumb content in content/*.ts. */
 const CONTENT_NS = ['home', 'about', 'services', 'tours', 'contact'] as const;
@@ -51,6 +57,7 @@ export class StructuredDataService {
       this.organization(locale),
       ...this.people(locale),
       this.website(locale),
+      this.webPage(pageId, locale),
     ];
 
     const breadcrumb = this.breadcrumb(pageId, locale);
@@ -61,6 +68,16 @@ export class StructuredDataService {
     const faq = this.faqPage(pageId, locale);
     if (faq) {
       graph.push(faq);
+    }
+
+    const howTo = this.howToBook(pageId, locale);
+    if (howTo) {
+      graph.push(howTo);
+    }
+
+    const catalog = this.tourList(pageId, locale);
+    if (catalog) {
+      graph.push(catalog);
     }
 
     const product = this.tourProduct(pageId, locale);
@@ -99,6 +116,10 @@ export class StructuredDataService {
       priceRange: '$$',
       description: this.i18n.t('seo.home.description', locale),
       alternateName: 'Sri Lanka Private Tours',
+      foundingDate: '1992',
+      currenciesAccepted: 'USD, EUR, GBP',
+      paymentAccepted: 'Cash, Bank Transfer',
+      availableLanguage: ['English', 'German', 'French', 'Italian', 'Spanish', 'Polish', 'Russian', 'Dutch'],
       knowsAbout: [
         'Sri Lanka tours',
         'Sri Lanka tour packages',
@@ -107,6 +128,8 @@ export class StructuredDataService {
         'Yala safari',
         'Sigiriya',
         'Ella train journey',
+        'Kandy Temple of the Tooth',
+        'Galle Fort',
       ],
       areaServed: [
         { '@type': 'Country', name: 'Sri Lanka' },
@@ -157,6 +180,7 @@ export class StructuredDataService {
       url: BASE_URL,
       logo: { '@type': 'ImageObject', url: LOGO },
       description: this.i18n.t('seo.about.description', locale),
+      foundingDate: '1992',
       founder: { '@id': `${BASE_URL}/#person dilan lakshitha` },
       employee: [
         { '@id': `${BASE_URL}/#person dilan lakshitha` },
@@ -220,6 +244,68 @@ export class StructuredDataService {
       alternateName: 'Sri Lanka Tours',
       inLanguage: LOCALE_META[locale].htmlLang,
       publisher: { '@id': `${BASE_URL}/#organization` },
+      speakable: SPEAKABLE,
+    };
+  }
+
+  private webPage(pageId: string, locale: Locale): Record<string, unknown> {
+    const url = this.i18n.url(pageId, locale);
+    const title = this.i18n.t(`seo.${pageId}.title`, locale);
+    const description = this.i18n.t(`seo.${pageId}.description`, locale);
+    const name = title.includes('seo.') ? this.i18n.t('common.brand.name', locale) : title.split('|')[0].trim();
+    const desc = description.includes('seo.') ? this.i18n.t('seo.home.description', locale) : description;
+    return {
+      '@type': 'WebPage',
+      '@id': `${url}#webpage`,
+      url,
+      name,
+      description: desc,
+      inLanguage: LOCALE_META[locale].htmlLang,
+      isPartOf: { '@id': `${BASE_URL}/#website` },
+      about: { '@id': `${BASE_URL}/#travelagency` },
+      primaryImageOfPage: { '@type': 'ImageObject', url: OG_IMAGE },
+      speakable: SPEAKABLE,
+      dateModified: CONTENT_MODIFIED,
+    };
+  }
+
+  private howToBook(pageId: string, locale: Locale): Record<string, unknown> | null {
+    if (pageId !== 'home') {
+      return null;
+    }
+    const steps = ['home.aeo.how1', 'home.aeo.how2', 'home.aeo.how3'].map((key, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      text: this.i18n.t(key, locale),
+    }));
+    if (steps.some((step) => String(step.text).startsWith('home.aeo.'))) {
+      return null;
+    }
+    return {
+      '@type': 'HowTo',
+      name: this.i18n.t('home.aeo.howTitle', locale),
+      description: this.i18n.t('home.aeo.bookA', locale),
+      inLanguage: LOCALE_META[locale].htmlLang,
+      totalTime: 'PT24H',
+      step: steps,
+    };
+  }
+
+  private tourList(pageId: string, locale: Locale): Record<string, unknown> | null {
+    if (pageId !== 'tours') {
+      return null;
+    }
+    return {
+      '@type': 'ItemList',
+      name: this.i18n.t('tours.title', locale),
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      numberOfItems: TOUR_CATALOG.length,
+      itemListElement: TOUR_CATALOG.map((tour, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: this.i18n.url(tour.pageId, locale),
+        name: this.i18n.t(`seo.${tour.pageId}.title`, locale).split('|')[0].trim(),
+      })),
     };
   }
 
@@ -331,6 +417,7 @@ export class StructuredDataService {
   private faqSchema(items: { q: string; a: string }[]): Record<string, unknown> {
     return {
       '@type': 'FAQPage',
+      speakable: SPEAKABLE,
       mainEntity: items.map((item) => ({
         '@type': 'Question',
         name: item.q,
@@ -475,6 +562,9 @@ export class StructuredDataService {
       author: { '@id': `${BASE_URL}/#organization` },
       publisher: { '@id': `${BASE_URL}/#organization` },
       mainEntityOfPage: this.i18n.url(pageId, locale),
+      dateModified: CONTENT_MODIFIED,
+      speakable: SPEAKABLE,
+      about: { '@type': 'Place', name: 'Sri Lanka' },
     };
   }
 

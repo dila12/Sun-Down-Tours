@@ -134,21 +134,21 @@ export const en: Dict = {
       acceptTermsError: 'You must accept terms',
       complete: 'Complete Booking',
       bookAheadLead: 'Dates fill fast',
-      bookAheadDetail: 'Private tours are limitedsecure your preferred date now.',
+      bookAheadDetail: 'Private tours are limited. Secure your preferred date now.',
       demandWarningLead: 'High demand',
-      demandWarningDetail: 'This day books fastreserve soon to keep your preferred date. Still available online.',
+      demandWarningDetail: 'This day books fast. Reserve soon to keep your preferred date. Still available online.',
       oneBookingLeftLead: 'Only 1 booking left',
-      oneBookingLeftDetail: 'This date is almost gonecomplete booking now to secure your spot.',
+      oneBookingLeftDetail: 'This date is almost gone. Complete booking now to secure your spot.',
       bookingsLeftLead1: 'Only 1 booking left',
       bookingsLeftLead2: 'Only 2 bookings left',
       bookingsLeftLead3: 'Only 3 bookings left',
-      bookingsLeftDetail1: 'This date is almost gonecomplete booking now to secure your spot.',
-      bookingsLeftDetail2: 'Only a couple of bookings left for this datereserve soon to keep it.',
-      bookingsLeftDetail3: 'Just a few bookings left for this datereserve soon to keep it.',
+      bookingsLeftDetail1: 'This date is almost gone. Complete booking now to secure your spot.',
+      bookingsLeftDetail2: 'Only a couple of bookings left for this date. Reserve soon to keep it.',
+      bookingsLeftDetail3: 'Just a few bookings left for this date. Reserve soon to keep it.',
       fewSpotsLeft: 'Few spots left',
       almostFullLead: 'Almost full',
-      almostFullDetail: 'This date is filling fastcomplete your booking now to secure it. Still available online.',
-      demandBookSoon: 'Still bookable onlinesecure this date before it goes.',
+      almostFullDetail: 'This date is filling fast. Complete your booking now to secure it. Still available online.',
+      demandBookSoon: 'Still bookable online. Secure this date before it goes.',
       softUrgencyLead: 'Popular dates fill fast',
       softUrgencyDetail: 'Private tours book out early on busy weekdays.',
       popularDates: 'Popular dates',
@@ -189,6 +189,25 @@ export const en: Dict = {
       feature3: 'tailor made Packages',
       feature4: 'Trusted Local Guides',
     },
+    aeo: {
+      heading: 'Quick answers about Sundown Tours',
+      whoQ: 'Who is Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka is a local tour operator in Waskaduwa, Kalutara. We plan private Sri Lanka tours with a chauffeur guide since 1992.',
+      whereQ: 'Where is Sundown Tours based?',
+      whereA:
+        'Our office is in Waskaduwa, Kalutara North, on the west coast of Sri Lanka. Airport pickup is at Bandaranaike International Airport (CMB) in Katunayake.',
+      whenQ: 'When is the best time to visit Sri Lanka?',
+      whenA:
+        'Sri Lanka is a year round destination. The south and west coasts are best from December to April. The east coast is typically better from May to September.',
+      bookQ: 'How do I book a private Sri Lanka tour?',
+      bookA:
+        'Message us on WhatsApp or use the contact form. We reply within 24 hours with a tailor made itinerary and a clear quote.',
+      howTitle: 'How to book a private Sri Lanka tour',
+      how1: 'Tell us your dates, travellers and interests on WhatsApp or the contact form.',
+      how2: 'We send a proposed route, driving times and a transparent price within 24 hours.',
+      how3: 'You confirm the dates. We assign a chauffeur guide and meet you at Colombo airport or your hotel.',
+    },
     destinations: {
       title: 'What to See in Sri Lanka',
       subtitle: 'Top 10 places to visit in Sri Lanka on a private tour: Sigiriya, Kandy Temple of the Tooth, Ella train, Nuwara Eliya Sri Lanka, Yala safari and Galle.',
@@ -224,8 +243,8 @@ export const en: Dict = {
     about: {
       tag: 'ABOUT US',
       title: 'Trusted Sri Lanka Tour Company',
-      p1: 'Sundown Tours Sri Lanka has been a licensed inbound tourism operator since 1992. With over three decades of expertise, we specialise in Sri Lanka private tours, tailor-made holidays and chauffeur-driven journeys designed around each traveller’s needs.',
-      p2: 'From Sigiriya Rock Fortress and the Kandy Temple of the Tooth to Ella’s Nine Arch Bridge, the hill-country train ride and Yala National Park safari, we plan the most beautiful places in Sri Lanka into one private itinerary.',
+      p1: 'Sundown Tours Sri Lanka has been a licensed inbound tourism operator since 1992. With over three decades of expertise, we specialise in Sri Lanka private tours, tailor made holidays and chauffeur driven journeys designed around each traveller’s needs.',
+      p2: 'From Sigiriya Rock Fortress and the Kandy Temple of the Tooth to Ella’s Nine Arch Bridge, the hill country train ride and Yala National Park safari, we plan the most beautiful places in Sri Lanka into one private itinerary.',
       gallery1Alt: 'Private Sri Lanka tour with Sundown Tours',
       gallery2Alt: 'Sri Lanka tour packages with chauffeur guide',
     },
@@ -260,11 +279,11 @@ export const en: Dict = {
       },
       {
         q: 'Can the itinerary be customized?',
-        a: 'Absolutely. All of our Sri Lanka tours are fully tailor-made. Tell us your travel dates, interests and budget and we will design the perfect route for you.',
+        a: 'Absolutely. All of our Sri Lanka tours are fully tailor made. Tell us your travel dates, interests and budget and we will design the perfect route for you.',
       },
       {
         q: 'What are the most beautiful places in Sri Lanka?',
-        a: 'On a private tour we usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, a Yala National Park safari, and a south-coast stay near Galle or Mirissa.',
+        a: 'On a private tour we usually include Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill country train, a Yala National Park safari, and a south coast stay near Galle or Mirissa.',
       },
       {
         q: 'Do you handle Sri Lanka inbound tourism for private groups?',
@@ -272,7 +291,7 @@ export const en: Dict = {
       },
       {
         q: 'Where is the best Sri Lanka safari?',
-        a: 'Yala National Park is the best-known Sri Lanka safari for leopards. Udawalawe is stronger for elephants and families. We book private jeep safaris to match your dates and route.',
+        a: 'Yala National Park is the best known Sri Lanka safari for leopards. Udawalawe is stronger for elephants and families. We book private jeep safaris to match your dates and route.',
       },
       {
         q: 'When is the best time to visit Sri Lanka from Europe?',
@@ -319,17 +338,17 @@ export const en: Dict = {
     eyebrow: 'About Us',
     title: 'Trusted Sri Lanka Tour Company Since 1992',
     p1: 'Sundown Tours Sri Lanka is a locally registered inbound tourism operator based in Waskaduwa on the west coast. Since 1992 we have planned Sri Lanka private tours for travellers from the UK, Europe and beyond — licensed chauffeur guides and itineraries that match your pace rather than a fixed group schedule.',
-    p2: 'Our routes cover the most beautiful places in Sri Lanka: Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, Yala National Park safari, and the south-west coast around Galle. Every package includes a private air-conditioned vehicle, an English-speaking chauffeur guide, fuel and driver expenses; hotels, entrance tickets and safaris can be arranged with transparent pricing.',
-    p3: 'Whether you need a one-day Sigiriya excursion or a ten-day island circuit finishing at the beach, you speak directly with our planning team on WhatsApp or email. We reply within 24 hours with a proposed route, realistic driving times and a clear quoteo call centres, no hard sell.',
+    p2: 'Our routes cover the most beautiful places in Sri Lanka: Sigiriya Rock Fortress, the Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill country train, Yala National Park safari, and the south west coast around Galle. Every package includes a private air conditioned vehicle, an English speaking chauffeur guide, fuel and driver expenses; hotels, entrance tickets and safaris can be arranged with transparent pricing.',
+    p3: 'Whether you need a one day Sigiriya excursion or a ten day island circuit finishing at the beach, you speak directly with our planning team on WhatsApp or email. We reply within 24 hours with a proposed route, realistic driving times and a clear quote. No call centres, no hard sell.',
     whyTitle: 'Why Choose Sundown Tours',
     whyIntro:
-      'We are a Waskaduwa based family tour company. You speak with the same local planners who build your route call centreravel with a private chauffeur guide who knows the roads, timings and seasonal conditions.',
+      'We are a Waskaduwa based family tour company. You speak with the same local planners who build your route. You travel with a private chauffeur guide who knows the roads, timings and seasonal conditions.',
     why1Title: 'Local expertise since 1992',
     why1Body:
       'Three decades of private chauffeur driven tours for travellers from Germany, the UK, France, Italy, Spain, Poland and beyond, with realistic driving times and transparent quotes.',
     why2Title: 'Named people you can message',
     why2Body:
-      'Meet Dilan (Founder) and Yohan (Senior Consultant) on our team sectiontsApp them directly for itinerary questions before you book.',
+      'Meet Dilan (Founder) and Yohan (Senior Consultant) on our team section. WhatsApp them directly for itinerary questions before you book.',
     why3Title: 'Private vehicle, your pace',
     why3Body:
       'Every package includes a private air conditioned vehicle and chauffeur guide. Hotels, tickets and safaris can be arranged with clear pricing.',
@@ -660,7 +679,7 @@ export const en: Dict = {
   destinationsHub: {
     h1: 'Most Beautiful Places in Sri Lanka',
     breadcrumb: 'Destinations',
-    lead: 'Sri Lanka travel places that shape a private tour: Sigiriya rock fortress, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill-country train, Yala National Park safari, Dambulla, Galle Fort and Mirissa.',
+    lead: 'Sri Lanka travel places that shape a private tour: Sigiriya rock fortress, Kandy Temple of the Tooth, Ella’s Nine Arch Bridge and hill country train, Yala National Park safari, Dambulla, Galle Fort and Mirissa.',
     relatedTitle: 'Related destinations',
   },
   guidesHub: {
@@ -880,7 +899,7 @@ export const en: Dict = {
     destElla: {
       title: 'Ella Sri Lanka | Nine Arch Bridge, Train Ride & Hill Country',
       description:
-        'Visit Ella, Sri Lanka: Nine Arch Bridge, the Kandy to Ella train ride, Little Adam’s Peak and tea trails on a private hill-country day trip or overnight stay.',
+        'Visit Ella, Sri Lanka: Nine Arch Bridge, the Kandy to Ella train ride, Little Adam’s Peak and tea trails on a private hill country day trip or overnight stay.',
       keywords:
         'ella sri lanka, things to do in ella, ella rock, kandy to ella, kandy to ella train, sri lanka train, nine arch bridge, ella day tour',
     },

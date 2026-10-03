@@ -178,11 +178,30 @@ export const nl: Dict = {
     },
     intro: {
       title: 'Sri Lanka rondreizen & vakantiepakketten met lokale experts',
-      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8- en 10 daagse eilandroutes.',
+      subtitle: 'Prive rondreizen, chauffeur gids en 7, 8 en 10 daagse eilandroutes.',
       feature1: 'Prive rondreizen',
       feature2: 'Prive chauffeurs',
       feature3: 'Pakketten op maat',
       feature4: 'Betrouwbare lokale gidsen',
+    },
+    aeo: {
+      heading: 'Korte antwoorden over Sundown Tours',
+      whoQ: 'Wie is Sundown Tours?',
+      whoA:
+        'Sundown Tours Sri Lanka is een lokale touroperator in Waskaduwa, Kalutara. Wij plannen prive rondreizen door Sri Lanka met chauffeur gids sinds 1992.',
+      whereQ: 'Waar is Sundown Tours gevestigd?',
+      whereA:
+        'Ons kantoor is in Waskaduwa, Kalutara North, aan de westkust van Sri Lanka. Luchthavenontvangst is op Bandaranaike (CMB) in Katunayake.',
+      whenQ: 'Wat is de beste reistijd voor Sri Lanka?',
+      whenA:
+        'Sri Lanka is jaarrond bereisbaar. Zuidkust en westkust zijn het best van december tot april. De oostkust is meestal beter van mei tot september.',
+      bookQ: 'Hoe boek ik een prive rondreis?',
+      bookA:
+        'Stuur een WhatsApp of gebruik het contactformulier. Wij antwoorden binnen 24 uur met een route op maat en een duidelijke offerte.',
+      howTitle: 'Hoe u een prive rondreis door Sri Lanka boekt',
+      how1: 'Geef data, reizigers en interesses door via WhatsApp of het formulier.',
+      how2: 'Wij sturen een route, rijtijden en een transparante prijs binnen 24 uur.',
+      how3: 'U bevestigt de data. Wij wijzen een chauffeur gids toe en ontmoeten u op luchthaven Colombo of in het hotel.',
     },
     destinations: {
       title: 'Topbestemmingen in Sri Lanka',
@@ -259,7 +278,7 @@ export const nl: Dict = {
       },
       {
         q: 'Wat is de beste reistijd voor Sri Lanka vanuit Europa?',
-        a: 'Sri Lanka is jaarrond bereisbaar. Zuid- en westkust: december tot april; oostkust: meestal mei tot september. Wij plannen de priveroute rond de moesson van uw reismaand.',
+        a: 'Sri Lanka is jaarrond bereisbaar. Zuidkust en westkust: december tot april; oostkust: meestal mei tot september. Wij plannen de priveroute rond de moesson van uw reismaand.',
       },
       {
         q: 'Welk pakket past bij een eerste bezoek?',
@@ -272,6 +291,18 @@ export const nl: Dict = {
       {
         q: 'Heb ik een visum nodig en waar is de luchthaven?',
         a: 'Sri Lanka visum: ETA op eta.gov.lk voor de vlucht. Luchthaven Colombo (CMB) in Katunayake is de ontmoetingsplaats. Beste tijd hangt af van de kust, niet van een enkele maand.',
+      },
+      {
+        q: 'Hoeveel dagen heb ik nodig voor een rondreis door Sri Lanka?',
+        a: 'Zeven, acht of tien dagen dekken de Culturele Driehoek, het heuvelland, een safari en het strand. Veertien dagen geeft meer rust voor het noorden of de oostkust.',
+      },
+      {
+        q: 'Doen jullie groepsreizen of prive rondreizen?',
+        a: 'Wij doen prive rondreizen voor uw gezin of vrienden. U reist in een eigen voertuig met chauffeur gids, niet in een groepsbus.',
+      },
+      {
+        q: 'Hoe laat is het in Sri Lanka?',
+        a: 'De tijd in Sri Lanka is UTC+5:30. Ten opzichte van Nederland is dat 4,5 uur in de winter en 3,5 uur in de zomer.',
       },
     ],
   },
