@@ -179,29 +179,6 @@
     </div>
 </section>
 
-<section class="aeo-facts" aria-labelledby="aeo-facts-heading">
-    <div class="container">
-        <h2 id="aeo-facts-heading" class="intro-title">{{ 'home.aeo.heading' | t }}</h2>
-        <dl class="aeo-facts-list">
-            <div>
-                <dt>{{ 'home.aeo.whoQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whoA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.whereQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whereA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.whenQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whenA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.bookQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.bookA' | t }}</dd>
-            </div>
-        </dl>
-    </div>
-</section>
 
 <div class="container-fluid pb-5 py-5" itemscope itemtype="https://schema.org/TravelAgency">
     <div class="container pb-5">
@@ -304,7 +281,29 @@
 } @placeholder {
 <div class="home-defer-ph home-defer-ph--sm" aria-hidden="true"></div>
 }
-
+<section class="aeo-facts" aria-labelledby="aeo-facts-heading">
+    <div class="container">
+        <h2 id="aeo-facts-heading" class="intro-title">{{ 'home.aeo.heading' | t }}</h2>
+        <dl class="aeo-facts-list">
+            <div>
+                <dt>{{ 'home.aeo.whoQ' | t }}</dt>
+                <dd class="aeo-answer">{{ 'home.aeo.whoA' | t }}</dd>
+            </div>
+            <div>
+                <dt>{{ 'home.aeo.whereQ' | t }}</dt>
+                <dd class="aeo-answer">{{ 'home.aeo.whereA' | t }}</dd>
+            </div>
+            <div>
+                <dt>{{ 'home.aeo.whenQ' | t }}</dt>
+                <dd class="aeo-answer">{{ 'home.aeo.whenA' | t }}</dd>
+            </div>
+            <div>
+                <dt>{{ 'home.aeo.bookQ' | t }}</dt>
+                <dd class="aeo-answer">{{ 'home.aeo.bookA' | t }}</dd>
+            </div>
+        </dl>
+    </div>
+</section>
 @defer (on viewport) {
 <app-faq-section faqKey="home.faq" titleKey="home.faqTitle" />
 } @placeholder {
