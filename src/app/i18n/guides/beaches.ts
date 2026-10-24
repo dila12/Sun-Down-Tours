@@ -8,7 +8,7 @@ export const BEACHES_GUIDE: ArticleContent = {
   en: {
     h1: 'Sri Lanka Beaches Guide: Seasons, Best Bays and Swimming Safely',
     lead: 'Sri Lanka’s two monsoons mean the “best beach” shifts coasts through the year December sun on Unawatuna does not guarantee the same conditions in Arugam Bay. Match your beach days to the season, understand rip currents and you can combine a week of culture and hills with genuinely good swimming.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/onedayTour/Galle/1.webp',
     heroAlt: 'Palm lined golden beach on the Sri Lankan coast',
     sections: [
       {

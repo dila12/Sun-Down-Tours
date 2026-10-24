@@ -9,7 +9,7 @@ export const GERMANY_FROM_DE_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Tours from Germany: Flights, Best Time and Private Round Trips',
     lead:
       'German travellers usually search first for flight time from Frankfurt, the best travel season, entry rules and how long a round trip should be. This page answers those questions, then explains how a private chauffeur guided Rundreise works after you land in Colombo.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/package-1.webp',
     heroAlt: 'Private Sri Lanka round trip with chauffeur guide for travellers from Germany',
     sections: [
       {

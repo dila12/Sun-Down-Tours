@@ -5,7 +5,7 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Luxury Tours: Private Chauffeur and Boutique Stays',
     lead:
       'Luxury in Sri Lanka is less about ticking every sight and more about timing, privacy and stays that match your style. A dedicated chauffeur guide, carefully chosen boutique hotels and honest driving days create a premium private holiday without group tour compromise.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/5daysTours/30.webp',
     heroAlt: 'Luxury private chauffeur touring in Sri Lanka',
     sections: [
       {

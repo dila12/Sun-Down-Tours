@@ -9,7 +9,7 @@ export const NETHERLANDS_FROM_NL_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Holidays from the Netherlands: Private Rondreis and Chauffeur',
     lead:
       'Dutch searches for sri lanka vakantie and sri lanka rondreis usually want a private island circuit after Colombo, not airline tickets from Schiphol. This page covers flight duration only, CMB airport, ETA, best time, Sigiriya, safari and a licensed chauffeur.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/5daysTours/12.webp',
     heroAlt: 'Private Sri Lanka rondreis with chauffeur guide for travellers from the Netherlands',
     sections: [
       {

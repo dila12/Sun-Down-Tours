@@ -65,38 +65,38 @@ export const DEST_HUB_CARDS: DestHubCardMeta[] = [
   },
   {
     pageId: 'destMirissa',
-    image: 'assets/img/destination-6.webp',
-    imageAlt: "palm fringed beach on Sri Lanka's south coast near Mirissa",
+    image: 'assets/img/5daysTours/Mirissa-Whale-Watching-1.webp',
+    imageAlt: 'Whale watching off Mirissa on Sri Lanka’s south coast',
   },
   {
     pageId: 'destHiriketiya',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'Horseshoe surf bay at Hiriketiya on Sri Lanka’s south coast',
+    image: 'assets/img/onedayTour/Galle/2.webp',
+    imageAlt: 'Palm beach on Sri Lanka’s south coast near Hiriketiya',
   },
   {
     pageId: 'destColombo',
-    image: 'assets/img/destination-6.webp',
-    imageAlt: 'Colombo city and Indian Ocean coastline',
+    image: 'assets/img/5daysTours/40.webp',
+    imageAlt: 'White dagoba and temple grounds in Sri Lanka',
   },
   {
     pageId: 'destNegombo',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'Negombo beach near Colombo airport',
+    image: 'assets/img/package-4.webp',
+    imageAlt: 'Boat trip through a coastal lagoon near Negombo',
   },
   {
     pageId: 'destBentota',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'Bentota west-coast beach',
+    image: 'assets/img/5daysTours/mandara-resort.webp',
+    imageAlt: 'Beach and river mouth on Sri Lanka’s west coast',
   },
   {
     pageId: 'destWeligama',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'Weligama surf bay on the south coast',
+    image: 'assets/img/package-6.webp',
+    imageAlt: 'Beach time on Sri Lanka’s south coast near Weligama',
   },
   {
     pageId: 'destTrincomalee',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'east coast beach near Trincomalee',
+    image: 'assets/img/5daysTours/turtle-snorkeling-center-hero1.webp',
+    imageAlt: 'Snorkelling with a turtle on Sri Lanka’s east coast',
   },
 ];
 

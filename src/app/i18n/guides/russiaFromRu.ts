@@ -9,7 +9,7 @@ export const RUSSIA_FROM_RU_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Tours from Russia: Packages, Colombo Airport and a Private Driver',
     lead:
       'Plan a Sri Lanka holiday with a local team. We arrange private itineraries, airport transfers and guided drives around the island, with practical information about flights, entry requirements, weather and places to visit.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/package-7.webp',
     heroAlt: 'Private Sri Lanka tour with chauffeur guide for travellers from Russia',
     sections: [
       {

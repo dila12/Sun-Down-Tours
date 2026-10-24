@@ -9,7 +9,7 @@ export const ITALY_FROM_IT_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Travel from Italy: When to Go, Milan Flights and Private Tours',
     lead:
       'Italian travellers searching for a Sri Lanka viaggio usually want when to go, flight time from Milan, what to see and how a private tour worksnot a WeRoad group departure. This page covers CMB airport, ETA, August vs December weather, Lion Rock, safari and chauffeur itineraries after you land.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/tour-galleries/seven-day/01.webp',
     heroAlt: 'Private Sri Lanka tour with chauffeur guide for travellers from Italy',
     sections: [
       {

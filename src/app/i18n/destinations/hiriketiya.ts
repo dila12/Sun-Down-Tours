@@ -9,7 +9,7 @@ export const HIRIKETIYA_DEST: ArticleContent = {
     h1: 'Hiriketiya, Sri Lanka: Surf Bay, Cafes and a Quieter south coast Stay',
     lead:
       'Hiriketiya is a horseshoe bay on Sri Lanka’s south coast, between Dikwella and the Ahangama to Mirissa stretch. UK searches for the name have surged because travellers want the same swimming and surf as Mirissa with a smaller village feel, walkable cafes and a curve of sand you can cross in a few minutes.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/onedayTour/Galle/2.webp',
     heroAlt: 'Palm lined south coast bay typical of Hiriketiya, Sri Lanka',
     sections: [
       {

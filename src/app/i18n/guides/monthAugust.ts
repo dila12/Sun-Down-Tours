@@ -9,7 +9,7 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
     h1: 'Sri Lanka in August: Weather, East Coast and Cultural Triangle Travel',
     lead:
       'August is not the classic UK winter sun window for Galle and Mirissa. The southwest monsoon often means rain and rough seas on the west and south coasts, while the east coast, Cultural Triangle and many safari parks are in a stronger phase. Plan the island around that split, not around a single “beach holiday” photo.',
-    heroImage: 'assets/img/mainpage/1.webp',
+    heroImage: 'assets/img/onedayTour/Sigiriya/1.webp',
     heroAlt: 'Sri Lanka landscape in the August travel season',
     sections: [
       {

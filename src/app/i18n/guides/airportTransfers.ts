@@ -5,7 +5,7 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Airport Transfers: Private Pickup from Colombo (CMB)',
     lead:
       'Bandaranaike International Airport (CMB) is the main arrival gateway for European flights. A booked ahead private transfer to Negombo, Colombo, Waskaduwa or your first tour hotel removes the uncertainty of meters, touts and late night bargaining especially after a long overnight flight with luggage or children.',
-    heroImage: 'assets/img/mainpage/3.webp',
+    heroImage: 'assets/img/5daysTours/8.webp',
     heroAlt: 'Private airport transfer vehicle for Colombo Bandaranaike International Airport',
     sections: [
       {

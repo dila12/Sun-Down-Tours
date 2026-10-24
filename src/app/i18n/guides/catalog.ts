@@ -78,7 +78,7 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
   },
   {
     pageId: 'guideBeaches',
-    image: 'assets/img/mainpage/5.webp',
+    image: 'assets/img/onedayTour/Galle/1.webp',
     imageAlt: 'Palm-lined beach on the Sri Lankan coast',
   },
   {
@@ -103,13 +103,13 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
   },
   {
     pageId: 'guideWhaleWatching',
-    image: 'assets/img/mainpage/5.webp',
-    imageAlt: 'South coast waters near Mirissa for seasonal whale watching',
+    image: 'assets/img/5daysTours/Mirissa-Whale-Watching-1.webp',
+    imageAlt: 'Whale watching boat off the south coast near Mirissa',
   },
   {
     pageId: 'guideTrainJourneys',
-    image: 'assets/img/mainpage/6.webp',
-    imageAlt: 'Hill country scenery along Sri Lanka train routes',
+    image: 'assets/img/5daysTours/6.webp',
+    imageAlt: 'Hill country train crossing a viaduct in Sri Lanka',
   },
   {
     pageId: 'guideHoneymoon',
@@ -118,62 +118,62 @@ export const GUIDE_HUB_CARDS: GuideHubCardMeta[] = [
   },
   {
     pageId: 'guideFamilyTours',
-    image: 'assets/img/5daysTours/33.webp',
-    imageAlt: 'family friendly wildlife and touring in Sri Lanka',
+    image: 'assets/img/package-3.webp',
+    imageAlt: 'Family meeting an elephant on a Sri Lanka tour',
   },
   {
     pageId: 'guideLuxuryTours',
-    image: 'assets/img/package-2.webp',
-    imageAlt: 'Luxury private chauffeur travel in Sri Lanka',
+    image: 'assets/img/5daysTours/30.webp',
+    imageAlt: 'Hillside stay on a luxury Sri Lanka tour',
   },
   {
     pageId: 'guideAirportTransfers',
-    image: 'assets/img/mainpage/3.webp',
-    imageAlt: 'Private airport transfer vehicle in Sri Lanka',
+    image: 'assets/img/5daysTours/8.webp',
+    imageAlt: 'Scenic stop on a private Sri Lanka tour',
   },
   {
     pageId: 'marketUK',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/tour-galleries/seven-day/10.webp',
     imageAlt: 'Sri Lanka holidays from the UK with a private chauffeur guide',
   },
   {
     pageId: 'marketGermany',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/package-1.webp',
     imageAlt: 'Sri Lanka Rundreise aus Deutschland mit privatem Fahrer Guide',
   },
   {
     pageId: 'marketFrance',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/tour-galleries/seven-day/06.webp',
     imageAlt: 'Circuit prive au Sri Lanka depuis la France avec chauffeur guide',
   },
   {
     pageId: 'marketItaly',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/tour-galleries/seven-day/01.webp',
     imageAlt: 'Tour privato in Sri Lanka dall’Italia con autista guida',
   },
   {
     pageId: 'marketSpain',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/package-8.webp',
     imageAlt: 'Circuito privado por Sri Lanka desde Espana con chofer guia',
   },
   {
     pageId: 'marketPoland',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/5daysTours/4.webp',
     imageAlt: 'Prywatna wycieczka po Sri Lance z Polski z kierowca przewodnikiem',
   },
   {
     pageId: 'marketRussia',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/package-7.webp',
     imageAlt: 'Частный тур по Шри Ланке из России с водителем гидом',
   },
   {
     pageId: 'marketNetherlands',
-    image: 'assets/img/package-2.webp',
+    image: 'assets/img/5daysTours/12.webp',
     imageAlt: 'Prive Sri Lanka rondreis vanuit Nederland met chauffeur gids',
   },
   {
     pageId: 'monthAugust',
-    image: 'assets/img/mainpage/1.webp',
+    image: 'assets/img/onedayTour/Sigiriya/1.webp',
     imageAlt: 'Sri Lanka travel in August across Cultural Triangle and east coast',
   },
 ];

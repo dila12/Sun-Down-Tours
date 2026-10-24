@@ -9,7 +9,7 @@ export const SPAIN_FROM_ES_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Travel from Spain: Flights, What to See and Private Tours',
     lead:
       'Spanish travellers searching how to viajar a Sri Lanka usually want flight time from Madrid or Barcelona, when to go, and what to see without a rigid coach package. This page covers CMB airport, ETA, weather, Lion Rock, safari, train and how a private chauffeur tour works after you land.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/package-8.webp',
     heroAlt: 'Private Sri Lanka tour with chauffeur guide for travellers from Spain',
     sections: [
       {

@@ -5,7 +5,7 @@ export const NEGOMBO_DEST: ArticleContent = {
     h1: 'Negombo, Sri Lanka: Beach Town Next to Colombo Airport',
     lead:
       'Negombo is the practical first night after a long haul landing at CMB: a west coast fishing town with a lagoon, a beach strip and a 20 to 40 minute transfer from the terminalcloser than downtown Colombo.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/package-4.webp',
     heroAlt: 'Negombo beach and lagoon near Colombo airport, Sri Lanka',
     sections: [
       {

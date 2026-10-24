@@ -8,7 +8,7 @@ export const MIRISSA_DEST: ArticleContent = {
   en: {
     h1: 'Mirissa, Sri Lanka: Whale Watching and South Coast Beaches',
     lead: 'A curved bay of golden sand backed by coconut palms, Mirissa is the south coast’s best known base for whale watching, with warm water for swimming, a laid back beach town pace and Galle Fort close enough for an easy half day trip.',
-    heroImage: 'assets/img/destination-6.webp',
+    heroImage: 'assets/img/5daysTours/Mirissa-Whale-Watching-1.webp',
     heroAlt: 'palm fringed crescent beach and fishing boats on Sri Lanka’s south coast near Mirissa',
     sections: [
       {

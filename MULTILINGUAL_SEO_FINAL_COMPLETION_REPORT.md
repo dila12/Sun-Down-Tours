@@ -1,18 +1,18 @@
 # Multilingual SEO Final Completion Report
 
-## Current status (rechecked 2026-10-24, 12:57 IST)
+## Current status (rechecked 2026-10-24, 13:11 IST)
 
 **NOT COMPLETED**
 
-The multilingual route, sitemap, and redirect design is on production. Local commit `97630611d90a0d98bdc1c8d6337efbf124276370` is not. Google indexing was not opened, so it is not verified.
+The Dutch Colombo correction in `9763061` is on the live site. Google indexing was not opened, so it is not verified.
 
 | Ref | Commit | What it is |
 | --- | --- | --- |
-| Local `HEAD` | `97630611d90a0d98bdc1c8d6337efbf124276370` | Dutch Colombo spelling and removal of the two scratch scripts. Not pushed. |
-| `origin/main` and the latest successful Vercel production deployment | `22dcc69d763d5efb4ff7553d655d22d2ec00afef` | Deployment `7295531304`, state `success`, created `2026-10-24T07:16:17Z`. Includes `4199442`. Does not include `9763061`. |
-| Parent of the deployed commit | `419944223a552e672901ebdf95a85138c0641d46` | The multilingual SEO routing commit that production is serving. |
+| Latest successful Vercel production deployment | `97630611d90a0d98bdc1c8d6337efbf124276370` | Deployment `7295764871`, environment Production, state `success`, created `2026-10-24T07:40:30Z`. This is the Dutch Colombo spelling commit. |
+| Local `HEAD` and `origin/main` | `3341dd23140577c3e8342880ea08842a91a3313b` | One commit after `9763061`, dated `2026-10-24 13:05 +0530`, message `..`. It changes only this report. It is not the deployed SHA. |
+| Previous production deployment | `22dcc69d763d5efb4ff7553d655d22d2ec00afef` | Deployment `7295531304`, succeeded at `2026-10-24T07:16:17Z`. Superseded by `9763061`. |
 
-`git rev-list --left-right --count origin/main...HEAD` is `0 1`. Application code is unchanged. This report update is an uncommitted edit and is not part of `9763061` or `22dcc69`.
+`9763061` is an ancestor of local `HEAD`. `main` matches `origin/main`. This 13:11 update is an uncommitted report edit.
 
 ### Current task status
 
@@ -25,29 +25,29 @@ The multilingual route, sitemap, and redirect design is on production. Local com
 | Dutch Weligama metadata | PASS | Source `seo.destWeligama` in `content/nl.ts`: title `Weligama, Sri Lanka \| Surfen voor beginners en zuidkustbaai`, description `Weligama ligt tussen Galle en Mirissa en is geschikt voor beginnerslessen surfen en een strandverblijf aan de zuidkust.` Live page matches that title, description, H1 `Weligama, Sri Lanka: surfen voor beginners aan de zuidkust`, canonical `https://www.sundowntours.com/nl/weligama-sri-lanka`, robots `index, follow`, `lang=nl-NL`, 9 hreflang links. HTTP 200. |
 | Canonical, hreflang, and robots on sampled production pages | PASS | Live Dutch Weligama, German Weligama, and Dutch Colombo each have one self-canonical, `index, follow`, and 9 hreflang links. |
 | Language switch keeps the page, query, and fragment | PASS | `createLocaleSwitchTree` copies `queryParams` and `fragment`. `site-data.spec.ts` expects `/de/colombo-sri-lanka?campaign=summer&ref=mail#airport` to become `/pl/kolombo-sri-lanka?campaign=summer&ref=mail#airport`. That spec passed in the 9-test run on this commit. A new production browser click was not repeated in this recheck. |
-| Polish Colombo legacy redirect and query preservation | PASS | Live `GET /pl/colombo-sri-lanka?campaign=summer&ref=mail` returned **308** to `/pl/kolombo-sri-lanka?campaign=summer&ref=mail`. `/pl/kolombo-sri-lanka` returned **200**. The status is 308 because `vercel.json` uses `permanent: true`, not an explicit 301. |
+| Polish Colombo legacy redirect and query preservation | PASS | Rechecked at 13:11 IST. `/pl/colombo-sri-lanka` returned **308** to `/pl/kolombo-sri-lanka`. `/pl/colombo-sri-lanka?campaign=summer&ref=mail` returned **308** to `/pl/kolombo-sri-lanka?campaign=summer&ref=mail`. `/pl/kolombo-sri-lanka` returned **200**, `lang=pl-PL`, H1 `Kolombo Sri Lanka: lotnisko CMB, miasto i pierwsza noc`, canonical `https://www.sundowntours.com/pl/kolombo-sri-lanka`, robots `index, follow`. The status is 308 because `vercel.json` uses `permanent: true`. |
 | Incomplete-locale redirects and query preservation | PASS | Audit: 195 incomplete locales redirect to English. Live `/de/hiriketiya-sri-lanka?x=1` returned **301** to `/hiriketiya-sri-lanka?x=1`. The other 194 were not each requested on production in this recheck. |
 | Production SSR, sitemap, sitemap index, and robots | PASS | Live HTML is rendered, not a redirect shell. `sitemap-index.xml` is HTTP 200. `sitemap.xml` has 427 `<loc>` entries, includes `/pl/kolombo-sri-lanka` and `/nl/weligama-sri-lanka`, and does not include `/pl/colombo-sri-lanka` or `/de/hiriketiya-sri-lanka`. `robots.txt` is HTTP 200 and points at `https://www.sundowntours.com/sitemap-index.xml`. |
 | Production build | PASS | On this exact commit, `npx ng build --configuration production` exited 0 and prerendered 871 routes. The strip script then removed 195 shells. Sass and CSS budget warnings only. |
 | SEO audit and redirect tests | PASS | This recheck: audit exit 0; `node scripts/test-edge-redirects.mjs` exit 0, 50 cases, 177 dormant prefixes. |
 | Unit tests | PASS | On this commit: `site-data.spec.ts` and `destination-component.spec.ts`, `TOTAL: 9 SUCCESS`. The full 39-test suite last passed on `4199442` and was not repeated after the Dutch-only commit. |
-| Deployed commit matches the latest local commit | FAIL | Production is `22dcc69`. Local `HEAD` is `9763061`, one commit ahead and not pushed. |
-| Live Dutch Colombo spelling from `9763061` | FAIL | Live H1 is still `Colombo sri lanka: luchthaven CMB, stad en eerste nacht`. The corrected H1 exists only in the unpushed commit. |
+| Deployed commit matches `9763061` | PASS | Latest production deployment SHA is `97630611d90a0d98bdc1c8d6337efbf124276370`, state `success`. |
+| Deployed commit matches current local `HEAD` | FAIL | Local `HEAD` is `3341dd23140577c3e8342880ea08842a91a3313b`. That report-only commit is not the deployment SHA. |
+| Live Dutch Colombo spelling from `9763061` | PASS | `GET /nl/colombo-sri-lanka` returned **200**. H1 `Colombo Sri Lanka: luchthaven CMB, stad en eerste nacht`. Canonical `https://www.sundowntours.com/nl/colombo-sri-lanka`. Robots `index, follow`. `lang=nl-NL`. |
 | Google Search Console indexing | NOT VERIFIED | Search Console was not opened. No coverage, sitemap-processing, or index result was read. |
 
 ### Remaining issues
 
-- `9763061` is local only. Production still shows the old Dutch Colombo H1 and still contains `scripts/_tmp-nl-lang.mjs` and `scripts/_tmp-patch-specs.mjs` in git.
+- Local `HEAD` `3341dd2` is one report-only commit ahead of the deployed SHA `9763061`. It does not change the site.
 - Other Dutch pages still use unaccented `prive` and some lowercase `sri lanka` headings, including Colombo section titles that `9763061` does not change. The live tour URL remains `/nl/sri-lanka-prive-rondreis`.
 - The Polish legacy redirect is a permanent 308, not a 301.
 - Indexing in Google is not verified.
 
 ### Next actions
 
-1. Approve `git push origin main` from `D:\Website\Sun-Down-Tours`. That publishes `9763061`. It can start a Vercel production deploy.
-2. After that deploy, request `/nl/colombo-sri-lanka` and confirm the H1 is `Colombo Sri Lanka: luchthaven CMB, stad en eerste nacht`.
-3. In Search Console, submit `https://www.sundowntours.com/sitemap-index.xml` and inspect `/pl/kolombo-sri-lanka`. Do not treat indexing as done until that inspection is recorded.
-4. Decide separately whether the remaining Dutch spelling outside the Colombo page should be corrected.
+1. Do not push or deploy again for this check. `9763061` is already the successful production deployment.
+2. In Search Console, submit `https://www.sundowntours.com/sitemap-index.xml` and inspect `/pl/kolombo-sri-lanka` and `/nl/colombo-sri-lanka`. Do not treat indexing as done until that inspection is recorded.
+3. Decide separately whether the remaining Dutch spelling outside the Colombo page should be corrected.
 
 ## Historical findings
 

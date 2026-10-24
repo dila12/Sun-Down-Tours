@@ -5,7 +5,7 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
     h1: 'Kandy to Ella Train and Nanu Oya to Ella Train Ride',
     lead:
       'The hill country train between Kandy, Nanu Oya (for Nuwara Eliya) and Ella is one of Sri Lanka’s signature experiences: tea slopes, viaducts and village stations. A private chauffeur tour pairs best with selected scenic segments rather than trying to move all luggage by rail every day.',
-    heroImage: 'assets/img/mainpage/6.webp',
+    heroImage: 'assets/img/5daysTours/6.webp',
     heroAlt: 'Hill country tea landscapes near the scenic Sri Lanka train route',
     sections: [
       {

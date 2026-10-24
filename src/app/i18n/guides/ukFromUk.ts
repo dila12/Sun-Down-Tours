@@ -10,7 +10,7 @@ export const UK_FROM_UK_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Holidays from the UK: Private Tours, Weather and Entry Requirements',
     lead:
       'UK travellers searching for Sri Lanka holidays in 2026 usually need three answers first: how long is the flight from London, what are the entry requirements, and how to turn a long haul arrival into a calm private itinerary. This guide covers flights from Heathrow and Manchester, ETA rules, safety, weather and how a local chauffeur guide trip actually works.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/tour-galleries/seven-day/10.webp',
     heroAlt: 'Private Sri Lanka holiday with a chauffeur guided itinerary for UK travellers',
     sections: [
       {

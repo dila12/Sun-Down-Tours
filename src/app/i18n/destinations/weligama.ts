@@ -5,7 +5,7 @@ export const WELIGAMA_DEST: ArticleContent = {
     h1: 'Weligama, Sri Lanka: Beginner Surf and south coast Bay',
     lead:
       'Weligama sits on the south coast between Galle and Mirissa. German search interest has risen because the bay is one of the island’s most reliable beginner surf beaches, with a fishing town feel and an easy tuk tuk or chauffeur hop to Mirissa whale watching and Galle Fort.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/package-6.webp',
     heroAlt: 'Weligama bay and surf beach on Sri Lanka’s south coast',
     sections: [
       {

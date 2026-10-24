@@ -9,7 +9,7 @@ export const POLAND_FROM_PL_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Holidays from Poland: Weather, Flights from Warsaw and Private Tours',
     lead:
       'Polish travellers searching for Sri Lanka wakacje usually want weather, flight time from Warsaw, visa rules and how a private wycieczka worksnot an Itaka or TUI coach package. This page covers CMB airport, ETA (eta.gov.lk), monsoon seasons, Lion Rock, safari and chauffeur tours after you land.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/5daysTours/4.webp',
     heroAlt: 'Private Sri Lanka tour with chauffeur guide for travellers from Poland',
     sections: [
       {

@@ -5,7 +5,7 @@ export const TRINCOMALEE_DEST: ArticleContent = {
     h1: 'Trincomalee, Sri Lanka: east coast Beaches and Harbour',
     lead:
       'Trincomalee (Nilaveli, Uppuveli) is the east coast answer when the southwest monsoon wets Galle and Bentota. Rising German searches for “Ostkuste Sri Lanka” and “Trincomalee” match the May to September dry window for swimming and snorkelling.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/5daysTours/turtle-snorkeling-center-hero1.webp',
     heroAlt: 'east coast beach near Trincomalee, Sri Lanka',
     sections: [
       {

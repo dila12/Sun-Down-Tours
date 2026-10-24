@@ -5,7 +5,7 @@ export const BENTOTA_DEST: ArticleContent = {
     h1: 'Bentota, Sri Lanka: West Coast Beach Holidays and River Mouth',
     lead:
       'Bentota is a classic west coast strip of sand, river and resort hotels, popular with German travellers who want swimming close to Colombo plus an easy link south to Galle, Mirissa and Weligama on a private itinerary.',
-    heroImage: 'assets/img/mainpage/5.webp',
+    heroImage: 'assets/img/5daysTours/mandara-resort.webp',
     heroAlt: 'Bentota beach on Sri Lanka’s west coast',
     sections: [
       {

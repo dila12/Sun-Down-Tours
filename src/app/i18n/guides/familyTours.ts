@@ -8,7 +8,7 @@ export const FAMILY_TOURS_GUIDE: ArticleContent = {
   en: {
     h1: 'Sri Lanka Family Tours: Private Trips with Children',
     lead: 'Family holidays in Sri Lanka work best with a private vehicle, shorter driving days and a mix of wildlife, gentle culture stops and beach time. We plan around school holiday dates from Europe and the ages of your children not a fixed coach schedule.',
-    heroImage: 'assets/img/5daysTours/33.webp',
+    heroImage: 'assets/img/package-3.webp',
     heroAlt: 'family friendly Sri Lanka private tour with wildlife and beach time',
     sections: [
       {

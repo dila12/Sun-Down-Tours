@@ -9,7 +9,7 @@ export const COLOMBO_DEST: ArticleContent = {
     h1: 'Colombo, Sri Lanka: Airport Gateway, City Stop and First Night',
     lead:
       'Colombo is where almost every UK flight to Sri Lanka lands. Bandaranaike International Airport (CMB) sits north of the city at Katunayake; the commercial capital itself is a first or last night of markets, colonial streets, Buddhist temples and the Indian Ocean promenade. It is not usually a week long holiday on its own.',
-    heroImage: 'assets/img/destination-6.webp',
+    heroImage: 'assets/img/5daysTours/40.webp',
     heroAlt: 'Colombo city and Indian Ocean coastline, Sri Lanka',
     sections: [
       {

@@ -9,7 +9,7 @@ export const FRANCE_FROM_FR_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Travel from France: Flights from Paris, When to Go and Private Tours',
     lead:
       'French travellers searching for a Sri Lanka voyage usually want three answers first: flight time from Paris, when to go, and how to visit the island without a rigid coach circuit. This page covers Paris to Colombo flights, ETA and arrival card, weather, temples, safari and how a private chauffeur tour works after you land.',
-    heroImage: 'assets/img/package-2.webp',
+    heroImage: 'assets/img/tour-galleries/seven-day/06.webp',
     heroAlt: 'Private Sri Lanka circuit with chauffeur guide for travellers from France',
     sections: [
       {
