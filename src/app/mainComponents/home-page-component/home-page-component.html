@@ -281,27 +281,41 @@
 } @placeholder {
 <div class="home-defer-ph home-defer-ph--sm" aria-hidden="true"></div>
 }
-<section class="aeo-facts" aria-labelledby="aeo-facts-heading">
+<section class="faq-band" aria-labelledby="aeo-facts-heading">
     <div class="container">
-        <h2 id="aeo-facts-heading" class="intro-title">{{ 'home.aeo.heading' | t }}</h2>
-        <dl class="aeo-facts-list">
-            <div>
-                <dt>{{ 'home.aeo.whoQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whoA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.whereQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whereA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.whenQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.whenA' | t }}</dd>
-            </div>
-            <div>
-                <dt>{{ 'home.aeo.bookQ' | t }}</dt>
-                <dd class="aeo-answer">{{ 'home.aeo.bookA' | t }}</dd>
-            </div>
-        </dl>
+        <header class="faq-head">
+            <h2 id="aeo-facts-heading" class="faq-title">{{ 'home.aeo.heading' | t }}</h2>
+        </header>
+        <div class="faq-list">
+            <details class="faq-item" open>
+                <summary>
+                    <span>{{ 'home.aeo.whoQ' | t }}</span>
+                    <span class="faq-chevron" aria-hidden="true"></span>
+                </summary>
+                <p class="faq-answer aeo-answer">{{ 'home.aeo.whoA' | t }}</p>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span>{{ 'home.aeo.whereQ' | t }}</span>
+                    <span class="faq-chevron" aria-hidden="true"></span>
+                </summary>
+                <p class="faq-answer aeo-answer">{{ 'home.aeo.whereA' | t }}</p>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span>{{ 'home.aeo.whenQ' | t }}</span>
+                    <span class="faq-chevron" aria-hidden="true"></span>
+                </summary>
+                <p class="faq-answer aeo-answer">{{ 'home.aeo.whenA' | t }}</p>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span>{{ 'home.aeo.bookQ' | t }}</span>
+                    <span class="faq-chevron" aria-hidden="true"></span>
+                </summary>
+                <p class="faq-answer aeo-answer">{{ 'home.aeo.bookA' | t }}</p>
+            </details>
+        </div>
     </div>
 </section>
 @defer (on viewport) {

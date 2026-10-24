@@ -10,10 +10,12 @@ import { LocaleService } from '../../i18n/locale.service';
   selector: 'app-faq-section',
   standalone: true,
   templateUrl: './faq-section.html',
+  styleUrl: './faq-section.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FaqSectionComponent {
   private readonly i18n = inject(LocaleService);
+  readonly headingId = computed(() => `faq-${this.faqKey().replace(/[^a-z0-9]+/gi, '-')}`);
 
   /** Translation key holding the FAQ array, e.g. `home.faq`. */
   readonly faqKey = input.required<string>();

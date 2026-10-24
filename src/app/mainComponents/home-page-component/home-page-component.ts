@@ -60,7 +60,7 @@ interface Destination {
     FaqSectionComponent,
   ],
   templateUrl: './home-page-component.html',
-  styleUrl: './home-page-component.css',
+  styleUrls: ['./home-page-component.css', '../../sharedComponents/faq-section/faq-section.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomePageComponent implements OnInit, OnDestroy {

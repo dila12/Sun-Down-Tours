@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ContactUsComponent } from '../../sharedComponents/contact-us-component/contact-us-component';
 import { FaqSectionComponent } from '../../sharedComponents/faq-section/faq-section';
+import { HomeTeamSectionComponent } from '../home-page-component/sections/home-team-section/home-team-section';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import {
@@ -17,7 +18,7 @@ import {
 @Component({
   selector: 'app-about-component',
   standalone: true,
-  imports: [CommonModule, RouterModule, ContactUsComponent, FaqSectionComponent, TranslatePipe],
+  imports: [CommonModule, RouterModule, ContactUsComponent, FaqSectionComponent, TranslatePipe, HomeTeamSectionComponent],
   templateUrl: './about-component.html',
   styleUrls: ['./about-component.css', '../../../styles/fontawesome-brands.lazy.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

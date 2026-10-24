@@ -129,38 +129,10 @@
   </div>
 </section>
 
-<section class="container py-5 border-top" aria-labelledby="about-team-heading">
-  <div class="text-center mb-4">
-    <h2 id="about-team-heading" class="h3">{{ 'about.teamTitle' | t }}</h2>
-    <p class="mx-auto" style="max-width: 720px;">{{ 'about.teamLead' | t }}</p>
-  </div>
-  <div class="row justify-content-center g-4">
-    <div class="col-md-5">
-      <article class="about-team-card h-100 p-3 border rounded">
-        <img src="assets/img/Team/1.webp" width="160" height="160" class="rounded-circle d-block mx-auto mb-3"
-          alt="Dilan Lakshitha Founder of Sundown Tours" loading="lazy" decoding="async" style="object-fit:cover;" />
-        <h3 class="h5 text-center mb-1">{{ 'about.founderName' | t }}</h3>
-        <p class="text-center text-primary mb-2">{{ 'about.founderRole' | t }}</p>
-        <p class="small">{{ 'about.founderBio' | t }}</p>
-        <p class="text-center mb-0">
-          <a class="btn btn-sm btn-success" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        </p>
-      </article>
-    </div>
-    <div class="col-md-5">
-      <article class="about-team-card h-100 p-3 border rounded">
-        <img src="assets/img/Team/2.webp" width="160" height="160" class="rounded-circle d-block mx-auto mb-3"
-          alt="Yohan Malshika Senior Consultant" loading="lazy" decoding="async" style="object-fit:cover;" />
-        <h3 class="h5 text-center mb-1">{{ 'about.consultantName' | t }}</h3>
-        <p class="text-center text-primary mb-2">{{ 'about.consultantRole' | t }}</p>
-        <p class="small">{{ 'about.consultantBio' | t }}</p>
-        <p class="text-center mb-0">
-          <a class="btn btn-sm btn-success" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        </p>
-      </article>
-    </div>
-  </div>
-  <div class="row mt-4">
+<app-home-team-section />
+
+<section class="container py-5 border-top">
+  <div class="row">
     <div class="col-lg-10 mx-auto">
       <h3 class="h5">{{ 'about.driversTitle' | t }}</h3>
       <p>{{ 'about.driversBody' | t }}</p>
