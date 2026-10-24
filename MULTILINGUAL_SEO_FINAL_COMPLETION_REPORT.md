@@ -4,7 +4,7 @@
 
 **NOT COMPLETED**
 
-The worktree now has the route, sitemap, redirect, and metadata design, a green Jasmine suite, and corrected Russian copy in both the translation sources and the production HTML. The local production build is ready to be committed and deployed. It is still not fully completed. Nothing in this worktree has been committed or deployed, so the live site is still the 2026-10-03 build, and Google indexing was not verified.
+The worktree now has the route, sitemap, redirect, and metadata design, a green Jasmine suite, and corrected Russian copy in both the translation sources and the production HTML. That work is committed locally as `419944223a552e672901ebdf95a85138c0641d46`. It is still not fully completed. The commit has not been pushed or deployed, so the live site is still the 2026-10-03 build, and Google indexing was not verified.
 
 The first audit did not change application code. A later pass fixed the Jasmine setup and the Russian text defects recorded in section 12. Other languages, page IDs, routes, and indexing allowlists were left as they were.
 
@@ -17,8 +17,8 @@ The first audit did not change application code. A later pass fixed the Jasmine 
 | Node | v24.15.0 |
 | Repository | `D:/Website/Sun-Down-Tours` |
 | Branch | `main` |
-| HEAD | `66042dc9a43b1919a1a5127432e588ea5ce5911d` (2026-10-03) |
-| Worktree | Dirty. 106 tracked files changed (`+5890/−3062`) and 12 untracked paths. Nothing is staged. Nothing was committed, pushed, or deployed. |
+| HEAD | `419944223a552e672901ebdf95a85138c0641d46` (`Fix multilingual SEO routing and localization.`), parent `66042dc9a43b1919a1a5127432e588ea5ce5911d` |
+| Worktree | Commit created locally and not pushed. `main` is ahead of `origin/main` by 1. The only untracked files left are `scripts/_tmp-nl-lang.mjs` and `scripts/_tmp-patch-specs.mjs`. This hash note was written after the commit, so the report itself is modified again and is not part of `4199442`. |
 | Local build | `npx ng build --configuration production`, exit 0, 49.5 s, output `dist/Travelwebsite` |
 | Shell removal | `node scripts/strip-incomplete-redirect-shells.mjs` removed 195 prerender shells |
 | Local server | `http://127.0.0.1:4322`, then stopped |
@@ -44,7 +44,7 @@ The first audit did not change application code. A later pass fixed the Jasmine 
 | Production build and prerender | PASS | Exit 0. 664 files, then 469 after the 195 shells were removed. Sass and CSS budget warnings only. |
 | Browser rendering of representative routes | PASS | Local Chrome session rendered German Colombo, Polish Colombo, the German 7-day tour, and English Hiriketiya. |
 | Russian copy quality | PASS | Joined words, dropped letters, and accidental English fragments were corrected in the Russian sources. The rebuilt HTML and the Russian UI bundle contain the corrections. Known defect strings: 0. |
-| Production deployment of this worktree | FAIL | HEAD is 2026-10-03 and the worktree is uncommitted. Live responses contradict this worktree. |
+| Production deployment of this worktree | FAIL | Local commit `4199442` exists and is not pushed. Live responses still match the 2026-10-03 site, not this commit. |
 | Live-site match to the current SEO design | FAIL | Measured on `www.sundowntours.com`. Not assumed from the local build. |
 | Google Search Console indexing | BLOCKED | A public DNS TXT record named `google-site-verification` exists on `sundowntours.com`. Search Console was not opened. Coverage, indexing, and sitemap processing were not read. |
 
@@ -293,7 +293,7 @@ This does not deploy the site. Live pages and Search Console are unchanged from 
 
 ## 13. Deployment readiness (2026-10-24)
 
-The local build is ready to ship. It has not been shipped. HEAD `66042dc9a43b1919a1a5127432e588ea5ce5911d` (message `..`, 2026-10-03) is the commit currently on `main` and on the live site. Deploying that commit would publish the old Polish URL and the old sitemap. The deployable revision does not exist yet. It is a future commit of this worktree, after explicit approval.
+The local build is committed and ready to ship. It has not been shipped. Local HEAD is `419944223a552e672901ebdf95a85138c0641d46`. `origin/main` and the live site are still `66042dc9a43b1919a1a5127432e588ea5ce5911d` (2026-10-03). Deploying the old commit would publish the old Polish URL and the old sitemap. Deploy `4199442` only after an explicit push approval.
 
 ### Checks run for this step
 
@@ -338,7 +338,7 @@ Those are not deploy blockers for the redirect and sitemap release. They are a r
 
 ### What to commit, and what to leave out
 
-There is no commit hash for this work. After approval, one commit should contain the 106 modified files and these untracked files:
+Commit `419944223a552e672901ebdf95a85138c0641d46` contains 116 files: the 106 modified files and these 10 new files. Section 13 lists 10 new files. The request counted 11; no eleventh approved file was present. `scripts/sitemap-utils.mjs` is already tracked and was unchanged, so it was not staged again.
 
 - `MULTILINGUAL_AUDIT.md`
 - `MULTILINGUAL_SEO_FINAL_COMPLETION_REPORT.md`
@@ -360,7 +360,7 @@ Leave these out. They are local scratch scripts:
 
 ### Checklist before and after a deploy
 
-1. Approve the commit above. Do not deploy `66042dc`.
+1. The local commit is `419944223a552e672901ebdf95a85138c0641d46` (116 files, `+7989/−3062`). Do not deploy `66042dc`. Push and Vercel still need a separate approval. `git diff --cached --check` was clean before the commit, and the staged set had no secrets.
 2. Approve the push and the Vercel production deploy as a separate step.
 3. After deploy, request `/pl/colombo-sri-lanka?campaign=summer&ref=mail` and expect a permanent redirect to `/pl/kolombo-sri-lanka` with the query intact. On Vercel that status is 308.
 4. Request `/pl/kolombo-sri-lanka` and expect HTTP 200, canonical `https://www.sundowntours.com/pl/kolombo-sri-lanka`, and `index, follow`.
