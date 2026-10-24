@@ -1044,7 +1044,7 @@ export const TOUR5: TourContent = {
       },
       {
         q: 'Сколько времени занимает дорога между Sigiriya, Канди и южным побережьем?',
-        a: 'В самые долгие дни переезда рассчитывайте на 3 to 5 часов. Мы разбиваем поездки садами специй, смотровыми площадками и остановками на еду, чтобы темп был комфортным для семей и пожилых людей.',
+        a: 'В самые долгие дни переезда рассчитывайте на 3–5 часов. Мы разбиваем поездки садами специй, смотровыми площадками и остановками на еду, чтобы темп был комфортным для семей и пожилых людей.',
       },
     ],
     days: [
@@ -1148,7 +1148,7 @@ export const TOUR5: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Малый пик Адама',
             description:
-              'Высотой 1141 м, подъём от входа занимает 30 to 45 минут. Виды с вершины невероятны панорама на 360 градусов с проплывающими облаками настоящее удовольствие для глаз.',
+              'Высотой 1141 м, подъём от входа занимает 30–45 минут. Виды с вершины невероятны панорама на 360 градусов с проплывающими облаками настоящее удовольствие для глаз.',
           },
           {
             type: 'Проживание',
@@ -1178,164 +1178,164 @@ export const TOUR5: TourContent = {
     ],
   },
   nl: {
-    title: 'Sri Lanka Privatreise  5 Tage | Kulturerbe, Hugelland & Wildlife Safari',
+    title: 'Privétour van 5 dagen door Sri Lanka | Cultureel erfgoed, heuvelland en wildsafarie',
     description:
-      'Erleben Sie Sri Lanka in 5 unvergesslichen Tagen mit antiken Stadten, UNESCO Welterbestatten, malerischen Teeplantagen, spannenden Wildlife Safaris und entspannten Kustenerlebnissen.',
-    duration: '5 Tage',
-    persons: '1-20 Personen',
-    tourType: 'Rundreise',
+      'Ontdek Sri Lanka in 5 onvergetelijke dagen, met oude steden, werelderfgoed van UNESCO, groene theeplantages, spannende safaritochten en ontspannen ervaringen aan de kust.',
+    duration: '5 dagen',
+    persons: '1 tot 20 personen',
+    tourType: 'Rondreis',
     overview:
-      'Erleben Sie die Highlights Sri Lankas auf dieser ausgewogenen 5 tagigen Privatreise. Reisen Sie durch das Kulturdreieck, erkunden Sie die Felsenfestung Sigiriya, besuchen Sie den heiligen Zahntempel in Kandy, fahren Sie durch die nebligen Teeplantagen von Nuwara Eliya, erleben Sie eine spannende Safari im Udawalawe Nationalpark und entspannen Sie an der wunderschonen Sudwestkuste. Mit privatem Transport, einem erfahrenen englischsprachigen Fahrer und komfortablen Unterkunften bietet diese Reise die ideale Mischung aus Kultur, Natur, Tierwelt und Erholung  perfekt fur Paare, Familien und kleine Gruppen.',
+      'Ontdek de hoogtepunten van Sri Lanka tijdens deze evenwichtige privérondreis van 5 dagen. Reis door de cultuurdriehoek, beklim de rotsvesting van Sigiriya, bezoek de heilige Tempel van de Tand in Kandy, rijd door de nevelige theeplantages van Nuwara Eliya, maak een spannende safari in Nationaal Park Udawalawa en kom tot rust aan de mooie zuidwestkust. Met privévervoer, een ervaren Engelssprekende chauffeurgids en comfortabele overnachtingen biedt deze reis de juiste mix van cultuur, natuur, wilde dieren en ontspanning. Geschikt voor stellen, gezinnen en kleine groepen.',
     includes: PACKAGE_INCLUDES.nl,
     excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Funf Tage erschliessen Sri Lankas Kultur Dreieck, das Hugelland und den Wildtier Korridor auf einer einzigen privaten Reise. Von den Elefanten in Pinnawala und den Ansammlungen in Minneriya bei Sigiriya uber den Aufstieg zum Lowenfelsen, die Zahntempel Zeremonien in Kandy, die Teeplantagen von Nuwara Eliya bis zu einer Safari in Udawalawe oder an der Sudkuste verbindet diese Route von Sundown Tours UNESCO Kulturerbe mit hautnahen Erlebnissen. Ihr Fahrer Guide ubernimmt die kurvigen Bergstrassen und die fruhen Safari Starts, wahrend Sie in einem klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterkunft kann auf Wunsch in Ihrer bevorzugten Sternekategorie auf Halbpension organisiert werden; Eintrittsgebuhren halten wir separat, damit Sie die optionalen Stopps selbst steuern. Perfekt fur Paare und Familien, die mehr Tiefgang als bei einer Vier Tage Tour wunschen, ohne sich fur eine ganze Woche zu binden.',
+      'In vijf dagen ziet u de cultuurdriehoek, het heuvelland en het wildgebied van Sri Lanka in één privéreis. Van de olifanten in Pinnawala en de samenkomsten in Minneriya bij Sigiriya tot de beklimming van de leeuwenrots, de ceremonies rond de tandrelikwie in Kandy, de theeplantages van Nuwara Eliya en een safari in Udawalawe of aan de zuidkust: deze route van Sundown Tours verbindt werelderfgoed van UNESCO met ervaringen van dichtbij. Uw chauffeurgids neemt de bochtige bergwegen en het vroege vertrek voor de safari voor zijn rekening, terwijl u reist in een privévoertuig met airconditioning en een onbeperkt aantal kilometers. Overnachting kan op basis van halfpension in de sterrencategorie van uw keuze. Entreegelden houden wij apart, zodat u zelf bepaalt welke stops u maakt. Geschikt voor stellen en gezinnen. U krijgt meer diepgang dan bij een kennismaking van vier dagen, zonder u voor een volle week vast te leggen.',
     highlights: [
-      'Sigiriya Felsenfestung, Elefanten Safari in Minneriya und Hohepunkte des Kultur Dreiecks',
-      'Zahntempel in Kandy, Gewurzgarten und traditionelle Tanzvorfuhrung',
-      'Teeland Nuwara Eliya, Ramboda Wasserfalle und malerische Aussichtspunkte im Hochland',
-      'Wildtier Safari in Udawalawe oder an der Sudkuste sowie Besuch eines Schildkroten Schutzprojekts',
-      'Flexibler Privattransport mit englischsprachigem Fahrer Guide und unbegrenzter Kilometerleistung',
+      'Rotsvesting van Sigiriya, olifantensafari in Minneriya en hoogtepunten van de cultuurdriehoek',
+      'Tempel van de Tand in Kandy, specerijentuinen en een traditionele dansvoorstelling',
+      'Theeland van Nuwara Eliya, Ramboda Falls en mooie uitzichtpunten in het hoogland',
+      'Safari in Udawalawe of aan de zuidkust, en een bezoek aan een project voor zeeschildpadden',
+      'Flexibel privévervoer met een Engelssprekende chauffeurgids en een onbeperkt aantal kilometers',
     ],
     faq: [
       {
-        q: 'Ist die Hotelunterkunft im Preis der 5 tagigen Tour enthalten?',
-        a: 'Ja. Ausgewahlte 4 Sterne Hotels mit taglichem Fruhstuck und Abendessen (Halbpension) sind im Paket enthalten.',
+        q: 'Is de hotelovernachting inbegrepen in de prijs van de tour van 5 dagen?',
+        a: 'Ja. Geselecteerde hotels met 4 sterren, met dagelijks ontbijt en avondeten (halfpension), zijn in het pakket inbegrepen.',
       },
       {
-        q: 'Welchen Safaripark besuchen wir  Minneriya, Udawalawe oder Yala?',
-        a: 'Tag 1 fuhrt je nach Saison nach Minneriya oder Kaudulla fur Elefantenansammlungen. An spateren Tagen nutzen wir Udawalawe oder einen Park an der Sudkuste, abhangig von Ihrer Route und Parkschliessungen  wir bestatigen die beste Option fur Ihre Reisedaten.',
+        q: 'Welk safaripark bezoeken wij: Minneriya, Udawalawe of Yala?',
+        a: 'Op dag 1 gaat u naar Minneriya of Kaudulla voor de samenkomst van olifanten, wanneer het seizoen dat toelaat. Op latere dagen gaan wij naar Udawalawe of een park aan de zuidkust, afhankelijk van uw route en van sluitingen van parken. Wij bevestigen wat het best past bij uw reisdata.',
       },
       {
-        q: 'Wie viel Fahrzeit liegt zwischen Sigiriya, Kandy und der Sudkuste?',
-        a: 'Rechnen Sie mit 3 to 5 Stunden an den langsten Fahrtagen. Wir unterbrechen die Fahrten mit Gewurzgarten, Aussichtspunkten und Essenspausen, damit das Tempo fur Familien und Senioren angenehm bleibt.',
+        q: 'Hoeveel rijtijd zit er tussen Sigiriya, Kandy en de zuidkust?',
+        a: 'Reken op 3 tot 5 uur op de dagen met de langste ritten. Wij onderbreken de ritten met specerijentuinen, uitzichtpunten en pauzes om te eten, zodat het tempo prettig blijft voor gezinnen en senioren.',
       },
     ],
     days: [
       {
-        title: 'Flughafen nach Sigiriya  Elefanten & Safari Abenteuer',
+        title: 'Van de luchthaven naar Sigiriya: olifanten en safari',
         activities: [
           {
-            type: 'Ankunft',
-            title: 'Flughafenabholung',
+            type: 'Aankomst',
+            title: 'Ophalen op de luchthaven',
             description:
-              'Treffen Sie Ihren professionellen Fahrer am Flughafen Bandaranaike und beginnen Sie Ihre private Sri Lanka Reise in Richtung Kulturdreieck.',
+              'U ontmoet uw professionele chauffeurgids op de internationale luchthaven Bandaranaike en begint uw privéreis door Sri Lanka richting de cultuurdriehoek.',
           },
           {
-            type: 'Tiererlebnis',
-            title: 'Pinnawala Elefantenwaisenhaus',
+            type: 'Dierenbeleving',
+            title: 'Pinnawala Elephant Orphanage',
             description:
-              'Besuchen Sie das Pinnawala Elefantenwaisenhaus, ein bekanntes Schutzzentrum fur gerettete und verwaiste Elefanten. Beobachten Sie die Tiere aus der Nahe und  je nach Zeitpunkt  ihr unvergessliches Bad im Fluss.',
+              'Bezoek het Pinnawala Elephant Orphanage, een bekend opvangcentrum voor geredde en verweesde olifanten. U ziet de olifanten van dichtbij en, als het tijdstip het toelaat, hoe ze in de rivier baden.',
           },
           {
             type: 'Safari',
-            title: 'Safari im Minneriya Nationalpark',
+            title: 'Safari in Nationaal Park Minneriya',
             description:
-              'Erleben Sie eine spannende 4x4 Jeep Safari im Minneriya Nationalpark, bekannt fur „The Gathering"  eine der grossten Ansammlungen wilder Elefanten in Asien. Entdecken Sie Elefanten, Hirsche, Buffel und eine vielfaltige Vogelwelt.',
+              'Maak een spannende jeepsafari met een 4x4 in Nationaal Park Minneriya, bekend om "The Gathering", een van de grootste samenkomsten van wilde olifanten in Azië. U ziet olifanten, herten, buffels en allerlei vogelsoorten.',
           },
           {
-            type: 'Unterkunft',
-            title: 'Fresco Water Villa  Sigiriya',
-            description: 'Ubernachtung in der Fresco Water Villa (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive'],
+            type: 'Overnachting',
+            title: 'Fresco Water Villa in Sigiriya',
+            description: 'Overnachting in Fresco Water Villa (of vergelijkbaar).',
+            extra: ['Ontbijt en avondeten inbegrepen'],
           },
         ],
       },
       {
-        title: 'Sigiriya nach Kandy  Kulturerbe',
+        title: 'Van Sigiriya naar Kandy: cultureel erfgoed',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Sigiriya Felsenfestung',
+            type: 'Rondleiding',
+            title: 'Rotsvesting van Sigiriya',
             description:
-              'Besteigen Sie die UNESCO gelistete Lowenfelsen Festung Sigiriya, einen im 5. Jahrhundert errichteten Konigspalast, der dramatisch uber den Dschungelebenen aufragt. Entdecken Sie antike Fresken, die Spiegelwand und den Panoramablick vom Gipfel.',
+              'Beklim de leeuwenrots van Sigiriya, een rotsvesting op de werelderfgoedlijst van UNESCO. Dit koninklijk paleis uit de 5e eeuw rijst indrukwekkend op boven de junglevlakte. Bekijk de oude fresco’s, de Spiegelmuur en het panorama vanaf de top.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Zahntempel (Sri Dalada Maligawa)',
+            type: 'Rondleiding',
+            title: 'Tempel van de Heilige Tandrelikwie',
             description:
-              'Besuchen Sie den Zahntempel in Kandy, einen der heiligsten buddhistischen Tempel der Welt. Erleben Sie traditionelle Rituale und bewundern Sie die schone kandyanische Architektur.',
+              'Bezoek Sri Dalada Maligawa in Kandy, een van de heiligste boeddhistische tempels ter wereld. U ziet traditionele rituelen en de mooie Kandyaanse architectuur van de tempel.',
           },
           {
-            type: 'Kulturerlebnis',
-            title: 'Kandyanische Tanzshow',
+            type: 'Culturele ervaring',
+            title: 'Kandyaanse culturele dansshow',
             description:
-              'Geniessen Sie am Abend eine Kulturshow mit traditioneller kandyanischer Trommelmusik, Feuerlauf und farbenprachtigen Kostumen, die Sri Lankas reiches kunstlerisches Erbe zeigen.',
+              'Geniet in de avond van een culturele dansvoorstelling, met traditioneel Kandyaans trommelspel, vuurlopen en kleurrijke kostuums die het rijke artistieke erfgoed van Sri Lanka laten zien.',
           },
           {
-            type: 'Unterkunft',
-            title: 'Hotel Topaz  Kandy',
-            description: 'Ubernachtung im Hotel Topaz (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive', '4 Sterne Hotel'],
+            type: 'Overnachting',
+            title: 'Hotel Topaz in Kandy',
+            description: 'Overnachting in Hotel Topaz (of vergelijkbaar).',
+            extra: ['Ontbijt en avondeten inbegrepen', 'Hotel met 4 sterren'],
           },
         ],
       },
       {
-        title: 'Kandy nach Nuwara Eliya  Malerisches Teeland',
+        title: 'Van Kandy naar Nuwara Eliya: groen theeland',
         activities: [
           {
-            type: 'Natur',
-            title: 'Royal Botanical Gardens Peradeniya',
+            type: 'Natuur',
+            title: 'Koninklijke Botanische Tuinen van Peradeniya',
             description:
-              'Erkunden Sie einen der schonsten botanischen Garten Asiens mit exotischen Orchideen, hohen Palmenallee, Heilpflanzen und wunderschon angelegten Anlagen am Mahaweli Fluss.',
+              'Verken een van de mooiste botanische tuinen van Azië, met exotische orchideeën, hoge palmenlanen, geneeskrachtige planten en zorgvuldig aangelegde tuinen langs de rivier de Mahaweli.',
           },
           {
-            type: 'Natur',
-            title: 'Ramboda Wasserfall',
+            type: 'Natuur',
+            title: 'Waterval van Ramboda',
             description:
-              'Halten Sie an den Ramboda Wasserfallen, einem der hochsten Wasserfalle Sri Lankas, umgeben von malerischen Teeplantagen und kuhler Bergluft.',
+              'Stop bij de waterval van Ramboda, een van de hoogste watervallen van Sri Lanka, omgeven door theeplantages en koele berglucht.',
           },
           {
-            type: 'Tee Erlebnis',
-            title: 'Besuch einer Teefabrik & Plantage',
+            type: 'Theebeleving',
+            title: 'Bezoek aan theefabriek en plantage',
             description:
-              'Erfahren Sie, wie der weltberuhmte Ceylon Tee vom Blatt bis zur Tasse hergestellt wird. Spazieren Sie durch uppige Teeplantagen und geniessen Sie eine frische Tee Verkostung im Hochland Sri Lankas.',
+              'Ontdek hoe de wereldberoemde Ceylon thee wordt gemaakt, van blad tot kopje. Wandel door weelderige theeplantages en proef verse thee in het heuvelland van Sri Lanka.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Hotel Yara Nuwara Eliya',
-            description: 'Ubernachtung im Yara Nuwara Eliya (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive', '4 Sterne Hotel'],
+            description: 'Overnachting in Yara Nuwara Eliya (of vergelijkbaar).',
+            extra: ['Ontbijt en avondeten inbegrepen', 'Hotel met 4 sterren'],
           },
         ],
       },
       {
-        title: 'Nuwara Eliya nach Ella  Bergpanorama',
+        title: 'Van Nuwara Eliya naar Ella: berglandschap',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Nine Arch Bridge',
+            type: 'Rondleiding',
+            title: 'Nine Arches Bridge',
             description:
-              'Die imposante Nine Arch Bridge ist einer der Hauptgrunde fur einen Besuch. Diese beeindruckende Brucke zwischen Ella und der Station Demodara zahlt zu den technischen Meisterleistungen des fruhen 20. Jahrhunderts.',
+              'De majestueuze Nine Arches Bridge is een belangrijke reden om Ella te bezoeken. De brug tussen Ella en station Demodara is een technisch hoogstandje uit het begin van de 20e eeuw.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Little Adam’s Peak',
             description:
-              'Mit einer Hohe von 1.141 m dauert der Aufstieg vom Eingang aus etwa 30 to 45 minuten. Der Blick vom Gipfel ist unglaublich  ein 360 Grad Panorama mit vorbeiziehenden Wolken ist ein wahres Erlebnis.',
+              'De top ligt op 1141 m. Vanaf de ingang duurt de wandeling 30 tot 45 minuten. Het uitzicht vanaf de top is bijzonder: een panorama van 360 graden, terwijl wolken over de berg trekken.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Oak Ray Ella Gap Hotel',
-            description: 'Unterkunft im Oak Ray Ella Gap Hotel oder ahnlich  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad'],
+            description: 'Overnachting in het Oak Ray Ella Gap Hotel of vergelijkbaar, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer'],
           },
         ],
       },
       {
-        title: 'Udawalawe zur Sudwestkuste  Fluss & Naturschutz',
+        title: 'Van Udawalawa naar de zuidwestkust: rivier en natuurbehoud',
         activities: [
           {
-            type: 'Naturschutz',
-            title: 'Meeresschildkroten Schutzprojekt',
+            type: 'Natuurbehoud',
+            title: 'Beschermingsproject voor zeeschildpadden',
             description:
-              'Besuchen Sie ein Meeresschildkroten Schutzzentrum an der Sudkuste und erfahren Sie mehr uber den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmassnahmen.',
+              'Bezoek een centrum voor zeeschildpadden aan de zuidkust. U hoort meer over de bescherming van het zeeleven, het uitbroeden van eieren en de revalidatie van dieren.',
           },
           {
-            type: 'Bootssafari',
-            title: 'Bootssafari auf dem Madu Fluss',
+            type: 'Boottocht',
+            title: 'Boottocht op de Madurivier',
             description:
-              'Geniessen Sie eine malerische Bootssafari durch die Mangrovenwalder und kleinen Inseln des Madu Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfaltige Feuchtgebietswelt.',
+              'Maak een mooie boottocht door de mangrovebossen en de kleine eilanden van de Madurivier. Ontdek de lokale kaneelteelt en de dieren van dit waterrijke gebied.',
           },
         ],
       },

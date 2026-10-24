@@ -50,6 +50,20 @@ export type ArticleContent = {
   en: BaseArticle;
 } & Partial<Record<Exclude<Locale, 'en'>, ArticleL10n>>;
 
+export function hasCompleteArticleTranslation(base: BaseArticle, l10n?: ArticleL10n): boolean {
+  if (!l10n) return false;
+  const requiredStrings = ['h1', 'lead', 'heroAlt', 'ctaTitle', 'ctaBody', 'ctaLabel'] as const;
+  if (requiredStrings.some((field) => !l10n[field]?.trim())) return false;
+  if (!l10n.faq || !l10n.relatedTours || !l10n.relatedDestinations || !l10n.relatedGuides) return false;
+  if (!l10n.sections || l10n.sections.length !== base.sections.length) return false;
+
+  return base.sections.every((section, index) => {
+    const translation = l10n.sections?.[index];
+    return !!translation?.title?.trim() && !!translation.body?.trim() &&
+      (!section.bullets || !!translation.bullets?.length);
+  });
+}
+
 export function localizeArticle(base: BaseArticle, l10n?: ArticleL10n): BaseArticle {
   if (!l10n) return base;
   return {

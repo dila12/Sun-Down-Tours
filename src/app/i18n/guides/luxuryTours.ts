@@ -76,8 +76,53 @@ export const LUXURY_TOURS_GUIDE: ArticleContent = {
     h1: 'Sri Lanka Luxusreisen: Privater Chauffeur und Boutique Hotels',
     lead:
       'Luxus bedeutet Timing, Privatsphare und passende Unterkunfte nicht jeden Punkt abzuhaken. Privater Chauffeur Guide und ehrliche Fahrttage schaffen eine Premium Reise ohne Gruppentour Kompromisse.',
+    heroAlt: 'Private Luxusreise durch Sri Lanka mit Chauffeur und ausgewahlten Hotels',
+    sections: [
+      {
+        title: 'Was eine private Luxusreise hier bedeutet',
+        body: 'Wir setzen auf gepflegte Privatfahrzeuge, erfahrene Chauffeur Guides, flexible Tagesplanung und Hotels, die zu Ihren Wunschen passen statt auf feste Buszeiten und standardisierte Mittagspausen. Eintrittskarten, Spa Termine und besondere Erlebnisse konnen transparent in das Angebot aufgenommen werden.',
+      },
+      {
+        title: 'Boutique Hotels und weniger Hotelwechsel',
+        body: 'Hochwertige Reisen planen oft langere Aufenthalte im Teehochland oder an der Sudkuste und weniger Hotelwechsel. Das spart Packaufwand und lasst Zeit fur Spa, Pool und entspannte Abendessen. Teilen Sie uns mit, ob Sie historische Villen, modernes Design oder klassische Kolonialhotels bevorzugen; die Verfugbarkeit hangt von der Saison ab.',
+      },
+      {
+        title: 'Besondere Erlebnisse ohne volles Tagesprogramm',
+        body: 'Sonnenaufgang bei Sigiriya, ein reservierter Zugabschnitt, ein privater Kochkurs oder eine passend geplante Safari lassen sich gut in eine Luxusroute integrieren, wenn genugend Ruhezeit bleibt. Wir uberladen den Tag nicht nur, um ein Programm zu fullen.',
+      },
+      {
+        title: 'Der Service von Sundown Tours',
+        body: 'Sie bleiben uber WhatsApp mit demselben lokalen Planungsteam in Kontakt. Spatere Starts, eine zusatzliche Strandnacht oder das Auslassen eines Stopps sind auf einer privaten Luxusreise problemlos moglich. Hotelkategorien im Angebot entsprechen den tatsachlichen Buchungsklassen.',
+      },
+      {
+        title: 'Eine private Luxusroute anfragen',
+        body: 'Nennen Sie uns Reisemonat, Gruppengrosse, bevorzugte Regionen und ungefahren Hotelbudget. Wir antworten mit einer Route, passenden Hotelbeispielen und einer klaren Liste der enthaltenen Leistungen. Fur eine komplette Rundreise bis zur Kuste sind acht bis zwolf Tage typisch.',
+      },
+    ],
+    faq: [
+      { q: 'Sind funf Sterne Hotels automatisch enthalten?', a: 'Nur wenn Sie diese Kategorie wunschen. Im Angebot stehen Hoteloptionen und Preise, damit Sie den Standard selbst festlegen.' },
+      { q: 'Organisieren Sie private Abendessen oder Spa Termine?', a: 'Ja, wenn unsere Partner es anbieten. Bekannte Kosten nennen wir vorab im Angebot statt erst vor Ort.' },
+      { q: 'Ist ein privater Guide zusatzlich zum Fahrer dabei?', a: 'An vielen Tagen begleitet Sie ein Chauffeur Guide. An wichtigen Sehenswurdigkeiten konnen bei Bedarf lokale Fachguides hinzukommen.' },
+      { q: 'Welche Fahrzeuge verwenden Sie?', a: 'Wir wahlen klimatisierte Autos oder Vans passend zur Gruppengrosse. Das konkrete Fahrzeug bestatigen wir fur Ihre Reisedaten.' },
+    ],
     ctaTitle: 'Luxuriose Privattour gestalten',
     ctaBody: 'Nennen Sie Daten und Hotelstil wir schlagen eine Chauffeur Route mit transparenten Optionen vor.',
     ctaLabel: 'Kontakt',
+    relatedTours: [
+      { pageId: 'tour10', label: '10 Tage Sri Lanka Rundreise' },
+      { pageId: 'tour8', label: '8 Tage Privatreise' },
+      { pageId: 'tour7', label: '7 Tage Sri Lanka Rundreise' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guidePrivateDriver', label: 'Ratgeber zum privaten Fahrer' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit' },
+      { pageId: 'guideTeaCountry', label: 'Ratgeber zum Teeland' },
+    ],
   },
 };

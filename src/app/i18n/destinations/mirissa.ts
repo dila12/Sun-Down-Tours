@@ -497,7 +497,7 @@ export const MIRISSA_DEST: ArticleContent = {
 
   ru: {
     h1: 'Мирисса, Шри Ланка: наблюдение за китами и пляжи южного побережья',
-    lead: 'Изогнутая бухта с золотым песком в обрамлении кокосовых пальмМирисса самая известная база южного побережья для наблюдения за китами, с тёплой водой для купания, неспешным ритмом пляжного городка и фортом Галле достаточно близко для лёгкой поездки на полдня.',
+    lead: 'Изогнутая бухта с золотым песком в обрамлении кокосовых пальм. Мирисса самая известная база южного побережья для наблюдения за китами, с тёплой водой для купания, неспешным ритмом пляжного городка и фортом Галле достаточно близко для лёгкой поездки на полдня.',
     heroAlt: 'Пляж в обрамлении пальм и рыбацкие лодки на южном побережье Шри Ланки возле Мириссы',
     sections: [
       {
@@ -506,37 +506,37 @@ export const MIRISSA_DEST: ArticleContent = {
       },
       {
         title: 'Наблюдение за китами, примерно с ноября по апрель',
-        body: 'Мириссаглавный порт наблюдения за китами в Шри Ланке и одно из немногих мест в мире, где синих китов видят достаточно регулярно, наряду с кашалотами, длинноклювыми продельфинами и, реже, косатками. Сезон длится примерно с ноября по апрель, когда юго западный муссон слабеет, а море успокаивается настолько, что лодки могут уходить дальше от берега; декабрь март обычно считается самым надёжным периодом.\n\nЛодки обычно отправляются из гавани около 6:00-6:30 на трёх четырёхчасовую прогулку, так что ранний подъёмчасть этого опыта. Наблюдения никогда не гарантированы в рамках одной поездки, и мы отдаём предпочтение операторам, которые соблюдают уважительную дистанцию с животными и ограничивают число лодок, а не гоняются за каждой группой.',
+        body: 'Мирисса — главный порт наблюдения за китами в Шри Ланке и одно из немногих мест в мире, где синих китов видят достаточно регулярно, наряду с кашалотами, длинноклювыми продельфинами и, реже, косатками. Сезон длится примерно с ноября по апрель, когда юго западный муссон слабеет, а море успокаивается настолько, что лодки могут уходить дальше от берега; декабрь–март обычно считается самым надёжным периодом.\n\nЛодки обычно отправляются из гавани около 6:00-6:30 на трёх четырёхчасовую прогулку, так что ранний подъём — часть этого опыта. Наблюдения никогда не гарантированы в рамках одной поездки, и мы отдаём предпочтение операторам, которые соблюдают уважительную дистанцию с животными и ограничивают число лодок, а не гоняются за каждой группой.',
       },
       {
         title: 'Пляжи Мириссы и Coconut Tree Hill',
-        body: 'Главный пляжзащищённая бухта в форме полумесяца, достаточно спокойная для купания в большинство дней вне сезона муссонов, с шезлонгами, пляжными барами и простыми рыбными ресторанами, заполняющимися к закату. На её восточной оконечности скала Parrot Rock доступна пешком по каменной дамбе во время отлива и служит хорошей смотровой площадкой на закат над бухтой.\n\nКоротким пешим переходом или на тук туке вглубь острова находится Coconut Tree Hill (также называемый смотровой площадкой Мириссы)мыс с наклонившимися кокосовыми пальмами над океаном, одно из самых фотографируемых мест южного побережья, которое лучше посещать рано утром или поздним вечером, когда и свет, и толпы более комфортны.',
+        body: 'Главный пляж — защищённая бухта в форме полумесяца, достаточно спокойная для купания в большинство дней вне сезона муссонов, с шезлонгами, пляжными барами и простыми рыбными ресторанами, заполняющимися к закату. На её восточной оконечности скала Parrot Rock доступна пешком по каменной дамбе во время отлива и служит хорошей смотровой площадкой на закат над бухтой.\n\nКоротким пешим переходом или на тук туке вглубь острова находится Coconut Tree Hill (также называемый смотровой площадкой Мириссы) — мыс с наклонившимися кокосовыми пальмами над океаном, одно из самых фотографируемых мест южного побережья, которое лучше посещать рано утром или поздним вечером, когда и свет, и толпы более комфортны.',
       },
       {
         title: 'Не только пляж: сёрфинг, снорклинг и закатные прогулки',
-        body: 'Велигама, в десяти пятнадцати минутах по прибрежной дороге, обладает одними из самых надёжных волн для начинающих сёрферов в Шри Ланке и несколькими сёрф школами, предлагающими уроки и прокат досокпростое дополнение к отдыху в Мириссе без смены отеля. Снорклинг у более скалистых участков рядом с Мириссой и Велигамой может показать рифовых рыб и изредка черепаху, лучше всего при спокойном и прозрачном море.\n\nВечера обычно сосредоточены вокруг пляжных баров и нескольких прилавков с едой в стиле ночного рынка вдоль главной дорогиболее сдержанная атмосфера по сравнению с ночной жизнью некоторых других городков южного побережья, что подходит путешественникам, желающим сбавить темп после нескольких дней экскурсий вглубь острова.',
+        body: 'Велигама, в десяти пятнадцати минутах по прибрежной дороге, обладает одними из самых надёжных волн для начинающих сёрферов в Шри Ланке и несколькими сёрф школами, предлагающими уроки и прокат досок — простое дополнение к отдыху в Мириссе без смены отеля. Снорклинг у более скалистых участков рядом с Мириссой и Велигамой может показать рифовых рыб и изредка черепаху, лучше всего при спокойном и прозрачном море.\n\nВечера обычно сосредоточены вокруг пляжных баров и нескольких прилавков с едой в стиле ночного рынка вдоль главной дороги — более сдержанная атмосфера по сравнению с ночной жизнью некоторых других городков южного побережья, что подходит путешественникам, желающим сбавить темп после нескольких дней экскурсий вглубь острова.',
       },
       {
         title: 'Практические советы для посещения Мириссы',
-        body: 'Условия для купания в главной бухте обычно спокойные, но течения и обратный поток могут быстро усиливаться, особенно в переходные месяцы вокруг смены муссонаодни участки лучше контролируются, чем другие, поэтому стоит уточнить обстановку на месте, прежде чем купаться вдали от привычных мест. Выбирайте оператора наблюдения за китами внимательно: небольшие лодки, заявленное ограничение числа судов рядом с китами и реалистичный настрой в отношении наблюденийлучшие признаки, чем гарантированная встреча.\n\nНомера с видом на море или прямым выходом на пляж бронируются задолго до высокого сезона с декабря по март, поэтому ранняя бронь здесь важнее, чем во многих направлениях в глубине острова. Стоит серьёзно отнестись к защите от солнцапляж даёт мало естественной тени в середине дня.',
+        body: 'Условия для купания в главной бухте обычно спокойные, но течения и обратный поток могут быстро усиливаться, особенно в переходные месяцы вокруг смены муссона. Одни участки лучше контролируются, чем другие, поэтому стоит уточнить обстановку на месте, прежде чем купаться вдали от привычных мест. Выбирайте оператора наблюдения за китами внимательно: небольшие лодки, заявленное ограничение числа судов рядом с китами и реалистичный настрой в отношении наблюдений — лучшие признаки, чем гарантированная встреча.\n\nНомера с видом на море или прямым выходом на пляж бронируются задолго до высокого сезона с декабря по март, поэтому ранняя бронь здесь важнее, чем во многих направлениях в глубине острова. Стоит серьёзно отнестись к защите от солнца: пляж даёт мало естественной тени в середине дня.',
       },
       {
         title: 'Погода в Мириссе',
-        body: 'Как и остальная часть юго западного побережья Шри Ланки, Мирисса находится в более влажной из двух муссонных зон острова, а основной муссон, примерно с мая по сентябрь, приносит более сильные дожди, неспокойное море и ненадёжный сезон наблюдения за китами. Декабрь мартсамый сухой, солнечный период и безусловно самое популярное время для визита как ради пляжных дней, так и ради лодочных прогулок.\n\nОктябрь, ноябрь и апрель занимают промежуточное положение и могут приносить смесь ясных дней и коротких, но сильных ливней; сезон наблюдения за китами иногда начинается чуть раньше или заканчивается чуть позже в зависимости от того, как складывается год, поэтому стоит уточнять текущие условия ближе к датам поездки.',
+        body: 'Как и остальная часть юго западного побережья Шри Ланки, Мирисса находится в более влажной из двух муссонных зон острова, а основной муссон, примерно с мая по сентябрь, приносит более сильные дожди, неспокойное море и ненадёжный сезон наблюдения за китами. Декабрь–март — самый сухой, солнечный период и безусловно самое популярное время для визита как ради пляжных дней, так и ради лодочных прогулок.\n\nОктябрь, ноябрь и апрель занимают промежуточное положение и могут приносить смесь ясных дней и коротких, но сильных ливней; сезон наблюдения за китами иногда начинается чуть раньше или заканчивается чуть позже в зависимости от того, как складывается год, поэтому стоит уточнять текущие условия ближе к датам поездки.',
       },
       {
         title: 'Рядом: форт Галле, Велигама и не только',
-        body: 'Форт Галле находится примерно в 25-40 минутах ездыдостаточно близко, чтобы совместить утро наблюдения за китами с послеобеденным временем среди старых голландских стен, или наоборот, без раннего подъёма в оба дня. Велигама, всего в десяти пятнадцати минутах, добавляет к тому же участку побережья сёрфинг и возможность увидеть знаменитых рыбаков на ходулях этого региона.\n\nДальше национальный парк Яла требует более долгого переезда, около двух с половиной трёх часов, обычно включаемого в многодневный маршрут по южному побережью, а не в однодневную поездку, а Матара, более крупный город сразу за Мириссой,удобная остановка для банков, магазинов или дальнейшего пути.',
+        body: 'Форт Галле находится примерно в 25-40 минутах езды — достаточно близко, чтобы совместить утро наблюдения за китами с послеобеденным временем среди старых голландских стен, или наоборот, без раннего подъёма в оба дня. Велигама, всего в десяти пятнадцати минутах, добавляет к тому же участку побережья сёрфинг и возможность увидеть знаменитых рыбаков на ходулях этого региона.\n\nДальше национальный парк Яла требует более долгого переезда, около двух с половиной трёх часов, обычно включаемого в многодневный маршрут по южному побережью, а не в однодневную поездку, а Матара, более крупный город сразу за Мириссой — удобная остановка для банков, магазинов или дальнейшего пути.',
       },
       {
         title: 'Посещение Мириссы с Sundown Tours',
-        body: 'Утро наблюдения за китами означает ранний старт, и это именно та логистика, которую частный водитель берёт на себя: заезд в отель, когда ещё темно, ожидание в гавани во время поездки и гибкий план на оставшуюся часть дня после возвращения на берег. Будь то сон, спокойный пляжный день или сразу поездка в форт Галлерешать только вам.\n\nМы включаем Мириссу в маршруты по южному побережью вместе с Галле, Велигамой и Ялой, подстраивая их под сезон наблюдения за китами, если он совпадает с вашими датами, с заранее организованными заездами в отель и каждым трансферомединственный ранний будильник, о котором вам нужно помнить, будет для лодки.',
+        body: 'Утро наблюдения за китами означает ранний старт, и это именно та логистика, которую частный водитель берёт на себя: заезд в отель, когда ещё темно, ожидание в гавани во время поездки и гибкий план на оставшуюся часть дня после возвращения на берег. Будь то сон, спокойный пляжный день или сразу поездка в форт Галле — решать только вам.\n\nМы включаем Мириссу в маршруты по южному побережью вместе с Галле, Велигамой и Ялой, подстраивая их под сезон наблюдения за китами, если он совпадает с вашими датами, с заранее организованными заездами в отель и каждым трансфером. Единственный ранний будильник, о котором вам нужно помнить, будет для лодки.',
       },
     ],
     faq: [
       {
         q: 'Когда лучшее время для наблюдения за китами в Мириссе?',
-        a: 'Примерно с ноября по апрель, при этом декабрь март обычно самый спокойный и надёжный период сезона. Вне этих месяцев лодки могут вообще не выходить в море, если оно слишком неспокойно.',
+        a: 'Примерно с ноября по апрель, при этом декабрь–март обычно самый спокойный и надёжный период сезона. Вне этих месяцев лодки могут вообще не выходить в море, если оно слишком неспокойно.',
       },
       {
         q: 'Хороший ли в Мириссе пляж для купания?',
@@ -572,6 +572,71 @@ export const MIRISSA_DEST: ArticleContent = {
       { pageId: 'guideWhaleWatching', label: 'Гид по наблюдению за китами в Шри Ланке' },
       { pageId: 'guideBeaches', label: 'Гид по пляжам Шри Ланки' },
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки в Шри Ланку' },
+    ],
+  },
+  nl: {
+    h1: 'Mirissa, Sri Lanka: walvissen spotten en stranden aan de zuidkust',
+    lead: 'Mirissa is een bekende uitvalsbasis aan de zuidkust: een gebogen baai met goudkleurig zand en palmbomen, warm zwemwater en een ontspannen sfeer. Het fort van Galle ligt dichtbij genoeg voor een uitstapje van een halve dag.',
+    heroAlt: 'Halvemaanvormig strand met palmen en vissersboten bij Mirissa aan de zuidkust van Sri Lanka',
+    sections: [
+      {
+        title: 'Een kleine badplaats rond de baai',
+        body: 'Mirissa begon als rustig vissersdorp aan de zuidkust en groeide uit tot een bekende plek voor walvistochten en strandverblijven, zonder dat het dorpsgevoel helemaal verdween. Het centrum is klein genoeg om te voet te verkennen. Langs de halvemaanvormige baai staan palmen, open restaurants en guesthouses op de lage helling.\n\nAan de westkant van de haven brengen vissers nog steeds hun ochtendvangst aan land. Vanaf ongeveer november vertrekken hier ook voor zonsopgang boten om walvissen te spotten. Mirissa is eerst een werkend kustplaatsje en pas daarna een badplaats.',
+      },
+      {
+        title: 'Walvissen spotten, ongeveer van november tot april',
+        body: 'Mirissa is de belangrijkste vertrekhaven voor walvistochten in Sri Lanka. In het seizoen worden er blauwe vinvissen, potvissen en spinnerdolfijnen gezien; orka’s komen minder vaak voor. Het seizoen loopt ongeveer van november tot april, wanneer de zuidwestmoesson afneemt en de zee meestal rustiger wordt. December tot maart geldt vaak als de betrouwbaarste periode.\n\nDe boten vertrekken doorgaans rond 6.00–6.30 uur voor een tocht van drie tot vier uur. Waarnemingen zijn nooit gegarandeerd. Kies een aanbieder die afstand houdt tot de dieren en het aantal boten rond een groep beperkt.',
+      },
+      {
+        title: 'Stranden van Mirissa en Coconut Tree Hill',
+        body: 'Het hoofdstrand ligt in een beschutte halvemaanvormige baai waar u buiten de moesson vaak kunt zwemmen. Langs het strand vindt u ligbedden, strandbars en eenvoudige visrestaurants die rond zonsondergang drukker worden. Bij eb kunt u via een rotsachtig pad naar Parrot Rock lopen voor uitzicht over de baai.\n\nCoconut Tree Hill ligt iets landinwaarts en is te voet of per tuk-tuk bereikbaar. De landtong met scheef groeiende kokospalmen boven zee is een van de meest gefotografeerde plekken aan de zuidkust. Ga vroeg of later op de dag voor zachter licht en minder drukte.',
+      },
+      {
+        title: 'Meer dan strand: surfen, snorkelen en avondwandelingen',
+        body: 'Weligama ligt op tien tot vijftien minuten rijden en heeft betrouwbare golven voor beginnende surfers, met verschillende surfscholen en boardverhuur. Zo kunt u een les toevoegen zonder van hotel te wisselen. Bij rotsachtige plekken rond Mirissa en Weligama kunt u bij rustig, helder water soms rifvissen en zeeschildpadden zien.\n\n’s Avonds zijn er strandbars en enkele eenvoudige eetkraampjes langs de hoofdweg. De sfeer is doorgaans rustig, geschikt voor reizigers die na een rondreis door het binnenland willen ontspannen.',
+      },
+      {
+        title: 'Praktische tips voor Mirissa',
+        body: 'In de hoofdbaai is de zee vaak rustig, maar stromingen kunnen snel sterker worden, vooral rond de overgang tussen moessonseizoenen. Vraag lokaal welke plekken veilig zijn om te zwemmen. Kies voor een walvistochtaanbieder met kleinere boten, duidelijke regels voor afstand tot dieren en realistische verwachtingen in plaats van beloften over gegarandeerde waarnemingen.\n\nKamers met zeezicht of directe strandtoegang zijn in het hoogseizoen van december tot maart vroeg volgeboekt. Reserveer daarom op tijd en neem zonbescherming mee; midden op de dag is er weinig natuurlijke schaduw.',
+      },
+      {
+        title: 'Het weer in Mirissa',
+        body: 'Mirissa ligt, net als de rest van de zuidwestkust, in de nattere moessonzone van Sri Lanka. De hoofdmoesson duurt ongeveer van mei tot september en brengt meer regen, ruwer zeewater en minder betrouwbare omstandigheden voor boottochten. December tot maart is meestal de droogste en zonnigste periode en daardoor het populairst voor stranddagen en walvistochten.\n\nOktober, november en april zijn overgangsmaanden met zowel zonnige dagen als korte, stevige buien. Het walvisseizoen kan per jaar iets eerder beginnen of later eindigen; controleer de omstandigheden dichter bij uw reisdatum.',
+      },
+      {
+        title: 'In de buurt: Galle Fort, Weligama en verder',
+        body: 'Galle Fort ligt op ongeveer 25 tot 40 minuten rijden. Daardoor kunt u een ochtend op zee combineren met een middag tussen de oude Nederlandse vestingmuren, of andersom. Weligama ligt nog dichterbij en biedt surfmogelijkheden en zicht op de bekende paalvissers van de regio.\n\nYala National Park ligt verder weg en vraagt ongeveer tweeënhalf tot drie uur reistijd; het past beter in een meerdaagse route dan in een dagtocht. Matara, net voorbij Mirissa, is een praktische stop voor banken, winkels of vervoer naar elders.',
+      },
+      {
+        title: 'Mirissa bezoeken met Sundown Tours',
+        body: 'Een walvistocht begint vroeg. Met een privéchauffeur hoeft u de logistiek niet zelf te regelen: ophalen bij uw hotel voor zonsopgang, wachten bij de haven en na terugkomst flexibel verder reizen. U kunt uitrusten, een rustige middag op het strand doorbrengen of doorrijden naar Galle Fort.\n\nWe nemen Mirissa op in routes langs Galle, Weligama en Yala wanneer de walvisperiode bij uw reisdata past. Hotelophaalservice en transfers worden vooraf geregeld; u hoeft alleen rekening te houden met de vroege boottocht.',
+      },
+    ],
+    faq: [
+      { q: 'Wanneer kunt u het beste walvissen spotten in Mirissa?', a: 'Ongeveer van november tot april. December tot maart is meestal de rustigste en betrouwbaarste periode. Bij ruwe zee varen boten soms niet uit.' },
+      { q: 'Is Mirissa een goed strand om te zwemmen?', a: 'De hoofdbaai is buiten de moesson vaak rustig genoeg om te zwemmen, maar stromingen kunnen plaatselijk sterker zijn. Vraag ter plekke naar de omstandigheden van die dag.' },
+      { q: 'Hoe ver ligt Galle Fort van Mirissa?', a: 'Ongeveer 25 tot 40 minuten rijden, afhankelijk van het verkeer. Zo kunt u een ochtend op zee combineren met een middag in het fort.' },
+      { q: 'Kan ik Mirissa combineren met surfen in Weligama?', a: 'Ja. Weligama ligt op tien tot vijftien minuten rijden en heeft golven die geschikt zijn voor beginners.' },
+      { q: 'Hoeveel nachten zijn aan te raden in Mirissa?', a: 'Een of twee nachten zijn genoeg voor een walvistocht en strandtijd. Voor een rustiger verblijf of een reservedag bij slecht weer kunt u langer blijven.' },
+    ],
+    ctaTitle: 'Neem Mirissa op in uw route langs de zuidkust',
+    ctaBody: 'Onze privérondreizen combineren Mirissa met Galle Fort, de surfstranden van Weligama en andere plekken aan de zuidkust. Uw chauffeur regelt de vroege rit naar de haven en de transfers ertussen.',
+    ctaLabel: 'Bezoek aan Mirissa plannen',
+    relatedTours: [
+      { pageId: 'galleDay', label: 'Dagtocht naar Galle' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destHiriketiya', label: 'Hiriketiya' },
+      { pageId: 'destYala', label: 'Nationaal park Yala' },
+      { pageId: 'destElla', label: 'Ella' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideWhaleWatching', label: 'Gids voor walvissen spotten in Sri Lanka' },
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
     ],
   },
 };

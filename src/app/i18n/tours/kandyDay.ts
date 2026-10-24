@@ -578,7 +578,7 @@ export const KANDY_DAY: TourContent = {
     description:
       'Познакомьтесь с культурным сердцем Шри Ланки в однодневном туре с гидом в Канди, включающем слонов, храмы, чай и живописные виды.',
     duration: '1 день',
-    persons: '1 to 20 путешественников',
+    persons: '1–20 путешественников',
     tourType: 'Однодневный тур',
     overview:
       'Эта однодневная поездка в Канди познакомит вас с культурной столицей Шри Ланки. Посетите Millennium Elephant Foundation или приют слонов Пиннавела, побывайте в священном Храме Зуба Будды, насладитесь визитом на чайную фабрику и плантацию, отдохните у озера Канди со смотровой площадкой и по желанию заглянете в сад трав и специй. Идеально для путешественников, ищущих культуру, природу и традиции за один день.',
@@ -613,7 +613,7 @@ export const KANDY_DAY: TourContent = {
       },
       {
         q: 'Может ли этот однодневный тур начаться в Коломбо и вернуться туда же вечером?',
-        a: 'Да, безусловно. Рассчитывайте на 3 to 4 часа пути в каждую сторону с остановками у слонов и в чайном крае, разбивающими дорогу. Ранний выезд позволяет провести больше времени в Храме Зуба.',
+        a: 'Да, безусловно. Рассчитывайте на 3–4 часа пути в каждую сторону с остановками у слонов и в чайном крае, разбивающими дорогу. Ранний выезд позволяет провести больше времени в Храме Зуба.',
       },
     ],
     days: [
@@ -661,87 +661,87 @@ export const KANDY_DAY: TourContent = {
     ],
   },
   nl: {
-    title: 'Sri Lanka Kandy Tagestour',
+    title: 'Sri Lanka Kandy dagtocht',
     description:
-      'Erleben Sie das kulturelle Herz Sri Lankas mit einer gefuhrten Tagestour nach Kandy, inklusive Elefanten, Tempeln, Tee und malerischen Ausblicken.',
-    duration: '1 Tag',
-    persons: '1 to 20 Reisende',
-    tourType: 'Tagestour',
+      'U beleeft het culturele hart van Sri Lanka tijdens een begeleide dagtocht naar Kandy, met olifanten, tempels, thee en schilderachtige uitzichten.',
+    duration: '1 dag',
+    persons: '1 tot 20 reizigers',
+    tourType: 'Dagtocht',
     overview:
-      'Diese eintagige Reise nach Kandy fuhrt Sie durch die kulturelle Hauptstadt Sri Lankas. Besuchen Sie die Millennium Elephant Foundation oder das Pinnawala Elephant Orphanage, erkunden Sie den heiligen Zahntempel, geniessen Sie den Besuch einer Teefabrik und Plantage, entspannen Sie am Kandy See mit Aussichtspunkt und machen Sie optional einen Abstecher zu einem Krauter und Gewurzgarten. Perfekt fur Reisende, die Kultur, Natur und Tradition an einem einzigen Tag erleben mochten.',
+      'Deze eendaagse tocht naar Kandy voert u door de culturele hoofdstad van Sri Lanka. U bezoekt de Millennium Elephant Foundation of het Pinnawala Elephant Orphanage, verkent de heilige Tempel van de Tand, geniet van een bezoek aan een theefabriek en een plantage, ontspant bij het Kandy meer en het uitzichtpunt, en stopt desgewenst bij een tuin met kruiden en specerijen. De dag past bij reizigers die cultuur, natuur en traditie op één dag willen beleven.',
     includes: [
-      'Alle Eintrittsgebuhren fur Attraktionen',
-      'Autobahngebuhren und Parkgebuhren',
-      'Englischsprachiger professioneller Fahrer',
-      'Klimatisiertes Privatfahrzeug',
+      'Alle entreegelden voor de bezienswaardigheden',
+      'Snelwegtickets en parkeerkosten',
+      'Professionele Engelssprekende chauffeur',
+      'Privévoertuig met airconditioning',
     ],
-    excludes: ['Speisen & Getranke', 'Eintritts und Aktivitatsgebuhren'],
+    excludes: ['Eten en drinken', 'Entreegelden en kosten voor activiteiten'],
     seoIntro:
-      'Tagestouren nach Kandy bundeln Sri Lankas letzte Konigsstadt in ein einziges kulturelles Erlebnis  Elefanten, heilige buddhistische Rituale und Ceylon Tee in den Bergen. Besuchen Sie auf dem Weg die Millennium Elephant Foundation oder das Pinnawala Elephant Orphanage und betreten Sie anschliessend den Zahntempel, in dem taglich Puja Zeremonien um die verehrte Zahnreliquie Buddhas stattfinden. Der Besuch einer aktiven Teefabrik und Plantage zeigt, wie der weltberuhmte Ceylon Tee gerollt, oxidiert und verkostet wird, wahrend der Kandy See und der obere Aussichtspunkt malerische Panoramen der Seestadt bieten. Ein optionaler Halt in einem Gewurz und Krautergarten stellt bei ausreichender Zeit Zimt, Pfeffer und ayurvedische Pflanzen vor. Sundown Tours ubernimmt Eintrittsgebuhren, Autobahngebuhren und den privaten klimatisierten Transport mit einem englischsprachigen Fahrer Guide. Das Mittagessen ist flexibel am See oder in einem Plantagen Bungalow moglich. Perfekt fur Reisende mit Standort in Colombo, Negombo oder Kandy, die Tiefe erleben mochten, ohne in den Bergen zu ubernachten.',
+      'Dagtochten naar Kandy vatten de laatste koningsstad van Sri Lanka samen in één culturele ervaring, met olifanten, heilige boeddhistische rituelen en Ceylon thee in de bergen. Onderweg bezoekt u de Millennium Elephant Foundation of het Pinnawala Elephant Orphanage. Daarna gaat u de Tempel van de Tand binnen, waar dagelijks een pujaceremonie plaatsvindt rond de vereerde tandreliek van Boeddha. Een bezoek aan een werkende theefabriek en plantage laat zien hoe de wereldberoemde Ceylon thee wordt gerold, geoxideerd en geproefd. Het Kandy meer en het hogere uitzichtpunt bieden schilderachtige uitzichten over de merenstad. Een optionele stop in een tuin met specerijen en kruiden laat, als de tijd het toelaat, kaneel, peper en ayurvedische planten zien. Sundown Tours regelt de entreegelden, de snelwegkosten en het vervoer in een privévoertuig met airconditioning en een Engelssprekende chauffeur gids. De lunch is flexibel bij het meer of in een bungalow bij een plantage. De dag past bij reizigers die in Colombo, Negombo of Kandy verblijven en meer diepgang willen, zonder in de bergen te overnachten.',
     highlights: [
-      'Besuch der Millennium Elephant Foundation oder des Pinnawala Elephant Orphanage',
-      'Zahntempel mit kandyanischer Architektur und Seeblick',
-      'Teefabrik und Plantagenbesuch mit frischer Ceylon Tee Verkostung',
-      'Spaziergang am Kandy See und Fotostopps am malerischen Stadt Aussichtspunkt',
-      'Optionaler Krauter und Gewurzgarten mit Vorfuhrung des lokalen Anbaus',
+      'Bezoek aan de Millennium Elephant Foundation of het Pinnawala Elephant Orphanage',
+      'Tempel van de Tand, met Kandyaanse architectuur en uitzicht op het meer',
+      'Bezoek aan een theefabriek en plantage, met een proeverij van verse Ceylon thee',
+      'Wandeling langs het Kandy meer en fotomomenten bij het schilderachtige uitzichtpunt over de stad',
+      'Optionele tuin met kruiden en specerijen, met een demonstratie van de lokale teelt',
     ],
     whoIsFor:
-      'Geeignet fur kulturinteressierte Paare, Familien und Erstbesucher, die das Wesentliche von Kandy an einem Tag erleben mochten, ohne allein mit Bergland Bussen oder Tuk Tuk Anbietern zurechtkommen zu mussen.',
+      'Geschikt voor stellen, gezinnen en eerste bezoekers met belangstelling voor cultuur, die het belangrijkste van Kandy op één dag willen beleven, zonder in uw eentje de bussen in het heuvelland of tuk tuk ronselaars te moeten trotseren.',
     bestTimeNote:
-      'Ganzjahrig moglich; im Kulturellen Dreieck ist es von Juni bis September am trockensten, wahrend von Dezember bis Marz die Aussichtspunkte uber Kandy die klarste Sicht bieten. Die abendliche Puja im Zahntempel ist sehenswert  fragen Sie uns bei der Buchung danach.',
+      'Het hele jaar mogelijk. In de Culturele Driehoek is het van juni tot september het droogst. Van december tot maart is het zicht vanaf de hogere uitzichtpunten boven Kandy het helderst. De puja in de avond bij de Tempel van de Tand is de moeite waard. Vraag ons bij de boeking naar het tijdstip.',
     faq: [
       {
-        q: 'Pinnawala oder Millennium Elephant Foundation  welchen Ort besuchen wir?',
-        a: 'Wir wahlen je nach Abholort und Zeitplan. Pinnawala passt gut zu Routen ab Colombo; das Millennium Elephant Foundation eignet sich, wenn Sie bereits in der Nahe von Kandy sind. Teilen Sie uns Ihre Praferenz bei der Buchung mit.',
+        q: 'Bezoeken wij Pinnawala of de Millennium Elephant Foundation?',
+        a: 'Wij kiezen op basis van uw ophaalplaats en het tijdschema. Pinnawala past goed bij routes vanuit Colombo. De Millennium Elephant Foundation is geschikt als u al in de buurt van Kandy bent. Geef uw voorkeur door bij de boeking.',
       },
       {
-        q: 'Ist der Eintritt zum Zahntempel enthalten?',
-        a: 'Ja  die aufgefuhrten Eintrittsgebuhren, Autobahngebuhren und Parkgebuhren sind enthalten. Fur den Tempelbesuch ist bescheidene Kleidung mit bedeckten Schultern und Knien erforderlich.',
+        q: 'Is de toegang tot de Tempel van de Tand inbegrepen?',
+        a: 'Ja. De genoemde entreegelden, de snelwegtickets en de parkeerkosten zijn inbegrepen. Voor het tempelbezoek draagt u bescheiden kleding die schouders en knieën bedekt.',
       },
       {
-        q: 'Kann diese Tagestour ab Colombo starten und am selben Abend zuruckkehren?',
-        a: 'Ja, problemlos. Rechnen Sie mit 3 to 4 Stunden Fahrzeit pro Strecke, unterbrochen durch Stopps bei den Elefanten und im Teeland. Eine fruhe Abfahrt maximiert die Zeit am Zahntempel.',
+        q: 'Kan deze dagtocht vanuit Colombo starten en dezelfde avond terugkeren?',
+        a: 'Ja, dat kan. Reken op 3 tot 4 uur rijden per traject, met stops bij de olifanten en in het theeland onderweg. Een vroeg vertrek geeft u de meeste tijd bij de Tempel van de Tand.',
       },
     ],
     days: [
       {
-        title: 'Kandy Tagestour Reiseroute',
+        title: 'Route van de Kandy dagtocht',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Kandy Tagestour Reiseroute',
+            type: 'Rondleiding',
+            title: 'Route van de Kandy dagtocht',
             description:
-              'Beobachten Sie Elefanten aus nachster Nahe und erfahren Sie mehr uber Elefantenpflege und Artenschutz.',
+              'U bekijkt olifanten van dichtbij en leert meer over de verzorging en de bescherming van olifanten.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Millennium Elephant Foundation / Pinnawala Elephant Orphanage',
             description:
-              'Beobachten Sie Elefanten aus nachster Nahe und erfahren Sie mehr uber Elefantenpflege und Artenschutz.',
+              'U bekijkt olifanten van dichtbij en leert meer over de verzorging en de bescherming van olifanten.',
           },
           {
-            type: 'Aktivitat',
-            title: 'Zahntempel (Sri Dalada Maligawa)',
+            type: 'Activiteit',
+            title: 'Tempel van de Tand (Sri Dalada Maligawa)',
             description:
-              'Besuchen Sie den heiligsten buddhistischen Tempel Sri Lankas im Herzen von Kandy.',
+              'U bezoekt de heiligste boeddhistische tempel van Sri Lanka, in het hart van Kandy.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Teefabrik & Teeplantage',
+            type: 'Rondleiding',
+            title: 'Theefabriek en theeplantage',
             description:
-              'Erkunden Sie eine Teefabrik und Plantage und erfahren Sie, wie der weltberuhmte Ceylon Tee hergestellt wird.',
+              'Verken een theefabriek en een plantage en ontdek hoe de wereldberoemde Ceylon thee wordt gemaakt.',
           },
           {
-            type: 'Besichtigung',
-            title: 'Kandy See & Aussichtspunkt',
+            type: 'Bezienswaardigheid',
+            title: 'Kandy meer en uitzichtpunt',
             description:
-              'Geniessen Sie malerische Ausblicke auf die Stadt Kandy und entspannen Sie am pittoresken Kandy See.',
+              'Geniet van het uitzicht op de stad Kandy en ontspan bij het schilderachtige Kandy meer.',
           },
           {
-            type: 'Optionaler Besuch',
-            title: 'Krauter und Gewurzgarten',
+            type: 'Optioneel bezoek',
+            title: 'Tuin met kruiden en specerijen',
             description:
-              'Optionaler Besuch eines Krauter und Gewurzgartens, um mehr uber sri lankische Gewurze und Heilkrauter zu erfahren.',
+              'Optioneel bezoek aan een tuin met kruiden en specerijen, zodat u meer leert over Sri Lankaanse specerijen en geneeskrachtige kruiden.',
           },
         ],
       },

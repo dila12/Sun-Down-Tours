@@ -294,6 +294,10 @@ export const BUDGET_GUIDE: ArticleContent = {
         q: 'Quando gli hotel sono piu economici?',
         a: 'Fuori da dicembre to marzo sulle coste sud e ovest, e lontano dalle grandi festivita, le tariffe scendono. Il picco della costa est e diverso allineate regione balneare e stagione per un miglior valore.',
       },
+      {
+        q: 'Pubblicate il cambio sterlina rupia di oggi?',
+        a: 'Il cambio sterlina lira sri lankese si muove ogni giorno. Sull’isola si paga in rupie. Prepariamo preventivi per le vacanze, non trasferiamo denaro dal Regno Unito.',
+      },
     ],
     ctaTitle: 'Ricevete un preventivo chiaro per le vostre date',
     ctaBody: 'Indicaci periodo, numero di persone e ritmo tracceremo un itinerario privato con inclusioni trasparenti prima della prenotazione.',
@@ -436,6 +440,10 @@ export const BUDGET_GUIDE: ArticleContent = {
         q: 'Kiedy hotele na Sri Lance sa najtansze?',
         a: 'Poza grudniem to marcem na poludniu i zachodzie oraz z dala od duzych swiat ceny spadaja. Szczyt na wschodnim wybrzezu wypada inaczej dopasujcie region plazowy do sezonu.',
       },
+      {
+        q: 'Czy publikujecie dzisiejszy kurs funta do rupii?',
+        a: 'Kurs funta do rupii sri lankijskiej zmienia sie codziennie. Na wyspie placi sie w rupiach. Wyceniamy wakacje, nie przesylamy pieniedzy z Wielkiej Brytanii.',
+      },
     ],
     ctaTitle: 'Uzyskajcie jasna wycene na Wasze terminy',
     ctaBody: 'Podajcie okno podrozy, liczbe osob i tempo naszkicujemy prywatna trase z przejrzystymi skladowymi przed rezerwacja.',
@@ -456,20 +464,20 @@ export const BUDGET_GUIDE: ArticleContent = {
 
   ru: {
     h1: 'Бюджетный гид по Шри Ланке: реальные расходы частной поездки',
-    lead: 'Шри Ланка по прежнему одна из выгодных азиатских стран для путешествий, но «дёшево» зависит только от форматаастный тур с водителем и автобусы бэкпекеров это разные статьи бюджета; понимание, куда уходят деньги, помогает планировать без сюрпризов.',
+    lead: 'Шри Ланка по-прежнему одна из выгодных азиатских стран для путешествий, но «дёшево» зависит только от формата. Частный тур с водителем и автобусы бэкпекеров — это разные статьи бюджета; понимание, куда уходят деньги, помогает планировать без сюрпризов.',
     heroAlt: 'Заметки и карта для планирования бюджета поездки на Шри Ланку',
     sections: [
       {
         title: 'Сколько на самом деле стоит день на Шри Ланке',
-        body: 'Частная поездка среднего уровня обычно укладывается примерно в 80 to 150 USD на человека в день, если усреднить жильё, еду, общего частного водителя и основные входные билеты за неделю. Бюджетные путешественники с местной кухней и простыми гестхаусами часто держат еду и ночёвку ниже 40 to 50 USD в деньранспорт и билеты в парки всё равно суммируются.\n\nЛюксовые лоджи, спа отели в чайном крае и эксклюзивные сафари кемпы поднимают сутки заметно выше 250 USD. Полезна не одна «средняя», а сочетание транспорта, уровня отелей и числа платных объектов.',
+        body: 'Частная поездка среднего уровня обычно укладывается примерно в 80–150 USD на человека в день, если усреднить жильё, еду, общего частного водителя и основные входные билеты за неделю. Бюджетные путешественники с местной кухней и простыми гестхаусами часто держат еду и ночёвку ниже 40–50 USD в день. Транспорт и билеты в парки всё равно суммируются.\n\nЛюксовые лоджи, спа-отели в чайном крае и эксклюзивные сафари-кемпы поднимают сутки заметно выше 250 USD. Полезна не одна «средняя», а сочетание транспорта, уровня отелей и числа платных объектов.',
       },
       {
         title: 'Транспорт: строка, которая меняет бюджет',
-        body: 'Общественные автобусы и поезда недороги, но съедают время и ограничивают, сколько острова вы увидите комфортно за неделю. Частный кондиционированный автомобиль с англоязычным водителем гидом дороже в сутки, но при двух–четырёх людях часто выходит разумно доставкой door to door, гибкими остановками и без возни с багажом.\n\nТопливо, питание водителя и его ночёвка обычно входят в коммерческое предложение тура; уточняйте состав, чтобы не сравнивать тариф «только машина» с полным пакетом.',
+        body: 'Общественные автобусы и поезда недороги, но съедают время и ограничивают, сколько острова вы увидите комфортно за неделю. Частный кондиционированный автомобиль с англоязычным водителем гидом дороже в сутки, но при двух–четырёх людях часто выходит разумно доставкой от двери до двери, гибкими остановками и без возни с багажом.\n\nТопливо, питание водителя и его ночёвка обычно входят в коммерческое предложение тура; уточняйте состав, чтобы не сравнивать тариф «только машина» с полным пакетом.',
       },
       {
         title: 'Диапазоны цен на еду и жильё',
-        body: 'Сытный обед rice and curry в местном заведении часто стоит несколько долларов; туристические рестораны в Галле, Элле и на пляжах берут больше, особенно за морепродукты и западные блюда. Завтрак нередко включён.\n\nЧистые двухместные номера вне пика сезона очень доступны; бутик виллы и heritage-отели в форте Галле или на чайных плантацияхругой полюс. Декабрь–март на юге и западеамый быстрый рост цен: бронируйте заранее или сдвигайте даты, если можете.',
+        body: 'Сытный обед rice and curry в местном заведении часто стоит несколько долларов; туристические рестораны в Галле, Элле и на пляжах берут больше, особенно за морепродукты и западные блюда. Завтрак нередко включён.\n\nЧистые двухместные номера вне пика сезона очень доступны; бутик виллы и heritage-отели в форте Галле или на чайных плантациях — другой полюс. Декабрь–март на юге и западе — самый быстрый рост цен: бронируйте заранее или сдвигайте даты, если можете.',
       },
       {
         title: 'Билеты и впечатления, которые суммируются',
@@ -481,7 +489,7 @@ export const BUDGET_GUIDE: ArticleContent = {
       },
       {
         title: 'Где тратить больше (или меньше) действительно помогает',
-        body: 'Вложения в надёжного частного водителя и отели mid range с хорошими отзывами обычно улучшают поездку сильнее, чем апгрейд каждого ужина. Экономия на качестве сафари джипа или гонка по объектам ЮНЕСКО «ради лишнего дня» чаще стоит разочарования, а не денег.\n\nМежсезонье, делёж машины на троих–четверых и объединение близких объектов в один день (Сигирия с Дамбуллой)амые чистые способы сохранить ценность без обеднения маршрута.',
+        body: 'Вложения в надёжного частного водителя и отели среднего уровня с хорошими отзывами обычно улучшают поездку сильнее, чем апгрейд каждого ужина. Экономия на качестве сафари джипа или гонка по объектам ЮНЕСКО «ради лишнего дня» чаще стоит разочарования, а не денег.\n\nМежсезонье, делёж машины на троих–четверых и объединение близких объектов в один день (Сигирия с Дамбуллой) — самые чистые способы сохранить ценность без обеднения маршрута.',
       },
     ],
     faq: [
@@ -527,83 +535,81 @@ export const BUDGET_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Budgetreise Ratgeber: realistische Kosten fur eine Privatreise',
-    lead: 'Sri Lanka gehort weiterhin zu Asiens lohnenden Reisezielen  aber „gunstig“ hangt ganz davon ab, wie Sie reisen. Eine private Rundreise mit Fahrer Guide liegt in einer anderen Preisklasse als Rucksackbusse; wer weiss, wohin das Geld wirklich fliesst, plant ohne bose Uberraschungen.',
-    heroAlt: 'Notizen und Karte zur Budgetplanung fur eine Sri Lanka Reise',
+    h1: 'Budgetgids voor Sri Lanka: realistische kosten voor een privéreis',
+    lead: 'Sri Lanka blijft een van de bestemmingen in Azië met een betere verhouding tussen prijs en kwaliteit. Of iets goedkoop is, hangt volledig af van hoe u reist. Een rondreis met privéchauffeur zit in een andere kostenklasse dan bussen voor rugzakreizigers. Weten waar het geld echt naartoe gaat, helpt u plannen zonder onaangename verrassingen.',
+    heroAlt: 'Notities en een kaart voor het plannen van een budgetreis naar Sri Lanka',
     sections: [
       {
-        title: 'Was ein Tag in Sri Lanka wirklich kostet',
-        body: 'Eine private Reise der Mittelklasse liegt typischerweise bei etwa 80 to 150 USD pro Person und Tag, wenn Unterkunft, Mahlzeiten, ein geteilter Privatfahrer und wichtige Eintritte uber eine Woche gemittelt werden. Budgetreisende mit lokaler Kuche und einfachen Gastehausern halten Essen und Ubernachtung oft unter 40 to 50 USD taglich  Transport und Parktickets summieren sich dennoch.\n\nLuxuslodges, Spa Hotels im Bergland und exklusive Safaricamps treiben die Tageskosten deutlich uber 250 USD. Entscheidend ist nicht ein einzelner „Durchschnitt“, sondern die Mischung aus Transportart, Hotelstandard und der Zahl kostenpflichtiger Sehenswurdigkeiten.',
+        id: 'dailyCosts',
+        title: 'Wat een dag in Sri Lanka echt kost',
+        body: 'Een privéreis in het middensegment komt meestal uit op ongeveer 80 tot 150 USD per persoon per dag, als u accommodatie, maaltijden, een gedeelde privéchauffeur en de belangrijkste toegangsgelden midelt over een week. Budgetreizigers die lokaal eten en in eenvoudige gastenverblijven slapen, kunnen eten en overnachten onder 40 tot 50 USD per dag houden. Vervoer en parktickets lopen dan nog steeds op.\n\nLuxeverblijven, spahotels in het heuvelland en exclusieve safarikampen duwen het dagtotaal ruim boven 250 USD. Het nuttige cijfer is niet één gemiddelde. Het is de mix van vervoersstijl, hotelniveau en hoeveel plekken met een kaartje u bezoekt.',
       },
       {
-        title: 'Transport: der Posten, der das Budget pragt',
-        body: 'Offentliche Busse und Zuge sind gunstig, kosten aber Zeit und begrenzen, wie viel Insel Sie in einer Woche entspannt sehen. Ein privates Klimafahrzeug mit englischsprachigem Fahrer Guide kostet mehr pro Tag, rechnet sich aber oft sinnvoll bei zwei bis vier Personen  inklusive direkter Verbindungen, flexibler Stopps und ohne Gepackstress.\n\nKraftstoff, Fahrermahlzeiten und Ubernachtung des Fahrers sind meist in Tourangeboten enthalten; klaren Sie die Leistungen, damit Sie keinen „nur Auto“-Tarif mit einem Komplettpaket vergleichen.',
+        id: 'transportCosts',
+        title: 'Vervoer: de post die het budget verandert',
+        body: 'Openbare bussen en treinen zijn goedkoop, maar ze kosten tijd en beperken hoeveel van het eiland u in een week comfortabel kunt zien. Een privéauto met airconditioning en een Engelstalige chauffeurgids kost meer per dag. Toch pakt dat vaak redelijk uit als u de kosten deelt met twee tot vier personen, en als u de tijd van deur tot deur, flexibele stops en het ontbreken van gedoe met bagage meerekent.\n\nBrandstof, maaltijden van de chauffeur en overnachting van de chauffeur zitten meestal in een reisofferte. Controleer wat is inbegrepen, zodat u een tarief voor alleen de auto niet vergelijkt met een volledig begeleid pakket.',
       },
       {
-        title: 'Essen und Unterkunft im Uberblick',
-        body: 'Ein sattigendes Rice and Curry Mittagessen kostet lokal oft nur wenige Dollar; touristische Restaurants in Galle, Ella und Strandorten verlangen mehr, besonders fur Meeresfruchte und westliche Gerichte. Fruhstuck ist in Gastehausern und Hotels haufig inklusive.\n\nSaubere Doppelzimmer sind ausserhalb der Hochsaison sehr erschwinglich; Boutique Villen und Heritage Hotels in Galle Fort oder Teeplantagen liegen am anderen Ende. Dezember bis Marz an Sud und Westkuste steigen die Preise am schnellsten  fruh buchen oder Termine verschieben, wenn moglich.',
+        id: 'foodLodging',
+        title: 'Prijsklassen voor eten en accommodatie',
+        body: 'Een vullende lunch met rijst en curry bij een lokale zaak kost vaak een paar dollar. Toeristenrestaurants in Galle, Ella en strandplaatsen rekenen meer, vooral voor vis, schaaldieren en westerse gerechten. Ontbijt zit vaak bij het tarief van een gastenverblijf of hotel.\n\nSchone tweepersoonskamers beginnen buiten het hoogseizoen heel betaalbaar. Boetiekvilla’s en erfgoedhotels in Galle Fort of op landgoederen in het theegebied zitten aan de andere kant. Van december tot maart aan de zuidkust en de westkust stijgen de prijzen het snelst. Boek vroeg, of verschuif de data als u flexibel bent.',
       },
       {
-        title: 'Eintritte und Erlebnisse, die sich summieren',
-        body: 'Auslandertickets fur Sigiriya, den Zahntempel, die Hohlen von Dambulla und grosse Nationalparks sind getrennt von Einheimischenpreisen und gehoren zu den spurbarsten Ausgaben einer Kultur- oder Wildtierreise. In Yala und ahnlichen Parks kommt zur Parkgebuhr oft noch die Jeepmiete.\n\nWalbeobachtung, Kochkurse, Sitzplatzreservierungen im Panoramazug und optionale Aktivitaten gehoren in Ihr Reisebudget, damit der Tagesdurchschnitt ehrlich bleibt.',
+        id: 'ticketsFees',
+        title: 'Toegangsgelden en ervaringen die optellen',
+        body: 'Kaartjes voor buitenlandse bezoekers bij Sigiriya, de Tandtempel, de grotten van Dambulla en grote nationale parken hebben een andere prijs dan het lokale tarief. Ze behoren tot de opvallendere contante uitgaven bij een culturele route of een route met wilde dieren. Yala en vergelijkbare safariparken vragen ook huur van een jeep bovenop het parkgeld.\n\nWalvissen kijken, kooklessen, reserveringen van treinzitplaatsen op de mooie spoorlijn door het heuvelland en optionele activiteiten horen in uw reisbudget, zodat het daggemiddelde eerlijk blijft.',
       },
       {
-        title: 'Bargeld, Karten und Euro Sri Lanka Rupie',
-        body: 'Suchen wie sri lanka euro, euro sri lanka rupie und euro sri lanka rupees wollen den groben Kurs, keinen Live Ticker. Zahlen Sie vor Ort in sri lankischen Rupien. Geldautomaten sind in Stadten verbreitet; kleinere Dorfer und manche Landhotels bevorzugen Bargeld.\n\nNehmen Sie Karte plus etwas Reserve fur Trinkgeld und Tempel. Grosse Betraege nicht zum schlechtesten Flughafen Kurs wechseln, wenn Sie auf Colombo oder Negombo warten konnen.',
+        id: 'moneyTips',
+        title: 'Contant geld, kaarten en praktische geldtips',
+        body: 'Geldautomaten zijn wijdverspreid in steden en toeristengebieden. Kleinere dorpen en sommige hotels op het platteland geven nog de voorkeur aan contant geld in Sri Lankaanse roepies. Grote kaarten werken in veel hotels en grotere restaurants, maar kleinere eetgelegenheden en fooienpotten vaak niet.\n\nDe koers van GBP naar LKR en van euro naar LKR verandert elke dag. Wij offreren de privérondreis duidelijk. Wij zijn geen Global Exchange en wij sturen geen geld naar Sri Lanka vanuit het Verenigd Koninkrijk. Neem een mix van contant geld en een kaart mee, houd een klein bedrag apart voor fooien en tempelgiften, en wissel geen grote bedragen tegen de slechtste tarieven op de luchthaven als u kunt wachten op een bank of een betrouwbaar wisselkantoor in Colombo of Negombo.',
       },
       {
-        title: 'Wo mehr (oder weniger) Ausgeben wirklich hilft',
-        body: 'Geld fur einen zuverlassigen Privatfahrer und Mittelklasse Hotels mit guten Bewertungen verbessert die Reise meist mehr als jedes Essen aufzuwerten. Bei der Safari Jeep Qualitat oder dem Hetzen durch UNESCO Statten zu sparen kostet oft mehr Enttauschung als Bargeld.\n\nReisen in der Zwischensaison, ein Fahrzeug zu dritt oder viert teilen und nahe gelegene Sehenswurdigkeiten an einem Tag kombinieren (etwa Sigiriya mit Dambulla) sind die saubersten Wege, Wert zu halten, ohne die Route auszudunnen.',
+        id: 'valueChoices',
+        title: 'Waar meer of minder uitgeven echt helpt',
+        body: 'Uitgeven aan een betrouwbare privéchauffeur en hotels in het middensegment met goede recensies verbetert de reis meestal meer dan elke maaltijd opwaarderen. Beknibbelen op de kwaliteit van de safarijeep, of UNESCO plekken haasten om een dag te winnen, kost vaak meer aan teleurstelling dan het aan geld bespaart.\n\nReizen in het tussenseizoen, een voertuig delen met drie of vier personen en nabije bezienswaardigheden op één dag combineren, bijvoorbeeld Sigiriya met Dambulla, zijn de duidelijkste manieren om de waarde te beschermen zonder de route kaal te maken.',
       },
     ],
     faq: [
       {
-        q: 'Ist Sri Lanka teuer fur Touristen?',
-        a: 'Im sudasiatischen Vergleich mittel: lokales Essen und einfache Unterkunfte sind gunstig, Auslandereintritte, Privattransport und Strandhotels in der Hochsaison treiben die Summe. Ein klares Reiseangebot verhindert die meisten Preisschocks.',
+        q: 'Is Sri Lanka duur voor toeristen?',
+        a: 'Naar maatstaven van zuidelijk Azië zit het in het middensegment. Lokaal eten en eenvoudig verblijf zijn goedkoop, terwijl toegangsgelden voor buitenlanders, privévervoer en strandhotels in het hoogseizoen het totaal verhogen. Een duidelijke offerte voor de route voorkomt de meeste schrik van de prijs.',
       },
       {
-        q: 'Wie ist Euro Sri Lanka zum Rupie Kurs?',
-        a: 'Der Kurs sri lanka rupie euro andert sich. Heben Sie Rupien am Automaten ab oder wechseln Sie in Colombo. Wir sind Reiseveranstalter, keine Bank. Private Touren rechnen wir vorab klar.',
+        q: 'Hoeveel contant geld moet ik meenemen naar Sri Lanka?',
+        a: 'Veel reizigers pinnen roepies bij geldautomaten wanneer ze die nodig hebben en houden een bescheiden reserve in USD of op een kaart. Plan contant geld voor fooien, kleine restaurants, markten en sommige toegangsloketten. Hotels nemen vaak kaarten aan.',
       },
       {
-        q: 'Kann ich Euro in Sri Lanka Rupien wechseln?',
-        a: 'Ja. Euro in sri lanka rupien wechseln Sie an Automaten, Banken oder Wechselstuben. 1 euro in sri lanka rupees today ist ein Bankkurs, den wir nicht live anzeigen. Sri lanka rupie in euro rechnen Sie in Ihrer Banking App.',
+        q: 'Is een privéchauffeur de kosten waard bij een beperkt budget?',
+        a: 'Voor stellen of kleine groepen die in één week meerdere streken doen, kost een gedeelde privéauto vaak minder per persoon dan de tijd en de losse taxiritten van het openbaar vervoer, en geeft veel meer flexibiliteit.',
       },
       {
-        q: 'Was kosten urlaub sri lanka und sri lanka urlaub kosten?',
-        a: 'Urlaub sri lanka kosten hangen von Gruppe, Hotel und Saison ab. Wir nennen Fahrer, Auto und optionale sri lanka hotel Naechte klar. Kein Dumpingpreis aus einem Katalog.',
+        q: 'Wat is de grootste onverwachte kost op een reis naar Sri Lanka?',
+        a: 'Toegangsgelden voor buitenlanders bij grote culturele plekken en nationale parken, plus de huur van een safarijeep, zijn de kosten die bezoekers het vaakst onderschatten als ze alleen budgetteren voor hotels en maaltijden.',
       },
       {
-        q: 'Wie viel Bargeld sollte ich nach Sri Lanka mitnehmen?',
-        a: 'Viele Reisende heben bei Bedarf Rupien am Automaten ab und behalten eine bescheidene USD- oder Kartenreserve. Planen Sie Bargeld fur Trinkgelder, kleine Restaurants, Markte und manche Eintrittskassen; Hotels nehmen oft Karten.',
+        q: 'Wanneer zijn hotels het goedkoopst in Sri Lanka?',
+        a: 'Buiten december tot maart aan de zuidkust en de westkust, en buiten grote feestdagen, worden de tarieven zachter. Het hoogseizoen aan de oostkust valt op een ander moment. Stem uw strandstreek af op het seizoen voor een betere prijs.',
       },
       {
-        q: 'Lohnt sich ein Privatfahrer auch im Budget?',
-        a: 'Fur Paare oder kleine Gruppen, die in einer Woche mehrere Regionen bereisen, kostet ein geteiltes Privatfahrzeug oft weniger pro Person als Zeit und Taxi Hops des offentlichen Verkehrs  bei deutlich mehr Flexibilitat.',
-      },
-      {
-        q: 'Was ist die grosste unerwartete Kostenstelle?',
-        a: 'Auslandereintritte an grossen Kulturstatten und Nationalparks sowie Safari Jeepmiete unterschatzen Besucher am haufigsten, wenn sie nur Hotels und Essen kalkulieren.',
-      },
-      {
-        q: 'Wann sind Hotels in Sri Lanka am gunstigsten?',
-        a: 'Ausserhalb von Dezember to Marz an Sud und Westkuste und abseits grosser Feiertage sinken die Preise. Die Ostkusten Hochsaison liegt anders  passen Sie Strandregion und Saison fur besseren Wert an.',
+        q: 'Publiceert u vandaag de koers van GBP naar LKR?',
+        a: 'De koers van GBP naar LKR verandert elke dag. Betaal op het eiland in roepies. Wij offreren vakanties in Sri Lanka. Wij sturen geen geld naar Sri Lanka vanuit het Verenigd Koninkrijk.',
       },
     ],
-    ctaTitle: 'Holen Sie ein klares Angebot fur Ihre Termine',
-    ctaBody: 'Nennen Sie uns Reisezeitraum, Gruppengrosse und Tempo  wir skizzieren eine private Route mit transparenten Leistungen, damit Sie vor der Buchung wissen, wofur Sie zahlen.',
-    ctaLabel: 'Reiseangebot anfragen',
+    ctaTitle: 'Vraag een duidelijke offerte voor uw data',
+    ctaBody: 'Vertel ons uw reisvenster, de grootte van de groep en het tempo. Wij schetsen een privérondreis met transparante inbegrepen onderdelen, zodat u weet waar u voor betaalt voordat u boekt.',
+    ctaLabel: 'Vraag een reisofferte aan',
     relatedTours: [
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destGalle', label: 'Galle' },
     ],
     relatedGuides: [
-      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
-      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik Ratgeber' },
+      { pageId: 'guidePrivateDriver', label: 'Gids over privéchauffeurs' },
+      { pageId: 'guideFood', label: 'Voedselgids voor Sri Lanka' },
     ],
   }
 };

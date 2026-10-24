@@ -1,8 +1,9 @@
 import { inject } from '@angular/core';
-import { ResolveFn } from '@angular/router';
+import { RedirectCommand, ResolveFn, Router } from '@angular/router';
 
 import { ArticleContentService } from './article-content.service';
 import { DEFAULT_LOCALE, type Locale } from '../locales';
+import { buildPath } from '../site-data.mjs';
 import type { BaseArticle } from './types';
 
 /**
@@ -20,7 +21,16 @@ export const articleResolver: ResolveFn<BaseArticle | null> = (route) => {
   const articles = inject(ArticleContentService);
 
   if (kind === 'destination' || kind === 'guide') {
-    return articles.preload(pageId, locale);
+    if (locale === DEFAULT_LOCALE) return articles.preload(pageId, locale);
+    const router = inject(Router);
+    return articles.hasCompleteTranslation(pageId, locale).then(async (complete) => {
+      if (complete) return articles.preload(pageId, locale);
+      const fallback = router.createUrlTree([buildPath(pageId, DEFAULT_LOCALE)], {
+        queryParams: route.queryParams,
+        fragment: route.fragment ?? undefined,
+      });
+      return new RedirectCommand(fallback, { replaceUrl: true });
+    });
   }
   if (pageId === 'destinations') {
     return articles.destinationHubCards(locale).then(() => null);

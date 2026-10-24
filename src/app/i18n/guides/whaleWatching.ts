@@ -80,6 +80,7 @@ export const WHALE_WATCHING_GUIDE: ArticleContent = {
     h1: 'Walbeobachtung in Sri Lanka: Mirissa, Trincomalee und private Touren',
     lead:
       'Sri Lanka gehort zu den Orten, an denen Blauwale und Pottwale saisonal relativ nah an der Kuste zu sehen sind. Die meisten europaischen Reisenden kombinieren eine morgendliche Bootstour ab Mirissa oder Trincomalee mit einer privaten Chauffeur Route.',
+    heroAlt: 'Walbeobachtung an der Sudkuste Sri Lankas bei Mirissa',
     sections: [
       {
         title: 'Wo Walbeobachtung in Sri Lanka stattfindet',
@@ -123,5 +124,20 @@ export const WHALE_WATCHING_GUIDE: ArticleContent = {
     ctaTitle: 'Walbeobachtung in Ihre Privattour einplanen',
     ctaBody: 'Nennen Sie Reimonat und Gruppengrosse  wir schlagen eine realistische Chauffeur Route vor.',
     ctaLabel: 'Kontakt',
+    relatedTours: [
+      { pageId: 'tour7', label: '7 Tage Sri Lanka Rundreise' },
+      { pageId: 'tour5', label: '5 Tage Sri Lanka Rundreise' },
+      { pageId: 'galleDay', label: 'Galle Tagestour' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destYala', label: 'Yala' },
+      { pageId: 'destElla', label: 'Ella' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBeaches', label: 'Sri Lanka Strande' },
+      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
+    ],
   },
 };

@@ -215,6 +215,10 @@ export const FOOD_GUIDE: ArticleContent = {
         q: 'L’eau du robinet est elle potable au Sri Lanka ?',
         a: 'Non utilisez de l’eau en bouteille scellee ou filtree pour boire et vous brosser les dents hors hotels de confiance. La glace dans les restaurants et hotels etablis est generalement acceptable ; soyez prudent avec la glace de vendeurs de rue inconnus.',
       },
+      {
+        q: 'Ceylon curry est il un restaurant en Allemagne ?',
+        a: 'Sur ce site, ceylon curry designe le riz et le curry sri lankais sur l’ile. Nous n’exploitons pas de restaurant ni d’imbiss en Allemagne.',
+      },
     ],
     ctaTitle: 'Goutez l’ile lors d’un circuit prive',
     ctaBody: 'Nos itineraires avec chauffeur integrent des arrets dejeuner locaux fiables, des soirees fruits de mer sur la cote et des pauses the dans les hautes terres indiquez nous vos preferences alimentaires lors de votre demande de devis.',
@@ -286,6 +290,10 @@ export const FOOD_GUIDE: ArticleContent = {
       {
         q: 'L’acqua del rubinetto e potabile in Sri Lanka?',
         a: 'No usate acqua in bottiglia sigillata o filtrata per bere e lavarvi i denti fuori dagli hotel affidabili. Il ghiaccio in ristoranti e hotel consolidati di solito va bene; siate cauti con il ghiaccio di venditori di strada sconosciuti.',
+      },
+      {
+        q: 'Ceylon curry e un ristorante in Germania?',
+        a: 'Su questo sito ceylon curry indica il riso e curry dello Sri Lanka. Non gestiamo un ristorante o un imbiss in Germania.',
       },
     ],
     ctaTitle: 'Assaggiate l’isola con un tour privato',
@@ -359,6 +367,10 @@ export const FOOD_GUIDE: ArticleContent = {
         q: 'Es potable el agua del grifo en Sri Lanka?',
         a: 'No use agua embotellada sellada o filtrada para beber y cepillarse fuera de hoteles de confianza. El hielo en restaurantes y hoteles establecidos suele estar bien; sea cauteloso con hielo de vendedores callejeros desconocidos.',
       },
+      {
+        q: 'Ceylon curry es un restaurante en Alemania?',
+        a: 'En este sitio ceylon curry significa el arroz con curry de Sri Lanka. No gestionamos un restaurante ni un imbiss en Alemania.',
+      },
     ],
     ctaTitle: 'Pruebe la isla en un tour privado',
     ctaBody: 'Nuestros itinerarios con chofer incluyen paradas de almuerzo locales fiables, noches de marisco en la costa y pausas de te en tierras altas indiquenos sus preferencias dieteticas al solicitar presupuesto.',
@@ -431,6 +443,10 @@ export const FOOD_GUIDE: ArticleContent = {
         q: 'Czy woda z kranu na Sri Lance jest bezpieczna?',
         a: 'Niezywaj zamknietej wody butelkowanej lub filtrowanej do picia i mycia zebow poza zaufanymi hotelami. Lod w ugruntowanych restauracjach i hotelach zwykle jest w porzadku; uwazaj na lod od nieznanych ulicznych sprzedawcow.',
       },
+      {
+        q: 'Czy ceylon curry to restauracja w Niemczech?',
+        a: 'Na tej stronie ceylon curry oznacza ryz z curry na Sri Lance. Nie prowadzimy restauracji ani imbissu w Niemczech.',
+      },
     ],
     ctaTitle: 'Skosztuj wyspy podczas prywatnej wycieczki',
     ctaBody: 'Nasze trasy z kierowca uwzgledniaja sprawdzone lokalne przystanki obiadowe, wieczory z owocami morza na wybrzezu i przerwy herbaciane w gorachodaj preferencje dietetyczne przy wycenie.',
@@ -471,15 +487,15 @@ export const FOOD_GUIDE: ArticleContent = {
       },
       {
         title: 'Морепродукты на побережьях: Галле, Мирисса и дальше',
-        body: 'Южное и западное побережья славятся свежей рыбой, креветками, крабами и лобстерамиасто просто на гриле с лаймом, чили и чесночным маслом в пляжных ларьках в Унаватуне, Мириссе и Тангалле. Рестораны форта Галле сочетают шри ланкийские специи с международной техникой; цены выше внутри стен, но качество обычно надёжное.\n\nВсегда уточняйте, считают ли морепродукты за килограмм или за порцию, прежде чем заказывать целую рыбу или крабаастый источник шока в счёте. Лагунный краб из Негомбо и гигантские креветки с восточного побережья сезонные жемчужины, о которых стоит спросить водителя.',
+        body: 'Южное и западное побережья славятся свежей рыбой, креветками, крабами и лобстерами. Часто просто на гриле с лаймом, чили и чесночным маслом в пляжных ларьках в Унаватуне, Мириссе и Тангалле. Рестораны форта Галле сочетают шри ланкийские специи с международной техникой; цены выше внутри стен, но качество обычно надёжное.\n\nВсегда уточняйте, считают ли морепродукты за килограмм или за порцию, прежде чем заказывать целую рыбу или краба — частый источник шока в счёте. Лагунный краб из Негомбо и гигантские креветки с восточного побережья сезонные жемчужины, о которых стоит спросить водителя.',
       },
       {
         title: 'Острота, вегетарианство и аллергии',
-        body: 'Еда может быть очень острой, но огонь обычно в самболах и карри, а не везде скрыт можно попросить «меньше чили» (pod miris) или обойти самбол. Кокосовое молоко часто смягчает остроту в южных карри; горные версии могут казаться резче.\n\nВегетарианские и веганские блюда распространены благодаря буддийским традициям: дал, карри из джекфрута, mallung из gotu kola и овощные roti надёжно без мяса. Храмовые города и ayurveda-ретриты часто подают полностью вегетарианские трапезы. Ореховые аллергии учитывают реже сообщите явно и носите лекарства при тяжёлых случаях.',
+        body: 'Еда может быть очень острой, но огонь обычно в самболах и карри, а не везде скрыт. Можно попросить «меньше чили» (pod miris) или обойти самбол. Кокосовое молоко часто смягчает остроту в южных карри; горные версии могут казаться резче.\n\nВегетарианские и веганские блюда распространены благодаря буддийским традициям: дал, карри из джекфрута, mallung из gotu kola и овощные roti надёжно без мяса. Храмовые города и ayurveda-ретриты часто подают полностью вегетарианские трапезы. Ореховые аллергии учитывают реже. Сообщите явно и носите лекарства при тяжёлых случаях.',
       },
       {
         title: 'Напитки и практические советы по гигиене',
-        body: 'King coconut (thambili) у дороги безопасный освежающий выбор, когда продавец вскрывает её при вас. Цейлонский чай не нуждается в представлении без всего, с молоком или холодный в жару. Lion beer и arrack (кокосовый спирт) местная классика; бутилированная вода должна быть нормой для питья и чистки зубов вне люксовых отелей.\n\nЕшьте горячую приготовленную еду, когда возможно, чистите фрукты сами и используйте санitizer перед short eats. Люксовые отели и устоявшиеся рестораны в туристических зонах обычно соответствуют международным стандартам; в длинные дорожные дни ваш водитель гид часто знает надёжные обеденные остановки между аутентичностью и чистотой.',
+        body: 'King coconut (thambili) у дороги безопасный освежающий выбор, когда продавец вскрывает её при вас. Цейлонский чай не нуждается в представлении без всего, с молоком или холодный в жару. Lion beer и arrack (кокосовый спирт) местная классика; бутилированная вода должна быть нормой для питья и чистки зубов вне люксовых отелей.\n\nЕшьте горячую приготовленную еду, когда возможно, чистите фрукты сами и используйте антисептик для рук перед закусками. Люксовые отели и устоявшиеся рестораны в туристических зонах обычно соответствуют международным стандартам; в длинные дорожные дни ваш водитель гид часто знает надёжные обеденные остановки между аутентичностью и чистотой.',
       },
     ],
     faq: [
@@ -493,7 +509,7 @@ export const FOOD_GUIDE: ArticleContent = {
       },
       {
         q: 'Хорошо ли питаются вегетарианцы?',
-        a: 'Да буддийская культура означает несколько овощных карри, дal, hoppers и roti без мяса в большинстве кухонь. Уточните отсутствие рыбной или креветочной пасты (Maldive fish), если вы строгий вегетарианец.',
+        a: 'Да. Буддийская культура означает несколько овощных карри, дал, hoppers и roti без мяса в большинстве кухонь. Уточните отсутствие рыбной или креветочной пасты (Maldive fish), если вы строгий вегетарианец.',
       },
       {
         q: 'Что обязательно попробовать при первом визите?',
@@ -501,7 +517,11 @@ export const FOOD_GUIDE: ArticleContent = {
       },
       {
         q: 'Безопасна ли водопроводная вода?',
-        a: 'Нет используйте запечатанную бутилированную или фильтрованную воду для питья и чистки зубов вне доверенных отелей. Лёд в устоявшихся ресторанах и отелях обычно нормален; осторожнее с льдом у незнакомых уличных продавцов.',
+        a: 'Нет. Используйте запечатанную бутилированную или фильтрованную воду для питья и чистки зубов вне доверенных отелей. Лёд в устоявшихся ресторанах и отелях обычно нормален; осторожнее с льдом у незнакомых уличных продавцов.',
+      },
+      {
+        q: 'Ceylon curry — это ресторан в Германии?',
+        a: 'На этом сайте ceylon curry означает шриланкийский рис с карри на острове. Мы не держим ресторан или имбисс в Германии.',
       },
     ],
     ctaTitle: 'Попробуйте остров в частном туре',
@@ -524,68 +544,74 @@ export const FOOD_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Kulinarik Ratgeber: Was man isst, wo man probiert und wie man bestellt',
-    lead: 'Die srilankische Kuche baut auf Reis, Kokosnuss, Gewurzen und dem Meer auf vom einfachen Rice and Curry Mittagessen bis zum nachtlichen Kottu an einer Strassenecke in Colombo. Wer einige Gerichte kennt, weiss, wie Scharfe gehandhabt wird und wo Hygiene am meisten zahlt, isst selbstbewusst, ohne die besten Aromen der Insel zu verpassen.',
-    heroAlt: 'Buntes srilankisches Rice and Curry mit Sambols und Beilagen',
+    h1: 'Eten in Sri Lanka en wat u proeft tijdens een privévakantie',
+    lead: 'De keuken van Sri Lanka is gebouwd rond rijst, kokos, specerijen en de zee, van een eenvoudige lunch met rijst en curry tot late kottu op een straathoek in Colombo. Als u een paar gerechten kent, weet hoe scherpte wordt aangepakt en waar hygiëne het meest telt, eet u met vertrouwen zonder de beste smaken van het eiland te missen.',
+    heroAlt: 'Kleurrijke Sri Lankaanse rijst en curry met sambols en bijgerechten',
     sections: [
       {
-        title: 'Rice and Curry: die Mahlzeit, die die Insel pragt',
-        body: 'Die alltagliche srilankische Mahlzeit ist ein Hugel Reis, umgeben von mehreren Currys Dhal, Jackfrucht, Rote Bete, Fisch oder Huhn plus Sambols, Papadam und manchmal Mallung aus leicht angebratenem Grunzeug. Portionen sind grosszugig und zum Teilen gedacht; ein Rice and Curry Mittagessen in einem lokalen Restaurant oder Gastehaus ist oft der beste Einstieg zu Preis und Authentizitat.\n\nCurrys variieren stark nach Region: Kokosmilch dominiert im Suden, wahrend Bergland und Kandy eher trockenere, scharfere Zubereitungen bevorzugen. Fragen Sie nach einer „kleinen Portion“, wenn Sie probieren mochten, und rechnen Sie in vielen Familienbetrieben damit, dass Reis einmal kostenlos nachgefullt wird.',
+        id: 'riceAndCurry',
+        title: 'Rijst en curry: de maaltijd die het eiland typeert',
+        body: 'De dagelijkse maaltijd in Sri Lanka is een berg rijst, omringd door verschillende curry’s: dhal, jackfruit, rode biet, vis of kip, plus sambols, papadam en soms een mallung van licht geroerbakte groenten. De porties zijn royaal en bedoeld om te delen. Een lunch met rijst en curry in een lokaal restaurant of gastverblijf is vaak het voordeligst en meteen de meest authentieke kennismaking.\n\nCurry’s verschillen sterk per streek. Kokosmelk is zwaarder in het zuiden, terwijl het heuvelland en de streek rond Kandy neigen naar drogere, scherpere bereidingen. Vraag om een kleine portie als u wilt proeven zonder te veel te bestellen. In veel familiebedrijven wordt de rijst één keer zonder kosten bijgevuld.',
       },
       {
-        title: 'Hoppers, String Hoppers und Short Eats',
-        body: 'Appa (Hoppers) sind schalenformige Pfannkuchen aus fermentiertem Reisteig, aussen knusprig und innen weich; Egg Hoppers mit flussigem Dotter sind klassisches Fruhstuck oder leichtes Abendessen. String Hoppers gedampfte Reisnudelnester kommen mit mildem Kokos Sambol und Curry, besonders morgens beliebt.\n\nShort Eats sind die Snack Kultur der Insel: Gemuseroti, Fischbrotchen (Maalu Paan), Cutlets und Vada aus Glasvitrinen in Backereien und Bahnhofen. Sie sind gunstig und sattigend, die Qualitat schwankt wahlen Sie belebte Theken mit hohem Umschlag statt Ware, die stundenlang liegt.',
+        id: 'hoppersAndShortEats',
+        title: 'Hoppers, string hoppers en short eats',
+        body: 'Appa (hoppers) zijn komvormige pannenkoeken van gefermenteerd rijstbeslag, knapperig aan de rand en zacht in het midden. Egg hoppers hebben een lopende dooier op de bodem en zijn een klassiek ontbijt of een lichte avondmaaltijd. String hoppers, gestoomde nestjes van rijstnoedels, komen met een milde kokossambol en curry, vooral populair in de ochtend.\n\nShort eats zijn de snacks van het eiland: groenteroti, visbroodjes (maalu paan), cutlets en vada, verkocht uit glazen vitrines in bakkerijen en op stations. Ze zijn goedkoop en vullend, al wisselt de kwaliteit. Kies drukke toonbanken waar snel wordt verkocht, niet gerechten die uren blijven liggen.',
       },
       {
-        title: 'Kottu, Roti und der Rhythmus des Street Food',
-        body: 'Kottu Roti ist Sri Lankas Strassengericht schlechthin: gehacktes Godamba Roti auf der heissen Platte mit Gemuse, Ei, Huhn oder Kase, rhythmisch mit Metallklingen zerkleinert man hort es, bevor man es sieht. Am besten frisch am spaten Nachmittag und Abend in spezialisierten Kottu Laden, nicht an generischen Touristenbuffets.\n\nWeitere Strassenklassiker sind Isso Wade (Linsenfrikadellen mit Garnelen), Achcharu (eingelegtes Obst) und uber Holzkohle gerosteter Mais. Hygiene ist besser bei Standen mit lokaler Schlange, sichtbarem Kochen und Zubereitung auf Bestellung statt vorgelegter Ware in der Hitze.',
+        id: 'kottuAndStreetFood',
+        title: 'Kottu, roti en het ritme van het straateten',
+        body: 'Kottu roti is het kenmerkende straatgerecht van Sri Lanka: fijngehakte godamba roti op een hete plaat met groenten, ei, kip of kaas, ritmisch in stukjes gehakt met metalen bladen. U hoort het eerder dan u het ziet. Eet het vers, van de late middag tot de avond, in gespecialiseerde kottuzaken en niet aan algemene toeristenbuffetten.\n\nAndere vaste straatgerechten zijn isso wade (linzenbeignets met garnalen erop), achcharu (ingelegd fruit) en maïs geroosterd boven houtskool. De hygiëne is beter wanneer u kramen kiest met een gestage rij lokale gasten, zichtbaar koken en eten dat op bestelling wordt gemaakt, niet al op borden in de hitte.',
       },
       {
-        title: 'Meeresfruchte an den Kusten: Galle, Mirissa und daruber hinaus',
-        body: 'Sud und Westkuste glanzen mit frischem Fisch, Garnelen, Krabben und Hummer oft einfach gegrillt mit Limette, Chili und Knoblauchbutter in Strandhutten in Unawatuna, Mirissa und Tangalle. Restaurants in Galle Fort verbinden srilankische Gewurze mit internationaler Technik; Preise steigen innerhalb der Festungsmauern, die Qualitat ist meist zuverlassig.\n\nKlaren Sie vor Bestellung, ob Meeresfruchte pro Kilo oder pro Portion berechnet werden eine haufige Quelle fur Rechnungsschock. Lagunenkrebs aus Negombo und Riesengarnelen von der Ostkuste sind saisonale Highlights, nach denen Sie Ihren Fahrer fragen konnen.',
+        id: 'coastalSeafood',
+        title: 'Vis en schaaldieren aan de kust: Galle, Mirissa en verder',
+        body: 'De zuidkust en de westkust blinken uit in verse vis, garnalen, krab en kreeft, vaak eenvoudig gegrild met limoen, chili en knoflookboter in strandhutten in Unawatuna, Mirissa en Tangalle. De restaurants van Galle Fort combineren Sri Lankaanse specerijen met internationale techniek. De prijzen stijgen binnen de fortmuren, maar de kwaliteit is over het algemeen betrouwbaar.\n\nControleer altijd of vis en schaaldieren per kilo of per portie worden gerekend voor u een hele vis of krab bestelt. Dat is een veelvoorkomende bron van een onverwacht hoge rekening. Lagunekrab uit Negombo en zeer grote garnalen van de oostkust zijn seizoensgebonden hoogtepunten. Vraag uw chauffeur ernaar wanneer uw data kloppen.',
       },
       {
-        title: 'Scharfe, vegetarisches Essen und Allergien',
-        body: 'Srilankisches Essen kann sehr scharf sein, doch die Hitze steckt meist in Sambols und Currys, nicht uberall versteckt Sie konnen um „weniger Chili“ (Podi Miris) bitten oder den Sambol meiden. Kokosmilch mildert im Suden oft die Scharfe; Bergland Versionen wirken scharfer.\n\nVegetarische und vegane Optionen sind dank buddhistischer Tradition weit verbreitet: Dhal, Jackfrucht Curry, Gotu Kola Mallung und Gemuseroti sind zuverlassig fleischfrei. In Tempelstadten und Ayurveda Retreats gibt es oft vollstandig vegetarische Mahlzeiten. Nussallergien werden seltener berucksichtigt deutlich erwahnen und bei schweren Fallen Medikamente mitfuhren.',
+        id: 'spiceVegetarian',
+        title: 'Scherpte, vegetarisch eten en allergieën',
+        body: 'Eten in Sri Lanka kan bijzonder pittig zijn, maar de scherpte zit meestal in lagen in sambols en curry’s en niet overal verborgen. U kunt om minder chili vragen (podi miris) of de sambol overslaan. Kokosmelk verzacht de scherpte vaak in zuidelijke curry’s. Versies uit het heuvelland kunnen scherper aanvoelen.\n\nVegetarische en veganistische opties zijn ruim voorhanden dankzij boeddhistische tradities. Dhal, jackfruitcurry, gotu kola mallung en groenteroti zijn betrouwbaar zonder vlees. Tempelsteden en ayurvedaverblijven serveren vaak volledig vegetarische maaltijden. Keukens houden minder vaak rekening met notenallergieën. Noem ze duidelijk en neem medicatie mee als de allergie ernstig is.',
       },
       {
-        title: 'Getranke und praktische Hygienetipps',
-        body: 'King Coconut (Thambili) von Strassenstanden ist eine sichere, erfrischende Wahl, wenn der Verkaufer sie frisch vor Ihnen offnet. Ceylon tee und ceylon tea brauchen keine Vorstellung: pur, mit Milch oder als Eistee. Lion Beer und Arrack (Kokosbrand) sind lokale Klassiker; Flaschenwasser sollte ausserhalb gehobener Hotels Standard zum Trinken und Zahneputzen sein.\n\nCeylon curry auf dieser Seite meint Rice and Curry auf der Insel, kein ceylon restaurant und kein ceylon imbiss in Deutschland. Ceylon zimt sehen Sie im Gewurzgarten.\n\nEssen Sie gekochtes Essen moglichst heiss, schalen Sie Obst selbst und nutzen Sie Handedesinfektionsmittel vor Short Eats. Gehobene Hotels und etablierte Restaurants in Touristenorten entsprechen meist internationalen Hygienestandards; an langen Fahrtagen kennt Ihr Fahrer Guide oft verlassliche Mittagsstopps zwischen Authentizitat und Sauberkeit.',
+        id: 'drinksAndHygiene',
+        title: 'Wat u drinkt en praktische tips voor hygiëne',
+        body: 'Koningkokosnoot (thambili) van kraampjes langs de weg is een veilige, verfrissende keuze wanneer de verkoper de noot vers voor u opensnijdt. Ceylon thee spreekt voor zich: drink hem puur, met melk of als ijsthee in de hitte. Lion bier en arrack (sterke drank van kokos) zijn lokale klassiekers. Flessenwater is buiten hotels in het hogere segment uw normale keuze om te drinken en om uw tanden te poetsen.\n\nCeylon curry betekent hier rijst en curry op het eiland, geen afhaalmaaltijd in een Duitse stad. In specerijentuinen ziet u Ceylon kaneel aan de plant. We exploiteren geen restaurants in Duitsland.\n\nEet bereid eten waar mogelijk heet, schil fruit zelf en gebruik handgel voor short eats. Hotels in het hogere segment en gevestigde restaurants in toeristenplaatsen voldoen over het algemeen aan internationale hygiënenormen. Op lange rijdagen kent uw privéchauffeur vaak betrouwbare lunchstops die authenticiteit en netheid in balans houden.',
       },
     ],
     faq: [
       {
-        q: 'Ist Street Food in Sri Lanka sicher?',
-        a: 'Oft ja, wenn Sie belebte Stande mit hohem Umschlag, frisch zubereitetes Essen und verschlossene Getranke wahlen. Vermeiden Sie vorgeschnittenes Obst in der Sonne und nicht gekuhlte Meeresfruchte. Viele Reisende mischen Strassensnacks mit Rice and Curry Mittagessen in seriosen lokalen Restaurants.',
+        q: 'Is straateten veilig in Sri Lanka?',
+        a: 'Vaak wel, als u drukke kramen kiest waar snel wordt verkocht, eten dat op bestelling wordt gekookt en verzegelde flessen. Vermijd voorgesneden fruit dat in de zon staat en ongekoelde vis en schaaldieren. Veel reizigers combineren snacks van de straat met een lunch van rijst en curry aan tafel in betrouwbare lokale restaurants.',
       },
       {
-        q: 'Wie scharf ist srilankisches Essen fur westliche Besucher?',
-        a: 'Es kann sehr scharf sein, besonders Sambols und bestimmte Fischcurrys, aber Restaurants reduzieren Chili meist auf Wunsch. Kokosbasierte Currys im Suden sind oft milder; beginnen Sie mit Dhal und Gemusecurrys, wenn Sie empfindlich sind.',
+        q: 'Hoe pittig is het eten in Sri Lanka voor westerse bezoekers?',
+        a: 'Het kan zeer heet zijn, vooral sambols en bepaalde viscurry’s, maar restaurants kunnen de chili meestal op verzoek verminderen. Curry’s op basis van kokos in het zuiden zijn vaak milder. Begin met dhal en groentecurry’s als u gevoelig bent voor scherpte.',
       },
       {
-        q: 'Konnen Vegetarier gut essen?',
-        a: 'Ja die buddhistische Esskultur bedeutet mehrere Gemusecurrys, Dhal, Hoppers und Roti ohne Fleisch in den meisten Kuchen. Fragen Sie nach, ob ohne Fisch- oder Garnelenpaste (Maldive Fish) gekocht wird, wenn Sie streng vegetarisch sind.',
+        q: 'Kunnen vegetariërs goed eten in Sri Lanka?',
+        a: 'Ja. De boeddhistische eetcultuur betekent dat de meeste keukens meerdere groentecurry’s, dhal, hoppers en roti zonder vlees aanbieden. Vraag na of gerechten zonder vis of garnalenpasta (Maldive fish) zijn bereid als u strikt vegetarisch eet.',
       },
       {
-        q: 'Was sollte man beim ersten Besuch unbedingt probieren?',
-        a: 'Ein vollstandiges Rice and Curry Mittagessen, Egg Hopper mit Sambol, Kottu Roti nach Einbruch der Dunkelheit und frisch gegrillter Fisch an der Sudkuste decken das Wesentliche ab. Erganzen Sie King Coconut und Ceylon Tee an einer Teeplantage im Bergland.',
+        q: 'Wat moet ik bij een eerste bezoek zeker proberen?',
+        a: 'Een volledige lunch met rijst en curry, een hopper met ei en sambol, kottu roti na het donker en vers gegrilde vis aan de zuidkust dekken de basis. Voeg een koningskokosnoot toe en een kop Ceylon thee bij een stop op een plantage in het heuvelland.',
       },
       {
-        q: 'Ist Leitungswasser in Sri Lanka sicher?',
-        a: 'Nein verwenden Sie verschlossenes Flaschen- oder gefiltertes Wasser zum Trinken und Zahneputzen ausserhalb vertrauenswurdiger Hotels. Eis in etablierten Restaurants und Hotels ist meist in Ordnung; seien Sie vorsichtig bei unbekannten Strassenverkaufern.',
+        q: 'Is kraanwater veilig in Sri Lanka?',
+        a: 'Nee. Houd u aan verzegeld flessenwater of gefilterd water om te drinken en tanden te poetsen buiten hotels die u vertrouwt. IJs in gevestigde restaurants en hotels is meestal in orde. Wees voorzichtig met ijs van onbekende straatverkopers.',
       },
       {
-        q: 'Was ist Ceylon Curry auf einer Rundreise?',
-        a: 'Ceylon curry hier ist Rice and Curry auf Sri Lanka, kein Restaurant in Leverkusen. Ceylon tee dazu im Hochland. Kein ceylon imbiss in Deutschland.',
+        q: 'Is ceylon curry een restaurant in Duitsland?',
+        a: 'Op deze site betekent ceylon curry Sri Lankaanse rijst en curry op het eiland. We exploiteren geen Ceylon restaurant en geen eettentje in Duitsland.',
       },
     ],
-    ctaTitle: 'Probieren Sie die Insel auf einer privaten Rundreise',
-    ctaBody: 'Unsere Rundreisen mit Fahrer integrieren verlassliche lokale Mittagsstopps, Meeresfruchte Abende an der Kuste und Tee Pausen im Bergland nennen Sie uns Ihre Ernahrungswunsche bei der Anfrage.',
-    ctaLabel: 'Kulinarische Route planen',
+    ctaTitle: 'Proef het eiland tijdens een privérondreis',
+    ctaBody: 'Onze routes met privéchauffeur nemen betrouwbare lokale lunchstops, avonden met vis en schaaldieren aan de kust en theepauzes in het heuvelland op. Vertel ons uw dieetwensen wanneer u een offerte aanvraagt.',
+    ctaLabel: 'Plan een route met aandacht voor eten',
     relatedTours: [
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour8', label: '8 tagige Sri Lanka Rundreise' },
+      { pageId: 'tour5', label: 'Sri Lanka rondreis van 5 dagen' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'tour8', label: 'Sri Lanka rondreis van 8 dagen' },
     ],
     relatedDestinations: [
       { pageId: 'destGalle', label: 'Galle' },
@@ -593,9 +619,9 @@ export const FOOD_GUIDE: ArticleContent = {
       { pageId: 'destElla', label: 'Ella' },
     ],
     relatedGuides: [
-      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise Ratgeber' },
-      { pageId: 'guideBeaches', label: 'Sri Lanka Strande Ratgeber' },
-      { pageId: 'guidePacking', label: 'Sri Lanka Packliste Ratgeber' },
+      { pageId: 'guideBudget', label: 'Gids voor budgetreizen in Sri Lanka' },
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Paklijst voor Sri Lanka' },
     ],
   }
 };

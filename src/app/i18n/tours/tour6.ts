@@ -1205,7 +1205,7 @@ export const TOUR6: TourContent = {
     includes: PACKAGE_INCLUDES.ru,
     excludes: PACKAGE_EXCLUDES.ru,
     seoIntro:
-      'Шесть дней дают вам Культурный треугольник Шри Ланки, туманные чайные горы, территорию леопардов и южное побережье, окружённое пальмами, без темпа марафонской недели. Этот частный тур начинается со слонов Пиннавелы и джип сафари в Миннерии рядом с Sigiriya, затем идёт восхождение на крепость Lion Rock и к Священной реликвии зуба в Канди, а после через сады Перадении, водопады Ramboda и действующие чайные плантации в Нувара Элии. Четвёртый день предлагает джип сафари 4x4 в национальном парке Яла; на последнем этапе дикую природу сменяют смотровые площадки Мириссы, маяк Dondra Head, охрана морских черепах и прогулка на лодке по мангровым зарослям реки Маду. Sundown Tours планирует переезды так, чтобы сохранить ваши силы для восхождений и ранних выездов на сафари. Ваш англоговорящий шофёр берёт на себя навигацию в частном кондиционированном автомобиле с неограниченным пробегом. Отели можно организовать на полупансионе в категории 3 to 4★; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее.',
+      'Шесть дней дают вам Культурный треугольник Шри Ланки, туманные чайные горы, территорию леопардов и южное побережье, окружённое пальмами, без темпа марафонской недели. Этот частный тур начинается со слонов Пиннавелы и джип сафари в Миннерии рядом с Sigiriya, затем идёт восхождение на крепость Lion Rock и к Священной реликвии зуба в Канди, а после через сады Перадении, водопады Ramboda и действующие чайные плантации в Нувара Элии. Четвёртый день предлагает джип сафари 4x4 в национальном парке Яла; на последнем этапе дикую природу сменяют смотровые площадки Мириссы, маяк Dondra Head, охрана морских черепах и прогулка на лодке по мангровым зарослям реки Маду. Sundown Tours планирует переезды так, чтобы сохранить ваши силы для восхождений и ранних выездов на сафари. Ваш англоговорящий шофёр берёт на себя навигацию в частном кондиционированном автомобиле с неограниченным пробегом. Отели можно организовать на полупансионе в категории 3–4★; входные билеты и обеды остаются гибкими, чтобы вы сами выбирали, какие храмы, парки и рестораны для вас важнее.',
     highlights: [
       'Сафари к слонам в Миннерии и восхождение на объект ЮНЕСКО Lion Rock в Sigiriya',
       'Храм Зуба в Канди, культурное танцевальное шоу и ботанический сад Перадении',
@@ -1387,194 +1387,195 @@ export const TOUR6: TourContent = {
     ],
   },
   nl: {
-    title: 'Sri Lanka Privatreise  6 Tage | Kulturerbe, Hugelland & Wildlife Safari',
+    title: 'Privérondreis van 6 dagen door Sri Lanka | Cultuurerfgoed, hoogland en safari',
     description:
-      'Erleben Sie Sri Lanka in 6 unvergesslichen Tagen mit antiken Stadten, UNESCO Welterbestatten, malerischen Teeplantagen, spannenden Wildlife Safaris und entspannten Kustenerlebnissen.',
-    duration: '6 Tage',
-    persons: '2-20 Personen',
-    tourType: 'Rundreise',
+      'Ontdek Sri Lanka in 6 onvergetelijke dagen met oude steden, UNESCO werelderfgoed, schilderachtige theeplantages, spannende safaritochten en ontspannen momenten aan de kust.',
+    duration: '6 dagen',
+    persons: '2 tot 20 personen',
+    tourType: 'Rondreis',
     overview:
-      'Erleben Sie die Highlights Sri Lankas auf dieser ausgewogenen 6 tagigen Privatreise. Reisen Sie durch das Kulturdreieck, erkunden Sie die Felsenfestung Sigiriya, besuchen Sie den heiligen Zahntempel in Kandy, fahren Sie durch die nebligen Teeplantagen von Nuwara Eliya, erleben Sie eine spannende Safari im Udawalawe Nationalpark und entspannen Sie an der wunderschonen Sudwestkuste. Mit privatem Transport, einem erfahrenen englischsprachigen Fahrer und komfortablen Unterkunften bietet diese Reise die ideale Mischung aus Kultur, Natur, Tierwelt und Erholung  perfekt fur Paare, Familien und kleine Gruppen.',
+      'Ontdek de hoogtepunten van Sri Lanka tijdens deze evenwichtige privérondreis van 6 dagen. U reist door de Culturele Driehoek, beklimt de rotsvesting van Sigiriya, bezoekt de heilige Tempel van de Tandrelikwie in Kandy, rijdt door de nevelige theeplantages van Nuwara Eliya, maakt een spannende safari in het nationaal park Udawalawa en komt tot rust aan de mooie zuidwestkust. Met een privévoertuig, een ervaren Engelssprekende chauffeurgids en comfortabele hotels biedt deze reis de ideale mix van cultuur, natuur, wilde dieren en ontspanning. Ideaal voor stellen, gezinnen en kleine groepen.',
     includes: PACKAGE_INCLUDES.nl,
     excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Sechs Tage bieten Ihnen Sri Lankas Kultur Dreieck, das nebelige Teeland, Leopardengebiete und die von Palmen gesaumte Sudkuste, ohne das Tempo einer Marathonwoche. Diese private Rundreise beginnt mit den Elefanten von Pinnawala und einer Jeep Safari in Minneriya bei Sigiriya, fuhrt dann zum Aufstieg auf den Lowenfelsen und zur heiligen Zahnreliquie in Kandy, bevor es weiter durch die Peradeniya Garten, die Ramboda Wasserfalle und aktive Teeplantagen in Nuwara Eliya geht. Am vierten Tag folgt eine 4x4 Safari im Yala Nationalpark; auf der letzten Etappe stehen statt Tierwelt die Aussichtspunkte von Mirissa, der Leuchtturm Dondra Head, der Schutz von Meeresschildkroten und eine Bootstour durch die Mangroven des Madu Flusses auf dem Programm. Sundown Tours plant die Fahrzeiten so, dass Ihre Energie fur die Felsbesteigung und die fruhen Safari Starts erhalten bleibt. Ihr englischsprachiger Chauffeur ubernimmt die Navigation in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung. Die Hotels konnen auf Halbpension in der 3 to 4 Sterne Kategorie organisiert werden; Eintrittsgebuhren und Mittagessen bleiben flexibel, sodass Sie entscheiden, welche Tempel, Parks und Restaurants Ihnen am wichtigsten sind.',
+      'In zes dagen ziet u de Culturele Driehoek van Sri Lanka, het nevelige theeland, luipaardgebied en de door palmen omzoomde zuidkust, zonder het hoge tempo van een overvolle week. Deze privérondreis begint met de olifanten van Pinnawala en een jeepsafari in Minneriya bij Sigiriya. Daarna beklimt u de Leeuwenrots en bezoekt u de heilige Tandrelikwie in Kandy, gevolgd door de tuinen van Peradeniya, de watervallen van Ramboda en werkende theeplantages in Nuwara Eliya. Op dag vier staat een 4x4 safari in het nationaal park Yala op het programma. Het laatste deel ruilt wilde dieren in voor uitzichtpunten bij Mirissa, de vuurtoren van Dondra Head, de bescherming van zeeschildpadden en een boottocht door de mangroven van de Madurivier. Sundown Tours plant de ritten zo dat u energie overhoudt voor de beklimmingen en de vroege safaristarts. Uw Engelssprekende chauffeur verzorgt de navigatie in een privévoertuig met airconditioning en een onbeperkt aantal kilometers. Hotels kunnen we regelen op basis van halfpension in accommodaties met 3 tot 4 sterren. Toegangsprijzen en de lunch blijven flexibel, zodat u zelf kiest welke tempels, parken en restaurants voor u het belangrijkst zijn.',
     highlights: [
-      'Elefanten Safari in Minneriya und Aufstieg zum UNESCO Lowenfelsen Sigiriya',
-      'Zahntempel in Kandy, kulturelle Tanzshow und Peradeniya Botanical Gardens',
-      'Besuch einer Teefabrik in Nuwara Eliya, Ramboda Wasserfalle und malerische Fahrten durchs Hugelland',
-      'Jeep Safari im Yala Nationalpark auf der Suche nach Elefanten, Leoparden und Kustenfeuchtgebieten',
-      'Kuste von Mirissa, Leuchtturm Dondra, Schildkroten Aufzuchtstation und Bootssafari auf dem Madu Fluss',
+      'Jeepsafari bij de olifantenbijeenkomst in Minneriya en beklimming van de UNESCO Leeuwenrots van Sigiriya',
+      'Tandtempel in Kandy, culturele dansshow en botanische tuinen van Peradeniya',
+      'Bezoek aan een theefabriek in Nuwara Eliya, waterval van Ramboda en ritten door het hoogland',
+      'Jeepsafari in het nationaal park Yala op olifanten, luipaarden en kustmoerassen',
+      'Kust van Mirissa, vuurtoren van Dondra, schildpaddenbroederij en bootsafari op de Madurivier',
     ],
     whoIsFor:
-      'Ideal fur Paare, Familien und kleine Gruppen, die Kultur, Tierwelt und Strande in weniger als einer Woche ohne Selbstfahren erleben mochten. Moderate Fitness ist fur Sigiriya hilfreich; fur Senioren schlagen wir gerne leichtere Aussichtspunkte vor.',
+      'Ideaal voor stellen, gezinnen en kleine groepen die cultuur, wilde dieren en stranden in minder dan een week willen, zonder zelf te rijden. Een redelijke conditie helpt bij Sigiriya. Voor senioren stellen we graag lichtere uitzichtpunten voor.',
     bestTimeNote:
-      'Ganzjahrig moglich, doch Dezember to April bietet das trockenste Wetter an der Sudkuste und zuverlassigen Zugang zu Yala. Mai to September eignet sich fur das Kultur Dreieck; bei Schliessung von Yala wegen Wartungsarbeiten weichen wir auf Udawalawe aus.',
+      'Het hele jaar mogelijk, maar december tot april biedt het droogste weer aan de zuidkust en betrouwbare toegang tot Yala. Mei tot september past bij de Culturele Driehoek. Als Yala wegens onderhoud sluit, wijken we uit naar Udawalawe.',
     faq: [
       {
-        q: 'Ist die Hotelunterkunft im Preis der 6 tagigen Tour enthalten?',
-        a: 'Ja. Ausgewahlte 4 Sterne Hotels mit taglichem Fruhstuck und Abendessen (Halbpension) sind im Paket enthalten.'
+        q: 'Is het hotelverblijf inbegrepen in de prijs van de reis van 6 dagen?',
+        a: 'Ja. Geselecteerde hotels met 4 sterren, met elke dag ontbijt en diner (halfpension), zijn in het pakket inbegrepen.',
       },
       {
-        q: 'Welche Elefanten Safari besuchen wir  Minneriya oder Kaudulla?',
-        a: 'Wir nutzen Minneriya oder das nahegelegene Kaudulla, je nach saisonaler Elefantenansammlung. Ihr Fahrer bestatigt den besten Park fur Ihre Reisedaten, um die Sichtungschancen wilder Elefanten zu maximieren.',
+        q: 'Welke olifantensafari bezoeken we, Minneriya of Kaudulla?',
+        a: 'We kiezen Minneriya of het nabijgelegen Kaudulla, afhankelijk van de seizoensgebonden olifantenbijeenkomst. Uw chauffeur bevestigt het beste park voor uw reisdata, zodat de kans op wilde olifanten zo groot mogelijk is.',
       },
       {
-        q: 'Kann diese Tour in Colombo statt am Flughafen beginnen?',
-        a: 'Ja. Wir holen Sie am Flughafen Bandaranaike, in jedem Hotel in Colombo oder an der Sudkuste ab und bringen Sie am 6. Tag zu Ihrem gewunschten Zielort.',
+        q: 'Kan deze reis in Colombo beginnen in plaats van op de luchthaven?',
+        a: 'Ja. We halen u op bij de internationale luchthaven Bandaranaike, bij een hotel in Colombo of aan de zuidkust, en brengen u op dag 6 naar het vertrekpunt van uw keuze.',
       },
     ],
     days: [
       {
-        title: 'Flughafen nach Sigiriya  Elefanten & Safari Abenteuer',
+        title: 'Van de luchthaven naar Sigiriya, olifanten en safari',
         activities: [
           {
-            type: 'Ankunft',
-            title: 'Flughafenabholung',
+            type: 'Aankomst',
+            title: 'Ophalen op de luchthaven',
             description:
-              'Treffen Sie Ihren professionellen Fahrer am Flughafen Bandaranaike und beginnen Sie Ihre private Sri Lanka Reise in Richtung Kulturdreieck.',
+              'U ontmoet uw professionele chauffeurgids op de internationale luchthaven Bandaranaike en begint uw privéreis door Sri Lanka richting de Culturele Driehoek.',
           },
           {
-            type: 'Tiererlebnis',
-            title: 'Pinnawala Elefantenwaisenhaus',
+            type: 'Dierenbeleving',
+            title: 'Olifantenweeshuis van Pinnawala',
             description:
-              'Besuchen Sie das Pinnawala Elefantenwaisenhaus, ein bekanntes Schutzzentrum fur gerettete und verwaiste Elefanten. Beobachten Sie die Tiere aus der Nahe und  je nach Zeitpunkt  ihr unvergessliches Bad im Fluss.',
+              'Bezoek het olifantenweeshuis van Pinnawala, een bekend opvangcentrum voor geredde en verweesde olifanten. U ziet de dieren van dichtbij en, afhankelijk van het tijdstip, hun onvergetelijke bad in de rivier.',
           },
           {
             type: 'Safari',
-            title: 'Safari im Minneriya Nationalpark',
+            title: 'Safari in het nationaal park Minneriya',
             description:
-              'Erleben Sie eine spannende 4x4 Jeep Safari im Minneriya Nationalpark, bekannt fur „The Gathering"  eine der grossten Ansammlungen wilder Elefanten in Asien. Entdecken Sie Elefanten, Hirsche, Buffel und eine vielfaltige Vogelwelt.',
+              'Maak een spannende 4x4 jeepsafari in het nationaal park Minneriya, bekend om The Gathering, een van de grootste bijeenkomsten van wilde olifanten in Azië. U kunt olifanten, herten, buffels en diverse vogelsoorten zien.',
           },
           {
-            type: 'Dorferlebnis',
-            title: 'Dorftour Hiriwadunna',
-            description: 'Erleben Sie das authentische landliche Leben Sri Lankas.',
+            type: 'Dorpsbeleving',
+            title: 'Dorpsbezoek Hiriwadunna',
+            description: 'Ervaar het authentieke leven in een Sri Lankaans dorp.',
           },
           {
-            type: 'Unterkunft',
-            title: 'Fresco Water Villa  Sigiriya',
-            description: 'Ubernachtung in der Fresco Water Villa (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive'],
+            type: 'Overnachting',
+            title: 'Fresco Water Villa Sigiriya',
+            description: 'Overnachting in Fresco Water Villa (of vergelijkbaar).',
+            extra: ['Ontbijt en diner inbegrepen'],
           },
         ],
       },
       {
-        title: 'Sigiriya nach Kandy  Kulturerbe',
+        title: 'Van Sigiriya naar Kandy, cultuurerfgoed',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Sigiriya Felsenfestung',
+            type: 'Rondleiding',
+            title: 'Rotsvesting van Sigiriya',
             description:
-              'Besteigen Sie die UNESCO gelistete Lowenfelsen Festung Sigiriya, einen im 5. Jahrhundert errichteten Konigspalast, der dramatisch uber den Dschungelebenen aufragt. Entdecken Sie antike Fresken, die Spiegelwand und den Panoramablick vom Gipfel.',
+              'Beklim de Leeuwenrots van Sigiriya, UNESCO werelderfgoed. Dit koninklijke paleis uit de 5e eeuw rijst hoog boven de junglevlaktes uit. Ontdek de oude fresco’s, de Spiegelmuur en het panorama vanaf de top.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Zahntempel (Sri Dalada Maligawa)',
+            type: 'Rondleiding',
+            title: 'Tempel van de Heilige Tandrelikwie',
             description:
-              'Besuchen Sie den Zahntempel in Kandy, einen der heiligsten buddhistischen Tempel der Welt. Erleben Sie traditionelle Rituale und bewundern Sie die schone kandyanische Architektur.',
+              'Bezoek Sri Dalada Maligawa in Kandy, een van de heiligste boeddhistische tempels ter wereld. U ziet traditionele rituelen en de fraaie Kandyaanse architectuur.',
           },
           {
-            type: 'Kulturerlebnis',
-            title: 'Kandyanische Tanzshow',
+            type: 'Cultuurbeleving',
+            title: 'Culturele dansshow in Kandy',
             description:
-              'Geniessen Sie am Abend eine Kulturshow mit traditioneller kandyanischer Trommelmusik, Feuerlauf und farbenprachtigen Kostumen, die Sri Lankas reiches kunstlerisches Erbe zeigen.',
+              'In de avond ziet u een culturele dansvoorstelling met traditioneel Kandyaans trommelen, vuurlopen en kleurrijke kostuums. Zo ervaart u het rijke kunstenaarserfgoed van Sri Lanka.',
           },
           {
-            type: 'Unterkunft',
-            title: 'Hotel Topaz  Kandy',
-            description: 'Ubernachtung im Hotel Topaz (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive', '4 Sterne Hotel'],
+            type: 'Overnachting',
+            title: 'Hotel Topaz Kandy',
+            description: 'Overnachting in Hotel Topaz (of vergelijkbaar).',
+            extra: ['Ontbijt en diner inbegrepen', 'Hotel met 4 sterren'],
           },
         ],
       },
       {
-        title: 'Kandy nach Nuwara Eliya  Malerisches Teeland',
+        title: 'Van Kandy naar Nuwara Eliya, schilderachtig theeland',
         activities: [
           {
-            type: 'Natur',
-            title: 'Royal Botanical Gardens Peradeniya',
+            type: 'Natuur',
+            title: 'Koninklijke botanische tuinen van Peradeniya',
             description:
-              'Erkunden Sie einen der schonsten botanischen Garten Asiens mit exotischen Orchideen, hohen Palmenallee, Heilpflanzen und wunderschon angelegten Anlagen am Mahaweli Fluss.',
+              'Verken een van de mooiste botanische tuinen van Azië, met exotische orchideeën, hoge palmenlanen, geneeskrachtige planten en fraai aangelegde tuinen langs de Mahawelirivier.',
           },
           {
-            type: 'Natur',
-            title: 'Ramboda Wasserfall',
+            type: 'Natuur',
+            title: 'Waterval van Ramboda',
             description:
-              'Halten Sie an den Ramboda Wasserfallen, einem der hochsten Wasserfalle Sri Lankas, umgeben von malerischen Teeplantagen und kuhler Bergluft.',
+              'Stop bij de waterval van Ramboda, een van de hoogste watervallen van Sri Lanka, omgeven door schilderachtige theeplantages en koele berglucht.',
           },
           {
-            type: 'Tee Erlebnis',
-            title: 'Besuch einer Teefabrik & Plantage',
+            type: 'Theebeleving',
+            title: 'Bezoek aan theefabriek en plantage',
             description:
-              'Erfahren Sie, wie der weltberuhmte Ceylon Tee vom Blatt bis zur Tasse hergestellt wird. Spazieren Sie durch uppige Teeplantagen und geniessen Sie eine frische Tee Verkostung im Hochland Sri Lankas.',
+              'Ontdek hoe de wereldberoemde Ceylon thee van blad tot kop wordt gemaakt. Wandel door weelderige theeplantages en proef verse thee in het hoogland van Sri Lanka.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Ramboda Falls Hotel',
-            description: 'Ubernachtung im Ramboda Falls Hotel (oder ahnlich).',
-            extra: ['Fruhstuck & Abendessen inklusive', '4 Sterne Hotel'],
+            description: 'Overnachting in Ramboda Falls Hotel (of vergelijkbaar).',
+            extra: ['Ontbijt en diner inbegrepen', 'Hotel met 4 sterren'],
           },
         ],
       },
       {
-        title: 'Nuwara Eliya nach Yala  Begegnung mit der Tierwelt',
+        title: 'Van Nuwara Eliya naar Yala, ontmoeting met wilde dieren',
         activities: [
           {
             type: 'Safari',
-            title: 'Safari im Yala Nationalpark',
+            title: 'Safari in het nationaal park Yala',
             description:
-              'Erleben Sie eine aufregende Safari im Yala Nationalpark, einem der besten Orte Sri Lankas, um wilde Elefanten in ihrem naturlichen Lebensraum zu beobachten. Entdecken Sie Elefanten, Krokodile, Hirsche und Vogelwelt in den weiten Graslandschaften.',
+              'Ga op een spannende safari in het nationaal park Yala, een van de beste plekken in Sri Lanka om wilde olifanten in hun natuurlijke omgeving te zien. Op de open grasvlakten kunt u olifanten, krokodillen, herten en vogels tegenkomen.',
           },
           {
-            type: 'Unterkunft',
-            title: 'Grand Tamarind Lake (oder ahnlich)  Halbpension',
-            description: 'Unterkunft im Grand Tamarind Lake oder ahnlichem Hotel  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad', 'Abendessen'],
+            type: 'Overnachting',
+            title: 'Grand Tamarind Lake (of vergelijkbaar), halfpension',
+            description: 'Verblijf in Grand Tamarind Lake of een vergelijkbaar hotel op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer', 'Diner'],
           },
         ],
       },
       {
-        title: 'Yala zur Sudwestkuste  Fluss & Naturschutz',
+        title: 'Van Yala naar de zuidwestkust, rivier en natuurbescherming',
         activities: [
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Coconut Tree Hill (Mirissa)',
-            description: 'Ein malerischer Ort in Mirissa mit atemberaubendem Blick auf hohe Kokospalmen und den Indischen Ozean.',
-          },
-          {
-            type: 'Gefuhrte Tour',
-            title: 'Leuchtturm Dondra Head',
             description:
-              'Am sudlichsten Punkt Sri Lankas gelegen, bietet dieser Leuchtturm einen Panoramablick auf den Ozean und historischen Charme.',
+              'Een schilderachtige plek in Mirissa met een fraai uitzicht op weelderige kokospalmen en de Indische Oceaan.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Mirissa Beach',
-            description: 'Ein tropisches Paradies, bekannt fur goldenen Sand, klares Wasser und lebendige Sonnenuntergange.',
+            type: 'Rondleiding',
+            title: 'Vuurtoren van Dondra Head',
+            description:
+              'Op het zuidelijkste punt van Sri Lanka, met een weids uitzicht over de oceaan en historische charme.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Rondleiding',
+            title: 'Strand van Mirissa',
+            description: 'Een tropisch paradijs, bekend om het gouden zand, het heldere water en de levendige zonsondergangen.',
+          },
+          {
+            type: 'Overnachting',
             title: 'Somerset Mirissa Hotel',
-            description: 'Unterkunft im Somerset Mirissa Hotel oder ahnlichem Hotel  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Fruhstuck', 'Eigenes Bad', 'Abendessen'],
+            description: 'Verblijf in Somerset Mirissa Hotel of een vergelijkbaar hotel op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Ontbijt', 'Eigen badkamer', 'Diner'],
           },
         ],
       },
       {
-        title: 'Abreise von der Sudwestkuste  Naturschutz & Safari',
+        title: 'Vertrek vanaf de zuidwestkust, natuurbescherming en safari',
         activities: [
           {
-            type: 'Naturschutz',
-            title: 'Meeresschildkroten Schutzprojekt',
+            type: 'Natuurbescherming',
+            title: 'Beschermingsproject voor zeeschildpadden',
             description:
-              'Besuchen Sie ein Meeresschildkroten Schutzzentrum an der Sudkuste und erfahren Sie mehr uber den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmassnahmen.',
+              'Bezoek een centrum voor zeeschildpadden aan de zuidkust en leer over de bescherming van het zeeleven, broedprogramma’s en revalidatie.',
           },
           {
-            type: 'Bootssafari',
-            title: 'Bootssafari auf dem Madu Fluss',
+            type: 'Bootsafari',
+            title: 'Bootsafari op de Madurivier',
             description:
-              'Geniessen Sie eine malerische Bootssafari durch die Mangrovenwalder und kleinen Inseln des Madu Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfaltige Feuchtgebietswelt.',
+              'Geniet van een schilderachtige boottocht door de mangrovebossen en de kleine eilanden van de Madurivier. Ontdek de lokale kaneelteelt en de gevarieerde dieren in het moerasgebied.',
           },
         ],
       },

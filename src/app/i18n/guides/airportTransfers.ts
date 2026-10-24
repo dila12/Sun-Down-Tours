@@ -457,7 +457,7 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
   ru: {
     h1: 'Аэропорт шри ланка: частный трансфер из CMB (Коломбо)',
     lead:
-      'Международный аэропорт Бандаранайке (CMB)главные ворота европейских рейсов. Заказанный частный трансфер в Негомбо, Коломбо, Васкадуву или первый отель избавляет от счётчиков, зазывал и ночных торговособенно после ночного перелёта с багажом или детьми.',
+      'Международный аэропорт Бандаранайке (CMB) — главные ворота европейских рейсов. Заказанный частный трансфер в Негомбо, Коломбо, Васкадуву или первый отель избавляет от счётчиков, зазывал и ночных торгов, особенно после ночного перелёта с багажом или детьми.',
     heroAlt: 'Частный трансфер у международного аэропорта Бандаранайке в Коломбо',
     sections: [
       {
@@ -466,11 +466,11 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       },
       {
         title: 'Время в пути из CMB (типично, зависит от пробок)',
-        body: 'Пляжные отели Негомбо: 20 to 40 минут. Отели в Коломбо: 45 to 90 минут в зависимости от часа. Васкадува / Калутара (западное побережье, включая Sundown Beach Restaurant): около 1,5 to 2 часов. Канди: 3 to 4 часа. Дамбулла / Сигирия: 4 to 5 часов. Форт Галле: 2,5 to 3,5 часа по Southern Expressway.\n\nЭлла, Яла или восток в тот же день после дальнего перелёта редко хорошая идея. Ночные прилёты обычно ночуют в Негомбо или на западе и едут вглубь острова утром.',
+        body: 'Пляжные отели Негомбо: 20–40 минут. Отели в Коломбо: 45–90 минут в зависимости от часа. Васкадува / Калутара (западное побережье, включая Sundown Beach Restaurant): около 1,5–2 часов. Канди: 3–4 часа. Дамбулла / Сигирия: 4–5 часов. Форт Галле: 2,5–3,5 часа по Southern Expressway.\n\nЭлла, Яла или восток в тот же день после дальнего перелёта редко хорошая идея. Ночные прилёты обычно ночуют в Негомбо или на западе и едут вглубь острова утром.',
       },
       {
         title: 'Ночные прилёты и первый отель',
-        body: 'Многие европейские рейсы садятся между 22:00 и 06:00. Иммиграция, багаж и путь до точки встречи могут добавить 45 to 90 минут. 40 минут до Негомбо или 90 минут на западное побережье мягче, чем четыре часа в Культурный треугольник ночью.\n\nСкажите, если хотите тихую первую ночь у моря. Тур может начаться на следующее утро из Васкадувы или Негомбо.',
+        body: 'Многие европейские рейсы садятся между 22:00 и 06:00. Иммиграция, багаж и путь до точки встречи могут добавить 45–90 минут. 40 минут до Негомбо или 90 минут на западное побережье мягче, чем четыре часа в Культурный треугольник ночью.\n\nСкажите, если хотите тихую первую ночь у моря. Тур может начаться на следующее утро из Васкадувы или Негомбо.',
       },
       {
         title: 'Задержки, точка встречи и WhatsApp',
@@ -478,21 +478,21 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       },
       {
         title: 'Машины, багаж и детские кресла',
-        body: 'Подбираем легковой или минивэн под число пассажиров и сумок. Мягкие сумки едут проще жёстких огромных чемоданов в маленькой машинеукажите число мест багажа при бронировании. Семье из четырёх с двумя большими твёрдыми чемоданами обычно нужен минивэн.\n\nДетские кресла и бустеры по запросу, по наличию. Та же машина может продолжить как авто тура после трансфера.',
+        body: 'Подбираем легковой или минивэн под число пассажиров и сумок. Мягкие сумки едут проще жёстких огромных чемоданов в маленькой машине. Укажите число мест багажа при бронировании. Семье из четырёх с двумя большими твёрдыми чемоданами обычно нужен минивэн.\n\nДетские кресла и бустеры по запросу, по наличию. Та же машина может продолжить как авто тура после трансфера.',
       },
       {
         title: 'Маттала (HRI) и трансферы на вылет',
-        body: 'Маттала Раджапакса (HRI) у Хамбантотывторой аэропорт, удобный если южный или Яла маршрут там заканчивается. Большинство гостей по прежнему прилетают в CMB. Делаем и трансферы на вылет: забор из последнего отеля с запасом на регистрацию CMB, экспрессвей и путь до терминала.\n\nС юга или из холмов обычно забираем за 4 to 5 часов до международного рейса; с западного побережьяпримерно за 3 часа.',
+        body: 'Маттала Раджапакса (HRI) у Хамбантоты — второй аэропорт, удобный если южный или Яла маршрут там заканчивается. Большинство гостей по-прежнему прилетают в CMB. Делаем и трансферы на вылет: забор из последнего отеля с запасом на регистрацию CMB, экспрессвей и путь до терминала.\n\nС юга или из холмов обычно забираем за 4–5 часов до международного рейса; с западного побережья — примерно за 3 часа.',
       },
       {
         title: 'Бронирование с Sundown Tours',
-        body: 'Пришлите номер рейса, время прилёта, адрес отеля и число пассажиров. Вы получите понятную цену и контакт водителя до поездки. Тарифы согласованы заранее за маршрут и машину; правила ожидания после долгой задержкив подтверждении.\n\nТрансферы бывают отдельно или открывают полный частный маршрут с тем же водителем гидом.',
+        body: 'Пришлите номер рейса, время прилёта, адрес отеля и число пассажиров. Вы получите понятную цену и контакт водителя до поездки. Тарифы согласованы заранее за маршрут и машину; правила ожидания после долгой задержки — в подтверждении.\n\nТрансферы бывают отдельно или открывают полный частный маршрут с тем же водителем гидом.',
       },
     ],
     faq: [
       {
         q: 'Сколько ехать из CMB в Негомбо?',
-        a: 'Обычно 20 to 40 минут в зависимости от пробок и отеля. Это самый короткий вариант первой ночи после позднего европейского прилёта.',
+        a: 'Обычно 20–40 минут в зависимости от пробок и отеля. Это самый короткий вариант первой ночи после позднего европейского прилёта.',
       },
       {
         q: 'Где аэропорт шри ланка относительно Коломбо?',
@@ -500,15 +500,15 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       },
       {
         q: 'Сколько до Васкадувы, Калутары или Галле?',
-        a: 'Васкадува/Калутара около 1,5 to 2 часов. Форт Галле обычно 2,5 to 3,5 часа по Southern Expressway. Коломбо город 45 to 90 минут.',
+        a: 'Васкадува/Калутара около 1,5–2 часов. Форт Галле обычно 2,5–3,5 часа по Southern Expressway. Коломбо город 45–90 минут.',
       },
       {
         q: 'Можете сразу везти в Сигирию?',
-        a: 'Да, если хотитедорога 4 to 5 часов. Многие гости сначала отдыхают на западном побережье после дальнего перелёта.',
+        a: 'Да, если хотите. Дорога 4–5 часов. Многие гости сначала отдыхают на западном побережье после дальнего перелёта.',
       },
       {
         q: 'Цена трансфера фиксированная?',
-        a: 'Дазаранее за маршрут и машину, с ясными правилами ожидания после задержек в подтверждении.',
+        a: 'Да. Заранее за маршрут и машину, с ясными правилами ожидания после задержек в подтверждении.',
       },
       {
         q: 'Делаете трансферы на вылет?',
@@ -516,7 +516,7 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       },
     ],
     ctaTitle: 'Забронировать частный трансфер CMB',
-    ctaBody: 'Пришлите номер рейса, отель и число пассажировподтвердим встречу с понятной ценой и контактом водителя до вылета.',
+    ctaBody: 'Пришлите номер рейса, отель и число пассажиров. Подтвердим встречу с понятной ценой и контактом водителя до вылета.',
     ctaLabel: 'Связаться',
     relatedTours: [
       { pageId: 'tour7', label: '7 дневный тур по Шри Ланке' },
@@ -531,6 +531,65 @@ export const AIRPORT_TRANSFERS_GUIDE: ArticleContent = {
       { pageId: 'guideVisa', label: 'Гид по визе и ETA' },
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки' },
       { pageId: 'marketRussia', label: 'Туры из России' },
+    ],
+  },
+  nl: {
+    h1: 'Luchthaventransfers in Sri Lanka: privé ophalen bij Colombo (CMB)',
+    lead: 'Bandaranaike International Airport (CMB) is de belangrijkste aankomstluchthaven voor Europese vluchten. Een vooraf geboekte privétransfer naar Negombo, Colombo, Waskaduwa of uw eerste hotel voorkomt onduidelijkheid over taxi’s en prijzen, vooral na een lange nachtvlucht met bagage of kinderen.',
+    heroAlt: 'Privétransfer voor reizigers vanaf Bandaranaike International Airport bij Colombo',
+    sections: [
+      {
+        title: 'Waarom een privétransfer vooraf boeken',
+        body: 'Taximeters en losse aanbiedingen bij CMB geven niet altijd duidelijkheid over de prijs. Een vooraf geboekte chauffeur wacht u op met een naambord of een gedeelde WhatsApp-locatie, helpt met de bagage en brengt u rechtstreeks naar uw hotel tegen een afgesproken tarief.\n\nDit is de gebruikelijke start van onze meerdaagse privérondreizen, maar u kunt de transfer ook afzonderlijk boeken. U ontvangt voor vertrek de contactgegevens van de chauffeur en informatie over het voertuig.',
+      },
+      {
+        title: 'Rijtijden vanaf CMB (indicatief, afhankelijk van verkeer)',
+        body: 'Hotels in Negombo: 20 tot 40 minuten. Hotels in Colombo: meestal 45 tot 90 minuten. Waskaduwa/Kalutara aan de westkust: ongeveer 1,5 tot 2 uur. Kandy: 3 tot 4 uur. Dambulla/Sigiriya: 4 tot 5 uur. Galle Fort: 2,5 tot 3,5 uur via de Southern Expressway.\n\nOp dezelfde dag na een lange vlucht doorrijden naar Ella, Yala of de oostkust is meestal geen goed plan. Bij een late aankomst overnachten veel reizigers eerst in Negombo of aan de westkust.',
+      },
+      {
+        title: 'Nachtvluchten en het eerste hotel',
+        body: 'Veel Europese vluchten landen tussen 22.00 en 06.00 uur. Paspoortcontrole, bagage en de route naar het ontmoetingspunt kunnen nog 45 tot 90 minuten duren. Een korte rit naar Negombo of een hotel aan de westkust is na een nachtvlucht prettiger dan vier uur doorrijden naar de Culturele Driehoek.\n\nLaat ons weten als u de eerste nacht liever rustig aan zee doorbrengt. De rondreis kan de volgende ochtend vanuit Waskaduwa of Negombo beginnen.',
+      },
+      {
+        title: 'Vertragingen, ontmoetingspunt en WhatsApp',
+        body: 'Deel uw vluchtnummer zodat we vertragingen kunnen volgen. De bevestiging vermeldt waar u de chauffeur vindt, volgens de actuele regels van CMB: bijvoorbeeld in de aankomsthal met een naambord of bij een afgesproken uitgang.\n\nZorg dat u WhatsApp kunt gebruiken via wifi of roaming. Kunt u de chauffeur niet vinden, stuur ons dan eerst een bericht voordat u een onbekende taxi accepteert.',
+      },
+      {
+        title: 'Voertuigen, bagage en kinderzitjes',
+        body: 'We kiezen een auto of busje op basis van het aantal reizigers en koffers. Zachte tassen passen vaak makkelijker in een kleinere auto; geef daarom bij het boeken het aantal stuks bagage door. Een gezin van vier met twee grote harde koffers heeft meestal een busje nodig.\n\nKinderzitjes en stoelverhogers kunt u vooraf aanvragen, afhankelijk van beschikbaarheid. Bij een meerdaagse reis kan dezelfde chauffeur met hetzelfde voertuig na de transfer uw rondreis voortzetten.',
+      },
+      {
+        title: 'Mattala (HRI) en transfers naar de luchthaven',
+        body: 'Mattala Rajapaksa International Airport (HRI), bij Hambantota, is een tweede luchthaven die handig kan zijn aan het einde van een route langs de zuidkust of Yala. De meeste reizigers komen aan op CMB. We regelen ook vertrektransfers vanaf uw laatste hotel, met extra tijd voor het inchecken en verkeer op de snelweg.\n\nVanaf de zuidkust of het hoogland vertrekken we meestal 4 tot 5 uur voor een internationale vlucht; vanaf hotels aan de westkust ongeveer 3 uur ervoor.',
+      },
+      {
+        title: 'Boeken bij Sundown Tours',
+        body: 'Stuur uw vluchtnummer, aankomsttijd, hoteladres en het aantal reizigers. Voor vertrek ontvangt u een duidelijke offerte en de contactgegevens van uw chauffeur. De prijs voor de afgesproken route en het voertuig staat vooraf vast; eventuele wachttijd bij een lange vertraging wordt in de bevestiging uitgelegd.\n\nU kunt de transfer apart boeken of ermee beginnen aan een complete privérondreis met dezelfde chauffeur-gids.',
+      },
+    ],
+    faq: [
+      { q: 'Hoe lang duurt de transfer van CMB naar Negombo?', a: 'Meestal 20 tot 40 minuten, afhankelijk van het verkeer en uw hotel. Het is een van de kortste transfers voor de eerste nacht na een late Europese vlucht.' },
+      { q: 'Hoe lang duurt de rit naar Waskaduwa, Kalutara of Galle?', a: 'Naar Waskaduwa of Kalutara ongeveer 1,5 tot 2 uur. Galle Fort duurt meestal 2,5 tot 3,5 uur via de Southern Expressway. Colombo ligt op ongeveer 45 tot 90 minuten rijden.' },
+      { q: 'Kunt u ons na aankomst meteen naar Sigiriya brengen?', a: 'Dat kan; de rit duurt ongeveer 4 tot 5 uur. Veel reizigers rusten na een lange vlucht eerst aan de westkust en vertrekken de volgende ochtend naar de Culturele Driehoek.' },
+      { q: 'Is de transferprijs vast?', a: 'Ja. De prijs wordt vooraf afgesproken voor de route en het voertuig. Regels voor wachttijd bij vertraging staan duidelijk in de bevestiging.' },
+      { q: 'Regelen jullie ook transfers naar de luchthaven voor vertrek?', a: 'Ja. We halen u op bij uw laatste hotel en houden rekening met inchecktijd, verkeer op de snelweg en de afstand naar de terminal.' },
+    ],
+    ctaTitle: 'Boek een privétransfer vanaf luchthaven CMB',
+    ctaBody: 'Stuur uw vluchtnummer, hotel en aantal reizigers. We bevestigen vooraf de ophaalservice, prijs en contactgegevens van de chauffeur.',
+    ctaLabel: 'Neem contact op',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destKandy', label: 'Kandy' },
+    ],
+    relatedGuides: [
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
+      { pageId: 'guideVisa', label: 'Visum- en ETA-gids' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'marketNetherlands', label: 'Reizen vanuit Nederland' },
     ],
   },
 };

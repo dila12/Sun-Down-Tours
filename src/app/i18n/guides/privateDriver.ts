@@ -414,8 +414,8 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
   },
 
   ru: {
-    h1: 'Аренда авто с водителем на Шри Ланке: частный шофёр, не self drive',
-    lead: 'Шри Ланка вознаграждает путешественников, которые не спешат, и именно личный водитель гид делает это возможным человек, который знает, у какой смотровой площадки остановиться, когда объехать пробки, и как превратить долгий переезд в часть отпуска, а не в потерянное время.',
+    h1: 'Аренда авто с водителем на Шри Ланке: частный шофёр, без самостоятельного вождения',
+    lead: 'Шри Ланка вознаграждает путешественников, которые не спешат, и именно личный водитель гид делает это возможным. Человек, который знает, у какой смотровой площадки остановиться, когда объехать пробки, и как превратить долгий переезд в часть отпуска, а не в потерянное время.',
     heroAlt: 'Личный автомобиль с водителем для поездок по Шри Ланке',
     sections: [
       {
@@ -424,11 +424,11 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
       },
       {
         title: 'Что обычно включает услуга водителя гида',
-        body: 'Личный тур обычно включает автомобиль и водителя на весь день, топливо, жильё и питание водителя в многодневных поездках, а также трансфер от двери до двери, что избавляет от необходимости организовывать отдельный транспорт между отелями. Многие водители в Шри Ланке также неформально выступают в роли гидов, рассказывая о храмах, плантациях и остановках по путио, что простой трансферный сервис не предложит.\n\nЗаранее уточните, включены ли входные билеты, оплата гидов на основных объектах и собственные расходы водителя в указанную цену, поскольку условия у разных операторов отличаются.',
+        body: 'Личный тур обычно включает автомобиль и водителя на весь день, топливо, жильё и питание водителя в многодневных поездках, а также трансфер от двери до двери, что избавляет от необходимости организовывать отдельный транспорт между отелями. Многие водители в Шри Ланке также неформально выступают в роли гидов, рассказывая о храмах, плантациях и остановках по пути. То, что простой трансферный сервис не предложит.\n\nЗаранее уточните, включены ли входные билеты, оплата гидов на основных объектах и собственные расходы водителя в указанную цену, поскольку условия у разных операторов отличаются.',
       },
       {
         title: 'Планирование маршрута с личным водителем',
-        body: 'Хороший водитель гид скорректирует план дня в зависимости от состояния дорог, погоды и настроения группы, а не будет жёстко следовать распечатанному расписанию. Эта гибкостьдно из главных преимуществ перед фиксированным групповым туром: если вы хотите остаться на двадцать минут дольше в саду специй или пропустить остановку, которая вам не интересна, личная поездка это позволяет.\n\nПоделитесь своими интересами и предпочитаемым темпом перед поездкой, чтобы водитель гид мог соответственно спланировать остановкиь то больше времени для наблюдения за дикой природой или больше времени для отдыха на побережье.',
+        body: 'Хороший водитель гид скорректирует план дня в зависимости от состояния дорог, погоды и настроения группы, а не будет жёстко следовать распечатанному расписанию. Эта гибкость — одно из главных преимуществ перед фиксированным групповым туром: если вы хотите остаться на двадцать минут дольше в саду специй или пропустить остановку, которая вам не интересна, личная поездка это позволяет.\n\nПоделитесь своими интересами и предпочитаемым темпом перед поездкой, чтобы водитель гид мог соответственно спланировать остановки. Будь то больше времени для наблюдения за дикой природой или больше времени для отдыха на побережье.',
       },
       {
         title: 'Стоимость и этикет чаевых',
@@ -462,7 +462,7 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
       },
       {
         q: 'Это car rental with driver или обычная аренда?',
-        a: 'Автомобиль с лицензированным водителем гидом на весь турне стойка self drive. По шри ланкийским дорогам вы не ведёте сами.',
+        a: 'Автомобиль с лицензированным водителем гидом на весь тур, а не стойка проката без водителя. По шри ланкийским дорогам вы не ведёте сами.',
       },
       {
         q: 'Что обычно включено в стоимость личного тура?',
@@ -485,69 +485,75 @@ export const PRIVATE_DRIVER_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Prive chauffeur sri lanka: tour met chauffeur gids',
-    lead: 'Prive chauffeur sri lanka is een licensed chauffeur gids met auto, geen self drive. Wij plannen ophalen, dagen en strandfinale rond uw data.',
-    heroAlt: 'Privater Chauffeurwagen fur Touren durch Sri Lanka',
+    h1: 'Gids over privéchauffeurs in Sri Lanka | Huur een chauffeur voor rondreizen',
+    lead: 'Een privéchauffeur in Sri Lanka is de eenvoudigste manier om het eiland te verkennen. Huur een chauffeurgids die weet wanneer u stopt, hoe u files ontwijkt en hoe een lange rit deel van de vakantie wordt.',
+    heroAlt: 'Auto met privéchauffeur voor rondreizen door Sri Lanka',
     sections: [
       {
-        title: 'Warum ein privater Fahrer besser ist als Selbstfahren oder offentliche Verkehrsmittel',
-        body: 'Einen Selbstfahrer Mietwagen in Sri Lanka zu nehmen bedeutet, sich an enge, kurvige Strassen, ungewohnte Uberholgewohnheiten und einen Fahrstil zu gewohnen, den Besucher erst nach einiger Zeit lesen konnen; die meisten Kurzzeitbesucher finden das stressiger als entspannend. Busse und Zuge sind ein Erlebnis fur sich, fahren aber nach ihrem eigenen Zeitplan, nicht nach Ihrem  wichtig, wenn Sie den Sonnenaufgang an einem Aussichtspunkt oder einen bestimmten Zug erreichen mochten.\n\nEin privater Fahrer Guide lost beide Probleme: Sie erhalten einen festen Tagespreis, ein fur die Strassen geeignetes Fahrzeug und jemanden, der die lohnenden Abstecher bereits kennt  ohne die Erschopfung, sich selbst im ungewohnten Verkehr zurechtzufinden.',
+        id: 'whyPrivate',
+        title: 'Waarom een privéchauffeur beter is dan zelf rijden of openbaar vervoer',
+        body: 'Wie zoekt naar een chauffeur in Sri Lanka, een privéchauffeur in Sri Lanka of een chauffeur voor Sri Lanka, bedoelt meestal een erkende chauffeurgids met een privéauto, geen gedeelde bus. Zelf rijden betekent smalle bochtige wegen en onbekend inhalen. Openbare bussen rijden volgens hun eigen dienstregeling.\n\nEen privéchauffeurgids geeft u een vast dagtarief, een voertuig dat past bij de wegen en iemand die de omwegen die de moeite waard zijn al kent.',
       },
       {
-        title: 'Was ein Fahrer Guide Service normalerweise beinhaltet',
-        body: 'Eine private Tour umfasst in der Regel Auto und Fahrer fur den ganzen Tag, Kraftstoff, Unterkunft und Verpflegung des Fahrers bei mehrtagigen Reisen sowie Abholung und Ruckgabe direkt vor der Tur, sodass kein separater Transport zwischen Hotels organisiert werden muss. Viele Fahrer in Sri Lanka fungieren auch informell als Guides und teilen Hintergrundwissen zu Tempeln, Plantagen und Zwischenstopps, das ein reiner Transferdienst nicht bieten wurde.\n\nKlaren Sie im Voraus, ob Eintrittsgebuhren, Fuhrungsgebuhren an grossen Sehenswurdigkeiten und die eigenen Ausgaben des Fahrers im angebotenen Preis enthalten sind, da sich die Konventionen zwischen Anbietern unterscheiden.',
+        id: 'whatIncluded',
+        title: 'Wat een dienst van een chauffeurgids meestal omvat',
+        body: 'Een privérondreis omvat meestal een auto en chauffeur voor de hele dag, brandstof, overnachting en maaltijden van de chauffeur bij meerdaagse reizen, en ophalen en afzetten van deur tot deur. U hoeft dus geen apart vervoer tussen hotels te regelen. Veel chauffeurs in Sri Lanka treden informeel ook op als gids. Zij geven uitleg bij tempels, plantages en stops langs de weg, wat een kale rit van hotel naar hotel niet doet.\n\nMaak vooraf duidelijk of toegangskaartjes, gidsgelden bij grote plekken en de eigen kosten van de chauffeur in de geoffreerde prijs zitten. De gewoonten verschillen per aanbieder.',
       },
       {
-        title: 'Die Route mit einem privaten Fahrer planen',
-        body: 'Ein guter Fahrer Guide passt den Tagesplan an Strassenverhaltnisse, Wetter und die Stimmung der Gruppe an, statt starr an einem gedruckten Plan festzuhalten. Diese Flexibilitat ist einer der Hauptvorteile gegenuber einer festen Gruppenreise  wenn Sie zwanzig Minuten langer an einem Gewurzgarten verweilen oder einen Stopp auslassen mochten, der Sie nicht interessiert, erlaubt eine private Reise das.\n\nTeilen Sie Ihre Interessen und Ihr bevorzugtes Tempo vor der Reise mit, damit Ihr Fahrer Guide die Stopps entsprechend gestalten kann  ob mehr Zeit fur Tierbeobachtungen oder mehr Entspannung an der Kuste.',
+        id: 'planningItinerary',
+        title: 'Uw route plannen met een privéchauffeur',
+        body: 'Een goede chauffeurgids past het dagplan aan op de wegomstandigheden, het weer en hoe de groep zich voelt, in plaats van star aan een gedrukt schema te houden. Die flexibiliteit is een van de belangrijkste voordelen tegenover een vaste groepsreis. Wilt u twintig minuten extra stoppen bij een specerijentuin, of een stop overslaan die u niet interesseert, dan kan dat bij een privérit.\n\nDeel uw interesses en het gewenste tempo vóór de reis, zodat uw chauffeurgids de stops daarop kan afstemmen. Dat kan meer tijd bij wilde dieren zijn, of meer tijd om te ontspannen aan de kust.',
       },
       {
-        title: 'Kosten und Trinkgeld Etikette',
-        body: 'Die Kosten fur einen privaten Fahrer Guide variieren je nach Fahrzeugtyp, Reisedauer und Saison, sind aber im Vergleich zu den vergleichbaren Kosten fur Selbstfahrer plus Kraftstoff generell angemessen, wenn man den Komfort und die gewonnenen Ortskenntnisse berucksichtigt. Mehrtagige Touren beinhalten ublicherweise ein moderates Tagesgeld fur die eigenen Mahlzeiten und Unterkunft des Fahrers, separat von Ihrer eigenen organisiert.\n\nTrinkgeld ist am Ende der Reise ublich und wird geschatzt, besonders bei langeren mehrtagigen Touren, bei denen der Fahrer mehr als nur Fahren geleistet hat; es gibt keine feste Regel, aber ein Betrag, der guten Service widerspiegelt, ist gangige Praxis.',
+        id: 'costsTipping',
+        title: 'Kosten en fooi',
+        body: 'De kosten van een privéchauffeurgids hangen af van het type voertuig, de reisduur en het seizoen. Ze zijn over het algemeen redelijk vergeleken met zelf rijden plus brandstof, als u het gemak en de lokale kennis meerekent. Meerdaagse rondreizen bevatten meestal een bescheiden dagvergoeding voor de eigen maaltijden en overnachting van de chauffeur, apart van die van u.\n\nEen fooi is gebruikelijk en wordt gewaardeerd aan het einde van de reis, vooral bij langere meerdaagse rondreizen waarin de chauffeur meer deed dan alleen rijden. Er is geen vaste regel, maar een bedrag dat goede dienstverlening weerspiegelt is de gewone praktijk.',
       },
       {
-        title: 'Sicherheit und Komfort auf der Strasse',
-        body: 'Sri Lankas Strassen reichen von guten Kustenautobahnen bis zu kurvigen Bergstrassen, die lokale Erfahrung erfordern, besonders rund um Ella, Haputale und die Serpentinen im Teeland. Ein erfahrener Fahrer, der diese Strassen gut kennt, ist deutlich sicherer als ein selbst gefahrener Mietwagen, besonders nach Einbruch der Dunkelheit oder bei Monsunregen.\n\nKlimatisierte Fahrzeuge sind fur den Touristentransport Standard und machen an heissen, feuchten Tagen zwischen den Zielen einen echten Unterschied; bestatigen Sie bei der Buchung, dass dies enthalten ist.',
+        id: 'safetyComfort',
+        title: 'Veiligheid en comfort onderweg',
+        body: 'Wegen in Sri Lanka lopen van goede kustsnelwegen tot bochtige routes in het heuvelland die lokale ervaring vragen, vooral rond Ella, Haputale en de haarspeldbochten in het theegebied. Een ervaren chauffeur die deze wegen goed kent, is echt veiliger dan een huurauto die u zelf bestuurt, vooral na het donker of tijdens stortbuien in de moesson.\n\nVoertuigen met airconditioning zijn standaard voor toeristenvervoer en maken echt verschil op warme, vochtige dagen tussen bestemmingen. Bevestig bij het boeken dat dit is inbegrepen.',
       },
       {
-        title: 'Den richtigen Anbieter wahlen',
-        body: 'Achten Sie auf Anbieter mit echten, spezifischen Bewertungen, die konkrete Reiserouten und Fahrer namentlich beschreiben, statt allgemeiner Funf Sterne Bewertungen ohne Details. Ein gut gefuhrter lokaler Anbieter passt einen vorgeschlagenen Reiseplan gerne an Ihre Interessen an, statt ein festes Paket durchzusetzen.\n\nBestatigen Sie Fahrzeugtyp, genaue Leistungen und Gesamtkosten schriftlich vor der Reise, und fragen Sie, wie der Anbieter mit unerwarteten Anderungen umgeht, etwa der Verlangerung eines Tages oder einem zusatzlichen Stopp, wenn Sie bereits unterwegs sind.',
+        id: 'choosingOperator',
+        title: 'De juiste aanbieder kiezen',
+        body: 'Zoek aanbieders met echte, concrete recensies die werkelijke routes en chauffeurs bij naam beschrijven, niet algemene beoordelingen van vijf sterren zonder detail. Een goed geleide lokale aanbieder past een voorgestelde route graag aan uw interesses aan, in plaats van een vast pakket door te drukken.\n\nBevestig het type voertuig, de exacte inbegrepen onderdelen en de totale kosten schriftelijk vóór de reis. Vraag hoe de aanbieder omgaat met onverwachte wijzigingen, zoals een dag verlengen of een stop toevoegen als u al onderweg bent.',
       },
     ],
     faq: [
       {
-        q: 'Ist ein privater Fahrer in Sri Lanka teuer?',
-        a: 'Die Kosten variieren je nach Fahrzeug und Reisedauer, sind aber angesichts des Komforts, der Bequemlichkeit und der Ortskenntnisse generell angemessen, besonders im Vergleich zu den Gesamtkosten fur Selbstfahrer Miete, Kraftstoff und dem Stress ungewohnter Strassen.',
+        q: 'Is een privéchauffeur in Sri Lanka duur?',
+        a: 'De kosten hangen af van het voertuig en de reisduur. Een privéchauffeur in Sri Lanka voor meerdaagse rondreizen is meestal voordeliger dan zelf rijden plus brandstof, als u comfort en lokale kennis meetelt. Vraag een schriftelijk dagtarief dat brandstof en kosten van de chauffeur omvat.',
       },
       {
-        q: 'Muss ich meinem Fahrer Guide Trinkgeld geben?',
-        a: 'Trinkgeld ist am Ende einer Reise ublich, besonders bei mehrtagigen Touren. Es gibt keinen festen Betrag, aber eine Anerkennung, die die Servicequalitat widerspiegelt, ist gangige Praxis.',
+        q: 'Moet ik mijn chauffeurgids een fooi geven?',
+        a: 'Een fooi is gebruikelijk aan het einde van een reis, vooral bij meerdaagse rondreizen. Er is geen vast bedrag, maar een bedrag dat de kwaliteit van de dienstverlening weerspiegelt is de gewone praktijk.',
       },
       {
-        q: 'Kann ich meine Reiseroute nach Reisebeginn andern?',
-        a: 'Ja, einer der Hauptvorteile eines privaten Fahrer Guides ist die Flexibilitat  die meisten passen Stopps, Tempo oder Zeitplan gerne an Ihre Stimmung und Interessen im Laufe der Reise an.',
+        q: 'Kan ik mijn route wijzigen als de reis al is begonnen?',
+        a: 'Ja. Een van de belangrijkste voordelen van een privéchauffeurgids is flexibiliteit. De meesten passen stops, tempo of tijden graag aan op hoe u zich voelt en wat u interesseert terwijl de reis vordert.',
       },
       {
-        q: 'Ist es sicherer, stattdessen selbst zu fahren?',
-        a: 'Es ist moglich, aber enge kurvige Strassen, ungewohnte Fahrgewohnheiten und dichter Verkehr in Stadtnahe machen es fur die meisten Kurzzeitbesucher stressiger als entspannend; ein erfahrener lokaler Fahrer ist meist die sicherere und einfachere Option.',
+        q: 'Is het veilig om in plaats daarvan zelf te rijden in Sri Lanka?',
+        a: 'Het kan, maar smalle bochtige wegen, onbekende rijgewoonten en druk verkeer bij steden maken het voor de meeste bezoekers die kort blijven stressvoller dan ontspannend. Een ervaren lokale chauffeur is over het algemeen de veiligere en eenvoudigere keuze.',
       },
       {
-        q: 'Was ist normalerweise im Preis einer privaten Tour enthalten?',
-        a: 'Ublicherweise Auto, Fahrer, Kraftstoff und Transfers direkt vor der Tur, plus Unterkunft und Verpflegung des Fahrers bei mehrtagigen Reisen. Klaren Sie, ob Eintritts und Fuhrungsgebuhren an grossen Sehenswurdigkeiten enthalten sind, da dies je nach Anbieter variiert.',
+        q: 'Wat zit er meestal in de prijs van een privérondreis?',
+        a: 'Meestal de auto, de chauffeur, brandstof en vervoer van deur tot deur, plus overnachting en maaltijden van de chauffeur bij meerdaagse reizen. Controleer of toegangsgelden en gidsgelden bij grote plekken zijn inbegrepen. Dat verschilt per aanbieder.',
       },
     ],
-    ctaTitle: 'Reisen Sie durch Sri Lanka mit einem vertrauenswurdigen lokalen Fahrer Guide',
-    ctaBody: 'Wir stellen fur jede unserer Reisen private, klimatisierte Fahrzeuge mit erfahrenen Fahrer Guides bereit, damit Sie sich auf die Orte konzentrieren konnen statt auf die Logistik, dorthin zu kommen.',
-    ctaLabel: 'Unsere privaten Touren ansehen',
+    ctaTitle: 'Reis door Sri Lanka met een betrouwbare lokale chauffeurgids',
+    ctaBody: 'Wij regelen privévoertuigen met airconditioning en ervaren chauffeurgidsen voor elke route die wij uitvoeren. Zo kunt u zich richten op de plekken, niet op de logistiek om er te komen.',
+    ctaLabel: 'Bekijk onze privérondreizen',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise Ratgeber' },
-      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits Ratgeber' },
+      { pageId: 'guideBudget', label: 'Budgetgids voor reizen in Sri Lanka' },
+      { pageId: 'guideSafety', label: 'Veiligheidsgids voor Sri Lanka' },
     ],
   }
 };

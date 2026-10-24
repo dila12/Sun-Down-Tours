@@ -1005,7 +1005,7 @@ export const en: Dict = {
     destBentota: {
       title: 'Bentota Sri Lanka | West Coast Beach Holidays',
       description:
-        'Bentota beach holidays with private chauffeur links to Galle, Mirissa and Weligamabest in the west coast dry season.',
+        'Bentota beach holidays with private chauffeur links to Galle, Mirissa and Weligama, best in the west coast dry season.',
       keywords: 'Bentota Sri Lanka, Bentota beach, Bentota tour',
     },
     destMirissa: {
@@ -1045,7 +1045,7 @@ export const en: Dict = {
       title: 'Trincomalee Sri Lanka | East Coast Beaches & Harbour',
       description:
         'Trincomalee, Nilaveli and Uppuveli: when the east coast is drier than Galle, what to do, and how to fit it into a 10 to 14 day private tour.',
-      keywords: 'Trincomalee Sri Lanka, east coast Sri Lanka, Nilaveli, Ostkuste',
+      keywords: 'Trincomalee Sri Lanka, east coast Sri Lanka, Nilaveli, Uppuveli',
     },
     destArugamBay: {
       title: "Arugam Bay Sri Lanka | Surf and East Coast",
@@ -1060,7 +1060,7 @@ export const en: Dict = {
     guideWhaleWatching: {
       title: "Whale Watching Sri Lanka | Mirissa & Private Tours",
       description:
-        "Plan seasonal whale watching from Mirissa or Trincomalee inside a private chauffeur itinerary realistic seasons, no guaranteed sightings.",
+        'Plan seasonal whale watching from Mirissa or Trincomalee inside a private chauffeur itinerary. Seasons are realistic, with no guaranteed sightings.',
       keywords: "whale watching Sri Lanka, Mirissa whales, private south coast tour",
     },
     guideTrainJourneys: {
@@ -1078,7 +1078,7 @@ export const en: Dict = {
     guideFamilyTours: {
       title: "Sri Lanka Family Tours | Private Trips with Kids",
       description:
-        "family friendly private Sri Lanka tours with sensible driving days, wildlife mornings and beach recovery time.",
+        'Family friendly private Sri Lanka tours with sensible driving days, wildlife mornings and beach recovery time.',
       keywords: "Sri Lanka family tour, private tour with kids, family safari Sri Lanka",
     },
     guideLuxuryTours: {
@@ -1131,7 +1131,7 @@ export const en: Dict = {
     marketRussia: {
       title: 'Sri Lanka Tours from Russia | Packages, CMB Airport & Private Driver',
       description:
-        'Sri Lanka from Russia: Moscow flight time, Colombo airport, ETA, car with driver, Lion Rock, Yala, Hikkaduwa and Mirissa beachesprivate packages after CMB, not airline tickets or hotel brands.',
+        'Sri Lanka from Russia: Moscow flight time, Colombo airport, ETA, car with driver, Lion Rock, Yala, Hikkaduwa and Mirissa. Private packages after CMB, not airline tickets or hotel brands.',
       keywords:
         'sri lanka tours, sri lanka tour packages, туры Шри Ланка, sri lanka holidays, travel agents in sri lanka, car rental with driver sri lanka',
     },
@@ -1221,12 +1221,12 @@ export const en: Dict = {
     terms: {
       title: "Terms of Service | Sundown Tours Sri Lanka",
       description: "Terms of service for private tours and chauffeur bookings with Sundown Tours Sri Lanka.",
-      keywords: "terms",
+      keywords: 'terms of service, Sundown Tours terms',
     },
     bookingPolicy: {
       title: "Booking Policy | Sundown Tours Sri Lanka",
       description: "How deposits, confirmations and booking changes work for Sundown Tours private itineraries.",
-      keywords: "bookingPolicy",
+      keywords: 'booking policy, tour deposit, itinerary changes',
     },
     bookingSuccess: {
       title: 'Booking Received | Sundown Tours Sri Lanka',

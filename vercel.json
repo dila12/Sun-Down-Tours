@@ -142,6 +142,16 @@
       "permanent": true
     },
     {
+      "source": "/de/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/de/best-time-to-visit-sri-lanka",
       "destination": "/de/reisefuehrer/beste-reisezeit-sri-lanka",
       "permanent": true
@@ -167,9 +177,129 @@
       "permanent": true
     },
     {
+      "source": "/de/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/de/kandy-day-tour",
       "destination": "/de/kandy-tagesausflug",
       "permanent": true
+    },
+    {
+      "source": "/de/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-april",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-dezember",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-februar",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-januar",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-juli",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-juni",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-maerz",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-mai",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-november",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-oktober",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-im-september",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-den-niederlanden",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-der-schweiz",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-frankreich",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-grossbritannien",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-italien",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-oesterreich",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-polen",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-russland",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/de/reisefuehrer/sri-lanka-reisen-aus-spanien",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
     },
     {
       "source": "/de/sigiriya-day-tour",
@@ -292,6 +422,16 @@
       "permanent": true
     },
     {
+      "source": "/es/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/es/best-time-to-visit-sri-lanka",
       "destination": "/es/guias/mejor-epoca-sri-lanka",
       "permanent": true
@@ -317,9 +457,139 @@
       "permanent": true
     },
     {
+      "source": "/es/guias/avistamiento-ballenas-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-alemania",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-austria",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-francia",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-italia",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-paises-bajos",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-polonia",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-reino-unido",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-rusia",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/circuitos-sri-lanka-desde-suiza",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-abril",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-diciembre",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-enero",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-febrero",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-julio",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-junio",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-marzo",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-mayo",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-noviembre",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-octubre",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/sri-lanka-en-septiembre",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/guias/viajes-lujo-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/es/kandy-day-tour",
       "destination": "/es/excursion-kandy-un-dia",
       "permanent": true
+    },
+    {
+      "source": "/es/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
     },
     {
       "source": "/es/restaurants-in-sri-lanka",
@@ -442,6 +712,16 @@
       "permanent": true
     },
     {
+      "source": "/fr/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/fr/best-time-to-visit-sri-lanka",
       "destination": "/fr/guides/meilleure-periode-sri-lanka",
       "permanent": true
@@ -462,9 +742,139 @@
       "permanent": true
     },
     {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-allemagne",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-autriche",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-espagne",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-italie",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-pays-bas",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-pologne",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-royaume-uni",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-russie",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/circuits-sri-lanka-depuis-suisse",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/observation-baleines-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-avril",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-decembre",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-fevrier",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-janvier",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-juillet",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-juin",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-mai",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-mars",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-novembre",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-octobre",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/sri-lanka-en-septembre",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/guides/voyages-luxe-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/fr/kandy-day-tour",
       "destination": "/fr/excursion-kandy-journee",
       "permanent": true
+    },
+    {
+      "source": "/fr/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/fr/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
     },
     {
       "source": "/fr/restaurants-in-sri-lanka",
@@ -597,6 +1007,16 @@
       "permanent": true
     },
     {
+      "source": "/it/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/it/best-time-to-visit-sri-lanka",
       "destination": "/it/guide/periodo-migliore-sri-lanka",
       "permanent": true
@@ -622,6 +1042,116 @@
       "permanent": true
     },
     {
+      "source": "/it/guide/avvistamento-balene-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-aprile",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-dicembre",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-febbraio",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-gennaio",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-giugno",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-luglio",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-maggio",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-marzo",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-novembre",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-ottobre",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/sri-lanka-a-settembre",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dai-paesi-bassi",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dal-regno-unito",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dall-austria",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-francia",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-germania",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-polonia",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-russia",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-spagna",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/tour-sri-lanka-dalla-svizzera",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/guide/viaggi-lusso-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
       "source": "/it/guides/osservazione-balene-sri-lanka",
       "destination": "/it/guide/avvistamento-balene-sri-lanka",
       "permanent": true
@@ -632,9 +1162,29 @@
       "permanent": true
     },
     {
+      "source": "/it/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/it/kandy-day-tour",
       "destination": "/it/escursione-giornaliera-kandy",
       "permanent": true
+    },
+    {
+      "source": "/it/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/it/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
     },
     {
       "source": "/it/restaurants-in-sri-lanka",
@@ -757,6 +1307,16 @@
       "permanent": true
     },
     {
+      "source": "/nl/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/nl/best-time-to-visit-sri-lanka",
       "destination": "/nl/reisgidsen/beste-reistijd-sri-lanka",
       "permanent": true
@@ -782,9 +1342,144 @@
       "permanent": true
     },
     {
+      "source": "/nl/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/nl/kandy-day-tour",
       "destination": "/nl/kandy-dagexcursie",
       "permanent": true
+    },
+    {
+      "source": "/nl/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/luxe-reizen-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-april",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-augustus",
+      "destination": "/travel-guides/sri-lanka-in-august",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-december",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-februari",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-januari",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-juli",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-juni",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-maart",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-mei",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-november",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-oktober",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-in-september",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-duitsland",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-frankrijk",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-italie",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-oostenrijk",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-polen",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-rusland",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-spanje",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-vk",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/sri-lanka-reizen-vanuit-zwitserland",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/reisgidsen/walvissen-spotten-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
     },
     {
       "source": "/nl/sigiriya-day-tour",
@@ -907,8 +1602,23 @@
       "permanent": true
     },
     {
+      "source": "/pl/anuradhapura-sri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/arugam-bay-sri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/pl/best-time-to-visit-sri-lanka",
       "destination": "/pl/przewodniki/najlepszy-czas-na-sri-lanke",
+      "permanent": true
+    },
+    {
+      "source": "/pl/colombo-sri-lanka",
+      "destination": "/pl/kolombo-sri-lanka",
       "permanent": true
     },
     {
@@ -932,9 +1642,139 @@
       "permanent": true
     },
     {
+      "source": "/pl/hiriketiya-sri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/kalpitiya-sri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/pl/kandy-day-tour",
       "destination": "/pl/wycieczka-jednodniowa-kandy",
       "permanent": true
+    },
+    {
+      "source": "/pl/nuwara-eliya-sri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/polonnaruwa-sri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/obserwacja-wielorybow-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-czerwiec",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-grudzien",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-kwiecien",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-lipiec",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-listopad",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-luty",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-maj",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-marzec",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-pazdziernik",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-styczen",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/sri-lanka-w-wrzesien",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-luksusowe-sri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-austrii",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-francji",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-hiszpanii",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-holandii",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-niemiec",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-rosji",
+      "destination": "/travel-guides/sri-lanka-tours-from-russia",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-wielkiej-brytanii",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-z-wloch",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/pl/przewodniki/wycieczki-sri-lanka-ze-szwajcarii",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
     },
     {
       "source": "/pl/restaurants-in-sri-lanka",
@@ -1057,8 +1897,23 @@
       "permanent": true
     },
     {
+      "source": "/ru/anuradhapura-shri-lanka",
+      "destination": "/anuradhapura-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/arugam-bey-shri-lanka",
+      "destination": "/arugam-bay-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/ru/best-time-to-visit-sri-lanka",
       "destination": "/ru/putevoditel/luchshee-vremya-dlya-shri-lanka",
+      "permanent": true
+    },
+    {
+      "source": "/ru/colombo-sri-lanka",
+      "destination": "/ru/kolombo-shri-lanka",
       "permanent": true
     },
     {
@@ -1097,6 +1952,16 @@
       "permanent": true
     },
     {
+      "source": "/ru/hiriketiya-shri-lanka",
+      "destination": "/hiriketiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/kalpitiya-shri-lanka",
+      "destination": "/kalpitiya-sri-lanka",
+      "statusCode": 301
+    },
+    {
       "source": "/ru/kandy-day-tour",
       "destination": "/ru/odnodnevnaya-ekskursiya-kandi",
       "permanent": true
@@ -1105,6 +1970,126 @@
       "source": "/ru/kandy-sri-lanka",
       "destination": "/ru/kandi-shri-lanka",
       "permanent": true
+    },
+    {
+      "source": "/ru/nuwara-eliya-shri-lanka",
+      "destination": "/nuwara-eliya-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/polonnaruwa-shri-lanka",
+      "destination": "/polonnaruwa-sri-lanka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/nablyudenie-za-kitami-shri-lanka",
+      "destination": "/travel-guides/sri-lanka-whale-watching",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/roskoshnye-tury-shri-lanka",
+      "destination": "/travel-guides/sri-lanka-luxury-tours",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-aprel",
+      "destination": "/travel-guides/sri-lanka-in-april",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-dekabr",
+      "destination": "/travel-guides/sri-lanka-in-december",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-fevral",
+      "destination": "/travel-guides/sri-lanka-in-february",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-iyul",
+      "destination": "/travel-guides/sri-lanka-in-july",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-iyun",
+      "destination": "/travel-guides/sri-lanka-in-june",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-mart",
+      "destination": "/travel-guides/sri-lanka-in-march",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-may",
+      "destination": "/travel-guides/sri-lanka-in-may",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-noyabr",
+      "destination": "/travel-guides/sri-lanka-in-november",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-oktyabr",
+      "destination": "/travel-guides/sri-lanka-in-october",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-sentyabr",
+      "destination": "/travel-guides/sri-lanka-in-september",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/shri-lanka-v-yanvar",
+      "destination": "/travel-guides/sri-lanka-in-january",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-avstrii",
+      "destination": "/travel-guides/sri-lanka-tours-from-austria",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-frantsii",
+      "destination": "/travel-guides/sri-lanka-tours-from-france",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-germanii",
+      "destination": "/travel-guides/sri-lanka-tours-from-germany",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-ispanii",
+      "destination": "/travel-guides/sri-lanka-tours-from-spain",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-italii",
+      "destination": "/travel-guides/sri-lanka-tours-from-italy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-niderlandov",
+      "destination": "/travel-guides/sri-lanka-tours-from-netherlands",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-polshi",
+      "destination": "/travel-guides/sri-lanka-tours-from-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-shveytsarii",
+      "destination": "/travel-guides/sri-lanka-tours-from-switzerland",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru/putevoditel/tury-shri-lanka-iz-velikobritanii",
+      "destination": "/travel-guides/sri-lanka-tours-from-uk",
+      "statusCode": 301
     },
     {
       "source": "/ru/restaurants-in-sri-lanka",

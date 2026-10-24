@@ -790,7 +790,7 @@ export const RESTAURANTS_PAGE: Record<'en' | 'de' | 'fr' | 'it' | 'es' | 'pl' | 
     menu: MENU_PL,
   },
   ru: {
-    heroTitle: 'Sundown Beach Restaurantсвежие морепродукты и шри ланкийская кухня',
+    heroTitle: 'Sundown Beach Restaurant: свежие морепродукты и шри ланкийская кухня',
     heroBody: 'Откройте для себя богатые вкусы Шри Ланки в уютной и элегантной атмосфере. Наш ресторан предлагает свежеприготовленные местные блюда, интернациональную классику и тщательно подобранную карту напитков для незабываемого ужина.',
     heroAlt: 'Роскошный ресторан на Шри Ланке',
     bullets: [
@@ -811,7 +811,7 @@ export const RESTAURANTS_PAGE: Record<'en' | 'de' | 'fr' | 'it' | 'es' | 'pl' | 
     callUs: 'Позвоните нам',
     emailUs: 'Напишите нам',
     openingHoursLabel: 'Часы работы',
-    openingHoursValue: 'Пн Вс: 8:00 to 22:00',
+    openingHoursValue: 'Пн Вс: 8:00–22:00',
     menu: MENU_RU,
   },
 };

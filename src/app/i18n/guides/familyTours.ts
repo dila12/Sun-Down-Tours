@@ -414,7 +414,7 @@ export const FAMILY_TOURS_GUIDE: ArticleContent = {
     sections: [
       {
         title: 'Почему семьи выбирают частные туры',
-        body: 'Детям нужны перекусы, остановки в туалет и гибкое расписание то, что групповой автобусный тур предложить не может. Личный водитель остановится, когда это нужно вашей семье, не выключит кондиционер и на ходу скорректирует план дня, если кто то устал или его укачало.\n\nСообщите нам заранее о предпочтениях по детским креслам или бустерам, чтобы нужные кресла уже стояли в машине к моменту вашего прилёта, а не решались в первый день поездки.',
+        body: 'Детям нужны перекусы, остановки в туалет и гибкое расписание то, что групповой автобусный тур предложить не может. Личный водитель остановится, когда это нужно вашей семье, не выключит кондиционер и на ходу скорректирует план дня, если кто-то устал или его укачало.\n\nСообщите нам заранее о предпочтениях по детским креслам или бустерам, чтобы нужные кресла уже стояли в машине к моменту вашего прилёта, а не решались в первый день поездки.',
       },
       {
         title: 'Правильный темп для разного возраста',
@@ -422,7 +422,7 @@ export const FAMILY_TOURS_GUIDE: ArticleContent = {
       },
       {
         title: 'Дикая природа и безопасность с детьми',
-        body: 'Сафари на джипах становятся по настоящему запоминающимися для семей, если их планировать на прохладные утренние часы и с реалистичными ожиданиями по поводу того, каких животных удастся увидеть. Наши гиды инструктируют всех гостей, включая детей: сидеть на месте, говорить тихо и никогда не кормить диких животных.\n\nПосещение храмов требует скромной одежды и босых ног на каменном полу возьмите носки на жаркие дни. Мы заранее объясняем правила поведения и вашим детям, чтобы никто не оказался застигнут врасплох.',
+        body: 'Сафари на джипах становятся по-настоящему запоминающимися для семей, если их планировать на прохладные утренние часы и с реалистичными ожиданиями по поводу того, каких животных удастся увидеть. Наши гиды инструктируют всех гостей, включая детей: сидеть на месте, говорить тихо и никогда не кормить диких животных.\n\nПосещение храмов требует скромной одежды и босых ног на каменном полу. Возьмите носки на жаркие дни. Мы заранее объясняем правила поведения и вашим детям, чтобы никто не оказался застигнут врасплох.',
       },
       {
         title: 'Отели и практическая логистика',
@@ -470,6 +470,44 @@ export const FAMILY_TOURS_GUIDE: ArticleContent = {
       { pageId: 'guideSafety', label: 'Гид по безопасности' },
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки' },
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
+    ],
+  },
+  nl: {
+    h1: 'Familiereizen in Sri Lanka: privétours met kinderen',
+    lead: 'Een gezinsreis in Sri Lanka werkt het best met privévervoer, kortere rijdagen en een afwisseling van dieren, rustige culturele uitstapjes en strandtijd. We plannen rond schoolvakanties en de leeftijden van uw kinderen, niet volgens een vast busschema.',
+    heroAlt: 'Gezinsvriendelijke privérondreis door Sri Lanka met natuur en strand',
+    sections: [
+      { title: 'Waarom gezinnen voor privétours kiezen', body: 'Kinderen hebben snacks, toiletpauzes en flexibele tijden nodig. Een privéchauffeur kan stoppen wanneer het uw gezin uitkomt, de airconditioning aanhouden en het dagplan aanpassen als iemand moe of wagenziek wordt.\n\nLaat ons voor aankomst weten of u een kinderzitje of stoelverhoger nodig hebt, zodat de juiste zitplaats klaarstaat wanneer u landt.' },
+      { title: 'Een passend tempo voor elke leeftijd', body: 'Peuters en kleuters hebben meestal baat bij minder hotelwissels en meer rust bij het zwembad, in de tuin of op het strand. Oudere kinderen en tieners vinden de klim bij Sigiriya, een mooi treintraject en een vroege safari vaak leuk, als u de dag niet te vol plant.\n\nWe combineren geen tempelbezoek, wandeling en lange transfer op één dag, tenzij uw gezin juist een actief schema wil.' },
+      { title: 'Wildlife en veiligheid met kinderen', body: 'Een safari wordt voor gezinnen bijzonder wanneer die in de koelere ochtenduren plaatsvindt en de verwachtingen realistisch zijn. Onze gidsen leggen ook kinderen uit dat ze in de jeep blijven zitten, rustig praten en wilde dieren nooit voeren.\n\nVoor tempels zijn bedekte schouders en knieën belangrijk; op stenen vloeren loopt u vaak op blote voeten. Neem sokken mee voor hete middagen en bespreek de etiquette vooraf met uw kinderen.' },
+      { title: 'Hotels en praktische zaken', body: 'Familiekamers, kamers met tussendeur of villa’s zijn voor ouders vaak prettiger dan elke avond een andere tweepersoonskamer. We kiezen verblijven die minder inpakken vereisen en kinderen tijd geven om te ontspannen.\n\nVia WhatsApp kunt u uw chauffeur laten weten hoe de kinderen zich voelen. Zo kan de planning tussendoor worden aangepast als ze moe of juist energiek zijn.' },
+      { title: 'Een gezinsreis plannen met Sundown Tours', body: 'Deel de leeftijden van uw kinderen, uw vakantieperiode en de plekken die u graag wilt zien. We stellen een privérondreis voor met duidelijke reistijden, optionele safari’s en strandnachten om uit te rusten.\n\nOphalen bij Bandaranaike Airport (CMB) is inbegrepen bij meerdaagse privéreizen voor gezinnen, zodat de eerste reisdag rustig en voorspelbaar blijft.' },
+    ],
+    faq: [
+      { q: 'Hoe lang duurt een goede familiereis door Sri Lanka?', a: 'Zeven tot tien dagen is voor veel gezinnen geschikt: enkele culturele hoogtepunten, een safari-ochtend en genoeg strandtijd om het tempo ontspannen te houden.' },
+      { q: 'Zijn safari’s geschikt voor jonge kinderen?', a: 'Vaak wel, vooral een kortere rit in de ochtend. Vertel ons vooraf de leeftijden en slaaptijden, zodat we het juiste park en tijdstip kiezen.' },
+      { q: 'Kunnen jullie kinderzitjes regelen?', a: 'Ja. Vraag ze bij het boeken aan, zodat we vooraf de juiste maat en beschikbaarheid voor uw voertuig kunnen controleren.' },
+      { q: 'Is er eten voor kieskeurige eters?', a: 'Hotels en restaurants bieden meestal eenvoudige rijst-, noedel- of westerse gerechten naast lokale maaltijden. We kiezen lunchstops die geschikt zijn voor gezinnen.' },
+    ],
+    ctaTitle: 'Plan een privérondreis voor uw gezin',
+    ctaBody: 'Deel de leeftijden van uw kinderen en uw reisdata. We maken een privéroute met een comfortabel tempo.',
+    ctaLabel: 'Neem contact op',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'tour10', label: 'Rondreis van 10 dagen' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destYala', label: 'Yala' },
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideSafari', label: 'Safarigids' },
+      { pageId: 'guideSafety', label: 'Veiligheidsgids' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   },
 };

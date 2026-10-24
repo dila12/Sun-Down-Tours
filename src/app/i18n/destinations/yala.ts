@@ -484,20 +484,20 @@ export const YALA_DEST: ArticleContent = {
 
   ru: {
     h1: 'Национальный парк Яла, Шри Ланка: лучшее место на земле, чтобы увидеть леопарда',
-    lead: 'В Яле одна из самых высоких в мире плотностей леопардов, а также слоны, губастые медведи, крокодилы и сотни видов птиц всё это в парке засушливой зоны, который остаётся по настоящему диким, несмотря на популярность.',
+    lead: 'В Яле одна из самых высоких в мире плотностей леопардов, а также слоны, губастые медведи, крокодилы и сотни видов птиц — всё это в парке засушливой зоны, который остаётся по-настоящему диким, несмотря на популярность.',
     heroAlt: 'Леопард отдыхает на скальном выступе в национальном парке Яла',
     sections: [
       {
         title: 'От королевских охотничьих угодий до национального парка',
-        body: 'Задолго до того, как стать заповедником, регион Яла был охотничьими угодьями шри ланкийской знати, а затем британских колониальных офицеров, использовавших его как частный охотничий резерват до XX века. В 1900 году территория получила статус заповедника, а в 1938 годутатус национального парка, что делает его одним из старейших и наиболее устоявшихся парков Азии.\n\nГражданский конфликт на годы закрыл часть восточных секторов Ялы, что парадоксальным образом позволило дикой природе восстановиться почти без давления человека; сегодня большая часть этой территории снова открыта, а популяция леопардов в Яле считается одной из самых здоровых и изученных на континенте.',
+        body: 'Задолго до того, как стать заповедником, регион Яла был охотничьими угодьями шри ланкийской знати, а затем британских колониальных офицеров, использовавших его как частный охотничий резерват до XX века. В 1900 году территория получила статус заповедника, а в 1938 году — статус национального парка, что делает его одним из старейших и наиболее устоявшихся парков Азии.\n\nГражданский конфликт на годы закрыл часть восточных секторов Ялы, что парадоксальным образом позволило дикой природе восстановиться почти без давления человека; сегодня большая часть этой территории снова открыта, а популяция леопардов в Яле считается одной из самых здоровых и изученных на континенте.',
       },
       {
         title: 'Древние руины, скрытые в парке',
-        body: 'Ялато не только дикая природа: Ситхулпахува, действующий лесной монастырь на территории парка, существует более двух тысяч лет и когда то принимал тысячи монахов; дагобы и пещеры для медитации до сих пор посещают паломники. Магул Маха Вихарая, меньший руинированный храмовый комплекс, свидетельствует о той же долгой буддийской истории, скрытой под джунглями.\n\nВеками эта территория также входила в древнее королевство Рухуна, чьи оросительные резервуарыоторые сегодня служат водопоями для животных внутри парка отражают ту же гидротехническую инженерию, сформировавшую цивилизации засушливой зоны Шри Ланки.',
+        body: 'Яла — это не только дикая природа: Ситхулпахува, действующий лесной монастырь на территории парка, существует более двух тысяч лет и когда-то принимал тысячи монахов; дагобы и пещеры для медитации до сих пор посещают паломники. Магул Маха Вихарая, меньший руинированный храмовый комплекс, свидетельствует о той же долгой буддийской истории, скрытой под джунглями.\n\nВеками эта территория также входила в древнее королевство Рухуна, чьи оросительные резервуары, которые сегодня служат водопоями для животных внутри парка отражают ту же гидротехническую инженерию, сформировавшую цивилизации засушливой зоны Шри Ланки.',
       },
       {
         title: 'Сафари в Яле',
-        body: 'Блок 1, самая посещаемая часть парка, даёт наилучшие шансы увидеть леопарда благодаря десятилетиям наблюдений, хотя в высокий сезон здесь может быть многолюдно от джипов. Утреннее сафари (примерно 6:00 to 10:00) и дневное (14:30 to 18:30) два стандартных сеанса, каждый на открытом джипе 4x4 с парковым следопытом рядом с водителем.\n\nКроме леопардов, ожидайте встреч со слонами, губастыми медведями, пятнистыми оленями, дикими буйволами, крокодилами, греющимися у водопоев, и по настоящему впечатляющим списком птиц, включающим расписных аистов, павлинов и несколько видов орлов Яла вознаграждает терпение не меньше, чем удачу.',
+        body: 'Блок 1, самая посещаемая часть парка, даёт наилучшие шансы увидеть леопарда благодаря десятилетиям наблюдений, хотя в высокий сезон здесь может быть многолюдно от джипов. Утреннее сафари (примерно 6:00–10:00) и дневное (14:30–18:30) два стандартных сеанса, каждый на открытом джипе 4x4 с парковым следопытом рядом с водителем.\n\nКроме леопардов, ожидайте встреч со слонами, губастыми медведями, пятнистыми оленями, дикими буйволами, крокодилами, греющимися у водопоев, и по-настоящему впечатляющим списком птиц, включающим расписных аистов, павлинов и несколько видов орлов. Яла вознаграждает терпение не меньше, чем удачу.',
       },
       {
         title: 'Практические советы для сафари в Яле',
@@ -535,7 +535,7 @@ export const YALA_DEST: ArticleContent = {
       },
       {
         q: 'Как добраться до Ялы из Коломбо или с южного побережья?',
-        a: 'Яла находится примерно в 4 to 5 часах езды от Коломбо и около 2 часов от пляжей южного побережья возле Мириссы, что делает её естественной остановкой в маршруте «пляж плюс сафари», а не самостоятельной однодневной поездкой из столицы.',
+        a: 'Яла находится примерно в 4–5 часах езды от Коломбо и около 2 часов от пляжей южного побережья возле Мириссы, что делает её естественной остановкой в маршруте «пляж плюс сафари», а не самостоятельной однодневной поездкой из столицы.',
       },
       {
         q: 'Что взять и надеть на сафари в Яле?',
@@ -560,80 +560,88 @@ export const YALA_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Yala Nationalpark, Sri Lanka: der beste Ort der Welt, um einen Leoparden zu sehen',
-    lead: 'Yala hat eine der hochsten Leopardendichten weltweit, dazu Elefanten, Lippenbaren, Krokodile und Hunderte Vogelarten  alles in einem Trockenzonen Park, der trotz seiner Beliebtheit noch immer echte Wildnis ausstrahlt.',
-    heroAlt: 'Ein Leopard ruht auf einem Felsvorsprung im Yala Nationalpark',
+    h1: 'Safari in Yala National Park, Sri Lanka: de beste plek om een luipaard te zien',
+    lead: 'Een safari in Yala National Park is de klassieke wildernisdag in Sri Lanka: een van de hoogste luipaarddichtheden ter wereld, plus olifanten, lippenberen, krokodillen en honderden vogelsoorten in een park in de droge zone dat wild aanvoelt, ook al is het een van de meest bezochte parken van het eiland.',
+    heroAlt: 'Een luipaard rust op een rots in Yala National Park',
     sections: [
       {
-        title: 'Vom koniglichen Jagdgebiet zum Nationalpark',
-        body: 'Lange bevor er Wildtiere schutzte, wurde das Gebiet um Yala von srilankischen Konigen und spater von britischen Kolonialoffizieren bejagt, die es bis ins 20. Jahrhundert als privates Jagdrevier nutzten. 1900 wurde es zum Wildschutzgebiet erklart, 1938 zum Nationalpark aufgewertet  einer der altesten und etabliertesten Parks Asiens.\n\nDer Burgerkrieg hielt Teile der ostlichen Zonen Yalas jahrelang geschlossen, was der Tierwelt paradoxerweise erlaubte, sich fast ohne menschlichen Druck zu erholen; heute ist der grosste Teil dieses Gebiets wieder zuganglich, und Yalas Leopardenpopulation zahlt zu den gesundesten und am besten erforschten des Kontinents.',
+        id: 'history',
+        title: 'Van koninklijk jachtgebied tot nationaal park',
+        body: 'Lang voordat het wild werd beschermd, jaagden Sri Lankaanse vorsten in de streek van Yala, en later Britse koloniale officieren, die het tot in de 20e eeuw als privéjachtgebied gebruikten. In 1900 werd het een wildreservaat en in 1938 een nationaal park, een van de oudste en best gevestigde parken van Azië.\n\nHet binnenlands conflict hield delen van de oostelijke blokken van Yala jarenlang gesloten. Het wild kon daardoor, paradoxaal genoeg, herstellen met bijna geen druk van mensen. Vandaag is het grootste deel van dat gebied weer open, en de luipaardpopulatie van Yala geldt als een van de gezondste en best bestudeerde van het continent.',
       },
       {
-        title: 'Antike Ruinen mitten im Park',
-        body: 'Yala ist nicht nur Wildnis: Sithulpahuwa, ein aktives Waldkloster innerhalb der Parkgrenzen, ist uber zweitausend Jahre alt und beherbergte einst Tausende Monche; Dagobas und Meditationshohlen werden noch heute von Pilgern besucht. Magul Maha Viharaya, ein kleinerer Tempelruinenkomplex, zeugt von derselben langen buddhistischen Geschichte unter dem Dschungel.\n\nJahrhundertelang lag das Gebiet ausserdem im alten Konigreich Ruhuna, dessen Bewasserungstanks  einige heute Tranken fur Wildtiere im Park  dieselbe hydraulische Ingenieurskunst widerspiegeln, die Sri Lankas Trockenzonen Zivilisationen pragte.',
+        id: 'culture',
+        title: 'Oude ruïnes verborgen in het park',
+        body: 'Yala is niet alleen wildernis. Sithulpahuwa, een bosklooster dat nog in gebruik is binnen de parkgrenzen, is meer dan tweeduizend jaar oud en huisvestte ooit duizenden monniken. Dagoba’s en meditatiegrotten worden nog altijd door pelgrims bezocht. Magul Maha Viharaya, een kleiner complex van tempelruïnes, wijst op dezelfde lange boeddhistische geschiedenis onder de jungle.\n\nEeuwenlang lag het gebied ook in het oude koninkrijk Ruhuna. De irrigatiereservoirs, waarvan er nu enkele in het park als drinkplaats voor het wild dienen, horen bij de waterbouwkunde die de beschavingen van de droge zone van Sri Lanka heeft gevormd.',
       },
       {
-        title: 'Safari Erlebnisse in Yala',
-        body: 'Block 1, der meistbesuchte Bereich, bietet die besten Chancen auf eine Leopardensichtung dank jahrzehntelanger Beobachtungsdichte, kann aber zur Hochsaison voll mit Jeeps sein. Eine Morgenfahrt (etwa 6 to 10 Uhr) und eine Nachmittagsfahrt (14:30 to 18:30 Uhr) sind die beiden Standardtermine, jeweils in einem offenen 4x4 Jeep mit einem Park Tracker neben Ihrem Fahrer.\n\nNeben Leoparden sind Elefanten, Lippenbaren, Axishirsche, Wildbuffel, sich an Wasserlochern sonnende Krokodile und eine wirklich beachtliche Vogelwelt zu erwarten, darunter Buntstorche, Pfauen und mehrere Adlerarten  Yala belohnt Geduld ebenso wie Gluck.',
+        id: 'thingsToDo',
+        title: 'Safari in Yala',
+        body: 'Blok 1, het meest bezochte deel, geeft de beste kans op een luipaard, dankzij de dichtheid van waarnemingen over tientallen jaren. In het hoogseizoen kan het er wel druk zijn met jeeps. Een ochtendrit, ongeveer van 6.00 tot 10.00 uur, en een middagrit, van 14.30 tot 18.30 uur, zijn de twee vaste sessies. Elke rit gaat in een open 4x4 jeep, met een spoorzoeker van het park naast uw chauffeur.\n\nNaast luipaarden mag u olifanten, lippenberen, axisherten, wilde buffels en krokodillen verwachten die bij de waterpoelen in de zon liggen, plus een echt serieuze lijst van vogels met Indische nimmerzatten, pauwen en meerdere soorten arenden. Geduld telt hier even zwaar als geluk.',
       },
       {
-        title: 'Praktische Tipps fur eine Yala Safari',
-        body: 'Buchen Sie Jeep und Parkeintritt wenn moglich einen Tag im Voraus uber Ihren Fahrer oder Ihr Hotel, da die Permit Zahlen pro Block begrenzt sind und beliebte Zeiten in der Hochsaison (Dezember bis Marz, erneut um August) ausgebucht sind. Neutrale Kleidung, Hut, Sonnencreme und Fernglas zahlen hier mehr als an fast jedem Kulturort Sri Lankas.\n\nDie Strassen im Park sind unbefestigt und staubig; ein Schal oder Buff furs Gesicht ist eine kleine, lohnende Erganzung, und ein Zoomobjektiv oder Fernglas bringt fur die Leopardensichtung deutlich mehr als korperliche Nahe.',
+        id: 'travelTips',
+        title: 'Praktische tips voor een safari in Yala',
+        body: 'Boek uw jeep en de toegang tot het park zo mogelijk een dag van tevoren via uw chauffeur of hotel. Het aantal vergunningen per blok is beperkt, en populaire tijden raken vol in het hoogseizoen, van december tot maart en opnieuw rond augustus. Kleding in neutrale kleuren, een hoed, zonnebrand en een verrekijker tellen hier zwaarder dan bij bijna elk cultureel terrein in Sri Lanka.\n\nDe wegen in het park zijn onverhard en stoffig. Een sjaal of colsjaal voor uw gezicht is een klein comfort dat de moeite van het inpakken waard is. Een zoomlens of verrekijker doet voor een luipaard veel meer dan dichtbij proberen te komen.',
       },
       {
-        title: 'Wetter und beste Safari Saison',
-        body: 'Yala liegt in der Trockenzone, und die trockensten Monate von Mai bis September konzentrieren die Tierwelt um die verbleibenden Wasserlocher, was die Sichtungschancen meist verbessert. Der Park schliesst jedes Jahr fur etwa einen Monat, meist im September, wegen kontrollierter Brandrodung und Habitatpflege in der Trockenzeit.\n\nDie kurzen Regenfalle um Oktober to November lassen die Landschaft ergrunen und verteilen die Tiere weiter, was ruhigere Fahrten, aber gelegentlich spektakulares Fotolicht bedeuten kann.',
+        id: 'weather',
+        title: 'Weer en het beste safariseizoen',
+        body: 'Yala ligt in de droge zone. In de droogste maanden, van mei tot september, verzamelt het wild zich rond de resterende waterpoelen, wat de kans op waarnemingen meestal vergroot. Het park sluit elk jaar ongeveer een maand volledig, meestal in september, voor gecontroleerd afbranden en beheer van het leefgebied in het droge seizoen.\n\nDe korte regens van oktober tot november maken het landschap groener en verspreiden de dieren over een groter gebied. De ritten kunnen dan rustiger zijn, met af en toe spectaculair licht voor foto’s.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Ella liegt etwa zwei Autostunden nordwestlich, sodass sich ein Bergland Stopp nach einer fruhen Yala Safari gut mit der Weiterreise zwischen Kuste und Hochland kombinieren lasst. Tissamaharama und der nahe Kataragama Tempelkomplex, ein bedeutender multireligioser Pilgerort, liegen direkt vor den Parktoren.\n\nMirissa und die Strande der Sudkuste sind etwa zwei Stunden sudwestlich entfernt  ein naheliegender nachster Stopp fur Reisende, die Safari mit Strandzeit auf einer langeren Route verbinden mochten.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'Ella ligt ongeveer twee uur over de weg naar het noordwesten. Een stop in het heuvelland na een vroege safari in Yala is daardoor een efficiënte combinatie voor reizigers die tussen de kust en het hoogland reizen. Tissamaharama en het nabije tempelcomplex van Kataragama, een belangrijk bedevaartsoord voor meerdere geloven, liggen vlak buiten de poorten van het park.\n\nMirissa en de stranden van de zuidkust liggen ongeveer twee uur naar het zuidwesten, een logische volgende stop voor reizigers die safari en strandtijd combineren op een langere route.',
       },
       {
-        title: 'Wo man in der Nahe von Yala ubernachten kann',
-        body: 'Unterkunfte konzentrieren sich rund um Tissamaharama und den Haupteingang des Parks, von einfachen Familienpensionen bis zu Zeltcamps im Safari Stil und einigen echten Luxus Lodges im Pufferzonenland, an denen nachts gelegentlich Elefanten vorbeiziehen.\n\nDie Nahe zum geplanten Parkeingang zahlt hier mehr als fast uberall sonst in Sri Lanka, da sie direkt beeinflusst, wie fruh Sie die morgendliche Pirschfahrt starten konnen und wie gut Ihre Chancen auf gute Sichtungen vor der Mittagshitze sind.',
+        id: 'hotels',
+        title: 'Waar u bij Yala kunt overnachten',
+        body: 'De overnachtingen liggen vooral rond Tissamaharama en de hoofdingang van het park, van eenvoudige familiepensions tot tentenkampen in safaristijl en een paar echte luxeverblijven in de bufferzone, waar ’s nachts soms olifanten voorbijkomen.\n\nOvernachten dicht bij de ingang die u wilt gebruiken, telt hier zwaarder dan bijna overal elders in Sri Lanka. Het bepaalt hoe vroeg u de ochtendrit kunt beginnen, en hoe groot uw kans is op goede waarnemingen vóór de middaghitte.',
       },
       {
-        title: 'Essen rund um Yala',
-        body: 'Die meisten Safari Lodges und Camps bieten Vollpension und richten Fruhstuck und Abendessen an den beiden Pirschfahrten aus, mit Rice and Curry, frischem Fisch aus dem nahen Tissamaharama und einfachen gegrillten Optionen als Standard. Eine Fruhstucksbox fur die fruhe Morgenfahrt ist in fast jeder Unterkunft ublich.\n\nIn Tissamaharama selbst servieren einige lokale Lokale ehrliches, gunstiges srilankisches Essen ohne den Safari Lodge Aufpreis  lohnend fur alle mit kleinerem Budget.',
+        id: 'restaurants',
+        title: 'Eten rond Yala',
+        body: 'De meeste safariverblijven en kampen werken met volpension en leggen ontbijt en avondeten rond de twee safariritten, met rijst en curry, verse vis en zeevruchten uit het nabije Tissamaharama en eenvoudige gerechten van de grill als gewoonte. Een ontbijtbox voor de vroege ochtendrit is bij bijna elk adres standaard.\n\nIn Tissamaharama zelf serveren enkele lokale eethuizen eerlijk, betaalbaar Sri Lankaans eten, zonder de toeslag van de safariverblijven. Dat is de moeite waard als uw budget krapper is.',
       },
     ],
     faq: [
       {
-        q: 'Wann ist die beste Zeit fur Leopardensichtungen in Yala?',
-        a: 'Die Trockenmonate von Mai bis September bieten meist die besten Chancen, da sich Tiere um weniger Wasserlocher konzentrieren. Leoparden werden in Yala jedoch das ganze Jahr uber gesichtet, und der Park schliesst jahrlich etwa einen Monat wegen Habitatpflege.',
+        q: 'Wat is de beste tijd om in Yala luipaarden te zien?',
+        a: 'De droge maanden van mei tot september geven meestal de beste kans, omdat dieren zich rond minder waterpoelen verzamelen. Toch worden luipaarden in Yala het hele jaar gezien, en het park sluit elk jaar ongeveer een maand voor beheer van het leefgebied.',
       },
       {
-        q: 'Wie viele Safaris sollte ich in Yala buchen?',
-        a: 'Zwei Fahrten  eine morgens, eine nachmittags  verbessern die Sichtungschancen deutlich gegenuber nur einer Fahrt, da sich Tieraktivitat und Licht zwischen beiden stark unterscheiden. Bei begrenzter Zeit lohnt sich aber auch eine einzelne Morgenfahrt.',
+        q: 'Hoeveel safari’s moet ik in Yala boeken?',
+        a: 'Twee ritten, één in de ochtend en één in de middag, vergroten uw kans op een goede waarneming vergeleken met één sessie, want de activiteit van de dieren en het licht verschillen sterk. Is de tijd beperkt, dan blijft één ochtendrit de moeite waard.',
       },
       {
-        q: 'Ist eine Leopardensichtung bei einer Yala Safari garantiert?',
-        a: 'Keine Safari kann eine bestimmte Sichtung garantieren, aber Yala hat eine der weltweit hochsten Leopardendichten, und die meisten Besuche mit mehreren Fahrten sehen tatsachlich einen. Ein erfahrener Tracker neben Ihrem Fahrer verbessert die Chancen deutlich.',
+        q: 'Is een luipaard bij een safari in Yala gegarandeerd?',
+        a: 'Geen safari kan een bepaalde waarneming garanderen, maar Yala heeft een van de hoogste luipaarddichtheden ter wereld, en bij de meeste bezoeken met meerdere ritten ziet u er wel een. Een ervaren spoorzoeker naast uw chauffeur vergroot de kans merkbaar.',
       },
       {
-        q: 'Wie komme ich von Colombo oder der Sudkuste nach Yala?',
-        a: 'Yala ist etwa 4 to 5 Autostunden von Colombo und rund 2 Stunden von den Sudkustenstranden um Mirissa entfernt  eher ein naturlicher Zwischenstopp auf einer Strand und Safari Route als ein Tagesausflug ab der Hauptstadt.',
+        q: 'Hoe kom ik vanuit Colombo of de zuidkust in Yala?',
+        a: 'Yala ligt ongeveer 4 tot 5 uur over de weg van Colombo en ongeveer 2 uur van de stranden aan de zuidkust rond Mirissa. Het is daardoor een logische stop op een route met strand en safari, en geen losse dagtocht vanuit de hoofdstad.',
       },
       {
-        q: 'Was sollte ich fur eine Yala Safari mitbringen und tragen?',
-        a: 'Neutrale, gedeckte Farben, einen Hut, Sonnencreme und geschlossene Schuhe fur kalte fruhe Morgen und staubige Strassen. Fernglas und Zoomobjektiv sind weit wichtiger, als korperlich nahe an ein Tier zu kommen.',
+        q: 'Wat trek ik aan en wat neem ik mee op een safari in Yala?',
+        a: 'Neutrale, gedekte kleuren, een hoed, zonnebrand en gesloten schoenen voor koude vroege ochtenden en stoffige wegen. Een verrekijker en een zoomlens tellen veel zwaarder dan proberen lichamelijk dicht bij een dier te komen.',
       },
     ],
-    ctaTitle: 'Bereit fur eine Yala Safari?',
-    ctaBody: 'Wir organisieren private Jeep Safaris in Yala mit lizenzierten Trackern, zeitlich auf das beste Morgen- oder Nachmittagslicht abgestimmt, und verbinden sie auf langeren privaten Rundreisen naturlich mit Ella, der Sudkuste oder dem Kulturdreieck.',
-    ctaLabel: 'Yala Safari planen',
+    ctaTitle: 'Klaar voor een safari in Yala?',
+    ctaBody: 'Wij regelen privésafari’s per jeep in Yala met spoorzoekers die een vergunning hebben, afgestemd op het beste licht in de ochtend of de middag, en combineren ze op langere privérondreizen vanzelf met Ella, de zuidkust of de Culturele Driehoek.',
+    ctaLabel: 'Plan uw safari in Yala',
     relatedTours: [
-      { pageId: 'tour2ey', label: '2 tagige Ella & Yala Tour' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
+      { pageId: 'tour2ey', label: 'Rondreis van 2 dagen Ella en Yala' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destGalle', label: 'Galle' },
     ],
     relatedGuides: [
-      { pageId: 'guideSafari', label: 'Sri Lanka Safari Ratgeber' },
-      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt Ratgeber' },
+      { pageId: 'guideSafari', label: 'Safarigids voor Sri Lanka' },
+      { pageId: 'guideWildlife', label: 'Gids voor de wilde dieren van Sri Lanka' },
     ],
   }
 };

@@ -11,7 +11,7 @@ export const WELIGAMA_DEST: ArticleContent = {
       {
         id: 'surf',
         title: 'Why surfers and first timers pick Weligama',
-        body: 'The long, relatively gentle beach break suits lessons and longboard days when the southwest monsoon is off (roughly November to April). It is less horseshoe intimate than Hiriketiya and less whale harbour than Mirissaa working bay with stilt fishermen nearby and guesthouses behind the sand.',
+        body: 'The long, relatively gentle beach break suits lessons and longboard days when the southwest monsoon is off (roughly November to April). It is less horseshoe intimate than Hiriketiya and less of a whale harbour than Mirissa, a working bay with stilt fishermen nearby and guesthouses behind the sand.',
       },
       {
         id: 'combine',
@@ -31,7 +31,7 @@ export const WELIGAMA_DEST: ArticleContent = {
       },
       {
         q: 'Can a 7 day tour include Weligama?',
-        a: 'Yes as the beach finish after Sigiriya, Kandy, Ella and a safarinot as a first night after CMB.',
+        a: 'Yes as the beach finish after Sigiriya, Kandy, Ella and a safari, not as a first night after CMB.',
       },
     ],
     ctaTitle: 'Finish a private tour in Weligama',
@@ -157,11 +157,19 @@ export const WELIGAMA_DEST: ArticleContent = {
         title: 'Combinar con Mirissa y Galle',
         body: 'Mirissa queda a 10 to 15 minutos para los barcos en temporada de ballenas. El Fuerte de Galle se hace en media jornada. Muchos circuitos privados usan Weligama como unica base de playa.',
       },
+      {
+        title: 'La temporada en Weligama',
+        body: 'La mejor epoca suele coincidir con la temporada seca de la costa sur, de noviembre a abril. Durante el monzon del suroeste puede llover mas y el mar estar agitado; en esos meses conviene comprobar las condiciones o acortar la estancia.',
+      },
     ],
     faq: [
       {
         q: 'Weligama o Mirissa para dormir?',
         a: 'Weligama para surf y ritmo de pueblo. Mirissa para barcos de ballenas y mas ambiente nocturno. Estan a unos minutos.',
+      },
+      {
+        q: 'Un circuito de 7 dias puede incluir Weligama?',
+        a: 'Si como final de playa despues de Sigiriya, Kandy, Ella y un safari, no como primera noche tras CMB.',
       },
     ],
     ctaTitle: 'Terminar el circuito en Weligama',
@@ -195,11 +203,19 @@ export const WELIGAMA_DEST: ArticleContent = {
         title: 'Laczenie z Mirissa i Tangalle',
         body: 'Mirissa to 10 to 15 minut na lodzie w sezonie wielorybow. Tangalle i Hiriketiya sa dalej na wschod, spokojniejsze. Wiele prywatnych tras uzywa Weligamy jako jednej bazy plazowej.',
       },
+      {
+        title: 'Sezon w Weligamie',
+        body: 'Najlepsze warunki zwykle panuja w suchej porze na poludniu, od listopada do kwietnia. Podczas monsunu poludniowo-zachodniego czesciej pada, a morze bywa wzburzone. Przed rezerwacja lekcji surfingu sprawdzcie lokalne warunki.',
+      },
     ],
     faq: [
       {
         q: 'Weligama czy Mirissa na nocleg?',
         a: 'Weligama na surf i rytm miasteczka. Mirissa na lodzie wielorybow i wiecej wieczornego zycia. Sa kilka minut od siebie.',
+      },
+      {
+        q: 'Czy 7 dniowa wycieczka moze obejmowac Welgame?',
+        a: 'Tak jako plazowe zakonczenie po Sigiriyi, Kandy, Elli i safari, a nie jako pierwsza noc po CMB.',
       },
     ],
     ctaTitle: 'Skonczyc objazd w Weligamie',
@@ -229,11 +245,23 @@ export const WELIGAMA_DEST: ArticleContent = {
         title: 'Perche Weligama per il surf',
         body: 'L’onda lunga di spiaggia, relativamente dolce, va bene per lezioni e longboard quando il monsone sud ovest e assente (circa novembre to aprile).',
       },
+      {
+        title: 'Unire Weligama a Mirissa e Galle',
+        body: 'Mirissa si trova a 10–15 minuti lungo la costa ed e il punto di partenza per le uscite in barca durante la stagione delle balene. Il Forte di Galle si visita comodamente in mezza giornata. Molti tour privati scelgono Weligama come unica base balneare, senza cambiare hotel ogni notte.',
+      },
+      {
+        title: 'La stagione a Weligama',
+        body: 'Il periodo migliore coincide di solito con la stagione secca della costa sud, da novembre ad aprile. Durante il monsone sud ovest le onde possono essere piu forti e le piogge piu frequenti; controllate le condizioni locali prima di prenotare una lezione.',
+      },
     ],
     faq: [
       {
         q: 'Weligama o Mirissa per dormire?',
         a: 'Weligama per il surf e un ritmo da villaggio. Mirissa per le barche delle balene e piu vita serale. Sono a pochi minuti.',
+      },
+      {
+        q: 'Un tour di 7 giorni puo includere Weligama?',
+        a: 'Si come finale al mare dopo Sigiriya, Kandy, Ella e un safari, non come prima notte dopo CMB.',
       },
     ],
     ctaTitle: 'Chiudere il tour a Weligama',
@@ -254,20 +282,32 @@ export const WELIGAMA_DEST: ArticleContent = {
     ],
   },
   ru: {
-    h1: 'Велигама Шри Ланка: бухта и сёрф на юге, не Marriott',
+    h1: 'Велигама, Шри Ланка: бухта и сёрфинг на южном побережье',
     lead:
-      'Велигама лежит между Галле и Мириссой. Weligama Bay Marriott и Cape Weligamaотельные бренды. Мы используем бухту как спокойный пляжный финал частного тура: сёрф для начинающих и связь с Галле.',
+      'Велигама расположена между Галле и Мириссой. Широкая бухта с мягкими волнами подходит для первых уроков сёрфинга; отсюда также удобно съездить к форту Галле и отправиться на наблюдение за китами из Мириссы.',
     heroAlt: 'Бухта Велигама на южном побережье Шри Ланки',
     sections: [
       {
-        title: 'Велигама рядом с Мириссой и Галле',
-        body: 'Мирисса ближе к китам (ноябрь–апрель). Галлефорт ЮНЕСКО. Велигама удобна, если нужен более широкий залив, чем хипстерская полоса Мириссы. Тангалле дальше на восток и спокойнее. Не путайте запрос отеля Marriott с самой бухтой.',
+        title: 'Почему Велигаму выбирают начинающие сёрферы',
+        body: 'Длинная и сравнительно пологая волна подходит для уроков и катания на лонгборде, когда юго-западный муссон ослабевает, обычно с ноября по апрель. В отличие от небольшой Хирикетии, здесь широкая бухта, а за пределами пляжа сохраняется атмосфера рабочего рыбацкого городка.',
+      },
+      {
+        title: 'Как совместить Велигаму с Мириссой и Галле',
+        body: 'До Мириссы, откуда в сезон отправляются лодки для наблюдения за китами, около 10–15 минут езды. Форт Галле удобно посетить за полдня. Многие частные маршруты используют Велигаму как единую базу на побережье, чтобы не менять отели между соседними городами.',
+      },
+      {
+        title: 'Сезон для поездки в Велигаму',
+        body: 'Лучшие условия обычно бывают в сухой сезон южного побережья, с ноября по апрель. Во время юго-западного муссона волны могут стать сильнее, а дожди — чаще. Перед уроком сёрфинга или купанием уточните состояние моря на месте.',
       },
     ],
     faq: [
       {
-        q: 'Бронируете ли вы Weligama Bay Marriott?',
-        a: 'Можем включить конкретный отель в смету частного тура, если есть места и он подходит бюджету. Сайтне страница Marriott.',
+        q: 'Подходит ли Велигама для начинающих сёрферов?',
+        a: 'Да. В бухте есть школы и прокат досок, а длинные пологие волны удобны для первых занятий, особенно в сухой сезон южного побережья.',
+      },
+      {
+        q: 'Можно ли включить Велигаму в тур на 7 дней?',
+        a: 'Да, как пляжный финал после Сигирии, Канди, Эллы и сафари, а не как первую ночь после CMB.',
       },
     ],
     ctaTitle: 'Закончить тур в бухте Велигама',
@@ -285,6 +325,45 @@ export const WELIGAMA_DEST: ArticleContent = {
     relatedGuides: [
       { pageId: 'guideBeaches', label: 'Пляжи' },
       { pageId: 'marketRussia', label: 'Из России' },
+    ],
+  },
+  nl: {
+    h1: 'Weligama, Sri Lanka: surfen voor beginners aan de zuidkust',
+    lead: 'Weligama ligt tussen Galle en Mirissa. De baai is een van de betrouwbaarste plekken op het eiland voor beginnende surfers, met een vissersplaatsje en korte ritten naar walvistochten vanuit Mirissa en het fort van Galle.',
+    heroAlt: 'Baai en surfstrand van Weligama aan de zuidkust van Sri Lanka',
+    sections: [
+      {
+        title: 'Waarom surfers voor het eerst Weligama kiezen',
+        body: 'De lange, relatief zachte strandgolven zijn geschikt voor lessen en longboarden wanneer de zuidwestmoesson afneemt, meestal van november tot april. Weligama heeft een bredere baai dan Hiriketiya en voelt meer als een werkend vissersplaatsje dan als een compacte badplaats.',
+      },
+      {
+        title: 'Combineer Weligama met Mirissa en Galle',
+        body: 'Mirissa ligt op ongeveer 10 tot 15 minuten rijden en is in het walvisseizoen de vertrekplaats voor boottochten. Het fort van Galle is geschikt voor een ontspannen bezoek van een halve dag. Veel privérondreizen gebruiken Weligama als vaste strandbasis in plaats van meerdere hotels aan de zuidkust te combineren.',
+      },
+      {
+        title: 'Het seizoen in Weligama',
+        body: 'De beste periode valt meestal samen met het droge seizoen aan de zuidkust, van november tot april. Tijdens de zuidwestmoesson kunnen de golven krachtiger zijn en valt er vaker regen. Controleer de lokale omstandigheden voordat u gaat zwemmen of een surfles boekt.',
+      },
+    ],
+    faq: [
+      { q: 'Weligama of Mirissa als uitvalsbasis?', a: 'Weligama is geschikt voor surflessen en heeft een brede baai. Mirissa is handiger voor walvistochten en heeft meer restaurants bij het strand; beide plaatsen liggen op korte rijafstand van elkaar.' },
+      { q: 'Kan Weligama in een rondreis van zeven dagen?', a: 'Ja. Weligama past goed als strandstop na Sigiriya, Kandy, Ella en een safari, maar is minder geschikt als eerste overnachting na aankomst op CMB.' },
+    ],
+    ctaTitle: 'Eindig uw privérondreis in Weligama',
+    ctaBody: 'Vertel ons of u wilt surfen, rustig zwemmen of uitstapjes naar Galle en Mirissa wilt combineren.',
+    ctaLabel: 'Verblijf aan de zuidkust plannen',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'galleDay', label: 'Dagtocht naar Galle' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destMirissa', label: 'Mirissa' },
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destHiriketiya', label: 'Hiriketiya' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'marketNetherlands', label: 'Reizen vanuit Nederland' },
     ],
   },
 };

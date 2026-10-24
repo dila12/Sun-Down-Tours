@@ -12,6 +12,7 @@ import {
   NON_DEFAULT_LOCALES,
   buildPath,
 } from './site-data.mjs';
+import { INCOMPLETE_LOCALE_REDIRECTS } from './incomplete-locale-redirects.mjs';
 
 const DORMANT_SET = new Set(DORMANT_LOCALE_PREFIXES);
 
@@ -105,6 +106,21 @@ export function buildEdgeRedirectMap() {
           map.set(from, target);
         }
       }
+    }
+  }
+
+  // Incomplete translations 301 to the same page in English. Legacy slug
+  // migrations already in the map keep their own destination.
+  for (const [from, to] of Object.entries(INCOMPLETE_LOCALE_REDIRECTS)) {
+    if (!from || !to || from === to || to === '/' || map.has(from)) continue;
+    let target = to;
+    const seen = new Set([from]);
+    while (map.has(target) && !seen.has(target)) {
+      seen.add(target);
+      target = map.get(target);
+    }
+    if (target && target !== from && target !== '/') {
+      map.set(from, target);
     }
   }
 

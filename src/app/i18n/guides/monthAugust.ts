@@ -140,6 +140,10 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
         title: 'Perahera de Kandy et affluence',
         body: 'L’Esala Perahera est l’une des grandes processions d’Asie. Les hotels de Kandy se remplissent des mois a l’avance. Si c’est votre motif de voyage, construisez le sejour autour de ces nuits.',
       },
+      {
+        title: 'Que mettre dans sa valise en aout',
+        body: 'Emportez une veste de pluie legere, des vetements qui sechent vite, une tenue couvrante pour les temples et des chaussures adaptees aux marches parfois humides de Sigiriya. Si vous allez sur la cote est, prevoyez aussi maillot de bain, protection solaire et repulsif contre les insectes.',
+      },
     ],
     faq: [
       {
@@ -149,6 +153,10 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
       {
         q: 'Peut on se baigner a Mirissa en aout ?',
         a: 'Parfois par mer calme, mais la mousson du sud ouest signifie souvent mer agitee et pluie. Ne misez pas tout le voyage sur ces baies.',
+      },
+      {
+        q: 'Yala est il interessant en aout ?',
+        a: 'Les conditions de safari de saison seche sont souvent favorables au milieu de l’annee. Verifiez les dates de fermeture annuelle du parc avant de bloquer un jeep.',
       },
     ],
     ctaTitle: 'Construire un itineraire d’aout du cote sec',
@@ -184,11 +192,27 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
         title: 'Donde ir en agosto',
         body: 'Priorizad Sigiriya, Dambulla, Kandy (el Esala Perahera suele caer en julio o agosto) y playas del este si quereis nadar. Confirmad cierres de Yala. Evitad un final rigido «Galle luego Mirissa» salvo que acepteis mar irregular.',
       },
+      {
+        title: 'Esala Perahera y afluencia en Kandy',
+        body: 'La procesion Esala Perahera suele celebrarse en julio o agosto y es uno de los grandes festivales de la region. Los hoteles de Kandy se reservan con meses de antelacion. Si viajais para verla, organizad el itinerario alrededor de esas noches.',
+      },
+      {
+        title: 'Que llevar en agosto',
+        body: 'Llevad una chaqueta ligera para la lluvia, ropa de secado rapido, prendas que cubran hombros y rodillas para los templos y calzado con buen agarre para las piedras humedas de Sigiriya. Para la costa este, anadid traje de bano, protector solar y repelente de insectos.',
+      },
     ],
     faq: [
       {
         q: 'Es agosto una buena epoca para Sri Lanka?',
         a: 'Si para Triangulo Cultural, Kandy y costa este. Mas debil para una semana de playa oeste/sur.',
+      },
+      {
+        q: 'Se puede banar uno en Mirissa o Hiriketiya en agosto?',
+        a: 'A veces en dias mas calmados, pero el monzon del suroeste suele traer mar gruesa y lluvia. No organiceis todo el viaje alrededor de esas bahias en agosto.',
+      },
+      {
+        q: 'Yala es buena opcion en agosto?',
+        a: 'Las condiciones de safari de temporada seca suelen ser favorables a mitad de ano. Confirmad las fechas de cierre anual del parque antes de reservar un jeep.',
       },
     ],
     ctaTitle: 'Construir un itinerario de agosto del lado seco',
@@ -220,11 +244,31 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
         title: 'Pogoda na Sri Lance w sierpniu',
         body: 'Monsun Yala (poludniowo zachodni) zwykle obejmuje Kolombo, zachodnie wybrzeze, Galle, Mirisse i czesc gor od maja do wrzesnia. Sierpien bywa wilgotny, z popoludniowymi burzami i fala po tej stronie.\n\nWschod (Trincomalee) bywa suchszy. Trojkat Kulturowy (Lion Rock w Sigiriya, Dambulla) pozostaje dobrym wyborem zwiedzania.',
       },
+      {
+        title: 'Gdzie jechac w sierpniu',
+        body: 'Warto zaplanowac Sigiriye, Dambulle i Kandy, a jesli chcecie plywac, takze plaze wschodniego wybrzeza. Festiwal Esala Perahera w Kandy czesto odbywa sie w lipcu lub sierpniu, wiec sprawdzcie daty i zarezerwujcie noclegi z wyprzedzeniem. Przed safari potwierdzcie terminy zamkniecia parku Yala.',
+      },
+      {
+        title: 'Esala Perahera i sezon turystyczny',
+        body: 'Procesja Esala Perahera to jedno z najwazniejszych wydarzen w Kandy. Hotele szybko sie zapelniaja, dlatego jesli festiwal jest glownym celem podrozy, ulozcie trase wokol jego dat. Sierpien przypada tez na europejskie wakacje szkolne, wiec popularne noclegi warto rezerwowac wczesniej.',
+      },
+      {
+        title: 'Co spakowac na sierpien',
+        body: 'Zabierzcie lekka kurtke przeciwdeszczowa, szybko schnace ubrania, odziez zakrywajaca ramiona i kolana do swiatyn oraz buty z dobra przyczepnoscia na mokre kamienie w Sigiriyi. Na wschodnie wybrzeze przyda sie stroj kapielowy, krem z filtrem i srodek przeciw owadom.',
+      },
     ],
     faq: [
       {
         q: 'Czy sierpien to dobry czas na Sri Lanke?',
         a: 'Tak dla Trojkata Kulturowego, Kandy i wschodu. Slabiej na tydzien plazy zachod/poludnie.',
+      },
+      {
+        q: 'Czy w sierpniu da sie kapac w Mirissie lub Hiriketiyi?',
+        a: 'Czasem w spokojniejsze dni, ale monsun poludniowo zachodni czesto oznacza wzburzone morze i deszcz. Nie opierajcie calej podrozy na tych zatokach w sierpniu.',
+      },
+      {
+        q: 'Czy Yala w sierpniu to dobry wybor?',
+        a: 'Warunki safari w porze suchej sa czesto korzystne w srodku roku. Sprawdzcie roczne daty zamkniecia parku, zanim zarezerwujecie jeepa.',
       },
     ],
     ctaTitle: 'Zbudowac sierpniowa trase po suchej stronie',
@@ -256,11 +300,31 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
         title: 'Meteo in Sri Lanka ad agosto',
         body: 'Il monsone di Yala (sud ovest) colpisce in genere Colombo, la costa ovest, Galle, Mirissa e parte delle colline da maggio a settembre. Agosto puo essere umido, con acquazzoni pomeridiani e mare mosso da quel lato.\n\nL’est (Trincomalee, Arugam Bay) e in genere piu secco. Il Triangolo Culturale (Lion Rock di Sigiriya, Dambulla) resta una buona scelta di visite.',
       },
+      {
+        title: 'Dove andare ad agosto',
+        body: 'Dai priorita a Sigiriya, Dambulla e Kandy; se vuoi nuotare, considera le spiagge della costa est. L’Esala Perahera a Kandy si svolge spesso tra luglio e agosto: controlla il calendario lunare e prenota l’hotel per tempo. Verifica anche le date di eventuale chiusura di Yala prima di confermare un safari.',
+      },
+      {
+        title: 'Esala Perahera e affluenza',
+        body: 'L’Esala Perahera e una delle processioni piu importanti dell’Asia e spesso cade tra luglio e agosto. Gli hotel di Kandy si riempiono con mesi di anticipo. Se il festival e il motivo del viaggio, organizza il soggiorno intorno alle date; agosto coincide inoltre con le vacanze scolastiche europee.',
+      },
+      {
+        title: 'Cosa mettere in valigia ad agosto',
+        body: 'Porta una giacca antipioggia leggera, vestiti ad asciugatura rapida, abiti che coprano spalle e ginocchia per i templi e scarpe con buona aderenza per le pietre bagnate di Sigiriya. Per la costa est aggiungi costume, protezione solare e repellente per insetti.',
+      },
     ],
     faq: [
       {
         q: 'Agosto e un buon periodo per lo Sri Lanka?',
         a: 'Si per Triangolo Culturale, Kandy e costa est. Piu debole per una settimana di spiaggia ovest/sud.',
+      },
+      {
+        q: 'Si puo nuotare a Mirissa o Hiriketiya in agosto?',
+        a: 'A volte nei giorni piu calmi, ma il monsone di sud ovest porta spesso mare mosso e pioggia. Non costruite l’intero viaggio su queste baie in agosto.',
+      },
+      {
+        q: 'Yala e una buona scelta in agosto?',
+        a: 'Le condizioni di safari della stagione secca sono spesso favorevoli a meta anno. Controllate le date di chiusura annuale del parco prima di bloccare una jeep.',
       },
     ],
     ctaTitle: 'Costruire un itinerario di agosto sul lato secco',
@@ -285,18 +349,38 @@ export const MONTH_AUGUST_GUIDE: ArticleContent = {
   ru: {
     h1: 'Шри Ланка в августе: погода, восток и Культурный треугольник',
     lead:
-      'Августне классическое зимнее солнце для Галле и Мириссы. Юго западный муссон часто мочит запад и юг, а восток, Культурный треугольник и сафари в сухой сезон обычно сильнее. Стройте остров вокруг этого разделения.',
+      'Август — не классическое зимнее солнце для Галле и Мириссы. Юго западный муссон часто мочит запад и юг, а восток, Культурный треугольник и сафари в сухой сезон обычно сильнее. Стройте остров вокруг этого разделения.',
     heroAlt: 'Пейзаж Шри Ланки в августовский сезон поездок',
     sections: [
       {
         title: 'Погода на Шри Ланке в августе',
         body: 'Муссон Яла (юго запад) обычно бьёт по Коломбо, западу, Галле, Мириссе и части гор с мая по сентябрь. Август может быть влажным, с дневными ливнями и неспокойным морем с той стороны.\n\nВосток (Тринкомали, Аругам Бей) обычно суше. Культурный треугольник (Львиная скала Сигирии, Дамбулла) остаётся хорошим выбором для осмотров.',
       },
+      {
+        title: 'Куда поехать в августе',
+        body: 'Запланируйте Сигирию, Дамбуллу и Канди, а для купания рассмотрите пляжи восточного побережья. Фестиваль Эсала Перахера в Канди часто проходит в июле или августе: уточните даты и забронируйте отель заранее. Перед сафари также проверьте график ежегодного закрытия парка Яла.',
+      },
+      {
+        title: 'Эсала Перахера и туристический сезон',
+        body: 'Эсала Перахера одна из самых известных процессий Азии. Отели Канди на эти даты бронируют за несколько месяцев. Если фестиваль главная цель поездки, планируйте маршрут вокруг его дат. В августе также начинаются школьные каникулы в Европе, поэтому популярные отели лучше бронировать заранее.',
+      },
+      {
+        title: 'Что взять с собой в августе',
+        body: 'Возьмите лёгкую дождевую куртку, быстро сохнущую одежду, закрытую одежду для посещения храмов и обувь с нескользящей подошвой для мокрых ступеней Сигирии. Для восточного побережья пригодятся купальные вещи, солнцезащитный крем и средство от насекомых.',
+      },
     ],
     faq: [
       {
-        q: 'Августхорошее время для Шри Ланки?',
+        q: 'Август: хорошее время для Шри Ланки?',
         a: 'Да для Культурного треугольника, Канди и востока. Слабее для недели пляжа на юго западе.',
+      },
+      {
+        q: 'Можно ли купаться в Мириссе или Хирикетии в августе?',
+        a: 'Иногда в более спокойные дни, но юго западный муссон часто означает волны и дождь. Не стройте всю поездку вокруг этих бухт в августе.',
+      },
+      {
+        q: 'Хороша ли Яла в августе?',
+        a: 'Сафари в сухой сезон в середине года часто удачно. Уточните ежегодные даты закрытия парка, прежде чем бронировать джип.',
       },
     ],
     ctaTitle: 'Собрать августовский маршрут на сухой стороне',

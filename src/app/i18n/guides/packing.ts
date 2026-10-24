@@ -446,46 +446,46 @@ export const PACKING_GUIDE: ArticleContent = {
 
   ru: {
     h1: 'Гид по упаковке вещей для Шри Ланки: что взять на пляж, в храмы и в горы',
-    lead: 'Шри Ланка сочетает тропические побережья, туманные чайные холмы и древние храмы на маленьком островеодану нужны слои одежды, скромные наряды и разумная обувь, а не один «пляжный» гардероб. Умная упаковка позволяет комфортно пройти от ступеней Сигирии до прохладных вечеров в Элле без перегруженного багажа.',
+    lead: 'Шри Ланка сочетает тропические побережья, туманные чайные холмы и древние храмы на маленьком острове. Одному нужны слои одежды, скромные наряды и разумная обувь, а не один «пляжный» гардероб. Умная упаковка позволяет комфортно пройти от ступеней Сигирии до прохладных вечеров в Элле без перегруженного багажа.',
     heroAlt: 'Дорожная сумка, собранная для тура по Шри Ланке через несколько климатических зон',
     sections: [
       {
         title: 'Климатические зоны: жаркое побережье и прохладные горы',
-        body: 'Южное и западное побережья, Коломбо и низины Культурного треугольника жаркие и влажные круглый годй хлопок и лён, свободные брюки и дышащие рубашки работают лучше всего. Nuwara Eliya, Элла и Horton Plains вечером могут быть по настоящему прохладными, особенно с июня по сентябрь, когда стоит взять лёгкую флиску или свитер и длинные брюки на ночь.\n\nБольшинство маршрутов за неделю пересекают несколько зонями, а не одним типом одежды. Тонкая дождевик или складной poncho справляется с внезапными ливнями в горах без лишнего веса.',
+        body: 'Южное и западное побережья, Коломбо и низины Культурного треугольника жаркие и влажные круглый год. Лёгкий хлопок и лён, свободные брюки и дышащие рубашки работают лучше всего. Nuwara Eliya, Элла и Horton Plains вечером могут быть по-настоящему прохладными, особенно с июня по сентябрь, когда стоит взять лёгкую флиску или свитер и длинные брюки на ночь.\n\nБольшинство маршрутов за неделю пересекают несколько зон, а не одним типом одежды. Тонкий дождевик или складной poncho справляется с внезапными ливнями в горах без лишнего веса.',
       },
       {
         title: 'Дресс код в храмах и скромная одежда',
-        body: 'Буддийские и индуистские храмы требуют закрытых плеч и колен мужчин и женщин в Канди, Дамбулле и деревенских святынях. Держите sarong или лёгкий шарф в дневной сумке; он закрывает плечи проще, чем полная переодевание на каждой остановке.\n\nСнимайте шляпы и обувь перед залами святыни (носки обычно допустимы). Светлая уважительная одежда приветствуется; пляжная остаётся на пляже, не на религиозных объектах.',
+        body: 'Буддийские и индуистские храмы требуют закрытых плеч и колен мужчин и женщин в Канди, Дамбулле и деревенских святынях. Держите sarong или лёгкий шарф в дневной сумке; он закрывает плечи проще, чем полное переодевание на каждой остановке.\n\nСнимайте шляпы и обувь перед залами святыни (носки обычно допустимы). Светлая уважительная одежда приветствуется; пляжная остаётся на пляже, не на религиозных объектах.',
       },
       {
         title: 'Дождевик, защита от солнца и два муссона',
-        body: 'Дождь приходит по разному в зависимости от побережья и сезона западный муссон (примерно май–сентябрь) мочит запад и горы, северо восточный (примерно октябрь–январь)осток. Компактный зонт или складная куртка лучше справляются с короткими тропическими ливнями, чем предположение «сухой сезон» без дождя.\n\nСолнце интенсивно в Сигирии, на сафari-джипе и на открытых пляжах возьмите крем с высоким SPF, широкополую шляпу и UV-очки. Reef safe крем уместен при снорклинге.',
+        body: 'Дождь приходит по-разному в зависимости от побережья и сезона: западный муссон (примерно май–сентябрь) мочит запад и горы, северо восточный (примерно октябрь–январь) — восток. Компактный зонт или складная куртка лучше справляются с короткими тропическими ливнями, чем предположение «сухой сезон» без дождя.\n\nСолнце интенсивно в Сигирии, на сафари-джипе и на открытых пляжах. Возьмите крем с высоким SPF, широкополую шляпу и UV-очки. крем, безопасный для рифов уместен при снорклинге.',
       },
       {
         title: 'Обувь для Сигирии, походов и ежедневных поездок',
-        body: 'Каменная лестница Сигирии крутая, неровная и раскалённая к полудню закрытые кроссовки с хорошим сцеплением лучше шлёпанцев. Те же подойдут для Полonnaruwa, Adam’s Peak при восхождении и Little Adam’s Peak в Элле.\n\nСlip on сандалии удобны для храмов с частым снятием обуви и для пляжных вечеров. Тяжёлые трекинговые ботинки не нужны без многодневного похода; кроссовок хватит для большинства туристических троп.',
+        body: 'Каменная лестница Сигирии крутая, неровная и раскалённая к полудню. Закрытые кроссовки с хорошим сцеплением лучше шлёпанцев. Те же подойдут для Полоннарува, Adam’s Peak при восхождении и Little Adam’s Peak в Элле.\n\nсандалии без застёжки удобны для храмов с частым снятием обуви и для пляжных вечеров. Тяжёлые трекинговые ботинки не нужны без многодневного похода; кроссовок хватит для большинства туристических троп.',
       },
       {
         title: 'Защита от комаров и базовое здоровье',
-        body: 'Дengue встречается на Шри Ланке; используйте репеллент с DEET или picaridin вечером, особенно после дождя в городах и на побережье. Длинные рукава на закате помогают. Риск малярии на типичных туристических маршрутах низок, но укусы без защиты неприятны.\n\nВозьмите рецептурные лекарства в оригинальной упаковке с копией рецепта, базовые средства от желудка, пластыри от мозолей и sanitizer перед едой. Документы страховки в ручную кладь, не в багаж.',
+        body: 'Лихорадка денге встречается на Шри Ланке; используйте репеллент с DEET или picaridin вечером, особенно после дождя в городах и на побережье. Длинные рукава на закате помогают. Риск малярии на типичных туристических маршрутах низок, но укусы без защиты неприятны.\n\nВозьмите рецептурные лекарства в оригинальной упаковке с копией рецепта, базовые средства от желудка, пластыри от мозолей и sanitizer перед едой. Документы страховки в ручную кладь, не в багаж.',
       },
       {
         title: 'Адаптеры, документы и что не стоит брать лишнего',
-        body: 'На Шри Ланке розетки Type D (три круглых штыря) и Type G (британский тип)ниверсальный адаптер с защитой от скачков покрывает большинство отелей. Напряжение 230 V; проверьте dual voltage для фена и выпрямителя.\n\nОставьте дома тяжёлые вечерние наряды, несколько бумажных путеводителей и полную аптекуеки и книжные есть в Коломбо и туристических городах. Средний чемодан плюс дневной рюкзак хватит на недельный частный тур при стирке в отелях mid range.',
+        body: 'На Шри Ланке розетки Type D (три круглых штыря) и Type G (британский тип). Универсальный адаптер с защитой от скачков покрывает большинство отелей. Напряжение 230 V; проверьте dual voltage для фена и выпрямителя.\n\nОставьте дома тяжёлые вечерние наряды, несколько бумажных путеводителей и полную аптеку. Аптеки и книжные есть в Коломбо и туристических городах. Средний чемодан плюс дневной рюкзак хватит на недельный частный тур при стирке в отелях mid range.',
       },
     ],
     faq: [
       {
         q: 'Нужна ли тёплая одежда на Шри Ланку?',
-        a: 'Да, для горлла, Nuwara Eliya и ранние сафari могут быть прохладными. Лёгкая флиска и одни длинные брюки хватит большинству.',
+        a: 'Да, для гор. Элла, Nuwara Eliya и ранние сафари могут быть прохладными. Лёгкая флиска и одних длинных брюк хватит большинству.',
       },
       {
         q: 'Можно ли носить шорты в храмах?',
-        a: 'Колени должны быть закрыты в действующих храмахлинные брюки или sarong поверх шорт. Плечи тоже; шарф или лёгкая рубашка решает оба вопроса.',
+        a: 'Колени должны быть закрыты в действующих храмах. Длинные брюки или sarong поверх шорт. Плечи тоже; шарф или лёгкая рубашка решает оба вопроса.',
       },
       {
         q: 'Какая обувь для Сигирии?',
-        a: 'Поддерживающие кроссовки с хорошим сцеплениеметаллические ступени и раскалённый камень скользят в сандалиях. Носки для частых визитов в храмы.',
+        a: 'Поддерживающие кроссовки с хорошим сцеплением. Металлические ступени и раскалённый камень скользят в сандалиях. Носки для частых визитов в храмы.',
       },
       {
         q: 'Брать ли дождевик?',
@@ -493,11 +493,11 @@ export const PACKING_GUIDE: ArticleContent = {
       },
       {
         q: 'Какой электрический адаптер нужен?',
-        a: 'Стандарт Type D и Type G; универсальный адаптер подходит в большинстве отелей. 230 Vроверьте dual voltage фена и утюжка.',
+        a: 'Стандарт Type D и Type G; универсальный адаптер подходит в большинстве отелей. 230 В. Проверьте dual voltage фена и утюжка.',
       },
     ],
     ctaTitle: 'Путешествуйте легко на полностью спланированном частном туре',
-    ctaBody: 'Маршруты с водителем берут на себя ежедневную логистику назовите месяц поездки, и мы предложим список вещей под ваш маршрут, от сафari в Яле до поездов в чайном крае.',
+    ctaBody: 'Маршруты с водителем берут на себя ежедневную логистику. Назовите месяц поездки, и мы предложим список вещей под ваш маршрут, от сафари в Яле до поездов в чайном крае.',
     ctaLabel: 'Спланировать поездку на Шри Ланку',
     relatedTours: [
       { pageId: 'tour7', label: '7 дневный частный тур по Шри Ланке' },
@@ -516,64 +516,70 @@ export const PACKING_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Packliste: Was Sie fur Strande, Tempel und Bergland mitnehmen',
-    lead: 'Sri Lanka vereint tropische Kusten, nebliges Tee Hochland und antike Tempel auf einer kleinen Inselhr Gepack braucht daher Schichten, dezentere Kleidung und vernunftiges Schuhwerk statt einer reinen Strandurlaubs Garderobe. Clever packen heisst: bequem von Sigiriyas Felsstufen bis zu Ellas kuhlen Abenden, ohne den Koffer zu uberladen.',
-    heroAlt: 'Reisetasche gepackt fur eine Sri Lanka Rundreise durch mehrere Klimazonen',
+    h1: 'Paklijst voor Sri Lanka: wat u meeneemt voor stranden, tempels en het heuvelland',
+    lead: 'Sri Lanka brengt tropische kusten, mistige theeheuvels en oude tempels samen op één klein eiland. Uw tas heeft daarom laagjes, bedekte kleding en praktisch schoeisel nodig, geen garderobe voor alleen een strandvakantie. Pakt u slim in, dan reist u comfortabel van de rotstrappen van Sigiriya naar de koele avonden in Ella, zonder uw koffer te overladen.',
+    heroAlt: 'Reistas ingepakt voor een rondreis door Sri Lanka met meerdere klimaten',
     sections: [
       {
-        title: 'Klimazonen: heisse Kusten versus kuhles Bergland',
-        body: 'Sud und Westkuste, Colombo und das Tiefland des Kulturdreiecks sind ganzjahrig heiss und feuchteichte Baumwolle und Leinen, lockere Hosen und atmungsaktive Hemden funktionieren am besten. Nuwara Eliya, Ella und Horton Plains konnen abends spurbar kuhl wirken, besonders Juni bis September, wenn eine leichte Fleecejacke oder Strickjacke und lange Hosen nachts sinnvoll sind.\n\nDie meisten Rundreisen durchqueren in einer Woche mehrere Zonenenken Sie in Schichten statt in einem Outfit Typ. Eine dunne Regenjacke oder packbare Poncho Variante fangt plotzliche Schauer in den Bergen ab, ohne viel Gewicht zu kosten.',
+        id: 'climateLayers',
+        title: 'Klimaatzones: warme kusten en koel heuvelland',
+        body: 'De zuidkust en de westkust, Colombo en het laagland van de Culturele Driehoek zijn het hele jaar warm en vochtig. Licht katoen en linnen, losse broeken en ademende overhemden werken het best. Nuwara Eliya, Ella en Horton Plains kunnen ’s avonds echt koel aanvoelen, vooral van juni tot en met september. Dan is een licht fleecevest of een vest, en een lange broek voor de nacht, de moeite waard.\n\nDe meeste rondreizen doorkruisen in één week meerdere zones. Denk daarom in laagjes, niet in één type kleding. Een dunne regenjas of een compacte poncho vangt plotselinge buien in de heuvels op zonder veel gewicht.',
       },
       {
-        title: 'Tempel Kleiderordnung und dezente Kleidung',
-        body: 'Buddhistische und hinduistische Tempel verlangen bedeckte Schultern und Knieur Manner und Frauen an Orten wie dem Zahntempel in Kandy, der Hohlentempel von Dambulla und kleineren Dorfschreinen. Tragen Sie ein Sarong oder leichtes Tuch in der Tages Tasche; es deckt Schultern und ist einfacher als bei jedem Stopp das ganze Outfit zu wechseln.\n\nHute und Schuhe vor dem Betreten der Schreinraume ablegen (Socken sind meist in Ordnung). Helle, respektvolle Kleidung ist willkommen; Strandmode gehort an den Strand, nicht in religiose Statten.',
+        id: 'templeDress',
+        title: 'Kledingvoorschrift bij tempels en bedekte kleding',
+        body: 'In boeddhistische en hindoeïstische tempels moeten schouders en knieën bedekt zijn. Dat geldt voor mannen en vrouwen, bijvoorbeeld bij de Tandtempel in Kandy, de grottempel van Dambulla en kleinere dorpsschrijnen. Neem een sarong of een lichte sjaal mee in uw dagrugzak. Die bedekt de schouders en is eenvoudiger dan bij elke stop een hele outfit wisselen.\n\nZet hoeden af en doe schoenen uit voordat u een schrijnruimte binnengaat. Sokken mogen meestal aan. Heldere, respectvolle kleding is welkom. Strandkleding hoort op het strand, niet bij religieuze plekken.',
       },
       {
-        title: 'Regenausrustung, Sonnenschutz und die zwei Monsune',
-        body: 'Regen kommt je nach Kuste und Saison unterschiedlich der Sudwestmonsun (etwa Mai to September) benetzt Westkuste und Bergland, der Nordostmonsun (etwa Oktober to Januar) die Ostkuste. Ein kompakter Schirm oder faltbare Regenjacke bewaltigt kurze tropische Schauer besser, als anzunehmen, „Trockenzeit“ bedeute keinen Regen.\n\nDie Sonne ist an Sigiriya, auf Safari Jeeps und offenen Stranden intensiv packen Sie hohen LSF, breitkrempigen Hut und UV Sonnenbrille. Riff freundlicher Sonnenschutz ist sinnvoll beim Schnorcheln.',
+        id: 'rainAndSun',
+        title: 'Regenuitrusting, zonbescherming en de twee moessons',
+        body: 'Regen valt verschillend, afhankelijk van de kust en het seizoen. De zuidwestmoesson (ongeveer mei tot september) maakt de westkust en het heuvelland nat. De noordoostmoesson (ongeveer oktober tot januari) treft het oosten. Een compacte paraplu of een opvouwbare regenjas is beter tegen korte tropische stortbuien dan aannemen dat een droog seizoen helemaal geen regen betekent.\n\nDe zon is fel bij Sigiriya, tijdens safari’s in een jeep en op open stranden. Neem zonnebrand met een hoge factor mee, een hoed met een brede rand en een zonnebril met uvbescherming. Rifvriendelijke zonnebrand is attent als u wilt snorkelen.',
       },
       {
-        title: 'Schuhe fur Sigiriya, Wanderungen und tagliche Touren',
-        body: 'Sigiriyas Fels Treppe ist steil, uneben und mittags heiss geschlossene Turnschuhe mit gutem Grip schlagen Flip Flops. Dieselben Schuhe eignen sich fur Polonnaruwa, Adams Peak bei einem Aufstieg und Little Adams Peak in Ella.\n\nSlip on Sandalen sind praktisch fur Tempel, wo man Schuhe oft auszieht, und fur Strandabende. Schwere Wanderschuhe nur mit geplantem Mehrtagestrek mitnehmen; Turnschuhe reichen fur die meisten Besucherpfade.',
+        id: 'footwear',
+        title: 'Schoenen voor Sigiriya, wandelen en dagtochten',
+        body: 'De rotstrap van Sigiriya is steil, ongelijk en halverwege de ochtend heet onder de voeten. Gesloten sportschoenen met goede grip zijn hier beter dan teenslippers. Dezelfde schoenen werken bij de ruïnes van Polonnaruwa, bij Adam’s Peak als u de klim probeert, en bij Little Adam’s Peak in Ella.\n\nSandalen die u snel uittrekt zijn praktisch bij tempels waar u steeds schoenen uitdoet, en voor avonden aan het strand. Laat zware wandelschoenen thuis, tenzij u een echte meerdaagse trektocht plant. Voor de meeste paden voor bezoekers volstaan sportschoenen.',
       },
       {
-        title: 'Muckenschutz und Gesundheits Basics',
-        body: 'Dengue kommt auf Sri Lanka vor; nutzen Sie DEET- oder Picaridin Spray abends, besonders nach Regen in urbanen und Kustengebieten. Lange Armel in der Dammerung helfen zusatzlich. Malaria Risiko ist auf typischen Touristenrouten gering, aber Muckenstiche ohne Schutz sind lastig.\n\nPacken Sie verschreibungspflichtige Medikamente in Originalverpackung mit Rezeptkopie, Basismittel gegen Magenbeschwerden, Pflaster gegen Blasen und Handedesinfektionsmittel vor Mahlzeiten. Reiseversicherungsunterlagen gehoren ins Handgepack, nicht in den Koffer.',
+        id: 'healthEssentials',
+        title: 'Bescherming tegen muggen en basis voor uw gezondheid',
+        body: 'Dengue komt voor in Sri Lanka. Gebruik ’s avonds een middel met DEET of picaridin, vooral na regen in steden en aan de kust. Lange mouwen in de schemering helpen naast het middel. Het malariarisico is laag op gewone toeristenroutes, maar muggenbeten blijven hinderlijk zonder bescherming.\n\nNeem voorgeschreven medicijnen mee in de originele verpakking, met een kopie van het recept, eenvoudige middelen tegen maagklachten, pleisters tegen blaren en handgel voor het eten. Documenten van uw reisverzekering horen in de handbagage, niet in de ruimbagage.',
       },
       {
-        title: 'Adapter, Dokumente und was Sie nicht mitnehmen sollten',
-        body: 'Sri Lanka nutzt Typ D (drei runde Stifte) und Typ G (UK Stecker)in Universaladapter mit Uberspannungsschutz deckt die meisten Hotels ab. Spannung 230 V; prufen Sie Haartools auf Dual Voltage.\n\nLassen Sie schwere Abendgarderobe, mehrere Reisefuhrer und die komplette Hausapotheke zu Hause Apotheken und Buchhandlungen gibt es in Colombo und Touristenorten. Ein mittelgrosser Koffer plus Tagesrucksack reicht fur eine Woche private Tour, wenn Wasche in Mittelklasse Hotels moglich ist.',
+        id: 'techAndLeaveHome',
+        title: 'Stroomadapters, documenten en wat u beter thuislaat',
+        body: 'Sri Lanka gebruikt stopcontacten type D (drie ronde pinnen) en type G (Britse stijl). Een universele adapter met overspanningsbeveiliging dekt de meeste hotels en gastenverblijven. De spanning is 230 V. Controleer haargereedschap als dat niet geschikt is voor twee voltages.\n\nLaat zware formele kleding, meerdere reisgidsen en een complete huisapotheek thuis. Apotheken en boekwinkels zijn er in Colombo en in toeristenplaatsen. Eén middelgrote koffer plus een dagrugzak is genoeg voor een privérondreis van een week als er wasgelegenheid is in hotels van het middensegment.',
       },
     ],
     faq: [
       {
-        q: 'Brauche ich warme Kleidung fur Sri Lanka?',
-        a: 'Ja, furs Bergland Ella, Nuwara Eliya und fruhe Safari Fahrten konnen kuhl sein. Eine leichte Fleecejacke und eine lange Hose reichen den meisten Reisenden.',
+        q: 'Heb ik warme kleding nodig voor Sri Lanka?',
+        a: 'Ja, voor het heuvelland. Ella, Nuwara Eliya en vroege safariritten kunnen koel aanvoelen. Een licht fleecevest of een jas en één lange broek zijn voor de meeste reizigers genoeg.',
       },
       {
-        q: 'Darf ich Shorts in Tempeln tragen?',
-        a: 'Knie mussen in aktiven Tempeln bedeckt sein lange Hosen oder Sarong uber Shorts. Schultern ebenfalls bedecken; Schal oder leichtes Hemd lost beides.',
+        q: 'Mag ik een korte broek dragen in tempels in Sri Lanka?',
+        a: 'In actieve tempels moeten de knieën bedekt zijn. Een lange broek of een sarong over een korte broek is nodig. Ook de schouders moeten bedekt zijn. Een sjaal of een licht overhemd lost beide op.',
       },
       {
-        q: 'Welche Schuhe fur Sigiriya?',
-        a: 'Stutzende Turnschuhe mit gutem Gripetalltreppen und erhitzter Fels rutschen in Sandalen. Socken fur haufiges Schuhe Ausziehen in Tempeln mitnehmen.',
+        q: 'Welke schoenen zijn het best voor de klim bij Sigiriya?',
+        a: 'Stevige sportschoenen met goede grip. Metalen traptreden en door de zon verhitte rotstreden zijn glad in sandalen. Neem sokken mee voor tempelbezoeken waar u vaak schoenen uitdoet.',
       },
       {
-        q: 'Soll ich eine Regenjacke mitnehmen?',
-        a: 'Eine packbare Regenjacke oder kompakter Schirm ist ganzjahrig nutzlich, besonders fur Bergland Nachmittage und Zwischensaison mit kurzen, kraftigen Schauern.',
+        q: 'Moet ik een regenjas meenemen naar Sri Lanka?',
+        a: 'Een compacte regenjas of een kleine paraplu is het hele jaar nuttig, vooral voor middagen in het heuvelland en reizen in het tussenseizoen, wanneer buien kort maar hevig zijn.',
       },
       {
-        q: 'Welchen Stecker brauche ich?',
-        a: 'Typ D und Typ G sind Standard; Universaladapter funktionieren in den meisten Hotels. 230 Vual Voltage bei Haartrockner und Glatteisen prufen.',
+        q: 'Welke stroomadapter heb ik nodig voor Sri Lanka?',
+        a: 'Stekkers type D en type G zijn standaard. Een universele reisadapter werkt in de meeste hotels. De spanning is 230 V. Controleer of haardrogers en stijltangen geschikt zijn voor twee voltages.',
       },
     ],
-    ctaTitle: 'Leicht reisen auf einer voll geplanten Privatreise',
-    ctaBody: 'Unsere Rundreisen mit Fahrer ubernehmen die Tageslogistikennen Sie uns Ihren Reisemonat, und wir schlagen eine Packliste passend zu Ihrer Route vor, von Yala Safaris bis Tee Zugfahrten.',
-    ctaLabel: 'Sri Lanka Reise planen',
+    ctaTitle: 'Licht reizen op een volledig geplande privérondreis',
+    ctaBody: 'Onze routes met privéchauffeur regelen de dagelijkse logistiek. Vertel ons in welke maand u reist. Wij stellen een paklijst voor die past bij uw route, van safari’s in Yala tot treinritten door het theegebied.',
+    ctaLabel: 'Plan uw reis naar Sri Lanka',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour8', label: '8 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'tour8', label: 'Rondreis van 8 dagen door Sri Lanka' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
@@ -581,9 +587,9 @@ export const PACKING_GUIDE: ArticleContent = {
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits Ratgeber' },
-      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guideSafety', label: 'Veiligheidsgids voor Sri Lanka' },
+      { pageId: 'guideWildlife', label: 'Gids over de wilde dieren van Sri Lanka' },
     ],
   }
 };

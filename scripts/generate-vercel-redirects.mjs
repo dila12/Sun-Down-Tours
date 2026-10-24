@@ -11,6 +11,7 @@ import {
   buildEdgeRedirectMap,
   buildLocaleHomeTrailingSlashRedirects,
 } from '../src/app/i18n/edge-redirects.mjs';
+import { INCOMPLETE_LOCALE_REDIRECTS } from '../src/app/i18n/incomplete-locale-redirects.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -35,11 +36,18 @@ async function main() {
   const legacyGenerated = [...map.entries()]
     .filter(([from, to]) => from !== to)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([from, to]) => ({
-      source: pathToSource(from),
-      destination: to,
-      permanent: true,
-    }));
+    .map(([from, to]) => {
+      const rule = {
+        source: pathToSource(from),
+        destination: to,
+      };
+      // Incomplete locale URLs use an explicit 301. Other legacy rules stay
+      // on Vercel's permanent (308) behaviour.
+      if (INCOMPLETE_LOCALE_REDIRECTS[from] === to) {
+        return { ...rule, statusCode: 301 };
+      }
+      return { ...rule, permanent: true };
+    });
   const dormantGenerated = buildDormantLocaleVercelRedirects();
   const localeSlashGenerated = buildLocaleHomeTrailingSlashRedirects();
   // Dormant + locale-home slash rules must run before legacy slugs so

@@ -62,7 +62,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
         a: 'It is a steady, sometimes steep climb on stone steps and metal staircases rather than a technical hike, and is manageable for most reasonably fit travellers. The final open mesh spiral staircase and exposed summit sections are the parts that most affect visitors with a fear of heights.',
       },
       {
-        q: 'Sigiriya or Pidurangalahich should I climb?',
+        q: 'Sigiriya or Pidurangala: which should I climb?',
         a: 'Sigiriya has the frescoes, the lion’s paws and the palace ruins; Pidurangala is a shorter, rougher scramble that gives you the best photograph of Sigiriya rock itself, especially at sunset. Many travellers with two days do both.',
       },
       {
@@ -159,6 +159,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
         q: 'Lasst sich Sigiriya als Tagesausflug besuchen?',
         a: 'Ja  Sigiriya ist ein beliebter privater Tagesausflug von Kandy, Habarana, Dambulla oder sogar Negombo aus, meist kombiniert mit dem Hohlentempel von Dambulla und, je nach Programm, einer Wildelefanten Safari in Minneriya oder Kaudulla.',
       },
+      {
+        q: 'Wo liegt Sigiriya?',
+        a: 'Sigiriya liegt im Kulturdreieck, im Landesinneren nördlich von Colombo. Die Fahrt von Colombo oder vom Flughafen dauert mit dem Privatauto meist vier bis fünf Stunden, von Kandy etwa zwei Stunden. Den Zug nutzen wir nicht als Haupttransfer.',
+      },
+      {
+        q: 'Ist Sigiriya der Lion Rock?',
+        a: 'Ja. Lion Rock, Löwenfelsen und Sigiriya bezeichnen dieselbe Felsenfestung. Zum Besuch gehören der Aufstieg, die Wassergärten und optional Pidurangala.',
+      },
     ],
     ctaTitle: 'Bereit, Sigiriya zu besteigen?',
     ctaBody: 'Unsere privaten, klimatisierten Tagestouren verbinden Sigiriya mit dem Hohlentempel von Dambulla und optional einer Wildelefanten Safari  mit einem englischsprachigen Fahrer Guide, der Fahrt, Zeitplan und Tickets ubernimmt, damit Sie sich auf den Aufstieg konzentrieren konnen.',
@@ -236,6 +244,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
       {
         q: 'Peut on visiter Sigiriya en excursion d’une journee ?',
         a: 'Ouiigiriya est une excursion privee d’une journee tres prisee depuis Kandy, Habarana, Dambulla ou meme Negombo, generalement combinee avec le temple des grottes de Dambulla et, selon l’itineraire, un safari aux elephants sauvages a Minneriya ou Kaudulla.',
+      },
+      {
+        q: 'Ou se trouve Sigiriya ?',
+        a: 'Sigiriya se trouve dans le Triangle culturel, a l’interieur des terres au nord de Colombo. Le trajet depuis Colombo ou l’aeroport dure en general quatre a cinq heures en voiture privee, et environ deux heures depuis Kandy. Nous n’utilisons pas le train comme transfert principal.',
+      },
+      {
+        q: 'Sigiriya est il le Lion Rock ?',
+        a: 'Oui. Lion Rock, le rocher du lion et Sigiriya designent la meme forteresse. La visite comprend l’ascension, les jardins d’eau et, en option, Pidurangala.',
       },
     ],
     ctaTitle: 'Pret a grimper Sigiriya ?',
@@ -315,6 +331,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
         q: 'Si puo visitare Sigiriya in una gita di un giorno?',
         a: 'Si Sigiriya e una gita privata di un giorno molto richiesta da Kandy, Habarana, Dambulla o anche Negombo, solitamente combinata con il tempio delle grotte di Dambulla e, in alcuni itinerari, con un safari tra gli elefanti selvatici a Minneriya o Kaudulla.',
       },
+      {
+        q: 'Dove si trova Sigiriya?',
+        a: 'Sigiriya si trova nel Triangolo Culturale, nell’entroterra a nord di Colombo. In auto privata servono di solito quattro o cinque ore da Colombo o dall’aeroporto, e circa due ore da Kandy. Non usiamo il treno come trasferimento principale.',
+      },
+      {
+        q: 'Sigiriya e il Lion Rock?',
+        a: 'Si. Lion Rock, la roccia del leone e Sigiriya indicano la stessa fortezza. La visita comprende la salita, i giardini d’acqua e, se volete, Pidurangala.',
+      },
     ],
     ctaTitle: 'Pronti a scalare Sigiriya?',
     ctaBody: 'I nostri tour privati con auto climatizzata abbinano Sigiriya al tempio delle grotte di Dambulla e, come opzione, a un safari tra gli elefanti selvaticion un autista guida che si occupa di guida, tempistiche e biglietti, lasciandovi liberi di concentrarvi sulla salita.',
@@ -392,6 +416,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
       {
         q: 'Se puede visitar Sigiriya en una excursion de un dia?',
         a: 'Si: Sigiriya es una excursion privada de un dia muy popular desde Kandy, Habarana, Dambulla o incluso Negombo, normalmente combinada con el templo de las cuevas de Dambulla y, en algunos itinerarios, un safari de elefantes salvajes en Minneriya o Kaudulla.',
+      },
+      {
+        q: 'Donde esta Sigiriya?',
+        a: 'Sigiriya esta en el Triangulo Cultural, en el interior al norte de Colombo. En coche privado el trayecto desde Colombo o el aeropuerto suele durar de cuatro a cinco horas, y unas dos horas desde Kandy. No usamos el tren como traslado principal.',
+      },
+      {
+        q: 'Sigiriya es el Lion Rock?',
+        a: 'Si. Lion Rock, la roca del leon y Sigiriya son la misma fortaleza. La visita incluye la subida, los jardines de agua y, si se desea, Pidurangala.',
       },
     ],
     ctaTitle: 'Listo para subir a Sigiriya?',
@@ -471,6 +503,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
         q: 'Czy Sigiriye mozna odwiedzic w ramach jednodniowej wycieczki?',
         a: 'Tak  Sigiriya to popularna prywatna jednodniowa wycieczka z Kandy, Habarany, Dambulli, a nawet Negombo, zwykle polaczona ze swiatynia jaskiniowa w Dambulli i, w niektorych planach, safari po dzikie slonie w Minneriya lub Kaudulla.',
       },
+      {
+        q: 'Gdzie lezy Sigiriya?',
+        a: 'Sigiriya lezy w Trojkacie Kulturowym, w glebi wyspy na polnoc od Kolombo. Prywatnym autem dojazd z Kolombo lub z lotniska trwa zwykle cztery do pieciu godzin, a z Kandy okolo dwoch. Pociag nie jest naszym glownym transferem.',
+      },
+      {
+        q: 'Czy Sigiriya to Lion Rock?',
+        a: 'Tak. Lion Rock, Lwiej Skaly i Sigiriya oznaczaja te sama fortece. Wizyta obejmuje wejscie, ogrody wodne i opcjonalnie Pidurangale.',
+      },
     ],
     ctaTitle: 'Gotow wejsc na Sigiriye?',
     ctaBody: 'Nasze prywatne, klimatyzowane wycieczki jednodniowe lacza Sigiriye ze swiatynia jaskiniowa w Dambulli i opcjonalnym safari po dzikie slonie  z anglojezycznym kierowca przewodnikiem, ktory zajmuje sie jazda, harmonogramem i biletami, zebys mogl skupic sie na wejsciu.',
@@ -492,7 +532,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
 
   ru: {
     h1: 'Львиная скала Шри Ланка: Сигирия, крепость Культурного треугольника',
-    lead: 'Гранитный монолит высотой 200 метров, увенчанный королевским дворцом V века Сигирия самая фотографируемая достопримечательность Шри Ланки и одно из немногих мест на земле, где вы поднимаетесь через пасть льва, чтобы добраться до тронного зала в облаках.',
+    lead: 'Гранитный монолит высотой 200 метров, увенчанный королевским дворцом V века. Сигирия — самая фотографируемая достопримечательность Шри Ланки и одно из немногих мест на земле, где вы поднимаетесь через пасть льва, чтобы добраться до тронного зала в облаках.',
     heroAlt: 'Скальная крепость Сигирия на рассвете над джунглями',
     sections: [
       {
@@ -501,15 +541,15 @@ export const SIGIRIYA_DEST: ArticleContent = {
       },
       {
         title: 'Фрески, граффити и Зеркальная стена',
-        body: 'На середине подъёма защищённая ниша в скале до сих пор хранит несколько подлинных «дев Сигирии» полуобнажённых фигур в духе апсар, написанных минеральными пигментами, чья свежесть красок поражает даже через пятнадцать веков. Сохранилась лишь малая часть первоначальной галереи; остальное было утрачено задолго до начала реставрации.\n\nСразу за фресками тянется Зеркальная стена, когда то отполированная настолько, что отражала лица прохожих. С VII по XIII век посетители царапали на ней короткие стихи древнейшие известные граффити Шри Ланки восхваляя фрески или просто отмечая своё присутствие. Некоторые из этих надписей читаемы до сих пор.',
+        body: 'На середине подъёма защищённая ниша в скале до сих пор хранит несколько подлинных «дев Сигирии» полуобнажённых фигур в духе апсар, написанных минеральными пигментами, чья свежесть красок поражает даже через пятнадцать веков. Сохранилась лишь малая часть первоначальной галереи; остальное было утрачено задолго до начала реставрации.\n\nСразу за фресками тянется Зеркальная стена, когда-то отполированная настолько, что отражала лица прохожих. С VII по XIII век посетители царапали на ней короткие стихи древнейшие известные граффити Шри Ланки восхваляя фрески или просто отмечая своё присутствие. Некоторые из этих надписей читаемы до сих пор.',
       },
       {
         title: 'Что посмотреть и сделать в Сигирии',
-        body: 'Подъём на скалу занимает у большинства посетителей 60 to 90 минут в каждую сторону по каменным ступеням и металлическим лестницам, включая знаменитую спиральную лестницу, закреплённую прямо на скале рядом с гигантскими лапами льва, которые когда то обрамляли вход. На вершине сохранились фундаменты дворца Кашьяпы, вырубленный в скале царский бассейн и виды, простирающиеся на многие километры во все стороны.\n\nУ подножия водные сады сами по себе являются инженерным чудом: симметричные пруды, фонтаны, вновь бьющие после дождя только за счёт силы тяжести, и каменный сад, использовавшийся монахами для медитации ещё до прихода Кашьяпы. Многие путешественники совмещают подъём с послеобеденной поездкой в деревню на воловьей повозке и катамаране или с сафари к диким слонам поблизости.',
+        body: 'Подъём на скалу занимает у большинства посетителей 60–90 минут в каждую сторону по каменным ступеням и металлическим лестницам, включая знаменитую спиральную лестницу, закреплённую прямо на скале рядом с гигантскими лапами льва, которые когда-то обрамляли вход. На вершине сохранились фундаменты дворца Кашьяпы, вырубленный в скале царский бассейн и виды, простирающиеся на многие километры во все стороны.\n\nУ подножия водные сады сами по себе являются инженерным чудом: симметричные пруды, фонтаны, вновь бьющие после дождя только за счёт силы тяжести, и каменный сад, использовавшийся монахами для медитации ещё до прихода Кашьяпы. Многие путешественники совмещают подъём с послеобеденной поездкой в деревню на воловьей повозке и катамаране или с сафари к диким слонам поблизости.',
       },
       {
         title: 'Практические советы для посещения',
-        body: 'Если можете, приезжайте к 6:30 to 7:00 утра. Ворота открываются рано, лестницы гораздо менее людные, и вы избежите как полуденной жары, так и наплыва туристических автобусов около 10 to 11 часов. На последнем отрезке подъёма совсем нет тени, поэтому шляпа, вода и удобная обувь важны здесь больше, чем почти в любом другом месте Шри Ланки.\n\nПодъём технически несложен, но проходит по открытым участкам: узкие сетчатые лестницы, закреплённые на отвесной скале, не лучшее место для людей с боязнью высоты или для детей без присмотра. Билеты иностранных туристов проверяют в кассе, расположенной в стороне от скалы, а лицензированный гид у входа даёт исторический контекст, которого не хватает на скромных информационных табличках.',
+        body: 'Если можете, приезжайте к 6:30–7:00 утра. Ворота открываются рано, лестницы гораздо менее людные, и вы избежите как полуденной жары, так и наплыва туристических автобусов около 10–11 часов. На последнем отрезке подъёма совсем нет тени, поэтому шляпа, вода и удобная обувь важны здесь больше, чем почти в любом другом месте Шри Ланки.\n\nПодъём технически несложен, но проходит по открытым участкам: узкие сетчатые лестницы, закреплённые на отвесной скале, не лучшее место для людей с боязнью высоты или для детей без присмотра. Билеты иностранных туристов проверяют в кассе, расположенной в стороне от скалы, а лицензированный гид у входа даёт исторический контекст, которого не хватает на скромных информационных табличках.',
       },
       {
         title: 'Погода и лучшее время для подъёма',
@@ -517,7 +557,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть в окрестностях',
-        body: 'Пещерный храм Дамбуллы находится всего в двадцати минутах езды и естественно сочетается с Сигирией в рамках одного дня. Скала Пидурангала прямо напротив предлагает более грубый подъём, но, возможно, лучший вид на саму крепость, особенно на закате.\n\nНациональные парки Миннерия и Каудулла, примерно в 30 to 45 минутах на север, известны «сбором» большими стадами диких слонов вдоль берегов водоёмов, особенно с июля по октябрь, а Канди находится в удобных двух часах езды на юг для тех, кто продолжает путь в горную местность.',
+        body: 'Пещерный храм Дамбуллы находится всего в двадцати минутах езды и естественно сочетается с Сигирией в рамках одного дня. Скала Пидурангала прямо напротив предлагает более грубый подъём, но, возможно, лучший вид на саму крепость, особенно на закате.\n\nНациональные парки Миннерия и Каудулла, примерно в 30–45 минутах на север, известны «сбором» большими стадами диких слонов вдоль берегов водоёмов, особенно с июля по октябрь, а Канди находится в удобных двух часах езды на юг для тех, кто продолжает путь в горную местность.',
       },
       {
         title: 'Где остановиться',
@@ -531,7 +571,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
     faq: [
       {
         q: 'Сколько времени нужно, чтобы подняться на скалу Сигирия?',
-        a: 'Большинству посетителей нужно 60 to 90 минут, чтобы добраться до вершины, и примерно столько же на спуск, плюс время на водные сады у подножия. В целом закладывайте полдня, если хотите как следует осмотреть и сады.',
+        a: 'Большинству посетителей нужно 60–90 минут, чтобы добраться до вершины, и примерно столько же на спуск, плюс время на водные сады у подножия. В целом закладывайте полдня, если хотите как следует осмотреть и сады.',
       },
       {
         q: 'Трудно ли подниматься на Сигирию?',
@@ -548,6 +588,14 @@ export const SIGIRIYA_DEST: ArticleContent = {
       {
         q: 'Можно ли посетить Сигирию за один день?',
         a: 'Да Сигирия популярна как частная однодневная поездка из Канди, Хабараны, Дамбуллы или даже Негомбо, обычно в сочетании с пещерным храмом Дамбуллы и, в некоторых маршрутах, сафари к диким слонам в Миннерии или Каудулле.',
+      },
+      {
+        q: 'Где находится Сигирия?',
+        a: 'Сигирия находится в Культурном треугольнике, в глубине острова к северу от Коломбо. На частном автомобиле дорога из Коломбо или из аэропорта обычно занимает четыре–пять часов, из Канди около двух. Поезд мы не используем как основной трансфер.',
+      },
+      {
+        q: 'Сигирия и есть Львиная скала?',
+        a: 'Да. Lion Rock, Львиная скала и Сигирия — это одна и та же крепость. В программу входят подъём, водные сады и по желанию Пидурангала.',
       },
     ],
     ctaTitle: 'Готовы подняться на Сигирию?',
@@ -569,80 +617,96 @@ export const SIGIRIYA_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sigiriya, Sri Lanka: Die Felsenfestung im Kulturdreieck',
-    lead: 'Ein 200 Meter hoher Granitfelsen, gekront von einem Konigspalast aus dem 5. Jahrhundert  Sigiriya ist das meistfotografierte Wahrzeichen Sri Lankas und einer der wenigen Orte weltweit, an denen man durch das Maul eines steinernen Lowen zu einem Thronsaal uber den Wolken emporsteigt.',
-    heroAlt: 'Die Felsenfestung Sigiriya erhebt sich im Morgenlicht uber dem Dschungel',
+    h1: 'Sigiriya, Sri Lanka: de leeuwenrots, de beklimming en dagtochten door de Culturele Driehoek',
+    lead: 'De rotsvesting van Sigiriya is een granieten monoliet van 200 meter, bekroond door een koninklijk paleis uit de vijfde eeuw. Het is de meest gefotografeerde bezienswaardigheid van Sri Lanka, en een van de weinige plekken op aarde waar u door de muil van een leeuw omhoogklimt naar een troonzaal in de wolken.',
+    heroAlt: 'De rotsvesting van Sigiriya rijst bij zonsopgang boven de omringende jungle uit',
     sections: [
       {
-        title: 'Ein Palast aus Angst und Ehrgeiz',
-        body: 'Konig Kashyapa I. wahlte diesen Felsen 477 n. Chr. als Hauptstadt, nachdem er seinen Vater vom Thron gesturzt hatte und vor der Rache seines Halbbruders Moggallana floh. In nur elf Jahren verwandelten seine Baumeister den kahlen Fels in einen befestigten Lustpalast, umgeben von Wassergraben, Wallen und Garten, die noch heute exakt so funktionieren wie vor 1.500 Jahren geplant.\n\nDen Palast konnte Kashyapa nicht lange geniessen. Moggallana kehrte 495 n. Chr. mit einem Heer zuruck, und der Legende nach nahm sich Kashyapa auf dem Schlachtfeld unterhalb der Festung selbst das Leben, statt in Gefangenschaft zu geraten. Sigiriya ging danach an buddhistische Monche und wurde vom Dschungel verschluckt, bis britische Vermessungsingenieure die Ruinen im 19. Jahrhundert wiederentdeckten.',
+        id: 'history',
+        title: 'Een paleis gebouwd op angst en ambitie',
+        body: 'Koning Kashyapa I koos deze rotspartij in 477 n.Chr. als hoofdstad, nadat hij de troon van zijn vader had gegrepen en de wraak van zijn halfbroer Moggallana ontvluchtte. In slechts elf jaar maakten zijn bouwmeesters van een steile rots een versterkt lustpaleis, omringd door grachten, wallen en tuinen die 1.500 jaar later nog precies werken zoals ze zijn ontworpen.\n\nLang genieten kon Kashyapa er niet van. Moggallana keerde in 495 n.Chr. terug met een leger. In plaats van zich gevangen te laten nemen, zou Kashyapa zich op het slagveld onder de vesting van het leven hebben beroofd. Sigiriya ging later over naar boeddhistische monniken en werd langzaam door het bos opgeslokt, tot Britse landmeters en archeologen het in de 19e eeuw herontdekten.',
       },
       {
-        title: 'Fresken, Graffiti und die Spiegelwand',
-        body: 'Auf halber Hohe schutzt eine Felsnische einige der originalen „Sigiriya Jungfrauen“  halbnackte, apsaraahnliche Gestalten in Mineralfarben, deren Farbintensitat nach funfzehn Jahrhunderten erstaunlich frisch wirkt. Nur ein Bruchteil der ursprunglichen Galerie ist erhalten; das meiste ging schon lange vor Beginn der Restaurierung verloren.\n\nGleich hinter den Fresken verlauft die Spiegelwand, einst so glatt poliert, dass sie Passanten spiegelte. Besucher zwischen dem 7. und 13. Jahrhundert ritzten kurze Verse in den Stein  Sri Lankas alteste erhaltene Graffiti , die die Fresken lobten oder schlicht ihren Besuch festhielten. Einige dieser Inschriften sind bis heute lesbar.',
+        id: 'culture',
+        title: 'Fresco’s, graffiti en de spiegelwand',
+        body: 'Halverwege de rots bewaart een beschutte nis in de klif nog enkele van de originele Sigiriya Damsels: jonkvrouwen in de trant van een apsara, met ontbloot bovenlijf, geschilderd met minerale pigmenten. Opmerkelijk is hoe fris hun kleur na vijftien eeuwen nog is. Slechts een fractie van de oorspronkelijke galerij is bewaard. Het meeste ging verloren of werd verwijderd, lang voordat de conservering begon.\n\nVlak voorbij de fresco’s loopt de spiegelwand, ooit zo glad gepolijst dat hij een voorbijganger weerkaatste. Bezoekers tussen de zevende en de dertiende eeuw krasten er korte verzen in, de oudste bewaard gebleven graffiti van Sri Lanka. Ze prijzen de fresco’s of vermelden alleen dat iemand er geweest is. Een handvol van deze inscripties is vandaag nog leesbaar.',
       },
       {
-        title: 'Was man in Sigiriya erleben sollte',
-        body: 'Der Aufstieg dauert fur die meisten Besucher 60 bis 90 Minuten pro Richtung, uber Steinstufen und Metalltreppen, darunter die beruhmte Wendeltreppe, die direkt an der Felswand neben den riesigen Lowenpranken befestigt ist, die einst den Eingang flankierten. Auf dem Gipfel finden sich die Grundmauern von Kashyapas Palast, ein in den Fels gehauenes konigliches Becken und ein Panoramablick uber die Ebene.\n\nAm Fuss des Felsens sind die Wassergarten fur sich genommen eine technische Meisterleistung: symmetrische Becken, Springbrunnen, die allein durch Schwerkraft nach Regenfallen wieder sprudeln, und ein Felsgarten, der schon vor Kashyapa von Monchen zur Meditation genutzt wurde. Viele Reisende verbinden den Aufstieg mit einer Dorftour per Ochsenkarren und Katamaran oder mit einer Wildelefanten Safari in der Nahe.',
+        id: 'thingsToDo',
+        title: 'Wat u bij Sigiriya kunt doen',
+        body: 'De beklimming van de rots zelf kost de meeste bezoekers 60 tot 90 minuten per richting, over een mix van stenen treden en metalen trappen. Daarbij hoort de beroemde wenteltrap die aan de klifwand is vastgezet, naast de reusachtige leeuwenpoten die ooit de ingang flankeerden. Wat u in Sigiriya doet: de watertuinen aan de voet, de frescogalerij, de fundamenten van het paleis op de top, en daarna optioneel de rots van Pidurangala bij zonsondergang.\n\nSigiriya ligt in de Culturele Driehoek, in het binnenland ten noorden van Colombo. Van Colombo naar Sigiriya is ongeveer vier tot vijf uur over de weg. Van Kandy naar Sigiriya is het ongeveer twee uur. Van Negombo naar Sigiriya is de rit vergelijkbaar met die vanuit Colombo, na een eerste nacht bij de luchthaven. Dezelfde avond nog van de luchthaven van Colombo naar Sigiriya rijden na een lange vlucht is zelden aangenaam.',
       },
       {
-        title: 'Praktische Tipps fur den Besuch',
-        body: 'Kommen Sie wenn moglich bis 6:30 to 7:00 Uhr. Die Tore offnen fruh, die Treppen sind deutlich weniger uberfullt, und man entgeht sowohl der Mittagshitze als auch dem Ansturm der Reisebusse gegen 10 to 11 Uhr. Der letzte Aufstieg bietet keinerlei Schatten, daher zahlen Hut, Wasser und festes Schuhwerk hier mehr als an fast jedem anderen Ort Sri Lankas.\n\nDer Aufstieg ist nicht schwierig, aber exponiert: Schmale Gittertreppen an einer Felswand sind kein Ort fur Hohenangst oder unbeaufsichtigte Kinder. Die Eintrittskarten fur auslandische Besucher werden an einem Ticketschalter etwas abseits des Felsens kontrolliert, und ein lizenzierter Guide am Eingang liefert Hintergrunde, die die sparlichen Infotafeln vor Ort nicht bieten.',
+        id: 'travelTips',
+        title: 'Praktische tips voor uw bezoek',
+        body: 'Komt u als het kan tussen 6.30 en 7.00 uur in de ochtend aan. De poorten gaan vroeg open, de trappen zijn veel minder druk, en u ontloopt zowel de middaghitte als de piek van de touringcars rond 10 tot 11 uur. Het laatste stuk omhoog biedt helemaal geen schaduw, dus een hoed, water en degelijke schoenen zijn hier belangrijker dan op bijna elke andere plek in Sri Lanka.\n\nDe klim is niet moeilijk, maar wel open en bloot. Smalle trappen van open gaas, vastgezet aan een klifwand, zijn geen plek voor hoogtevrees, en ook niet voor jonge kinderen zonder toezicht. Toegangskaarten voor buitenlandse bezoekers worden gecontroleerd bij een loket dat een eind van de rots af ligt. Een gids met vergunning bij de poort geeft echte context die de spaarzame borden ter plaatse niet bieden.',
       },
       {
-        title: 'Wetter und beste Reisezeit fur den Aufstieg',
-        body: 'Sigiriya liegt in Sri Lankas Trockenzone und ist praktisch das ganze Jahr uber gut besteigbar; Januar bis April sind meist die trockensten und heissesten Monate. Von Oktober bis Dezember sind Nachmittagsgewitter haufig; die Felsstufen werden bei Regen rutschig, und der Gipfel wird bei Blitzgefahr gelegentlich fur Kletterer gesperrt.\n\nUnabhangig von der Saison sind die Morgenstunden ruhiger und kuhler als der Nachmittag, und das Licht auf der Felswand beim Sonnenaufgang ist fur Fotos unschlagbar.',
+        id: 'weather',
+        title: 'Weer en het beste moment om te klimmen',
+        body: 'Sigiriya ligt in de droge zone van Sri Lanka en is bijna het hele jaar comfortabel te beklimmen. Januari tot april is doorgaans de droogste en heetste periode. Het weer in Sigiriya: onweersbuien in de middag zijn gebruikelijk van oktober tot december. De rotstreden worden glad bij regen, en de top gaat bij bliksem af en toe dicht.\n\nIn elk seizoen zijn de ochtenden rustiger en koeler dan de middagen, en het licht op de rotswand bij zonsopgang is het mooiste van de dag om te fotograferen.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Der Hohlentempel von Dambulla liegt nur zwanzig Autominuten entfernt und lasst sich problemlos mit Sigiriya an einem Tag verbinden. Der Pidurangala Felsen direkt gegenuber bietet eine unwegsamere Kletterpartie, dafur aber wohl den besten Blick auf die Festung selbst, besonders zum Sonnenuntergang.\n\nDie Nationalparks Minneriya und Kaudulla, etwa 30 to 45 minuten nordlich, sind bekannt fur „the gathering“  grosse Herden wilder Elefanten an ihren Uferzonen, vor allem von Juli bis Oktober , wahrend Kandy fur Reisende Richtung Bergland bequem zwei Stunden sudlich liegt.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'De grottentempel van Dambulla in Sri Lanka ligt op twintig minuten rijden van Sigiriya. De rots van Pidurangala, recht ertegenover, is een ruigere klauterpartij en geeft het beste zicht op de vesting, vooral bij zonsondergang. De oude stad Polonnaruwa is een langere dag in de Culturele Driehoek als u extra tijd hebt. Mihintale ligt dichter bij Anuradhapura, op uitgebreidere routes.\n\nMinneriya en Kaudulla, ongeveer 30 tot 45 minuten naar het noorden, staan bekend om wilde olifanten. Kandy ligt ongeveer twee uur naar het zuiden als u doorreist richting de trein van Kandy naar Ella. Van Sigiriya naar Trincomalee is een optie aan de oostkust in de periode van mei tot september. De toren van Ambuluwawa is een extra stop in de streek rond Kandy op sommige routes van twee dagen door het heuvelland, geen vervanging voor de beklimming van Sigiriya.',
       },
       {
-        title: 'Wo man ubernachten kann',
-        body: 'Die Stadt Sigiriya sowie die nahen Orte Habarana und Dambulla decken jedes Budget ab, von einfachen familiengefuhrten Gastehausern bis zu Boutique Lodges im Dschungel mit Pools mit Felsblick und Zeltzimmern im Safari Stil. Mehrere Unterkunfte in Habarana sind gezielt auf den Blick auf den Sigiriya Felsen vom Fruhstuckstisch oder der Dachterrasse ausgerichtet.\n\nEin Zimmer mit Balkon Richtung Sigiriya lohnt den kleinen Aufpreis, wenn Sie am spaten Nachmittag zuruck im Hotel sind  der Felsen verandert seine Farbe bei Sonnenuntergang dramatisch.',
+        id: 'hotels',
+        title: 'Waar u overnacht',
+        body: 'Het stadje Sigiriya en de nabije dorpen Habarana en Dambulla dekken elk budget, van eenvoudige familiepensions tot boetieklodges in de jungle met zwembaden die op de rots uitkijken en tentkamers in safaristijl. Verschillende adressen in Habarana zijn specifiek gebouwd rond het uitzicht op de rots van Sigiriya, vanaf de ontbijttafel en vanaf dakterrassen.\n\nEen kamer met een balkon op Sigiriya is de kleine meerprijs waard als u laat in de middag terug in het hotel bent. De rots verandert dramatisch van kleur wanneer de zon zakt.',
       },
       {
-        title: 'Essen rund um Sigiriya',
-        body: 'Rice and Curry bleibt hier fast uberall die ehrliche, verlassliche Wahl  ein Berg Reis mit funf oder sechs kleinen Currys, von Dhal und Roter Bete bis zu Jungle Chicken, dazu Papadam und etwas Limette. Mehrere Restaurants an der Strasse zwischen Dambulla und Sigiriya bieten Buffet Mittagessen fur Tagesausflugsgruppen  praktisch, aber selten das eindrucklichste Essen der Region.\n\nWer es ruhiger mag, findet in Habarana einige Lodges mit Abendessen im Freien mit Blick auf Reisfelder, mitunter begleitet von traditionellem Trommelspiel  in der Hochsaison lohnt sich eine Vorabreservierung.',
+        id: 'restaurants',
+        title: 'Eten rond Sigiriya',
+        body: 'Rijst en curry blijft bijna overal hier de eerlijke, betrouwbare keuze. Reken op een berg rijst met vijf of zes kleine currygerechten, van dhal en rode biet tot kip uit de jungle, plus papadam en een scheut limoen. Verschillende restaurants langs de weg tussen Dambulla en Sigiriya serveren lunches als buffet voor dagtochtgroepen. Dat is handig, maar zelden de meest memorabele maaltijd van de streek.\n\nVoor iets rustigers organiseren een paar lodges in Habarana diners in de openlucht met uitzicht op rijstvelden, soms met traditioneel trommelspel. In het hoogseizoen is reserveren vooraf de moeite waard.',
       },
     ],
     faq: [
       {
-        q: 'Wie lange dauert der Aufstieg auf den Sigiriya Felsen?',
-        a: 'Die meisten Besucher benotigen 60 to 90 Minuten zum Gipfel und ahnlich lange fur den Abstieg, zuzuglich Zeit fur die Wassergarten am Fuss des Felsens. Planen Sie insgesamt einen halben Tag ein, wenn Sie die Garten auch in Ruhe erkunden mochten.',
+        q: 'Hoe lang duurt de beklimming van de rots van Sigiriya?',
+        a: 'De meeste bezoekers hebben 60 tot 90 minuten nodig om de top te bereiken en ongeveer even lang voor de afdaling, plus tijd voor de watertuinen aan de voet. Reken in totaal een halve dag als u de tuinen ook rustig wilt zien.',
       },
       {
-        q: 'Ist der Aufstieg auf Sigiriya schwierig?',
-        a: 'Es ist ein gleichmassiger, teils steiler Aufstieg uber Steinstufen und Metalltreppen, keine technische Kletterei, und fur die meisten leidlich fitten Reisenden gut zu bewaltigen. Die letzte offene Wendeltreppe und die exponierten Gipfelabschnitte sind die Stellen, die Besucher mit Hohenangst am meisten fordern.',
+        q: 'Is Sigiriya moeilijk te beklimmen?',
+        a: 'Het is een gestage, soms steile klim over stenen treden en metalen trappen, geen technische tocht, en voor de meeste redelijk fitte reizigers goed te doen. De laatste wenteltrap van open gaas en de open stukken op de top zijn de delen die bezoekers met hoogtevrees het meest raken.',
       },
       {
-        q: 'Sigiriya oder Pidurangala  was sollte ich besteigen?',
-        a: 'Sigiriya bietet die Fresken, die Lowenpranken und die Palastruinen; Pidurangala ist eine kurzere, unwegsamere Kletterpartie mit dem besten Foto auf den Sigiriya Felsen selbst, besonders zum Sonnenuntergang. Wer zwei Tage Zeit hat, kombiniert oft beides.',
+        q: 'Sigiriya of Pidurangala: welke beklimt u?',
+        a: 'Sigiriya heeft de fresco’s, de leeuwenpoten en de paleisruïnes. Pidurangala is een kortere, ruigere klauterpartij die u de beste foto van de rots van Sigiriya zelf geeft, vooral bij zonsondergang. Veel reizigers met twee dagen doen beide.',
       },
       {
-        q: 'Wie hoch ist der Eintritt fur Sigiriya?',
-        a: 'Auslandische Besucher zahlen einen separaten, hoheren Eintrittspreis als Einheimische, zahlbar in USD oder LKR am Ticketschalter. Die Preise werden vom Central Cultural Fund regelmassig angepasst  der aktuelle Betrag lasst sich am besten vorab bei Ihrem Fahrer Guide erfragen.',
+        q: 'Wat kost de toegang tot Sigiriya?',
+        a: 'Buitenlandse bezoekers betalen een aparte, hogere toegangsprijs dan lokale bezoekers, te betalen in USD of LKR aan het loket. Het Central Cultural Fund herziet de prijzen periodiek, dus het loont de actuele prijs voor aankomst bij uw chauffeurgids na te vragen.',
       },
       {
-        q: 'Lasst sich Sigiriya als Tagesausflug besuchen?',
-        a: 'Ja  Sigiriya ist ein beliebter privater Tagesausflug von Kandy, Habarana, Dambulla oder sogar Negombo aus, meist kombiniert mit dem Hohlentempel von Dambulla und, je nach Programm, einer Wildelefanten Safari in Minneriya oder Kaudulla.',
+        q: 'Kunt u Sigiriya als dagtocht bezoeken?',
+        a: 'Ja. Sigiriya is een populaire privédagtocht van een volle dag vanuit Kandy, Habarana, Dambulla of zelfs Negombo, meestal gecombineerd met de grottentempel van Dambulla en, in sommige routes, een safari met wilde olifanten in Minneriya of Kaudulla.',
+      },
+      {
+        q: 'Waar ligt Sigiriya?',
+        a: 'Sigiriya ligt in de Culturele Driehoek van Sri Lanka, in het binnenland ten noorden van Colombo. Van Colombo naar Sigiriya en van de luchthaven van Colombo naar Sigiriya is het met een privéauto doorgaans vier tot vijf uur. Van Kandy naar Sigiriya is het ongeveer twee uur. De trein van Colombo naar Sigiriya gebruiken wij niet als hoofdtransfer.',
+      },
+      {
+        q: 'Is Sigiriya de leeuwenrots?',
+        a: 'Ja. De namen Lion Rock, Lions Rock, de leeuwenrots, de leeuwenrots van Sri Lanka en Lions Rock Sigiriya slaan allemaal op de rotsvesting van Sigiriya. Wat u er kunt doen: de beklimming, de watertuinen en optioneel Pidurangala.',
       },
     ],
-    ctaTitle: 'Bereit, Sigiriya zu besteigen?',
-    ctaBody: 'Unsere privaten, klimatisierten Tagestouren verbinden Sigiriya mit dem Hohlentempel von Dambulla und optional einer Wildelefanten Safari  mit einem englischsprachigen Fahrer Guide, der Fahrt, Zeitplan und Tickets ubernimmt, damit Sie sich auf den Aufstieg konzentrieren konnen.',
-    ctaLabel: 'Sigiriya Tour planen',
+    ctaTitle: 'Klaar om Sigiriya te beklimmen?',
+    ctaBody: 'Onze privédagtochten met airconditioning combineren Sigiriya met de grottentempel van Dambulla en een optionele safari met wilde olifanten. Een Engelssprekende chauffeurgids regelt het rijden, het tijdschema en de toegangskaarten, zodat u zich op de klim kunt richten.',
+    ctaLabel: 'Plan uw tocht naar Sigiriya',
     relatedTours: [
-      { pageId: 'sigiriyaDay', label: 'Sigiriya Tagestour' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
+      { pageId: 'sigiriyaDay', label: 'Dagtocht naar Sigiriya' },
+      { pageId: 'tour7', label: 'Privérondreis Sri Lanka van 7 dagen' },
+      { pageId: 'tour5', label: 'Rondreis Sri Lanka van 5 dagen' },
     ],
     relatedDestinations: [
-      { pageId: 'destDambulla', label: 'Hohlentempel von Dambulla' },
+      { pageId: 'destDambulla', label: 'Grottentempel van Dambulla' },
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guideSafari', label: 'Sri Lanka Safari Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guideSafari', label: 'Safarigids voor Sri Lanka' },
     ],
   }
 };

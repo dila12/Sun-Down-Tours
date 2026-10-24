@@ -19,7 +19,6 @@ import { HomeContactSectionComponent } from './sections/home-contact-section/hom
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
 import { HomePopularToursComponent } from './sections/home-popular-tours/home-popular-tours';
-import { HomeSeoSectionComponent } from './sections/home-seo-section/home-seo-section';
 import { HeroLcpImageComponent } from './sections/hero-lcp-image';
 import { LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
@@ -56,7 +55,6 @@ interface Destination {
     HomeTeamSectionComponent,
     HomeElfsightWidgetComponent,
     HomePopularToursComponent,
-    HomeSeoSectionComponent,
     HeroLcpImageComponent,
     TranslatePipe,
     FaqSectionComponent,

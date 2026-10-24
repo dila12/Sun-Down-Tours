@@ -29,7 +29,16 @@ export const PACKAGE_INCLUDES: Record<Locale, string[]> = {
     'Train tickets (subject to availability)',
   ],
   de: deIncludes,
-  nl: deIncludes,
+  nl: [
+    'Privévoertuig met airconditioning gedurende de hele reis',
+    'Chauffeurgids beschikbaar in het Engels, Duits, Pools en Russisch',
+    'Ophalen en terugbrengen op de luchthaven',
+    'Verblijf op basis van halfpension in een hotel met 4 sterren',
+    'Brandstof, parkeerkosten en tol',
+    'Gratis water in flessen tijdens de transfers',
+    'Een panoramische treinrit van Nanu Oya naar Ella',
+    'Treinkaartjes (afhankelijk van beschikbaarheid)',
+  ],
   fr: [
     'Vehicule prive climatise pendant tout le circuit',
     'Chauffeur Guide disponible en anglais, allemand, polonais et russe',
@@ -89,7 +98,10 @@ export const PACKAGE_EXCLUDES: Record<Locale, string[]> = {
     'Lunch',
   ],
   de: deExcludes,
-  nl: deExcludes,
+  nl: [
+    'Toegangsprijzen voor bezienswaardigheden (ter plaatse door reizigers te betalen)',
+    'Lunch',
+  ],
   fr: [
     'Frais d entree aux attractions (a payer sur place par les voyageurs)',
     'Dejeuner',

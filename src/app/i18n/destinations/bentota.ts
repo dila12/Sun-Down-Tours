@@ -4,7 +4,7 @@ export const BENTOTA_DEST: ArticleContent = {
   en: {
     h1: 'Bentota, Sri Lanka: West Coast Beach Holidays and River Mouth',
     lead:
-      'Bentota is a classic west coast strip of sand, river and resort hotelspopular with German travellers who want swimming close to Colombo plus an easy link south to Galle, Mirissa and Weligama on a private itinerary.',
+      'Bentota is a classic west coast strip of sand, river and resort hotels, popular with German travellers who want swimming close to Colombo plus an easy link south to Galle, Mirissa and Weligama on a private itinerary.',
     heroImage: 'assets/img/mainpage/5.webp',
     heroAlt: 'Bentota beach on Sri Lanka’s west coast',
     sections: [
@@ -16,12 +16,12 @@ export const BENTOTA_DEST: ArticleContent = {
       {
         id: 'do',
         title: 'Beach, river and nearby stops',
-        body: 'Swimming and water sports on the open coast, quieter pockets near the river mouth, brief turtle hatchery visits (choose a reputable project), and day trips to Galle Fort. Bentota is infrastructure heavy compared with Hiriketiyauseful for families who want pools and longer beaches.',
+        body: 'Swimming and water sports on the open coast, quieter pockets near the river mouth, brief turtle hatchery visits (choose a reputable project), and day trips to Galle Fort. Bentota is infrastructure heavy compared with Hiriketiya, useful for families who want pools and longer beaches.',
       },
       {
         id: 'route',
         title: 'On a round tour',
-        body: 'Typical pattern: culture and hills first, then two or three Bentota or Hikkaduwa nights before CMB. Combining Bentota with a full south coast hop (Mirissa, Weligama) in one week costs driving timepick one beach base unless you have 10 to 14 days.',
+        body: 'Typical pattern: culture and hills first, then two or three Bentota or Hikkaduwa nights before CMB. Combining Bentota with a full south coast hop (Mirissa, Weligama) in one week costs driving time, so pick one beach base unless you have 10 to 14 days.',
       },
     ],
     faq: [
@@ -170,6 +170,10 @@ export const BENTOTA_DEST: ArticleContent = {
         q: 'Bentota o Mirissa?',
         a: 'Bentota esta mas cerca de Colombo y es mas resort. Mirissa encaja con ballenas (nov.–abr.) y un pueblo sur mas animado.',
       },
+      {
+        q: 'Bentota es buena idea en el verano europeo?',
+        a: 'A menudo no para banarse: de mayo a septiembre es el monzon de la costa oeste. Conviene la costa este o el Triangulo Cultural, o aceptar un tiempo de playa irregular.',
+      },
     ],
     ctaTitle: 'Anadir Bentota al final de costa oeste',
     ctaBody: 'Dad fechas. Alineamos la costa con el monzon y el tipo de hotel.',
@@ -192,7 +196,7 @@ export const BENTOTA_DEST: ArticleContent = {
   pl: {
     h1: 'Bentota Sri Lanka: plaza zachodniego wybrzeza',
     lead:
-      'Bentota to klasyczny pas piasku, rzeki i resortow zachodupopularny w polskich wyszukiwaniach, blisko Ahungalli i Waskaduwy, z prywatnym dojazdem do Galle, Mirissy i Weligamy. Nie sprzedajemy konkretnego hotelu Club Bentota; dobieramy noclegi do dat i budzetu.',
+      'Bentota to popularny odcinek zachodniego wybrzeza z plaza, ujscem rzeki i hotelami wypoczynkowymi. Lezy stosunkowo blisko Kolombo i dobrze laczy sie z prywatna trasa przez Galle, Mirisse i Weligame.',
     heroAlt: 'Plaza Bentota na zachodnim wybrzezu Sri Lanki',
     sections: [
       {
@@ -200,14 +204,22 @@ export const BENTOTA_DEST: ArticleContent = {
         body: 'Zachodnie wybrzeze jest zwykle najlepsze od listopada do kwietnia: spokojniejsze morze, pelne hotele. Od maja monsun poludniowo zachodni moze przyniesc deszcz i fale; wtedy wschod (Trincomalee) bywa lepszy do kapieli.',
       },
       {
-        title: 'W objazdowce',
-        body: 'Typowo: kultura i gory najpierw, potem dwie to trzy noce Bentota, Ahungalla lub Waskaduwa przed CMB. Bentota plus cale poludnie (Mirissa, Tangalle) w jeden tydzien kosztuje czas jazdyjedna baza plazowa, chyba ze macie 10 to 14 dni.',
+        title: 'Plaza, rzeka i pobliskie miejsca',
+        body: 'Na otwartym wybrzezu mozna plywac i uprawiac sporty wodne, a przy ujscu rzeki znalezc spokojniejsze miejsca. W poblizu sa projekty ochrony zolwi oraz Fort Galle na jednodniowa wycieczke. Bentota ma wiecej infrastruktury hotelowej niz Hiriketiya, co bywa wygodne dla rodzin szukajacych basenu i dluzszej plazy.',
+      },
+      {
+        title: 'Bentota na trasie objazdu',
+        body: 'Typowa trasa najpierw prowadzi przez zabytki i gory, a potem obejmuje dwie lub trzy noce w Bentocie albo Hikkaduwie przed powrotem na CMB. Polaczenie Bentoty z dalszym poludniowym wybrzezem w jeden tydzien oznacza duzo jazdy, dlatego warto wybrac jedna baze plazowa. Na dluzsza, 10–14-dniowa podroz mozna zaplanowac oba regiony.',
       },
     ],
     faq: [
       {
         q: 'Bentota czy Mirissa?',
         a: 'Bentota blizej Kolombo i bardziej resortowa (w tym oferty all inclusive). Mirissa lepiej na wieloryby (lis.–kwi.) i zywsze poludniowe miasteczko.',
+      },
+      {
+        q: 'Czy Bentota sprawdza sie w europejskie lato?',
+        a: 'Czesto nie do kapieli: od maja do wrzesnia to monsun zachodniego wybrzeza. Lepszy jest wschod albo Trojkat Kulturowy, albo trzeba przyjac zmienną pogode na plazy.',
       },
     ],
     ctaTitle: 'Dodac Bentote na finisz zachodniego wybrzeza',
@@ -238,11 +250,23 @@ export const BENTOTA_DEST: ArticleContent = {
         title: 'Quando Bentota ha senso',
         body: 'La costa ovest e in genere al meglio da novembre ad aprile. Da maggio il monsone sud ovest puo portare pioggia e mare mosso; allora l’est (Trincomalee, Arugam Bay) e spesso migliore per nuotare.',
       },
+      {
+        title: 'Spiaggia, fiume e luoghi vicini',
+        body: 'Sulla costa aperta puoi nuotare e praticare sport acquatici; vicino alla foce del fiume trovi angoli piu tranquilli. Nei dintorni ci sono centri per la tutela delle tartarughe e il Forte di Galle, adatto a una gita di un giorno. Bentota offre piu servizi e hotel di Hiriketiya, una comodita per le famiglie che cercano piscina e spiagge ampie.',
+      },
+      {
+        title: 'Bentota in un itinerario privato',
+        body: 'Un itinerario classico visita prima i siti culturali e gli altopiani, poi trascorre due o tre notti a Bentota o Hikkaduwa prima del trasferimento a CMB. Aggiungere tutta la costa sud in una settimana significa passare piu tempo in auto: conviene scegliere una sola base balneare. Con 10–14 giorni si possono includere entrambe le zone.',
+      },
     ],
     faq: [
       {
         q: 'Bentota o Mirissa?',
         a: 'Bentota e piu vicina a Colombo e piu resort. Mirissa va meglio per le balene (nov.–apr.) e un villaggio sud piu vivo.',
+      },
+      {
+        q: 'Bentota va bene nell’estate europea?',
+        a: 'Spesso no per nuotare: da maggio a settembre e la finestra del monsone sulla costa ovest. Meglio la costa est o il Triangolo Culturale, oppure accettare un meteo variabile.',
       },
     ],
     ctaTitle: 'Aggiungere Bentota al finale di costa ovest',
@@ -264,20 +288,32 @@ export const BENTOTA_DEST: ArticleContent = {
     ],
   },
   ru: {
-    h1: 'Бентота Шри Ланка: западное побережье, не бренд Club Bentota',
+    h1: 'Бентота, Шри Ланка: пляжи западного побережья и река',
     lead:
-      'Бентоташирокая полоса песка и курортов между Коломбо и Галле. Запросы Club Bentota, RIU Ahungalla, Cinnamon Bey и Taj Bentotaэто конкретные отели. Мы подбираем ночи на западе внутри частного тура, а не продаём страницу сети.',
+      'Бентота популярный курортный район западного побережья с широкими пляжами, устьем реки и отелями. Отсюда удобно продолжить частный маршрут на юг, к Галле, Мириссе и Велигаме.',
     heroAlt: 'Пляж Бентоты на западном побережье Шри Ланки',
     sections: [
       {
-        title: 'Бентота, Хиккадува и Ахунгалла',
-        body: 'Хиккадува севернее: сёрф и риф. Ахунгалла и Беруваласоседний курортный пояс (Heritance, RIU и другие бренды живут здесь). Бентота удобна семьям: песок, инфраструктура, около 1,5 to 2 часов от CMB. Финал тура можно сместить на юг (Мирисса, Велигама), если море на западе не в сезоне.',
+        title: 'Когда выбирать Бентоту',
+        body: 'Западное побережье обычно наиболее приятно с ноября по апрель: море спокойнее, а отели работают в высокий сезон. С мая юго-западный муссон может принести дожди и сильные волны; в это время для купания часто лучше подходит восточное побережье, например Тринкомали. Если прогноз изменится, водитель поможет скорректировать пляжную часть маршрута.',
+      },
+      {
+        title: 'Пляж, река и места поблизости',
+        body: 'На открытом побережье можно купаться и заниматься водными видами спорта, а возле устья реки найти более тихие места. Рядом находятся центры защиты черепах и форт Галле, куда удобно съездить на день. В Бентоте больше курортной инфраструктуры, чем в Хирикетии; это может быть удобно семьям, которым важны бассейн и длинный пляж.',
+      },
+      {
+        title: 'Бентота в частном маршруте',
+        body: 'Обычно путешествие начинается с культурных достопримечательностей и горного региона, а затем включает две три ночи в Бентоте или Хиккадуве перед поездкой в CMB. За одну неделю совместить Бентоту со всем южным побережьем означает много времени в дороге, поэтому лучше выбрать одну пляжную базу. Для поездки на 10–14 дней можно включить оба региона.',
       },
     ],
     faq: [
       {
-        q: 'Это all inclusive как Club Bentota или RIU?',
-        a: 'Нет. Это направление для пляжных ночей частного тура. Некоторые курорты предлагают питание all inclusive, если вы этого хотите; дни осмотров остаются с водителем гидом.',
+        q: 'Сколько ночей провести в Бентоте?',
+        a: 'Две три ночи подойдут для пляжного отдыха и поездки в форт Галле. Для более продолжительного маршрута можно добавить Мириссу или Велигаму.',
+      },
+      {
+        q: 'Бентота или Мирисса?',
+        a: 'Бентота ближе к Коломбо и больше похожа на курорт. Мирисса лучше для наблюдения за китами с ноября по апрель и для более живой южной деревни.',
       },
     ],
     ctaTitle: 'Включить западное побережье в частный тур',
@@ -296,6 +332,46 @@ export const BENTOTA_DEST: ArticleContent = {
       { pageId: 'guideBeaches', label: 'Пляжи' },
       { pageId: 'guideBestTime', label: 'Когда ехать' },
       { pageId: 'marketRussia', label: 'Из России' },
+    ],
+  },
+  nl: {
+    h1: 'Bentota, Sri Lanka: strandvakantie aan de westkust',
+    lead: 'Bentota is een bekende badplaats aan de westkust, met brede stranden, een riviermonding en hotels. De plaats ligt relatief dicht bij Colombo en past goed in een privérondreis naar Galle, Mirissa en Weligama.',
+    heroAlt: 'Strand van Bentota aan de westkust van Sri Lanka',
+    sections: [
+      {
+        title: 'Wanneer Bentota een goede keuze is',
+        body: 'De westkust is meestal op haar best van november tot april, met rustiger zee en het drukste hotel seizoen. Vanaf mei kan de zuidwestmoesson regen en hogere golven brengen. In die periode is de oostkust, bijvoorbeeld Trincomalee, vaak geschikter om te zwemmen. Uw chauffeur kan de strandstop aanpassen als de weersverwachting verandert.',
+      },
+      {
+        title: 'Strand, rivier en uitstapjes in de buurt',
+        body: 'Aan de open kust kunt u zwemmen en watersporten beoefenen; bij de riviermonding liggen rustigere plekken. In de omgeving vindt u projecten voor schildpaddenbescherming en het historische fort van Galle, geschikt voor een dagtocht. Bentota heeft meer hotelvoorzieningen dan Hiriketiya, wat prettig kan zijn voor gezinnen die een zwembad en een lang strand zoeken.',
+      },
+      {
+        title: 'Bentota in een rondreis',
+        body: 'Een gebruikelijke route bezoekt eerst culturele bezienswaardigheden en het hoogland, gevolgd door twee of drie nachten in Bentota of Hikkaduwa voor de terugrit naar CMB. Bentota combineren met de hele zuidkust in één week betekent veel reistijd; kies liever één strandbasis. Met 10 tot 14 dagen kunt u beide gebieden opnemen.',
+      },
+    ],
+    faq: [
+      { q: 'Is Bentota geschikt tijdens de Europese zomer?', a: 'Niet altijd om te zwemmen: van mei tot september kan de zuidwestmoesson regen en ruwe zee brengen. Overweeg dan de oostkust of houd rekening met wisselvallig strandweer.' },
+      { q: 'Bentota of Mirissa?', a: 'Bentota ligt dichter bij Colombo en heeft meer resortvoorzieningen. Mirissa is geschikt voor walvissen spotten van ongeveer november tot april en heeft een levendiger dorpscentrum.' },
+    ],
+    ctaTitle: 'Neem Bentota op in uw privérondreis',
+    ctaBody: 'Deel uw reisdata. We stemmen de kust en het type hotel af op het seizoen en uw wensen.',
+    ctaLabel: 'Strandnachten plannen',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'tour10', label: 'Rondreis van 10 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destMirissa', label: 'Mirissa' },
+      { pageId: 'destWeligama', label: 'Weligama' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'marketNetherlands', label: 'Reizen vanuit Nederland' },
     ],
   },
 };

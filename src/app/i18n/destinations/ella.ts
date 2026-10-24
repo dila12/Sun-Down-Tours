@@ -156,6 +156,10 @@ export const ELLA_DEST: ArticleContent = {
         q: 'Kann ich Ella und Yala in derselben Reise besuchen?',
         a: 'Ja  Yala liegt etwa zwei Autostunden von Ella entfernt, sodass viele Reiseplane eine Yala Morgen Safari mit einem Ella Nachmittag kombinieren oder Ella fur zwei Nachte als Basis nutzen und einen ganztagigen Yala Ausflug erganzen.',
       },
+      {
+        q: 'Was kann man in Ella ausser dem Zug unternehmen?',
+        a: 'Nine Arch Bridge, Little Adam’s Peak oder Ella Rock und eine Teefabrik. Am nächsten Morgen kann die Fahrt nach Yala folgen. Die Zugfahrt von Kandy nach Ella bleibt die klassische Anreise.',
+      },
     ],
     ctaTitle: 'Planen Sie Ihre Zeit in Ella',
     ctaBody: 'Unsere privaten Rundreisen fuhren uber mehrere Tage auch nach Ella als Bergland Stopp, wobei Ihr Fahrer Guide die Fahrt rund um die malerische Zugfahrt, Teefabrikbesuche und das beste Licht fur die Nine Arch Bridge plant.',
@@ -233,6 +237,10 @@ export const ELLA_DEST: ArticleContent = {
       {
         q: 'Peut on visiter Ella et Yala dans le meme voyage ?',
         a: 'Oui Yala se trouve a environ deux heures d’Ella en vehicule prive, si bien que de nombreux itineraires associent un safari matinal a Yala a un apres midi a Ella, ou utilisent Ella comme base pour deux nuits avec une excursion d’une journee a Yala.',
+      },
+      {
+        q: 'Que faire a Ella en dehors du train ?',
+        a: 'Le Nine Arch Bridge, Little Adam’s Peak ou Ella Rock, puis une fabrique de the. Le lendemain matin, Yala peut suivre si vous voulez un safari. Le train de Kandy a Ella reste l’arrivee classique.',
       },
     ],
     ctaTitle: 'Organisez votre sejour a Ella',
@@ -312,6 +320,10 @@ export const ELLA_DEST: ArticleContent = {
         q: 'Posso visitare Ella e Yala nello stesso viaggio?',
         a: 'Si Yala si trova a circa due ore da Ella in auto privata, quindi molti itinerari abbinano un safari mattutino a Yala a un pomeriggio a Ella, oppure usano Ella come base per due notti aggiungendo un’escursione di un giorno a Yala.',
       },
+      {
+        q: 'Cosa fare a Ella oltre al treno?',
+        a: 'Nine Arch Bridge, Little Adam’s Peak o Ella Rock e una fabbrica di te. La mattina dopo si puo proseguire verso Yala per un safari. Il treno da Kandy a Ella resta l’arrivo classico.',
+      },
     ],
     ctaTitle: 'Organizza il tuo soggiorno a Ella',
     ctaBody: 'I nostri tour privati includono Ella come tappa collinare negli itinerari di piu giorni, con il vostro autista guida che organizza il percorso attorno al treno panoramico, alle visite alle fabbriche di te e alla luce migliore per il ponte dei nove archi.',
@@ -389,6 +401,10 @@ export const ELLA_DEST: ArticleContent = {
       {
         q: 'Puedo visitar Ella y Yala en el mismo viaje?',
         a: 'Si: Yala esta a unas dos horas de Ella en vehiculo privado, por lo que muchos itinerarios combinan un safari matutino en Yala con una tarde en Ella, o usan Ella como base durante dos noches anadiendo una excursion de un dia completo a Yala.',
+      },
+      {
+        q: 'Que hacer en Ella ademas del tren?',
+        a: 'Nine Arch Bridge, Little Adam’s Peak o Ella Rock y una fabrica de te. A la manana siguiente se puede seguir hacia Yala para un safari. El tren de Kandy a Ella sigue siendo la llegada clasica.',
       },
     ],
     ctaTitle: 'Planifique su tiempo en Ella',
@@ -468,6 +484,10 @@ export const ELLA_DEST: ArticleContent = {
         q: 'Czy moge odwiedzic Elle i Yale w tej samej podrozy?',
         a: 'Tak  Yala lezy okolo dwoch godzin od Elli prywatnym samochodem, dlatego wiele planow laczy poranne safari w Yali z popoludniem w Elli, albo wykorzystuje Elle jako baze na dwie noce, dodajac calodniowa wycieczke do Yali.',
       },
+      {
+        q: 'Co robic w Elli poza przejazdem pociagiem?',
+        a: 'Nine Arch Bridge, Little Adam’s Peak albo Ella Rock i fabryka herbaty. Nastepnego ranka mozna jechac do Yali na safari. Pociag z Kandy do Elli zostaje klasycznym dojazdem.',
+      },
     ],
     ctaTitle: 'Zaplanuj swoj czas w Elli',
     ctaBody: 'Nasze prywatne wycieczki uwzgledniaja Elle jako gorski przystanek w trasach wielodniowych, a Twoj kierowca przewodnik ustala jazde wokol widokowej podrozy kolejowej, wizyt w fabrykach herbaty i najlepszego swiatla na most Dziewieciu Lukow.',
@@ -502,7 +522,7 @@ export const ELLA_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть и сделать в Элле',
-        body: 'Мост Девяти Арока самая открыточная фотография, за которой все приезжают: изогнутый каменный виадук без какого либо стального арматурного каркаса, лучше всего видимый в свете раннего утра (а ещё лучшеройти по нему между поездами). Little Adam’s Peak более мягкая альтернатива своему знаменитому тёзке: подъём на 45 to 60 минут, вознаграждаемый видом на 360 градусов на долину и чайные плантации.\n\nElla Rock более серьёзный из двух маршрутов, три четыре часа в обе стороны через действующие чайные плантации; рекомендуется местный гид, поскольку тропа проходит по частной плантационной земле и не всегда чётко размечена. Водопады Равана, короткая поездка на тук туке отсюда, простое дополнение, особенно после дождя, когда водопады текут в полную силу.',
+        body: 'Мост Девяти Арока самая открыточная фотография, за которой все приезжают: изогнутый каменный виадук без какого либо стального арматурного каркаса, лучше всего видимый в свете раннего утра (а ещё лучшеройти по нему между поездами). Little Adam’s Peak более мягкая альтернатива своему знаменитому тёзке: подъём на 45–60 минут, вознаграждаемый видом на 360 градусов на долину и чайные плантации.\n\nElla Rock более серьёзный из двух маршрутов, три четыре часа в обе стороны через действующие чайные плантации; рекомендуется местный гид, поскольку тропа проходит по частной плантационной земле и не всегда чётко размечена. Водопады Равана, короткая поездка на тук туке отсюда, простое дополнение, особенно после дождя, когда водопады текут в полную силу.',
       },
       {
         title: 'Практические советы для посещения',
@@ -522,7 +542,7 @@ export const ELLA_DEST: ArticleContent = {
       },
       {
         title: 'Где поесть в Элле',
-        body: 'Ориентированная на путешественников гастрономическая сцена Эллы разнообразнее, чем в большинстве горных посёлков: рестораны на крышах подают шри ланкийский rice and curry вместе с пиццей, пастой и хорошим эспрессо для тех, кто хочет разнообразия. Свежие местные овощи и более прохладный климат региона делают салаты и супы здесь действительно стоящими заказа, в отличие от более жарких низменностей.\n\nНе пропустите здесь по настоящему хорошую чашку чая: в нескольких кафе подают свежий чай прямо с плантации, приготовленный традиционным способом, и на вкус он заметно отличается от того, что идёт на экспорт.',
+        body: 'Ориентированная на путешественников гастрономическая сцена Эллы разнообразнее, чем в большинстве горных посёлков: рестораны на крышах подают шри ланкийский rice and curry вместе с пиццей, пастой и хорошим эспрессо для тех, кто хочет разнообразия. Свежие местные овощи и более прохладный климат региона делают салаты и супы здесь действительно стоящими заказа, в отличие от более жарких низменностей.\n\nНе пропустите здесь по-настоящему хорошую чашку чая: в нескольких кафе подают свежий чай прямо с плантации, приготовленный традиционным способом, и на вкус он заметно отличается от того, что идёт на экспорт.',
       },
     ],
     faq: [
@@ -546,6 +566,10 @@ export const ELLA_DEST: ArticleContent = {
         q: 'Можно ли посетить Эллу и Ялу в одной поездке?',
         a: 'Да Яла находится примерно в двух часах от Эллы на частном автомобиле, поэтому многие маршруты сочетают утреннее сафари в Яле с послеобеденным временем в Элле, либо используют Эллу как базу на две ночи, добавляя полнодневную экскурсию в Ялу.',
       },
+      {
+        q: 'Чем заняться в Элле кроме поезда?',
+        a: 'Мост Nine Arch, Little Adam’s Peak или Ella Rock и чайная фабрика. На следующее утро можно ехать в Ялу на сафари. Поезд из Канди в Эллу остаётся классическим способом прибытия.',
+      },
     ],
     ctaTitle: 'Спланируйте время в Элле',
     ctaBody: 'Наши частные туры включают Эллу как горную остановку в многодневных маршрутах водитель гид подстраивает поездку под живописный поезд, посещение чайных фабрик и лучший свет для моста Девяти Арок.',
@@ -565,80 +589,93 @@ export const ELLA_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Ella Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
-    lead: 'Kuhle Bergluft, ein Tal voller Teebusche, das sich in jede Richtung erstreckt, und das Gerausch des blauen Zuges, der ein jahrhundertealtes Viadukt uberquert  Ella ist der Bergland Stopp, wegen dem Reisende ihre Route gerne um einen Tag verlangern.',
-    heroAlt: 'Die Nine Arch Bridge inmitten gruner Teeplantagen bei Ella',
+    h1: 'Ella, Sri Lanka: Nine Arch Bridge, treinrit en uitzicht over het heuvelland',
+    lead: 'Ella is de stop in het heuvelland waarvoor reizigers hun route verlengen: de Nine Arch Bridge, de treinrit van Kandy naar Ella door de theeplantages, en koele berglucht die Little Adam’s Peak en Ella Rock een extra dag waard maken.',
+    heroAlt: 'Nine Arch Bridge tussen groene theeplantages bij Ella',
     sections: [
       {
-        title: 'Vom kolonialen Plantagenort zum Lieblingsort im Bergland',
-        body: 'Ella wuchs im Schatten des britischen Teeanbaus heran, als die umliegenden Hange gerodet und mit den ordentlichen Konturreihen aus Teebuschen bepflanzt wurden, die man noch heute sieht. Der Ort selbst blieb lange nach der Unabhangigkeit klein und verschlafen, bekannt vor allem bei Plantagenbesitzern und der Eisenbahn, die Teekisten zur Kuste transportierte.\n\nErst in den letzten zwei Jahrzehnten wurde Ella zu einem festen Ziel auf der Reiseroute, als sich die Aussicht vom Ella Gap und die Ingenieurleistung der Nine Arch Bridge herumsprachen. Aus dem einstigen Ein Strassen Dorf ist heute eine echte Bergstadt geworden, die sich jedoch weitgehend ihren entspannten, uberschaubaren Massstab bewahrt hat.',
+        id: 'history',
+        title: 'Van koloniaal plantageplaatsje tot favoriet in het heuvelland',
+        body: 'Ella groeide op in de schaduw van de Britse theeteelt, toen de omliggende hellingen werden ontbost en opnieuw beplant met de strakke contourrijen theestruiken die u vandaag nog ziet. Het plaatsje zelf bleef lang na de onafhankelijkheid klein en slaperig, vooral bekend bij planters en bij het treinverkeer op de lijn die theekisten naar de kust bracht.\n\nPas in de laatste twee decennia werd Ella een vaste stop op de reizigersroute, toen het uitzicht vanaf Ella Gap en de technische prestatie van de Nine Arch Bridge bekend raakten. Wat ooit een dorp met één straat was, is nu een echt plaatsje in het heuvelland, al heeft het grotendeels zijn ontspannen, beloopbare schaal behouden.',
       },
       {
-        title: 'Tamilisches, singhalesisches und koloniales Erbe nebeneinander',
-        body: 'Die Teeindustrie, die Ella gepragt hat, pragte auch seine Bevolkerung: Viele Familien, die auf den umliegenden Plantagen arbeiten, fuhren ihre Wurzeln auf tamilische Arbeiter zuruck, die im 19. Jahrhundert aus Sudindien geholt wurden. Hindu Kovils liegen zu Fuss erreichbar neben buddhistischen Tempeln und einer kleinen anglikanischen Kirche, die fur Plantagenfamilien errichtet wurde.\n\nEin Besuch einer arbeitenden Teefabrik  die meisten bieten kurze, informelle Fuhrungen an  ist ebenso Sozialgeschichte wie Landwirtschaft: Man sieht denselben Prozess des Welkens, Rollens und Rostens, der seit Kolonialzeiten genutzt wird, heute grosstenteils betrieben von den Nachfahren der ursprunglichen Plantagenarbeiter.',
+        id: 'culture',
+        title: 'Tamil, Singalees en planterserfgoed naast elkaar',
+        body: 'De theeindustrie die Ella vormgaf, vormde ook de bevolking. Veel families die op de omliggende plantages werken, voeren hun wortels terug op Tamil arbeiders die in de 19e eeuw uit Zuid India werden gehaald. Hindoeïstische kovils liggen op loopafstand van boeddhistische tempels en een kleine anglicaanse kerk die voor plantersfamilies werd gebouwd.\n\nEen bezoek aan een werkende theefabriek is hier evenzeer sociale geschiedenis als landbouw. De meeste fabrieken bieden korte informele rondleidingen. U ziet hetzelfde verwelken, rollen en roosten dat al sinds de koloniale tijd wordt gebruikt, nu grotendeels uitgevoerd door nakomelingen van de oorspronkelijke plantagearbeiders.',
       },
       {
-        title: 'Was man in Ella unternehmen sollte',
-        body: 'Die Nine Arch Bridge ist das Postkartenmotiv, fur das alle kommen  ein geschwungenes Steinviadukt ganz ohne Stahlbewehrung, am schonsten im fruhen Morgenlicht zu sehen (oder besser noch, zwischen zwei Zugen zu uberqueren). Little Adam’s Peak ist eine sanftere Alternative zu seinem beruhmten Namensvetter: ein 45- bis 60 minutiger Aufstieg, belohnt mit einem 360 Grad Blick uber das Tal und die Teeplantagen.\n\nElla Rock ist die anspruchsvollere der beiden Wanderungen, drei bis vier Stunden Hin und Ruckweg durch aktive Teeplantagen; ein lokaler Guide wird empfohlen, da der Pfad uber Plantagengelande fuhrt und nicht immer klar markiert ist. Die Ravana Falls, eine kurze Tuk Tuk Fahrt entfernt, sind ein einfacher Zusatzstopp, besonders nach Regen, wenn die Falle mit voller Kraft fliessen.',
+        id: 'thingsToDo',
+        title: 'Nine Arch Bridge, de treinrit en wat u in Ella kunt doen',
+        body: 'De Nine Arch Bridge is het beeld waarvoor iedereen komt: een gebogen stenen viaduct zonder enige stalen wapening, het mooist in het vroege ochtendlicht, en nog mooier als u er tussen de treinen door te voet overheen loopt. Little Adam’s Peak is een rustiger alternatief voor zijn beroemde naamgenoot, een klim van 45 tot 60 minuten die wordt beloond met een uitzicht van 360 graden over het dal en de theeplantages.\n\nElla Rock is de zwaardere van de twee wandelingen, drie tot vier uur heen en terug door werkende theeplantages. Een lokale gids is aan te raden, want het pad loopt over plantagegrond en is niet altijd duidelijk gemarkeerd. De Ravana Falls, een korte rit per tuk tuk verderop, zijn een eenvoudige extra stop, vooral na regen wanneer de waterval op volle kracht stroomt.',
       },
       {
-        title: 'Praktische Tipps fur den Besuch',
-        body: 'Die malerische Zugfahrt zwischen Ella und Kandy (oder Ella und Nuwara Eliya) gehort zu den meistfotografierten Bahnstrecken Asiens, und reservierte Sitzplatze der zweiten Klasse sind in der Hochsaison Wochen im Voraus ausgebucht  buchen Sie so fruh wie moglich oder reisen Sie mit einem Privatwagen und halten Sie einfach dort, wo die Aussicht es verlangt.\n\nElla liegt auf etwa 1.000 Metern Hohe, daher sind die Abende wirklich kuhl; packen Sie auch in der Trockenzeit eine leichte Jacke ein. Die Entfernungen im Ort sind zu Fuss gut zu bewaltigen, aber die Wege zum Little Adam’s Peak, zum Ella Rock und zu den Aussichtspunkten haben keine echten Gehwege  tragen Sie also Schuhe mit gutem Grip statt Sandalen.',
+        id: 'travelTips',
+        title: 'Praktische tips voor uw bezoek',
+        body: 'De schilderachtige treinrit tussen Ella en Kandy, of tussen Ella en Nuwara Eliya, hoort bij de meest gefotografeerde spoorlijnen van Azië. Gereserveerde zitplaatsen in de tweede klas zijn in het hoogseizoen weken van tevoren uitverkocht. Boek zo vroeg als uw reisdata toelaten, of reis met een privéauto en stop waar het uitzicht daarom vraagt.\n\nElla ligt op ongeveer 1.000 meter, dus de avonden zijn echt koel. Neem ook in het droge seizoen een lichte jas mee. De afstanden in het plaatsje zijn kort genoeg om te lopen, maar de wegen naar Little Adam’s Peak, Ella Rock en de uitzichtpunten hebben geen echte voetpaden. Draag daarom schoenen met profiel in plaats van sandalen.',
       },
       {
-        title: 'Wetter in Ella',
-        body: 'Ellas Bergklima ist ganzjahrig deutlich kuhler und gruner als an der Kuste oder im Kulturdreieck, mit den trockensten, klarsten Phasen typischerweise von Januar bis April. Nachmittags zieht haufig Nebel ins Tal, was wunderschone, stimmungsvolle Fotos ermoglicht, gelegentlich aber den klassischen Blick auf die Nine Arch Bridge verdeckt.\n\nRegen ist in jedem Monat moglich; eine leichte Regenjacke lohnt sich unabhangig von der Saison, da Nachmittagsschauer in dieser Hohenlage oft ohne viel Vorwarnung kommen.',
+        id: 'weather',
+        title: 'Het weer in Ella',
+        body: 'Het klimaat van Ella in het heuvelland is het hele jaar merkbaar koeler en groener dan aan de kust of in de Culturele Driehoek. De droogste en helderste perioden vallen meestal van januari tot april. In de middag trekt vaak mist het dal in. Dat levert sfeervolle foto’s op, maar het klassieke uitzicht op de Nine Arch Bridge verdwijnt soms achter de nevel.\n\nRegen is in elke maand mogelijk. Een lichte regenjas is in elk seizoen de moeite waard, want op deze hoogte kunnen buien in de middag met weinig waarschuwing opkomen.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Der Yala Nationalpark liegt etwa zwei Autostunden sudostlich, sodass sich ein fruher Morgen Safari mit einem Nachmittag in Ella fur Reisende mit wenig Zeit gut kombinieren lasst. Nuwara Eliya, Sri Lankas hochstgelegene Stadt und lebendigstes Teeland, ist etwa zwei bis drei Stunden per Strasse oder eine malerische Zugfahrt entfernt.\n\nDie Diyaluma Wasserfalle, einer der hochsten des Landes, und der Elefanten Beobachtungspark Uda Walawe sind beide als Halbtags- oder Tagesausflug von Ella aus erreichbar, wenn Sie einen zusatzlichen Tag Zeit haben.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'Yala National Park ligt ongeveer twee uur rijden naar het zuidoosten. Een vroege ochtendsafari gevolgd door een middag in Ella is daardoor een efficiënte combinatie voor reizigers met weinig tijd. Nuwara Eliya, de hoogstgelegen plaats van Sri Lanka en het levendigste theegebied, ligt op ongeveer twee tot drie uur over de weg of met een schilderachtige treinrit.\n\nDiyaluma Falls, een van de hoogste watervallen van het land, en het park Uda Walawe waar u olifanten ziet, zijn allebei als uitstap van een halve dag of een hele dag vanuit Ella te doen, als u een extra dag over hebt.',
       },
       {
-        title: 'Wo man ubernachten kann',
-        body: 'Die Unterkunfte in Ella sind stark aussichtsorientiert: Viele Gastehauser und Mittelklassehotels sind gezielt am Hang gebaut, um den Blick auf den Ella Gap oder die umliegenden Teeplantagen vom Fruhstuckstisch aus einzurahmen. Reisende mit kleinerem Budget finden gut gefuhrte, familiare Homestays im Ortszentrum, nur einen kurzen Fussweg von Restaurants und Bahnhof entfernt.\n\nFur einen ruhigeren Aufenthalt liegen einige Unterkunfte eine kurze Tuk Tuk Fahrt ausserhalb des Ortes auf aktiven Teeplantagen  etwas weniger Bequemlichkeit gegen echte Plantagenatmosphare und nachtliche Stille.',
+        id: 'hotels',
+        title: 'Waar u kunt overnachten',
+        body: 'De overnachtingen in Ella draaien sterk om het uitzicht. Veel pensions en hotels in de middenklasse zijn in de helling gebouwd, zodat u vanaf de ontbijttafel Ella Gap of de omliggende theeplantages in beeld hebt. Reizigers met een kleiner budget vinden logementen bij lokale families in het centrum, op loopafstand van restaurants en het station.\n\nVoor een stiller verblijf liggen enkele adressen een korte rit per tuk tuk buiten het plaatsje, op werkende theeplantages. U ruilt dan wat gemak in voor een echte plantageomgeving en volledige rust in de nacht.',
       },
       {
-        title: 'Essen in Ella',
-        body: 'Ellas reisefreundliche Gastroszene ist vielfaltiger als in den meisten Bergstadten: Dachterrassenrestaurants servieren srilankisches Rice and Curry neben Pizza, Pasta und gutem Espresso fur alle, die eine Abwechslung von der Reise suchen. Frisches, lokal angebautes Gemuse und das kuhlere Klima der Region machen Salate und Suppen hier tatsachlich lohnenswert  anders als im heisseren Tiefland.\n\nVerpassen Sie hier nicht eine richtige Tasse Tee: Mehrere Cafes servieren frischen Tee direkt von der Plantage, traditionell zubereitet, und er schmeckt deutlich anders als das, was in den Export geht.',
+        id: 'restaurants',
+        title: 'Eten in Ella',
+        body: 'Het eten in Ella is afwisselender dan in de meeste plaatsen in het heuvelland. Restaurants met een dakterras serveren Sri Lankaanse rijst met curry naast pizza, pasta en goede espresso, voor wie even iets anders wil dan onderweg. Verse, lokaal geteelde groenten en het koelere klimaat maken salades en soepen hier echt de moeite waard, anders dan in het hetere laagland.\n\nSla een echte kop thee niet over zolang u hier bent. Verschillende cafés serveren verse thee van de plantage, op de traditionele manier gezet, en die smaakt duidelijk anders dan de thee die de exportmarkten bereikt.',
       },
     ],
     faq: [
       {
-        q: 'Lohnt sich die Zugfahrt von Kandy nach Ella?',
-        a: 'Fur die meisten Reisenden ja  die Strecke fuhrt durch Teeplantagen, Tunnel und Viadukte mit Ausblicken, die auf der Strasse kaum zu erreichen sind. Buchen Sie in der Hochsaison einen reservierten Platz fruhzeitig, sonst mussen Sie eventuell stehen oder in einem unreservierten Waggon sitzen.',
+        q: 'Is de trein van Kandy naar Ella de moeite waard?',
+        a: 'Ja, voor de meeste reizigers wel. De lijn klimt door theeplantages, tunnels en viaducten, met uitzichten die over de weg moeilijk te evenaren zijn. Boek in het hoogseizoen ruim van tevoren een gereserveerde plaats, of reken erop dat u staat of in een wagon zonder reservering zit.',
       },
       {
-        q: 'Wie viele Tage sollte ich in Ella verbringen?',
-        a: 'Zwei volle Tage reichen, um die Nine Arch Bridge zu sehen, Little Adam’s Peak oder Ella Rock zu besteigen und eine Teefabrik zu besuchen, ohne zu hetzen. Fugen Sie einen dritten Tag hinzu, wenn Sie Ella mit den Diyaluma Falls oder einer fruhen Yala Safari verbinden mochten.',
+        q: 'Hoeveel dagen moet ik in Ella blijven?',
+        a: 'Twee volle dagen zijn genoeg om de Nine Arch Bridge te zien, naar Little Adam’s Peak of Ella Rock te wandelen en een theefabriek te bezoeken, zonder haast. Neem een derde dag als u Ella wilt combineren met Diyaluma Falls of een vroege safari in Yala.',
       },
       {
-        q: 'Ist die Wanderung zum Ella Rock schwierig?',
-        a: 'Sie ist anspruchsvoller als Little Adam’s Peak  drei bis vier Stunden Hin und Ruckweg mit einigen steilen, unmarkierten Abschnitten durch Teeplantagengelande , weshalb ein lokaler Guide und geeignetes Schuhwerk empfehlenswert statt optional sind.',
+        q: 'Is de wandeling naar Ella Rock zwaar?',
+        a: 'Die is zwaarder dan Little Adam’s Peak: drie tot vier uur heen en terug, met steile, ongemarkeerde stukken over plantagegrond. Een lokale gids en goede schoenen zijn daarom aan te raden, niet vrijblijvend.',
       },
       {
-        q: 'Wann ist die beste Reisezeit fur Ella?',
-        a: 'Januar bis April bringt meist den klarsten Himmel und trockensten Pfade, doch Ellas Hohenlage halt es das ganze Jahr uber kuhler und gruner als die Kuste, und kurze Nachmittagsschauer sind in jedem Monat moglich.',
+        q: 'Wat is de beste reistijd voor Ella?',
+        a: 'Januari tot april brengt meestal de helderste luchten en de droogste paden. Door de hoogte blijft Ella het hele jaar koeler en groener dan de kust, en korte buien in de middag zijn in elke maand mogelijk.',
       },
       {
-        q: 'Kann ich Ella und Yala in derselben Reise besuchen?',
-        a: 'Ja  Yala liegt etwa zwei Autostunden von Ella entfernt, sodass viele Reiseplane eine Yala Morgen Safari mit einem Ella Nachmittag kombinieren oder Ella fur zwei Nachte als Basis nutzen und einen ganztagigen Yala Ausflug erganzen.',
+        q: 'Kan ik Ella en Yala in dezelfde reis bezoeken?',
+        a: 'Ja. Yala ligt ongeveer twee uur van Ella met een privéauto. Veel routes combineren een ochtendsafari in Yala met een middag in Ella, of nemen Ella als basis voor twee nachten en voegen een daguitstap naar Yala toe.',
+      },
+      {
+        q: 'Wat kunt u in Ella doen naast de trein?',
+        a: 'Bezoek de Nine Arch Bridge, wandel naar Little Adam’s Peak of Ella Rock en ga langs een theefabriek. Wilt u de volgende ochtend een safari, dan gaat u van Ella naar Yala National Park. De trein van Kandy naar Ella blijft de klassieke aankomst.',
       },
     ],
-    ctaTitle: 'Planen Sie Ihre Zeit in Ella',
-    ctaBody: 'Unsere privaten Rundreisen fuhren uber mehrere Tage auch nach Ella als Bergland Stopp, wobei Ihr Fahrer Guide die Fahrt rund um die malerische Zugfahrt, Teefabrikbesuche und das beste Licht fur die Nine Arch Bridge plant.',
-    ctaLabel: 'Ella Route zusammenstellen',
+    ctaTitle: 'Plan uw tijd in Ella',
+    ctaBody: 'Onze privérondreizen nemen Ella op als stop in het heuvelland tijdens routes van meerdere dagen. Uw chauffeurgids stemt de rit af op de schilderachtige trein, bezoeken aan theefabrieken en het beste licht voor de Nine Arch Bridge.',
+    ctaLabel: 'Stel uw route door Ella samen',
     relatedTours: [
-      { pageId: 'ellaDay', label: 'Ella Tagestour' },
-      { pageId: 'tour2ey', label: '2 tagige Ella & Yala Tour' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
+      { pageId: 'ellaDay', label: 'Dagtocht naar Ella' },
+      { pageId: 'tour2ey', label: 'Rondreis van 2 dagen Ella en Yala' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
-      { pageId: 'destYala', label: 'Yala Nationalpark' },
+      { pageId: 'destYala', label: 'Nationaal park Yala' },
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideTeaCountry', label: 'Sri Lanka Teeland Ratgeber' },
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
+      { pageId: 'guideTrainJourneys', label: 'Treinrit van Kandy naar Ella' },
+      { pageId: 'guideTeaCountry', label: 'Gids voor het theegebied van Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
     ],
   }
 };

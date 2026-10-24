@@ -449,7 +449,7 @@ export const WILDLIFE_GUIDE: ArticleContent = {
       },
       {
         title: 'Леопарды: звезда Ялы, более спокойная альтернатива Вилпатту',
-        body: 'Блок I Ялы имеет одну из самых высоких плотностей леопардов в мире впечатляет, пока не вспомнишь, что они одиночны, ночны и идеально замаскированы. Хороший утренний drive с терпеливым трекером даёт разумные шансы; два выезда подряд заметно их улучшают. Толпы, особенно в выходные, портят впечатление выезжайте рано и принимайте отсутствие гарантий.\n\nВилпатту на северо западном побережье предлагает более лесистую, менее перегруженную среду со леопардами, медведями губачами и птицами для тех, кто предпочитает меньше джипов, а не максимальную плотность.',
+        body: 'Блок I Ялы имеет одну из самых высоких плотностей леопардов в мире впечатляет, пока не вспомнишь, что они одиночны, ночны и идеально замаскированы. Хороший утренний выезд с терпеливым трекером даёт разумные шансы; два выезда подряд заметно их улучшают. Толпы, особенно в выходные, портят впечатление выезжайте рано и принимайте отсутствие гарантий.\n\nВилпатту на северо западном побережье предлагает более лесистую, менее перегруженную среду с леопардами, медведями губачами и птицами для тех, кто предпочитает меньше джипов, а не максимальную плотность.',
       },
       {
         title: 'Киты, дельфины и прибрежная фауна',
@@ -457,15 +457,15 @@ export const WILDLIFE_GUIDE: ArticleContent = {
       },
       {
         title: 'Птицы и мелкие млекопитающие, ради которых стоит свернуть',
-        body: 'Бундала у Хамбантоты Ramsar-зона для перелётных птиц, фламинго и крокодилов; отлично для бёрдинга, часто пропускается в стандартных турах. Синharaja, тропический лес ЮНЕСКО, хранит множество эндемичных птиц и лучше исследуется пешком с местным гидом, а не из джипа.\n\nМеньшие парки вроде Gal Oya (сафари на лодке) и Horton Plains (самбар и горные птицы) награждают тех, кто хочет больше, чем ось Яла–Удавалаве.',
+        body: 'Бундала у Хамбантоты Ramsar-зона для перелётных птиц, фламинго и крокодилов; отлично для наблюдения за птицами, часто пропускается в стандартных турах. Синхараджа, тропический лес ЮНЕСКО, хранит множество эндемичных птиц и лучше исследуется пешком с местным гидом, а не из джипа.\n\nМеньшие парки вроде Gal Oya (сафари на лодке) и Horton Plains (самбар и горные птицы) награждают тех, кто хочет больше, чем ось Яла–Удавалаве.',
       },
       {
         title: 'Выбор между Ялой, Удавалаве, Миннерией и Вилпатту',
-        body: 'Яла: леопарды, разнообразные ландшафты, удобно с Культурным треугольником, но многолюдно и закрыта примерно месяц в год (обычно сентябрь). Удавалаве: слоны, идеально с детьми или малым временем. Миннерия/Каудулла: сезонные скопления у Сигирии проверьте уровень воды перед бронированием. Вилпатту: более спокойные леопарды и медведи, более длинные лесные маршруты.\n\nБольшинство недельных маршрутов разумно включает один–два парка, не четыре. Водитель гид выстроит их по сезону, времени в пути и тому, что вы уже видели в Азии.',
+        body: 'Яла: леопарды, разнообразные ландшафты, удобно с Культурным треугольником, но многолюдно и закрыта примерно месяц в год (обычно сентябрь). Удавалаве: слоны, идеально с детьми или малым временем. Миннерия/Каудулла: сезонные скопления у Сигирии. Проверьте уровень воды перед бронированием. Вилпатту: более спокойные леопарды и медведи, более длинные лесные маршруты.\n\nБольшинство недельных маршрутов разумно включает один–два парка, не четыре. Водитель гид выстроит их по сезону, времени в пути и тому, что вы уже видели в Азии.',
       },
       {
         title: 'Этика, сезоны и ответственное наблюдение',
-        body: 'Оставайтесь в джипе, если правила не разрешают иное; не поощряйте погоню, перекрытие пути или преследование матерей с детёнышами. Вспышки и шум стрессируют животных бинокль и терпение лучше крупных планов.\n\nСухой сезон (примерно май–сентябрь на юго востоке, ноябрь–апрель для китов) концентрирует животных у воды. Муссон редко отменяет сафари полностью, но означает грязные дороги и менее активных кошек. Согласуйте парк с нашим гидом по сезонам и бронируйте джипы у проверенных операторов.',
+        body: 'Оставайтесь в джипе, если правила не разрешают иное; не поощряйте погоню, перекрытие пути или преследование матерей с детёнышами. Вспышки и шум стрессируют животных. Бинокль и терпение лучше крупных планов.\n\nСухой сезон (примерно май–сентябрь на юго востоке, ноябрь–апрель для китов) концентрирует животных у воды. Муссон редко отменяет сафари полностью, но означает грязные дороги и менее активных кошек. Согласуйте парк с нашим гидом по сезонам и бронируйте джипы у проверенных операторов.',
       },
     ],
     faq: [
@@ -509,73 +509,79 @@ export const WILDLIFE_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Tierwelt Ratgeber: Elefanten, Leoparden, Wale und wo man sie sieht',
-    lead: 'Fur eine Insel etwa so gross wie Irland birgt Sri Lanka eine aussergewohnliche Wildtierdichte asiatische Elefanten in offenen Graslandschaften, Leoparden im Trockenwald, Blauwale vor der Sudkuste und endemische Vogel in Regenwaldinseln. Entscheidend ist, Art und Saison passend zu wahlen, statt alles in einem hetzigen Vormittag sehen zu wollen.',
-    heroAlt: 'Freilebende Elefanten in einem srilankischen Nationalpark',
+    h1: 'Wilde dieren in Sri Lanka: olifanten, luipaarden, walvissen en waar u ze ziet',
+    lead: 'Voor een eiland ongeveer zo groot als Ierland heeft Sri Lanka een bijzonder hoge dichtheid aan wilde dieren: Aziatische olifanten in open grasland, luipaarden in droog bos, blauwe walvissen voor de zuidkust en endemische vogels in stukjes regenwoud. De kunst is elke soort aan het juiste park en het juiste seizoen te koppelen, in plaats van alles op één gehaaste ochtend te willen zien.',
+    heroAlt: 'Wilde olifanten die grazen in een nationaal park in Sri Lanka',
     sections: [
       {
-        title: 'Elefanten: die verlasslichste Wildtierbegegnung der Insel',
-        body: 'Sri Lanka beherbergt eine der grossten Asiatischen Elefanten Populationen der Region; in mehreren Parks sind Sichtungen fast Routine. Udawalawe im sudzentralen Trockengebiet ist fur Familien am zuverlassigsten offenes Gelande, grosse Herde und kurzere Fahrten als in Yala bedeuten oft Elefanten schon in der ersten Stunde.\n\nMinneriya und Kaudulla nahe Sigiriya sind beruhmt fur das „Gathering“ von etwa Juli bis Oktober, wenn Hunderte Elefanten an den zuruckweichenden Tankufern zusammenkommen. Es ist wetterabhangig, aber bei passenden Bedingungen eines der grossen Naturereignisse Asiens.',
+        id: 'elephants',
+        title: 'Olifanten: de meest betrouwbare ontmoeting met wilde dieren op het eiland',
+        body: 'Sri Lanka heeft een van de grootste populaties Aziatische olifanten in de regio, en in verschillende parken zijn waarnemingen bijna vanzelfsprekend in plaats van een kwestie van geluk. Nationaal park Udawalawe, in de zuidcentrale droge zone, is de meest betrouwbare keuze voor gezinnen. Open terrein, een grote vaste kudde en kortere ritten dan in Yala betekenen vaak olifanten binnen het eerste uur.\n\nDe nationale parken Minneriya en Kaudulla, bij Sigiriya, zijn beroemd om The Gathering, ruwweg van juli tot oktober, wanneer honderden olifanten samenkomen aan de terugwijkende oevers van de tanks, de oude waterbekkens. Het is seizoensgebonden en afhankelijk van het weer, maar als de omstandigheden kloppen, is het een van de grote natuurspektakels van Azië.',
       },
       {
-        title: 'Leoparden: Yalas Star, Wilpattus ruhigere Alternative',
-        body: 'Yala Block I hat eine der weltweit hochsten Leoparden Dichten beeindruckend, bis man bedenkt, dass Leoparden Einzelganger, nachtaktiv und perfekt getarnt sind. Eine gute Morgenfahrt mit geduldigem Tracker gibt dennoch vernunftige Chancen; zwei aufeinanderfolgende Drives verbessern sie deutlich. Andrang an Wochenenden mindert das Erlebnis fruh starten und akzeptieren, dass nichts garantiert ist.\n\nWilpattu an der Nordwestkuste bietet waldigeres, weniger uberfulltes Terrain mit Leoparden, Lippenbaren und Vogelwelt ideal, wer weniger Jeeps als maximale Dichte bevorzugt.',
+        id: 'leopards',
+        title: 'Luipaarden: de ster van Yala, het rustigere alternatief Wilpattu',
+        body: 'Yala Block I heeft een van de hoogste luipaarddichtheden ter wereld. Dat klinkt indrukwekkend, tot u bedenkt dat luipaarden solitair, nachtactief en perfect gecamoufleerd zijn. Een goede ochtendrit met een geduldige tracker geeft nog steeds een redelijke kans. Twee ritten direct na elkaar verbeteren die kans verder. Drukte, vooral in weekenden en op feestdagen, kan de ervaring minder maken. Vertrek vroeg en accepteer dat een waarneming nooit gegarandeerd is.\n\nNationaal park Wilpattu, aan de noordwestkust, biedt een bosrijkere en minder drukke omgeving met luipaarden, lippenberen en vogels. Het past bij reizigers die liever minder jeeps zien dan de hoogste dichtheid waarmee het park bekendstaat.',
       },
       {
-        title: 'Wale, Delfine und Kustenfauna',
-        body: 'Mirissa und Kalpitiya sind die Hauptbasen fur Walbeobachtung. Blau und Pottwale erscheinen vor Mirissa etwa von November bis April; Boote fahren fruh, ruhige Morgen sind am besten. Kalpitiya passt zu einem anderen Kalender Delfine ganzjahrig, Pottwale in bestimmten Offshore Fenstern und kombiniert sich gut mit Wilpattu.\n\nSchildkroten Aufzuchtstationen an der Sudkuste sind eher Bildung als Wildnis; wer Ethik wichtig findet, bevorzugt Zentren mit ordentlicher Auswilderung und ohne adulte Tiere in Schauaquarien.',
+        id: 'whalesAndMarine',
+        title: 'Walvissen, dolfijnen en dieren aan de kust',
+        body: 'Mirissa en Kalpitiya zijn de twee belangrijkste bases voor walvissen kijken. Blauwe walvissen en potvissen verschijnen voor Mirissa ruwweg van november tot april, in dezelfde periode als het droge seizoen aan de zuidkust. De boten vertrekken vroeg en de omstandigheden zijn het best op kalme ochtenden. Kalpitiya past bij een andere kalender: dolfijnen het hele jaar en potvissen in bepaalde periodes verder op zee, in dieper water. Het laat zich goed combineren met Wilpattu of de noordwestkust.\n\nSchildpaddenkwekerijen langs de zuidkust zijn leerzaam, maar geen ontmoeting met wilde dieren. Als ethiek voor u telt, kies dan centra die jonge schildpadden op de juiste manier vrijlaten en vermijd locaties die volwassen schildpadden in bassins houden om ze te tonen.',
       },
       {
-        title: 'Vogel und kleinere Saugetiere, die Umwege lohnen',
-        body: 'Bundala nahe Hambantota ist ein Ramsar Feuchtgebiet fur Zugvogel, Flamingos und Salzwasserkrokodile hervorragend fur Birding, oft ubersehen auf Standardrundreisen. Sinharaja, UNESCO Regenwald, birgt viele endemische Vogel und lohnt sich am besten zu Fuss mit lokalem Guide statt aus dem Jeep.\n\nKleinere Parks wie Gal Oya (Bootssafaris) und Horton Plains (Sambar und Hochlandvogel) belohnen Reisende, die mehr als die Yala to Udawalawe Achse wollen.',
+        id: 'birdlife',
+        title: 'Vogels en kleinere zoogdieren die de omweg waard zijn',
+        body: 'Nationaal park Bundala, bij Hambantota, is een Ramsar watergebied dat een bolwerk is voor trekkende steltlopers, flamingo’s en zoutwaterkrokodillen. Het is uitstekend voor vogelaars en wordt op standaard rondreizen vaak overgeslagen. Het bosreservaat Sinharaja, een regenwoud van UNESCO, herbergt een groot deel van de endemische vogels van Sri Lanka. De beste manier is te voet met een lokale gids, niet vanuit een jeep.\n\nKleinere parken zoals Gal Oya (bootsafari’s op het stuwmeer) en Horton Plains (sambarherten en vogels van het hoogland) belonen reizigers die meer variatie willen dan alleen de lijn van Yala naar Udawalawe.',
       },
       {
-        title: 'Yala, Udawalawe, Minneriya oder Wilpattu was passt?',
-        body: 'Yala: Leoparden, abwechslungsreiches Habitat, gut mit Kulturdreieck kombinierbar, aber voll und etwa einen Monat jahrlich geschlossen (meist September). Udawalawe: Elefanten, ideal mit Kindern oder wenig Zeit. Minneriya/Kaudulla: saisonale Versammlungen nahe Sigiriya Wasserstand vor Buchung prufen. Wilpattu: ruhigeres Leopard und Barenland mit langeren Waldfahrten.\n\nDie meisten Wochenrundreisen schaffen sinnvoll ein bis zwei Parks, nicht vier. Ihr Fahrer Guide ordnet nach Saison, Fahrzeit und dem, was Sie in Asien schon gesehen haben.',
+        id: 'parkGuide',
+        title: 'Kiezen tussen Yala, Udawalawe, Minneriya en Wilpattu',
+        body: 'Yala: het best voor luipaarden, een gevarieerd leefgebied en combinatie met de culturele driehoek, maar druk en ongeveer een maand per jaar gesloten (meestal in september) voor onderhoud. Udawalawe: het best voor olifanten, vooral met kinderen of weinig tijd. Minneriya en Kaudulla: seizoensgebonden samenkomsten van olifanten bij Sigiriya. Controleer het waterpeil voor u boekt. Wilpattu: rustiger gebied voor luipaarden en beren, met een langere en bosrijkere rit.\n\nDe meeste rondreizen van een week nemen verstandig één of twee parken op, niet vier. Uw privéchauffeur kan de parken ordenen op seizoen, rijtijd en wat u elders in Azië al hebt gezien.',
       },
       {
-        title: 'Ethik, Jahreszeiten und verantwortungsvolles Beobachten',
-        body: 'Im Jeep bleiben, sofern Parkregeln nichts anderes erlauben; Fahrer nie zum Jagen, Blockieren oder Bedrangen von Muttertieren mit Kalbern ermutigen. Blitzlicht und Larm stressen Tiere Fernglas und Geduld schlagen Close ups.\n\nTrockenzeit (etwa Mai to September in Sudostparks, November to April fur Wale) konzentriert Tiere an Wasser. Monsunregen stoppt Safaris selten ganz, bedeutet aber matschige Pisten und weniger aktive Katzen. Parkwahl mit unserem Beste Reisezeit Ratgeber abstimmen und Jeeps uber seriose Anbieter buchen.',
+        id: 'ethicsAndSeasons',
+        title: 'Ethiek, seizoenen en verantwoord kijken',
+        body: 'Blijf in de jeep, tenzij de parkregels uitdrukkelijk iets anders toestaan. Moedig chauffeurs nooit aan om dieren te achtervolgen, hun pad te blokkeren of moeders met kalveren te verdringen. Flitsfotografie en luid gedrag belasten wilde dieren. Een verrekijker en geduld zijn elke keer beter dan een foto van dichtbij.\n\nIn de droge maanden (ruwweg mei tot september in de parken in het zuidoosten, november tot april voor walvissen) verzamelen dieren zich bij het water en is het zicht beter. Moessonregen legt safariritten zelden helemaal stil, maar kan modderige paden en minder katachtigen onderweg betekenen. Stem de parkkeuze af op onze gids over de beste reistijd en boek jeeps via betrouwbare aanbieders, niet via losse lokkers bij de poort.',
       },
     ],
     faq: [
       {
-        q: 'Welcher Park ist am besten fur Elefanten?',
-        a: 'Udawalawe ist ganzjahrig am verlasslichsten; Minneriya und Kaudulla sind von etwa Juli bis Oktober spektakular, wenn Herden an den Tankufern zusammenkommen.',
+        q: 'Welk park is het best om olifanten te zien in Sri Lanka?',
+        a: 'Udawalawe is het hele jaar het meest betrouwbaar. Minneriya en Kaudulla zijn spectaculair voor grote samenkomsten, ruwweg van juli tot oktober, wanneer het waterpeil de kuddes naar de oevers van de tanks trekt.',
       },
       {
-        q: 'Sieht man Leoparden bei einer einzigen Yala Safari?',
-        a: 'Moglich, aber nicht garantiert. Zwei Drives (Morgen und Abend) an aufeinanderfolgenden Tagen geben deutlich bessere Chancen als eine hetzte Runde.',
+        q: 'Kan ik luipaarden zien tijdens één safari in Yala?',
+        a: 'Dat kan, maar het is niet gegarandeerd. Luipaarden blijven schuw, ook in Yala. Twee ritten (ochtend en avond) op opeenvolgende dagen geven een duidelijk betere kans dan één gehaaste ronde.',
       },
       {
-        q: 'Wann ist Walbeobachtungssaison in Mirissa?',
-        a: 'Etwa November bis April, ruhigste See meist am Morgen. Ausserhalb dieses Fensters lieber Parks oder die Ostkuste statt einer erzwungenen Bootsfahrt.',
+        q: 'Wanneer is het seizoen voor walvissen bij Mirissa?',
+        a: 'Ruwweg van november tot april, met de kalmste zee meestal in de ochtend. Buiten die periode richt u zich beter op parken of de oostkust dan op een geforceerde tocht op zee.',
       },
       {
-        q: 'Sind Elefanten Waisenhauser ethisch vertretbar?',
-        a: 'Viele Reisende bevorzugen heute Wildparks. Wer ein Sanctuary besucht, sollte prufen, ob Tiere gefesselt, geritten oder fur Shows genutzt werden seriose Zentren tun das nicht.',
+        q: 'Is een bezoek aan een olifantenweeshuis ethisch?',
+        a: 'Veel reizigers geven nu de voorkeur aan wilde parken boven locaties met dieren in gevangenschap. Bezoekt u een opvang, zoek dan uit of olifanten worden vastgeketend, bereden of gebruikt voor voorstellingen. Serieuze natuurbeschermingscentra doen geen van die dingen.',
       },
       {
-        q: 'Wie viele Nationalparks passen in eine Woche?',
-        a: 'Ein bis zwei Wildtierstopps neben Kultur und Bergen z. B. Udawalawe plus Walbeobachtung oder Yala mit Minneriya, wenn das Gathering passt.',
+        q: 'Hoeveel nationale parken passen in een reis van een week door Sri Lanka?',
+        a: 'Eén of twee stops voor wilde dieren werken goed naast cultuur en heuvels, bijvoorbeeld Udawalawe plus een walvistocht, of Yala met Minneriya als uw data samenvallen met The Gathering.',
       },
     ],
-    ctaTitle: 'Wildtierbeobachtung in Ihre private Route einbauen',
-    ctaBody: 'Nennen Sie uns Reisedaten und Prioritaten wir ordnen die passenden Parks, Jeepzeiten und Fahrtetappen in eine Rundreise mit Chauffeur ein, ohne die Woche zu uberladen.',
-    ctaLabel: 'Wildtier Route planen',
+    ctaTitle: 'Neem wilde dieren op in uw privérondreis',
+    ctaBody: 'Vertel ons uw reisdata en prioriteiten. We passen de juiste parken, jeeptijden en ritten in een rondreis met privéchauffeur in, zonder de week te overladen.',
+    ctaLabel: 'Plan een route met wilde dieren',
     relatedTours: [
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour8', label: '8 tagige Sri Lanka Rundreise' },
+      { pageId: 'tour5', label: 'Sri Lanka rondreis van 5 dagen' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'tour8', label: 'Sri Lanka rondreis van 8 dagen' },
     ],
     relatedDestinations: [
-      { pageId: 'destYala', label: 'Yala Nationalpark' },
+      { pageId: 'destYala', label: 'Nationaal park Yala' },
       { pageId: 'destSigiriya', label: 'Sigiriya' },
     ],
     relatedGuides: [
-      { pageId: 'guideSafari', label: 'Sri Lanka Safari Ratgeber' },
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
+      { pageId: 'guideSafari', label: 'Safarigids voor Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   }
 };

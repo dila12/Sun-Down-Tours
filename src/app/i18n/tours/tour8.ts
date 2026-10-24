@@ -2029,283 +2029,286 @@ export const TOUR8: TourContent = {
     ],
   },
   nl: {
-    title: '8 Tage Sri Lanka Privatreise | Safari, Kultur, Bergland & Strand',
+    title: 'Privérondreis van 8 dagen door Sri Lanka | Safari, cultuur, heuvelland en strand',
     description:
-      'Eine unvergessliche 8 tagige Sri Lanka Privatreise mit Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Abenteuern in Ella und einem entspannten Aufenthalt an der Sudkuste.',
-    duration: '8 Tage',
-    persons: '1-20 Personen',
-    tourType: 'Rundreise',
+      'Een onvergetelijke privérondreis van 8 dagen door Sri Lanka, met safari in Wilpattu, Anuradhapura, Sigiriya, Kandy, avonturen in Ella en een ontspannen verblijf aan de zuidkust.',
+    duration: '8 dagen',
+    persons: '1 tot 20 personen',
+    tourType: 'Rondreis',
     overview:
-      'Entdecken Sie Sri Lankas Tierwelt, antike Konigreiche, malerische Berge und goldene Strande auf dieser perfekt ausbalancierten 8 tagigen Reise. Diese Rundreise verbindet Safari Abenteuer, UNESCO Welterbestatten, Berglandschaften, Teeplantagen, Wasserfalle und entspannte Kustenerlebnisse mit Halbpension und privatem Transport.',
+      'Ontdek de wilde dieren, de oude koninkrijken, de groene bergen en de gouden stranden van Sri Lanka in één evenwichtige reis van 8 dagen. Deze rondreis combineert safari, UNESCO werelderfgoed, landschappen in het heuvelland, theeplantages, watervallen en ontspannen tijd aan de kust, met verblijf op basis van halfpension en privévervoer.',
     includes: PACKAGE_INCLUDES.nl,
     excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Acht Tage sind der ideale Zeitrahmen fur antike Konigreiche, das dramatische Hugelland und einen richtigen Strandabschluss, ohne Eile. Diese private Sri Lanka Rundreise verbindet den Sonnenuntergang am Pidurangala und den Lowenfelsen Sigiriya mit den Hohlentempeln von Dambulla, den Zahnreliquien Ritualen in Kandy und den Panoramen des Ambuluwawa Turms uber den Teeplantagen. In Ella erwarten Sie die Nine Arches Bridge, Little Adam\'s Peak und die Ravana Wasserfalle, bevor eine Leoparden Safari in Yala und zwei Nachte an der Kuste von Mirissa mit Whale Watching, Schildkroten Schnorcheln und Sonnenuntergangs Kajaktouren folgen. Sundown Tours beinhaltet sieben Nachte Halbpension in 4 Sterne Hotels, Flughafentransfers und einen englischsprachigen Chauffeur mit unbegrenzter Kilometerleistung in Ihrem Privatfahrzeug. Eintrittsgebuhren und optionale Wasseraktivitaten bleiben Ihnen selbst uberlassen, sodass Sie sich starker auf Tierwelt oder Strandzeit konzentrieren konnen. Jeder Tag verbindet UNESCO Kulturerbe mit hautnahen Erlebnissen  Katamaranfahrten im Dorf, Gewurzmarkte und Zimt Bootssafaris , die bei Bustouren oft fehlen.',
+      'Acht dagen is de ideale lengte als u oude koninkrijken, het indrukwekkende heuvelland en een volwaardige afsluiting aan het strand wilt, zonder haast. Deze privérondreis door Sri Lanka brengt de zonsondergang bij Pidurangala en de leeuwenrots van Sigiriya samen met de grottempels van Dambulla, de rituelen rond de tandrelikwie in Kandy en het panorama vanaf de Ambuluwawa Tower boven de theeplantages. In Ella ziet u de Nine Arches Bridge, Little Adam\'s Peak en de Ravana Falls. Daarna volgen een luipaardensafari in Yala National Park en twee nachten aan de kust van Mirissa, voor walvissen kijken, snorkelen met schildpadden en kajakken bij zonsondergang. Sundown Tours verzorgt zeven nachten halfpension in hotels met 4 sterren, het ophalen en terugbrengen op de luchthaven en een Engelstalige chauffeur met een onbeperkt aantal kilometers in uw privévoertuig. Toegangsprijzen en optionele wateractiviteiten blijven voor uw rekening, zodat u zelf kunt kiezen voor meer tijd bij de dieren of aan het strand. Elke dag koppelt erfgoed van UNESCO aan ervaringen van dichtbij, zoals een catamaranvaart in het dorp, specerijenmarkten en een bootsafari langs kaneeltuinen. Een groepsreis per bus slaat die vaak over.',
     highlights: [
-      'Sonnenuntergang am Pidurangala, Lowenfelsen Sigiriya und UNESCO Hohlentempel von Dambulla',
-      'Heilige Zahnreliquie in Kandy, kulturelle Tanzshow und Aussichtspunkte am Ambuluwawa Turm',
-      'Nine Arch Bridge in Ella, Little Adam\'s Peak und Jeep Safari im Yala Nationalpark',
-      'Wal und Delfinbeobachtung in Mirissa, Schildkroten Schnorcheln und Wasseraktivitaten bei Sonnenuntergang',
-      'Sieben Nachte Halbpension in sorgfaltig ausgewahlten 4 Sterne Hotels, mit privatem Chauffeur und Flughafentransfers',
+      'Zonsondergang bij Pidurangala, leeuwenrots van Sigiriya en grottempel van Dambulla (UNESCO)',
+      'Heilige tandrelikwie in Kandy, culturele dansshow en uitkijkpunten bij de Ambuluwawa Tower',
+      'Nine Arch Bridge in Ella, Little Adam\'s Peak en een jeepsafari in Yala National Park',
+      'Walvissen en dolfijnen kijken in Mirissa, snorkelen met schildpadden en wateractiviteiten bij zonsondergang',
+      'Zeven nachten halfpension in zorgvuldig gekozen hotels met 4 sterren, met privéchauffeur en vervoer van en naar de luchthaven',
     ],
     whoIsFor:
-      'Perfekt fur Erstbesucher, Hochzeitsreisende und aktive Familien, die Kultur, Tierwelt und Strandtage in einer Reise verbinden mochten. Whale Watching erfordert einen fruhen Start; fur Reisende, die mehr Tempelzeit statt Wasseraktivitaten bevorzugen, passen wir das Tempo an.',
+      'Geschikt voor wie het land voor het eerst bezoekt, voor stellen op huwelijksreis en voor actieve gezinnen die cultuur, wild en stranddagen in één reis willen. Walvissen kijken vraagt een vroege start. Voor reizigers die liever meer tijd bij tempels doorbrengen dan op het water, passen wij het tempo aan.',
     bestTimeNote:
-      'Dezember to April ist die beste Zeit fur die Walsaison in Mirissa und trockenes Wetter an der Sudkuste. Das Kultur Dreieck und das Hugelland eignen sich ganzjahrig; Yala kann um September kurzzeitig schliessen  wir passen die Parkwahl entsprechend an.',
+      'December tot april is de beste tijd voor het walvisseizoen in Mirissa en droog weer aan de zuidkust. De Cultuurdriehoek en het heuvelland zijn het hele jaar geschikt. Yala kan rond september kort gesloten zijn. Wij passen de keuze van het park daarop aan.',
     faq: [
       {
-        q: 'Wie viele Hotelnachte sind in der 8 tagigen Tour enthalten?',
-        a: 'Das Paket umfasst sieben Nachte in 4 Sterne Halbpension Hotels entlang der Route sowie Abholung und Ruckfahrt zum Flughafen. Mittagessen, Parkeintrittsgebuhren und whale watching Bootstickets werden vor Ort bezahlt.',
+        q: 'Hoeveel hotelovernachtingen zitten er in de reis van 8 dagen?',
+        a: 'Het pakket omvat zeven nachten in hotels met 4 sterren op basis van halfpension langs de route, plus ophalen en terugbrengen op de luchthaven. De lunch, de toegang tot de parken en de bootkaartjes voor het walvissen kijken betaalt u ter plaatse.',
       },
       {
-        q: 'Ist Whale Watching in Mirissa garantiert?',
-        a: 'Walsichtungen sind von November bis April sehr haufig, aber die Natur ist unvorhersehbar. Wir buchen seriose Anbieter fur den besten Morgenslot; bei rauer See empfehlen wir alternativ Schildkroten Schnorcheln oder einen entspannten Strandmorgen.',
+        q: 'Is walvissen kijken in Mirissa gegarandeerd?',
+        a: 'Van november tot april worden walvissen heel vaak gezien, maar de natuur blijft onvoorspelbaar. Wij boeken betrouwbare aanbieders voor het beste moment in de ochtend. Is de zee ruw, dan raden wij snorkelen met schildpadden aan, of een rustige ochtend op het strand.',
       },
       {
-        q: 'Konnen wir Pidurangala gegen den vollstandigen Aufstieg auf den Sigiriya Felsen tauschen?',
-        a: 'Absolut. Tag 2 konzentriert sich auf den Lowenfelsen Sigiriya, wahrend Tag 1 Pidurangala fur den Sonnenuntergang nutzt. Teilen Sie uns Ihr Fitnessniveau mit, und wir konnen einen Aufstieg umkehren oder streichen, um Ihre Knie zu schonen.',
+        q: 'Kunt u Pidurangala ruilen voor de volledige beklimming van de rots van Sigiriya?',
+        a: 'Zeker. Dag 2 richt zich op de leeuwenrots van Sigiriya, dag 1 op Pidurangala voor de zonsondergang. Vertel ons hoe fit u bent. Dan kunnen wij de volgorde omdraaien of een beklimming schrappen, zodat uw knieën worden ontzien.',
       },
     ],
     days: [
       {
-        title: 'Ankunft & Pidurangala Felsen',
+        title: 'Aankomst en Pidurangala Rock',
         activities: [
-          { type: 'Ankunft', title: 'Ankunft' },
+          { type: 'Aankomst', title: 'Aankomst' },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Pidurangala Felsen',
+            type: 'Rondleiding',
+            title: 'Pidurangala Rock',
             description:
-              'Beginnen Sie Ihr Sri Lanka Abenteuer mit einer Wanderung zum Pidurangala Felsen, einem der spektakularsten Aussichtspunkte im Kulturdreieck. Uber antike Tempelanlagen und Felsformationen erreichen Sie den Gipfel und erleben einen unvergesslichen Sonnenuntergang mit Blick auf die Felsenfestung Sigiriya, uppige Walder und ruhige Seen.',
+              'Begin uw avontuur in Sri Lanka met een wandeling naar Pidurangala Rock, een van de mooiste uitkijkpunten in de Cultuurdriehoek. U klimt over oude tempelgronden en rotsformaties naar de top, waar een weids panorama wacht. Bij zonsondergang kijkt u uit op de rotsvesting van Sigiriya, de weelderige bossen, de rustige meren en het land eromheen.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Fresco Water Villa',
-            description: 'Ubernachtung im Hotel Fresco Water Villa (oder ahnlich)  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad', 'Abendessen'],
+            description:
+              'Overnachting in Hotel Fresco Water Villa of een vergelijkbaar hotel, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer', 'Diner'],
           },
         ],
       },
       {
-        title: 'Sigiriya & Dambulla',
+        title: 'Sigiriya en Dambulla',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Sigiriya Felsenfestung',
+            type: 'Rondleiding',
+            title: 'Leeuwenrots van Sigiriya',
             description:
-              'Erkunden Sie die legendare Felsenfestung Sigiriya, eine UNESCO Welterbestatte und eines der beruhmtesten Wahrzeichen Sri Lankas. Die im 5. Jahrhundert von Konig Kashyapa errichtete Festung erhebt sich fast 200 Meter uber die Ebene und besticht durch Fresken, Gartenanlagen, die Spiegelwand und beeindruckende Ingenieurskunst.',
+              'Verken de legendarische leeuwenrots van Sigiriya, UNESCO werelderfgoed en een van de bekendste herkenningspunten van Sri Lanka. Koning Kashyapa liet deze burcht in de 5e eeuw bouwen. De rots rijst bijna 200 meter boven de omringende vlakte uit en heeft fresco\'s, aangelegde tuinen, de spiegelmuur en indrukwekkend bouwkundig werk. Vanaf de top kijkt u uit over de Cultuurdriehoek.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Dorf und Seeabenteuer Hiriwadunna',
+            type: 'Rondleiding',
+            title: 'Avontuur in het dorp en op het meer van Hiriwadunna',
             description:
-              'Erleben Sie das authentische Dorfleben Sri Lankas bei einem gefuhrten Besuch in Hiriwadunna. Durchqueren Sie malerische Landschaften, Seen und Felder, lernen Sie jahrhundertealte Traditionen kennen und unternehmen Sie eine ruhige Katamaran Fahrt uber den Dorfsee.',
+              'Ervaar het echte dorpsleven van Sri Lanka tijdens een bezoek aan Hiriwadunna. U trekt door het landschap, langs meren en akkers, leert eeuwenoude tradities kennen en maakt een rustige catamaranvaart over het dorpsmeer.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Hohlentempel von Dambulla',
+            type: 'Rondleiding',
+            title: 'Grottempel van Dambulla',
             description:
-              'Besuchen Sie den prachtigen Hohlentempel von Dambulla, Sri Lankas grossten und besterhaltenen Hohlentempelkomplex und eine UNESCO Welterbestatte. Die uber 2.000 Jahre alte Pilgerstatte umfasst funf Hohlenschreine mit buddhistischen Wandmalereien und gut erhaltenen Statuen.',
+              'Bezoek de koninklijke grottempel van Dambulla, het grootste en best bewaarde grottempelcomplex van Sri Lanka en UNESCO werelderfgoed. Deze bedevaartplaats is meer dan 2.000 jaar oud en telt vijf indrukwekkende grotten vol oude boeddhistische muurschilderingen en goed bewaarde beelden.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Dambulla Wirtschaftszentrum',
+            type: 'Rondleiding',
+            title: 'Dambulla Dedicated Economic Center',
             description:
-              'Entdecken Sie das lebhafte Dambulla Economic Center, Sri Lankas grossten Grossmarkt fur Obst und Gemuse. Erleben Sie das geschaftige Treiben der Handler aus dem ganzen Land und die bunte Vielfalt an tropischen Fruchten, Gemuse und Gewurzen.',
+              'Ontdek het levendige Dambulla Dedicated Economic Center, de grootste groothandelsmarkt voor groente en fruit van Sri Lanka. U ziet hoe boeren en handelaren van over het hele eiland samenkomen, met tropisch fruit, groente en specerijen.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Fresco Water Villa',
-            description: 'Ubernachtung mit Halbpension.',
-            extra: ['Fruhstuck', 'Abendessen'],
+            description: 'Overnachting op basis van halfpension.',
+            extra: ['Ontbijt', 'Diner'],
           },
         ],
       },
       {
-        title: 'Kandy Stadtrundfahrt',
+        title: 'Stadsrondrit door Kandy',
         activities: [
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Sri Dalada Maligawa',
             description:
-              'Besuchen Sie den weltberuhmten Zahntempel (Sri Dalada Maligawa), eine der heiligsten buddhistischen Pilgerstatten und UNESCO Welterbestatte im historischen Kandy. Bewundern Sie die kandyanische Architektur, kunstvolle Schnitzereien und goldverzierte Schreine.',
+              'Bezoek de wereldberoemde tempel van de heilige tandrelikwie (Sri Dalada Maligawa), een van de heiligste boeddhistische bedevaartplaatsen ter wereld, in het historische Kandy. Hier wordt de tandrelikwie van Boeddha bewaard. U ziet de architectuur van Kandy, het fijne houtsnijwerk en de vergulde schrijnen.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Kandy Lake Club  Kulturelle Tanzshow',
+            type: 'Rondleiding',
+            title: 'Culturele dansshow van Kandy Lake Club',
             description:
-              'Erleben Sie die lebendigen Traditionen Sri Lankas bei der beruhmten Kandy Tanzshow mit traditionellem Trommelspiel, energiegeladenen Volkstanzen, farbenprachtigen Kostumen sowie Feuerlauf und Feuerspuck Darbietungen.',
+              'Ervaar de levendige tradities van Sri Lanka tijdens de culturele dansshow van Kandy Lake Club. U ziet traditioneel trommelspel, energieke volksdansen, kleurige kostuums, vuurloop en vuurspuwen.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Sri Muthumariamman Tempel',
+            type: 'Rondleiding',
+            title: 'Sri Muthumariamman Temple',
             description:
-              'Erkunden Sie den prachtvollen Sri Muthumariamman Tempel, einen der schonsten Hindutempel Sri Lankas. Bekannt fur seine farbenfrohe Architektur und detailreichen Skulpturen im drawidischen Stil, spiegelt er die multikulturelle Geschichte des Landes wider.',
+              'Verken de Sri Muthumariamman Temple, een van de mooiste hindoetempels van Sri Lanka. De kleurrijke architectuur en de gedetailleerde beelden in Dravidische stijl laten zien hoe verschillende culturen en religies op het eiland samengaan.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Nalanda Gedige',
             description:
-              'Entdecken Sie das geheimnisvolle Nalanda Gedige nahe Matale, eines der einzigartigsten historischen Monumente Sri Lankas. Das uber tausend Jahre alte Steinbauwerk vereint hinduistische und buddhistische Architektur inmitten friedlicher Landschaften.',
+              'Ontdek het geheimzinnige Nalanda Gedige bij Matale, een van de bijzonderste historische monumenten van Sri Lanka. Het stenen bouwwerk is meer dan duizend jaar oud en verenigt hindoeïstische en boeddhistische architectuur, in een rustig landschap.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Hotel Topaz',
-            description: 'Ubernachtung im Hotel Topaz (oder ahnlich)  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad'],
+            description: 'Overnachting in Hotel Topaz of een vergelijkbaar hotel, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer'],
           },
         ],
       },
       {
-        title: 'Nuwara Eliya uber die Ramboda Wasserfalle',
+        title: 'Nuwara Eliya via de Ramboda Falls',
         activities: [
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Royal Botanical Garden',
             description:
-              'Besuchen Sie die weltberuhmten Royal Botanical Gardens in Peradeniya, einen der grossten und schonsten botanischen Garten Asiens. Auf uber 147 Hektar wachsen mehr als 4.000 Pflanzenarten  seltene Orchideen, eine Palmenallee, Heilpflanzen und tropische Blutenbaume.',
+              'Bezoek de wereldberoemde Royal Botanical Gardens in Peradeniya, een van de grootste en mooiste botanische tuinen van Azië. Op meer dan 147 acre groeien meer dan 4.000 soorten, waaronder zeldzame orchideeën, een palmenlaan, geneeskrachtige planten, reuzenbamboe en tropische bloesembomen.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Ambuluwawa Turm',
+            type: 'Rondleiding',
+            title: 'Ambuluwawa Tower',
             description:
-              'Besteigen Sie den beruhmten Ambuluwawa Turm im gleichnamigen Biodiversitatskomplex, einen der einzigartigsten Aussichtspunkte Sri Lankas. Auf einem Berggipfel gelegen, bietet er einen 360 Grad Panoramablick auf Bergketten, Walder, Flusse, Teeplantagen und Dorfer.',
+              'Bezoek de Ambuluwawa Tower, een van de bijzonderste uitkijkpunten van Sri Lanka, in het biodiversiteitscomplex van Ambuluwawa. Boven op de berg heeft u een uitzicht van 360 graden over bergketens, bossen, rivieren, theeplantages en dorpen.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Bluefield Teefabrik',
+            type: 'Rondleiding',
+            title: 'Bluefield Tea Factory',
             description:
-              'Entdecken Sie das Erbe des Ceylon Tees bei einem gefuhrten Besuch der bekannten Bluefield Teefabrik in Nuwara Eliya. Inmitten uppiger Teeplantagen und nebelverhangener Hugel erfahren Sie alles uber den traditionellen Herstellungsprozess vom Blattpflucken bis zur fertigen Tasse.',
+              'Ontdek het erfgoed van Ceylon thee tijdens een bezoek aan de Bluefield Tea Factory in Nuwara Eliya. Tussen de theeplantages en de nevelige heuvels ziet u hoe de thee wordt gemaakt, van het plukken van het blad tot het eindproduct, en proeft u vers gezette thee.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Aussichtspunkt Ramboda Wasserfalle',
+            type: 'Rondleiding',
+            title: 'Uitkijkpunt Ramboda Falls',
             description:
-              'Geniessen Sie spektakulare Ausblicke auf die Ramboda Wasserfalle, einen der hochsten und malerischsten Wasserfalle Sri Lankas. Umgeben von Teeplantagen und nebligen Berglandschaften sturzt der Wasserfall uber schroffe Felsen  ein beeindruckendes Naturschauspiel.',
+              'Geniet van het uitzicht op de Ramboda Falls, een van de hoogste en mooiste watervallen van Sri Lanka. Tussen theeplantages en nevelige bergen stort het water over de rotsen.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Ramboda Falls Hotel',
-            description: 'Ubernachtung im Ramboda Falls Hotel (oder ahnlich)  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad'],
+            description:
+              'Overnachting in het Ramboda Falls Hotel of een vergelijkbaar hotel, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer'],
           },
         ],
       },
       {
-        title: 'Ella Abenteuer',
+        title: 'Avonturen in Ella',
         activities: [
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Nine Arches Bridge',
             description:
-              'Besuchen Sie die beruhmte Nine Arches Bridge, eines der meistfotografierten Wahrzeichen Sri Lankas und ein Meisterwerk kolonialer Eisenbahnbaukunst. Die aus Stein errichtete Brucke inmitten von Teeplantagen ist bis heute in Betrieb.',
+              'Bezoek de beroemde Nine Arches Bridge, een van de meest gefotografeerde herkenningspunten van Sri Lanka en een meesterwerk van koloniale spoorwegbouw. De stenen brug in Ella is volledig zonder staal gebouwd, ligt tussen theeplantages en tropisch bos, en is nog altijd in gebruik.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Lake Gregory',
             description:
-              'Geniessen Sie einen entspannten Besuch am malerischen Lake Gregory, einer der beliebtesten Freizeitattraktionen von Nuwara Eliya. Umgeben von Berglandschaften und kuhlem Hochlandklima ladt der See zu Bootsfahrten, Spaziergangen und Fotografie ein.',
+              'Geniet van een rustig bezoek aan Lake Gregory, een van de geliefdste plekken voor ontspanning in Nuwara Eliya. In het koele heuvelland, tussen de bergen, leent het meer zich voor een boottocht, een wandeling en fotografie.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Little Adam’s Peak',
+            type: 'Rondleiding',
+            title: 'Little Adam\'s Peak',
             description:
-              'Wandern Sie zum Little Adam’s Peak, einem der beliebtesten Aussichtspunkte Ellas. Der leichte, lohnende Aufstieg fuhrt durch Teeplantagen und grune Hugel bis zum Gipfel, wo ein 360 Grad Panoramablick auf die Ella Gap und die Taler wartet.',
+              'Wandel naar Little Adam\'s Peak, een van de geliefdste uitkijkpunten van Ella. Deze lichte wandeling voert u door theeplantages en groene heuvels. Op de top heeft u een uitzicht van 360 graden over de Ella Gap, de valleien, de bossen en de bergen in de verte.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'La Ella Breeze Hotel',
-            description: 'Ubernachtung im La Ella Breeze Hotel (oder ahnlich)  Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Fruhstuck', 'Eigenes Bad', 'Abendessen'],
+            description:
+              'Overnachting in het La Ella Breeze Hotel of een vergelijkbaar hotel, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Ontbijt', 'Eigen badkamer', 'Diner'],
           },
         ],
       },
       {
-        title: 'Yala Nationalpark & Ravana Wasserfalle',
+        title: 'Yala National Park en de Ravana Falls',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Yala Nationalpark',
+            type: 'Rondleiding',
+            title: 'Yala National Park',
             description:
-              'Erleben Sie eine unvergessliche Safari im Yala Nationalpark, Sri Lankas beruhmtestem Park und einem der besten Orte Asiens, um wilde Leoparden zu beobachten. Der Park beherbergt Elefanten, Lippenbaren, Krokodile, Sikahirsche, Wildschweine, Buffel und uber 215 Vogelarten.',
+              'Ga op safari in Yala National Park, het bekendste nationale park van Sri Lanka en een van de beste plekken in Azië om luipaarden in het wild te zien. Er leven olifanten, lippenberen, krokodillen, gevlekte herten, wilde zwijnen, buffels en meer dan 215 soorten vogels.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Ravana Wasserfalle',
+            type: 'Rondleiding',
+            title: 'Ravana Falls',
             description:
-              'Besuchen Sie die atemberaubenden Ravana Wasserfalle, eines der schonsten und bekanntesten Wasserfalle Sri Lankas inmitten der Berge von Ella. Der Legende nach versteckte Konig Ravana hier Prinzessin Sita in nahegelegenen Hohlen.',
+              'Bezoek de indrukwekkende Ravana Falls, een van de mooiste en bekendste watervallen van Sri Lanka, tussen de groene bergen van Ella. Het water stort over meerdere rotsen naar beneden. Volgens de legende verborg koning Ravana prinses Sita in grotten in de buurt.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Mandara Resort Hotel',
-            description: 'Ubernachtung in Mirissa.',
-            extra: ['Fruhstuck & Abendessen inklusive', '4 Sterne Hotel'],
+            description: 'Overnachting in Mirissa.',
+            extra: ['Ontbijt en diner inbegrepen', 'Hotel met 4 sterren'],
           },
         ],
       },
       {
-        title: 'Mirissa  Whale Watching & Wasseraktivitaten',
+        title: 'Walvissen kijken en wateractiviteiten in Mirissa',
         activities: [
           {
-            type: 'Whale Watching',
-            title: 'Wal und Delfinbeobachtung in Mirissa',
+            type: 'Walvissen kijken',
+            title: 'Walvissen en dolfijnen kijken in Mirissa',
             description:
-              'Erleben Sie ein unvergessliches Whale und Dolphin Watching Abenteuer in Mirissa, Sri Lankas fuhrendem Ziel fur Meereswildtiere. Fahren Sie hinaus in den Indischen Ozean auf der Suche nach Blauwalen, Pottwalen, Bryde Walen und verspielten Delfinschulen.',
+              'Vanuit Mirissa vaart u de Indische Oceaan op, op zoek naar blauwe vinvissen, potvissen, Brydevinvissen en grote groepen speelse dolfijnen. Mirissa is een van de beste plekken ter wereld om deze dieren in het wild te zien.',
           },
           {
-            type: 'Schnorcheln',
-            title: 'Schnorchel Erlebnis mit Walen in Mirissa',
+            type: 'Snorkelen',
+            title: 'Snorkelervaring met walvissen in Mirissa',
             description:
-              'Entdecken Sie die farbenfrohe Unterwasserwelt Mirissas bei einem spannenden Schnorchelausflug in kristallklarem, tropischem Wasser. Erkunden Sie bunte Korallenformationen und eine vielfaltige Riff Tierwelt entlang der Sudkuste Sri Lankas.',
+              'Ontdek de kleurrijke onderwaterwereld van Mirissa tijdens het snorkelen in helder tropisch water. U ziet koraal en tropische rifvissen langs de zuidkust van Sri Lanka.',
           },
           {
-            type: 'Schnorcheln',
-            title: 'Schildkroten Schnorchelabenteuer in Mirissa',
+            type: 'Snorkelen',
+            title: 'Snorkelavontuur met schildpadden in Mirissa',
             description:
-              'Schwimmen Sie mit anmutigen Meeresschildkroten im warmen Wasser von Mirissa  eines der beliebtesten Meereserlebnisse Sri Lankas. Beobachten Sie Grune Meeresschildkroten und Karettschildkroten zwischen Korallenriffen und tropischen Fischen.',
+              'Zwem naast zeeschildpadden in het warme water van Mirissa, een van de geliefdste ervaringen op zee in Sri Lanka. U ziet groene zeeschildpadden en karetschildpadden in hun eigen omgeving, tussen tropische vissen en koraal.',
           },
           {
-            type: 'Wasseraktivitat',
-            title: 'Sonnenuntergangs Kajaktour in Mirissa',
+            type: 'Wateractiviteit',
+            title: 'Kajaktocht bij zonsondergang in Mirissa',
             description:
-              'Erleben Sie einen tropischen Sonnenuntergang bei einer ruhigen Kajaktour entlang der malerischen Kuste von Mirissa, wahrend sich der Himmel in Orange, Rosa und Goldtone verfarbt.',
+              'Beleef een tropische zonsondergang tijdens een rustige kajaktocht langs de kust van Mirissa. U peddelt over kalm water terwijl de lucht oranje, roze en goud kleurt.',
           },
           {
-            type: 'Bootsfahrt',
-            title: 'Sonnenuntergangs Bootsfahrt in Mirissa',
+            type: 'Boottocht',
+            title: 'Boottocht bij zonsondergang in Mirissa',
             description:
-              'Gehen Sie an Bord fur eine entspannte Sonnenuntergangs Bootsfahrt in Mirissa mit Panoramablick auf die Sudkuste Sri Lankas. Beobachten Sie, wie die Sonne uber dem Indischen Ozean versinkt  ein romantisches Erlebnis fur die ganze Familie.',
+              'Vaar ontspannen uit bij zonsondergang in Mirissa en kijk uit over de zuidkust van Sri Lanka. U ziet de zon langzaam in de Indische Oceaan zakken. De tocht past bij stellen en bij gezinnen.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Mandara Resort Hotel',
             description:
-              'Verbringen Sie eine komfortable Ubernachtung im Mandara Resort Hotel oder einem ahnlichen Strandhotel in Mirissa. Das Paket beinhaltet Halbpension mit Fruhstuck und Abendessen fur einen angenehmen Aufenthalt an Sri Lankas schoner Sudkuste.',
-            extra: ['4 Sterne Hotel (Premium)', 'Fruhstuck inklusive', 'Eigenes Bad', 'Abendessen inklusive'],
+              'Breng een comfortabele nacht door in het Mandara Resort Hotel of een vergelijkbaar strandhotel in Mirissa, dicht bij het strand en de belangrijkste plekken in de buurt. U verblijft op basis van halfpension, met ontbijt en diner.',
+            extra: ['Hotel met 4 sterren (premium)', 'Ontbijt inbegrepen', 'Eigen badkamer', 'Diner inbegrepen'],
           },
         ],
       },
       {
-        title: 'Mirissa & Abreise',
+        title: 'Mirissa en vertrek',
         activities: [
           {
-            type: 'Natur und Kulturerlebnis',
+            type: 'Natuur en cultuur',
             title: 'Coconut Tree Hill Mirissa',
             description:
-              'Besuchen Sie den ikonischen Coconut Tree Hill in Mirissa, einen der meistfotografierten Kustenaussichtspunkte Sri Lankas. Auf einer Klippe uber dem turkisblauen Indischen Ozean gelegen, saumen hohe Kokospalmen diese malerische Landschaft.',
+              'Bezoek Coconut Tree Hill in Mirissa, een van de meest gefotografeerde uitkijkpunten aan de kust van Sri Lanka. Op een klif boven de Indische Oceaan staan hoge kokospalmen langs het turkooizen water.',
           },
           {
-            type: 'Naturschutz',
-            title: 'Meeresschildkroten Schutzprojekt',
+            type: 'Natuurbescherming',
+            title: 'Beschermingsproject voor zeeschildpadden',
             description:
-              'Besuchen Sie ein Meeresschildkroten Schutzzentrum an der Sudkuste und erfahren Sie mehr uber den Schutz der Meeresfauna, Brutprogramme und Rehabilitationsmassnahmen.',
+              'Bezoek een centrum voor zeeschildpadden aan de zuidkust. U leert er over de bescherming van het zeeleven, het uitbroeden van eieren en de revalidatie van de dieren.',
           },
           {
-            type: 'Bootssafari',
-            title: 'Madu Fluss Safari',
+            type: 'Bootsafari',
+            title: 'Bootsafari op de Madu River',
             description:
-              'Geniessen Sie eine malerische Bootssafari durch die Mangrovenwalder und kleinen Inseln des Madu Flusses. Entdecken Sie den lokalen Zimtanbau und die vielfaltige Feuchtgebietswelt.',
+              'Geniet van een bootsafari door de mangrovebossen en de kleine eilanden van de Madu River. U ontdekt de lokale kaneelteelt en het gevarieerde dierenleven van het waterrijke gebied.',
           },
-          { type: 'Abreise', title: 'Abreisetransfer' },
+          { type: 'Vertrek', title: 'Vervoer bij vertrek' },
         ],
       },
     ],

@@ -8,7 +8,7 @@ export const COLOMBO_DEST: ArticleContent = {
   en: {
     h1: 'Colombo, Sri Lanka: Airport Gateway, City Stop and First Night',
     lead:
-      'Colombo is where almost every UK flight to Sri Lanka lands. Bandaranaike International Airport (CMB) sits north of the city at Katunayake; the commercial capital itself is a first or last night of markets, colonial streets, Buddhist temples and Indian Ocean promenadenot usually a week long holiday on its own.',
+      'Colombo is where almost every UK flight to Sri Lanka lands. Bandaranaike International Airport (CMB) sits north of the city at Katunayake; the commercial capital itself is a first or last night of markets, colonial streets, Buddhist temples and the Indian Ocean promenade. It is not usually a week long holiday on its own.',
     heroImage: 'assets/img/destination-6.webp',
     heroAlt: 'Colombo city and Indian Ocean coastline, Sri Lanka',
     sections: [
@@ -207,6 +207,10 @@ export const COLOMBO_DEST: ArticleContent = {
         q: 'Dormir en Colombo tras un vuelo desde Espana?',
         a: 'Si aterrizais tarde, Negombo o un hotel de la costa oeste suele ser mas facil. Elegid Colombo ciudad si quereis museos al dia siguiente.',
       },
+      {
+        q: 'Merece la pena Colombo en un viaje a Sri Lanka?',
+        a: 'Si como puerta de entrada: una noche o un dia de ciudad. La mayoria de los viajeros sigue despues hacia Sigiriya, Kandy, Ella, Yala y la costa.',
+      },
     ],
     ctaTitle: 'Empezar o terminar en Colombo con chofer privado',
     ctaBody: 'Organizamos la recogida en CMB, una primera noche util y la continuacion hacia el Triangulo Cultural o la costa.',
@@ -241,14 +245,26 @@ export const COLOMBO_DEST: ArticleContent = {
         body: 'Prywatny objazd moze objac Galle Face Green, muzeum narodowe, swiatynie Gangaramaya, Pettah (z przewodnikiem) i Fort. Po nocnym locie spokojny hotel i krotki spacer zwykle bija przeladowany dzien muzeow.',
       },
       {
-        title: 'Godzina i praktyka',
-        body: 'Godzina na Sri Lance: UTC+5:30. Wzgledem Polski: 4 h 30 zima, 3 h 30 latem. Ruch gesty. Skromny stroj w swiatyniach.',
+        title: 'Kolombo na trasie objazdu',
+        body: 'Typowa prywatna trasa prowadzi z Kolombo lub Negombo do Sigiriyi i Trojkata Kulturowego, a potem przez gory i parki narodowe na poludniowe wybrzeze. Trzy noce w miescie na poczatku zwykle zabieraja czas na plaze i safari.\n\nOstatni nocleg w Kolombo ma sens przy pozniejszym locie powrotnym. W innym wypadku hotel w Negombo lub na zachodnim wybrzezu pozwala skrocic dojazd do CMB.',
+      },
+      {
+        title: 'Praktyczne wskazowki',
+        body: 'W godzinach szczytu ruch jest intensywny. W miescie dzialaja aplikacje przewozowe, a na dluzszych trasach wygodnym rozwiazaniem jest lokalny kierowca. Do swiatyn zaloz skromny stroj, a w Pettah pilnuj bagazu. Przez caly rok jest goraco i wilgotno; najwieksze opady przynosi poludniowo-zachodni monsun od maja do wrzesnia.\n\nNa Sri Lance obowiazuje czas UTC+5:30. Uwzglednij roznice czasu przy planowaniu porannych wycieczek i rozmow z kierowca.',
       },
     ],
     faq: [
       {
         q: 'Jak daleko lotnisko Sri Lanka jest od Kolombo?',
         a: 'Zwykle  45 to 90 minut. Negombo jest blizej CMB niz centrum.',
+      },
+      {
+        q: 'Czy Kolombo warto zobaczyc w trakcie wyjazdu na Sri Lanke?',
+        a: 'Tak jako brama: jedna noc albo jeden dzien w miescie. Potem wiekszosc gosci jedzie do Sigiriyi, Kandy, Elli, Yali i na wybrzeze.',
+      },
+      {
+        q: 'Czy nocowac w Kolombo po przylocie z Polski?',
+        a: 'Przy poznych ladowaniach Negombo albo hotel na zachodnim wybrzezu jest zwykle prostszy. Kolombo ma sens, jesli nastepnego dnia chcecie muzea i kolacje w miescie.',
       },
     ],
     ctaTitle: 'Zaczac lub skonczyc w Kolombo z prywatnym kierowca',
@@ -283,11 +299,27 @@ export const COLOMBO_DEST: ArticleContent = {
         title: 'Cosa vedere in un giorno a Colombo',
         body: 'Un giro privato puo includere Galle Face Green, il museo nazionale, il tempio Gangaramaya, Pettah (con guida) e Fort. Dopo un volo notturno, hotel tranquillo e una passeggiata breve battono un giorno di musei carico.',
       },
+      {
+        title: 'Colombo in un itinerario privato',
+        body: 'Un classico itinerario parte da Colombo o Negombo verso Sigiriya e il Triangolo Culturale, poi prosegue tra altopiani, parchi e costa meridionale prima di tornare a CMB. Fermarsi tre notti in citta all’inizio lascia meno tempo per spiagge e safari.\n\nL’ultima notte a Colombo e comoda se il volo di ritorno parte tardi; altrimenti Negombo o un hotel sulla costa ovest riducono il trasferimento per l’aeroporto.',
+      },
+      {
+        title: 'Consigli pratici',
+        body: 'Il traffico e intenso nelle ore di punta. In citta funzionano le app di trasporto; per gli spostamenti tra regioni e utile un autista locale. Nei templi vestite in modo rispettoso e a Pettah tenete d’occhio i bagagli. Il clima e caldo e umido tutto l’anno, con piogge piu forti durante il monsone sud ovest, da maggio a settembre.\n\nL’ora locale e UTC+5:30. Consideratela per visite mattutine e appuntamenti con l’autista.',
+      },
     ],
     faq: [
       {
         q: 'Qual e la capitale dello Sri Lanka?',
         a: 'Sri Jayawardenepura Kotte e la capitale amministrativa. Colombo resta la citta d’arrivo dei voli internazionali e l’hub commerciale.',
+      },
+      {
+        q: 'Quanto dista l’aeroporto di Colombo dalla citta?',
+        a: 'Di solito da 45 a 90 minuti, secondo il traffico. Negombo e piu vicina a CMB del centro di Colombo.',
+      },
+      {
+        q: 'Conviene dormire a Colombo dopo un volo dall’Italia?',
+        a: 'Se atterrate tardi, Negombo o un hotel sulla costa ovest e spesso piu semplice. Colombo citta ha senso se il giorno dopo volete musei e una cena in citta.',
       },
     ],
     ctaTitle: 'Iniziare o finire a Colombo con autista privato',
@@ -311,22 +343,38 @@ export const COLOMBO_DEST: ArticleContent = {
   ru: {
     h1: 'Коломбо Шри Ланка: аэропорт CMB, столица и первая ночь',
     lead:
-      'Почти все рейсы из России садятся в Коломбо. Аэропорт Бандаранайке (CMB) севернее, в Катунаяке. Административная столицаШри Джаяварденепура Котте; Коломбо остаётся коммерческими воротами. Одной ночи или дня в городе достаточно перед туром.',
+      'Почти все рейсы из России садятся в Коломбо. Аэропорт Бандаранайке (CMB) севернее, в Катунаяке. Административная столица, Шри Джаяварденепура Котте; Коломбо остаётся коммерческими воротами. Одной ночи или дня в городе достаточно перед туром.',
     heroAlt: 'Коломбо и побережье Индийского океана, Шри Ланка',
     sections: [
       {
         title: 'Аэропорт Шри Ланки и город Коломбо',
-        body: 'CMB в Катунаяке, не в центре. Коломбо шри ланка и шри ланка коломбо: коммерческие ворота. Аэропорт шри ланка / шри ланка аэропорт это Бандаранайке, не Котте. Негомбо 20–40 минут от терминала после Москвы.',
+        body: 'Аэропорт CMB находится в Катунаяке, а не в центре Коломбо. Негомбо расположен примерно в 20–40 минутах езды от терминала и часто удобнее для первой ночи после позднего рейса. До отеля в центре города обычно ехать 45–90 минут, в зависимости от трафика.\n\nЗаранее заказанный трансфер избавит от поиска машины после прилёта. Передайте номер рейса, чтобы водитель мог проверить задержки.',
       },
       {
         title: 'Что успеть за день в Коломбо',
         body: 'Частный круг может включать Galle Face Green, национальный музей, храм Гангарамая, Петтах (с гидом) и Форт. После ночного рейса спокойный отель и короткая прогулка лучше перегруженного дня музеев.',
       },
+      {
+        title: 'Коломбо в маршруте по острову',
+        body: 'Частные поездки обычно продолжаются из Коломбо или Негомбо к Сигирии и объектам Культурного треугольника, затем в горный регион, на сафари и к южному побережью. Три ночи в городе в начале путешествия могут сократить время у моря и в национальных парках.\n\nПоследняя ночь в Коломбо удобна перед поздним вылетом. Если рейс ранний, выбирайте отель ближе к аэропорту или в Негомбо.',
+      },
+      {
+        title: 'Практические советы',
+        body: 'В будни движение особенно плотное в часы пик. Для поездок по городу доступны приложения такси, а для маршрутов между регионами удобно заранее договориться с водителем. В храмах принято закрывать плечи и колени; в районе Петтах следите за вещами. В Коломбо жарко и влажно круглый год, а самые сильные дожди обычно приходятся на юго западный муссон с мая по сентябрь.\n\nМестное время UTC+5:30. Учитывайте его при планировании утренних экскурсий и трансферов.',
+      },
     ],
     faq: [
       {
-        q: 'Какая столица Шри Ланки?',
-        a: 'Шри Джаяварденепура Котте административная столица шри ланка / шри ланка столица / столица шри ланки. Коломбо остаётся городом прилёта и деловым центром. На карте оба рядом на западном берегу.',
+        q: 'Какой город является столицей Шри Ланки?',
+        a: 'Административная столица страны Шри Джаяварденепура Котте. Большинство международных рейсов прибывает в аэропорт рядом с Коломбо, крупнейшим коммерческим центром страны.',
+      },
+      {
+        q: 'Как далеко аэропорт от центра Коломбо?',
+        a: 'Обычно от 45 до 90 минут, в зависимости от пробок. Негомбо ближе к CMB, чем центр Коломбо.',
+      },
+      {
+        q: 'Стоит ли ночевать в Коломбо после перелёта?',
+        a: 'Если рейс прибывает поздно, Негомбо или отель на западном побережье часто удобнее. Коломбо подходит, если на следующий день нужны музеи и ужин в городе.',
       },
     ],
     ctaTitle: 'Начать или закончить в Коломбо с частным водителем',
@@ -361,11 +409,27 @@ export const COLOMBO_DEST: ArticleContent = {
         title: 'Wat te doen in een dag in Colombo',
         body: 'Een prive ronde kan Galle Face Green, het nationale museum, Gangaramaya, Pettah (met gids) en Fort omvatten. Na een nachtvlucht is een rustig hotel vaak beter dan een volle museumdag.',
       },
+      {
+        title: 'Colombo in een rondreis',
+        body: 'Veel privereizen vertrekken vanuit Colombo of Negombo naar Sigiriya en de Culturele Driehoek, en gaan daarna verder naar de hooglanden, nationale parken en de zuidkust. Drie nachten in de stad aan het begin laten meestal minder tijd over voor strand en safari.\n\nEen laatste nacht in Colombo is handig bij een late terugvlucht. Anders verkort een hotel in Negombo of aan de westkust de rit naar CMB.',
+      },
+      {
+        title: 'Praktische tips',
+        body: 'Tijdens de spits is het verkeer druk. In de stad zijn taxi apps beschikbaar; voor langere ritten is een lokale chauffeur praktisch. Draag gepaste kleding bij tempels en let in Pettah op uw spullen. Colombo is het hele jaar warm en vochtig, met meer regen tijdens de zuidwestmoesson van mei tot september.\n\nDe lokale tijd is UTC+5:30. Houd daar rekening mee bij vroege bezoeken en transfers.',
+      },
     ],
     faq: [
       {
         q: 'Waar is de luchthaven sri lanka ten opzichte van Colombo?',
         a: 'In Katunayake. Negombo is dichterbij CMB dan het centrum.',
+      },
+      {
+        q: 'Is Colombo de moeite waard tijdens een reis door Sri Lanka?',
+        a: 'Ja als startpunt: een nacht of een gerichte stadsdag. De meeste reizigers gaan daarna door naar Sigiriya, Kandy, Ella, Yala en de kust.',
+      },
+      {
+        q: 'Moet ik in Colombo overnachten na een vlucht uit Nederland?',
+        a: 'Bij een late landing zijn Negombo of een hotel aan de westkust vaak eenvoudiger. Kies Colombo als u de volgende dag musea en een diner in de stad wilt.',
       },
     ],
     ctaTitle: 'Begin of eindig in Colombo met prive chauffeur',

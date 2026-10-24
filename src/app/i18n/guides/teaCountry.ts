@@ -41,16 +41,6 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
         title: 'Cool climate packing and practical tips',
         body: 'Pack a fleece or light jacket, closed shoes with grip for wet platforms and a rain shell umbrellas struggle in hill wind. Sunscreen still matters at altitude; UV is strong when clouds break.\n\nMotion sickness affects some travellers on winding hill roads; sit forward, avoid heavy curry lunches before long drives and build in stops at viewpoints rather than rushing arrival times. Tea country rewards slow mornings a misty terrace with a cup of orange pekoe beats another hour in the car.',
       },
-      {
-        id: 'ceylonName',
-        title: 'Ceylon and Sri Lanka: the name on the map',
-        body: 'The present name of Ceylon is Sri Lanka. Germans searching ceylon land, heutiger name von ceylon or sri lanka ceylon are looking at the same island. Ceylon remains the historic name for tea (ceylon tea, ceylon tee) and for true cinnamon grown here.\n\nWe run private hill country tours. We do not sell supermarket jars or tea bags in Germany.',
-      },
-      {
-        id: 'ceylonCinnamon',
-        title: 'Ceylon tea and cinnamon on a private tour',
-        body: 'A factory visit explains orange pekoe and ceylon tea tasting. Spice gardens on the Kandy road often show Cinnamomum verum (cinnamomum ceylanicum), the thin bark sold as ceylon zimt, not cassia. That is a tour stop, not medical advice and not zimt kaufen at a German drugstore.\n\nIf you want a plantation day, we fold it into Kandy, Nuwara Eliya or Ella with your chauffeur guide.',
-      },
     ],
     faq: [
       {
@@ -72,14 +62,6 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       {
         q: 'Nuwara Eliya or Ella where to stay?',
         a: 'Nuwara Eliya for colonial cool and gardens; Ella for hikes, cafes and Nine Arch Bridge. Many itineraries include one night in each.',
-      },
-      {
-        q: 'What is the present name of Ceylon?',
-        a: 'Sri Lanka. Ceylon tea and true cinnamon still use the old name. We run private tours on the island, not grocery cinnamon sales.',
-      },
-      {
-        q: 'Ceylon zimt or cassia on a tour?',
-        a: 'Spice gardens show ceylon zimt (Cinnamomum verum). Cassia zimt is a different bark. We do not sell jars and we do not give health advice.',
       },
     ],
     ctaTitle: 'Weave tea country into your private route',
@@ -130,14 +112,6 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
         title: 'Packliste fur kuhles Klima und praktische Tipps',
         body: 'Fleece oder leichte Jacke, geschlossene Schuhe mit Grip fur nasse Bahnsteige, Regenjacke Regenschirme scheitern am Bergwind. Sonnenschutz trotzdem wichtig in der Hohe; UV stark bei Wolkenlucken.\n\nReisekrankheit betrifft manche auf kurvigen Bergstrassen vorn sitzen, kein schweres Curry vor langen Fahrten, Stopps an Aussichtspunkten statt Hetze. Tee Land belohnt langsame Morgen neblige Terrasse mit Orange Pekoe schlagt eine Autostunde.',
       },
-      {
-        title: 'Heutiger Name von Ceylon: Sri Lanka',
-        body: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka meinen dieselbe Insel. Ceylon bleibt der Name fur ceylon tee und echten Zimt von hier.\n\nWir fahren private Teeland Touren. Wir verkaufen keine Gewurzglaser in Deutschland.',
-      },
-      {
-        title: 'Ceylon Tee und Ceylon Zimt auf der Rundreise',
-        body: 'In der Fabrik sehen Sie ceylon tea Verkostung. An Gewurzgarten zwischen Colombo und Kandy wachst Cinnamomum verum, dunnrinde ceylon zimt, nicht cassia zimt. Das ist ein Ausflug, kein Rat welcher zimt ist gesund und kein zimt kaufen Shop.\n\nCeylon zimt unterschied zu cassia: echter Ceylon Zimt ist dunn und rohrrig. Cassia ist dicker. Wir sind Reiseveranstalter, keine Drogerie. Ceylon zimtstangen sehen Sie am Strauch, nicht als Supermarkt Glas.',
-      },
     ],
     faq: [
       {
@@ -159,18 +133,6 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       {
         q: 'Nuwara Eliya oder Ella zum Ubernachten?',
         a: 'Nuwara Eliya fur koloniale Kuhle und Garten; Ella fur Wanderungen, Cafes und Nine Arch Bridge. Viele Routen nutzen je eine Nacht.',
-      },
-      {
-        q: 'Wie lautet der heutige Name von Ceylon?',
-        a: 'Heutiger name von ceylon ist Sri Lanka (im Kreuzwortratsel oft acht Buchstaben ohne Leerzeichen: SRILANKA). Ceylon land ist dasselbe Land.',
-      },
-      {
-        q: 'Was ist der Unterschied Ceylon Zimt und Cassia?',
-        a: 'Zimt cassia oder ceylon und ceylon vs cassia: echter ceylon zimt ist dunn, cassia zimt dicker. Sie sehen das im Gewurzgarten. Kein Drogerie Vergleich, kein Cumarin Rat, kein zimt kaufen.',
-      },
-      {
-        q: 'Wo trinke ich Ceylon Tee auf der Reise?',
-        a: 'Ceylon tee und ceylon tea in Fabriken um Nuwara Eliya und Ella, dazu schwarzer Tee Verkostung. Ceylon cay ist derselbe schwarze Tee. Assam tee ist Indien, nicht unsere Route.',
       },
     ],
     ctaTitle: 'Tee Land in Ihre private Route einweben',
@@ -478,32 +440,32 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
 
   ru: {
     h1: 'Гид по чайному краю Шри Ланки: плантации, поезда и горные городки',
-    lead: 'Горная местность между Kandy и Эллой прохладнее, зеленее и медленнее побережья террасные чайные кусты, колониальные бунгало и туманные гребни, связанные одной из великих панорамных железных дорог Азии. Знание, где ночевать, что даёт экскурсия на фабрику и как одеться на 15 градусные утра, отделяет сырой транзитный stop от highlight поездки.',
+    lead: 'Горная местность между Kandy и Эллой прохладнее, зеленее и медленнее побережья: террасные чайные кусты, колониальные бунгало и туманные гребни, связанные одной из великих панорамных железных дорог Азии. Знание, где ночевать, что даёт экскурсия на фабрику и как одеться на 15-градусные утра, отделяет сырой транзитный переезд от главной части поездки.',
     heroAlt: 'Ряды чайных кустов на плантации в горной местности Шри Ланки',
     sections: [
       {
         title: 'Что включает «чайный край» в типичном маршруте',
-        body: 'Большинство туров пересекают горы за два–три дня, часто Kandy → Nuwara Eliya → Ella, с опциональными остановками на плантации или смотровой площадке. Высоты от ~500 м у Kandy до более 1 800 м на Horton Plains температура падает быстро, дождь приходит без предупреждения.\n\nЭто не один город, а коридор долин и вершин; его проживают поездом, короткими прогулками и одной–двумя ночёвками, а не чек листом платных памятников.',
+        body: 'Большинство туров пересекают горы за два–три дня, часто Kandy → Nuwara Eliya → Ella, с опциональными остановками на плантации или смотровой площадке. Высоты от ~500 м у Kandy до более 1 800 м на Horton Plains. Температура падает быстро, дождь приходит без предупреждения.\n\nЭто не один город, а коридор долин и вершин; его проживают поездом, короткими прогулками и одной–двумя ночёвками, а не чек-листом платных памятников.',
       },
       {
         title: 'Nuwara Eliya: колониальный курорт и высокие сады',
-        body: '«Little England» на ~1 900 м с прохладными ночами, фасадами в стиле Tudor и ипподромным газоном, неожиданным в тропиках. Pedro Estate и Mackwoods (Damro) предлагают фабрики и дегустацию; Gregory Lake лодки в хорошую погоду.\n\nПодходит тем, кто хочет формальный сад и прохладный сон. Берите тёплые слои отопление в номерах редко, мокрая одежда сохнет медленно.',
+        body: '«Little England» на ~1 900 м с прохладными ночами, фасадами в стиле Tudor и ипподромным газоном, неожиданным в тропиках. Pedro Estate и Mackwoods (Damro) предлагают фабрики и дегустацию; Gregory Lake лодки в хорошую погоду.\n\nПодходит тем, кто хочет формальный сад и прохладный сон. Берите тёплые слои: отопление в номерах редко, мокрая одежда сохнет медленно.',
       },
       {
         title: 'Ella: виды, прогулки и расслабленный центр',
-        body: 'Ella стала социальным центром гор guesthouse, кафе и hikes к Little Adam’s Peak и Ella Rock. Nine Arch Bridge лучше совместить с проходящим поездом (расписание у водителя). Городок для активных, кто предпочитает неформальный отдых колониальному лоску.\n\nПогода непредсказуема: ясный рассвет к полудню может стать облачным. Заложите полный день, а не проезд, если виды важны.',
+        body: 'Ella стала социальным центром гор: гестхаусы, кафе и маршруты к Little Adam’s Peak и Ella Rock. Nine Arch Bridge лучше совместить с проходящим поездом (расписание у водителя). Городок для активных, кто предпочитает неформальный отдых колониальному лоску.\n\nПогода непредсказуема: ясный рассвет к полудню может стать облачным. Заложите полный день, а не проезд, если виды важны.',
       },
       {
         title: 'Связь Kandy с чаем ворота в горы',
-        body: 'Kandy культурный город (Храм Зуба, ботанический сад), но и обычный старт подъёма в чайный край. Peradeniya показывает специи и старые деревья как переход от низинной жары к горной прохладе.\n\nНекоторые туры пропускают ночёвку в Nuwara Eliya и едут поездом из Kandy к Ella с короткой остановкой на плантации разумное сжатие при нехватке времени, но меньше глубины.',
+        body: 'Kandy культурный город (Храм Зуба, ботанический сад), но и обычный старт подъёма в чайный край. Peradeniya показывает специи и старые деревья как переход от низинной жары к горной прохладе.\n\nНекоторые туры пропускают ночёвку в Nuwara Eliya и едут поездом из Kandy к Ella с короткой остановкой на плантации — разумное сжатие при нехватке времени, но меньше глубины.',
       },
       {
         title: 'Плантации vs фабрики и панорамный поезд',
-        body: 'Экскурсия по фабрике показывает завяливание, скручивание, ферментацию и упаковку познавательно, но шумно и industrial; дегустация в конце награда. Прогулки по террасам мягче и photogenicнее, особенно рано, когда сборщики работают и свет мягкий.\n\nЛиния Kandy to Badulla (часто Kandy to Ella или Nanu Oya to Ella) главный journey бронируйте observation или первый класс, лёгкий багаж для лестниц на перронах, задержки возможны; важны виды, не punctuality.',
+        body: 'Экскурсия по фабрике показывает завяливание, скручивание, ферментацию и упаковку познавательно, но шумно и по-заводскому; дегустация в конце награда. Прогулки по террасам мягче и фотогеничнее, особенно рано, когда сборщики работают и свет мягкий.\n\nЛиния Kandy to Badulla (часто Kandy to Ella или Nanu Oya to Ella) главный маршрут. Бронируйте observation или первый класс, лёгкий багаж для лестниц на перронах, задержки возможны; важны виды, не пунктуальность.',
       },
       {
         title: 'Сборы для прохладного климата и практика',
-        body: 'Флис или лёгкая куртка, закрытая обувь с grip для мокрых перронов, дождевик зонты проигрывают горному ветру. SPF всё равно нужен на высоте; UV силён при просветах.\n\nУкачивание на извилистых дорогах бывает сидите спереди, избегайте тяжёлого curry перед длинными переездами, останавливайтесь на viewpoints вместо гонки. Чайный край награждает медленные утра туманная терраса с orange pekoe лучше лишнего часа в машине.',
+        body: 'Флис или лёгкая куртка, закрытая обувь с хорошим сцеплением для мокрых перронов, дождевик: зонты проигрывают горному ветру. SPF всё равно нужен на высоте; UV силён при просветах.\n\nУкачивание на извилистых дорогах бывает. Сидите спереди, избегайте тяжёлого карри перед длинными переездами, останавливайтесь на смотровых вместо гонки. Чайный край награждает медленные утра: туманная терраса с orange pekoe лучше лишнего часа в машине.',
       },
     ],
     faq: [
@@ -513,19 +475,19 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
       },
       {
         q: 'Стоит ли поезд Kandy to Ella?',
-        a: 'Да ради пейзажа бронируйте места заранее в пик сезона, ездите днём, задержки часть опыта. Многие проезжают только один участок.',
+        a: 'Да, ради пейзажа. Бронируйте места заранее в пик сезона, ездите днём, задержки — часть опыта. Многие проезжают только один участок.',
       },
       {
         q: 'Что надеть в Nuwara Eliya?',
-        a: 'Слои футболка днём, свитер или флис ночью. Закрытая обувь с grip; дождевик круглый год.',
+        a: 'Слои: футболка днём, свитер или флис ночью. Закрытая обувь с хорошим сцеплением; дождевик круглый год.',
       },
       {
         q: 'Чайная фабрика с детьми?',
-        a: 'Обычно welcome; шум машин и горячие поверхности держите за руку в цехе, избегайте при очень маленьких, чувствительных к шуму.',
+        a: 'Обычно да; шум машин и горячие поверхности держите за руку в цехе, избегайте при очень маленьких, чувствительных к шуму.',
       },
       {
         q: 'Nuwara Eliya или Ella для ночёвки?',
-        a: 'Nuwara Eliya для колониальной прохлады и садов; Ella для hikes, кафе и Nine Arch Bridge. Многие маршруты включают по ночи в каждой.',
+        a: 'Nuwara Eliya для колониальной прохлады и садов; Ella для прогулок, кафе и Nine Arch Bridge. Многие маршруты включают по ночи в каждой.',
       },
     ],
     ctaTitle: 'Вплетём чайный край в ваш частный маршрут',
@@ -547,93 +509,79 @@ export const TEA_COUNTRY_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Tee Land Ratgeber: Plantagen, Zuge und Bergstadte',
-    lead: 'Das Bergland zwischen Kandy und Ella ist kuhler, gruner und langsamer als die Kuste konturierte Teestraucher, Kolonialbungalows und neblige Grate, verbunden durch eine der schonsten Panorama Bahnstrecken Asiens. Wer weiss, wo er ubernachtet, was eine Fabriktour bringt und wie man sich fur 15-°C Morgen kleidet, erlebt ein Highlight statt eines feuchten Zwischenstopps.',
-    heroAlt: 'Reihen von Teestrauchern auf einer srilankischen Teeplantage im Bergland',
+    h1: 'Theeland in Sri Lanka: plantages, treinen en heuvelsteden',
+    lead: 'Het heuvelland tussen Kandy en Ella is koeler, groener en trager dan de kust: een landschap van theestruiken die de hellingen volgen, koloniale bungalows en mistige ruggen, verbonden door een van de grote panoramatreinen van Azië. Als u weet in welke plaatsen u overnacht, wat een fabrieksbezoek inhoudt en hoe u zich kleedt voor ochtenden van 15°C, maakt dat het verschil tussen een klamme tussenstop en een hoogtepunt van de reis.',
+    heroAlt: 'Rijen theestruiken op een theeplantage in het heuvelland van Sri Lanka',
     sections: [
       {
-        title: 'Was „Tee Land“ auf einer typischen Route umfasst',
-        body: 'Die meisten Rundreisen durchqueren die Berge in zwei bis drei Tagen, oft Kandy → Nuwara Eliya → Ella, mit optionalen Stopps an Plantagen oder Aussichtspunkten. Hohen von etwa 500 m bei Kandy bis uber 1.800 m am Horton Plains Temperaturen fallen schnell, Regen kommt ohne viel Vorwarnung.\n\nDas ist kein einzelner Ort, sondern ein Korridor aus Talern und Gipfeln; man erlebt ihn per Zug, kurzen Spaziergangen und ein bis zwei Ubernachtungsbasen statt einer Monument Checkliste.',
+        id: 'overview',
+        title: 'Wat theeland op een gebruikelijke route inhoudt',
+        body: 'De meeste rondreizen doorkruisen de heuvels in twee of drie dagen, vaak van Kandy via Nuwara Eliya naar Ella, met optionele stops bij een plantage of een uitzichtpunt. De hoogte loopt van ongeveer 500 m bij Kandy tot meer dan 1.800 m bij Horton Plains. De temperatuur daalt snel en regen komt zonder veel waarschuwing.\n\nDit is niet één stad, maar een reeks valleien en toppen. U beleeft het per trein, met korte wandelingen en één of twee overnachtingsplaatsen, niet als een lijst van monumenten met een toegangsbewijs.',
       },
       {
-        title: 'Nuwara Eliya: koloniale Bergstation und hohe Garten',
-        body: '„Little England“ liegt auf rund 1.900 m mit kuhlen Nachten, Tudor Fassaden und Rennbahn Rasen, der in den Tropen fremd wirkt. Pedro Estate und Mackwoods (Damro) bieten Fabriktouren und Verkostung; Gregory Lake Bootsfahrten bei passendem Wetter.\n\nIdeal fur Reisende mit formeller Gartenatmosphare und kuhleren Schlaftemperaturen. Warme Schichten einpacken Hotelzimmer haben selten Heizung, feuchte Wasche trocknet langsam.',
+        id: 'nuwaraEliya',
+        title: 'Nuwara Eliya: koloniaal bergstadje en hoge tuinen',
+        body: 'Nuwara Eliya, bekend als Little England, ligt op ongeveer 1.900 m, met koude nachten, gevels in Tudorstijl en het gras van een renbaan dat in de tropen vreemd aandoet. Pedro Estate en Mackwoods (Damro) bieden fabrieksbezoeken en een proeverij. Bij Gregory Lake zijn er boottochten wanneer het weer meewerkt.\n\nHet past bij reizigers die een formele tuinsfeer willen en liever koeler slapen. Reken op warme kledinglagen. Hotelkamers hebben vaak geen verwarming en vochtige was droogt langzaam.',
       },
       {
-        title: 'Ella: Aussichten, Wanderungen und entspanntes Zentrum',
-        body: 'Ella ist zum sozialen Mittelpunkt des Berglands geworden kleine Guesthouses, Cafes und Wanderungen zum Little Adam’s Peak und Ella Rock. Nine Arch Bridge am besten mit fahrendem Zug (Fahrplan mit Fahrer klaren). Die Stadt passt zu aktiven Reisenden, die informelle Aufenthalte Kolonial Chic vorziehen.\n\nWetter unberechenbar: klarer Sonnenaufgang kann bis Mittag in Wolken enden. Einen ganzen Tag einplanen statt Durchfahrt, wenn Aussicht zahlt.',
+        id: 'ella',
+        title: 'Ella: uitzichten, wandelingen en een ontspannen plek voor rugzakreizigers',
+        body: 'Ella is het sociale middelpunt van het heuvelland geworden: kleine gastverblijven, cafés en wandelingen naar Little Adam’s Peak en Ella Rock. Nine Arch Bridge bezoekt u het best wanneer er een trein passeert. Controleer de dienstregeling van die dag bij uw chauffeur. De plaats past bij actieve reizigers die een informeel verblijf verkiezen boven koloniale glans.\n\nHet weer is onvoorspelbaar. Een heldere zonsopgang kan tegen de middag bewolkt worden. Plan hier een volle dag, en geen doorrit, als de uitzichten voor u tellen.',
       },
       {
-        title: 'Kandys Verbindung zum Tee Tor zum Bergland',
-        body: 'Kandy ist Kulturstadt (Zahntempel, Botanischer Garten), aber auch ublicher Start des Aufstiegs ins Tee Land. Peradeniya zeigt Gewurzbeete und alte Baume als Ubergang von Tieflandhitze zu Bergkuhle.\n\nManche Touren ubernachten nicht in Nuwara Eliya, sondern fahren mit dem Zug von Kandy Richtung Ella und stoppen unterwegs an einer Plantage sinnvolle Verdichtung bei wenig Zeit, weniger Tiefe.',
+        id: 'kandyLink',
+        title: 'De schakel van Kandy: toegangspoort tot de heuvels',
+        body: 'Kandy zelf is een culturele stad, met de Tandtempel en botanische tuinen, maar het is ook het gebruikelijke begin van de klim naar het theeland. De tuinen van Peradeniya hebben specerijbedden en volwassen bomen die de overgang markeren van de hitte in het laagland naar de koelte van het heuvelland.\n\nSommige reizen slaan een overnachting in Nuwara Eliya over en nemen in plaats daarvan de trein van Kandy richting Ella, met een korte stop bij een plantage onderweg. Dat is een verstandige verkorting als de tijd krap is, al ruilt u diepgang in voor tempo.',
       },
       {
-        title: 'Plantagenbesuche vs Fabriktouren und der Panoramazug',
-        body: 'Eine Fabriktour zeigt Welken, Rollen, Fermentieren und Verpacken lehrreich, manchmal laut und industriell; Verkostung am Ende ist der Lohn. Spaziergange uber Terrassen sind sanfter und fotogener, besonders fruh, wenn Pflucker aktiv sind und Licht weich ist.\n\nDie Strecke Kandy to Badulla (oft Kandy to Ella oder Nanu Oya to Ella) ist die Hauptattraktion reservierte Platze in Observation oder 1. Klasse wenn moglich, leichtes Gepack fur Bahnsteigtreppen, Verspatungen einplanen; die Aussicht zahlt, nicht die Punktlichkeit.',
+        id: 'plantationsAndTrain',
+        title: 'Plantagebezoeken, fabrieksrondleidingen en de panoramatrein',
+        body: 'Een rondleiding in een werkende fabriek toont verwelken, rollen, fermenteren en verpakken. Dat is leerzaam, maar soms luid en industrieel. De proeverij aan het einde is de beloning. Wandelingen over de terrasvelden zijn rustiger en beter voor foto’s, vooral vroeg in de ochtend, wanneer de plukkers aan het werk zijn en het licht zacht is.\n\nDe lijn van Kandy naar Badulla, vaak gereden van Kandy naar Ella of van Nanu Oya naar Ella, is de rit waar het om draait. Reserveer zitplaatsen in de observatiewagon of de eerste klas wanneer dat kan, houd de bagage licht voor de trappen op het station en reken op vertraging. De uitzichten zijn het doel, niet de stiptheid.',
       },
       {
-        title: 'Packliste fur kuhles Klima und praktische Tipps',
-        body: 'Fleece oder leichte Jacke, geschlossene Schuhe mit Grip fur nasse Bahnsteige, Regenjacke Regenschirme scheitern am Bergwind. Sonnenschutz trotzdem wichtig in der Hohe; UV stark bei Wolkenlucken.\n\nReisekrankheit betrifft manche auf kurvigen Bergstrassen vorn sitzen, kein schweres Curry vor langen Fahrten, Stopps an Aussichtspunkten statt Hetze. Tee Land belohnt langsame Morgen neblige Terrasse mit Orange Pekoe schlagt eine Autostunde.',
-      },
-      {
-        title: 'Heutiger Name von Ceylon: Sri Lanka',
-        body: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka meinen dieselbe Insel. Ceylon bleibt der Name fur ceylon tee und echten Zimt von hier.\n\nWir fahren private Teeland Touren. Wir verkaufen keine Gewurzglaser in Deutschland.',
-      },
-      {
-        title: 'Ceylon Tee und Ceylon Zimt auf der Rundreise',
-        body: 'In der Fabrik sehen Sie ceylon tea Verkostung. An Gewurzgarten zwischen Colombo und Kandy wachst Cinnamomum verum, dunnrinde ceylon zimt, nicht cassia zimt. Das ist ein Ausflug, kein Rat welcher zimt ist gesund und kein zimt kaufen Shop.\n\nCeylon zimt unterschied zu cassia: echter Ceylon Zimt ist dunn und rohrrig. Cassia ist dicker. Wir sind Reiseveranstalter, keine Drogerie. Ceylon zimtstangen sehen Sie am Strauch, nicht als Supermarkt Glas.',
+        id: 'packingClimate',
+        title: 'Inpakken voor een koel klimaat en praktische tips',
+        body: 'Neem een fleece of een lichte jas mee, dichte schoenen met grip voor natte perrons en een regenjas. Paraplu’s hebben het zwaar in de wind van de heuvels. Zonnebrand blijft belangrijk op deze hoogte. De zonkracht is hoog wanneer de wolken openbreken.\n\nWagenziekte treft sommige reizigers op de bochtige wegen in de heuvels. Ga vooraan zitten, vermijd een zware curry als lunch voor lange ritten en plan stops bij uitzichtpunten in plaats van gehaast aan te komen. Het theeland beloont trage ochtenden. Een mistig terras met een kop orange pekoe is beter dan nog een uur in de auto.',
       },
     ],
     faq: [
       {
-        q: 'Wie viele Tage im Tee Land?',
-        a: 'Zwei Nachte (oft Nuwara Eliya und Ella oder Kandy plus Ella) passen zu den meisten Wochenrouten. Eine Nacht ist hetzig; drei erlauben langsamere Wanderungen und besseres Wettergluck.',
+        q: 'Hoeveel dagen moet ik in het theeland doorbrengen?',
+        a: 'Twee nachten, vaak Nuwara Eliya en Ella, of Kandy plus Ella, passen in de meeste reizen van een week. Eén nacht is gehaast. Drie nachten geven ruimte voor tragere wandelingen en meer kans op goed weer.',
       },
       {
-        q: 'Lohnt sich der Zug Kandy to Ella?',
-        a: 'Ja wegen der Landschaft reservierte Platze in der Hochsaison voraus buchen, tags fahren, Verspatungen mit einplanen. Viele fahren ein Teilstuck und fahren den Rest.',
+        q: 'Is de trein van Kandy naar Ella de moeite waard?',
+        a: 'Ja, vanwege het landschap. Boek in het hoogseizoen vooruit gereserveerde zitplaatsen, reis overdag en zie vertraging als deel van de ervaring. Veel reizigers nemen één traject met de trein en rijden de rest.',
       },
       {
-        q: 'Was anziehen in Nuwara Eliya?',
-        a: 'Schichten T Shirt tags, Pullover oder Fleece nachts. Geschlossene Schuhe mit Grip; Regenjacke ganzjahrig.',
+        q: 'Wat trek ik aan in Nuwara Eliya?',
+        a: 'Lagen: een T shirt overdag, een trui of fleece ’s avonds. Dichte schoenen met grip voor natte paden, en het hele jaar een regenjas.',
       },
       {
-        q: 'Teefabrik mit Kindern?',
-        a: 'Meist willkommen; Maschinenlarm und heisse Flachen Hande halten auf Fabrikboden, bei sehr kleinen Kindern bei Larm vorsichtig.',
+        q: 'Kan ik een theefabriek bezoeken met kinderen?',
+        a: 'De meeste fabrieken verwelkomen gezinnen. Rondleidingen gaan gepaard met machinelawaai en hete oppervlakken. Houd elkaars hand vast op de fabrieksvloer en sla de rondleiding over als heel jonge kinderen gevoelig zijn voor lawaai.',
       },
       {
-        q: 'Nuwara Eliya oder Ella zum Ubernachten?',
-        a: 'Nuwara Eliya fur koloniale Kuhle und Garten; Ella fur Wanderungen, Cafes und Nine Arch Bridge. Viele Routen nutzen je eine Nacht.',
-      },
-      {
-        q: 'Wie lautet der heutige Name von Ceylon?',
-        a: 'Heutiger name von ceylon ist Sri Lanka (im Kreuzwortratsel oft acht Buchstaben ohne Leerzeichen: SRILANKA). Ceylon land ist dasselbe Land.',
-      },
-      {
-        q: 'Was ist der Unterschied Ceylon Zimt und Cassia?',
-        a: 'Zimt cassia oder ceylon und ceylon vs cassia: echter ceylon zimt ist dunn, cassia zimt dicker. Sie sehen das im Gewurzgarten. Kein Drogerie Vergleich, kein Cumarin Rat, kein zimt kaufen.',
-      },
-      {
-        q: 'Wo trinke ich Ceylon Tee auf der Reise?',
-        a: 'Ceylon tee und ceylon tea in Fabriken um Nuwara Eliya und Ella, dazu schwarzer Tee Verkostung. Ceylon cay ist derselbe schwarze Tee. Assam tee ist Indien, nicht unsere Route.',
+        q: 'Nuwara Eliya of Ella: waar overnacht u?',
+        a: 'Nuwara Eliya voor koloniale koelte en tuinen. Ella voor wandelingen, cafés en Nine Arch Bridge. Veel routes nemen in elk een nacht op.',
       },
     ],
-    ctaTitle: 'Tee Land in Ihre private Route einweben',
-    ctaBody: 'Nennen Sie Termine und Fitness wir balancieren Zugabschnitte, Plantagenstopps und Bergstadt Nachte ohne Uberlastung der Fahrtage.',
-    ctaLabel: 'Bergland Route planen',
+    ctaTitle: 'Verweef het theeland in uw privéroute',
+    ctaBody: 'Vertel ons uw data en hoe fit u bent. We stemmen treintrajecten, stops bij plantages en nachten in heuvelsteden op elkaar af, zonder de rijdagen te overladen.',
+    ctaLabel: 'Plan een route door het heuvelland',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'ellaDay', label: 'Ella Tagesausflug' },
-      { pageId: 'kandyDay', label: 'Kandy Tagesausflug' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'ellaDay', label: 'Dagtocht naar Ella' },
+      { pageId: 'kandyDay', label: 'Dagtocht naar Kandy' },
     ],
     relatedDestinations: [
       { pageId: 'destElla', label: 'Ella' },
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guidePacking', label: 'Sri Lanka Packliste Ratgeber' },
-      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Paklijst voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   }
 };

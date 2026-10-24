@@ -1,18 +1,21 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideHttpClient } from '@angular/common/http';
+import { provideRouter } from '@angular/router';
 
-import { BookingSuccess } from './booking-success';
+import { BookingSuccessComponent } from './booking-success';
 
-describe('BookingSuccess', () => {
-  let component: BookingSuccess;
-  let fixture: ComponentFixture<BookingSuccess>;
+describe('BookingSuccessComponent', () => {
+  let component: BookingSuccessComponent;
+  let fixture: ComponentFixture<BookingSuccessComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BookingSuccess]
+      imports: [BookingSuccessComponent],
+      providers: [provideRouter([]), provideHttpClient()],
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BookingSuccess);
+    fixture = TestBed.createComponent(BookingSuccessComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

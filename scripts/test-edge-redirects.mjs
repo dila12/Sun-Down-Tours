@@ -63,6 +63,12 @@ const cases = [
   ['/it/7-cay-sri-lanka-tour', '/it/tour-sri-lanka-7-giorni'],
   ['/7-cay-sri-lanka-tour', '/7-day-sri-lanka-tour'],
   ['/de/7-cay-sri-lanka-tour', '/de/7-tage-sri-lanka-rundreise'],
+  ['/pl/colombo-sri-lanka', '/pl/kolombo-sri-lanka'],
+  ['/ru/colombo-sri-lanka', '/ru/kolombo-shri-lanka'],
+  ['/de/colombo-sri-lanka', null],
+  ['/de/hiriketiya-sri-lanka', '/hiriketiya-sri-lanka'],
+  ['/ru/hiriketiya-shri-lanka', '/hiriketiya-sri-lanka'],
+  ['/pl/kolombo-sri-lanka', null],
 ];
 
 let failed = 0;

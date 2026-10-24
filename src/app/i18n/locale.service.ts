@@ -1,5 +1,5 @@
 import { Injectable, inject, signal } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
+import { NavigationEnd, Router, UrlTree } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
 import { TRANSLATIONS } from './content';
@@ -7,6 +7,14 @@ import type { Dict, DictValue, FaqItem } from './content/types';
 import { DEFAULT_LOCALE, type Locale, localeFromUrl } from './locales';
 import { buildAlternates, buildPath, buildUrl } from './site-data.mjs';
 import type { Alternate } from './site-data.mjs';
+
+export function createLocaleSwitchTree(router: Router, targetPath: string): UrlTree {
+  const current = router.parseUrl(router.url);
+  return router.createUrlTree([targetPath], {
+    queryParams: current.queryParams,
+    fragment: current.fragment ?? undefined,
+  });
+}
 
 /**
  * Runtime i18n engine. Holds the active locale (derived from the URL prefix)

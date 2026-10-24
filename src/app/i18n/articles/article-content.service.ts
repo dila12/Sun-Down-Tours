@@ -6,7 +6,12 @@ import { DEFAULT_LOCALE } from '../locales';
 import { getPage, isPageIndexable } from '../site-data.mjs';
 import { DEST_HUB_CARDS } from '../destinations/catalog';
 import { GUIDE_HUB_CARDS } from '../guides/catalog';
-import { localizeArticle, type ArticleContent, type BaseArticle } from './types';
+import {
+  hasCompleteArticleTranslation,
+  localizeArticle,
+  type ArticleContent,
+  type BaseArticle,
+} from './types';
 
 export interface ArticleHubCard {
   pageId: string;
@@ -109,6 +114,12 @@ export class ArticleContentService {
       return null;
     }
     return this.localize(entry, locale);
+  }
+
+  async hasCompleteTranslation(pageId: string, locale: Locale): Promise<boolean> {
+    if (locale === DEFAULT_LOCALE) return true;
+    const entry = await this.loadEntry(pageId);
+    return !!entry && hasCompleteArticleTranslation(entry.en, entry[locale]);
   }
 
   async destinationHubCards(locale: Locale = this.i18n.locale()): Promise<ArticleHubCard[]> {

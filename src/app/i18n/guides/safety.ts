@@ -229,6 +229,10 @@ export const SAFETY_GUIDE: ArticleContent = {
         q: 'Quels numeros d’urgence enregistrer ?',
         a: '119 police, 1990 ambulance, 1912 police touristique. Gardez aussi l’ambassade et la ligne d’urgence de votre assurance voyage.',
       },
+      {
+        q: 'Le Sri Lanka est il sur par rapport aux informations ?',
+        a: 'Sur les itineraires de vacances habituels, oui en general avec un chauffeur prive. Nous ne sommes pas une redaction d’actualite et nous ne couvrons pas les scores de cricket.',
+      },
     ],
     ctaTitle: 'Voyagez avec un chauffeur guide local de confiance',
     ctaBody: 'Nos circuits prives assures vous associent a des chauffeur guides licencies qui gerent navigation, logistique sur les sites et arrets dejeuner verifiesous profitez de l’experience, pas des pieges.',
@@ -300,6 +304,14 @@ export const SAFETY_GUIDE: ArticleContent = {
       {
         q: 'Quali numeri di emergenza salvare?',
         a: '119 polizia, 1990 ambulanza, 1912 polizia turistica. Tenete anche ambasciata e linea emergenze assicurazione viaggio.',
+      },
+      {
+        q: 'E sicuro viaggiare in Sri Lanka dall’Europa?',
+        a: 'Si sulle rotte turistiche abituali, con trasporti affidabili, oggetti di valore al sicuro tra la folla e il rispetto delle regole nei templi. Controllate gli avvisi del vostro ministero degli esteri prima del volo.',
+      },
+      {
+        q: 'Lo Sri Lanka e sicuro rispetto alle notizie?',
+        a: 'Sulle rotte di vacanza standard in genere si, con un autista privato. Non siamo una redazione di notizie e non seguiamo i risultati di cricket.',
       },
     ],
     ctaTitle: 'Viaggiate con un autista guida locale affidabile',
@@ -378,6 +390,10 @@ export const SAFETY_GUIDE: ArticleContent = {
         q: 'Que numeros de emergencia guardar?',
         a: '119 policia, 1990 ambulancia, 1912 policia turistica. Guarde tambien embajada y linea de emergencia del seguro de viaje.',
       },
+      {
+        q: 'Es seguro viajar a Sri Lanka desde Europa?',
+        a: 'Si en las rutas turisticas habituales, con transporte de confianza, los objetos de valor bien guardados en las aglomeraciones y respeto de las normas en los templos. Consultad el aviso de vuestro ministerio de exteriores antes de volar.',
+      },
     ],
     ctaTitle: 'Viaje con un chofer guia local de confianza',
     ctaBody: 'Nuestros tours privados asegurados le emparejan con choferes guia licenciados que gestionan navegacion, logistica en sitios y paradas de almuerzo verificadas usted se centra en la experiencia, no en evitar trampas.',
@@ -450,6 +466,14 @@ export const SAFETY_GUIDE: ArticleContent = {
         q: 'Jakie numery alarmowe zapisac?',
         a: '119 policja, 1990 pogotowie, 1912 policja turystyczna. Zapisz tez kontakt ambasady i numer alarmowy ubezpieczenia podroznego.',
       },
+      {
+        q: 'Czy bezpiecznie jechac na Sri Lanke z Europy?',
+        a: 'Tak na typowych trasach wakacyjnych, z rzetelnym transportem, kosztownosciami schowanymi w tlumie i z szacunkiem dla zasad w swiatyniach. Przed wylotem sprawdzcie komunikaty swojego MSZ.',
+      },
+      {
+        q: 'Czy Sri Lanka jest bezpieczna w porownaniu z wiadomosciami?',
+        a: 'Na standardowych trasach wakacyjnych zwykle tak, z prywatnym kierowca. Nie jestesmy redakcja wiadomosci i nie relacjonujemy wynikow krykieta.',
+      },
     ],
     ctaTitle: 'Podrozuj z zaufanym lokalnym kierowca przewodnikiem',
     ctaBody: 'Nasze ubezpieczone prywatne wycieczki lacza Cie z licencjonowanymi kierowcami przewodnikami, ktorzy ogarniaja nawigacje, logistyke na miejscach i sprawdzone przystanki obiadowe Ty skupiasz sie na doswiadczeniu, nie na pulapkach.',
@@ -494,11 +518,11 @@ export const SAFETY_GUIDE: ArticleContent = {
       },
       {
         title: 'Дикая природа, нацпарки и дистанция',
-        body: 'Яла, Удавalawe и Миннерия не зоопарки; слоны, буйволы и леопарды дикие. Оставайтесь в сафari-джипах, если гид не разрешит иное; не подходите к слонам пешком, особенно к одиноким самцам или стадам с детёнышами. Кормление обезьян у храмов провоцирует агрессию и укусы.\n\nМорские течения на южном побережье могут быть сильными слушайте флаги и спасателей. Операторы снорклинга и дайвинга должны быть лицензированы; не трогайте кораллы и морскую жизнь.',
+        body: 'Яла, Удавалаве и Миннерия не зоопарки; слоны, буйволы и леопарды дикие. Оставайтесь в сафари-джипах, если гид не разрешит иное; не подходите к слонам пешком, особенно к одиноким самцам или стадам с детёнышами. Кормление обезьян у храмов провоцирует агрессию и укусы.\n\nМорские течения на южном побережье могут быть сильными. Слушайте флаги и спасателей. Операторы снорклинга и дайвинга должны быть лицензированы; не трогайте кораллы и морскую жизнь.',
       },
       {
-        title: 'Вода, еда, экстренные случаи и женщины в solo-поездках',
-        body: 'Пейте запечатанную бутилированную или фильтрованную воду; избегайте водопроводной для чистки зубов вне доверенных отелей. Ешьте свежеприготовленное и чистите фрукты сами см. наш гастрономический гид про уличную еду. Настоятельно рекомендуется туристическая страховка с медицинским покрытием.\n\nЭкстренные номера: полиция 119, скорая 1990, туристическая полиция 1912 (часто по английски). Женщины в solo-поездках редко сообщают о серьёзных проблемах; ночью зарегистрированный транспорт, скромная одежда в религиозных местах, инстинкт в пустых районах те же практичные правила, что и в большей части Азии.',
+        title: 'Вода, еда, экстренные случаи и женщины в самостоятельных поездках',
+        body: 'Пейте запечатанную бутилированную или фильтрованную воду; избегайте водопроводной для чистки зубов вне доверенных отелей. Ешьте свежеприготовленное и чистите фрукты сами см. наш гастрономический гид про уличную еду. Настоятельно рекомендуется туристическая страховка с медицинским покрытием.\n\nЭкстренные номера: полиция 119, скорая 1990, туристическая полиция 1912 (часто по-английски). Женщины в самостоятельных поездках редко сообщают о серьёзных проблемах; ночью зарегистрированный транспорт, скромная одежда в религиозных местах, инстинкт в пустых районах те же практичные правила, что и в большей части Азии.',
       },
     ],
     faq: [
@@ -515,12 +539,20 @@ export const SAFETY_GUIDE: ArticleContent = {
         a: 'Законно, но требовательно хаотичный трафик и слабая разметка вне главных маршрутов. Большинство предпочитает лицензированного водителя гида, знающего дороги и парковки.',
       },
       {
-        q: 'Безопасны ли сафari в Яле?',
+        q: 'Безопасны ли сафари в Яле?',
         a: 'Да в одобренных джипах с лицензированными гидами парка и правилами дистанции к слонам и другой дикой природе. Не выходите из машины в парке без явного разрешения.',
       },
       {
         q: 'Какие номера экстренных служб сохранить?',
         a: '119 полиция, 1990 скорая, 1912 туристическая полиция. Также сохраните контакт посольства и линию экстренной помощи страховки.',
+      },
+      {
+        q: 'Безопасно ли ехать на Шри Ланку из Европы?',
+        a: 'Да на обычных курортных маршрутах: надёжный транспорт, ценности при себе в толпе и соблюдение правил в храмах. Перед вылетом проверьте рекомендации своего МИДа.',
+      },
+      {
+        q: 'Насколько Шри Ланка безопасна по сравнению с новостями?',
+        a: 'На стандартных туристических маршрутах в целом да, с частным водителем. Мы не новостная редакция и не освещаем счёт крикета.',
       },
     ],
     ctaTitle: 'Путешествуйте с проверенным местным водителем гидом',
@@ -544,74 +576,89 @@ export const SAFETY_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Sicherheits Ratgeber: praktische Tipps fur eine selbstbewusste Reise',
-    lead: 'Sri Lanka ist fur internationale Besucher im Allgemeinen sicher und gastfreundlich, mit niedrigeren Raten gewalttatiger Kriminalitat als in vielen Landern doch wie uberall machen vernunftige Gewohnheiten bei Strassenverkehr, Betrug, Wildtieren und Gesundheit den Unterschied zwischen reibungslosem Urlaub und vermeidbarem Arger. Dieser Ratgeber zeigt, worauf Sie achten sollten, nicht wovor Sie Angst haben mussen.',
-    heroAlt: 'Reisender bereitet sich sicher auf eine Sri Lanka Roadtrip mit Privatfahrer vor',
+    h1: 'Is Sri Lanka veilig om te reizen? Praktische tips voor een ontspannen reis',
+    lead: 'Sri Lanka is voor internationale bezoekers over het algemeen een veilig en gastvrij land, met minder geweldsmisdrijven dan in veel andere landen. Zoals overal maken verstandige gewoonten in het verkeer, bij oplichting, bij wilde dieren en rond gezondheid het verschil tussen een soepele vakantie en vermijdbare ergernis. Deze gids gaat over waar u op let, niet over waar u bang voor hoeft te zijn.',
+    heroAlt: 'Reiziger die zich veilig voorbereidt op een autorit door Sri Lanka met een privéchauffeur',
     sections: [
       {
-        title: 'Allgemeine Sicherheit: was Besucher wirklich erwarten sollten',
-        body: 'Kleine Diebstahle gibt es auf belebten Markten, Busbahnhofen und vollen Stranden Handy und Geldborse in Vorder- oder Umhangetasche, nicht uber dem Stuhl im Cafe hangen. Gewalttaten gegen Touristen sind selten; Streit geht eher um Geld, Fahrpreise oder missverstandene „Fuhrer“ an Sehenswurdigkeiten.\n\nPolitische Demonstrationen kommen gelegentlich in Colombo vor; grosse Ansammlungen meiden, lokale Nachrichten verfolgen und Ihrem Fahrer Guide vertrauen, wenn Umleitung notig ist. Sri Lanker sind uberwiegend gastfreundlich Hotel oder Fahrer nach lokalen Bedingungen fragen schlagt veraltete Forenbeitrage.',
+        id: 'generalSafety',
+        title: 'Algemene veiligheid: wat bezoekers echt kunnen verwachten',
+        body: 'Kleine diefstal komt voor op drukke markten, bij busstations en op volle stranden. Houd telefoons en portemonnees in een voorzak of in een tas schuin voor het lichaam, niet aan een stoel in een café. Geweldsdelicten gericht op toeristen zijn zeldzaam. Geschillen gaan vaker over geld, vervoerstarieven of verkeerd begrepen gidsen bij bezienswaardigheden.\n\nPolitieke demonstraties komen af en toe voor in Colombo. Vermijd grote bijeenkomsten, volg het lokale nieuws en vertrouw erop dat uw chauffeurgids een andere route neemt als dat nodig is. Sri Lankanen zijn over het algemeen gastvrij. Vraag uw hotel of chauffeur naar de lokale situatie. Dat is beter dan vertrouwen op verouderde forumberichten.',
       },
       {
-        title: 'Haufige Betrugereien und wie man sie umgeht',
-        body: 'An Sigiriya, Dambulla und am Zahntempel behaupten inoffizielle „Fuhrer“ manchmal, man brauche sie zum Eintritt, oder locken zu Edelstein und Gewurzshops mit hohem Provisionsdruck offizielle Tickets gibt es an klaren Schaltern; ungebetene Begleiter hoflich ablehnen. Tuk tuk Fahrer mit „kostenlosen“ Tempeltouren enden oft in uberteuerten Laden.\n\nEdelstein und Gewurzkaufe sind optionales Sightseeing, keine Pflicht. Tuk tuk und Taxipreise vor Fahrtantritt vereinbaren oder Fahr Apps in Colombo nutzen. Ihr Privatfahrer Guide nimmt bei gebuchter Rundreise den Grossteil dieser Reibung.',
+        id: 'scamsToAvoid',
+        title: 'Veelvoorkomende oplichting en hoe u die vermijdt',
+        body: 'Bij Sigiriya, Dambulla en de Tandtempel kunnen onofficiële gidsen beweren dat u hen nodig hebt om binnen te komen, of edelstenen en omwegen naar specerijenwinkels aanbieden met sterke druk om commissie. Officiële kaartjes worden verkocht aan duidelijke loketten. Wijs ongevraagd gezelschap beleefd af. Tuktukchauffeurs die een gratis tempelrondleiding aanbieden, eindigen vaak bij te dure winkels.\n\nAankopen van edelstenen en specerijen zijn optioneel, geen verplichting. Spreek het tarief van een tuktuk of taxi af voordat u vertrekt, of bestel een rit via een app in Colombo. Uw privéchauffeur haalt het grootste deel van deze wrijving weg bij een vooraf geboekte rondreis.',
       },
       {
-        title: 'Strassenverkehr, Tuk tuks und Privatfahrer',
-        body: 'Srilankisches Fahren wirkt nach westlichem Mass assertiv enge Strassen, Busse in Kurven, Fussganger am Fahrbahnrand sind normal. Als Passagier Anschnallgurte nutzen, wenn vorhanden, und Nachtfahrten auf unbekannten Bergstrassen beim Selbstfahren meiden.\n\nDie meisten Rundreisenden fahren mit lizenziertem Fahrer Guide in versichertem Fahrzeug der sicherste und entspannteste Weg uber Distanzen. Bei lokalen Tuk tuks Fahrer mit verkehrstuchtigen Fahrzeugen wahlen und auf belebten Strecken Helm tragen.',
+        id: 'roadTravel',
+        title: 'Wegverkeer, tuktuks en privéchauffeurs',
+        body: 'Naar westerse maatstaven wordt er in Sri Lanka stevig gereden. Smalle wegen, bussen die in bochten inhalen en voetgangers langs de rand van de weg zijn normaal. Draag als passagier een gordel als die er is. Rijd niet ’s nachts zelf op onbekende wegen in het heuvelland.\n\nDe meeste bezoekers op een rondreis reizen met een erkende chauffeurgids in een verzekerd voertuig. Dat is de veiligste en minst stressvolle manier om afstanden af te leggen. Gebruikt u lokaal een tuktuk, kies dan chauffeurs met een voertuig dat de weg op mag en draag zelf een helm op drukke routes.',
       },
       {
-        title: 'Tempel, kultureller Respekt und Fotografie',
-        body: 'Religiose Statten verlangen dezente Kleidung, ruhiges Verhalten und keine Selfies mit dem Rucken zu Buddha Statuen ein ernsthafter kultureller Fehler. Fotoregeln variieren: innere Schreine verbieten Kameras; vor Fotos von Monchen oder Betenden fragen.\n\nSchuhe vor dem Betreten der Schreinboden ausziehen; Socken helfen auf heissem Stein. Kleine Spenden willkommen, nie Pflicht ignorieren Sie feste „Eintrittsgebuhren“ jenseits des offiziellen Schalters.',
+        id: 'templesAndRespect',
+        title: 'Tempels, cultureel respect en fotografie',
+        body: 'Religieuze plekken vragen om bedekte kleding, rustig gedrag en geen selfies met uw rug naar boeddhabeelden. Dat is een ernstige culturele belediging. Fotoregels verschillen. Sommige binnenste schrijnen verbieden camera’s volledig. Vraag het voordat u monniken of biddende bezoekers fotografeert.\n\nDoe schoenen uit voordat u de vloer van een schrijn betreedt. Sokken helpen op hete steen. Kleine giften zijn welkom, maar nooit verplicht. Negeer iedereen die een vast entreegeld eist naast het officiële loket.',
       },
       {
-        title: 'Wildtiere, Nationalparks und Abstand halten',
-        body: 'Yala, Udawalawe und Minneriya sind keine Zoos Elefanten, Buffel und Leoparden sind wild. In Safari Jeeps bleiben, sofern Guides nichts anderes anweisen; Elefanten nie zu Fuss nahern, besonders Einzelmanner oder Herden mit Kalbern. Affen an Tempeln und Strassen futtern erzeugt Aggression und Bissrisiko.\n\nMeeresstromungen an der Sudkuste konnen stark sein Flaggen und Rettungsschwimmer beachten. Schnorchel und Tauchbetreiber sollten lizenziert sein; Korallen und Meeresleben nicht anfassen.',
+        id: 'wildlifeDistance',
+        title: 'Wilde dieren, nationale parken en afstand houden',
+        body: 'Yala, Udawalawe en Minneriya zijn geen dierentuinen. Olifanten, buffels en luipaarden zijn wild. Blijf in de safarijeep, tenzij gidsen iets anders zeggen. Nader olifanten nooit te voet, vooral niet alleenstaande mannetjes of kuddes met kalveren. Apen voeren bij tempels en langs de weg maakt ze agressief en geeft kans op beten.\n\nZeestromingen aan de zuidkust kunnen sterk zijn. Volg lokale vlaggen en het advies van de strandwacht. Bedrijven voor snorkelen en duiken moeten een vergunning hebben. Raak koraal of zeeleven niet aan.',
       },
       {
-        title: 'Wasser, Essen, Notfalle und alleinreisende Frauen',
-        body: 'Versiegeltes Flaschen- oder gefiltertes Wasser trinken; Leitungswasser zum Zahneputzen ausserhalb vertrauenswurdiger Hotels meiden. Frisch gekochtes Essen und selbst geschaltes Obst siehe unseren Kulinarik Ratgeber fur Street Food Nuancen. Reiseversicherung mit medizinischer Evakuierung dringend empfohlen.\n\nNotrufnummern: Polizei 119, Rettungsdienst 1990, Touristenpolizei 1912 (oft Englisch). Alleinreisende Frauen berichten selten ernsthafte Probleme; registrierten Transport nachts nutzen, in Tempeln dezent kleiden und Instinkte in leeren Gegenden vertrauen dieselben praktischen Regeln wie in weiten Teilen Asiens.',
+        id: 'healthEmergency',
+        title: 'Water, eten, noodgevallen en vrouwen die alleen reizen',
+        body: 'Drink water uit een gesloten fles of gefilterd water. Gebruik buiten vertrouwde hotels geen kraanwater om uw tanden te poetsen. Eet vers gekookt eten en schil fruit zelf. Zie onze voedselgids voor de nuances van eten op straat. Een reisverzekering met dekking voor medische evacuatie wordt sterk aangeraden.\n\nNoodnummers: politie 119, ambulance 1990, toeristenpolitie 1912 (vaak is Engels beschikbaar). Vrouwen die alleen reizen melden over het algemeen weinig ernstige problemen. Gebruik ’s nachts geregistreerd vervoer, kleed u bedekt bij religieuze plekken en vertrouw op uw instinct in lege gebieden. Dezelfde praktische regels gelden in het grootste deel van Azië.',
       },
     ],
     faq: [
       {
-        q: 'Ist Sri Lanka fur Touristen sicher?',
-        a: 'Ja, auf typischen Urlaubsrouten Colombo, Kulturdreieck, Bergland und Sudkuste bei Standardvorsicht. Lokale Nachrichten verfolgen, seriosen Transport nutzen und Wertsachen in Menschenmengen sichern.',
+        q: 'Is Sri Lanka veilig voor toeristen in 2026?',
+        a: 'Ja, op gewone vakantieroutes: Colombo, de Culturele Driehoek, het heuvelland en de stranden aan de zuidkust, als u de gebruikelijke voorzorg neemt. Blijf op de hoogte van lokaal nieuws, gebruik betrouwbaar vervoer en houd waardevolle spullen veilig in drukte.',
       },
       {
-        q: 'Was ist der haufigste Touristenbetrug?',
-        a: 'Inoffizielle „Fuhrer“ an grossen Tempeln und Felsstatten plus Tuk tuk Umwege zu Provisions Edelstein- oder Gewurzshops. Vorgebuchte Tickets und Privatfahrer reduzieren das deutlich.',
+        q: 'Wat is de meest voorkomende toeristenoplichting in Sri Lanka?',
+        a: 'Onofficiële gidsen bij grote tempels en rotsen, plus omwegen met een tuktuk naar winkels voor edelstenen of specerijen met commissie, zijn de meest voorkomende ergernissen. Vooraf geboekte kaartjes en een privéchauffeur verkleinen die kans sterk.',
       },
       {
-        q: 'Ist Selbstfahren in Sri Lanka sicher?',
-        a: 'Legal, aber anspruchsvoll chaotischer Verkehr und begrenzte Beschilderung abseits Hauptrouten. Die meisten Besucher bevorzugen lizenzierte Fahrer Guides, die Strassen und Parkplatze kennen.',
+        q: 'Is het veilig om zelf te rijden in Sri Lanka?',
+        a: 'Zelf rijden is legaal, maar veeleisend. Het verkeer is chaotisch en bewegwijzering is beperkt buiten de hoofdroutes. De meeste bezoekers geven de voorkeur aan een erkende chauffeurgids die de wegomstandigheden kent en het parkeren bij drukke plekken regelt.',
       },
       {
-        q: 'Sind Yala Safaris sicher?',
-        a: 'Ja in zugelassenen Jeeps mit lizenzierten Parkfuhrern und Abstandsregeln zu Elefanten und anderer Wildnis. Fahrzeug im Park nicht verlassen, ausser ausdrucklich erlaubt.',
+        q: 'Zijn safari’s in Yala veilig?',
+        a: 'Ja, als u in goedgekeurde jeeps blijft met erkende parkgidsen en de afstandsregels rond olifanten en andere wilde dieren volgt. Stap nooit uit het voertuig in het park, tenzij dat uitdrukkelijk is toegestaan.',
       },
       {
-        q: 'Welche Notrufnummern sollte ich speichern?',
-        a: '119 Polizei, 1990 Rettungsdienst, 1912 Touristenpolizei. Botschaftskontakt und Notfallnummer der Reiseversicherung ebenfalls im Telefon speichern.',
+        q: 'Is het veilig om vanuit Europa naar Sri Lanka te reizen?',
+        a: 'Ja, op gewone vakantieroutes, als u betrouwbaar vervoer gebruikt, waardevolle spullen veilig houdt in drukte en de omgangsvormen bij tempels volgt. Controleer het actuele advies van het FCDO voordat u vliegt. De meeste bezoekers uit het Verenigd Koninkrijk verplaatsen zich met een erkende privéchauffeur.',
+      },
+      {
+        q: 'Is Sri Lanka veilig vergeleken met het nieuws?',
+        a: 'Op gewone vakantieroutes is Sri Lanka over het algemeen veilig met een privéchauffeur. Wij zijn geen nieuwsredactie over Sri Lanka en wij behandelen geen cricketuitslagen.',
+      },
+      {
+        q: 'Welke noodnummers moet ik opslaan in Sri Lanka?',
+        a: 'Sla 119 op voor de politie, 1990 voor de ambulance en 1912 voor de toeristenpolitie. Bewaar ook het contact van uw ambassade en het noodnummer van uw reisverzekering in uw telefoon.',
       },
     ],
-    ctaTitle: 'Reisen Sie mit einem vertrauenswurdigen Fahrer Guide',
-    ctaBody: 'Unsere versicherten Privatreisen verbinden Sie mit lizenzierten Fahrer Guides, die Navigation, Logistik an Sehenswurdigkeiten und geprufte Mittagsstopps ubernehmen Sie konzentrieren sich auf das Erlebnis, nicht auf Fallstricke.',
-    ctaLabel: 'Sichere Privatreise buchen',
+    ctaTitle: 'Reis met een betrouwbare lokale chauffeurgids',
+    ctaBody: 'Onze verzekerde privérondreizen koppelen u aan erkende chauffeurgidsen. Zij regelen de navigatie, de logistiek bij bezienswaardigheden en zorgvuldig gekozen lunchstops, zodat u zich op de ervaring richt en niet op het ontwijken van valkuilen.',
+    ctaLabel: 'Boek een veilige privérondreis',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour8', label: '8 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'tour8', label: 'Rondreis van 8 dagen door Sri Lanka' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
-      { pageId: 'destYala', label: 'Yala Nationalpark' },
+      { pageId: 'destYala', label: 'Nationaal park Yala' },
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
-      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik Ratgeber' },
-      { pageId: 'guidePacking', label: 'Sri Lanka Packliste Ratgeber' },
+      { pageId: 'guidePrivateDriver', label: 'Gids over privéchauffeurs' },
+      { pageId: 'guideFood', label: 'Voedselgids voor Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Paklijst voor Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
     ],
   }
 };

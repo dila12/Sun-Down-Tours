@@ -518,7 +518,7 @@ export const SIGIRIYA_DAY: TourContent = {
     description:
       'Откройте для себя культурное и природное наследие Шри Ланки в однодневном туре в Сигирию, включающем храмы, восхождение на скалу и дикую природу.',
     duration: '1 день',
-    persons: '1 to 20 путешественников',
+    persons: '1–20 путешественников',
     tourType: 'Однодневный тур',
     overview:
       'Этот однодневный тур в Сигирию предлагает идеальное сочетание культуры, приключений и дикой природы. Начните с посещения Золотого пещерного храма в Дамбулле, затем взойдите на скальную крепость Сигирия или на скалу Пидурангала ради захватывающих видов. Завершите день увлекательным сафари в поисках диких слонов идеально для любителей природы и истории.',
@@ -546,11 +546,11 @@ export const SIGIRIYA_DAY: TourContent = {
       },
       {
         q: 'Включены ли сафари джип и сборы за национальный парк?',
-        a: 'Стоимость тура включает автомобиль, водителя, гида, входные билеты в храмы и обед. Билеты в парк для сафари и аренда джипа оплачиваются на месте (обычно 30 to 50 долларов США на человека), так что вы можете пропустить сафари, если предпочитаете больше времени у скал.',
+        a: 'Стоимость тура включает автомобиль, водителя, гида, входные билеты в храмы и обед. Билеты в парк для сафари и аренда джипа оплачиваются на месте (обычно 30–50 долларов США на человека), так что вы можете пропустить сафари, если предпочитаете больше времени у скал.',
       },
       {
         q: 'Как рано начинается день из Коломбо или Канди?',
-        a: 'Планируйте выезд в 5:00 to 6:00 из Коломбо или в 7:00 to 8:00 из Канди, чтобы успеть в Dambulla, подняться на скалу и провести послеобеденное сафари до наступления темноты. Мы подтверждаем точное время встречи при бронировании.',
+        a: 'Планируйте выезд в 5:00–6:00 из Коломбо или в 7:00–8:00 из Канди, чтобы успеть в Dambulla, подняться на скалу и провести послеобеденное сафари до наступления темноты. Мы подтверждаем точное время встречи при бронировании.',
       },
     ],
     days: [
@@ -592,78 +592,78 @@ export const SIGIRIYA_DAY: TourContent = {
     ],
   },
   nl: {
-    title: 'Sri Lanka Sigiriya Tagestour',
+    title: 'Sri Lanka Sigiriya dagtocht',
     description:
-      'Entdecken Sie Sri Lankas kulturelles und naturliches Erbe auf einer Tagestour nach Sigiriya, inklusive Tempel, Felsklettern und Tierwelt.',
-    duration: '1 Tag',
-    persons: '1 to 20 Reisende',
-    tourType: 'Tagestour',
+      'Ontdek het culturele en natuurlijke erfgoed van Sri Lanka tijdens een dagtocht naar Sigiriya, met tempels, een beklimming van de rots en wilde dieren.',
+    duration: '1 dag',
+    persons: '1 tot 20 reizigers',
+    tourType: 'Dagtocht',
     overview:
-      'Diese Tagestour nach Sigiriya bietet die perfekte Mischung aus Kultur, Abenteuer und Tierwelt. Beginnen Sie mit einem Besuch des Goldenen Hohlentempels in Dambulla, gefolgt von der Besteigung der Felsenfestung Sigiriya oder des Pidurangala Felsens fur atemberaubende Ausblicke. Beenden Sie den Tag mit einer spannenden Wildelefanten Safari  ideal fur Natur und Geschichtsliebhaber.',
+      'Deze dagtocht naar Sigiriya biedt de perfecte mix van cultuur, avontuur en wilde dieren. U begint met een bezoek aan de Gouden grottentempel in Dambulla en beklimt daarna het rotsfort Sigiriya of de rots Pidurangala voor adembenemende uitzichten. U sluit de dag af met een spannende safari naar wilde olifanten. De tocht is ideaal voor liefhebbers van natuur en geschiedenis.',
     includes: [
-      'Alle Eintrittsgebuhren fur Attraktionen (ohne Safari Eintritt & Jeep)',
-      'Autobahngebuhren und Parkgebuhren',
-      'Englischsprachiger professioneller Fahrer',
-      'Klimatisiertes Privatfahrzeug',
-      'Mittagessen',
+      'Alle entreegelden voor de bezienswaardigheden (zonder entree voor de safari en zonder de jeep)',
+      'Snelwegtickets en parkeerkosten',
+      'Professionele Engelssprekende chauffeur',
+      'Privévoertuig met airconditioning',
+      'Lunch',
     ],
-    excludes: ['Safari Eintrittstickets und Jeep', 'Personliche Ausgaben'],
+    excludes: ['Entreegelden voor de safari en de jeep', 'Persoonlijke uitgaven'],
     seoIntro:
-      'Eine Sigiriya Tagestour verdichtet zweitausend Jahre Geschichte und wilde Elefantengebiete in einen einzigen unvergesslichen Ausflug. Beginnen Sie bei den goldenen Buddha Statuen des Hohlentempels von Dambulla, entscheiden Sie sich anschliessend fur den Aufstieg auf den Lowenfelsen Sigiriya oder den sonnenuntergangsfreundlichen Aussichtspunkt Pidurangala, und schliessen Sie den Tag mit einer nachmittaglichen Jeep Safari ab, bei der Elefantenherden frei umherziehen. Sundown Tours ubernimmt fruhe Startzeiten, Ticket Warteschlangen und die Hitze beim Felsaufstieg, wahrend Sie in einem privaten klimatisierten Fahrzeug mit einem englischsprachigen Fahrer Guide reisen. Mittagessen ist inklusive; Safari Jeep und Parkeintrittsgebuhren werden vor Ort abgerechnet, sodass Sie am Tag selbst entscheiden konnen. Perfekt fur Kulturliebhaber und Tierfotografen mit Standort in Colombo, Kandy oder dem Kultur Dreieck.',
+      'Een dagtocht naar Sigiriya vat tweeduizend jaar geschiedenis en gebieden met wilde olifanten samen in één onvergetelijke uitstap. U begint bij de gouden Boeddhabeelden van de grottentempel van Dambulla, kiest daarna voor de beklimming van de Leeuwenrots van Sigiriya of het uitzichtpunt op Pidurangala, dat zich goed leent voor de zonsondergang, en sluit af met een jeepsafari in de middag, waar kuddes olifanten vrij rondlopen. Sundown Tours regelt het vroege vertrek, de wachtrijen voor de kaartjes en de hitte tijdens de klim, terwijl u reist in een privévoertuig met airconditioning en een Engelssprekende chauffeur gids. De lunch is inbegrepen. De jeep voor de safari en de toegang tot het park rekent u ter plaatse af, zodat u op de dag zelf kunt kiezen of u meedoet. De dag past bij cultuurliefhebbers en natuurfotografen die in Colombo, Kandy of de Culturele Driehoek verblijven.',
     highlights: [
-      'UNESCO Hohlentempel von Dambulla mit antiken Wandmalereien und goldenen Statuen',
-      'Aufstieg auf den Lowenfelsen Sigiriya oder den Pidurangala Felsen fur Festungsruinen und Dschungelblicke',
-      'Nachmittagliche Wildelefanten Safari in Minneriya, Kaudulla oder einem nahegelegenen Park',
-      'Privater klimatisierter Transport mit professionellem englischsprachigem Fahrer',
-      'Inklusive Mittagessen in einem lokalen Restaurant zwischen Kultur und Safari Stopps',
+      'UNESCO grottentempel van Dambulla, met eeuwenoude muurschilderingen en gouden beelden',
+      'Beklimming van de Leeuwenrots van Sigiriya of de rots Pidurangala, voor de ruïnes van het fort en uitzicht over de jungle',
+      'Safari naar wilde olifanten in de middag, in Minneriya, Kaudulla of een nabijgelegen park',
+      'Privévoertuig met airconditioning en een professionele Engelssprekende chauffeur',
+      'Lunch inbegrepen in een lokaal restaurant, tussen de culturele stops en de safari',
     ],
     faq: [
       {
-        q: 'Sollten wir bei einer eintagigen Tour Sigiriya Felsen oder Pidurangala besteigen?',
-        a: 'Sigiriya bietet das UNESCO Festungserlebnis mit Fresken und Palastruinen, erfordert aber mehr Stufen und Hitze. Pidurangala ist kurzer, gunstiger und beruhmt fur die Aussicht auf den Lowenfelsen  ideal, wenn Sie einen leichteren Aufstieg bevorzugen oder mit jungeren Kindern reisen.',
+        q: 'Beklimmen wij tijdens een eendaagse tocht de rots van Sigiriya of Pidurangala?',
+        a: 'Sigiriya biedt het fort op de UNESCO lijst, met fresco’s en paleisruïnes, en de klim vraagt meer treden en meer hitte. Pidurangala is korter, voordeliger en beroemd om het uitzicht op de Leeuwenrots. Dat past als u een lichtere klim wilt of met jongere kinderen reist.',
       },
       {
-        q: 'Sind Safari Jeep und Nationalpark Gebuhren enthalten?',
-        a: 'Ihr Tourpreis umfasst Fahrzeug, Fahrer, Guide, Tempeleintritte und Mittagessen. Safari Parktickets und Jeep Miete werden vor Ort bezahlt (in der Regel 30 to 50 USD pro Person), sodass Sie die Safari auch auslassen konnen, um mehr Zeit an den Felsen zu haben.',
+        q: 'Zijn de jeep voor de safari en de kosten van het nationaal park inbegrepen?',
+        a: 'De prijs van uw tocht dekt het voertuig, de chauffeur, de gids, de toegang tot de tempels en de lunch. De kaartjes voor het safaripark en de huur van de jeep betaalt u ter plaatse, doorgaans 30 tot 50 USD per persoon. Zo kunt u de safari overslaan als u meer tijd bij de rotsen wilt.',
       },
       {
-        q: 'Wie fruh beginnt der Tag von Colombo oder Kandy aus?',
-        a: 'Planen Sie eine Abfahrt um 5:00 to 6:00 Uhr von Colombo oder 7:00 to 8:00 Uhr von Kandy, um Dambulla, den Felsaufstieg und eine Nachmittags Safari vor Einbruch der Dunkelheit unterzubringen. Wir bestatigen die genaue Abholzeit bei der Buchung.',
+        q: 'Hoe vroeg begint de dag vanuit Colombo of Kandy?',
+        a: 'Plan een vertrek tussen 5:00 en 6:00 uur vanuit Colombo, of tussen 7:00 en 8:00 uur vanuit Kandy, zodat u Dambulla, de beklimming van de rots en een safari in de middag nog voor het donker haalt. Wij bevestigen het exacte ophaaltijdstip bij de boeking.',
       },
     ],
     days: [
       {
-        title: 'Sigiriya Tagestour Reiseroute',
+        title: 'Route van de Sigiriya dagtocht',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Sigiriya Tagestour Reiseroute',
+            type: 'Rondleiding',
+            title: 'Route van de Sigiriya dagtocht',
             description:
-              'Abholung von Ihrem Hotel in einem komfortablen, klimatisierten Privatfahrzeug.',
+              'Wij halen u op bij uw hotel in een comfortabel privévoertuig met airconditioning.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Goldener Hohlentempel  Dambulla',
+            type: 'Rondleiding',
+            title: 'Gouden grottentempel Dambulla',
             description:
-              'Besuchen Sie den UNESCO Welterbe Hohlentempel von Dambulla, beruhmt fur seine antiken Wandmalereien und Buddha Statuen.',
+              'Bezoek de grottentempel van Dambulla, UNESCO werelderfgoed, beroemd om de eeuwenoude muurschilderingen en Boeddhabeelden.',
           },
           {
-            type: 'Aktivitat',
-            title: 'Zahntempel (Sri Dalada Maligawa)',
+            type: 'Activiteit',
+            title: 'Tempel van de Tand (Sri Dalada Maligawa)',
             description:
-              'Besuchen Sie den heiligsten buddhistischen Tempel Sri Lankas im Herzen von Kandy.',
+              'U bezoekt de heiligste boeddhistische tempel van Sri Lanka, in het hart van Kandy.',
           },
           {
-            type: 'Abenteuer',
-            title: 'Besteigung von Sigiriya oder Pidurangala',
+            type: 'Avontuur',
+            title: 'Beklimming van Sigiriya of Pidurangala',
             description:
-              'Besteigen Sie entweder die ikonische Felsenfestung Sigiriya oder den Pidurangala Felsen fur atemberaubende Panoramablicke.',
+              'Beklim het beroemde rotsfort Sigiriya of de rots Pidurangala voor adembenemende panorama’s.',
           },
           {
             type: 'Safari',
-            title: 'Wildelefanten Safari',
+            title: 'Safari naar wilde olifanten',
             description:
-              'Erleben Sie eine spannende Wildelefanten Safari in einem Nationalpark (Jeep & Eintrittsgebuhren nicht inklusive).',
+              'Beleef een spannende safari naar wilde olifanten in een nationaal park. De jeep en de entreegelden zijn niet inbegrepen.',
           },
         ],
       },

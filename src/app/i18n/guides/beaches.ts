@@ -448,27 +448,27 @@ export const BEACHES_GUIDE: ArticleContent = {
     sections: [
       {
         title: 'Запад/юг vs восточное побережье сезоны',
-        body: 'Примерно с декабря по март западное и южное побережья (Бентота, Хиккадува, Унаватуна, Мирисса) в сухом, купальном окне спокойные утра, загруженные курорты, максимальные цены на отели. С апреля по ноябрь преимущество переходит на восток: Нилавели и Уppuveli у Тринкомали и сёрф городок Аругам Бей остаются суше, пока юго западный муссон бьёт по Галле и Коломбо.\n\nФорсировать южный пляжный финал в июле часто значит дождь и rough море; гибкий маршрут ведёт к побережью в его солнечную фазу.',
+        body: 'Примерно с декабря по март западное и южное побережья (Бентота, Хиккадува, Унаватуна, Мирисса) в сухом, купальном окне спокойные утра, загруженные курорты, максимальные цены на отели. С апреля по ноябрь преимущество переходит на восток: Нилавели и Уппувели у Тринкомали и сёрф городок Аругам Бей остаются суше, пока юго западный муссон бьёт по Галле и Коломбо.\n\nФорсировать южный пляжный финал в июле часто значит дождь и неспокойное море; гибкий маршрут ведёт к побережью в его солнечную фазу.',
       },
       {
         title: 'Мирисса, Унаватуна, Бентота и юго запад',
-        body: 'Мирисса сочетает наблюдение за китами (ноябрь–апрель), изогнутую бухту и расслабленные рестораны популярно, но не так суетно, как некоторые пляжи Таиланда. Унаватуна даёт защищённое купание рядом с фортом Галле, хотя эрозия и толпы в пик сезона изменили бухту. Бентота подходит семьям с широким песком и инфраструктурой курорта недалеко от Коломбо.\n\nХиккадува привлекает сёрферов и снorkelers на рифе; ночная жизнь оживлённее, чем в Мириссе. Это не дикие пляжидобные базы в конце тура.',
+        body: 'Мирисса сочетает наблюдение за китами (ноябрь–апрель), изогнутую бухту и расслабленные рестораны популярно, но не так суетно, как некоторые пляжи Таиланда. Унаватуна даёт защищённое купание рядом с фортом Галле, хотя эрозия и толпы в пик сезона изменили бухту. Бентота подходит семьям с широким песком и инфраструктурой курорта недалеко от Коломбо.\n\nХиккадува привлекает сёрферов и снорклеров на рифе; ночная жизнь оживлённее, чем в Мириссе. Это не дикие пляжи. Удобные базы в конце тура.',
       },
       {
         title: 'Аругам Бей, Тринкомали и восток',
-        body: 'Аругам Бейёрф столица Шри Ланки примерно с апреля по октябрь: расслабленная деревня, длинные правые волны. Далеко от Культурного треугольника; лучше, когда восток сухойавить в зимний тур на юг значит длинные переезды и часто дождь.\n\nТринкомали (Нилавели, Уppuveli)ветлый песок, снorkeling на Pigeon Island в сезон и более спокойный ритм, чем на юге. Северо восточный муссон может принести сильные дожди с ноября проверьте прогноз перед поездкой только на восток.',
+        body: 'Аругам Бей — сёрф-столица Шри Ланки примерно с апреля по октябрь: расслабленная деревня, длинные правые волны. Далеко от Культурного треугольника; лучше, когда восток сухой. Добавить в зимний тур на юг значит длинные переезды и часто дождь.\n\nТринкомали (Нилавели, Уппувели) — светлый песок, снорклинг на Pigeon Island в сезон и более спокойный ритм, чем на юге. Северо восточный муссон может принести сильные дожди с ноября. Проверьте прогноз перед поездкой только на восток.',
       },
       {
         title: 'Безопасность купания, течения и флаги',
-        body: 'На многих пляжах нет спасателей; красный флаг = не купаться, точка. Отбойные течения часты если уносит в море, плывите параллельно берегу, пока не выйдете из течения, затем возвращайтесь под углом. Не боритесь с течением, плывя прямо к пляжу.\n\nКаменные лужи и спокойные утра безопаснее дневного surf при ветре. Алкоголь и плавание несовместимы; также не купайтесь после сумерек. Спросите в отеле, какой участок бухты безопаснее в этот день.',
+        body: 'На многих пляжах нет спасателей; красный флаг = не купаться, точка. Отбойные течения часты если уносит в море, плывите параллельно берегу, пока не выйдете из течения, затем возвращайтесь под углом. Не боритесь с течением, плывя прямо к пляжу.\n\nКаменные лужи и спокойные утра безопаснее дневного сёрфа при ветре. Алкоголь и плавание несовместимы; также не купайтесь после сумерек. Спросите в отеле, какой участок бухты безопаснее в этот день.',
       },
       {
         title: 'Сочетание пляжей с туром',
-        body: 'Классика: сначала культура и горы (Сигирия, Кandy, Элла), затем две–три пляжные ночи перед аэропортом Коломбо близко к западу, Мattala к югу. Обе линии побережья за неделю обычно означают больше езды, чем пляжа.\n\nЧастный водитель позволяет сменить финал при плохой погоде замена Унаватуны на Негомбо у аэропорта типичная муссонная корректировка без стресса с рейсом.',
+        body: 'Классика: сначала культура и горы (Сигирия, Канди, Элла), затем две–три пляжные ночи перед аэропортом Коломбо близко к западу, Маттала к югу. Обе линии побережья за неделю обычно означают больше езды, чем пляжа.\n\nЧастный водитель позволяет сменить финал при плохой погоде. Замена Унаватуны на Негомбо у аэропорта типичная муссонная корректировка без стресса с рейсом.',
       },
       {
         title: 'Выбор пляжной базы и ожидания',
-        body: 'Выберите одно побережье под ваши даты, а не «пляж из Instagram». Люксовые виллы в Тangalle и Weligama дают пространство и surf; guesthouse среднего уровня в Мириссе и Унаватуне подходят большинству финалов тура. Восток требует больше логистики, но награждает сёрферов и снorkelers в нужные месяцы.\n\nПластик и сезонные водоросли есть на любом побережье; держите реалистичные ожидания и смотрите на качество воды, доступ и вписывание в маршрут, а не на одно идеальное фото.',
+        body: 'Выберите одно побережье под ваши даты, а не «пляж из Instagram». Люксовые виллы в Тангалле и Weligama дают пространство и сёрф; гестхаусы среднего уровня в Мириссе и Унаватуне подходят большинству финалов тура. Восток требует больше логистики, но награждает сёрферов и снорклеров в нужные месяцы.\n\nПластик и сезонные водоросли есть на любом побережье; держите реалистичные ожидания и смотрите на качество воды, доступ и вписывание в маршрут, а не на одно идеальное фото.',
       },
     ],
     faq: [
@@ -482,7 +482,7 @@ export const BEACHES_GUIDE: ArticleContent = {
       },
       {
         q: 'Когда сезон в Аругам Бей?',
-        a: 'Примерно апрель–октябрь для surf и сухого восточного побережья. Вне этого окна юг или Тринкомали в межсезонье могут быть лучше.',
+        a: 'Примерно апрель–октябрь для сёрфа и сухого восточного побережья. Вне этого окна юг или Тринкомали в межсезонье могут быть лучше.',
       },
       {
         q: 'Пляжи и культура за неделю?',
@@ -494,7 +494,7 @@ export const BEACHES_GUIDE: ArticleContent = {
       },
     ],
     ctaTitle: 'Завершите тур на правильном побережье',
-    ctaBody: 'Назовите месяц поездки и темп разместим пляжные ночи там, где погода и море действительно благоприятны, в частном маршруте с водителем.',
+    ctaBody: 'Назовите месяц поездки и темп. Разместим пляжные ночи там, где погода и море действительно благоприятны, в частном маршруте с водителем.',
     ctaLabel: 'Спланировать пляжный финал',
     relatedTours: [
       { pageId: 'tour5', label: '5 дневный тур по Шри Ланке' },
@@ -513,73 +513,81 @@ export const BEACHES_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka Strande Ratgeber: Saisons, beste Buchten und sicheres Schwimmen',
-    lead: 'Sri Lankas zwei Monsune verschieben den „besten Strand“ im Jahresverlauf Dezembersonne in Unawatuna garantiert nicht dieselben Bedingungen in Arugam Bay. Passen Sie Strandtage an die Saison an, verstehen Sie Brandungsstromungen, und Kultur plus Berge lassen sich mit echt gutem Baden verbinden.',
-    heroAlt: 'Palmen gesaumter goldener Strand an der srilankischen Kuste',
+    h1: 'Strandgids voor Sri Lanka: seizoenen, de mooiste baaien en veilig zwemmen',
+    lead: 'De twee moessons van Sri Lanka betekenen dat het beste strand in de loop van het jaar van kust wisselt. Decemberzon in Unawatuna garandeert niet dezelfde omstandigheden in Arugam Bay. Stem uw stranddagen af op het seizoen en houd rekening met muistromen. Dan kunt u een week cultuur en heuvels combineren met echt goed zwemmen.',
+    heroAlt: 'Gouden strand met palmen aan de kust van Sri Lanka',
     sections: [
       {
-        title: 'West-/Sudkuste vs Ostkuste Saisons',
-        body: 'Etwa von Dezember bis Marz sind West und Sudkuste (Bentota, Hikkaduwa, Unawatuna, Mirissa) trocken und badbar ruhige Morgen, volle Resorts, hochste Hotelpreise. April bis November verschiebt den Vorteil nach Osten: Nilaveli und Uppuveli bei Trincomalee sowie Surferort Arugam Bay bleiben trockener, wahrend der Sudwestmonsun Galle und Colombo trifft.\n\nEin Sudstrand Finale im Juli erzwingen bedeutet oft Regen und raue See; flexible Routen fuhren zur Kuste, die gerade Sonne hat.',
+        id: 'twoCoasts',
+        title: 'Seizoenen aan de westkust en zuidkust tegenover de oostkust',
+        body: 'Ruwweg van december tot maart zitten de westkust en de zuidkust (Bentota, Hikkaduwa, Unawatuna, Mirissa) in hun droge periode waarin u kunt zwemmen: kalme ochtenden, drukke resorts en de hoogste hotelprijzen van het jaar. Van april tot november verschuift het voordeel naar het oosten. De stranden Nilaveli en Uppuveli bij Trincomalee en de surfplaats Arugam Bay blijven droger, terwijl de zuidwestelijke moesson Galle en Colombo treft.\n\nEen strandafsluiting aan de zuidkust in juli afdwingen betekent vaak regen en een ruwe zee. Een flexibele route brengt u naar de kust die op dat moment zon heeft.',
       },
       {
-        title: 'Mirissa, Unawatuna, Bentota und der Sudwesten',
-        body: 'Mirissa verbindet Walbeobachtung (November to April) mit einer geschwungenen Bucht und entspannten Restaurantseliebt, aber nicht hektisch wie manche Thai Strande. Unawatuna bietet geschutztes Schwimmen nahe Galle Fort, obwohl Erosion und Andrang in der Hochsaison die Bucht verandert haben. Bentota passt zu Familien mit breitem Sand und Resort Infrastruktur nahe Colombo.\n\nHikkaduwa zieht Surfer und Schnorchler am Riff; Nachtleben lebhafter als Mirissa. Keine Wildnisstrandeut angebundene Basen am Ende einer Rundreise.',
+        id: 'southWestBeaches',
+        title: 'Mirissa, Hiriketiya, Unawatuna, Bentota en het zuidwesten',
+        body: 'Mirissa combineert walvissen kijken (november tot april) met een gebogen baai en een ontspannen rij restaurants. Het is populair, maar niet zo hectisch als sommige stranden in Thailand. Hiriketiya, verder naar het oosten, is een compacte surfbaai in de vorm van een hoefijzer, met cafés. Zoekopdrachten uit het Verenigd Koninkrijk naar de naam zijn sterk gestegen bij reizigers die een kleinere afsluiting willen dan Mirissa. Unawatuna biedt beschut zwemmen dicht bij Galle Fort, al hebben erosie en drukte in het hoogseizoen het karakter van de baai in de loop van de jaren veranderd. Bentota past bij gezinnen die breed zand en de voorzieningen van een resort willen, met een makkelijke bereikbaarheid vanuit Colombo.\n\nHikkaduwa trekt surfers en snorkelaars op het rif. Het nachtleven is levendiger dan in Mirissa. Geen van deze stranden is afgelegen wildernis. Het zijn goed bereikbare bases aan het einde van een rondreis.',
       },
       {
-        title: 'Arugam Bay, Trincomalee und der Osten',
-        body: 'Arugam Bay ist Sri Lankas Surfhauptstadt von etwa April bis Oktober entspanntes Dorf, lange Reiterwellen. Weit vom Kulturdreieck; am besten, wenn die Ostkuste trocken istn eine Winter Sudkustenreise eingebaut bedeutet lange Fahrten und oft nasses Wetter.\n\nTrincomalee (Nilaveli, Uppuveli) bietet hellen Sand, Schnorcheln auf Pigeon Island in der Saison und ruhigeres Tempo als der Suden. Der Nordostmonsun kann ab November starken Regen bringenetter prufen vor reiner Ostkustenreise.',
+        id: 'eastCoast',
+        title: 'Arugam Bay, Trincomalee en het oosten',
+        body: 'Arugam Bay is ruwweg van april tot oktober de surfhoofdstad van Sri Lanka, met een ontspannen dorpsgevoel en lange golven die naar rechts breken. Het ligt ver van de culturele driehoek en werkt het best wanneer de oostkust droog is. Arugam Bay in een gewone winterreis langs de zuidkust proppen betekent lange ritten en vaak nat weer.\n\nTrincomalee (Nilaveli, Uppuveli) biedt bleek zand, snorkelen bij Pigeon Island in het seizoen en een rustiger tempo dan het zuiden. De noordoostelijke moesson kan vanaf november zware regen brengen. Controleer de weersverwachting voor u een vakantie plant die alleen de oostkust aandoet.',
       },
       {
-        title: 'Badesicherheit, Stromungen und Flaggen',
-        body: 'Viele Strande haben keine Rettungsschwimmer; rote Flagge heisst nicht schwimmen, Punkt. Brandungsstromungen sind haufigei Richtung offenes Meer parallel zur Kuste schwimmen, dann schrag zuruck. Nicht frontal gegen die Stromung kampfen.\n\nFelsenpools und ruhige Morgen sind sicherer als Nachmittagssurf bei Wind. Alkohol und Schwimmen vertragen sich nicht; nachts ebenfalls wegen Sicht und Bootverkehr. Hotel fragen, welcher Buchtabschnitt an dem Tag am sichersten ist.',
+        id: 'swimmingSafety',
+        title: 'Veilig zwemmen, muien en vlaggen',
+        body: 'Veel stranden in Sri Lanka hebben geen strandwacht. Een rode vlag betekent dat u niet gaat zwemmen, punt uit. Muistromen komen vaak voor in open baaien. Wordt u naar zee getrokken, zwem dan evenwijdig aan de kust tot u uit de stroom bent en ga daarna schuin terug. Zwem niet recht tegen een mui in naar het strand.\n\nRotspoelen en kalme ochtenden zijn veiliger dan de branding in de middag, wanneer de wind aantrekt. Alcohol en zwemmen gaan niet samen. Zwemmen na zonsondergang evenmin, wanneer het zicht minder is en er meer boten varen. Vraag uw hotel welk deel van de baai die dag het veiligst is.',
       },
       {
-        title: 'Strande mit Rundreise kombinieren',
-        body: 'Klassisch: erst Kultur und Berge (Sigiriya, Kandy, Ella), dann zwei bis drei Strandnachte vor dem Flughafen Colombo nahe Westkuste, Mattala dem Suden. Beide Kusten in einer Woche bedeutet meist mehr Fahrzeit als Strandzeit.\n\nEin Privatfahrer erlaubt Wechsel bei schlechtem Wetter Unawatuna gegen Negombo nahe Flughafen ist eine ubliche Monsun Anpassung ohne Flugstress.',
+        id: 'combiningTours',
+        title: 'Stranden combineren met een rondreis',
+        body: 'Het klassieke patroon is eerst cultuur en heuvels (Sigiriya, Kandy, Ella) en daarna twee of drie strandnachten aan de kust voor de luchthaven. Colombo ligt dicht bij de westkust. Mattala is de luchthaven voor het zuiden. Beide kusten in één week willen aandoen kost meestal meer rijtijd dan strandtijd.\n\nMet een privéchauffeur kunt u de strandafsluiting verplaatsen als het weer omslaat. Unawatuna ruilen voor Negombo bij de luchthaven is een veelgebruikte aanpassing in het regenseizoen, zonder uw vlucht te missen.',
       },
       {
-        title: 'Strandbasis wahlen und Erwartungen',
-        body: 'Eine Kuste fur Ihre Termine wahlen, nicht den „Instagram Strand“. Luxusvillen in Tangalle und Weligama bieten Platz und Surf; Mittelklasse Gastehauser in Mirissa und Unawatuna passen zu den meisten Tour Enden. Ostkuste braucht mehr Planung, belohnt Surfer und Schnorchler in den richtigen Monaten.\n\nPlastikmull und saisonales Seetang gibt es uberall; Erwartungen realistisch halten und auf Wasserqualitat, Zugang und Einbindung in die Route achten.',
+        id: 'choosingBase',
+        title: 'Uw strandbasis kiezen en uw verwachtingen',
+        body: 'Kies één kust voor uw data, niet het beste strand op Instagram. Luxe villa’s in Tangalle en Weligama bieden ruimte en surf. Gastverblijven in de middenklasse in Mirissa en Unawatuna passen bij het einde van de meeste rondreizen. Verblijven aan de oostkust vragen meer voorbereidingstijd voor de logistiek, maar belonen surfers en snorkelaars in de juiste maanden.\n\nPlasticvervuiling en zeewier in het seizoen komen aan elke kust voor. Houd de verwachtingen realistisch en let op de waterkwaliteit, de bereikbaarheid en hoe het strand in uw bredere route past, in plaats van op één perfecte foto.',
       },
     ],
     faq: [
       {
-        q: 'Welcher ist der beste Strand in Sri Lanka?',
-        a: 'Hangt vom Monat ab West und Sudkuste Dezember to Marz; Ostkuste (Arugam Bay, Trincomalee) April to Oktober. Kein ganzjahriger Sieger.',
+        q: 'Welk strand is het beste in Sri Lanka?',
+        a: 'Dat hangt af van de maand. De westkust en de zuidkust zijn het best van december tot maart. De oostkust (Arugam Bay, Trincomalee) is op zijn best van april tot oktober. Er is geen winnaar voor het hele jaar.',
       },
       {
-        q: 'Ist Schwimmen in Sri Lanka sicher?',
-        a: 'Viele Buchten sind in ruhiger Saison bei erlaubter Flagge sicher, aber Stromungen existieren und Rettungsdienst ist begrenzt. Lokale Hinweise befolgen, rote Flagge meiden, nicht allein an abgelegenen Stranden schwimmen.',
+        q: 'Is het veilig om te zwemmen in Sri Lanka?',
+        a: 'Veel baaien zijn veilig in het kalme seizoen wanneer de vlaggen zwemmen toestaan, maar muien bestaan en er is weinig strandwacht. Volg lokaal advies, vermijd dagen met een rode vlag en zwem niet alleen op afgelegen stranden.',
       },
       {
-        q: 'Wann ist Saison in Arugam Bay?',
-        a: 'Etwa April bis Oktober fur Surf und trockenes Ostkustenwetter. Ausserhalb eher Sudkuste oder Trincomalee in der Zwischensaison.',
+        q: 'Wanneer is Arugam Bay in het seizoen?',
+        a: 'Ruwweg van april tot oktober, voor surf en droog weer aan de oostkust. Buiten die periode zijn de zuidwestkust of Trincomalee in de maanden rond het seizoen vaak een betere keuze.',
       },
       {
-        q: 'Strande und Kultur in einer Woche?',
-        a: 'Jaie meisten privaten Rundreisen enden mit zwei bis drei Kustennachten nach Sigiriya, Kandy und Ella. Eine Kuste pro Reise halt Fahrzeiten realistisch.',
+        q: 'Kan ik in één week stranden en culturele plekken bezoeken?',
+        a: 'Ja. De meeste privérondreizen eindigen met twee of drie nachten aan de kust na Sigiriya, Kandy en Ella. Eén kust per reis houdt de rijtijd realistisch.',
       },
       {
-        q: 'Mirissa oder Unawatuna?',
-        a: 'Mirissa fur Walsaison und ruhigere Bucht; Unawatuna naher an Galle Fort, geschutzter, aber im Hochsaison Hoch enger. Beide Dezember to Marz.',
+        q: 'Is Mirissa of Unawatuna beter?',
+        a: 'Mirissa past bij het walvisseizoen en een rustiger gevoel in de baai. Unawatuna ligt dichter bij Galle Fort, met beschut zwemmen, maar is drukker in de piekmaanden. Beide werken van december tot maart.',
       },
     ],
-    ctaTitle: 'Beenden Sie Ihre Tour an der richtigen Kuste',
-    ctaBody: 'Nennen Sie Reisemonat und Tempoir platzieren Strandnachte dort, wo Wetter und See mitspielen, in einer privaten Chauffeur Route.',
-    ctaLabel: 'Strand Finale planen',
+    ctaTitle: 'Sluit uw reis af aan de juiste kust',
+    ctaBody: 'Deel uw reismaand en uw tempo. We leggen de strandnachten daar waar het weer en de zee echt meewerken, ingepast in een route met privéchauffeur.',
+    ctaLabel: 'Plan een strandafsluiting',
     relatedTours: [
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'galleDay', label: 'Galle Tagesausflug' },
+      { pageId: 'tour5', label: 'Sri Lanka rondreis van 5 dagen' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'galleDay', label: 'Dagtocht naar Galle' },
     ],
     relatedDestinations: [
       { pageId: 'destGalle', label: 'Galle' },
-      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destMirissa', label: 'Mirissa' },
+      { pageId: 'destHiriketiya', label: 'Hiriketiya' },
     ],
     relatedGuides: [
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits Ratgeber' },
-      { pageId: 'guidePrivateDriver', label: 'Privatfahrer Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guideSafety', label: 'Veiligheidsgids voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   }
 };

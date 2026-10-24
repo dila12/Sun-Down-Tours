@@ -151,6 +151,10 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'Wo sollte ich meine Sri Lanka ETA beantragen?',
         a: 'Ausschliesslich uber die offizielle ETA Website der srilankischen Regierung. Drittanbieter Seiten verlangen fur denselben unkomplizierten Antrag oft deutlich uberhohte Gebuhren.',
       },
+      {
+        q: 'Ist die Sri Lanka ETA 2026 kostenlos?',
+        a: 'Für Staatsangehörige von 40 aufgeführten Ländern, darunter Deutschland, grosse Teile der EU, das Vereinigte Königreich, Russland, die USA, Kanada, Indien und Australien, ist die touristische ETA ab dem 25. Mai 2026 für 30 Tage mit doppelter Einreise kostenlos. Der Antrag auf eta.gov.lk bleibt Pflicht.',
+      },
     ],
     ctaTitle: 'Lassen Sie uns bei den praktischen Details helfen',
     ctaBody: 'Sobald Ihre ETA genehmigt ist, kann unser Team eine Route rund um Ihre genauen Reisedaten planen  mit Flughafenabholung und einem privaten Fahrer Guide vom Moment der Landung an.',
@@ -303,6 +307,14 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'Dove dovrei richiedere la mia ETA per lo Sri Lanka?',
         a: 'Solo sul sito ufficiale eta.gov.lk. I siti di terze parti spesso applicano tariffe gonfiate per lo stesso modulo.',
       },
+      {
+        q: 'Quali sono i requisiti di ingresso in Sri Lanka per i viaggiatori europei?',
+        a: 'Prima della partenza serve l’ETA su eta.gov.lk. Dal 25 maggio 2026 l’ETA turistica e gratuita per 30 giorni con doppio ingresso per molti passaporti europei, ma la domanda va fatta in anticipo. Tenete circa sei mesi di validita del passaporto e una prova del viaggio successivo.',
+      },
+      {
+        q: 'Quali sono i requisiti di ingresso dallo UK?',
+        a: 'I passaporti britannici richiedono l’ETA su eta.gov.lk prima del volo. Dal 25 maggio 2026 l’ETA turistica e gratuita per 30 giorni con doppio ingresso, ma va comunque richiesta in anticipo.',
+      },
     ],
     ctaTitle: 'Lasciateci aiutare con i dettagli pratici',
     ctaBody: 'Una volta approvata la vostra ETA, il nostro team puo pianificare un itinerario in base alle vostre date di viaggio esatte, con prelievo dall’aeroporto e un autista guida privato dal momento dell’atterraggio.',
@@ -379,6 +391,10 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'Visado sri lanka o visa sri lanka es lo mismo?',
         a: 'Visado sri lanka, visa sri lanka y sri lanka visa apuntan a la ETA en eta.gov.lk antes del vuelo. Gratis no significa sin solicitud.',
       },
+      {
+        q: 'Cuales son los requisitos de entrada a Sri Lanka para viajeros europeos?',
+        a: 'Hay que obtener la ETA en eta.gov.lk antes de viajar. Desde el 25 de mayo de 2026 la ETA turistica es gratuita durante 30 dias con doble entrada para muchos pasaportes europeos, pero la solicitud sigue siendo previa. Conservad unos seis meses de validez del pasaporte y una prueba de viaje de salida.',
+      },
     ],
     ctaTitle: 'Dejenos ayudarle con los detalles practicos',
     ctaBody: 'Una vez aprobada su ETA, nuestro equipo puede planificar un itinerario segun sus fechas exactas de viaje, con recogida en el aeropuerto y un chofer guia privado desde el momento en que aterrice.',
@@ -451,6 +467,14 @@ export const VISA_GUIDE: ArticleContent = {
         q: 'Czy ETA Sri Lanki jest bezplatna w 2026 dla paszportu polskiego?',
         a: 'Dla obywateli 40 wymienionych krajow (w tym Polski) turystyczna ETA jest bezplatna od 25 maja 2026, 30 dni z podwojnym wjazdem. Wniosek i tak skladasz z wyprzedzeniem na eta.gov.lk.',
       },
+      {
+        q: 'Jakie sa wymogi wjazdu na Sri Lanke dla podroznych z Europy?',
+        a: 'Przed wylotem trzeba uzyskac ETA na eta.gov.lk. Od 25 maja 2026 turystyczna ETA jest bezplatna na 30 dni z podwojnym wjazdem dla wielu europejskich paszportow, ale wniosek sklada sie wczesniej. Zostawcie okolo szesciu miesiecy waznosci paszportu i potwierdzenie dalszej podrozy.',
+      },
+      {
+        q: 'Jakie sa wymogi wjazdu z Wielkiej Brytanii?',
+        a: 'Paszport brytyjski wymaga ETA na eta.gov.lk przed lotem. Od 25 maja 2026 turystyczna ETA jest bezplatna na 30 dni z podwojnym wjazdem, ale wniosek i tak sklada sie z wyprzedzeniem.',
+      },
     ],
     ctaTitle: 'Pomozemy Ci w praktycznych szczegolach',
     ctaBody: 'Po zatwierdzeniu ETA nasz zespol moze zaplanowac trase wokol Twoich konkretnych dat podrozy, z odbiorem z lotniska i prywatnym kierowca przewodnikiem od momentu ladowania.',
@@ -483,7 +507,7 @@ export const VISA_GUIDE: ArticleContent = {
       },
       {
         title: 'Срок действия и продолжительность пребывания',
-        body: 'Стандартная туристическая ETAвключая бесплатную схему для 40 перечисленных странразрешает первоначальное пребывание до 30 дней с первого въезда, с двойным въездом в этом окне (удобно для короткой вылазки на Мальдивы или в Индию). Не подавайте заявку за много месяцев до поездки с гибкими датами.\n\nПроверьте точный срок действия и разрешённое пребывание на eta.gov.lk перед бронированием рейсов. Текст официального портала важнее блогов и слухов авиакомпаний.',
+        body: 'Стандартная туристическая ETA, включая бесплатную схему для 40 перечисленных стран, разрешает первоначальное пребывание до 30 дней с первого въезда, с двойным въездом в этом окне (удобно для короткой вылазки на Мальдивы или в Индию). Не подавайте заявку за много месяцев до поездки с гибкими датами.\n\nПроверьте точный срок действия и разрешённое пребывание на eta.gov.lk перед бронированием рейсов. Текст официального портала важнее блогов и слухов авиакомпаний.',
       },
       {
         title: 'Продление пребывания',
@@ -491,7 +515,7 @@ export const VISA_GUIDE: ArticleContent = {
       },
       {
         title: 'Паспорт и другие требования на въезд',
-        body: 'Ваш паспорт обычно должен быть действителен не менее шести месяцев после даты прибытия, и у вас должно быть доказательство дальнейшего или обратного путешествия, а также достаточные средства на пребывание, поскольку сотрудники иммиграционной службы могут запросить это по своему усмотрению. Распечатанная или цифровая копия бронирования жильё разумное дополнение, хотя проверяется редко.\n\nЗаранее проверьте любые актуально требуемые медицинские документы, поскольку требования со временем менялись и могут различаться в зависимости от страны выезда.',
+        body: 'Ваш паспорт обычно должен быть действителен не менее шести месяцев после даты прибытия, и у вас должно быть доказательство дальнейшего или обратного путешествия, а также достаточные средства на пребывание, поскольку сотрудники иммиграционной службы могут запросить это по своему усмотрению. Распечатанная или цифровая копия бронирования жилья — разумное дополнение, хотя проверяется редко.\n\nЗаранее проверьте любые актуально требуемые медицинские документы, поскольку требования со временем менялись и могут различаться в зависимости от страны выезда.',
       },
       {
         title: 'Распространённые ошибки, которых стоит избегать',
@@ -548,69 +572,88 @@ export const VISA_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Sri Lanka visum: ETA aanvragen voor Nederland',
-    lead: 'Visum sri lanka is een ETA voor het boarden, alleen op eta.gov.lk. Gratis vanaf 25 mei 2026 voor veel paspoorten, waaronder Nederland, betekent niet zonder aanvraag. Arrival card vervangt de ETA niet.',
-    heroAlt: 'Paspoort en reisdocumenten voor een Sri Lanka reis',
+    h1: 'Inreisregels voor Sri Lanka: ETA, visum en hoe u aanvraagt',
+    lead: 'U hebt voor een bezoek aan Sri Lanka bijna altijd nog een Electronic Travel Authorisation (ETA) nodig voordat u aan boord gaat. Dat geldt ook voor een paspoort van het Verenigd Koninkrijk en voor de 40 landen die vanaf 25 mei 2026 een gratis toeristische ETA van 30 dagen krijgen. De procedure is eenvoudig op de officiële website, maar geldigheid, regels voor dubbele binnenkomst en websites die de officiële website nabootsen, brengen wie voor het eerst reist nog steeds in de war.',
+    heroAlt: 'Paspoort en reisdocumenten klaar voor een reis naar Sri Lanka',
     sections: [
       {
+        id: 'etaBasics',
         title: 'Wat de ETA is en wie die nodig heeft',
-        body: 'Visum sri lanka voor Nederlanders: Electronic Travel Authorisation (ETA) voor aankomst. Vraag alleen aan op eta.gov.lk. Derde partijen met extra servicekosten zijn een val.\n\nVanaf 25 mei 2026 kunnen burgers van 40 landen, waaronder Nederland, vaak een gratis toeristische ETA van 30 dagen met dubbele binnenkomst krijgen. U vraagt die nog steeds vooraf aan.',
+        body: 'De Electronic Travel Authorisation (ETA) is de online toestemming van Sri Lanka vóór aankomst, voor toerisme, zaken of doorreis. Alle buitenlandse onderdanen moeten een ETA hebben vóór aankomst, ook landen die die nu gratis krijgen. Vraag alleen aan op het officiële portaal eta.gov.lk (of eta.gov.lk/slvisa). Websites van derden die opgeblazen servicekosten rekenen voor hetzelfde formulier zijn een veelvoorkomende val.\n\nVanaf 25 mei 2026 kunnen onderdanen van 40 landen, waaronder het Verenigd Koninkrijk, Duitsland, Frankrijk, Italië, Spanje, Polen, Nederland, Rusland, de Verenigde Staten, Canada, India, Australië en China, een toeristische ETA gratis krijgen voor 30 dagen met dubbele binnenkomst. Voor de Maldiven, de Seychellen en Singapore blijft de behandeling gratis (Maldivische onderdanen: 90 dagen). Kosten die vóór 25 mei 2026 zijn betaald, worden niet terugbetaald. Andere paspoorten volgen de gewone betaalde regels voor de ETA. Controleer altijd opnieuw de officiële lijst voor uw paspoort voordat u vliegt.',
       },
       {
-        title: 'Wie und wann man den Antrag stellt',
-        body: 'Beantragen Sie die ETA online mindestens einige Tage vor der Abreise, obwohl die Genehmigung fur unkomplizierte touristische Antrage oft innerhalb von 24 Stunden erfolgt. Sie benotigen Ihre Passdaten, ein Ruck- oder Weiterflugticket und eine gultige Kredit- oder Debitkarte fur die Gebuhr.\n\nDrucken Sie Ihre Genehmigung aus oder speichern Sie eine digitale Kopie, um sie beim check in und bei der Einreise vorzuzeigen; Fluggesellschaften haben Passagieren schon das Boarding verweigert, die keinen Nachweis der ETA Genehmigung vorlegen konnten, obwohl die Einreisebehorde selbst diese elektronisch prufen kann.',
+        id: 'howToApply',
+        title: 'Hoe en wanneer u aanvraagt',
+        body: 'Vraag online aan, minstens een paar dagen voor vertrek. Bij eenvoudige toeristische aanvragen komt de goedkeuring vaak binnen 24 uur. U hebt uw paspoortgegevens nodig en een terugvlucht of een vervolgvlucht. Als er kosten gelden, houd dan een geldige creditcard of betaalpas bij de hand. Bij de gratis toeristische regeling is hetzelfde formulier nog steeds verplicht, alleen zonder betaling.\n\nPrint de goedkeuring of bewaar een digitale kopie om te tonen bij het inchecken en bij de immigratie. Luchtvaartmaatschappijen hebben passagiers die geen bewijs van een goedgekeurde ETA konden tonen de toegang tot het vliegtuig geweigerd, ook al kan de immigratiedienst de goedkeuring zelf elektronisch controleren.',
       },
       {
-        title: 'Gultigkeit und Aufenthaltsdauer',
-        body: 'Die Standard Touristen ETA erlaubt einen ersten Aufenthalt von bis zu 30 Tagen ab Einreisedatum und ist im Allgemeinen innerhalb eines festgelegten Zeitfensters ab dem Genehmigungsdatum gultig  beantragen Sie sie daher nicht viele Monate vor einer flexiblen Reise. Fur Reisende, die wahrend ihrer Reise aus und wieder einreisen mochten, etwa fur einen Abstecher auf die Maldiven oder nach Indien, gibt es Mehrfacheinreise Optionen.\n\nPrufen Sie den genauen aktuellen Gultigkeitszeitraum und die zulassige Aufenthaltsdauer auf der offiziellen ETA Seite, bevor Sie Fluge buchen, da sich die Regeln regelmassig andern.',
+        id: 'validityStay',
+        title: 'Geldigheid en verblijfsduur',
+        body: 'De standaard toeristische ETA, ook de gratis regeling voor de 40 genoemde landen, staat een eerste verblijf toe van maximaal 30 dagen vanaf de eerste aankomst. Dubbele binnenkomst is binnen die periode toegestaan. Dat is handig voor een kort uitstapje naar de Maldiven of India. Vraag een flexibele reis niet vele maanden van tevoren aan. Gebruik de geldigheidsperiode van de goedkeuring die de officiële website noemt.\n\nControleer de exacte huidige geldigheidsperiode en de toegestane verblijfsduur op eta.gov.lk voordat u vluchten boekt. Regels worden bijgewerkt per gazette. De tekst op het portaal geldt, niet blogberichten of geruchten van luchtvaartmaatschappijen.',
       },
       {
-        title: 'Aufenthalt verlangern',
-        body: 'Touristische Aufenthalte lassen sich in der Regel uber die anfanglichen 30 Tage hinaus verlangern, indem man einen Antrag beim Department of Immigration and Emigration in Colombo oder, wo verfugbar, online stellt  ublicherweise bis zu insgesamt 90 Tagen fur touristische Zwecke, bei korrekt beantragter Verlangerung und im Voraus bezahlten Gebuhren.\n\nEin Uberschreiten der Aufenthaltsdauer ohne genehmigte Verlangerung kann bei der Ausreise zu Strafen und Komplikationen fuhren  beantragen Sie die Verlangerung daher vor Ablauf Ihrer aktuellen Genehmigung, nicht danach.',
+        id: 'extensions',
+        title: 'Uw verblijf verlengen',
+        body: 'Toeristische verblijven kunnen meestal langer duren dan de eerste 30 dagen. U vraagt dat aan via het Department of Immigration and Emigration in Colombo, of online waar dat kan. Met de juiste verlengingen en vooraf betaalde kosten is een totaal verblijf van maximaal 90 dagen voor toerisme meestal mogelijk.\n\nTe lang blijven zonder goedgekeurde verlenging kan boetes en problemen bij vertrek geven. Vraag de verlenging aan voordat uw huidige toestemming afloopt, niet erna.',
       },
       {
-        title: 'Pass und weitere Einreiseanforderungen',
-        body: 'Ihr Reisepass sollte in der Regel noch mindestens sechs Monate uber das Einreisedatum hinaus gultig sein, und Sie sollten einen Nachweis fur Weiter- oder Ruckreise sowie ausreichende Mittel fur Ihren Aufenthalt mitfuhren, da Einreisebeamte diese nach eigenem Ermessen verlangen konnen. Eine ausgedruckte oder digitale Kopie Ihrer Unterkunftsbuchung ist eine sinnvolle Erganzung, auch wenn sie selten kontrolliert wird.\n\nPrufen Sie vor der Reise etwaige aktuell erforderliche Gesundheitsdokumente, da sich die Anforderungen im Laufe der Zeit andern konnen und je nach Abflugland variieren.',
+        id: 'passportRequirements',
+        title: 'Paspoort en andere inreisvoorwaarden',
+        body: 'Uw paspoort moet over het algemeen minstens zes maanden geldig zijn na uw aankomstdatum. Neem bewijs mee van een doorreis of terugreis en van voldoende middelen voor uw verblijf. Immigratieambtenaren kunnen dat naar eigen inzicht vragen. Een geprinte of digitale kopie van uw boeking voor accommodatie is een verstandige aanvulling, ook als die zelden wordt gecontroleerd.\n\nControleer voor de reis nog eens welke gezondheidsdocumenten op dat moment verplicht zijn. De eisen zijn in de loop van de tijd veranderd en kunnen per land van vertrek verschillen.',
       },
       {
-        title: 'Haufige Fehler, die man vermeiden sollte',
-        body: 'Der Antrag uber inoffizielle Drittanbieter Websites zu uberhohten Preisen ist der haufigste und vermeidbarste Fehler  die offizielle staatliche ETA Gebuhr ist festgelegt, und der Vorgang dauert auf der richtigen Seite nur wenige Minuten. Falsch eingegebene Passdaten, insbesondere Namen, die nicht exakt mit dem Pass ubereinstimmen, sind die zweithaufigste Ursache fur verzogerte oder abgelehnte Antrage.\n\nDen Antrag bis zum Flughafen aufzuschieben oder anzunehmen, eine gultige ETA aus einer fruheren Reise gelte weiterhin, sind beide vermeidbare Probleme: Beantragen Sie fur jede Reise stets neu und rechtzeitig im Voraus.',
+        id: 'commonMistakes',
+        title: 'Veelgemaakte fouten die u kunt vermijden',
+        body: 'Aanvragen via onofficiële websites van derden tegen opgeblazen prijzen is de meest voorkomende en vermijdbare fout. De officiële kosten van de overheid voor de ETA staan vast en de procedure duurt op de juiste website slechts enkele minuten. Paspoortgegevens verkeerd invullen, vooral namen die niet exact overeenkomen met uw paspoort, is daarna de meest voorkomende oorzaak van vertraagde of afgewezen aanvragen.\n\nDe aanvraag uitstellen tot de luchthaven, of aannemen dat een geldige ETA van een eerdere reis nog geldt, zijn beide vermijdbare problemen. Vraag voor elk bezoek opnieuw en op tijd aan.',
       },
     ],
     faq: [
       {
-        q: 'Brauche ich ein Visum fur Sri Lanka?',
-        a: 'Fast alle Besucher benotigen eine online vor der Reise beantragte elektronische Reisegenehmigung (ETA); eine kleine Zahl von Nationalitaten hat andere Regelungen  prufen Sie das offizielle ETA Portal speziell fur Ihren Pass.',
+        q: 'Heb ik een visum nodig om Sri Lanka te bezoeken?',
+        a: 'Ja. Bijna alle bezoekers moeten vóór de reis online een ETA aanvragen op eta.gov.lk, ook als uw nationaliteit recht heeft op de gratis toeristische ETA van 30 dagen vanaf 25 mei 2026. Gratis betekent niet dat u bij aankomst zonder aanvraag binnenloopt.',
       },
       {
-        q: 'Wie lange dauert die ETA Genehmigung?',
-        a: 'Unkomplizierte touristische Antrage werden oft innerhalb von 24 Stunden genehmigt, es ist jedoch sinnvoll, mindestens einige Tage vor der Abreise zu beantragen statt in letzter Minute.',
+        q: 'Hoe lang duurt de goedkeuring van een ETA?',
+        a: 'Eenvoudige toeristische aanvragen worden vaak binnen 24 uur goedgekeurd. Het is verstandig om minstens een paar dagen voor vertrek aan te vragen, niet op het laatste moment.',
       },
       {
-        q: 'Wie lange darf ich mit einer touristischen ETA in Sri Lanka bleiben?',
-        a: 'Die Standard Touristen ETA erlaubt einen ersten Aufenthalt von bis zu 30 Tagen, mit Verlangerungen uber das Department of Immigration and Emigration in der Regel bis zu insgesamt rund 90 Tagen fur touristische Zwecke.',
+        q: 'Hoe lang mag ik in Sri Lanka blijven met een toeristische ETA?',
+        a: 'De standaard toeristische ETA staat een eerste verblijf toe van maximaal 30 dagen. Verlengingen zijn meestal mogelijk via het Department of Immigration and Emigration, tot een totaal van ongeveer 90 dagen voor toerisme.',
       },
       {
-        q: 'Kann ich mein Sri Lanka Visum nach der Einreise verlangern?',
-        a: 'Ja  beantragen Sie eine Verlangerung beim Department of Immigration and Emigration in Colombo oder, wo verfugbar, online, bevor Ihre aktuelle Genehmigung ablauft, um Strafen oder Komplikationen zu vermeiden.',
+        q: 'Kan ik mijn visum voor Sri Lanka na aankomst verlengen?',
+        a: 'Ja. Vraag een verlenging aan via het Department of Immigration and Emigration in Colombo, of online waar dat kan, voordat uw huidige toestemming afloopt. Zo voorkomt u boetes of problemen.',
       },
       {
-        q: 'Wo sollte ich meine Sri Lanka ETA beantragen?',
-        a: 'Ausschliesslich uber die offizielle ETA Website der srilankischen Regierung. Drittanbieter Seiten verlangen fur denselben unkomplizierten Antrag oft deutlich uberhohte Gebuhren.',
+        q: 'Is de ETA voor Sri Lanka gratis in 2026?',
+        a: 'Voor onderdanen van 40 genoemde landen, waaronder het Verenigd Koninkrijk, een groot deel van de EU, Rusland, de Verenigde Staten, Canada, India en Australië, is de toeristische ETA vanaf 25 mei 2026 gratis voor 30 dagen met dubbele binnenkomst. Iedereen vraagt nog steeds vooraf aan op eta.gov.lk. Andere paspoorten volgen de betaalde regels voor de ETA.',
+      },
+      {
+        q: 'Wat zijn de inreisregels voor Sri Lanka voor Europese reizigers?',
+        a: 'Houders van een Brits paspoort moeten vóór de reis een ETA aanvragen op eta.gov.lk. Vanaf 25 mei 2026 is de toeristische ETA gratis voor 30 dagen met dubbele binnenkomst, maar u vraagt die nog steeds vooraf aan. Houd ongeveer zes maanden paspoortgeldigheid aan en bewijs van een doorreis.',
+      },
+      {
+        q: 'Waar moet ik mijn ETA voor Sri Lanka aanvragen?',
+        a: 'Alleen via de officiële website van de overheid, eta.gov.lk. Websites van derden rekenen vaak sterk opgeblazen kosten voor hetzelfde formulier.',
+      },
+      {
+        q: 'Wat zijn de inreisregels voor Sri Lanka vanuit het Verenigd Koninkrijk?',
+        a: 'Voor het visum en de inreisvoorwaarden van Sri Lanka vraagt u een ETA aan op eta.gov.lk voordat u vliegt. Vanaf 25 mei 2026 is de toeristische ETA gratis voor Britse paspoorten, voor 30 dagen met dubbele binnenkomst, maar u vraagt die nog steeds vooraf aan.',
       },
     ],
-    ctaTitle: 'Lassen Sie uns bei den praktischen Details helfen',
-    ctaBody: 'Sobald Ihre ETA genehmigt ist, kann unser Team eine Route rund um Ihre genauen Reisedaten planen  mit Flughafenabholung und einem privaten Fahrer Guide vom Moment der Landung an.',
-    ctaLabel: 'Reise mit uns planen',
+    ctaTitle: 'Laat ons helpen met de praktische details',
+    ctaBody: 'Zodra uw ETA is goedgekeurd, kan ons team een route plannen rond uw exacte reisdata, met ophalen op de luchthaven en een privéchauffeur vanaf het moment dat u landt.',
+    ctaLabel: 'Plan uw reis met ons',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
     ],
     relatedGuides: [
-      { pageId: 'guideSafety', label: 'Sri Lanka Sicherheits Ratgeber' },
-      { pageId: 'guideBudget', label: 'Sri Lanka Budgetreise Ratgeber' },
+      { pageId: 'guideSafety', label: 'Veiligheidsgids voor Sri Lanka' },
+      { pageId: 'guideBudget', label: 'Budgetgids voor reizen in Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids over privéchauffeurs in Sri Lanka' },
     ],
   }
 };

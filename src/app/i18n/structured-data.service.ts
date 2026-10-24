@@ -28,10 +28,32 @@ const SCRIPT_ID = 'ld-json-graph';
 const OG_IMAGE = `${BASE_URL}/assets/img/package-2.webp`;
 const LOGO = `${BASE_URL}/assets/img/favicon.png`;
 /** Citation date for Article / HowTo freshness signals. */
-const CONTENT_MODIFIED = '2026-10-03';
+const CONTENT_MODIFIED = '2026-10-24';
 const SPEAKABLE = {
   '@type': 'SpeakableSpecification',
   cssSelector: ['h1', '.aeo-answer', '.faq-answer', '.faq-question', '.intro-subtitle'],
+};
+
+/** WGS84 points so each destination page can be understood as a real place. */
+const DESTINATION_PLACES: Record<string, { name: string; latitude: number; longitude: number; touristType: string }> = {
+  destColombo: { name: 'Colombo', latitude: 6.9271, longitude: 79.8612, touristType: 'City tourism' },
+  destNegombo: { name: 'Negombo', latitude: 7.2084, longitude: 79.8358, touristType: 'Beach tourism' },
+  destBentota: { name: 'Bentota', latitude: 6.4256, longitude: 79.9956, touristType: 'Beach tourism' },
+  destMirissa: { name: 'Mirissa', latitude: 5.9485, longitude: 80.4716, touristType: 'Beach tourism' },
+  destHiriketiya: { name: 'Hiriketiya', latitude: 5.964, longitude: 80.723, touristType: 'Beach tourism' },
+  destWeligama: { name: 'Weligama', latitude: 5.973, longitude: 80.429, touristType: 'Beach tourism' },
+  destSigiriya: { name: 'Sigiriya', latitude: 7.957, longitude: 80.7603, touristType: 'Cultural tourism' },
+  destElla: { name: 'Ella', latitude: 6.8667, longitude: 81.0466, touristType: 'Nature tourism' },
+  destYala: { name: 'Yala', latitude: 6.3698, longitude: 81.519, touristType: 'Wildlife tourism' },
+  destKandy: { name: 'Kandy', latitude: 7.2906, longitude: 80.6337, touristType: 'Cultural tourism' },
+  destDambulla: { name: 'Dambulla', latitude: 7.8675, longitude: 80.651, touristType: 'Cultural tourism' },
+  destGalle: { name: 'Galle', latitude: 6.0329, longitude: 80.2168, touristType: 'Cultural tourism' },
+  destNuwaraEliya: { name: 'Nuwara Eliya', latitude: 6.9497, longitude: 80.7891, touristType: 'Nature tourism' },
+  destAnuradhapura: { name: 'Anuradhapura', latitude: 8.3114, longitude: 80.4037, touristType: 'Cultural tourism' },
+  destPolonnaruwa: { name: 'Polonnaruwa', latitude: 7.9403, longitude: 81.0188, touristType: 'Cultural tourism' },
+  destTrincomalee: { name: 'Trincomalee', latitude: 8.5874, longitude: 81.2152, touristType: 'Beach tourism' },
+  destArugamBay: { name: 'Arugam Bay', latitude: 6.8402, longitude: 81.836, touristType: 'Beach tourism' },
+  destKalpitiya: { name: 'Kalpitiya', latitude: 8.2295, longitude: 79.7596, touristType: 'Beach tourism' },
 };
 
 /** Page ids that have localized FAQ + breadcrumb content in content/*.ts. */
@@ -141,6 +163,7 @@ export class StructuredDataService {
         { '@type': 'Country', name: 'Netherlands' },
         { '@type': 'Country', name: 'Switzerland' },
         { '@type': 'Country', name: 'Poland' },
+        { '@type': 'Country', name: 'Russia' },
       ],
       address: {
         '@type': 'PostalAddress',
@@ -477,21 +500,34 @@ export class StructuredDataService {
     const imageUrl = article.heroImage.startsWith('http')
       ? article.heroImage
       : `${BASE_URL}/${article.heroImage.replace(/^\//, '')}`;
+    const place = DESTINATION_PLACES[pageId];
     return {
       '@type': ['TouristDestination', 'Place'],
       name: article.h1,
       description: article.lead,
       url: this.i18n.url(pageId, locale),
+      inLanguage: LOCALE_META[locale].htmlLang,
       image: {
         '@type': 'ImageObject',
         url: imageUrl,
         description: article.heroAlt,
       },
-      touristType: 'Sightseeing',
+      touristType: place?.touristType ?? 'Sightseeing',
       address: {
         '@type': 'PostalAddress',
+        addressLocality: place?.name,
         addressCountry: 'LK',
       },
+      containedInPlace: { '@type': 'Country', name: 'Sri Lanka' },
+      ...(place
+        ? {
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: place.latitude,
+              longitude: place.longitude,
+            },
+          }
+        : {}),
     };
   }
 

@@ -530,7 +530,7 @@ export const ELLA_DAY: TourContent = {
     description:
       'Откройте для себя красоту Эллы за один насыщенный день приключений, культуры и отдыха.',
     duration: '1 день',
-    persons: '1 to 20 путешественников',
+    persons: '1–20 путешественников',
     tourType: 'Однодневный тур',
     overview:
       'Откройте для себя красоту Шри Ланки в этом незабываемом туре к знаменитому мосту Nine Arches в Элле, где вы полюбуетесь живописным проездом поезда. Посетите приют для слонов в Удавалаве, чтобы понаблюдать за спасёнными слонами вблизи. Насладитесь природным великолепием водопадов Равана одних из самых впечатляющих на острове. Поднимитесь на Little Adam’s Peak ради потрясающих панорамных видов на горную местность Шри Ланки. Завершите приключение поездкой на мини поезде через живописные ландшафты Эллы на память об этом волшебном путешествии.',
@@ -565,7 +565,7 @@ export const ELLA_DAY: TourContent = {
       },
       {
         q: 'Сколько нужно идти пешком у моста Nine Arches и на Little Adam’s Peak?',
-        a: 'Мост Nine Arches требует 15 to 20 минут по неровным тропам до главной смотровой точки. Little Adam’s Peak это лёгкий подъём на 30 to 45 минут. Рекомендуются удобная обувь и головной убор.',
+        a: 'Мост Nine Arches требует 15–20 минут по неровным тропам до главной смотровой точки. Little Adam’s Peak это лёгкий подъём на 30–45 минут. Рекомендуются удобная обувь и головной убор.',
       },
     ],
     days: [
@@ -588,7 +588,7 @@ export const ELLA_DAY: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Little Adam’s Peak',
             description:
-              'Высота пика составляет 1141 м, подъём от входа занимает 30 to 45 минут. Виды с вершины невероятны панорама на 360 градусов.',
+              'Высота пика составляет 1141 м, подъём от входа занимает 30–45 минут. Виды с вершины невероятны панорама на 360 градусов.',
           },
           {
             type: 'Экскурсия с гидом',
@@ -600,53 +600,53 @@ export const ELLA_DAY: TourContent = {
             type: 'Экскурсия с гидом',
             title: 'Приют для слонов в Удавалаве',
             description:
-              'Четвёртая остановка: понаблюдайте за оживлённой группой из 20 to 30 молодых слонов, которых кормят четыре раза в день.',
+              'Четвёртая остановка: понаблюдайте за оживлённой группой из 20–30 молодых слонов, которых кормят четыре раза в день.',
           },
         ],
       },
     ],
   },
   nl: {
-    title: 'Sri Lanka Ella Tagestour',
+    title: 'Sri Lanka Ella dagtocht',
     description:
-      'Erleben Sie die Schonheit Ellas an einem erlebnisreichen Tag voller Abenteuer, Kultur und Entspannung.',
-    duration: '1 Tag',
-    persons: '1 to 20 Reisende',
-    tourType: 'Tagestour',
+      'U beleeft de schoonheid van Ella tijdens een dag vol avontuur, cultuur en ontspanning.',
+    duration: '1 dag',
+    persons: '1 tot 20 reizigers',
+    tourType: 'Dagtocht',
     overview:
-      'Entdecken Sie die Schonheit Sri Lankas auf dieser unvergesslichen Tour zur beruhmten Nine Arches Bridge in Ella, wo Sie die malerische Zuguberfahrt bestaunen konnen. Besuchen Sie das Udawalawe Elephant Orphanage, um gerettete Elefanten aus nachster Nahe zu beobachten. Erleben Sie die Naturschonheit der Ravana Wasserfalle, eines der beeindruckendsten Wasserfalle der Insel. Wandern Sie zum Little Adam’s Peak und geniessen Sie einen atemberaubenden Panoramablick uber das Bergland Sri Lankas. Kronen Sie Ihr Abenteuer mit einer Minizugfahrt durch die malerische Landschaft von Ella  fur bleibende Erinnerungen an diese zauberhafte Reise.',
+      'Ontdek de schoonheid van Sri Lanka tijdens deze onvergetelijke tocht naar de beroemde Nine Arches Bridge in Ella, waar u de schilderachtige treinoversteek kunt bewonderen. Bezoek het Udawalawe Elephant Orphanage en bekijk geredde olifanten van dichtbij. Ervaar de natuurpracht van de Ravana watervallen, een van de indrukwekkendste watervallen van het eiland. Wandel naar Little Adam’s Peak en geniet van een adembenemend panorama over het heuvelland van Sri Lanka. Sluit uw avontuur af met een korte treinrit door het schilderachtige landschap van Ella, voor blijvende herinneringen aan deze betoverende reis.',
     includes: [
-      'Klimatisiertes Privatfahrzeug',
-      'Englischsprachiger professioneller Fahrer',
-      'Unterkunft & Verpflegung des Fahrers',
-      'Abholung & Ruckbringung',
-      'Kraftstoff & Parkgebuhren',
-      '24 Stunden Service',
-      'Unbegrenzte Kilometer fur die gesamte Tour',
-      'Ihre Unterkunft',
+      'Privévoertuig met airconditioning',
+      'Professionele Engelssprekende chauffeur',
+      'Accommodatie en maaltijden van de chauffeur',
+      'Ophalen en terugbrengen',
+      'Brandstof en parkeerkosten',
+      '24 uur service',
+      'Onbeperkt aantal kilometers voor de hele tocht',
+      'Uw accommodatie',
     ],
-    excludes: ['Speisen & Getranke', 'Eintritts und Aktivitatsgebuhren'],
+    excludes: ['Eten en drinken', 'Entreegelden en kosten voor activiteiten'],
     seoIntro:
-      'Ella vereint an einem einzigen Tag mehr ikonische Hugellandschaft, als die meisten Reiseziele in einer ganzen Woche bieten. Diese private Tagestour ab Ihrem Hotel kombiniert die auf Instagram beruhmte Nine Arches Bridge  zeitlich abgestimmt auf malerische Zuguberfahrten  mit einer kurzen Wanderung zum Little Adam\'s Peak, den donnernden Ravana Wasserfallen, einem Abschnitt der Zugfahrt durchs Hugelland und einem Stopp im Udawalawe Elephant Transit Home, um gerettete Elefanten zu sehen. Sundown Tours plant den Tag so, dass Sie den Mittagsandrang an der Brucke vermeiden und, wo moglich, die Zugfahrplane einhalten. Ihr Fahrer Guide ubernimmt die engen Bergstrassen, wahrend Sie sich auf Fotografie und die frische Luft im Teeland konzentrieren konnen. Eintrittsgebuhren und Mittagessen bleiben Ihnen selbst uberlassen, sodass Sie Stopps unterwegs verlangern oder verkurzen konnen.',
+      'Ella laat op één dag meer kenmerkend heuvellandschap zien dan de meeste bestemmingen in een hele week. Deze dagtocht met privévoertuig vanaf uw hotel combineert de op Instagram beroemde Nine Arches Bridge, afgestemd op schilderachtige treinoversteken, met een korte wandeling naar Little Adam’s Peak, de donderende Ravana watervallen, een stukje van de treinrit door het heuvelland en een stop bij het Udawalawe Elephant Transit Home om geredde olifanten te zien. Sundown Tours plant de dag zo dat u de drukte rond het middaguur bij de brug vermijdt en, waar mogelijk, de treintijden aanhoudt. Uw chauffeur gids neemt de smalle bergwegen voor zijn rekening, terwijl u zich richt op fotografie en de frisse lucht van het theeland. Entreegelden en de lunch blijven voor uw eigen rekening, zodat u onderweg een stop kunt verlengen of inkorten.',
     highlights: [
-      'Nine Arches Bridge mit Aussichtspunkten fur die legendare Zuguberfahrt',
-      'Wanderung zum Little Adam\'s Peak fur 360 Grad Panoramen im Hugelland',
-      'Ravana Wasserfalle  einer der breitesten und fotogensten Wasserfalle Sri Lankas',
-      'Malerische Zugfahrt durch die Teeplantagen von Ella',
-      'Besuch des Udawalawe Elephant Transit Home fur ethisches Tierbeobachten',
+      'Nine Arches Bridge met uitzichtpunten voor de oversteek van de beroemde blauwe trein',
+      'Wandeling naar Little Adam’s Peak, met een panorama van 360 graden over het heuvelland',
+      'Ravana watervallen, een van de breedste en meest fotogenieke watervallen van Sri Lanka',
+      'Schilderachtige treinrit door de theeplantages van Ella',
+      'Bezoek aan het Udawalawe Elephant Transit Home om dieren op een verantwoorde manier te bekijken',
     ],
     faq: [
       {
-        q: 'Kann diese Ella Tagestour ab Nuwara Eliya oder nur ab Ella Stadt starten?',
-        a: 'Wir konnen Sie von Hotels in Ella, Bandarawela, Haputale oder Nuwara Eliya abholen. Der Abholort beeinflusst die Abfahrtszeit  teilen Sie uns Ihr Hotel bei der Buchung mit, damit wir Fahrzeit und Zuganschlusse planen konnen.',
+        q: 'Kan deze Ella dagtocht u ophalen in Nuwara Eliya, of alleen in de stad Ella?',
+        a: 'Wij kunnen u ophalen bij hotels in Ella, Bandarawela, Haputale of Nuwara Eliya. De ophaalplaats bepaalt het vertrektijdstip. Geef uw hotel door bij de boeking, zodat wij de rijtijd en de treinaansluitingen kunnen plannen.',
       },
       {
-        q: 'Fahren wir die vollstandige Zugstrecke von Kandy nach Ella oder nur einen kurzeren Abschnitt?',
-        a: 'Die Tagestour beinhaltet einen malerischen Mini Abschnitt rund um Ella statt der mehrstundigen Gesamtfahrt. Wenn Sie die klassische Strecke Kandy to Ella wunschen, bitten wir Sie, dies stattdessen in eine mehrtagige Rundreise einzubauen.',
+        q: 'Nemen wij de volledige treinroute van Kandy naar Ella, of alleen een korter traject?',
+        a: 'De dagtocht omvat een schilderachtig kort traject rond Ella. De volledige rit duurt meerdere uren. Wilt u het klassieke traject van Kandy naar Ella, vraag ons dan om dat in een meerdaagse rondreis op te nemen.',
       },
       {
-        q: 'Wie viel Gehen ist an der Nine Arches Bridge und beim Little Adam\'s Peak erforderlich?',
-        a: 'Die Nine Arches Bridge erfordert 15 to 20 Minuten auf unebenen Wegen zum Hauptaussichtspunkt. Little Adam\'s Peak ist ein sanfter 30 to 45 minutiger Aufstieg. Bequeme Schuhe und ein Hut werden empfohlen.',
+        q: 'Hoeveel loopt u bij de Nine Arches Bridge en bij Little Adam’s Peak?',
+        a: 'Bij de Nine Arches Bridge loopt u 15 tot 20 minuten over oneffen paden naar het belangrijkste uitzichtpunt. Little Adam’s Peak is een lichte klim van 30 tot 45 minuten. Comfortabele schoenen en een hoed raden wij aan.',
       },
     ],
     days: [
@@ -654,34 +654,34 @@ export const ELLA_DAY: TourContent = {
         title: 'Nine Arches Bridge',
         activities: [
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Nine Arches Bridge',
             description:
-              'Die majestatische Nine Arches Bridge ist einer der Hauptgrunde dafur. Die imposante Brucke zwischen Ella und Demodara zahlt zu den technischen Meisterwerken des fruhen 20. Jahrhunderts.',
+              'De majestueuze Nine Arches Bridge is een van de vele redenen voor een bezoek aan Ella. Tussen Ella en station Demodara ziet u een imposante brug, een technisch hoogstandje uit het begin van de 20e eeuw.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Zugfahrt durch Ella',
+            type: 'Rondleiding',
+            title: 'Treinrit door Ella',
             description:
-              'Die Zugfahrt durch Ella gilt als eine der schonsten Bahnstrecken Sri Lankas  wenn nicht der Welt! Geniessen Sie atemberaubende Ausblicke auf uppige Teeplantagen, Berge, Viadukte und Taler.',
+              'De treinrit door Ella geldt als de mooiste van Sri Lanka, en misschien wel van de wereld. U stapt op de trein en geniet van adembenemende uitzichten op weelderige theeplantages, bergen, viaducten en dalen.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Little Adam’s Peak',
             description:
-              'Mit einer Hohe von 1.141 m dauert der Aufstieg vom Eingang aus etwa 30 to 45 minuten. Der Ausblick vom Gipfel ist grandios  ein 360 Grad Panorama.',
+              'Little Adam’s Peak is 1141 m hoog. Vanaf de ingang klimt u in ongeveer 30 tot 45 minuten naar boven. Vanaf de top hebt u een uitzicht van 360 graden rondom.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Ravana Wasserfall',
+            type: 'Rondleiding',
+            title: 'Ravana waterval',
             description:
-              'Die Ravana Wasserfalle zahlen zu den breitesten Wasserfallen des Landes. Sie sind beeindruckend, und Sie konnen uber die Felsen klettern, um sie aus der Nahe zu erleben.',
+              'De Ravana waterval behoort tot de breedste watervallen van het land. De waterval is indrukwekkend, en u kunt over een deel van de rotsen klimmen om hem van dichterbij te zien.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Elefanten Waisenhaus Udawalawe',
+            type: 'Rondleiding',
+            title: 'Olifantenweeshuis Udawalawe',
             description:
-              'Vierter Stopp: Beobachten Sie eine lebendige Gruppe von rund 20 bis 30 jungen Elefanten, die viermal taglich gefuttert werden.',
+              'Vierde stop: u ziet een levendige groep van ongeveer 20 tot 30 jonge olifanten. Ze worden vier keer per dag gevoerd.',
           },
         ],
       },

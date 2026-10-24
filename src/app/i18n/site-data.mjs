@@ -568,7 +568,7 @@ export const PAGES = [
       fr: 'colombo-sri-lanka',
       it: 'colombo-sri-lanka',
       es: 'colombo-sri-lanka',
-      pl: 'colombo-sri-lanka',
+      pl: 'kolombo-sri-lanka',
       ru: 'kolombo-shri-lanka',
       nl: 'colombo-sri-lanka',
     },
@@ -955,10 +955,7 @@ export const PAGES = [
     },
   },
 
-  // P2 guideswhale + luxury body copy is still EN+DE only. Other locales stay
-  // reachable in the UI but are noindex / out of sitemap until translated
-  // (English fallback bodies cause "Discovered - currently not indexed" / duplicate-canonical).
-  // Train, honeymoon and airport-transfer guides are translated for all indexable locales.
+  // Locale allowlists below keep incomplete translations out of sitemap/hreflang.
   {
     id: 'guideWhaleWatching',
     kind: 'guide',
@@ -1329,6 +1326,7 @@ export const LEGACY_TOUR_REDIRECTS = {
  * @type {Record<string, string>}
  */
 export const LEGACY_DEST_REDIRECTS = {
+  'colombo-sri-lanka': 'destColombo',
   'sigiriya-sri-lanka': 'destSigiriya',
   'ella-sri-lanka': 'destElla',
   'yala-sri-lanka': 'destYala',

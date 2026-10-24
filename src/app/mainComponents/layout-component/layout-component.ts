@@ -4,7 +4,7 @@ import { Router, RouterModule } from '@angular/router';
 import { ScrollToToComponent } from '../../sharedComponents/scroll-to-to-component/scroll-to-to-component';
 import { withImageVersion } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
-import { LocaleService } from '../../i18n/locale.service';
+import { createLocaleSwitchTree, LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
 import { LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
 import {
@@ -72,7 +72,7 @@ export class LayoutComponent {
       return;
     }
     const target = this.i18n.path(this.i18n.pageId(), locale);
-    this.router.navigateByUrl(target);
+    this.router.navigateByUrl(createLocaleSwitchTree(this.router, target));
     this.closeNav();
     this.closeLangMenu();
   }

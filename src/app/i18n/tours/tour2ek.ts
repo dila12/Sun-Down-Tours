@@ -758,105 +758,105 @@ export const TOUR2EK: TourContent = {
     ],
   },
   nl: {
-    title: '2 Tage Sri Lanka Privatreise  Ella, Kandy & Udawalawa Safari | Flughafentransfer',
+    title: 'Privétour van 2 dagen door Sri Lanka: Ella, Kandy en safari in Udawalawa | Afzet op de luchthaven',
     description:
-      'Entdecken Sie Sri Lankas Tierwelt, malerisches Bergland und kulturelles Erbe auf dieser 2 tagigen Privatreise, die am Flughafen oder in Ihrem Hotel endet.',
-    duration: '2 Tage',
-    persons: 'Privatreise (1 to 20 Personen)',
-    tourType: 'Rundreise',
+      'Ontdek de wilde dieren, het groene heuvelland en het culturele erfgoed van Sri Lanka tijdens deze privétour van 2 dagen, die eindigt op de luchthaven of bij uw hotel.',
+    duration: '2 dagen',
+    persons: 'Privétour (1 tot 20 personen)',
+    tourType: 'Rondreis',
     overview:
-      'Erleben Sie eine unvergessliche 2 tagige Reise durch Sri Lankas Tierwelt, Bergland und kulturelle Hauptstadt. Am ersten Tag besuchen Sie das Udawalawa Elephant Transit Home, bevor es nach Ella geht, um die Nine Arch Bridge, Little Adam’s Peak, Flying Ravana und die Ravana Wasserfalle zu entdecken. Am zweiten Tag reisen Sie durch die malerischen Hugel zu den Ramboda Wasserfallen und dem Ambuluwawa Turm, bevor Sie den heiligen Zahntempel in Kandy und das Pinnawala Elephant Orphanage besuchen. Diese Privatreise endet bequem am Flughafen oder in Ihrem Hotel.',
+      'Beleef een onvergetelijke reis van 2 dagen door de wilde natuur, het heuvelland en de culturele hoofdstad van Sri Lanka. Op de eerste dag bezoekt u het Udawalawa Elephant Transit Home en reist u daarna naar Ella voor de Nine Arch Bridge, Little Adam’s Peak, Flying Ravana en Ravana Falls. Op de tweede dag rijdt u door het groene heuvelland naar Ramboda Falls en de toren van Ambuluwawa, en daarna naar de heilige Tempel van de Tand in Kandy en het Pinnawala Elephant Orphanage. Deze privétour eindigt comfortabel op de luchthaven of bij uw hotel.',
     includes: PACKAGE_INCLUDES.nl,
     excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Zwei Tage reichen aus, um die Highlights von Ella mit dem heiligen Kulturerbe von Kandy zu verbinden, wenn ein privater Chauffeur die Bergstrassen ubernimmt. Tag eins kombiniert das Udawalawe Elephant Transit Home  die ethische Beobachtung geretteter Elefantenkalber  mit der Nine Arches Bridge, Little Adam\'s Peak, dem optionalen Flying Ravana Zipline Abenteuer und den Ravana Wasserfallen. Tag zwei fuhrt uber die Ramboda Wasserfalle und den spiralformigen Ambuluwawa Turm zum Zahntempel in Kandy und einem Stopp im Pinnawala Elefantenwaisenhaus auf dem Weg zum Flughafen oder Ihrem Hotel. Sundown Tours plant Zugblicke und Wanderungen so, dass Sie den Mittagsandrang vermeiden, wahrend Sie in einem klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung reisen. Die Unterkunft ist optional; Eintrittsgebuhren und Mahlzeiten bleiben Ihnen selbst uberlassen. Ideal als Mini Rundreise vor dem Flug ab der Sudkuste oder als gezielte Erganzung zwischen Strandtagen und Abreise.',
+      'Twee dagen zijn genoeg om de hoogtepunten in het hoogland van Ella te verbinden met het heilige erfgoed van Kandy, terwijl een privéchauffeur de bergwegen rijdt. Op de eerste dag bekijkt u geredde olifantenkalveren op een verantwoorde manier in het Udawalawe Elephant Transit Home, en bezoekt u de Nine Arches Bridge, Little Adam’s Peak, de optionele tokkelbaan van Flying Ravana en Ravana Falls. Op de tweede dag daalt u af langs Ramboda Falls en de spiraalvormige toren van Ambuluwawa. Daarna bezoekt u de Tempel van de Heilige Tand in Kandy en stopt u bij de olifanten van Pinnawala, onderweg naar de luchthaven of uw hotel. Sundown Tours plant de uitzichtpunten bij de trein en de wandelingen zo dat u de drukte rond het middaguur voor bent, terwijl u reist in een privévoertuig met airconditioning en een onbeperkt aantal kilometers. Overnachting is optioneel. Entreegelden en maaltijden regelt u zelf. Geschikt als korte rondreis vóór uw vlucht vanaf de zuidkust, of als gerichte aanvulling tussen stranddagen en vertrek.',
     highlights: [
-      'Udawalawe Elephant Transit Home und Aussichtspunkte an der Nine Arches Bridge in Ella',
-      'Wanderung zum Little Adam\'s Peak und optionales Flying Ravana Zipline Abenteuer',
-      'Ramboda Wasserfalle und 360 Grad Bergpanorama am Ambuluwawa Turm',
-      'Zahntempel in Kandy und Pinnawala Elefantenwaisenhaus',
-      'Privatfahrzeug mit englischsprachigem Fahrer und flexiblem Transfer zum Flughafen oder Hotel',
+      'Udawalawe Elephant Transit Home en uitzichtpunten bij de Nine Arches Bridge in Ella',
+      'Wandeling naar Little Adam’s Peak en optioneel tokkelavontuur bij Flying Ravana',
+      'Ramboda Falls en een bergpanorama van 360 graden bij de toren van Ambuluwawa',
+      'Tempel van de Heilige Tandrelikwie in Kandy en het Pinnawala Elephant Orphanage',
+      'Privévoertuig met een Engelssprekende chauffeur en een flexibele afzet op de luchthaven of bij het hotel',
     ],
     whoIsFor:
-      'Perfekt fur Transitreisende, Hochzeitsreisende und kleine Gruppen mit begrenzter Zeit, die trotzdem die Landschaft des Hugellands und die Kultur von Kandy erleben mochten, ohne sich fur eine ganze Woche zu binden.',
+      'Geschikt voor reizigers op doorreis, stellen op huwelijksreis en kleine groepen met weinig tijd. U wilt het heuvelland en de cultuur van Kandy toch zien, zonder u voor een hele week vast te leggen.',
     bestTimeNote:
-      'Ganzjahrig moglich; die trockenen Monate Januar to Marz und Juli to August bieten die klarsten Ausblicke im Hochland. Ein fruher Start hilft, Kandy und Pinnawala am 2. Tag vor dem Flughafenverkehr abzuschliessen.',
+      'Het hele jaar mogelijk. De droge maanden januari tot maart en juli tot augustus bieden het helderste uitzicht in het hoogland. Een vroege start helpt om Kandy en Pinnawala op dag 2 af te ronden vóór het verkeer naar de luchthaven.',
     faq: [
       {
-        q: 'Kann diese 2 tagige Tour am Flughafen Bandaranaike enden?',
-        a: 'Ja  die Route ist fur eine bequeme Ankunft am Flughafen oder Hotel am 2. Tag ausgelegt. Teilen Sie uns Ihre Flugzeit mit, damit wir Kandy und Pinnawala entsprechend timen.',
+        q: 'Kan deze tour van 2 dagen eindigen op de internationale luchthaven Bandaranaike?',
+        a: 'Ja. De route is zo opgezet dat wij u op dag 2 comfortabel afzetten op de luchthaven of bij uw hotel. Geef uw vluchttijd door, zodat wij het tempo bij Pinnawala en Kandy daarop afstemmen.',
       },
       {
-        q: 'Ist eine Ubernachtung im Preis enthalten?',
-        a: 'Ja. Die Ubernachtung in einem ausgewahlten 4 Sterne Hotel mit Fruhstuck und Abendessen (Halbpension) ist enthalten.'
+        q: 'Is de overnachting inbegrepen?',
+        a: 'Ja. Een overnachting in een geselecteerd hotel met 4 sterren, met ontbijt en avondeten (halfpension), is inbegrepen.',
       },
       {
-        q: 'Haben wir Zeit fur die Flying Ravana Zipline?',
-        a: 'Die Zipline ist optional und wetterabhangig. Wenn Sie sie buchen, verkurzen wir einen anderen Stopp in Ella  meist den Besuch der Ravana Wasserfalle , damit der Tag entspannt bleibt.',
+        q: 'Hebben wij tijd voor de tokkelbaan van Flying Ravana?',
+        a: 'De tokkelbaan is optioneel en afhankelijk van het weer. Als u die boekt, verkorten wij een andere stop in Ella, meestal een langer bezoek aan Ravana Falls, zodat de dag ontspannen blijft.',
       },
     ],
     days: [
       {
-        title: 'Udawalawa und Ella Abenteuer',
+        title: 'Avontuur in Udawalawa en Ella',
         activities: [
           {
-            type: 'Naturerlebnis',
+            type: 'Dierenbeleving',
             title: 'Udawalawa Elephant Transit Home',
             description:
-              'Besuchen Sie das Udawalawa Elephant Transit Home, um gerettete Elefantenbabys zu beobachten, die versorgt und auf ihre Ruckkehr in die Wildnis vorbereitet werden.',
+              'Bezoek het Udawalawa Elephant Transit Home en zie hoe geredde jonge olifanten worden verzorgd en voorbereid op hun terugkeer naar het wild.',
           },
           {
-            type: 'Aussichtsbesuch',
+            type: 'Uitzichtbezoek',
             title: 'Nine Arch Bridge',
             description:
-              'Entdecken Sie die legendare Nine Arch Bridge in Ella, umgeben von uppigem Grun und atemberaubenden Ausblicken auf das Bergland.',
+              'Ontdek de beroemde Nine Arch Bridge in Ella, omgeven door weelderig groen en indrukwekkende uitzichten over het heuvelland.',
           },
           {
-            type: 'Wanderung',
+            type: 'Wandeling',
             title: 'Little Adam’s Peak',
             description:
-              'Geniessen Sie eine kurze, malerische Wanderung zum Little Adam’s Peak mit Panoramablick auf den Ella Gap und die umliegenden Teeplantagen.',
+              'Maak een korte, mooie wandeling naar Little Adam’s Peak, met panoramisch uitzicht op Ella Gap en de omliggende theeplantages.',
           },
           {
-            type: 'Abenteuer',
-            title: 'Flying Ravana Zipline',
+            type: 'Avontuur',
+            title: 'Tokkelbaan van Flying Ravana',
             description:
-              'Erleben Sie spannendes Zip Lining im Flying Ravana Adventure Park mit Blick auf die atemberaubende Landschaft von Ella.',
+              'Probeer de spannende tokkelbaan in Flying Ravana Adventure Park, met uitzicht over het prachtige landschap van Ella.',
           },
           {
-            type: 'Wasserfall Besuch',
-            title: 'Ravana Wasserfall',
+            type: 'Watervalbezoek',
+            title: 'Ravana Falls',
             description:
-              'Besuchen Sie den wunderschonen Ravana Wasserfall, einen der beruhmtesten Wasserfalle Sri Lankas, in der Nahe von Ella.',
+              'Bezoek de mooie Ravana Falls, een van de bekendste watervallen van Sri Lanka, vlak bij Ella.',
           },
         ],
       },
       {
-        title: 'Bergland & Kulturtour nach Kandy',
+        title: 'Heuvelland en culturele tour in Kandy',
         activities: [
           {
-            type: 'Wasserfall Besuch',
-            title: 'Ramboda Wasserfall',
+            type: 'Watervalbezoek',
+            title: 'Ramboda Falls',
             description:
-              'Halten Sie am Ramboda Wasserfall, einem beeindruckenden Wasserfall inmitten von Sri Lankas malerischem Bergland.',
+              'Stop bij Ramboda Falls, een indrukwekkende waterval in het groene heuvelland van Sri Lanka.',
           },
           {
-            type: 'Aussichtsturm Besuch',
-            title: 'Ambuluwawa Turm',
+            type: 'Uitkijktoren',
+            title: 'Biodiversiteitstoren van Ambuluwawa',
             description:
-              'Besteigen Sie den einzigartigen Ambuluwawa Biodiversitatsturm fur einen atemberaubenden 360 Grad Blick auf die umliegenden Berge.',
+              'Beklim de bijzondere biodiversiteitstoren van Ambuluwawa voor een uitzicht van 360 graden over de omliggende bergen.',
           },
           {
-            type: 'Kulturbesuch',
-            title: 'Zahntempel (Sri Dalada Maligawa)',
+            type: 'Cultureel bezoek',
+            title: 'Tempel van de Heilige Tandrelikwie',
             description:
-              'Besuchen Sie den heiligen Zahntempel in Kandy, eine der bedeutendsten buddhistischen Statten der Welt.',
+              'Bezoek de heilige Tempel van de Tand in Kandy, een van de belangrijkste boeddhistische plaatsen ter wereld.',
           },
           {
-            type: 'Naturerlebnis',
+            type: 'Dierenbeleving',
             title: 'Pinnawala Elephant Orphanage',
             description:
-              'Beobachten Sie Elefanten beim Baden und Fressen im beruhmten Pinnawala Elephant Orphanage.',
+              'Kijk hoe de olifanten baden en eten in het bekende Pinnawala Elephant Orphanage.',
           },
         ],
       },

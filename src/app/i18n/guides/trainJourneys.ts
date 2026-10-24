@@ -394,20 +394,20 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
   ru: {
     h1: 'Поезд шри ланка: Канди Элла и чайные холмы',
     lead:
-      'Горный поезд между Канди, Нану Ойя (для Нувара Элии) и Эллойодна из визитных карточек Шри Ланки: чайные склоны, виадуки и деревенские станции. Частный тур с водителем лучше сочетать с выбранными отрезками, а не возить весь багаж поездом каждый день.',
+      'Горный поезд между Канди, Нану Ойя (для Нувара Элии) и Эллой — одна из визитных карточек Шри Ланки: чайные склоны, виадуки и деревенские станции. Частный тур с водителем лучше сочетать с выбранными отрезками, а не возить весь багаж поездом каждый день.',
     heroAlt: 'Чайные пейзажи холмов у живописной железной дороги Шри Ланки',
     sections: [
       {
         title: 'Зачем планировать горный поезд',
-        body: 'Мало дорог сравнится с видами линии Канди–Элла ясным утром. Путешественники из Европы часто ставят этот отрезок в любимые воспоминанияособенно с забронированными местами, без борьбы за стоячее место.\n\nЭто всё ещё общественная железная дорога: бывают задержки, вагоны бывают полными, багажа мало места. Относитесь к поезду как к яркому дню, а не единственному логистическому плану.',
+        body: 'Мало дорог сравнится с видами линии Канди–Элла ясным утром. Путешественники из Европы часто ставят этот отрезок в любимые воспоминания, особенно с забронированными местами, без борьбы за стоячее место.\n\nЭто всё ещё общественная железная дорога: бывают задержки, вагоны бывают полными, багажа мало места. Относитесь к поезду как к яркому дню, а не единственному логистическому плану.',
       },
       {
         title: 'Лучшие отрезки для гостей',
-        body: 'Популярный выбор: Канди–Элла (полный панорамный день) или Нану Ойя–Элла (короче, всё равно эффектно). Утренние поезда обычно прохладнее и лучше для фото.\n\nВодитель высаживает вас на станции отправления, билеты уже организованы, едет вперёд с большими чемоданами и встречает в Эллесамый удобный рисунок многодневного частного тура.',
+        body: 'Популярный выбор: Канди–Элла (полный панорамный день) или Нану Ойя–Элла (короче, всё равно эффектно). Утренние поезда обычно прохладнее и лучше для фото.\n\nВодитель высаживает вас на станции отправления, билеты уже организованы, едет вперёд с большими чемоданами и встречает в Элле — самый удобный рисунок многодневного частного тура.',
       },
       {
         title: 'Билеты, классы и советы по бронированию',
-        body: 'Забронированные места в observation или 1/2 классе быстро кончаются в пик. Бронируйте, как только даты тура тверды, и держите подтверждение офлайн для персонала станции.\n\nНе покупайте в последний момент на платформе самые красивые поезда, если едете с детьми или ограниченной подвижностьючасы стоя в жаре утомляют.',
+        body: 'Забронированные места в observation или 1/2 классе быстро кончаются в пик. Бронируйте, как только даты тура тверды, и держите подтверждение офлайн для персонала станции.\n\nНе покупайте в последний момент на платформе самые красивые поезда, если едете с детьми или ограниченной подвижностью. Часы стоя в жаре утомляют.',
       },
       {
         title: 'Совместить поезд с частным водителем',
@@ -415,7 +415,7 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
       },
       {
         title: 'Как Sundown Tours устраивает дни поезда',
-        body: 'Скажите, нужен полный Канди–Элла или короткий прыжок Нану Ойя–Элла. Встраиваем это в частные маршруты на 7 to 10 дней с реалистичными ночами в Канди, Нувара Элии или Элле.\n\nНапишите в WhatsApp предпочтительный месяцевропейские зимние каникулы требуют более раннего бронирования мест.',
+        body: 'Скажите, нужен полный Канди–Элла или короткий прыжок Нану Ойя–Элла. Встраиваем это в частные маршруты на 7–10 дней с реалистичными ночами в Канди, Нувара Элии или Элле.\n\nНапишите в WhatsApp предпочтительный месяц. Европейские зимние каникулы требуют более раннего бронирования мест.',
       },
     ],
     faq: [
@@ -433,11 +433,11 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
       },
       {
         q: 'Можете забронировать билеты?',
-        a: 'Дабилеты можно включить в смету частного тура после подтверждения дат.',
+        a: 'Да, билеты можно включить в смету частного тура после подтверждения дат.',
       },
     ],
     ctaTitle: 'Добавить день поезда в частный тур',
-    ctaBody: 'Напишите даты и что предпочитаетеКанди–Элла или короткий отрезок: встроим забронированные места в план с водителем.',
+    ctaBody: 'Напишите даты и что предпочитаете: Канди–Элла или короткий отрезок. Встроим забронированные места в план с водителем.',
     ctaLabel: 'Связаться',
     relatedTours: [
       { pageId: 'tour7', label: '7 дневный тур по Шри Ланке' },
@@ -453,6 +453,42 @@ export const TRAIN_JOURNEYS_GUIDE: ArticleContent = {
       { pageId: 'guideTeaCountry', label: 'Гид по чайному краю' },
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки' },
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
+    ],
+  },
+  nl: {
+    h1: 'De trein van Kandy naar Ella en Nanu Oya naar Ella',
+    lead: 'De trein door het hoogland tussen Kandy, Nanu Oya (voor Nuwara Eliya) en Ella is een van de bekendste ervaringen van Sri Lanka, met theehellingen, viaducten en kleine stations. Combineer een mooi treintraject met een privéchauffeur; zo hoeft u niet al uw bagage dagelijks per trein mee te nemen.',
+    heroAlt: 'Theehellingen in het hoogland langs de schilderachtige treinroute van Sri Lanka',
+    sections: [
+      { title: 'Waarom de trein door het hoogland de moeite waard is', body: 'Op een heldere ochtend biedt de spoorlijn van Kandy naar Ella uitzichten die vanaf de weg moeilijk te evenaren zijn. Veel Europese reizigers noemen dit traject een hoogtepunt, zeker met gereserveerde zitplaatsen.\n\nHet blijft een openbare spoorlijn: vertragingen komen voor, treinen kunnen druk zijn en bagageruimte is beperkt. Zie de trein als een bijzondere excursie, niet als uw enige vervoersplan.' },
+      { title: 'De mooiste trajecten voor bezoekers', body: 'Populaire opties zijn de volledige rit van Kandy naar Ella of het kortere, maar nog steeds indrukwekkende traject van Nanu Oya naar Ella. Vroege treinen zijn meestal koeler en bieden mooi licht voor foto’s.\n\nUw chauffeur kan u met vooraf geregelde tickets naar het vertrekstation brengen, met grotere koffers vooruitrijden en u in Ella weer ontmoeten. Dat werkt prettig tijdens een meerdaagse privérondreis.' },
+      { title: 'Tickets, klassen en reserveringstips', body: 'Gereserveerde plaatsen in de observatiewagon of eerste/tweede klas zijn op drukke data snel uitverkocht. Boek zodra uw reisdata vaststaan en bewaar de bevestiging offline voor het stationspersoneel.\n\nKoop voor de populairste treinen niet pas op het perron als u met kinderen reist of minder mobiel bent; lang staan in een volle wagon kan vermoeiend zijn.' },
+      { title: 'De trein combineren met een privéchauffeur', body: 'Ook op een treindag blijft een privéchauffeur handig voor transfers naar het station, het inchecken bij uw hotel en flexibele uitstapjes voor of na de rit. Veel reizigers nemen één traject met de trein en leggen de andere richting over de weg af.\n\nWe stemmen de autoritten af op de dienstregeling, zodat u na een lange treinrit niet dezelfde avond nog het eiland hoeft over te steken.' },
+      { title: 'Een treindag plannen met Sundown Tours', body: 'Laat ons weten of u de volledige rit Kandy–Ella wilt maken of liever het kortere traject Nanu Oya–Ella kiest. We nemen de trein op in privérondreizen van 7 tot 10 dagen en plannen passende hotelnachten in Kandy, Nuwara Eliya of Ella.\n\nStuur uw gewenste reismaand via WhatsApp. Tijdens Europese wintervakanties moeten zitplaatsen eerder worden gereserveerd.' },
+    ],
+    faq: [
+      { q: 'Moet ik al mijn bagage meenemen in de trein?', a: 'Meestal niet tijdens een meerdaagse rondreis. Laat grotere koffers met uw chauffeur meerijden en neem alleen lichte bagage mee in de trein.' },
+      { q: 'Is de trein van Kandy naar Ella geschikt voor gezinnen?', a: 'Ja, als u zitplaatsen reserveert en die dag geen andere lange transfers plant. We stemmen het tempo af op de leeftijd van uw kinderen.' },
+      { q: 'Wat gebeurt er als de trein vertraging heeft?', a: 'Vertraging is mogelijk. Uw chauffeur houdt waar nodig ruimte in de planning en kan alternatieven over de weg regelen.' },
+      { q: 'Kunnen jullie treinkaartjes voor ons regelen?', a: 'Ja. Zodra uw data vaststaan, kunnen we tickets als onderdeel van de offerte voor uw privérondreis regelen.' },
+    ],
+    ctaTitle: 'Voeg een schilderachtige treinrit toe aan uw privérondreis',
+    ctaBody: 'Deel uw reisdata en voorkeur voor Kandy–Ella of een korter traject. We passen gereserveerde plaatsen in uw reisplan met privéchauffeur in.',
+    ctaLabel: 'Neem contact op',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'tour2ek', label: '2-daagse reis Ella en Kandy' },
+      { pageId: 'ellaDay', label: 'Dagtocht naar Ella' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destKandy', label: 'Kandy' },
+      { pageId: 'destDambulla', label: 'Dambulla' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideTeaCountry', label: 'Gids voor het theegebied' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   },
 };

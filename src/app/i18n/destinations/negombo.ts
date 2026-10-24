@@ -203,11 +203,19 @@ export const NEGOMBO_DEST: ArticleContent = {
         title: 'Co robic przez pol dnia',
         body: 'Laguna, kosciol sw. Marii, targ rybny rano, kapiel jesli flagi pozwalaja. Wielu gosci spi, je owoce morza i przestawia zegarek (UTC+5:30).',
       },
+      {
+        title: 'Dalsza trasa po pierwszej nocy',
+        body: 'Prywatne objazdy ruszaja z Negombo do Dambulli i Sigiriyi albo na poludnie przez Bentote w strone Galle i Mirissy. Mozemy pominac Negombo, jesli godzina przylotu pozwala dotrzec tego samego wieczoru do hotelu na zachodnim wybrzezu.',
+      },
     ],
     faq: [
       {
         q: 'Jak daleko Negombo jest od lotniska Colombo?',
         a: 'Zwykle 20 to 40 minut. To najkrotsza pierwsza noc po CMB.',
+      },
+      {
+        q: 'Czy Negombo jest lepsze niz Kolombo na pierwsza noc?',
+        a: 'Przy poznych przylotach zwykle tak: krotszy transfer i hotel przy plazy. Kolombo wybierzcie, jesli chcecie muzea i caly dzien w miescie.',
       },
     ],
     ctaTitle: 'Zaczac od prywatnego transferu CMB to Negombo',
@@ -237,11 +245,23 @@ export const NEGOMBO_DEST: ArticleContent = {
         title: 'Perche Negombo la prima notte',
         body: 'La maggior parte dei voli da Milano atterra tardi. Un salto corto a Negombo batte quattro ore di notte verso Sigiriya. Il giorno dopo l’autista parte per il Triangolo Culturale o la costa ovest a un’ora civile.',
       },
+      {
+        title: 'Cosa fare in mezza giornata',
+        body: 'Puoi visitare la laguna, vedere i resti del canale olandese, entrare nella chiesa di Santa Maria e fare un salto al mercato del pesce al mattino. Se il mare lo consente, c’e anche tempo per un bagno. Molti viaggiatori preferiscono riposare, cenare con pesce fresco e abituarsi all’ora locale (UTC+5:30).',
+      },
+      {
+        title: 'La tappa successiva del tour',
+        body: 'Gli itinerari privati proseguono da Negombo verso Dambulla e Sigiriya, oppure lungo la costa ovest verso Bentota, Galle e Mirissa. Possiamo saltare la sosta se preferite raggiungere un hotel sulla costa la sera dell’arrivo e l’orario del volo lo permette.',
+      },
     ],
     faq: [
       {
         q: 'Quanto e lontana Negombo dall’aeroporto di Colombo?',
         a: 'Di solito 20 to 40 minuti. E la prima notte piu corta dopo CMB.',
+      },
+      {
+        q: 'Negombo e meglio di Colombo per la prima notte?',
+        a: 'Per gli arrivi tardivi di solito si: trasferimento piu corto e hotel sulla spiaggia. Scegliete Colombo se volete musei e un’intera giornata in citta.',
       },
     ],
     ctaTitle: 'Iniziare con un transfer privato CMB to Negombo',
@@ -264,18 +284,30 @@ export const NEGOMBO_DEST: ArticleContent = {
   ru: {
     h1: 'Негомбо Шри Ланка: пляж у аэропорта Коломбо',
     lead:
-      'Негомбопрактичная первая ночь после длинного рейса на CMB: рыбацкий город западного побережья, лагуна, полоса пляжа и 20 to 40 минут от терминалаближе, чем центр Коломбо.',
+      'Негомбо — практичная первая ночь после длинного рейса на CMB: рыбацкий город западного побережья, лагуна, полоса пляжа и 20–40 минут от терминала, ближе, чем центр Коломбо.',
     heroAlt: 'Пляж и лагуна Негомбо рядом с аэропортом Коломбо',
     sections: [
       {
         title: 'Почему Негомбо в первую ночь',
         body: 'Большинство рейсов из Москвы прилетает поздно. Короткий заезд в Негомбо лучше четырёх часов ночью до Сигирии. На следующий день водитель выезжает в Культурный треугольник или на западное побережье в человеческое время.',
       },
+      {
+        title: 'Чем заняться за полдня',
+        body: 'Можно прогуляться у лагуны и старого голландского канала, посетить церковь Святой Марии и заглянуть утром на рыбный рынок. Если море спокойное, найдётся время для купания. Многие гости просто отдыхают после перелёта, ужинают морепродуктами и привыкают к местному времени UTC+5:30.',
+      },
+      {
+        title: 'Куда продолжить поездку',
+        body: 'Из Негомбо частные маршруты обычно идут к Дамбулле и Сигирии или на юг через Бентоту к Галле и Мириссе. Если время прилёта позволяет, можно сразу отправиться в отель на западном побережье и пропустить ночёвку в Негомбо.',
+      },
     ],
     faq: [
       {
         q: 'Как далеко Негомбо от аэропорта Коломбо?',
-        a: 'Обычно 20 to 40 минут. Это самая короткая первая ночь после CMB.',
+        a: 'Обычно 20–40 минут. Это самая короткая первая ночь после CMB.',
+      },
+      {
+        q: 'Негомбо лучше Коломбо для первой ночи?',
+        a: 'При позднем прилёте обычно да: короче трансфер и отель у пляжа. Коломбо выбирайте, если нужны музеи и полный день в городе.',
       },
     ],
     ctaTitle: 'Начать с частного трансфера CMB–Негомбо',
@@ -293,6 +325,45 @@ export const NEGOMBO_DEST: ArticleContent = {
     relatedGuides: [
       { pageId: 'guideAirportTransfers', label: 'Трансфер из аэропорта' },
       { pageId: 'marketRussia', label: 'Туры из России' },
+    ],
+  },
+  nl: {
+    h1: 'Negombo, Sri Lanka: badplaats bij de luchthaven van Colombo',
+    lead: 'Negombo is een praktische plek voor de eerste nacht na een lange vlucht naar CMB. Het vissersstadje aan de westkust heeft een lagune, een strandstrook en ligt op ongeveer 20 tot 40 minuten rijden van de terminal, dichterbij dan het centrum van Colombo.',
+    heroAlt: 'Strand en lagune van Negombo bij de luchthaven van Colombo',
+    sections: [
+      {
+        title: 'Waarom de eerste nacht in Negombo doorbrengen',
+        body: 'Veel Europese vluchten komen laat aan. De paspoortcontrole en bagage kosten tijd; een korte rit naar Negombo is dan prettiger dan vier uur in het donker naar Sigiriya rijden. De volgende ochtend kan uw chauffeur op een normaal tijdstip naar de Culturele Driehoek of de westkust vertrekken.\n\nNegombo is niet het mooiste strand van Sri Lanka, maar wel een comfortabele plek om na aankomst op adem te komen.',
+      },
+      {
+        title: 'Wat te doen in een halve dag',
+        body: 'Bekijk de lagune en overblijfselen van het Nederlandse kanaal, bezoek de Mariakerk of ga ’s ochtends naar de vismarkt. Zwemmen kan als de zeeomstandigheden het toelaten. Veel reizigers rusten uit, eten verse vis en wennen aan de lokale tijd (UTC+5:30).',
+      },
+      {
+        title: 'Waar de rondreis verdergaat',
+        body: 'Privéroutes gaan vanuit Negombo vaak naar Dambulla en Sigiriya, of zuidwaarts langs de westkust naar Bentota, Galle en Mirissa. We kunnen Negombo overslaan als uw aankomsttijd het toelaat om dezelfde avond nog naar een hotel aan de westkust te rijden.',
+      },
+    ],
+    faq: [
+      { q: 'Hoe ver ligt Negombo van de luchthaven van Colombo?', a: 'Meestal 20 tot 40 minuten rijden, afhankelijk van het verkeer en de locatie van uw hotel. Het is een van de kortste transfers na aankomst op CMB.' },
+      { q: 'Is Negombo beter dan Colombo voor de eerste nacht?', a: 'Bij een late aankomst is Negombo vaak handiger door de kortere rit en de hotels aan het strand. Kies Colombo als u de volgende dag musea en de stad wilt verkennen.' },
+    ],
+    ctaTitle: 'Begin met een privétransfer van CMB naar Negombo',
+    ctaBody: 'Deel uw vluchtnummer. We halen u op en zetten de rondreis de volgende dag voort.',
+    ctaLabel: 'Ophaalservice plannen',
+    relatedTours: [
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destColombo', label: 'Colombo' },
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destBentota', label: 'Bentota' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideAirportTransfers', label: 'Luchthaventransfers' },
+      { pageId: 'marketNetherlands', label: 'Reizen vanuit Nederland' },
     ],
   },
 };

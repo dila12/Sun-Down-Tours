@@ -400,28 +400,28 @@ export const HONEYMOON_GUIDE: ArticleContent = {
   ru: {
     h1: 'Медовый месяц на Шри Ланке: частные маршруты для пар',
     lead:
-      'Шри Ланка подходит для медового месяца с культурой, чайным краем и пляжем без темпа группового тура. Частный автомобиль, гибкие ночи в отелях и честные дни за рулём держат поездку романтичнойот рассветов в Сигирии до вечеров на южном побережье.',
+      'Шри Ланка подходит для медового месяца с культурой, чайным краем и пляжем без темпа группового тура. Частный автомобиль, гибкие ночи в отелях и честные дни за рулём держат поездку романтичной: от рассветов в Сигирии до вечеров на южном побережье.',
     heroAlt: 'Частный медовый месяц по Шри Ланке с водителем гидом',
     sections: [
       {
         title: 'Почему пары выбирают частный медовый месяц',
-        body: 'Жёсткие автобусные туры редко совпадают с темпом пары. Маршрут с частным водителем позволяет задержаться на смотровой, пропустить любую остановку или добавить spa-день без переговоров с большой группой.\n\nРасстояния укладываются в маршрут на 8 to 12 дней: Культурный треугольник, Канди или Элла и пляжный финал у Галле или Мириссы.',
+        body: 'Жёсткие автобусные туры редко совпадают с темпом пары. Маршрут с частным водителем позволяет задержаться на смотровой, пропустить любую остановку или добавить spa-день без переговоров с большой группой.\n\nРасстояния укладываются в маршрут на 8–12 дней: Культурный треугольник, Канди или Элла и пляжный финал у Галле или Мириссы.',
       },
       {
         title: 'Классическая форма свадебного маршрута',
-        body: 'Многие пары начинают с Сигирии и Дамбуллы, едут в Канди, пересекают чайный край к Элле, иногда добавляют мягкое утро сафари и заканчивают на юго западном побережье. Люксовые гости часто выбирают бутик отели и меньше смен жилья.\n\nДержим дневные переезды честнымиромантическая поездка ломается, если каждый день это пять часов трансфера.',
+        body: 'Многие пары начинают с Сигирии и Дамбуллы, едут в Канди, пересекают чайный край к Элле, иногда добавляют мягкое утро сафари и заканчивают на юго западном побережье. Люксовые гости часто выбирают бутик отели и меньше смен жилья.\n\nДержим дневные переезды честными. Романтическая поездка ломается, если каждый день это пять часов трансфера.',
       },
       {
         title: 'Темп, уединение и особые штрихи',
-        body: 'Заранее скажите о годовщинах, планах предложения руки или диетах. Можем выбрать более тихие категории отелей, более поздние старты после долгих перелётов и частные ужины, где партнёры позволяют.\n\nФотографы часто хотят рассвет в Сигирии или золотой час в Эллевстраиваем это, не перегружая остаток дня.',
+        body: 'Заранее скажите о годовщинах, планах предложения руки или диетах. Можем выбрать более тихие категории отелей, более поздние старты после долгих перелётов и частные ужины, где партнёры позволяют.\n\nФотографы часто хотят рассвет в Сигирии или золотой час в Элле. Встраиваем это, не перегружая остаток дня.',
       },
       {
         title: 'Бюджетный или люксовый медовый месяц',
-        body: 'Оба варианта работают с частным водителем. Бюджет делает упор на чистые отели среднего класса и выбранные билеты; люксна бутик, spa и аккуратно поставленные осмотры.\n\nСметы разделяют машину, расходы водителя и опциональные отели/сафари, чтобы вы контролировали траты.',
+        body: 'Оба варианта работают с частным водителем. Бюджет делает упор на чистые отели среднего класса и выбранные билеты; люкс — на бутик, spa и аккуратно поставленные осмотры.\n\nСметы разделяют машину, расходы водителя и опциональные отели/сафари, чтобы вы контролировали траты.',
       },
       {
         title: 'Планирование с Sundown Tours',
-        body: 'Из Васкадувы планируем частные петли медового месяца для пар из Великобритании и Европы. Пишете той же команде в WhatsApp до и во время поездки.\n\nНапишите месяц, стиль отеля и must seeответим предложенным маршрутом и понятными ценами.',
+        body: 'Из Васкадувы планируем частные петли медового месяца для пар из Великобритании и Европы. Пишете той же команде в WhatsApp до и во время поездки.\n\nНапишите месяц, стиль отеля и обязательные места. Ответим предложенным маршрутом и понятными ценами.',
       },
     ],
     faq: [
@@ -435,11 +435,11 @@ export const HONEYMOON_GUIDE: ArticleContent = {
       },
       {
         q: 'Можете включить сафари?',
-        a: 'Дачасто полдня джипа в Яле или Удавалаве, поставленные так, чтобы остаток дня остался спокойным.',
+        a: 'Да, часто полдня джипа в Яле или Удавалаве, поставленные так, чтобы остаток дня остался спокойным.',
       },
       {
         q: 'Есть встреча в аэропорту?',
-        a: 'Да. Частный pickup и возврат CMBстандарт наших многодневных маршрутов медового месяца.',
+        a: 'Да. Частный трансфер из аэропорта и обратно в CMB — стандарт наших многодневных маршрутов медового месяца.',
       },
     ],
     ctaTitle: 'Спланировать частный медовый месяц на Шри Ланке',
@@ -460,6 +460,43 @@ export const HONEYMOON_GUIDE: ArticleContent = {
       { pageId: 'guideBestTime', label: 'Лучшее время для поездки' },
       { pageId: 'guideBeaches', label: 'Гид по пляжам' },
       { pageId: 'guidePrivateDriver', label: 'Гид по частному водителю' },
+    ],
+  },
+  nl: {
+    h1: 'Huwelijksreis in Sri Lanka: privéroutes voor stellen',
+    lead: 'Sri Lanka is geschikt voor een huwelijksreis met cultuur, theegebieden en strand, zonder het vaste tempo van een groepsreis. Een privéauto, flexibele hotelnachten en haalbare rijdagen maken de reis ontspannen, van zonsopgang bij Sigiriya tot avonden aan de zuidkust.',
+    heroAlt: 'Privéreis met chauffeur door Sri Lanka voor een huwelijksreis',
+    sections: [
+      { title: 'Waarom stellen voor een privéreis kiezen', body: 'Een vaste bustour sluit zelden precies aan op het tempo van een stel. Met een privéchauffeur kunt u langer bij een uitzichtpunt blijven, een drukke stop overslaan of een middag in de spa plannen zonder met een groep te overleggen.\n\nDe afstanden passen goed bij een route van 8 tot 12 dagen met hoogtepunten in de Culturele Driehoek, Kandy of Ella en een strandverblijf bij Galle of Mirissa.' },
+      { title: 'Een klassieke route voor een huwelijksreis', body: 'Veel stellen beginnen bij Sigiriya en Dambulla, reizen door naar Kandy, steken het theegebied over richting Ella, plannen eventueel een rustige safari en eindigen aan de zuidwestkust. Luxe reizigers kiezen vaak boetiekhotels en minder hotelwissels.\n\nWe houden de rijdagen realistisch: een romantische reis wordt minder ontspannen als u elke dag vijf uur onderweg bent.' },
+      { title: 'Tempo, privacy en persoonlijke details', body: 'Vertel ons vooraf over een jubileum, huwelijksaanzoek of dieetwensen. We kunnen rustigere hotelcategorieën, latere starts na een lange reisdag en privé-etentjes regelen waar onze partners dat aanbieden.\n\nFotografen kiezen vaak voor zonsopgang bij Sigiriya of het gouden uur in Ella. We plannen dat zonder de rest van de dag vol te zetten.' },
+      { title: 'Budget of luxe', body: 'Beide zijn goed te combineren met een privéchauffeur. Een voordeligere reis gebruikt comfortabele middenklassehotels en kiest entreebewijzen zorgvuldig; een luxere reis legt de nadruk op boetiekverblijven, spa-tijd en rustig geplande excursies.\n\nIn de offerte staan voertuig, chauffeurskosten en optionele hotels of safari’s apart vermeld, zodat u de uitgaven kunt afstemmen.' },
+      { title: 'Plannen met Sundown Tours', body: 'Vanuit Waskaduwa plannen we privérondreizen voor stellen uit Nederland en andere Europese landen. Voor en tijdens de reis heeft u via WhatsApp contact met hetzelfde planningsteam.\n\nDeel uw reismaand, hotelvoorkeur en plaatsen die u graag wilt zien. We sturen een routevoorstel met duidelijke prijzen.' },
+    ],
+    faq: [
+      { q: 'Hoeveel dagen zijn geschikt voor een huwelijksreis in Sri Lanka?', a: 'Acht tot twaalf dagen is voor veel stellen geschikt om cultuur, het hoogland en strand te combineren zonder te haasten. Kortere reizen richten zich op minder regio’s.' },
+      { q: 'Is Sri Lanka veilig voor stellen op huwelijksreis?', a: 'De gebruikelijke toeristische routes worden veel bezocht. We reizen met privévervoer en geven praktische aanwijzingen; onze veiligheidsgids behandelt ook tempel- en wildlife-etiquette.' },
+      { q: 'Kunnen jullie een safari regelen tijdens de huwelijksreis?', a: 'Ja. Vaak past een safari van een halve dag in Yala of Udawalawe goed, als we die zo plannen dat de rest van de dag ontspannen blijft.' },
+      { q: 'Is ophalen vanaf de luchthaven mogelijk?', a: 'Ja. Een privétransfer vanaf CMB is inbegrepen bij onze meerdaagse privérondreizen.' },
+    ],
+    ctaTitle: 'Plan een privéreis naar Sri Lanka voor uw huwelijksreis',
+    ctaBody: 'Deel uw data en hotelvoorkeur. We stellen een privérondreis met chauffeur en transparante prijzen voor.',
+    ctaLabel: 'Neem contact op',
+    relatedTours: [
+      { pageId: 'tour10', label: 'Rondreis van 10 dagen' },
+      { pageId: 'tour8', label: 'Privérondreis van 8 dagen' },
+      { pageId: 'tour7', label: 'Rondreis van 7 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destElla', label: 'Ella' },
+      { pageId: 'destGalle', label: 'Galle' },
+      { pageId: 'destYala', label: 'Yala' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids voor privéchauffeurs' },
     ],
   },
 };

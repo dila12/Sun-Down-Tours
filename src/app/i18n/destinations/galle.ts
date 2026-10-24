@@ -492,8 +492,8 @@ export const GALLE_DEST: ArticleContent = {
         body: 'Португальцы построили здесь первый форт в 1588 году, но именно голландцы, взявшие контроль в 1640 году, возвели массивные гранитные стены и бастионы, до сих пор окружающие старый город. Форт снова сменил владельцев в 1796 году, когда британцы захватили Цейлон, хотя они в основном сохранили голландскую планировку, а не заменили её.\n\nФорт Галле пережил разрушительное цунами в Индийском океане 2004 года со значительно меньшими структурными повреждениями, чем незащищённые окрестности, факт, часто приписываемый тем же стенам, построенным столетиями ранее для совсем иной угрозы.',
       },
       {
-        title: 'По настоящему живой город наследие',
-        body: 'В отличие от многих отреставрированных колониальных объектов, форт Галле не музейный экспонатколо 400 семей до сих пор живут внутри стен, рядом с бутик отелями, кафе и галереями в переоборудованных голландских купеческих домах. Мечети, церкви и буддийские храмы находятся в нескольких улицах друг от друга, отражая разнообразие торгового поста, сформировавшего город за четыре века.\n\nВ 1988 году ЮНЕСКО включила форт в список Всемирного наследия, признав его лучшим сохранившимся примером укреплённого колониального города, построенного европейцами в Южной и Юго Восточной Азии.',
+        title: 'По-настоящему живой город наследие',
+        body: 'В отличие от многих отреставрированных колониальных объектов, форт Галле не музейный экспонат: около 400 семей до сих пор живут внутри стен, рядом с бутик отелями, кафе и галереями в переоборудованных голландских купеческих домах. Мечети, церкви и буддийские храмы находятся в нескольких улицах друг от друга, отражая разнообразие торгового поста, сформировавшего город за четыре века.\n\nВ 1988 году ЮНЕСКО включила форт в список Всемирного наследия, признав его лучшим сохранившимся примером укреплённого колониального города, построенного европейцами в Южной и Юго-Восточной Азии.',
       },
       {
         title: 'Что посмотреть и сделать в Галле',
@@ -501,7 +501,7 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         title: 'Практические советы для посещения',
-        body: 'Форт Галле действительно проходим пешком и в основном свободен от машин внутри стен, поэтому оставьте автомобиль на парковке у входа и исследуйте пешком. Мощёные улочки и неровные тротуары делают удобную обувь более полезной, чем что либо ещё, что вы возьмёте с собой.\n\nПолуденное солнце на открытых стенах интенсивное; прогулка ранним утром или в конце дня гораздо приятнее визита в полдень и одновременно даёт лучший свет для фотографии.',
+        body: 'Форт Галле действительно проходим пешком и в основном свободен от машин внутри стен, поэтому оставьте автомобиль на парковке у входа и исследуйте пешком. Мощёные улочки и неровные тротуары делают удобную обувь более полезной, чем что-либо ещё, что вы возьмёте с собой.\n\nПолуденное солнце на открытых стенах интенсивное; прогулка ранним утром или в конце дня гораздо приятнее визита в полдень и одновременно даёт лучший свет для фотографии.',
       },
       {
         title: 'Погода в Галле',
@@ -509,15 +509,15 @@ export const GALLE_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть в окрестностях',
-        body: 'Унавату и Мирисса, два самых известных пляжных городка южного побережья, находятся соответственно в 15 to 30 минутах и примерно в часе езды, что делает Галле удобной культурной вылазкой на полдня во время пляжного отдыха. Лодки для наблюдения за китами отправляются из Мириссы в сезон (примерно с ноября по апрель), часто в сочетании с утром в форте Галле.\n\nКоггала и Велигама, известные рыбаками на ходулях и точками для сёрфинга, находятся на той же прибрежной дороге и подходят путешественникам, строящим более медленный маршрут по южному побережью вокруг Галле.',
+        body: 'Унавату и Мирисса, два самых известных пляжных городка южного побережья, находятся соответственно в 15–30 минутах и примерно в часе езды, что делает Галле удобной культурной вылазкой на полдня во время пляжного отдыха. Лодки для наблюдения за китами отправляются из Мириссы в сезон (примерно с ноября по апрель), часто в сочетании с утром в форте Галле.\n\nКоггала и Велигама, известные рыбаками на ходулях и точками для сёрфинга, находятся на той же прибрежной дороге и подходят путешественникам, строящим более медленный маршрут по южному побережью вокруг Галле.',
       },
       {
         title: 'Где остановиться',
-        body: 'Проживание внутри стен форта, в одной из многочисленных переоборудованных голландских или колониальных вилл, превращённых в бутик гостевые дома, самый атмосферный вариант, ставящий каждую достопримечательность в пределах короткой прогулки. Номера здесь бронируются задолго до высокого сезона, учитывая, как мало объектов может вместить исторический центр.\n\nЗа стенами более широкий район Галле и близкие пляжные городки предлагают гораздо больший выбор по любому бюджету практичный вариант, если жильё в форте распродано или недоступно по цене.',
+        body: 'Проживание внутри стен форта, в одной из многочисленных переоборудованных голландских или колониальных вилл, превращённых в бутик гостевые дома, самый атмосферный вариант, ставящий каждую достопримечательность в пределах короткой прогулки. Номера здесь бронируются задолго до высокого сезона, учитывая, как мало объектов может вместить исторический центр.\n\nЗа стенами более широкий район Галле и близкие пляжные городки предлагают гораздо больший выбор по любому бюджету. Практичный вариант, если жильё в форте распродано или недоступно по цене.',
       },
       {
         title: 'Где поесть в Галле',
-        body: 'В форте Галле одна из лучших небольших гастрономических сцен Шри Ланки: кафе и рестораны в переоборудованных колониальных зданиях подают всё, от свежих морепродуктов и шри ланкийского rice and curry до по настоящему хорошего кофе, выпечки и международных меню для путешественников, задерживающихся подольше.\n\nЗа самым свежим уловом несколько ресторанов закупаются прямо на рыбном рынке Галле, сразу за стенами форта, и ужин с морепродуктами здесь, особенно жареная рыба или креветки, один из надёжных кулинарных плюсов южного побережья.',
+        body: 'В форте Галле одна из лучших небольших гастрономических сцен Шри Ланки: кафе и рестораны в переоборудованных колониальных зданиях подают всё, от свежих морепродуктов и шри ланкийского rice and curry до по-настоящему хорошего кофе, выпечки и международных меню для путешественников, задерживающихся подольше.\n\nЗа самым свежим уловом несколько ресторанов закупаются прямо на рыбном рынке Галле, сразу за стенами форта, и ужин с морепродуктами здесь, особенно жареная рыба или креветки, один из надёжных кулинарных плюсов южного побережья.',
       },
     ],
     faq: [
@@ -560,80 +560,88 @@ export const GALLE_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Galle Sri Lanka: eine befestigte Kolonialstadt an der Sudkuste',
-    lead: 'Hinter Wallen, die die Niederlander auf portugiesischen Fundamenten errichteten, ist Galle Fort eine lebendige UNESCO Welterbestadt  Kopfsteinpflastergassen, koloniale Villen als Boutique Hotels und ein aktiver Leuchtturm, der Schiffe noch immer an demselben Riff vorbeileitet, das diese Kuste seit Jahrhunderten pragt.',
-    heroAlt: 'Die Walle und der Leuchtturm von Galle Fort mit Blick auf den Indischen Ozean',
+    h1: 'Galle, Sri Lanka: een versterkte koloniale stad aan de zuidkust',
+    lead: 'Achter wallen die de Nederlanders op Portugese fundamenten bouwden, is Galle Fort een levend stadje op de UNESCO werelderfgoedlijst: steegjes met kinderkopjes, koloniale villa’s die boetiekhotels werden, en een werkende vuurtoren die schepen nog altijd langs hetzelfde rif leidt. Dat rif geeft deze kust al eeuwen haar vorm.',
+    heroAlt: 'De wallen en de vuurtoren van Galle Fort met uitzicht op de Indische Oceaan',
     sections: [
       {
-        title: 'Portugiesische Ursprunge, niederlandische Befestigungen',
-        body: 'Die Portugiesen errichteten hier 1588 die erste Festung, doch waren es die Niederlander, die 1640 die Kontrolle ubernahmen, die die massiven Granitwalle und Bastionen bauten, die die Altstadt noch heute umschliessen. Die Festung wechselte 1796 erneut den Besitzer, als die Briten Ceylon einnahmen, bewahrten dabei aber weitgehend die niederlandische Anlage, statt sie zu ersetzen.\n\nGalle Fort uberstand die verwustende Tsunami Katastrophe im Indischen Ozean 2004 mit weit geringeren strukturellen Schaden als die ungeschutzten Gebiete drumherum  ein Umstand, der oft denselben Jahrhunderte zuvor fur eine ganz andere Bedrohung errichteten Wallen zugeschrieben wird.',
+        id: 'history',
+        title: 'Portugese oorsprong, Nederlandse vestingwerken',
+        body: 'De Portugezen bouwden hier in 1588 het eerste fort, maar het waren de Nederlanders, die in 1640 de macht overnamen, die de massieve granieten wallen en bastions bouwden die de oude stad nog altijd omsluiten. Het fort wisselde in 1796 opnieuw van eigenaar toen de Britten Ceylon innamen. Zij behielden de Nederlandse opzet grotendeels, in plaats van die te vervangen.\n\nGalle Fort doorstond de verwoestende tsunami in de Indische Oceaan van 2004 met veel minder structurele schade dan de onbeschermde gebieden eromheen. Dat wordt vaak toegeschreven aan dezelfde wallen, eeuwen eerder gebouwd tegen een heel andere dreiging.',
       },
       {
-        title: 'Eine wirklich lebendige Erbestadt',
-        body: 'Anders als viele restaurierte Kolonialstatten ist Galle Fort kein Museumsstuck  rund 400 Familien leben noch immer innerhalb der Mauern, neben Boutique Hotels, Cafes und Galerien in umgebauten niederlandischen Handelshausern. Moscheen, Kirchen und buddhistische Tempel liegen wenige Strassen voneinander entfernt und spiegeln die Vielfalt des Handelsposten wider, die die Stadt uber vier Jahrhunderte pragte.\n\n1991 nahm die UNESCO die Festung als Weltkulturerbe auf und wurdigte sie als das am besten erhaltene Beispiel einer von Europaern errichteten befestigten Kolonialstadt in Sud und Sudostasien.',
+        id: 'culture',
+        title: 'Een echt levend erfgoedstadje',
+        body: 'Anders dan veel gerestaureerde koloniale plekken is Galle Fort geen museumstuk. Ongeveer 400 gezinnen wonen nog binnen de muren, naast boetiekhotels, cafés en galeries in verbouwde Nederlandse koopmanshuizen. Moskeeën, kerken en boeddhistische tempels liggen op een paar straten van elkaar. Dat weerspiegelt de mengeling van de handelspost die de stad vier eeuwen lang vormde.\n\nUNESCO plaatste het fort in 1988 op de Werelderfgoedlijst, als het best bewaarde voorbeeld van een versterkte koloniale stad die Europeanen bouwden in Zuid en Zuidoost Azië.',
       },
       {
-        title: 'Was man in Galle unternehmen sollte',
-        body: 'Der Spaziergang auf den Wallen, etwa 90 Minuten in gemachlichem Tempo, ist die zentrale Aktivitat in Galle  die Mauern umschliessen die gesamte Halbinsel und bieten auf der einen Seite Meerblick, auf der anderen Blicke uber die Dacher; am schonsten bei Sonnenuntergang, wenn sich das Licht uber dem Ozean weicher zeigt. Die niederlandisch reformierte Kirche, das alte niederlandische Krankenhaus (heute Geschafte und Restaurants) und das Nationale Meeresmuseum erganzen die historischen Details.\n\nGalles enge Strassen belohnen langsames, ziellloses Schlendern mehr als jede Sehenswurdigkeiten Checkliste: Unabhangige Boutiquen mit Batik, Schmuck und Antiquitaten fullen die umgebauten Kolonialladen im gesamten Fort, und eine Kaffeepause in einem schattigen Innenhof ist genauso wichtig wie jedes einzelne Denkmal.',
+        id: 'thingsToDo',
+        title: 'Wat u in Galle kunt doen',
+        body: 'Over de wallen wandelen, ongeveer 90 minuten in een rustig tempo, is de kern van een bezoek aan Galle. De muren lopen rond het hele schiereiland: aan de ene kant zeezicht, aan de andere daken. Het mooist bij zonsondergang, wanneer het licht boven de oceaan zachter wordt. De Nederlandse Hervormde Kerk, het oude Nederlandse hospitaal (nu winkels en restaurants) en het Nationaal Maritiem Museum vullen de historische details aan.\n\nDe smalle straten van Galle belonen langzaam, doelloos slenteren meer dan welke lijst met bezienswaardigheden ook. Onafhankelijke boetieks met batik, sieraden en antiek zitten in verbouwde koloniale winkelpuien door het hele fort. Even koffie drinken in een schaduwrijke binnenplaats hoort er net zo bij als welk monument ook.',
       },
       {
-        title: 'Praktische Tipps fur den Besuch',
-        body: 'Galle Fort ist wirklich zu Fuss erkundbar und innerhalb der Mauern weitgehend autofrei  lassen Sie Ihr Fahrzeug auf einem Parkplatz nahe dem Eingang stehen und erkunden Sie den Ort zu Fuss. Die Kopfsteinpflastergassen und unebenen Gehwege machen bequeme Schuhe nutzlicher als alles andere, was Sie einpacken.\n\nDie Mittagssonne auf den exponierten Wallen ist intensiv; ein fruher Morgen- oder spaterer Nachmittagsspaziergang ist deutlich angenehmer als ein Besuch um die Mittagszeit und bietet zugleich das beste Fotolicht.',
+        id: 'travelTips',
+        title: 'Praktische tips voor uw bezoek',
+        body: 'Galle Fort is echt te belopen en binnen de muren grotendeels autovrij. Laat uw voertuig achter op een parkeerplaats bij de ingang en verken het fort te voet. De keienstraatjes en ongelijke stoepen maken comfortabele schoenen nuttiger dan wat u verder ook inpakt.\n\nDe middagzon op de open wallen is fel. Een wandeling vroeg in de ochtend of laat in de middag is veel aangenamer dan een bezoek rond het middaguur, en geeft meteen het mooiste licht om te fotograferen.',
       },
       {
-        title: 'Wetter in Galle',
-        body: 'Galle liegt an der Sudwestkuste, in der feuchteren der beiden Monsunzonen Sri Lankas; der Hauptmonsun etwa von Mai bis September bringt den starksten Regen und rauere See. Dezember bis Marz ist meist die trockenste, sonnigste Phase und die beliebteste Saison sowohl fur die Festung als auch fur die umliegenden Strande.\n\nSelbst in den trockeneren Monaten sind kurze Schauer moglich; die uberdachten Arkaden des alten niederlandischen Krankenhauses und mehrere Cafes im Fort bieten bequemen Schutz, falls Sie einer davon uberrascht.',
+        id: 'weather',
+        title: 'Het weer in Galle',
+        body: 'Galle ligt aan de zuidwestkust, in de nattere van de twee moessongebieden van Sri Lanka. De hoofdmoesson, ongeveer van mei tot september, brengt de zwaarste regen en een ruwere zee. December tot maart is doorgaans de droogste en zonnigste periode, en het populairste seizoen voor zowel het fort als de stranden eromheen.\n\nOok in de drogere maanden kan een korte bui vallen. De overdekte arcaden van het oude Nederlandse hospitaal en verschillende cafés in het fort bieden dan een handige schuilplaats.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Unawatuna und Mirissa, zwei der bekanntesten Strandorte der Sudkuste, liegen 15 to 30 Minuten bzw. etwa eine Stunde entfernt, was Galle zu einer einfachen halbtagigen kulturellen Abwechslung wahrend eines Strandaufenthalts macht. Wal Beobachtungsboote starten in der Saison (etwa November bis April) von Mirissa, oft kombiniert mit einem Vormittag in Galle Fort.\n\nKoggala und Weligama, bekannt fur Stelzenfischer und Surf Spots, liegen an derselben Kustenstrasse und passen zu Reisenden, die eine ruhigere Sudkusten Route rund um Galle planen.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'Unawatuna en Mirissa, twee van de bekendste badplaatsen aan de zuidkust, liggen respectievelijk 15 tot 30 minuten en ongeveer een uur verder. Daardoor is Galle een makkelijke culturele pauze van een halve dag tijdens een verblijf aan het strand. Boten voor walvistochten vertrekken in het seizoen (ongeveer november tot april) vanuit Mirissa, vaak gecombineerd met een ochtend in Galle Fort.\n\nKoggala en Weligama, bekend om steltenvissers en surfplekken, liggen aan dezelfde kustweg. Ze passen bij reizigers die een rustigere route langs de zuidkust rond Galle samenstellen.',
       },
       {
-        title: 'Wo man ubernachten kann',
-        body: 'Ein Aufenthalt innerhalb der Festungsmauern, in einer der vielen umgebauten niederlandischen oder kolonialen Villen als Boutique Gastehaus, ist die stimmungsvollste Option und bringt jede Sehenswurdigkeit in kurze Gehdistanz. Zimmer hier sind in der Hochsaison weit im Voraus ausgebucht, angesichts der wenigen Unterkunfte, die der historische Kern fasst.\n\nAusserhalb der Mauern bieten das weitere Galle Gebiet und nahe Strandorte deutlich mehr Auswahl in jeder Preisklasse  eine praktische Option, wenn Unterkunfte im Fort ausgebucht oder zu teuer sind.',
+        id: 'hotels',
+        title: 'Waar u overnacht',
+        body: 'Overnachten binnen de vestingmuren, in een van de vele verbouwde Nederlandse of koloniale villa’s die boetiekgastverblijven werden, is de sfeervolste keuze. Elke bezienswaardigheid ligt dan op loopafstand. Kamers hier zijn in het hoogseizoen ruim van tevoren vol, simpelweg omdat de historische kern maar weinig adressen kan herbergen.\n\nBuiten de muren bieden het ruimere gebied van Galle en de nabije badplaatsen veel meer keuze in elke prijsklasse. Dat is een praktische optie als het fort vol is of buiten uw budget valt.',
       },
       {
-        title: 'Essen in Galle',
-        body: 'Galle Fort hat eine der besten kleinen Gastro Szenen Sri Lankas, mit Cafes und Restaurants in umgebauten Kolonialgebauden, die von frischen Meeresfruchten und srilankischem Rice and Curry bis zu wirklich gutem Kaffee, Geback und internationalen Menus fur langer bleibende Reisende alles bieten.\n\nFur den frischesten Fang beziehen mehrere Restaurants direkt vom Galle Fischmarkt gleich vor den Festungsmauern, und ein Meeresfruchte Abendessen hier, besonders gegrillter Fisch oder Garnelen, gehort zu den verlasslichen Hohepunkten der Sudkuste.',
+        id: 'restaurants',
+        title: 'Eten in Galle',
+        body: 'Galle Fort heeft een van de fijnste kleinschalige restaurantbuurten van Sri Lanka. Cafés en restaurants in verbouwde koloniale gebouwen serveren alles van verse zeevruchten en Sri Lankaanse rijst en curry tot echt goede koffie, gebak en internationale menu’s voor reizigers die langer blijven.\n\nVoor de versste vangst halen verschillende restaurants rechtstreeks van de vismarkt van Galle, net buiten de vestingmuren. Een diner met zeevruchten hier, vooral gegrilde vis of garnalen, is een van de betrouwbare hoogtepunten van de zuidkust.',
       },
     ],
     faq: [
       {
-        q: 'Wie viel Zeit brauche ich fur Galle Fort?',
-        a: 'Ein halber Tag deckt den Wallspaziergang und die Hauptsehenswurdigkeiten bequem ab; ein ganzer Tag oder eine Ubernachtung innerhalb der Festung erlaubt es, Boutiquen, Museen und Cafes ohne Zeitdruck zu erkunden.',
+        q: 'Hoeveel tijd hebt u nodig om Galle Fort te zien?',
+        a: 'Een halve dag dekt de wandeling over de wallen en de belangrijkste bezienswaardigheden ruim. Een volle dag, of een overnachting binnen het fort, geeft tijd om boetieks, musea en cafés op uw gemak te bekijken.',
       },
       {
-        q: 'Ist Galle Fort zu Fuss erkundbar, oder braucht man Transport innerhalb?',
-        a: 'Es ist vollstandig zu Fuss erkundbar  die Altstadt ist klein und weitgehend fussgangerfreundlich, Autos bleiben meist an den Randern. Dies ist eine der einfachsten historischen Statten Sri Lankas, die man ohne Guide erkunden kann.',
+        q: 'Is Galle Fort te belopen, of hebt u binnen vervoer nodig?',
+        a: 'Het is volledig te belopen. De oude stad is klein en grotendeels ingericht op voetgangers, en auto’s blijven meestal aan de randen. Dit is een van de makkelijkste historische plekken in Sri Lanka om zonder gids te verkennen.',
       },
       {
-        q: 'Was ist die beste Tageszeit fur einen Spaziergang auf den Wallen von Galle?',
-        a: 'Fruher Morgen oder die Stunde vor Sonnenuntergang  beides fur kuhlere Temperaturen und das schonste Licht uber dem Ozean. Die Mittagssonne auf den exponierten Mauern ist intensiv und sollte vermieden werden.',
+        q: 'Wat is het beste moment van de dag om over de wallen van Galle te wandelen?',
+        a: 'Vroeg in de ochtend of het uur voor zonsondergang, zowel voor koelere temperaturen als voor het mooiste licht boven de oceaan. De middagzon op de open muren is fel. U gaat die beter uit de weg.',
       },
       {
-        q: 'Kann ich Galle mit Strandzeit an der Sudkuste kombinieren?',
-        a: 'Ja  Unawatuna und Mirissa sind beide weniger als eine Stunde entfernt, sodass ein Vormittag in Galle Fort gefolgt von einem Strandnachmittag eine ubliche und einfache Kombination auf Sudkusten Routen ist.',
+        q: 'Kunt u Galle combineren met strandtijd aan de zuidkust?',
+        a: 'Ja. Unawatuna en Mirissa liggen allebei op minder dan een uur. Een ochtend in Galle Fort en daarna een middag aan het strand is een gebruikelijke en eenvoudige combinatie op routes langs de zuidkust.',
       },
       {
-        q: 'Ist Galle Fort eine gute Basis, um die Sudkuste zu erkunden?',
-        a: 'Das kann es sein, besonders fur Reisende, die Kultur und Gastronomie ebenso schatzen wie Strandzeit, doch viele bevorzugen einen nahen Strandort als Basis und besuchen Galle Fort als halbtagigen Ausflug.',
+        q: 'Is Galle Fort een goede uitvalsbasis om de zuidkust te verkennen?',
+        a: 'Dat kan, vooral voor reizigers die cultuur en eten net zo belangrijk vinden als tijd aan het strand. Veel mensen overnachten liever in een nabije badplaats en bezoeken Galle Fort als uitstap van een halve dag.',
       },
     ],
-    ctaTitle: 'Nehmen Sie Galle in Ihre Sudkusten Route auf',
-    ctaBody: 'Unsere privaten Rundreisen verbinden Galle Fort mit den Strande der Sudkuste, dem Yala Nationalpark und, auf langeren Routen, Whale Watching in Mirissa  Ihr Fahrer Guide ubernimmt die Fahrt zwischen jedem Stopp.',
-    ctaLabel: 'Galle Besuch planen',
+    ctaTitle: 'Voeg Galle toe aan uw route langs de zuidkust',
+    ctaBody: 'Onze privétours combineren Galle Fort met de stranden van de zuidkust, Nationaal Park Yala en, op langere routes, walvissen kijken in Mirissa. Uw chauffeurgids verzorgt de ritten tussen de plekken.',
+    ctaLabel: 'Plan uw bezoek aan Galle',
     relatedTours: [
-      { pageId: 'galleDay', label: 'Galle Tagestour' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
-      { pageId: 'tour10', label: '10 tagige Sri Lanka Rundreise' },
+      { pageId: 'galleDay', label: 'Dagtocht naar Galle' },
+      { pageId: 'tour5', label: 'Rondreis Sri Lanka van 5 dagen' },
+      { pageId: 'tour10', label: 'Rondreis Sri Lanka van 10 dagen' },
     ],
     relatedDestinations: [
-      { pageId: 'destYala', label: 'Yala Nationalpark' },
+      { pageId: 'destYala', label: 'Nationaal Park Yala' },
       { pageId: 'destElla', label: 'Ella' },
     ],
     relatedGuides: [
-      { pageId: 'guideBeaches', label: 'Sri Lanka Strande Ratgeber' },
-      { pageId: 'guideFood', label: 'Sri Lanka Kulinarik Ratgeber' },
+      { pageId: 'guideBeaches', label: 'Strandgids voor Sri Lanka' },
+      { pageId: 'guideFood', label: 'Eetgids voor Sri Lanka' },
     ],
   }
 };

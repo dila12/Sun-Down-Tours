@@ -497,7 +497,7 @@ export const DAMBULLA_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть и сделать в Дамбулле',
-        body: 'Подъём от подножия к входу в пещеры занимает 15 to 20 минут по вымощенной тропе и лестнице значительно мягче, чем в Сигирии, с широкими видами на окружающие равнины и, в ясный день, на саму скалу Сигирии. При входе требуется снять обувь и нести её через все пять пещер, поэтому небольшая сумка будет полезна.\n\nНовая золотая статуя Будды высотой более 30 метров стоит у подножия рядом с музеем и служит простой, кондиционированной остановкой до или после подъёма удобной для путешественников, совмещающих Дамбуллу с Сигирией в один день.',
+        body: 'Подъём от подножия к входу в пещеры занимает 15–20 минут по вымощенной тропе и лестнице значительно мягче, чем в Сигирии, с широкими видами на окружающие равнины и, в ясный день, на саму скалу Сигирии. При входе требуется снять обувь и нести её через все пять пещер, поэтому небольшая сумка будет полезна.\n\nНовая золотая статуя Будды высотой более 30 метров стоит у подножия рядом с музеем и служит простой, кондиционированной остановкой до или после подъёма удобной для путешественников, совмещающих Дамбуллу с Сигирией в один день.',
       },
       {
         title: 'Практические советы для посещения',
@@ -509,7 +509,7 @@ export const DAMBULLA_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть в окрестностях',
-        body: 'Скальная крепость Сигирия находится всего в двадцати минутах и является безусловно самым распространённым сочетанием для однодневной поездки. Канди расположен примерно в двух часах езды на юг естественная следующая остановка для путешественников, направляющихся в горную местность после Культурного треугольника.\n\nМеста сбора диких слонов в национальных парках Миннерия и Каудулла находятся в 30 to 40 минутах к северо востоку, особенно впечатляющие с июля по октябрь, когда большие стада собираются вдоль берегов водоёмов.',
+        body: 'Скальная крепость Сигирия находится всего в двадцати минутах и является безусловно самым распространённым сочетанием для однодневной поездки. Канди расположен примерно в двух часах езды на юг естественная следующая остановка для путешественников, направляющихся в горную местность после Культурного треугольника.\n\nМеста сбора диких слонов в национальных парках Миннерия и Каудулла находятся в 30–40 минутах к северо востоку, особенно впечатляющие с июля по октябрь, когда большие стада собираются вдоль берегов водоёмов.',
       },
       {
         title: 'Где остановиться',
@@ -523,7 +523,7 @@ export const DAMBULLA_DEST: ArticleContent = {
     faq: [
       {
         q: 'Сколько времени занимает посещение пещерного храма Дамбулла?',
-        a: 'Большинству посетителей нужно 60 to 90 минут, чтобы спокойно осмотреть все пять пещер, включая подъём от подножия. Добавьте время, если хотите также посетить золотую статую Будды и небольшой музей у входа.',
+        a: 'Большинству посетителей нужно 60–90 минут, чтобы спокойно осмотреть все пять пещер, включая подъём от подножия. Добавьте время, если хотите также посетить золотую статую Будды и небольшой музей у входа.',
       },
       {
         q: 'Стоит ли посещать Дамбуллу, если я также увижу Сигирию?',
@@ -560,80 +560,88 @@ export const DAMBULLA_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Dambulla, Sri Lanka: der Goldene Hohlentempel im Kulturdreieck',
-    lead: 'Funf Hohlen, gehauen in einen einzigen Felsvorsprung, bewahren uber 2.000 Jahre ununterbrochenen buddhistischen Kultus  153 Buddha Statuen, bemalte Decken auf uber 2.100 Quadratmetern und einen aktiven Tempel, den Pilger noch taglich besteigen.',
-    heroAlt: 'Goldene Buddha Statue und Hohlentempel Wandmalereien in Dambulla',
+    h1: 'Dambulla, Sri Lanka: de gouden grottentempel van de Culturele Driehoek',
+    lead: 'Vijf grotten, uitgehakt in één rotsformatie, bewaren meer dan 2.000 jaar ononderbroken boeddhistische verering: 153 boeddhabeelden, beschilderde plafonds van meer dan 2.100 vierkante meter, en een tempel die nog in gebruik is en waar pelgrims nog elke dag naartoe klimmen.',
+    heroAlt: 'Gouden boeddhabeeld en muurschilderingen in de grottentempel van Dambulla',
     sections: [
       {
-        title: 'Uber zwei Jahrtausende ununterbrochener Verehrung',
-        body: 'Der Legende nach suchte Konig Valagamba im 1. Jahrhundert v. Chr. Zuflucht in diesen Hohlen, nachdem er aus Anuradhapura vertrieben worden war, und schwor, hier einen Tempel zu errichten, sollte er seinen Thron zuruckgewinnen. Er tat es, und Dambulla dient seither ununterbrochen als aktiver Ort der Verehrung  eine der am langsten durchgehend genutzten religiosen Statten Sudasiens.\n\nAufeinanderfolgende Konige fugten uber Jahrhunderte Statuen, Wandmalereien und Schreine hinzu, insbesondere wahrend der Kandy Periode im 18. Jahrhundert, als ein Grossteil der heute sichtbaren lebendigen Malerei entstand. 1991 nahm die UNESCO den Hohlenkomplex in die Liste des Weltkulturerbes auf.',
+        id: 'history',
+        title: 'Meer dan twee millennia ononderbroken verering',
+        body: 'Volgens de overlevering zocht koning Valagamba in de 1e eeuw v.Chr. zijn toevlucht in deze grotten nadat hij uit Anuradhapura was verdreven. Hij zwoer hier een tempel te bouwen als hij zijn troon zou heroveren. Dat deed hij, en sindsdien is Dambulla een actieve gebedsplaats, een van de religieuze plaatsen in Zuid Azië met de langste ononderbroken geschiedenis.\n\nOpeenvolgende koningen voegden door de eeuwen heen beelden, muurschilderingen en schrijnen toe, vooral in de Kandyaanse periode in de 18e eeuw, toen een groot deel van de levendige schilderingen die u vandaag ziet werd voltooid. UNESCO zette het grottencomplex in 1991 op de Werelderfgoedlijst.',
       },
       {
-        title: 'Funf Hohlen, funf verschiedene Atmospharen',
-        body: 'Hohle 1, die „Hohle des gottlichen Konigs“, zentriert sich um einen 14 Meter langen liegenden Buddha, direkt aus dem Fels gehauen. Hohle 2, die grosste und meistbesuchte, beherbergt 56 Statuen und Deckenmalereien, die Schlusselszenen aus dem Leben Buddhas und der srilankischen Geschichte nebeneinander darstellen.\n\nDie kleineren Hohlen 3, 4 und 5 sind ruhiger und werden leicht ubersehen, belohnen aber einen langsameren Besuch mit intimeren Statuengruppen und Wandmalereien in deutlich unterschiedlichen Stilen, die verschiedene Jahrhunderte koniglicher Forderung widerspiegeln.',
+        id: 'culture',
+        title: 'Vijf grotten, vijf eigen sferen',
+        body: 'Grot 1, de Grot van de Goddelijke Koning, draait om een 14 meter lange liggende Boeddha die rechtstreeks uit de rots is gehakt. Grot 2, de grootste en meest bezochte, telt 56 beelden en plafondschilderingen die belangrijke momenten uit het leven van de Boeddha en de geschiedenis van Sri Lanka naast elkaar tonen.\n\nDe kleinere grotten 3, 4 en 5 zijn rustiger en u ziet ze makkelijk over het hoofd. Een langzamer bezoek loont, met intiemere groepen beelden en muurschilderingen in duidelijk verschillende stijlen. Die stijlen weerspiegelen verschillende eeuwen van koninklijke steun.',
       },
       {
-        title: 'Was man in Dambulla unternehmen sollte',
-        body: 'Der Aufstieg von der Basis zum Hohleneingang dauert 15 to 20 Minuten uber einen gepflasterten Weg und Stufen, deutlich sanfter als in Sigiriya, mit weiten Blicken uber die umliegenden Ebenen und, an klaren Tagen, den Sigiriya Felsen selbst. Am Eingang mussen die Schuhe ausgezogen werden und durch alle funf Hohlen getragen werden  eine kleine Tasche hilft dabei.\n\nEine neue, uber 30 Meter hohe goldene Buddha Statue steht an der Basis nahe dem Museum und bietet einen einfachen, klimatisierten Stopp vor oder nach dem Aufstieg  nutzlich fur Reisende, die Dambulla am selben Tag mit Sigiriya verbinden.',
+        id: 'thingsToDo',
+        title: 'Wat u in Dambulla kunt doen',
+        body: 'De klim vanaf de voet naar de grotingang duurt 15 tot 20 minuten over een verhard pad en een trap, duidelijk milder dan Sigiriya. U kijkt uit over de omliggende vlakte, en op een heldere dag ziet u de rots van Sigiriya zelf. Bij de ingang doet u uw schoenen uit en neemt u ze door alle vijf de grotten mee. Een kleine tas helpt.\n\nEen nieuw gouden boeddhabeeld van meer dan 30 meter hoog staat aan de voet bij het museum. Het is een makkelijke stop in een geklimatiseerde ruimte voor of na de klim, een welkome pauze voor reizigers die Dambulla en Sigiriya op dezelfde dag combineren.',
       },
       {
-        title: 'Praktische Tipps fur den Besuch',
-        body: 'Dezente Kleidung ist uberall erforderlich  Schultern und Knie bedeckt  und Schuhe werden komplett am Hohleneingang ausgezogen; Socken sind daher sinnvoll, da die Steinboden mittags heiss werden konnen. Fotografieren ist grundsatzlich erlaubt, Blitzlicht bei den Statuen jedoch nicht.\n\nDambulla lasst sich naturlich mit Sigiriya an einem Tag verbinden, wobei sich Dambulla zuerst am kuhleren Morgen und Sigiriya danach, wenn der erste Andrang abgeklungen ist, besser bewahrt als die umgekehrte Reihenfolge.',
+        id: 'travelTips',
+        title: 'Praktische tips voor uw bezoek',
+        body: 'Overal geldt gepaste kleding: schouders en knieën bedekt. Bij de grotingang doet u uw schoenen helemaal uit. Sokken zijn de moeite waard, want de stenen vloeren kunnen rond het middaguur heet zijn. Fotograferen mag doorgaans wel, flitsen bij de beelden niet.\n\nDambulla laat zich vanzelf met Sigiriya op één dag combineren. Eerst Dambulla in de koelere ochtend, en daarna Sigiriya wanneer de eerste drukte is weggeëbd, werkt meestal beter dan de omgekeerde volgorde.',
       },
       {
-        title: 'Wetter in Dambulla',
-        body: 'Wie Sigiriya liegt Dambulla in der Trockenzone und ist fast das ganze Jahr uber angenehm zu besuchen, wobei Januar bis April meist die trockenste und heisseste Phase ist. Die Hohlen selbst bleiben unabhangig vom Wetter draussen relativ kuhl, da der Felsuberhang naturlichen Schatten und Isolierung bietet.\n\nNachmittagsgewitter sind von Oktober bis Dezember haufiger; der gepflasterte Zugangsweg kann dann rutschig werden, weshalb Morgenbesuche in dieser Zeit vorzuziehen sind.',
+        id: 'weather',
+        title: 'Het weer in Dambulla',
+        body: 'Net als Sigiriya ligt Dambulla in de droge zone en is een bezoek het grootste deel van het jaar aangenaam. Januari tot april is doorgaans de droogste en heetste periode. De grotten zelf blijven relatief koel, ongeacht het weer buiten, omdat de overhangende rots natuurlijke schaduw en isolatie geeft.\n\nOnweersbuien in de middag komen vaker voor van oktober tot december. Het verharde toegangspad kan dan glad worden, dus een bezoek in de ochtend heeft in die periode de voorkeur.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Die Felsenfestung Sigiriya liegt nur zwanzig Minuten entfernt und ist bei weitem die haufigste Kombination fur einen Tagesausflug. Kandy liegt etwa zwei Stunden sudlich, ein naturlicher nachster Stopp fur Reisende, die nach dem Kulturdreieck ins Bergland weiterreisen.\n\nDie Wildelefanten Sammelgebiete der Nationalparks Minneriya und Kaudulla liegen 30 to 40 Minuten nordostlich und sind besonders von Juli bis Oktober lohnend, wenn sich grosse Herden an den Ufern der Stauseen versammeln.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'De rotsvesting van Sigiriya ligt op slechts twintig minuten en is verreweg de meest gekozen combinatie voor een dagtocht. Kandy ligt ongeveer twee uur naar het zuiden, een logische volgende stop voor reizigers die na de Culturele Driehoek het heuvelland in trekken.\n\nDe verzamelplaatsen van wilde olifanten in de nationale parken Minneriya en Kaudulla liggen 30 tot 40 minuten naar het noordoosten. Vooral van juli tot oktober is dat de moeite waard, wanneer grote kuddes zich langs de oevers van de stuwmeren verzamelen.',
       },
       {
-        title: 'Wo man ubernachten kann',
-        body: 'Die Stadt Dambulla selbst bietet eine praktische Mischung aus Mittelklassehotels und Gastehausern, gunstig fur einen fruhen Start zu den Hohlen, wahrend das nahe Habarana eine landschaftlich reizvollere Basis mit Dschungel Lodges und Seeblick Unterkunften bietet, viele mit Blick auf den fernen Sigiriya Felsen.\n\nBeide Basen funktionieren gut fur eine Kulturdreieck Route; Habarana bietet in der Regel einen ruhigeren, gruneren Aufenthalt zu ahnlichem Preis.',
+        id: 'hotels',
+        title: 'Waar u overnacht',
+        body: 'Dambulla zelf heeft een praktische mix van hotels in het middensegment en gastverblijven, handig voor een vroege start naar de grotten. Het nabijgelegen dorp Habarana is een mooiere uitvalsbasis, met lodges in de jungle en verblijven met uitzicht op het meer. Veel daarvan kijken uit op de rots van Sigiriya in de verte.\n\nBeide bases werken goed voor een route door de Culturele Driehoek. Habarana biedt doorgaans een rustiger en groener verblijf voor een vergelijkbare prijs.',
       },
       {
-        title: 'Essen rund um Dambulla',
-        body: 'Rice and Curry Buffets fur Tagesausflugsgruppen sind entlang der Hauptstrasse zwischen Dambulla und Sigiriya ublich, praktisch fur ein schnelles, sattigendes Mittagessen zwischen den Besichtigungen. Mehrere Restaurants hier bieten eine wirklich breite Curry Auswahl, da das Aufkommen an durchreisenden Gasten mehr Vielfalt tragt als kleinere Ortschaften.\n\nFur ein ruhigeres Abendessen servieren Lodges in Habarana oft Mahlzeiten im Freien mit Blick auf Reisfelder oder kleine Seen  ein angenehmer Kontrast zu den Mittagsstopps an der Strasse.',
+        id: 'restaurants',
+        title: 'Eten rond Dambulla',
+        body: 'Buffetten met rijst en curry voor dagtochtgroepen zijn gebruikelijk langs de hoofdweg tussen Dambulla en Sigiriya. Dat is handig voor een snelle, voedzame lunch tussen de bezienswaardigheden door. Verschillende restaurants serveren hier een echt breed curryaanbod, omdat de stroom doorgaande reizigers meer variatie draagt dan kleinere plaatsen aankunnen.\n\nVoor een rustiger diner serveren lodges in Habarana vaak maaltijden in de openlucht, met uitzicht op rijstvelden of kleine meren. Dat is een prettig contrast met de lunchplekken langs de weg.',
       },
     ],
     faq: [
       {
-        q: 'Wie lange dauert ein Besuch im Hohlentempel von Dambulla?',
-        a: 'Die meisten Besucher benotigen 60 to 90 Minuten, um alle funf Hohlen bequem zu sehen, einschliesslich des Aufstiegs von der Basis. Planen Sie zusatzliche Zeit ein, wenn Sie auch die goldene Buddha Statue und das kleine Museum am Eingang besuchen mochten.',
+        q: 'Hoe lang duurt een bezoek aan de grottentempel van Dambulla?',
+        a: 'De meeste bezoekers hebben 60 tot 90 minuten nodig om alle vijf de grotten rustig te zien, inclusief de wandeling omhoog vanaf de voet. Reken extra tijd als u ook het gouden boeddhabeeld en het kleine museum bij de ingang wilt bezoeken.',
       },
       {
-        q: 'Lohnt sich Dambulla, wenn ich auch Sigiriya besuche?',
-        a: 'Ja  beide Orte liegen nur zwanzig Minuten voneinander entfernt und werden fast immer gemeinsam besucht. Dambulla bietet einen sanfteren, schattigen Kontrast zum exponierten Felsaufstieg von Sigiriya, und beide zusammen decken die religiose wie konigliche Geschichte der Region ab.',
+        q: 'Is Dambulla de moeite waard als u ook Sigiriya bezoekt?',
+        a: 'Ja. De twee plekken liggen slechts twintig minuten uit elkaar en worden bijna altijd samen bezocht. Dambulla biedt een milder, beschaduwd contrast met de open beklimming van Sigiriya. Samen dekken ze de religieuze en de koninklijke geschiedenis van de streek.',
       },
       {
-        q: 'Was sollte ich fur den Besuch des Hohlentempels von Dambulla anziehen?',
-        a: 'Dezente Kleidung, die Schultern und Knie bedeckt, ist erforderlich, und Schuhe mussen am Hohleneingang ausgezogen werden. Bringen Sie Socken mit, wenn Sie empfindlich auf heisse Steinboden reagieren, sowie eine kleine Tasche, um Ihre Schuhe durch alle funf Hohlen zu tragen.',
+        q: 'Wat trekt u aan voor een bezoek aan de grottentempel van Dambulla?',
+        a: 'Gepaste kleding die schouders en knieën bedekt is verplicht, en bij de grotingang moet u uw schoenen uitdoen. Neemt u sokken mee als u gevoelig bent voor hete stenen vloeren, en een kleine tas om uw schoenen door alle vijf de grotten te dragen.',
       },
       {
-        q: 'Ist Fotografieren in den Hohlen erlaubt?',
-        a: 'Fotografieren ist im Allgemeinen erlaubt, Blitzlicht jedoch nicht in der Nahe der bemalten Decken und Statuen  zum Schutz der Kunstwerke und aus Respekt vor dem aktiven Andachtsort.',
+        q: 'Mag u in de grotten fotograferen?',
+        a: 'Gewoon fotograferen mag meestal wel, maar flitsen is niet toegestaan bij de beschilderde plafonds en beelden. Dat beschermt het kunstwerk en toont respect voor de actieve gebedsplaats.',
       },
       {
-        q: 'Was ist die beste Tageszeit fur einen Besuch in Dambulla?',
-        a: 'Morgenbesuche sind kuhler und weniger uberfullt, besonders nutzlich, wenn Sie am selben Tag nach Sigiriya weiterfahren mochten. Auch die Steinboden in den Hohlen bleiben fruh am Tag deutlich kuhler unter den Fussen.',
+        q: 'Wat is het beste moment van de dag om Dambulla te bezoeken?',
+        a: 'Een bezoek in de ochtend is koeler en minder druk, vooral handig als u dezelfde dag nog doorreist naar Sigiriya. Ook de stenen vloeren in de grotten blijven vroeg op de dag merkbaar koeler onder de voeten.',
       },
     ],
-    ctaTitle: 'Kombinieren Sie Dambulla mit Sigiriya',
-    ctaBody: 'Unsere Kulturdreieck Tagestouren verbinden den Goldenen Hohlentempel mit der Felsenfestung Sigiriya und einer optionalen Wildelefanten Safari  Ihr Fahrer Guide ubernimmt Zeitplan, Tickets und die Logistik beider Orte.',
-    ctaLabel: 'Dambulla Tag planen',
+    ctaTitle: 'Combineer Dambulla met Sigiriya',
+    ctaBody: 'Onze dagtochten door de Culturele Driehoek koppelen de gouden grottentempel aan de rotsvesting van Sigiriya en een optionele safari met wilde olifanten. Uw chauffeurgids regelt het tijdschema, de toegangskaarten en de praktische gang van zaken bij het betreden en verlaten van beide plekken.',
+    ctaLabel: 'Plan uw dag in Dambulla',
     relatedTours: [
-      { pageId: 'sigiriyaDay', label: 'Sigiriya Tagestour' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour8', label: '8 tagige private Sri Lanka Rundreise' },
+      { pageId: 'sigiriyaDay', label: 'Dagtocht naar Sigiriya' },
+      { pageId: 'tour7', label: 'Privérondreis Sri Lanka van 7 dagen' },
+      { pageId: 'tour8', label: 'Privérondreis Sri Lanka van 8 dagen' },
     ],
     relatedDestinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destKandy', label: 'Kandy' },
     ],
     relatedGuides: [
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
-      { pageId: 'guidePrivateDriver', label: 'Sri Lanka Fahrer Ratgeber' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'guidePrivateDriver', label: 'Gids privéchauffeur Sri Lanka' },
     ],
   }
 };

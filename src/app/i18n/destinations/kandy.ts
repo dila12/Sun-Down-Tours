@@ -155,6 +155,10 @@ export const KANDY_DEST: ArticleContent = {
         q: 'Lohnt sich ein Besuch im Elefanten Waisenhaus Pinnawala?',
         a: 'Die Meinungen gehen auseinander  Pinnawala ist praktisch und leicht von Kandy erreichbar, doch viele unabhangige Reisende bevorzugen heute Wildelefanten Sichtungen in Minneriya, Kaudulla oder im Udawalawe Nationalpark fur ein naturnaheres Erlebnis.',
       },
+      {
+        q: 'Was sollte man in Kandy unternehmen?',
+        a: 'Tempel der Zahnreliquie, ein Spaziergang am See, die Gärten von Peradeniya und auf Wunsch eine Tanzvorstellung. Danach geht es per Zug oder Strasse nach Ella.',
+      },
     ],
     ctaTitle: 'Nehmen Sie Kandy in Ihre Route auf',
     ctaBody: 'Jede unserer mehrtagigen privaten Rundreisen fuhrt durch Kandy, zeitlich abgestimmt auf die Zeremonien im Zahntempel und den Koniglichen Botanischen Garten  Ihr Fahrer Guide ubernimmt Verkehr und Logistik.',
@@ -314,6 +318,10 @@ export const KANDY_DEST: ArticleContent = {
       {
         q: 'Vale la pena visitare l’orfanotrofio degli elefanti di Pinnawala?',
         a: 'Le opinioni varianoinnawala e comodo e facile da raggiungere da Kandy, ma molti viaggiatori indipendenti preferiscono ora gli avvistamenti di elefanti selvatici a Minneriya, Kaudulla o nel parco nazionale di Udawalawe per un’esperienza piu naturalistica.',
+      },
+      {
+        q: 'Cosa fare a Kandy?',
+        a: 'Il Tempio della Reliquia del Dente, una passeggiata sul lago, i giardini di Peradeniya e, se volete, uno spettacolo di danza. Poi si prosegue verso Ella in treno o su strada.',
       },
     ],
     ctaTitle: 'Aggiungi Kandy al tuo itinerario',
@@ -475,6 +483,10 @@ export const KANDY_DEST: ArticleContent = {
         q: 'Czy warto odwiedzic sierociniec dla sloni w Pinnawali?',
         a: 'Opinie sa podzielone  Pinnawala jest wygodna i latwo dostepna z Kandy, ale wielu niezaleznych podroznych obecnie preferuje bardziej naturalne spotkania z dzikimi sloniami w Minneriya, Kaudulli czy Parku Narodowym Udawalawe.',
       },
+      {
+        q: 'Co warto zobaczyc w Kandy?',
+        a: 'Swiatynie Relikwii Zeba, spacer wokol jeziora, ogrody Peradeniya i opcjonalny pokaz tanca. Dalej jedzie sie do Elli pociagiem albo samochodem.',
+      },
     ],
     ctaTitle: 'Dodaj Kandy do swojej trasy',
     ctaBody: 'Kazda z naszych wielodniowych prywatnych wycieczek przejezdza przez Kandy, zaplanowana wokol ceremonii w Swiatyni Zeba i Krolewskiego Ogrodu Botanicznego, a Twoj kierowca przewodnik zajmuje sie ruchem i logistyka.',
@@ -496,16 +508,16 @@ export const KANDY_DEST: ArticleContent = {
 
   ru: {
     h1: 'Канди, Шри Ланка: священная горная столица последнего королевства',
-    lead: 'Последняя столица, павшая под колониальным правлением, Канди до сих пор ощущается духовным сердцем Шри Ланкиод у озера, построенный вокруг храма, хранящего одну из самых священных реликвий буддизма, окружённый холмами, ботаническими садами и чайными плантациями.',
+    lead: 'Последняя столица, павшая под колониальным правлением, Канди до сих пор ощущается духовным сердцем Шри Ланки: от озера, построенный вокруг храма, хранящего одну из самых священных реликвий буддизма, окружённый холмами, ботаническими садами и чайными плантациями.',
     heroAlt: 'Храм Священного Зуба Будды отражается в озере Канди',
     sections: [
       {
         title: 'Последнее независимое королевство',
-        body: 'Канди стал столицей центрального королевства Шри Ланки в XVI веке и благодаря рельефу и стратегии более 250 лет сопротивлялся португальским и голландским завоеваниямьше, чем любая другая региональная власть. В итоге в 1815 году он пал под властью британцев, положив конец почти 2400 летней непрерывной шри ланкийской монархии.\n\nЭто позднее падение означает, что королевская архитектура, придворные ритуалы и храмовые традиции Канди в значительной степени сохранились в неприкосновенности до наших дней, придавая городу связь с доколониальным прошлым, которую сложнее найти в других частях острова.',
+        body: 'Канди стал столицей центрального королевства Шри Ланки в XVI веке и благодаря рельефу и стратегии более 250 лет сопротивлялся португальским и голландским завоеваниям дольше, чем любая другая региональная власть. В итоге в 1815 году он пал под властью британцев, положив конец почти 2400-летней непрерывной шри ланкийской монархии.\n\nЭто позднее падение означает, что королевская архитектура, придворные ритуалы и храмовые традиции Канди в значительной степени сохранились в неприкосновенности до наших дней, придавая городу связь с доколониальным прошлым, которую сложнее найти в других частях острова.',
       },
       {
         title: 'Дом Храма Священного Зуба Будды',
-        body: 'Шри Далада Малигава хранит то, что буддисты считают реликвией зуба Будды, привезённой в Шри Ланку в IV веке и перенесённой в Канди, когда королевство перенесло сюда свою столицу. Сама реликвия показывается редко, но церемонии барабанного боя, проходящие дважды в день, и непрерывный поток паломниковостаточная причина для визита.\n\nКаждый август фестиваль Эсала Перахера проводит по улицам копию раки с реликвией на украшенном слоне в сопровождении танцоров огня, барабанщиков и канди танцоров в полном костюмедна из великих религиозных процессий Азии, вокруг которой стоит спланировать поездку, если даты совпадают.',
+        body: 'Шри Далада Малигава хранит то, что буддисты считают реликвией зуба Будды, привезённой в Шри Ланку в IV веке и перенесённой в Канди, когда королевство перенесло сюда свою столицу. Сама реликвия показывается редко, но церемонии барабанного боя, проходящие дважды в день, и непрерывный поток паломников — достаточная причина для визита.\n\nКаждый август фестиваль Эсала Перахера проводит по улицам копию раки с реликвией на украшенном слоне в сопровождении танцоров огня, барабанщиков и канди танцоров в полном костюме — одна из великих религиозных процессий Азии, вокруг которой стоит спланировать поездку, если даты совпадают.',
       },
       {
         title: 'Что посмотреть и сделать в Канди',
@@ -513,7 +525,7 @@ export const KANDY_DEST: ArticleContent = {
       },
       {
         title: 'Практические советы для посещения',
-        body: 'Оденьтесь скромно для Храма Зуба: плечи и колени закрыты, обувь снимается при входе, будьте готовы пройти часть территории босиком. Время церемоний (примерно 5:30 to 6:45, 9:30 to 11 и 18:30 to 20:00) стоит учесть при планировании визита, если хотите услышать барабанщиков.\n\nДвижение в Канди может быть плотным и медленным, особенно вокруг озера в часы пик, поэтому закладывайте дополнительное время между мероприятиями, а не плотный график, если передвигаетесь самостоятельно.',
+        body: 'Оденьтесь скромно для Храма Зуба: плечи и колени закрыты, обувь снимается при входе, будьте готовы пройти часть территории босиком. Время церемоний (примерно 5:30–6:45, 9:30–11 и 18:30–20:00) стоит учесть при планировании визита, если хотите услышать барабанщиков.\n\nДвижение в Канди может быть плотным и медленным, особенно вокруг озера в часы пик, поэтому закладывайте дополнительное время между мероприятиями, а не плотный график, если передвигаетесь самостоятельно.',
       },
       {
         title: 'Погода в Канди',
@@ -521,7 +533,7 @@ export const KANDY_DEST: ArticleContent = {
       },
       {
         title: 'Что посмотреть в окрестностях',
-        body: 'Сигирия и Дамбулла находятся примерно в 1,5 to 2 часах езды на север, что делает Канди естественной остановкой с ночёвкой между Культурным треугольником и горной местностью. Приют для слонов в Пиннавале, примерно 45 минут езды, популярное дополнение на полдня, хотя самостоятельные путешественники всё чаще предпочитают более естественные встречи со слонами возле Удавалаве или Миннерии.\n\nЭлла и чайный край начинаются примерно в двух трёх часах езды на юго восток по дороге или живописной поездкой на поезде, что делает Канди классической отправной точкой для железнодорожного путешествия по горной местности.',
+        body: 'Сигирия и Дамбулла находятся примерно в 1,5–2 часах езды на север, что делает Канди естественной остановкой с ночёвкой между Культурным треугольником и горной местностью. Приют для слонов в Пиннавале, примерно 45 минут езды, популярное дополнение на полдня, хотя самостоятельные путешественники всё чаще предпочитают более естественные встречи со слонами возле Удавалаве или Миннерии.\n\nЭлла и чайный край начинаются примерно в двух трёх часах езды на юго восток по дороге или живописной поездкой на поезде, что делает Канди классической отправной точкой для железнодорожного путешествия по горной местности.',
       },
       {
         title: 'Где остановиться в Канди',
@@ -553,6 +565,10 @@ export const KANDY_DEST: ArticleContent = {
         q: 'Стоит ли посещать приют для слонов в Пиннавале?',
         a: 'Мнения расходятся Пиннавала удобна и легко доступна из Канди, но многие самостоятельные путешественники теперь предпочитают наблюдение за дикими слонами в Миннерии, Каудулле или национальном парке Удавалаве для более естественного опыта.',
       },
+      {
+        q: 'Что посмотреть в Канди?',
+        a: 'Храм Зуба Будды, прогулку вокруг озера, сады Перадении и по желанию танцевальное шоу. Дальше путь в Эллу на поезде или по дороге.',
+      },
     ],
     ctaTitle: 'Добавьте Канди в свой маршрут',
     ctaBody: 'Каждый из наших многодневных частных туров проходит через Канди, приурочен к церемониям в Храме Зуба и Королевскому ботаническому саду, а водитель гид берёт на себя движение и логистику.',
@@ -572,80 +588,92 @@ export const KANDY_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Kandy, Sri Lanka: die heilige Bergstadt des letzten Konigreichs',
-    lead: 'Als letzte Hauptstadt, die der Kolonialherrschaft unterlag, fuhlt sich Kandy noch immer wie das spirituelle Herz Sri Lankas an  eine Stadt am See, gebaut um einen Tempel mit einer der heiligsten Reliquien des Buddhismus, umgeben von Hugeln, botanischen Garten und Teeplantagen.',
-    heroAlt: 'Der Zahntempel spiegelt sich im Kandy See',
+    h1: 'Kandy, Sri Lanka: Tempel van de Heilige Tandrelikwie en het meer',
+    lead: 'De Tempel van de Tand in Kandy (Sri Dalada Maligawa) is het spirituele hart van Sri Lanka: een heiligdom aan het meer voor een van de heiligste relikwieën van het boeddhisme, omringd door heuvels, botanische tuinen en verderop de theeplantages.',
+    heroAlt: 'Tempel van de Heilige Tandrelikwie, weerspiegeld in het meer van Kandy',
     sections: [
       {
-        title: 'Das letzte unabhangige Konigreich',
-        body: 'Kandy wurde im 16. Jahrhundert Hauptstadt des zentralen Konigreichs Sri Lankas und hielt dank seines Gelandes und kluger Strategie uber 250 Jahre lang portugiesischen und niederlandischen Invasionen stand  langer als jede andere Regionalmacht. Erst 1815 fiel es an die Briten und beendete damit fast 2.400 Jahre ununterbrochener srilankischer Monarchie.\n\nDieser spate Fall bedeutet, dass Kandys konigliche Architektur, hofische Rituale und Tempeltraditionen bis in die Moderne weitgehend intakt uberlebten  eine Kontinuitat zur vorkolonialen Vergangenheit, die man anderswo auf der Insel kaum findet.',
+        id: 'history',
+        title: 'Het laatste onafhankelijke koninkrijk',
+        body: 'Kandy werd in de 16e eeuw de hoofdstad van het centrale koninkrijk van Sri Lanka en hield, door het terrein en door strategie, meer dan 250 jaar stand tegen Portugese en Nederlandse invallen, langer dan enige andere regionale macht. In 1815 viel het ten slotte aan de Britten, waarmee bijna 2.400 jaar ononderbroken Sri Lankaanse monarchie eindigde.\n\nDoor die late val bleven de koninklijke architectuur, de hofrituelen en de tempeltradities van Kandy tot in de moderne tijd grotendeels intact. De stad houdt daardoor een lijn met het prekoloniale verleden die elders op het eiland moeilijker te vinden is.',
       },
       {
-        title: 'Heimat des Zahntempels',
-        body: 'Die Sri Dalada Maligawa beherbergt, was Buddhisten als Zahnreliquie Buddhas verehren, im 4. Jahrhundert nach Sri Lanka gebracht und nach Kandy verlegt, als das Konigreich seine Hauptstadt hierher verlegte. Die Reliquie selbst wird selten gezeigt, doch die zweimal taglichen Trommelzeremonien und der stete Zustrom von Glaubigen sind Grund genug fur einen Besuch.\n\nJeden August zieht das Esala Perahera Festival eine Nachbildung des Reliquienschreins auf einem geschmuckten Elefanten durch die Strassen, begleitet von Feuertanzern, Trommlern und Kandy Tanzern in voller Tracht  eine der grossen religiosen Prozessionen Asiens, um die sich eine Reise durchaus planen lasst, wenn die Termine passen.',
+        id: 'culture',
+        title: 'Thuisbasis van de Tempel van de Heilige Tandrelikwie',
+        body: 'De Sri Dalada Maligawa bewaart wat boeddhisten zien als een tandrelikwie van de Boeddha, in de 4e eeuw naar Sri Lanka gebracht en naar Kandy verplaatst toen het koninkrijk zijn hoofdstad hierheen bracht. De relikwie zelf wordt zelden getoond, maar de trommelceremonies twee keer per dag en de stroom gelovigen zijn reden genoeg voor een bezoek.\n\nElke augustus trekt het festival Esala Perahera een nagebouwde reliekkist door de straten op een versierde olifant, begeleid door vuurdansers, trommelaars en dansers uit Kandy in volledig kostuum. Het is een van de grote religieuze processies van Azië, en het loont om een reis eromheen te plannen als uw reisdata samenvallen.',
       },
       {
-        title: 'Was man in Kandy unternehmen sollte',
-        body: 'Neben dem Zahntempel beherbergt der Konigliche Botanische Garten in Peradeniya, kurz vom Zentrum entfernt, eine der schonsten Orchideensammlungen Asiens und eine Allee hoher Palmen, gepflanzt von Konigen und Staatsgasten. Der Spaziergang am Kandy See in der Abenddammerung, mit Fruchtfledermausen uber dem Kopf, ist ein einfaches, kostenloses Vergnugen, das viele Besucher unterschatzen.\n\nEine abendliche Kandy Tanzvorfuhrung  Trommeln, Feuerlauf und akrobatischer Maskentanz mit Wurzeln in rituellen Exorzismustraditionen  liefert nutzlichen Kontext vor oder nach dem Tempelbesuch, und die Hugel uber dem See bieten ruhige Ausblicke uber die ganze Stadt.',
+        id: 'thingsToDo',
+        title: 'Wat u in Kandy kunt doen',
+        body: 'Naast de Tempel van de Tand herbergen de Koninklijke Botanische Tuinen van Peradeniya, een korte rit vanuit het centrum, een van de mooiste orchideeëncollecties van Azië en een laan van hoge palmen, geplant door vorsten en bezoekende staatshoofden. De wandeling rond het meer van Kandy in de schemering, met vleerhonden boven u, is een eenvoudig gratis genoegen dat de meeste bezoekers onderschatten.\n\nEen dansvoorstelling uit Kandy in de avond, met trommels, lopen over vuur en acrobatische dans met maskers, geworteld in rituele tradities van uitdrijving, geeft nuttige context vóór of na het tempelbezoek. De heuvels boven het meer bieden rustige uitzichtpunten over de hele stad.',
       },
       {
-        title: 'Praktische Tipps fur den Besuch',
-        body: 'Kleiden Sie sich fur den Zahntempel dezent: Schultern und Knie bedeckt, Schuhe am Eingang ausziehen, und rechnen Sie damit, einen Teil des Gelandes barfuss zu gehen. Die Zeremonienzeiten (etwa 5:30 to 6:45 Uhr, 9:30 to 11 Uhr und 18:30 to 20 Uhr) lohnen sich fur die Planung, wenn Sie die Trommler horen mochten.\n\nDer Verkehr in Kandy kann dicht und langsam sein, besonders rund um den See zu Stosszeiten  planen Sie daher lieber zusatzliche Zeit zwischen den Aktivitaten ein, statt einen engen Zeitplan, wenn Sie sich selbststandig fortbewegen.',
+        id: 'travelTips',
+        title: 'Praktische tips voor uw bezoek',
+        body: 'Kleed u bescheiden voor de Tempel van de Tand: schouders en knieën bedekt, schoenen uit bij de ingang, en reken erop dat u een deel van het terrein op blote voeten loopt. De ceremonietijden, ongeveer 5.30 tot 6.45 uur, 9.30 tot 11.00 uur en 18.30 tot 20.00 uur, zijn het plannen waard als u de trommelaars wilt horen.\n\nHet verkeer in Kandy kan druk en traag zijn, vooral rond het meer op piekmomenten. Bouw extra tijd in tussen de activiteiten als u zelfstandig onderweg bent.',
       },
       {
-        title: 'Wetter in Kandy',
-        body: 'Auf rund 500 Metern Hohe ist Kandy deutlich kuhler als die Kuste, aber warmer und weniger nebelig als Ella oder Nuwara Eliya, was es das ganze Jahr uber angenehm zum Erkunden macht. Die feuchteren Monate liegen meist um Oktober to November und erneut im April to Mai, bedingt durch die Uberlagerung der beiden Monsunsysteme der Insel im zentralen Bergland.\n\nJanuar bis Marz bietet meist die zuverlassigsten trockenen, klaren Bedingungen fur Besichtigungen und den abendlichen Seespaziergang.',
+        id: 'weather',
+        title: 'Het weer in Kandy',
+        body: 'Op ongeveer 500 meter hoogte is Kandy merkbaar koeler dan de kust, maar warmer en minder mistig dan Ella of Nuwara Eliya, waardoor u er het hele jaar prettig kunt lopen. De nattere maanden vallen meestal van oktober tot november en opnieuw van april tot mei, doordat de twee moessonsystemen van het eiland elkaar in het centrale hoogland overlappen.\n\nJanuari tot maart biedt meestal de betrouwbaarste droge, heldere omstandigheden voor bezienswaardigheden en de avondwandeling langs het meer.',
       },
       {
-        title: 'Sehenswertes in der Umgebung',
-        body: 'Sigiriya und Dambulla liegen beide etwa 1,5 to 2 Stunden nordlich, sodass Kandy ein naturlicher Ubernachtungsstopp zwischen Kulturdreieck und Bergland ist. Das Elefanten Waisenhaus Pinnawala, etwa 45 Minuten entfernt, ist ein beliebter Halbtagesausflug, obwohl unabhangige Reisende zunehmend die naturnaheren Elefantenbegegnungen bei Udawalawe oder Minneriya bevorzugen.\n\nElla und das Teeland beginnen etwa zwei bis drei Stunden sudostlich per Strasse oder mit einer malerischen Zugfahrt, was Kandy zum klassischen Ausgangspunkt fur die Bergland Bahnreise macht.',
+        id: 'nearby',
+        title: 'Bezienswaardigheden in de buurt die u kunt combineren',
+        body: 'Sigiriya en Dambulla liggen allebei ongeveer 1,5 tot 2 uur naar het noorden, waardoor Kandy een natuurlijke overnachting is tussen de Culturele Driehoek en het heuvelland. Het olifantenweeshuis van Pinnawala, ongeveer 45 minuten verderop, is een populaire extra van een halve dag. Zelfstandige reizigers geven steeds vaker de voorkeur aan natuurlijkere ontmoetingen met olifanten bij Udawalawe of Minneriya.\n\nElla en het theegebied beginnen ongeveer twee tot drie uur naar het zuidoosten, over de weg of met een schilderachtige treinrit. Kandy is daardoor het klassieke vertrekpunt voor de treinreis door het heuvelland.',
       },
       {
-        title: 'Wo man in Kandy ubernachten kann',
-        body: 'Hotels am See bringen Sie in Gehdistanz zum Zahntempel und zum abendlichen Seespaziergang und sind meist die praktischste Basis fur einen kurzen Aufenthalt. Unterkunfte am Hugel uber der Stadt bieten dafur weite Ausblicke uber See und Dacher, besonders schon zum Sonnenuntergang.\n\nGunstige Gastehauser konzentrieren sich in den Strassen etwas hinter dem See, mit kurzem Fussweg zu Restaurants, Tempel und Bahnhof.',
+        id: 'hotels',
+        title: 'Waar u in Kandy kunt overnachten',
+        body: 'Hotels aan het meer liggen op loopafstand van de Tempel van de Tand en de avondwandeling langs het meer, meestal de handigste basis voor een kort verblijf. Adressen op de heuvel boven de stad ruilen wat gemak in voor weidse uitzichten over het meer en de daken, vooral prettig bij zonsondergang.\n\nBetaalbare pensions liggen in de straten net achter het meer, een korte wandeling van restaurants, de tempel en het station.',
       },
       {
-        title: 'Essen in Kandy',
-        body: 'Kandy bietet einige der besten Rice and Curry Buffets des Landes, oft rund um eine zentrale Kuche mit zwanzig oder mehr kleinen Gerichten gleichzeitig  eine ausgezeichnete Einfuhrung in die Vielfalt der srilankischen Gemuse und Linsenkuche. Die Stadtgrosse unterstutzt auch ein ordentliches Angebot an indischen, chinesischen und westlichen Optionen fur Reisende, die Abwechslung suchen.\n\nEinen kurzen Fussweg vom See entfernt servieren einige einfache lokale Cafes Kottu Roti, frisch auf der heissen Platte zubereitet  mindestens einmal probieren, allein schon wegen des Schauspiels.',
+        id: 'restaurants',
+        title: 'Eten in Kandy',
+        body: 'Kandy heeft enkele van de beste buffetten met rijst en curry van het land, vaak rond een centrale keuken die twintig of meer kleine gerechten tegelijk serveert. Het is een uitstekende kennismaking met de variatie in Sri Lankaanse groentegerechten en linzengerechten. Door de omvang van de stad is er ook een redelijk aanbod van Indiase, Chinese en westerse keukens voor reizigers die afwisseling zoeken.\n\nOp een korte wandeling van het meer serveren enkele eenvoudige lokale cafés kottu roti, op bestelling bereid op een hete plaat. Probeer het minstens één keer, evenzeer voor het schouwspel als voor het eten.',
       },
     ],
     faq: [
       {
-        q: 'Wie viel Zeit sollte ich in Kandy einplanen?',
-        a: 'Ein voller Tag reicht bequem fur den Zahntempel, den botanischen Garten und einen abendlichen Seespaziergang; zwei Tage erlauben ein entspannteres Tempo mit Zeit fur eine Kandy Tanzvorfuhrung und die umliegenden Hugel.',
+        q: 'Hoe lang moet ik in Kandy blijven?',
+        a: 'Eén volle dag is genoeg voor de Tempel van de Tand, de botanische tuinen en een avondwandeling langs het meer, in een rustig tempo. Twee dagen geven een ontspannener ritme, met tijd voor een dansvoorstelling uit Kandy en de omliggende heuvels.',
       },
       {
-        q: 'Was sollte ich fur den Besuch des Zahntempels anziehen?',
-        a: 'Dezente Kleidung, die Schultern und Knie bedeckt, sowie Schuhe aus vor den inneren Tempelbereichen. Sarongs und Schals werden nahe dem Eingang fur Besucher verkauft, die zu leicht bekleidet ankommen.',
+        q: 'Wat trek ik aan voor de Tempel van de Heilige Tandrelikwie?',
+        a: 'Bescheiden kleding die schouders en knieën bedekt, en schoenen uit vóór de binnenste tempelruimten. Bij de ingang worden sarongs en sjaals verkocht voor bezoekers die te luchtig gekleed aankomen.',
       },
       {
-        q: 'Wann findet das Esala Perahera Festival in Kandy statt?',
-        a: 'Es dauert zehn Nachte im Juli oder August, ausgerichtet am Mondkalender und daher jedes Jahr leicht verschoben  prufen Sie die aktuellen Termine vor der Buchung, falls dies fur Sie wichtig ist, da Unterkunfte lange vorher ausgebucht sind.',
+        q: 'Wanneer is het festival Esala Perahera in Kandy?',
+        a: 'Het duurt tien nachten in juli of augustus, afgestemd op de maankalender, en verschuift elk jaar licht. Controleer de actuele data vóór u boekt als dit voor u belangrijk is, want de overnachtingen zijn ruim van tevoren volgeboekt.',
       },
       {
-        q: 'Ist Kandy eine gute Basis, um das Bergland zu erkunden?',
-        a: 'Ja  Kandy liegt am nordlichen Ende der malerischen Bergland Bahnstrecke nach Ella und Nuwara Eliya und ist etwa gleich weit vom Kulturdreieck und vom Hochland entfernt, was es zu einem praktischen Knotenpunkt fur mehrtagige Rundreisen macht.',
+        q: 'Is Kandy een goede basis om het heuvelland te verkennen?',
+        a: 'Ja. Kandy ligt aan het noordelijke einde van de schilderachtige spoorlijn door het heuvelland naar Ella en Nuwara Eliya, en ongeveer even ver van de Culturele Driehoek als van het hoogland. Daardoor is het een praktische basis op routes van meerdere dagen.',
       },
       {
-        q: 'Lohnt sich ein Besuch im Elefanten Waisenhaus Pinnawala?',
-        a: 'Die Meinungen gehen auseinander  Pinnawala ist praktisch und leicht von Kandy erreichbar, doch viele unabhangige Reisende bevorzugen heute Wildelefanten Sichtungen in Minneriya, Kaudulla oder im Udawalawe Nationalpark fur ein naturnaheres Erlebnis.',
+        q: 'Is het olifantenweeshuis van Pinnawala een bezoek waard?',
+        a: 'De meningen lopen uiteen. Pinnawala is praktisch en vanuit Kandy makkelijk te bereiken, maar veel zelfstandige reizigers geven nu de voorkeur aan wilde olifanten in Minneriya, Kaudulla of het nationaal park Udawalawe, voor een natuurlijkere ervaring.',
+      },
+      {
+        q: 'Wat kunt u in Kandy in Sri Lanka doen?',
+        a: 'De Tempel van de Heilige Tandrelikwie, een wandeling langs het meer van Kandy, de tuinen van Peradeniya en desgewenst een dansvoorstelling. Daarna reist u van Kandy naar Ella per trein of over de weg.',
       },
     ],
-    ctaTitle: 'Nehmen Sie Kandy in Ihre Route auf',
-    ctaBody: 'Jede unserer mehrtagigen privaten Rundreisen fuhrt durch Kandy, zeitlich abgestimmt auf die Zeremonien im Zahntempel und den Koniglichen Botanischen Garten  Ihr Fahrer Guide ubernimmt Verkehr und Logistik.',
-    ctaLabel: 'Kandy Besuch planen',
+    ctaTitle: 'Voeg Kandy toe aan uw route',
+    ctaBody: 'Elke privérondreis van meerdere dagen komt door Kandy, afgestemd op de ceremonies in de Tempel van de Tand en de Koninklijke Botanische Tuinen. Uw chauffeurgids regelt het verkeer en de logistiek.',
+    ctaLabel: 'Plan uw bezoek aan Kandy',
     relatedTours: [
-      { pageId: 'kandyDay', label: 'Kandy Tagestour' },
-      { pageId: 'tour2ek', label: '2 tagige Ella & Kandy Tour' },
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
+      { pageId: 'kandyDay', label: 'Dagtocht naar Kandy' },
+      { pageId: 'tour2ek', label: 'Rondreis van 2 dagen Ella en Kandy' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destDambulla', label: 'Dambulla' },
     ],
     relatedGuides: [
-      { pageId: 'guideTeaCountry', label: 'Sri Lanka Teeland Ratgeber' },
-      { pageId: 'guideBestTime', label: 'Beste Reisezeit fur Sri Lanka' },
+      { pageId: 'guideTeaCountry', label: 'Gids voor het theegebied van Sri Lanka' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
     ],
   }
 };

@@ -10,6 +10,7 @@ import {
   validateHreflangReciprocity,
   xmlEscape,
 } from './sitemap-utils.mjs';
+import { loadLocalizedSeoTitles } from './article-locale-scan.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = join(__dirname, '..');
@@ -62,14 +63,28 @@ function absoluteAsset(path) {
   return `${BASE_URL}/${path.replace(/^\//, '')}`;
 }
 
-function buildImageEntry(entry, imagePath) {
+function localizedImageTitle(entry, titles) {
+  return (
+    titles.get(`${entry.locale}:${entry.page.id}`) ||
+    titles.get(`en:${entry.page.id}`) ||
+    entry.page.slugs?.[entry.locale] ||
+    entry.page.slugs?.en ||
+    'Sundown Tours Sri Lanka'
+  );
+}
+
+function buildImageEntry(entry, imagePath, titles) {
+  const title = localizedImageTitle(entry, titles);
+  if (!title || title === entry.page.id) {
+    throw new Error(`${entry.page.id}/${entry.locale}: image sitemap title is an internal page id`);
+  }
   return [
     '  <url>',
     `    <loc>${xmlEscape(entry.url)}</loc>`,
     `    <lastmod>${entry.lastmod}</lastmod>`,
     '    <image:image>',
     `      <image:loc>${xmlEscape(absoluteAsset(imagePath))}</image:loc>`,
-    `      <image:title>${xmlEscape(entry.page.id)}</image:title>`,
+    `      <image:title>${xmlEscape(title)}</image:title>`,
     '    </image:image>',
     '  </url>',
   ].join('\n');
@@ -118,12 +133,13 @@ async function main() {
       .map(({ page }) => page.id),
   );
 
+  const seoTitles = loadLocalizedSeoTitles();
   const imageEntries = [];
   for (const entry of included) {
     if (!imagePageIds.has(entry.page.id)) continue;
     const imagePath = GUIDE_HERO_IMAGES[entry.page.id];
     if (!imagePath) continue;
-    imageEntries.push(buildImageEntry(entry, imagePath));
+    imageEntries.push(buildImageEntry(entry, imagePath, seoTitles));
   }
 
   const imageXml = [

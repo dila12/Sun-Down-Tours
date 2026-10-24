@@ -35,7 +35,7 @@ export const HIRIKETIYA_DEST: ArticleContent = {
       {
         id: 'practical',
         title: 'Practical tips',
-        body: 'ATMs and larger supermarkets are limited in the villagecash and a bigger shop run in Matara or Tangalle help. The coast road is busy; a private driver for day trips is more comfortable than piecing together buses with luggage. Book rooms early for Christmas to February.\n\nHiriketiya is a finish, not a first night after a Heathrow red eye. Land at CMB, rest on the west coast or start inland, then drop to the south coast when you are ready for beach time.',
+        body: 'ATMs and larger supermarkets are limited in the village. Cash and a bigger shop run in Matara or Tangalle help. The coast road is busy; a private driver for day trips is more comfortable than piecing together buses with luggage. Book rooms early for Christmas to February.\n\nHiriketiya is a finish, not a first night after a Heathrow red eye. Land at CMB, rest on the west coast or start inland, then drop to the south coast when you are ready for beach time.',
       },
     ],
     faq: [
@@ -53,7 +53,7 @@ export const HIRIKETIYA_DEST: ArticleContent = {
       },
       {
         q: 'When is the sea calm in Hiriketiya?',
-        a: 'Generally November to April. May to September is the southwest monsoon on this coastbetter years to use the east coast or Cultural Triangle instead.',
+        a: 'Generally November to April. May to September is the southwest monsoon on this coast. Better years to use the east coast or Cultural Triangle instead.',
       },
     ],
     ctaTitle: 'Add Hiriketiya to a private south coast finish',

@@ -1,0 +1,532 @@
+{
+  "destSigiriya": {
+    "de": [
+      {
+        "q": "Wo liegt Sigiriya?",
+        "a": "Sigiriya liegt im Kulturdreieck, im Landesinneren nördlich von Colombo. Die Fahrt von Colombo oder vom Flughafen dauert mit dem Privatauto meist vier bis fünf Stunden, von Kandy etwa zwei Stunden. Den Zug nutzen wir nicht als Haupttransfer."
+      },
+      {
+        "q": "Ist Sigiriya der Lion Rock?",
+        "a": "Ja. Lion Rock, Löwenfelsen und Sigiriya bezeichnen dieselbe Felsenfestung. Zum Besuch gehören der Aufstieg, die Wassergärten und optional Pidurangala."
+      }
+    ],
+    "fr": [
+      {
+        "q": "Ou se trouve Sigiriya ?",
+        "a": "Sigiriya se trouve dans le Triangle culturel, a l’interieur des terres au nord de Colombo. Le trajet depuis Colombo ou l’aeroport dure en general quatre a cinq heures en voiture privee, et environ deux heures depuis Kandy. Nous n’utilisons pas le train comme transfert principal."
+      },
+      {
+        "q": "Sigiriya est il le Lion Rock ?",
+        "a": "Oui. Lion Rock, le rocher du lion et Sigiriya designent la meme forteresse. La visite comprend l’ascension, les jardins d’eau et, en option, Pidurangala."
+      }
+    ],
+    "it": [
+      {
+        "q": "Dove si trova Sigiriya?",
+        "a": "Sigiriya si trova nel Triangolo Culturale, nell’entroterra a nord di Colombo. In auto privata servono di solito quattro o cinque ore da Colombo o dall’aeroporto, e circa due ore da Kandy. Non usiamo il treno come trasferimento principale."
+      },
+      {
+        "q": "Sigiriya e il Lion Rock?",
+        "a": "Si. Lion Rock, la roccia del leone e Sigiriya indicano la stessa fortezza. La visita comprende la salita, i giardini d’acqua e, se volete, Pidurangala."
+      }
+    ],
+    "es": [
+      {
+        "q": "Donde esta Sigiriya?",
+        "a": "Sigiriya esta en el Triangulo Cultural, en el interior al norte de Colombo. En coche privado el trayecto desde Colombo o el aeropuerto suele durar de cuatro a cinco horas, y unas dos horas desde Kandy. No usamos el tren como traslado principal."
+      },
+      {
+        "q": "Sigiriya es el Lion Rock?",
+        "a": "Si. Lion Rock, la roca del leon y Sigiriya son la misma fortaleza. La visita incluye la subida, los jardines de agua y, si se desea, Pidurangala."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Gdzie lezy Sigiriya?",
+        "a": "Sigiriya lezy w Trojkacie Kulturowym, w glebi wyspy na polnoc od Kolombo. Prywatnym autem dojazd z Kolombo lub z lotniska trwa zwykle cztery do pieciu godzin, a z Kandy okolo dwoch. Pociag nie jest naszym glownym transferem."
+      },
+      {
+        "q": "Czy Sigiriya to Lion Rock?",
+        "a": "Tak. Lion Rock, Lwiej Skaly i Sigiriya oznaczaja te sama fortece. Wizyta obejmuje wejscie, ogrody wodne i opcjonalnie Pidurangale."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Где находится Сигирия?",
+        "a": "Сигирия находится в Культурном треугольнике, в глубине острова к северу от Коломбо. На частном автомобиле дорога из Коломбо или из аэропорта обычно занимает четыре–пять часов, из Канди около двух. Поезд мы не используем как основной трансфер."
+      },
+      {
+        "q": "Сигирия и есть Львиная скала?",
+        "a": "Да. Lion Rock, Львиная скала и Сигирия — это одна и та же крепость. В программу входят подъём, водные сады и по желанию Пидурангала."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Wo liegt Sigiriya?",
+        "a": "Sigiriya liegt im Kulturdreieck, im Landesinneren nördlich von Colombo. Die Fahrt von Colombo oder vom Flughafen dauert mit dem Privatauto meist vier bis fünf Stunden, von Kandy etwa zwei Stunden. Den Zug nutzen wir nicht als Haupttransfer."
+      },
+      {
+        "q": "Ist Sigiriya der Lion Rock?",
+        "a": "Ja. Lion Rock, Löwenfelsen und Sigiriya bezeichnen dieselbe Felsenfestung. Zum Besuch gehören der Aufstieg, die Wassergärten und optional Pidurangala."
+      }
+    ]
+  },
+  "destElla": {
+    "de": [
+      {
+        "q": "Was kann man in Ella ausser dem Zug unternehmen?",
+        "a": "Nine Arch Bridge, Little Adam’s Peak oder Ella Rock und eine Teefabrik. Am nächsten Morgen kann die Fahrt nach Yala folgen. Die Zugfahrt von Kandy nach Ella bleibt die klassische Anreise."
+      }
+    ],
+    "fr": [
+      {
+        "q": "Que faire a Ella en dehors du train ?",
+        "a": "Le Nine Arch Bridge, Little Adam’s Peak ou Ella Rock, puis une fabrique de the. Le lendemain matin, Yala peut suivre si vous voulez un safari. Le train de Kandy a Ella reste l’arrivee classique."
+      }
+    ],
+    "it": [
+      {
+        "q": "Cosa fare a Ella oltre al treno?",
+        "a": "Nine Arch Bridge, Little Adam’s Peak o Ella Rock e una fabbrica di te. La mattina dopo si puo proseguire verso Yala per un safari. Il treno da Kandy a Ella resta l’arrivo classico."
+      }
+    ],
+    "es": [
+      {
+        "q": "Que hacer en Ella ademas del tren?",
+        "a": "Nine Arch Bridge, Little Adam’s Peak o Ella Rock y una fabrica de te. A la manana siguiente se puede seguir hacia Yala para un safari. El tren de Kandy a Ella sigue siendo la llegada clasica."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Co robic w Elli poza przejazdem pociagiem?",
+        "a": "Nine Arch Bridge, Little Adam’s Peak albo Ella Rock i fabryka herbaty. Nastepnego ranka mozna jechac do Yali na safari. Pociag z Kandy do Elli zostaje klasycznym dojazdem."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Чем заняться в Элле кроме поезда?",
+        "a": "Мост Nine Arch, Little Adam’s Peak или Ella Rock и чайная фабрика. На следующее утро можно ехать в Ялу на сафари. Поезд из Канди в Эллу остаётся классическим способом прибытия."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Was kann man in Ella ausser dem Zug unternehmen?",
+        "a": "Nine Arch Bridge, Little Adam’s Peak oder Ella Rock und eine Teefabrik. Am nächsten Morgen kann die Fahrt nach Yala folgen. Die Zugfahrt von Kandy nach Ella bleibt die klassische Anreise."
+      }
+    ]
+  },
+  "destKandy": {
+    "de": [
+      {
+        "q": "Was sollte man in Kandy unternehmen?",
+        "a": "Tempel der Zahnreliquie, ein Spaziergang am See, die Gärten von Peradeniya und auf Wunsch eine Tanzvorstellung. Danach geht es per Zug oder Strasse nach Ella."
+      }
+    ],
+    "it": [
+      {
+        "q": "Cosa fare a Kandy?",
+        "a": "Il Tempio della Reliquia del Dente, una passeggiata sul lago, i giardini di Peradeniya e, se volete, uno spettacolo di danza. Poi si prosegue verso Ella in treno o su strada."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Co warto zobaczyc w Kandy?",
+        "a": "Swiatynie Relikwii Zeba, spacer wokol jeziora, ogrody Peradeniya i opcjonalny pokaz tanca. Dalej jedzie sie do Elli pociagiem albo samochodem."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Что посмотреть в Канди?",
+        "a": "Храм Зуба Будды, прогулку вокруг озера, сады Перадении и по желанию танцевальное шоу. Дальше путь в Эллу на поезде или по дороге."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Was sollte man in Kandy unternehmen?",
+        "a": "Tempel der Zahnreliquie, ein Spaziergang am See, die Gärten von Peradeniya und auf Wunsch eine Tanzvorstellung. Danach geht es per Zug oder Strasse nach Ella."
+      }
+    ]
+  },
+  "destColombo": {
+    "it": [
+      {
+        "q": "Quanto dista l’aeroporto di Colombo dalla citta?",
+        "a": "Di solito da 45 a 90 minuti, secondo il traffico. Negombo e piu vicina a CMB del centro di Colombo."
+      },
+      {
+        "q": "Conviene dormire a Colombo dopo un volo dall’Italia?",
+        "a": "Se atterrate tardi, Negombo o un hotel sulla costa ovest e spesso piu semplice. Colombo citta ha senso se il giorno dopo volete musei e una cena in citta."
+      }
+    ],
+    "es": [
+      {
+        "q": "Merece la pena Colombo en un viaje a Sri Lanka?",
+        "a": "Si como puerta de entrada: una noche o un dia de ciudad. La mayoria de los viajeros sigue despues hacia Sigiriya, Kandy, Ella, Yala y la costa."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy Kolombo warto zobaczyc w trakcie wyjazdu na Sri Lanke?",
+        "a": "Tak jako brama: jedna noc albo jeden dzien w miescie. Potem wiekszosc gosci jedzie do Sigiriyi, Kandy, Elli, Yali i na wybrzeze."
+      },
+      {
+        "q": "Czy nocowac w Kolombo po przylocie z Polski?",
+        "a": "Przy poznych ladowaniach Negombo albo hotel na zachodnim wybrzezu jest zwykle prostszy. Kolombo ma sens, jesli nastepnego dnia chcecie muzea i kolacje w miescie."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Как далеко аэропорт от центра Коломбо?",
+        "a": "Обычно от 45 до 90 минут, в зависимости от пробок. Негомбо ближе к CMB, чем центр Коломбо."
+      },
+      {
+        "q": "Стоит ли ночевать в Коломбо после перелёта?",
+        "a": "Если рейс прибывает поздно, Негомбо или отель на западном побережье часто удобнее. Коломбо подходит, если на следующий день нужны музеи и ужин в городе."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Is Colombo de moeite waard tijdens een reis door Sri Lanka?",
+        "a": "Ja als startpunt: een nacht of een gerichte stadsdag. De meeste reizigers gaan daarna door naar Sigiriya, Kandy, Ella, Yala en de kust."
+      },
+      {
+        "q": "Moet ik in Colombo overnachten na een vlucht uit Nederland?",
+        "a": "Bij een late landing zijn Negombo of een hotel aan de westkust vaak eenvoudiger. Kies Colombo als u de volgende dag musea en een diner in de stad wilt."
+      }
+    ]
+  },
+  "destNegombo": {
+    "it": [
+      {
+        "q": "Negombo e meglio di Colombo per la prima notte?",
+        "a": "Per gli arrivi tardivi di solito si: trasferimento piu corto e hotel sulla spiaggia. Scegliete Colombo se volete musei e un’intera giornata in citta."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy Negombo jest lepsze niz Kolombo na pierwsza noc?",
+        "a": "Przy poznych przylotach zwykle tak: krotszy transfer i hotel przy plazy. Kolombo wybierzcie, jesli chcecie muzea i caly dzien w miescie."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Негомбо лучше Коломбо для первой ночи?",
+        "a": "При позднем прилёте обычно да: короче трансфер и отель у пляжа. Коломбо выбирайте, если нужны музеи и полный день в городе."
+      }
+    ]
+  },
+  "destBentota": {
+    "it": [
+      {
+        "q": "Bentota va bene nell’estate europea?",
+        "a": "Spesso no per nuotare: da maggio a settembre e la finestra del monsone sulla costa ovest. Meglio la costa est o il Triangolo Culturale, oppure accettare un meteo variabile."
+      }
+    ],
+    "es": [
+      {
+        "q": "Bentota es buena idea en el verano europeo?",
+        "a": "A menudo no para banarse: de mayo a septiembre es el monzon de la costa oeste. Conviene la costa este o el Triangulo Cultural, o aceptar un tiempo de playa irregular."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy Bentota sprawdza sie w europejskie lato?",
+        "a": "Czesto nie do kapieli: od maja do wrzesnia to monsun zachodniego wybrzeza. Lepszy jest wschod albo Trojkat Kulturowy, albo trzeba przyjac zmienną pogode na plazy."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Бентота или Мирисса?",
+        "a": "Бентота ближе к Коломбо и больше похожа на курорт. Мирисса лучше для наблюдения за китами с ноября по апрель и для более живой южной деревни."
+      }
+    ]
+  },
+  "destWeligama": {
+    "it": [
+      {
+        "q": "Un tour di 7 giorni puo includere Weligama?",
+        "a": "Si come finale al mare dopo Sigiriya, Kandy, Ella e un safari, non come prima notte dopo CMB."
+      }
+    ],
+    "es": [
+      {
+        "q": "Un circuito de 7 dias puede incluir Weligama?",
+        "a": "Si como final de playa despues de Sigiriya, Kandy, Ella y un safari, no como primera noche tras CMB."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy 7 dniowa wycieczka moze obejmowac Welgame?",
+        "a": "Tak jako plazowe zakonczenie po Sigiriyi, Kandy, Elli i safari, a nie jako pierwsza noc po CMB."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Можно ли включить Велигаму в тур на 7 дней?",
+        "a": "Да, как пляжный финал после Сигирии, Канди, Эллы и сафари, а не как первую ночь после CMB."
+      }
+    ]
+  },
+  "destTrincomalee": {
+    "it": [
+      {
+        "q": "Trincomalee o Arugam Bay?",
+        "a": "Arugam Bay e il paese del surf piu a sud est. Trincomalee offre porto, templi e spiagge piu tranquille per le famiglie in stagione."
+      }
+    ],
+    "es": [
+      {
+        "q": "Trincomalee o Arugam Bay?",
+        "a": "Arugam Bay es el pueblo de surf mas al sureste. Trincomalee ofrece puerto, templos y playas mas tranquilas para familias en temporada."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Trincomalee czy Arugam Bay?",
+        "a": "Arugam Bay to miejscowosc surfingowa dalej na poludniowy wschod. Trincomalee to port, swiatynie i spokojniejsze plaze rodzinne w sezonie."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Тринкомали или Аругам Бей?",
+        "a": "Аругам Бей — сёрф-посёлок дальше на юго-востоке. Тринкомали — это гавань, храмы и более спокойные семейные пляжи в сезон."
+      }
+    ]
+  },
+  "guideBestTime": {
+    "fr": [
+      {
+        "q": "Le Sri Lanka en aout est il une bonne idee ?",
+        "a": "Oui pour le Triangle culturel, Kandy (selon les dates de la Perahera) et la cote est. C’est un mois plus faible pour les plages de Galle, Mirissa et Hiriketiya a cause de la mousson du sud ouest."
+      }
+    ],
+    "it": [
+      {
+        "q": "Com’e il meteo in Sri Lanka?",
+        "a": "Dipende dalla costa. Due monsoni: ovest e sud sono di solito piu asciutti da dicembre a marzo, l’est spesso meglio da aprile a settembre. Il Triangolo Culturale si visita quasi tutto l’anno."
+      },
+      {
+        "q": "Lo Sri Lanka ad agosto e una buona idea?",
+        "a": "Si per il Triangolo Culturale, Kandy (se le date della Perahera coincidono) e la costa est. E un mese piu debole per le spiagge di Galle, Mirissa e Hiriketiya a causa del monsone di sud ovest."
+      }
+    ],
+    "es": [
+      {
+        "q": "Sri Lanka en agosto es una buena idea?",
+        "a": "Si para el Triangulo Cultural, Kandy (si coinciden las fechas de la Perahera) y la costa este. Es un mes mas debil para las playas de Galle, Mirissa y Hiriketiya por el monzon del suroeste."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Jaka jest pogoda na Sri Lance?",
+        "a": "Zalezy od wybrzeza. Dwa monsuny: zachod i poludnie sa zwykle najsuchsze od grudnia do marca, wschod czesto lepszy od kwietnia do wrzesnia. Trojkat Kulturowy da sie zwiedzac przez wiekszosc roku."
+      },
+      {
+        "q": "Czy Sri Lanka w sierpniu to dobry pomysl?",
+        "a": "Tak dla Trojkata Kulturowego, Kandy (jesli wypadnie Perahera) i wschodniego wybrzeza. To slabszy miesiac na plaze w Galle, Mirissie i Hiriketiyi przez monsun poludniowo zachodni."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Стоит ли ехать на Шри Ланку в августе?",
+        "a": "Да, если маршрут строится вокруг Культурного треугольника, Канди (если совпадают даты Перахеры) и восточного побережья. Для пляжей Галле, Мириссы и Хирикетии август слабее из за юго западного муссона."
+      }
+    ]
+  },
+  "guideVisa": {
+    "de": [
+      {
+        "q": "Ist die Sri Lanka ETA 2026 kostenlos?",
+        "a": "Für Staatsangehörige von 40 aufgeführten Ländern, darunter Deutschland, grosse Teile der EU, das Vereinigte Königreich, Russland, die USA, Kanada, Indien und Australien, ist die touristische ETA ab dem 25. Mai 2026 für 30 Tage mit doppelter Einreise kostenlos. Der Antrag auf eta.gov.lk bleibt Pflicht."
+      }
+    ],
+    "it": [
+      {
+        "q": "Quali sono i requisiti di ingresso in Sri Lanka per i viaggiatori europei?",
+        "a": "Prima della partenza serve l’ETA su eta.gov.lk. Dal 25 maggio 2026 l’ETA turistica e gratuita per 30 giorni con doppio ingresso per molti passaporti europei, ma la domanda va fatta in anticipo. Tenete circa sei mesi di validita del passaporto e una prova del viaggio successivo."
+      },
+      {
+        "q": "Quali sono i requisiti di ingresso dallo UK?",
+        "a": "I passaporti britannici richiedono l’ETA su eta.gov.lk prima del volo. Dal 25 maggio 2026 l’ETA turistica e gratuita per 30 giorni con doppio ingresso, ma va comunque richiesta in anticipo."
+      }
+    ],
+    "es": [
+      {
+        "q": "Cuales son los requisitos de entrada a Sri Lanka para viajeros europeos?",
+        "a": "Hay que obtener la ETA en eta.gov.lk antes de viajar. Desde el 25 de mayo de 2026 la ETA turistica es gratuita durante 30 dias con doble entrada para muchos pasaportes europeos, pero la solicitud sigue siendo previa. Conservad unos seis meses de validez del pasaporte y una prueba de viaje de salida."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Jakie sa wymogi wjazdu na Sri Lanke dla podroznych z Europy?",
+        "a": "Przed wylotem trzeba uzyskac ETA na eta.gov.lk. Od 25 maja 2026 turystyczna ETA jest bezplatna na 30 dni z podwojnym wjazdem dla wielu europejskich paszportow, ale wniosek sklada sie wczesniej. Zostawcie okolo szesciu miesiecy waznosci paszportu i potwierdzenie dalszej podrozy."
+      },
+      {
+        "q": "Jakie sa wymogi wjazdu z Wielkiej Brytanii?",
+        "a": "Paszport brytyjski wymaga ETA na eta.gov.lk przed lotem. Od 25 maja 2026 turystyczna ETA jest bezplatna na 30 dni z podwojnym wjazdem, ale wniosek i tak sklada sie z wyprzedzeniem."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Ist die Sri Lanka ETA 2026 kostenlos?",
+        "a": "Für Staatsangehörige von 40 aufgeführten Ländern, darunter die Niederlande, grosse Teile der EU, das Vereinigte Königreich, Russland, die USA, Kanada, Indien und Australien, ist die touristische ETA ab dem 25. Mai 2026 für 30 Tage mit doppelter Einreise kostenlos. Der Antrag auf eta.gov.lk bleibt Pflicht."
+      },
+      {
+        "q": "Welche Einreiseregeln gelten für europäische Reisende?",
+        "a": "Die ETA auf eta.gov.lk muss vor der Reise beantragt werden. Ab dem 25. Mai 2026 ist die touristische ETA für viele europäische Pässe 30 Tage mit doppelter Einreise kostenlos, der Antrag bleibt aber vorgeschrieben. Plant etwa sechs Monate Passgültigkeit und einen Nachweis der Weiterreise ein."
+      },
+      {
+        "q": "Welche Einreiseregeln gelten ab dem Vereinigten Königreich?",
+        "a": "Britische Pässe brauchen die ETA auf eta.gov.lk vor dem Abflug. Ab dem 25. Mai 2026 ist die touristische ETA 30 Tage mit doppelter Einreise kostenlos, der Antrag muss trotzdem vorab gestellt werden."
+      }
+    ]
+  },
+  "guideBudget": {
+    "it": [
+      {
+        "q": "Pubblicate il cambio sterlina rupia di oggi?",
+        "a": "Il cambio sterlina lira sri lankese si muove ogni giorno. Sull’isola si paga in rupie. Prepariamo preventivi per le vacanze, non trasferiamo denaro dal Regno Unito."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy publikujecie dzisiejszy kurs funta do rupii?",
+        "a": "Kurs funta do rupii sri lankijskiej zmienia sie codziennie. Na wyspie placi sie w rupiach. Wyceniamy wakacje, nie przesylamy pieniedzy z Wielkiej Brytanii."
+      }
+    ]
+  },
+  "guideFood": {
+    "fr": [
+      {
+        "q": "Ceylon curry est il un restaurant en Allemagne ?",
+        "a": "Sur ce site, ceylon curry designe le riz et le curry sri lankais sur l’ile. Nous n’exploitons pas de restaurant ni d’imbiss en Allemagne."
+      }
+    ],
+    "it": [
+      {
+        "q": "Ceylon curry e un ristorante in Germania?",
+        "a": "Su questo sito ceylon curry indica il riso e curry dello Sri Lanka. Non gestiamo un ristorante o un imbiss in Germania."
+      }
+    ],
+    "es": [
+      {
+        "q": "Ceylon curry es un restaurante en Alemania?",
+        "a": "En este sitio ceylon curry significa el arroz con curry de Sri Lanka. No gestionamos un restaurante ni un imbiss en Alemania."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy ceylon curry to restauracja w Niemczech?",
+        "a": "Na tej stronie ceylon curry oznacza ryz z curry na Sri Lance. Nie prowadzimy restauracji ani imbissu w Niemczech."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Ceylon curry — это ресторан в Германии?",
+        "a": "На этом сайте ceylon curry означает шриланкийский рис с карри на острове. Мы не держим ресторан или имбисс в Германии."
+      }
+    ]
+  },
+  "guideSafety": {
+    "fr": [
+      {
+        "q": "Le Sri Lanka est il sur par rapport aux informations ?",
+        "a": "Sur les itineraires de vacances habituels, oui en general avec un chauffeur prive. Nous ne sommes pas une redaction d’actualite et nous ne couvrons pas les scores de cricket."
+      }
+    ],
+    "it": [
+      {
+        "q": "E sicuro viaggiare in Sri Lanka dall’Europa?",
+        "a": "Si sulle rotte turistiche abituali, con trasporti affidabili, oggetti di valore al sicuro tra la folla e il rispetto delle regole nei templi. Controllate gli avvisi del vostro ministero degli esteri prima del volo."
+      },
+      {
+        "q": "Lo Sri Lanka e sicuro rispetto alle notizie?",
+        "a": "Sulle rotte di vacanza standard in genere si, con un autista privato. Non siamo una redazione di notizie e non seguiamo i risultati di cricket."
+      }
+    ],
+    "es": [
+      {
+        "q": "Es seguro viajar a Sri Lanka desde Europa?",
+        "a": "Si en las rutas turisticas habituales, con transporte de confianza, los objetos de valor bien guardados en las aglomeraciones y respeto de las normas en los templos. Consultad el aviso de vuestro ministerio de exteriores antes de volar."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy bezpiecznie jechac na Sri Lanke z Europy?",
+        "a": "Tak na typowych trasach wakacyjnych, z rzetelnym transportem, kosztownosciami schowanymi w tlumie i z szacunkiem dla zasad w swiatyniach. Przed wylotem sprawdzcie komunikaty swojego MSZ."
+      },
+      {
+        "q": "Czy Sri Lanka jest bezpieczna w porownaniu z wiadomosciami?",
+        "a": "Na standardowych trasach wakacyjnych zwykle tak, z prywatnym kierowca. Nie jestesmy redakcja wiadomosci i nie relacjonujemy wynikow krykieta."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Безопасно ли ехать на Шри Ланку из Европы?",
+        "a": "Да на обычных курортных маршрутах: надёжный транспорт, ценности при себе в толпе и соблюдение правил в храмах. Перед вылетом проверьте рекомендации своего МИДа."
+      },
+      {
+        "q": "Насколько Шри Ланка безопасна по сравнению с новостями?",
+        "a": "На стандартных туристических маршрутах в целом да, с частным водителем. Мы не новостная редакция и не освещаем счёт крикета."
+      }
+    ],
+    "nl": [
+      {
+        "q": "Ist eine Reise aus Europa nach Sri Lanka sicher?",
+        "a": "Auf den üblichen Urlaubsrouten ja, mit verlässlichem Transport, Wertsachen in Menschenmengen gesichert und mit Respekt vor den Tempelregeln. Prüfen Sie vor dem Flug die Reisehinweise Ihres Aussenministeriums."
+      },
+      {
+        "q": "Ist Sri Lanka sicher im Vergleich zu den Nachrichten?",
+        "a": "Auf den normalen Urlaubsstrecken in der Regel ja, mit privatem Fahrer. Wir sind keine Nachrichtenredaktion und berichten nicht über Cricket Ergebnisse."
+      }
+    ]
+  },
+  "monthAugust": {
+    "fr": [
+      {
+        "q": "Yala est il interessant en aout ?",
+        "a": "Les conditions de safari de saison seche sont souvent favorables au milieu de l’annee. Verifiez les dates de fermeture annuelle du parc avant de bloquer un jeep."
+      }
+    ],
+    "it": [
+      {
+        "q": "Si puo nuotare a Mirissa o Hiriketiya in agosto?",
+        "a": "A volte nei giorni piu calmi, ma il monsone di sud ovest porta spesso mare mosso e pioggia. Non costruite l’intero viaggio su queste baie in agosto."
+      },
+      {
+        "q": "Yala e una buona scelta in agosto?",
+        "a": "Le condizioni di safari della stagione secca sono spesso favorevoli a meta anno. Controllate le date di chiusura annuale del parco prima di bloccare una jeep."
+      }
+    ],
+    "es": [
+      {
+        "q": "Se puede banar uno en Mirissa o Hiriketiya en agosto?",
+        "a": "A veces en dias mas calmados, pero el monzon del suroeste suele traer mar gruesa y lluvia. No organiceis todo el viaje alrededor de esas bahias en agosto."
+      },
+      {
+        "q": "Yala es buena opcion en agosto?",
+        "a": "Las condiciones de safari de temporada seca suelen ser favorables a mitad de ano. Confirmad las fechas de cierre anual del parque antes de reservar un jeep."
+      }
+    ],
+    "pl": [
+      {
+        "q": "Czy w sierpniu da sie kapac w Mirissie lub Hiriketiyi?",
+        "a": "Czasem w spokojniejsze dni, ale monsun poludniowo zachodni czesto oznacza wzburzone morze i deszcz. Nie opierajcie calej podrozy na tych zatokach w sierpniu."
+      },
+      {
+        "q": "Czy Yala w sierpniu to dobry wybor?",
+        "a": "Warunki safari w porze suchej sa czesto korzystne w srodku roku. Sprawdzcie roczne daty zamkniecia parku, zanim zarezerwujecie jeepa."
+      }
+    ],
+    "ru": [
+      {
+        "q": "Можно ли купаться в Мириссе или Хирикетии в августе?",
+        "a": "Иногда в более спокойные дни, но юго западный муссон часто означает волны и дождь. Не стройте всю поездку вокруг этих бухт в августе."
+      },
+      {
+        "q": "Хороша ли Яла в августе?",
+        "a": "Сафари в сухой сезон в середине года часто удачно. Уточните ежегодные даты закрытия парка, прежде чем бронировать джип."
+      }
+    ]
+  }
+}

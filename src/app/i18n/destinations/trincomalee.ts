@@ -160,11 +160,19 @@ export const TRINCOMALEE_DEST: ArticleContent = {
         title: 'Playas, templos y Pigeon Island',
         body: 'Arena clara en Nilaveli y Uppuveli, templo Koneswaram en Swami Rock, puerto natural, snorkel de temporada en Pigeon Island (permisos y barcos autorizados). El ritmo es mas calmo que Mirissa en invierno europeo.\n\nDesde el Triangulo Cultural la carretera es larga: Trincomalee merece noches propias, no una tarde simbolica.',
       },
+      {
+        title: 'Como incluir Trincomalee en una ruta',
+        body: 'Es una buena opcion para circuitos de 10 a 14 dias durante la temporada seca del este: Sigiriya y Kandy, despues la costa oriental y finalmente regreso hacia CMB. Intentar combinar las playas del sur y Trincomalee en siete dias suele implicar demasiadas horas de carretera.',
+      },
     ],
     faq: [
       {
         q: 'Trincomalee es mejor que Mirissa en agosto?',
         a: 'A menudo si para nadar: agosto cae en el monzon del suroeste. El este suele estar mas seco.',
+      },
+      {
+        q: 'Trincomalee o Arugam Bay?',
+        a: 'Arugam Bay es el pueblo de surf mas al sureste. Trincomalee ofrece puerto, templos y playas mas tranquilas para familias en temporada.',
       },
     ],
     ctaTitle: 'Anadir la costa este segun vuestras fechas',
@@ -195,11 +203,23 @@ export const TRINCOMALEE_DEST: ArticleContent = {
         title: 'Kiedy wybrac wschod',
         body: 'Ok. maja to wrzesnia wschod bywa suchszy, gdy Kolombo, Bentota, Mirissa i poludniowy zachod biora monsun. Od listopada monsun polnocno wschodni moze moczyc te strone. Nie kopiujcie grudniowej trasy poludnia na Trincomalee bez sprawdzenia sezonu.',
       },
+      {
+        title: 'Plaze, swiatynie i Pigeon Island',
+        body: 'Jasny piasek Nilaveli i Uppuveli, swiatynia Koneswaram na Swami Rock, naturalny port oraz sezonowy snorkeling przy Pigeon Island (wymagane pozwolenia i licencjonowane lodzie). W szczycie zimowego sezonu jest tu spokojniej niz w Mirissie.\n\nDojazd z Trojkata Kulturowego jest dlugi, dlatego warto zaplanowac w Trincomalee kilka noclegow zamiast symbolicznego popoludnia.',
+      },
+      {
+        title: 'Trincomalee na trasie objazdu',
+        body: 'Najlepiej pasuje do 10–14-dniowej podrozy w suchym sezonie na wschodzie: Sigiriya i Kandy, potem wybrzeze wschodnie i powrot w strone CMB. Polaczenie plaz poludnia i Trincomalee w siedem dni oznacza zwykle zbyt wiele godzin jazdy.',
+      },
     ],
     faq: [
       {
         q: 'Czy Trincomalee jest lepsze niz Mirissa w sierpniu?',
         a: 'Czesto tak do kapieli: sierpien wpada w monsun poludniowo zachodni. Wschod bywa wtedy suchszy.',
+      },
+      {
+        q: 'Trincomalee czy Arugam Bay?',
+        a: 'Arugam Bay to miejscowosc surfingowa dalej na poludniowy wschod. Trincomalee to port, swiatynie i spokojniejsze plaze rodzinne w sezonie.',
       },
     ],
     ctaTitle: 'Dodac wschod wedlug Waszych dat',
@@ -230,11 +250,23 @@ export const TRINCOMALEE_DEST: ArticleContent = {
         title: 'Quando scegliere la costa est',
         body: 'Circa maggio to settembre l’est e spesso piu secco mentre Colombo, Bentota, Mirissa e il sud ovest prendono il monsone. Da novembre il monsone nord est puo bagnare questo lato. Non copiate un itinerario sud di dicembre su Trincomalee senza controllare la stagione.',
       },
+      {
+        title: 'Spiagge, templi e Pigeon Island',
+        body: 'La sabbia chiara di Nilaveli e Uppuveli, il tempio Koneswaram su Swami Rock, il porto naturale e lo snorkeling stagionale a Pigeon Island (con permessi e barche autorizzate) sono le tappe principali. In alta stagione invernale il ritmo e piu tranquillo che a Mirissa.\n\nDal Triangolo Culturale il trasferimento e lungo: Trincomalee merita alcune notti dedicate, non una breve sosta pomeridiana.',
+      },
+      {
+        title: 'Inserire Trincomalee in un tour',
+        body: 'La costa est funziona bene nei tour di 10–14 giorni durante la stagione secca: Sigiriya e Kandy, poi Trincomalee e infine il rientro verso CMB. Cercare di unire le spiagge del sud e Trincomalee in sette giorni significa passare troppe ore in auto.',
+      },
     ],
     faq: [
       {
         q: 'Trincomalee e meglio di Mirissa ad agosto?',
         a: 'Spesso si per nuotare: agosto cade nel monsone sud ovest. L’est e in genere piu secco.',
+      },
+      {
+        q: 'Trincomalee o Arugam Bay?',
+        a: 'Arugam Bay e il paese del surf piu a sud est. Trincomalee offre porto, templi e spiagge piu tranquille per le famiglie in stagione.',
       },
     ],
     ctaTitle: 'Aggiungere l’est in base alle date',
@@ -256,24 +288,36 @@ export const TRINCOMALEE_DEST: ArticleContent = {
     ],
   },
   ru: {
-    h1: 'Тринкомали Шри Ланка: восток, Pigeon Island, не Amaya Passikudah',
+    h1: 'Тринкомали, Шри-Ланка: пляжи восточного побережья и гавань',
     lead:
-      'Тринкомаливосточное побережье в сезон мая–сентября: Нилавели, Уппувели, снорклинг у Pigeon Island. Amaya Beach Passikudahдругой курорт востока. Аругам Бейсёрф дальше на юг по востоку, не пригород Тринкомали.',
+      'Тринкомали, включая Нилавели и Уппувели, становится хорошим выбором, когда юго-западный муссон приносит дожди в Галле и Бентоту. С мая по сентябрь на востоке обычно суше, поэтому это подходящее время для пляжа и снорклинга у острова Пиджен.',
     heroAlt: 'Пляж восточного побережья у Тринкомали, Шри Ланка',
     sections: [
       {
         title: 'Когда ехать на восток',
-        body: 'Пока юго западный муссон мочит Коломбо, Хиккадуву и Галле, восток обычно суше. Зимний южный пляжный финал в Тринкомали часто значит длинную дорогу и не тот сезон. Частный маршрут разворачивает пляж туда, где в ваши даты реально купаться.',
+        body: 'Примерно с мая по сентябрь восток обычно суше, пока муссон приносит дожди в Коломбо, Бентоту, Мириссу и другие районы юго-запада. С ноября на это побережье может повлиять северо-восточный муссон. Не переносите сюда зимний маршрут по южным пляжам, не проверив сезон.',
+      },
+      {
+        title: 'Пляжи, храмы и остров Пиджен',
+        body: 'В Нилавели и Уппувели светлый песок, на скале Свами находится храм Конесварам, а в сезон можно заняться снорклингом у острова Пиджен с лицензированной лодкой и необходимым разрешением. В высокий зимний сезон здесь спокойнее, чем в Мириссе.\n\nДорога из Культурного треугольника долгая, поэтому Тринкомали стоит посвятить несколько ночей, а не заезжать на короткое время.',
+      },
+      {
+        title: 'Тринкомали в маршруте по острову',
+        body: 'Восточное побережье хорошо подходит для поездки на 10–14 дней в сухой сезон: после Сигирии и Канди можно провести несколько ночей в Тринкомали, а затем возвращаться к CMB. За семь дней совместить восточные и южные пляжи обычно означает слишком много времени в дороге.',
       },
     ],
     faq: [
       {
-        q: 'Стоит ли ехать в Тринкомали зимой из России?',
-        a: 'Чаще нет как основной пляж: декабрь–март обычно лучше запад и юг. Май–сентябрьокно востока.',
+        q: 'Когда лучше отдыхать на восточном побережье?',
+        a: 'Обычно с мая по сентябрь, когда восток суше, а на юго западе идут муссонные дожди. Перед поездкой проверьте актуальный прогноз и состояние моря.',
+      },
+      {
+        q: 'Тринкомали или Аругам Бей?',
+        a: 'Аругам Бей — сёрф-посёлок дальше на юго-востоке. Тринкомали — это гавань, храмы и более спокойные семейные пляжи в сезон.',
       },
     ],
     ctaTitle: 'Добавить восток, если это ваш сезон',
-    ctaBody: 'Пришлите месяц. Если восток сушевстроим Тринкомали или Аругам Бей в частный объезд.',
+    ctaBody: 'Пришлите месяц. Если восток суше, встроим Тринкомали или Аругам Бей в частный объезд.',
     ctaLabel: 'Спланировать восток',
     relatedTours: [
       { pageId: 'tour8', label: 'Тур 8 дней' },
@@ -287,6 +331,46 @@ export const TRINCOMALEE_DEST: ArticleContent = {
       { pageId: 'guideBeaches', label: 'Пляжи по сезонам' },
       { pageId: 'guideBestTime', label: 'Когда ехать' },
       { pageId: 'marketRussia', label: 'Из России' },
+    ],
+  },
+  nl: {
+    h1: 'Trincomalee, Sri Lanka: stranden aan de oostkust en haven',
+    lead: 'Trincomalee, met Nilaveli en Uppuveli, is een goede keuze wanneer de zuidwestmoesson regen brengt aan de zuid en westkust. Van mei tot september is het aan de oostkust meestal droger, met mogelijkheden om te zwemmen en te snorkelen.',
+    heroAlt: 'Strand aan de oostkust bij Trincomalee, Sri Lanka',
+    sections: [
+      {
+        title: 'Wanneer u voor de oostkust kiest',
+        body: 'Van ongeveer mei tot september is het oosten vaak droger, terwijl Colombo, Bentota, Mirissa en het zuidwesten moessonregens krijgen. Vanaf november kan de noordoostmoesson deze kust bereiken. Neem een route voor de zuidkust in december dus niet zomaar over voor Trincomalee; controleer eerst het seizoen.',
+      },
+      {
+        title: 'Stranden, tempels en Pigeon Island',
+        body: 'Nilaveli en Uppuveli hebben licht zand; bij Swami Rock staat de Koneswaram-tempel en in het seizoen kunt u snorkelen bij Pigeon Island met een vergunning en een erkende boot. In het winterhoogseizoen is het hier rustiger dan in Mirissa.\n\nDe rit vanuit de Culturele Driehoek is lang genoeg om meerdere nachten in Trincomalee te plannen in plaats van er alleen een korte middagstop van te maken.',
+      },
+      {
+        title: 'Trincomalee opnemen in een rondreis',
+        body: 'Trincomalee past het best in een reis van 10 tot 14 dagen tijdens het droge seizoen aan de oostkust: bezoek Sigiriya en Kandy, reis daarna naar het oosten en keer vervolgens terug richting CMB. De zuidkust en Trincomalee combineren in zeven dagen betekent meestal te veel uren onderweg.',
+      },
+    ],
+    faq: [
+      { q: 'Is Trincomalee goed in augustus?', a: 'Vaak wel om te zwemmen, terwijl de zuidwestkust met de moesson te maken heeft. Controleer kort voor vertrek de weersverwachting en de toestand van de zee.' },
+      { q: 'Trincomalee of Arugam Bay?', a: 'Arugam Bay is vooral bekend om surfen en ligt zuidelijker aan de oostkust. Trincomalee biedt een natuurlijke haven, tempels en rustige gezinsstranden in het juiste seizoen.' },
+    ],
+    ctaTitle: 'Plan een privéreis naar de oostkust',
+    ctaBody: 'Deel uw reisdata. Als het seizoen gunstig is, nemen we Trincomalee op in uw route in plaats van een strandstop aan een natte zuidkust.',
+    ctaLabel: 'Deze kust plannen',
+    relatedTours: [
+      { pageId: 'tour10', label: 'Rondreis van 10 dagen' },
+      { pageId: 'tour8', label: 'Rondreis van 8 dagen' },
+    ],
+    relatedDestinations: [
+      { pageId: 'destSigiriya', label: 'Sigiriya' },
+      { pageId: 'destKandy', label: 'Kandy' },
+      { pageId: 'destYala', label: 'Yala' },
+    ],
+    relatedGuides: [
+      { pageId: 'guideBeaches', label: 'Stranden per seizoen' },
+      { pageId: 'guideBestTime', label: 'Beste reistijd voor Sri Lanka' },
+      { pageId: 'marketNetherlands', label: 'Reizen vanuit Nederland' },
     ],
   },
 };

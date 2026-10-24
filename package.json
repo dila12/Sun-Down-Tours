@@ -2,7 +2,7 @@
   "name": "travelwebsite",
   "version": "0.0.0",
   "scripts": {
-    "build": "ng build --configuration production",
+    "build": "ng build --configuration production && node scripts/strip-incomplete-redirect-shells.mjs",
     "vercel-build": "npm run build && node scripts/prepare-vercel-function.mjs",
     "start": "ng serve",
     "start:prod": "ng serve --configuration production",
@@ -15,7 +15,7 @@
     "generate-tour-gallery-manifest": "node scripts/generate-tour-gallery-manifest.mjs",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "test:redirects": "node scripts/test-edge-redirects.mjs",
-    "prebuild": "node scripts/generate-image-manifest.mjs && node scripts/generate-tour-gallery-manifest.mjs && node scripts/generate-sitemap.mjs && node scripts/test-edge-redirects.mjs && node scripts/generate-vercel-redirects.mjs",
+    "prebuild": "node scripts/generate-incomplete-redirects.mjs && node scripts/audit-i18n-seo.mjs && node scripts/generate-image-manifest.mjs && node scripts/generate-tour-gallery-manifest.mjs && node scripts/generate-sitemap.mjs && node scripts/test-edge-redirects.mjs && node scripts/generate-vercel-redirects.mjs",
     "prestart": "node scripts/generate-image-manifest.mjs && node scripts/generate-tour-gallery-manifest.mjs && node scripts/generate-sitemap.mjs",
     "serve:ssr:Travelwebsite": "node dist/Travelwebsite/server/server.mjs"
   },

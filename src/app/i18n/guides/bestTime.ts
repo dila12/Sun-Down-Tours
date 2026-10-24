@@ -45,7 +45,7 @@ export const BEST_TIME_GUIDE: ArticleContent = {
     faq: [
       {
         q: 'What is the single best month to visit Sri Lanka?',
-        a: 'There isn’t onet depends entirely on which regions you plan to visit. February is a reasonably safe all round choice since it falls in the dry season for both the west/south coast and the Cultural Triangle, but a well planned itinerary can work in almost any month.',
+        a: 'There isn’t one. It depends entirely on which regions you plan to visit. February is a reasonably safe all round choice since it falls in the dry season for both the west/south coast and the Cultural Triangle, but a well planned itinerary can work in almost any month.',
       },
       {
         q: 'When is the rainy season in Sri Lanka?',
@@ -53,7 +53,7 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       },
       {
         q: 'Is Sri Lanka worth visiting in the off season?',
-        a: 'Yes, especially for value and smaller crowdsn in the tropics is usually a heavy afternoon shower rather than an all day washout, and a flexible, private driver itinerary can route around the wettest regions on any given date.',
+        a: 'Yes, especially for value and smaller crowds. Rain in the tropics is usually a heavy afternoon shower rather than an all day washout, and a flexible, private driver itinerary can route around the wettest regions on any given date.',
       },
       {
         q: 'When should I book a Yala safari for the best chance of sightings?',
@@ -227,6 +227,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
         q: 'Quand partir au Sri Lanka et quand aller ?',
         a: 'Quand partir sri lanka, quand partir au sri lanka, sri lanka quand partir et quand aller au sri lanka : sud et ouest de decembre a mars ; est souvent de mai a septembre. Meteo sri lanka / sri lanka meteo selon la cote, pas un seul mois.',
       },
+      {
+        q: 'Le Sri Lanka en aout est il une bonne idee ?',
+        a: 'Oui pour le Triangle culturel, Kandy (selon les dates de la Perahera) et la cote est. C’est un mois plus faible pour les plages de Galle, Mirissa et Hiriketiya a cause de la mousson du sud ouest.',
+      },
     ],
     ctaTitle: 'Laissez nous organiser votre itineraire autour de la meteo',
     ctaBody: 'Nos circuits prives avec chauffeur sont planifies mois par mois en fonction des deux moussons du Sri Lanka, vous orientant vers les regions les plus seches a vos dates de voyage.',
@@ -298,6 +302,14 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       {
         q: 'Lo Sri Lanka ha una stagione di uragani o cicloni?',
         a: 'Lo Sri Lanka si trova a sud della principale fascia dei cicloni ed e raramente colpito direttamente, sebbene le depressioni monsoniche possano portare piogge forti e prolungate, in particolare sulla costa orientale intorno a novembre.',
+      },
+      {
+        q: 'Com’e il meteo in Sri Lanka?',
+        a: 'Dipende dalla costa. Due monsoni: ovest e sud sono di solito piu asciutti da dicembre a marzo, l’est spesso meglio da aprile a settembre. Il Triangolo Culturale si visita quasi tutto l’anno.',
+      },
+      {
+        q: 'Lo Sri Lanka ad agosto e una buona idea?',
+        a: 'Si per il Triangolo Culturale, Kandy (se le date della Perahera coincidono) e la costa est. E un mese piu debole per le spiagge di Galle, Mirissa e Hiriketiya a causa del monsone di sud ovest.',
       },
     ],
     ctaTitle: 'Lasciate che pianifichiamo il vostro itinerario in base al meteo',
@@ -375,6 +387,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
         q: 'Cual es la mejor epoca para viajar a Sri Lanka?',
         a: 'Mejor epoca para viajar a sri lanka: sur y oeste de diciembre a marzo; este a menudo de mayo a septiembre. Tiempo sri lanka, tiempo en sri lanka y sri lanka weather segun la costa, no un solo mes.',
       },
+      {
+        q: 'Sri Lanka en agosto es una buena idea?',
+        a: 'Si para el Triangulo Cultural, Kandy (si coinciden las fechas de la Perahera) y la costa este. Es un mes mas debil para las playas de Galle, Mirissa y Hiriketiya por el monzon del suroeste.',
+      },
     ],
     ctaTitle: 'Dejenos organizar su itinerario segun el clima',
     ctaBody: 'Nuestros tours privados con chofer se planifican mes a mes segun los dos monzones de Sri Lanka, dirigiendole hacia las regiones mas secas en sus fechas de viaje.',
@@ -446,6 +462,14 @@ export const BEST_TIME_GUIDE: ArticleContent = {
       {
         q: 'Czy Sri Lanka ma sezon huraganow lub cyklonow?',
         a: 'Sri Lanka lezy na poludnie od glownego pasa cyklonowego i rzadko jest bezposrednio dotykana, choc nize monsunowe moga przyniesc silne, dlugotrwale deszcze, szczegolnie na wschodnim wybrzezu wokol listopada.',
+      },
+      {
+        q: 'Jaka jest pogoda na Sri Lance?',
+        a: 'Zalezy od wybrzeza. Dwa monsuny: zachod i poludnie sa zwykle najsuchsze od grudnia do marca, wschod czesto lepszy od kwietnia do wrzesnia. Trojkat Kulturowy da sie zwiedzac przez wiekszosc roku.',
+      },
+      {
+        q: 'Czy Sri Lanka w sierpniu to dobry pomysl?',
+        a: 'Tak dla Trojkata Kulturowego, Kandy (jesli wypadnie Perahera) i wschodniego wybrzeza. To slabszy miesiac na plaze w Galle, Mirissie i Hiriketiyi przez monsun poludniowo zachodni.',
       },
     ],
     ctaTitle: 'Zaplanujemy Twoja trase wokol pogody',
@@ -523,6 +547,10 @@ export const BEST_TIME_GUIDE: ArticleContent = {
         q: 'Какая шри ланка погода сейчас для планирования тура?',
         a: 'Погода шри ланка на карте не одна цифра. Назовите месяц: мы ставим пляж туда, где сезон отдыха реально сухой, а культуру и сафари оставляем в маршруте.',
       },
+      {
+        q: 'Стоит ли ехать на Шри Ланку в августе?',
+        a: 'Да, если маршрут строится вокруг Культурного треугольника, Канди (если совпадают даты Перахеры) и восточного побережья. Для пляжей Галле, Мириссы и Хирикетии август слабее из за юго западного муссона.',
+      },
     ],
     ctaTitle: 'Позвольте нам спланировать маршрут с учётом погоды',
     ctaBody: 'Наши частные туры с водителем планируются месяц за месяцем с учётом двух муссонов Шри Ланки, направляя вас в те регионы, которые будут самыми сухими в ваши даты поездки.',
@@ -544,80 +572,88 @@ export const BEST_TIME_GUIDE: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Beste tijd sri lanka: weer, seizoen en wanneer gaan',
-    lead: 'Sri lanka weer hangt van de kust af. Twee moessons, dus bijna altijd ergens droog. Beste tijd sri lanka is de droge fase van de kust die u wilt, niet een enkele beste maand.',
-    heroAlt: 'Sonniger Strand mit Palmen an der srilankischen Kuste',
+    h1: 'Beste reistijd voor Sri Lanka: een gids per maand',
+    lead: 'Sri Lanka heeft twee moessons die op verschillende momenten in het jaar tegenoverliggende kusten treffen. Daardoor is er bijna altijd ergens op het eiland een droge, zonnige streek. De kunst is uw route af te stemmen op het seizoen, niet één beste maand te zoeken.',
+    heroAlt: 'Zonnig strand en palmbomen aan de kust van Sri Lanka',
     sections: [
       {
-        title: 'Warum Sri Lanka zwei Trockenzeiten hat, nicht nur eine',
-        body: 'Der Yala Monsun bringt der Sudwestkuste und dem Bergland etwa von Mai bis September Regen, wahrend der Maha Monsun dem Nordosten und dem Kulturdreieck etwa von Oktober bis Januar Regen bringt. Das bedeutet, dass Westkuste, Sudkuste, Bergland und Kulturdreieck selten gleichzeitig Regenzeit haben.\n\nFur einen Strandurlaub in einer einzigen Region ist das enorm wichtig; fur eine mehrtagige Rundreise durch verschiedene Regionen weniger, da sich die Route um die jeweils trockensten Gebiete wahrend Ihrer Reisedaten herum planen lasst.',
+        id: 'twoMonsoons',
+        title: 'Waarom Sri Lanka twee droge seizoenen heeft',
+        body: 'De Yala moesson brengt regen naar de zuidwestkust en het heuvelland, ongeveer van mei tot september. De Maha moesson brengt regen naar het noordoosten en de Culturele Driehoek, ongeveer van oktober tot januari. Daardoor hebben de westkust, de zuidkust, het heuvelland en de Culturele Driehoek zelden tegelijk hun natte seizoen.\n\nVoor een strandvakantie in één streek is dat erg belangrijk. Voor een meerdaagse rondreis die tussen streken wisselt, telt het minder. Uw route kan worden gebouwd rond de gebieden die het droogst zijn op uw reisdata.',
       },
       {
-        title: 'Dezember bis Marz: Hochsaison fur Westen und Suden',
-        body: 'Dies ist das trockenste, sonnigste Fenster fur Colombo, die Sudwestkuste Strande (Bentota, Mirissa, Unawatuna), Galle und das Bergland  und damit die geschaftigste und teuerste Reisezeit. Auch die Walbeobachtung vor Mirissa erreicht in diesem Zeitraum ihren Hohepunkt.\n\nBuchen Sie Unterkunfte und Platze im malerischen Zug rechtzeitig, wenn Sie in diesem Zeitraum reisen, besonders rund um Weihnachten, Neujahr und das singhalesisch tamilische Neujahr im April.',
+        id: 'decToMarch',
+        title: 'December tot maart: hoogseizoen voor het westen en het zuiden',
+        body: 'Dit is de droogste en zonnigste periode voor Colombo, de stranden in het zuidwesten (Bentota, Mirissa, Unawatuna), Galle en het heuvelland. Daardoor is het ook de drukste en duurste reistijd. Walvissen kijken voor de kust van Mirissa piekt eveneens in deze periode.\n\nBoek accommodatie en zitplaatsen in de landschapstrein ruim van tevoren als u in deze periode reist, vooral rond Kerstmis, Nieuwjaar en het Sinhala en Tamil nieuwjaar in april.',
       },
       {
-        title: 'April bis September: die Ostkuste kommt zum Zug',
-        body: 'Wenn der Sudwestmonsun eintrifft, trocknet die Ostkuste rund um Trincomalee und Arugam Bay ab und wird zur besseren Strandwahl; Surfer bevorzugen besonders die Wellen von Arugam Bay etwa von April bis Oktober.\n\nDiese Zeit bietet auch ausgezeichnete Bedingungen fur Besichtigungen im Kulturdreieck (Sigiriya, Dambulla, Polonnaruwa, Anuradhapura), da diese Region weitgehend ausserhalb beider Monsungurtel liegt und angenehm trocken bleibt.',
+        id: 'aprToSep',
+        title: 'April tot september: de beurt aan de oostkust',
+        body: 'Als de zuidwestmoesson aankomt, droogt de oostkust rond Trincomalee en Arugam Bay op en wordt die de betere strandkeuze. Vooral surfers kiezen de golven van Arugam Bay ongeveer van april tot oktober.\n\nDeze periode geeft ook uitstekende omstandigheden voor bezienswaardigheden in de Culturele Driehoek (Sigiriya, Dambulla, Polonnaruwa, Anuradhapura). Die streek ligt grotendeels buiten beide moessongordels en blijft aangenaam droog.',
       },
       {
-        title: 'Timing fur Wildtier und Safari Reisen',
-        body: 'Der Yala Nationalpark ist allgemein von Mai bis September am besten, wenn die Trockenzeit Tiere um verbleibende Wasserlocher konzentriert; der Park schliesst ausserdem etwa einen Monat, meist im September, fur die Habitatpflege. Das Elefanten-„Gathering“ in Minneriya und Kaudulla erreicht von Juli bis Oktober seinen Hohepunkt.\n\nDie Walbeobachtung von Mirissa lauft etwa von November bis April und uberlappt sich genau mit der Trockenzeit der Sudkuste.',
+        id: 'wildlifeTiming',
+        title: 'Het tijdstip voor wilde dieren en safari’s',
+        body: 'Nationaal park Yala is over het algemeen het best van mei tot september. In het droge seizoen verzamelen dieren zich rond de overgebleven waterpoelen. Het park sluit ook ongeveer een maand, meestal in september, voor beheer van het leefgebied. De olifantenbijeenkomst van Minneriya en Kaudulla piekt van juli tot oktober.\n\nWalvissen kijken vanuit Mirissa loopt ongeveer van november tot april en valt samen met het droge seizoen aan de zuidkust.',
       },
       {
-        title: 'Festivals, um die sich eine Reise lohnt',
-        body: 'Kandys Esala Perahera, eine der grossen religiosen Prozessionen Asiens, dauert zehn Nachte im Juli oder August nach dem Mondkalender; buchen Sie Unterkunfte Monate im Voraus, wenn dies fur Sie wichtig ist. Das singhalesisch tamilische Neujahr Mitte April ist ein bedeutender nationaler Feiertag mit weitverbreiteten Schliessungen  planen Sie eher darum als hindurch.\n\nVesak Poya im Mai, das Geburt, Erleuchtung und Tod Buddhas markiert, bringt landesweite Laternenschauspiele und kostenlose Essensstande (Dansal), die eine Erfahrung wert sind, wenn Ihre Termine passen.',
+        id: 'festivalTiming',
+        title: 'Festivals waar u een reis omheen kunt plannen',
+        body: 'De Esala Perahera in Kandy, een van de grote religieuze processies van Azië, duurt tien nachten in juli of augustus volgens de maankalender. Boek maanden van tevoren accommodatie als dit een prioriteit is. Het Sinhala en Tamil nieuwjaar midden april is een grote nationale feestdag met veel sluitingen. Plan eromheen, niet erdoorheen.\n\nVesak Poya in mei herdenkt de geboorte, de verlichting en de dood van de Boeddha. Door de steden hangen lantaarns en er zijn gratis eetkraampjes (dansal). Die zijn de moeite waard als uw data samenvallen.',
       },
       {
-        title: 'Warum sich die Zwischensaison lohnt',
-        body: 'Ende April bis Anfang Juni und September bis Anfang November liegen zwischen den beiden Monsunhohepunkten und bieten oft eine gute Mischung aus uberschaubarem Regen, niedrigeren Preisen und weniger Andrang an grossen Sehenswurdigkeiten wie Sigiriya und dem Zahntempel. Kurze, intensive Nachmittagsschauer statt tagelangem Regen sind in diesen Zeitraumen typisch.\n\nEin privater Fahrer Guide, der den Tagesplan in Echtzeit ans Wetter anpassen kann, ist in der Zwischensaison besonders wertvoll, wenn sich die Bedingungen innerhalb derselben Woche von Region zu Region andern konnen.',
+        id: 'shoulderSeasons',
+        title: 'Waarom het tussenseizoen de moeite waard is',
+        body: 'Eind april tot begin juni en september tot begin november liggen tussen de twee moessonpieken. Vaak krijgt u een goede mix van hanteerbare regen, lagere prijzen en minder drukte bij grote plekken zoals Sigiriya en de Tandtempel. Korte, hevige buien in de middag zijn in deze periodes typischer dan regen de hele dag.\n\nEen privéchauffeur die het dagplan direct kan aanpassen aan het weer is in het tussenseizoen extra waardevol. De omstandigheden kunnen binnen dezelfde week per streek verschillen.',
       },
     ],
     faq: [
       {
-        q: 'Was ist der eine beste Monat, um Sri Lanka zu besuchen?',
-        a: 'Es gibt keinen  es hangt ganz davon ab, welche Regionen Sie besuchen mochten. Februar ist eine relativ sichere Rundum Wahl, da er sowohl fur die West-/Sudkuste als auch fur das Kulturdreieck in die Trockenzeit fallt, aber eine gut geplante Route funktioniert in fast jedem Monat.',
+        q: 'Wat is de ene beste maand om Sri Lanka te bezoeken?',
+        a: 'Die is er niet. Het hangt volledig af van de streken die u wilt bezoeken. Februari is een redelijk veilige keuze voor het geheel, omdat die maand in het droge seizoen valt voor zowel de westkust en de zuidkust als de Culturele Driehoek. Een goed geplande route kan in bijna elke maand werken.',
       },
       {
-        q: 'Wann ist die Regenzeit in Sri Lanka?',
-        a: 'Sri lanka regenzeit: Sudwestmonsun etwa Mai bis September (West, Sud, Bergland); Nordostmonsun etwa Oktober bis Januar (Ostkuste). Beide uberlappen sich selten.',
+        q: 'Wanneer is het regenseizoen in Sri Lanka?',
+        a: 'De zuidwestmoesson loopt ongeveer van mei tot september en treft de westkust, de zuidkust en het heuvelland. De noordoostmoesson loopt ongeveer van oktober tot januari en treft de oostkust en delen van de Culturele Driehoek. De twee overlappen zelden.',
       },
       {
-        q: 'Wie ist sri lanka wetter november und dezember?',
-        a: 'Sri lanka wetter november: Sud und Westkuste werden oft trockener. Sri lanka wetter dezember ist Hochsaison dort. Die Ostkuste kann nasser sein. Eine Rundreise wechselt die Kuste.',
+        q: 'Is Sri Lanka de moeite waard buiten het hoogseizoen?',
+        a: 'Ja, vooral vanwege de prijs en de kleinere drukte. Regen in de tropen is meestal een zware bui in de middag, geen dag die volledig verregent. Een flexibele route met privéchauffeur kan op elke datum de natste streken vermijden.',
       },
       {
-        q: 'Was ist die beste reisezeit sri lanka rundreise?',
-        a: 'Beste reisezeit sri lanka rundreise: Dezember bis Marz fur Klassiker plus Baden im Suden; Mai bis September oft Ostkuste und Kulturdreieck. Wir legen die Route auf Ihre Daten.',
+        q: 'Wanneer boek ik een safari in Yala voor de beste kans op waarnemingen?',
+        a: 'Mei tot september geeft over het algemeen de beste kansen. In het droge seizoen verzamelen wilde dieren zich rond minder waterpoelen. Het park sluit elk jaar ongeveer een maand, meestal in september, voor beheer van het leefgebied.',
       },
       {
-        q: 'Lohnt sich Sri Lanka in der Nebensaison?',
-        a: 'Ja, besonders preislich und wegen weniger Andrang  Regen in den Tropen ist meist ein kraftiger Nachmittagsschauer, kein Regentag durchgehend, und eine flexible Route mit privatem Fahrer kann die feuchtesten Regionen an jedem Tag umgehen.',
+        q: 'Hoe is het weer in Sri Lanka?',
+        a: 'Dat hangt af van de kust die u bezoekt. Door twee moessons zijn het westen en het zuiden meestal het droogst van december tot maart, terwijl het oosten vaak beter is van april tot september. De Culturele Driehoek is het grootste deel van het jaar goed te bezoeken. Zie onze augustusgids als u reist tijdens de zomervakantie van Britse scholen.',
       },
       {
-        q: 'Wann sollte ich eine Yala Safari fur die besten Sichtungschancen buchen?',
-        a: 'Mai bis September bietet allgemein die besten Chancen, da die Trockenzeit Wildtiere um weniger Wasserlocher konzentriert. Der Park schliesst jedes Jahr fur etwa einen Monat, meist im September, wegen Habitatpflege.',
+        q: 'Is Sri Lanka in augustus een goed idee?',
+        a: 'Ja, voor de Culturele Driehoek, Kandy (als de datum van de Perahera het toelaat) en de oostkust. Het is een zwakkere maand voor het strandweer in Galle, Mirissa en Hiriketiya door de zuidwestmoesson.',
       },
       {
-        q: 'Gibt es in Sri Lanka eine Hurrikan- oder Zyklonsaison?',
-        a: 'Sri Lanka liegt sudlich des Hauptzyklongurtels und wird selten direkt getroffen, obwohl Monsuntiefs vor allem der Ostkuste um November starken, anhaltenden Regen bringen konnen.',
+        q: 'Heeft Sri Lanka een seizoen van orkanen of cyclonen?',
+        a: 'Sri Lanka ligt ten zuiden van de belangrijkste cyclonengordel en wordt zelden rechtstreeks getroffen. Moessondepressies kunnen wel zware, aanhoudende regen brengen, vooral aan de oostkust rond november.',
       },
     ],
-    ctaTitle: 'Lassen Sie uns Ihre Route ums Wetter herum planen',
-    ctaBody: 'Unsere privaten Rundreisen mit Fahrer werden monatsgenau um Sri Lankas zwei Monsune geplant und fuhren Sie zu den Regionen, die an Ihren Reisedaten am trockensten sind.',
-    ctaLabel: 'Reise nach Saison planen',
+    ctaTitle: 'Laat ons uw route bouwen rond het weer',
+    ctaBody: 'Onze privérondreizen met chauffeur worden maand na maand gepland rond de twee moessons van Sri Lanka. Wij sturen u naar de streken die het droogst zijn op uw reisdata.',
+    ctaLabel: 'Plan uw reis per seizoen',
     relatedTours: [
-      { pageId: 'tour7', label: '7 tagige private Sri Lanka Rundreise' },
-      { pageId: 'tour5', label: '5 tagige Sri Lanka Rundreise' },
+      { pageId: 'tour7', label: 'Privérondreis van 7 dagen door Sri Lanka' },
+      { pageId: 'tour5', label: 'Rondreis van 5 dagen door Sri Lanka' },
     ],
     relatedDestinations: [
       { pageId: 'destSigiriya', label: 'Sigiriya' },
       { pageId: 'destElla', label: 'Ella' },
-      { pageId: 'destYala', label: 'Yala Nationalpark' },
+      { pageId: 'destYala', label: 'Nationaal park Yala' },
     ],
     relatedGuides: [
-      { pageId: 'guideWildlife', label: 'Sri Lanka Tierwelt Ratgeber' },
-      { pageId: 'guidePacking', label: 'Sri Lanka Packliste Ratgeber' },
+      { pageId: 'guideWildlife', label: 'Gids over de wilde dieren van Sri Lanka' },
+      { pageId: 'guidePacking', label: 'Paklijst voor Sri Lanka' },
+      { pageId: 'monthAugust', label: 'Sri Lanka in augustus' },
+      { pageId: 'guidePrivateDriver', label: 'Gids over een privéchauffeur' },
     ],
   }
 };

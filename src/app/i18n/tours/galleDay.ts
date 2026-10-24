@@ -534,7 +534,7 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
     description:
       'Насладитесь однодневным туром с гидом в Галле с живописными прибрежными достопримечательностями, культурными памятниками и незабываемыми впечатлениями.',
     duration: '1 день',
-    persons: '1 to 20 путешественников',
+    persons: '1–20 путешественников',
     tourType: 'Однодневный тур',
     overview:
       'Этот однодневный тур с гидом в Галле идеальное сочетание природы, истории и культуры. Вы посетите знаменитую станцию по спасению морских черепах, исследуете исторический Голландский форт Галле, насладитесь спокойной прогулкой на лодке по реке Бентота и узнаете об истории Шри Ланки у Мемориала цунами и в центре Moonstone Mine Centre. Идеально для пар, семей и небольших групп, которые ищут комфортный и познавательный день.',
@@ -569,7 +569,7 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
       },
       {
         q: 'Много ли нужно ходить пешком в форте Галле?',
-        a: 'Форт в основном плоский и вымощен камнем, с необязательными 30 to 60 минутными прогулками по бастионам. Рекомендуем удобную обувь и защиту от солнца; для пожилых гостей маршрут можно сократить.',
+        a: 'Форт в основном плоский и вымощен камнем, с необязательными 30–60 минутными прогулками по бастионам. Рекомендуем удобную обувь и защиту от солнца; для пожилых гостей маршрут можно сократить.',
       },
     ],
     days: [
@@ -611,81 +611,81 @@ Ideal for couples, families, and small groups looking for a comfortable and enri
     ],
   },
   nl: {
-    title: 'Sri Lanka Galle Tagestour',
+    title: 'Sri Lanka Galle dagtocht',
     description:
-      'Geniessen Sie eine gefuhrte Tagestour nach Galle mit malerischen Kustenattraktionen, kulturellen Sehenswurdigkeiten und unvergesslichen Erlebnissen.',
-    duration: '1 Tag',
-    persons: '1 to 20 Reisende',
-    tourType: 'Tagestour',
+      'Geniet van een begeleide dagtocht naar Galle, met schilderachtige bezienswaardigheden aan de kust, culturele hoogtepunten en onvergetelijke ervaringen.',
+    duration: '1 dag',
+    persons: '1 tot 20 reizigers',
+    tourType: 'Dagtocht',
     overview:
-      'Diese gefuhrte Tagestour nach Galle bietet die perfekte Mischung aus Natur, Geschichte und Kultur. Sie besuchen die beruhmte Meeresschildkroten Aufzuchtstation, erkunden das historische Galle Dutch Fort, geniessen eine entspannte Bootsfahrt auf dem Bentota Fluss und erfahren mehr uber die Geschichte Sri Lankas im Tsunami Denkmal und im Moonstone Mine Centre. Ideal fur Paare, Familien und kleine Gruppen, die einen komfortablen und bereichernden Tagesausflug suchen.',
+      'Deze begeleide dagtocht naar Galle biedt de perfecte mix van natuur, geschiedenis en cultuur. U bezoekt de bekende kwekerij voor zeeschildpadden, verkent het historische Galle Dutch Fort, geniet van een ontspannen boottocht op de rivier Bentota en leert meer over de geschiedenis van Sri Lanka bij het Tsunami Memorial en het Moonstone Mine Centre. De tocht is ideaal voor stellen, gezinnen en kleine groepen die een comfortabele en verrijkende daguitstap zoeken.',
     includes: [
-      'Alle Eintrittsgebuhren fur Attraktionen',
-      'Autobahngebuhren und Parkgebuhren',
-      'Englischsprachiger professioneller Fahrer',
-      'Klimatisiertes Privatfahrzeug',
+      'Alle entreegelden voor de bezienswaardigheden',
+      'Snelwegtickets en parkeerkosten',
+      'Professionele Engelssprekende chauffeur',
+      'Privévoertuig met airconditioning',
     ],
-    excludes: ['Speisen & Getranke', 'Eintritts und Aktivitatsgebuhren'],
+    excludes: ['Eten en drinken', 'Entreegelden en kosten voor activiteiten'],
     seoIntro:
-      'Eine Tagestour nach Galle vereint UNESCO Festungsmauern, Flussmangroven und Meeresschildkroten Schutz in einem entspannten privaten Ausflug ab Colombo oder der Sudkuste. Beginnen Sie an einer Meeresschildkroten Aufzuchtstation, um die Rehabilitationsarbeit zu sehen, schlendern Sie durch die gepflasterten Gassen und Wallanlagen des Galle Dutch Fort mit Blick auf den Indischen Ozean und gleiten Sie anschliessend auf einer Bootssafari durch die Mangroven des Bentota Flusses. Sundown Tours besucht ausserdem das Tsunami Denkmal in Peraliya fur einen bewegenden Einblick in die lokale Geschichte sowie eine Mondstein Mine, in der die beruhmten blau schimmernden Edelsteine Sri Lankas geschliffen und poliert werden. Ihr englischsprachiger Fahrer ubernimmt Autobahngebuhren und Parkplatze in einem klimatisierten Privatfahrzeug, wahrend die Eintrittsgebuhren der genannten Attraktionen bereits enthalten sind. Mittagspausen konnen flexibel in Fort Cafes oder Fischrestaurants eingelegt werden. Perfekt fur Kreuzfahrtgaste, Strandhotel Reisende und Familien, die Kultur und Natur erleben mochten, ohne eine Ubernachtung ausserhalb der Kuste einzuplanen.',
+      'Een dagtocht naar Galle brengt UNESCO vestingmuren, mangroven langs de rivier en de bescherming van zeeschildpadden samen in één ontspannen uitstap met privévoertuig vanuit Colombo of de zuidkust. U begint bij een kwekerij voor zeeschildpadden om het herstelwerk te zien, wandelt door de geplaveide straatjes en de wallen van het Galle Dutch Fort met uitzicht op de Indische Oceaan, en vaart daarna met een boot door de mangroven van de rivier Bentota. Sundown Tours bezoekt ook het Tsunami Memorial in Peraliya, voor een indringend beeld van de lokale geschiedenis, en een maansteengroeve waar de beroemde edelstenen van Sri Lanka met hun blauwe glans worden geslepen en gepolijst. Uw Engelssprekende chauffeur regelt de snelwegkosten en het parkeren in een privévoertuig met airconditioning. De entreegelden van de genoemde bezienswaardigheden zijn inbegrepen. Lunchpauzes plant u flexibel in bij cafés in het fort of bij visrestaurants. De dag past bij passagiers van een cruiseschip, gasten van een strandhotel en gezinnen die cultuur en natuur willen beleven, zonder een overnachting buiten de kust.',
     highlights: [
-      'Besuch der Meeresschildkroten Aufzuchtstation mit Informationen zum Artenschutz',
-      'UNESCO Weltkulturerbe Galle Dutch Fort mit Wallanlagen, Leuchtturm und Kolonialstrassen',
-      'Malerische Bootsfahrt auf dem Bentota Fluss durch Mangroven und Zimtinseln',
-      'Tsunami Denkmal in Peraliya und Vorfuhrung in einer Mondstein Mine',
-      'Privater klimatisierter Transport inklusive Autobahngebuhren und Eintrittsgeldern',
+      'Bezoek aan een kwekerij voor zeeschildpadden, met uitleg over bescherming',
+      'UNESCO werelderfgoed Galle Dutch Fort, met vestingwallen, vuurtoren en koloniale straten',
+      'Schilderachtige boottocht op de rivier Bentota door mangroven en kaneeleilanden',
+      'Tsunami Memorial in Peraliya en een demonstratie in een maansteengroeve',
+      'Privévoertuig met airconditioning, inclusief snelwegkosten en entreegelden',
     ],
     whoIsFor:
-      'Ideal fur Paare, Familien und Kreuzfahrtgaste mit Standort in Colombo, Bentota oder Mirissa, die einen gefuhrten Kusten und Kulturtag ohne mehrtagige Fahrten wunschen.',
+      'Ideaal voor stellen, gezinnen en passagiers van een cruiseschip die in Colombo, Bentota of Mirissa verblijven en een begeleide dag met kust en cultuur willen, zonder meerdaagse ritten.',
     bestTimeNote:
-      'Ganzjahrig moglich; von November bis April ist die See fur die Bootsfahrt ruhiger. Fruhe Spaziergange durch das Fort vermeiden die Mittagshitze auf den Wallanlagen.',
+      'Het hele jaar mogelijk. Van november tot april is de zee rustiger voor de boottocht. Een vroege wandeling door het fort vermijdt de middaghitte op de vestingwallen.',
     faq: [
       {
-        q: 'Konnen Sie Gaste aus Hotels in Colombo fur die Galle Tagestour abholen?',
-        a: 'Ja  wir holen Sie in Colombo, Negombo, Bentota, Mirissa und in Hotels der Region Galle ab. Die Abfahrtszeit hangt von der Entfernung ab; aus Colombo ist ein fruher Start sinnvoll, um moglichst viel Zeit im Fort und auf dem Fluss zu haben.',
+        q: 'Kunt u gasten ophalen bij hotels in Colombo voor de Galle dagtocht?',
+        a: 'Ja. Wij halen u op in Colombo, Negombo, Bentota, Mirissa en bij hotels in de regio Galle. Het vertrektijdstip hangt af van de afstand. Vanuit Colombo is een vroege start verstandig, zodat u zo veel mogelijk tijd in het fort en op de rivier hebt.',
       },
       {
-        q: 'Sind die Eintrittsgebuhren wirklich enthalten?',
-        a: 'Der Tourpreis umfasst die aufgefuhrten Eintrittsgebuhren, Autobahngebuhren und Parkgebuhren. Mahlzeiten, optionale Einkaufe und personliche Ausgaben organisieren Sie selbst.',
+        q: 'Zijn de entreegelden echt inbegrepen?',
+        a: 'De prijs dekt de genoemde entreegelden, de snelwegtickets en de parkeerkosten. Maaltijden, optionele aankopen en persoonlijke uitgaven regelt u zelf.',
       },
       {
-        q: 'Wie viel muss man im Galle Fort zu Fuss gehen?',
-        a: 'Das Fort besteht grosstenteils aus flachem Kopfsteinpflaster mit optionalen 30- bis 60 minutigen Spaziergangen auf den Wallanlagen. Bequeme Schuhe und Sonnenschutz werden empfohlen; fur Senioren konnen wir die Gehstrecke verkurzen.',
+        q: 'Hoeveel loopt u in het Galle Fort?',
+        a: 'Het fort is grotendeels vlak, met kasseien, en biedt optionele wandelingen van 30 tot 60 minuten over de vestingwallen. Comfortabele schoenen en bescherming tegen de zon raden wij aan. Voor oudere reizigers kunnen wij de loopafstand inkorten.',
       },
     ],
     days: [
       {
-        title: 'Galle Tagestour Reiseroute',
+        title: 'Route van de Galle dagtocht',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Meeresschildkroten Aufzuchtstation',
+            type: 'Rondleiding',
+            title: 'Kwekerij voor zeeschildpadden',
             description:
-              'Besuchen Sie eine Meeresschildkroten Aufzuchtstation und erfahren Sie mehr uber Schutzprojekte, wahrend Sie verschiedene Schildkrotenarten beobachten.',
+              'Bezoek een kwekerij voor zeeschildpadden en leer meer over beschermingsprojecten, terwijl u verschillende soorten schildpadden bekijkt.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Galle Dutch Fort',
             description:
-              'Erkunden Sie die UNESCO Welterbestatte Galle Dutch Fort, reich an Kolonialgeschichte und mit atemberaubenden Meerblicken.',
+              'Verken het UNESCO werelderfgoed Galle Dutch Fort, rijk aan koloniale geschiedenis, met een adembenemend uitzicht op zee.',
           },
           {
-            type: 'Aktivitat',
-            title: 'Bootsfahrt auf dem Bentota Fluss',
+            type: 'Activiteit',
+            title: 'Boottocht op de rivier Bentota',
             description:
-              'Geniessen Sie eine entspannte Bootsfahrt auf dem Bentota Fluss, umgeben von Mangroven und Tierwelt.',
+              'Geniet van een ontspannen boottocht op de rivier Bentota, omringd door mangroven en dieren.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Tsunami Denkmal',
+            type: 'Rondleiding',
+            title: 'Tsunami Memorial',
             description:
-              'Besuchen Sie das Tsunami Denkmal und erfahren Sie mehr uber den Tsunami von 2004 und seine Auswirkungen auf Sri Lanka.',
+              'Bezoek het Tsunami Memorial en leer meer over de tsunami van 2004 en de gevolgen voor Sri Lanka.',
           },
           {
-            type: 'Gefuhrte Tour',
+            type: 'Rondleiding',
             title: 'Moonstone Mine Centre',
             description:
-              'Entdecken Sie, wie Sri Lankas beruhmte Mondsteine abgebaut und verarbeitet werden.',
+              'Ontdek hoe de beroemde maanstenen van Sri Lanka worden gewonnen en bewerkt.',
           },
         ],
       },

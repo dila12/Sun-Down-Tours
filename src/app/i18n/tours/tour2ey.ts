@@ -7,16 +7,16 @@ import { PACKAGE_EXCLUDES, PACKAGE_INCLUDES } from './package-inclusions';
  */
 export const TOUR2EY: TourContent = {
   en: {
-    title: '2 Day Sri Lanka Private Tour  Ella, Kandy & Udawalawa Safari | Airport Drop',
+    title: '2 Day Sri Lanka Private Tour: Ella and Yala Safari | Airport Drop',
     description:
-      'Discover Sri Lanka’s wildlife, scenic hill country and cultural heritage in this 2 day private tour ending at the airport or your hotel.',
+      'Discover Sri Lanka’s wildlife and scenic hill country on this 2 day private tour ending at the airport or your hotel.',
     duration: '2 Days',
     persons: 'Private Tour (1-20 Persons)',
     filecode: '2-day-ella-yala-private-tour-sri-lanka',
-    overview: `Experience an unforgettable 2 day journey through Sri Lanka’s wildlife, hill country and cultural capital.
-  On day one, visit the Udawalawa Elephant Transit Home before heading to Ella to explore Nine Arch Bridge, Little Adam’s Peak, Flying Ravana and Ravana Falls.
-  On day two, travel through the scenic hills to Ramboda Falls and Ambuluwawa Tower before discovering the sacred Temple of the Tooth in Kandy and Pinnawala Elephant Orphanage.
-  This private tour ends conveniently at the airport or your hotel.`,
+    overview: `Experience a 2 day journey through Ella’s hill country and Yala’s wildlife.
+  On day one, explore the Nine Arch Bridge, Little Adam’s Peak, Flying Ravana and Ravana Falls, and stay near Ella Gap.
+  On day two, take a morning jeep safari in Yala National Park, then visit Ravana Falls again before your onward transfer.
+  This private tour ends at the airport or your hotel.`,
     tourType: 'Round Tour',
     itinerary: [
       {
@@ -112,14 +112,14 @@ export const TOUR2EY: TourContent = {
   },
 
   de: {
-    title: '2 Tage Sri Lanka Privatreise  Ella, Kandy & Udawalawa Safari | Flughafentransfer',
+    title: '2 Tage Sri Lanka Privatreise: Ella und Yala Safari | Flughafentransfer',
     description:
-      'Entdecken Sie Sri Lankas Tierwelt, malerisches Bergland und kulturelles Erbe auf dieser 2 tagigen Privatreise, die am Flughafen oder in Ihrem Hotel endet.',
+      'Entdecken Sie Sri Lankas Tierwelt und malerisches Bergland auf dieser 2 tagigen Privatreise, die am Flughafen oder in Ihrem Hotel endet.',
     duration: '2 Tage',
     persons: 'Privatreise (1 to 20 Personen)',
     tourType: 'Rundreise',
     overview:
-      'Erleben Sie eine unvergessliche 2 tagige Reise durch Sri Lankas Tierwelt, Bergland und kulturelle Hauptstadt. Am ersten Tag besuchen Sie das Udawalawa Elephant Transit Home, bevor es nach Ella geht, um die Nine Arch Bridge, Little Adam’s Peak, Flying Ravana und die Ravana Wasserfalle zu entdecken. Am zweiten Tag reisen Sie durch die malerischen Hugel zu den Ramboda Wasserfallen und dem Ambuluwawa Turm, bevor Sie den heiligen Zahntempel in Kandy und das Pinnawala Elephant Orphanage besuchen. Diese Privatreise endet bequem am Flughafen oder in Ihrem Hotel.',
+      'Erleben Sie eine 2 tagige Reise durch Ellas Bergland und die Tierwelt von Yala. Am ersten Tag entdecken Sie die Nine Arch Bridge, Little Adam’s Peak, Flying Ravana und die Ravana Wasserfalle und ubernachten nahe dem Ella Gap. Am zweiten Tag folgt eine morgendliche Jeep Safari im Yala Nationalpark, danach noch einmal die Ravana Wasserfalle vor Ihrem Weitertransfer. Diese Privatreise endet am Flughafen oder in Ihrem Hotel.',
     includes: PACKAGE_INCLUDES.de,
     excludes: PACKAGE_EXCLUDES.de,
     seoIntro:
@@ -206,14 +206,14 @@ export const TOUR2EY: TourContent = {
   },
 
   fr: {
-    title: '2 jours Circuit prive au Sri Lanka  Ella, Kandy & Safari a Udawalawa | Depose a l’aeroport',
+    title: '2 jours Circuit prive au Sri Lanka: Ella et safari a Yala | Depose a l’aeroport',
     description:
-      'Decouvrez la faune, les paysages de montagne et le patrimoine culturel du Sri Lanka lors de ce circuit prive de 2 jours se terminant a l’aeroport ou a votre hotel.',
+      'Decouvrez la faune et les paysages de montagne du Sri Lanka lors de ce circuit prive de 2 jours se terminant a l’aeroport ou a votre hotel.',
     duration: '2 jours',
     persons: 'Circuit prive (1 a 20 personnes)',
     tourType: 'Circuit',
     overview:
-      'Vivez un voyage inoubliable de 2 jours a travers la faune, les hauts plateaux et la capitale culturelle du Sri Lanka. Le premier jour, visitez l’Udawalawa Elephant Transit Home avant de rejoindre Ella pour decouvrir le Nine Arch Bridge, le Little Adam’s Peak, Flying Ravana et les chutes de Ravana. Le deuxieme jour, traversez les collines pittoresques jusqu’aux chutes de Ramboda et a la tour d’Ambuluwawa avant de decouvrir le sacre Temple de la Dent a Kandy et l’orphelinat d’elephants de Pinnawala. Ce circuit prive se termine confortablement a l’aeroport ou a votre hotel.',
+      'Vivez un voyage de 2 jours entre les hautes terres d’Ella et la faune de Yala. Le premier jour, decouvrez le Nine Arch Bridge, le Little Adam’s Peak, Flying Ravana et les chutes de Ravana, avec une nuit pres d’Ella Gap. Le deuxieme jour, partez en safari matinal dans le parc national de Yala, puis revoyez les chutes de Ravana avant votre transfert. Ce circuit prive se termine a l’aeroport ou a votre hotel.',
     includes: PACKAGE_INCLUDES.fr,
     excludes: PACKAGE_EXCLUDES.fr,
     seoIntro:
@@ -300,14 +300,14 @@ export const TOUR2EY: TourContent = {
   },
 
   it: {
-    title: '2 giorni Tour privato in Sri Lanka  Ella, Kandy e Safari a Udawalawa | Arrivo in aeroporto',
+    title: '2 giorni Tour privato in Sri Lanka: Ella e safari a Yala | Arrivo in aeroporto',
     description:
-      'Scopri la fauna selvatica, i paesaggi collinari e il patrimonio culturale dello Sri Lanka in questo tour privato di 2 giorni con arrivo finale in aeroporto o in hotel.',
+      'Scopri la fauna selvatica e i paesaggi collinari dello Sri Lanka in questo tour privato di 2 giorni con arrivo finale in aeroporto o in hotel.',
     duration: '2 giorni',
     persons: 'Tour privato (1-20 persone)',
     tourType: 'Tour completo',
     overview:
-      'Vivi un indimenticabile viaggio di 2 giorni tra la fauna selvatica, le colline e la capitale culturale dello Sri Lanka. Il primo giorno visita l’Udawalawa Elephant Transit Home prima di dirigerti a Ella per scoprire il Nine Arch Bridge, il Little Adam’s Peak, Flying Ravana e le cascate di Ravana. Il secondo giorno, attraversa le colline panoramiche fino alle cascate di Ramboda e alla torre di Ambuluwawa, prima di scoprire il sacro Tempio del Dente a Kandy e l’orfanotrofio degli elefanti di Pinnawala. Questo tour privato si conclude comodamente in aeroporto o nel tuo hotel.',
+      'Vivi un viaggio di 2 giorni tra le colline di Ella e la fauna di Yala. Il primo giorno scopri il Nine Arch Bridge, il Little Adam’s Peak, Flying Ravana e le cascate di Ravana, con pernottamento vicino a Ella Gap. Il secondo giorno fai un safari al mattino nel Parco Nazionale di Yala e rivedi le cascate di Ravana prima del trasferimento. Questo tour privato si conclude in aeroporto o nel tuo hotel.',
     includes: PACKAGE_INCLUDES.it,
     excludes: PACKAGE_EXCLUDES.it,
     seoIntro:
@@ -394,14 +394,14 @@ export const TOUR2EY: TourContent = {
   },
 
   es: {
-    title: '2 dias Tour privado por Sri Lanka  Ella, Kandy y Safari en Udawalawa | Llegada al aeropuerto',
+    title: '2 dias Tour privado por Sri Lanka: Ella y safari en Yala | Llegada al aeropuerto',
     description:
-      'Descubre la fauna, el paisaje montanoso y el patrimonio cultural de Sri Lanka en este tour privado de 2 dias que termina en el aeropuerto o en tu hotel.',
+      'Descubre la fauna y el paisaje montanoso de Sri Lanka en este tour privado de 2 dias que termina en el aeropuerto o en tu hotel.',
     duration: '2 dias',
     persons: 'Tour privado (1-20 personas)',
     tourType: 'Circuito',
     overview:
-      'Vive un viaje inolvidable de 2 dias a traves de la fauna, las tierras altas y la capital cultural de Sri Lanka. El primer dia, visita el Udawalawa Elephant Transit Home antes de dirigirte a Ella para explorar el Nine Arch Bridge, el Little Adam’s Peak, Flying Ravana y las cascadas de Ravana. El segundo dia, viaja por las colinas panoramicas hasta la cascada de Ramboda y la torre de Ambuluwawa antes de descubrir el sagrado Templo del Diente en Kandy y el orfanato de elefantes de Pinnawala. Este tour privado termina comodamente en el aeropuerto o en tu hotel.',
+      'Vive un viaje de 2 dias entre las tierras altas de Ella y la fauna de Yala. El primer dia explora el Nine Arch Bridge, el Little Adam’s Peak, Flying Ravana y las cascadas de Ravana, con noche cerca de Ella Gap. El segundo dia haz un safari por la manana en el Parque Nacional de Yala y vuelve a las cascadas de Ravana antes del traslado. Este tour privado termina en el aeropuerto o en tu hotel.',
     includes: PACKAGE_INCLUDES.es,
     excludes: PACKAGE_EXCLUDES.es,
     seoIntro:
@@ -488,14 +488,14 @@ export const TOUR2EY: TourContent = {
   },
 
   pl: {
-    title: '2 dni Prywatna wycieczka po Sri Lance  Ella, Kandy i safari w Udawalawa | Dowoz na lotnisko',
+    title: '2 dni Prywatna wycieczka po Sri Lance: Ella i safari w Yala | Dowoz na lotnisko',
     description:
-      'Odkryj dzika przyrode, malownicze wzgorza i dziedzictwo kulturowe Sri Lanki podczas tej 2 dniowej prywatnej wycieczki zakonczonej na lotnisku lub w hotelu.',
+      'Odkryj dzika przyrode i malownicze wzgorza Sri Lanki podczas tej 2 dniowej prywatnej wycieczki zakonczonej na lotnisku lub w hotelu.',
     duration: '2 dni',
     persons: 'Prywatna wycieczka (1-20 osob)',
     tourType: 'Wycieczka objazdowa',
     overview:
-      'Przezyj niezapomniana 2 dniowa podroz przez dzika przyrode, wzgorza i kulturalna stolice Sri Lanki. Pierwszego dnia odwiedzisz Udawalawa Elephant Transit Home, a nastepnie wyruszysz do Elli, by zobaczyc Nine Arch Bridge, Little Adam’s Peak, Flying Ravana i wodospady Ravana. Drugiego dnia przejedziesz przez malownicze wzgorza do wodospadu Ramboda i wiezy Ambuluwawa, a nastepnie odwiedzisz swieta Swiatynie Zeba Buddy w Kandy i sierociniec sloni w Pinnawali. Ta prywatna wycieczka zakonczy sie wygodnie na lotnisku lub w hotelu.',
+      'Przezyj 2 dniowa podroz przez wzgorza Elli i dzika przyrode Yala. Pierwszego dnia zobaczysz Nine Arch Bridge, Little Adam’s Peak, Flying Ravana i wodospady Ravana, z noclegiem przy Ella Gap. Drugiego dnia czeka poranne safari w Parku Narodowym Yala, a potem ponownie wodospad Ravana przed dalszym transferem. Ta prywatna wycieczka konczy sie na lotnisku lub w hotelu.',
     includes: PACKAGE_INCLUDES.pl,
     excludes: PACKAGE_EXCLUDES.pl,
     seoIntro:
@@ -582,14 +582,14 @@ export const TOUR2EY: TourContent = {
   },
 
   ru: {
-    title: '2 дня Частный тур по Шри Ланке  Элла, Канди и сафари в Удавалаве | Трансфер в аэропорт',
+    title: '2 дня Частный тур по Шри Ланке: Элла и сафари в Яле | Трансфер в аэропорт',
     description:
-      'Откройте для себя дикую природу, живописную горную местность и культурное наследие Шри Ланки в этом частном туре на 2 дня, завершающемся в аэропорту или в вашем отеле.',
+      'Откройте для себя дикую природу и живописную горную местность Шри Ланки в этом частном туре на 2 дня, завершающемся в аэропорту или в вашем отеле.',
     duration: '2 дня',
     persons: 'Частный тур (1-20 человек)',
     tourType: 'Обзорный тур',
     overview:
-      'Совершите незабываемое 2 дневное путешествие по дикой природе, горной местности и культурной столице Шри Ланки. В первый день вы посетите Udawalawa Elephant Transit Home перед тем, как отправиться в Эллу, чтобы увидеть Nine Arch Bridge, Little Adam’s Peak, Flying Ravana и водопады Равана. На второй день вы проедете через живописные холмы к водопаду Рамбода и башне Амбулувава, а затем посетите священный Храм Зуба Будды в Канди и приют слонов Пиннавела. Этот частный тур удобно завершается в аэропорту или в вашем отеле.',
+      'Совершите путешествие на 2 дня по холмам Эллы и дикой природе Ялы. В первый день вы увидите Nine Arch Bridge, Little Adam’s Peak, Flying Ravana и водопады Равана и переночуете у Ella Gap. На второй день вас ждёт утреннее сафари в национальном парке Яла, затем снова водопад Равана перед трансфером. Этот частный тур завершается в аэропорту или в вашем отеле.',
     includes: PACKAGE_INCLUDES.ru,
     excludes: PACKAGE_EXCLUDES.ru,
     seoIntro:
@@ -675,93 +675,93 @@ export const TOUR2EY: TourContent = {
     ],
   },
   nl: {
-    title: '2 Tage Sri Lanka Privatreise  Ella, Kandy & Udawalawa Safari | Flughafentransfer',
+    title: 'Privétour van 2 dagen door Sri Lanka: Ella en safari in Yala | Afzet op de luchthaven',
     description:
-      'Entdecken Sie Sri Lankas Tierwelt, malerisches Bergland und kulturelles Erbe auf dieser 2 tagigen Privatreise, die am Flughafen oder in Ihrem Hotel endet.',
-    duration: '2 Tage',
-    persons: 'Privatreise (1 to 20 Personen)',
-    tourType: 'Rundreise',
+      'Ontdek de wilde dieren en het heuvelland van Sri Lanka tijdens deze privétour van 2 dagen, die eindigt op de luchthaven of bij uw hotel.',
+    duration: '2 dagen',
+    persons: 'Privétour (1 tot 20 personen)',
+    tourType: 'Rondreis',
     overview:
-      'Erleben Sie eine unvergessliche 2 tagige Reise durch Sri Lankas Tierwelt, Bergland und kulturelle Hauptstadt. Am ersten Tag besuchen Sie das Udawalawa Elephant Transit Home, bevor es nach Ella geht, um die Nine Arch Bridge, Little Adam’s Peak, Flying Ravana und die Ravana Wasserfalle zu entdecken. Am zweiten Tag reisen Sie durch die malerischen Hugel zu den Ramboda Wasserfallen und dem Ambuluwawa Turm, bevor Sie den heiligen Zahntempel in Kandy und das Pinnawala Elephant Orphanage besuchen. Diese Privatreise endet bequem am Flughafen oder in Ihrem Hotel.',
+      'Beleef een reis van 2 dagen door het heuvelland van Ella en de wilde dieren van Yala. Op de eerste dag verkent u de Nine Arch Bridge, Little Adam’s Peak, Flying Ravana en Ravana Falls, en overnacht u bij Ella Gap. Op de tweede dag maakt u een ochtendsafari in Nationaal Park Yala en bezoekt u daarna opnieuw Ravana Falls, vóór de verdere transfer. Deze privétour eindigt op de luchthaven of bij uw hotel.',
     includes: PACKAGE_INCLUDES.nl,
     excludes: PACKAGE_EXCLUDES.nl,
     seoIntro:
-      'Verbinden Sie die nebligen Hugel von Ella mit einer Leoparden Safari in Yala an nur zwei privaten Tagen  die klassische Kombination aus Hugelland und Tierwelt ohne eine ganze Woche Reisezeit. Tag eins erkundet die Nine Arches Bridge, Little Adam\'s Peak, das optionale Flying Ravana Zipline Abenteuer und die Ravana Wasserfalle, mit Halbpension Unterkunft nahe dem Ella Gap. Tag zwei fuhrt hinab zum Yala Nationalpark fur eine morgendliche 4x4 Jeep Safari zwischen Elefanten, Krokodilen und  mit etwas Gluck  Leoparden, bevor die Ravana Wasserfalle noch einmal von der Tiefland Seite besucht werden, vor Ihrem Weitertransfer. Sundown Tours stimmt Safari Eintrittszeiten und Zugblicke ab, wahrend Ihr englischsprachiger Fahrer die steile Strasse zwischen Ella und Yala in einem privaten klimatisierten Fahrzeug mit unbegrenzter Kilometerleistung navigiert. Die Jeep Miete im Park und die Eintrittsgebuhren werden vor Ort bezahlt, sodass Sie die Safari verlangern oder einen Strandstopp an der Sudkuste hinzufugen konnen.',
+      'Combineer de nevelige bergkammen van Ella met een luipaardensafari in Yala in slechts twee privédagen: de klassieke combinatie van heuvelland en wilde dieren, zonder een programma van een volle week. Op de eerste dag verkent u de Nine Arches Bridge, Little Adam’s Peak, de optionele tokkelbaan van Flying Ravana en Ravana Falls, met een overnachting op basis van halfpension bij Ella Gap. Op de tweede dag daalt u af naar Nationaal Park Yala voor een ochtendlijke jeepsafari met een 4x4, tussen olifanten en krokodillen, en met wat geluk ook luipaarden. Daarna bezoekt u Ravana Falls opnieuw, vanaf de kant van het laagland, vóór uw verdere transfer. Sundown Tours stemt de toegangstijden van de safari en de uitzichtpunten bij de trein op elkaar af, terwijl uw Engelssprekende chauffeur de steile weg van Ella naar Yala rijdt in een privévoertuig met airconditioning en een onbeperkt aantal kilometers. De huur van de jeep in het park en de entreegelden betaalt u ter plaatse. Zo kunt u de safari verlengen of een afzet aan een strand op de zuidkust toevoegen.',
     highlights: [
-      'Nine Arches Bridge, Little Adam\'s Peak und Ravana Wasserfalle in Ella an einem Tag',
-      'Optionales Flying Ravana Zipline Abenteuer mit Panoramablick auf das Hugelland',
-      'Morgendliche Jeep Safari im Yala Nationalpark auf der Suche nach Elefanten und Leoparden Habitat',
-      'Halbpension Ubernachtung am Ella Gap zwischen Hugelland und Wildnis',
-      'Privater Chauffeur mit unbegrenzter Kilometerleistung und flexiblen Transfermoglichkeiten',
+      'Nine Arches Bridge, Little Adam’s Peak en Ravana Falls in Ella op één dag',
+      'Optionele tokkelbaan van Flying Ravana met panoramisch uitzicht over het heuvelland',
+      'Ochtendlijke jeepsafari in Nationaal Park Yala, op zoek naar olifanten en het leefgebied van luipaarden',
+      'Overnachting op basis van halfpension bij Ella Gap, tussen het hoogland en het wildgebied',
+      'Privéchauffeur met een onbeperkt aantal kilometers en flexibele plaatsen om u af te zetten',
     ],
     whoIsFor:
-      'Ideal fur Tierliebhaber und Fotografen, die Ella bereits einplanen, aber eine Leoparden Safari ohne vier zusatzliche Reisetage hinzufugen mochten. Moderate Fitness ist fur die Wanderung zum Little Adam\'s Peak hilfreich.',
+      'Geschikt als u van wilde dieren houdt of graag fotografeert. U wilt Ella al bezoeken en een luipaardensafari toevoegen zonder vier extra reisdagen. Een redelijke conditie helpt bij de wandeling naar Little Adam’s Peak.',
     bestTimeNote:
-      'Yala ist von Februar bis Juli am besten, wenn der Park vollstandig geoffnet ist; er schliesst kurzzeitig um September, dann empfehlen wir Udawalawe. Morgen in der Trockenzeit verbessern die Chancen auf Leopardensichtungen und Fotos an der Nine Arches Bridge.',
+      'Yala is op zijn best van februari tot juli, wanneer het park volledig open is. Rond september sluit het kort. Dan stellen wij Udawalawe voor. Ochtenden in het droge seizoen maken het gemakkelijker om luipaarden te zien en de Nine Arches Bridge te fotograferen.',
     faq: [
       {
-        q: 'Ist der Safari Jeep fur Yala im Tourpreis enthalten?',
-        a: 'Ihr Privatfahrzeug und Fahrer sind inklusive. Der Parkeintritt fur Yala und der registrierte Safari Jeep werden vor Ort bezahlt  meist von Ihrem Fahrer am Morgen des 2. Tages organisiert.',
+        q: 'Is de safarijeep voor Yala inbegrepen in de prijs van de tour?',
+        a: 'Uw privévoertuig en chauffeur zijn inbegrepen. De toegang tot Nationaal Park Yala en de geregistreerde safarijeep betaalt u ter plaatse. Meestal regelt uw chauffeur dit op de ochtend van dag 2.',
       },
       {
-        q: 'Konnen wir das Hotel in Ella auslassen und beide Tage von der Sudkuste aus unternehmen?',
-        a: 'Moglich, aber anstrengend  rechnen Sie mit sehr fruhen Starts von Mirissa oder Galle. Wir empfehlen die enthaltene Ubernachtung in Ella, damit Sie das Hugelland ohne Mitternachtsabfahrt geniessen konnen.',
+        q: 'Kunnen wij het hotel in Ella overslaan en beide dagen vanaf de zuidkust doen?',
+        a: 'Dat kan, maar het is vermoeiend. Reken op een zeer vroege start vanuit Mirissa of Galle. Wij raden de inbegrepen overnachting in Ella aan, zodat u van het heuvelland geniet zonder om middernacht te vertrekken.',
       },
       {
-        q: 'Was passiert, wenn der Yala Nationalpark an unseren Reisetagen geschlossen ist?',
-        a: 'Wir weichen ohne Anderung des Reiseablaufs auf Udawalawe oder Bundala aus, die gute Elefanten und Vogelsichtungen bieten. Ihr Fahrer bestatigt bei der Buchung den besten Park.',
+        q: 'Wat gebeurt er als Nationaal Park Yala op onze data gesloten is?',
+        a: 'Wij vervangen het park door Udawalawe of Bundala, met goede kans op olifanten en vogels, zonder de opbouw van de reis te wijzigen. Uw chauffeur bevestigt bij de boeking welk park het meest geschikt is.',
       },
     ],
     days: [
       {
-        title: 'Ella Abenteuer',
+        title: 'Avontuur in Ella',
         activities: [
           {
-            type: 'Aussichtsbesuch',
+            type: 'Uitzichtbezoek',
             title: 'Nine Arch Bridge',
             description:
-              'Entdecken Sie die legendare Nine Arch Bridge in Ella, umgeben von uppigem Grun und atemberaubenden Ausblicken auf das Bergland.',
+              'Ontdek de beroemde Nine Arch Bridge in Ella, omgeven door weelderig groen en indrukwekkende uitzichten over het heuvelland.',
           },
           {
-            type: 'Wanderung',
+            type: 'Wandeling',
             title: 'Little Adam’s Peak',
             description:
-              'Geniessen Sie eine kurze, malerische Wanderung zum Little Adam’s Peak mit Panoramablick auf den Ella Gap und die umliegenden Teeplantagen.',
+              'Maak een korte, mooie wandeling naar Little Adam’s Peak, met panoramisch uitzicht op Ella Gap en de omliggende theeplantages.',
           },
           {
-            type: 'Abenteuer',
-            title: 'Flying Ravana Zipline',
+            type: 'Avontuur',
+            title: 'Tokkelbaan van Flying Ravana',
             description:
-              'Erleben Sie spannendes Zip Lining im Flying Ravana Adventure Park mit Blick auf die atemberaubende Landschaft von Ella.',
+              'Probeer de spannende tokkelbaan in Flying Ravana Adventure Park, met uitzicht over het prachtige landschap van Ella.',
           },
           {
-            type: 'Wasserfall Besuch',
-            title: 'Ravana Wasserfall',
+            type: 'Watervalbezoek',
+            title: 'Ravana Falls',
             description:
-              'Besuchen Sie den wunderschonen Ravana Wasserfall, einen der beruhmtesten Wasserfalle Sri Lankas, in der Nahe von Ella.',
+              'Bezoek de mooie Ravana Falls, een van de bekendste watervallen van Sri Lanka, vlak bij Ella.',
           },
           {
-            type: 'Unterkunft',
+            type: 'Overnachting',
             title: 'Oak Ray Ella Gap Hotel',
-            description: 'Unterkunft im Oak Ray Ella Gap Hotel oder ahnlich  auf Halbpension.',
-            extra: ['4 Sterne Hotel (Premium)', 'Eigenes Bad'],
+            description: 'Overnachting in het Oak Ray Ella Gap Hotel of vergelijkbaar, op basis van halfpension.',
+            extra: ['Hotel met 4 sterren (premium)', 'Eigen badkamer'],
           },
         ],
       },
       {
-        title: 'Yala Safari',
+        title: 'Safari in Yala',
         activities: [
           {
-            type: 'Gefuhrte Tour',
-            title: 'Yala Nationalpark',
+            type: 'Rondleiding',
+            title: 'Nationaal Park Yala',
             description:
-              'Yala ist die Heimat von 44 Saugetier und 215 Vogelarten. Zu den bekanntesten Bewohnern zahlt die weltweit grosste Leopardenpopulation.',
+              'In Yala leven 44 soorten zoogdieren en 215 vogelsoorten. Tot de bekendste bewoners behoort de grootste concentratie luipaarden ter wereld.',
           },
           {
-            type: 'Gefuhrte Tour',
-            title: 'Ravana Wasserfall',
+            type: 'Rondleiding',
+            title: 'Ravana Falls',
             description:
-              'Der Ravana Wasserfall ist von Mythen und Legenden umrankt. Der Sage nach versteckte der Damonenkonig Ravana aus dem Epos Ramayana Sita in der Hohle hinter dem Wasserfall, nachdem er sie entfuhrt hatte.',
+              'Ravana Falls is verweven met mythen en volksverhalen. Volgens de overlevering verborg de demonkoning Ravana uit het epos Ramayana Sita in de grot achter de waterval, nadat hij haar had ontvoerd en teruggebracht.',
           },
         ],
       },
