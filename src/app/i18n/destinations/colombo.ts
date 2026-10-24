@@ -396,9 +396,9 @@ export const COLOMBO_DEST: ArticleContent = {
     ],
   },
   nl: {
-    h1: 'Colombo sri lanka: luchthaven CMB, stad en eerste nacht',
+    h1: 'Colombo Sri Lanka: luchthaven CMB, stad en eerste nacht',
     lead:
-      'Bijna alle vluchten vanuit Nederland landen in Colombo. Luchthaven colombo (CMB) ligt in Katunayake, niet in het centrum. Een nacht of een dag in de stad volstaat voor een prive rondreis.',
+      'Bijna alle vluchten vanuit Nederland landen in Colombo. Luchthaven colombo (CMB) ligt in Katunayake, niet in het centrum. Een nacht of een dag in de stad volstaat voor een privé-rondreis.',
     heroAlt: 'Colombo en de Indische Oceaan, Sri Lanka',
     sections: [
       {
@@ -407,7 +407,7 @@ export const COLOMBO_DEST: ArticleContent = {
       },
       {
         title: 'Wat te doen in een dag in Colombo',
-        body: 'Een prive ronde kan Galle Face Green, het nationale museum, Gangaramaya, Pettah (met gids) en Fort omvatten. Na een nachtvlucht is een rustig hotel vaak beter dan een volle museumdag.',
+        body: 'Een privé-ronde kan Galle Face Green, het nationale museum, Gangaramaya, Pettah (met gids) en Fort omvatten. Na een nachtvlucht is een rustig hotel vaak beter dan een volle museumdag.',
       },
       {
         title: 'Colombo in een rondreis',
@@ -432,7 +432,7 @@ export const COLOMBO_DEST: ArticleContent = {
         a: 'Bij een late landing zijn Negombo of een hotel aan de westkust vaak eenvoudiger. Kies Colombo als u de volgende dag musea en een diner in de stad wilt.',
       },
     ],
-    ctaTitle: 'Begin of eindig in Colombo met prive chauffeur',
+    ctaTitle: 'Begin of eindig in Colombo met een privé-chauffeur',
     ctaBody: 'Wij regelen ophalen in CMB, een zinnige eerste nacht en vertrek naar de Culturele Driehoek of de kust.',
     ctaLabel: 'Transfer plannen',
     relatedTours: [

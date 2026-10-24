@@ -25,7 +25,7 @@ export const nl: Dict = {
     },
     footer: {
       tagline:
-        'Uw betrouwbare reispartner in Sri Lanka: rondleidingen, prive rondreizen en op maat gemaakte vakanties met betrouwbare service.',
+        'Uw betrouwbare reispartner in Sri Lanka: rondleidingen, privé-rondreizen en op maat gemaakte vakanties met betrouwbare service.',
       followUs: 'Volg ons',
       servicesTitle: 'Onze diensten',
       quickMenuTitle: 'Snelmenu',
@@ -660,7 +660,7 @@ export const nl: Dict = {
     home: {
       title: 'Sri Lanka rondreizen & vakantiepakketten | Prive chauffeur',
       description:
-        'Prive rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala safari en strand. Sinds 1992.',
+        'Privé-rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala safari en strand. Sinds 1992.',
       keywords:
         'Sri Lanka rondreis, Sri Lanka vakantie, Sri Lanka reisepakket, prive chauffeur Sri Lanka, Sri Lanka vakantie',
     },
@@ -679,7 +679,7 @@ export const nl: Dict = {
     about: {
       title: 'Over Sundown Tours | Betrouwbaar Sri Lanka reisbureau',
       description:
-        'Leer Sundown Tours Sri Lanka kennen: uw betrouwbare lokale touroperator voor prive rondreizen door Sri Lanka sinds 1992.',
+        'Leer Sundown Tours Sri Lanka kennen: uw betrouwbare lokale touroperator voor privé-rondreizen door Sri Lanka sinds 1992.',
       keywords: 'Sri Lanka reisbureau, Sri Lanka touroperator, betrouwbare Sri Lanka reizen',
     },
     contact: {
