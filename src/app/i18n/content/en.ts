@@ -190,19 +190,19 @@ export const en: Dict = {
       feature4: 'Trusted Local Guides',
     },
     aeo: {
-      heading: 'Quick answers about Sundown Tours',
-      whoQ: 'Who is Sundown Tours?',
+      heading: 'Sri Lanka tours: places, season and how to book',
+      whoQ: 'What are the main places to visit on a Sri Lanka tour?',
       whoA:
-        'Sundown Tours Sri Lanka is a local tour operator in Waskaduwa, Kalutara. We plan private Sri Lanka tours with a chauffeur guide since 1992.',
-      whereQ: 'Where is Sundown Tours based?',
+        'A first Sri Lanka tour usually includes Sigiriya Rock Fortress, Dambulla Cave Temple, the Temple of the Tooth in Kandy, the Ella train and Nine Arch Bridge, a Yala or Udawalawe safari, and a beach stay in Galle, Mirissa or Bentota. Sundown Tours, a local operator in Waskaduwa since 1992, plans that route as a private tour with your own chauffeur guide.',
+      whereQ: 'Where does a private Sri Lanka tour start?',
       whereA:
-        'Our office is in Waskaduwa, Kalutara North, on the west coast of Sri Lanka. Airport pickup is at Bandaranaike International Airport (CMB) in Katunayake.',
+        'Most private Sri Lanka tours start with pickup at Bandaranaike International Airport (CMB) in Katunayake, or at a hotel in Colombo or Negombo. Your chauffeur guide meets you there. Sundown Tours is based in Waskaduwa, Kalutara, on the west coast, and you do not need to drive.',
       whenQ: 'When is the best time to visit Sri Lanka?',
       whenA:
-        'Sri Lanka is a year round destination. The south and west coasts are best from December to April. The east coast is typically better from May to September.',
+        'December to April is the best time for the south and west coasts, including Galle, Mirissa and Bentota. May to September is usually better for the east coast, including Trincomalee. The Cultural Triangle and hill country can be visited year round, and we match the route to your travel month.',
       bookQ: 'How do I book a private Sri Lanka tour?',
       bookA:
-        'Message us on WhatsApp or use the contact form. We reply within 24 hours with a tailor made itinerary and a clear quote.',
+        'Send your dates, number of travellers and interests on WhatsApp. Sundown Tours replies within 24 hours with a route, driving times and a clear price for a private chauffeur tour. You can also use the contact form on this page.',
       howTitle: 'How to book a private Sri Lanka tour',
       how1: 'Tell us your dates, travellers and interests on WhatsApp or the contact form.',
       how2: 'We send a proposed route, driving times and a transparent price within 24 hours.',
@@ -322,12 +322,12 @@ export const en: Dict = {
         a: 'Yes. Sri Lanka day tours include Sigiriya, Kandy, Ella and Galle with a licensed chauffeur tour guide. Multi day tours of Sri Lanka add safari, hill country and beach time.',
       },
       {
-        q: 'Where is Sri Lanka and what time is it from the UK?',
-        a: 'Where is sri lanka: island south of India. Time sri lanka / sri lanka time: UTC+5:30. We plan sri lanka holidays, not england vs sri lanka cricket.',
+        q: 'Where is Sri Lanka and what is the time difference from the UK?',
+        a: 'Sri Lanka is an island south of India. Local time is UTC+5:30, which is 4 hours 30 minutes ahead of the UK in winter and 5 hours 30 minutes ahead during British Summer Time. Airport pickup for private tours is at Colombo Bandaranaike (CMB).',
       },
       {
-        q: 'Are you TUI or Intrepid?',
-        a: 'No. Sri lanka private tours and sri lanka guided tours with a local chauffeur. Not TUI sri lanka, not Intrepid, not Trailfinders, not helicopter tours.',
+        q: 'Do you run private tours or large coach tours?',
+        a: 'Sundown Tours runs private chauffeur tours for your own party. You travel with your own guide and vehicle, not on a shared coach. Message us on WhatsApp for a route and price.',
       },
     ],
   },

@@ -185,19 +185,19 @@ export const nl: Dict = {
       feature4: 'Betrouwbare lokale gidsen',
     },
     aeo: {
-      heading: 'Korte antwoorden over Sundown Tours',
-      whoQ: 'Wie is Sundown Tours?',
+      heading: 'Sri Lanka rondreis: plaatsen, seizoen en boeken',
+      whoQ: 'Welke plaatsen zie je op een Sri Lanka rondreis?',
       whoA:
-        'Sundown Tours Sri Lanka is een lokale touroperator in Waskaduwa, Kalutara. Wij plannen prive rondreizen door Sri Lanka met chauffeur gids sinds 1992.',
-      whereQ: 'Waar is Sundown Tours gevestigd?',
+        'Een eerste Sri Lanka rondreis omvat meestal de rots Sigiriya, de grottempel van Dambulla, de Tempel van de Tand in Kandy, de trein naar Ella en de Nine Arch Bridge, een safari in Yala of Udawalawe en strand in Galle, Mirissa of Bentota. Sundown Tours in Waskaduwa plant die route sinds 1992 als privé rondreis met uw eigen chauffeur gids.',
+      whereQ: 'Waar begint een privé rondreis door Sri Lanka?',
       whereA:
-        'Ons kantoor is in Waskaduwa, Kalutara North, aan de westkust van Sri Lanka. Luchthavenontvangst is op Bandaranaike (CMB) in Katunayake.',
-      whenQ: 'Wat is de beste reistijd voor Sri Lanka?',
+        'De meeste privé rondreizen beginnen met ophalen op Bandaranaike International Airport (CMB) in Katunayake, of bij het hotel in Colombo of Negombo. Uw chauffeur gids staat daar klaar. Sundown Tours zit in Waskaduwa, Kalutara, aan de westkust. U hoeft niet zelf te rijden.',
+      whenQ: 'Wanneer is de beste reistijd voor Sri Lanka?',
       whenA:
-        'Sri Lanka is jaarrond bereisbaar. Zuidkust en westkust zijn het best van december tot april. De oostkust is meestal beter van mei tot september.',
-      bookQ: 'Hoe boek ik een prive rondreis?',
+        'December tot april is de beste tijd voor de zuidkust en de westkust, waaronder Galle, Mirissa en Bentota. Mei tot september is meestal beter voor de oostkust, waaronder Trincomalee. De Culturele Driehoek en het heuvelland kunnen het hele jaar, en wij stemmen de route af op uw reismaand.',
+      bookQ: 'Hoe boek ik een privé rondreis door Sri Lanka?',
       bookA:
-        'Stuur een WhatsApp of gebruik het contactformulier. Wij antwoorden binnen 24 uur met een route op maat en een duidelijke offerte.',
+        'Stuur uw data, het aantal reizigers en uw interesses via WhatsApp. Sundown Tours antwoordt binnen 24 uur met een route, rijtijden en een duidelijke prijs voor een privé rondreis met chauffeur gids. U kunt ook het contactformulier op deze pagina gebruiken.',
       howTitle: 'Hoe u een prive rondreis door Sri Lanka boekt',
       how1: 'Geef data, reizigers en interesses door via WhatsApp of het formulier.',
       how2: 'Wij sturen een route, rijtijden en een transparante prijs binnen 24 uur.',

@@ -96,6 +96,46 @@
   color: #004a99;
 }
 
+.faq-book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0;
+}
+
+.faq-book a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0.55rem 1.15rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.faq-book-primary {
+  background: #0d7a3b;
+  color: #fff;
+}
+
+.faq-book-primary:hover {
+  background: #0a6230;
+  color: #fff;
+}
+
+.faq-book-secondary {
+  background: #fff;
+  color: #122033;
+  border: 1px solid #d5dde3;
+}
+
+.faq-book-secondary:hover {
+  color: #8a3b04;
+  border-color: #c05305;
+}
+
 @media (max-width: 575px) {
   .faq-item summary,
   .faq-answer {

@@ -178,19 +178,19 @@ export const pl: Dict = {
       feature4: 'Zaufani lokalni przewodnicy',
     },
     aeo: {
-      heading: 'Krotkie odpowiedzi o Sundown Tours',
-      whoQ: 'Czym jest Sundown Tours?',
+      heading: 'Wycieczka po Sri Lance: miejsca, sezon i rezerwacja',
+      whoQ: 'Jakie miejsca warto zobaczyc na wycieczce po Sri Lance?',
       whoA:
-        'Sundown Tours Sri Lanka to lokalny organizator w Waskaduwa, Kalutara. Planujemy prywatne wycieczki po Sri Lance z kierowca przewodnikiem od 1992 roku.',
-      whereQ: 'Gdzie mieści sie Sundown Tours?',
+        'Pierwsza wycieczka po Sri Lance zwykle obejmuje skale Sigiriya, swiatynie w Dambulli, Swiatynie Zeba w Kandy, pociag do Elli i Nine Arch Bridge, safari w Yala lub Udawalawe oraz plazę w Galle, Mirissie lub Bentocie. Sundown Tours z Waskaduwy od 1992 roku uklada te trase jako prywatna wycieczke z wlasnym kierowca przewodnikiem.',
+      whereQ: 'Gdzie zaczyna sie prywatna wycieczka po Sri Lance?',
       whereA:
-        'Nasze biuro jest w Waskaduwa, Kalutara North, na zachodnim wybrzezu Sri Lanki. Odbior z lotniska jest na Bandaranaike (CMB) w Katunayake.',
-      whenQ: 'Kiedy najlepiej odwiedzic Sri Lanke?',
+        'Wiekszosc prywatnych wycieczek zaczyna sie od odbioru na lotnisku Bandaranaike (CMB) w Katunayake albo w hotelu w Kolombo lub Negombo. Kierowca przewodnik czeka na miejscu. Sundown Tours ma biuro w Waskaduwa, Kalutara, na zachodnim wybrzezu. Nie musicie prowadzic auta.',
+      whenQ: 'Kiedy najlepiej jechac na Sri Lanke?',
       whenA:
-        'Sri Lanka jest destynacja caloroczna. Poludnie i zachod sa najlepsze od grudnia do kwietnia. Wschod jest zwykle lepszy od maja do wrzesnia.',
-      bookQ: 'Jak zarezerwowac prywatna wycieczke?',
+        'Od grudnia do kwietnia najlepsze sa poludnie i zachod, w tym Galle, Mirissa i Bentota. Od maja do wrzesnia zwykle lepsze jest wschodnie wybrzeze, w tym Trincomalee. Trojkat Kulturowy i gory mozna zwiedzac caly rok, a trase dopasowujemy do miesiaca podrozy.',
+      bookQ: 'Jak zarezerwowac prywatna wycieczke po Sri Lance?',
       bookA:
-        'Napisz na WhatsApp lub uzyj formularza. Odpowiadamy w ciagu 24 godzin z trasa szyta na miare i jasna wycena.',
+        'Wyslijcie daty, liczbe osob i zainteresowania na WhatsApp. Sundown Tours odpowiada w ciagu 24 godzin z trasa, czasem jazdy i jasna cena prywatnej wycieczki z kierowca przewodnikiem. Mozna tez uzyc formularza na tej stronie.',
       howTitle: 'Jak zarezerwowac prywatna wycieczke po Sri Lance',
       how1: 'Podaj terminy, liczbe osob i zainteresowania na WhatsApp lub w formularzu.',
       how2: 'Wysylamy trase, czasy jazdy i przejrzysta cene w ciagu 24 godzin.',

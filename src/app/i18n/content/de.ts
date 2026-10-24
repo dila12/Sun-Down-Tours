@@ -178,19 +178,19 @@ export const de: Dict = {
       feature4: 'Vertrauenswurdige lokale Guides',
     },
     aeo: {
-      heading: 'Kurze Antworten zu Sundown Tours',
-      whoQ: 'Wer ist Sundown Tours?',
+      heading: 'Sri Lanka Rundreise: Orte, Reisezeit und Buchung',
+      whoQ: 'Welche Orte gehoren zu einer Sri Lanka Rundreise?',
       whoA:
-        'Sundown Tours Sri Lanka ist ein lokaler Reiseveranstalter in Waskaduwa, Kalutara. Wir planen private Sri Lanka Rundreisen mit Fahrer Guide seit 1992.',
-      whereQ: 'Wo hat Sundown Tours seinen Sitz?',
+        'Eine erste Sri Lanka Rundreise umfasst meist den Felsen Sigiriya, den Hohlentempel Dambulla, den Zahntempel in Kandy, den Zug nach Ella und die Nine Arch Bridge, eine Safari in Yala oder Udawalawe und Strandtage in Galle, Mirissa oder Bentota. Sundown Tours in Waskaduwa plant diese Route seit 1992 als Privatreise mit eigenem Fahrer Guide.',
+      whereQ: 'Wo beginnt eine private Sri Lanka Rundreise?',
       whereA:
-        'Unser Buro liegt in Waskaduwa, Kalutara North, an der Westkuste Sri Lankas. Die Abholung erfolgt am Flughafen Bandaranaike (CMB) in Katunayake.',
+        'Die meisten Privatreisen beginnen mit der Abholung am Flughafen Bandaranaike (CMB) in Katunayake oder im Hotel in Colombo oder Negombo. Ihr Fahrer Guide erwartet Sie dort. Sundown Tours sitzt in Waskaduwa, Kalutara, an der Westkuste. Sie mussen nicht selbst fahren.',
       whenQ: 'Wann ist die beste Reisezeit fur Sri Lanka?',
       whenA:
-        'Sri Lanka ist ein Ganzjahresziel. Sudkuste und Westkuste sind von Dezember bis April am besten. Die Ostkuste ist meist von Mai bis September besser.',
-      bookQ: 'Wie buche ich eine private Rundreise?',
+        'Dezember bis April ist die beste Zeit fur Sud und West, also Galle, Mirissa und Bentota. Mai bis September ist meist besser fur die Ostkuste, einschliesslich Trincomalee. Kulturdreieck und Bergland sind ganzjahrig machbar, und wir legen die Route auf Ihren Reisemonat.',
+      bookQ: 'Wie buche ich eine private Sri Lanka Rundreise?',
       bookA:
-        'Schreiben Sie uns per WhatsApp oder nutzen Sie das Kontaktformular. Wir antworten innerhalb von 24 Stunden mit einer massgeschneiderten Route und einem klaren Angebot.',
+        'Senden Sie Daten, Personenzahl und Interessen per WhatsApp. Sundown Tours antwortet innerhalb von 24 Stunden mit Route, Fahrzeiten und einem klaren Preis fur die Privatreise mit Fahrer Guide. Sie konnen auch das Kontaktformular auf dieser Seite nutzen.',
       howTitle: 'So buchen Sie eine private Sri Lanka Rundreise',
       how1: 'Nennen Sie uns Daten, Reisende und Interessen per WhatsApp oder Formular.',
       how2: 'Wir senden Route, Fahrzeiten und einen transparenten Preis innerhalb von 24 Stunden.',

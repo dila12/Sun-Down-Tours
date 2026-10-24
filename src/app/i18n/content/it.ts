@@ -178,19 +178,19 @@ export const it: Dict = {
       feature4: 'Guide locali affidabili',
     },
     aeo: {
-      heading: 'Risposte rapide su Sundown Tours',
-      whoQ: 'Chi e Sundown Tours?',
+      heading: 'Tour Sri Lanka: luoghi, stagione e prenotazione',
+      whoQ: 'Quali luoghi vedere in un tour dello Sri Lanka?',
       whoA:
-        'Sundown Tours Sri Lanka e un tour operator locale a Waskaduwa, Kalutara. Organizziamo tour privati in Sri Lanka con autista guida dal 1992.',
-      whereQ: 'Dove ha sede Sundown Tours?',
+        'Un primo tour dello Sri Lanka include di solito la rocca di Sigiriya, il tempio di Dambulla, il Tempio del Dente a Kandy, il treno di Ella e il Nine Arch Bridge, un safari a Yala o Udawalawe e una sosta al mare a Galle, Mirissa o Bentota. Sundown Tours, a Waskaduwa dal 1992, prepara questo percorso come tour privato con il vostro autista guida.',
+      whereQ: 'Dove inizia un tour privato dello Sri Lanka?',
       whereA:
-        'Il nostro ufficio e a Waskaduwa, Kalutara North, sulla costa ovest dello Sri Lanka. Il ritiro aeroporto e a Bandaranaike (CMB) a Katunayake.',
+        'La maggior parte dei tour privati inizia con il ritiro all aeroporto Bandaranaike (CMB) di Katunayake, oppure in hotel a Colombo o Negombo. L autista guida vi aspetta li. Sundown Tours ha sede a Waskaduwa, Kalutara, sulla costa ovest. Non dovete guidare.',
       whenQ: 'Qual e il periodo migliore per visitare lo Sri Lanka?',
       whenA:
-        'Lo Sri Lanka e visitabile tutto l anno. Le coste sud e ovest sono ideali da dicembre ad aprile. La costa est e di solito migliore da maggio a settembre.',
-      bookQ: 'Come prenoto un tour privato?',
+        'Da dicembre ad aprile e il periodo migliore per il sud e l ovest, tra cui Galle, Mirissa e Bentota. Da maggio a settembre e di solito meglio la costa est, incluso Trincomalee. Triangolo culturale e colline si visitano tutto l anno, e adattiamo il percorso al mese del viaggio.',
+      bookQ: 'Come prenoto un tour privato dello Sri Lanka?',
       bookA:
-        'Scrivici su WhatsApp o usa il modulo di contatto. Rispondiamo entro 24 ore con un itinerario su misura e un preventivo chiaro.',
+        'Inviate date, numero di viaggiatori e interessi su WhatsApp. Sundown Tours risponde entro 24 ore con itinerario, tempi di guida e un prezzo chiaro per il tour privato con autista guida. Potete usare anche il modulo di contatto in questa pagina.',
       howTitle: 'Come prenotare un tour privato in Sri Lanka',
       how1: 'Comunica date, viaggiatori e interessi su WhatsApp o nel modulo.',
       how2: 'Inviamo itinerario, tempi di guida e un prezzo trasparente entro 24 ore.',

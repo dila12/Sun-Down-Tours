@@ -178,19 +178,19 @@ export const fr: Dict = {
       feature4: 'Guides locaux de confiance',
     },
     aeo: {
-      heading: 'Reponses rapides sur Sundown Tours',
-      whoQ: 'Qui est Sundown Tours ?',
+      heading: 'Circuit Sri Lanka : lieux, saison et reservation',
+      whoQ: 'Quels lieux voir sur un circuit au Sri Lanka ?',
       whoA:
-        'Sundown Tours Sri Lanka est un voyagiste local a Waskaduwa, Kalutara. Nous organisons des circuits prives au Sri Lanka avec chauffeur guide depuis 1992.',
-      whereQ: 'Ou se trouve Sundown Tours ?',
+        'Un premier circuit au Sri Lanka comprend en general le rocher de Sigiriya, le temple de Dambulla, le temple de la Dent a Kandy, le train d Ella et le Nine Arch Bridge, un safari a Yala ou Udawalawe, puis une plage a Galle, Mirissa ou Bentota. Sundown Tours, a Waskaduwa depuis 1992, prepare cet itineraire en circuit prive avec votre chauffeur guide.',
+      whereQ: 'Ou commence un circuit prive au Sri Lanka ?',
       whereA:
-        'Notre bureau est a Waskaduwa, Kalutara North, sur la cote ouest du Sri Lanka. L accueil aeroport se fait a Bandaranaike (CMB) a Katunayake.',
+        'La plupart des circuits prives commencent par une prise en charge a l aeroport Bandaranaike (CMB) a Katunayake, ou a l hotel a Colombo ou Negombo. Votre chauffeur guide vous y attend. Sundown Tours est base a Waskaduwa, Kalutara, sur la cote ouest. Vous n avez pas a conduire.',
       whenQ: 'Quelle est la meilleure periode pour visiter le Sri Lanka ?',
       whenA:
-        'Le Sri Lanka se visite toute l annee. Les cotes sud et ouest sont ideales de decembre a avril. La cote est convient souvent de mai a septembre.',
-      bookQ: 'Comment reserver un circuit prive ?',
+        'De decembre a avril, le sud et l ouest sont les plus favorables, dont Galle, Mirissa et Bentota. De mai a septembre, la cote est, dont Trincomalee, est souvent meilleure. Le Triangle culturel et les montagnes se visitent toute l annee, et nous adaptons la route a votre mois de voyage.',
+      bookQ: 'Comment reserver un circuit prive au Sri Lanka ?',
       bookA:
-        'Ecrivez nous sur WhatsApp ou utilisez le formulaire. Nous repondons sous 24 heures avec un itineraire sur mesure et un devis clair.',
+        'Envoyez vos dates, le nombre de voyageurs et vos envies sur WhatsApp. Sundown Tours repond sous 24 heures avec un itineraire, les temps de route et un prix clair pour un circuit prive avec chauffeur guide. Le formulaire de cette page convient aussi.',
       howTitle: 'Comment reserver un circuit prive au Sri Lanka',
       how1: 'Indiquez dates, voyageurs et envies sur WhatsApp ou le formulaire.',
       how2: 'Nous envoyons un itineraire, les temps de route et un prix transparent sous 24 heures.',

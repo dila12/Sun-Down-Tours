@@ -430,10 +430,24 @@ export class StructuredDataService {
       return null;
     }
     const items = this.i18n.faq(`${ns}.faq`, locale);
-    if (!items.length) {
+    const merged = ns === 'home' ? this.withHomeAnswers(locale, items) : items;
+    if (!merged.length) {
       return null;
     }
-    return this.faqSchema(items);
+    return this.faqSchema(merged);
+  }
+
+  /** Visible homepage answers, first, so FAQ schema matches what travelers read. */
+  private withHomeAnswers(
+    locale: Locale,
+    items: { q: string; a: string }[],
+  ): { q: string; a: string }[] {
+    const lead = (['who', 'where', 'when', 'book'] as const).map((key) => ({
+      q: this.i18n.t(`home.aeo.${key}Q`, locale),
+      a: this.i18n.t(`home.aeo.${key}A`, locale),
+    }));
+    const seen = new Set(lead.map((item) => item.q.trim().toLowerCase()));
+    return [...lead, ...items.filter((item) => !seen.has(item.q.trim().toLowerCase()))];
   }
 
   private faqSchema(items: { q: string; a: string }[]): Record<string, unknown> {

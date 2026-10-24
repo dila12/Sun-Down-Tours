@@ -316,6 +316,10 @@
                 <p class="faq-answer aeo-answer">{{ 'home.aeo.bookA' | t }}</p>
             </details>
         </div>
+        <p class="faq-book">
+            <a class="faq-book-primary" [href]="whatsappUrl" target="_blank" rel="noopener noreferrer">{{ 'common.cta.whatsapp' | t }}</a>
+            <a class="faq-book-secondary" [routerLink]="path('tours')">{{ 'common.cta.exploreTours' | t }}</a>
+        </p>
     </div>
 </section>
 @defer (on viewport) {

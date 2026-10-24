@@ -178,19 +178,19 @@ export const es: Dict = {
       feature4: 'Guias locales de confianza',
     },
     aeo: {
-      heading: 'Respuestas rapidas sobre Sundown Tours',
-      whoQ: 'Quien es Sundown Tours?',
+      heading: 'Circuito por Sri Lanka: lugares, temporada y reserva',
+      whoQ: 'Que lugares ver en un circuito por Sri Lanka?',
       whoA:
-        'Sundown Tours Sri Lanka es un operador local en Waskaduwa, Kalutara. Planificamos circuitos privados por Sri Lanka con chofer guia desde 1992.',
-      whereQ: 'Donde esta Sundown Tours?',
+        'Un primer circuito por Sri Lanka suele incluir la roca de Sigiriya, el templo de Dambulla, el Templo del Diente en Kandy, el tren de Ella y el Nine Arch Bridge, un safari en Yala o Udawalawe y playa en Galle, Mirissa o Bentota. Sundown Tours, en Waskaduwa desde 1992, prepara esa ruta como circuito privado con su chofer guia.',
+      whereQ: 'Donde empieza un circuito privado por Sri Lanka?',
       whereA:
-        'Nuestra oficina esta en Waskaduwa, Kalutara North, en la costa oeste de Sri Lanka. La recogida en aeropuerto es en Bandaranaike (CMB) en Katunayake.',
+        'La mayoria de los circuitos privados empiezan con la recogida en el aeropuerto Bandaranaike (CMB) de Katunayake, o en el hotel de Colombo o Negombo. Su chofer guia le espera alli. Sundown Tours esta en Waskaduwa, Kalutara, en la costa oeste. No tiene que conducir.',
       whenQ: 'Cual es la mejor epoca para visitar Sri Lanka?',
       whenA:
-        'Sri Lanka se visita todo el ano. Las costas sur y oeste son mejores de diciembre a abril. La costa este suele ser mejor de mayo a septiembre.',
-      bookQ: 'Como reservo un circuito privado?',
+        'De diciembre a abril es la mejor epoca para el sur y el oeste, incluidos Galle, Mirissa y Bentota. De mayo a septiembre suele ser mejor la costa este, incluido Trincomalee. El Triangulo Cultural y la montana se visitan todo el ano, y ajustamos la ruta a su mes de viaje.',
+      bookQ: 'Como reservo un circuito privado por Sri Lanka?',
       bookA:
-        'Escribenos por WhatsApp o usa el formulario. Respondemos en 24 horas con un itinerario a medida y un presupuesto claro.',
+        'Envie fechas, numero de viajeros e intereses por WhatsApp. Sundown Tours responde en 24 horas con la ruta, los tiempos de conduccion y un precio claro del circuito privado con chofer guia. Tambien puede usar el formulario de esta pagina.',
       howTitle: 'Como reservar un circuito privado por Sri Lanka',
       how1: 'Indica fechas, viajeros e intereses por WhatsApp o el formulario.',
       how2: 'Enviamos ruta, tiempos de conduccion y un precio transparente en 24 horas.',
