@@ -9,7 +9,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
     h1: 'Sigiriya Sri Lanka: Lion Rock, Climb and Cultural Triangle Day Tours',
     lead: 'Sigiriya Rock Fortress is a 200-metre granite monolith crowned by a fifth-century royal palace the most photographed sight in Sri Lanka, and one of the few places on earth where you climb through a lion’s mouth to a throne room in the clouds.',
     heroImage: 'assets/img/destination-1.webp',
-    heroAlt: 'Sigiriya Rock Fortress rising above the surrounding jungle at dawn',
+    heroAlt: 'Lion paw terrace and stairway at the base of Sigiriya Rock',
     sections: [
       {
         id: 'history',
@@ -103,7 +103,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   de: {
     h1: 'Sigiriya Lion Rock, Sri Lanka: Die Felsenfestung im Kulturdreieck',
     lead: 'Ein 200 Meter hoher Granitfelsen, gekront von einem Konigspalast aus dem 5. Jahrhundert  Sigiriya ist das meistfotografierte Wahrzeichen Sri Lankas und einer der wenigen Orte weltweit, an denen man durch das Maul eines steinernen Lowen zu einem Thronsaal uber den Wolken emporsteigt.',
-    heroAlt: 'Die Felsenfestung Sigiriya erhebt sich im Morgenlicht uber dem Dschungel',
+    heroAlt: 'Lowentatzen und Treppe am Fuss des Sigiriya Felsens',
     sections: [
       {
         title: 'Ein Palast aus Angst und Ehrgeiz',
@@ -189,7 +189,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   fr: {
     h1: 'Rocher du lion Sri Lanka : Sigiriya, forteresse du Triangle Culturel',
     lead: 'Un monolithe de granit de 200 metres couronne par un palais royal du Ve siecle : Sigiriya est le site le plus photographie du Sri Lanka, et l’un des rares endroits au monde ou l’on grimpe a travers la gueule d’un lion pour atteindre une salle du trone perchee dans les nuages.',
-    heroAlt: 'La forteresse rocheuse de Sigiriya s’elevant au dessus de la jungle a l’aube',
+    heroAlt: 'Terrasse des pattes de lion et escalier au pied du rocher de Sigiriya',
     sections: [
       {
         title: 'Un palais ne de la peur et de l’ambition',
@@ -275,7 +275,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   it: {
     h1: 'Lion Rock Sri Lanka: Sigiriya, fortezza del Triangolo Culturale',
     lead: 'Un monolite di granito alto 200 metri, coronato da un palazzo reale del V secolo: Sigiriya e il luogo piu fotografato dello Sri Lanka e uno dei pochi posti al mondo dove si sale attraverso la bocca di un leone per raggiungere una sala del trono tra le nuvole.',
-    heroAlt: 'La fortezza rocciosa di Sigiriya che si innalza sulla giungla all’alba',
+    heroAlt: 'Terrazza delle zampe di leone e scalinata alla base di Sigiriya',
     sections: [
       {
         title: 'Un palazzo nato dalla paura e dall’ambizione',
@@ -361,7 +361,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   es: {
     h1: 'Lion Rock Sri Lanka: Sigiriya, fortaleza del Triangulo Cultural',
     lead: 'Un monolito de granito de 200 metros coronado por un palacio real del siglo V: Sigiriya es el lugar mas fotografiado de Sri Lanka y uno de los pocos sitios del mundo donde se sube atravesando la boca de un leon para llegar a una sala del trono entre las nubes.',
-    heroAlt: 'La fortaleza rocosa de Sigiriya elevandose sobre la selva al amanecer',
+    heroAlt: 'Terraza de las patas del leon y escalera al pie de Sigiriya',
     sections: [
       {
         title: 'Un palacio nacido del miedo y la ambicion',
@@ -447,7 +447,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   pl: {
     h1: 'Lion Rock Sri Lanka: Sigiriya, skalna forteca Trojkata Kulturowego',
     lead: '200 metrowy granitowy monolit zwienczony palacem krolewskim z V wieku  Sigiriya to najczesciej fotografowany zabytek Sri Lanki i jedno z niewielu miejsc na swiecie, gdzie wchodzi sie przez paszcze lwa, by dotrzec do sali tronowej ukrytej w oblokach.',
-    heroAlt: 'Skalna forteca Sigiriya wznoszaca sie nad dzungla o wschodzie slonca',
+    heroAlt: 'Taras lwich lap i schody u podstawy skaly Sigiriya',
     sections: [
       {
         title: 'Palac zbudowany na strachu i ambicji',
@@ -533,7 +533,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   ru: {
     h1: 'Львиная скала Шри Ланка: Сигирия, крепость Культурного треугольника',
     lead: 'Гранитный монолит высотой 200 метров, увенчанный королевским дворцом V века. Сигирия — самая фотографируемая достопримечательность Шри Ланки и одно из немногих мест на земле, где вы поднимаетесь через пасть льва, чтобы добраться до тронного зала в облаках.',
-    heroAlt: 'Скальная крепость Сигирия на рассвете над джунглями',
+    heroAlt: 'Терраса львиных лап и лестница у подножия скалы Сигирия',
     sections: [
       {
         title: 'Дворец, построенный на страхе и амбициях',
@@ -619,7 +619,7 @@ export const SIGIRIYA_DEST: ArticleContent = {
   nl: {
     h1: 'Sigiriya, Sri Lanka: de leeuwenrots, de beklimming en dagtochten door de Culturele Driehoek',
     lead: 'De rotsvesting van Sigiriya is een granieten monoliet van 200 meter, bekroond door een koninklijk paleis uit de vijfde eeuw. Het is de meest gefotografeerde bezienswaardigheid van Sri Lanka, en een van de weinige plekken op aarde waar u door de muil van een leeuw omhoogklimt naar een troonzaal in de wolken.',
-    heroAlt: 'De rotsvesting van Sigiriya rijst bij zonsopgang boven de omringende jungle uit',
+    heroAlt: 'Leeuwenpootterras en trap aan de voet van de Sigiriya rots',
     sections: [
       {
         id: 'history',

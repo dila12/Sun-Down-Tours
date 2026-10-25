@@ -220,7 +220,7 @@ export const en: Dict = {
       sigiriya: 'Sigiriya',
       sigiriyaAlt: 'Sigiriya Rock Fortress Sri Lanka',
       ella: 'Ella',
-      ellaAlt: 'Ella scenic train journey Sri Lanka',
+      ellaAlt: 'Nine Arch Bridge near Ella Sri Lanka',
       yala: 'Yala Safari',
       yalaAlt: 'Yala National Park safari Sri Lanka',
       kandy: 'Kandy',

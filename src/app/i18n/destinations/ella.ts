@@ -9,7 +9,7 @@ export const ELLA_DEST: ArticleContent = {
     h1: 'Ella Sri Lanka: Nine Arch Bridge, Train Ride and Hill Country Views',
     lead: 'Ella is the hill-country stop travellers extend for: the Nine Arch Bridge, the Kandy to Ella train ride through tea estates, and cool mountain air that makes Little Adam’s Peak and Ella Rock worth an extra day.',
     heroImage: 'assets/img/destination-2.webp',
-    heroAlt: 'Nine Arch Bridge surrounded by green tea plantations near Ella',
+    heroAlt: 'Nine Arch Bridge in the green hills near Ella',
     sections: [
       {
         id: 'history',
@@ -100,7 +100,7 @@ export const ELLA_DEST: ArticleContent = {
   de: {
     h1: 'Ella Sri Lanka: Bergpanorama, Tee und die Nine Arch Bridge',
     lead: 'Kuhle Bergluft, ein Tal voller Teebusche, das sich in jede Richtung erstreckt, und das Gerausch des blauen Zuges, der ein jahrhundertealtes Viadukt uberquert  Ella ist der Bergland Stopp, wegen dem Reisende ihre Route gerne um einen Tag verlangern.',
-    heroAlt: 'Die Nine Arch Bridge inmitten gruner Teeplantagen bei Ella',
+    heroAlt: 'Die Nine Arch Bridge in den grunen Hugeln bei Ella',
     sections: [
       {
         title: 'Vom kolonialen Plantagenort zum Lieblingsort im Bergland',
@@ -182,7 +182,7 @@ export const ELLA_DEST: ArticleContent = {
   fr: {
     h1: 'Ella, Sri Lanka : panoramas des hautes terres, the et pont des neuf arches',
     lead: 'Un air de montagne frais, une vallee de theiers qui s’etend a perte de vue, et le bruit du train bleu traversant un viaduc centenaire : Ella est l’etape des hautes terres qui pousse les voyageurs a prolonger leur itineraire d’un jour supplementaire.',
-    heroAlt: 'Le pont des neuf arches entoure de plantations de the verdoyantes pres d’Ella',
+    heroAlt: 'Le pont des neuf arches dans les collines vertes pres d’Ella',
     sections: [
       {
         title: 'D’avant poste colonial des plantations a halte preferee des hautes terres',
@@ -264,7 +264,7 @@ export const ELLA_DEST: ArticleContent = {
   it: {
     h1: 'Ella, Sri Lanka: panorami collinari, te e il ponte dei nove archi',
     lead: 'Aria fresca di montagna, una valle di piantagioni di te che si estende in ogni direzione e il suono del treno blu che attraversa un viadotto secolare: Ella e la tappa dell’entroterra collinare che spinge i viaggiatori ad allungare l’itinerario di un giorno in piu.',
-    heroAlt: 'Il ponte dei nove archi circondato da verdi piantagioni di te vicino a Ella',
+    heroAlt: 'Il ponte dei nove archi tra le colline verdi vicino a Ella',
     sections: [
       {
         title: 'Da avamposto coloniale delle piantagioni a meta preferita dell’entroterra',
@@ -346,7 +346,7 @@ export const ELLA_DEST: ArticleContent = {
   es: {
     h1: 'Ella Sri Lanka: vistas de montana, te y el puente de los Nueve Arcos',
     lead: 'Aire fresco de montana, un valle de plantaciones de te que se extiende en todas direcciones y el sonido del tren azul cruzando un viaducto centenario: Ella es la parada de las tierras altas que hace que los viajeros alarguen su itinerario un dia mas.',
-    heroAlt: 'El puente de los Nueve Arcos rodeado de verdes plantaciones de te cerca de Ella',
+    heroAlt: 'El puente de los Nueve Arcos entre las colinas verdes cerca de Ella',
     sections: [
       {
         title: 'De puesto colonial de plantaciones a favorita de las tierras altas',
@@ -428,7 +428,7 @@ export const ELLA_DEST: ArticleContent = {
   pl: {
     h1: 'Ella, Sri Lanka: gorskie widoki, herbata i most Dziewieciu Lukow',
     lead: 'Chlodne gorskie powietrze, dolina krzewow herbaty rozciagajaca sie w kazda strone i odglos niebieskiego pociagu przejezdzajacego przez stuletni wiadukt  Ella to przystanek w gorach, przez ktory podrozni chetnie wydluzaja trase o dodatkowy dzien.',
-    heroAlt: 'Most Dziewieciu Lukow otoczony zielonymi plantacjami herbaty blisko Elli',
+    heroAlt: 'Most Dziewieciu Lukow wsrod zielonych wzgorz kolo Elli',
     sections: [
       {
         title: 'Od kolonialnej osady plantacyjnej do ulubionego miejsca w gorach',
@@ -510,7 +510,7 @@ export const ELLA_DEST: ArticleContent = {
   ru: {
     h1: 'Элла, Шри Ланка: горные пейзажи, чай и мост Девяти Арок',
     lead: 'Прохладный горный воздух, долина чайных кустов, простирающаяся во все стороны, и звук синего поезда, пересекающего вековой виадук Элла та остановка в горах, из за которой путешественники продлевают маршрут на лишний день.',
-    heroAlt: 'Мост Девяти Арок среди зелёных чайных плантаций возле Эллы',
+    heroAlt: 'Мост Девяти Арок среди зелёных холмов у Эллы',
     sections: [
       {
         title: 'От колониального плантационного посёлка до любимого горного курорта',
@@ -591,7 +591,7 @@ export const ELLA_DEST: ArticleContent = {
   nl: {
     h1: 'Ella, Sri Lanka: Nine Arch Bridge, treinrit en uitzicht over het heuvelland',
     lead: 'Ella is de stop in het heuvelland waarvoor reizigers hun route verlengen: de Nine Arch Bridge, de treinrit van Kandy naar Ella door de theeplantages, en koele berglucht die Little Adam’s Peak en Ella Rock een extra dag waard maken.',
-    heroAlt: 'Nine Arch Bridge tussen groene theeplantages bij Ella',
+    heroAlt: 'De Nine Arch Bridge in de groene heuvels bij Ella',
     sections: [
       {
         id: 'history',

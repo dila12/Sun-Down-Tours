@@ -208,7 +208,7 @@ export const es: Dict = {
       sigiriya: 'Sigiriya',
       sigiriyaAlt: 'Fortaleza de Sigiriya en Sri Lanka',
       ella: 'Ella',
-      ellaAlt: 'Viaje en tren panoramico de Ella',
+      ellaAlt: 'El puente de los Nueve Arcos cerca de Ella en Sri Lanka',
       yala: 'Safari en Yala',
       yalaAlt: 'Safari en el Parque Nacional de Yala',
       kandy: 'Kandy',

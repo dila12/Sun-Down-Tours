@@ -36,12 +36,12 @@ export const DEST_HUB_CARDS: DestHubCardMeta[] = [
   {
     pageId: 'destSigiriya',
     image: 'assets/img/destination-1.webp',
-    imageAlt: 'Sigiriya Rock Fortress rising above the jungle canopy',
+    imageAlt: 'Lion paw terrace and stairway at Sigiriya Rock',
   },
   {
     pageId: 'destElla',
     image: 'assets/img/destination-2.webp',
-    imageAlt: 'Nine Arch Bridge in the hill country of Ella',
+    imageAlt: 'Nine Arch Bridge in the green hills near Ella',
   },
   {
     pageId: 'destYala',
