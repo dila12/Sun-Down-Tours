@@ -78,14 +78,14 @@
       <source
         type="image/avif"
         [attr.srcset]="buildAvifSrcSet(toWebpSrc(article.heroImage)) || null"
-        sizes="(max-width: 992px) 100vw, 960px" />
+        sizes="(max-width: 768px) 100vw, 1120px" />
       <source
         type="image/webp"
         [attr.srcset]="buildSrcSet(toWebpSrc(article.heroImage)) || null"
-        sizes="(max-width: 992px) 100vw, 960px" />
+        sizes="(max-width: 768px) 100vw, 1120px" />
       <img
         class="article-hero-img__img"
-        [src]="bestImageSrc(toWebpSrc(article.heroImage), 960)"
+        [src]="bestImageSrc(toWebpSrc(article.heroImage), 1280)"
         [alt]="article.heroAlt"
         width="960"
         height="540"

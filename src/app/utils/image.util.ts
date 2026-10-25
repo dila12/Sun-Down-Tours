@@ -7,7 +7,7 @@ export const PLACEHOLDER_IMAGE = '/assets/img/image-fallback.webp';
  * Appended as ?v= to image URLs (not routingonly asset query).
  * Also update the hero preload `?v=` in `src/index.html`.
  */
-export const IMAGE_ASSET_VERSION = '20260828j';
+export const IMAGE_ASSET_VERSION = '20261025a';
 
 export type ImageFormat = 'webp' | 'avif';
 

@@ -50,6 +50,10 @@ export const it: Dict = {
       accept: 'Accetta',
       reject: 'Rifiuta',
     },
+    loader: {
+      title: 'Prepariamo il tuo viaggio',
+      detail: 'Caricamento di foto e dettagli',
+    },
     breadcrumb: { home: 'Home' },
     faqTitle: 'Domande frequenti',
     language: 'Lingua',

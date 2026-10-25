@@ -18,6 +18,7 @@ import { SeoService } from '../seo.service';
 import { LocaleService } from './i18n/locale.service';
 import { StructuredDataService } from './i18n/structured-data.service';
 import { TranslatePipe } from './i18n/t.pipe';
+import { PageLoaderComponent } from './sharedComponents/page-loader/page-loader';
 import { localeFromUrl, type Locale } from './i18n/locales';
 
 import {
@@ -36,7 +37,7 @@ import {
   standalone: true,
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
-  imports: [RouterModule, TranslatePipe],
+  imports: [RouterModule, TranslatePipe, PageLoaderComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent implements OnInit {

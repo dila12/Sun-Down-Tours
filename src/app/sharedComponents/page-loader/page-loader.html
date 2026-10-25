@@ -1,0 +1,13 @@
+@if (loader.phase() !== 'hidden') {
+  <div
+    class="page-loader"
+    data-page-loader
+    [class.is-leaving]="loader.phase() === 'leaving'"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+    aria-busy="true">
+    <span class="page-loader__ring" aria-hidden="true"></span>
+    <p class="page-loader__label">{{ 'common.loader.title' | t }}</p>
+  </div>
+}
