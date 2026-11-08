@@ -178,8 +178,8 @@ export function trackContactFormSubmit(): void {
 }
 
 /**
- * Booking thank-you page. Event name matches the existing Ads import
- * `tour_booking_success`.
+ * Booking thank-you page load. Event name matches the Google Ads
+ * SUBMIT_LEAD_FORM conversion: `conversion_event_submit_lead_form`.
  */
 export function trackBookingConversion(
   orderNumber: string,
@@ -203,7 +203,7 @@ export function trackBookingConversion(
   if (value > 0) {
     params['value'] = value;
   }
-  sendGaEvent('tour_booking_success', params);
+  sendGaEvent('conversion_event_submit_lead_form', params);
 }
 
 let whatsappClicksBound = false;
