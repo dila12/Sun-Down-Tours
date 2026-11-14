@@ -173,6 +173,9 @@ export const it: Dict = {
       slide3: 'Tour privati attraverso il bellissimo Sri Lanka',
       slide4: 'Scopri Sigiriya, Ella e le meraviglie dello Sri Lanka',
       slide5: 'Safari e tour avventura in Sri Lanka',
+      slideGuestSigiriya: 'Ospiti veri con Sundown Tours in Sri Lanka',
+      slideGuestSigiriyaAlt:
+        'Ospiti Sundown Tours che festeggiano con il team, con striscione a Sigiriya e il nostro veicolo privato',
     },
     intro: {
       title: 'Tour Sri Lanka e pacchetti vacanze con esperti locali',
@@ -233,6 +236,9 @@ export const it: Dict = {
       p2: "Dal patrimonio culturale di Sigiriya e Kandy alla bellezza paesaggistica di Ella e Nuwara Eliya, fino alla fauna del Parco Nazionale di Yala, creiamo viaggi indimenticabili in tutto lo Sri Lanka.",
       gallery1Alt: 'Tour privato in Sri Lanka con Sundown Tours',
       gallery2Alt: 'Pacchetti tour Sri Lanka con autista guida',
+      gallery3Alt: 'Due ospiti con uno striscione Sundown Tours davanti a Sigiriya',
+      gallery4Alt: 'Ospiti indicano il cartello Sundown Tours sul nostro veicolo privato a Sigiriya',
+      gallery5Alt: 'Ospiti e host di Sundown Tours con collage fotografici incorniciati',
     },
     features: {
       f1Title: 'Pacchetti tour Sri Lanka a prezzi accessibili',
@@ -252,6 +258,23 @@ export const it: Dict = {
       s2Desc: "Biglietti del treno per Ella, prenotazioni safari e biglietti d'ingresso organizzati per te.",
       s3Title: 'Prenotazione hotel e alloggi su misura',
       s3Desc: 'Hotel selezionati, dai resort di lusso alle guesthouse economiche.',
+    },
+    vehicles: {
+      tag: 'LA NOSTRA FLOTTA',
+      title: 'I nostri veicoli',
+      subtitle:
+        'Viaggia in SUV e van a tetto alto climatizzati, riservati solo al tuo gruppo privato.',
+      typeSuv: 'SUV',
+      typeKdh: 'KDH tetto alto',
+      suvGrey: 'SUV Honda grigio',
+      suvGreyAlt: 'SUV Honda grigio per tour privati in Sri Lanka con autista',
+      suvRed: 'SUV Honda rosso',
+      suvRedAlt: 'SUV Honda rosso per tour privati con autista in Sri Lanka',
+      kdhWhite: 'Van tetto alto bianco',
+      kdhWhiteAlt: 'Van Toyota tetto alto bianco per viaggi in famiglia in Sri Lanka',
+      kdhSilver: 'Van tetto alto argento',
+      kdhSilverAlt: 'Van Toyota tetto alto argento per gruppi in Sri Lanka',
+      note: 'Climatizzato · Autista autorizzato · Targhe sfocate per la privacy',
     },
     faqTitle: 'Domande frequenti',
     faq: [
@@ -673,143 +696,142 @@ export const it: Dict = {
 
   seo: {
     home: {
-      title: 'Viaggio Sri Lanka | Tour privati dall’Italia',
+      title: 'Tour privato Sri Lanka con autista | 5-10 giorni',
       description:
-        'Viaggio in Sri Lanka dall’Italia: tour privato con autista guida, quando andare, volo Milano, visto ETA, Lion Rock, safari e spiagge. Dal 1992.',
-      keywords:
-        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, cosa vedere Sri Lanka, autista privato Sri Lanka',
+        'Tour privati Sri Lanka con autista per viaggiatori europei. Itinerari da 5 a 10 giorni con autista locale. Team dal 1992. Richiedi un preventivo.',
+      keywords: 'tour privato Sri Lanka, autista privato, itinerario Sri Lanka',
     },
     tours: {
-      title: 'Pacchetti tour Sri Lanka | 7, 8 e 10 giorni in privato',
+      title: 'Tour privati Sri Lanka | 4-10 giorni con autista',
       description:
-        'Pacchetti tour Sri Lanka per viaggiatori dall’Europa: vacanze private di 7, 8 e 10 giorni con autista guida, safari e spiaggianon tour di gruppo.',
-      keywords: 'pacchetti Sri Lanka, tour Sri Lanka, viaggio Sri Lanka, tour 7 giorni, itinerario 10 giorni',
+        'Confronta tour privati Sri Lanka da 4 a 10 giorni con autista, safari e spiaggia. Su misura, senza pullman di gruppo. Richiedi un preventivo.',
+      keywords: 'pacchetti Sri Lanka, tour privato con autista, tour 7 giorni, itinerari Sri Lanka',
     },
     services: {
-      title: 'Tour privati, autista e vacanze | Sri Lanka',
+      title: 'Autista privato e servizi tour | Sri Lanka',
       description:
-        'I nostri servizi: tour privati, pacchetti su misura, tour con autista ed escursioni giornaliere in Sri Lanka.',
-      keywords: 'Autista Privato Sri Lanka, Viaggio Sri Lanka, Tour Sri Lanka, safari Sri Lanka',
+        'Tour con autista, vacanze su misura ed escursioni giornaliere in Sri Lanka. Ritmo flessibile, meet aeroporto. Dal 1992. Richiedi un preventivo.',
+      keywords: 'autista Sri Lanka, tour su misura, escursione giornaliera, servizio privato',
     },
     about: {
-      title: 'Chi siamo | Agenzia di viaggi di fiducia in Sri Lanka',
+      title: 'Chi siamo | Sundown Tours dal 1992',
       description:
-        'Scopri Sundown Tours Sri Lanka, il tuo tour operator locale di fiducia per tour privati in Sri Lanka dal 1992.',
-      keywords: 'agenzia viaggi Sri Lanka, tour operator Sri Lanka, Tour Sri Lanka',
+        'Sundown Tours organizza tour privati con autista in Sri Lanka dal 1992. Team locale per ospiti europei. Richiedi un preventivo gratuito oggi.',
+      keywords: 'Sundown Tours, operatore Sri Lanka, tour privati dal 1992, autista locale',
     },
     contact: {
-      title: 'Pianifica il tuo tour in Sri Lanka | Contatti',
+      title: 'Contatti Sundown Tours | Preventivo Sri Lanka',
       description:
-        'Contatta Sundown Tours per tour privati su misura in Sri Lanka. Rispondiamo entro 24 ore.',
-      keywords: 'prenota viaggio Sri Lanka, contatto tour Sri Lanka, Autista Privato Sri Lanka',
+        'Pianifica un tour privato Sri Lanka con autista. Invia date e stile; rispondiamo di solito entro un giorno. Team dal 1992. Richiedi un preventivo.',
+      keywords: 'contatto tour Sri Lanka, preventivo gratuito, prenotare autista Sri Lanka',
     },
     tour7: {
-      title: 'Tour Sri Lanka 7 giorni | Cultura, montagne e safari',
+      title: 'Tour privato 7 giorni | Wilpattu e Mirissa',
       description:
-        'Vivi lo Sri Lanka in 7 giorni: Sigiriya, Kandy, Ella e safari a Yala con autista guida privato. Richiedi il tuo tour su misura.',
-      keywords: 'tour Sri Lanka 7 giorni, Viaggio Sri Lanka, Autista Privato Sri Lanka, safari Sri Lanka',
+        'Safari Wilpattu, Sigiriya, Kandy, Ella e Mirissa (balene in opzione). Hotel 4 stelle, autista privato. Richiedi un preventivo gratuito. Team dal 1992.',
+      keywords: 'tour Sri Lanka 7 giorni, Wilpattu Mirissa, tour privato con autista',
     },
     tour10: {
-      title: 'Tour Sri Lanka 10 giorni | Il giro completo dell’isola',
+      title: 'Tour privato 10 giorni | Giro dell’isola',
       description:
-        'Scopri lo Sri Lanka in 10 giorni: spiagge, safari, montagne e siti culturali con autista guida privato. Richiedi il tuo tour su misura.',
-      keywords: 'tour Sri Lanka 10 giorni, Sri Lanka 10 giorni, viaggio privato Sri Lanka, giro dell’isola Sri Lanka',
+        'Giro dell’isola: Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella e spiagge a Hikkaduwa. Autista privato dal 1992. Richiedi un preventivo. Team dal 1992.',
+      keywords: 'tour Sri Lanka 10 giorni, giro isola privato, Hikkaduwa spiaggia',
     },
     tour8: {
-      title: 'Tour Sri Lanka 8 giorni | Safari Wilpattu, Sigiriya, Kandy, Ella e mare',
+      title: 'Tour privato 8 giorni | Yala e spiaggia Mirissa',
       description:
-        'Vivi lo Sri Lanka in 8 giorni in privato: safari a Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella e soggiorno mare a Hikkaduwa.',
-      keywords: 'tour Sri Lanka 8 giorni, Sri Lanka 8 giorni, safari Wilpattu, viaggio privato Sri Lanka',
+        'Pidurangala, Sigiriya, Kandy, tè, Ella, safari Yala e notti a Mirissa. Con autista. Cancellazione gratuita 14 giorni. Preventivo. Team locale dal 1992.',
+      keywords: 'tour Sri Lanka 8 giorni, Yala Mirissa spiaggia, tour privato autista',
     },
     tour6: {
-      title: 'Tour Sri Lanka 6 giorni | Sigiriya, Kandy, Ella e safari a Yala',
+      title: 'Tour privato 6 giorni | Yala e spiaggia',
       description:
-        'Lo Sri Lanka in 6 giorni in privato: Sigiriya, Kandy, le montagne di Ella, safari a Yala e spiagge suggestive con autista guida esperto.',
-      keywords: 'tour Sri Lanka 6 giorni, Sri Lanka 6 giorni, Sigiriya Kandy Ella, safari Yala',
+        'Sigiriya, Kandy, tè, safari Yala e spiaggia sud-ovest con hotel 4 stelle. Cancellazione gratuita entro 14 giorni. Richiedi un preventivo. Team dal 1992.',
+      keywords: 'tour Sri Lanka 6 giorni, safari Yala spiaggia, tour privato autista',
     },
     tour5: {
-      title: 'Tour Sri Lanka 5 giorni | Cultura, natura e fauna',
+      title: 'Tour privato 5 giorni | Tè e costa',
       description:
-        'Un tour equilibrato di 5 giorni in Sri Lanka con cultura, montagne ed esperienza safari  privato e su misura.',
-      keywords: 'tour Sri Lanka 5 giorni, Sri Lanka 5 giorni, viaggio breve Sri Lanka',
+        'Sigiriya, Kandy, Nuwara Eliya, Ella e costa sud (Madu River), hotel 4 stelle e autista. Ideale soggiorno breve. Richiedi un preventivo. Team dal 1992.',
+      keywords: 'tour Sri Lanka 5 giorni, Nuwara Eliya tè, tour privato con autista',
     },
     tour4: {
-      title: 'Tour Sri Lanka 4 giorni | Highlights e safari',
+      title: 'Tour privato 4 giorni | Kandy, Ella & Yala',
       description:
-        'Vivi lo Sri Lanka in 4 giorni: Sigiriya, Kandy, Ella e safari a Yala in un tour privato con autista guida.',
-      keywords: 'tour Sri Lanka 4 giorni, Sri Lanka 4 giorni, viaggio breve Sri Lanka',
+        'Kandy, colline di Ella e safari Yala, poi Galle o Bentota sulla costa sud. Con autista. Cancellazione gratuita 14 giorni. Preventivo. Team locale dal 1992.',
+      keywords: 'tour Sri Lanka 4 giorni, Kandy Ella Yala, tour privato con autista',
     },
     tour2ek: {
-      title: 'Tour privato Sri Lanka 2 giorni  Ella, Kandy e Udawalawa | Transfer aeroporto o hotel',
+      title: 'Tour privato 2 giorni | Ella & Kandy',
       description:
-        'Tour privato di 2 giorni in Sri Lanka: Udawalawa, highlights di Ella, cascate di Ramboda, torre di Ambuluwawa e Tempio del Dente a Kandy.',
-      keywords: 'tour Sri Lanka 2 giorni, Ella Kandy, viaggio privato Sri Lanka',
+        'Breve giro collinare: Udawalawa, Ella e Tempio del Dente a Kandy con autista privato. Ritmo flessibile. Richiedi un preventivo. Team locale dal 1992.',
+      keywords: 'tour Ella Kandy 2 giorni, Tempio del Dente, autista privato Sri Lanka',
     },
     tour2ey: {
-      title: 'Tour privato 2 giorni Ella e safari a Yala | Fauna dello Sri Lanka',
+      title: 'Tour privato 2 giorni | Ella & safari Yala',
       description:
-        'Tour privato di 2 giorni con gli highlights di Ella e un emozionante safari in jeep nel Parco Nazionale di Yala  leopardi, elefanti e altro.',
-      keywords: 'safari Ella Yala, safari Sri Lanka 2 giorni, Parco Nazionale Yala',
+        'Weekend Ella e safari jeep privato a Yala con autista e hotel 4 stelle. Cancellazione gratuita entro 14 giorni. Richiedi un preventivo. Team dal 1992.',
+      keywords: 'safari Yala 2 giorni, tour privato Ella Yala, autista Sri Lanka',
     },
     ellaDay: {
-      title: 'Escursione di un giorno a Ella | Treno panoramico e Nine Arch Bridge',
+      title: 'Escursione Ella con autista | Nine Arch',
       description:
-        'Escursione privata a Ella con Nine Arch Bridge, Little Adam’s Peak e le cascate di Ravana tra le montagne dello Sri Lanka.',
-      keywords: 'escursione Ella, gita a Ella, Nine Arch Bridge',
+        'Giornata privata a Ella: Nine Arch Bridge, Little Adam’s Peak e Ravana Falls con autista. Ritmo flessibile. Richiedi un preventivo. Team locale dal 1992.',
+      keywords: 'escursione Ella, Nine Arch Bridge, autista privato Sri Lanka',
     },
     galleDay: {
-      title: 'Escursione di un giorno a Galle | Forte di Galle e costa sud',
+      title: 'Escursione Galle con autista | Forte olandese',
       description:
-        'Scopri il Forte di Galle, le spiagge e le attrazioni della costa sud con la nostra escursione privata di un giorno.',
-      keywords: 'escursione Galle, Forte di Galle, costa sud Sri Lanka',
+        'Giornata privata a Galle: mura del Forte olandese, faro e soste sulla costa sud. Con autista. Richiedi un preventivo gratuito. Team locale dal 1992.',
+      keywords: 'escursione Galle, Forte di Galle privato, costa sud Sri Lanka',
     },
     kandyDay: {
-      title: 'Escursione di un giorno a Kandy | Cultura e paesaggi',
+      title: 'Escursione Kandy con autista | Tempio del Dente',
       description:
-        'Vivi gli highlights di Kandy, tra cui il Tempio del Dente e il Giardino Botanico Reale, in un’escursione privata di un giorno.',
-      keywords: 'escursione Kandy, gita a Kandy, Tempio del Dente',
+        'Giornata privata a Kandy: Tempio del Dente, belvedere e punti salienti della città con autista. Richiedi un preventivo oggi. Richiedi un preventivo gratis.',
+      keywords: 'escursione Kandy, Tempio del Dente, autista privato Kandy',
     },
     sigiriyaDay: {
-      title: 'Escursione di un giorno a Sigiriya | Antica fortezza rocciosa',
+      title: 'Escursione Sigiriya con autista | Roccia del Leone',
       description:
-        'Esplora l’antica fortezza rocciosa di Sigiriya e i suoi giardini in un’escursione privata di un giorno.',
-      keywords: 'escursione Sigiriya, roccia di Sigiriya, roccia del Leone',
+        'Giornata privata a Sigiriya: Roccia del Leone o Pidurangala, grotte di Dambulla e villaggio. Con autista. Richiedi un preventivo. Team locale dal 1992.',
+      keywords: 'escursione Sigiriya, Roccia del Leone, grotte Dambulla autista',
     },
     destinations: {
-      title: 'Destinazioni Sri Lanka | Spiagge, fauna e siti culturali',
+      title: 'Destinazioni Sri Lanka | Ella, Sigiriya, Yala',
       description:
-        'Scopri le piu belle destinazioni dello Sri Lanka: spiagge, parchi nazionali e luoghi di interesse culturale.',
-      keywords: 'destinazioni Sri Lanka, cosa vedere in Sri Lanka',
+        'Destinazioni per tour privati: Ella, Sigiriya, Yala, Kandy, Galle e Mirissa. Consigli per itinerari con autista. Richiedi un preventivo. Dal 1992.',
+      keywords: 'destinazioni Sri Lanka, Ella Sigiriya Yala, luoghi tour privato, Galle Mirissa',
     },
     guides: {
-      title: 'Guide di viaggio Sri Lanka | Consigli degli esperti',
+      title: 'Guide di viaggio Sri Lanka | Consigli tour privato',
       description:
-        'Le nostre guide di viaggio complete sullo Sri Lanka, con consigli degli esperti e informazioni pratiche per il tuo viaggio.',
-      keywords: 'guida di viaggio Sri Lanka, consigli viaggio Sri Lanka',
+        'Guide pratiche: periodo migliore, consigli sull autista privato e basi visto per l Europa. Pianifica meglio. Richiedi un preventivo. Itinerari su misura.',
+      keywords: 'guida viaggio Sri Lanka, periodo migliore, autista privato, visto Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya, salita e consigli',
+      title: 'Sigiriya Sri Lanka | Lion Rock e Dambulla',
       description:
-        'Visitare il Lion Rock (Sigiriya): orari di salita, affreschi, Pidurangala e tour del Triangolo Culturale con autista privato.',
-      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, fortezza di Sigiriya, cosa vedere Sri Lanka',
+        'Sigiriya Lion Rock e Dambulla in giornata privata o tour con autista. Consigli salita, timing e ritmo. Richiedi un preventivo. Team locale sul posto.',
+      keywords: 'Sigiriya Sri Lanka, Lion Rock, grotte Dambulla, tour privato Sigiriya',
     },
     destElla: {
-      title: 'Ella Sri Lanka | Treno, Nine Arch Bridge e paese del te',
+      title: 'Ella Sri Lanka | Nine Arch Bridge e colline',
       description:
-        'Ella Sri Lanka: treno Kandy to Ella, ponte dei nove archi, sentieri e notti in montagna in un tour privato.',
-      keywords: 'ella Sri Lanka, Ella, treno Sri Lanka, Nine Arch Bridge',
+        'Pianifica Ella: Nine Arch Bridge, Little Adams Peak e te per una giornata o un soggiorno. Con autista. Richiedi un preventivo. Richiedi un preventivo.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, tour privato Ella',
     },
     destYala: {
-      title: 'Safari Yala Sri Lanka | Leopardi, jeep e Udawalawe',
+      title: 'Parco nazionale di Yala | Safari privato tips',
       description:
-        'Safari Sri Lanka: Yala, Udawalawe, Wilpattu e Minneriya, probabilita leopardo e abbinamento con Ella o il mare.',
-      keywords: 'safari Sri Lanka, yala Sri Lanka, Udawalawe national park, Minneriya, Wilpattu',
+        'Safari jeep a Yala in tour privato: chance leopardo, orari gate e abbinamento con Ella o costa. Richiedi un preventivo per le date. Pianifica con fiducia.',
+      keywords: 'Yala parco nazionale, safari Yala, leopardo Sri Lanka, safari privato',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka | Tempio del Dente e capitale delle colline',
+      title: 'Kandy Sri Lanka | Tempio del Dente guida',
       description:
-        'Cosa vedere a Kandy: Tempio del Dente, lago, Peradeniya e treno verso Ella in un tour privato.',
-      keywords: 'kandy Sri Lanka, Kandy, Tempio del Dente, cosa vedere Sri Lanka',
+        'Scopri Kandy: Tempio del Dente, lago e porta alle colline in tour privati con autista. Consigli pratici. Richiedi un preventivo. Pianifica con fiducia.',
+      keywords: 'Kandy Sri Lanka, Tempio del Dente, tour privato Kandy, colline',
     },
     destDambulla: {
       title: 'Guida al Tempio di Dambulla | Consigli sul Tempio d’Oro',
@@ -818,29 +840,28 @@ export const it: Dict = {
       keywords: 'Tempio di Dambulla, Tempio d’Oro Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Galle Sri Lanka | Forte, faro e mare del sud',
+      title: 'Forte di Galle Sri Lanka | Costa sud privata',
       description:
-        'Forte di Galle: bastioni olandesi, faro e spiagge del sud in un tour privato.',
-      keywords: 'galle Sri Lanka, Galle, Forte di Galle, spiagge Sri Lanka, mare Sri Lanka',
+        'Forte di Galle, faro e spiagge del sud in escursione o circuito multi-giorno con autista. Ritmo calmo. Richiedi un preventivo. Team locale sul posto.',
+      keywords: 'Forte di Galle, Galle Sri Lanka, costa sud privata, escursione Galle',
     },
     guideBestTime: {
-      title: 'Quando andare in Sri Lanka | Meteo, agosto e periodo migliore',
+      title: 'Periodo migliore Sri Lanka | Guida alle stagioni',
       description:
-        'Quando andare in Sri Lanka: due monsoni, meteo, Sri Lanka ad agosto, dicembre, spiagge e safari. Periodo migliore per costa.',
-      keywords:
-        'quando andare in Sri Lanka, quando andare Sri Lanka, periodo migliore Sri Lanka, meteo Sri Lanka, sri lanka agosto',
+        'Quando visitare Sri Lanka: finestre secche per costa e colline, monsone e percorsi adattati. Richiedi un preventivo per le date. Ritmo privato flessibile.',
+      keywords: 'periodo migliore Sri Lanka, clima Sri Lanka, monsone, stagione secca',
     },
     guideVisa: {
-      title: 'Visto Sri Lanka 2026 | ETA, passaporto italiano, eta.gov.lk',
+      title: 'Visto ed ETA Sri Lanka | Guida viaggiatori Europa',
       description:
-        'ETA Sri Lanka per l’Italia: dal 25 maggio 2026 turistica gratuita 30 giorni per 40 Paesi. Solo eta.gov.lk prima del volo.',
-      keywords: 'visto Sri Lanka, ETA Sri Lanka 2026, eta.gov.lk, passaporto italiano',
+        'ETA e basi di ingresso per viaggiatori europei prima di un tour privato. Note pratiche, non consulenza legale. Richiedi un preventivo. Team locale.',
+      keywords: 'visto Sri Lanka, ETA Sri Lanka, ingresso Europa, documenti viaggio',
     },
     guidePrivateDriver: {
-      title: 'Guida all’autista privato Sri Lanka | Tour con chauffeur spiegati',
+      title: 'Autista privato Sri Lanka | Guida pratica',
       description:
-        'Perche i viaggiatori scelgono un autista privato in Sri Lanka, cosa e incluso, le distanze giornaliere tipiche e come pianificare un tour flessibile.',
-      keywords: 'autista privato Sri Lanka, autista guida Sri Lanka, tour privato Sri Lanka',
+        'Cosa include un autista privato in Sri Lanka: veicolo, ritmo, hotel e abitudini degli ospiti europei. Richiedi un preventivo. Pianifica con fiducia.',
+      keywords: 'autista privato Sri Lanka, guida chauffeur, tour con autista',
     },
     guideBudget: {
       title: 'Cambio euro Sri Lanka | Rupia (LKR) e costi',
@@ -891,22 +912,22 @@ export const it: Dict = {
       keywords: 'viaggiare sicuri Sri Lanka, sri lanka viaggiare sicuri, sicurezza Sri Lanka',
     },
     cancellation: {
-      title: 'Politica di cancellazione | Sundown Tours Sri Lanka',
+      title: 'Politica di cancellazione | Sundown Tours',
       description:
-        'Modifiche prenotazione, regole di acconto e condizioni di cancellazione per tour privati e autista con Sundown Tours.',
-      keywords: 'politica cancellazione, cancellazione tour Sri Lanka, modifica prenotazione',
+        'Termini di cancellazione per tour privati Sri Lanka. Cancellazione gratuita spesso fino a 14 giorni prima. Leggi e richiedi un preventivo. Autista privato.',
+      keywords: 'cancellazione tour Sri Lanka, gratuita 14 giorni, policy Sundown Tours',
     },
     restaurants: {
-      title: 'Dove mangiare in Sri Lanka | Menu Sundown Beach Restaurant',
+      title: 'Dove mangiare in Sri Lanka | Costa e tour tips',
       description:
-        'Dove si mangia in un tour privato in Sri Lanka: pesce della costa ovest, ristoranti di Galle Fort e menu completo del Sundown Beach Restaurant a Waskaduwa.',
-      keywords: 'ristoranti Sri Lanka, dove mangiare Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
+        'Dove mangiano i viaggiatori in tour privato: seafood in costa, rice and curry, piu Sundown Beach Restaurant a Waskaduwa. Richiedi un preventivo.',
+      keywords: 'ristoranti Sri Lanka, Sundown Beach Restaurant, mangiare in tour',
     },
     testimonials: {
-      title: 'Recensioni dei clienti | Sundown Tours Sri Lanka',
+      title: 'Recensioni ospiti | Sundown Tours Sri Lanka',
       description:
-        'Leggi le recensioni dei nostri clienti soddisfatti che hanno vissuto i nostri tour privati in Sri Lanka.',
-      keywords: 'recensioni Sri Lanka, testimonianze tour Sri Lanka',
+        'Leggi recensioni reali sui nostri tour privati con autista in Sri Lanka da viaggiatori europei. Feedback live e TripAdvisor. Richiedi un preventivo.',
+      keywords: 'recensioni Sundown Tours, recensioni tour privato Sri Lanka, testimonianze',
     },
     privacy: {
       title: 'Informativa sulla privacy | Sundown Tours Sri Lanka',
@@ -932,10 +953,10 @@ export const it: Dict = {
       keywords: 'bentota Sri Lanka, mare Sri Lanka, spiagge Sri Lanka',
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka | Balene, spiaggia e Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Spiaggia e stagione balene',
       description:
-        'Mirissa Sri Lanka: whale watching, spiaggia e abbinamento con Galle o Weligama in un tour privato.',
-      keywords: 'mirissa Sri Lanka, Mirissa, spiagge Sri Lanka, mare Sri Lanka',
+        'Mirissa: spiaggia, stagione whale watching e collegamento con Galle o soggiorno sud in tour privato. Richiedi un preventivo. Viaggiatori europei benvenuti.',
+      keywords: 'Mirissa Sri Lanka, spiaggia Mirissa, balene Mirissa, costa sud tour',
     },
     destWeligama: {
       title: 'Weligama Sri Lanka | Surf e baia del sud',
@@ -1013,46 +1034,52 @@ export const it: Dict = {
       keywords: 'aeroporto Sri Lanka, sri lanka aeroporto, transfer Colombo, CMB, Negombo',
     },
     marketGermany: {
-      title: 'Tour Sri Lanka dalla Germania | Autista privato',
-      description: 'Tour privato per chi parte dalla Germania, con autista locale dopo l’arrivo a Colombo.',
-      keywords: 'tour Sri Lanka Germania, viaggio privato, autista',
+      title: 'Tour Sri Lanka dalla Germania | con autista',
+      description:
+        'Tour privati per viaggiatori dalla Germania: con autista, giorni flessibili, team locale dal 1992. Richiedi un preventivo gratuito. Team locale sul posto.',
+      keywords: 'Sri Lanka Germania, tour privato autista, viaggio dalla Germania',
     },
     marketFrance: {
-      title: 'Tour Sri Lanka dalla Francia | Autista privato',
-      description: 'Tour privato per chi parte dalla Francia, con trasferimento da CMB e ritmo flessibile.',
-      keywords: 'tour Sri Lanka Francia, viaggio privato, autista',
+      title: 'Tour Sri Lanka dalla Francia | con autista',
+      description:
+        'Tour privati per viaggiatori dalla Francia: con autista, ritmo flessibile, team locale dal 1992. Richiedi un preventivo gratuito. Team locale.',
+      keywords: 'Sri Lanka Francia, tour privato autista, viaggio dalla Francia',
     },
     marketItaly: {
-      title: 'Viaggio Sri Lanka dall’Italia | Quando andare, volo Milano, tour privato',
+      title: 'Tour privato Sri Lanka dall’Italia | autista',
       description:
-        'Viaggio in Sri Lanka dall’Italia: durata volo Milano, quando andare, agosto, ETA, Lion Rock, safari e tour con autista dopo CMB.',
-      keywords:
-        'viaggio Sri Lanka, tour Sri Lanka, quando andare in Sri Lanka, voli Sri Lanka, cosa vedere Sri Lanka, volo Milano Sri Lanka',
+        'Tour privati Sri Lanka per viaggiatori dall’Italia: con autista, itinerari flessibili, team locale dal 1992. Richiedi un preventivo. Pianifica con fiducia.',
+      keywords: 'tour Sri Lanka dall’Italia, autista privato, viaggio Sri Lanka',
     },
     marketSpain: {
-      title: 'Tour Sri Lanka dalla Spagna | Autista privato',
-      description: 'Tour privato per chi parte dalla Spagna: cultura, spiagge e autista dedicato.',
-      keywords: 'tour Sri Lanka Spagna, viaggio privato, autista',
+      title: 'Tour Sri Lanka dalla Spagna | con autista',
+      description:
+        'Tour privati per viaggiatori dalla Spagna: con autista, giorni flessibili, pianificazione dal 1992. Richiedi un preventivo gratuito. Itinerari su misura.',
+      keywords: 'Sri Lanka Spagna, tour privato autista, viaggio dalla Spagna',
     },
     marketPoland: {
-      title: 'Tour Sri Lanka dalla Polonia | Autista privato',
-      description: 'Tour privato per chi parte dalla Polonia, con accoglienza all’aeroporto CMB.',
-      keywords: 'tour Sri Lanka Polonia, viaggio privato, autista',
+      title: 'Tour Sri Lanka dalla Polonia | con autista',
+      description:
+        'Tour privati per viaggiatori dalla Polonia: con autista, giorni flessibili, team locale dal 1992. Richiedi un preventivo gratuito. Itinerari su misura.',
+      keywords: 'Sri Lanka Polonia, tour privato autista, viaggio dalla Polonia',
     },
     marketRussia: {
-      title: 'Tour Sri Lanka dalla Russia | Autista privato',
-      description: 'Tour privato per chi parte dalla Russia. Organizziamo il percorso, non il biglietto aereo.',
-      keywords: 'tour Sri Lanka Russia, viaggio privato, autista',
+      title: 'Tour Sri Lanka dalla Russia | con autista',
+      description:
+        'Tour privati per viaggiatori dalla Russia: con autista, percorsi flessibili, team locale dal 1992. Richiedi un preventivo gratuito. Itinerari su misura.',
+      keywords: 'Sri Lanka Russia, tour privato autista, viaggio dalla Russia',
     },
     marketNetherlands: {
-      title: 'Tour Sri Lanka dai Paesi Bassi | Autista privato',
-      description: 'Tour privato per chi parte dai Paesi Bassi, con autista dopo l’atterraggio a Colombo.',
-      keywords: 'tour Sri Lanka Paesi Bassi, viaggio privato, autista',
+      title: 'Tour Sri Lanka dai Paesi Bassi | con autista',
+      description:
+        'Tour privati per viaggiatori dai Paesi Bassi: con autista, giorni flessibili, meet aeroporto. Dal 1992. Richiedi un preventivo. Richiedi un preventivo.',
+      keywords: 'Sri Lanka Paesi Bassi, tour privato autista, viaggio dall Olanda',
     },
     marketUK: {
-      title: 'Vacanze Sri Lanka dal Regno Unito | Tour privato',
-      description: 'Tour privato in Sri Lanka per viaggiatori dal Regno Unito: autista guida, volo per Colombo e itinerari 7 a 10 giorni.',
-      keywords: 'vacanze Sri Lanka, tour privato, autista guida',
+      title: 'Tour Sri Lanka dal Regno Unito | con autista',
+      description:
+        'Tour privati per viaggiatori dal Regno Unito: con autista, giorni flessibili, team locale dal 1992. Richiedi un preventivo gratuito. Pianifica con fiducia.',
+      keywords: 'Sri Lanka UK, tour privato autista, viaggio dal Regno Unito',
     },
     marketAustria: {
       title: 'Tour Sri Lanka dall’Austria | Autista privato',

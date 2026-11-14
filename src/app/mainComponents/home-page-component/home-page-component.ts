@@ -17,6 +17,7 @@ import { SITE_WHATSAPP_URL } from '../../i18n/site-contact';
 import { onImageError, toWebpSrc, buildCappedSrcSet, buildCappedAvifSrcSet, buildSrcSet, bestImageSrc, HERO_LCP_BASE } from '../../utils/image.util';
 import { HomeContactSectionComponent } from './sections/home-contact-section/home-contact-section';
 import { HomeTeamSectionComponent } from './sections/home-team-section/home-team-section';
+import { HomeVehiclesSectionComponent } from './sections/home-vehicles-section/home-vehicles-section';
 import { HomeElfsightWidgetComponent } from './sections/home-elfsight-widget/home-elfsight-widget';
 import { HomePopularToursComponent } from './sections/home-popular-tours/home-popular-tours';
 import { HeroLcpImageComponent } from './sections/hero-lcp-image';
@@ -53,6 +54,7 @@ interface Destination {
     RouterModule,
     HomeContactSectionComponent,
     HomeTeamSectionComponent,
+    HomeVehiclesSectionComponent,
     HomeElfsightWidgetComponent,
     HomePopularToursComponent,
     HeroLcpImageComponent,
@@ -101,6 +103,12 @@ export class HomePageComponent implements OnInit, OnDestroy {
 
   readonly extraSlides: TourSlide[] = [
     {
+      src: toWebpSrc('assets/img/mainpage/hero-slide-guest-sigiriya.jpg'),
+      people: true,
+      alt: 'home.hero.slideGuestSigiriyaAlt',
+      heading: 'home.hero.slideGuestSigiriya',
+    },
+    {
       src: toWebpSrc('assets/img/mainpage/hero-slide-3.jpg'),
       people: true,
       alt: 'home.hero.slide3',
@@ -113,11 +121,6 @@ export class HomePageComponent implements OnInit, OnDestroy {
     },
     {
       src: toWebpSrc('assets/img/5daysTours/32.jpg'),
-      alt: 'home.hero.slide2',
-      heading: 'home.hero.slide2',
-    },
-    {
-      src: toWebpSrc('assets/img/mainpage/1.jpg'),
       alt: 'home.hero.slide2',
       heading: 'home.hero.slide2',
     },

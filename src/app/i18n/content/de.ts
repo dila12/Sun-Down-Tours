@@ -173,6 +173,9 @@ export const de: Dict = {
       slide3: 'Private Rundreisen durch das schone Sri Lanka',
       slide4: 'Entdecken Sie Sigiriya, Ella & die Hohepunkte Sri Lankas',
       slide5: 'Sri Lanka Safaris & Abenteuerreisen',
+      slideGuestSigiriya: 'Echte Gäste mit Sundown Tours in Sri Lanka',
+      slideGuestSigiriyaAlt:
+        'Gäste von Sundown Tours feiern mit dem Team, halten ein Banner bei Sigiriya und posieren mit unserem Privatfahrzeug',
     },
     intro: {
       title: 'Sri Lanka Rundreisen & Urlaubspakete mit lokalen Experten',
@@ -233,6 +236,9 @@ export const de: Dict = {
       p2: 'Vom kulturellen Erbe von Sigiriya und Kandy uber die landschaftliche Schonheit von Ella und Nuwara Eliya bis zur Tierwelt des Yala Nationalparks schaffen wir unvergessliche Reisen durch Sri Lanka.',
       gallery1Alt: 'Private Sri Lanka Rundreise mit Sundown Tours',
       gallery2Alt: 'Sri Lanka Reisepakete mit Fahrer Guide',
+      gallery3Alt: 'Zwei Gäste mit Sundown-Tours-Banner vor dem Löwenfelsen Sigiriya',
+      gallery4Alt: 'Gäste zeigen auf das Sundown-Tours-Schild an unserem Privatfahrzeug bei Sigiriya',
+      gallery5Alt: 'Gäste und Gastgeber von Sundown Tours mit gerahmten Reisefoto-Collagen',
     },
     features: {
       f1Title: 'Gunstige Sri Lanka Reisepakete',
@@ -252,6 +258,23 @@ export const de: Dict = {
       s2Desc: 'Zugtickets fur Ella, Safari Buchungen und Eintrittskarten organisieren wir fur Sie.',
       s3Title: 'Hotelbuchung & massgeschneiderte Unterkunfte',
       s3Desc: 'Handverlesene Hotels vom Luxusresort bis zum gunstigen Gastehaus.',
+    },
+    vehicles: {
+      tag: 'UNSERE FLOTTE',
+      title: 'Unsere Fahrzeuge',
+      subtitle:
+        'Reisen Sie in modernen klimatisierten SUVs und Hochdach Vans nur fur Ihre private Gruppe.',
+      typeSuv: 'SUV',
+      typeKdh: 'Hochdach KDH',
+      suvGrey: 'Grauer Honda SUV',
+      suvGreyAlt: 'Grauer Honda SUV fur private Sri Lanka Chauffeur-Touren',
+      suvRed: 'Roter Honda SUV',
+      suvRedAlt: 'Roter Honda SUV fur private Sri Lanka Fahrer Touren',
+      kdhWhite: 'Weisser Hochdach Van',
+      kdhWhiteAlt: 'Weisser Toyota Hochdach Van fur Familienreisen in Sri Lanka',
+      kdhSilver: 'Silberner Hochdach Van',
+      kdhSilverAlt: 'Silberner Toyota Hochdach Van fur Gruppenreisen in Sri Lanka',
+      note: 'Klimaanlage · Lizenzierter Fahrer · Kennzeichen aus Datenschutzgründen unkenntlich',
     },
     faqTitle: 'Haufig gestellte Fragen',
     faq: [
@@ -722,143 +745,142 @@ export const de: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka Rundreise | Privater Fahrer Guide 7 bis 10 Tage',
+      title: 'Privatreise Sri Lanka mit Fahrer | 5-10 Tage',
       description:
-        'Private Sri Lanka Rundreise mit Fahrer Guide: 7, 8 und 10 Tage, Sigiriya Lion Rock, Kandy, Ella, Yala Safari und Strand. Fur Reisende aus Deutschland, Osterreich und der Schweiz. Seit 1992.',
-      keywords:
-        'Sri Lanka Rundreise, Urlaub Sri Lanka, Sri Lanka Urlaub, privater Fahrer Sri Lanka, Rundreise Sri Lanka 7 Tage, Sri Lanka Reise',
+        'Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. 5–10 Tage flexibel geplant. Team seit 1992. Jetzt anfragen für ein Angebot. Team seit 1992.',
+      keywords: 'Privatreise Sri Lanka, Rundreise mit Fahrer, Sri Lanka Urlaub privat',
     },
     tours: {
-      title: 'Sri Lanka Reisepakete | 7, 8 & 10 Tage Privatreise',
+      title: 'Sri Lanka Rundreisen privat | 4-10 Tage mit Fahrer',
       description:
-        'Sri Lanka Reisepakete fur Gaste aus Deutschland, Osterreich und der Schweiz: private 7, 8 und 10 Tage Urlaube mit Fahrer Guide, Safari und Strand  keine Gruppenreisen.',
-      keywords: 'Sri Lanka Reisepakete, Sri Lanka Rundreise, Sri Lanka Urlaub, 7 Tage Sri Lanka, 10 Tage Sri Lanka',
+        'Private Sri Lanka Rundreisen von 4 bis 10 Tagen mit Fahrer, Safari und Strand. Keine Gruppenbusse. Seit 1992. Jetzt anfragen für Ihr Datum. Team seit 1992.',
+      keywords: 'Sri Lanka Rundreisen, Privatreise mit Fahrer, 7 Tage Sri Lanka',
     },
     services: {
-      title: 'Private Touren, Fahrer & Urlaubsservice | Sri Lanka',
+      title: 'Privater Chauffeur & Tour-Service | Sri Lanka',
       description:
-        'Unsere Leistungen: private Touren, massgeschneiderte Urlaubspakete, Rundreisen mit Fahrer und Tagesausfluge in Sri Lanka.',
-      keywords: 'Sri Lanka Fahrer, Sri Lanka Privatreise, Sri Lanka Reisepakete, Sri Lanka Safari',
+        'Privatreisen mit Fahrer, maßgeschneiderte Rundreisen und Tagesausfluge auf Sri Lanka. Flexibles Tempo, Flughafentransfer. Jetzt anfragen. Flexibel planen.',
+      keywords: 'Chauffeur Sri Lanka, privater Fahrer, maßgeschneiderte Tour, Tagesausflug Sri Lanka',
     },
     about: {
-      title: 'Uber uns | Vertrauenswurdiger Sri Lanka Reiseveranstalter',
+      title: 'Über Sundown Tours | Privatreisen seit 1992',
       description:
-        'Erfahren Sie mehr uber Sundown Tours Sri Lanka, Ihren vertrauenswurdigen lokalen Reiseveranstalter fur private Sri Lanka Rundreisen seit 1992.',
-      keywords: 'Sri Lanka Reiseveranstalter, Sri Lanka Reiseagentur, Sri Lanka Rundreise',
+        'Sundown Tours plant seit 1992 private Rundreisen mit Fahrer auf Sri Lanka. Lokales Team für europaische Gaste. Jetzt anfragen für Ihr Angebot.',
+      keywords: 'Sundown Tours, Sri Lanka Reiseveranstalter, Privatreise seit 1992, lokaler Fahrer',
     },
     contact: {
-      title: 'Sri Lanka Rundreise planen | Kontakt',
+      title: 'Kontakt Sundown Tours | Angebot Sri Lanka',
       description:
-        'Kontaktieren Sie Sundown Tours fur massgeschneiderte Sri Lanka Rundreisen und private Reisen. Wir antworten innerhalb von 24 Stunden.',
-      keywords: 'Sri Lanka Reise buchen, Sri Lanka Privatreise Kontakt, Sri Lanka Fahrer buchen',
+        'Planen Sie eine Privatreise Sri Lanka mit Fahrer. Senden Sie Daten und Wünsche; wir antworten meist binnen eines Tages. Jetzt anfragen für ein Angebot.',
+      keywords: 'Kontakt Sri Lanka Reise, Angebot Privatreise, Fahrer buchen',
     },
     tour7: {
-      title: '7 Tage Sri Lanka Rundreise | Kultur, Bergland & Safari',
+      title: '7 Tage Privatreise | Wilpattu & Mirissa',
       description:
-        'Erleben Sie Sri Lanka in 7 Tagen: Sigiriya, Kandy, Ella und Yala Safari mit privatem Fahrer Guide. Jetzt massgeschneiderte Rundreise anfragen.',
-      keywords: '7 Tage Sri Lanka Rundreise, Sri Lanka 1 Woche, Sri Lanka Privatreise, Sri Lanka Fahrer',
+        'Wilpattu-Safari, Sigiriya, Kandy, Ella und Mirissa mit Walbeobachtung optional. 4-Sterne-Hotels, privater Fahrer. Jetzt Angebot anfragen. Team seit 1992.',
+      keywords: '7 Tage Sri Lanka Rundreise, Wilpattu Mirissa, Privatreise mit Fahrer',
     },
     tour10: {
-      title: 'Sri Lanka Rundreise 2 Wochen | 10 Tage mit privatem Fahrer',
+      title: '10 Tage Privatreise | Ganze Insel-Highlights',
       description:
-        'Rundreise Sri Lanka 2 Wochen planen: 10 Tage Kultur, Teeland, Safari und Strand mit Chauffeur Guide  die komfortable Alternative zur gehetzten Woche.',
-      keywords: 'sri lanka rundreise 2 wochen, rundreise sri lanka 2 wochen, 10 Tage Sri Lanka, Sri Lanka Inselrundreise',
+        'Inselrundreise: Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella und Hikkaduwa-Strandtage. Privater Fahrer seit 1992. Jetzt Angebot anfragen. Team seit 1992.',
+      keywords: '10 Tage Sri Lanka Rundreise, Inselrundreise mit Fahrer, Hikkaduwa Strand',
     },
     tour8: {
-      title: '8 Tage Sri Lanka Rundreise | Wilpattu Safari, Sigiriya, Kandy, Ella & Strand',
+      title: '8 Tage Privatreise | Yala & Mirissa-Strand',
       description:
-        'Sri Lanka in 8 Tagen privat erleben: Wilpattu Safari, Anuradhapura, Sigiriya, Kandy, Ella und Strandaufenthalt in Hikkaduwa.',
-      keywords: '8 Tage Sri Lanka Rundreise, Sri Lanka 8 Tage, Wilpattu Safari, Sri Lanka Privatreise',
+        'Pidurangala, Sigiriya, Kandy, Teeland, Ella, Yala-Safari und Mirissa-Strandnächte. Mit Fahrer. Kostenlos stornieren bis 14 Tage. Anfragen. Team seit 1992.',
+      keywords: '8 Tage Sri Lanka Rundreise, Yala Mirissa Strand, Privatreise mit Fahrer',
     },
     tour6: {
-      title: '6 Tage Sri Lanka Rundreise | Sigiriya, Kandy, Ella & Yala Safari',
+      title: '6 Tage Privatreise | Yala-Safari & Strand',
       description:
-        'Sri Lanka in 6 Tagen privat: Sigiriya, Kandy, das Bergland um Ella, Yala Safari und malerische Strande mit erfahrenem Fahrer Guide.',
-      keywords: '6 Tage Sri Lanka Rundreise, Sri Lanka 6 Tage, Sigiriya Kandy Ella, Yala Safari',
+        'Sigiriya, Kandy, Teeland, Yala-Safari und Südwest-Strand mit 4-Sterne-Hotels und Fahrer. Kostenlos stornieren bis 14 Tage. Jetzt anfragen. Team seit 1992.',
+      keywords: '6 Tage Sri Lanka Rundreise, Yala Safari Strand, Privatreise mit Fahrer',
     },
     tour5: {
-      title: '5 Tage Sri Lanka Rundreise | Kultur, Natur & Tierwelt',
+      title: '5 Tage Privatreise | Teeland & Küste',
       description:
-        'Eine ausgewogene 5 tagige Sri Lanka Rundreise mit Kultur, Bergland und Safari Erlebnis  privat und massgeschneidert.',
-      keywords: '5 Tage Sri Lanka Rundreise, Sri Lanka 5 Tage, Sri Lanka Kurzreise',
+        'Sigiriya, Kandy, Nuwara Eliya, Ella und Südküste mit Madu-River – 4-Sterne-Hotels und privater Fahrer. Ideal als Kurzurlaub. Jetzt anfragen.',
+      keywords: '5 Tage Sri Lanka Rundreise, Nuwara Eliya Teeland, Privatreise mit Fahrer',
     },
     tour4: {
-      title: '4 Tage Sri Lanka Rundreise | Hohepunkte & Safari',
+      title: '4 Tage Privatreise | Kandy, Ella & Yala',
       description:
-        'Erleben Sie Sri Lanka in 4 Tagen: Sigiriya, Kandy, Ella und Yala Safari auf einer privaten Rundreise mit Fahrer Guide.',
-      keywords: '4 Tage Sri Lanka Rundreise, Sri Lanka 4 Tage, Sri Lanka Kurztrip',
+        'Kandy-Kultur, Ella-Teeland und Yala-Safari, danach Galle oder Bentota an der Südküste. Mit Fahrer. Kostenlos stornieren bis 14 Tage. Anfragen.',
+      keywords: '4 Tage Sri Lanka Rundreise, Kandy Ella Yala, Privatreise mit Fahrer',
     },
     tour2ek: {
-      title: '2 Tage Sri Lanka Privatreise  Ella, Kandy & Udawalawa | Flughafen- oder Hoteltransfer',
+      title: '2 Tage Privatreise | Ella & Kandy',
       description:
-        'Private 2 Tage Tour durch Sri Lanka: Udawalawa, Hohepunkte von Ella, Ramboda Wasserfall, Ambuluwawa Turm und der Zahntempel in Kandy.',
-      keywords: '2 Tage Sri Lanka Tour, Ella Kandy Tour, Sri Lanka Privatreise',
+        'Kurze Bergland-Tour: Udawalawa, Ella-Highlights und Kandys Zahntempel mit privatem Fahrer. Flexibles Tempo. Jetzt unverbindlich anfragen. Team seit 1992.',
+      keywords: '2 Tage Ella Kandy, Privatreise Sri Lanka, Zahntempel Kandy Tour',
     },
     tour2ey: {
-      title: '2 Tage Ella & Yala Safari Privatreise | Sri Lanka Tierwelt erleben',
+      title: '2 Tage Privatreise | Ella & Yala-Safari',
       description:
-        'Private 2 Tage Tour mit den Hohepunkten von Ella und einer aufregenden Jeep Safari im Yala Nationalpark  Leoparden, Elefanten und mehr.',
-      keywords: 'Ella Yala Safari, 2 Tage Sri Lanka Safari, Yala Nationalpark',
+        'Kurztrip mit Fahrer: Ella-Berge und private Yala-Jeepsafari, Übernachtung im 4-Sterne-Hotel. Kostenlos stornieren bis 14 Tage. Jetzt anfragen.',
+      keywords: 'Ella Yala Safari, 2 Tage Sri Lanka Safari, Privatreise mit Fahrer',
     },
     ellaDay: {
-      title: 'Ella Tagestour | Zugfahrt & Nine Arch Bridge',
+      title: 'Ella Tagesausflug mit Fahrer | Nine Arch',
       description:
-        'Private Ella Tagestour mit Nine Arch Bridge, Little Adam’s Peak und dem Ravana Wasserfall im Bergland von Sri Lanka.',
-      keywords: 'Ella Tagestour, Ella Ausflug, Nine Arch Bridge',
+        'Privater Ella-Tag: Nine Arch Bridge, Little Adam’s Peak und Ravana Falls mit Fahrer. Flexibles Tempo. Jetzt anfragen für Ihr Datum. Team seit 1992 vor Ort.',
+      keywords: 'Ella Tagesausflug, Nine Arch Bridge Tour, Privattour mit Fahrer',
     },
     galleDay: {
-      title: 'Galle Tagestour | Galle Fort & Sudkuste',
+      title: 'Galle Tagesausflug mit Fahrer | Fort',
       description:
-        'Entdecken Sie das Galle Fort, Strande und die Attraktionen der Sudkuste auf unserer privaten Tagestour.',
-      keywords: 'Galle Tagestour, Galle Fort, Sudkuste Sri Lanka',
+        'Privater Galle-Tag: niederländisches Fort, Leuchtturm und Südküste mit Fahrer. Ideal ab Colombo oder Strandhotel. Jetzt anfragen. Team seit 1992 vor Ort.',
+      keywords: 'Galle Tagesausflug, Galle Fort Privattour, Südküste Sri Lanka Fahrer',
     },
     kandyDay: {
-      title: 'Kandy Tagestour | Kultur & landschaftliche Hohepunkte',
+      title: 'Kandy Tagesausflug mit Fahrer | Zahntempel',
       description:
-        'Erleben Sie die Hohepunkte von Kandy, darunter den Zahntempel und den Koniglichen Botanischen Garten, auf einer privaten Tagestour.',
-      keywords: 'Kandy Tagestour, Kandy Ausflug, Zahntempel',
+        'Privater Kandy-Tag: Zahntempel, Aussichtspunkt und Stadt-Highlights mit Fahrer. Ideal als Kulturtag. Jetzt unverbindlich anfragen. Team seit 1992 vor Ort.',
+      keywords: 'Kandy Tagesausflug, Zahntempel Tour, Privattour Kandy mit Fahrer',
     },
     sigiriyaDay: {
-      title: 'Sigiriya Tagestour | Antike Felsenfestung',
+      title: 'Sigiriya Tagesausflug mit Fahrer | Löwenfelsen',
       description:
-        'Erkunden Sie die antike Felsenfestung Sigiriya und ihre Garten auf einer privaten Tagestour.',
-      keywords: 'Sigiriya Tagestour, Sigiriya Felsen, Lowenfelsen',
+        'Privater Sigiriya-Tag: Löwenfelsen oder Pidurangala, Dambulla-Höhlen und Dorfleben mit Fahrer. Jetzt anfragen für Ihr Datum. Jetzt unverbindlich anfragen.',
+      keywords: 'Sigiriya Tagesausflug, Löwenfelsen Tour, Dambulla Höhlen Privattour',
     },
     destinations: {
-      title: 'Sri Lanka Reiseziele | Strande, Tierwelt & Kulturstatten',
+      title: 'Sri Lanka Ziele | Ella, Sigiriya, Yala, Galle',
       description:
-        'Entdecken Sie die schonsten Reiseziele Sri Lankas: Strande, Nationalparks und kulturelle Hohepunkte.',
-      keywords: 'Sri Lanka Reiseziele, Sri Lanka Sehenswurdigkeiten',
+        'Ziele für Ihre Privatreise: Ella, Sigiriya, Yala, Kandy, Galle und Mirissa. Tipps für Rundreisen mit Fahrer. Jetzt anfragen. Flexibel planen.',
+      keywords: 'Sri Lanka Ziele, Ella Sigiriya Yala, Privatreise Orte, Galle Mirissa',
     },
     guides: {
-      title: 'Sri Lanka Reisefuhrer | Expertentipps & Insiderwissen',
+      title: 'Sri Lanka Reisefuhrer | Tipps für Privatreisen',
       description:
-        'Unsere umfassenden Reisefuhrer fur Sri Lanka mit Expertentipps und praktischen Hinweisen fur Ihre Reise.',
-      keywords: 'Sri Lanka Reisefuhrer, Sri Lanka Reisetipps',
+        'Praktische Guides: beste Reisezeit, Tipps zum privaten Fahrer und Visa-Grundlagen für Europa. Besser planen. Jetzt anfragen. Lokales Team vor Ort.',
+      keywords: 'Sri Lanka Reisefuhrer, beste Reisezeit, privater Fahrer Tipps, Visa Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya Felsenfestung Guide',
+      title: 'Sigiriya Löwenfelsen | Guide mit privatem Fahrer',
       description:
-        'Sigiriya Lion Rock: Aufstieg, Fresken, Lowenpranken, Pidurangala und Kombination mit Dambulla auf einer privaten Kulturdreieck Tour.',
-      keywords: 'lion rock sri lanka, Sigiriya, Lowenfelsen, Sigiriya Felsenfestung, Sehenswurdigkeiten Sri Lanka',
+        'Sigiriya Lion Rock und Dambulla privat mit Fahrer: Aufstieg, Timing und Tempo für Tages- oder Rundreise. Jetzt anfragen. Lokales Team vor Ort.',
+      keywords: 'Sigiriya Sri Lanka, Lion Rock, Dambulla Höhlen, Privattour Sigiriya',
     },
     destElla: {
-      title: 'Ella Sri Lanka Guide | Nine Arch Bridge, Zug & Bergland',
+      title: 'Ella Sri Lanka | Nine Arch Bridge & Teeland',
       description:
-        'Ella Sri Lanka: Nine Arch Bridge, Little Adam’s Peak, Teeplantagen und die Panoramazugfahrt  privat als Tagestour oder in der Rundreise.',
-      keywords: 'ella sri lanka, Ella, Nine Arch Bridge, Ella Tagestour, Sri Lanka Hochland',
+        'Ella planen: Nine Arch Bridge, Little Adams Peak und Teeplantagen für Tagestour oder Mehrtagesstopp. Mit Fahrer. Jetzt anfragen. Flexibel planen.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, Ella Privattour',
     },
     destYala: {
-      title: 'Yala National Park | Safari, Leoparden & beste Reisezeit',
+      title: 'Yala Nationalpark | Private Safari Tipps',
       description:
-        'Yala Nationalpark Safari: Leoparden, Jeep Tipps, beste Monate und Kombination mit Ella oder der Sudkuste auf einer privaten Rundreise.',
-      keywords: 'yala national park, Yala Nationalpark, Yala Safari, Sri Lanka Leoparden',
+        'Yala-Jeepsafari auf Privatreise: Leoparden-Chancen, Gate-Zeiten und Kombination mit Ella oder Kuste. Jetzt anfragen für Ihr Datum. Seit 1992.',
+      keywords: 'Yala Nationalpark, Yala Safari, Leopard Safari Sri Lanka, Privatsafari',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka Guide | Zahntempel & Kulturhauptstadt',
+      title: 'Kandy Sri Lanka | Zahntempel & Hügelland',
       description:
-        'Kandy Sri Lanka: Zahntempel, See, Peradeniya und Esala Perahera  plus Kombination mit Ella oder dem Kulturdreieck auf einer Privatreise.',
-      keywords: 'kandy sri lanka, Kandy, Zahntempel Kandy, Sehenswurdigkeiten Sri Lanka',
+        'Kandy entdecken: Zahntempel, See und Tor zum Hügelland auf privaten Rundreisen mit Fahrer. Praktische Tipps. Jetzt anfragen für Ihr Datum. Team seit 1992.',
+      keywords: 'Kandy Sri Lanka, Zahntempel, Hügelland Rundreise mit Fahrer',
     },
     destDambulla: {
       title: 'Dambulla Hohlentempel Guide | Tipps zum Goldenen Felsentempel',
@@ -867,28 +889,28 @@ export const de: Dict = {
       keywords: 'Dambulla Hohlentempel, Goldener Tempel Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Galle Fort Sri Lanka Guide | Wallanlagen, Leuchtturm & Kuste',
+      title: 'Galle Fort Sri Lanka | Südküste privat',
       description:
-        'Galle Fort erkunden: hollandische Wallanlagen, Leuchtturm und Boutiquegassen  mit Tipps fur eine private Tagestour und die Sudkuste.',
-      keywords: 'Galle Fort, Galle Sri Lanka, Galle Tagestour, UNESCO Galle',
+        'Galle Fort, Leuchtturm und Südküste auf Tagesausflug oder Mehrtages-Rundreise mit Fahrer. Ruhiges Tempo. Jetzt anfragen. Fuer Gäste aus Europa.',
+      keywords: 'Galle Fort, Galle Sri Lanka, Südküste Privattour, Galle Tagesausflug',
     },
     guideBestTime: {
-      title: 'Beste Reisezeit Sri Lanka | Wetter, Regenzeit & Monsun',
+      title: 'Beste Reisezeit Sri Lanka | Saison-Guide',
       description:
-        'Beste Reisezeit Sri Lanka und Wetter erklart: zwei Monsune, Regenzeit West- vs Ostkuste, Safari Zeiten und private Routen nach Monat.',
-      keywords: 'beste reisezeit sri lanka, sri lanka reisezeit, wetter sri lanka, sri lanka regenzeit, sri lanka wetter',
+        'Wann Sri Lanka bereisen: Trockenfenster je Kuste und Hügelland, Monsun-Hinweise und Routenwechsel. Jetzt anfragen für Ihre Daten. Fuer Gäste aus Europa.',
+      keywords: 'beste Reisezeit Sri Lanka, Wetter Sri Lanka, Monsun, Trockenzeit Tour',
     },
     guideVisa: {
-      title: 'Einreise Sri Lanka 2026 | ETA & Visum fur Deutsche',
+      title: 'Sri Lanka Visum & ETA | Kurz-Guide Europa',
       description:
-        'Einreise Sri Lanka: ETA Pflicht, ab 25. Mai 2026 kostenlose Touristen ETA fur Deutschland, Antrag nur auf eta.gov.lk  keine inoffiziellen Visa Seiten.',
-      keywords: 'einreise sri lanka, sri lanka einreise, Sri Lanka Visum, Sri Lanka ETA, Einreisebestimmungen',
+        'ETA und Einreise-Basics für Reisende aus Europa vor einer Privatreise. Praktische Hinweise, keine Rechtsberatung. Jetzt anfragen. Fuer Gäste aus Europa.',
+      keywords: 'Sri Lanka Visum, Sri Lanka ETA, Einreise Europa, Reisedokumente',
     },
     guidePrivateDriver: {
-      title: 'Sri Lanka privater Fahrer | Chauffeur Touren erklart',
+      title: 'Privater Fahrer Sri Lanka | Chauffeur-Guide',
       description:
-        'Warum Reisende einen privaten Fahrer Guide wahlen, was enthalten ist, typische Tagesstrecken und wie Sie eine flexible Rundreise planen.',
-      keywords: 'Sri Lanka privater Fahrer, Chauffeur Guide Sri Lanka, Privatreise Sri Lanka',
+        'Was ein privater Fahrer auf Sri Lanka umfasst: Fahrzeug, Tempo, Hotelstops und typische Ablaufe für Europa-Gaste. Jetzt anfragen. Lokales Team vor Ort.',
+      keywords: 'privater Fahrer Sri Lanka, Chauffeur Guide, Privatreise mit Fahrer',
     },
     guideBudget: {
       title: 'Sri Lanka Budget Reisefuhrer | Kosten & Geld Tipps',
@@ -939,22 +961,22 @@ export const de: Dict = {
       keywords: 'sri lanka sicherheit, ist Sri Lanka sicher, Reisesicherheit Sri Lanka',
     },
     cancellation: {
-      title: 'Stornierungsbedingungen | Sundown Tours Sri Lanka',
+      title: 'Stornobedingungen | Sundown Tours Sri Lanka',
       description:
-        'Buchungsanderungen, Anzahlungsregeln und Stornierungsbedingungen fur Privatreisen und Chauffeur Services bei Sundown Tours Sri Lanka.',
-      keywords: 'Stornierung, Tour Stornierung Sri Lanka, Buchungsanderungen',
+        'Stornoregeln für private Sri Lanka Touren. Kostenlose Stornierung ist oft bis 14 Tage vor Start moglich. Details lesen, dann anfragen. Sicher planen.',
+      keywords: 'Storno Sri Lanka Tour, kostenlos stornieren 14 Tage, Sundown Tours Policy',
     },
     restaurants: {
-      title: 'Essen in Sri Lanka | Karte Sundown Beach Restaurant',
+      title: 'Essen auf Sri Lanka | Kuste & Tour-Tipps',
       description:
-        'Wo Privatreisende in Sri Lanka essen: Meeresfruchte an der Westkuste, Galle Fort und die volle Karte des Sundown Beach Restaurant in Waskaduwa.',
-      keywords: 'Restaurants Sri Lanka, Essen Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
+        'Wo Gäste auf Privatreisen essen: Meeresfruchte an der Kuste, Reis und Curry, plus Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen. Jetzt anfragen.',
+      keywords: 'Restaurants Sri Lanka, Sundown Beach Restaurant, Essen auf Rundreise',
     },
     testimonials: {
       title: 'Kundenbewertungen | Sundown Tours Sri Lanka',
       description:
-        'Lesen Sie Bewertungen zufriedener Kunden, die unsere privaten Sri Lanka Rundreisen erlebt haben.',
-      keywords: 'Sri Lanka Bewertungen, Erfahrungsberichte Sri Lanka',
+        'Echte Bewertungen unserer privaten Rundreisen mit Fahrer von Gästen aus Europa. Live-Feedback und TripAdvisor. Sicher planen und jetzt anfragen.',
+      keywords: 'Kundenbewertungen Sri Lanka, Bewertungen Privatreise, Sundown Tours',
     },
     privacy: {
       title: 'Datenschutzerklarung | Sundown Tours Sri Lanka',
@@ -980,10 +1002,10 @@ export const de: Dict = {
       keywords: 'bentota sri lanka, Bentota, Bentota Strand, Westkuste Sri Lanka',
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka Guide | Walbeobachtung, Strande & Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Strand & Walzeit',
       description:
-        'Mirissa Sri Lanka: Walsaison, Coconut Tree Hill, Strande und Kombination mit Galle Fort oder Weligama auf einer privaten Sudkusten Rundreise.',
-      keywords: 'mirissa sri lanka, Mirissa, Mirissa Walbeobachtung, Coconut Tree Hill',
+        'Mirissa: Strandzeit, Walbeobachtungs-Saison und Anbindung an Galle oder Südküste auf Privatreisen. Jetzt anfragen für Ihr Datum. Flexibel planen.',
+      keywords: 'Mirissa Sri Lanka, Mirissa Strand, Wale Mirissa, Südküste Tour',
     },
     destWeligama: {
       title: 'Weligama Sri Lanka | Anfanger Surf und Sudkuste',
@@ -1059,47 +1081,52 @@ export const de: Dict = {
       keywords: 'Colombo Flughafentransfer, CMB privat, Negombo Transfer, Kalutara Transfer',
     },
     marketGermany: {
-      title: 'Sri Lanka Rundreise aus Deutschland | Flug, Einreise, 2 Wochen',
+      title: 'Sri Lanka Rundreise aus Deutschland | Fahrer',
       description:
-        'Sri Lanka Urlaub aus Deutschland: Flugzeit Frankfurt, Direktflug, Einreise/ETA, beste Reisezeit, Regenzeit, Sicherheit und private Rundreise 7 bis 14 Tage mit Fahrer Guide.',
-      keywords:
-        'sri lanka rundreise, urlaub sri lanka, flugzeit sri lanka, einreise sri lanka, direktflug sri lanka, rundreise sri lanka 2 wochen, beste reisezeit sri lanka',
+        'Private Rundreise Sri Lanka für Reisende aus Deutschland: mit Fahrer, flexible Tage, lokales Team seit 1992. Jetzt anfragen. Flexibles privates Tempo.',
+      keywords: 'Sri Lanka Rundreise Deutschland, Privatreise mit Fahrer, Sri Lanka Urlaub',
     },
     marketFrance: {
-      title: 'Sri Lanka Reise aus Frankreich | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus Frankreich: Flug nach Colombo, ETA und Fahrer Guide vor Ort.',
-      keywords: 'Sri Lanka Frankreich, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus Frankreich | mit Fahrer',
+      description:
+        'Private Rundreisen für Gäste aus Frankreich: mit Fahrer, flexibles Tempo, lokales Team seit 1992. Jetzt anfragen für Ihr Angebot. Lokales Team vor Ort.',
+      keywords: 'Sri Lanka Frankreich, Privatreise Chauffeur, Rundreise aus Frankreich',
     },
     marketItaly: {
-      title: 'Sri Lanka Reise aus Italien | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus Italien, mit lokalem Fahrer nach der Landung in Colombo.',
-      keywords: 'Sri Lanka Italien, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus Italien | mit Fahrer',
+      description:
+        'Private Rundreisen für Gäste aus Italien: mit Fahrer, flexible Routen, lokales Team seit 1992. Jetzt anfragen für Ihren Termin. Sicher planen.',
+      keywords: 'Sri Lanka Italien, Privatreise mit Fahrer, Tour aus Italien',
     },
     marketSpain: {
-      title: 'Sri Lanka Reise aus Spanien | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus Spanien: Kultur, Strand und Fahrer Guide auf einer Inselroute.',
-      keywords: 'Sri Lanka Spanien, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus Spanien | mit Fahrer',
+      description:
+        'Private Rundreisen für Gäste aus Spanien: mit Fahrer, flexible Tage, Planung seit 1992. Jetzt anfragen und kostenloses Angebot holen. Sicher planen.',
+      keywords: 'Sri Lanka Spanien, Privatreise mit Fahrer, Tour aus Spanien',
     },
     marketPoland: {
-      title: 'Sri Lanka Reise aus Polen | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus Polen, mit Abholung am Flughafen CMB und flexiblem Tempo.',
-      keywords: 'Sri Lanka Polen, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus Polen | mit Fahrer',
+      description:
+        'Private Rundreisen für Gäste aus Polen: mit Fahrer, flexible Tage, lokales Team seit 1992. Jetzt anfragen für Ihre Route bitte. Massgeschneiderte Routen.',
+      keywords: 'Sri Lanka Polen, Privatreise mit Fahrer, Tour aus Polen',
     },
     marketRussia: {
-      title: 'Sri Lanka Reise aus Russland | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus Russland: Treffen am CMB und Route mit Fahrer, ohne Flugticketverkauf.',
-      keywords: 'Sri Lanka Russland, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus Russland | mit Fahrer',
+      description:
+        'Private Rundreisen für Gäste aus Russland: mit Fahrer, flexible Routen, lokales Team seit 1992. Jetzt anfragen für Ihre Daten. Fuer Gäste aus Europa.',
+      keywords: 'Sri Lanka Russland, Privatreise mit Fahrer, Tour aus Russland',
     },
     marketNetherlands: {
-      title: 'Sri Lanka Reise aus den Niederlanden | Privater Fahrer',
-      description: 'Private Rundreise für Gäste aus den Niederlanden, mit Chauffeur ab Colombo.',
-      keywords: 'Sri Lanka Niederlande, private Rundreise, Fahrer Guide',
+      title: 'Sri Lanka Reisen aus den Niederlanden',
+      description:
+        'Private Rundreisen für Gäste aus den Niederlanden: mit Fahrer, flexible Tage, Flughafenempfang. Seit 1992. Jetzt anfragen. Privater Chauffeur.',
+      keywords: 'Sri Lanka Niederlande, Privatreise mit Fahrer, Rundreise Holland',
     },
     marketUK: {
-      title: 'Sri Lanka Urlaub aus Grossbritannien | Private Rundreise',
+      title: 'Sri Lanka Reisen aus UK | privat mit Fahrer',
       description:
-        'Sri Lanka Urlaub aus Grossbritannien: privater Fahrer Guide, Fluge nach Colombo, ETA und Rundreise 7 bis 10 Tage.',
-      keywords: 'Sri Lanka Urlaub, private Rundreise, Fahrer Guide',
+        'Private Rundreisen für Gäste aus dem UK: mit Fahrer, flexible Tage, lokales Team seit 1992. Jetzt anfragen für Ihre Reise. Privater Chauffeur.',
+      keywords: 'Sri Lanka UK, Privatreise mit Fahrer, Tour aus Grossbritannien',
     },
     marketAustria: {
       title: 'Sri Lanka Rundreise aus Österreich | Privater Fahrer',

@@ -259,6 +259,12 @@
 </div>
 
 @defer (on viewport) {
+<app-home-vehicles-section />
+} @placeholder {
+<div class="home-defer-ph home-defer-ph--vehicles" aria-hidden="true"></div>
+}
+
+@defer (on viewport) {
 <app-home-contact-section />
 } @placeholder {
 <div class="home-defer-ph home-defer-ph--contact" aria-hidden="true"></div>

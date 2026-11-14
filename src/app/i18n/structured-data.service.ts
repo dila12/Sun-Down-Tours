@@ -155,14 +155,15 @@ export class StructuredDataService {
       ],
       areaServed: [
         { '@type': 'Country', name: 'Sri Lanka' },
-        { '@type': 'Country', name: 'United Kingdom' },
         { '@type': 'Country', name: 'Germany' },
         { '@type': 'Country', name: 'France' },
         { '@type': 'Country', name: 'Italy' },
         { '@type': 'Country', name: 'Spain' },
         { '@type': 'Country', name: 'Netherlands' },
-        { '@type': 'Country', name: 'Switzerland' },
         { '@type': 'Country', name: 'Poland' },
+        { '@type': 'Country', name: 'Switzerland' },
+        { '@type': 'Country', name: 'Austria' },
+        { '@type': 'Country', name: 'United Kingdom' },
         { '@type': 'Country', name: 'Russia' },
       ],
       address: {
@@ -176,6 +177,14 @@ export class StructuredDataService {
         '@type': 'GeoCoordinates',
         latitude: SITE_GEO.latitude,
         longitude: SITE_GEO.longitude,
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: SITE_PHONE_E164,
+        email: SITE_EMAIL,
+        contactType: 'customer service',
+        areaServed: ['LK', 'EU', 'GB'],
+        availableLanguage: ['English', 'German', 'French', 'Italian', 'Spanish', 'Polish', 'Russian', 'Dutch'],
       },
       openingHoursSpecification: {
         '@type': 'OpeningHoursSpecification',
@@ -484,8 +493,23 @@ export class StructuredDataService {
     };
     const price = getTourOfferPriceUsd(pageId);
     if (price !== undefined) {
+      // Source: tour-prices.static.ts (synced with assets/data US*.json / on-page $ price).
       offer['price'] = price.toFixed(2);
     }
+
+    const tour = this.tours.detail(pageId, locale);
+    const days = tour?.itinerary ?? [];
+    const itinerary = days.length
+      ? {
+          '@type': 'ItemList',
+          numberOfItems: days.length,
+          itemListElement: days.map((day, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: day.title,
+          })),
+        }
+      : undefined;
 
     return {
       '@type': ['Product', 'TouristTrip'],
@@ -496,9 +520,13 @@ export class StructuredDataService {
         url: imageUrl,
       },
       url: this.i18n.url(pageId, locale),
+      inLanguage: LOCALE_META[locale].htmlLang,
+      touristType: 'Private chauffeur tour',
       brand: { '@id': `${BASE_URL}/#organization` },
       provider: { '@id': `${BASE_URL}/#travelagency` },
       offers: offer,
+      ...(itinerary ? { itinerary } : {}),
+      // No AggregateRating: reviews are client-side (Elfsight) and not SSR-visible.
     };
   }
 

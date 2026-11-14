@@ -1,0 +1,47 @@
+<section class="vehicles-section" aria-labelledby="vehicles-heading">
+  <div class="container">
+    <header class="vehicles-header text-center">
+      <p class="section-tag">{{ 'home.vehicles.tag' | t }}</p>
+      <h2 id="vehicles-heading" class="section-title">{{ 'home.vehicles.title' | t }}</h2>
+      <p class="section-subtitle">{{ 'home.vehicles.subtitle' | t }}</p>
+    </header>
+
+    <ul class="vehicles-grid" role="list">
+      @for (vehicle of fleet; track vehicle.src; let i = $index) {
+      <li class="vehicle-item" [style.--i]="i">
+        <figure class="vehicle-figure">
+          <picture>
+            @if (buildCappedAvifSrcSet(vehicle.src, 640)) {
+            <source
+              type="image/avif"
+              [attr.srcset]="buildCappedAvifSrcSet(vehicle.src, 640)"
+              [attr.sizes]="vehicleSizes" />
+            }
+            <source
+              type="image/webp"
+              [attr.srcset]="buildCappedSrcSet(vehicle.src, 640)"
+              [attr.sizes]="vehicleSizes" />
+            <img
+              class="vehicle-photo"
+              [src]="bestImageSrc(vehicle.src, 400)"
+              [alt]="vehicle.altKey | t"
+              width="400"
+              height="300"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              [attr.data-img-base]="vehicle.src"
+              (error)="onImageError($event)" />
+          </picture>
+          <figcaption class="vehicle-caption">
+            <span class="vehicle-type">{{ vehicle.typeKey | t }}</span>
+            <span class="vehicle-name">{{ vehicle.titleKey | t }}</span>
+          </figcaption>
+        </figure>
+      </li>
+      }
+    </ul>
+
+    <p class="vehicles-note">{{ 'home.vehicles.note' | t }}</p>
+  </div>
+</section>

@@ -1,0 +1,119 @@
+.vehicles-section {
+  --veh-ink: #1f2937;
+  --veh-muted: #6b7280;
+  --veh-accent: #b45309;
+  --veh-line: #e5e7eb;
+  --veh-wash: #f9fafb;
+  padding: 3.5rem 0;
+  background:
+    linear-gradient(180deg, #ffffff 0%, var(--veh-wash) 40%, #ffffff 100%);
+}
+
+.vehicles-header {
+  margin-bottom: 2.25rem;
+}
+
+.vehicles-header .section-tag {
+  color: var(--veh-accent);
+}
+
+.vehicles-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.vehicle-item {
+  transform: translateY(16px);
+  animation: vehicleFadeIn 0.55s forwards;
+  animation-delay: calc(var(--i, 0) * 0.08s);
+}
+
+@keyframes vehicleFadeIn {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.vehicle-figure {
+  margin: 0;
+}
+
+.vehicle-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 45%;
+  border-bottom: 1px solid var(--veh-line);
+}
+
+.vehicle-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.85rem 0 0.25rem;
+}
+
+.vehicle-type {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--veh-accent);
+}
+
+.vehicle-name {
+  font-size: 1.05rem;
+  font-weight: 650;
+  color: var(--veh-ink);
+  line-height: 1.3;
+}
+
+.vehicles-note {
+  margin: 1.75rem auto 0;
+  max-width: 36rem;
+  text-align: center;
+  color: var(--veh-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 576px) {
+  .vehicles-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .vehicles-section {
+    padding: 4.5rem 0;
+  }
+
+  .vehicles-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.35rem;
+  }
+
+  .vehicle-photo {
+    transition: transform 0.35s ease;
+  }
+
+  .vehicle-figure:hover .vehicle-photo {
+    transform: scale(1.02);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vehicle-item,
+  .vehicle-photo {
+    animation: none;
+    transition: none;
+    transform: none;
+  }
+}

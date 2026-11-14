@@ -173,6 +173,9 @@ export const pl: Dict = {
       slide3: 'Prywatne objazdy po pieknej Sri Lance',
       slide4: 'Odkryj Sigiriya, Elle i najwieksze atrakcje Sri Lanki',
       slide5: 'Safari i wyprawy przygodowe na Sri Lance',
+      slideGuestSigiriya: 'Prawdziwi goście z Sundown Tours na Sri Lance',
+      slideGuestSigiriyaAlt:
+        'Goście Sundown Tours świętujący z zespołem, z banerem w Sigiriya i naszym prywatnym pojazdem',
     },
     intro: {
       title: 'Wycieczki i pakiety wakacyjne na Sri Lanke z lokalnymi ekspertami',
@@ -232,7 +235,10 @@ export const pl: Dict = {
       p1: 'Sundown Tours Sri Lanka od 1992 roku zapewnia niezawodne doswiadczenia podroznicze. Dzieki ponad trzem dekadom doswiadczenia specjalizujemy sie w prywatnych wycieczkach, wakacjach szytych na miare i podrozach z kierowca dopasowanych do potrzeb kazdego podroznego.',
       p2: 'Od dziedzictwa kulturowego Sigiriya i Kandy, przez malownicze piekno Elli i Nuwara Eliya, po dzika przyrode Parku Narodowego Yala  tworzymy niezapomniane podroze po Sri Lance.',
       gallery1Alt: 'Prywatna wycieczka po Sri Lance z Sundown Tours',
-      gallery2Alt: 'Wycieczki po Sri Lance z kierowca przewodnikiem',
+      gallery2Alt: 'Wycieczki po Sri Lance z kierowcą przewodnikiem',
+      gallery3Alt: 'Dwoje gości z banerem Sundown Tours przed Sigiriya',
+      gallery4Alt: 'Goście wskazują znak Sundown Tours na naszym prywatnym pojeździe w Sigiriya',
+      gallery5Alt: 'Goście i gospodarze Sundown Tours z oprawionymi kolażami zdjęć z podróży',
     },
     features: {
       f1Title: 'Wycieczki na Sri Lanke w przystepnych cenach',
@@ -252,6 +258,23 @@ export const pl: Dict = {
       s2Desc: 'Bilety kolejowe do Elli, rezerwacje safari i bilety wstepu organizujemy za Ciebie.',
       s3Title: 'Rezerwacja hoteli i noclegi na miare',
       s3Desc: 'Starannie wybrane hotele  od luksusowych kurortow po niedrogie pensjonaty.',
+    },
+    vehicles: {
+      tag: 'NASZA FLOTA',
+      title: 'Nasze pojazdy',
+      subtitle:
+        'Podrozuj nowoczesnymi klimatyzowanymi SUV-ami i vanami z wysokim dachem tylko dla Twojej prywatnej grupy.',
+      typeSuv: 'SUV',
+      typeKdh: 'KDH wysoki dach',
+      suvGrey: 'Szary Honda SUV',
+      suvGreyAlt: 'Szary Honda SUV na prywatne wycieczki po Sri Lance z kierowca',
+      suvRed: 'Czerwony Honda SUV',
+      suvRedAlt: 'Czerwony Honda SUV na prywatne wycieczki z kierowca po Sri Lance',
+      kdhWhite: 'Bialy van z wysokim dachem',
+      kdhWhiteAlt: 'Bialy Toyota van z wysokim dachem na rodzinne wycieczki po Sri Lance',
+      kdhSilver: 'Srebrny van z wysokim dachem',
+      kdhSilverAlt: 'Srebrny Toyota van z wysokim dachem na wycieczki grupowe po Sri Lance',
+      note: 'Klimatyzacja · Licencjonowany kierowca · Tablice rejestracyjne zamazane dla prywatnosci',
     },
     faqTitle: 'Najczesciej zadawane pytania',
     faq: [
@@ -641,143 +664,142 @@ export const pl: Dict = {
 
   seo: {
     home: {
-      title: 'Wakacje Sri Lanka | Prywatne wycieczki z Polski',
+      title: 'Wycieczka prywatna Sri Lanka z kierowcą | 5-10 dni',
       description:
-        'Wakacje na Sri Lance z Polski: prywatna wycieczka z kierowca, pogoda, ile trwa lot z Warszawy, wiza ETA, Lion Rock, safari i plaze. Od 1992.',
-      keywords:
-        'wakacje Sri Lanka, wycieczka Sri Lanka, pogoda Sri Lanka, co zobaczyc Sri Lanka, atrakcje Sri Lanka',
+        'Prywatne wycieczki Sri Lanka z kierowcą dla podróżnych z Europy. Trasy 5-10 dni z lokalnym kierowcą. Zespół od 1992. Zapytaj o bezpłatną ofertę.',
+      keywords: 'wycieczka prywatna Sri Lanka, z kierowcą, objazd Sri Lanka',
     },
     tours: {
-      title: 'Pakiety wycieczek Sri Lanka | 7, 8 i 10 dni prywatnie',
+      title: 'Prywatne wycieczki Sri Lanka | 4-10 dni z kierowcą',
       description:
-        'Pakiety wycieczek po Sri Lance dla podroznych z Europy: prywatne wakacje 7, 8 i 10 dni z kierowca przewodnikiem, safari i plazanie wycieczki grupowe.',
-      keywords: 'pakiety Sri Lanka, wycieczka Sri Lanka, objazd 7 dni, objazd 10 dni',
+        'Porownaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plaża. Na miare, bez autokarow grupowych. Zapytaj o ofertę. Zapytaj o ofertę.',
+      keywords: 'pakiety Sri Lanka, wycieczka prywatna z kierowcą, tour 7 dni, itineraria',
     },
     services: {
-      title: 'Prywatne wycieczki, kierowca i wakacje | Sri Lanka',
+      title: 'Prywatny kierowca i uslugi tour | Sri Lanka',
       description:
-        'Nasze uslugi: prywatne wycieczki, pakiety na miare, objazdy z kierowca i wycieczki jednodniowe na Sri Lance.',
-      keywords: 'Prywatny Kierowca Sri Lanka, Wycieczka Sri Lanka, Objazd Sri Lanka, safari Sri Lanka',
+        'Wycieczki z kierowcą, urlopy na miare i jednodniowe wycieczki po Sri Lance. Elastyczne tempo, meet na lotnisku. Zapytaj o ofertę. Zapytaj o ofertę.',
+      keywords: 'kierowca Sri Lanka, wycieczka na miare, jednodniowa wycieczka, usluga prywatna',
     },
     about: {
-      title: 'O nas | Zaufane biuro podrozy na Sri Lance',
+      title: 'O Sundown Tours | Prywatne wycieczki od 1992',
       description:
-        'Poznaj Sundown Tours Sri Lanka, Twojego zaufanego lokalnego organizatora prywatnych wycieczek po Sri Lance od 1992 roku.',
-      keywords: 'biuro podrozy Sri Lanka, organizator Sri Lanka, Wycieczka Sri Lanka',
+        'Sundown Tours planuje prywatne wycieczki z kierowcą na Sri Lance od 1992. Lokalny zespół dla gości z Europy. Zapytaj o bezpłatna ofertę. Na miare.',
+      keywords: 'Sundown Tours, operator Sri Lanka, wycieczki prywatne od 1992, lokalny kierowca',
     },
     contact: {
-      title: 'Zaplanuj wycieczke po Sri Lance | Kontakt',
+      title: 'Kontakt Sundown Tours | Oferta Sri Lanka',
       description:
-        'Skontaktuj sie z Sundown Tours w sprawie prywatnych wycieczek szytych na miare po Sri Lance. Odpowiadamy w ciagu 24 godzin.',
-      keywords: 'rezerwacja Sri Lanka, kontakt wycieczka Sri Lanka, Prywatny Kierowca Sri Lanka',
+        'Zaplanuj prywatna wycieczke Sri Lanka z kierowcą. Podaj daty i styl; odpowiadamy zwykle w ciagu dnia. Od 1992. Zapytaj o ofertę. Planuj ze spokojem.',
+      keywords: 'kontakt tour Sri Lanka, bezpłatna oferta, rezerwacja kierowcy Sri Lanka',
     },
     tour7: {
-      title: 'Wycieczka Sri Lanka 7 dni | Kultura, gory i safari',
+      title: '7-dniowa wycieczka | Wilpattu i Mirissa',
       description:
-        'Poznaj Sri Lanke w 7 dni: Sigiriya, Kandy, Ella i safari w Yali z prywatnym kierowca przewodnikiem. Zapytaj o wycieczke na miare.',
-      keywords: 'wycieczka Sri Lanka 7 dni, Objazd Sri Lanka, Prywatny Kierowca Sri Lanka, safari Sri Lanka',
+        'Safari Wilpattu, Sigiriya, Kandy, Ella i Mirissa (wieloryby opcjonalnie). Hotele 4★, prywatny kierowca. Zapytaj o bezpłatną ofertę. Lokalny zespół od 1992.',
+      keywords: '7-dniowa wycieczka Sri Lanka, Wilpattu Mirissa, prywatny kierowca',
     },
     tour10: {
-      title: 'Wycieczka Sri Lanka 10 dni | Pelny objazd wyspy',
+      title: '10-dniowa wycieczka | Objeżdżanie wyspy',
       description:
-        'Poznaj Sri Lanke w 10 dni: plaze, safari, gory i zabytki kultury z prywatnym kierowca przewodnikiem. Zapytaj o wycieczke na miare.',
-      keywords: 'wycieczka Sri Lanka 10 dni, Sri Lanka 10 dni, prywatna wycieczka Sri Lanka, objazd Sri Lanki',
+        'Objazd wyspy: Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella i plaże w Hikkaduwie. Prywatny kierowca od 1992. Zapytaj o ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: '10-dniowa wycieczka Sri Lanka, objazd wyspy z kierowcą, Hikkaduwa plaża',
     },
     tour8: {
-      title: 'Wycieczka Sri Lanka 8 dni | Safari Wilpattu, Sigiriya, Kandy, Ella i plaza',
+      title: '8-dniowa wycieczka | Yala i plaża Mirissa',
       description:
-        'Poznaj Sri Lanke w 8 dni prywatnie: safari w Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella oraz pobyt na plazy w Hikkaduwie.',
-      keywords: 'wycieczka Sri Lanka 8 dni, Sri Lanka 8 dni, safari Wilpattu, prywatna wycieczka Sri Lanka',
+        'Pidurangala, Sigiriya, Kandy, herbata, Ella, safari Yala i noce w Mirissie. Z kierowcą. Bezpłatna anulacja 14 dni. Zapytaj o ofertę. Zespół od 1992.',
+      keywords: '8-dniowa wycieczka Sri Lanka, Yala Mirissa plaża, prywatny kierowca',
     },
     tour6: {
-      title: 'Wycieczka Sri Lanka 6 dni | Sigiriya, Kandy, Ella i safari w Yali',
+      title: '6-dniowa wycieczka | Safari Yala i plaża',
       description:
-        'Sri Lanka w 6 dni prywatnie: Sigiriya, Kandy, gory Elli, safari w Yali i malownicze plaze z doswiadczonym kierowca przewodnikiem.',
-      keywords: 'wycieczka Sri Lanka 6 dni, Sri Lanka 6 dni, Sigiriya Kandy Ella, safari Yala',
+        'Sigiriya, Kandy, herbata, safari Yala i plaża południowo-zachodnia, hotele 4★. Bezpłatna anulacja do 14 dni. Zapytaj o ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: '6-dniowa wycieczka Sri Lanka, safari Yala plaża, prywatny kierowca',
     },
     tour5: {
-      title: 'Wycieczka Sri Lanka 5 dni | Kultura, przyroda i dzika natura',
+      title: '5-dniowa wycieczka | Herbata i wybrzeże',
       description:
-        'Zrownowazona 5 dniowa wycieczka po Sri Lance laczaca kulture, gory i safari  prywatna i na miare.',
-      keywords: 'wycieczka Sri Lanka 5 dni, Sri Lanka 5 dni, krotka wycieczka Sri Lanka',
+        'Sigiriya, Kandy, Nuwara Eliya, Ella i południowe wybrzeże (Madu River), hotele 4★ i kierowca. Idealny krótki urlop. Zapytaj o ofertę. Zespół od 1992.',
+      keywords: '5-dniowa wycieczka Sri Lanka, Nuwara Eliya herbata, prywatny kierowca',
     },
     tour4: {
-      title: 'Wycieczka Sri Lanka 4 dni | Najwazniejsze atrakcje i safari',
+      title: '4-dniowa wycieczka | Kandy, Ella i Yala',
       description:
-        'Poznaj Sri Lanke w 4 dni: Sigiriya, Kandy, Ella i safari w Yali podczas prywatnej wycieczki z kierowca przewodnikiem.',
-      keywords: 'wycieczka Sri Lanka 4 dni, Sri Lanka 4 dni, krotka wycieczka Sri Lanka',
+        'Kandy, wzgórza Elli i safari Yala, potem Galle lub Bentota na południu. Z kierowcą. Bezpłatna anulacja 14 dni. Zapytaj o ofertę. Lokalny zespół od 1992.',
+      keywords: '4-dniowa wycieczka Sri Lanka, Kandy Ella Yala, prywatny kierowca',
     },
     tour2ek: {
-      title: 'Prywatna wycieczka Sri Lanka 2 dni  Ella, Kandy i Udawalawa | Transfer z lotniska lub hotelu',
+      title: '2-dniowa wycieczka | Ella i Kandy',
       description:
-        'Prywatna 2 dniowa wycieczka po Sri Lance: Udawalawa, atrakcje Elli, wodospad Ramboda, wieza Ambuluwawa i Swiatynia Zeba w Kandy.',
-      keywords: 'wycieczka Sri Lanka 2 dni, Ella Kandy, prywatna wycieczka Sri Lanka',
+        'Krótka trasa w górach: Udawalawa, Ella i Świątynia Zęba w Kandy z prywatnym kierowcą. Elastyczne tempo. Zapytaj o ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: 'wycieczka Ella Kandy 2 dni, Świątynia Zęba, prywatny kierowca Sri Lanka',
     },
     tour2ey: {
-      title: 'Prywatna wycieczka 2 dni Ella i safari w Yali | Dzika przyroda Sri Lanki',
+      title: '2-dniowa wycieczka | Ella i safari Yala',
       description:
-        'Prywatna 2 dniowa wycieczka z atrakcjami Elli i emocjonujacym safari jeepem w Parku Narodowym Yala  lamparty, slonie i wiecej.',
-      keywords: 'safari Ella Yala, safari Sri Lanka 2 dni, Park Narodowy Yala',
+        'Weekend Ella i prywatne jeep-safari w Yala z kierowcą i hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: 'safari Yala 2 dni, wycieczka Ella Yala, prywatny kierowca Sri Lanka',
     },
     ellaDay: {
-      title: 'Jednodniowa wycieczka do Elli | Widokowy pociag i Nine Arch Bridge',
+      title: 'Wycieczka jednodniowa Ella | Nine Arch',
       description:
-        'Prywatna wycieczka do Elli z Nine Arch Bridge, Little Adam’s Peak i wodospadem Ravana w gorach Sri Lanki.',
-      keywords: 'wycieczka Ella, dzien w Elli, Nine Arch Bridge',
+        'Prywatny dzień w Elli: Nine Arch Bridge, Little Adam’s Peak i Ravana Falls z kierowcą. Elastyczne tempo. Zapytaj o bezpłatną ofertę. Zespół od 1992.',
+      keywords: 'wycieczka Ella, Nine Arch Bridge, prywatny kierowca Sri Lanka',
     },
     galleDay: {
-      title: 'Jednodniowa wycieczka do Galle | Fort Galle i poludniowe wybrzeze',
+      title: 'Wycieczka jednodniowa Galle | Fort holenderski',
       description:
-        'Odkryj Fort Galle, plaze i atrakcje poludniowego wybrzeza podczas naszej prywatnej wycieczki jednodniowej.',
-      keywords: 'wycieczka Galle, Fort Galle, poludniowe wybrzeze Sri Lanki',
+        'Prywatny dzień w Galle: mury Fortu holenderskiego, latarnia i postoje na południu. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: 'wycieczka Galle, Fort Galle prywatnie, południowe wybrzeże Sri Lanka',
     },
     kandyDay: {
-      title: 'Jednodniowa wycieczka do Kandy | Kultura i krajobrazy',
+      title: 'Wycieczka jednodniowa Kandy | Świątynia Zęba',
       description:
-        'Poznaj atrakcje Kandy, w tym Swiatynie Zeba i Krolewski Ogrod Botaniczny, podczas prywatnej wycieczki jednodniowej.',
-      keywords: 'wycieczka Kandy, dzien w Kandy, Swiatynia Zeba',
+        'Prywatny dzień w Kandy: Świątynia Zęba, punkt widokowy i atrakcje miasta z kierowcą. Zapytaj o bezpłatną ofertę już dziś. Zapytaj o bezpłatną ofertę.',
+      keywords: 'wycieczka Kandy, Świątynia Zęba, prywatny kierowca Kandy',
     },
     sigiriyaDay: {
-      title: 'Jednodniowa wycieczka do Sigiriyi | Starozytna forteca na skale',
+      title: 'Wycieczka jednodniowa Sigiriya | Lwia Skała',
       description:
-        'Zwiedz starozytna fortece na skale Sigiriya i jej ogrody podczas prywatnej wycieczki jednodniowej.',
-      keywords: 'wycieczka Sigiriya, lion rock Sri Lanka, Lwia Skala, Sigiriya',
+        'Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wieś. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+      keywords: 'wycieczka Sigiriya, Lwia Skała, jaskinie Dambulla z kierowcą',
     },
     destinations: {
-      title: 'Kierunki na Sri Lance | Plaze, przyroda i zabytki',
+      title: 'Destynacje Sri Lanka | Ella, Sigiriya, Yala',
       description:
-        'Odkryj najlepsze miejsca na Sri Lance: plaze, parki narodowe i atrakcjeco zobaczyc na prywatnej wycieczce.',
-      keywords: 'atrakcje Sri Lanka, co zobaczyc Sri Lanka, kierunki Sri Lanka',
+        'Miejsca na prywatne wycieczki: Ella, Sigiriya, Yala, Kandy, Galle i Mirissa. Wskazówki do tras z kierowcą. Zapytaj o ofertę. Prywatny kierowca.',
+      keywords: 'destynacje Sri Lanka, Ella Sigiriya Yala, miejsca wycieczki prywatnej, Galle Mirissa',
     },
     guides: {
-      title: 'Przewodniki po Sri Lance | Porady ekspertow',
+      title: 'Przewodniki Sri Lanka | Wskazówki wycieczki prywatnej',
       description:
-        'Nasze obszerne przewodniki po Sri Lance z poradami ekspertow i praktycznymi wskazowkami na podroz.',
-      keywords: 'przewodnik Sri Lanka, porady podroz Sri Lanka',
+        'Praktyczne przewodniki: najlepszy czas, wskazówki o prywatnym kierowcy i podstawy wiz dla Europy. Zapytaj o bezpłatna ofertę. Zapytaj o ofertę.',
+      keywords: 'przewodnik Sri Lanka, najlepszy czas, prywatny kierowca, wiza Sri Lanka',
     },
     destSigiriya: {
-      title: 'Lion Rock Sri Lanka | Sigiriya, wejscie i wskazowki',
+      title: 'Sigiriya Sri Lanka | Lion Rock i Dambulla',
       description:
-        'Lion Rock (Sigiriya): godziny wejscia, freski, Pidurangala i objazd Trojkata Kulturowego z prywatnym kierowca.',
-      keywords: 'lion rock Sri Lanka, Sigiriya Sri Lanka, twierdza Sigiriya, atrakcje Sri Lanka',
+        'Sigiriya Lion Rock i Dambulla w prywatnym dniu lub objazdzie z kierowcą. Wskazówki wejscia, timing i tempo. Zapytaj o ofertę. Lokalny zespół na miejscu.',
+      keywords: 'Sigiriya Sri Lanka, Lion Rock, jaskinie Dambulla, wycieczka prywatna Sigiriya',
     },
     destElla: {
-      title: 'Ella Sri Lanka | Pociag, Nine Arch Bridge i kraina herbaty',
+      title: 'Ella Sri Lanka | Nine Arch Bridge i wzgórza',
       description:
-        'Ella Sri Lanka: pociag Kandy to Ella, most dziewieciu lukow, szlaki i noce w gorach na prywatnej wycieczce.',
-      keywords: 'ella Sri Lanka, Ella, pociag Sri Lanka, Nine Arch Bridge',
+        'Zaplanuj Elle: Nine Arch Bridge, Little Adams Peak i herbata na dzień lub kilka dni. z kierowcą. Zapytaj o bezpłatna ofertę. Zapytaj o ofertę.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, wycieczka prywatna Ella',
     },
     destYala: {
-      title: 'Park narodowy Yala Sri Lanka | Safari, lamparty i Udawalawe',
+      title: 'Park narodowy Yala | Wskazówki prywatnego safari',
       description:
-        'Safari Sri Lanka: Yala vs Udawalawe, szanse na lamparta, rezerwacja jeepa i polaczenie z Ella lub plaza.',
-      keywords: 'safari Sri Lanka, yala Sri Lanka, yala national park, Udawalawe national park',
+        'Jeep safari w Yala na wycieczce prywatnej: szanse na lamparta, godziny bram i połączenie z Ella lub wybrzezem. Zapytaj o ofertę. Planuj ze spokojem.',
+      keywords: 'Yala park narodowy, safari Yala, lampart Sri Lanka, prywatne safari',
     },
     destKandy: {
-      title: 'Przewodnik po Kandy Sri Lanka | Swiatynia Zeba i stolica kultury',
+      title: 'Kandy Sri Lanka | Świątynia Zebu przewodnik',
       description:
-        'Poznaj Swiatynie Zeba w Kandy, jezioro, Ogrody Peradeniya i Esala Perahera ze wskazowkami, jak polaczyc Kandy z Ella lub Trojkatem Kulturowym.',
-      keywords: 'Kandy Sri Lanka, Swiatynia Zeba, wycieczka Kandy, stolica kultury Sri Lanka',
+        'Odkryj Kandy: Świątynia Zebu, jezioro i wrota wzgorz na prywatnych objazdach z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę. Zapytaj o ofertę.',
+      keywords: 'Kandy Sri Lanka, Świątynia Zebu, wycieczka prywatna Kandy, wzgórza',
     },
     destDambulla: {
       title: 'Przewodnik po swiatyni w Dambulli | Wskazowki dotyczace Zlotej Swiatyni',
@@ -786,29 +808,28 @@ export const pl: Dict = {
       keywords: 'swiatynia w Dambulli, Zlota Swiatynia Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Przewodnik po Forcie Galle Sri Lanka | Mury, latarnia morska i wybrzeze',
+      title: 'Fort Galle Sri Lanka | Poludniowe wybrzeze',
       description:
-        'Przejdz sie po holenderskich murach Fortu Galle, zobacz latarnie morska i butikowe uliczki ze wskazowkami dotyczacymi prywatnej wycieczki i plaz poludniowego wybrzeza.',
-      keywords: 'Fort Galle, Galle Sri Lanka, wycieczka Galle, UNESCO Galle',
+        'Fort Galle, latarnia i plazze południa w jednodniowce lub wielodniowym objazdzie z kierowcą. Spokojne tempo. Zapytaj o ofertę. Trasy na miare.',
+      keywords: 'Fort Galle, Galle Sri Lanka, południe prywatnie, wycieczka Galle',
     },
     guideBestTime: {
-      title: 'Pogoda Sri Lanka | Kiedy jechac, pora deszczowa, styczen i luty',
+      title: 'Najlepszy czas na Sri Lanke | Przewodnik sezonow',
       description:
-        'Pogoda na Sri Lance: dwa monsuny, pora deszczowa, pogoda w styczniu, lutym i listopadzie oraz kiedy jechac z Polski.',
-      keywords:
-        'pogoda Sri Lanka, sri lanka pogoda, pora deszczowa Sri Lanka, kiedy jechac Sri Lanka, pogoda styczen, pogoda luty',
+        'Kiedy jechac na Sri Lanke: okna suche wg wybrzeza i wzgorz, monsun i trasy dopasowane. Zapytaj o ofertę na Twoje daty. Lokalny zespół na miejscu.',
+      keywords: 'najlepszy czas Sri Lanka, pogoda Sri Lanka, monsun, pora sucha',
     },
     guideVisa: {
-      title: 'Wiza Sri Lanka 2026 | ETA, eta.gov.lk i paszport polski',
+      title: 'Wiza i ETA Sri Lanka | Przewodnik dla Europy',
       description:
-        'Wiza Sri Lanka z Polski: bezplatna ETA turystyczna 30 dni od 25 maja 2026. Wniosek tylko na eta.gov.lk (sri lanka gov).',
-      keywords: 'wiza Sri Lanka, sri lanka wiza, ETA Sri Lanka, eta.gov.lk, sri lanka gov',
+        'ETA i podstawy wjazdu dla podróżnych z Europy przed wycieczka prywatna. Wskazówki praktyczne, nie porada prawna. Zapytaj o ofertę. Na miare.',
+      keywords: 'wiza Sri Lanka, ETA Sri Lanka, wjazd Europa, dokumenty podrozy',
     },
     guidePrivateDriver: {
-      title: 'Przewodnik po prywatnym kierowcy na Sri Lance | Wycieczki z szoferem',
+      title: 'Prywatny kierowca Sri Lanka | Praktyczny przewodnik',
       description:
-        'Dlaczego podrozni wybieraja prywatnego kierowce na Sri Lance, co jest w cenie, typowe dzienne odleglosci i jak zaplanowac elastyczna wycieczke objazdowa.',
-      keywords: 'prywatny kierowca Sri Lanka, kierowca przewodnik Sri Lanka, prywatna wycieczka Sri Lanka',
+        'Co obejmuje prywatny kierowca na Sri Lance: auto, tempo, hotele i typowe nawyki gości z Europy. Zapytaj o bezpłatna ofertę. Meet na lotnisku na zyczenie.',
+      keywords: 'prywatny kierowca Sri Lanka, przewodnik chauffeur, wycieczka z kierowcą',
     },
     guideBudget: {
       title: 'Waluta Sri Lanka | Rupia (LKR) i budzet wycieczki',
@@ -861,20 +882,20 @@ export const pl: Dict = {
     cancellation: {
       title: 'Polityka anulowania | Sundown Tours Sri Lanka',
       description:
-        'Zmiany rezerwacji, zasady zaliczki i warunki anulowania wycieczek prywatnych i uslug kierowcy w Sundown Tours.',
-      keywords: 'polityka anulowania, anulowanie wycieczki Sri Lanka, zmiana rezerwacji',
+        'Zasady anulowania prywatnych wycieczek Sri Lanka. Darmowe anulowanie zwykle do 14 dni przed startem. Przeczytaj i zapytaj o ofertę. Trasy na miare.',
+      keywords: 'anulowanie wycieczki Sri Lanka, darmowe 14 dni, polityka Sundown Tours',
     },
     restaurants: {
-      title: 'Restauracje na Sri Lance | Najlepsza lokalna kuchnia',
+      title: 'Gdzie jesc na Sri Lance | Wybrzeze i tipy tour',
       description:
-        'Odkryj najlepsze restauracje Sri Lanki z autentyczna lokalna kuchnia i daniami miedzynarodowymi.',
-      keywords: 'restauracje Sri Lanka, gdzie zjesc na Sri Lance',
+        'Gdzie jedza podrozni na wycieczce prywatnej: owoce morza na wybrzezu, rice and curry oraz Sundown Beach Restaurant w Waskaduwa. Zapytaj o ofertę.',
+      keywords: 'restauracje Sri Lanka, Sundown Beach Restaurant, jedzenie na wycieczce',
     },
     testimonials: {
-      title: 'Opinie klientow | Sundown Tours Sri Lanka',
+      title: 'Opinie gości | Sundown Tours Sri Lanka',
       description:
-        'Przeczytaj opinie naszych zadowolonych klientow, ktorzy przezyli nasze prywatne wycieczki po Sri Lance.',
-      keywords: 'opinie Sri Lanka, recenzje wycieczka Sri Lanka',
+        'Przeczytaj prawdziwe opinie o naszych prywatnych wycieczkach z kierowcą na Sri Lance od gości z Europy. Live feedback i TripAdvisor. Zapytaj o ofertę.',
+      keywords: 'opinie Sundown Tours, recenzje wycieczki prywatnej Sri Lanka, testimoniale',
     },
     privacy: {
       title: 'Polityka prywatnosci | Sundown Tours Sri Lanka',
@@ -900,10 +921,10 @@ export const pl: Dict = {
       keywords: 'bentota Sri Lanka, Bentota, Ahungalla, plaze Sri Lanka',
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka | Plaza, wieloryby i Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Plaża i sezon wielorybów',
       description:
-        'Mirissa Sri Lanka: sezon wielorybow, Coconut Tree Hill, plaza i polaczenie z Galle lub Weligama.',
-      keywords: 'mirissa Sri Lanka, Mirissa, plaze Sri Lanka',
+        'Mirissa: plaża, sezon whale watching i połączenie z Galle lub pobytem na południu. z kierowcą. Zapytaj o bezpłatna ofertę. Elastyczne prywatne tempo.',
+      keywords: 'Mirissa Sri Lanka, plaża Mirissa, wieloryby Mirissa, południe tour',
     },
     destWeligama: {
       title: 'Weligama Sri Lanka | Surf i zatoka poludnia',
@@ -981,46 +1002,52 @@ export const pl: Dict = {
       keywords: 'transfer lotnisko Colombo, lotnisko Sri Lanka, CMB, transfer Negombo',
     },
     marketGermany: {
-      title: 'Wycieczki Sri Lanka z Niemiec | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Niemiec, z lokalnym kierowcą po przylocie do Colombo.',
-      keywords: 'wycieczka Sri Lanka Niemcy, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Niemiec | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Niemiec: z kierowcą, elastyczne dni, lokalny zespół od 1992. Zapytaj o bezpłatna ofertę. Zapytaj o ofertę.',
+      keywords: 'Sri Lanka Niemcy, wycieczka prywatna z kierowcą, podroz z Niemiec',
     },
     marketFrance: {
-      title: 'Wycieczki Sri Lanka z Francji | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Francji, z odbiorem na lotnisku CMB.',
-      keywords: 'wycieczka Sri Lanka Francja, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Francji | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Francji: z kierowcą, elastyczne tempo, lokalny zespół od 1992. Zapytaj o bezpłatna ofertę. Elastyczne prywatne tempo.',
+      keywords: 'Sri Lanka Francja, wycieczka prywatna z kierowcą, podroz z Francji',
     },
     marketItaly: {
-      title: 'Wycieczki Sri Lanka z Włoch | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Włoch: kultura, plaża i dedykowany kierowca.',
-      keywords: 'wycieczka Sri Lanka Włochy, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Włoch | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Włoch: z kierowcą, elastyczne trasy, lokalny zespół od 1992. Zapytaj o bezpłatna ofertę. Meet na lotnisku na zyczenie.',
+      keywords: 'Sri Lanka Wlochy, wycieczka prywatna z kierowcą, podroz z Włoch',
     },
     marketSpain: {
-      title: 'Wycieczki Sri Lanka z Hiszpanii | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Hiszpanii, z transferem z CMB i spokojnym tempem.',
-      keywords: 'wycieczka Sri Lanka Hiszpania, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Hiszpanii | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Hiszpanii: z kierowcą, elastyczne dni, planowanie od 1992. Zapytaj o bezpłatna ofertę. Lokalny zespół na miejscu.',
+      keywords: 'Sri Lanka Hiszpania, wycieczka prywatna z kierowcą, podroz z Hiszpanii',
     },
     marketPoland: {
-      title: 'Wakacje Sri Lanka z Polski | Pogoda, lot z Warszawy i prywatna wycieczka',
+      title: 'Prywatna wycieczka Sri Lanka z Polski | kierowca',
       description:
-        'Wakacje na Sri Lance z Polski: ile trwa lot z Warszawy, pogoda i pora deszczowa, wiza ETA, Lion Rock, safari, Bentota i prywatny objazd po CMB. Nie Itaka ani TUI.',
-      keywords:
-        'wakacje Sri Lanka, wycieczka Sri Lanka, pogoda Sri Lanka, loty Sri Lanka, wiza Sri Lanka, kiedy jechac Sri Lanka, co zobaczyc Sri Lanka',
+        'Prywatne wycieczki Sri Lanka dla podróżnych z Polski: z kierowcą, elastyczne dni, lokalny zespół od 1992. Zapytaj o ofertę. Goscie z Europy mile widziani.',
+      keywords: 'wycieczka Sri Lanka Polska, prywatna wycieczka z kierowcą, z Polski',
     },
     marketRussia: {
-      title: 'Wycieczki Sri Lanka z Rosji | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Rosji. Układamy trasę, nie sprzedajemy biletów lotniczych.',
-      keywords: 'wycieczka Sri Lanka Rosja, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Rosji | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Rosji: z kierowcą, elastyczne trasy, lokalny zespół od 1992. Zapytaj o bezpłatna ofertę. Goscie z Europy mile widziani.',
+      keywords: 'Sri Lanka Rosja, wycieczka prywatna z kierowcą, podroz z Rosji',
     },
     marketNetherlands: {
-      title: 'Wycieczki Sri Lanka z Holandii | Prywatny kierowca',
-      description: 'Prywatna wycieczka dla gości z Holandii, z kierowcą po lądowaniu w Colombo.',
-      keywords: 'wycieczka Sri Lanka Holandia, prywatna podróż, kierowca',
+      title: 'Wycieczki Sri Lanka z Holandii | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z Holandii: z kierowcą, elastyczne dni, meet na lotnisku. Od 1992. Zapytaj o ofertę. Lokalny zespół na miejscu.',
+      keywords: 'Sri Lanka Holandia, wycieczka prywatna z kierowcą, podroz z Holandii',
     },
     marketUK: {
-      title: 'Wakacje Sri Lanka z Wielkiej Brytanii | Prywatna wycieczka',
-      description: 'Prywatna wycieczka po Sri Lance dla podroznych z Wielkiej Brytanii: kierowca przewodnik, loty do Colombo i trasy 7 do 10 dni.',
-      keywords: 'wakacje Sri Lanka, prywatna wycieczka, kierowca przewodnik',
+      title: 'Wycieczki Sri Lanka z UK | z kierowcą',
+      description:
+        'Prywatne wycieczki dla podróżnych z UK: z kierowcą, elastyczne dni, lokalny zespół od 1992. Zapytaj o bezpłatna ofertę dzisiaj. Zapytaj o ofertę.',
+      keywords: 'Sri Lanka UK, wycieczka prywatna z kierowcą, podroz z Wielkiej Brytanii',
     },
     marketAustria: {
       title: 'Wycieczki Sri Lanka z Austrii | Prywatny kierowca',

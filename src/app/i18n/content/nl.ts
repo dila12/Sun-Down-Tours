@@ -180,6 +180,9 @@ export const nl: Dict = {
       slide3: 'Prive rondreizen door het mooie Sri Lanka',
       slide4: 'Ontdek Sigiriya, Ella & de hoogtepunten van Sri Lanka',
       slide5: 'Sri Lanka wildlife safaris & avontuurlijke tours',
+      slideGuestSigiriya: 'Echte gasten met Sundown Tours op Sri Lanka',
+      slideGuestSigiriyaAlt:
+        'Sundown Tours-gasten vieren met het team, houden een banner bij Sigiriya en poseren met ons privévoertuig',
     },
     intro: {
       title: 'Sri Lanka rondreizen & vakantiepakketten met lokale experts',
@@ -245,8 +248,11 @@ export const nl: Dict = {
       title: 'Betrouwbaar Sri Lanka reisbureau',
       p1: 'Sundown Tours Sri Lanka verzorgt sinds 1992 betrouwbare reiservaringen. Met meer dan drie decennia expertise specialiseren we ons in prive rondreizen, vakanties op maat en reizen met chauffeur, afgestemd op de unieke wensen van elke reiziger.',
       p2: 'Van het culturele erfgoed van Sigiriya en Kandy tot de natuurpracht van Ella, Nuwara Eliya en de wildlife van Nationaal Park Yala: wij creeren onvergetelijke reizen door Sri Lanka.',
-      gallery1Alt: 'Prive Sri Lanka rondreis met Sundown Tours',
+      gallery1Alt: 'Privé Sri Lanka rondreis met Sundown Tours',
       gallery2Alt: 'Sri Lanka reisepakketten met chauffeur gids',
+      gallery3Alt: 'Twee gasten met een Sundown Tours-banner voor Sigiriya',
+      gallery4Alt: 'Gasten wijzen naar het Sundown Tours-bord op ons privévoertuig bij Sigiriya',
+      gallery5Alt: 'Gasten en hosts van Sundown Tours met ingelijste reis fotocollages',
     },
     features: {
       f1Title: 'Betaalbare Sri Lanka reisepakketten',
@@ -266,6 +272,23 @@ export const nl: Dict = {
       s2Desc: 'Treintickets voor Ella, safariboekingen en entreetickets regelen wij voor u.',
       s3Title: '4 sterren hotelaccommodatie',
       s3Desc: 'Zorgvuldig geselecteerde 4 sterren hotels voor prive Sri Lanka reisepakketten.',
+    },
+    vehicles: {
+      tag: 'ONZE VLOOT',
+      title: 'Onze voertuigen',
+      subtitle:
+        'Reis in moderne airconditioned SUV’s en hoge dak busjes, alleen voor uw privegroep.',
+      typeSuv: 'SUV',
+      typeKdh: 'Hoge dak KDH',
+      suvGrey: 'Grijze Honda SUV',
+      suvGreyAlt: 'Grijze Honda SUV voor prive Sri Lanka chauffeur tours',
+      suvRed: 'Rode Honda SUV',
+      suvRedAlt: 'Rode Honda SUV voor prive Sri Lanka chauffeur tours',
+      kdhWhite: 'Witte hoge dak van',
+      kdhWhiteAlt: 'Witte Toyota hoge dak van voor familierondreizen in Sri Lanka',
+      kdhSilver: 'Zilveren hoge dak van',
+      kdhSilverAlt: 'Zilveren Toyota hoge dak van voor groepsreizen in Sri Lanka',
+      note: 'Airco · Vergunde chauffeur · Kentekenplaten geblurd voor privacy',
     },
     faqTitle: 'Veelgestelde vragen',
     faq: [
@@ -695,143 +718,142 @@ export const nl: Dict = {
 
   seo: {
     home: {
-      title: 'Sri Lanka rondreizen & vakantiepakketten | Prive chauffeur',
+      title: 'Privé rondreis Sri Lanka met chauffeur | 5-10 dagen',
       description:
-        'Privé-rondreizen en vakantiepakketten door Sri Lanka met lokale chauffeur gids. Routes van 7, 8 en 10 dagen: Sigiriya, Ella, Yala safari en strand. Sinds 1992.',
-      keywords:
-        'Sri Lanka rondreis, Sri Lanka vakantie, Sri Lanka reisepakket, prive chauffeur Sri Lanka, Sri Lanka vakantie',
+        'Privé rondreizen Sri Lanka met chauffeur voor Europese reizigers. Routes van 5 tot 10 dagen. Team sinds 1992. Vraag vandaag een gratis offerte.',
+      keywords: 'privé rondreis Sri Lanka, rondreis met chauffeur, Sri Lanka vakantie',
     },
     tours: {
-      title: 'Sri Lanka reisepakketten | 7, 8 & 10 dagen prive',
+      title: 'Privé rondreizen Sri Lanka | 4-10 dagen chauffeur',
       description:
-        'Sri Lanka reisepakketten voor reizigers uit Nederland en Europa: prive vakanties van 7, 8 en 10 dagen met chauffeur gids, safari en strandgeen groepsreizen.',
-      keywords: 'Sri Lanka reisepakket, prive rondreis Sri Lanka, Sri Lanka vakantie, 7 dagen Sri Lanka',
+        'Vergelijk privé rondreizen Sri Lanka van 4 tot 10 dagen met chauffeur, safari en strand. Op maat, geen groepsbussen. Vraag een offerte. Op maat.',
+      keywords: 'Sri Lanka pakketten, privé rondreis chauffeur, tour 7 dagen, itineraries',
     },
     services: {
-      title: 'Prive rondreizen, chauffeur & vakanties | Sri Lanka',
+      title: 'Privéchauffeur & tourservices | Sri Lanka',
       description:
-        'Onze diensten: prive rondreizen, vakantiepakketten op maat, rondritten met chauffeur en dagtrips in Sri Lanka.',
-      keywords: 'Sri Lanka chauffeur, prive rondreis Sri Lanka, Sri Lanka reisepakket, chauffeurservice',
+        'Rondreizen met chauffeur, vakanties op maat en dagtrips op Sri Lanka. Flexibel tempo, meet op de luchthaven. Sinds 1992. Vraag een offerte..',
+      keywords: 'privéchauffeur Sri Lanka, rondreis met chauffeur, dagtrips',
     },
     about: {
-      title: 'Over Sundown Tours | Betrouwbaar Sri Lanka reisbureau',
+      title: 'Over Sundown Tours | Privé sinds 1992',
       description:
-        'Leer Sundown Tours Sri Lanka kennen: uw betrouwbare lokale touroperator voor privé-rondreizen door Sri Lanka sinds 1992.',
-      keywords: 'Sri Lanka reisbureau, Sri Lanka touroperator, betrouwbare Sri Lanka reizen',
+        'Sundown Tours plant privé rondreizen met chauffeur op Sri Lanka sinds 1992. Lokaal team voor Europese gasten. Vraag een gratis offerte. Routes op maat.',
+      keywords: 'Sundown Tours, Sri Lanka operator, privé tours sinds 1992, lokale chauffeur',
     },
     contact: {
-      title: 'Plan uw prive rondreis Sri Lanka | Contact',
+      title: 'Contact Sundown Tours | Offerte Sri Lanka',
       description:
-        'Neem contact op met Sundown Tours voor Sri Lanka reisepakketten op maat en prive reisservice. Wij antwoorden binnen 24 uur.',
-      keywords: 'contact Sri Lanka reisbureau, prive rondreis Sri Lanka boeken, chauffeur Sri Lanka',
+        'Plan een privé rondreis Sri Lanka met chauffeur. Stuur data en stijl; we antwoorden meestal binnen een dag. Sinds 1992. Vraag een offerte. Privechauffeur.',
+      keywords: 'contact tour Sri Lanka, gratis offerte, chauffeur Sri Lanka boeken',
     },
     tour7: {
-      title: '7 daagse Sri Lanka rondreis | Cultuur, heuvelland & safari',
+      title: '7-daagse privé rondreis | Wilpattu & Mirissa',
       description:
-        'Beleef Sri Lanka in 7 dagen: Sigiriya, Kandy, Ella en Yala safari met prive chauffeur gids. Vraag nu een rondreis op maat aan.',
-      keywords: '7 dagen Sri Lanka rondreis, Sri Lanka 1 week, prive rondreis Sri Lanka, chauffeur',
+        'Wilpattu-safari, Sigiriya, Kandy, Ella en Mirissa (walvissen optioneel). 4-sterrenhotels, privéchauffeur. Vraag een gratis offerte. Lokaal team sinds 1992.',
+      keywords: '7-daagse Sri Lanka rondreis, Wilpattu Mirissa, privé met chauffeur',
     },
     tour10: {
-      title: '10 daagse Sri Lanka rondreis | Complete eilandverkenning',
+      title: '10-daagse privé rondreis | Rondje eiland',
       description:
-        'Verken Sri Lanka in 10 dagen: stranden, wildlife safaris, heuvelland en cultureel erfgoed met prive chauffeur.',
-      keywords: '10 dagen Sri Lanka rondreis, Sri Lanka 10 dagen itinerary, prive rondreis',
+        'Eilandrondreis: Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella en stranddagen in Hikkaduwa. Privéchauffeur sinds 1992. Vraag een offerte. Team sinds 1992.',
+      keywords: '10-daagse Sri Lanka rondreis, eilandrondreis chauffeur, Hikkaduwa strand',
     },
     tour8: {
-      title: '8 daagse prive rondreis Sri Lanka | Wilpattu, Sigiriya, Kandy, Ella & strand',
+      title: '8-daagse privé rondreis | Yala & Mirissa-strand',
       description:
-        'Ontdek Sri Lanka in 8 dagen met prive gids: Wilpattu safari, Anuradhapura, Sigiriya, Kandy, Ella en een ontspannen strandverblijf in Hikkaduwa.',
-      keywords: '8 dagen Sri Lanka rondreis, Sri Lanka 8 dagen, Wilpattu safari, prive chauffeur',
+        'Pidurangala, Sigiriya, Kandy, thee, Ella, Yala-safari en nachten in Mirissa. Met chauffeur. Gratis annuleren 14 dagen. Offerte. Vraag een gratis offerte.',
+      keywords: '8-daagse Sri Lanka rondreis, Yala Mirissa strand, privéchauffeur',
     },
     tour6: {
-      title: '6 daagse prive rondreis Sri Lanka | Sigiriya, Kandy, Ella & Yala',
+      title: '6-daagse privé rondreis | Yala-safari & strand',
       description:
-        'Verken Sri Lanka in 6 dagen met prive gids: Sigiriya, Kandy, Ella heuvelland, Yala safari en schilderachtige stranden.',
-      keywords: '6 dagen Sri Lanka rondreis, Sri Lanka 6 dagen, Sigiriya Kandy Ella, Yala safari',
+        'Sigiriya, Kandy, thee, Yala-safari en zuidwestelijk strand met 4-sterrenhotels. Gratis annuleren tot 14 dagen. Vraag een offerte. Vraag een gratis offerte.',
+      keywords: '6-daagse Sri Lanka rondreis, Yala safari strand, privéchauffeur',
     },
     tour5: {
-      title: '5 daagse Sri Lanka rondreis | Cultuur & natuur in balans',
+      title: '5-daagse privé rondreis | Thee & kust',
       description:
-        'Ontdek een evenwichtige mix van cultureel erfgoed, natuurpracht en wildlife in 5 dagen prive en op maat.',
-      keywords: '5 dagen Sri Lanka rondreis, Sri Lanka 5 dagen itinerary, korte rondreis',
+        'Sigiriya, Kandy, Nuwara Eliya, Ella en zuidkust (Madu River), 4-sterrenhotels en chauffeur. Ideaal kort verblijf. Vraag een offerte. Flexibel privé tempo.',
+      keywords: '5-daagse Sri Lanka rondreis, Nuwara Eliya thee, privéchauffeur',
     },
     tour4: {
-      title: '4 daagse Sri Lanka rondreis | Culturele & natuurlijke hoogtepunten',
+      title: '4-daagse privé rondreis | Kandy, Ella & Yala',
       description:
-        'Beleef het beste van Sri Lanka in 4 dagen met prive gids: Sigiriya, Kandy, Ella en Yala safari.',
-      keywords: '4 dagen Sri Lanka rondreis, Sri Lanka 4 dagen itinerary, korte trip',
+        'Kandy, Ella-heuvels en Yala-safari, daarna Galle of Bentota aan de zuidkust. Met chauffeur. Gratis annuleren 14 dagen. Offerte. Vraag een gratis offerte.',
+      keywords: '4-daagse Sri Lanka rondreis, Kandy Ella Yala, privé met chauffeur',
     },
     tour2ek: {
-      title: '2 daagse prive rondreis Sri Lanka  Ella, Kandy & Udawalawa | Airport of hotel',
+      title: '2-daagse privé rondreis | Ella & Kandy',
       description:
-        'Boek een 2 daagse prive rondreis Sri Lanka: Udawalawa, hoogtepunten van Ella, Ramboda Falls, Ambuluwawa Tower en de Tandtempel in Kandy.',
-      keywords: '2 dagen Sri Lanka tour, Ella Kandy 2 dagen, prive rondreis Sri Lanka',
+        'Korte heuvelreis: Udawalawa, Ella en de Tandtempel in Kandy met privéchauffeur. Flexibel tempo. Vraag vandaag een offerte. Vraag een gratis offerte.',
+      keywords: '2 dagen Ella Kandy, Tandtempel tour, privéchauffeur Sri Lanka',
     },
     tour2ey: {
-      title: '2 daagse Ella & Yala safari prive tour | Sri Lanka wildlife',
+      title: '2-daagse privé rondreis | Ella & Yala-safari',
       description:
-        'Een 2 daagse prive tour met hoogtepunten van Ella en een spannende jeepsafari in Nationaal Park Yala luipaarden, olifanten en meer.',
-      keywords: 'Ella Yala safari, 2 dagen Sri Lanka safari, Yala national park safari',
+        'Weekend Ella plus privé jeep-safari in Yala met chauffeur en 4-sterrenhotel. Gratis annuleren tot 14 dagen. Vraag een offerte. Vraag een gratis offerte.',
+      keywords: 'Yala safari 2 dagen, privé rondreis Ella Yala, chauffeur Sri Lanka',
     },
     ellaDay: {
-      title: 'Ella dagtrip | Scenic train & Nine Arch Bridge',
+      title: 'Ella dagtocht met chauffeur | Nine Arch',
       description:
-        'Geniet van een prive Ella dagtrip met Nine Arch Bridge, Little Adam’s Peak en Ravana Falls.',
-      keywords: 'Ella dagtrip, Ella prive tour, Nine Arch Bridge',
+        'Privé dag in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag een gratis offerte. Vraag een gratis offerte.',
+      keywords: 'Ella dagtocht, Nine Arch Bridge, privéchauffeur Sri Lanka',
     },
     galleDay: {
-      title: 'Galle dagtrip | Galle Fort & zuidkust',
+      title: 'Galle dagtocht met chauffeur | Hollands fort',
       description:
-        'Ontdek Galle Fort, stranden en attracties aan de zuidkust met onze prive dagtrip.',
-      keywords: 'Galle dagtrip, Galle Fort tour, zuidkust Sri Lanka',
+        'Privé dag in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.',
+      keywords: 'Galle dagtocht, Galle Fort privé, zuidkust Sri Lanka chauffeur',
     },
     kandyDay: {
-      title: 'Kandy dagtrip | Culturele & natuurlijke hoogtepunten',
+      title: 'Kandy dagtocht met chauffeur | Tandtempel',
       description:
-        'Beleef de culturele en natuurlijke hoogtepunten van Kandy, waaronder de Tandtempel en de koninklijke tuinen.',
-      keywords: 'Kandy dagtrip, Kandy prive tour, Tandtempel',
+        'Privé dag in Kandy: Tandtempel, uitzichtpunt en hoogtepunten van de stad met chauffeur. Vraag vandaag een gratis offerte. Vraag een gratis offerte.',
+      keywords: 'Kandy dagtocht, Tandtempel tour, privéchauffeur Kandy',
     },
     sigiriyaDay: {
-      title: 'Sigiriya dagtrip | Antiek rotsfort',
+      title: 'Sigiriya dagtocht met chauffeur | Leeuwenrots',
       description:
-        'Verken het antieke rotsfort Sigiriya en de omliggende tuinen met onze prive dagtrip.',
-      keywords: 'Sigiriya dagtrip, Sigiriya prive tour, Leeuwenrots',
+        'Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsleven. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.',
+      keywords: 'Sigiriya dagtocht, Leeuwenrots, Dambulla grotten met chauffeur',
     },
     destinations: {
-      title: 'Bestemmingen Sri Lanka | Stranden, wildlife & cultuur',
+      title: 'Bestemmingen Sri Lanka | Ella, Sigiriya, Yala',
       description:
-        'Ontdek de topbestemmingen van Sri Lanka: stranden, wildparken en cultureel erfgoed.',
-      keywords: 'Sri Lanka bestemmingen, beste plekken Sri Lanka, bezienswaardigheden',
+        'Bestemmingen voor privé tours: Ella, Sigiriya, Yala, Kandy, Galle en Mirissa. Tips voor routes met chauffeur. Vraag een offerte. Luchthavenmeet op verzoek.',
+      keywords: 'bestemmingen Sri Lanka, Ella Sigiriya Yala, privé tour plekken, Galle Mirissa',
     },
     guides: {
-      title: 'Sri Lanka reisgidsen | Expert tips & inzichten',
+      title: 'Reisgidsen Sri Lanka | Tips privé rondreis',
       description:
-        'Ontdek onze uitgebreide reisgidsen voor Sri Lanka met expertinzichten en praktische tips.',
-      keywords: 'Sri Lanka reisgids, Sri Lanka reistips, prive chauffeur gids',
+        'Praktische gidsen: beste reistijd, tips over privéchauffeur en visa-basics voor Europa. Beter plannen. Vraag een offerte. Lokaal team ter plaatse.',
+      keywords: 'reisgids Sri Lanka, beste reistijd, privéchauffeur tips, visa Sri Lanka',
     },
     destSigiriya: {
-      title: 'Sigiriya rotsfort gids | Beklimming, tips & dagtrips',
+      title: 'Sigiriya rotsfort | Gids met privé chauffeur',
       description:
-        'Plan uw Sigiriya bezoek: beste klimtijd, fresco’s, Pidurangala, entreetips en combinatie met Dambulla of een Culturele Driehoek tour.',
-      keywords: 'Sigiriya Sri Lanka, Sigiriya rotsfort, Sigiriya beklimmen, Sigiriya dagtrip',
+        'Sigiriya Lion Rock en Dambulla op een privé dag of rondreis met chauffeur. Tips klim, timing en tempo. Vraag een offerte. Europese gasten welkom.',
+      keywords: 'Sigiriya Sri Lanka, Lion Rock, Dambulla grotten, privé tour Sigiriya',
     },
     destElla: {
-      title: 'Ella Sri Lanka gids | Nine Arch Bridge, hikes & heuvelland',
+      title: 'Ella Sri Lanka | Nine Arch Bridge & heuvels',
       description:
-        'Ontdek Ella’s Nine Arch Bridge, Little Adam’s Peak, theepaden en de scenic train met praktische tips voor een prive dagtrip of meerdaags heuvellandverblijf.',
-      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Ella dagtrip, Sri Lanka heuvelland',
+        'Plan Ella: Nine Arch Bridge, Little Adams Peak en thee voor een dag of meerdaags. Met chauffeur. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, privé tour Ella',
     },
     destYala: {
-      title: 'Nationaal Park Yala gids | Safaritips, wildlife & beste tijd',
+      title: 'Yala National Park | Tips privé safari',
       description:
-        'Plan een Yala safari: kans op luipaarden, jeepsafari tips, beste maanden en combinatie met Ella of een strandverblijf aan de zuidkust.',
-      keywords: 'Yala National Park, Yala safari, Sri Lanka luipaarden, Yala jeep safari',
+        'Yala jeep safari op een privé rondreis: luipaardkansen, poorttijden en combinatie met Ella of kust. Vraag een offerte voor data. Privechauffeur.',
+      keywords: 'Yala National Park, Yala safari, luipaard Sri Lanka, privé safari',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka gids | Tandtempel & culturele hoofdstad',
+      title: 'Kandy Sri Lanka | Tandtempel gids',
       description:
-        'Verken Kandy’s Tandtempel, wandelingen langs het meer, Peradeniya Gardens en Esala Perahera plus tips om Kandy te combineren met Ella of de Culturele Driehoek.',
-      keywords: 'Kandy Sri Lanka, Tandtempel, Kandy dagtrip, Sri Lanka culturele hoofdstad',
+        'Ontdek Kandy: Tandtempel, meer en poort naar de heuvels op privé rondreizen met chauffeur. Praktische tips. Vraag een offerte. Routes op maat.',
+      keywords: 'Kandy Sri Lanka, Tandtempel, privé tour Kandy, heuvels',
     },
     destDambulla: {
       title: 'Dambulla grottempel gids | Tips Gouden Rots Tempel',
@@ -840,28 +862,28 @@ export const nl: Dict = {
       keywords: 'Dambulla grottempel, Golden Temple Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Galle Fort Sri Lanka gids | Wallen, vuurtoren & kust',
+      title: 'Galle Fort Sri Lanka | Zuidkust privé',
       description:
-        'Wandel over de Nederlandse wallen van Galle Fort, de vuurtoren en boutiquesteegjes met tips voor een prive dagtrip en combinatie met stranden aan de zuidkust.',
-      keywords: 'Galle Fort, Galle Sri Lanka, Galle dagtrip, UNESCO Galle',
+        'Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse rondreis met chauffeur. Rustig tempo. Vraag een offerte. Vraag een offerte.',
+      keywords: 'Galle Fort, Galle Sri Lanka, zuidkust privé, Galle dagtocht',
     },
     guideBestTime: {
-      title: 'Beste tijd Sri Lanka | Maand voor maand seizoensgids',
+      title: 'Beste reistijd Sri Lanka | Seizoensgids',
       description:
-        'Wanneer naar Sri Lanka: twee moessons uitgelegd, beste maanden per regio, safari- en walvistijden, en hoe u een prive itinerary om het weer plant.',
-      keywords: 'beste tijd Sri Lanka, Sri Lanka weer, Sri Lanka moesson, wanneer Sri Lanka',
+        'Wanneer Sri Lanka bezoeken: droge vensters per kust en heuvels, moesson en aangepaste routes. Vraag een offerte voor je data. Europese gasten welkom.',
+      keywords: 'beste reistijd Sri Lanka, weer Sri Lanka, moesson, droog seizoen',
     },
     guideVisa: {
-      title: 'Sri Lanka visum gids | ETA, inreisregels & praktische tips',
+      title: 'Visa & ETA Sri Lanka | Gids voor Europa',
       description:
-        'Hoe de Sri Lanka ETA en visa on arrival werken voor reizigers, welke documenten u nodig heeft en veelgemaakte inreisfouten om te vermijden.',
-      keywords: 'Sri Lanka visum, Sri Lanka ETA, visa on arrival Sri Lanka, inreisvereisten',
+        'ETA en inreisbasics voor Europese reizigers voor een privé tour. Praktische notities, geen juridisch advies. Vraag een offerte. Vraag een offerte.',
+      keywords: 'visa Sri Lanka, ETA Sri Lanka, inreis Europa, reisdocumenten',
     },
     guidePrivateDriver: {
-      title: 'Sri Lanka prive chauffeur gids | Chauffeur tours uitgelegd',
+      title: 'Privechauffeur Sri Lanka | Praktische gids',
       description:
-        'Waarom reizigers een prive chauffeur kiezen in Sri Lanka, wat inbegrepen is, typische dagafstanden en hoe u een flexibele rondreis plant.',
-      keywords: 'Sri Lanka prive chauffeur, chauffeur gids Sri Lanka, prive rondreis Sri Lanka',
+        'Wat een privéchauffeur op Sri Lanka omvat: auto, tempo, hotels en gewoonten van Europese gasten. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'privéchauffeur Sri Lanka, chauffeur gids, rondreis met chauffeur',
     },
     guideBudget: {
       title: 'Sri Lanka budget reisgids | Kosten & geldtips',
@@ -912,22 +934,22 @@ export const nl: Dict = {
       keywords: 'Sri Lanka reisveiligheid, veilig reizen Sri Lanka, veiligheidstips bezoekers',
     },
     cancellation: {
-      title: 'Annuleringsvoorwaarden | Sundown Tours Sri Lanka',
+      title: 'Annuleringsvoorwaarden | Sundown Tours',
       description:
-        'Boekingswijzigingen, aanbetalingsregels en annuleringsvoorwaarden voor prive rondreizen en chauffeurservice bij Sundown Tours Sri Lanka.',
-      keywords: 'annuleringsvoorwaarden, tour annuleren Sri Lanka, boekingswijzigingen',
+        'Annuleringsregels voor privé Sri Lanka tours. Gratis annuleren is vaak tot 14 dagen voor start mogelijk. Lees en vraag een offerte. Privechauffeur.',
+      keywords: 'annulering Sri Lanka tour, gratis 14 dagen, Sundown Tours policy',
     },
     restaurants: {
-      title: 'Restaurants in Sri Lanka | Beste lokale keuken',
+      title: 'Eten op Sri Lanka | Kust & tourtips',
       description:
-        'Ontdek de beste restaurants in Sri Lanka met authentieke lokale keuken en internationale gerechten.',
-      keywords: 'Sri Lanka restaurants, beste restaurants Sri Lanka',
+        'Waar reizigers eten op privé tours: seafood aan de kust, rice and curry, plus Sundown Beach Restaurant in Waskaduwa. Vraag een offerte. Routes op maat.',
+      keywords: 'restaurants Sri Lanka, Sundown Beach Restaurant, eten op rondreis',
     },
     testimonials: {
-      title: 'Klantreviews | Sundown Tours Sri Lanka',
+      title: 'Gastreviews | Sundown Tours Sri Lanka',
       description:
-        'Lees reviews van tevreden klanten die onze prive Sri Lanka rondreizen hebben beleefd.',
-      keywords: 'Sri Lanka tour reviews, klantreviews, ervaringen',
+        'Lees echte reviews over onze privé rondreizen met chauffeur op Sri Lanka van Europese gasten. Live feedback en TripAdvisor. Vraag een offerte.',
+      keywords: 'Sundown Tours reviews, Sri Lanka privé tour reviews, chauffeur testimonials',
     },
     privacy: {
       title: 'Privacybeleid | Sundown Tours Sri Lanka',
@@ -950,9 +972,10 @@ export const nl: Dict = {
       keywords: 'Bentota Sri Lanka, strand Bentota, westkust Sri Lanka',
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka | Strand, walvissen en Coconut Tree Hill',
-      description: 'Mirissa: walvissenseizoen, Coconut Tree Hill, strand en combinatie met Galle Fort of Weligama op een privérondreis langs de zuidkust.',
-      keywords: 'Mirissa Sri Lanka, walvissen Mirissa, Coconut Tree Hill, strand Mirissa',
+      title: 'Mirissa Sri Lanka | Strand & walvisseizoen',
+      description:
+        'Mirissa: strandtijd, walvisseizoen en koppeling met Galle of een zuidverblijf op privé tours. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'Mirissa Sri Lanka, Mirissa strand, walvissen Mirissa, zuidkust tour',
     },
     destHiriketiya: {
       title: 'Hiriketiya, Sri Lanka | Surfbaai aan de zuidkust',
@@ -1025,44 +1048,52 @@ export const nl: Dict = {
       keywords: 'transfer luchthaven Colombo, privé ophaalservice CMB, transfer Negombo, transfer Kalutara',
     },
     marketGermany: {
-      title: 'Sri Lanka reizen vanuit Duitsland | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Duitsland, met een lokale chauffeur na aankomst in Colombo.',
-      keywords: 'Sri Lanka Duitsland, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Duitsland | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Duitsland: met chauffeur, flexibele dagen, lokaal team sinds 1992. Vraag een gratis offerte. Routes op maat.',
+      keywords: 'Sri Lanka Duitsland, privé rondreis chauffeur, vanuit Duitsland',
     },
     marketFrance: {
-      title: 'Sri Lanka reizen vanuit Frankrijk | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Frankrijk, met ophaalservice op luchthaven CMB.',
-      keywords: 'Sri Lanka Frankrijk, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Frankrijk | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Frankrijk: met chauffeur, flexibel tempo, lokaal team sinds 1992. Vraag een gratis offerte. Privechauffeur.',
+      keywords: 'Sri Lanka Frankrijk, privé rondreis chauffeur, vanuit Frankrijk',
     },
     marketItaly: {
-      title: 'Sri Lanka reizen vanuit Italië | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Italië: cultuur, strand en een eigen chauffeur.',
-      keywords: 'Sri Lanka Italië, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Italie | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Italie: met chauffeur, flexibele routes, lokaal team sinds 1992. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'Sri Lanka Italie, privé rondreis chauffeur, vanuit Italie',
     },
     marketSpain: {
-      title: 'Sri Lanka reizen vanuit Spanje | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Spanje, met transfer vanaf CMB en een rustig tempo.',
-      keywords: 'Sri Lanka Spanje, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Spanje | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Spanje: met chauffeur, flexibele dagen, planning sinds 1992. Vraag een gratis offerte. Vraag een offerte.',
+      keywords: 'Sri Lanka Spanje, privé rondreis chauffeur, vanuit Spanje',
     },
     marketPoland: {
-      title: 'Sri Lanka reizen vanuit Polen | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Polen, met een lokale chauffeur op het eiland.',
-      keywords: 'Sri Lanka Polen, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Polen | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Polen: met chauffeur, flexibele dagen, lokaal team sinds 1992. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'Sri Lanka Polen, privé rondreis chauffeur, vanuit Polen',
     },
     marketRussia: {
-      title: 'Sri Lanka reizen vanuit Rusland | Privéchauffeur',
-      description: 'Privérondreis voor gasten uit Rusland. Wij plannen de route, geen vliegtickets.',
-      keywords: 'Sri Lanka Rusland, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Rusland | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Rusland: met chauffeur, flexibele routes, lokaal team sinds 1992. Vraag een gratis offerte. Lokaal team ter plaatse.',
+      keywords: 'Sri Lanka Rusland, privé rondreis chauffeur, vanuit Rusland',
     },
     marketNetherlands: {
-      title: 'Sri Lanka reizen vanuit Nederland | Privérondreis',
-      description: 'Privérondreis vanuit Nederland: aankomst in Colombo, chauffeur en een route van cultuur naar strand.',
-      keywords: 'Sri Lanka vakantie Nederland, privérondreis, chauffeur',
+      title: 'Sri Lanka rondreis vanuit Nederland | chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit Nederland: met chauffeur, flexibele dagen, meet op de luchthaven. Sinds 1992. Vraag een offerte. Sinds 1992.',
+      keywords: 'Sri Lanka vakantie Nederland, privé rondreis chauffeur, vanuit Nederland',
     },
     marketUK: {
-      title: 'Sri Lanka vakantie vanuit het VK | Prive rondreis',
-      description: 'Prive rondreis door Sri Lanka voor reizigers uit het Verenigd Koninkrijk: chauffeur gids, vluchten naar Colombo en reizen van 7 tot 10 dagen.',
-      keywords: 'Sri Lanka vakantie, prive rondreis, chauffeur gids',
+      title: 'Sri Lanka rondreis vanuit UK | met chauffeur',
+      description:
+        'Privé rondreizen voor reizigers uit het UK: met chauffeur, flexibele dagen, lokaal team sinds 1992. Vraag een gratis offerte. Plan met vertrouwen.',
+      keywords: 'Sri Lanka UK, privé rondreis chauffeur, vanuit Verenigd Koninkrijk',
     },
     marketAustria: {
       title: 'Sri Lanka reizen vanuit Oostenrijk | Privéchauffeur',

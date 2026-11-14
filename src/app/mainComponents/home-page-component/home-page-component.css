@@ -20,6 +20,10 @@
   min-height: 22rem;
 }
 
+.home-defer-ph--vehicles {
+  min-height: 26rem;
+}
+
 .tabs-wrapper {
   display: flex;
   justify-content: center;

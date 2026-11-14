@@ -173,6 +173,9 @@ export const fr: Dict = {
       slide3: 'Circuits prives a travers le magnifique Sri Lanka',
       slide4: 'Decouvrez Sigiriya, Ella et les incontournables du Sri Lanka',
       slide5: 'Safaris et circuits aventure au Sri Lanka',
+      slideGuestSigiriya: 'Vrais voyageurs avec Sundown Tours au Sri Lanka',
+      slideGuestSigiriyaAlt:
+        'Voyageurs Sundown Tours célébrant avec l’équipe, tenant une banderole à Sigiriya et posant avec notre véhicule privé',
     },
     intro: {
       title: 'Circuits Sri Lanka & sejours avec des experts locaux',
@@ -231,8 +234,11 @@ export const fr: Dict = {
       title: 'Agence de voyage de confiance au Sri Lanka',
       p1: "Sundown Tours Sri Lanka propose des experiences de voyage fiables depuis 1992. Avec plus de trois decennies d'expertise, nous sommes specialises dans les circuits prives, les sejours sur mesure et les voyages avec chauffeur, concus selon les envies de chaque voyageur.",
       p2: "Du patrimoine culturel de Sigiriya et Kandy a la beaute d'Ella et Nuwara Eliya, en passant par la faune du parc national de Yala, nous creons des voyages inoubliables a travers le Sri Lanka.",
-      gallery1Alt: 'Circuit prive au Sri Lanka avec Sundown Tours',
+      gallery1Alt: 'Circuit privé au Sri Lanka avec Sundown Tours',
       gallery2Alt: 'Circuits au Sri Lanka avec chauffeur guide',
+      gallery3Alt: 'Deux voyageurs tenant une banderole Sundown Tours devant Sigiriya',
+      gallery4Alt: 'Voyageurs montrant le panneau Sundown Tours sur notre véhicule privé à Sigiriya',
+      gallery5Alt: 'Voyageurs et équipe Sundown Tours avec des collages photo encadrés',
     },
     features: {
       f1Title: 'Circuits abordables au Sri Lanka',
@@ -252,6 +258,23 @@ export const fr: Dict = {
       s2Desc: "Billets de train pour Ella, reservations de safari et billets d'entree organises pour vous.",
       s3Title: 'Reservation hoteliere et hebergement sur mesure',
       s3Desc: "Des hotels selectionnes, des complexes de luxe aux maisons d'hotes economiques.",
+    },
+    vehicles: {
+      tag: 'NOTRE FLOTTE',
+      title: 'Nos vehicules',
+      subtitle:
+        'Voyagez en SUV et minibus haut de gamme climatises, reserves uniquement a votre groupe prive.',
+      typeSuv: 'SUV',
+      typeKdh: 'KDH toit haut',
+      suvGrey: 'SUV Honda gris',
+      suvGreyAlt: 'SUV Honda gris pour circuits prives au Sri Lanka avec chauffeur',
+      suvRed: 'SUV Honda rouge',
+      suvRedAlt: 'SUV Honda rouge pour circuits prives avec chauffeur au Sri Lanka',
+      kdhWhite: 'Minibus toit haut blanc',
+      kdhWhiteAlt: 'Minibus Toyota toit haut blanc pour voyages en famille au Sri Lanka',
+      kdhSilver: 'Minibus toit haut argente',
+      kdhSilverAlt: 'Minibus Toyota toit haut argente pour groupes au Sri Lanka',
+      note: 'Climatisation · Chauffeur agree · Plaques floutees pour la confidentialite',
     },
     faqTitle: 'Questions frequentes',
     faq: [
@@ -673,143 +696,142 @@ export const fr: Dict = {
 
   seo: {
     home: {
-      title: 'Voyage Sri Lanka | Circuits prives depuis la France',
+      title: 'Circuits privés Sri Lanka avec chauffeur | 5-10 jours',
       description:
-        'Voyage au Sri Lanka depuis la France : circuit prive avec chauffeur guide, vol Paris to Colombo, quand partir, visa ETA, Sigiriya, safari et plages. Depuis 1992.',
-      keywords:
-        'voyage Sri Lanka, visiter Sri Lanka, circuit Sri Lanka, sejour Sri Lanka, que faire au Sri Lanka, chauffeur prive Sri Lanka',
+        'Circuits privés Sri Lanka avec chauffeur pour voyageurs d’Europe. Itinéraires 5-10 jours, rythme flexible. Équipe depuis 1992. Demandez un devis.',
+      keywords: 'circuits privés Sri Lanka, circuit avec chauffeur, voyage Sri Lanka',
     },
     tours: {
-      title: 'Circuits Sri Lanka | 7, 8 et 10 jours en prive',
+      title: 'Circuits privés Sri Lanka | 4-10 jours chauffeur',
       description:
-        'Circuits Sri Lanka pour voyageurs d’Europe : sejours prives de 7, 8 et 10 jours avec chauffeur guide, safari et plagepas de voyages de groupe.',
-      keywords: 'circuits Sri Lanka, voyage Sri Lanka, circuit 7 jours, circuit 10 jours, chauffeur prive',
+        'Comparez les circuits privés Sri Lanka de 4 à 10 jours avec chauffeur, safari et plage. Sur mesure, sans car de groupe. Demandez un devis...',
+      keywords: 'circuits privés Sri Lanka, circuit 7 jours, chauffeur privé',
     },
     services: {
-      title: 'Circuits prives, chauffeur et sejours | Sri Lanka',
+      title: 'Chauffeur privé & services circuits | Sri Lanka',
       description:
-        'Nos services : circuits prives, sejours sur mesure, circuits avec chauffeur et excursions a la journee au Sri Lanka.',
-      keywords: 'Chauffeur Prive Sri Lanka, Voyage Sri Lanka, Circuit Sri Lanka, Safari Sri Lanka',
+        'Circuits avec chauffeur, sejours sur mesure et excursions d une journée a Sri Lanka. Rythme flexible, accueil aéroport. Demandez un devis. Depuis 1992.',
+      keywords: 'chauffeur Sri Lanka, circuit sur mesure, excursion journée, service privé',
     },
     about: {
-      title: 'A propos | Agence de voyage de confiance au Sri Lanka',
+      title: 'A propos de Sundown Tours | Depuis 1992',
       description:
-        'Decouvrez Sundown Tours Sri Lanka, votre voyagiste local de confiance pour des circuits prives au Sri Lanka depuis 1992.',
-      keywords: 'agence de voyage Sri Lanka, voyagiste Sri Lanka, Circuit Sri Lanka',
+        'Sundown Tours organise des circuits privés avec chauffeur a Sri Lanka depuis 1992. Équipe locale pour voyageurs europeens. Demandez un devis.',
+      keywords: 'Sundown Tours, agence Sri Lanka, circuits privés depuis 1992, chauffeur local',
     },
     contact: {
-      title: 'Planifiez votre circuit Sri Lanka | Contact',
+      title: 'Contact Sundown Tours | Devis Sri Lanka gratuit',
       description:
-        'Contactez Sundown Tours pour des circuits prives sur mesure au Sri Lanka. Nous repondons sous 24 heures.',
-      keywords: 'reserver voyage Sri Lanka, contact circuit Sri Lanka, Chauffeur Prive Sri Lanka',
+        'Preparez un circuit privé Sri Lanka avec chauffeur. Indiquez dates et style; reponse sous un jour en general. Équipe depuis 1992. Demandez un devis.',
+      keywords: 'contact circuit Sri Lanka, devis gratuit, reserver chauffeur Sri Lanka',
     },
     tour7: {
-      title: 'Circuit Sri Lanka 7 jours | Culture, montagnes & safari',
+      title: 'Circuit privé 7 jours | Wilpattu & Mirissa',
       description:
-        'Vivez le Sri Lanka en 7 jours : Sigiriya, Kandy, Ella et safari a Yala avec chauffeur guide prive. Demandez votre circuit sur mesure.',
-      keywords: 'circuit Sri Lanka 7 jours, Voyage Sri Lanka, Chauffeur Prive Sri Lanka, Safari Sri Lanka',
+        'Safari Wilpattu, Sigiriya, Kandy, Ella et Mirissa (baleines en option). Hôtels 4 étoiles, chauffeur privé. Demandez un devis. Demandez un devis gratuit.',
+      keywords: 'circuit Sri Lanka 7 jours, Wilpattu Mirissa, circuit privé avec chauffeur',
     },
     tour10: {
-      title: 'Circuit Sri Lanka 10 jours | Le tour complet de l’ile',
+      title: 'Circuit privé 10 jours | Tour de l’île',
       description:
-        'Decouvrez le Sri Lanka en 10 jours : plages, safaris, montagnes et sites culturels avec chauffeur guide prive. Demandez votre circuit sur mesure.',
-      keywords: 'circuit Sri Lanka 10 jours, Sri Lanka 10 jours, voyage prive Sri Lanka, tour de l’ile Sri Lanka',
+        'Tour de l’île : Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella et plages à Hikkaduwa. Chauffeur privé depuis 1992. Demandez un devis. Équipe depuis 1992.',
+      keywords: 'circuit Sri Lanka 10 jours, tour de l’île privé, Hikkaduwa plage',
     },
     tour8: {
-      title: 'Circuit Sri Lanka 8 jours | Safari Wilpattu, Sigiriya, Kandy, Ella & plage',
+      title: 'Circuit privé 8 jours | Yala & plage Mirissa',
       description:
-        'Vivez le Sri Lanka en 8 jours en prive : safari a Wilpattu, Anuradhapura, Sigiriya, Kandy, Ella et sejour balneaire a Hikkaduwa.',
-      keywords: 'circuit Sri Lanka 8 jours, Sri Lanka 8 jours, safari Wilpattu, voyage prive Sri Lanka',
+        'Pidurangala, Sigiriya, Kandy, thé, Ella, safari Yala et nuits à Mirissa. Avec chauffeur. Annulation gratuite 14 jours. Devis gratuit. Équipe depuis 1992.',
+      keywords: 'circuit Sri Lanka 8 jours, Yala Mirissa plage, circuit privé chauffeur',
     },
     tour6: {
-      title: 'Circuit Sri Lanka 6 jours | Sigiriya, Kandy, Ella & safari a Yala',
+      title: 'Circuit privé 6 jours | Yala & plage',
       description:
-        'Le Sri Lanka en 6 jours en prive : Sigiriya, Kandy, les montagnes d’Ella, safari a Yala et plages pittoresques avec chauffeur guide experimente.',
-      keywords: 'circuit Sri Lanka 6 jours, Sri Lanka 6 jours, Sigiriya Kandy Ella, safari Yala',
+        'Sigiriya, Kandy, thé, safari Yala et plage du sud-ouest, hôtels 4 étoiles. Annulation gratuite jusqu’à 14 jours. Demandez un devis. Réponse sous 24 heures.',
+      keywords: 'circuit Sri Lanka 6 jours, safari Yala plage, circuit privé chauffeur',
     },
     tour5: {
-      title: 'Circuit Sri Lanka 5 jours | Culture, nature & faune',
+      title: 'Circuit privé 5 jours | Thé & côte sud',
       description:
-        'Un circuit equilibre de 5 jours au Sri Lanka melant culture, montagnes et safari  prive et sur mesure.',
-      keywords: 'circuit Sri Lanka 5 jours, Sri Lanka 5 jours, court sejour Sri Lanka',
+        'Sigiriya, Kandy, Nuwara Eliya, Ella et côte sud (Madu River), hôtels 4 étoiles et chauffeur. Idéal court séjour. Demandez un devis. Réponse sous 24 heures.',
+      keywords: 'circuit Sri Lanka 5 jours, Nuwara Eliya thé, circuit privé avec chauffeur',
     },
     tour4: {
-      title: 'Circuit Sri Lanka 4 jours | Incontournables & safari',
+      title: 'Circuit privé 4 jours | Kandy, Ella & Yala',
       description:
-        'Vivez le Sri Lanka en 4 jours : Sigiriya, Kandy, Ella et safari a Yala lors d’un circuit prive avec chauffeur guide.',
-      keywords: 'circuit Sri Lanka 4 jours, Sri Lanka 4 jours, court sejour Sri Lanka',
+        'Kandy, collines d’Ella et safari Yala, puis Galle ou Bentota sur la côte sud. Avec chauffeur. Annulation gratuite 14 jours. Devis. Réponse sous 24 heures.',
+      keywords: 'circuit Sri Lanka 4 jours, Kandy Ella Yala, circuit privé avec chauffeur',
     },
     tour2ek: {
-      title: 'Circuit prive Sri Lanka 2 jours  Ella, Kandy & Udawalawa | Transfert aeroport ou hotel',
+      title: 'Circuit privé 2 jours | Ella & Kandy',
       description:
-        'Circuit prive de 2 jours au Sri Lanka : Udawalawa, incontournables d’Ella, chutes de Ramboda, tour d’Ambuluwawa et Temple de la Dent a Kandy.',
-      keywords: 'circuit Sri Lanka 2 jours, Ella Kandy, voyage prive Sri Lanka',
+        'Court séjour collines : Udawalawa, Ella, puis Temple de la Dent à Kandy avec chauffeur privé. Rythme flexible. Demandez un devis. Rythme privé et flexible.',
+      keywords: 'circuit Ella Kandy 2 jours, Temple de la Dent, chauffeur privé Sri Lanka',
     },
     tour2ey: {
-      title: 'Circuit prive 2 jours Ella & safari a Yala | Faune du Sri Lanka',
+      title: 'Circuit privé 2 jours | Ella & safari Yala',
       description:
-        'Circuit prive de 2 jours avec les incontournables d’Ella et un safari en jeep dans le parc national de Yala  leopards, elephants et plus.',
-      keywords: 'safari Ella Yala, safari Sri Lanka 2 jours, parc national de Yala',
+        'Week-end Ella et safari jeep privé à Yala avec chauffeur et hôtel 4 étoiles. Annulation gratuite jusqu’à 14 jours. Demandez un devis. Équipe depuis 1992.',
+      keywords: 'safari Yala 2 jours, circuit privé Ella Yala, chauffeur Sri Lanka',
     },
     ellaDay: {
-      title: 'Excursion d’une journee a Ella | Train panoramique & Nine Arch Bridge',
+      title: 'Excursion Ella avec chauffeur | Nine Arch',
       description:
-        'Excursion privee a Ella avec le Nine Arch Bridge, Little Adam’s Peak et les chutes de Ravana dans les montagnes du Sri Lanka.',
-      keywords: 'excursion Ella, journee Ella, Nine Arch Bridge',
+        'Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et Ravana Falls avec chauffeur. Rythme flexible. Demandez un devis. Demandez un devis gratuit.',
+      keywords: 'excursion Ella, Nine Arch Bridge, chauffeur privé Sri Lanka',
     },
     galleDay: {
-      title: 'Excursion d’une journee a Galle | Fort de Galle & cote sud',
+      title: 'Excursion Galle avec chauffeur | Fort hollandais',
       description:
-        'Decouvrez le fort de Galle, les plages et les attractions de la cote sud lors de notre excursion privee d’une journee.',
-      keywords: 'excursion Galle, fort de Galle, cote sud Sri Lanka',
+        'Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.',
+      keywords: 'excursion Galle, Fort de Galle privé, côte sud Sri Lanka chauffeur',
     },
     kandyDay: {
-      title: 'Excursion d’une journee a Kandy | Culture & paysages',
+      title: 'Excursion Kandy avec chauffeur | Temple de la Dent',
       description:
-        'Vivez les incontournables de Kandy, dont le Temple de la Dent et le Jardin botanique royal, lors d’une excursion privee d’une journee.',
-      keywords: 'excursion Kandy, journee Kandy, Temple de la Dent',
+        'Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur. Demandez un devis gratuit. Demandez un devis gratuit.',
+      keywords: 'excursion Kandy, Temple de la Dent, chauffeur privé Kandy',
     },
     sigiriyaDay: {
-      title: 'Excursion Sigiriya | Rocher du lion, forteresse et jardins',
+      title: 'Excursion Sigiriya avec chauffeur | Rocher du Lion',
       description:
-        'Journee privee au rocher du lion de Sigiriya : ascension, fresques, jardins et combinaison avec Dambulla.',
-      keywords: 'rocher du lion Sri Lanka, lion rock Sri Lanka, excursion Sigiriya, Sigiriya Sri Lanka',
+        'Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.',
+      keywords: 'excursion Sigiriya, Rocher du Lion, grottes Dambulla chauffeur',
     },
     destinations: {
-      title: 'Destinations Sri Lanka | Plages, faune & sites culturels',
+      title: 'Destinations Sri Lanka | Ella, Sigiriya, Yala',
       description:
-        'Decouvrez les plus belles destinations du Sri Lanka : plages, parcs nationaux et hauts lieux culturels.',
-      keywords: 'destinations Sri Lanka, que visiter au Sri Lanka',
+        'Destinations pour circuits privés: Ella, Sigiriya, Yala, Kandy, Galle et Mirissa. Conseils pour itinéraires avec chauffeur. Demandez un devis.',
+      keywords: 'destinations Sri Lanka, Ella Sigiriya Yala, lieux circuit privé, Galle Mirissa',
     },
     guides: {
-      title: 'Guides de voyage Sri Lanka | Conseils d’experts',
+      title: 'Guides voyage Sri Lanka | Conseils circuit privé',
       description:
-        'Nos guides de voyage complets sur le Sri Lanka, avec conseils d’experts et informations pratiques pour votre sejour.',
-      keywords: 'guide de voyage Sri Lanka, conseils voyage Sri Lanka',
+        'Guides pratiques: meilleure periode, conseils chauffeur privé et bases visa pour l Europe. Mieux preparer. Demandez un devis. Voyageurs d’Europe bienvenus.',
+      keywords: 'guide voyage Sri Lanka, meilleure periode, chauffeur privé, visa Sri Lanka',
     },
     destSigiriya: {
-      title: 'Rocher du lion Sri Lanka | Sigiriya, ascension et conseils',
+      title: 'Rocher du Lion Sigiriya | Guide avec chauffeur',
       description:
-        'Visiter le rocher du lion (Sigiriya) : horaire d’ascension, fresques, Pidurangala et circuit Triangle Culturel avec chauffeur prive.',
-      keywords: 'rocher du lion Sri Lanka, lion rock Sri Lanka, Sigiriya Sri Lanka, temple Sri Lanka, visiter Sigiriya',
+        'Sigiriya Lion Rock et Dambulla en journée privée ou circuit avec chauffeur. Conseils montée, timing et rythme. Demandez un devis. Chauffeur privé.',
+      keywords: 'Sigiriya Sri Lanka, Lion Rock, grottes Dambulla, tour privé Sigiriya',
     },
     destElla: {
-      title: 'Ella Sri Lanka | Train, Nine Arch Bridge et pays du the',
+      title: 'Ella Sri Lanka | Nine Arch Bridge & collines',
       description:
-        'Ella Sri Lanka : train Kandy to Ella, pont des neuf arches, randonnees et nuits en montagne sur un circuit prive.',
-      keywords: 'ella Sri Lanka, Ella, train Sri Lanka, Nine Arch Bridge',
+        'Preparez Ella: Nine Arch Bridge, Little Adams Peak et the pour une journée ou un sejour. Avec chauffeur. Demandez un devis. Équipe locale sur place.',
+      keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, tour privé Ella',
     },
     destYala: {
-      title: 'Safari Yala Sri Lanka | Leopards, jeep et Udawalawe',
+      title: 'Parc national de Yala | Safari privé conseils',
       description:
-        'Safari Sri Lanka : Yala vs Udawalawe, meilleures chances leopard, reservation jeep et combinaison avec Ella ou la plage.',
-      keywords: 'safari Sri Lanka, yala Sri Lanka, Udawalawe, jeep safari, parc national Yala',
+        'Safari jeep à Yala en circuit privé: chances leopard, horaires et lien avec Ella ou la cote. Demandez un devis pour vos dates. Demandez un devis.',
+      keywords: 'Yala parc national, safari Yala, leopard Sri Lanka, safari privé',
     },
     destKandy: {
-      title: 'Kandy Sri Lanka | Temple de la Dent et capitale des collines',
+      title: 'Kandy Sri Lanka | Temple de la Dent guide',
       description:
-        'Visiter Kandy : Temple de la Dent, lac, jardins de Peradeniya et train vers Ella sur un circuit prive.',
-      keywords: 'kandy Sri Lanka, temple Sri Lanka, Temple de la Dent, visiter Kandy',
+        'Decouvrir Kandy: Temple de la Dent, lac et porte des collines en circuit privé avec chauffeur. Conseils pratiques. Demandez un devis. Chauffeur privé.',
+      keywords: 'Kandy Sri Lanka, Temple de la Dent, tour privé Kandy, collines',
     },
     destDambulla: {
       title: 'Guide du temple de Dambulla | Conseils pour le Temple d’Or',
@@ -818,29 +840,28 @@ export const fr: Dict = {
       keywords: 'temple de Dambulla, Temple d’Or Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
-      title: 'Guide du fort de Galle Sri Lanka | Remparts, phare et cote',
+      title: 'Fort de Galle Sri Lanka | Cote sud privée',
       description:
-        'Parcourez les remparts hollandais du fort de Galle, le phare et les ruelles pittoresques  avec des conseils pour une excursion privee et les plages de la cote sud.',
-      keywords: 'fort de Galle, Galle Sri Lanka, excursion Galle, UNESCO Galle',
+        'Fort de Galle, phare et plages du sud en excursion ou circuit multi-jours avec chauffeur. Rythme calme. Demandez un devis. Équipe locale sur place.',
+      keywords: 'Fort de Galle, Galle Sri Lanka, côte sud privé, excursion Galle',
     },
     guideBestTime: {
-      title: 'Quand partir au Sri Lanka | Meteo, saisons et mois par mois',
+      title: 'Meilleure periode Sri Lanka | Guide saisons',
       description:
-        'Quand aller au Sri Lanka : deux moussons, meteo par cote, meilleure periode safari et plages, decalage horaire et planification selon vos dates.',
-      keywords:
-        'quand partir Sri Lanka, quand aller au Sri Lanka, meteo Sri Lanka, meteo Sri Lanka, meilleure periode Sri Lanka',
+        'Quand partir a Sri Lanka: fenetres seches par côte et collines, mousson et routes adaptees. Demandez un devis pour vos dates. Équipe locale sur place.',
+      keywords: 'meilleure periode Sri Lanka, meteo Sri Lanka, mousson, saison seche',
     },
     guideVisa: {
-      title: 'Visa Sri Lanka 2026 | ETA, arrival card et eta.gov.lk',
+      title: 'Visa & ETA Sri Lanka | Guide voyageurs Europe',
       description:
-        'Visa Sri Lanka depuis la France : ETA touristique gratuite 30 jours des le 25 mai 2026, arrival card officielle, demande uniquement sur eta.gov.lk.',
-      keywords: 'visa Sri Lanka, arrival card Sri Lanka, ETA Sri Lanka, eta.gov.lk, formalites Sri Lanka',
+        'ETA et bases d entree pour voyageurs europeens avant un circuit privé. Notes pratiques, pas un conseil juridique. Demandez un devis. Sur mesure.',
+      keywords: 'visa Sri Lanka, ETA Sri Lanka, entree Europe, documents voyage',
     },
     guidePrivateDriver: {
-      title: 'Guide du chauffeur prive Sri Lanka | Circuits avec chauffeur expliques',
+      title: 'Chauffeur privé Sri Lanka | Guide pratique',
       description:
-        'Pourquoi les voyageurs choisissent un chauffeur prive au Sri Lanka, ce qui est inclus, les distances quotidiennes types et comment planifier un circuit flexible.',
-      keywords: 'chauffeur prive Sri Lanka, chauffeur guide Sri Lanka, circuit prive Sri Lanka',
+        'Ce qu inclut un chauffeur privé a Sri Lanka: vehicule, rythme, hotels et usages des voyageurs europeens. Demandez un devis. Accueil aéroport sur demande.',
+      keywords: 'chauffeur privé Sri Lanka, guide chauffeur, circuit avec chauffeur',
     },
     guideBudget: {
       title: 'Budget et monnaie Sri Lanka | Roupie (LKR) et couts',
@@ -891,22 +912,22 @@ export const fr: Dict = {
       keywords: 'securite Sri Lanka, voyage sur Sri Lanka, conseils visiteurs',
     },
     cancellation: {
-      title: 'Politique d’annulation | Sundown Tours Sri Lanka',
+      title: 'Politique d annulation | Sundown Tours',
       description:
-        'Modifications de reservation, regles d’acompte et conditions d’annulation pour tours prives et chauffeur avec Sundown Tours.',
-      keywords: 'politique annulation, annulation tour Sri Lanka, modification reservation',
+        'Conditions d annulation pour circuits privés Sri Lanka. Annulation gratuite souvent possible jusqu a 14 jours avant. Lisez puis demandez un devis.',
+      keywords: 'annulation circuit Sri Lanka, gratuit 14 jours, politique Sundown Tours',
     },
     restaurants: {
-      title: 'Ou manger au Sri Lanka | Menu Sundown Beach Restaurant',
+      title: 'Ou manger a Sri Lanka | Cote & conseils tour',
       description:
-        'Ou manger en circuit prive au Sri Lanka : fruits de mer de la cote ouest, restaurants du fort de Galle et carte complete du Sundown Beach Restaurant a Waskaduwa.',
-      keywords: 'restaurants Sri Lanka, ou manger au Sri Lanka, Sundown Beach Restaurant, Waskaduwa',
+        'Ou mangent les voyageurs en circuit privé: fruits de mer cote, rice and curry, plus Sundown Beach Restaurant a Waskaduwa. Demandez un devis.',
+      keywords: 'restaurants Sri Lanka, Sundown Beach Restaurant, manger en circuit',
     },
     testimonials: {
       title: 'Avis clients | Sundown Tours Sri Lanka',
       description:
-        'Lisez les avis de nos clients satisfaits qui ont vecu nos circuits prives au Sri Lanka.',
-      keywords: 'avis Sri Lanka, temoignages circuit Sri Lanka',
+        'Lisez de vrais avis sur nos circuits privés avec chauffeur a Sri Lanka, de voyageurs europeens. Feedback live et TripAdvisor. Demandez un devis.',
+      keywords: 'avis Sundown Tours, avis circuit privé Sri Lanka, temoignages chauffeur',
     },
     privacy: {
       title: 'Politique de confidentialite | Sundown Tours Sri Lanka',
@@ -932,10 +953,10 @@ export const fr: Dict = {
       keywords: 'Bentota Sri Lanka, plage Sri Lanka, cote ouest',
     },
     destMirissa: {
-      title: 'Mirissa Sri Lanka | Plage, baleines et Coconut Tree Hill',
+      title: 'Mirissa Sri Lanka | Plage & saison baleines',
       description:
-        'Mirissa Sri Lanka : saison baleines, Coconut Tree Hill, plage et combinaison avec Galle ou Weligama en circuit prive.',
-      keywords: 'mirissa Sri Lanka, Mirissa, plage Sri Lanka, observation des baleines Mirissa',
+        'Mirissa: plage, saison d observation des baleines et lien avec Galle ou un sejour sud en circuit privé. Demandez un devis. Équipe locale sur place.',
+      keywords: 'Mirissa Sri Lanka, plage Mirissa, baleines Mirissa, côte sud tour',
     },
     destWeligama: {
       title: 'Weligama Sri Lanka | Surf debutant et baie du sud',
@@ -1013,46 +1034,52 @@ export const fr: Dict = {
       keywords: 'transfert aeroport Colombo, aeroport Sri Lanka, CMB, transfert Negombo',
     },
     marketGermany: {
-      title: 'Circuits Sri Lanka depuis l’Allemagne | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant d’Allemagne, avec chauffeur local après l’arrivée à Colombo.',
-      keywords: 'circuit Sri Lanka Allemagne, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis l Allemagne | chauffeur',
+      description:
+        'Circuits privés pour voyageurs d Allemagne: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+      keywords: 'Sri Lanka Allemagne, circuit privé chauffeur, voyage depuis Allemagne',
     },
     marketFrance: {
-      title: 'Voyage Sri Lanka depuis la France | Vol Paris, visa et circuit prive',
+      title: 'Circuit privé Sri Lanka depuis la France',
       description:
-        'Voyage au Sri Lanka depuis la France : duree du vol Paris to Colombo, vol direct, ETA et arrival card, meteo, rocher du lion, safari et circuit chauffeur apres l’atterrissage.',
-      keywords:
-        'voyage Sri Lanka, visiter le Sri Lanka, circuit Sri Lanka, vol Paris Sri Lanka, quand partir au Sri Lanka, visa Sri Lanka, que faire au Sri Lanka',
+        'Circuits privés Sri Lanka pour voyageurs de France: avec chauffeur, rythme flexible, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+      keywords: 'circuit Sri Lanka France, voyage privé chauffeur, tour depuis France',
     },
     marketItaly: {
-      title: 'Circuits Sri Lanka depuis l’Italie | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant d’Italie, avec prise en charge à l’aéroport CMB.',
-      keywords: 'circuit Sri Lanka Italie, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis l Italie | chauffeur',
+      description:
+        'Circuits privés pour voyageurs d Italie: avec chauffeur, itinéraires souples, equipe locale depuis 1992. Demandez un devis. Voyageurs d’Europe bienvenus.',
+      keywords: 'Sri Lanka Italie, circuit privé chauffeur, voyage depuis Italie',
     },
     marketSpain: {
-      title: 'Circuits Sri Lanka depuis l’Espagne | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant d’Espagne : culture, plages et chauffeur dédié.',
-      keywords: 'circuit Sri Lanka Espagne, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis l Espagne | chauffeur',
+      description:
+        'Circuits privés pour voyageurs d Espagne: avec chauffeur, jours flexibles, planification depuis 1992. Demandez un devis. Itineraires sur mesure.',
+      keywords: 'Sri Lanka Espagne, circuit privé chauffeur, voyage depuis Espagne',
     },
     marketPoland: {
-      title: 'Circuits Sri Lanka depuis la Pologne | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant de Pologne, avec transfert depuis CMB.',
-      keywords: 'circuit Sri Lanka Pologne, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis la Pologne | chauffeur',
+      description:
+        'Circuits privés pour voyageurs de Pologne: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis. Équipe locale sur place.',
+      keywords: 'Sri Lanka Pologne, circuit privé chauffeur, voyage depuis Pologne',
     },
     marketRussia: {
-      title: 'Circuits Sri Lanka depuis la Russie | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant de Russie. Nous organisons le parcours, pas le billet d’avion.',
-      keywords: 'circuit Sri Lanka Russie, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis la Russie | chauffeur',
+      description:
+        'Circuits privés pour voyageurs de Russie: avec chauffeur, routes flexibles, equipe locale depuis 1992. Demandez un devis. Accueil aéroport sur demande.',
+      keywords: 'Sri Lanka Russie, circuit privé chauffeur, voyage depuis Russie',
     },
     marketNetherlands: {
-      title: 'Circuits Sri Lanka depuis les Pays Bas | Chauffeur privé',
-      description: 'Circuit privé pour voyageurs venant des Pays Bas, avec chauffeur après l’atterrissage.',
-      keywords: 'circuit Sri Lanka Pays Bas, voyage privé, chauffeur',
+      title: 'Circuits Sri Lanka depuis les Pays-Bas',
+      description:
+        'Circuits privés pour voyageurs des Pays-Bas: avec chauffeur, jours flexibles, accueil aéroport. Depuis 1992. Demandez un devis. Planifiez en confiance.',
+      keywords: 'Sri Lanka Pays-Bas, circuit privé chauffeur, voyage depuis Hollande',
     },
     marketUK: {
-      title: 'Vacances Sri Lanka depuis le Royaume Uni | Circuit prive',
-      description: 'Circuit prive au Sri Lanka pour voyageurs du Royaume Uni: chauffeur guide, vol vers Colombo et itineraires 7 a 10 jours.',
-      keywords: 'vacances Sri Lanka, circuit prive, chauffeur guide',
+      title: 'Circuits Sri Lanka depuis le Royaume-Uni',
+      description:
+        'Circuits privés pour voyageurs du Royaume-Uni: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+      keywords: 'Sri Lanka UK, circuit privé chauffeur, voyage depuis Royaume-Uni',
     },
     marketAustria: {
       title: 'Circuits Sri Lanka depuis l’Autriche | Chauffeur privé',
