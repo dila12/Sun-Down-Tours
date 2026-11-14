@@ -15,15 +15,18 @@
 
             <!-- Right side: language + social -->
             <div class="col-12 col-lg-6 topbar-actions">
-                <!-- Wide desktop: compact inline flags -->
-                <div class="lang-pill lang-pill--desktop d-none d-xl-flex" role="group" [attr.aria-label]="'common.language' | t">
+                <!-- Wide desktop: compact inline flags (real hrefs for crawlers) -->
+                <div class="lang-pill lang-pill--desktop d-none d-xl-flex" role="navigation" [attr.aria-label]="'common.language' | t">
                     @for (code of locales; track code) {
-                    <button class="lang-flag" [class.active]="i18n.locale() === code" (click)="changeLang(code)"
+                    <a class="lang-flag" [class.active]="i18n.locale() === code"
+                        [attr.href]="langPath(code)"
+                        (click)="onLangClick($event, code)"
                         [title]="localeMeta[code].label" [attr.aria-label]="localeMeta[code].label"
+                        [attr.hreflang]="localeMeta[code].htmlLang"
                         [attr.lang]="localeMeta[code].htmlLang">
                         <img [src]="'https://flagcdn.com/w20/' + localeMeta[code].flag + '.png'" alt="" width="20"
                             height="15" loading="lazy" decoding="async">
-                    </button>
+                    </a>
                     }
                 </div>
 
@@ -51,13 +54,14 @@
                     <ul class="lang-dropdown__menu" role="listbox" [attr.aria-label]="'common.language' | t">
                         @for (code of locales; track code) {
                         <li role="presentation">
-                            <button
-                                type="button"
+                            <a
                                 role="option"
                                 class="lang-dropdown__option"
                                 [class.is-active]="i18n.locale() === code"
                                 [attr.aria-selected]="i18n.locale() === code"
-                                (click)="changeLang(code)">
+                                [attr.href]="langPath(code)"
+                                [attr.hreflang]="localeMeta[code].htmlLang"
+                                (click)="onLangClick($event, code)">
                                 <img
                                     [src]="'https://flagcdn.com/w20/' + localeMeta[code].flag + '.png'"
                                     alt=""
@@ -66,7 +70,7 @@
                                     loading="lazy"
                                     decoding="async">
                                 <span>{{ localeMeta[code].label }}</span>
-                            </button>
+                            </a>
                         </li>
                         }
                     </ul>
@@ -122,7 +126,7 @@
 
 <!-- Topbar End -->
 
-<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#main-content" class="skip-link">{{ 'common.skipToContent' | t }}</a>
 
 <app-scroll-to-to-component></app-scroll-to-to-component>
 <a [href]="whatsappUrl" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
@@ -276,7 +280,7 @@
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white">Designed by <a href="/" class="text-white">Dilalak Tec</a>
+            <p class="m-0 text-white">Designed by <a [routerLink]="path('home')" class="text-white">Dilalak Tec</a>
             </p>
         </div>
     </div>

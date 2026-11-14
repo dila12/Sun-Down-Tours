@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="5-dniowa-wycieczka-sri-lanka"
+Content-Length: 208584
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:01:51 GMT
+Etag: "85fc4b237fa7305f5c6bf39a2b46792c"
+Last-Modified: Sat, 14 Nov 2026 03:01:51 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: MISS
+X-Vercel-Id: sin1::6ztzz-1794625310863-3db1340347c4
+

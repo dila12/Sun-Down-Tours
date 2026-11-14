@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="regione-del-te-sri-lanka"
+Content-Length: 79279
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:01:56 GMT
+Etag: "636543bb39526927410b5ab250206be5"
+Last-Modified: Sat, 14 Nov 2026 03:01:56 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: MISS
+X-Vercel-Id: sin1::9frj6-1794625316005-d8b43490e862
+

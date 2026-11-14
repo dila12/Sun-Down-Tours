@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="cancellation-policy"
+Content-Length: 73181
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:02:02 GMT
+Etag: "9145efc93ae9d2bd239f65bee513e0ef"
+Last-Modified: Sat, 14 Nov 2026 03:02:02 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: MISS
+X-Vercel-Id: sin1::whknq-1794625321807-f7b0c0fa8da6
+

@@ -109,7 +109,9 @@ export class SeoService {
     this.meta.updateTag({ name: 'robots', content: 'noindex, follow' });
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
-    this.meta.updateTag({ property: 'og:url', content: `${BASE_URL}/` });
+    // Locale home — never point a localized 404 at the English homepage.
+    const homeUrl = this.i18n.url('home', locale);
+    this.meta.updateTag({ property: 'og:url', content: homeUrl });
     this.meta.updateTag({ property: 'og:type', content: 'website' });
     this.meta.updateTag({ property: 'og:site_name', content: SITE_NAME });
     this.meta.updateTag({ property: 'og:locale', content: localeMeta.ogLocale });
@@ -117,7 +119,7 @@ export class SeoService {
     this.meta.updateTag({ name: 'twitter:title', content: title });
     this.meta.updateTag({ name: 'twitter:description', content: description });
 
-    this.setCanonical(`${BASE_URL}/`);
+    this.setCanonical(homeUrl);
     this.clearAlternates();
   }
 

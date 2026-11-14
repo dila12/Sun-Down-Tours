@@ -10,6 +10,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { TranslatePipe } from '../../../../i18n/t.pipe';
 
 const ELFSIGHT_SCRIPT = 'https://elfsightcdn.com/platform.js';
 const WIDGET_SELECTOR = '.elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c';
@@ -17,7 +18,7 @@ const WIDGET_SELECTOR = '.elfsight-app-4ec1a88d-9653-4aa9-809d-29cab95b567c';
 @Component({
   selector: 'app-home-elfsight-widget',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './home-elfsight-widget.html',
   styleUrl: './home-elfsight-widget.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

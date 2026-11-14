@@ -423,13 +423,13 @@ export const PAGES = [
     changefreq: 'monthly',
     slugs: {
       en: 'restaurants-in-sri-lanka',
-      de: 'restaurants-in-sri-lanka',
+      de: 'wo-essen-sri-lanka',
       fr: 'restaurants-au-sri-lanka',
       it: 'ristoranti-in-sri-lanka',
       es: 'restaurantes-en-sri-lanka',
       pl: 'restauracje-na-sri-lance',
       ru: 'restorany-na-shri-lanka',
-      nl: 'restaurants-in-sri-lanka',
+      nl: 'waar-eten-sri-lanka',
     },
   },
   {
@@ -1272,11 +1272,86 @@ export const PAGES = [
   }),
 
   // Utility pages. Privacy + cancellation are indexable; the rest stay noindex.
-  { id: 'privacy', kind: 'utility', index: true, priority: 0.3, changefreq: 'yearly', slugs: same('privacy-policy') },
-  { id: 'cancellation', kind: 'utility', index: true, priority: 0.4, changefreq: 'yearly', slugs: same('cancellation-policy') },
-  { id: 'terms', kind: 'utility', index: false, slugs: same('terms-of-service') },
-  { id: 'bookingPolicy', kind: 'utility', index: false, slugs: same('booking-policy') },
-  { id: 'bookingSuccess', kind: 'utility', index: false, slugs: same('booking-success') },
+  // English URLs stay unchanged; non-EN use localized slugs (legacy EN slugs 301).
+  {
+    id: 'privacy',
+    kind: 'utility',
+    index: true,
+    priority: 0.3,
+    changefreq: 'yearly',
+    slugs: {
+      en: 'privacy-policy',
+      de: 'datenschutz',
+      fr: 'politique-de-confidentialite',
+      it: 'informativa-sulla-privacy',
+      es: 'politica-de-privacidad',
+      pl: 'polityka-prywatnosci',
+      ru: 'politika-konfidencialnosti',
+      nl: 'privacybeleid',
+    },
+  },
+  {
+    id: 'cancellation',
+    kind: 'utility',
+    index: true,
+    priority: 0.4,
+    changefreq: 'yearly',
+    slugs: {
+      en: 'cancellation-policy',
+      de: 'stornierungsbedingungen',
+      fr: 'politique-d-annulation',
+      it: 'politica-di-cancellazione',
+      es: 'politica-de-cancelacion',
+      pl: 'polityka-anulowania',
+      ru: 'politika-otmeny',
+      nl: 'annuleringsvoorwaarden',
+    },
+  },
+  {
+    id: 'terms',
+    kind: 'utility',
+    index: false,
+    slugs: {
+      en: 'terms-of-service',
+      de: 'nutzungsbedingungen',
+      fr: 'conditions-d-utilisation',
+      it: 'termini-di-servizio',
+      es: 'terminos-de-servicio',
+      pl: 'regulamin',
+      ru: 'usloviya-ispolzovaniya',
+      nl: 'gebruiksvoorwaarden',
+    },
+  },
+  {
+    id: 'bookingPolicy',
+    kind: 'utility',
+    index: false,
+    slugs: {
+      en: 'booking-policy',
+      de: 'buchungsbedingungen',
+      fr: 'politique-de-reservation',
+      it: 'politica-di-prenotazione',
+      es: 'politica-de-reserva',
+      pl: 'polityka-rezerwacji',
+      ru: 'politika-bronirovaniya',
+      nl: 'boekingsvoorwaarden',
+    },
+  },
+  {
+    id: 'bookingSuccess',
+    kind: 'utility',
+    index: false,
+    slugs: {
+      en: 'booking-success',
+      de: 'buchung-erfolgreich',
+      fr: 'reservation-confirmee',
+      it: 'prenotazione-confermata',
+      es: 'reserva-confirmada',
+      pl: 'rezerwacja-potwierdzona',
+      ru: 'bronirovanie-podtverzhdeno',
+      nl: 'boeking-bevestigd',
+    },
+  },
 ];
 
 /**
@@ -1300,6 +1375,19 @@ export const LEGACY_GUIDE_REDIRECTS = {
   'destinations-sri-lanka': 'destinations',
   'restaurants-in-sri-lanka': 'restaurants',
   'customer-testimonials': 'testimonials',
+};
+
+/**
+ * Former English utility slugs under locale prefixes → page ids.
+ * EN roots stay on the English slug (no self-redirect).
+ * @type {Record<string, string>}
+ */
+export const LEGACY_POLICY_REDIRECTS = {
+  'privacy-policy': 'privacy',
+  'cancellation-policy': 'cancellation',
+  'terms-of-service': 'terms',
+  'booking-policy': 'bookingPolicy',
+  'booking-success': 'bookingSuccess',
 };
 
 /**

@@ -1,5 +1,5 @@
 import { writeFile, unlink } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -10,7 +10,34 @@ import {
   validateHreflangReciprocity,
   xmlEscape,
 } from './sitemap-utils.mjs';
-import { loadLocalizedSeoTitles } from './article-locale-scan.mjs';
+function loadSeoTitlesFallback() {
+  /** @type {Map<string, string>} */
+  const map = new Map();
+  const locales = ['en', 'de', 'fr', 'it', 'es', 'pl', 'ru', 'nl'];
+  for (const locale of locales) {
+    const text = readFileSync(join(ROOT_DIR, 'src/app/i18n/content', `${locale}.ts`), 'utf8');
+    const seoStart = text.indexOf('seo: {');
+    const seo = text.slice(seoStart >= 0 ? seoStart : 0);
+    for (const m of seo.matchAll(/\n\s*([A-Za-z][A-Za-z0-9]*):\s*\{([\s\S]*?)\n\s*\},/g)) {
+      const title = (m[2].match(/title:\s*(['"`])([\s\S]*?)\1/) || [])[2];
+      if (title) map.set(`${locale}:${m[1]}`, title.trim());
+    }
+  }
+  return map;
+}
+
+async function loadLocalizedSeoTitlesSafe() {
+  try {
+    const mod = await import('./article-locale-scan.mjs');
+    return mod.loadLocalizedSeoTitles();
+  } catch (err) {
+    console.warn(
+      '[sitemap] Falling back to regex SEO titles (article-locale-scan unavailable):',
+      err instanceof Error ? err.message : err,
+    );
+    return loadSeoTitlesFallback();
+  }
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = join(__dirname, '..');
@@ -133,7 +160,7 @@ async function main() {
       .map(({ page }) => page.id),
   );
 
-  const seoTitles = loadLocalizedSeoTitles();
+  const seoTitles = await loadLocalizedSeoTitlesSafe();
   const imageEntries = [];
   for (const entry of included) {
     if (!imagePageIds.has(entry.page.id)) continue;

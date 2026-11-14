@@ -48,6 +48,8 @@ export const LEGACY_GUIDE_REDIRECTS: Record<string, string>;
 export const LEGACY_TOUR_REDIRECTS: Record<string, string>;
 /** Former English destination slugs → page ids. */
 export const LEGACY_DEST_REDIRECTS: Record<string, string>;
+/** Former English utility/policy slugs → page ids. */
+export const LEGACY_POLICY_REDIRECTS: Record<string, string>;
 
 export function getPage(id: string): PageData | undefined;
 export function getIndexableLocalesForPage(page: PageData | undefined): Locale[];

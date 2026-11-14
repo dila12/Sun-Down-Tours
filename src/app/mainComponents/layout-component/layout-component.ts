@@ -51,6 +51,11 @@ export class LayoutComponent {
     return this.i18n.path(pageId);
   }
 
+  /** Same page in another locale — used as crawlable `href` on language links. */
+  langPath(locale: Locale): string {
+    return this.i18n.path(this.i18n.pageId(), locale);
+  }
+
   toggleNav(): void {
     this.navOpen = !this.navOpen;
     this.cdr.markForCheck();
@@ -64,6 +69,8 @@ export class LayoutComponent {
   /**
    * Switches language while preserving the current page: resolves the current
    * page id into the localized slug of the target locale and navigates there.
+   * Real `href` stays on the anchor for crawlers; left-click uses the router
+   * so query/fragment are preserved.
    */
   changeLang(locale: Locale): void {
     if (locale === this.i18n.locale()) {
@@ -75,6 +82,14 @@ export class LayoutComponent {
     this.router.navigateByUrl(createLocaleSwitchTree(this.router, target));
     this.closeNav();
     this.closeLangMenu();
+  }
+
+  onLangClick(event: MouseEvent, locale: Locale): void {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+    event.preventDefault();
+    this.changeLang(locale);
   }
 
   toggleLangMenu(event: Event): void {

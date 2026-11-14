@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 5910
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="circuito-privado-sri-lanka-8-dias"
+Content-Length: 232171
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:01:51 GMT
+Etag: "939960285130051af6162cfc0a5eeef8"
+Last-Modified: Sat, 14 Nov 2026 01:23:21 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: sin1::6h7zc-1794625311887-c5d4cf285ad6
+

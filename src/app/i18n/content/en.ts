@@ -59,6 +59,7 @@ export const en: Dict = {
       detail: 'Gathering photos and tour details',
     },
     breadcrumb: { home: 'Home' },
+    skipToContent: 'Skip to main content',
     faqTitle: 'Frequently Asked Questions',
     language: 'Language',
     tourUi: {
@@ -640,6 +641,8 @@ export const en: Dict = {
     ctaWhatsapp: 'Ask us on WhatsApp',
     ctaTours: 'Browse private tour packages',
     topicsHeading: 'Explore related tours and guides',
+    widgetHeading: 'Customer reviews',
+    widgetLoading: 'Loading reviews…',
     topics: {
       toursTitle: 'Tour package reviews',
       toursBody: 'See multi day private itineraries guests commonly book after reading reviews.',

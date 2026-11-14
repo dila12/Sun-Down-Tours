@@ -8,6 +8,7 @@ import {
   DORMANT_LOCALE_PREFIXES,
   LEGACY_DEST_REDIRECTS,
   LEGACY_GUIDE_REDIRECTS,
+  LEGACY_POLICY_REDIRECTS,
   LEGACY_TOUR_REDIRECTS,
   NON_DEFAULT_LOCALES,
   buildPath,
@@ -33,8 +34,9 @@ const STATIC_PATH_REDIRECTS = {
   '/sri-lanka-vacation': '/sri-lanka-private-tour',
   '/twodaystours': '/sri-lanka-private-tour',
   '/2-day-sri-lanka-tour': '/2-day-ella-kandy-private-tour-sri-lanka',
-  // Old Italian hub (`guides`) + draft slugs that 500 today instead of 301.
-  '/it/guides/osservazione-balene-sri-lanka': '/it/guide/avvistamento-balene-sri-lanka',
+  // Old Italian hub (`guides`) + draft slugs. Whale IT is incomplete→EN;
+  // airport IT is indexable so it keeps the localized guide path.
+  '/it/guides/osservazione-balene-sri-lanka': '/travel-guides/sri-lanka-whale-watching',
   '/it/guides/trasferte-aeroporto-sri-lanka': '/it/guide/transfer-aeroporto-sri-lanka',
 };
 
@@ -67,7 +69,12 @@ export function buildEdgeRedirectMap() {
     }
   }
 
-  const legacyMaps = [LEGACY_GUIDE_REDIRECTS, LEGACY_TOUR_REDIRECTS, LEGACY_DEST_REDIRECTS];
+  const legacyMaps = [
+    LEGACY_GUIDE_REDIRECTS,
+    LEGACY_TOUR_REDIRECTS,
+    LEGACY_DEST_REDIRECTS,
+    LEGACY_POLICY_REDIRECTS,
+  ];
 
   for (const legacy of legacyMaps) {
     for (const [legacySlug, pageId] of Object.entries(legacy)) {
@@ -124,7 +131,29 @@ export function buildEdgeRedirectMap() {
     }
   }
 
+  // Collapse A→B→C so every edge hop is final (no redirect chains).
+  collapseRedirectMap(map);
   return map;
+}
+
+/**
+ * Rewrites every map entry so its destination is not itself a redirect source.
+ * @param {Map<string, string>} map
+ */
+export function collapseRedirectMap(map) {
+  for (const from of [...map.keys()]) {
+    const to = map.get(from);
+    if (!to) continue;
+    let cur = to;
+    const seen = new Set([from]);
+    while (map.has(cur) && !seen.has(cur)) {
+      seen.add(cur);
+      cur = map.get(cur);
+    }
+    if (cur && cur !== to) {
+      map.set(from, cur);
+    }
+  }
 }
 
 /**
@@ -203,20 +232,27 @@ export function buildLocaleHomeTrailingSlashRedirects() {
 /**
  * Apex-host shortcuts so `sundowntours.com/pl/` and `sundowntours.com/zh/`
  * 308 once to the www canonical (not apex→www `/pl/` then a second hop).
+ * Live locale homes use explicit `/pl/` sources — Vercel often fails to match
+ * `/:locale(pl|…)/` and falls through to the catch-all (keeping the slash).
  * Must be listed before the catch-all apex `/:path*` rule.
  * @returns {{ source: string, destination: string, statusCode: number, has: object[] }[]}
  */
 export function buildApexShortcutRedirects() {
-  const live = NON_DEFAULT_LOCALES.join('|');
   const dormant = DORMANT_LOCALE_PREFIXES.join('|');
   const apex = [{ type: 'host', value: 'sundowntours.com' }];
-  return [
-    {
-      source: `/:locale(${live})/`,
+  /** @type {{ source: string, destination: string, statusCode: number, has: object[] }[]} */
+  const rules = [];
+
+  for (const locale of NON_DEFAULT_LOCALES) {
+    rules.push({
+      source: `/${locale}/`,
       has: apex,
-      destination: 'https://www.sundowntours.com/:locale',
+      destination: `https://www.sundowntours.com/${locale}`,
       statusCode: 308,
-    },
+    });
+  }
+
+  rules.push(
     {
       source: `/:code(${dormant})`,
       has: apex,
@@ -235,5 +271,40 @@ export function buildApexShortcutRedirects() {
       destination: 'https://www.sundowntours.com/:path*',
       statusCode: 308,
     },
-  ];
+  );
+
+  return rules;
+}
+
+/**
+ * Apex-host copies of every path redirect, already resolved to the final www URL.
+ * Prevents `sundowntours.com/de/5-day-…` → www same path → localized slug (2 hops).
+ * Requires the Vercel *project* redirects to see the apex Host (disable any
+ * Domains-UI apex→www redirect that runs first and strips that chance).
+ * @param {Map<string, string>} [map]
+ * @returns {{ source: string, destination: string, statusCode: number, has: object[] }[]}
+ */
+export function buildApexMergedPathRedirects(map = buildEdgeRedirectMap()) {
+  const apex = [{ type: 'host', value: 'sundowntours.com' }];
+  return [...map.entries()]
+    .filter(([from, to]) => from && to && from !== to)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([from, to]) => ({
+      source: from === '/' ? '/' : from,
+      has: apex,
+      destination: `https://www.sundowntours.com${to}`,
+      statusCode: 308,
+    }));
+}
+
+/**
+ * Same merge Express uses: apex Host + path redirect → one absolute www URL.
+ * @param {string} pathname
+ * @param {Map<string, string>} [map]
+ * @returns {string}
+ */
+export function resolveApexWwwDestination(pathname, map = buildEdgeRedirectMap()) {
+  const pathTarget = resolveEdgeRedirect(pathname, map);
+  const path = pathTarget || pathname.split('?')[0].split('#')[0] || '/';
+  return `https://www.sundowntours.com${path || '/'}`;
 }

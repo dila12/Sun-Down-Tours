@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="kundenbewertungen"
+Content-Length: 70897
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:01:54 GMT
+Etag: "8aecb4bef08dceac396084fa3afed391"
+Last-Modified: Sat, 14 Nov 2026 03:01:54 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: MISS
+X-Vercel-Id: sin1::xjvbm-1794625313875-17d66a2372ee
+

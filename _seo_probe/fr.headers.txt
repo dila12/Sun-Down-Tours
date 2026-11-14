@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, s-maxage=120, stale-while-revalidate=86400
+Content-Disposition: inline; filename="fr"
+Content-Length: 123368
+Content-Type: text/html; charset=utf-8
+Date: Sat, 14 Nov 2026 03:01:57 GMT
+Etag: "e1ffa94bc0e17fb965ddeccc8ce7ee87"
+Last-Modified: Sat, 14 Nov 2026 03:01:57 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: MISS
+X-Vercel-Id: sin1::pghwz-1794625317241-8e41d053c6b7
+

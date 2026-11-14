@@ -374,6 +374,16 @@ body { top: 0px !important; }
   gap: 2px;
 }
 
+a.lang-flag {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.lang-dropdown__option {
+  text-decoration: none;
+  color: inherit;
+}
+
 .lang-flag {
   background: transparent;
   border: none;

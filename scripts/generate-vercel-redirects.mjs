@@ -6,6 +6,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  buildApexMergedPathRedirects,
   buildApexShortcutRedirects,
   buildDormantLocaleVercelRedirects,
   buildEdgeRedirectMap,
@@ -50,9 +51,13 @@ async function main() {
     });
   const dormantGenerated = buildDormantLocaleVercelRedirects();
   const localeSlashGenerated = buildLocaleHomeTrailingSlashRedirects();
-  // Dormant + locale-home slash rules must run before legacy slugs so
-  // `/lt/` and `/pl/` never fall through to SSR.
-  const generated = [...dormantGenerated, ...localeSlashGenerated, ...legacyGenerated];
+  const apexShortcuts = buildApexShortcutRedirects();
+  const apexMerged = buildApexMergedPathRedirects(map);
+  // Order: apex locale/dormant shortcuts → apex path→final www → apex catch-all
+  // → www dormant/locale-slash → www legacy. Apex merged rules must beat the
+  // catch-all so sundowntours.com/de/5-day-… lands on the localized www URL
+  // in one hop (disable Domains-UI apex→www if it still double-hops).
+  const wwwGenerated = [...dormantGenerated, ...localeSlashGenerated, ...legacyGenerated];
 
   let existing = {};
   try {
@@ -78,7 +83,7 @@ async function main() {
     // Build uses package.json `vercel-build` only (do not set buildCommand —
     // it made Vercel rebuild once per api/*.js file).
     outputDirectory: 'dist/Travelwebsite/browser',
-    redirects: [...buildApexShortcutRedirects(), apexRedirect, ...generated],
+    redirects: [...apexShortcuts, ...apexMerged, apexRedirect, ...wwwGenerated],
     headers: existing.headers ?? [
       {
         source: '/assets/(.*)',
@@ -109,7 +114,7 @@ async function main() {
 
   await writeFile(vercelPath, `${JSON.stringify(vercel, null, 2)}\n`, 'utf8');
   console.log(
-    `[vercel-redirects] Wrote ${generated.length} edge 301s + SSR rewrites to vercel.json`,
+    `[vercel-redirects] Wrote ${apexShortcuts.length} apex shortcuts + ${apexMerged.length} apex-merged + ${wwwGenerated.length} www edge rules`,
   );
 }
 

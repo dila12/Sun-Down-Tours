@@ -7,6 +7,7 @@ import { tourResolver } from './tours/tour.resolver';
 import {
   LEGACY_DEST_REDIRECTS,
   LEGACY_GUIDE_REDIRECTS,
+  LEGACY_POLICY_REDIRECTS,
   LEGACY_TOUR_REDIRECTS,
   buildPath,
   getPage,
@@ -77,6 +78,7 @@ export function buildRoutes(): Routes {
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_GUIDE_REDIRECTS);
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_TOUR_REDIRECTS);
     pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_DEST_REDIRECTS);
+    pushLegacyRedirects(localeChildren, locale as Locale, LEGACY_POLICY_REDIRECTS);
     // Wildcard must live inside the locale group. Otherwise `/es/unknown`
     // matches `es` then has no child route and SSR throws 500.
     localeChildren.push(notFoundRoute(locale as Locale));
