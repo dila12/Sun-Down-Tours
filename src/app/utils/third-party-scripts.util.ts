@@ -221,11 +221,53 @@ export function trackContactFormSubmit(): void {
   sendGaEvent('contact_form_submit');
 }
 
+export type TourBookingSuccessParams = {
+  orderNumber: string;
+  value?: number;
+  currency?: string;
+  tourTitle?: string;
+  travelers?: number;
+};
+
 /**
- * Booking thank-you after a genuine successful submission.
- * Event name matches the Google Ads SUBMIT_LEAD_FORM conversion:
- * `conversion_event_submit_lead_form`.
- * (Formerly `tour_booking_success`; do not reintroduce aliases here.)
+ * Fires `tour_booking_success` only after `/send-booking-email` succeeds.
+ * Deduped per orderNumber for the browser session (refresh-safe).
+ * Does not fire on Submit click, validation failure, or API error.
+ */
+export function trackTourBookingSuccess(params: TourBookingSuccessParams): void {
+  if (!isBrowser() || !params.orderNumber) {
+    return;
+  }
+
+  const dedupeKey = `tour_booking_success_${params.orderNumber}`;
+  if (sessionStorage.getItem(dedupeKey)) {
+    return;
+  }
+  sessionStorage.setItem(dedupeKey, 'true');
+
+  const eventParams: Record<string, unknown> = {
+    transaction_id: params.orderNumber,
+  };
+  if (params.currency) {
+    eventParams['currency'] = params.currency;
+  }
+  if (typeof params.value === 'number' && params.value > 0) {
+    eventParams['value'] = params.value;
+  }
+  if (params.tourTitle) {
+    eventParams['tour_title'] = params.tourTitle;
+  }
+  if (typeof params.travelers === 'number' && params.travelers > 0) {
+    eventParams['travelers'] = params.travelers;
+  }
+
+  sendGaEvent('tour_booking_success', eventParams);
+}
+
+/**
+ * Booking thank-you page load. Event name matches the Google Ads
+ * SUBMIT_LEAD_FORM conversion: `conversion_event_submit_lead_form`.
+ * Separate from `tour_booking_success` (API success on the tour page).
  */
 export function trackBookingConversion(
   orderNumber: string,

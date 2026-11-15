@@ -41,6 +41,7 @@ import {
   type SpotsLeft,
   type TourDemandHint,
 } from '../../utils/booking-demand.util';
+import { trackTourBookingSuccess } from '../../utils/third-party-scripts.util';
 
 interface DialCountry {
   name: string;
@@ -706,8 +707,14 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
       .post(`${environment.backendUrl}/send-booking-email`, bookingDetails)
       .subscribe({
         next: () => {
-          // Google Ads conversion fires only when a real conversion ID is configured
-          // in third-party-scripts.util (placeholder IDs are intentionally not used).
+          // GTM Custom Event: only after the booking API confirms success.
+          trackTourBookingSuccess({
+            orderNumber: this.orderNumber,
+            value: this.total,
+            currency: 'USD',
+            tourTitle: this.tour?.title,
+            travelers: this.travelers,
+          });
 
           this.toastr.success(
             this.i18n.t('common.booking.toastSuccess'),
