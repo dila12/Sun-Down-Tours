@@ -32,28 +32,25 @@ export class BookingSuccessComponent {
 
     if (this.isBrowser) {
       const state = history.state;
-      console.log('BookingSuccessComponent state:', state);
-      if (
-        !state?.booking ||
-        !state?.orderNumber
-      ) {
+      // Direct /booking-success visits and failed submissions have no router state.
+      if (!state?.booking || !state?.orderNumber) {
         this.router.navigate(['/sri-lanka-private-tour']);
-
         return;
       }
-      this.booking = state?.booking;
-      this.orderNumber = state?.orderNumber ?? '';
-      this.total = state?.total ?? 0;
-      this.subtotal = state?.subtotal ?? 0;
-      this.travelers = state?.travelers ?? 0;
-      this.tour = state?.tour ?? {};
-      this.amountPaid = state?.amountPaid ?? 0;
-      this.amountDue = state?.amountDue ?? 0;
-      this.travelDate = state?.booking?.travelDate
+      this.booking = state.booking;
+      this.orderNumber = state.orderNumber ?? '';
+      this.total = state.total ?? 0;
+      this.subtotal = state.subtotal ?? 0;
+      this.travelers = state.travelers ?? 0;
+      this.tour = state.tour ?? {};
+      this.amountPaid = state.amountPaid ?? 0;
+      this.amountDue = state.amountDue ?? 0;
+      this.travelDate = state.booking?.travelDate
         ? new Date(state.booking.travelDate)
         : undefined;
 
-      trackBookingConversion(this.orderNumber,this.total,'USD');
+      // Fires once per orderNumber (sessionStorage); requires genuine post-booking state.
+      trackBookingConversion(this.orderNumber, this.total, 'USD');
     }
   }
 

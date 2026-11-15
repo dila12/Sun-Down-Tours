@@ -1,7 +1,9 @@
 const GA_MEASUREMENT_ID = 'G-MLGT0JLHNQ';
+const GTM_CONTAINER_ID = 'GTM-MVG3L93Z';
 /**
  * Real Google Ads conversion ID onlynever ship the placeholder AW-1234567890.
  * Leave empty until a production Ads account ID is configured.
+ * Prefer firing Ads conversions from GTM when the AW ID is wired there.
  */
 const GOOGLE_ADS_ID: string = '';
 const CONSENT_KEY = 'google_consent';
@@ -32,6 +34,7 @@ const GRANTED_CONSENT: ConsentState = {
 let gaLoading = false;
 let gaReady = false;
 let speedInsightsInjected = false;
+let consentDefaultsApplied = false;
 
 declare global {
   interface Window {
@@ -49,6 +52,7 @@ function ensureGtag(): void {
     return;
   }
 
+  // Share the same dataLayer GTM bootstraps in index.html.
   window.dataLayer = window.dataLayer || [];
 
   if (!window.gtag) {
@@ -87,20 +91,55 @@ function analyticsAllowed(consent: ConsentState | null): boolean {
   return consent?.analytics_storage === 'granted';
 }
 
-/** Consent Mode v2 defaults: deny until the visitor chooses. */
+/**
+ * Consent Mode v2: defaults are set in index.html before GTM.
+ * This only restores a stored choice (or re-applies denied defaults if HTML
+ * snippets were stripped in a non-production shell).
+ */
 export function initializeGoogleConsent(): void {
   if (!isBrowser()) {
     return;
   }
   ensureGtag();
-  window.gtag?.('consent', 'default', DENIED_CONSENT);
-  window.gtag?.('set', 'ads_data_redaction', true);
-  window.gtag?.('set', 'url_passthrough', true);
+
+  if (!consentDefaultsApplied) {
+    // index.html already issued consent default; avoid a second default command
+    // when the GTM bootstrap is present.
+    const gtmPresent =
+      !!document.querySelector(`script[src*="googletagmanager.com/gtm.js?id=${GTM_CONTAINER_ID}"]`) ||
+      !!document.querySelector(`iframe[src*="googletagmanager.com/ns.html?id=${GTM_CONTAINER_ID}"]`);
+
+    if (!gtmPresent) {
+      window.gtag?.('consent', 'default', {
+        ...DENIED_CONSENT,
+        wait_for_update: 500,
+      });
+      window.gtag?.('set', 'ads_data_redaction', true);
+      window.gtag?.('set', 'url_passthrough', true);
+    }
+    consentDefaultsApplied = true;
+  }
 
   const storedConsent = getStoredConsent();
   if (storedConsent) {
     window.gtag?.('consent', 'update', storedConsent);
   }
+}
+
+/**
+ * GTM is installed in index.html (head + noscript) so Tag Assistant and SSR
+ * HTML both expose the container. This guard only prevents a second injection.
+ */
+export function ensureGoogleTagManagerInstalled(): boolean {
+  if (!isBrowser()) {
+    return false;
+  }
+
+  const existing =
+    document.querySelector(`script[src*="googletagmanager.com/gtm.js?id=${GTM_CONTAINER_ID}"]`) ||
+    document.getElementById('gtm-script');
+
+  return !!existing;
 }
 
 export function initializeGoogleAnalytics(): void {
@@ -148,6 +187,8 @@ export function initializeGoogleAnalytics(): void {
 }
 
 function configureGoogleTags(): void {
+  // send_page_view: false — SPA page views are sent explicitly via trackPageView().
+  // Do not also enable a GA4 Configuration tag for G-MLGT0JLHNQ inside GTM.
   window.gtag?.('config', GA_MEASUREMENT_ID, {
     send_page_view: false,
   });
@@ -164,6 +205,9 @@ function sendGaEvent(eventName: string, params: Record<string, unknown> = {}): v
     return;
   }
   ensureGtag();
+  // Object form for GTM Custom Event triggers (Ads / GTM-only tags).
+  window.dataLayer.push({ event: eventName, ...params });
+  // Arguments form for the direct GA4 gtag.js config (G-MLGT0JLHNQ).
   window.gtag?.('event', eventName, params);
 }
 
@@ -178,8 +222,10 @@ export function trackContactFormSubmit(): void {
 }
 
 /**
- * Booking thank-you page load. Event name matches the Google Ads
- * SUBMIT_LEAD_FORM conversion: `conversion_event_submit_lead_form`.
+ * Booking thank-you after a genuine successful submission.
+ * Event name matches the Google Ads SUBMIT_LEAD_FORM conversion:
+ * `conversion_event_submit_lead_form`.
+ * (Formerly `tour_booking_success`; do not reintroduce aliases here.)
  */
 export function trackBookingConversion(
   orderNumber: string,
@@ -299,3 +345,5 @@ export function trackPageView(): void {
     page_path: pageData.page_path,
   });
 }
+
+export { GTM_CONTAINER_ID, GA_MEASUREMENT_ID };

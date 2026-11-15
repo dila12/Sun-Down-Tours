@@ -24,6 +24,7 @@ import { localeFromUrl, type Locale } from './i18n/locales';
 import {
   acceptAnalyticsConsent,
   bindWhatsAppConversionClicks,
+  ensureGoogleTagManagerInstalled,
   hasConsentChoice,
   initializeGoogleAnalytics,
   initializeGoogleConsent,
@@ -99,9 +100,13 @@ export class AppComponent implements OnInit {
       return;
     }
 
+    // Consent defaults + GTM are in index.html; restore stored preference first.
     initializeGoogleConsent();
+    ensureGoogleTagManagerInstalled();
     this.showConsentBanner = !hasConsentChoice();
     this.cdr.markForCheck();
+    // Direct GA4 (G-MLGT0JLHNQ) loads only after analytics consent — keep GTM
+    // free of a second GA4 Configuration tag for the same measurement ID.
     initializeGoogleAnalytics();
     initializeSpeedInsights();
     bindWhatsAppConversionClicks();

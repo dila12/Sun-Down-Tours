@@ -42,8 +42,6 @@ import {
   type TourDemandHint,
 } from '../../utils/booking-demand.util';
 
-declare let gtag: Function;
-
 interface DialCountry {
   name: string;
   dial_code: string;
