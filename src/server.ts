@@ -71,7 +71,16 @@ app.use(
   }),
 );
 
+/** Hashed bundles / fonts / images — never run Angular SSR for these. */
+const STATIC_ASSET_EXT =
+  /\.(?:js|mjs|css|map|txt|xml|ico|webmanifest|json|woff2?|ttf|otf|png|jpe?g|gif|webp|avif|svg)$/i;
+
 app.use((req, res, next) => {
+  if (STATIC_ASSET_EXT.test(req.path || '')) {
+    res.status(404).type('text/plain').send('Not Found');
+    return;
+  }
+
   angularApp
     .handle(req)
     .then((response) => {
@@ -79,10 +88,11 @@ app.use((req, res, next) => {
         next();
         return;
       }
-      // Edge-cache prerendered HTML so repeat visits skip a cold SSR hop.
+      // Short edge TTL only — long stale-while-revalidate served HTML that still
+      // pointed at deleted hashed chunks after deploys (chunk 500s in the SPA).
       if (req.method === 'GET' && response.status === 200) {
         const headers = new Headers(response.headers);
-        headers.set('Cache-Control', 'public, s-maxage=120, stale-while-revalidate=86400');
+        headers.set('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=30');
         return writeResponseToNodeResponse(
           new Response(response.body, {
             status: response.status,

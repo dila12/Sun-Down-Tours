@@ -50,8 +50,13 @@
                         <span class="lang-dropdown__label">{{ localeMeta[i18n.locale()].label }}</span>
                         <span class="lang-dropdown__chevron" aria-hidden="true"></span>
                     </button>
-                    @if (langMenuOpen) {
-                    <ul class="lang-dropdown__menu" role="listbox" [attr.aria-label]="'common.language' | t">
+                    <!-- Always in DOM (not @if) so mobile Googlebot still sees locale hrefs. -->
+                    <ul
+                        class="lang-dropdown__menu"
+                        [class.is-open]="langMenuOpen"
+                        role="listbox"
+                        [attr.aria-label]="'common.language' | t"
+                        [attr.hidden]="langMenuOpen ? null : true">
                         @for (code of locales; track code) {
                         <li role="presentation">
                             <a
@@ -74,7 +79,6 @@
                         </li>
                         }
                     </ul>
-                    }
                 </div>
 
                 <div class="topbar-socials layout-socials">

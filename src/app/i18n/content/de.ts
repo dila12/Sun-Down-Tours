@@ -747,7 +747,7 @@ export const de: Dict = {
     home: {
       title: 'Privatreise Sri Lanka mit Fahrer | 5-10 Tage',
       description:
-        'Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. 5–10 Tage flexibel geplant. Team seit 1992. Jetzt anfragen für ein Angebot. Team seit 1992.',
+        'Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. 5–10 Tage flexibel geplant. Team seit 1992. Jetzt anfragen für ein Angebot.',
       keywords: 'Privatreise Sri Lanka, Rundreise mit Fahrer, Sri Lanka Urlaub privat',
     },
     tours: {
@@ -969,7 +969,7 @@ export const de: Dict = {
     restaurants: {
       title: 'Essen auf Sri Lanka | Kuste & Tour-Tipps',
       description:
-        'Wo Gäste auf Privatreisen essen: Meeresfruchte an der Kuste, Reis und Curry, plus Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen. Jetzt anfragen.',
+        'Wo Gäste auf Privatreisen essen: Meeresfruchte an der Kuste, Reis und Curry, plus Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen.',
       keywords: 'Restaurants Sri Lanka, Sundown Beach Restaurant, Essen auf Rundreise',
     },
     testimonials: {

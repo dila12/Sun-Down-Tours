@@ -96,7 +96,11 @@ export class SeoService {
     /* no-op */
   }
 
-  /** SEO for true 404 responses: noindex, no hreflang cluster, no soft-404 home signals. */
+  /**
+   * SEO for true 404 responses: noindex, no hreflang cluster.
+   * Do not canonicalize (or og:url) to any real page — that is a soft-404 signal
+   * and trains Google to treat missing locale URLs as duplicates of the homepage.
+   */
   updateNotFound(locale: Locale): void {
     const localeMeta = LOCALE_META[locale];
     const title = `${this.i18n.t('notFound.title', locale)} | ${SITE_NAME}`;
@@ -109,9 +113,7 @@ export class SeoService {
     this.meta.updateTag({ name: 'robots', content: 'noindex, follow' });
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
-    // Locale home — never point a localized 404 at the English homepage.
-    const homeUrl = this.i18n.url('home', locale);
-    this.meta.updateTag({ property: 'og:url', content: homeUrl });
+    this.meta.removeTag('property="og:url"');
     this.meta.updateTag({ property: 'og:type', content: 'website' });
     this.meta.updateTag({ property: 'og:site_name', content: SITE_NAME });
     this.meta.updateTag({ property: 'og:locale', content: localeMeta.ogLocale });
@@ -119,8 +121,15 @@ export class SeoService {
     this.meta.updateTag({ name: 'twitter:title', content: title });
     this.meta.updateTag({ name: 'twitter:description', content: description });
 
-    this.setCanonical(homeUrl);
+    this.removeCanonical();
     this.clearAlternates();
+  }
+
+  /** Drop canonical so error URLs cannot look like the locale homepage. */
+  private removeCanonical(): void {
+    this.doc.head
+      .querySelectorAll('link[rel="canonical"]')
+      .forEach((node) => node.remove());
   }
 
   private clearAlternates(): void {

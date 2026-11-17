@@ -818,7 +818,7 @@ export const it: Dict = {
     destElla: {
       title: 'Ella Sri Lanka | Nine Arch Bridge e colline',
       description:
-        'Pianifica Ella: Nine Arch Bridge, Little Adams Peak e te per una giornata o un soggiorno. Con autista. Richiedi un preventivo. Richiedi un preventivo.',
+        'Pianifica Ella: Nine Arch Bridge, Little Adams Peak e te per una giornata o un soggiorno. Con autista. Richiedi un preventivo.',
       keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, tour privato Ella',
     },
     destYala: {
@@ -1072,7 +1072,7 @@ export const it: Dict = {
     marketNetherlands: {
       title: 'Tour Sri Lanka dai Paesi Bassi | con autista',
       description:
-        'Tour privati per viaggiatori dai Paesi Bassi: con autista, giorni flessibili, meet aeroporto. Dal 1992. Richiedi un preventivo. Richiedi un preventivo.',
+        'Tour privati per viaggiatori dai Paesi Bassi: con autista, giorni flessibili, meet aeroporto. Dal 1992. Richiedi un preventivo.',
       keywords: 'Sri Lanka Paesi Bassi, tour privato autista, viaggio dall Olanda',
     },
     marketUK: {

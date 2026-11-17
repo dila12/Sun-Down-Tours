@@ -336,6 +336,11 @@ body { top: 0px !important; }
   box-shadow: 0 10px 28px rgba(2, 45, 65, 0.22);
 }
 
+/* Closed state kept in DOM for crawlers; hidden from sighted users. */
+.lang-dropdown__menu:not(.is-open) {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .lang-dropdown__menu {
     left: auto;

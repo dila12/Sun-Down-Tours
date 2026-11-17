@@ -672,13 +672,13 @@ export const pl: Dict = {
     tours: {
       title: 'Prywatne wycieczki Sri Lanka | 4-10 dni z kierowcą',
       description:
-        'Porownaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plaża. Na miare, bez autokarow grupowych. Zapytaj o ofertę. Zapytaj o ofertę.',
+        'Porownaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plaża. Na miare, bez autokarow grupowych. Zapytaj o ofertę.',
       keywords: 'pakiety Sri Lanka, wycieczka prywatna z kierowcą, tour 7 dni, itineraria',
     },
     services: {
       title: 'Prywatny kierowca i uslugi tour | Sri Lanka',
       description:
-        'Wycieczki z kierowcą, urlopy na miare i jednodniowe wycieczki po Sri Lance. Elastyczne tempo, meet na lotnisku. Zapytaj o ofertę. Zapytaj o ofertę.',
+        'Wycieczki z kierowcą, urlopy na miare i jednodniowe wycieczki po Sri Lance. Elastyczne tempo, meet na lotnisku. Zapytaj o ofertę.',
       keywords: 'kierowca Sri Lanka, wycieczka na miare, jednodniowa wycieczka, usluga prywatna',
     },
     about: {
@@ -738,7 +738,7 @@ export const pl: Dict = {
     tour2ey: {
       title: '2-dniowa wycieczka | Ella i safari Yala',
       description:
-        'Weekend Ella i prywatne jeep-safari w Yala z kierowcą i hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+        'Weekend Ella i prywatne jeep-safari w Yala z kierowcą i hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę.',
       keywords: 'safari Yala 2 dni, wycieczka Ella Yala, prywatny kierowca Sri Lanka',
     },
     ellaDay: {
@@ -750,7 +750,7 @@ export const pl: Dict = {
     galleDay: {
       title: 'Wycieczka jednodniowa Galle | Fort holenderski',
       description:
-        'Prywatny dzień w Galle: mury Fortu holenderskiego, latarnia i postoje na południu. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+        'Prywatny dzień w Galle: mury Fortu holenderskiego, latarnia i postoje na południu. Z kierowcą. Zapytaj o bezpłatną ofertę.',
       keywords: 'wycieczka Galle, Fort Galle prywatnie, południowe wybrzeże Sri Lanka',
     },
     kandyDay: {
@@ -762,7 +762,7 @@ export const pl: Dict = {
     sigiriyaDay: {
       title: 'Wycieczka jednodniowa Sigiriya | Lwia Skała',
       description:
-        'Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wieś. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.',
+        'Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wieś. Z kierowcą. Zapytaj o bezpłatną ofertę.',
       keywords: 'wycieczka Sigiriya, Lwia Skała, jaskinie Dambulla z kierowcą',
     },
     destinations: {
@@ -798,7 +798,7 @@ export const pl: Dict = {
     destKandy: {
       title: 'Kandy Sri Lanka | Świątynia Zebu przewodnik',
       description:
-        'Odkryj Kandy: Świątynia Zebu, jezioro i wrota wzgorz na prywatnych objazdach z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę. Zapytaj o ofertę.',
+        'Odkryj Kandy: Świątynia Zebu, jezioro i wrota wzgorz na prywatnych objazdach z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę.',
       keywords: 'Kandy Sri Lanka, Świątynia Zebu, wycieczka prywatna Kandy, wzgórza',
     },
     destDambulla: {

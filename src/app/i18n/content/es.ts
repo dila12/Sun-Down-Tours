@@ -758,13 +758,13 @@ export const es: Dict = {
     sigiriyaDay: {
       title: 'Excursión Sigiriya con chofer | Roca del León',
       description:
-        'Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo. Con chofer. Pide un presupuesto gratis. Pide un presupuesto gratis.',
+        'Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo. Con chofer. Pide un presupuesto gratis.',
       keywords: 'excursión Sigiriya, Roca del León, cuevas Dambulla chofer',
     },
     destinations: {
       title: 'Destinos Sri Lanka | Ella, Sigiriya, Yala, Galle',
       description:
-        'Destinos para circuitos privados: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto. Pide un presupuesto.',
+        'Destinos para circuitos privados: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto.',
       keywords: 'destinos Sri Lanka, Ella Sigiriya Yala, lugares circuito privado, Galle Mirissa',
     },
     guides: {

@@ -7801,7 +7801,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, s-maxage=120, stale-while-revalidate=86400"
+          "value": "public, s-maxage=60, stale-while-revalidate=30"
         }
       ]
     },
@@ -7810,7 +7810,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, s-maxage=120, stale-while-revalidate=86400"
+          "value": "public, s-maxage=60, stale-while-revalidate=30"
         }
       ]
     },
@@ -7848,7 +7848,7 @@
       "destination": "/api"
     },
     {
-      "source": "/((?!api/|assets/|media/).*)",
+      "source": "/((?!api/|assets/|media/)(?!.*\\.(?:js|mjs|css|map|txt|xml|ico|webmanifest|json|woff2?|ttf|otf|png|jpe?g|gif|webp|avif|svg)$).*)",
       "destination": "/api"
     }
   ],

@@ -798,13 +798,13 @@ export const nl: Dict = {
     ellaDay: {
       title: 'Ella dagtocht met chauffeur | Nine Arch',
       description:
-        'Privé dag in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag een gratis offerte. Vraag een gratis offerte.',
+        'Privé dag in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag een gratis offerte.',
       keywords: 'Ella dagtocht, Nine Arch Bridge, privéchauffeur Sri Lanka',
     },
     galleDay: {
       title: 'Galle dagtocht met chauffeur | Hollands fort',
       description:
-        'Privé dag in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.',
+        'Privé dag in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust. Met chauffeur. Vraag een gratis offerte.',
       keywords: 'Galle dagtocht, Galle Fort privé, zuidkust Sri Lanka chauffeur',
     },
     kandyDay: {
@@ -816,7 +816,7 @@ export const nl: Dict = {
     sigiriyaDay: {
       title: 'Sigiriya dagtocht met chauffeur | Leeuwenrots',
       description:
-        'Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsleven. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.',
+        'Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsleven. Met chauffeur. Vraag een gratis offerte.',
       keywords: 'Sigiriya dagtocht, Leeuwenrots, Dambulla grotten met chauffeur',
     },
     destinations: {
@@ -864,7 +864,7 @@ export const nl: Dict = {
     destGalle: {
       title: 'Galle Fort Sri Lanka | Zuidkust privé',
       description:
-        'Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse rondreis met chauffeur. Rustig tempo. Vraag een offerte. Vraag een offerte.',
+        'Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse rondreis met chauffeur. Rustig tempo. Vraag een offerte.',
       keywords: 'Galle Fort, Galle Sri Lanka, zuidkust privé, Galle dagtocht',
     },
     guideBestTime: {
@@ -876,7 +876,7 @@ export const nl: Dict = {
     guideVisa: {
       title: 'Visa & ETA Sri Lanka | Gids voor Europa',
       description:
-        'ETA en inreisbasics voor Europese reizigers voor een privé tour. Praktische notities, geen juridisch advies. Vraag een offerte. Vraag een offerte.',
+        'ETA en inreisbasics voor Europese reizigers voor een privé tour. Praktische notities, geen juridisch advies. Vraag een offerte.',
       keywords: 'visa Sri Lanka, ETA Sri Lanka, inreis Europa, reisdocumenten',
     },
     guidePrivateDriver: {

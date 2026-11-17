@@ -728,7 +728,7 @@ export const fr: Dict = {
     tour7: {
       title: 'Circuit privé 7 jours | Wilpattu & Mirissa',
       description:
-        'Safari Wilpattu, Sigiriya, Kandy, Ella et Mirissa (baleines en option). Hôtels 4 étoiles, chauffeur privé. Demandez un devis. Demandez un devis gratuit.',
+        'Safari Wilpattu, Sigiriya, Kandy, Ella et Mirissa (baleines en option). Hôtels 4 étoiles, chauffeur privé. Demandez un devis gratuit.',
       keywords: 'circuit Sri Lanka 7 jours, Wilpattu Mirissa, circuit privé avec chauffeur',
     },
     tour10: {
@@ -776,25 +776,25 @@ export const fr: Dict = {
     ellaDay: {
       title: 'Excursion Ella avec chauffeur | Nine Arch',
       description:
-        'Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et Ravana Falls avec chauffeur. Rythme flexible. Demandez un devis. Demandez un devis gratuit.',
+        'Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et Ravana Falls avec chauffeur. Rythme flexible. Demandez un devis gratuit.',
       keywords: 'excursion Ella, Nine Arch Bridge, chauffeur privé Sri Lanka',
     },
     galleDay: {
       title: 'Excursion Galle avec chauffeur | Fort hollandais',
       description:
-        'Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.',
+        'Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud. Avec chauffeur. Demandez un devis gratuit.',
       keywords: 'excursion Galle, Fort de Galle privé, côte sud Sri Lanka chauffeur',
     },
     kandyDay: {
       title: 'Excursion Kandy avec chauffeur | Temple de la Dent',
       description:
-        'Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur. Demandez un devis gratuit. Demandez un devis gratuit.',
+        'Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur. Demandez un devis gratuit.',
       keywords: 'excursion Kandy, Temple de la Dent, chauffeur privé Kandy',
     },
     sigiriyaDay: {
       title: 'Excursion Sigiriya avec chauffeur | Rocher du Lion',
       description:
-        'Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.',
+        'Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village. Avec chauffeur. Demandez un devis gratuit.',
       keywords: 'excursion Sigiriya, Rocher du Lion, grottes Dambulla chauffeur',
     },
     destinations: {
@@ -1036,13 +1036,13 @@ export const fr: Dict = {
     marketGermany: {
       title: 'Circuits Sri Lanka depuis l Allemagne | chauffeur',
       description:
-        'Circuits privés pour voyageurs d Allemagne: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+        'Circuits privés pour voyageurs d Allemagne: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis.',
       keywords: 'Sri Lanka Allemagne, circuit privé chauffeur, voyage depuis Allemagne',
     },
     marketFrance: {
       title: 'Circuit privé Sri Lanka depuis la France',
       description:
-        'Circuits privés Sri Lanka pour voyageurs de France: avec chauffeur, rythme flexible, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+        'Circuits privés Sri Lanka pour voyageurs de France: avec chauffeur, rythme flexible, equipe locale depuis 1992. Demandez un devis.',
       keywords: 'circuit Sri Lanka France, voyage privé chauffeur, tour depuis France',
     },
     marketItaly: {
@@ -1078,7 +1078,7 @@ export const fr: Dict = {
     marketUK: {
       title: 'Circuits Sri Lanka depuis le Royaume-Uni',
       description:
-        'Circuits privés pour voyageurs du Royaume-Uni: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis. Demandez un devis.',
+        'Circuits privés pour voyageurs du Royaume-Uni: avec chauffeur, jours flexibles, equipe locale depuis 1992. Demandez un devis.',
       keywords: 'Sri Lanka UK, circuit privé chauffeur, voyage depuis Royaume-Uni',
     },
     marketAustria: {

@@ -95,10 +95,17 @@ async function main() {
         ],
       },
     ],
-    // HTML → SSR. Static files (assets, *.js/css) are served from outputDirectory first.
+    // HTML → SSR. Existing files in outputDirectory are served first.
+    // Paths with static extensions must NEVER hit the SSR function: after a
+    // deploy, stale clients may request deleted chunk hashes; rewriting those
+    // to /api caused FUNCTION_INVOCATION_FAILED (HTTP 500) instead of 404.
     rewrites: [
       { source: '/', destination: '/api' },
-      { source: '/((?!api/|assets/|media/).*)', destination: '/api' },
+      {
+        source:
+          '/((?!api/|assets/|media/)(?!.*\\.(?:js|mjs|css|map|txt|xml|ico|webmanifest|json|woff2?|ttf|otf|png|jpe?g|gif|webp|avif|svg)$).*)',
+        destination: '/api',
+      },
     ],
     functions: {
       ...otherFunctions,
