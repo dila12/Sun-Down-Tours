@@ -40,6 +40,33 @@ export const fr: Dict = {
       travelGuides: 'Guides de voyage',
       cancellation: "Politique d'annulation",
       privacy: 'Politique de confidentialite',
+      designedBy: 'Concu par',
+    },
+    a11y: {
+      facebook: 'Visiter notre page Facebook',
+      tripadvisor: 'Lire nos avis TripAdvisor',
+      whatsapp: 'Discuter avec nous sur WhatsApp',
+      navToggle: 'Ouvrir le menu de navigation',
+      newsletterSubmit: 'S inscrire a la newsletter',
+      whatsappFloat: 'WhatsApp',
+      language: 'Langue',
+    },
+    schema: {
+      alternateName: 'Circuits prives Sri Lanka',
+      knowsAbout: [
+        'circuits Sri Lanka',
+        'packages voyage Sri Lanka',
+        'vacances Sri Lanka',
+        'circuits avec chauffeur prive',
+        'safari Yala',
+        'Sigiriya',
+        'train d Ella',
+        'Temple de la Dent a Kandy',
+        'Fort de Galle',
+      ],
+      touristType: 'Circuit prive avec chauffeur',
+      jobOwner: 'Proprietaire et fondateur',
+      jobConsultant: 'Consultant senior',
     },
     consent: {
       title: 'Votre vie privee compte',
@@ -82,6 +109,13 @@ export const fr: Dict = {
       exploreSimilarTours: 'Circuits similaires',
       imageAlt: 'Photo de circuit au Sri Lanka',
       previewAlt: 'Apercu de la photo du circuit',
+      bookNow: 'Reserver ce circuit',
+      chatWhatsApp: 'Discuter sur WhatsApp',
+      trustFreeCancel: 'Annulation gratuite',
+      trustPayLater: 'Payer plus tard',
+      trustLocal: 'Equipe locale depuis 1992',
+      reviewsTripAdvisor: 'Lire les avis TripAdvisor',
+      mobileBookBar: 'Pret a reserver ?',
     },
     card: {
       perPerson: '/ personne',
@@ -221,6 +255,14 @@ export const fr: Dict = {
       dambullaAlt: 'Temple troglodyte de Dambulla',
       galle: 'Galle',
       galleAlt: 'Fort de Galle au Sri Lanka',
+    },
+
+    popular: {
+      title: 'Circuits Sri Lanka populaires',
+      tour7: 'Circuit Sri Lanka 7 jours',
+      tour8: 'Circuit prive 8 jours',
+      ellaDay: 'Excursion Ella journee',
+      sigiriyaDay: 'Excursion Sigiriya journee',
     },
     packages: {
       tag: 'CIRCUITS',
@@ -502,6 +544,18 @@ export const fr: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Page introuvable',
+    breadcrumb: '404',
+    heading: 'Nous n avons pas trouve cette page',
+    body: 'Le lien est peut etre obsolete, mal tape ou la page a ete deplacee. Utilisez les liens ci dessous pour continuer a preparer votre circuit prive au Sri Lanka.',
+    ctaHome: 'Retour a l accueil',
+    ctaTours: 'Voir les circuits',
+    ctaContact: 'Nous contacter',
+    helpfulLinks: 'Liens utiles',
+    linkDriver: 'Chauffeur guide prive',
+  },
   cancellation: {
     eyebrow: 'Reservations et modifications',
     h1: "Politique d'annulation",

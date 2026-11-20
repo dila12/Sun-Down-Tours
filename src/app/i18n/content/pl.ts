@@ -40,6 +40,33 @@ export const pl: Dict = {
       travelGuides: 'Przewodniki podroznicze',
       cancellation: 'Polityka anulowania',
       privacy: 'Polityka prywatnosci',
+      designedBy: 'Zaprojektowane przez',
+    },
+    a11y: {
+      facebook: 'Odwiedz nasza strone Facebook',
+      tripadvisor: 'Przeczytaj nasze opinie TripAdvisor',
+      whatsapp: 'Napisz do nas na WhatsApp',
+      navToggle: 'Przelacz menu nawigacji',
+      newsletterSubmit: 'Zapisz sie do newslettera',
+      whatsappFloat: 'WhatsApp',
+      language: 'Jezyk',
+    },
+    schema: {
+      alternateName: 'Prywatne wycieczki Sri Lanka',
+      knowsAbout: [
+        'wycieczki Sri Lanka',
+        'pakiety wycieczek Sri Lanka',
+        'wakacje Sri Lanka',
+        'wycieczki z prywatnym kierowca',
+        'safari Yala',
+        'Sigiriya',
+        'pociag Ella',
+        'Swiatynia Zebu w Kandy',
+        'Fort Galle',
+      ],
+      touristType: 'Prywatna wycieczka z kierowca',
+      jobOwner: 'Wlasciciel i zalozyciel',
+      jobConsultant: 'Starszy konsultant',
     },
     consent: {
       title: 'Twoja prywatnosc jest wazna',
@@ -82,6 +109,13 @@ export const pl: Dict = {
       exploreSimilarTours: 'Podobne wycieczki',
       imageAlt: 'Zdjecie z wycieczki po Sri Lance',
       previewAlt: 'Podglad zdjecia z wycieczki',
+      bookNow: 'Zarezerwuj ta wycieczke',
+      chatWhatsApp: 'Napisz na WhatsApp',
+      trustFreeCancel: 'Bezplatne anulowanie',
+      trustPayLater: 'Zaplac pozniej',
+      trustLocal: 'Lokalny zespol od 1992',
+      reviewsTripAdvisor: 'Przeczytaj opinie TripAdvisor',
+      mobileBookBar: 'Gotowy do rezerwacji?',
     },
     card: {
       perPerson: '/ osoba',
@@ -221,6 +255,14 @@ export const pl: Dict = {
       dambullaAlt: 'Swiatynia jaskiniowa w Dambulli',
       galle: 'Galle',
       galleAlt: 'Fort Galle na Sri Lance',
+    },
+
+    popular: {
+      title: 'Popularne wycieczki Sri Lanka',
+      tour7: '7 dniowa wycieczka Sri Lanka',
+      tour8: '8 dniowa prywatna wycieczka',
+      ellaDay: 'Wycieczka jednodniowa Ella',
+      sigiriyaDay: 'Wycieczka jednodniowa Sigiriya',
     },
     packages: {
       tag: 'WYCIECZKI',
@@ -502,6 +544,18 @@ export const pl: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Nie znaleziono strony',
+    breadcrumb: '404',
+    heading: 'Nie znalezlismy tej strony',
+    body: 'Link moze byc nieaktualny, blednie wpisany albo strona zostala przeniesiona. Skorzystaj z linkow ponizej, aby dalej planowac prywatna wycieczke po Sri Lance.',
+    ctaHome: 'Wroc na strone glowna',
+    ctaTours: 'Zobacz pakiety wycieczek',
+    ctaContact: 'Skontaktuj sie z nami',
+    helpfulLinks: 'Przydatne linki',
+    linkDriver: 'Prywatny kierowca przewodnik',
+  },
   cancellation: {
     eyebrow: 'Rezerwacje i zmiany',
     h1: 'Polityka anulowania',
@@ -617,12 +671,6 @@ export const pl: Dict = {
     foodGuideLink: 'Przewodnik kulinarny po Sri Lance',
   },
 
-  restaurantsExplore: {
-    title: 'Odkryj pobliskie destynacje i wycieczki',
-    lead: 'Sundown Beach Restaurant to nasz partnerski lokal w Waskaduwa polacz posilek z destynacjami poludniowo zachodniego wybrzeza i jednodniowymi wycieczkami.',
-    contactCta: 'Zaplanuj prywatna wycieczke',
-  },
-
   bookingSuccess: {
     heroTitle: 'Rezerwacja potwierdzona!',
     thankYouPrefix: 'Dziekujemy,',
@@ -662,6 +710,26 @@ export const pl: Dict = {
     emptyValue: '—',
   },
 
+
+  restaurantsExplore: {
+    h1: 'Gdzie jesc na Sri Lance: wybrzeze i Sundown Beach Restaurant',
+    breadcrumb: 'Restauracje',
+    intro:
+      'Dobre jedzenie na Sri Lance zalezy mniej od jednej listy najlepszych restauracji, a bardziej od wybrzeza, pory dnia i tego, jak daleko chcecie jezdzic po kolacji. Rice and curry to codziennosc w glębi lądu; grillowane owoce morza okreslaja poludnie i zachod; Galle Fort laczy kolonialne salony z dobrą kawa. Ta strona pokazuje, gdzie naprawde jedza podrozni na prywatnej wycieczce, a nizej jest pelne menu Sundown Beach Restaurant w Waskaduwa, naszej nadmorskiej kuchni miedzy Colombo a Galle.',
+    aroundTitle: 'Jak wyglada jedzenie podczas wycieczki po Sri Lance',
+    aroundBody:
+      'Na wycieczce z kierowca przewodnikiem lunch to zwykle lokal z rice and curry wybrany pod katem czystosci i tempa, nie dlugi postoj w restauracji. Kolacja zalezy od Was: hotel, grill na plazie albo miasto, w ktorym spicie. Przed zamowieniem calej ryby lub kraba zapytajcie, czy owoce morza sa liczone za kilogram; to najczestsza niespodzianka na rachunku na poludniu.\n\nWegetarianie jedza latwo, jesli prosza o warzywne curry bez Maldive fish; weganie powinni powiedziec to wprost. Pijcie wode butelkowana. Napiwek 5 do 10 procent tylko gdy obsluga nie jest juz wliczona.',
+    westTitle: 'Zachodnie wybrzeze: Negombo, Kalutara i Waskaduwa',
+    westBody:
+      'Zachodnie wybrzeze to miejsce, gdzie ląduje wiekszosc europejskich lotow, wiec pierwszy i ostatni posilek czesto jest tutaj. Negombo ma turystyczne grille przy plazy; Colombo ma hotele i mocne lokalne rice and curry. Miedzy Kalutara a Waskaduwa ryby sa lokalne: tuna, seer, krewetki i krab.\n\nSundown Beach Restaurant stoi na tym odcinku (No 302, Mahawaskaduwa, Waskaduwa). Goscie naszych prywatnych wycieczek czesto zatrzymuja sie na lunch z owocami morza albo na ostatnia kolacje przed wylotem z CMB. Godziny 8:00 do 22:00 codziennie; rezerwacja pod +94 70 629 3585.',
+    southTitle: 'Poludniowe wybrzeze i Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa i Tangalle sa najmocniejsze w prostej grillowanej rybie z limonka, chilli i maslem czosnkowym. W Galle Fort holenderskie domy serwuja kuchnie Sri Lanki z miedzynarodowa technika; ceny rosna w murach, jakosc zwykle jest pewna. Polaczcie poranek na walach z lunchem w forcie albo pozniejsza kolacja na odcinku Kalutara Waskaduwa, jesli jedziecie na polnoc.\n\nSzerszy przewodnik po jedzeniu (hoppers, kottu, poziomy ostrosci) znajdziecie w naszym przewodniku kulinarnym. Menu ponizej to aktualna karta Sundown Beach Restaurant, nie ogolna lista dla calej wyspy.',
+    title: 'Odkryj pobliskie destynacje i wycieczki',
+    lead: 'Sundown Beach Restaurant w Waskaduwa latwo laczy sie z postojami na poludniowym zachodzie i jednodniowymi wycieczkami: Galle Fort, plazami zachodnimi i prywatnymi trasami z kierowca.',
+    contactCta: 'Zaplanuj prywatna wycieczke',
+    faqTitle: 'Pytania o restauracje i Sundown Beach',
+  },
   seo: {
     home: {
       title: 'Wycieczka prywatna Sri Lanka z kierowcą | 5-10 dni',

@@ -40,6 +40,33 @@ export const nl: Dict = {
       travelGuides: 'Reisgidsen',
       cancellation: 'Annuleringsvoorwaarden',
       privacy: 'Privacybeleid',
+      designedBy: 'Ontworpen door',
+    },
+    a11y: {
+      facebook: 'Bezoek onze Facebook pagina',
+      tripadvisor: 'Lees onze TripAdvisor reviews',
+      whatsapp: 'Chat met ons op WhatsApp',
+      navToggle: 'Navigatiemenu openen',
+      newsletterSubmit: 'Aanmelden voor de nieuwsbrief',
+      whatsappFloat: 'WhatsApp',
+      language: 'Taal',
+    },
+    schema: {
+      alternateName: 'Prive Sri Lanka rondreizen',
+      knowsAbout: [
+        'Sri Lanka rondreizen',
+        'Sri Lanka tourpakketten',
+        'Sri Lanka vakanties',
+        'prive chauffeur tours',
+        'Yala safari',
+        'Sigiriya',
+        'Ella treinreis',
+        'Tempel van de Tand in Kandy',
+        'Galle Fort',
+      ],
+      touristType: 'Prive rondreis met chauffeur',
+      jobOwner: 'Eigenaar en oprichter',
+      jobConsultant: 'Senior consultant',
     },
     consent: {
       title: 'Uw privacy is belangrijk',
@@ -556,6 +583,18 @@ export const nl: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Pagina niet gevonden',
+    breadcrumb: '404',
+    heading: 'We konden deze pagina niet vinden',
+    body: 'De link is verouderd, verkeerd getypt of de pagina is verplaatst. Gebruik de links hieronder om uw prive rondreis door Sri Lanka verder te plannen.',
+    ctaHome: 'Terug naar home',
+    ctaTours: 'Bekijk tourpakketten',
+    ctaContact: 'Neem contact op',
+    helpfulLinks: 'Handige links',
+    linkDriver: 'Prive chauffeur gids',
+  },
   cancellation: {
     eyebrow: 'Boekingen & wijzigingen',
     h1: 'Annuleringsvoorwaarden',
@@ -671,12 +710,6 @@ export const nl: Dict = {
     foodGuideLink: 'Sri Lanka foodgids',
   },
 
-  restaurantsExplore: {
-    title: 'Ontdek nabijgelegen bestemmingen & rondreizen',
-    lead: 'Sundown Beach Restaurant is onze eetpartner aan de kust van Waskaduwa combineer een maaltijd met bestemmingen aan de zuidwestkust en dagtrips.',
-    contactCta: 'Plan een prive rondreis',
-  },
-
   bookingSuccess: {
     heroTitle: 'Boeking bevestigd!',
     thankYouPrefix: 'Bedankt,',
@@ -716,6 +749,26 @@ export const nl: Dict = {
     emptyValue: '—',
   },
 
+
+  restaurantsExplore: {
+    h1: 'Waar eten in Sri Lanka: kust en Sundown Beach Restaurant',
+    breadcrumb: 'Restaurants',
+    intro:
+      'Goed eten in Sri Lanka hangt minder af van een enkele lijst met beste restaurants en meer van de kust, het tijdstip en hoe ver u na het diner wilt rijden. Rice and curry is het dagelijkse gerecht inland; gegrilde zeevruchten bepalen het zuiden en westen; Galle Fort mengt koloniale zalen met goede koffie. Deze pagina legt uit waar reizigers echt eten op een prive rondreis en toont het volledige menu van Sundown Beach Restaurant in Waskaduwa, onze kustkeuken tussen Colombo en Galle.',
+    aroundTitle: 'Hoe eten werkt tijdens een Sri Lanka rondreis',
+    aroundBody:
+      'Op een rondreis met chauffeur gids is de lunch meestal een rice and curry zaak gekozen om netheid en tempo, geen lange restaurantstop. Bij het diner kiest u: hotelrestaurant, beach grill of het stadje waar u slaapt. Vraag of zeevruchten per kilo worden gerekend voordat u hele vis of krab bestelt; dat is de meest voorkomende rekeningverrassing aan de zuidkust.\n\nVegetariers eten makkelijk als u om groentecurrys zonder Maldive fish vraagt; veganisten moeten dat duidelijk zeggen. Drink water uit de fles. Fooi 5 tot 10 procent alleen als service niet al is inbegrepen.',
+    westTitle: 'Westkust: Negombo, Kalutara en Waskaduwa',
+    westBody:
+      'Aan de westkust landen de meeste Europese vluchten, dus de eerste en laatste maaltijd van de reis zijn vaak hier. Negombo heeft toeristische grills bij het strand; Colombo heeft hotels en sterke lokale rice and curry. Tussen Kalutara en Waskaduwa is de vangst lokaal: tonijn, seer, garnalen en krab.\n\nSundown Beach Restaurant ligt op dit stuk (No 302, Mahawaskaduwa, Waskaduwa). Gasten op onze prive tours stoppen vaak voor een zeevruchtenlunch of een laatste diner voor vertrek vanaf CMB. Open van 8:00 tot 22:00 dagelijks; reserveer via +94 70 629 3585.',
+    southTitle: 'Zuidkust en Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa en Tangalle zijn sterk in eenvoudig gegrilde vis met limoen, chili en knoflookboter. Binnen Galle Fort serveren Hollandse huizen Sri Lankaanse kruiden met internationale techniek; prijzen stijgen binnen de muren, kwaliteit is meestal betrouwbaar. Combineer een ochtend op de wallen met lunch in het fort of later diner op de kust van Kalutara naar Waskaduwa als u noordwaarts gaat.\n\nVoor een bredere food primer (hoppers, kottu, pittigheid) lees onze Sri Lanka food guide. Het menu hieronder is de werkende kaart van Sundown Beach Restaurant, geen generieke eilandbrede lijst.',
+    title: 'Ontdek nabije bestemmingen en tours',
+    lead: 'Sundown Beach Restaurant in Waskaduwa past goed bij stops aan de zuidwestkust en dag tours: Galle Fort, westkuststranden en prive chauffeur itineraries.',
+    contactCta: 'Plan een prive rondreis',
+    faqTitle: 'Veelgestelde vragen over restaurants en Sundown Beach',
+  },
   seo: {
     home: {
       title: 'Privé rondreis Sri Lanka met chauffeur | 5-10 dagen',

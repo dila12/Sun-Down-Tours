@@ -40,6 +40,33 @@ export const es: Dict = {
       travelGuides: 'Guias de viaje',
       cancellation: 'Politica de cancelacion',
       privacy: 'Politica de privacidad',
+      designedBy: 'Disenado por',
+    },
+    a11y: {
+      facebook: 'Visitar nuestra pagina de Facebook',
+      tripadvisor: 'Leer nuestras opiniones en TripAdvisor',
+      whatsapp: 'Chatear con nosotros por WhatsApp',
+      navToggle: 'Abrir el menu de navegacion',
+      newsletterSubmit: 'Suscribirse al boletin',
+      whatsappFloat: 'WhatsApp',
+      language: 'Idioma',
+    },
+    schema: {
+      alternateName: 'Circuitos privados Sri Lanka',
+      knowsAbout: [
+        'circuitos Sri Lanka',
+        'paquetes de viaje Sri Lanka',
+        'vacaciones Sri Lanka',
+        'circuitos con conductor privado',
+        'safari Yala',
+        'Sigiriya',
+        'tren de Ella',
+        'Templo del Diente en Kandy',
+        'Fuerte de Galle',
+      ],
+      touristType: 'Circuito privado con conductor',
+      jobOwner: 'Propietario y fundador',
+      jobConsultant: 'Consultor senior',
     },
     consent: {
       title: 'Tu privacidad importa',
@@ -82,6 +109,13 @@ export const es: Dict = {
       exploreSimilarTours: 'Circuitos similares',
       imageAlt: 'Foto del circuito por Sri Lanka',
       previewAlt: 'Vista previa de la foto del circuito',
+      bookNow: 'Reservar este circuito',
+      chatWhatsApp: 'Chatear por WhatsApp',
+      trustFreeCancel: 'Cancelacion gratuita',
+      trustPayLater: 'Pagar despues',
+      trustLocal: 'Equipo local desde 1992',
+      reviewsTripAdvisor: 'Leer opiniones en TripAdvisor',
+      mobileBookBar: 'Listo para reservar?',
     },
     card: {
       perPerson: '/ persona',
@@ -221,6 +255,14 @@ export const es: Dict = {
       dambullaAlt: 'Templo rupestre de Dambulla',
       galle: 'Galle',
       galleAlt: 'Fuerte de Galle en Sri Lanka',
+    },
+
+    popular: {
+      title: 'Circuitos Sri Lanka populares',
+      tour7: 'Circuito Sri Lanka 7 dias',
+      tour8: 'Circuito privado 8 dias',
+      ellaDay: 'Excursion Ella un dia',
+      sigiriyaDay: 'Excursion Sigiriya un dia',
     },
     packages: {
       tag: 'CIRCUITOS',
@@ -498,6 +540,18 @@ export const es: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Pagina no encontrada',
+    breadcrumb: '404',
+    heading: 'No encontramos esa pagina',
+    body: 'El enlace puede estar desactualizado, mal escrito o la pagina se ha movido. Use los enlaces de abajo para seguir planificando su circuito privado por Sri Lanka.',
+    ctaHome: 'Volver al inicio',
+    ctaTours: 'Ver paquetes de viaje',
+    ctaContact: 'Contactenos',
+    helpfulLinks: 'Enlaces utiles',
+    linkDriver: 'Conductor guia privado',
+  },
   cancellation: {
     eyebrow: 'Reservas y cambios',
     h1: 'Politica de cancelacion',
@@ -613,12 +667,6 @@ export const es: Dict = {
     foodGuideLink: 'Guia gastronomica de Sri Lanka',
   },
 
-  restaurantsExplore: {
-    title: 'Destinos y circuitos cercanos',
-    lead: 'Sundown Beach Restaurant es nuestro socio gastronomico en Waskaduwa combina la comida con destinos de la costa suroeste y excursiones de un dia.',
-    contactCta: 'Planificar un circuito privado',
-  },
-
   bookingSuccess: {
     heroTitle: 'Reserva confirmada!',
     thankYouPrefix: 'Gracias,',
@@ -658,6 +706,26 @@ export const es: Dict = {
     emptyValue: '—',
   },
 
+
+  restaurantsExplore: {
+    h1: 'Donde comer en Sri Lanka: costa y Sundown Beach Restaurant',
+    breadcrumb: 'Restaurantes',
+    intro:
+      'Comer bien en Sri Lanka no depende de una sola lista de mejores restaurantes. Depende de la costa, la hora del dia y cuanto quiere desplazarse despues de cenar. El rice and curry es el plato diario tierra adentro; el marisco a la parrilla define el sur y el oeste; Galle Fort mezcla salones coloniales con buen cafe. Esta pagina explica donde comen de verdad los viajeros en un circuito privado y muestra la carta completa de Sundown Beach Restaurant en Waskaduwa, nuestra cocina costera entre Colombo y Galle.',
+    aroundTitle: 'Como funciona la comida en un circuito por Sri Lanka',
+    aroundBody:
+      'En un circuito con chauffeur, el almuerzo suele ser un rice and curry elegido por limpieza y ritmo, no una parada larga de restaurante. La cena es donde usted elige: hotel, grill de playa o el pueblo donde duerme. Confirme si el marisco se cobra por kilo antes de pedir pescado entero o cangrejo, la sorpresa de cuenta mas comun en la costa sur.\n\nLos vegetarianos comen bien si piden currys de verduras sin pescado Maldive; los veganos deben decirlo con claridad. Beba agua embotellada. Propine del 5 al 10 por ciento solo si el servicio no esta incluido.',
+    westTitle: 'Costa oeste: Negombo, Kalutara y Waskaduwa',
+    westBody:
+      'La costa oeste es donde aterrizan la mayoria de vuelos europeos, asi que la primera y la ultima comida del viaje suelen ser aqui. Negombo tiene grills turisticos cerca de la playa; Colombo tiene hoteles y buenos rice and curry locales. Entre Kalutara y Waskaduwa el pescado es del dia: atun, seer, gambas y cangrejo.\n\nSundown Beach Restaurant esta en este tramo (No 302, Mahawaskaduwa, Waskaduwa). Los viajeros de nuestros circuitos privados suelen parar a almorzar marisco o a cenar antes de salir de CMB. Horario de 8:00 a 22:00 todos los dias; reserve en +94 70 629 3585.',
+    southTitle: 'Costa sur y Galle Fort',
+    southBody:
+      'Unawatuna, Mirissa y Tangalle destacan por pescado a la parrilla con lima, chile y mantequilla de ajo. Dentro de Galle Fort, casas holandesas sirven cocina cingalesa con tecnica internacional; los precios suben dentro de las murallas y la calidad suele ser fiable. Combine la manana en las murallas con el almuerzo en el fuerte o una cena mas tarde en la costa de Kalutara a Waskaduwa si vuelve al norte.\n\nPara un primer contacto con la comida (hoppers, kottu y niveles de picante) lea nuestra guia gastronómica. El menu de abajo es la carta real de Sundown Beach Restaurant, no una lista generica de toda la isla.',
+    title: 'Explorar destinos y circuitos cercanos',
+    lead: 'Sundown Beach Restaurant en Waskaduwa encaja bien con paradas del suroeste y excursiones de un dia: Galle Fort, playas del oeste e itinerarios privados con chauffeur.',
+    contactCta: 'Planificar un circuito privado',
+    faqTitle: 'Preguntas sobre restaurantes y Sundown Beach',
+  },
   seo: {
     home: {
       title: 'Circuito privado Sri Lanka con chofer | 5-10 días',

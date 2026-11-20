@@ -40,6 +40,33 @@ export const de: Dict = {
       travelGuides: 'Reisefuhrer',
       cancellation: 'Stornierungsbedingungen',
       privacy: 'Datenschutz',
+      designedBy: 'Gestaltet von',
+    },
+    a11y: {
+      facebook: 'Unsere Facebook Seite besuchen',
+      tripadvisor: 'Unsere TripAdvisor Bewertungen lesen',
+      whatsapp: 'Per WhatsApp mit uns chatten',
+      navToggle: 'Navigationsmenu umschalten',
+      newsletterSubmit: 'Fur den Newsletter anmelden',
+      whatsappFloat: 'WhatsApp',
+      language: 'Sprache',
+    },
+    schema: {
+      alternateName: 'Private Sri Lanka Rundreisen',
+      knowsAbout: [
+        'Sri Lanka Rundreisen',
+        'Sri Lanka Reisepakete',
+        'Sri Lanka Urlaub',
+        'private Fahrer Touren',
+        'Yala Safari',
+        'Sigiriya',
+        'Ella Zugfahrt',
+        'Zahntempel in Kandy',
+        'Galle Fort',
+      ],
+      touristType: 'Private Rundreise mit Fahrer',
+      jobOwner: 'Inhaber und Grunder',
+      jobConsultant: 'Senior Berater',
     },
     consent: {
       title: 'Ihre Privatsphare ist uns wichtig',
@@ -82,6 +109,13 @@ export const de: Dict = {
       exploreSimilarTours: 'Ahnliche Touren',
       imageAlt: 'Sri Lanka Reise Foto',
       previewAlt: 'Vorschau des Tourfotos',
+      bookNow: 'Diese Tour buchen',
+      chatWhatsApp: 'Per WhatsApp chatten',
+      trustFreeCancel: 'Kostenlose Stornierung',
+      trustPayLater: 'Spater zahlen',
+      trustLocal: 'Lokales Team seit 1992',
+      reviewsTripAdvisor: 'TripAdvisor Bewertungen lesen',
+      mobileBookBar: 'Bereit zu buchen?',
     },
     card: {
       perPerson: '/ Person',
@@ -221,6 +255,14 @@ export const de: Dict = {
       dambullaAlt: 'Hohlentempel Dambulla Sri Lanka',
       galle: 'Galle',
       galleAlt: 'Fort von Galle Sri Lanka',
+    },
+
+    popular: {
+      title: 'Beliebte Sri Lanka Rundreisen',
+      tour7: '7 Tage Sri Lanka Rundreise',
+      tour8: '8 Tage Privatreise',
+      ellaDay: 'Ella Tagesausflug',
+      sigiriyaDay: 'Sigiriya Tagesausflug',
     },
     packages: {
       tag: 'REISEPAKETE',
@@ -551,6 +593,18 @@ export const de: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Seite nicht gefunden',
+    breadcrumb: '404',
+    heading: 'Diese Seite wurde nicht gefunden',
+    body: 'Der Link ist veraltet, falsch geschrieben oder die Seite wurde verschoben. Nutzen Sie die Links unten, um Ihre private Sri Lanka Reise weiter zu planen.',
+    ctaHome: 'Zur Startseite',
+    ctaTours: 'Reisepakete ansehen',
+    ctaContact: 'Kontakt aufnehmen',
+    helpfulLinks: 'Hilfreiche Links',
+    linkDriver: 'Privater Fahrer Guide',
+  },
   cancellation: {
     eyebrow: 'Buchungen & Anderungen',
     h1: 'Stornierungsbedingungen',

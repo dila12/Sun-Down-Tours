@@ -51,7 +51,37 @@ body { top: 0px !important; }
 }
 
 .nav-bar .navbar {
-    min-height: 80px;
+    min-height: 56px;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+
+.nav-bar .navbar-brand {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    margin-right: 0.75rem;
+}
+
+.nav-bar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1 / 1;
+}
+
+.nav-bar .navbar-brand .brand-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar .navbar-nav .nav-link {
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
 }
 
 .navbar-color > .container-fluid > .row {
@@ -215,7 +245,7 @@ body { top: 0px !important; }
 
 /* Tooltip */
 .whatsapp-float::after {
-    content: "WhatsApp Us";
+    content: attr(data-whatsapp-label);
     position: absolute;
     left: 70px;       /* space from the button */
     background-color: #25D366;

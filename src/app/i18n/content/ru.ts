@@ -40,6 +40,33 @@ export const ru: Dict = {
       travelGuides: 'Путеводители',
       cancellation: 'Политика отмены',
       privacy: 'Политика конфиденциальности',
+      designedBy: 'Дизайн',
+    },
+    a11y: {
+      facebook: 'Наша страница Facebook',
+      tripadvisor: 'Отзывы на TripAdvisor',
+      whatsapp: 'Написать нам в WhatsApp',
+      navToggle: 'Открыть меню навигации',
+      newsletterSubmit: 'Подписаться на рассылку',
+      whatsappFloat: 'WhatsApp',
+      language: 'Язык',
+    },
+    schema: {
+      alternateName: 'Индивидуальные туры по Шри Ланке',
+      knowsAbout: [
+        'туры по Шри Ланке',
+        'пакеты туров Шри Ланка',
+        'отдых на Шри Ланке',
+        'туры с частным водителем',
+        'сафари Яла',
+        'Сигирия',
+        'поезд Элла',
+        'Храм Зуба в Канди',
+        'Форт Галле',
+      ],
+      touristType: 'Индивидуальный тур с водителем',
+      jobOwner: 'Владелец и основатель',
+      jobConsultant: 'Старший консультант',
     },
     consent: {
       title: 'Ваша конфиденциальность важна',
@@ -82,6 +109,13 @@ export const ru: Dict = {
       exploreSimilarTours: 'Похожие туры',
       imageAlt: 'Фото тура по Шри Ланке',
       previewAlt: 'Превью фото тура',
+      bookNow: 'Забронировать этот тур',
+      chatWhatsApp: 'Написать в WhatsApp',
+      trustFreeCancel: 'Бесплатная отмена',
+      trustPayLater: 'Оплата позже',
+      trustLocal: 'Местная команда с 1992 года',
+      reviewsTripAdvisor: 'Читать отзывы TripAdvisor',
+      mobileBookBar: 'Готовы забронировать?',
     },
     card: {
       perPerson: '/ чел.',
@@ -221,6 +255,14 @@ export const ru: Dict = {
       dambullaAlt: 'Пещерный храм в Дамбулле',
       galle: 'Галле',
       galleAlt: 'Форт Галле на Шри Ланке',
+    },
+
+    popular: {
+      title: 'Популярные туры по Шри Ланке',
+      tour7: '7 дневный тур по Шри Ланке',
+      tour8: '8 дневный индивидуальный тур',
+      ellaDay: 'Однодневная экскурсия Элла',
+      sigiriyaDay: 'Однодневная экскурсия Сигирия',
     },
     packages: {
       tag: 'ТУРЫ',
@@ -494,6 +536,18 @@ export const ru: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Страница не найдена',
+    breadcrumb: '404',
+    heading: 'Мы не нашли эту страницу',
+    body: 'Ссылка устарела, написана с ошибкой или страница переехала. Используйте ссылки ниже, чтобы продолжить планирование частного тура по Шри Ланке.',
+    ctaHome: 'На главную',
+    ctaTours: 'Смотреть туры',
+    ctaContact: 'Связаться с нами',
+    helpfulLinks: 'Полезные ссылки',
+    linkDriver: 'Частный водитель гид',
+  },
   cancellation: {
     eyebrow: 'Бронирование и изменения',
     h1: 'Политика отмены',

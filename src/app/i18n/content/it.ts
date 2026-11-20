@@ -40,6 +40,33 @@ export const it: Dict = {
       travelGuides: 'Guide di viaggio',
       cancellation: 'Politica di cancellazione',
       privacy: 'Informativa sulla privacy',
+      designedBy: 'Progettato da',
+    },
+    a11y: {
+      facebook: 'Visita la nostra pagina Facebook',
+      tripadvisor: 'Leggi le nostre recensioni TripAdvisor',
+      whatsapp: 'Chatta con noi su WhatsApp',
+      navToggle: 'Apri il menu di navigazione',
+      newsletterSubmit: 'Iscriviti alla newsletter',
+      whatsappFloat: 'WhatsApp',
+      language: 'Lingua',
+    },
+    schema: {
+      alternateName: 'Tour privati Sri Lanka',
+      knowsAbout: [
+        'tour Sri Lanka',
+        'pacchetti viaggio Sri Lanka',
+        'vacanze Sri Lanka',
+        'tour con autista privato',
+        'safari Yala',
+        'Sigiriya',
+        'treno di Ella',
+        'Tempio del Dente a Kandy',
+        'Forte di Galle',
+      ],
+      touristType: 'Tour privato con autista',
+      jobOwner: 'Titolare e fondatore',
+      jobConsultant: 'Consulente senior',
     },
     consent: {
       title: 'La tua privacy e importante',
@@ -82,6 +109,13 @@ export const it: Dict = {
       exploreSimilarTours: 'Tour simili',
       imageAlt: 'Foto del tour in Sri Lanka',
       previewAlt: 'Anteprima della foto del tour',
+      bookNow: 'Prenota questo tour',
+      chatWhatsApp: 'Chatta su WhatsApp',
+      trustFreeCancel: 'Cancellazione gratuita',
+      trustPayLater: 'Paga dopo',
+      trustLocal: 'Team locale dal 1992',
+      reviewsTripAdvisor: 'Leggi le recensioni TripAdvisor',
+      mobileBookBar: 'Pronto a prenotare?',
     },
     card: {
       perPerson: '/ persona',
@@ -221,6 +255,14 @@ export const it: Dict = {
       dambullaAlt: 'Tempio rupestre di Dambulla',
       galle: 'Galle',
       galleAlt: 'Forte di Galle in Sri Lanka',
+    },
+
+    popular: {
+      title: 'Tour Sri Lanka piu richiesti',
+      tour7: 'Tour Sri Lanka 7 giorni',
+      tour8: 'Tour privato 8 giorni',
+      ellaDay: 'Escursione giornaliera Ella',
+      sigiriyaDay: 'Escursione giornaliera Sigiriya',
     },
     packages: {
       tag: 'TOUR',
@@ -502,6 +544,18 @@ export const it: Dict = {
     ],
   },
 
+
+  notFound: {
+    title: 'Pagina non trovata',
+    breadcrumb: '404',
+    heading: 'Non abbiamo trovato questa pagina',
+    body: 'Il link puo essere vecchio, scritto male o la pagina e stata spostata. Usa i link qui sotto per continuare a pianificare il tuo tour privato in Sri Lanka.',
+    ctaHome: 'Torna alla home',
+    ctaTours: 'Vedi i pacchetti tour',
+    ctaContact: 'Contattaci',
+    helpfulLinks: 'Link utili',
+    linkDriver: 'Autista guida privato',
+  },
   cancellation: {
     eyebrow: 'Prenotazioni e modifiche',
     h1: 'Politica di cancellazione',

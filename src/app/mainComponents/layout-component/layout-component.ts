@@ -6,7 +6,8 @@ import { withImageVersion } from '../../utils/image.util';
 import { SocialIconComponent } from '../../sharedComponents/social-icon/social-icon';
 import { createLocaleSwitchTree, LocaleService } from '../../i18n/locale.service';
 import { TranslatePipe } from '../../i18n/t.pipe';
-import { LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
+import { DEFAULT_LOCALE, LOCALES, LOCALE_META, type Locale } from '../../i18n/locales';
+import { getPage, isPageIndexable } from '../../i18n/site-data.mjs';
 import {
   SITE_ADDRESS_FULL,
   SITE_EMAIL,
@@ -41,19 +42,27 @@ export class LayoutComponent {
 
   navOpen = false;
   langMenuOpen = false;
-  readonly logoSrc = withImageVersion(LOGO_80);
-  /** 64/80 only160w is ~15KB and oversized for the 32px/80px slot. */
+  readonly logoSrc = withImageVersion(LOGO_64);
+  /** Prefer the 64w asset for the compact nav slot (40px desktop / 32px mobile). */
   readonly logoSrcSet = `${withImageVersion(LOGO_64)} 64w, ${withImageVersion(LOGO_80)} 80w`;
-  readonly logoSizes = '(max-width: 767px) 32px, 80px';
+  readonly logoSizes = '(max-width: 767px) 32px, 40px';
 
   /** Localized root-relative path for a page in the current locale. */
   path(pageId: string): string {
     return this.i18n.path(pageId);
   }
 
-  /** Same page in another locale — used as crawlable `href` on language links. */
+  /**
+   * Same page in another locale — crawlable `href` on language links.
+   * Incomplete translations link to English (final URL) instead of a 301 hop.
+   */
   langPath(locale: Locale): string {
-    return this.i18n.path(this.i18n.pageId(), locale);
+    const pageId = this.i18n.pageId();
+    const page = getPage(pageId);
+    if (page && !isPageIndexable(page, locale)) {
+      return this.i18n.path(pageId, DEFAULT_LOCALE);
+    }
+    return this.i18n.path(pageId, locale);
   }
 
   toggleNav(): void {

@@ -40,7 +40,7 @@ export class SeoService {
       (article ? this.truncate(article.lead) : this.field('home', locale, 'description', ''));
     const keywords =
       this.field(pageId, locale, 'keywords', '') ||
-      (article ? `${article.h1.split(/[:|–—-]/)[0].trim()}, Sri Lanka, private tours` : '');
+      (article ? `${article.h1.split(/[:|–—-]/)[0].trim()}, Sri Lanka` : '');
     const url = this.i18n.url(pageId, locale);
     const localeMeta = LOCALE_META[locale];
     const ogImage = article?.heroImage

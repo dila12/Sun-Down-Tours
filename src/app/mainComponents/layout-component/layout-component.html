@@ -84,17 +84,17 @@
                 <div class="topbar-socials layout-socials">
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.facebook.com/profile.php?id=61563992655756"
-                        aria-label="Visit our Facebook page">
+                        [attr.aria-label]="'common.a11y.facebook' | t">
                         <app-social-icon name="facebook" />
                     </a>
                     <a class="btn btn-sm btn-square text-white mr-2"
                         href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4"
-                        aria-label="Visit our Instagram page">
+                        [attr.aria-label]="'common.a11y.facebook' | t">
                         <app-social-icon name="instagram" />
                     </a>
                 <a class="btn btn-square mx-1 text-white-50 d-flex align-items-center justify-content-center"
                     href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
-                    target="_blank" rel="noopener noreferrer" aria-label="Read our TripAdvisor reviews">
+                    target="_blank" rel="noopener noreferrer" [attr.aria-label]="'common.a11y.tripadvisor' | t">
                     <svg viewBox="-200 -150 812 620" id="Layer_2" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -119,7 +119,7 @@
                     </svg>
                 </a>
                     <a class="btn btn-sm btn-square text-white" [href]="whatsappUrl" target="_blank"
-                        rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+                        rel="noopener noreferrer" [attr.aria-label]="'common.a11y.whatsapp' | t">
                         <app-social-icon name="whatsapp" />
                     </a>
                 </div>
@@ -134,7 +134,8 @@
 
 <app-scroll-to-to-component></app-scroll-to-to-component>
 <a [href]="whatsappUrl" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
-    aria-label="Chat with us on WhatsApp">
+    [attr.aria-label]="'common.a11y.whatsapp' | t"
+    [attr.data-whatsapp-label]="'common.a11y.whatsappFloat' | t">
     <app-social-icon name="whatsapp" />
 </a>
 
@@ -143,14 +144,14 @@
     <div class="position-relative p-0 px-lg-3" style="z-index: 100;">
         <nav class="navbar navbar-expand-lg navbar-color navbar-light shadow-lg  py-lg-0 ">
             <a [routerLink]="path('home')" class="navbar-brand">
-                <span class="m-0 nav-link brand-title h1"><span class="text-white">
+                <span class="m-0 nav-link brand-title"><span class="text-white">
                         <img [src]="logoSrc" [srcset]="logoSrcSet" [sizes]="logoSizes"
-                            width="80" height="80" loading="eager"
+                            width="40" height="40" loading="eager"
                             decoding="async" fetchpriority="low" [alt]="'common.brand.name' | t">
                         {{ 'common.brand.name' | t }} </span></span>
             </a>
             <button type="button" class="navbar-toggler" (click)="toggleNav()"
-                aria-label="Toggle navigation menu" aria-controls="navbarCollapse"
+                [attr.aria-label]="'common.a11y.navToggle' | t" aria-controls="navbarCollapse"
                 [attr.aria-expanded]="navOpen ? 'true' : 'false'">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -185,17 +186,17 @@
             <div class="d-flex justify-content-start">
                 <a class="btn btn-square mr-2 text-white"
                     href="https://www.facebook.com/profile.php?id=61563992655756" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Facebook page">
+                    [attr.aria-label]="'common.a11y.facebook' | t">
                     <app-social-icon name="facebook" />
                 </a>
                 <a class="btn btn-square px-3 text-white"
                     href="https://www.instagram.com/sundowntourssr?igsh=djF2YXB2aDV6bjc4" target="_blank"
-                    rel="noopener noreferrer" aria-label="Visit our Instagram page">
+                    rel="noopener noreferrer" [attr.aria-label]="'common.a11y.facebook' | t">
                     <app-social-icon name="instagram" />
                 </a>
                 <a class="btn btn-square mx-3 text-white-50 d-flex align-items-center justify-content-center"
                     href="https://www.tripadvisor.com/Attraction_Review-g304134-d34227309-Reviews-Sun_Down_Tours_Sri_Lanka-Hikkaduwa_Galle_District_Southern_Province.html"
-                    target="_blank" rel="noopener noreferrer" aria-label="Read our TripAdvisor reviews">
+                    target="_blank" rel="noopener noreferrer" [attr.aria-label]="'common.a11y.tripadvisor' | t">
                     <svg viewBox="-200 -150 812 620" id="Layer_2" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -220,7 +221,7 @@
                     </svg>
                 </a>
                 <a class="btn btn-square text-white" [href]="whatsappUrl" target="_blank"
-                    rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+                    rel="noopener noreferrer" [attr.aria-label]="'common.a11y.whatsapp' | t">
                     <app-social-icon name="whatsapp" />
                 </a>
             </div>
@@ -265,7 +266,7 @@
                         [placeholder]="'common.footer.emailPlaceholder' | t" autocomplete="email">
                     <div class="input-group-append">
                         <button type="button" [routerLink]="path('contact')" class="btn btn-primary px-3"
-                            aria-label="Sign up for newsletter">{{ 'common.cta.signUp' | t }}</button>
+                            [attr.aria-label]="'common.a11y.newsletterSubmit' | t">{{ 'common.cta.signUp' | t }}</button>
                     </div>
                 </div>
             </div>
@@ -284,7 +285,7 @@
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white">Designed by <a [routerLink]="path('home')" class="text-white">Dilalak Tec</a>
+            <p class="m-0 text-white">{{ 'common.footer.designedBy' | t }} <a [routerLink]="path('home')" class="text-white">Dilalak Tec</a>
             </p>
         </div>
     </div>

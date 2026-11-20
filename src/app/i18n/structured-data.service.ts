@@ -28,7 +28,7 @@ const SCRIPT_ID = 'ld-json-graph';
 const OG_IMAGE = `${BASE_URL}/assets/img/package-2.webp`;
 const LOGO = `${BASE_URL}/assets/img/favicon.png`;
 /** Citation date for Article / HowTo freshness signals. */
-const CONTENT_MODIFIED = '2026-10-24';
+const CONTENT_MODIFIED = '2026-11-20';
 const SPEAKABLE = {
   '@type': 'SpeakableSpecification',
   cssSelector: ['h1', '.aeo-answer', '.faq-answer', '.faq-question', '.intro-subtitle'],
@@ -137,22 +137,12 @@ export class StructuredDataService {
       email: SITE_EMAIL,
       priceRange: '$$',
       description: this.i18n.t('seo.home.description', locale),
-      alternateName: 'Sri Lanka Private Tours',
+      alternateName: this.i18n.t('common.schema.alternateName', locale),
       foundingDate: '1992',
       currenciesAccepted: 'USD, EUR, GBP',
       paymentAccepted: 'Cash, Bank Transfer',
       availableLanguage: ['English', 'German', 'French', 'Italian', 'Spanish', 'Polish', 'Russian', 'Dutch'],
-      knowsAbout: [
-        'Sri Lanka tours',
-        'Sri Lanka tour packages',
-        'Sri Lanka holidays',
-        'private chauffeur tours',
-        'Yala safari',
-        'Sigiriya',
-        'Ella train journey',
-        'Kandy Temple of the Tooth',
-        'Galle Fort',
-      ],
+      knowsAbout: this.schemaKnowsAbout(locale),
       areaServed: [
         { '@type': 'Country', name: 'Sri Lanka' },
         { '@type': 'Country', name: 'Germany' },
@@ -244,7 +234,7 @@ export class StructuredDataService {
         '@type': 'Person',
         '@id': `${BASE_URL}/#persondilanlakshitha`,
         name: 'Dilan Lakshitha',
-        jobTitle: 'Owner & Founder',
+        jobTitle: this.i18n.t('common.schema.jobOwner', locale),
         worksFor: { '@id': `${BASE_URL}/#organization` },
         image: `${BASE_URL}/assets/img/Team/1.webp`,
         url: aboutUrl,
@@ -258,7 +248,7 @@ export class StructuredDataService {
         '@type': 'Person',
         '@id': `${BASE_URL}/#personyohanmalshika`,
         name: 'Yohan Malshika',
-        jobTitle: 'Senior Consultant',
+        jobTitle: this.i18n.t('common.schema.jobConsultant', locale),
         worksFor: { '@id': `${BASE_URL}/#organization` },
         image: `${BASE_URL}/assets/img/Team/2.webp`,
         url: aboutUrl,
@@ -521,7 +511,7 @@ export class StructuredDataService {
       },
       url: this.i18n.url(pageId, locale),
       inLanguage: LOCALE_META[locale].htmlLang,
-      touristType: 'Private chauffeur tour',
+      touristType: this.i18n.t('common.schema.touristType', locale),
       brand: { '@id': `${BASE_URL}/#organization` },
       provider: { '@id': `${BASE_URL}/#travelagency` },
       offers: offer,
@@ -658,6 +648,14 @@ export class StructuredDataService {
       this.doc.head.appendChild(script);
     }
     script.textContent = JSON.stringify(data);
+  }
+
+  /** Locale specific knowsAbout list for TravelAgency schema (avoids English only graph on DE/IT/…). */
+  private schemaKnowsAbout(locale: Locale): string[] {
+    const value = this.i18n.get('common.schema.knowsAbout', locale);
+    return Array.isArray(value)
+      ? value.filter((item): item is string => typeof item === 'string')
+      : [];
   }
 
   /** Remove JSON LD on 404 so soft home schema is not emitted for unknown URLs. */
