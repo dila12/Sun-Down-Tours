@@ -88,21 +88,24 @@ app.use((req, res, next) => {
         next();
         return;
       }
-      // Short edge TTL only — long stale-while-revalidate served HTML that still
-      // pointed at deleted hashed chunks after deploys (chunk 500s in the SPA).
+      const headers = new Headers(response.headers);
+      // Short edge TTL only — long SWR kept Google on stale HTML / dead chunks.
       if (req.method === 'GET' && response.status === 200) {
-        const headers = new Headers(response.headers);
         headers.set('Cache-Control', 'public, s-maxage=60, stale-while-revalidate=30');
-        return writeResponseToNodeResponse(
-          new Response(response.body, {
-            status: response.status,
-            statusText: response.statusText,
-            headers,
-          }),
-          res,
-        );
+      } else {
+        // Never let the CDN cache 404/redirect/error HTML as a "HIT" for days.
+        headers.set('Cache-Control', 'private, no-store');
       }
-      return writeResponseToNodeResponse(response, res);
+      // Angular/SSR crashes must not become public 5xx — Google treats that as an outage.
+      const status = response.status >= 500 ? 404 : response.status;
+      return writeResponseToNodeResponse(
+        new Response(response.body, {
+          status,
+          statusText: status === response.status ? response.statusText : 'Not Found',
+          headers,
+        }),
+        res,
+      );
     })
     .catch((err) => {
       console.error('[ssr]', req.path, err);
@@ -110,12 +113,13 @@ app.use((req, res, next) => {
         next(err);
         return;
       }
-      // Never 500 unknown URLsGooglebot treats 5xx as a site outage.
+      // Never 500 unknown URLs — Googlebot treats 5xx as a site outage.
+      res.setHeader('Cache-Control', 'private, no-store');
       res
         .status(404)
         .type('text/html; charset=utf-8')
         .send(
-          '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Not Found</title></head><body><h1>404</h1><p>Not Found</p></body></html>',
+          '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, follow"><title>Not Found</title></head><body><h1>404</h1><p>Not Found</p></body></html>',
         );
     });
 });
