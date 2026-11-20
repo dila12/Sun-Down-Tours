@@ -569,14 +569,16 @@ ul {
 }
 
 .booking-sidebar {
-  /* Sit just under the sticky top bar (was 100pxleft a large empty band) */
-  --booking-sidebar-top: 3.75rem;
+  /* Sit under the sticky top bar; keep the whole card in one viewport. */
+  --booking-sidebar-top: 3.5rem;
   position: sticky;
   top: var(--booking-sidebar-top);
-  /* No internal scrollbarthe card is compacted to fit one screen instead. */
-  max-height: none;
-  overflow: visible;
+  max-height: calc(100vh - var(--booking-sidebar-top) - 0.75rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding-bottom: 0.25rem;
+  scrollbar-width: thin;
 }
 
 .tour-details-body {
@@ -937,7 +939,14 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) and (max-height: 860px) {
+  .booking-review-ctas,
+  .booking-trust-strip {
+    display: none;
+  }
 }
 
 .booking-review-ctas__link {
@@ -1101,7 +1110,7 @@ ul {
 
 .mobile-booking-sheet__panel {
   width: 100%;
-  max-height: min(92vh, 780px);
+  max-height: min(96dvh, 100%);
   display: flex;
   flex-direction: column;
   background: #f4f7f9;

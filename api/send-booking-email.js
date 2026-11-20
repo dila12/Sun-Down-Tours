@@ -23,13 +23,81 @@ export default async function handler(req, res) {
     tour,
     orderNumber,
     total,
+    packageSubtotal,
+    guideDiscount,
     bookingDate,
     travelDate,
     paymentMethod,
+    hotelStarLabel,
+    guideOptionLabel,
+    guideLanguageLabel,
+    withGuide,
   } = req.body;
 
   const paymentMethodLabel =
     paymentMethod || "Payment Later (Pay at Destination)";
+
+  const hotelRow = hotelStarLabel
+    ? `<tr>
+                <td style="padding: 6px 0; font-weight: bold;">Hotel category:</td>
+                <td>${hotelStarLabel}</td>
+              </tr>`
+    : "";
+  const guideRow = guideOptionLabel
+    ? `<tr>
+                <td style="padding: 6px 0; font-weight: bold;">Guide:</td>
+                <td>${guideOptionLabel}</td>
+              </tr>`
+    : "";
+  const guideLangRow =
+    withGuide && guideLanguageLabel
+      ? `<tr>
+                <td style="padding: 6px 0; font-weight: bold;">Guide language:</td>
+                <td>${guideLanguageLabel}</td>
+              </tr>`
+      : "";
+  const packageRow =
+    typeof packageSubtotal === "number" && guideDiscount > 0
+      ? `<tr>
+                <td style="padding: 6px 0; font-weight: bold;">Package total:</td>
+                <td>$${packageSubtotal}</td>
+              </tr>
+              <tr>
+                <td style="padding: 6px 0; font-weight: bold;">Without guide saving:</td>
+                <td>-$${guideDiscount}</td>
+              </tr>`
+      : "";
+
+  const hotelRowCustomer = hotelStarLabel
+    ? `<tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Hotel category</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">${hotelStarLabel}</td>
+              </tr>`
+    : "";
+  const guideRowCustomer = guideOptionLabel
+    ? `<tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Guide</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">${guideOptionLabel}</td>
+              </tr>`
+    : "";
+  const guideLangRowCustomer =
+    withGuide && guideLanguageLabel
+      ? `<tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Guide language</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">${guideLanguageLabel}</td>
+              </tr>`
+      : "";
+  const packageRowCustomer =
+    typeof packageSubtotal === "number" && guideDiscount > 0
+      ? `<tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Package total</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">$${packageSubtotal}</td>
+              </tr>
+              <tr>
+                <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Without guide saving</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;">-$${guideDiscount}</td>
+              </tr>`
+      : "";
 
   try {
     const transporter = nodemailer.createTransport({
@@ -131,10 +199,14 @@ export default async function handler(req, res) {
                 <td style="padding: 6px 0; font-weight: bold;">Duration:</td>
                 <td>${tour.duration}</td>
               </tr>
+              ${hotelRow}
+              ${guideRow}
+              ${guideLangRow}
               <tr>
                 <td style="padding: 6px 0; font-weight: bold;">Travel Date:</td>
                 <td>${new Date(travelDate).toLocaleString()}</td>
               </tr>
+              ${packageRow}
               <tr>
                 <td style="padding: 6px 0; font-weight: bold;">Total Amount:</td>
                 <td style="color: #16a34a; font-weight: bold;">$${total}</td>
@@ -211,12 +283,16 @@ export default async function handler(req, res) {
                 <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Duration</td>
                 <td style="padding:10px;border:1px solid #e5e7eb;">${tour.duration}</td>
               </tr>
+              ${hotelRowCustomer}
+              ${guideRowCustomer}
+              ${guideLangRowCustomer}
               <tr>
                 <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Booking Date</td>
                 <td style="padding:10px;border:1px solid #e5e7eb;">
                   ${new Date(bookingDate).toLocaleString()}
                 </td>
               </tr>
+              ${packageRowCustomer}
               <tr>
                 <td style="padding:10px;border:1px solid #e5e7eb;font-weight:bold;">Total Amount</td>
                 <td style="padding:10px;border:1px solid #e5e7eb;color:#16a34a;font-weight:bold;">

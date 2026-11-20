@@ -154,8 +154,80 @@
 
     <!-- Standard online booking: 1 to 6 travelers (warnings never block checkout) -->
     <ng-container *ngIf="!isGroupBooking">
+      <div class="booking-options" *ngIf="showHotelOptions || showGuideOptions">
+        <p class="booking-options__driver" *ngIf="showGuideOptions">{{ 'common.booking.driverAlwaysEnglish' | t }}</p>
+        <div class="booking-options__grid">
+          <div class="booking-options__block" *ngIf="showHotelOptions">
+            <p class="field-label">{{ 'common.booking.hotelCategory' | t }} <span class="req">*</span></p>
+            <div class="option-pills" role="radiogroup" [attr.aria-label]="'common.booking.hotelCategory' | t">
+              <button
+                type="button"
+                class="option-pill"
+                [class.is-active]="hotelStar === '4'"
+                [attr.aria-pressed]="hotelStar === '4'"
+                (click)="onHotelStarChange('4')"
+              >
+                {{ 'common.booking.hotel4StarShort' | t }}
+              </button>
+              <button
+                type="button"
+                class="option-pill"
+                [class.is-active]="hotelStar === '3'"
+                [attr.aria-pressed]="hotelStar === '3'"
+                (click)="onHotelStarChange('3')"
+              >
+                {{ 'common.booking.hotel3StarShort' | t }}
+              </button>
+            </div>
+          </div>
+
+          <div class="booking-options__block" *ngIf="showGuideOptions">
+            <p class="field-label">{{ 'common.booking.guideOption' | t }} <span class="req">*</span></p>
+            <div class="option-pills" role="radiogroup" [attr.aria-label]="'common.booking.guideOption' | t">
+              <button
+                type="button"
+                class="option-pill"
+                [class.is-active]="withGuide"
+                [attr.aria-pressed]="withGuide"
+                (click)="onWithGuideChange(true)"
+              >
+                {{ 'common.booking.withGuide' | t }}
+              </button>
+              <button
+                type="button"
+                class="option-pill"
+                [class.is-active]="!withGuide"
+                [attr.aria-pressed]="!withGuide"
+                (click)="onWithGuideChange(false)"
+              >
+                {{ 'common.booking.withoutGuide' | t }}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-options__row" *ngIf="showGuideOptions && withGuide">
+          <label class="field-label" for="guideLang-{{ filecode }}">{{ 'common.booking.guideLanguage' | t }} <span class="req">*</span></label>
+          <div class="field-wrap">
+            <i class="fa fa-language field-icon" aria-hidden="true"></i>
+            <select
+              id="guideLang-{{ filecode }}"
+              class="field-input field-input--select"
+              [ngModel]="guideLanguage"
+              (ngModelChange)="onGuideLanguageChange($event)"
+              name="guideLanguage"
+              required
+            >
+              <option *ngFor="let lang of guideLanguages" [ngValue]="lang">
+                {{ ('common.booking.guideLang.' + lang) | t }}
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
       <div class="price-strip" *ngIf="canBookOnline">
-        <span>{{ travelers }} {{ 'common.booking.travelersWord' | t }}</span>
+        <span>{{ travelers }} {{ 'common.booking.travelersWord' | t }} · {{ hotelStarLabel }}</span>
         <strong>${{ total.toFixed(2) }}</strong>
       </div>
 
@@ -326,9 +398,17 @@
 
       <div class="total-bar" *ngIf="canBookOnline">
         <div class="total-bar__row">
-          <span class="total-bar__label">{{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})</span>
+          <span class="total-bar__label">
+            {{ 'common.booking.total' | t }} ({{ travelers }} {{ 'common.booking.travelersWord' | t }})
+            <small class="total-bar__meta" *ngIf="showHotelOptions || (showGuideOptions && withGuide)">
+              <ng-container *ngIf="showHotelOptions">{{ hotelStarLabel }}</ng-container>
+              <ng-container *ngIf="showHotelOptions && showGuideOptions && withGuide"> · </ng-container>
+              <ng-container *ngIf="showGuideOptions && withGuide">{{ guideOptionLabel }} · {{ guideLanguageLabel }}</ng-container>
+            </small>
+          </span>
           <div class="total-bar__amount">
             <strong>${{ total.toFixed(2) }}</strong>
+            <small class="total-bar__per">{{ 'common.booking.perReservation' | t }}</small>
           </div>
         </div>
         <div class="payment-method" role="status">

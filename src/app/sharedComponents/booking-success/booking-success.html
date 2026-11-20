@@ -76,6 +76,18 @@
               <dt>{{ 'bookingSuccess.tourType' | t }}</dt>
               <dd>{{ tour?.tourType || emptyValue }}</dd>
             </div>
+            <div class="invoice-dl__row" *ngIf="booking?.hotelStarLabel">
+              <dt>{{ 'bookingSuccess.hotelCategory' | t }}</dt>
+              <dd>{{ booking.hotelStarLabel }}</dd>
+            </div>
+            <div class="invoice-dl__row" *ngIf="booking?.guideOptionLabel">
+              <dt>{{ 'bookingSuccess.guideOption' | t }}</dt>
+              <dd>{{ booking.guideOptionLabel }}</dd>
+            </div>
+            <div class="invoice-dl__row" *ngIf="booking?.guideLanguageLabel">
+              <dt>{{ 'bookingSuccess.guideLanguage' | t }}</dt>
+              <dd>{{ booking.guideLanguageLabel }}</dd>
+            </div>
             <div class="invoice-dl__row">
               <dt>{{ 'bookingSuccess.payment' | t }}</dt>
               <dd class="invoice-dl__highlight">{{ 'bookingSuccess.payAtDestination' | t }}</dd>

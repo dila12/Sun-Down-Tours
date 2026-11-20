@@ -42,6 +42,14 @@ import {
   type TourDemandHint,
 } from '../../utils/booking-demand.util';
 import { trackTourBookingSuccess } from '../../utils/third-party-scripts.util';
+import {
+  GUIDE_LANGUAGES,
+  guideDiscountUsd,
+  hasThreeStarPricing,
+  threeStarPackageTotal,
+  type GuideLanguage,
+  type HotelStar,
+} from '../../utils/tour-hotel-prices';
 
 interface DialCountry {
   name: string;
@@ -122,7 +130,14 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
   orderNumber = '';
   prices: Record<string, number> = {};
   subtotal = 0;
+  /** Package subtotal before guide discount. */
+  packageSubtotal = 0;
+  guideDiscount = 0;
   total = 0;
+  hotelStar: HotelStar = '4';
+  withGuide = true;
+  guideLanguage: GuideLanguage = 'english';
+  readonly guideLanguages = GUIDE_LANGUAGES;
   bookingDate: Date = new Date();
   travelDate?: Date;
   firstName = '';
@@ -376,6 +391,10 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
       this.applyPrices(this.priceList);
     }
     if (changes['tour'] || changes['filecode'] || changes['pageId']) {
+      if (!this.showHotelOptions) {
+        this.hotelStar = '4';
+      }
+      this.updateAmounts();
       this.applyDefaultTravelDate();
       this.refreshDateStatus();
     }
@@ -444,6 +463,51 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
 
   get canBookOnline(): boolean {
     return !this.isGroupBooking && !this.isLoadingPrices && this.total > 0;
+  }
+
+  /** Multi day tours that publish a 3 star price table. */
+  get showHotelOptions(): boolean {
+    return hasThreeStarPricing(this.filecode);
+  }
+
+  get showGuideOptions(): boolean {
+    return this.tourLengthDays >= 2;
+  }
+
+  get hotelStarLabel(): string {
+    return this.i18n.t(
+      this.hotelStar === '3' ? 'common.booking.hotel3Star' : 'common.booking.hotel4Star',
+    );
+  }
+
+  get guideOptionLabel(): string {
+    return this.i18n.t(
+      this.withGuide ? 'common.booking.withGuide' : 'common.booking.withoutGuide',
+    );
+  }
+
+  get guideLanguageLabel(): string {
+    return this.i18n.t(`common.booking.guideLang.${this.guideLanguage}`);
+  }
+
+  onHotelStarChange(star: HotelStar): void {
+    this.hotelStar = star;
+    this.updateAmounts();
+    this.cdr.markForCheck();
+  }
+
+  onWithGuideChange(withGuide: boolean): void {
+    this.withGuide = withGuide;
+    if (withGuide && !this.guideLanguage) {
+      this.guideLanguage = 'english';
+    }
+    this.updateAmounts();
+    this.cdr.markForCheck();
+  }
+
+  onGuideLanguageChange(lang: GuideLanguage): void {
+    this.guideLanguage = lang;
+    this.cdr.markForCheck();
   }
 
   private loadAvailabilityConfig(): void {
@@ -545,13 +609,22 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
 
   updateAmounts(): void {
     if (this.isGroupBooking) {
+      this.packageSubtotal = 0;
+      this.guideDiscount = 0;
       this.subtotal = 0;
       this.total = 0;
       return;
     }
     const key = String(this.travelers);
-    this.subtotal = this.prices?.[key] ?? 0;
-    this.total = this.subtotal;
+    const fourStar = this.prices?.[key] ?? 0;
+    const threeStar = threeStarPackageTotal(this.filecode, this.travelers);
+    const useThreeStar = this.showHotelOptions && this.hotelStar === '3';
+    this.packageSubtotal = useThreeStar ? threeStar : fourStar;
+    this.guideDiscount = this.showGuideOptions
+      ? guideDiscountUsd(this.tourLengthDays, this.withGuide)
+      : 0;
+    this.subtotal = this.packageSubtotal;
+    this.total = Math.max(0, this.packageSubtotal - this.guideDiscount);
   }
 
   onTravelDateChange(dateString: string): void {
@@ -692,9 +765,19 @@ export class TourBookingCardComponent implements OnInit, OnChanges {
       tour: this.tour,
       orderNumber: this.orderNumber,
       total: this.total,
+      packageSubtotal: this.packageSubtotal,
+      guideDiscount: this.guideDiscount,
       bookingDate: this.bookingDate,
       travelDate: this.travelDate,
       paymentMethod: this.i18n.t('common.booking.payAtDestination'),
+      hotelStar: this.showHotelOptions ? this.hotelStar : null,
+      hotelStarLabel: this.showHotelOptions ? this.hotelStarLabel : null,
+      withGuide: this.showGuideOptions ? this.withGuide : null,
+      guideOptionLabel: this.showGuideOptions ? this.guideOptionLabel : null,
+      guideLanguage: this.showGuideOptions && this.withGuide ? this.guideLanguage : null,
+      guideLanguageLabel:
+        this.showGuideOptions && this.withGuide ? this.guideLanguageLabel : null,
+      tourDays: this.tourLengthDays,
     };
 
     this.isSubmitting = true;
