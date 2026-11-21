@@ -1026,7 +1026,7 @@ export const en: Dict = {
       keywords: 'Sri Lanka safari, Yala safari, Udawalawe jeep safari, safari booking tips',
     },
     guideBeaches: {
-      title: 'Sri Lanka Beaches Guide | Mirissa, Hiriketiya, Galle & East Coast',
+      title: 'Sri Lanka Beaches | Mirissa, Hiriketiya & East Coast',
       description:
         'Choose the right Sri Lanka beach for your dates: Mirissa, Hiriketiya, Galle coast, west coast resorts and east coast bays compared by monsoon season.',
       keywords: 'sri lanka beaches, sri lanka beach, Mirissa, Hiriketiya, Galle beaches, best beaches Sri Lanka',
@@ -1176,7 +1176,7 @@ export const en: Dict = {
       keywords: "Sri Lanka luxury tour, boutique private chauffeur, premium Sri Lanka holiday",
     },
     guideAirportTransfers: {
-      title: 'Sri Lanka Airport Transfers | CMB Drive Times & Private Pickup',
+      title: 'Sri Lanka Airport Transfers | CMB Times & Private Pickup',
       description:
         'Private transfers from Colombo Bandaranaike (CMB): drive times to Negombo, Colombo, Waskaduwa, Kandy, Sigiriya and Galle, night arrivals and fixed quotes.',
       keywords: 'Colombo airport transfer, CMB private pickup, Negombo airport transfer, Kalutara airport transfer',
@@ -1275,7 +1275,7 @@ export const en: Dict = {
       keywords: "Sri Lanka in July, July Sri Lanka weather",
     },
     monthAugust: {
-      title: 'Sri Lanka in August | Weather, East Coast & Cultural Triangle',
+      title: 'Sri Lanka in August | Weather, East Coast & Triangle',
       description:
         'Sri Lanka in August: southwest monsoon vs east coast, Sigiriya and Kandy Perahera timing, Yala safari notes and private itinerary ideas for European travellers.',
       keywords: 'sri lanka in august, weather in Sri Lanka August, August Sri Lanka holiday',

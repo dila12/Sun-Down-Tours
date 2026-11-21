@@ -209,7 +209,7 @@ export const SEO_CTR_COPY = {
   de: {
     home: {
       title: "Privatreise Sri Lanka mit Fahrer | 5-10 Tage",
-      description: "Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. 5–10 Tage flexibel geplant. Team seit 1992. Jetzt anfragen für ein Angebot. Team seit 1992.",
+      description: "Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. Flexible 5–10-Tage-Routen, lokales Team seit 1992. Jetzt unverbindlich anfragen.",
       keywords: "Privatreise Sri Lanka, Rundreise mit Fahrer, Sri Lanka Urlaub privat",
     },
     tours: {
@@ -358,8 +358,8 @@ export const SEO_CTR_COPY = {
       keywords: "Storno Sri Lanka Tour, kostenlos stornieren 14 Tage, Sundown Tours Policy",
     },
     restaurants: {
-      title: "Essen auf Sri Lanka | Kuste & Tour-Tipps",
-      description: "Wo Gäste auf Privatreisen essen: Meeresfruchte an der Kuste, Reis und Curry, plus Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen. Jetzt anfragen.",
+      title: "Essen auf Sri Lanka | Kuste und Tour Tipps",
+      description: "Wo Gäste auf Privatreisen essen: Meeresfrüchte an der Küste, Reis und Curry sowie das Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen.",
       keywords: "Restaurants Sri Lanka, Sundown Beach Restaurant, Essen auf Rundreise",
     },
     marketNetherlands: {
@@ -431,7 +431,7 @@ export const SEO_CTR_COPY = {
     },
     tour7: {
       title: "Circuit privé 7 jours | Wilpattu & Mirissa",
-      description: "Safari Wilpattu, Sigiriya, Kandy, Ella et Mirissa (baleines en option). Hôtels 4 étoiles, chauffeur privé. Demandez un devis. Demandez un devis gratuit.",
+      description: "Safari Wilpattu, Sigiriya, Kandy, Ella et plage de Mirissa avec observation des baleines en option. Hôtels 4 étoiles. Demandez un devis gratuit.",
       keywords: "circuit Sri Lanka 7 jours, Wilpattu Mirissa, circuit privé avec chauffeur",
     },
     tour10: {
@@ -471,22 +471,22 @@ export const SEO_CTR_COPY = {
     },
     ellaDay: {
       title: "Excursion Ella avec chauffeur | Nine Arch",
-      description: "Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et Ravana Falls avec chauffeur. Rythme flexible. Demandez un devis. Demandez un devis gratuit.",
+      description: "Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et chutes de Ravana avec chauffeur. Rythme flexible. Demandez un devis gratuit.",
       keywords: "excursion Ella, Nine Arch Bridge, chauffeur privé Sri Lanka",
     },
     galleDay: {
       title: "Excursion Galle avec chauffeur | Fort hollandais",
-      description: "Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.",
+      description: "Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud avec chauffeur privé. Demandez un devis gratuit aujourd’hui.",
       keywords: "excursion Galle, Fort de Galle privé, côte sud Sri Lanka chauffeur",
     },
     kandyDay: {
       title: "Excursion Kandy avec chauffeur | Temple de la Dent",
-      description: "Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur. Demandez un devis gratuit. Demandez un devis gratuit.",
+      description: "Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur privé. Demandez un devis gratuit dès aujourd’hui.",
       keywords: "excursion Kandy, Temple de la Dent, chauffeur privé Kandy",
     },
     sigiriyaDay: {
       title: "Excursion Sigiriya avec chauffeur | Rocher du Lion",
-      description: "Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village. Avec chauffeur. Demandez un devis. Demandez un devis gratuit.",
+      description: "Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village avec chauffeur. Demandez un devis gratuit aujourd’hui.",
       keywords: "excursion Sigiriya, Rocher du Lion, grottes Dambulla chauffeur",
     },
     destinations: {
@@ -556,7 +556,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Ou manger a Sri Lanka | Cote & conseils tour",
-      description: "Ou mangent les voyageurs en circuit privé: fruits de mer cote, rice and curry, plus Sundown Beach Restaurant a Waskaduwa. Demandez un devis.",
+      description: "Ou mangent les voyageurs en circuit privé: fruits de mer cote, riz et curry et Sundown Beach Restaurant a Waskaduwa. Demandez un devis gratuit.",
       keywords: "restaurants Sri Lanka, Sundown Beach Restaurant, manger en circuit",
     },
     marketNetherlands: {
@@ -571,7 +571,7 @@ export const SEO_CTR_COPY = {
     },
     marketFrance: {
       title: "Circuit privé Sri Lanka depuis la France",
-      description: "Circuits privés Sri Lanka pour voyageurs de France: avec chauffeur, rythme flexible, equipe locale depuis 1992. Demandez un devis. Demandez un devis.",
+      description: "Circuits privés au Sri Lanka pour voyageurs de France : chauffeur local, rythme flexible, équipe depuis 1992. Demandez un devis gratuit dès maintenant.",
       keywords: "circuit Sri Lanka France, voyage privé chauffeur, tour depuis France",
     },
     marketItaly: {
@@ -698,7 +698,7 @@ export const SEO_CTR_COPY = {
     },
     destElla: {
       title: "Ella Sri Lanka | Nine Arch Bridge e colline",
-      description: "Pianifica Ella: Nine Arch Bridge, Little Adams Peak e te per una giornata o un soggiorno. Con autista. Richiedi un preventivo. Richiedi un preventivo.",
+      description: "Pianifica Ella: Nine Arch Bridge, Little Adams Peak e piantagioni di tè per una giornata o un soggiorno con autista. Richiedi un preventivo gratis.",
       keywords: "Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, tour privato Ella",
     },
     destSigiriya: {
@@ -753,7 +753,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Dove mangiare in Sri Lanka | Costa e tour tips",
-      description: "Dove mangiano i viaggiatori in tour privato: seafood in costa, rice and curry, piu Sundown Beach Restaurant a Waskaduwa. Richiedi un preventivo.",
+      description: "Dove mangiano i viaggiatori in tour privato: frutti di mare in costa, riso e curry, piu Sundown Beach Restaurant a Waskaduwa. Richiedi un preventivo.",
       keywords: "ristoranti Sri Lanka, Sundown Beach Restaurant, mangiare in tour",
     },
     marketNetherlands: {
@@ -880,12 +880,12 @@ export const SEO_CTR_COPY = {
     },
     sigiriyaDay: {
       title: "Excursión Sigiriya con chofer | Roca del León",
-      description: "Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo. Con chofer. Pide un presupuesto gratis. Pide un presupuesto gratis.",
+      description: "Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo con chofer privado. Pide hoy un presupuesto gratis sin compromiso.",
       keywords: "excursión Sigiriya, Roca del León, cuevas Dambulla chofer",
     },
     destinations: {
       title: "Destinos Sri Lanka | Ella, Sigiriya, Yala, Galle",
-      description: "Destinos para circuitos privados: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto. Pide un presupuesto.",
+      description: "Destinos para circuitos privados en Sri Lanka: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto.",
       keywords: "destinos Sri Lanka, Ella Sigiriya Yala, lugares circuito privado, Galle Mirissa",
     },
     guides: {
@@ -950,7 +950,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Dónde comer en Sri Lanka | Costa y tips de tour",
-      description: "Dónde comen los viajeros en circuito privado: mariscos en costa, rice and curry, más Sundown Beach Restaurant en Waskaduwa. Pide un presupuesto.",
+      description: "Dónde comen los viajeros en circuito privado: mariscos en costa, arroz con curry, más Sundown Beach Restaurant en Waskaduwa. Pide un presupuesto.",
       keywords: "restaurantes Sri Lanka, Sundown Beach Restaurant, comer en circuito",
     },
     marketNetherlands: {
@@ -1002,12 +1002,12 @@ export const SEO_CTR_COPY = {
     },
     tours: {
       title: "Prywatne wycieczki Sri Lanka | 4-10 dni z kierowcą",
-      description: "Porownaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plaża. Na miare, bez autokarow grupowych. Zapytaj o ofertę. Zapytaj o ofertę.",
+      description: "Porównaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plażą. Na miarę, bez autokarów grupowych. Zapytaj o bezpłatną ofertę.",
       keywords: "pakiety Sri Lanka, wycieczka prywatna z kierowcą, tour 7 dni, itineraria",
     },
     services: {
       title: "Prywatny kierowca i uslugi tour | Sri Lanka",
-      description: "Wycieczki z kierowcą, urlopy na miare i jednodniowe wycieczki po Sri Lance. Elastyczne tempo, meet na lotnisku. Zapytaj o ofertę. Zapytaj o ofertę.",
+      description: "Prywatne wycieczki z kierowcą, urlopy na miarę i jednodniowe trasy po Sri Lance. Elastyczne tempo, odbiór na lotnisku. Zapytaj o bezpłatną ofertę.",
       keywords: "kierowca Sri Lanka, wycieczka na miare, jednodniowa wycieczka, usluga prywatna",
     },
     about: {
@@ -1057,7 +1057,7 @@ export const SEO_CTR_COPY = {
     },
     tour2ey: {
       title: "2-dniowa wycieczka | Ella i safari Yala",
-      description: "Weekend Ella i prywatne jeep-safari w Yala z kierowcą i hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.",
+      description: "Weekend w Ella i prywatne jeep-safari w Yala z kierowcą oraz hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę wycieczki.",
       keywords: "safari Yala 2 dni, wycieczka Ella Yala, prywatny kierowca Sri Lanka",
     },
     ellaDay: {
@@ -1067,7 +1067,7 @@ export const SEO_CTR_COPY = {
     },
     galleDay: {
       title: "Wycieczka jednodniowa Galle | Fort holenderski",
-      description: "Prywatny dzień w Galle: mury Fortu holenderskiego, latarnia i postoje na południu. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.",
+      description: "Prywatny dzień w Galle: mury holenderskiego Fortu, latarnia morska i postoje na południowym wybrzeżu z kierowcą. Zapytaj o bezpłatną ofertę.",
       keywords: "wycieczka Galle, Fort Galle prywatnie, południowe wybrzeże Sri Lanka",
     },
     kandyDay: {
@@ -1077,7 +1077,7 @@ export const SEO_CTR_COPY = {
     },
     sigiriyaDay: {
       title: "Wycieczka jednodniowa Sigiriya | Lwia Skała",
-      description: "Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wieś. Z kierowcą. Zapytaj o bezpłatną ofertę. Zapytaj o bezpłatną ofertę.",
+      description: "Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wizyta w wiosce z kierowcą. Zapytaj o bezpłatną ofertę wycieczki.",
       keywords: "wycieczka Sigiriya, Lwia Skała, jaskinie Dambulla z kierowcą",
     },
     destinations: {
@@ -1107,7 +1107,7 @@ export const SEO_CTR_COPY = {
     },
     destKandy: {
       title: "Kandy Sri Lanka | Świątynia Zebu przewodnik",
-      description: "Odkryj Kandy: Świątynia Zebu, jezioro i wrota wzgorz na prywatnych objazdach z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę. Zapytaj o ofertę.",
+      description: "Odkryj Kandy: Świątynia Zęba, jezioro i wrota wzgórz na prywatnych objazdach Sri Lanki z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę już dziś.",
       keywords: "Kandy Sri Lanka, Świątynia Zebu, wycieczka prywatna Kandy, wzgórza",
     },
     destGalle: {
@@ -1147,7 +1147,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Gdzie jesc na Sri Lance | Wybrzeze i tipy tour",
-      description: "Gdzie jedza podrozni na wycieczce prywatnej: owoce morza na wybrzezu, rice and curry oraz Sundown Beach Restaurant w Waskaduwa. Zapytaj o ofertę.",
+      description: "Gdzie jedza podrozni na wycieczce prywatnej: owoce morza na wybrzezu, ryż z curry oraz Sundown Beach Restaurant w Waskaduwa. Zapytaj o ofertę.",
       keywords: "restauracje Sri Lanka, Sundown Beach Restaurant, jedzenie na wycieczce",
     },
     marketNetherlands: {
@@ -1214,12 +1214,12 @@ export const SEO_CTR_COPY = {
     },
     contact: {
       title: "Контакты Sundown Tours | Расчет тура Шри Ланка",
-      description: "Спланируйте частный тур по Шри Ланке с водителем. Укажите даты и стиль; отвечаем обычно в течение дня. С 1992. Запросите расчет. Запросите расчет.",
+      description: "Спланируйте частный тур по Шри-Ланке с водителем. Укажите даты и стиль отдыха — отвечаем обычно в течение дня. С 1992 года. Запросите расчёт.",
       keywords: "контакт тур Шри Ланка, бесплатный расчет, заказать водителя Шри Ланка",
     },
     tour7: {
       title: "7-дневный тур | Вилпатту и Мирисса",
-      description: "Сафари Вилпатту, Сигирия, Канди, Элла и Мирисса (киты по желанию). Отели 4★, частный водитель. Запросите бесплатный расчёт. Запросите бесплатный расчёт.",
+      description: "Сафари в Вилпатту, Сигирия, Канди, Элла и пляж Мириссы с китами по желанию. Отели 4★ и частный водитель. Запросите бесплатный расчёт тура сегодня.",
       keywords: "7-дневный тур Шри Ланка, Вилпатту Мирисса, частный водитель",
     },
     tour10: {
@@ -1234,7 +1234,7 @@ export const SEO_CTR_COPY = {
     },
     tour6: {
       title: "6-дневный тур | Сафари Яла и пляж",
-      description: "Сигирия, Канди, чай, сафари Яла и пляж юго-запада, отели 4★. Бесплатная отмена до 14 дней. Запросите бесплатный расчёт. Запросите бесплатный расчёт.",
+      description: "Сигирия, Канди, чайные холмы, сафари в Яла и пляж юго-запада в отелях 4★. Бесплатная отмена до 14 дней. Запросите бесплатный расчёт тура сегодня.",
       keywords: "6-дневный тур Шри Ланка, сафари Яла пляж, частный водитель",
     },
     tour5: {
@@ -1249,7 +1249,7 @@ export const SEO_CTR_COPY = {
     },
     tour2ek: {
       title: "2-дневный тур | Элла и Канди",
-      description: "Короткий тур в холмы: Удавалава, Элла и Храм Зуба в Канди с частным водителем. Гибкий темп. Запросите бесплатный расчёт. Запросите бесплатный расчёт.",
+      description: "Короткий тур в холмы: Удавалава, достопримечательности Эллы и Храм Зуба в Канди с частным водителем. Гибкий темп. Запросите бесплатный расчёт.",
       keywords: "тур Элла Канди 2 дня, Храм Зуба, частный водитель Шри Ланка",
     },
     tour2ey: {
@@ -1274,7 +1274,7 @@ export const SEO_CTR_COPY = {
     },
     sigiriyaDay: {
       title: "Дневной тур Сигирия | Львиная скала",
-      description: "Частный день в Сигирии: Львиная скала или Пидурангала, пещеры Дамбуллы и деревня. С водителем. Запросите бесплатный расчёт. Запросите бесплатный расчёт.",
+      description: "Частный день в Сигирии: Львиная скала или Пидурангала, пещеры Дамбуллы и деревня с водителем. Гибкий темп. Запросите бесплатный расчёт тура.",
       keywords: "дневной тур Сигирия, Львиная скала, пещеры Дамбулла с водителем",
     },
     destinations: {
@@ -1344,7 +1344,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Где есть на Шри Ланке | Побережье и советы тура",
-      description: "Где едят путешественники в частном туре: морепродукты на побережье, rice and curry и Sundown Beach Restaurant в Васкадуве. Запросите расчет.",
+      description: "Где едят путешественники в частном туре: морепродукты на побережье, рис с карри и Sundown Beach Restaurant в Васкадуве. Запросите расчёт тура.",
       keywords: "рестораны Шри Ланка, Sundown Beach Restaurant, еда в туре",
     },
     marketNetherlands: {
@@ -1456,12 +1456,12 @@ export const SEO_CTR_COPY = {
     },
     ellaDay: {
       title: "Ella dagtocht met chauffeur | Nine Arch",
-      description: "Privé dag in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag een gratis offerte. Vraag een gratis offerte.",
+      description: "Privé dagtocht in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag vandaag een gratis offerte aan.",
       keywords: "Ella dagtocht, Nine Arch Bridge, privéchauffeur Sri Lanka",
     },
     galleDay: {
       title: "Galle dagtocht met chauffeur | Hollands fort",
-      description: "Privé dag in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.",
+      description: "Privé dagtocht in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust met chauffeur. Vraag vandaag een gratis offerte aan.",
       keywords: "Galle dagtocht, Galle Fort privé, zuidkust Sri Lanka chauffeur",
     },
     kandyDay: {
@@ -1471,7 +1471,7 @@ export const SEO_CTR_COPY = {
     },
     sigiriyaDay: {
       title: "Sigiriya dagtocht met chauffeur | Leeuwenrots",
-      description: "Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsleven. Met chauffeur. Vraag een gratis offerte. Vraag een gratis offerte.",
+      description: "Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsbezoek met chauffeur. Flexibel tempo. Vraag vandaag een gratis offerte.",
       keywords: "Sigiriya dagtocht, Leeuwenrots, Dambulla grotten met chauffeur",
     },
     destinations: {
@@ -1506,7 +1506,7 @@ export const SEO_CTR_COPY = {
     },
     destGalle: {
       title: "Galle Fort Sri Lanka | Zuidkust privé",
-      description: "Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse rondreis met chauffeur. Rustig tempo. Vraag een offerte. Vraag een offerte.",
+      description: "Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse privé rondreis met chauffeur. Rustig tempo. Vraag een gratis offerte.",
       keywords: "Galle Fort, Galle Sri Lanka, zuidkust privé, Galle dagtocht",
     },
     destMirissa: {
@@ -1526,7 +1526,7 @@ export const SEO_CTR_COPY = {
     },
     guideVisa: {
       title: "Visa & ETA Sri Lanka | Gids voor Europa",
-      description: "ETA en inreisbasics voor Europese reizigers voor een privé tour. Praktische notities, geen juridisch advies. Vraag een offerte. Vraag een offerte.",
+      description: "ETA en inreisbasics voor Europese reizigers vóór een privé tour door Sri Lanka. Praktische notities, geen juridisch advies. Vraag een offerte.",
       keywords: "visa Sri Lanka, ETA Sri Lanka, inreis Europa, reisdocumenten",
     },
     testimonials: {
@@ -1541,7 +1541,7 @@ export const SEO_CTR_COPY = {
     },
     restaurants: {
       title: "Eten op Sri Lanka | Kust & tourtips",
-      description: "Waar reizigers eten op privé tours: seafood aan de kust, rice and curry, plus Sundown Beach Restaurant in Waskaduwa. Vraag een offerte. Routes op maat.",
+      description: "Waar reizigers eten op privé rondreizen: zeevruchten aan de kust, rijst met curry, plus Sundown Beach Restaurant in Waskaduwa. Vraag een offerte.",
       keywords: "restaurants Sri Lanka, Sundown Beach Restaurant, eten op rondreis",
     },
     marketNetherlands: {

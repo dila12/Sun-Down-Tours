@@ -330,7 +330,7 @@ export const de: Dict = {
       typeSuv: 'SUV',
       typeKdh: 'Hochdach KDH',
       suvGrey: 'Grauer Honda SUV',
-      suvGreyAlt: 'Grauer Honda SUV fur private Sri Lanka Chauffeur-Touren',
+      suvGreyAlt: 'Grauer Honda SUV fur private Sri Lanka Chauffeur Touren',
       suvRed: 'Roter Honda SUV',
       suvRedAlt: 'Roter Honda SUV fur private Sri Lanka Fahrer Touren',
       kdhWhite: 'Weisser Hochdach Van',
@@ -366,12 +366,12 @@ export const de: Dict = {
         a: 'Ja. Wir planen private Rundreisen mit Fahrer fur Gaste aus Deutschland, der Schweiz, Osterreich und ganz Europa, mit englischsprachigen Fahrer Guides und WhatsApp Planung vor dem Flug.',
       },
       {
-        q: 'Bieten Sie Sri Lanka private tours aus Deutschland an?',
-        a: 'Ja. Sundown Tours ist visit sri lanka tours vor Ort: sri lanka tour und sri lanka holiday tours als private Rundreise mit Fahrer, nicht als Hubschrauber Tour und nicht als Flugticket.',
+        q: 'Bieten Sie private Sri Lanka Rundreisen aus Deutschland an?',
+        a: 'Ja. Sundown Tours plant vor Ort private Rundreisen mit Fahrer für Gäste aus Deutschland. Das ist keine Hubschrauber Tour und kein Flugticketverkauf.',
       },
       {
         q: 'Welche Uhrzeit hat Sri Lanka und welche Sprache spricht man?',
-        a: 'Uhrzeit Sri Lanka ist UTC+5:30 (sri lanka time). Sprache Sri Lanka: Singhalesisch und Tamilisch sind Amtssprachen, im Tourismus wird Englisch gesprochen. Deutschsprachige Planung machen wir per WhatsApp.',
+        a: 'Die Ortszeit in Sri Lanka ist UTC+5:30. Singhalesisch und Tamilisch sind Amtssprachen; im Tourismus wird Englisch gesprochen. Planung auf Deutsch machen wir per WhatsApp.',
       },
       {
         q: 'Welche Sprache spricht man in Sri Lanka?',
@@ -379,43 +379,43 @@ export const de: Dict = {
       },
       {
         q: 'Wie spat ist es in Sri Lanka?',
-        a: 'Time in sri lanka ist UTC+5:30. Gegenuber Deutschland sind das 4,5 Stunden im Winter und 3,5 Stunden in der Sommerzeit.',
+        a: 'Die Ortszeit in Sri Lanka ist UTC+5:30. Gegenüber Deutschland sind das 4,5 Stunden im Winter und 3,5 Stunden in der Sommerzeit.',
       },
       {
         q: 'Wie lange fliegt man nach Sri Lanka?',
-        a: 'Ab Frankfurt etwa 9,5 bis 11 Stunden in der Luft, plus Umsteigen. Wir verkaufen keine Tickets (kein sri lanka airlines Shop). Wir planen Abholung am Flughafen nach Ihrer Landung.',
+        a: 'Ab Frankfurt etwa 9,5 bis 11 Stunden in der Luft, plus Umsteigen. Wir verkaufen keine Flugtickets. Wir planen die Abholung am Flughafen nach Ihrer Landung.',
       },
       {
         q: 'Kann ich Euro in Sri Lanka Rupien wechseln?',
-        a: 'Ja. Euro in sri lanka rupien wechseln Sie an Banken, Wechselstuben oder per Automat in Rupien. 1 euro in sri lanka rupees ist ein Tageskurs, den wir nicht als Live Ticker fuhren. Rundreise Preise nennen wir klar vorab.',
+        a: 'Ja. Euro wechseln Sie an Banken, Wechselstuben oder am Automaten in Rupien. Der Tageskurs ändert sich; wir führen keinen Live Kurs. Rundreise Preise nennen wir klar vorab.',
       },
       {
         q: 'Wie lautet der heutige Name von Ceylon?',
-        a: 'Heutiger name von ceylon ist Sri Lanka. Ceylon land, sri lanka ceylon und ceylon sri lanka sind dieselbe Insel. Ceylon tee trinken Sie im Hochland, ceylon zimt sehen Sie im Gewurzgarten auf der Rundreise.',
+        a: 'Der heutige Name von Ceylon ist Sri Lanka. Ceylon Tee trinken Sie im Hochland, Ceylon Zimt sehen Sie im Gewürzgarten auf der Rundreise.',
       },
       {
         q: 'Wie ist die aktuelle Lage in Sri Lanka?',
-        a: 'Sri lanka aktuelle lage fur Urlaubsrouten: bei normaler Vorsicht und privatem Fahrer in der Regel gut bereisbar. Vor dem Flug die Hinweise des Auswartigen Amts lesen.',
+        a: 'Für übliche Urlaubsrouten ist Sri Lanka bei normaler Vorsicht und privatem Fahrer in der Regel gut bereisbar. Vor dem Flug die Hinweise des Auswärtigen Amts lesen.',
       },
       {
         q: 'Was kostet Urlaub Sri Lanka?',
-        a: 'Urlaub sri lanka kosten und sri lanka urlaub kosten hangen von Personen, Hotels und Saison ab. Eine private Rundreise mit Fahrer und Mittelklasse Hotels liegt oft deutlich unter einer reinen All Inclusive Resort Woche plus Inlandsfluge. Wir nennen ein klares Angebot.',
+        a: 'Die Kosten hängen von Personen, Hotels und Saison ab. Eine private Rundreise mit Fahrer und Mittelklasse Hotels liegt oft deutlich unter einer reinen All Inclusive Resort Woche plus Inlandsflügen. Wir nennen ein klares Angebot.',
       },
       {
-        q: 'Ist Sri Lanka Urlaub all inclusive?',
-        a: 'Urlaub sri lanka all inclusive im Resort Sinne ist ein anderes Produkt. Wir machen sri lanka pauschalreise privat: Fahrer, Auto, oft Hotels in Halbpension, plus Strandnachte zum Baden. Kein TUI Bus, kein Check24 Flugshop.',
+        q: 'Ist Sri Lanka Urlaub All Inclusive?',
+        a: 'All Inclusive im Resort Sinne ist ein anderes Produkt. Wir machen private Pauschalreisen: Fahrer, Auto, oft Hotels in Halbpension, plus Strandnächte zum Baden. Kein Reisebus Katalog und kein Flugshop.',
       },
       {
         q: 'Wie lange sollte eine Rundreise Sri Lanka 2 Wochen sein?',
-        a: 'Rundreise sri lanka 2 wochen (10 bis 14 Tage vor Ort) verbindet Kultur, Teeland, Safari und Baden. Sieben Tage reichen fur die Klassiker, wirken aber gedrungener.',
+        a: 'Eine Rundreise über zwei Wochen (10 bis 14 Tage vor Ort) verbindet Kultur, Teeland, Safari und Baden. Sieben Tage reichen für die Klassiker, wirken aber gedrängter.',
       },
       {
         q: 'Ist Sri Lanka Urlaub gefahrlich?',
-        a: 'Sri lanka urlaub gefahrlich: auf den Standardrouten bei privatem Fahrer in der Regel nicht. Vorsicht im Verkehr und vor Tempel Betrug. Auswartiges Amt vor dem Flug lesen.',
+        a: 'Auf den Standardrouten bei privatem Fahrer ist Sri Lanka in der Regel nicht gefährlich. Vorsicht im Verkehr und vor Tempel Betrug. Auswärtiges Amt vor dem Flug lesen.',
       },
       {
         q: 'Geht Sri Lanka mit Kindern?',
-        a: 'Ja. Sri lanka mit kindern funktioniert mit kurzen Etappen, Pool, Safari Vormittag und Strand. Private Tour, kein Reisebus.',
+        a: 'Ja. Mit Kindern funktioniert Sri Lanka mit kurzen Etappen, Pool, Safari am Vormittag und Strand. Private Tour, kein Reisebus.',
       },
     ],
   },
@@ -691,9 +691,9 @@ export const de: Dict = {
     eyebrow: 'Kundenstimmen',
     title: 'Was unsere Kunden sagen',
     intro:
-      'Lesen Sie aktuelles Feedback von Reisenden, die private Chauffeur-Rundreisen bei uns gebucht haben. Die Bewertungen stammen aus unserem Live-Review-Widget und unserem TripAdvisor-Profil wir erfinden keine Erfahrungsberichte oder Sternebewertungen auf dieser Seite.',
+      'Lesen Sie aktuelles Feedback von Reisenden, die private Chauffeur Rundreisen bei uns gebucht haben. Die Bewertungen stammen aus unserem Live Bewertungs Widget und unserem TripAdvisor Profil: wir erfinden keine Erfahrungsberichte oder Sternebewertungen auf dieser Seite.',
     attribution:
-      'Jede Bewertung ist der Plattform zugeordnet, auf der sie veroeffentlicht wurde. Wenn Review-Schema in Suchergebnissen erscheint, muss es sichtbaren Plattform-Bewertungen entsprechen.',
+      'Jede Bewertung ist der Plattform zugeordnet, auf der sie veröffentlicht wurde. Wenn Bewertungsschema in Suchergebnissen erscheint, muss es sichtbaren Plattform Bewertungen entsprechen.',
     ctaTripadvisor: 'TripAdvisor-Bewertungen oeffnen',
     ctaWhatsapp: 'Per WhatsApp fragen',
     ctaTours: 'Private Tourpakete ansehen',
@@ -745,16 +745,16 @@ export const de: Dict = {
     h1: 'Essen in Sri Lanka: Kuste, Galle Fort und Sundown Beach Restaurant',
     breadcrumb: 'Restaurants',
     intro:
-      'Gut essen in Sri Lanka heisst nicht eine einzige „Beste Restaurants“-Liste, sondern die Mahlzeit zur Kuste, zur Uhrzeit und zur Reststrecke nach dem Abendessen passend zu wahlen. Rice and Curry ist das Alltagsgericht im Inland; gegrillter Fisch pragt Sud und Westkuste; Galle Fort mischt koloniale Speisesale mit gutem Kaffee. Diese Seite erklart, wo Privatreisende wirklich essen, und listet danach die komplette Karte des Sundown Beach Restaurant in Waskaduwaunsere Kuchenstation zwischen Colombo und Galle.',
+      'Gut essen in Sri Lanka heisst nicht eine einzige „Beste Restaurants“-Liste, sondern die Mahlzeit zur Kuste, zur Uhrzeit und zur Reststrecke nach dem Abendessen passend zu wahlen. Reis und Curry ist das Alltagsgericht im Inland; gegrillter Fisch pragt Sud und Westkuste; Galle Fort mischt koloniale Speisesale mit gutem Kaffee. Diese Seite erklart, wo Privatreisende wirklich essen, und listet danach die komplette Karte des Sundown Beach Restaurant in Waskaduwaunsere Kuchenstation zwischen Colombo und Galle.',
     aroundTitle: 'Essen wahrend einer Rundreise',
     aroundBody:
-      'Auf einer Chauffeur Rundreise ist das Mittagessen meist ein Rice and Curry Haus, gewahlt nach Sauberkeit und Tempo, kein langer Gourmetstopp. Das Abendessen ist die echte Wahl: Hotelrestaurant, Strandgrill oder die Stadt, in der Sie ubernachten. Klaren Sie vor ganzer Fisch- oder Krabbenbestellung, ob der Preis pro Kilo oder pro Portion giltdie haufigste Rechnungsuberraschung an der Sudkuste.\n\nVegetarier kommen gut klar, wenn sie Gemusecurries ohne Maledivenfisch verlangen; Veganer sollten das klar sagen. Trinken Sie versiegeltes Wasser. 5 bis 10 % Trinkgeld reichen, wenn Service nicht schon enthalten ist.',
+      'Auf einer Chauffeur Rundreise ist das Mittagessen meist ein Reis und Curry Haus, gewahlt nach Sauberkeit und Tempo, kein langer Gourmetstopp. Das Abendessen ist die echte Wahl: Hotelrestaurant, Strandgrill oder die Stadt, in der Sie ubernachten. Klaren Sie vor ganzer Fisch- oder Krabbenbestellung, ob der Preis pro Kilo oder pro Portion giltdie haufigste Rechnungsuberraschung an der Sudkuste.\n\nVegetarier kommen gut klar, wenn sie Gemusecurries ohne Maledivenfisch verlangen; Veganer sollten das klar sagen. Trinken Sie versiegeltes Wasser. 5 bis 10 % Trinkgeld reichen, wenn Service nicht schon enthalten ist.',
     westTitle: 'Westkuste: Negombo, Kalutara und Waskaduwa',
     westBody:
-      'An der Westkuste landen die meisten Europafluge: erstes und letztes Essen einer Reise finden oft hier statt. Negombo hat Touristengrills am Strand; Colombo bietet Hotelrestaurants und einige starke lokale Rice and Curry Stuben. Zwischen Kalutara und Waskaduwa ist der Fang lokalThunfisch, Seer, Garnelen und Krabbeam selben Tag gekocht.\n\nDas Sundown Beach Restaurant liegt auf diesem Abschnitt (Nr. 302, Mahawaskaduwa, Waskaduwa). Gaste unserer Privattouren halten oft fur ein Meeresfruchte Mittagessen oder ein letztes Abendessen vor dem CMB Abflug. Taglich 8:00 bis 22:00 Uhr; Tisch unter +94 70 629 3585.',
+      'An der Westkuste landen die meisten Europafluge: erstes und letztes Essen einer Reise finden oft hier statt. Negombo hat Touristengrills am Strand; Colombo bietet Hotelrestaurants und einige starke lokale Reis und Curry Stuben. Zwischen Kalutara und Waskaduwa ist der Fang lokalThunfisch, Seer, Garnelen und Krabbeam selben Tag gekocht.\n\nDas Sundown Beach Restaurant liegt auf diesem Abschnitt (Nr. 302, Mahawaskaduwa, Waskaduwa). Gaste unserer Privattouren halten oft fur ein Meeresfruchte Mittagessen oder ein letztes Abendessen vor dem CMB Abflug. Taglich 8:00 bis 22:00 Uhr; Tisch unter +94 70 629 3585.',
     southTitle: 'Sudkuste und Galle Fort',
     southBody:
-      'Unawatuna, Mirissa und Tangalle sind am starksten bei schlicht gegrilltem Fisch mit Limette, Chili und Knoblauchbutter. Im Galle Fort servieren umgebaute hollandische Hauser sri lankische Gewurze mit internationaler Technik; Preise steigen innerhalb der Mauern, die Qualitat ist meist zuverlassig. Kombinieren Sie einen Vormittag auf den Wallen mit Mittagessen im Fortoder eine spatere Mahlzeit an der Kuste Kalutara und Waskaduwa, wenn Sie nach Norden zuruckfahren.\n\nFur einen breiteren Food PrimerHoppers, Kottu, Scharfegradelesen Sie unseren Kuchen Guide. Die Karte unten ist die des Sundown Beach Restaurant, keine generische Insel Liste.',
+      'Unawatuna, Mirissa und Tangalle sind am starksten bei schlicht gegrilltem Fisch mit Limette, Chili und Knoblauchbutter. Im Galle Fort servieren umgebaute hollandische Hauser sri lankische Gewurze mit internationaler Technik; Preise steigen innerhalb der Mauern, die Qualitat ist meist zuverlassig. Kombinieren Sie einen Vormittag auf den Wallen mit Mittagessen im Fortoder eine spatere Mahlzeit an der Kuste Kalutara und Waskaduwa, wenn Sie nach Norden zuruckfahren.\n\nFür eine breitere Einführung zu Hoppers, Kottu und Schärfegraden lesen Sie unseren Küchen Guide. Die Karte unten ist die des Sundown Beach Restaurant, keine generische Insel Liste.',
     title: 'Nahe Reiseziele & Touren entdecken',
     lead: 'Das Sundown Beach Restaurant in Waskaduwa lasst sich leicht mit Stopps an der Sudwestkuste und Tagestouren kombinierenGalle Fort, Strande und private Chauffeur Routen.',
     contactCta: 'Private Tour planen',
@@ -825,7 +825,7 @@ export const de: Dict = {
     home: {
       title: 'Privatreise Sri Lanka mit Fahrer | 5-10 Tage',
       description:
-        'Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. 5–10 Tage flexibel geplant. Team seit 1992. Jetzt anfragen für ein Angebot.',
+        'Private Rundreise Sri Lanka mit Fahrer für Reisende aus Europa. Flexible 5–10-Tage Routen, lokales Team seit 1992. Jetzt unverbindlich anfragen.',
       keywords: 'Privatreise Sri Lanka, Rundreise mit Fahrer, Sri Lanka Urlaub privat',
     },
     tours: {
@@ -961,7 +961,7 @@ export const de: Dict = {
       keywords: 'Kandy Sri Lanka, Zahntempel, Hügelland Rundreise mit Fahrer',
     },
     destDambulla: {
-      title: 'Dambulla Hohlentempel Guide | Tipps zum Goldenen Felsentempel',
+      title: 'Dambulla Höhlentempel | Tipps zum Goldenen Felsentempel',
       description:
         'Dambullas UNESCO Hohlentempel besuchen: Wandmalereien, Buddha Statuen, Aufstiegstipps und Kombination mit Sigiriya.',
       keywords: 'Dambulla Hohlentempel, Goldener Tempel Dambulla, Dambulla Sri Lanka',
@@ -985,7 +985,7 @@ export const de: Dict = {
       keywords: 'Sri Lanka Visum, Sri Lanka ETA, Einreise Europa, Reisedokumente',
     },
     guidePrivateDriver: {
-      title: 'Privater Fahrer Sri Lanka | Chauffeur-Guide',
+      title: 'Privater Fahrer Sri Lanka | Chauffeur Guide',
       description:
         'Was ein privater Fahrer auf Sri Lanka umfasst: Fahrzeug, Tempo, Hotelstops und typische Ablaufe für Europa-Gaste. Jetzt anfragen. Lokales Team vor Ort.',
       keywords: 'privater Fahrer Sri Lanka, Chauffeur Guide, Privatreise mit Fahrer',
@@ -1021,10 +1021,10 @@ export const de: Dict = {
       keywords: 'Sri Lanka Tee Land, Nuwara Eliya, Ella Hochland, Teeplantagen Sri Lanka',
     },
     guideFood: {
-      title: 'Sri Lanka Food Guide | Rice & Curry, Gewurze & Street Food',
+      title: 'Essens Guide Sri Lanka | Reis Curry und Streetfood',
       description:
-        'Sri Lankische Kuche: Rice & Curry, Hoppers, Kottu, Gewurze und Street Food Sie probieren sollten und wie Sie bestellen.',
-      keywords: 'Sri Lanka Essen, Rice and Curry, Street Food Sri Lanka, sri lankische Kuche',
+        'Sri lankische Küche: Reis und Curry, Hoppers, Kottu, Gewürze und Streetfood, die Sie probieren sollten und wie Sie bestellen.',
+      keywords: 'Sri Lanka Essen, Reis und Curry, Streetfood Sri Lanka, sri lankische Küche',
     },
     guidePacking: {
       title: 'Packliste Sri Lanka | Kleidung & Reise Utensilien',
@@ -1045,9 +1045,9 @@ export const de: Dict = {
       keywords: 'Storno Sri Lanka Tour, kostenlos stornieren 14 Tage, Sundown Tours Policy',
     },
     restaurants: {
-      title: 'Essen auf Sri Lanka | Kuste & Tour-Tipps',
+      title: 'Essen auf Sri Lanka | Kuste und Tour Tipps',
       description:
-        'Wo Gäste auf Privatreisen essen: Meeresfruchte an der Kuste, Reis und Curry, plus Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen.',
+        'Wo Gäste auf Privatreisen essen: Meeresfrüchte an der Küste, Reis und Curry sowie das Sundown Beach Restaurant in Waskaduwa. Jetzt anfragen.',
       keywords: 'Restaurants Sri Lanka, Sundown Beach Restaurant, Essen auf Rundreise',
     },
     testimonials: {

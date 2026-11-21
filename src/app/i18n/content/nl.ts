@@ -5,7 +5,7 @@ export const nl: Dict = {
   common: {
     brand: { name: 'Sundown Tours Sri Lanka', short: 'Sundown Tours' },
     nav: {
-      home: 'Home',
+      home: 'Start',
       tours: 'Rondreizen',
       services: 'Diensten',
       about: 'Over ons',
@@ -81,7 +81,7 @@ export const nl: Dict = {
       title: 'Uw reis wordt voorbereid',
       detail: "Foto's en tourdetails laden",
     },
-    breadcrumb: { home: 'Home' },
+    breadcrumb: { home: 'Start' },
     skipToContent: 'Ga naar de hoofdinhoud',
     faqTitle: 'Veelgestelde vragen',
     language: 'Taal',
@@ -540,7 +540,7 @@ export const nl: Dict = {
       errorToast: 'Bericht versturen mislukt',
       nameRequired: 'Vul uw naam in',
       emailRequired: 'Vul een geldig e mailadres in',
-      phoneRequired: 'Vul een geldig telefoonnummer in (7 to 15 cijfers)',
+      phoneRequired: 'Vul een geldig telefoonnummer in (7 tot 15 cijfers)',
       messageRequired: 'Vul uw bericht in',
       trustReply: 'Antwoord binnen 24u',
       trustPrivate: 'Prive aanvraag',
@@ -677,19 +677,19 @@ export const nl: Dict = {
 
   testimonials: {
     header: 'Klantbeoordelingen',
-    breadcrumb: 'Reviews',
-    eyebrow: 'Reviews',
+    breadcrumb: 'Beoordelingen',
+    eyebrow: 'Klantstemmen',
     title: 'Wat onze klanten zeggen',
     intro:
-      'Lees recente feedback van reizigers die prive chauffeursrondreizen bij ons boekten. De reviews hieronder komen uit onze live review-widget en ons TripAdvisor-profiel wij verzinnen geen testimonials of sterrenbeoordelingen op deze pagina.',
+      'Lees recente feedback van reizigers die privé chauffeurs rondreizen bij ons boekten. De beoordelingen hieronder komen uit ons live beoordelings widget en ons TripAdvisor profiel: wij verzinnen geen getuigenissen of sterrenbeoordelingen op deze pagina.',
     attribution:
-      'Elke review is toegeschreven aan het platform waar die is gepubliceerd. Als review-schema in zoekresultaten verschijnt, moet het overeenkomen met zichtbare platformreviews.',
-    ctaTripadvisor: 'Open TripAdvisor-reviews',
+      'Elke beoordeling is toegeschreven aan het platform waar die is gepubliceerd. Als beoordelingsschema in zoekresultaten verschijnt, moet het overeenkomen met zichtbare platform beoordelingen.',
+    ctaTripadvisor: 'Open TripAdvisor beoordelingen',
     ctaWhatsapp: 'Vraag ons via WhatsApp',
     ctaTours: 'Bekijk prive tourpakketten',
     topicsHeading: 'Gerelateerde tours en gidsen',
-    widgetHeading: 'Klantreviews',
-    widgetLoading: 'Reviews laden…',
+    widgetHeading: 'Klantbeoordelingen',
+    widgetLoading: 'Beoordelingen laden…',
     topics: {
       toursTitle: 'Reviews van tourpakketten',
       toursBody: 'Meerdaagse prive-itineraire die gasten vaak boeken na het lezen van reviews.',
@@ -778,16 +778,16 @@ export const nl: Dict = {
     h1: 'Waar eten in Sri Lanka: kust en Sundown Beach Restaurant',
     breadcrumb: 'Restaurants',
     intro:
-      'Goed eten in Sri Lanka hangt minder af van een enkele lijst met beste restaurants en meer van de kust, het tijdstip en hoe ver u na het diner wilt rijden. Rice and curry is het dagelijkse gerecht inland; gegrilde zeevruchten bepalen het zuiden en westen; Galle Fort mengt koloniale zalen met goede koffie. Deze pagina legt uit waar reizigers echt eten op een prive rondreis en toont het volledige menu van Sundown Beach Restaurant in Waskaduwa, onze kustkeuken tussen Colombo en Galle.',
+      'Goed eten in Sri Lanka hangt minder af van een enkele lijst met beste restaurants en meer van de kust, het tijdstip en hoe ver u na het diner wilt rijden. Rijst met curry is het dagelijkse gerecht inland; gegrilde zeevruchten bepalen het zuiden en westen; Galle Fort mengt koloniale zalen met goede koffie. Deze pagina legt uit waar reizigers echt eten op een prive rondreis en toont het volledige menu van Sundown Beach Restaurant in Waskaduwa, onze kustkeuken tussen Colombo en Galle.',
     aroundTitle: 'Hoe eten werkt tijdens een Sri Lanka rondreis',
     aroundBody:
-      'Op een rondreis met chauffeur gids is de lunch meestal een rice and curry zaak gekozen om netheid en tempo, geen lange restaurantstop. Bij het diner kiest u: hotelrestaurant, beach grill of het stadje waar u slaapt. Vraag of zeevruchten per kilo worden gerekend voordat u hele vis of krab bestelt; dat is de meest voorkomende rekeningverrassing aan de zuidkust.\n\nVegetariers eten makkelijk als u om groentecurrys zonder Maldive fish vraagt; veganisten moeten dat duidelijk zeggen. Drink water uit de fles. Fooi 5 tot 10 procent alleen als service niet al is inbegrepen.',
+      'Op een rondreis met chauffeur gids is de lunch meestal een rijst met curry zaak gekozen om netheid en tempo, geen lange restaurantstop. Bij het diner kiest u: hotelrestaurant, beach grill of het stadje waar u slaapt. Vraag of zeevruchten per kilo worden gerekend voordat u hele vis of krab bestelt; dat is de meest voorkomende rekeningverrassing aan de zuidkust.\n\nVegetariers eten makkelijk als u om groentecurrys zonder Maldive fish vraagt; veganisten moeten dat duidelijk zeggen. Drink water uit de fles. Fooi 5 tot 10 procent alleen als service niet al is inbegrepen.',
     westTitle: 'Westkust: Negombo, Kalutara en Waskaduwa',
     westBody:
-      'Aan de westkust landen de meeste Europese vluchten, dus de eerste en laatste maaltijd van de reis zijn vaak hier. Negombo heeft toeristische grills bij het strand; Colombo heeft hotels en sterke lokale rice and curry. Tussen Kalutara en Waskaduwa is de vangst lokaal: tonijn, seer, garnalen en krab.\n\nSundown Beach Restaurant ligt op dit stuk (No 302, Mahawaskaduwa, Waskaduwa). Gasten op onze prive tours stoppen vaak voor een zeevruchtenlunch of een laatste diner voor vertrek vanaf CMB. Open van 8:00 tot 22:00 dagelijks; reserveer via +94 70 629 3585.',
+      'Aan de westkust landen de meeste Europese vluchten, dus de eerste en laatste maaltijd van de reis zijn vaak hier. Negombo heeft toeristische grills bij het strand; Colombo heeft hotels en sterke lokale rijst met curry. Tussen Kalutara en Waskaduwa is de vangst lokaal: tonijn, seer, garnalen en krab.\n\nSundown Beach Restaurant ligt op dit stuk (No 302, Mahawaskaduwa, Waskaduwa). Gasten op onze prive tours stoppen vaak voor een zeevruchtenlunch of een laatste diner voor vertrek vanaf CMB. Open van 8:00 tot 22:00 dagelijks; reserveer via +94 70 629 3585.',
     southTitle: 'Zuidkust en Galle Fort',
     southBody:
-      'Unawatuna, Mirissa en Tangalle zijn sterk in eenvoudig gegrilde vis met limoen, chili en knoflookboter. Binnen Galle Fort serveren Hollandse huizen Sri Lankaanse kruiden met internationale techniek; prijzen stijgen binnen de muren, kwaliteit is meestal betrouwbaar. Combineer een ochtend op de wallen met lunch in het fort of later diner op de kust van Kalutara naar Waskaduwa als u noordwaarts gaat.\n\nVoor een bredere food primer (hoppers, kottu, pittigheid) lees onze Sri Lanka food guide. Het menu hieronder is de werkende kaart van Sundown Beach Restaurant, geen generieke eilandbrede lijst.',
+      'Unawatuna, Mirissa en Tangalle zijn sterk in eenvoudig gegrilde vis met limoen, chili en knoflookboter. Binnen Galle Fort serveren Hollandse huizen Sri Lankaanse kruiden met internationale techniek; prijzen stijgen binnen de muren, kwaliteit is meestal betrouwbaar. Combineer een ochtend op de wallen met lunch in het fort of later diner op de kust van Kalutara naar Waskaduwa als u noordwaarts gaat.\n\nVoor een bredere introductie over eten (hoppers, kottu, pittigheid) lees onze Sri Lanka eetgids. Het menu hieronder is de werkende kaart van Sundown Beach Restaurant, geen generieke eilandbrede lijst.',
     title: 'Ontdek nabije bestemmingen en tours',
     lead: 'Sundown Beach Restaurant in Waskaduwa past goed bij stops aan de zuidwestkust en dag tours: Galle Fort, westkuststranden en prive chauffeur itineraries.',
     contactCta: 'Plan een prive rondreis',
@@ -875,13 +875,13 @@ export const nl: Dict = {
     ellaDay: {
       title: 'Ella dagtocht met chauffeur | Nine Arch',
       description:
-        'Privé dag in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag een gratis offerte.',
+        'Privé dagtocht in Ella: Nine Arch Bridge, Little Adam’s Peak en Ravana Falls met chauffeur. Flexibel tempo. Vraag vandaag een gratis offerte aan.',
       keywords: 'Ella dagtocht, Nine Arch Bridge, privéchauffeur Sri Lanka',
     },
     galleDay: {
       title: 'Galle dagtocht met chauffeur | Hollands fort',
       description:
-        'Privé dag in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust. Met chauffeur. Vraag een gratis offerte.',
+        'Privé dagtocht in Galle: muren van het Hollandse fort, vuurtoren en stops aan de zuidkust met chauffeur. Vraag vandaag een gratis offerte aan.',
       keywords: 'Galle dagtocht, Galle Fort privé, zuidkust Sri Lanka chauffeur',
     },
     kandyDay: {
@@ -893,7 +893,7 @@ export const nl: Dict = {
     sigiriyaDay: {
       title: 'Sigiriya dagtocht met chauffeur | Leeuwenrots',
       description:
-        'Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsleven. Met chauffeur. Vraag een gratis offerte.',
+        'Privé dag in Sigiriya: Leeuwenrots of Pidurangala, Dambulla-grotten en dorpsbezoek met chauffeur. Flexibel tempo. Vraag vandaag een gratis offerte.',
       keywords: 'Sigiriya dagtocht, Leeuwenrots, Dambulla grotten met chauffeur',
     },
     destinations: {
@@ -941,7 +941,7 @@ export const nl: Dict = {
     destGalle: {
       title: 'Galle Fort Sri Lanka | Zuidkust privé',
       description:
-        'Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse rondreis met chauffeur. Rustig tempo. Vraag een offerte.',
+        'Galle Fort, vuurtoren en zuidelijke stranden op een dagtocht of meerdaagse privé rondreis met chauffeur. Rustig tempo. Vraag een gratis offerte.',
       keywords: 'Galle Fort, Galle Sri Lanka, zuidkust privé, Galle dagtocht',
     },
     guideBestTime: {
@@ -953,7 +953,7 @@ export const nl: Dict = {
     guideVisa: {
       title: 'Visa & ETA Sri Lanka | Gids voor Europa',
       description:
-        'ETA en inreisbasics voor Europese reizigers voor een privé tour. Praktische notities, geen juridisch advies. Vraag een offerte.',
+        'ETA en inreisbasics voor Europese reizigers vóór een privé tour door Sri Lanka. Praktische notities, geen juridisch advies. Vraag een offerte.',
       keywords: 'visa Sri Lanka, ETA Sri Lanka, inreis Europa, reisdocumenten',
     },
     guidePrivateDriver: {
@@ -993,10 +993,10 @@ export const nl: Dict = {
       keywords: 'Sri Lanka theeland, Nuwara Eliya, Ella heuvelland, theeplantages Sri Lanka',
     },
     guideFood: {
-      title: 'Sri Lanka foodgids | Rice & curry, kruiden & streetfood',
+      title: 'Sri Lanka eetgids | Rijst met curry, kruiden en streetfood',
       description:
-        'Sri Lankaanse keuken uitgelegd: rice and curry, hoppers, kottu, kruiden en streetfood wat proberen en hoe bestellen met vertrouwen.',
-      keywords: 'Sri Lanka eten, rice and curry, Sri Lankaanse streetfood, Sri Lanka keuken',
+        'Sri Lankaanse keuken uitgelegd: rijst met curry, hoppers, kottu, kruiden en streetfood wat proberen en hoe bestellen met vertrouwen.',
+      keywords: 'Sri Lanka eten, rijst met curry, Sri Lankaanse streetfood, Sri Lanka keuken',
     },
     guidePacking: {
       title: 'Paklijst Sri Lanka | Kleding & essentials',
@@ -1019,7 +1019,7 @@ export const nl: Dict = {
     restaurants: {
       title: 'Eten op Sri Lanka | Kust & tourtips',
       description:
-        'Waar reizigers eten op privé tours: seafood aan de kust, rice and curry, plus Sundown Beach Restaurant in Waskaduwa. Vraag een offerte. Routes op maat.',
+        'Waar reizigers eten op privé rondreizen: zeevruchten aan de kust, rijst met curry, plus Sundown Beach Restaurant in Waskaduwa. Vraag een offerte.',
       keywords: 'restaurants Sri Lanka, Sundown Beach Restaurant, eten op rondreis',
     },
     testimonials: {

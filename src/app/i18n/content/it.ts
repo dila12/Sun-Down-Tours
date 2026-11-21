@@ -5,7 +5,7 @@ export const it: Dict = {
   common: {
     brand: { name: 'Sundown Tours Sri Lanka', short: 'Sundown Tours' },
     nav: {
-      home: 'Home',
+      home: 'Inizio',
       tours: 'Tour',
       services: 'Servizi',
       about: 'Chi siamo',
@@ -81,7 +81,7 @@ export const it: Dict = {
       title: 'Prepariamo il tuo viaggio',
       detail: 'Caricamento di foto e dettagli',
     },
-    breadcrumb: { home: 'Home' },
+    breadcrumb: { home: 'Inizio' },
     skipToContent: 'Vai al contenuto principale',
     faqTitle: 'Domande frequenti',
     language: 'Lingua',
@@ -132,7 +132,7 @@ export const it: Dict = {
       date: 'Data',
       onlineUpToPre: 'Prenotazione online fino a',
       onlineUpToPost: 'viaggiatori',
-      travelersInvalid: 'Obbligatorio (1 to 20)',
+      travelersInvalid: 'Obbligatorio (1 a 20)',
       dateRequired: 'Data obbligatoria',
       groupTitle: 'Prenotazione di gruppo',
       groupText:
@@ -501,7 +501,7 @@ export const it: Dict = {
       errorToast: 'Invio del messaggio non riuscito',
       nameRequired: 'Inserisci il tuo nome',
       emailRequired: 'Inserisci un’e mail valida',
-      phoneRequired: 'Inserisci un numero valido (7 to 15 cifre)',
+      phoneRequired: 'Inserisci un numero valido (7 a 15 cifre)',
       messageRequired: 'Inserisci il tuo messaggio',
       trustReply: 'Risposta entro 24h',
       trustPrivate: 'Richiesta privata',
@@ -696,16 +696,16 @@ export const it: Dict = {
     h1: 'Dove mangiare in Sri Lanka: costa, Galle Fort e Sundown Beach Restaurant',
     breadcrumb: 'Ristoranti',
     intro:
-      'Mangiare bene in Sri Lanka non e una classifica unica dei «migliori ristoranti», ma abbinare il pasto alla costa, all’ora e a quanto volete ancora spostarvi dopo cena. Il rice and curry e lo staple nell’entroterra; il pesce alla griglia definisce le coste sud e ovest; Galle Fort mescola sale coloniali e buon caffe. Questa pagina spiega dove i viaggiatori in tour privato mangiano davvero, poi elenca il menu completo del Sundown Beach Restaurant a Waskaduwala nostra cucina costiera tra Colombo e Galle.',
+      'Mangiare bene in Sri Lanka non e una classifica unica dei «migliori ristoranti», ma abbinare il pasto alla costa, all’ora e a quanto volete ancora spostarvi dopo cena. Il riso e curry è il piatto quotidiano nell’entroterra; il pesce alla griglia definisce le coste sud e ovest; Galle Fort mescola sale coloniali e buon caffe. Questa pagina spiega dove i viaggiatori in tour privato mangiano davvero, poi elenca il menu completo del Sundown Beach Restaurant a Waskaduwala nostra cucina costiera tra Colombo e Galle.',
     aroundTitle: 'Come si mangia durante un tour',
     aroundBody:
-      'In un tour con autista guida, il pranzo e di solito un rice and curry scelto per pulizia e ritmo, non una lunga sosta gourmet. La cena e la vera scelta: ristorante dell’hotel, grill in spiaggia o la citta in cui dormite. Prima di ordinare pesce intero o granchio, confermate se il prezzo e al chilo o a porzionela sorpresa piu comune sulla costa sud.\n\nI vegetariani se la cavano chiedendo curry di verdure senza pesce delle Maldive; i vegani devono dirlo chiaramente. Bevete acqua sigillata. Una mancia del 5 to 10% basta se il servizio non e gia incluso.',
+      'In un tour con autista guida, il pranzo e di solito un riso e curry scelto per pulizia e ritmo, non una lunga sosta gourmet. La cena e la vera scelta: ristorante dell’hotel, grill in spiaggia o la citta in cui dormite. Prima di ordinare pesce intero o granchio, confermate se il prezzo e al chilo o a porzionela sorpresa piu comune sulla costa sud.\n\nI vegetariani se la cavano chiedendo curry di verdure senza pesce delle Maldive; i vegani devono dirlo chiaramente. Bevete acqua sigillata. Una mancia dal 5 al 10% basta se il servizio non e gia incluso.',
     westTitle: 'Costa ovest: Negombo, Kalutara e Waskaduwa',
     westBody:
-      'La costa ovest e dove atterrano la maggior parte dei voli europei: il primo e l’ultimo pasto del viaggio accadono spesso qui. Negombo ha grill turistici vicino alla spiaggia; Colombo offre hotel dining e qualche buona sala di rice and curry. Tra Kalutara e Waskaduwa il pescato e localetonno, seer, gamberi e granchiocucinato in giornata.\n\nIl Sundown Beach Restaurant e su questo tratto (n. 302, Mahawaskaduwa, Waskaduwa). Gli ospiti dei nostri tour privati si fermano spesso per un pranzo di mare o un’ultima cena prima della partenza da CMB. Aperto tutti i giorni 8:00 to 22:00; prenotate al +94 70 629 3585.',
+      'La costa ovest e dove atterrano la maggior parte dei voli europei: il primo e l’ultimo pasto del viaggio accadono spesso qui. Negombo ha grill turistici vicino alla spiaggia; Colombo offre ristorazione in hotel e qualche buona sala di riso e curry. Tra Kalutara e Waskaduwa il pescato e localetonno, seer, gamberi e granchiocucinato in giornata.\n\nIl Sundown Beach Restaurant e su questo tratto (n. 302, Mahawaskaduwa, Waskaduwa). Gli ospiti dei nostri tour privati si fermano spesso per un pranzo di mare o un’ultima cena prima della partenza da CMB. Aperto tutti i giorni dalle 8:00 alle 22:00; prenotate al +94 70 629 3585.',
     southTitle: 'Costa sud e Galle Fort',
     southBody:
-      'Unawatuna, Mirissa e Tangalle sono i piu forti per il pesce semplicemente grigliato con lime, peperoncino e burro all’aglio. Dentro Galle Fort, antiche case olandesi uniscono spezie sri lankesi e tecnica internazionale; i prezzi salgono dentro le mura, la qualita e di solito affidabile. Combinate una mattina sui bastioni con il pranzo nel fort, o un pasto piu tardi sulla costa Kalutara to Waskaduwa se risalite a nord.\n\nPer un primer piu ampiohoppers, kottu, livelli di spezieleggete la nostra guida gastronomica. Il menu sotto e quello del Sundown Beach Restaurant, non un elenco generico di tutta l’isola.',
+      'Unawatuna, Mirissa e Tangalle sono i piu forti per il pesce semplicemente grigliato con lime, peperoncino e burro all’aglio. Dentro Galle Fort, antiche case olandesi uniscono spezie sri lankesi e tecnica internazionale; i prezzi salgono dentro le mura, la qualita e di solito affidabile. Combinate una mattina sui bastioni con il pranzo nel fort, o un pasto piu tardi sulla costa da Kalutara a Waskaduwa se risalite a nord.\n\nPer un’introduzione più ampia a hoppers, kottu e livelli di spezie leggete la nostra guida gastronomica. Il menu sotto e quello del Sundown Beach Restaurant, non un elenco generico di tutta l’isola.',
     title: 'Destinazioni e tour nelle vicinanze',
     lead: 'Il Sundown Beach Restaurant a Waskaduwa si abbina facilmente alle tappe della costa sud ovest e ai tour giornalieriGalle Fort, spiagge e itinerari privati.',
     contactCta: 'Pianifica un tour privato',
@@ -713,7 +713,7 @@ export const it: Dict = {
     faq: [
       {
         q: 'Il Sundown Beach Restaurant e aperto anche a chi non e in hotel?',
-        a: 'Si. E un ristorante sulla costa a Waskaduwa, aperto tutti i giorni 8:00 to 22:00. Non serve essere in un pacchetto Sundown Tours per prenotare un tavolo.',
+        a: 'Si. E un ristorante sulla costa a Waskaduwa, aperto tutti i giorni dalle 8:00 alle 22:00. Non serve essere in un pacchetto Sundown Tours per prenotare un tavolo.',
       },
       {
         q: 'Dove cenare la sera dell’arrivo a CMB?',
@@ -896,7 +896,7 @@ export const it: Dict = {
     destElla: {
       title: 'Ella Sri Lanka | Nine Arch Bridge e colline',
       description:
-        'Pianifica Ella: Nine Arch Bridge, Little Adams Peak e te per una giornata o un soggiorno. Con autista. Richiedi un preventivo.',
+        'Pianifica Ella: Nine Arch Bridge, Little Adams Peak e piantagioni di tè per una giornata o un soggiorno con autista. Richiedi un preventivo gratis.',
       keywords: 'Ella Sri Lanka, Nine Arch Bridge, Little Adams Peak, tour privato Ella',
     },
     destYala: {
@@ -914,7 +914,7 @@ export const it: Dict = {
     destDambulla: {
       title: 'Guida al Tempio di Dambulla | Consigli sul Tempio d’Oro',
       description:
-        'Visita il tempio rupestre UNESCO di Dambulla: affreschi, statue del Buddha, consigli per la salita e come combinarlo con Sigiriya in un tour del Triangolo Culturale.',
+        'Visita il tempio rupestre UNESCO di Dambulla: affreschi, statue del Buddha, consigli per la salita e itinerario con Sigiriya nel Triangolo Culturale.',
       keywords: 'Tempio di Dambulla, Tempio d’Oro Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
@@ -939,7 +939,7 @@ export const it: Dict = {
       title: 'Autista privato Sri Lanka | Guida pratica',
       description:
         'Cosa include un autista privato in Sri Lanka: veicolo, ritmo, hotel e abitudini degli ospiti europei. Richiedi un preventivo. Pianifica con fiducia.',
-      keywords: 'autista privato Sri Lanka, guida chauffeur, tour con autista',
+      keywords: 'autista privato Sri Lanka, guida con autista, tour con autista',
     },
     guideBudget: {
       title: 'Cambio euro Sri Lanka | Rupia (LKR) e costi',
@@ -972,13 +972,13 @@ export const it: Dict = {
       keywords: 'paese del te Sri Lanka, Nuwara Eliya, Ella montagna, piantagioni te',
     },
     guideFood: {
-      title: 'Guida gastronomica Sri Lanka | Rice & curry, spezie e street food',
+      title: 'Gastronomia Sri Lanka | Riso curry e cibo di strada',
       description:
-        'Cucina srilankese: rice and curry, hoppers, kottu, spezie e street food cosa provare e come ordinare con sicurezza.',
-      keywords: 'cibo Sri Lanka, rice and curry, street food Sri Lanka, cucina srilankese',
+        'Cucina srilankese: riso e curry, hoppers, kottu, spezie e cibo di strada: cosa provare e come ordinare con sicurezza.',
+      keywords: 'cibo Sri Lanka, riso e curry, cibo di strada Sri Lanka, cucina srilankese',
     },
     guidePacking: {
-      title: 'Cosa mettere in valigia Sri Lanka | Abbigliamento e essenziali',
+      title: 'Valigia Sri Lanka | Abbigliamento e essenziali di viaggio',
       description:
         'Lista pratica: abiti per caldo e fresco degli altopiani, codice nei templi, equipaggiamento safari e indispensabili.',
       keywords: 'valigia Sri Lanka, cosa portare Sri Lanka, lista bagaglio Sri Lanka',
@@ -998,7 +998,7 @@ export const it: Dict = {
     restaurants: {
       title: 'Dove mangiare in Sri Lanka | Costa e tour tips',
       description:
-        'Dove mangiano i viaggiatori in tour privato: seafood in costa, rice and curry, piu Sundown Beach Restaurant a Waskaduwa. Richiedi un preventivo.',
+        'Dove mangiano i viaggiatori in tour privato: frutti di mare in costa, riso e curry, piu Sundown Beach Restaurant a Waskaduwa. Richiedi un preventivo.',
       keywords: 'ristoranti Sri Lanka, Sundown Beach Restaurant, mangiare in tour',
     },
     testimonials: {

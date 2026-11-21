@@ -132,7 +132,7 @@ export const es: Dict = {
       date: 'Fecha',
       onlineUpToPre: 'Reserva en linea para hasta',
       onlineUpToPost: 'viajeros',
-      travelersInvalid: 'Obligatorio (1 to 20)',
+      travelersInvalid: 'Obligatorio (1 a 20)',
       dateRequired: 'Fecha obligatoria',
       groupTitle: 'Reserva de grupo',
       groupText:
@@ -497,7 +497,7 @@ export const es: Dict = {
       errorToast: 'No se pudo enviar el mensaje',
       nameRequired: 'Introduce tu nombre',
       emailRequired: 'Introduce un correo valido',
-      phoneRequired: 'Introduce un telefono valido (7 to 15 digitos)',
+      phoneRequired: 'Introduce un telefono valido (7 a 15 digitos)',
       messageRequired: 'Introduce tu mensaje',
       trustReply: 'Respuesta en 24 h',
       trustPrivate: 'Consulta privada',
@@ -735,18 +735,18 @@ export const es: Dict = {
     h1: 'Donde comer en Sri Lanka: costa y Sundown Beach Restaurant',
     breadcrumb: 'Restaurantes',
     intro:
-      'Comer bien en Sri Lanka no depende de una sola lista de mejores restaurantes. Depende de la costa, la hora del dia y cuanto quiere desplazarse despues de cenar. El rice and curry es el plato diario tierra adentro; el marisco a la parrilla define el sur y el oeste; Galle Fort mezcla salones coloniales con buen cafe. Esta pagina explica donde comen de verdad los viajeros en un circuito privado y muestra la carta completa de Sundown Beach Restaurant en Waskaduwa, nuestra cocina costera entre Colombo y Galle.',
+      'Comer bien en Sri Lanka no depende de una sola lista de mejores restaurantes. Depende de la costa, la hora del dia y cuanto quiere desplazarse despues de cenar. El arroz con curry es el plato diario tierra adentro; el marisco a la parrilla define el sur y el oeste; Galle Fort mezcla salones coloniales con buen cafe. Esta pagina explica donde comen de verdad los viajeros en un circuito privado y muestra la carta completa de Sundown Beach Restaurant en Waskaduwa, nuestra cocina costera entre Colombo y Galle.',
     aroundTitle: 'Como funciona la comida en un circuito por Sri Lanka',
     aroundBody:
-      'En un circuito con chauffeur, el almuerzo suele ser un rice and curry elegido por limpieza y ritmo, no una parada larga de restaurante. La cena es donde usted elige: hotel, grill de playa o el pueblo donde duerme. Confirme si el marisco se cobra por kilo antes de pedir pescado entero o cangrejo, la sorpresa de cuenta mas comun en la costa sur.\n\nLos vegetarianos comen bien si piden currys de verduras sin pescado Maldive; los veganos deben decirlo con claridad. Beba agua embotellada. Propine del 5 al 10 por ciento solo si el servicio no esta incluido.',
+      'En un circuito con chofer, el almuerzo suele ser un arroz con curry elegido por limpieza y ritmo, no una parada larga de restaurante. La cena es donde usted elige: hotel, grill de playa o el pueblo donde duerme. Confirme si el marisco se cobra por kilo antes de pedir pescado entero o cangrejo, la sorpresa de cuenta mas comun en la costa sur.\n\nLos vegetarianos comen bien si piden currys de verduras sin pescado Maldive; los veganos deben decirlo con claridad. Beba agua embotellada. Propine del 5 al 10 por ciento solo si el servicio no esta incluido.',
     westTitle: 'Costa oeste: Negombo, Kalutara y Waskaduwa',
     westBody:
-      'La costa oeste es donde aterrizan la mayoria de vuelos europeos, asi que la primera y la ultima comida del viaje suelen ser aqui. Negombo tiene grills turisticos cerca de la playa; Colombo tiene hoteles y buenos rice and curry locales. Entre Kalutara y Waskaduwa el pescado es del dia: atun, seer, gambas y cangrejo.\n\nSundown Beach Restaurant esta en este tramo (No 302, Mahawaskaduwa, Waskaduwa). Los viajeros de nuestros circuitos privados suelen parar a almorzar marisco o a cenar antes de salir de CMB. Horario de 8:00 a 22:00 todos los dias; reserve en +94 70 629 3585.',
+      'La costa oeste es donde aterrizan la mayoria de vuelos europeos, asi que la primera y la ultima comida del viaje suelen ser aqui. Negombo tiene grills turisticos cerca de la playa; Colombo tiene hoteles y buenos locales de arroz con curry. Entre Kalutara y Waskaduwa el pescado es del dia: atun, seer, gambas y cangrejo.\n\nSundown Beach Restaurant esta en este tramo (No 302, Mahawaskaduwa, Waskaduwa). Los viajeros de nuestros circuitos privados suelen parar a almorzar marisco o a cenar antes de salir de CMB. Horario de 8:00 a 22:00 todos los dias; reserve en +94 70 629 3585.',
     southTitle: 'Costa sur y Galle Fort',
     southBody:
       'Unawatuna, Mirissa y Tangalle destacan por pescado a la parrilla con lima, chile y mantequilla de ajo. Dentro de Galle Fort, casas holandesas sirven cocina cingalesa con tecnica internacional; los precios suben dentro de las murallas y la calidad suele ser fiable. Combine la manana en las murallas con el almuerzo en el fuerte o una cena mas tarde en la costa de Kalutara a Waskaduwa si vuelve al norte.\n\nPara un primer contacto con la comida (hoppers, kottu y niveles de picante) lea nuestra guia gastronómica. El menu de abajo es la carta real de Sundown Beach Restaurant, no una lista generica de toda la isla.',
     title: 'Explorar destinos y circuitos cercanos',
-    lead: 'Sundown Beach Restaurant en Waskaduwa encaja bien con paradas del suroeste y excursiones de un dia: Galle Fort, playas del oeste e itinerarios privados con chauffeur.',
+    lead: 'Sundown Beach Restaurant en Waskaduwa encaja bien con paradas del suroeste y excursiones de un dia: Galle Fort, playas del oeste e itinerarios privados con chofer.',
     contactCta: 'Planificar un circuito privado',
     faqTitle: 'Preguntas sobre restaurantes y Sundown Beach',
   },
@@ -850,13 +850,13 @@ export const es: Dict = {
     sigiriyaDay: {
       title: 'Excursión Sigiriya con chofer | Roca del León',
       description:
-        'Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo. Con chofer. Pide un presupuesto gratis.',
+        'Día privado en Sigiriya: Roca del León o Pidurangala, cuevas de Dambulla y pueblo con chofer privado. Pide hoy un presupuesto gratis sin compromiso.',
       keywords: 'excursión Sigiriya, Roca del León, cuevas Dambulla chofer',
     },
     destinations: {
       title: 'Destinos Sri Lanka | Ella, Sigiriya, Yala, Galle',
       description:
-        'Destinos para circuitos privados: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto.',
+        'Destinos para circuitos privados en Sri Lanka: Ella, Sigiriya, Yala, Kandy, Galle y Mirissa. Consejos para rutas con chofer. Pide un presupuesto.',
       keywords: 'destinos Sri Lanka, Ella Sigiriya Yala, lugares circuito privado, Galle Mirissa',
     },
     guides: {
@@ -917,7 +917,7 @@ export const es: Dict = {
       title: 'Chofer privado Sri Lanka | Guia práctica',
       description:
         'Que incluye un chofer privado en Sri Lanka: vehículo, ritmo, hoteles y hábitos de viajeros europeos. Pide un presupuesto gratis. Chofer privado.',
-      keywords: 'chofer privado Sri Lanka, guia chauffeur, circuito con chofer',
+      keywords: 'chofer privado Sri Lanka, guia con chofer, circuito con chofer',
     },
     guideBudget: {
       title: 'Presupuesto y moneda Sri Lanka | Rupia (LKR) y costes',
@@ -950,10 +950,10 @@ export const es: Dict = {
       keywords: 'pais del te Sri Lanka, Nuwara Eliya, Ella montana, plantaciones de te',
     },
     guideFood: {
-      title: 'Guia gastronomica Sri Lanka | Arroz con curry, especias y street food',
+      title: 'Gastronomía Sri Lanka | Arroz curry y comida callejera',
       description:
-        'Cocina de Sri Lanka: arroz con curry, hoppers, kottu, especias y street food que probar y como pedir con confianza.',
-      keywords: 'comida Sri Lanka, arroz con curry, street food Sri Lanka, gastronomia',
+        'Cocina de Sri Lanka: arroz con curry, hoppers, kottu, especias y comida callejera que probar y como pedir con confianza.',
+      keywords: 'comida Sri Lanka, arroz con curry, comida callejera Sri Lanka, gastronomia',
     },
     guidePacking: {
       title: 'Que llevar a Sri Lanka | Ropa y articulos esenciales',
@@ -976,7 +976,7 @@ export const es: Dict = {
     restaurants: {
       title: 'Dónde comer en Sri Lanka | Costa y tips de tour',
       description:
-        'Dónde comen los viajeros en circuito privado: mariscos en costa, rice and curry, más Sundown Beach Restaurant en Waskaduwa. Pide un presupuesto.',
+        'Dónde comen los viajeros en circuito privado: mariscos en costa, arroz con curry, más Sundown Beach Restaurant en Waskaduwa. Pide un presupuesto.',
       keywords: 'restaurantes Sri Lanka, Sundown Beach Restaurant, comer en circuito',
     },
     testimonials: {
@@ -1183,7 +1183,7 @@ export const es: Dict = {
       keywords: 'Sri Lanka julio, tiempo Sri Lanka julio, circuito julio',
     },
     monthAugust: {
-      title: 'Sri Lanka en agosto | Tiempo, costa este y Triangulo Cultural',
+      title: 'Sri Lanka en agosto | Tiempo, costa este y Triángulo',
       description:
         'Viajar a Sri Lanka en agosto: monzon del suroeste, Trincomalee, Sigiriya y safari en lugar de una semana de playa en Mirissa.',
       keywords: 'Sri Lanka agosto, tiempo Sri Lanka agosto, mejor epoca agosto',

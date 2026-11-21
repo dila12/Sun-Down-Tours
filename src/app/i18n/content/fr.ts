@@ -132,7 +132,7 @@ export const fr: Dict = {
       date: 'Date',
       onlineUpToPre: 'Reservation en ligne jusqu’a',
       onlineUpToPost: 'voyageurs',
-      travelersInvalid: 'Obligatoire (1 to 20)',
+      travelersInvalid: 'Obligatoire (1 à 20)',
       dateRequired: 'Date requise',
       groupTitle: 'Reservation de groupe',
       groupText:
@@ -367,7 +367,7 @@ export const fr: Dict = {
       },
       {
         q: 'Ou se trouve le Sri Lanka ?',
-        a: 'Ou se trouve le sri lanka : ile au sud de l’Inde. Travel to sri lanka depuis Paris via Colombo. Capitale sri lanka : Kotte administratif ; vous atterrissez a colombo sri lanka.',
+        a: 'Le Sri Lanka est une île au sud de l’Inde. Depuis Paris, vous atterrissez à Colombo (CMB). La capitale administrative est Sri Jayawardenepura Kotte.',
       },
       {
         q: 'Quand partir au Sri Lanka ?',
@@ -379,7 +379,7 @@ export const fr: Dict = {
       },
       {
         q: 'Faut il un visa sri lanka depuis la France ?',
-        a: 'Visa sri lanka / sri lanka visa : eta sri lanka (electronic travel authorization sri lanka) sur eta.gov.lk avant le vol. Pas Jet Tours, pas Booking.',
+        a: 'Depuis la France, demandez une ETA (autorisation électronique de voyage) sur eta.gov.lk avant le vol. Nous ne vendons ni billets d’avion ni chambres d’hôtel génériques.',
       },
     ],
   },
@@ -696,13 +696,13 @@ export const fr: Dict = {
     h1: 'Ou manger au Sri Lanka : cote, fort de Galle et Sundown Beach Restaurant',
     breadcrumb: 'Restaurants',
     intro:
-      'Bien manger au Sri Lanka, ce n’est pas une liste unique des « meilleurs restaurants », mais d’accorder le repas a la cote, a l’heure et a la distance que vous voulez encore parcourir apres diner. Le rice and curry est le quotidien a l’interieur des terres ; les grillades de poisson definissent les cotes sud et ouest ; le fort de Galle melange salles coloniales et bon cafe. Cette page explique ou les voyageurs en circuit prive mangent vraiment, puis presente la carte complete du Sundown Beach Restaurant a Waskaduwanotre cuisine cotiere entre Colombo et Galle.',
+      'Bien manger au Sri Lanka, ce n’est pas une liste unique des « meilleurs restaurants », mais d’accorder le repas a la cote, a l’heure et a la distance que vous voulez encore parcourir apres diner. Le riz et curry est le quotidien a l’interieur des terres ; les grillades de poisson definissent les cotes sud et ouest ; le fort de Galle melange salles coloniales et bon cafe. Cette page explique ou les voyageurs en circuit prive mangent vraiment, puis presente la carte complete du Sundown Beach Restaurant a Waskaduwanotre cuisine cotiere entre Colombo et Galle.',
     aroundTitle: 'Comment on mange pendant un circuit',
     aroundBody:
-      'En circuit avec chauffeur guide, le dejeuner est souvent un rice and curry choisi pour la proprete et le rythme, pas un long arret gastronomique. Le diner est le vrai choix : restaurant d’hotel, grill de plage, ou ville ou vous dormez. Avant de commander un poisson entier ou un crabe, confirmez si le tarif est au kilo ou a la portionla surprise de note la plus frequente sur la cote sud.\n\nLes vegetariens s’en sortent bien en demandant des currys de legumes sans poisson des Maldives ; les veganes doivent le dire clairement. Buvez de l’eau scellee. Un pourboire de 5 a 10 % suffit si le service n’est pas deja inclus.',
+      'En circuit avec chauffeur guide, le dejeuner est souvent un riz et curry choisi pour la proprete et le rythme, pas un long arret gastronomique. Le diner est le vrai choix : restaurant d’hotel, grill de plage, ou ville ou vous dormez. Avant de commander un poisson entier ou un crabe, confirmez si le tarif est au kilo ou a la portionla surprise de note la plus frequente sur la cote sud.\n\nLes vegetariens s’en sortent bien en demandant des currys de legumes sans poisson des Maldives ; les veganes doivent le dire clairement. Buvez de l’eau scellee. Un pourboire de 5 a 10 % suffit si le service n’est pas deja inclus.',
     westTitle: 'Cote ouest : Negombo, Kalutara et Waskaduwa',
     westBody:
-      'La cote ouest est celle ou atterrissent la plupart des vols europeens : le premier et le dernier repas d’un voyage ont souvent lieu ici. Negombo a des grills touristiques pres de la plage ; Colombo offre la restauration d’hotel et quelques bonnes salles de rice and curry. Entre Kalutara et Waskaduwa, la peche est localethon, thazard, crevettes et crabecuite le jour meme.\n\nLe Sundown Beach Restaurant se trouve sur ce troncon (n° 302, Mahawaskaduwa, Waskaduwa). Les voyageurs de nos circuits prives s’y arretent souvent pour un dejeuner de fruits de mer ou un dernier diner avant un depart de CMB. Ouvert tous les jours de 8h00 a 22h00 ; reservez au +94 70 629 3585.',
+      'La cote ouest est celle ou atterrissent la plupart des vols europeens : le premier et le dernier repas d’un voyage ont souvent lieu ici. Negombo a des grills touristiques pres de la plage ; Colombo offre la restauration d’hotel et quelques bonnes salles de riz et curry. Entre Kalutara et Waskaduwa, la peche est localethon, thazard, crevettes et crabecuite le jour meme.\n\nLe Sundown Beach Restaurant se trouve sur ce troncon (n° 302, Mahawaskaduwa, Waskaduwa). Les voyageurs de nos circuits prives s’y arretent souvent pour un dejeuner de fruits de mer ou un dernier diner avant un depart de CMB. Ouvert tous les jours de 8h00 a 22h00 ; reservez au +94 70 629 3585.',
     southTitle: 'Cote sud et fort de Galle',
     southBody:
       'Unawatuna, Mirissa et Tangalle excellent pour le poisson simplement grille au citron vert, piment et beurre a l’ail. Dans le fort de Galle, d’anciennes maisons neerlandaises servent epices sri lankaises et technique internationale ; les prix montent dans les remparts, la qualite est en general fiable. Combinez une matinee sur les remparts avec un dejeuner dans le fort, ou un repas plus tard sur la cote Kalutara to Waskaduwa si vous remontez vers le nord.\n\nPour un primer plus largehoppers, kottu, niveaux d’epiceslisez notre guide gastronomique. La carte ci dessous est celle du Sundown Beach Restaurant, pas une liste generique de toute l’ile.',
@@ -806,7 +806,7 @@ export const fr: Dict = {
     tour7: {
       title: 'Circuit privé 7 jours | Wilpattu & Mirissa',
       description:
-        'Safari Wilpattu, Sigiriya, Kandy, Ella et Mirissa (baleines en option). Hôtels 4 étoiles, chauffeur privé. Demandez un devis gratuit.',
+        'Safari Wilpattu, Sigiriya, Kandy, Ella et plage de Mirissa avec observation des baleines en option. Hôtels 4 étoiles. Demandez un devis gratuit.',
       keywords: 'circuit Sri Lanka 7 jours, Wilpattu Mirissa, circuit privé avec chauffeur',
     },
     tour10: {
@@ -854,25 +854,25 @@ export const fr: Dict = {
     ellaDay: {
       title: 'Excursion Ella avec chauffeur | Nine Arch',
       description:
-        'Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et Ravana Falls avec chauffeur. Rythme flexible. Demandez un devis gratuit.',
+        'Journée privée à Ella : Nine Arch Bridge, Little Adam’s Peak et chutes de Ravana avec chauffeur. Rythme flexible. Demandez un devis gratuit.',
       keywords: 'excursion Ella, Nine Arch Bridge, chauffeur privé Sri Lanka',
     },
     galleDay: {
       title: 'Excursion Galle avec chauffeur | Fort hollandais',
       description:
-        'Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud. Avec chauffeur. Demandez un devis gratuit.',
+        'Journée privée à Galle : remparts du Fort hollandais, phare et arrêts sur la côte sud avec chauffeur privé. Demandez un devis gratuit aujourd’hui.',
       keywords: 'excursion Galle, Fort de Galle privé, côte sud Sri Lanka chauffeur',
     },
     kandyDay: {
       title: 'Excursion Kandy avec chauffeur | Temple de la Dent',
       description:
-        'Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur. Demandez un devis gratuit.',
+        'Journée privée à Kandy : Temple de la Dent, belvédère et points forts de la ville avec chauffeur privé. Demandez un devis gratuit dès aujourd’hui.',
       keywords: 'excursion Kandy, Temple de la Dent, chauffeur privé Kandy',
     },
     sigiriyaDay: {
       title: 'Excursion Sigiriya avec chauffeur | Rocher du Lion',
       description:
-        'Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village. Avec chauffeur. Demandez un devis gratuit.',
+        'Journée privée à Sigiriya : Rocher du Lion ou Pidurangala, grottes de Dambulla et village avec chauffeur. Demandez un devis gratuit aujourd’hui.',
       keywords: 'excursion Sigiriya, Rocher du Lion, grottes Dambulla chauffeur',
     },
     destinations: {
@@ -914,7 +914,7 @@ export const fr: Dict = {
     destDambulla: {
       title: 'Guide du temple de Dambulla | Conseils pour le Temple d’Or',
       description:
-        'Visitez le temple troglodyte classe UNESCO de Dambulla : fresques, statues de Bouddha, conseils d’ascension et combinaison avec Sigiriya sur un circuit du Triangle Culturel.',
+        'Visitez le temple troglodyte UNESCO de Dambulla : fresques, statues de Bouddha et conseils d’ascension ; idéal avec Sigiriya au Triangle Culturel.',
       keywords: 'temple de Dambulla, Temple d’Or Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
@@ -966,19 +966,19 @@ export const fr: Dict = {
       keywords: 'plage Sri Lanka, Sri Lanka plage, Mirissa, Weligama, Negombo, Trincomalee',
     },
     guideTeaCountry: {
-      title: 'Guide du pays du the Sri Lanka | Hautes terres et plantations',
+      title: 'Pays du thé Sri Lanka | Hautes terres et plantations',
       description:
         'Nuwara Eliya, Ella et routes du the visites de plantations, trains panoramiques et randonnees en montagne.',
       keywords: 'pays du the Sri Lanka, Nuwara Eliya, Ella montagne, plantations the',
     },
     guideFood: {
-      title: 'Guide gastronomique Sri Lanka | Riz curry, epices et street food',
+      title: 'Gastronomie Sri Lanka | Riz curry, épices, cuisine de rue',
       description:
-        'Cuisine sri lankaise : riz et curry, hoppers, kottu, epices et street food quoi gouter et comment commander sereinement.',
-      keywords: 'cuisine Sri Lanka, riz curry, street food Sri Lanka, gastronomie',
+        'Cuisine sri lankaise : riz et curry, hoppers, kottu, epices et cuisine de rue quoi gouter et comment commander sereinement.',
+      keywords: 'cuisine Sri Lanka, riz curry, cuisine de rue Sri Lanka, gastronomie',
     },
     guidePacking: {
-      title: 'Que mettre dans sa valise Sri Lanka | Vetements et essentiels',
+      title: 'Valise Sri Lanka | Vêtements et essentiels de voyage',
       description:
         'Liste pratique : vetements chaleur et fraicheur des hautes terres, tenue pour temples, equipement safari et indispensables.',
       keywords: 'valise Sri Lanka, que emporter Sri Lanka, liste bagages Sri Lanka',
@@ -998,7 +998,7 @@ export const fr: Dict = {
     restaurants: {
       title: 'Ou manger a Sri Lanka | Cote & conseils tour',
       description:
-        'Ou mangent les voyageurs en circuit privé: fruits de mer cote, rice and curry, plus Sundown Beach Restaurant a Waskaduwa. Demandez un devis.',
+        'Ou mangent les voyageurs en circuit privé: fruits de mer cote, riz et curry et Sundown Beach Restaurant a Waskaduwa. Demandez un devis gratuit.',
       keywords: 'restaurants Sri Lanka, Sundown Beach Restaurant, manger en circuit',
     },
     testimonials: {
@@ -1120,7 +1120,7 @@ export const fr: Dict = {
     marketFrance: {
       title: 'Circuit privé Sri Lanka depuis la France',
       description:
-        'Circuits privés Sri Lanka pour voyageurs de France: avec chauffeur, rythme flexible, equipe locale depuis 1992. Demandez un devis.',
+        'Circuits privés au Sri Lanka pour voyageurs de France : chauffeur local, rythme flexible, équipe depuis 1992. Demandez un devis gratuit dès maintenant.',
       keywords: 'circuit Sri Lanka France, voyage privé chauffeur, tour depuis France',
     },
     marketItaly: {

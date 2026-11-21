@@ -132,7 +132,7 @@ export const pl: Dict = {
       date: 'Data',
       onlineUpToPre: 'Rezerwacja online dla maksymalnie',
       onlineUpToPost: 'podroznych',
-      travelersInvalid: 'Wymagane (1 to 20)',
+      travelersInvalid: 'Wymagane (1 do 20)',
       dateRequired: 'Data wymagana',
       groupTitle: 'Rezerwacja grupowa',
       groupText:
@@ -501,7 +501,7 @@ export const pl: Dict = {
       errorToast: 'Nie udalo sie wyslac wiadomosci',
       nameRequired: 'Podaj swoje imie',
       emailRequired: 'Podaj prawidlowy e mail',
-      phoneRequired: 'Podaj prawidlowy numer telefonu (7 to 15 cyfr)',
+      phoneRequired: 'Podaj prawidlowy numer telefonu (7 do 15 cyfr)',
       messageRequired: 'Wpisz swoja wiadomosc',
       trustReply: 'Odpowiedz w 24 h',
       trustPrivate: 'Prywatne zapytanie',
@@ -739,13 +739,13 @@ export const pl: Dict = {
     h1: 'Gdzie jesc na Sri Lance: wybrzeze i Sundown Beach Restaurant',
     breadcrumb: 'Restauracje',
     intro:
-      'Dobre jedzenie na Sri Lance zalezy mniej od jednej listy najlepszych restauracji, a bardziej od wybrzeza, pory dnia i tego, jak daleko chcecie jezdzic po kolacji. Rice and curry to codziennosc w glębi lądu; grillowane owoce morza okreslaja poludnie i zachod; Galle Fort laczy kolonialne salony z dobrą kawa. Ta strona pokazuje, gdzie naprawde jedza podrozni na prywatnej wycieczce, a nizej jest pelne menu Sundown Beach Restaurant w Waskaduwa, naszej nadmorskiej kuchni miedzy Colombo a Galle.',
+      'Dobre jedzenie na Sri Lance zalezy mniej od jednej listy najlepszych restauracji, a bardziej od wybrzeza, pory dnia i tego, jak daleko chcecie jezdzic po kolacji. Ryż z curry to codzienność w glębi lądu; grillowane owoce morza okreslaja poludnie i zachod; Galle Fort laczy kolonialne salony z dobrą kawa. Ta strona pokazuje, gdzie naprawde jedza podrozni na prywatnej wycieczce, a nizej jest pelne menu Sundown Beach Restaurant w Waskaduwa, naszej nadmorskiej kuchni miedzy Colombo a Galle.',
     aroundTitle: 'Jak wyglada jedzenie podczas wycieczki po Sri Lance',
     aroundBody:
-      'Na wycieczce z kierowca przewodnikiem lunch to zwykle lokal z rice and curry wybrany pod katem czystosci i tempa, nie dlugi postoj w restauracji. Kolacja zalezy od Was: hotel, grill na plazie albo miasto, w ktorym spicie. Przed zamowieniem calej ryby lub kraba zapytajcie, czy owoce morza sa liczone za kilogram; to najczestsza niespodzianka na rachunku na poludniu.\n\nWegetarianie jedza latwo, jesli prosza o warzywne curry bez Maldive fish; weganie powinni powiedziec to wprost. Pijcie wode butelkowana. Napiwek 5 do 10 procent tylko gdy obsluga nie jest juz wliczona.',
+      'Na wycieczce z kierowca przewodnikiem lunch to zwykle lokal z ryżem z curry wybrany pod katem czystosci i tempa, nie dlugi postoj w restauracji. Kolacja zalezy od Was: hotel, grill na plazie albo miasto, w ktorym spicie. Przed zamowieniem calej ryby lub kraba zapytajcie, czy owoce morza sa liczone za kilogram; to najczestsza niespodzianka na rachunku na poludniu.\n\nWegetarianie jedza latwo, jesli prosza o warzywne curry bez Maldive fish; weganie powinni powiedziec to wprost. Pijcie wode butelkowana. Napiwek 5 do 10 procent tylko gdy obsluga nie jest juz wliczona.',
     westTitle: 'Zachodnie wybrzeze: Negombo, Kalutara i Waskaduwa',
     westBody:
-      'Zachodnie wybrzeze to miejsce, gdzie ląduje wiekszosc europejskich lotow, wiec pierwszy i ostatni posilek czesto jest tutaj. Negombo ma turystyczne grille przy plazy; Colombo ma hotele i mocne lokalne rice and curry. Miedzy Kalutara a Waskaduwa ryby sa lokalne: tuna, seer, krewetki i krab.\n\nSundown Beach Restaurant stoi na tym odcinku (No 302, Mahawaskaduwa, Waskaduwa). Goscie naszych prywatnych wycieczek czesto zatrzymuja sie na lunch z owocami morza albo na ostatnia kolacje przed wylotem z CMB. Godziny 8:00 do 22:00 codziennie; rezerwacja pod +94 70 629 3585.',
+      'Zachodnie wybrzeze to miejsce, gdzie ląduje wiekszosc europejskich lotow, wiec pierwszy i ostatni posilek czesto jest tutaj. Negombo ma turystyczne grille przy plazy; Colombo ma hotele i mocne lokalne ryż z curry. Miedzy Kalutara a Waskaduwa ryby sa lokalne: tuna, seer, krewetki i krab.\n\nSundown Beach Restaurant stoi na tym odcinku (No 302, Mahawaskaduwa, Waskaduwa). Goscie naszych prywatnych wycieczek czesto zatrzymuja sie na lunch z owocami morza albo na ostatnia kolacje przed wylotem z CMB. Godziny 8:00 do 22:00 codziennie; rezerwacja pod +94 70 629 3585.',
     southTitle: 'Poludniowe wybrzeze i Galle Fort',
     southBody:
       'Unawatuna, Mirissa i Tangalle sa najmocniejsze w prostej grillowanej rybie z limonka, chilli i maslem czosnkowym. W Galle Fort holenderskie domy serwuja kuchnie Sri Lanki z miedzynarodowa technika; ceny rosna w murach, jakosc zwykle jest pewna. Polaczcie poranek na walach z lunchem w forcie albo pozniejsza kolacja na odcinku Kalutara Waskaduwa, jesli jedziecie na polnoc.\n\nSzerszy przewodnik po jedzeniu (hoppers, kottu, poziomy ostrosci) znajdziecie w naszym przewodniku kulinarnym. Menu ponizej to aktualna karta Sundown Beach Restaurant, nie ogolna lista dla calej wyspy.',
@@ -764,13 +764,13 @@ export const pl: Dict = {
     tours: {
       title: 'Prywatne wycieczki Sri Lanka | 4-10 dni z kierowcą',
       description:
-        'Porownaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plaża. Na miare, bez autokarow grupowych. Zapytaj o ofertę.',
+        'Porównaj prywatne wycieczki Sri Lanka od 4 do 10 dni z kierowcą, safari i plażą. Na miarę, bez autokarów grupowych. Zapytaj o bezpłatną ofertę.',
       keywords: 'pakiety Sri Lanka, wycieczka prywatna z kierowcą, tour 7 dni, itineraria',
     },
     services: {
       title: 'Prywatny kierowca i uslugi tour | Sri Lanka',
       description:
-        'Wycieczki z kierowcą, urlopy na miare i jednodniowe wycieczki po Sri Lance. Elastyczne tempo, meet na lotnisku. Zapytaj o ofertę.',
+        'Prywatne wycieczki z kierowcą, urlopy na miarę i jednodniowe trasy po Sri Lance. Elastyczne tempo, odbiór na lotnisku. Zapytaj o bezpłatną ofertę.',
       keywords: 'kierowca Sri Lanka, wycieczka na miare, jednodniowa wycieczka, usluga prywatna',
     },
     about: {
@@ -830,7 +830,7 @@ export const pl: Dict = {
     tour2ey: {
       title: '2-dniowa wycieczka | Ella i safari Yala',
       description:
-        'Weekend Ella i prywatne jeep-safari w Yala z kierowcą i hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę.',
+        'Weekend w Ella i prywatne jeep-safari w Yala z kierowcą oraz hotelem 4★. Bezpłatna anulacja do 14 dni. Zapytaj o bezpłatną ofertę wycieczki.',
       keywords: 'safari Yala 2 dni, wycieczka Ella Yala, prywatny kierowca Sri Lanka',
     },
     ellaDay: {
@@ -842,7 +842,7 @@ export const pl: Dict = {
     galleDay: {
       title: 'Wycieczka jednodniowa Galle | Fort holenderski',
       description:
-        'Prywatny dzień w Galle: mury Fortu holenderskiego, latarnia i postoje na południu. Z kierowcą. Zapytaj o bezpłatną ofertę.',
+        'Prywatny dzień w Galle: mury holenderskiego Fortu, latarnia morska i postoje na południowym wybrzeżu z kierowcą. Zapytaj o bezpłatną ofertę.',
       keywords: 'wycieczka Galle, Fort Galle prywatnie, południowe wybrzeże Sri Lanka',
     },
     kandyDay: {
@@ -854,7 +854,7 @@ export const pl: Dict = {
     sigiriyaDay: {
       title: 'Wycieczka jednodniowa Sigiriya | Lwia Skała',
       description:
-        'Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wieś. Z kierowcą. Zapytaj o bezpłatną ofertę.',
+        'Prywatny dzień w Sigiriya: Lwia Skała lub Pidurangala, jaskinie Dambulla i wizyta w wiosce z kierowcą. Zapytaj o bezpłatną ofertę wycieczki.',
       keywords: 'wycieczka Sigiriya, Lwia Skała, jaskinie Dambulla z kierowcą',
     },
     destinations: {
@@ -890,13 +890,13 @@ export const pl: Dict = {
     destKandy: {
       title: 'Kandy Sri Lanka | Świątynia Zebu przewodnik',
       description:
-        'Odkryj Kandy: Świątynia Zebu, jezioro i wrota wzgorz na prywatnych objazdach z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę.',
+        'Odkryj Kandy: Świątynia Zęba, jezioro i wrota wzgórz na prywatnych objazdach Sri Lanki z kierowcą. Praktyczne wskazówki. Zapytaj o ofertę już dziś.',
       keywords: 'Kandy Sri Lanka, Świątynia Zebu, wycieczka prywatna Kandy, wzgórza',
     },
     destDambulla: {
-      title: 'Przewodnik po swiatyni w Dambulli | Wskazowki dotyczace Zlotej Swiatyni',
+      title: 'Dambulla | Przewodnik po Złotej Świątyni jaskiniowej',
       description:
-        'Odwiedz wpisana na liste UNESCO swiatynie jaskiniowa w Dambulli: malowidla, statuy Buddy, wskazowki dotyczace wejscia i polaczenia z Sigiriya w ramach wycieczki po Trojkacie Kulturowym.',
+        'Odwiedź wpisaną na listę UNESCO świątynię jaskiniową w Dambulli: malowidła, posągi Buddy, wskazówki wejścia i połączenie z Sigiriya w Trójkącie Kulturowym.',
       keywords: 'swiatynia w Dambulli, Zlota Swiatynia Dambulla, Dambulla Sri Lanka',
     },
     destGalle: {
@@ -921,7 +921,7 @@ export const pl: Dict = {
       title: 'Prywatny kierowca Sri Lanka | Praktyczny przewodnik',
       description:
         'Co obejmuje prywatny kierowca na Sri Lance: auto, tempo, hotele i typowe nawyki gości z Europy. Zapytaj o bezpłatna ofertę. Meet na lotnisku na zyczenie.',
-      keywords: 'prywatny kierowca Sri Lanka, przewodnik chauffeur, wycieczka z kierowcą',
+      keywords: 'prywatny kierowca Sri Lanka, przewodnik z kierowcą, wycieczka z kierowcą',
     },
     guideBudget: {
       title: 'Waluta Sri Lanka | Rupia (LKR) i budzet wycieczki',
@@ -930,7 +930,7 @@ export const pl: Dict = {
       keywords: 'waluta Sri Lanka, budzet Sri Lanka, rupia lankijska, LKR',
     },
     guideWildlife: {
-      title: 'Przewodnik przyrodniczy Sri Lanka | Slonie, lamparty i wieloryby',
+      title: 'Przyroda Sri Lanki | Słonie, lamparty i wieloryby',
       description:
         'Gdzie zobaczyc slonie, lamparty, wieloryby i ptaki na Sri Lance parki narodowe, sezony i najlepsze miejsca obserwacji.',
       keywords: 'dzika przyroda Sri Lanka, slonie Sri Lanka, safari lampart, obserwacja wielorybow',
@@ -954,10 +954,10 @@ export const pl: Dict = {
       keywords: 'kraj herbaty Sri Lanka, Nuwara Eliya, Ella gory, plantacje herbaty',
     },
     guideFood: {
-      title: 'Przewodnik kulinarny Sri Lanka | Ryz z curry, przyprawy i street food',
+      title: 'Kuchnia Sri Lanki | Ryż curry i jedzenie uliczne',
       description:
-        'Kuchnia Sri Lanki: ryz z curry, hoppers, kottu, przyprawy i street food co sprobowac i jak zamawiac bez obaw.',
-      keywords: 'jedzenie Sri Lanka, ryz curry, street food Sri Lanka, kuchnia lankijska',
+        'Kuchnia Sri Lanki: ryz z curry, hoppers, kottu, przyprawy i jedzenie uliczne: co sprobowac i jak zamawiac bez obaw.',
+      keywords: 'jedzenie Sri Lanka, ryz curry, jedzenie uliczne Sri Lanka, kuchnia lankijska',
     },
     guidePacking: {
       title: 'Co spakowac na Sri Lanke | Ubrania i niezbedniki',
@@ -980,7 +980,7 @@ export const pl: Dict = {
     restaurants: {
       title: 'Gdzie jesc na Sri Lance | Wybrzeze i tipy tour',
       description:
-        'Gdzie jedza podrozni na wycieczce prywatnej: owoce morza na wybrzezu, rice and curry oraz Sundown Beach Restaurant w Waskaduwa. Zapytaj o ofertę.',
+        'Gdzie jedza podrozni na wycieczce prywatnej: owoce morza na wybrzezu, ryż z curry oraz Sundown Beach Restaurant w Waskaduwa. Zapytaj o ofertę.',
       keywords: 'restauracje Sri Lanka, Sundown Beach Restaurant, jedzenie na wycieczce',
     },
     testimonials: {
